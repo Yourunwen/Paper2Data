@@ -13,7 +13,7 @@ Our system uses Large Language Models (LLMs) to automatically identify dataset m
 
 The system architecture is shown as follows:
 
-![System Architecture](Framework2.png) 
+![System Architecture](framework2.png) 
 
 The Paper2Data pipeline consists of six automated steps:
 1. **Literature Curation:** Constructing a large-scale corpus of publications.
