@@ -25,7 +25,7 @@ curl -X POST [https://board-primary-wiring-editing.trycloudflare.com/search](htt
     "query": "air quality monitoring data in New York City",
     "top_k": 5
   }'
-
+```
 ## System Architecture
 
 The system architecture is shown as follows:
