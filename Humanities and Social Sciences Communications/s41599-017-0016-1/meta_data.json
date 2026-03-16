@@ -1,0 +1,135 @@
+{
+    "id": "s41599-017-0016-1",
+    "title": "Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane impact level model",
+    "journal": "Humanities and Social Sciences Communications",
+    "pdf_link": "https://www.nature.com/articles/s41599-017-0016-1",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "NHC Tropical Cyclone Reports and data archive",
+            "Data_summary": "Storm event documentation and historical records used to obtain hurricane impact information including total economic damage and storm characteristics described in official post-storm reports. Used as a primary source of historical tropical cyclone event data for training and interpreting the Hurricane Impact Level Model and for contextualizing damages.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The total economic damages determined after the occurrence of a hurricane are typically discussed in the NHC tropical cyclone reports, Location: Using artificial neural networks, Confidence: high",
+            "Time_Coverage": "1998-2017",
+            "Geographic_Coverage": "United States coastline",
+            "URL": "http://www.nhc.noaa.gov/data/#tcr",
+            "ref": [
+                "ref-CR20"
+            ]
+        },
+        {
+            "Data_Name": "NHC Hurricanes in History",
+            "Data_summary": "A National Hurricane Center historical compilation describing notable hurricanes and their characteristics. Used as a source for historical meteorological parameters when simulating older storms under present-day conditions.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The historical meteorological parameters mainly taken from the National Weather Service were used, Location: Hypothetical scenarios, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "http://www.nhc.noaa.gov/outreach/history/",
+            "ref": [
+                "ref-CR21"
+            ]
+        },
+        {
+            "Data_Name": "NOAA press release and historical information on the 1900 Galveston Hurricane",
+            "Data_summary": "NOAA-produced historical information describing the 1900 Galveston hurricane event. Used to inform historical storm parameters and context for the Galveston 1900 simulation inputs.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The historical meteorological parameters mainly taken from the National Weather Service were used, Location: Hypothetical scenarios, Confidence: low",
+            "Time_Coverage": "1900",
+            "Geographic_Coverage": "United States > Texas > Galveston",
+            "URL": "http://www.publicaffairs.noaa.gov/releases2000/sep00/noaa00r258.html",
+            "ref": [
+                "ref-CR19"
+            ]
+        },
+        {
+            "Data_Name": "US Census Bureau population data",
+            "Data_summary": "Population counts used to compute the population affected by each storm scenario by aggregating county populations within an assumed or event-specific wind swath. Used as a locational input feature to the model and to recompute affected population for hypothetical landfall shifts and historical rest-of-today simulations.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data used for this paper were gathered from the NHC and United States Census, Location: Discussion Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > coastal counties",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Census Bureau Construction Price Indices",
+            "Data_summary": "Construction price index time series used to normalize historical hurricane economic damage totals into constant 2016 USD values. Applied as an adjustment factor to damage inputs for comparing historical storms with present-day simulated impacts.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: normalized to 2016 USD using construction price indices from US Census, Location: Hypothetical scenarios, Confidence: high",
+            "Time_Coverage": "1960-2016",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR26"
+            ]
+        },
+        {
+            "Data_Name": "US Census Bureau TIGER products",
+            "Data_summary": "Geographic boundary and mapping products used to spatially relate storm wind swaths and landfall scenarios to counties for extracting affected populations. Used to support geospatial overlay operations for defining impacted counties under original and shifted storm tracks.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: extrapolated population affected determined by overlapping historical weather maps with the relevant landfall location, Location: Hypothetical scenarios, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.census.gov/geo/maps-data/data/tiger.html",
+            "ref": [
+                "ref-CR27"
+            ]
+        },
+        {
+            "Data_Name": "Weather Underground Hurricane and Tropical Cyclones Hurricane Archive",
+            "Data_summary": "An online historical hurricane archive providing storm information and related historical weather materials. Used as a supplementary source for historical weather maps and storm parameter information to estimate impacted areas and inputs for older storm simulations.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: overlapping historical weather maps with the relevant landfall location, Location: Hypothetical scenarios, Confidence: low",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Atlantic Basin and United States",
+            "URL": "https://www.wunderground.com/hurricane/hurrarchive.asp",
+            "ref": [
+                "ref-CR30"
+            ]
+        },
+        {
+            "Data_Name": "Metro New York Hurricane Transportation Study technical data report",
+            "Data_summary": "A technical data report containing infrastructure elevation and vulnerability-relevant information for the New York metropolitan transportation system. Used to justify inundation thresholds and interpret whether storm surge levels could flood tunnels and airports in the New York City scenario analysis.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: New York Citys tunnels and airports reside at 3 m or less above sea-level indicating that while Hurricane Sandy resulted in significant inundation, Location: Hypothetical scenarios, Confidence: high",
+            "Time_Coverage": "1995",
+            "Geographic_Coverage": "United States > New York > New York City metropolitan area",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR25"
+            ]
+        },
+        {
+            "Data_Name": "Historical tropical cyclone events dataset used to train the 2017 Hurricane Impact Level Model",
+            "Data_summary": "Event-level dataset assembled for this study containing historical tropical cyclone landfall cases with meteorological variables at landfall such as maximum wind speed, minimum pressure, maximum storm surge, and total precipitation, combined with locational variables including landfall latitude and longitude and population affected, paired with an economic-damage-derived impact level label. Used as the main training and testing input dataset for the ANN ensemble and as the basis for probabilistic simulations at alternative landfall locations.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The 2017 HIL Model has 74 events in its final data set with seven of those events used in the testing phase, Location: Using artificial neural networks, Confidence: high",
+            "Time_Coverage": "1998-2017",
+            "Geographic_Coverage": "United States coastline",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:53.906956"
+    }
+}

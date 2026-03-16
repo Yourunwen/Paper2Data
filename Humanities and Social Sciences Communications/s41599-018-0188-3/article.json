@@ -1,0 +1,890 @@
+{
+    "id": "s41599-018-0188-3",
+    "journal": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "title": "Comparing apples to apples: an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston",
+    "legal_title": "Comparing apples to apples  an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston",
+    "publish_time": "2018-11-20",
+    "pdf_link": "https://www.nature.com/articles/s41599-018-0188-3",
+    "storage_path": "./Articles/Humanities and Social Sciences Communications/2018-article/s41599-018-0188-3/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Weather characteristics have been suggested by many social scientists to influence criminality. According to a recent study, climate change may cause a substantial increase in criminal activities during the twenty-first century. The additional number of crimes due to climate have been estimated by associational models, which are not optimal to quantify causal impacts of weather conditions on criminality. Using the Rubin Causal Model and crime data reported daily between 2012 and 2017, this study examines whether changes in heat index, a proxy for apparent temperature, and rainfall occurrence, influence the number of violent crimes in Boston. On average, more crimes are reported on temperate days compared to extremely cold days, and on dry days compared to rainy days. However, no significant differences in the number of crimes between extremely hot days versus less warm days could be observed. The results suggest that weather forecasts could be integrated into crime prevention programs in Boston. The weather-crime relationship should be taken into account when assessing the economic, sociological, or medical impact of climate change. Researchers and policy makers interested in the effects of environmental exposures or policy interventions on crime should consider a causal inference approach to analyze their data.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "For approximately four decades, criminologists have been interested in the weather-crime relationship (Bell and Baron, 1975; Cohen and Felson, 1979; DeFronzo, 1984; Harries et al., 1984; Anderson et al., 1995; Cohn and Rotton, 1997; Mares, 2013a). Two main theories have been suggested to explain the association between heat and human behavior. First, the routine activities theory argues that pleasant weather increases outdoor activity, thus exposing more people to offenders and leaving homes unprotected until extreme heat induces people to seek shelter indoors (Cohen and Felson, 1979). Consequently, Cohn and Rotton (1997; 2000a) expect the relationship between temperature and offenders’ social contacts to be an inverted-U shaped function. In contrast, the heat-aggression theory argues that changes in temperature affect crimes by increasing irritability and anger. To test the second argument and examine the shape of the dose-response, Bell and Baron (1975; 1976) conducted human experiments and observed that, by exposing research subjects to artificially uncomfortable conditions, aggression increases along with temperature until temperature crosses the threshold from warm to unbearable, after which subjects display lower levels of aggression. Other authors argued for a positive linear relationship between temperature and aggressive behavior (Anderson et al., 1995; Bushman et al., 2005). Several empirical analyses with different study designs and different data aggregation levels (e.g., hourly, daily, weekly, annual data) provided evidence for the existence of a weather-crime relationship. We present a summary of studies that investigated the effect of heat on crimes with results supporting either of the theories in Table 1. In addition to the impact of temperature, criminologists have been interested in the impact of rainfall. A positive relationship between rain and robbery was reported (DeFronzo, 1984), although other studies did not find evidence for a relationship between precipitation and the frequency of homicide or rape (Feldman and Jarmon, 1979; Perry and Simpson, 1978; DeFronzo, 1984). According to the routine activities theorists, rainfall could either prevent property and violent crimes, or increase assaultive behavior, by increasing the likelihood of people staying inside. From a heat-aggression point of view, a cooling-effect could occur from temperatures being reduced by precipitation (Baron and Bell, 1976). Criminologists have also extensively inspected the relationship between neighborhood conditions and crimes, they generally agree on the existence of a geographic component in levels of violence and criminal behavior (Sampson, 1997). The geographic differences in the weather-crime relationship are well explained by Harries et al. (1984), and more recently by Mares (2013b), who suggest higher violence rates in disadvantaged neighborhoods when climatic conditions are warmer.\nWeather conditions leading to criminal activities can affect the mental and physical health of the offender and the victim. For this reason, violent crimes are considered an important public health issue. Preventing crimes may involve not only the police and the criminal justice system, but also environmental scientists, epidemiologists, and criminologists. Over the past two decades, an increasing number of studies have associated climate with human conflicts, criminal behavior, and violence (Rotton and Cohn, 2003; Agnew, 2011; Gamble and Hess, 2012; Hsiang et al., 2013; Mares, 2013a; Ranson, 2014; Mares and Moffett, 2016; Levy et al., 2017; Tiihonen et al., 2018). Recently, Ranson (2014) predicted that 22,000 murders, 1.2 million aggravated assaults, and 2.3 million simple assaults will occur in the United States by the end of the twenty-first century, because of climate change and the resulting change in temperature and rainfall patterns. The precise estimation of the magnitude of weather effects (e.g., temperature anomalies) on violence is important for criminologists and researchers in fields related to climate change and public health (Satcher, 1995). Most studies estimate the relationship between weather variables and crimes with associational models (e.g., linear, multilevel, and time series regressions). Controlling or adjusting for confounding variables, by including them in a regression model is not optimal for addressing causality in observational studies, especially when the covariate distributions of the exposed and control groups are substantially far apart (Rubin, 2008). If the covariate distributions do not overlap in the exposed and control groups, researchers are often implicitly making strong assumptions (e.g., inappropriate linear extrapolations) that can lead to biases. Cochran and Rubin (1973); Heckman et al. (1998); and Rubin (2001) have shown that regression can estimate biased causal effects when the true relationship between the background covariates or the outcome is unknown, as well as when the means and variances of the background covariates are considerably different for the exposed and control groups.\nIn this manuscript, we depart from associational modeling to provide estimates of the weather-crime relationship, and use an alternative estimation and inference method that relies on the Rubin Causal Model (RCM) (Rubin, 1974). Following a multi-stage strategy, we carefully reconstruct the observational weather-crime data in such a way that mimics randomized experiments, in which we can then quantify daily effects of weather on crime (Bind and Rubin, 2017). We use the RCM coupled with a matched-sampling strategy that enables us to compare exposed and control days as if they had been randomized (Rosenbaum and Rubin, 1983). Designing the observational data carefully and independently of the outcome is required before performing the statistical analysis using the outcome. The objective is to compare apples to apples, thereby we mean, we construct groups of exposed and control days that resemble each other with respect to background covariates while blinding ourselves from the outcome of interest (i.e., daily crime rates). We focus on the weather-crime relationship in Boston because of its wide spectrum of weather conditions. In Boston, average Summer temperatures can rise up to 28 °C and it has been suggested that the number of days below 0 °C will decrease to 34 days per year by the end of the century (Research Advisory Group (BRAG), 2016). In this paper, we estimate the effects of heat index and precipitation on daily violent crime counts and provide the reader with easily interpretable interval estimates obtained with transparent assumptions. Our approach concentrates on the estimation of meteorological influences on crimes at a finite population level (i.e., the Boston area). Our goal is not to extrapolate our local findings to a more generalizable dose-response curve. However, we discuss and compare the plausibility and the effect size of our results for Boston with the weather-crime relationship in Los Angeles, a city with a smaller weather condition spectrum.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR32",
+                "ref-CR35",
+                "ref-CR10",
+                "ref-CR25",
+                "ref-CR30",
+                "ref-CR40",
+                "ref-CR46",
+                "ref-CR5",
+                "ref-CR43",
+                "ref-CR19",
+                "ref-CR21",
+                "ref-CR18",
+                "ref-CR31",
+                "ref-CR47",
+                "ref-CR1",
+                "ref-CR9",
+                "ref-CR27",
+                "ref-CR41",
+                "ref-CR36",
+                "ref-CR14",
+                "ref-CR7",
+                "ref-CR8",
+                "ref-CR34",
+                "ref-CR45",
+                "ref-CR24",
+                "ref-CR37",
+                "ref-CR13",
+                "ref-CR23",
+                "ref-CR50"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Crime data analysis with the Rubin Causal Model",
+            "text": "### Data description and analysis strategy\nWeather conditions from the Boston Logan airport monitoring station were obtained from the Climate Data Online provided by the National Oceanic and Atmospheric Administration (NOAA2018). The heat index (HI) is calculated from air temperature and dew point temperature, using the U.S. National Weather Service’s formula suggested by Anderson et al. (2013). We explore the heat-crime relationship in Boston by estimating the effect of changes in heat index, and not temperature alone to incorporate not only ambient temperature, but also ambient humidity. Both the routine activities and the heat-aggression perspectives rely on how humans feel and react to heat variations. Apparent temperature was developed to measure thermal comfort (Steadman, 1994). Because the heat index is used as a proxy for apparent temperature, we believe it provides a better quantification of human discomfort.\nIn this study, the crime data come from crime incident reports (between July 2012 and February 2017) collected by the Boston Police Department and made available on the City of Boston Data Portal (2018). Details on the location and time of day are given for all reported crimes. In the Fall and the Summer, the daily count of violent crimes and average HI are higher than during the Winter and the Spring on average (see Table S1). It might feel counterintuitive for Fall to have higher temperatures than Spring but it is worthwhile to note that Boston is located in New England, a region that is known for its Indian Summer. Figure S1 shows that the daily violent crime counts are the highest during the Summer months (i.e., June, July, August) on average. The approach we undertake to investigate the heat-crime relationship uses binary exposures (e.g., daily cold vs. temperate HI). Therefore, we decided to classify the days by heat index class: [−18; 0 °C], (0; 24 °C], (24; 35 °C], the Negative, Mild, and High heat index class, respectively (see Fig. S2(a)). For the the estimation of the effect of precipitation vs. no precipitation no data segmentation is necessary (see Fig. S2(b)).\nOur strategy is to primarily focus on daily counts of violent crimes (i.e., aggravated assaults, simple assaults, crimes involving weapons, homicides, kidnapings, manslaughters, murders, escapes, runaways, truancies, and vandalism). Secondarily, we explore aggravated assault and larceny counts in order to analyze both a violent and a property offense in the study. In addition, we use the crime locations to discuss the potential neighborhood differences in the weather-crime relationship. Our choice of background covariates is based on the literature suggesting that the weather-crime relationship can be confounded by meteorological conditions, seasons, public holidays, large events, day of the month (crime reporting can be systematically biased on the first, middle, and last day of the month), and day of the week.\n### Potential outcomes and notation\nThe data segmentation described above leads to three hypothetical randomized experiments that help to understand the effects of daily changes in heat index: we reconstruct one experiment for each heat index class. A fourth hypothetical experiment is reconstructed for the analysis of the effect of rainfall where each day will either be assigned to precipitation or no precipitation. As illustrated in Fig. S2 and Table S2, we define Z_{i} as the heat index and T_{i} as the threshold of day i, i = 1,..., N. The exposure indicator W_{i} is equal to 1 if Z_{i} > T_{i} (i is exposed), and 0 otherwise (i is control). For the first three experiments, we choose the average heat index as the threshold. For the last experiment on rain occurrence, the threshold is by definition set at 0 mm. In all four hypothetical experiments we assume that each day i is randomly assigned to the exposed group (W_{i} = 1) or the control group (W_{i} = 0) with probability 1/2.\nThe hypothetical randomized experiments we reconstruct are completely-randomized experiments (see Table S3). We need to assure that the Stable Unit Treatment Value Assumption (SUTVA) holds in order to frame our analysis within the Rubin Causal Model (RCM) (Rubin, 1974). Therefore, we assume that the crime count of a certain day occurring after some exposure level is independent of the exposure received on other days. Following the RCM, each day has two potential outcomes: Y_{i}(1), the number of crimes that occurred in day i if W_{i} = 1 and Y_{i}(0) otherwise. The observed number of crimes that occurred in i is denoted by \\(Y_i^{{\\mathrm{obs}}}\\) and it is equal to Y_{i}(0) when W_{i} = 0, or equal to Y_{i}(1) when W_{i} = 1. The days where \\(Y_i^{{\\mathrm{obs}}} = Y_i(0)\\) is observed are referred to as control days and the ones where \\(Y_i^{{\\mathrm{obs}}} = Y_i(1)\\) are referred to as exposed days.\nIn each hypothetical experiment we assess the effect of the exposure on crimes. The unit-level exposure effect (UEE) is defined as the difference between both potential outcomes of i:\n\n$${\\mathrm{UEE}}_i = Y_i(1) - Y_i(0)$$\n                    (1)\nIn this study, we are interested in the mean difference in daily crime counts between the exposed days and the control days. Our estimand of interest is the average exposure effect (AEE):\n\n$${\\mathrm{AEE}} = \\frac{1}{N}\\mathop {\\sum}\\limits_{i = 1}^N {\\kern 1pt} {\\mathrm{UEE}}_i = \\frac{1}{N}\\mathop {\\sum}\\limits_{i = 1}^N {\\kern 1pt} Y_i(1) - \\frac{1}{N}\\mathop {\\sum}\\limits_{i = 1}^N {\\kern 1pt} Y_i(0) = \\bar Y(1) - \\bar Y(0)$$\n                    (2)\nWithin each experiment, we estimate the AEE of different exposure levels, which can be interpreted as the average number of daily violent crimes resulting from a high exposure level (e.g., temperate heat index) compared to a lower exposure level (e.g., cold heat index).\n### Design stages\nIn observational studies, meteorological exposures cannot be randomly assigned. In such situations, to address causality, Rubin (2008) suggests to undertake a design stage that attempts to reconstruct a hypothetical experiment without using the observed outcome. This strategy avoids p-value hacking and multiple testing, thereby limiting false discovery biases in the subsequent statistical analyses. The goal is to fulfill the ideal conditions of a randomized experiment, implying that the treatment assignment is unconfounded given background covariates. Unconfoundedness of the treatment assignment can often be approximately achieved using matched-sampling strategies (Rubin, 2006).\nFour design stages are performed in this study, one for each hypothetical experiment, and we use a one-to-one matching strategy with caliper on the estimated propensity score to create groups of exposed and control days with similar distributions for background covariates. The aim of this strategy is to improve balance in covariate distributions, in other words, the covariate distributions of the exposed and control days are similar on average (Rosenbaum and Rubin, 1983), therefore making sure we compare apples to apples. The background covariates included in the four hypothetical experiments are the binary variables: Fall, Winter, Spring, Summer, Friday, Weekend, FirstDayMonth (i.e., first day of the month), MidDayMonth (i.e., fifteenthth day of the month), LastDayMonth (i.e., last day of the month), Snow, Holidays^{Footnote1}, and Events^{Footnote2} as well as the continuous variable Wind (i.e., windspeed). In the first three experiments concentrating on the effects of different levels of heat indexes, Rain (i.e., rainfall occurrence) is an additional binary background covariate. In the last experiment, concentrating on the effect of rainfall, HeatIndex plays the role of a background covariate. The steps to follow through each design stage to reach covariate balance are: (1) to estimate the propensity score for each day i, (2) to assess the overlap in propensity score distributions, and (3) to proceed with the actual one-to-one propensity score matching. These steps can be repeated multiple times until a satisfying balance is obtained.\nFirst, let X_{i} be the vector of background covariates for day i, the propensity score is defined as the probability of being an exposed day given the background covariates, e_{i} = e_{i}(X_{i}) = P(W_{i} = 1 | X_{i}). We estimate the propensity score of each day i via a logistic regression that regresses the log odds of an exposed day on the background covariates:\n\n$$W_i\\sim {\\mathrm{Bernoulli}}\\left( {e_i} \\right)\\quad {\\mathrm{logit}}\\left( {e_i} \\right) = f\\left( {{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{k}}},{\\boldsymbol{\\beta }}} \\right)\\quad {\\mathrm{for}}\\,k = 1, \\ldots ,4$$\n                    (3)\nAt every design stage, different specifications are possible for the model in Eq. (3) and we attempt to find an appropriate functional form for f(X_{i}, β) by comparing models with stepwise model selection by Akaike Information Criteria. The following propensity score models were selected for each hypothetical experiment:\n\n$$\\begin{array}{*{20}{l}} {{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{1}}}} \\hfill & = \\hfill & {\\left( {1,{\\mathrm{Winter}}_i,{\\mathrm{Fall}}_i,{\\mathrm{MidDayMonth}}_i,{\\mathrm{Wind}}_i,{\\mathrm{Rain}}_i} \\right)} \\hfill \\\\ {{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{2}}}} \\hfill & = \\hfill & {\\left( {1,{\\mathrm{Winter}}_i,{\\mathrm{Spring}}_i,{\\mathrm{Summer}}_i,{\\mathrm{LastDayMonth}}_i,} \\right.} \\hfill \\\\ {} \\hfill & {} \\hfill & {\\left. {{\\mathrm{Rain}}_i,{\\mathrm{Wind}}_i \\ast {\\mathrm{Rain}}_i,{\\mathrm{Snow}}_i,{\\mathrm{Events}}_i} \\right)} \\hfill \\\\ {{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{3}}}} \\hfill & = \\hfill & {\\left( {1,{\\mathrm{MidDayMonth}}_i,{\\mathrm{Wind}}_i} \\right)} \\hfill \\\\ {{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{4}}}} \\hfill & = \\hfill & {\\left( {1,{\\mathrm{Winter}}_i,{\\mathrm{Spring}}_i,{\\mathrm{Wind}}_i,{\\mathrm{Snow}}_i,} \\right.} \\hfill \\\\ {} \\hfill & {} \\hfill & {\\left. {{\\mathrm{HeatIndex}}_i,{\\mathrm{Wind}}_i \\ast {\\mathrm{HeatIndex}}_i,{\\mathrm{Events}}_i} \\right)} \\hfill \\end{array}$$\nSummer days were not present in the Negative heat index days experiment, as well as Winter days and Events in the High heat index experiment.\nSecond, once a propensity score is calculated for each day i, the overlap in propensity score distributions for the control and exposed days is assessed. Control days with estimated propensity score outside the range of estimated propensity scores of the exposed days are discarded, and vice versa. Let us call these days: outlying days. The idea is to have the same range of data across exposure groups to avoid extrapolating beyond the support of the data during the analysis. Table S6 presents the overlap in propensity score distribution before and after deleting the outlying days for each experiment.\nLast, we proceed with the one-to-one matching strategy with caliper. To assess whether the matching is successful and that the hypothesized experiment is plausible, we examine the balance in background covariate distribution for each exposure group. Diagnostic plots, such as Love plots (Ahmed et al., 2006), of the Fig. S3(a-d) show the difference in standardized means for the background covariates before and after matching. There is no evidence against covariate imabalance when the difference is close to zero, and more likely when the distributions overlap. Figures S4-7 present a precise comparison of the empirical distribution of the background covariates before and after matching. These figures show how, in each experiment, matching enables the exposed and control background covariate distributions to become closer. Insuring covariate balance is crucial for valid estimation of the causal effects of exposures and their confidence intervals.\n### Analytic methods\nAfter a design stage is conducted for the four hypothetical experiments, we analyze each sample with balanced distributions of covariates for each experiment. We are interested in several crime outcomes: daily violent crime counts, as well as aggravated assault, and larceny counts. In this study, we conduct a Bayesian analysis within the four matched-samples resulting from our design stages. We assume independent Negative-Binomial distributions for the potential outcomes of crime counts.\nThe Bayesian analysis estimates posterior distributions of the AEE in the finite population. This analysis method was initially proposed by Rubin (1978) and is also described by Imbens and Rubin (2015). The Bayesian inference approach is appealing in our setting because it imputes the missing potential outcomes via simulation-based computational methods instead of estimating the slope coefficient of a regression model using the observed outcomes. For each experiment, we start with specifying a negative-binomial (NB) distribution for the potential outcomes conditional on background covariates. The independence assumption avoids contaminating the imputations of exposed days’ potential outcomes by imputed values of the control days, and vice versa. As we do not have prior knowledge on the values of the parameters, we impose the weakly informative priors suggested in the rstanarm R package on the parameters (Gabry and Goodrich). We assume a half-cauchy distributed prior for the scale parameter and normally (N) distributed priors for the intercept and slope parameters of the linear predictor. The selection of background covariates was done using leave-one-out cross-validation, the loo method for rstanarm. For the four hypothetical experiments of the primary results, the missing potential outcomes follow negative-binomial distributions parametrized with η _{i} = log(μ _{i}) and a dispersion parameter ϕ We use the following Bayesian models for the imputation:\n\n$$\\begin{array}{l}Y_i^{{\\mathrm{obs}}}\\sim N\\,B\\left( {\\mu _i,\\phi } \\right)\\\\ \\mu _i = {\\mathrm{exp}}\\left( {\\eta _i} \\right)\\quad {\\mathrm{and}}\\quad \\eta _i = {\\boldsymbol{\\beta }}^{\\boldsymbol{T}}\\,{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{k}}}\\quad {\\mathrm{for}}\\,k = 1, \\ldots ,4\\\\ \\begin{array}{*{20}{l}} {{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{1}}}} \\hfill & = \\hfill & {\\left( {1,{\\mathrm{FirstDayMonth}}_i,{\\mathrm{MidDayMonth}}_i} \\right)} \\hfill \\\\ {{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{2}}}} \\hfill & = \\hfill & {\\left( {1,{\\mathrm{Friday}}_i,{\\mathrm{Weekend}}_i,{\\mathrm{FirstDayMonth}}_i,} \\right.} \\hfill \\\\ {} \\hfill & {} \\hfill & {\\left. {{\\mathrm{MidDayMonth}}_i,{\\mathrm{Wind}}_i \\ast {\\mathrm{Rain}}_i} \\right)} \\hfill \\\\ {{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{3}}}} \\hfill & = \\hfill & {\\left( {1,{\\mathrm{Weekend}}_i} \\right)} \\hfill \\\\ {{\\bf{X}}_{\\bf{i}}^{{\\bf{HExp}}_{\\bf{4}}}} \\hfill & = \\hfill & {\\left( {1,{\\mathrm{Friday}}_i,{\\mathrm{Weekend}}_i,{\\mathrm{FirstDayMonth}}_i,} \\right.} \\hfill \\\\ {} \\hfill & {} \\hfill & {\\left. {{\\mathrm{Snow}}_i,{\\mathrm{HeatIndex}}_i} \\right)} \\hfill \\end{array}\\\\ {\\mathrm{Priors:}}\\\\ \\phi \\sim {\\mathrm{Half}}{\\mathrm{ - }}{\\mathrm{Cauchy}}\\left( {0,5} \\right)\\quad \\beta _0\\sim N(0,5)\\quad \\beta _{1,...,5}\\sim N(0,2.5)\\end{array}$$\nThe distributions of the parameters ϕ, β _{0} and β _{1,..,5} are estimated twice: once for the control potential outcomes and once for the exposed potential outcomes. We estimated these distributions with 20,000 iterations and we burned 10,000, so we have 10,000 values for each parameter. After that, we can impute the missing potential outcomes among the control and exposed groups separately. For each replication (10,000), one value of \\(Y_i^{{\\mathrm{miss}}}\\) are drawn for each day i, conditional on \\(Y_i^{obs}\\), the observed covariates, and the parameters. For every replication, the AEE is calculated, which gives us a distribution of the AEE and a 95% posterior interval. See Supplementary Material Section F for the models of the exploratory results.",
+            "cites": [
+                "ref-CR41",
+                "ref-CR44",
+                "ref-CR33",
+                "ref-CR11",
+                "ref-CR49",
+                "ref-CR6",
+                "ref-CR45",
+                "ref-CR2",
+                "ref-CR37",
+                "ref-CR42",
+                "ref-CR20",
+                "ref-CR26"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "Design stages enable us to reconstruct four hypothetical randomized experiments before comparing the daily violent crime counts that occurred on days with different binary meteorological exposures (see Fig. 1). For each hypothetical experiment, we estimate the average exposure effect (AEE) on the total number of violent crimes and their corresponding 95% posterior interval (see Fig. 2 and Table S4). The more specific crimes presented in the exploratory analysis are aggravated assault and larceny (see Table S5). The spatial variation of the average daily violent crimes across zip-code areas is illustrated in the spatial description.\n### Primary results\nIn the Negative, Mild, and High heat index hypothetical experiments, the estimates of the AEE and their 95% posterior interval are: (1) 1.75 [0.34; 3.17], (2) 1.88 [1.10; 2.66] and (3) 2.19 [−0.36; 4.77], respectively. These results suggest that on average more violent crimes occur in Boston during very cold days (−4 < HI < 0 °C) compared to extremely cold days (HI ≤ −4 °C), and also during temperate days (12 < HI < 24 °C) compared to cold days (0 < HI ≤ 12 °C). However, we did not find enough statistical evidence to make conclusions about changes in daily violent crimes counts between extremely hot days (27 °C < HI) and hot days (24 < HI ≤ 27 °C). The hypothetical experiment focusing on the estimation of the AEE of the occurrence of rainfall suggests that compared to dry days, the average daily violent crimes count decreases by 1.37 (95% posterior interval: [−1.94; −0.79]) during rainy days. In Boston, rainy days have fewer crimes than dry days on average.\n### Exploratory results\nThe results of the Negative, Mild, and High heat index experiments suggest that, on average, 0.91 (95% interval = [0.45; 1.38]), 0.58 (95% interval = [0.30; 0.86]), and 1.31 (95% interval = [0.18; 2.41]) more aggravated assaults occur on very cold vs. extremely cold days, on temperate vs. cold days, and on extremely hot vs. very hot days, respectively. The estimated effect of rainfall on daily aggravated assault counts is −0.35 (95% interval = [−0.55; −0.14]). Larceny counts also vary between days that are extremely cold and days with temperate heat. In the High heat index and the Rainfalls experiments, there is no evidence of a trend in larceny counts when days are subject to high heat exposure or precipitation occurrence.\n### Spatial description\nFor each hypothetical experiment, we present estimated average exposure effects of different exposure levels on the total violent crime counts in Boston. However, there is spatial heterogeneity in crime counts by zip-code area (see Fig. 3). The mapping of the average daily violent crimes by zip-code area across hypothetical experiments (see Fig. 4) suggests that these variations are not homogeneous across experiments. When we compare the average daily violent crimes of days with low exposure level (upper panels) to days with a higher exposure level (lower panels), we observe for the Negative, Mild, High and Precipitation hypothetical experiments: (1) increases in Dorchester, (2) increases in Dorchester, South Boston, South End, and Fenway, (3) decreases in Roslindale, Hyde Park, Charlestown, West End, and Brighton, as well as increases in East Boston, Dorchester, and Longwood Medical area, and (4) decreases in Mattapan and Chinatown, respectively.",
+            "cites": [],
+            "figures": [
+                "figure-1",
+                "figure-2",
+                "figure-3",
+                "figure-4"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Our first research focus is to investigate the temperature-violent crime relationship in Boston. We observe a significant increase in daily violent crimes when moving from extremely cold days to temperate days. However, once the heat indexes are high, we do not observe any significant changes in trends in violent crimes frequency as the heat index exposure increases (see Fig. 5). Our second research focus was to examine whether rainfall decreased daily violent crime counts. Clearly, the occurrence of rainfall tends to decrease total daily violent crimes and aggravated assaults. To illustrate and make the effect sizes reported in our study more intuitive, we calculate an absolute change in crime count had thirty cold days been temperate in the Mild heat index experiment maintaining the covariates (e.g., population, length of daylight, or police deployment) the number of days in the other experiments constant. According to our results, if 30 cold days had been temperate, 56.4 (30 × 1.88) additional violent crimes would have occurred, in Boston on average.\nThe results on the effects of different heat exposures on larceny counts supports the routine activities theory. Indeed, not only aggressive behavior (e.g., violent crimes), but also other criminal activities such as property crime can be affected by varying heat exposures. Furthermore, the observed spatial heterogeneity in violent crime counts suggests that neighborhood differences should also be investigated. For example, the heat-neighborhood interaction could be precisely estimated by reconstructing hypothetical experiments with two conditions, (i.e., heat and neighborhood), each with two-levels (i.e., low/high heat, Downtown/Dorchester neighborhood). Matching techniques for the hypothetical reconstruction of multiple treatment experiments with observational data are discussed in Lopez and Gutman (2017).\nIt is important to note that interpretation should be restricted to days that remain in the sample after matching, these are the finite population of days between 2012 and 2017 with Bostonian weather characteristics (see Table S7). The data do not provide direct information for unmatched days. Cautiousness regarding extrapolation to days with covariate values beyond values observed in the matched data is necessary. In contrast to other studies interested in the effect of weather variations on criminal or aggressive behavior (Cohn and Rotton, 1997; Rotton and Cohn, 2000a; Cohn and Rotton, 2000, 2005; Schinasi and Hamra, 2017), this study does not provide any estimation of an exposure-response curve. This is a choice we made to be able to use the Rubin Causal Model with more transparent and plausible assumptions given our observational data. Environmental scientists interested in precise causal analysis and inference should not directly model observed data but instead consider a subset of their data exhibiting covariate balance, thereby approximating a hypothetical randomized experiment, in which valid causal effects can be estimated (Rubin, 2008). Generalizing causal effects is a complicated task. Directly modeling observed data from multiple cities can lead to misleading results because the socioeconomic, cultural, and climatic conditions can vary dramatically, and therefore cannot be guaranteed to be modeled correctly. We applied the same analysis strategy to Los Angeles (LA) crime data, a city with a smaller weather spectrum (see Supplementary Material G). The analysis of the weather-crime relationship in LA reveals the existence of a stronger heat-crime relationship than Boston. The results suggest that on average, 6.15 more (95% posterior interval: [3.74; 8.54]), violent crimes occur in LA during cold/temperate days (HI ≤ 17 °C) as compared to hotter days (HI > 17 °C). Interestingly, we observe no evidence for a rain-crime relationship. These divergent results show it is not straightforward to provide estimates generalizing the crime-weather relationship. To enhance crime prevention, the identification of causal factors for crimes should be conducted at the city, or even neighborhood, levels.\nAs opposed to Agnew (2011); Mares (2013a); Ranson (2014); Levy et al. (2017), our research question does not assess the direct impact of climate change on crimes, but proposes an approach to estimate the effect of weather variations on daily crime counts. Our causal inference approach can be extended to estimate the effects of anomalous weather patterns (as suggested by Mares (2013a)). We believe that this work is a contribution to the field of environmental health because crimes can have adverse effects on mental or physical health. Finding environmental explanations (e.g., weather condition variations), to crime outcomes will contribute to the public health debate on this issue. The results of this study affirm that when considering the economic, sociological, or medical impact of climate change; the effects of weather variations on criminal behavior should be taken into account.\nThe potential outcome framework coupled with a matched-sampling strategy we present was designed to understand the effect of plausible interventions. Therefore, we believe that interesting extensions to this study should consider not only a more precise spatial understanding of the weather-crime relationship in Boston, but also analyze whether location-specific police deployment with respect to specific weather conditions has an effect on violent crime counts.\nFurthermore, although our approach does not suggest any direct intervention to reduce or stop crime incidence, we suggest interventions to alert the population and increase police deployment at certain locations when certain weather conditions can be predicted. Our study confirms that weather variables can have an effect on daily violent crime counts. Environmental factors should be included in crime prediction models to obtain more accurate criminality prevention. Some research focus on investigating the relationship between weather and mental health (Hansen et al., 2008). Other studies examine the effect of environmental exposures (e.g., air pollution) on the brain and behavior-related outcomes (e.g., criminal activity and unethical behavior) (Costa et al., 2017; Lu et al., 2018). Further research should be conducted on the relationships between weather and human behavior, as well as the interaction between temperature and air pollution on neurological outcomes based on observational and experimental data.",
+            "cites": [
+                "ref-CR27",
+                "ref-CR22",
+                "ref-CR38",
+                "ref-CR45",
+                "ref-CR30",
+                "ref-CR16",
+                "ref-CR15",
+                "ref-CR48",
+                "ref-CR1",
+                "ref-CR35",
+                "ref-CR17",
+                "ref-CR29",
+                "ref-CR14",
+                "ref-CR28"
+            ],
+            "figures": [
+                "figure-5"
+            ]
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1",
+            "figure-caption": "Daily violent crime count distributions for days with different exposure levels across the four hypothetical experiments, after propensity score matching. a Extremely cold (HI ≤ −4 °C), very cold (−4 < HI < 0 °C), cold (0 < HI ≤ 12 °C), temperate (12 < HI < 24 °C), very hot (24 < HI ≤ 27 °C), and extremely hot (27 °C < HI) days. b Dry (PRCP < 0 mm) and rainy (PRCP ≥ 0 mm) days",
+            "figure-link": "https://www.nature.com/articles/s41599-018-0188-3/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2",
+            "figure-caption": "Primary results: Estimates of the average exposure effect of different exposure levels on daily violent crimes across the four hypothetical experiments after multiply imputing the missing potential outcomes 10,000 times",
+            "figure-link": "https://www.nature.com/articles/s41599-018-0188-3/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3",
+            "figure-caption": "Mapping of the average daily violent crimes (between July 2012 and February 2017) per zip-code area in Boston",
+            "figure-link": "https://www.nature.com/articles/s41599-018-0188-3/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4",
+            "figure-caption": "Spatial description: Mapping of the average daily violent crimes (between July 2012 and February 2017) per zip-code area for different exposure levels across the four hypothetical experiments",
+            "figure-link": "https://www.nature.com/articles/s41599-018-0188-3/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5",
+            "figure-caption": "Graphical abstract: Smooth LOESS curves for the three hypothetical experiments (Negative, Mild, and High) focusing on the effects of different heat index exposure levels, fitted with the after propensity score matching samples",
+            "figure-link": "https://www.nature.com/articles/s41599-018-0188-3/figures/5"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Agnew R (2011) Dire forecast: A theoretical model of the impact of climate change on crime. Theor Criminol 16(1):21-42",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F1362480611416843",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dire%20forecast%3A%20A%20theoretical%20model%20of%20the%20impact%20of%20climate%20change%20on%20crime&journal=Theor%20Criminol&doi=10.1177%2F1362480611416843&volume=16&issue=1&pages=21-42&publication_year=2011&author=Agnew%2CR"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Ahmed A, Husain A, Love TE, Gambassi G, Dell’Italia LJ, Francis GS, Gheorghiade M, Allman RM, Meleth S, Bourge RC (2006) Heart failure, chronic diuretic use, and increase in mortality and hospitalization: An observational study using propensity score methods. Eur Heart J 27(12):1431-1439",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Feurheartj%2Fehi890",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16709595",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443408",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Heart%20failure%2C%20chronic%20diuretic%20use%2C%20and%20increase%20in%20mortality%20and%20hospitalization%3A%20An%20observational%20study%20using%20propensity%20score%20methods&journal=Eur%20Heart%20J&doi=10.1093%2Feurheartj%2Fehi890&volume=27&issue=12&pages=1431-1439&publication_year=2006&author=Ahmed%2CA&author=Husain%2CA&author=Love%2CTE&author=Gambassi%2CG&author=Dell%E2%80%99Italia%2CLJ&author=Francis%2CGS&author=Gheorghiade%2CM&author=Allman%2CRM&author=Meleth%2CS&author=Bourge%2CRC"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Anderson C, Bushman B (2002) Human aggression. Annu Rev Psychol 53:27-51",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev.psych.53.100901.135231",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11752478",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Human%20aggression&journal=Annu%20Rev%20Psychol&doi=10.1146%2Fannurev.psych.53.100901.135231&volume=53&pages=27-51&publication_year=2002&author=Anderson%2CC&author=Bushman%2CB"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Anderson CA, Bushman BJ, Groom RW (1997) Hot years and serious and deadly assault: Empirical tests of the heat hypothesis. J Pers Soc Psychol 73(6):1213-1223",
+            "links": {
+                "Article": "https://doi.org/10.1037%2F0022-3514.73.6.1213",
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaK1c%2FnvFCksA%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9418277",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hot%20years%20and%20serious%20and%20deadly%20assault%3A%20Empirical%20tests%20of%20the%20heat%20hypothesis&journal=J%20Pers%20Soc%20Psychol&doi=10.1037%2F0022-3514.73.6.1213&volume=73&issue=6&pages=1213-1223&publication_year=1997&author=Anderson%2CCA&author=Bushman%2CBJ&author=Groom%2CRW"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Anderson CA, Deuser WE, DeNeve KM (1995) Hot temperatures, hostile affect, hostile cognition, and arousal: Tests of a general model of affective aggression. Pers Soc Psychol Bull 21(5):434-448",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0146167295215002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hot%20temperatures%2C%20hostile%20affect%2C%20hostile%20cognition%2C%20and%20arousal%3A%20Tests%20of%20a%20general%20model%20of%20affective%20aggression&journal=Pers%20Soc%20Psychol%20Bull&doi=10.1177%2F0146167295215002&volume=21&issue=5&pages=434-448&publication_year=1995&author=Anderson%2CCA&author=Deuser%2CWE&author=DeNeve%2CKM"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Anderson GB, Bell ML, Peng RD (2013) Methods to calculate the heat index as an exposure metric in environmental health research. Environ Health Perspect 121(10):1111-1119",
+            "links": {
+                "Article": "https://doi.org/10.1289%2Fehp.1206273",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23934704",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3801457",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Methods%20to%20calculate%20the%20heat%20index%20as%20an%20exposure%20metric%20in%20environmental%20health%20research&journal=Environ%20Health%20Perspect&doi=10.1289%2Fehp.1206273&volume=121&issue=10&pages=1111-1119&publication_year=2013&author=Anderson%2CGB&author=Bell%2CML&author=Peng%2CRD"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Baron RA, Bell PA (1976) Aggression and heat: The influence of ambient temperature, negative affect, and a cooling drink on physical aggression. J Pers Soc Psychol 33(3):245-255",
+            "links": {
+                "Article": "https://doi.org/10.1037%2F0022-3514.33.3.245",
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaE287ptlalsA%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1271212",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Aggression%20and%20heat%3A%20The%20influence%20of%20ambient%20temperature%2C%20negative%20affect%2C%20and%20a%20cooling%20drink%20on%20physical%20aggression&journal=J%20Pers%20Soc%20Psychol&doi=10.1037%2F0022-3514.33.3.245&volume=33&issue=3&pages=245-255&publication_year=1976&author=Baron%2CRA&author=Bell%2CPA"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Bell PA, Baron RA (1975) Aggression and heat: The mediating role of negative affect. J Appl Soc Psychol 6(1):18-30",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1559-1816.1976.tb01308.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Aggression%20and%20heat%3A%20The%20mediating%20role%20of%20negative%20affect&journal=J%20Appl%20Soc%20Psychol&doi=10.1111%2Fj.1559-1816.1976.tb01308.x&volume=6&issue=1&pages=18-30&publication_year=1975&author=Bell%2CPA&author=Baron%2CRA"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Bind M-A, Rubin DB (2017) Bridging observational studies and randomized experiments by embedding the former in the latter. Stat Methods Med Res 0:1-21",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bridging%20observational%20studies%20and%20randomized%20experiments%20by%20embedding%20the%20former%20in%20the%20latter&journal=Stat%20Methods%20Med%20Res&volume=0&pages=1-21&publication_year=2017&author=Bind%2CM-A&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Bushman BJ, Wang MC, Anderson CA (2005) Is the curve relating temperature to aggression linear or curvilinear? Assaults and temperature in Minneapolis reexamined. J Pers Soc Psychol 89(1):62-66",
+            "links": {
+                "Article": "https://doi.org/10.1037%2F0022-3514.89.1.62",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16060743",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Is%20the%20curve%20relating%20temperature%20to%20aggression%20linear%20or%20curvilinear%3F%20Assaults%20and%20temperature%20in%20Minneapolis%20reexamined&journal=J%20Pers%20Soc%20Psychol&doi=10.1037%2F0022-3514.89.1.62&volume=89&issue=1&pages=62-66&publication_year=2005&author=Bushman%2CBJ&author=Wang%2CMC&author=Anderson%2CCA"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "City of Boston Data Portal. Analyze Boston. https://data.cityofboston.gov. Accessed 20 February 2017",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Cochran WG, Rubin DB (1973) Controlling bias in observational studies: A Review. Sankhyā: The Indian Journal of Statistics, Series A (1961-2002) 35(4):417-446",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Cohen LE, Felson M (1979) Social change and crime rate trends: A Routine Activity Approach. Am Sociol Rev 44(4):588-608",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F2094589",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20change%20and%20crime%20rate%20trends%3A%20A%20Routine%20Activity%20Approach&journal=Am%20Sociol%20Rev&doi=10.2307%2F2094589&volume=44&issue=4&pages=588-608&publication_year=1979&author=Cohen%2CLE&author=Felson%2CM"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Cohn EG, Rotton J (1997) Assault as a function of time and temperature: A moderator-variable time-series analysis. J Pers Soc Psychol 72(6):1322-1334",
+            "links": {
+                "Article": "https://doi.org/10.1037%2F0022-3514.72.6.1322",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assault%20as%20a%20function%20of%20time%20and%20temperature%3A%20A%20moderator-variable%20time-series%20analysis&journal=J%20Pers%20Soc%20Psychol&doi=10.1037%2F0022-3514.72.6.1322&volume=72&issue=6&pages=1322-1334&publication_year=1997&author=Cohn%2CEG&author=Rotton%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Cohn EG, Rotton J (2000) Weather, seasonal trends and property crimes in Minneapolis, 1987-1988. a moderator-variable time-series analysis of routine activities. J Environ Psychol 20(3):257-272",
+            "links": {
+                "Article": "https://doi.org/10.1006%2Fjevp.1999.0157",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Weather%2C%20seasonal%20trends%20and%20property%20crimes%20in%20Minneapolis%2C%201987-1988.%20a%20moderator-variable%20time-series%20analysis%20of%20routine%20activities&journal=J%20Environ%20Psychol&doi=10.1006%2Fjevp.1999.0157&volume=20&issue=3&pages=257-272&publication_year=2000&author=Cohn%2CEG&author=Rotton%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Cohn EG, Rotton J (2005) The curve is still out there: a reply to Bushman, Wang, and Anderson’s (2005) “Is the curve relating temperature to aggression linear or curvilinear?”. J Pers Soc Psychol, 89(1):67(4)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Costa LG, Cole TB, Coburn J, Chang Y-C, Dao K, Roqué PJ (2017) Neurotoxicity of traffic-related air pollution. Neurotoxicology 59:133-139",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.neuro.2015.11.008",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXhvFGjurnE",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26610921",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neurotoxicity%20of%20traffic-related%20air%20pollution&journal=Neurotoxicology&doi=10.1016%2Fj.neuro.2015.11.008&volume=59&pages=133-139&publication_year=2017&author=Costa%2CLG&author=Cole%2CTB&author=Coburn%2CJ&author=Chang%2CY-C&author=Dao%2CK&author=Roqu%C3%A9%2CPJ"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "DeFronzo J (1984) Climate and crime: “Tests of an FBI Assumption”. Environ Behav 16(2):185",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0013916584162003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20and%20crime%3A%20%E2%80%9CTests%20of%20an%20FBI%20Assumption%E2%80%9D&journal=Environ%20Behav&doi=10.1177%2F0013916584162003&volume=16&issue=2&publication_year=1984&author=DeFronzo%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Feldman H, Jarmon R (1979) Factors influencing criminal behavior in Newark: A local study in forensic psychiatry. J Forensic Sci 24(1):234",
+            "links": {
+                "Article": "https://doi.org/10.1520%2FJFS10814J",
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaL3c%2Fntl2jtA%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=574534",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Factors%20influencing%20criminal%20behavior%20in%20Newark%3A%20A%20local%20study%20in%20forensic%20psychiatry&journal=J%20Forensic%20Sci&doi=10.1520%2FJFS10814J&volume=24&issue=1&publication_year=1979&author=Feldman%2CH&author=Jarmon%2CR"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Gabry J, Goodrich B, (2017). rstanarm: Bayesian applied regression modeling via Stan. R package version 2.10.0. http://mc-stan.org/.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Gamble JL, Hess JJ (2012) Temperature and violent crime in Dallas, Texas: Relationships and implications of climate change. West J Emerg Med 13(3):239-246",
+            "links": {
+                "Article": "https://doi.org/10.5811%2Fwestjem.2012.3.11746",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22900121",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3415828",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Temperature%20and%20violent%20crime%20in%20Dallas%2C%20Texas%3A%20Relationships%20and%20implications%20of%20climate%20change&journal=West%20J%20Emerg%20Med&doi=10.5811%2Fwestjem.2012.3.11746&volume=13&issue=3&pages=239-246&publication_year=2012&author=Gamble%2CJL&author=Hess%2CJJ"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Hansen A, Bi P, Nitschke M, Ryan P, Pisaniello D, Tucker G (2008) The effect of heat waves on mental health in a temperate Australian city. Environ Health Perspect 116(10):1369-1375",
+            "links": {
+                "Article": "https://doi.org/10.1289%2Fehp.11339",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18941580",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2569097",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20heat%20waves%20on%20mental%20health%20in%20a%20temperate%20Australian%20city&journal=Environ%20Health%20Perspect&doi=10.1289%2Fehp.11339&volume=116&issue=10&pages=1369-1375&publication_year=2008&author=Hansen%2CA&author=Bi%2CP&author=Nitschke%2CM&author=Ryan%2CP&author=Pisaniello%2CD&author=Tucker%2CG"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Harries K, Stadler S, Zdorkowski T (1984) Seasonality and assault: Explorations in inter-neighborhood variation, Dallas 1980. Ann Assoc Am Geogr 74(4):590-604",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1467-8306.1984.tb01476.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Seasonality%20and%20Assault%3A%20Explorations%20in%20Inter-Neighborhood%20Variation%2C%20Dallas%201980&journal=Annals%20of%20the%20Association%20of%20American%20Geographers&doi=10.1111%2Fj.1467-8306.1984.tb01476.x&volume=74&issue=4&pages=590-604&publication_year=1984&author=Harries%2CKeith%20D.&author=Stadler%2CStephen%20J.&author=Zdorkowski%2CR.%20Todd"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Heckman JJ, Ichimura H, Todd P (1998) Matching as an econometric evaluation estimator. Rev Econ Stud 65:261-294",
+            "links": {
+                "Article": "https://doi.org/10.1111%2F1467-937X.00044",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=1623713",
+                "MATH": "http://www.emis.de/MATH-item?0908.90059",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Matching%20as%20an%20econometric%20evaluation%20estimator&journal=Rev%20Econ%20Stud&doi=10.1111%2F1467-937X.00044&volume=65&pages=261-294&publication_year=1998&author=Heckman%2CJJ&author=Ichimura%2CH&author=Todd%2CP"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Hsiang SM, Burke M, Miguel E (2013) Quantifying the influence of climate on human conflict. Science 341(6151):1235367-1235367",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1235367",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24031020",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXhsVWrs7bN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20the%20Influence%20of%20Climate%20on%20Human%20Conflict&journal=Science&doi=10.1126%2Fscience.1235367&volume=341&issue=6151&pages=1235367-1235367&publication_year=2013&author=Hsiang%2CS.%20M.&author=Burke%2CM.&author=Miguel%2CE."
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Imbens GW, Rubin DB (2015) Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction. Cambridge University Press, New York, NY, USA",
+            "links": {
+                "Book": "https://doi.org/10.1017%2FCBO9781139025751",
+                "MATH": "http://www.emis.de/MATH-item?1355.62002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Causal%20Inference%20for%20Statistics%2C%20Social%2C%20and%20Biomedical%20Sciences%3A%20An%20Introduction&doi=10.1017%2FCBO9781139025751&publication_year=2015&author=Imbens%2CGW&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Levy BS, Sidel VW, Patz JA (2017) Climate change and collective violence. Annu Rev Public Health 38:241-257",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-publhealth-031816-044232",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28125385",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6098709",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20and%20collective%20violence&journal=Annu%20Rev%20Public%20Health&doi=10.1146%2Fannurev-publhealth-031816-044232&volume=38&pages=241-257&publication_year=2017&author=Levy%2CBS&author=Sidel%2CVW&author=Patz%2CJA"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Lopez MJ, Gutman R (2017) Estimation of causal effects with multiple treatments: A review and new ideas. Statistical Science 32(3):432-454",
+            "links": {
+                "Article": "https://doi.org/10.1214%2F17-STS612",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=3696004",
+                "MATH": "http://www.emis.de/MATH-item?06870254",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimation%20of%20Causal%20Effects%20with%20Multiple%20Treatments%3A%20A%20Review%20and%20New%20Ideas&journal=Statistical%20Science&doi=10.1214%2F17-STS612&volume=32&issue=3&pages=432-454&publication_year=2017&author=Lopez%2CMichael%20J.&author=Gutman%2CRoee"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Lu JG, Lee JJ, Gino F, Galinsky AD (2018) Polluted morality: Air pollution predicts criminal activity and unethical behavior. Psychol Sci 29(3):340-355",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0956797617735807",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29412050",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Polluted%20morality%3A%20Air%20pollution%20predicts%20criminal%20activity%20and%20unethical%20behavior&journal=Psychol%20Sci&doi=10.1177%2F0956797617735807&volume=29&issue=3&pages=340-355&publication_year=2018&author=Lu%2CJG&author=Lee%2CJJ&author=Gino%2CF&author=Galinsky%2CAD"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Mares D (2013a) Climate change and crime: monthly temperature and precipitation anomalies and crime rates in St. Louis, MO 1990-2009. Crime Law Soc Change 59(2):185-208",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10611-013-9411-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20and%20crime%3A%20monthly%20temperature%20and%20precipitation%20anomalies%20and%20crime%20rates%20in%20St.%20Louis%2C%20MO%201990%E2%80%932009&journal=Crime%20Law%20Soc%20Change&doi=10.1007%2Fs10611-013-9411-8&volume=59&issue=2&pages=185-208&publication_year=2013&author=Mares%2CD"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Mares D (2013b) Climate change and levels of violence in socially disadvantaged neighborhood groups. J Urban Health 90(4):768-783",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11524-013-9791-1",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23435543",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3732690",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20and%20levels%20of%20violence%20in%20socially%20disadvantaged%20neighborhood%20groups&journal=J%20Urban%20Health&doi=10.1007%2Fs11524-013-9791-1&volume=90&issue=4&pages=768-783&publication_year=2013&author=Mares%2CD"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Mares D, Moffett K (2016) Climate change and interpersonal violence: A “global” estimate and regional inequities. Clim Change 135(2):297-310",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10584-015-1566-0",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016ClCh..135..297M",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20and%20interpersonal%20violence%3A%20A%20%E2%80%9Cglobal%E2%80%9D%20estimate%20and%20regional%20inequities&journal=Clim%20Change&doi=10.1007%2Fs10584-015-1566-0&volume=135&issue=2&pages=297-310&publication_year=2016&author=Mares%2CD&author=Moffett%2CK"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "NOAA. National Oceanic and Atmospheric Administration. https://www.ncdc.noaa.gov/cdo-web/. Accessed 9 March 2017",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Perry JD, Simpson ME (1978) Violent crimes in a city: “Environmental Determinants”. Environ Behav 19(1):77",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0013916587191004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Violent%20crimes%20in%20a%20city%3A%20%E2%80%9CEnvironmental%20Determinants%E2%80%9D&journal=Environ%20Behav&doi=10.1177%2F0013916587191004&volume=19&issue=1&publication_year=1978&author=Perry%2CJD&author=Simpson%2CME"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Ranson M (2014) Crime, weather, and climate change. J Environ Econ Manag 67(3):274-302",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jeem.2013.11.008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Crime%2C%20weather%2C%20and%20climate%20change&journal=J%20Environ%20Econ%20Manag&doi=10.1016%2Fj.jeem.2013.11.008&volume=67&issue=3&pages=274-302&publication_year=2014&author=Ranson%2CM"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Research Advisory Group (BRAG) (2016) Climate Projection Consensus. Boston",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Rosenbaum PR, Rubin DB (1983) The central role of the propensity score in observational studies for causal effects. Biometrika 70(1):41-55",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fbiomet%2F70.1.41",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=742974",
+                "MATH": "http://www.emis.de/MATH-item?0522.62091",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20central%20role%20of%20the%20propensity%20score%20in%20observational%20studies%20for%20causal%20effects&journal=Biometrika&doi=10.1093%2Fbiomet%2F70.1.41&volume=70&issue=1&pages=41-55&publication_year=1983&author=Rosenbaum%2CPR&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Rotton J, Cohn EG (2000a) Violence is a curvilinear function of temperature in Dallas: A replication. J Pers Soc Psychol 78(6):1074-1081",
+            "links": {
+                "Article": "https://doi.org/10.1037%2F0022-3514.78.6.1074",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD3cvps1Kkug%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10870909",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Violence%20is%20a%20curvilinear%20function%20of%20temperature%20in%20Dallas%3A%20A%20replication&journal=J%20Pers%20Soc%20Psychol&doi=10.1037%2F0022-3514.78.6.1074&volume=78&issue=6&pages=1074-1081&publication_year=2000&author=Rotton%2CJ&author=Cohn%2CEG"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Rotton J, Cohn EG (2000b) Weather, disorderly conduct, and assaults: From social contact to social avoidance. Environ Behav 32(5):651-673",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Weather%2C%20Disorderly%20Conduct%2C%20and%20Assaults%3A%20From%20Social%20Contact%20to%20Social%20Avoidance&journal=Environment%20%26%20Behavior&volume=32&issue=5&pages=651-673&publication_year=2000&author=Rotton%2CJ.&author=Cohn%2CE.G."
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Rotton J, Cohn EG (2003) Global warming and U.S. crime rates. Environ Behav 35(6):802-825",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0013916503255565",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20warming%20and%20U.S.%20crime%20rates&journal=Environ%20Behav&doi=10.1177%2F0013916503255565&volume=35&issue=6&pages=802-825&publication_year=2003&author=Rotton%2CJ&author=Cohn%2CEG"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Rubin DB (1974) Estimating causal effects of treatments in randomized and nonrandomized studies. J Educ Psychol 66(5):688-701",
+            "links": {
+                "Article": "https://doi.org/10.1037%2Fh0037350",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20causal%20effects%20of%20treatments%20in%20randomized%20and%20nonrandomized%20studies&journal=J%20Educ%20Psychol&doi=10.1037%2Fh0037350&volume=66&issue=5&pages=688-701&publication_year=1974&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Rubin DB (1978) Bayesian inference for causal effects: The role of randomization. Ann Stat 6(1):34-58",
+            "links": {
+                "Article": "https://doi.org/10.1214%2Faos%2F1176344064",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=472152",
+                "MATH": "http://www.emis.de/MATH-item?0383.62021",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bayesian%20inference%20for%20causal%20effects%3A%20The%20role%20of%20randomization&journal=Ann%20Stat&doi=10.1214%2Faos%2F1176344064&volume=6&issue=1&pages=34-58&publication_year=1978&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Rubin DB (2001) Using propensity scores to help design observational studies: Application to the tobacco litigation. Health Serv Outcomes Res Methodol 2(3):169-188",
+            "links": {
+                "Article": "https://doi.org/10.1023%2FA%3A1020363010465",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2001NIMPA.467..169R",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Using%20propensity%20scores%20to%20help%20design%20observational%20studies%3A%20Application%20to%20the%20tobacco%20litigation&journal=Health%20Serv%20Outcomes%20Res%20Methodol&doi=10.1023%2FA%3A1020363010465&volume=2&issue=3&pages=169-188&publication_year=2001&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Rubin DB (2006) Matched sampling for causal effects. Cambridge University Press, New York, NY, USA",
+            "links": {
+                "Book": "https://doi.org/10.1017%2FCBO9780511810725",
+                "MATH": "http://www.emis.de/MATH-item?1118.62113",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Matched%20sampling%20for%20causal%20effects&doi=10.1017%2FCBO9780511810725&publication_year=2006&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Rubin DB (2008) For objective causal inference, design trumps analysis. Ann Appl Stat 2(3):808-840",
+            "links": {
+                "Article": "https://doi.org/10.1214%2F08-AOAS187",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2516795",
+                "MATH": "http://www.emis.de/MATH-item?1149.62089",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=For%20objective%20causal%20inference%2C%20design%20trumps%20analysis&journal=Ann%20Appl%20Stat&doi=10.1214%2F08-AOAS187&volume=2&issue=3&pages=808-840&publication_year=2008&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Sampson RJ (1997) Neighborhoods and violent crime: A multilevel study of collective efficacy. Science 277(5328):918-928",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.277.5328.918",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaK2sXltlCks70%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9252316",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighborhoods%20and%20Violent%20Crime%3A%20A%20Multilevel%20Study%20of%20Collective%20Efficacy&journal=Science&doi=10.1126%2Fscience.277.5328.918&volume=277&issue=5328&pages=918-924&publication_year=1997&author=Sampson%2CR.%20J."
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Satcher D (1995) Violence as a public health issue. Bull N Y Acad Med 72(1):46",
+            "links": {}
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Schinasi LH, Hamra GB (2017) A time series analysis of associations between daily temperature and crime events in Philadelphia, Pennsylvania. J Urban Health 94(6):892-900",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11524-017-0181-y",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28687898",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5722724",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20time%20series%20analysis%20of%20associations%20between%20daily%20temperature%20and%20crime%20events%20in%20Philadelphia%2C%20Pennsylvania&journal=J%20Urban%20Health&doi=10.1007%2Fs11524-017-0181-y&volume=94&issue=6&pages=892-900&publication_year=2017&author=Schinasi%2CLH&author=Hamra%2CGB"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Steadman R (1994) Norms of apparent temperature in Australia. Aust Meteorol Mag, Canberra, Aust 43(1):1-16",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Norms%20of%20apparent%20temperature%20in%20Australia&journal=Aust%20Meteorol%20Mag%2C%20Canberra%2C%20Aust&volume=43&issue=1&pages=1-16&publication_year=1994&author=Steadman%2CR"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Tiihonen J, Halonen P, Tiihonen L, Kautiainen H, Storvik M, Callaway J (2018) The association of ambient temperature and violent crime. Nat Sci Rep 7(1):6543-6543",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-017-06720-z",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatSR...7.6543T",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXhtlOiu7vN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20association%20of%20ambient%20temperature%20and%20violent%20crime&journal=Nat%20Sci%20Rep&doi=10.1038%2Fs41598-017-06720-z&volume=7&issue=1&pages=6543-6543&publication_year=2018&author=Tiihonen%2CJ&author=Halonen%2CP&author=Tiihonen%2CL&author=Kautiainen%2CH&author=Storvik%2CM&author=Callaway%2CJ"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The datasets analyzed during the current study are available in the Dataverse repository: https://doi.org/10.7910/DVN/4UZ9D4. These were derived from the following public domain resources: https://www.ncdc.noaa.gov/cdo-web https://data.cityofboston.gov https://data.lacity.org",
+            "links": {
+                "https://doi.org/10.7910/DVN/4UZ9D4": "https://doi.org/10.7910/DVN/4UZ9D4",
+                "https://www.ncdc.noaa.gov/cdo-web": "https://www.ncdc.noaa.gov/cdo-web",
+                "https://data.cityofboston.gov": "https://data.cityofboston.gov",
+                "https://data.lacity.org": "https://data.lacity.org"
+            }
+        },
+        "Change history": {
+            "content": "",
+            "links": {}
+        },
+        "Notes": {
+            "content": "",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "Research reported in this publication was supported by the Office of the Director, National Institutes of Health under Award Number DP5OD021412 and the John Harvard Distinguished Science Fellows Program, within the FAS Division of Science of Harvard University. We thank Rachel Schweiker for proof-reading the manuscript. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsAlice J. SommerView author publicationsSearch author on:PubMedGoogle ScholarMihye LeeView author publicationsSearch author on:PubMedGoogle ScholarMarie-Abèle C. BindView author publicationsSearch author on:PubMedGoogle Scholar\n### Contributions\nAJS and MACB designed the research. ML prepared the datasets, constructed the maps, and conducted the spatial discussion. AJS analyzed the data. AJS and MACB wrote and thoroughly discussed the first draft of the paper. All authors, read, revised and approved the final version of the manuscript.\n### Corresponding author\nCorrespondence to Marie-Abèle C. Bind.",
+            "links": {
+                "View author publications": "/search?author=Marie-Ab%C3%A8le%20C.%20Bind",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Marie-Ab%C3%A8le%20C.%20Bind",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Marie-Ab%C3%A8le%20C.%20Bind%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Marie-Abèle C. Bind": "mailto:ma.bind@mail.harvard.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Electronic supplementary material": {
+            "content": "Supplemental Material",
+            "links": {
+                "Supplemental Material": "https://static-content.springer.com/esm/art%3A10.1057%2Fs41599-018-0188-3/MediaObjects/41599_2018_188_MOESM1_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Comparing%20apples%20to%20apples%3A%20an%20environmental%20criminology%20analysis%20of%20the%20effects%20of%20heat%20and%20rain%20on%20violent%20crimes%20in%20Boston&author=Alice%20J.%20Sommer%20et%20al&contentID=10.1057%2Fs41599-018-0188-3&copyright=The%20Author%28s%29&publication=2055-1045&publicationDate=2018-11-20&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleSommer, A.J., Lee, M. & Bind, MA.C. Comparing apples to apples: an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston. Palgrave Commun 4, 138 (2018). https://doi.org/10.1057/s41599-018-0188-3Download citationReceived:10 January 2018Accepted:08 October 2018Published:20 November 2018DOI:https://doi.org/10.1057/s41599-018-0188-3Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1057/s41599-018-0188-3?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Comparing apples to apples: an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston",
+                "description": "Weather characteristics have been suggested by many social scientists to influence criminality. According to a recent study, climate change may cause a substantial increase in criminal activities during the twenty-first century. The additional number of crimes due to climate have been estimated by associational models, which are not optimal to quantify causal impacts of weather conditions on criminality. Using the Rubin Causal Model and crime data reported daily between 2012 and 2017, this study examines whether changes in heat index, a proxy for apparent temperature, and rainfall occurrence, influence the number of violent crimes in Boston. On average, more crimes are reported on temperate days compared to extremely cold days, and on dry days compared to rainy days. However, no significant differences in the number of crimes between extremely hot days versus less warm days could be observed. The results suggest that weather forecasts could be integrated into crime prevention programs in Boston. The weather-crime relationship should be taken into account when assessing the economic, sociological, or medical impact of climate change. Researchers and policy makers interested in the effects of environmental exposures or policy interventions on crime should consider a causal inference approach to analyze their data.",
+                "datePublished": "2018-11-20T00:00:00Z",
+                "dateModified": "2019-09-03T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "10",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1057/s41599-018-0188-3",
+                "keywords": [
+                    "Criminology",
+                    "Environmental studies",
+                    "Social policy",
+                    "Sociology",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-018-0188-3/MediaObjects/41599_2018_188_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-018-0188-3/MediaObjects/41599_2018_188_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-018-0188-3/MediaObjects/41599_2018_188_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-018-0188-3/MediaObjects/41599_2018_188_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-018-0188-3/MediaObjects/41599_2018_188_Fig5_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Palgrave Communications",
+                    "issn": [
+                        "2055-1045"
+                    ],
+                    "volumeNumber": "4",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Palgrave Macmillan UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Alice J. Sommer",
+                        "affiliation": [
+                            {
+                                "name": "Harvard University",
+                                "address": {
+                                    "name": "Faculty of Arts and Sciences, Department of Statistics, Harvard University, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Mihye Lee",
+                        "affiliation": [
+                            {
+                                "name": "St. Luke’s Int’l University",
+                                "address": {
+                                    "name": "Graduate School of Public Health, St. Luke’s Int’l University, Tokyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Marie-Abèle C. Bind",
+                        "affiliation": [
+                            {
+                                "name": "Harvard University",
+                                "address": {
+                                    "name": "Faculty of Arts and Sciences, Department of Statistics, Harvard University, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "ma.bind@mail.harvard.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "criminology;environmental-studies;social-policy;sociology",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Palgrave Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1057/s41599-018-0188-3"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Alice J. Sommer",
+                            "Mihye Lee",
+                            "Marie-Abèle C. Bind"
+                        ],
+                        "publishedAt": 1542672000,
+                        "publishedAtString": "2018-11-20",
+                        "title": "Comparing apples to apples: an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Criminology,Environmental studies,Social policy,Sociology"
+                    },
+                    "journal": {
+                        "pcode": "palcomms",
+                        "title": "palgrave communications",
+                        "volume": "4",
+                        "issue": "1",
+                        "id": 41599,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Comparing apples to apples: an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston",
+            "dc.source": "Palgrave Communications 2018 4:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Palgrave",
+            "dc.date": "2018-11-20",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2018 The Author(s)",
+            "dc.rights": "2018 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Weather characteristics have been suggested by many social scientists to influence criminality. According to a recent study, climate change may cause a substantial increase in criminal activities during the twenty-first century. The additional number of crimes due to climate have been estimated by associational models, which are not optimal to quantify causal impacts of weather conditions on criminality. Using the Rubin Causal Model and crime data reported daily between 2012 and 2017, this study examines whether changes in heat index, a proxy for apparent temperature, and rainfall occurrence, influence the number of violent crimes in Boston. On average, more crimes are reported on temperate days compared to extremely cold days, and on dry days compared to rainy days. However, no significant differences in the number of crimes between extremely hot days versus less warm days could be observed. The results suggest that weather forecasts could be integrated into crime prevention programs in Boston. The weather-crime relationship should be taken into account when assessing the economic, sociological, or medical impact of climate change. Researchers and policy makers interested in the effects of environmental exposures or policy interventions on crime should consider a causal inference approach to analyze their data.",
+            "dc.identifier": "doi:10.1057/s41599-018-0188-3",
+            "dc.creator": "Bind, Marie-Abèle C.",
+            "dc.subject": "Sociology",
+            "prism.issn": "2055-1045",
+            "prism.publicationName": "Palgrave Communications",
+            "prism.publicationDate": "2018-11-20",
+            "prism.volume": "4",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "10",
+            "prism.copyright": "2018 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41599-018-0188-3",
+            "prism.doi": "doi:10.1057/s41599-018-0188-3",
+            "citation_pdf_url": "https://www.nature.com/articles/s41599-018-0188-3.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41599-018-0188-3",
+            "citation_journal_title": "Palgrave Communications",
+            "citation_journal_abbrev": "Palgrave Commun",
+            "citation_publisher": "Palgrave",
+            "citation_issn": "2055-1045",
+            "citation_title": "Comparing apples to apples: an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston",
+            "citation_volume": "4",
+            "citation_issue": "1",
+            "citation_online_date": "2018/11/20",
+            "citation_firstpage": "1",
+            "citation_lastpage": "10",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1057/s41599-018-0188-3",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1057/s41599-018-0188-3&api_key=",
+            "citation_reference": "citation_journal_title=Nat Sci Rep; citation_title=The association of ambient temperature and violent crime; citation_author=J Tiihonen, P Halonen, L Tiihonen, H Kautiainen, M Storvik, J Callaway; citation_volume=7; citation_issue=1; citation_publication_date=2018; citation_pages=6543-6543; citation_doi=10.1038/s41598-017-06720-z; citation_id=CR50",
+            "citation_author": "Bind, Marie-Abèle C.",
+            "citation_author_institution": "Faculty of Arts and Sciences, Department of Statistics, Harvard University, Cambridge, USA",
+            "description": "Weather characteristics have been suggested by many social scientists to influence criminality. According to a recent study, climate change may cause a substantial increase in criminal activities during the twenty-first century. The additional number of crimes due to climate have been estimated by associational models, which are not optimal to quantify causal impacts of weather conditions on criminality. Using the Rubin Causal Model and crime data reported daily between 2012 and 2017, this study examines whether changes in heat index, a proxy for apparent temperature, and rainfall occurrence, influence the number of violent crimes in Boston. On average, more crimes are reported on temperate days compared to extremely cold days, and on dry days compared to rainy days. However, no significant differences in the number of crimes between extremely hot days versus less warm days could be observed. The results suggest that weather forecasts could be integrated into crime prevention programs in Boston. The weather-crime relationship should be taken into account when assessing the economic, sociological, or medical impact of climate change. Researchers and policy makers interested in the effects of environmental exposures or policy interventions on crime should consider a causal inference approach to analyze their data.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Comparing apples to apples: an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston",
+            "twitter:description": "Humanities and Social Sciences Communications - Comparing apples to apples: an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1057%2Fs41599-018-0188-3/MediaObjects/41599_2018_188_Fig1_HTML.png",
+            "DOI": "10.1057/s41599-018-0188-3",
+            "size": "209787",
+            "journal_id": "41599"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41599-018-0188-3",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

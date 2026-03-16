@@ -1,0 +1,145 @@
+{
+    "id": "s41467-017-02411-5",
+    "title": "Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery",
+    "journal": "Nature Communications",
+    "pdf_link": "https://www.nature.com/articles/s41467-017-02411-5",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Quadcopter flight test dataset for energy model calibration",
+            "Data_summary": "Author-collected measurements from outdoor quadrotor flight campaigns, including segmented flight path records with drone onboard telemetry such as GPS position, electrical voltage and current, attitude angles, and derived power and distance per segment, used to calibrate and validate the multicopter energy use model and estimate parameters like efficiency and drag.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The onboard autopilot system recorded GPS data, onboard voltage and current, the pitch, roll, and yaw of the copter, and other information. Location: Methods Drone flight conditions data collection and model implementation Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Weather station wind measurements during drone flight campaigns",
+            "Data_summary": "Author-collected weather station observations of wind speed and direction during quadcopter outdoor testing, used to characterize flight conditions and support model calibration under moderate winds.",
+            "Category": "Ground-based sensors (air quality, temperature, noise)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Our experimental set-up included a weather station that recorded the wind direction and magnitude while we were flying. Location: Methods Drone flight conditions data collection and model implementation Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Fixed-wing drone flight test dataset for energy efficiency estimate",
+            "Data_summary": "Author-collected measurements from a fixed-wing drone flight campaign capturing battery discharge and flight distance and speed, used to estimate energy per distance traveled for a battery-powered fixed-wing drone for comparison to multicopters.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we flew a single campaign with the fixed-wing drone and measured energy use and distance traveled. Location: Methods Energy use estimate for a gasoline helicopter drone and a fixed-wing drone Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "US EPA eGRID non baseload emissions factors dataset (eGRID2010 Version 1.0)",
+            "Data_summary": "Regional electricity emissions factor data from the US EPA eGRID product including annual direct non-baseload greenhouse gas emissions by eGRID subregion and by NERC region, used to compute charging-related drone and electric vehicle emissions by location.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we use EPA’s e-GRID annual direct non-baseload GHG emissions22 to present the range of emissions in each NERC region and in each e-GRID subregion. Location: Methods Emissions from electricity Confidence: high",
+            "Time_Coverage": "2010",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR22"
+            ]
+        },
+        {
+            "Data_Name": "Argonne National Laboratory GREET Net Database",
+            "Data_summary": "Life-cycle inventory database with fuel cycle and technology parameters such as upstream and life-cycle greenhouse gas intensities for fuels and electricity by fuel type, and embodied energy and emissions for battery chemistries, used to parameterize upstream emissions for fuels electricity and batteries in delivery scenarios.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The life-cycle GHG intensities of diesel fuel, gasoline and natural gas are adapted from Argonne National Laboratory’s GREET model23. Location: Methods Emissions from fuels Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR23"
+            ]
+        },
+        {
+            "Data_Name": "UPS 2015 Corporate Sustainability Report operational metrics",
+            "Data_summary": "Company-reported operational statistics including package delivery activity and energy use such as average stops per mile daily miles electricity and natural gas consumption and packages delivered, used to validate the truck model and to estimate per-package warehousing energy and delivery intensity parameters.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: UPS reports a total global electricity consumption of about 1628 GWhs, 4365 TJs of natural gas, and 4.7 billion packages delivered in 2015. Location: Methods Emissions from warehouses Confidence: high",
+            "Time_Coverage": "2015",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR39"
+            ]
+        },
+        {
+            "Data_Name": "FuelEconomy.gov vehicle fuel economy dataset",
+            "Data_summary": "Government vehicle fuel economy information for specific passenger vehicles and used as cited for city fuel economy values for gasoline and electric cars in personal pickup scenarios and for bounding vehicle performance assumptions.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we use the city fuel economy of exemplary gasoline and electric light-duty vehicles from U.S. fuel economy information41. Location: Methods Ground vehicle parameters Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "http://fueleconomy.gov/",
+            "ref": [
+                "ref-CR41"
+            ]
+        },
+        {
+            "Data_Name": "US DOT National Household Travel Survey 2009",
+            "Data_summary": "National travel survey statistics on trip purposes and lengths including average shopping trip distance, used to set the assumed roundtrip distance for customer package pickup by passenger vehicle and to define sensitivity bounds.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The U.S. Department of Transportation estimated that the average vehicle trip length for shopping purposes was 6.4 miles according to the most recent survey data43. Location: Methods Ground vehicle parameters Confidence: high",
+            "Time_Coverage": "2009",
+            "Geographic_Coverage": "United States",
+            "URL": "http://nhts.ornl.gov/index.shtml",
+            "ref": [
+                "ref-CR43"
+            ]
+        },
+        {
+            "Data_Name": "APC Propellers performance data lookup table for 10x47SF",
+            "Data_summary": "Manufacturer-provided propeller performance data giving predicted power and thrust values across rotor speeds and incident air velocities, used as an alternative rotor model input and comparison against empirical flight measurements and analytical estimates.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The relationship is available from the manufacturer in the form of a lookup table for the propellers in our quadcopter test model34. Location: Methods Drone energy use model Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://www.apcprop.com/technical-information/performance-data/",
+            "ref": [
+                "ref-CR34"
+            ]
+        },
+        {
+            "Data_Name": "Paper-level data deposit (from Data Availability)",
+            "Data_summary": "Author-provided collection of the datasets and code generated by the study, available upon request from the corresponding authors, intended to support replication of the analysis and model calibration.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The datasets and code generated in the current study are available from the corresponding authors on reasonable request. Location: Methods Data availability Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:27.854941"
+    }
+}

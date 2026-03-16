@@ -1,0 +1,691 @@
+{
+    "id": "s42256-020-00243-5",
+    "journal": "Nature Machine Intelligence",
+    "type": "article",
+    "title": "Interpretable socioeconomic status inference from aerial imagery through urban patterns",
+    "legal_title": "Interpretable socioeconomic status inference from aerial imagery through urban patterns",
+    "publish_time": "2020-10-26",
+    "pdf_link": "https://www.nature.com/articles/s42256-020-00243-5",
+    "storage_path": "./Articles/Nature Machine Intelligence/2020-article/s42256-020-00243-5/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Urbanization is a great challenge for modern societies, promising better access to economic opportunities, but widening socioeconomic inequalities. Accurately tracking this process as it unfolds has been challenging for traditional data collection methods, but remote sensing information offers an alternative way to gather a more complete view of these societal changes. By feeding neural networks with satellite images, the socioeconomic information associated with that area can be recovered. However, these models lack the ability to explain how visual features contained in a sample trigger a given prediction. Here, we close this gap by predicting socioeconomic status across France from aerial images and interpreting class activation mappings in terms of urban topology. We show that trained models disregard the spatial correlations existing between urban class and socioeconomic status to derive their predictions. These results pave the way to build more interpretable models, which may help to better track and understand urbanization and its consequences.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "In this paper we built on the combination of three publicly available datasets. One was issued by the National Geographical Information Institute (IGN) and contains aerial images about French municipalities20. The second was provided by the French National Institute of Statistics and Economic Studies (INSEE) in 201921 and provides a high-resolution socioeconomic map. The third was shared by the European Environment Agency through the 2012 European Union Urban Atlas project about EU28 and EFTA countries22. All datasets are public and openly accessible online at https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#ortho-hr-sous-licence-ouverte, https://www.insee.fr/fr/statistiques/4176290?sommaire=4176305 and https://land.copernicus.eu/local/urban-atlas/urban-atlas-2012. The individual files that were downloaded from the aerial imagery dataset are provided in GitHub. Figures depicting raw data are shown in Figs. 1, 3 and 4 and Supplementary Fig. 1. All figures and tables are provided as source data at https://doi.org/10.6084/m9.figshare.12595067.v2.",
+            "links": {
+                "20": "/articles/s42256-020-00243-5#ref-CR20",
+                "21": "/articles/s42256-020-00243-5#ref-CR21",
+                "22": "/articles/s42256-020-00243-5#ref-CR22",
+                "https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#ortho-hr-sous-licence-ouverte": "https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#ortho-hr-sous-licence-ouverte",
+                "https://www.insee.fr/fr/statistiques/4176290?sommaire=4176305": "https://www.insee.fr/fr/statistiques/4176290?sommaire=4176305",
+                "https://land.copernicus.eu/local/urban-atlas/urban-atlas-2012": "https://land.copernicus.eu/local/urban-atlas/urban-atlas-2012",
+                "1": "/articles/s42256-020-00243-5#Fig1",
+                "3": "/articles/s42256-020-00243-5#Fig3",
+                "4": "/articles/s42256-020-00243-5#Fig4",
+                "Supplementary": "/articles/s42256-020-00243-5#MOESM1",
+                "https://doi.org/10.6084/m9.figshare.12595067.v2": "https://doi.org/10.6084/m9.figshare.12595067.v2"
+            }
+        },
+        "Code availability": {
+            "content": "Code developed for the research has been made freely available for non-commercial use under an MIT Licence and shared through an open repository32 at https://doi.org/10.5281/zenodo.3906063. For any further questions please contact the corresponding authors.",
+            "links": {
+                "32": "/articles/s42256-020-00243-5#ref-CR32",
+                "https://doi.org/10.5281/zenodo.3906063": "https://doi.org/10.5281/zenodo.3906063"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This work was partially funded by the SoSweet ANR project (ANR-15-CE38-0011), the MOTIf Stic-AmSud project (18-STIC-07) and the ACADEMICS project financed by IDEX LYON. M.K. was supported by the DataRedux (ANR-19-CE46-0008) ANR and the SoBigData++ (871042) H2020 projects.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsJacob Levy AbitbolView author publicationsSearch author on:PubMed Google ScholarMárton KarsaiView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nJ.L.A. and M.K. designed the research. J.L.A. built the combined dataset and implemented analysis of the results. J.L.A. and M.K. wrote the final manuscript.\n### Corresponding authors\nCorrespondence to\n                Jacob Levy Abitbol or Márton Karsai.",
+            "links": {
+                "View author publications": "/search?author=M%C3%A1rton%20Karsai",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=M%C3%A1rton%20Karsai",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22M%C3%A1rton%20Karsai%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Jacob Levy Abitbol": "mailto:jacobolevyabitbol64@gmail.com",
+                "Márton Karsai": "mailto:karsaim@ceu.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data": {
+            "content": "Extended Data Fig. 1 Correlations between urban topology and socioeconomic status in the city of Marseille.a, Mean model activation rate per urban class with error bars denoting the 95% confidence interval for samples predicted as respectively as low SES (blue) or high SES (red) by the model. The yellow line on the left plot indicates the random diffusion value (H0). b, Estimated probability of an urban polygon belonging to the bottom or top quintile of the income distribution with error bars denoting the 95% confidence interval. Sample sizes are provided in Supplementary Tables 2 and 3.",
+            "links": {
+                "Extended Data Fig. 1 Correlations between urban topology and socioeconomic status in the city of Marseille.": "/articles/s42256-020-00243-5/figures/7"
+            }
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Figs. 1–13 and Tables 1–3.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-020-00243-5/MediaObjects/42256_2020_243_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-020-00243-5/MediaObjects/42256_2020_243_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Reprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Interpretable%20socioeconomic%20status%20inference%20from%20aerial%20imagery%20through%20urban%20patterns&author=Jacob%20Levy%20Abitbol%20et%20al&contentID=10.1038%2Fs42256-020-00243-5&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20Limited&publication=2522-5839&publicationDate=2020-10-26&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleAbitbol, J.L., Karsai, M. Interpretable socioeconomic status inference from aerial imagery through urban patterns.\n                    Nat Mach Intell 2, 684–692 (2020). https://doi.org/10.1038/s42256-020-00243-5Download citationReceived: 28 February 2020Accepted: 25 September 2020Published: 26 October 2020Version of record: 26 October 2020Issue date: November 2020DOI: https://doi.org/10.1038/s42256-020-00243-5Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42256-020-00243-5?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Interpretable socioeconomic status inference from aerial imagery through urban patterns",
+                "description": "Urbanization is a great challenge for modern societies, promising better access to economic opportunities, but widening socioeconomic inequalities. Accurately tracking this process as it unfolds has been challenging for traditional data collection methods, but remote sensing information offers an alternative way to gather a more complete view of these societal changes. By feeding neural networks with satellite images, the socioeconomic information associated with that area can be recovered. However, these models lack the ability to explain how visual features contained in a sample trigger a given prediction. Here, we close this gap by predicting socioeconomic status across France from aerial images and interpreting class activation mappings in terms of urban topology. We show that trained models disregard the spatial correlations existing between urban class and socioeconomic status to derive their predictions. These results pave the way to build more interpretable models, which may help to better track and understand urbanization and its consequences. Neural network models can predict the socioeconomic wealth of an area from aerial views, but fall short of explaining how visual features trigger a given prediction. The authors develop a pipeline for projecting class activation maps onto the underlying urban topology, to help interpret such predictions.",
+                "datePublished": "2020-10-26T00:00:00Z",
+                "dateModified": "2020-10-26T00:00:00Z",
+                "pageStart": "684",
+                "pageEnd": "692",
+                "sameAs": "https://doi.org/10.1038/s42256-020-00243-5",
+                "keywords": [
+                    "Computational science",
+                    "Socioeconomic scenarios",
+                    "Engineering",
+                    "general"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-020-00243-5/MediaObjects/42256_2020_243_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-020-00243-5/MediaObjects/42256_2020_243_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-020-00243-5/MediaObjects/42256_2020_243_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-020-00243-5/MediaObjects/42256_2020_243_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-020-00243-5/MediaObjects/42256_2020_243_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-020-00243-5/MediaObjects/42256_2020_243_Fig6_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Machine Intelligence",
+                    "issn": [
+                        "2522-5839"
+                    ],
+                    "volumeNumber": "2",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Jacob Levy Abitbol",
+                        "url": "http://orcid.org/0000-0003-1634-8426",
+                        "affiliation": [
+                            {
+                                "name": "University of Lyon, Inria, CNRS, ENS de Lyon, Université Claude Bernard Lyon 1",
+                                "address": {
+                                    "name": "University of Lyon, Inria, CNRS, ENS de Lyon, Université Claude Bernard Lyon 1, Lyon, France",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "jacobolevyabitbol64@gmail.com",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Márton Karsai",
+                        "url": "http://orcid.org/0000-0001-5382-8950",
+                        "affiliation": [
+                            {
+                                "name": "University of Lyon, Inria, CNRS, ENS de Lyon, Université Claude Bernard Lyon 1",
+                                "address": {
+                                    "name": "University of Lyon, Inria, CNRS, ENS de Lyon, Université Claude Bernard Lyon 1, Lyon, France",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Central European University",
+                                "address": {
+                                    "name": "Department of Network and Data Science, Central European University, Vienna, Austria",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "karsaim@ceu.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "computational-science;socioeconomic-scenarios",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Machine Intelligence",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42256-020-00243-5"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Jacob Levy Abitbol",
+                            "Márton Karsai"
+                        ],
+                        "publishedAt": 1603670400,
+                        "publishedAtString": "2020-10-26",
+                        "title": "Interpretable socioeconomic status inference from aerial imagery through urban patterns",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Computational science,Socioeconomic scenarios"
+                    },
+                    "journal": {
+                        "pcode": "natmachintell",
+                        "title": "nature machine intelligence",
+                        "volume": "2",
+                        "issue": "11",
+                        "id": 42256,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Interpretable socioeconomic status inference from aerial imagery through urban patterns",
+            "dc.source": "Nature Machine Intelligence 2020 2:11",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2020-10-26",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2020 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rights": "2020 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Urbanization is a great challenge for modern societies, promising better access to economic opportunities, but widening socioeconomic inequalities. Accurately tracking this process as it unfolds has been challenging for traditional data collection methods, but remote sensing information offers an alternative way to gather a more complete view of these societal changes. By feeding neural networks with satellite images, the socioeconomic information associated with that area can be recovered. However, these models lack the ability to explain how visual features contained in a sample trigger a given prediction. Here, we close this gap by predicting socioeconomic status across France from aerial images and interpreting class activation mappings in terms of urban topology. We show that trained models disregard the spatial correlations existing between urban class and socioeconomic status to derive their predictions. These results pave the way to build more interpretable models, which may help to better track and understand urbanization and its consequences. Neural network models can predict the socioeconomic wealth of an area from aerial views, but fall short of explaining how visual features trigger a given prediction. The authors develop a pipeline for projecting class activation maps onto the underlying urban topology, to help interpret such predictions.",
+            "dc.identifier": "doi:10.1038/s42256-020-00243-5",
+            "dc.creator": "Karsai, Márton",
+            "dc.subject": "Socioeconomic scenarios",
+            "prism.issn": "2522-5839",
+            "prism.publicationName": "Nature Machine Intelligence",
+            "prism.publicationDate": "2020-10-26",
+            "prism.volume": "2",
+            "prism.number": "11",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "684",
+            "prism.endingPage": "692",
+            "prism.copyright": "2020 The Author(s), under exclusive licence to Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42256-020-00243-5",
+            "prism.doi": "doi:10.1038/s42256-020-00243-5",
+            "citation_pdf_url": "https://www.nature.com/articles/s42256-020-00243-5.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42256-020-00243-5",
+            "citation_journal_title": "Nature Machine Intelligence",
+            "citation_journal_abbrev": "Nat Mach Intell",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2522-5839",
+            "citation_title": "Interpretable socioeconomic status inference from aerial imagery through urban patterns",
+            "citation_volume": "2",
+            "citation_issue": "11",
+            "citation_publication_date": "2020/11",
+            "citation_online_date": "2020/10/26",
+            "citation_firstpage": "684",
+            "citation_lastpage": "692",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42256-020-00243-5",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42256-020-00243-5&api_key=",
+            "citation_reference": "Abitbol, J. L. Coding repository; \n                  https://github.com/jaklevab/SESEfficientCAM/\n                  \n                .",
+            "citation_author": "Karsai, Márton",
+            "citation_author_institution": "Department of Network and Data Science, Central European University, Vienna, Austria",
+            "description": "Urbanization is a great challenge for modern societies, promising better access to economic opportunities, but widening socioeconomic inequalities. Accurately tracking this process as it unfolds has been challenging for traditional data collection methods, but remote sensing information offers an alternative way to gather a more complete view of these societal changes. By feeding neural networks with satellite images, the socioeconomic information associated with that area can be recovered. However, these models lack the ability to explain how visual features contained in a sample trigger a given prediction. Here, we close this gap by predicting socioeconomic status across France from aerial images and interpreting class activation mappings in terms of urban topology. We show that trained models disregard the spatial correlations existing between urban class and socioeconomic status to derive their predictions. These results pave the way to build more interpretable models, which may help to better track and understand urbanization and its consequences. Neural network models can predict the socioeconomic wealth of an area from aerial views, but fall short of explaining how visual features trigger a given prediction. The authors develop a pipeline for projecting class activation maps onto the underlying urban topology, to help interpret such predictions.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Interpretable socioeconomic status inference from aerial imagery through urban patterns",
+            "twitter:description": "Nature Machine Intelligence - Neural network models can predict the socioeconomic wealth of an area from aerial views, but fall short of explaining how visual features trigger a given prediction....",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-020-00243-5/MediaObjects/42256_2020_243_Fig1_HTML.png",
+            "DOI": "10.1038/s42256-020-00243-5",
+            "size": "157343",
+            "journal_id": "42256"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42256-020-00243-5",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Cities have become the economic bedrock of modern nations. In little more than a century, they have gone from concentrating 13% to an estimated 55% of the world population, with 600 of them currently accounting for around half of the global economic output (US$34 trillion of gross domestic product)1. This trend will probably accelerate in the coming years, as an estimated three billion people will move into cities by 2030. This increased urbanization is in turn a key driver of development, as cities provide a national platform for shared prosperity. Indeed, the concentration of people in cities generates agglomeration economies, where the sheer population density facilitates the moving of goods, people and ideas by removing the physical spaces between people and firms, thus increasing the returns of urban proximity2.\nNevertheless, while urbanization can drive economic dynamism and social development, it can also create enormous social challenges. The management of natural hazards and pollution, the exclusion of the poor from a city’s socioeconomic fabric and the subsequent surge of social and economic inequalities have become some of the pressing issues that a modern metropolis needs to address. This last issue is especially acute in some cities with the greatest concentration of wealth. For example, Gourevitch et al. reported a 24-year difference in the average lifespan of citizens living in neighbouring census tracts in San Francisco3. Meanwhile, greater Paris contains the second and fifth of the top five poorest and richest census tracts, respectively, in all of France4. Providing a solution to these challenges is of paramount importance to fulfil the economic and social promises that cities hold and to avoid them becoming sources of social and political instability.\nThe successful development and deployment of urban solutions to address these issues requires both spatially fine-grained socioeconomic information as well as a detailed understanding of how wealth and the underlying urban topology are entangled. Although this question has been thoroughly addressed before in previous urban sustainability studies5,6,7,8, the socioeconomic maps used were generally coarse-grained (roughly in the order of km2), the finest level of description being of course that provided by the census, thus hindering any detailed analysis. To cope with this, other works have relied on socioeconomic proxies, mostly derived from large-scale digital datasets, to propose accurate and highly detailed socioeconomic status (SES) estimations. These include communication patterns in call detail records9 and social media10 or even restaurant data11.\nMost notably, some works have relied heavily on large collections of satellite and street imagery to train deep-learning models to predict wealth either from visual features12 or by predicting features known to correlate with wealth (such as night-time light intensity13 or models of cars in census tracts14). This last approach has been further refined by works aimed at making interpretability a key point of study when predicting the SES of an area. For example, Ayush et al. sought correlations between high-level object detections and poverty scores in Uganda and found the presence of trucks to be predictive of local scale poverty15. On the other hand, Sheehan et al. relied on information on economic development of Wikipedia articles of a given country to predict poverty and observed that articles containing words like ‘school’, ‘university’ or ‘hospital’ tended to be linked to wealthier places16. By using features that are explicitly linked to wealth, these works missed explaining the outputs of more classical deep-learning models, which are trained end-to-end to predict wealth.\nSurprisingly, despite the overall use and reliability of these last methods, no previous work has looked consistently at the features learned by these models, nor tried to uncover any existing correlations between the existing urban topology of a city and the high-resolution socioeconomic map the model is tasked with predicting.\nOur aim is to close this gap by training a deep-learning model to predict the SES of a given location from its aerial image and in turn interpret its activation maps in terms of the underlying urban topology. More precisely, we first generate a complete description of five French cities in terms of socioeconomic and land-use data, as well as aerial imagery. Subsequently, after merging the aerial imagery with the corresponding socioeconomic maps, we train a convolutional neural network (CNN) model to accurately predict the SES of inhabited tiles. Next, by relying on a gradient-weighted class activation mapping (Grad-CAM) for computing attribution maps17,18,19, we generate high-resolution class-discriminative activation maps, which are projected back onto the original image and overlaid with land-use data. This framework enables the inference of SES at scales rarely seen before, while also indicating precisely the features contained in the actual urban environment used for prediction by the model. In doing so, we find that, when inferring SES, our CNN models disregard existing correlations between land-use and socioeconomic data and focus mostly on features contained within residential areas.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR12",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR18",
+                "ref-CR15",
+                "ref-CR7",
+                "ref-CR19"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Aerial, socioeconomic and land-use datasets and their combination\nThe fine-grained prediction of SES from remotely sensed images requires both a detailed socioeconomic map of the area of interest and a dataset of aerial images provided at a sufficiently high resolution for the CNN to be able to detect localized features. Throughout this study, we rely on high-resolution aerial imagery taken between 2013 and 2016 of the complete French metropolitan territory (at 20 cm per pixel), issued by the National Geographical Information Institute (IGN)20. This orthophotography dataset is distributed as a series of georeferenced 5 km × 5 km tiles provided at the department (administrative delimitation) level, as shown in Fig. 1a. This collection is then complemented with socioeconomic data shared by the French National Institute of Statistics and Economic Studies (INSEE) in 201921. This corpus describes the winsorized average household income, estimated from 2015 tax returns in France, for each four-hectare (200 m × 200 m) square patch (a ‘census cell’) across the whole French territory (Fig. 1b). A summary of the main features of each dataset is provided in Table 1. The combination of the socioeconomic map and the aerial data requires us to identify the aerial image (an ‘aerial tile’) corresponding to each 200 m × 200 m census cell, therefore enabling us to obtain, for every socioeconomic patch, its corresponding aerial view. For details regarding the winsorization of the census data or its spatial matching with aerial images, see Supplementary Section 1.\nNext, to study the correlations between the distribution of wealth and the urban patterns, we gather land-use data shared by the European Environment Agency through the 2012 European Union Urban Atlas project. This dataset provides high-resolution land cover maps of roughly 700 urban areas of more than 100,000 inhabitants in EU28 and European Free Trade Association (EFTA) countries. It does so by segmenting each city into detailed polygons categorized into one of 27 standardized land-use classes. In our study, only 19 classes were used, as infrequent and similar classes were respectively discarded and merged. Further information about the generation of this dataset is provided in the EU Urban Atlas22 and explained in the Methods.\nFollowing the spatial combination of these datasets, we single out five major cities located within the French metropolitan territory for further analysis. These were Paris, Lyon, Marseille, Nice and Lille. Geographical boundaries for each city/urban area are obtained from the ensuing land use data. For each city, income values from the socioeconomic patches are partitioned into one of five (nSES = 5) socioeconomic classes defined by the five quantiles of the city-wise income distribution, so that classes one and five correspond respectively to the bottom and top 20% of earners in each city. In doing so, we obtain the spatial distribution of income specific to each city, as is shown in Fig. 3a for Paris, where each coloured pixel corresponds to a single socioeconomic patch. Similar results for the other cities can be found in Supplementary Figs. 2–5 together with a detailed description of the used datasets. Note that all the collected datasets can be openly accessed and emanate from a single four-year time window hence minimizing their temporal misalignment.\n### Inferring SES in cities\nTo estimate the SES of a given location, we modify and train an EfficientNetB023 model on socioeconomic and aerial tile pairs to predict the former from the latter. The trained model takes individual aerial tiles s ∈ S set of tiles as input and predicts an SES label \\(\\hat{y}(s)\\in [1,...,{n}_{\\rm{SES}}]\\) for each of them. This model was chosen over more classical models (like VGGs or ResNets) mostly for its architectural design: by making use of an effective compound coefficient to scale up CNNs, EfficientNets have been shown to achieve better accuracy and efficiency than other convolutional neural networks, as also proved to be the case in our setting (for a comparison to other models see Supplementary Table 1). This enabled us to use the original fine-grained resolution of the aerial imagery as input to predict the SES at a lower computational cost. The architecture and parametrization of our model are further described in the Methods.\nThe modified EfficientNetB0 models are separately trained on each city to predict five-class SES from 200 m × 200 m aerial tiles. To assess the quality of the predictions, we computed the metrics proposed by Suel et al.12 for each city in our dataset. We report the fivefold averaged cross-validation performance by means of separate confusion matrices in Fig. 2.\nIn each case, perfect prediction would correspond to red diagonal and blue off-diagonal cells, while the greater the deviation from this pattern the greater the classification error made. We also report the Pearson correlation coefficient r, the mean average error (MAE), accuracy (Acc) and accuracy within one class (Acc(±1)) values between the observed and predicted SES classes in the figure keys. Note that Pearson’s r is added as a means of comparing our results to the aforementioned work12, despite both the predicted and true SES classes being discrete variables. All values were computed for samples not seen either during training or validation of the model.\nThe quality of the predictions tends to be quite similar between cities, with the average Pearson correlation between true and predicted quantiles varying between 0.65 for Lyon and 0.71 for Nice. Furthermore, in all cities, the MAE between predicted and observed socioeconomic classes is bounded between 0.72 for Paris and 0.80 for Lyon. Although some misclassifications occur between neighbouring quantiles, all tiles are classified within ±1 of their class with similar accuracies to those reported in previous studies (ranging from 0.82 to 0.85)12. Interestingly, the classes predicted by our model with the lowest accuracy tend to vary between cities. For example, in Paris and Lyon, the fourth quantile appears to be the hardest to predict correctly, while the second and third seem to be most error-prone in Nice and Marseille, respectively.\nTo visualize our predictions clearly, the observed and predicted spatial distributions of income for Paris are depicted in Fig. 3 (and for the other cities in Supplementary Figs. 2–5). Contrary to other studies12,14, here, each map pixel represents a single cell corresponding to a unique tile, a socioeconomic class pair. Consequently, predicted values are not aggregated but individually computed. It is therefore interesting to see that neighbouring tiles of equal SES are overall correctly predicted to be of the same socioeconomic class, hence recovering the small-scale spatial homogeneity of the original income distribution (see centre of Paris, Lyon or southwest of Nice and Marseille). At the same time, sub-urban regions characterized by socioeconomic disparities seem to be recovered. This can be seen in the predicted socioeconomic segregation between downtown Paris and its suburbs (Fig. 3), the west of Marseille or the east of Lille (Supplementary Figs. 3 and 5), which further demonstrates that the trained models are able to recover the complex spatial distributions of income featured in our dataset with remarkable resolution and accuracy. Because the models are trained and tested in the same city, the risk of overfitting is considerable and difficult to assess in the current setting. A detailed discussion of this issue is included in the Supplementary Information (Supplementary Fig. 6).\n### Grad-CAM-derived model correlations between SES and urban topology\nOnce all models are trained, we seek to identify the most salient features used by the CNNs to draw their predictions in terms of land use. This is a highly non-trivial task, as it requires mapping the abstract activity patterns of the CNN back onto the original georeferenced space. To solve this, we apply guided gradient-weighted class activation mapping17 (guided Grad-CAM) to identify visual features underlying the model’s predictions. Previous uses of this method include the identification of patterns learned by CNN models trained to predict Alzheimer’s disease18,19 and lung cancer24, as well as to classify wildlife25 and plant diseases26. Guided Grad-CAM follows the CNN’s gradient flow from individual output classes back onto the original image tile to establish an activation map, highlighting the input features most relevant to each class prediction. Figure 4 shows how Guided Grad-CAM (white features on dark background) is applied to a given aerial tile (Fig. 4a). The overlaid activation maps highlight the visual features that most trigger the prediction for the poorest (Fig. 4b) and richest (Fig. 4c) classes. These activation patterns can then be associated to the corresponding land-use maps shown in Fig. 4d.\nIn turn, one can compute the overall activation values for different urban class polygons, and see which urban structures are the most salient when predicting the poorest (Fig. 4e) and richest (Fig. 4f) classes. In what follows, we build on this idea by first providing a clear definition on how to measure correlations between saliency maps and urban classes and then probe the model’s learned features by evaluating the following two hypotheses:\nWe treat guided Grad-CAM maps as saliency maps describing pixels that are most determinant to the model’s prediction. In doing so, every pixel (i, j) in the saliency map of a given tile s ∈ S is described both by its guided Grad-CAM activation value \\({A}_{ij}^{s}\\) and the urban class u ∈ U set of urban classes of the polygon to which it belongs via the mapping f, so that ∀(i, j), f(i, j) ∈ U. Furthermore, we define the total activation for urban class u ∈ U in tile s ∈ S to be \\({A}_{u}^{s}={\\sum }_{(i,j)| f(i,j) = u}{A}_{i,j}\\) so that each sample s ∈ S is characterized by the tuple \\({({A}_{u}^{s})}_{u\\in U}\\) where \\({A}_{u}^{s}=\\backslash \\,\\text{NA}\\,\\) for all urban classes u ∈ U not contained in tile s.\n#### Univariate correlations\nTo examine the first hypothesis, we introduce the activation ratio for urban class u defined as the ratio between the sum of activations and the expected sum of activations in a random diffusion model concentrated by polygons of urban class u:\nwhere Fu is the fraction of area occupied by polygons of class. This metric actually describes how the pixels that are triggered the most for the prediction of a socioeconomic class are distributed across urban classes. For example, if no urban class contains more important features than others (H0), its expected value should be equal to one over all samples and for all urban classes contained in each sample. To obtain an aggregated view on this metric, we also computed the expected activation ratio for urban class u, \\({x}_{u}^{\\sigma }={{\\mathbb{E}}}_{\\sigma }({r}_{u}^{s})\\) on the set σ of aerial tiles predicted to be of low (\\({\\sigma }_{\\text{low}}=\\{s\\in S| {\\hat{y}}_{s}\\in \\{1,2\\}\\}\\)) or high (\\({\\sigma }_{\\text{high}}=\\{s\\in S| {\\hat{y}}_{s}\\in \\{3,4\\}\\}\\)) SES. Furthermore, to provide a more grounded comparison to the actual link between SES and urban patterns, we measured the empirical probabilities \\({\\hat{p}}_{u}^{\\,\\text{low}\\,}\\) and \\({\\hat{p}}_{u}^{\\,\\text{high}\\,}\\) that an aerial tile is of low or high SES given that it contains urban class u.\nWe now identify the salient visual features underlying the model’s predictions in terms of land use for samples predicted to be of low and high SES. In this analysis, we refer to an urban class u being over-activated if its expected activation ratio is greater than one, that is, \\({x}_{u}^{\\sigma }>1\\). Conversely, it is referred to as under-activated whenever its expected activation ratio is below one, that is, \\({x}_{u}^{\\sigma }<1\\). The results for Paris are shown in Fig. 5, while those of other cities are provided in Supplementary Figs. 7–9 and Extended Data Fig. 1. To ease the description in Fig. 5, we group each urban class into four categories: functional, infrastructure, nature or residential areas. Sample sizes for Fig. 5 are provided in Supplementary Tables 2 and 3.\nLooking at the spectrum of activations, certain structural elements tend to be shared across all trained models. Residential areas are over-activated when predicting both low and high SES, with some differences remaining between cities: for models trained to predict SES in Lyon, Lille and Marseille, residential areas tend to activate to a greater extent when predicting high SES, while residential areas appear over-activated in Paris and Nice when predicting low SES.\nInfrastructural areas, on the other hand, follow quite a different pattern as they tend to be over-activated for low SES class predictions. For example, railways and motorways are triggered in Lyon and Marseille, while features contained within roads are generally active for all cities.\nMore generally, analysis of the univariate correlations is evidence that CNN models trained to predict SES in urban areas are mostly reliant on features lying within residential areas to draw their predictions, while the degree to which other amenities are determinant in the prediction shifts from city to city, therefore invalidating H0.\nSignificantly different patterns are observed when looking at the empirical probabilities, \\({\\hat{p}}_{u}^{\\,\\text{low}\\,}\\) and \\({\\hat{p}}_{u}^{\\,\\text{high}\\,}\\) for Paris, as shown in Fig. 5b (and for other cities in the Supplementary Information). For example, while the type of residential areas contained in a given tile greatly varies between SES classes, low- and medium-density areas are more prone to being located within high-SES tiles in any city, while very-high-density areas are more likely to be contained within low-SES tiles. Furthermore, interesting patterns can be observed for other categories. For example, tiles containing motorways, railways and commercial/industrial units were mostly associated with low-SES areas, whereas those including natural areas were more likely to be of high SES.\n#### Bivariate correlations\nWe have so far established that the models we train to estimate SES derive their predictions mostly from features contained within residential areas. Even though the previous analysis sheds light on the features behind the models’ prediction for both low and high SES, it is still unclear how the importance of a residential area is affected by the fact it neighbours other types of urban class. To address this question, we mimic the former analysis and measure the expected coactivation ratio for pairs of urban classes u and v, as \\({c}_{u,v}^{\\sigma }={{\\mathbb{E}}}_{\\sigma ^{\\prime} }({r}_{u}^{s})/{{\\mathbb{E}}}_{\\sigma }({r}_{u}^{s})\\). Here, \\(\\sigma ^{\\prime} =\\{s\\in \\sigma | {A}_{u}^{s},{A}_{v}^{s}\\ne \\backslash \\,\\text{NA}\\,\\}\\) is the set of aerial tiles where urban class v is present alongside urban class u, thus \\(\\sigma ^{\\prime} \\subseteq \\sigma\\). Therefore, for a given urban class u and for any other urban class v, if H1 were to hold, the expected value of the activation ratio \\({{\\mathbb{E}}}_{\\sigma ^{\\prime} }({r}_{u}^{s})\\) should remain relatively unchanged, thus yielding a value for \\({c}_{u,v}^{\\sigma }\\) close to 1.\nAdditionally, to provide a grounded comparison to the actual data, we compute the co-appearance gains \\({\\hat{g}}_{(u,v)}^{\\,\\text{low}\\,}={\\hat{p}}_{u,v}^{\\,\\text{low}\\,}/{\\hat{p}}_{u}^{\\,\\text{low}\\,}\\) and \\({\\hat{g}}_{(u,v)}^{\\,\\text{high}\\,}={\\hat{p}}_{u,v}^{\\,\\text{high}\\,}/{\\hat{p}}_{u}^{\\,\\text{high}\\,}\\), respectively describing how much more/less likely an urban polygon of class u ∈ U is to be within a low or high SES tile given that it co-occurs with an urban polygon of class v ∈ U. Notice that for a pair of urban classes (u, v), neither coactivation ratios nor co-appearance gains are symmetrical. As we focus on residential areas, we constrain u to be from a very-low to very-high-density residential area (while omitting isolated residential areas because they are, by definition, less likely to co-occur with other urban classes). Coactivations and co-appearance gains for the city of Paris are shown in Fig. 6 (detailed results with explicit numerical values for all cities are provided in Supplementary Figs. 10–13). As before, we refer to an urban class u being over-coactivated in the presence of class v whenever its coactivation ratio is greater than one, that is, \\({c}_{u,v}^{\\sigma }>1\\).\nRegarding the coactivations (see definition above), most dense residential areas appear over-coactivated when they neighbour clearly non-residential areas. For example, except for low-SES predictions in Marseille, very-high-density residential areas are over-coactivated when occurring with natural areas or water bodies. This also extends to agricultural areas. Interestingly, these results are observed both for high- and low-SES predictions. Very-low-density areas, on the other hand, appear over-coactivated for low-SES predictions whenever they neighbour green urban areas or leisure facilities in Paris, Lyon and Marseille. Focusing solely on residential areas, with the exception of low-SES predictions in Marseille and Nice, we observe that, whenever residential areas of different densities co-occur with one another, no over-coactivation tends to be observed. We can therefore conclude that urban classes activate differently depending on the other classes with which they co-occur, thus disproving H1. For residential areas, these differences appear when they co-occur with non-residential ones, in which case they seem to be over-coactivated, implying that our models tend to disregard pixels contained in these non-residential urban classes in favour of those within residential areas.\nThis result is quite surprising, especially when we consider that the amenities that surround a given residential area are actually quite determinant in terms of the SES of the people inhabiting it. For example, when looking at the co-appearance gains in Fig. 6 and Supplementary Figs. 12 and 13, we see that low- and medium-density residential areas co-occurring next to railways and fast transit roads are more likely to be of low SES than when co-occurring with other urban classes. Similarly, very-high-density residential areas neighbouring water bodies or natural areas are more likely to be of high SES than otherwise.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR25",
+                "ref-CR20",
+                "ref-CR24",
+                "ref-CR26",
+                "ref-CR22",
+                "ref-CR14",
+                "ref-CR18",
+                "ref-CR12",
+                "ref-CR19",
+                "ref-CR21",
+                "ref-CR23"
+            ],
+            "figures": [
+                "figure-6",
+                "figure-5",
+                "figure-3",
+                "figure-2",
+                "figure-4",
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "The successful deployment of urban policies aimed at curbing social problems such as income inequality, segregation and poverty requires an updated and upscaled socioeconomic description of the city. Although nationwide censuses are meant to provide such information, their prohibitive cost makes their collection rather infrequent. This, in turn, induces a lag between the actual socioeconomic changes and when they are recorded in the data. As new sources of remotely sensed imagery become available, the opportunity to frequently complement the census with socioeconomic information inferred from these digital collections has never been greater. This has been recognized even by policymakers, who rely on these novel solutions more and more despite their inherit lack of interpretability.\nOur aim in this study has been to address this shortfall by (1) building a dataset from open data sources ready to be used for deep-learning-based urban solutions, (2) providing a CNN-based framework for predicting socioeconomic status from aerial imagery for five French cities, (3) establishing a method to interpret the learned activation patterns to infer SES by mapping them back onto the original aerial images and (4) examining the activations derived from these models in terms of land cover. In doing so, we have built a model able to generate socioeconomic predictions with great performance and high spatial resolution, serving as a baseline for future studies. More importantly, we have provided a way to interpret the activation patterns of trained CNN models in terms of land use. The results show that models trained to infer SES from aerial imagery seem to rely on features contained mostly within residential areas rather than non-residential ones. Finally, we have also observed that this pattern of activations differs significantly from the statistical information one can derive by joining land cover and socioeconomic information.\nNevertheless, the interpretation of activations provided here has to be carried out with caution, as it remains unclear how the choice of architecture, training parameters or the transferability of the learned patterns in space and time change the observed correlations. More generally, the degree to which our results might inform urban theory will depend on the scale at which city-wise phenomena are considered. Therefore, although our work yields little insight into the existence of global phenomena shaping the income distribution of a given city (mainly because of the within-city income quantilization performed), it does provide evidence of how the local assembling of visual urban patterns is correlated with the income of a given area.\nIndeed, our findings confirm earlier observations made across other metropolitan areas. For example, there is a considerable amount of research27,28,29 showing that socioeconomic factors shape the quantity and quality of green spaces and their ability to supply services by influencing management and planning decisions. In accordance, our analysis suggests that cells containing natural areas are more likely to be wealthy, and residential areas neighbouring natural areas are less likely to be poor. A similar claim could be made regarding the link between motorways and lower SES. In doing so, our work paves the way to develop more comprehensive urban theories where both urban perception and topology are used to understand the distribution of income within cities.\nNevertheless, relying on land-use maps to interpret our models is not without its challenges. Our framework relies on three layers of data, which might not be easily obtainable in developing countries, thus making other approaches more suitable for interpretable SES prediction13,15,15,16 in these settings. However, our work is particularly well placed to study urban poverty across a wide range of modern metropolises that are covered by either the present or similar datasets. Moreover, as higher-resolution satellite coverage becomes more available and computer vision advances for land cover segmentation become better performing, these datasets might become more prevalent in the future, further enhancing the applicability of this work. These caveats indicate the research avenues that need to be followed to explore different models, resolutions and interpretability techniques to reach the end goal of deploying these models with a more complete understanding of their inner mechanisms.\nOur research direction is nevertheless one of many, as new works are attempting to increase the interpretability of such systems by detecting individual objects in satellite images15 or relying on a different type of data altogether that lends itself better to be interpreted16, as well as increasing their transferability13,30.\nTo contribute to solving these challenges, we have made all our code and data pointers openly available to the community. We hope this proof of concept motivates further work in this field, where the identification of global patterns of poverty could have far-reaching impact by enabling the swift allocation of needed resources to the most vulnerable.",
+            "cites": [
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR28",
+                "ref-CR29",
+                "ref-CR16"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Broader impact",
+            "text": "Decision-makers are increasingly turning to technological solutions to inform or even devise their policies. The surge in demand for artificial intelligence (AI)-powered tools can be met as long as the models they rely on provide some accountable insights into their behaviour. Our paper addresses some of these issues by building a joint dataset and deep-learning framework where SES predictions from aerial images can be interpreted in terms of urban planning. In doing so, it provides firm ground on which to study how a city’s local structure can be informative about the distribution of wealth in it. Furthermore, as new deep-learning architectures continue to emerge, it paves the way to build more advanced systems for SES inference, which can then be applied, analysed and interpreted using a common framework. Finally, similarly to what is currently taking place in the medical imaging community, we believe our work can enable the design of more sophisticated urban solutions that are poised to integrate expert knowledge from urban planners as useful prior knowledge to feed to deep-learning models.\nThere are, however, many missing key elements that need to be resolved before we can take full advantage of these systems. Interpretation of deep-learning models is currently an area of active research where standard benchmarks for interpretability are yet to be found. Despite the abundance of available methods, it is still hard to judge what are the salient features in an image that would make a given model more interpretable. Our contribution takes a step in this direction by proposing a simple framework for the evaluation of interpretability in SES inference.\nMoreover, biases present in training data may lead models to generate prejudiced content. This is concerning, because model biases could harm people in lower socioeconomic classes in different ways by entrenching existing stereotypes and producing demeaning portrayals, for example. It is therefore inadvisable to think that such models can be used in their present state as tools to inform the allocation of resources to economically deprived communities.",
+            "cites": [],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "Our work was set up to address (1) the inference of the SES associated with a given location from its aerial image and (2) the derivation of saliency maps for these images to find correlations between the activation patterns of the models and the underlying urban structure.\n### Model description for SES inference\nOur model used the original EfficientNetB0 (EB0) architecture, consisting of a series of mobile inverted bottleneck blocks (MBConv) augmented with squeeze-and-excitation optimization. In addition, we added a max pooling layer to downsample the feature maps, followed by global average pooling and dense layers (Supplementary Fig. 1). To yield an estimated probability of income quantiles for each input, we followed the approach used by Suel et al.12, and connected the dense layer to a binomial layer taking a single p-value, interpreted as a probability with which Bernoulli trials are performed, as input and outputting the probabilities for each SES class \\(Y=[{\\hat{y}}_{1},...,{\\hat{y}}_{{n}_{\\rm{SES}}}]\\) with\nIn doing so, the model becomes sensitive to the ordinal relationship existing between quantiles. Training is then conducted with a classic categorical cross-entropy loss.\nIt is worth mentioning that the original EB0 model was trained on object-centric 224 × 224 × 3 images and its initial weights were therefore not conceived to handle 800 × 800 × 3 aerial images by default. However, because of the model’s fully convolutional nature, these weights could still be used to kickstart the training process. The model was thus trained by transfer learning from ImageNet and without freezing any layer. This of course assumes that the optimization procedure will more readily converge by adapting the weights from the optimal ones learned at lower resolutions than by actually learning them from scratch. This assumption is reasonable, because the first layers of the network will already be sensitive to low-level features.\nIn all our experiments, we augmented the data through random horizontal and vertical flipping of the input images. Images were scaled to 800 × 800 × 3 to avoid excessively decreasing the original image resolution while keeping the use of our computational resources economic. An Adam variant of stochastic gradient descent was used to learn the model weights. Initially, we started with a learning rate of 8 × 10−5 and decreased it by 90% every three epochs until the validation loss showed no improvement for more than 10 epochs. All networks were trained on either NVIDIA Tesla K20X or V100 graphics processing units for at most 30 epochs, with 2,500 samples in each epoch. Furthermore, within each city, we used fivefold cross-validation. In each fold, 80% of data were used for training the network and the remaining 20% were withheld. The training set was further randomly subdivided with a 75–25% split for inner-fold training and validation. Every reported performance metric was then averaged over all folds.\nFinally, while recent work has shown that the prediction on satellite images can be further improved by combining the original images with land-use masks31, we decided against this design for the sake of the interpretability of the model: by inputting land-use information into the model, the backtracking of the network’s activations performed by Grad-CAM would no longer be agnostic with respect to the urban topology of the image. This would then make salient features returned by this method no longer solely dependent on the image itself, but on the urban features as well, thus biasing the interpretation of the model’s activations overall (see next subsection).\n### Guided Grad-CAM\nGuided Grad-CAM follows the CNN’s gradient flow from individual output classes back onto the original image tile to establish an activation map, highlighting the input features most relevant to each CNN prediction. To generate such mappings, we first computed saliency maps via guided backpropagation, producing a pixel-space gradient map of predicted class scores with respect to the pixel intensities of the input image. This gradient visualization, though fine-grained, is known not to be class-discriminative. It can, however, be combined with Grad-CAM via pointwise multiplication to generate guided Grad-CAM (see Supplementary Information for more details). Grad-CAM itself results from the dot product of the feature map of the last convolutional layer and the partial derivatives of predicted class scores with respect to the neurons in the last convolutional layer. Incidentally, it is this last task that guided the design of our original socioeconomic inference model: because of its small number of parameters, EB0 allows for a fast computation of activation maps while still performing on par with more classical models (Supplementary Table 1). Furthermore, because of its fully convolutional nature, aerial images can be downsampled deeper within the network (at the global average pooling layer), rather than prior to being fed to the model, enabling us to obtain 800 × 800-pixel activation maps. This in turn grants us the possibility of taking full advantage of the high resolution of the aerial images (originally 1,000 × 1,000 pixels) and land-use maps to obtain a more fine-grained view of land-use-to-income correlations. All mappings were done in a cluster of 96 CPUs.\n### Reporting Summary\nFurther information on research design is available in the Nature Research Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR31",
+                "ref-CR12"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Sample of overlaid datasets (Paris).",
+            "figure-caption": "a, A 5 km × 5 km aerial tile (20 cm per pixel). b, Spatial distribution of income: each patch corresponds to a single 200 m × 200 m area with precise income data. c, Land cover map of the same area, where each colour represents a different urban class (not shown here for clarity). Sample sizes for predicted and true values per socioeconomic and urban class are provided in Supplementary Tables 2 and 3.",
+            "figure-link": "https://www.nature.com/articles/s42256-020-00243-5/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Observed performance of models trained to predict wealth in French cities: confusion matrices between predicted and observed SES classes.",
+            "figure-caption": "In each plot, the Pearson correlation coefficient (r, P < 0.01) as well as accuracy (Acc), mean average error (MAE) and accuracy within ±1 (Acc(±1)) classes are provided. All results are averaged over the k cross-validation folds (with k = 5).",
+            "figure-link": "https://www.nature.com/articles/s42256-020-00243-5/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Maps of observed and predicted average income for Paris.",
+            "figure-caption": "Each pixel represents a single 200 m × 200 m tile, with colour indicating the average SES of its inhabitants. Maps for the other cities are provided in Supplementary Section 3.",
+            "figure-link": "https://www.nature.com/articles/s42256-020-00243-5/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Model interpretability studies using guided Grad-CAM.",
+            "figure-caption": "a–c, From an aerial tile (a), guided Grad-CAM is used to compute activation maps for the poorest (b) and wealthiest (c) socioeconomic class. d–f, The activation maps are then overlaid with the tile’s tessellation into an urban classes polygon (d) to compute the normalized ratio of activations per polygon for the poorest (e) and wealthiest (f) class. UA, urban area; DUF, discontinuous urban fabric. Sample sizes for predicted and true values per socioeconomic and urban class are provided in Supplementary Tables 2 and 3.",
+            "figure-link": "https://www.nature.com/articles/s42256-020-00243-5/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Correlations between urban topology and SES in the city of Paris.",
+            "figure-caption": "a, Mean model activation rate per urban class with error bars denoting the bootstrapped 95% confidence interval for samples predicted, respectively, as low SES (blue) or high SES (red) by the model. The yellow line on the left plot indicates the random diffusion value (H0). b, Estimated probability of an urban polygon belonging to the bottom or top quintile of the income distribution, with error bars denoting the bootstrapped 95% confidence interval. Sample sizes for predicted and true values per socioeconomic and urban class are provided in Supplementary Tables 2 and 3.",
+            "figure-link": "https://www.nature.com/articles/s42256-020-00243-5/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: Heatmap representation of low/high SES coactivation and co-appearance gain values for the city of Paris.",
+            "figure-caption": "All residential areas of interest (rows) are listed on the left side of the map. The corresponding neighbouring areas (columns) are provided on the bottom of each map. Empty cell Aij with i ≠ j corresponds to cases where residential area i was not seen to neighbour urban area j in at least 10 samples. Numerical values are provided in Supplementary Figs. 10–13.",
+            "figure-link": "https://www.nature.com/articles/s42256-020-00243-5/figures/6"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "World Urbanization Prospects: The 2018 Revision (United Nations, 2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Glaeser, E. L. & Joshi-Ghani, A. The Urban Imperative: Towards Competitive Cities (Oxford Univ. Press, 2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Gourevitch, M. N., Athens, J. K., Levine, S. E., Kleiman, N. & Thorpe, L. E. City-level measures of health, health determinants, and equity to foster population health improvement: the city health dashboard. Am. J. Public Health 109, 585–592 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.2105%2FAJPH.2018.304903",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=City-level%20measures%20of%20health%2C%20health%20determinants%2C%20and%20equity%20to%20foster%20population%20health%20improvement%3A%20the%20city%20health%20dashboard&journal=Am.%20J.%20Public%20Health&doi=10.2105%2FAJPH.2018.304903&volume=109&pages=585-592&publication_year=2019&author=Gourevitch%2CMN&author=Athens%2CJK&author=Levine%2CSE&author=Kleiman%2CN&author=Thorpe%2CLE"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Revenus, Pauvreté et Niveau de Vie en 2014 (INSEE, 2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Seto, K. C. & Kaufmann, R. K. Modeling the drivers of urban land use change in the Pearl River Delta, China: integrating remote sensing with socioeconomic data. Land Econ. 79, 106–121 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F3147108",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Modeling%20the%20drivers%20of%20urban%20land%20use%20change%20in%20the%20Pearl%20River%20Delta%2C%20China%3A%20integrating%20remote%20sensing%20with%20socioeconomic%20data&journal=Land%20Econ.&doi=10.2307%2F3147108&volume=79&pages=106-121&publication_year=2003&author=Seto%2CKC&author=Kaufmann%2CRK"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Stead, D. Relationships between land use, socioeconomic factors and travel patterns in Britain. Environ. Planning B Planning Des. 28, 499–528 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1068%2Fb2677",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Relationships%20between%20land%20use%2C%20socioeconomic%20factors%20and%20travel%20patterns%20in%20Britain&journal=Environ.%20Planning%20B%20Planning%20Des.&doi=10.1068%2Fb2677&volume=28&pages=499-528&publication_year=2001&author=Stead%2CD"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Mirmoghtadaee, M. The relationship between land use, socio-economic characteristics of inhabitants and travel demand in new towns—a case study of Hashtgerd New Town (Iran). Int. J. Urban Sustain. Dev. 4, 39–62 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F19463138.2011.652359",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20relationship%20between%20land%20use%2C%20socio-economic%20characteristics%20of%20inhabitants%20and%20travel%20demand%20in%20new%20towns%E2%80%94a%20case%20study%20of%20Hashtgerd%20New%20Town%20%28Iran%29&journal=Int.%20J.%20Urban%20Sustain.%20Dev.&doi=10.1080%2F19463138.2011.652359&volume=4&pages=39-62&publication_year=2012&author=Mirmoghtadaee%2CM"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Kinzig, A. P., Warren, P., Martin, C., Hope, D. & Katti, M. The effects of human socioeconomic status and cultural characteristics on urban patterns of biodiversity. Ecol. Soc. 10, 23 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.5751%2FES-01264-100123",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effects%20of%20human%20socioeconomic%20status%20and%20cultural%20characteristics%20on%20urban%20patterns%20of%20biodiversity&journal=Ecol.%20Soc.&doi=10.5751%2FES-01264-100123&volume=10&publication_year=2005&author=Kinzig%2CAP&author=Warren%2CP&author=Martin%2CC&author=Hope%2CD&author=Katti%2CM"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Blumenstock, J. E. Fighting poverty with data. Science 353, 753–754 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aah5217",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fighting%20poverty%20with%20data&journal=Science&doi=10.1126%2Fscience.aah5217&volume=353&pages=753-754&publication_year=2016&author=Blumenstock%2CJE"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Llorente, A., Garcia-Herranz, M., Cebrian, M. & Moro, E. Social media fingerprints of unemployment. PLoS ONE 10, 1–13 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0128692",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20media%20fingerprints%20of%20unemployment&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0128692&volume=10&pages=1-13&publication_year=2015&author=Llorente%2CA&author=Garcia-Herranz%2CM&author=Cebrian%2CM&author=Moro%2CE"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Dong, L., Ratti, C. & Zheng, S. Predicting neighborhoods’ socioeconomic attributes using restaurant data. Proc. Natl Acad. Sci. USA (2019); https://doi.org/10.1073/pnas.1903064116",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Suel, E., Polak, J. W., Bennett, J. E. & Ezzati, M. Measuring social, environmental and health inequalities using deep learning and street imagery. Sci. Rep. 9, 6229 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-019-42036-w",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20social%2C%20environmental%20and%20health%20inequalities%20using%20deep%20learning%20and%20street%20imagery&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-019-42036-w&volume=9&publication_year=2019&author=Suel%2CE&author=Polak%2CJW&author=Bennett%2CJE&author=Ezzati%2CM"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Jean, C. et al. Combining satellite imagery and machine learning to predict poverty. Science 353, 790–794 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aaf7894",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Combining%20satellite%20imagery%20and%20machine%20learning%20to%20predict%20poverty&journal=Science&doi=10.1126%2Fscience.aaf7894&volume=353&pages=790-794&publication_year=2016&author=Jean%2CC"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Timnit, G. et al. Using deep learning and Google street view to estimate the demographic makeup of neighborhoods across the United States. Proc. Natl Acad. Sci. USA 114, 13108–13113 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1700035114",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Using%20deep%20learning%20and%20Google%20street%20view%20to%20estimate%20the%20demographic%20makeup%20of%20neighborhoods%20across%20the%20United%20States&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1700035114&volume=114&pages=13108-13113&publication_year=2017&author=Timnit%2CG"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Ayush, K., Uzkent, B., Burke, M., Lobell, D. & Ermon, S. Generating interpretable poverty maps using object detection in satellite images. In Proc. Twenty-Ninth Int. Joint Conf. Artificial Intelligence 4410–4416 (International Joint Conferences on Artificial Intelligence Organization, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Sheehan, E. et al. Predicting economic development using geolocated wikipedia articles. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (ACM, 2019); https://doi.org/10.1145/3292500.3330784",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Selvaraju, R. R. et al. Grad-cam: visual explanations from deep networks via gradient-based localization. In Proceedings of the IEEE International Conference on Computer Vision (ICCV) 618–626 (Springer, 2017); https://doi.org/10.1109/ICCV.2017.74",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Iizuka, T., Fukasawa, M. & Kameyama, M. Deep-learning-based imaging-classification identified cingulate island sign in dementia with Lewy bodies. Sci. Rep. 9, 8944 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-019-45415-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Deep-learning-based%20imaging-classification%20identified%20cingulate%20island%20sign%20in%20dementia%20with%20Lewy%20bodies&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-019-45415-5&volume=9&publication_year=2019&author=Iizuka%2CT&author=Fukasawa%2CM&author=Kameyama%2CM"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Tang, Z. et al. Interpretable classification of alzheimer’s disease pathologies with a convolutional neural network pipeline. Nat. Commun. 10, 2173 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-019-10212-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Interpretable%20classification%20of%20alzheimer%E2%80%99s%20disease%20pathologies%20with%20a%20convolutional%20neural%20network%20pipeline&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-019-10212-1&volume=10&publication_year=2019&author=Tang%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Données ORTHO HR (IGN, accessed 1 March 2020); https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#ortho-hr-sous-licence-ouverte",
+            "links": {}
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Données carroyées (INSEE, accessed 1 March 2020); https://www.insee.fr/fr/statistiques/4176290?sommaire=4176305",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Urban Atlas 2012 (Copernicus Land Monitoring Service, accessed 1 March 2020); https://land.copernicus.eu/local/urban-atlas/urban-atlas-2012",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Tan, M. & Le, Q. EfficientNet: rethinking model scaling for convolutional neural networks. In Proceedings of the 36th International Conference on Machine Learning Vol. 97, 6105–6114 (PMLR, 2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Hosny, A. et al. Deep learning for lung cancer prognostication: a retrospective multi-cohort radiomics study. PLoS Med. 15, 1–25 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pmed.1002711",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Deep%20learning%20for%20lung%20cancer%20prognostication%3A%20a%20retrospective%20multi-cohort%20radiomics%20study&journal=PLoS%20Med.&doi=10.1371%2Fjournal.pmed.1002711&volume=15&pages=1-25&publication_year=2018&author=Hosny%2CA"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Miao, Z. et al. Insights and approaches using deep learning to classify wildlife. Sci. Rep. 9, 8137 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-019-44565-w",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Insights%20and%20approaches%20using%20deep%20learning%20to%20classify%20wildlife&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-019-44565-w&volume=9&publication_year=2019&author=Miao%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Toda, Y. & Okura, F. How convolutional neural networks diagnose plant disease. Plant Phenomics (2019); https://doi.org/10.1155/2019/9237136",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Shanahan, D. F., Lin, B., Gaston, K., Bush, R. & Fuller, R. Socio-economic inequalities in access to nature on public and private lands: a case study from Brisbane, Australia. Landscape Urban Planning 130, 14–23 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landurbplan.2014.06.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Socio-economic%20inequalities%20in%20access%20to%20nature%20on%20public%20and%20private%20lands%3A%20a%20case%20study%20from%20Brisbane%2C%20Australia&journal=Landscape%20Urban%20Planning&doi=10.1016%2Fj.landurbplan.2014.06.005&volume=130&pages=14-23&publication_year=2014&author=Shanahan%2CDF&author=Lin%2CB&author=Gaston%2CK&author=Bush%2CR&author=Fuller%2CR"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Wilkerson, M. L. et al. The role of socio-economic factors in planning and managing urban ecosystem services. Ecosyst. Services 31, 102–110 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecoser.2018.02.017",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20socio-economic%20factors%20in%20planning%20and%20managing%20urban%20ecosystem%20services&journal=Ecosyst.%20Services&doi=10.1016%2Fj.ecoser.2018.02.017&volume=31&pages=102-110&publication_year=2018&author=Wilkerson%2CML"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "You, H. Characterizing the inequalities in urban public green space provision in Shenzhen, China. Habitat Int. 56, 176–180 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.habitatint.2016.05.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Characterizing%20the%20inequalities%20in%20urban%20public%20green%20space%20provision%20in%20Shenzhen%2C%20China&journal=Habitat%20Int.&doi=10.1016%2Fj.habitatint.2016.05.006&volume=56&pages=176-180&publication_year=2016&author=You%2CH"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Head, A., Manguin, M., Tran, N. & Blumenstock, J. E. Can human development be measured with satellite imagery? In Proc. Ninth International Conference on Information and Communication Technologies and Development, ICTD ’17 (Association for Computing Machinery, 2017); https://doi.org/10.1145/3136560.3136576",
+            "links": {}
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Audebert, N., Le Saux, B. & Lefevre, S. Joint learning from Earth observation and openstreetmap data to get faster better semantic maps. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops 1552–1560 (IEEE, 2017); https://doi.org/10.1109/CVPRW.2017.199",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Abitbol, J. L. Coding repository; https://github.com/jaklevab/SESEfficientCAM/.",
+            "links": {}
+        }
+    ]
+}

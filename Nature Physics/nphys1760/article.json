@@ -1,0 +1,891 @@
+{
+    "id": "nphys1760",
+    "journal": "Nature Physics",
+    "type": "article",
+    "title": "Modelling the scaling properties of human mobility",
+    "legal_title": "Modelling the scaling properties of human mobility",
+    "publish_time": "2010-09-12",
+    "pdf_link": "https://www.nature.com/articles/nphys1760",
+    "storage_path": "./Articles/Nature Physics/2010-article/nphys1760/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Individual human trajectories are characterized by fat-tailed distributions of jump sizes and waiting times, suggesting the relevance of continuous-time random-walk (CTRW) models for human mobility. However, human traces are barely random. Given the importance of human mobility, from epidemic modelling to traffic prediction and urban planning, we need quantitative models that can account for the statistical characteristics of individual human trajectories. Here we use empirical data on human mobility, captured by mobile-phone traces, to show that the predictions of the CTRW models are in systematic conflict with the empirical results. We introduce two principles that govern human trajectories, allowing us to build a statistically self-consistent microscopic model for individual human mobility. The model accounts for the empirically observed scaling laws, but also allows us to analytically predict most of the pertinent scaling exponents.",
+    "Extra_info": {
+        "Acknowledgements": {
+            "content": "We thank M. Gonzales, D. Wang, J. Bagrow and Z. Qu for discussions and comments on the manuscript. This work was supported by the James S. McDonnell Foundation 21st Century Initiative in Studying Complex Systems; NSF within the Information Technology Research (DMR-0426737), and IIS-0513650 programmes; the Defense Threat Reduction Agency Award HDTRA1-08-1-0027 and the Network Science Collaborative Technology Alliance sponsored by the US Army Research Laboratory under Agreement Number W911NF-09-2-0053.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsChaoming SongView author publicationsSearch author on:PubMed Google ScholarTal KorenView author publicationsSearch author on:PubMed Google ScholarPu WangView author publicationsSearch author on:PubMed Google ScholarAlbert-László BarabásiView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nC.S., T.K. and A-L.B. conceived and executed the research; C.S. and T.K. ran the numerical simulations. C.S., T.K. and P.W. analysed the empirical data.\n### Corresponding author\nCorrespondence to\n                Albert-László Barabási.",
+            "links": {
+                "View author publications": "/search?author=Albert-L%C3%A1szl%C3%B3%20Barab%C3%A1si",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Albert-L%C3%A1szl%C3%B3%20Barab%C3%A1si",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Albert-L%C3%A1szl%C3%B3%20Barab%C3%A1si%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Albert-László Barabási": "mailto:alb@neu.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing financial interests.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Information (PDF 597 kb)",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fnphys1760/MediaObjects/41567_2010_BFnphys1760_MOESM9_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Reprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Modelling%20the%20scaling%20properties%20of%20human%20mobility&author=Chaoming%20Song%20et%20al&contentID=10.1038%2Fnphys1760&copyright=Springer%20Nature%20Limited&publication=1745-2473&publicationDate=2010-09-12&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleSong, C., Koren, T., Wang, P. et al. Modelling the scaling properties of human mobility.\n                    Nature Phys 6, 818–823 (2010). https://doi.org/10.1038/nphys1760Download citationReceived: 04 May 2010Accepted: 26 July 2010Published: 12 September 2010Issue date: October 2010DOI: https://doi.org/10.1038/nphys1760Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/nphys1760?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Modelling the scaling properties of human mobility",
+                "description": "Individual human trajectories are characterized by fat-tailed distributions of jump sizes and waiting times, suggesting the relevance of continuous-time random-walk (CTRW) models for human mobility. However, human traces are barely random. Given the importance of human mobility, from epidemic modelling to traffic prediction and urban planning, we need quantitative models that can account for the statistical characteristics of individual human trajectories. Here we use empirical data on human mobility, captured by mobile-phone traces, to show that the predictions of the CTRW models are in systematic conflict with the empirical results. We introduce two principles that govern human trajectories, allowing us to build a statistically self-consistent microscopic model for individual human mobility. The model accounts for the empirically observed scaling laws, but also allows us to analytically predict most of the pertinent scaling exponents. Extensive data sets of trajectories of mobile-phone users provide a new basis for modelling human mobility. Random-walk models can capture some aspects, but go only so far. Now, two governing principles for human mobility are proposed, exploration and preferential return, paving the way to a more appropriate microscopic model for individual human motion.",
+                "datePublished": "2010-09-12T00:00:00Z",
+                "dateModified": "2010-09-12T00:00:00Z",
+                "pageStart": "818",
+                "pageEnd": "823",
+                "sameAs": "https://doi.org/10.1038/nphys1760",
+                "keywords": [
+                    "Physics",
+                    "general",
+                    "Theoretical",
+                    "Mathematical and Computational Physics",
+                    "Classical and Continuum Physics",
+                    "Atomic",
+                    "Molecular",
+                    "Optical and Plasma Physics",
+                    "Condensed Matter Physics",
+                    "Complex Systems"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fnphys1760/MediaObjects/41567_2010_BFnphys1760_Fig1_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fnphys1760/MediaObjects/41567_2010_BFnphys1760_Fig2_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fnphys1760/MediaObjects/41567_2010_BFnphys1760_Fig3_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fnphys1760/MediaObjects/41567_2010_BFnphys1760_Fig4_HTML.jpg"
+                ],
+                "isPartOf": {
+                    "name": "Nature Physics",
+                    "issn": [
+                        "1745-2481",
+                        "1745-2473"
+                    ],
+                    "volumeNumber": "6",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Chaoming Song",
+                        "affiliation": [
+                            {
+                                "name": "Center for Complex Network Research, Biology and Computer Science, Northeastern University",
+                                "address": {
+                                    "name": "Department of Physics, Center for Complex Network Research, Biology and Computer Science, Northeastern University, Boston, Massachusetts 02115, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Center for Cancer Systems Biology, Dana Farber Cancer Institute",
+                                "address": {
+                                    "name": "Center for Cancer Systems Biology, Dana Farber Cancer Institute, Boston, Massachusetts 02115, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Tal Koren",
+                        "affiliation": [
+                            {
+                                "name": "Center for Complex Network Research, Biology and Computer Science, Northeastern University",
+                                "address": {
+                                    "name": "Department of Physics, Center for Complex Network Research, Biology and Computer Science, Northeastern University, Boston, Massachusetts 02115, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Center for Cancer Systems Biology, Dana Farber Cancer Institute",
+                                "address": {
+                                    "name": "Center for Cancer Systems Biology, Dana Farber Cancer Institute, Boston, Massachusetts 02115, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Pu Wang",
+                        "affiliation": [
+                            {
+                                "name": "Center for Complex Network Research, Biology and Computer Science, Northeastern University",
+                                "address": {
+                                    "name": "Department of Physics, Center for Complex Network Research, Biology and Computer Science, Northeastern University, Boston, Massachusetts 02115, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Center for Cancer Systems Biology, Dana Farber Cancer Institute",
+                                "address": {
+                                    "name": "Center for Cancer Systems Biology, Dana Farber Cancer Institute, Boston, Massachusetts 02115, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Albert-László Barabási",
+                        "affiliation": [
+                            {
+                                "name": "Center for Complex Network Research, Biology and Computer Science, Northeastern University",
+                                "address": {
+                                    "name": "Department of Physics, Center for Complex Network Research, Biology and Computer Science, Northeastern University, Boston, Massachusetts 02115, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Center for Cancer Systems Biology, Dana Farber Cancer Institute",
+                                "address": {
+                                    "name": "Center for Cancer Systems Biology, Dana Farber Cancer Institute, Boston, Massachusetts 02115, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Brigham and Women’s Hospital, Harvard Medical School",
+                                "address": {
+                                    "name": "Department of Medicine, Brigham and Women’s Hospital, Harvard Medical School, Massachusetts 02115, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "alb@neu.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": null,
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Physics",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/nphys1760"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Chaoming Song",
+                            "Tal Koren",
+                            "Pu Wang",
+                            "Albert-László Barabási"
+                        ],
+                        "publishedAt": 1284249600,
+                        "publishedAtString": "2010-09-12",
+                        "title": "Modelling the scaling properties of human mobility",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": ""
+                    },
+                    "journal": {
+                        "pcode": "nphys",
+                        "title": "nature physics",
+                        "volume": "6",
+                        "issue": "10",
+                        "id": 41567,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "download-issue-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Modelling the scaling properties of human mobility",
+            "dc.source": "Nature Physics 2010 6:10",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2010-09-12",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2010 Springer Nature Limited",
+            "dc.rights": "2010 Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Individual human trajectories are characterized by fat-tailed distributions of jump sizes and waiting times, suggesting the relevance of continuous-time random-walk (CTRW) models for human mobility. However, human traces are barely random. Given the importance of human mobility, from epidemic modelling to traffic prediction and urban planning, we need quantitative models that can account for the statistical characteristics of individual human trajectories. Here we use empirical data on human mobility, captured by mobile-phone traces, to show that the predictions of the CTRW models are in systematic conflict with the empirical results. We introduce two principles that govern human trajectories, allowing us to build a statistically self-consistent microscopic model for individual human mobility. The model accounts for the empirically observed scaling laws, but also allows us to analytically predict most of the pertinent scaling exponents. Extensive data sets of trajectories of mobile-phone users provide a new basis for modelling human mobility. Random-walk models can capture some aspects, but go only so far. Now, two governing principles for human mobility are proposed, exploration and preferential return, paving the way to a more appropriate microscopic model for individual human motion.",
+            "dc.identifier": "doi:10.1038/nphys1760",
+            "dc.creator": "Barabási, Albert-László",
+            "dc.subject": "Complex Systems",
+            "prism.issn": "1745-2481",
+            "prism.publicationName": "Nature Physics",
+            "prism.publicationDate": "2010-09-12",
+            "prism.volume": "6",
+            "prism.number": "10",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "818",
+            "prism.endingPage": "823",
+            "prism.copyright": "2010 Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/nphys1760",
+            "prism.doi": "doi:10.1038/nphys1760",
+            "citation_pdf_url": "https://www.nature.com/articles/nphys1760.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/nphys1760",
+            "citation_journal_title": "Nature Physics",
+            "citation_journal_abbrev": "Nature Phys",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "1745-2481",
+            "citation_title": "Modelling the scaling properties of human mobility",
+            "citation_volume": "6",
+            "citation_issue": "10",
+            "citation_publication_date": "2010/10",
+            "citation_online_date": "2010/09/12",
+            "citation_firstpage": "818",
+            "citation_lastpage": "823",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/nphys1760",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/nphys1760&api_key=",
+            "citation_reference": "citation_journal_title=Hum. Ecol.; citation_title=Lévy flights in Dobe Ju/’hoansi foraging patterns; citation_author=CT Brown, LS Liebovitch, R Glendon; citation_volume=35; citation_publication_date=2007; citation_pages=129-138; citation_doi=10.1007/s10745-006-9083-4; citation_id=CR40",
+            "citation_author": "Barabási, Albert-László",
+            "citation_author_institution": "Department of Medicine, Brigham and Women’s Hospital, Harvard Medical School, Massachusetts 02115, USA",
+            "description": "Individual human trajectories are characterized by fat-tailed distributions of jump sizes and waiting times, suggesting the relevance of continuous-time random-walk (CTRW) models for human mobility. However, human traces are barely random. Given the importance of human mobility, from epidemic modelling to traffic prediction and urban planning, we need quantitative models that can account for the statistical characteristics of individual human trajectories. Here we use empirical data on human mobility, captured by mobile-phone traces, to show that the predictions of the CTRW models are in systematic conflict with the empirical results. We introduce two principles that govern human trajectories, allowing us to build a statistically self-consistent microscopic model for individual human mobility. The model accounts for the empirically observed scaling laws, but also allows us to analytically predict most of the pertinent scaling exponents. Extensive data sets of trajectories of mobile-phone users provide a new basis for modelling human mobility. Random-walk models can capture some aspects, but go only so far. Now, two governing principles for human mobility are proposed, exploration and preferential return, paving the way to a more appropriate microscopic model for individual human motion.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Modelling the scaling properties of human mobility",
+            "twitter:description": "Nature Physics - Extensive data sets of trajectories of mobile-phone users provide a new basis for modelling human mobility. Random-walk models can capture some aspects, but go only so far. Now,...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnphys1760/MediaObjects/41567_2010_BFnphys1760_Fig1_HTML.jpg",
+            "DOI": "10.1038/nphys1760",
+            "size": "132792",
+            "journal_id": "41567"
+        },
+        "canonical_url": "https://www.nature.com/articles/nphys1760",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Uncovering the statistical patterns that characterize the trajectories humans follow during their daily activity is not only a major intellectual challenge, but also of importance for public health1,2,3,4,5, city planning6,7,8, traffic engineering9,10 and economic forecasting11. For example, quantifiable models of human mobility are indispensable for predicting the spread of biological pathogens1,2,3,4,5 or mobile-phone viruses12.\nIn the past few years the availability of mobile-phone records, global-positioning-system data and other data sets capturing aspects of human mobility have given a new empirically driven momentum to the subject. Although the available data sets significantly differ in their reach and resolution, the results seem to agree on a number of quantitative characteristics of human mobility. For example, both dollar-bill tracking13 and mobile-phone data14 indicate that the aggregated jump-size (Δr) and waiting-time (Δt) distributions characterizing human trajectories are fat-tailed, that is, P(Δr)∼|Δr|−1−α and P(Δt)∼|Δt|−1−β with 0<α≤2 and 0<β≤1, where Δr denotes the distances covered by an individual between consecutive sightings and Δt is the time spent by an individual at the same location. These findings suggest that human trajectories are best described as Lévy flights or CTRWs, a much studied modelling framework in the random-walk community13,15,16,17,18,19,20.\nThe purpose of the present Article is to show, using a series of direct measurements, that human trajectories do follow several highly reproducible scaling laws. Yet, many of these laws are either not explained by the CTRW model, or they are in direct contradiction with the CTRW predictions, indicating the lack of a modelling framework capable of capturing the basic features of human mobility. To explain the origin of the observed scaling laws, we introduce two principles that govern human mobility, serving as the starting point of a statistically acceptable microscopic model for individual human motion. We show that the model can account for the empirically observed scaling laws and allows us to analytically predict the pertinent scaling exponents.",
+            "cites": [
+                "ref-CR18",
+                "ref-CR7",
+                "ref-CR19",
+                "ref-CR17",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR13",
+                "ref-CR16",
+                "ref-CR2",
+                "ref-CR15",
+                "ref-CR14",
+                "ref-CR3",
+                "ref-CR4",
+                "ref-CR6",
+                "ref-CR12",
+                "ref-CR11",
+                "ref-CR20",
+                "ref-CR10",
+                "ref-CR8",
+                "ref-CR5"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Scaling anomalies",
+            "text": "We used two data sets to uncover the patterns characterizing individual mobility. The first data set (D1) captures for a one-year period the time-resolved trajectories of three million anonymized mobile-phone users. Each time a user initiated or received a phone call the tower that routed the communication was recorded for billing purposes. Thus, the user’s location was recorded with the resolution that is determined by the local tower density. The reception area of a tower varies from as little as a few hundred metres in metropolitan areas to a few kilometres in rural regions, controlling our uncertainty about the user’s precise location. However, as here we focus on the asymptotic scaling properties of human trajectories, these short distance uncertainties are not expected to affect our results (see Supplementary Section S2). The second data set (D2) uses the anonymized location record of 1,000 users who signed up for a location-based service; thus, their location was recorded every hour for a two-week period. As a first step we calculated the displacement at hourly intervals, finding P(Δr)∼|Δr|−1−α with α=0.55±0.05 and an expected cutoff at Δr∼100 km, corresponding to the distance people could reasonably cover in an hour. We used the D2 data set to measure P(Δt), where the waiting time Δt is defined as the time a user spent at one location. We find that P(Δt) follows P(Δt)∼|Δt|−1−β with β=0.8±0.1 and a cutoff of Δt=17 h, probably capturing the typical awake period of an individual. Taken together, the fat-tailed natures of P(Δr) and P(Δt) suggest that humans follow a CTRW during their daily mobility. Next we discuss three empirical observations that indicate that human trajectories follow reproducible scaling laws, but also illustrate the shortcoming of the CTRW model in capturing the observed scaling properties.\n(A) The number of distinct locations S(t) visited by a randomly moving object is expected to follow21,22,23\nwhere μ=1 for Lévy flights24 and μ=β for CTRW. Interestingly, our measurements indicate that for humans μ=0.6±0.02 (see Fig. 1a), smaller than the CTRW prediction of β=0.8±0.1. The fact that μ<1 indicates a slow-down at large timescales, a decreasing tendency of the user to visit previously unvisited locations.\n(B) Visitation frequency: the probability f of a user to visit a given location is expected to be asymptotically () uniform everywhere (f∼const.) for both Lévy flights and CTRWs. In contrast, the visitation patterns of humans is rather uneven, so that the frequency f of the kth most visited location follows Zipf’s law14\nwhere ζ≈1.2±0.1 (see Fig. 1b). This suggests that the visitation frequency distribution follows P(f)∼f−(1+1/ζ).\n(C) Ultraslow diffusion: the CTRW model predicts that the mean square displacement (MSD) asymptotically follows 〈Δx2(t)〉∼tν with ν=2β/α≈3.1. As both P(Δr) and P(Δt) have cutoffs, asymptotically the MSD should converge to a Brownian behaviour with ν=1. However, this convergence is too slow25 to be relevant in our observational time frame. Either way, CTRW predicts that the longer we follow a human trajectory, the further it will drift from its initial position. Yet, humans have a tendency to return home on a daily basis, suggesting that simple diffusive processes, which are not recurrent in two dimensions, do not offer a suitable description of human mobility. Indeed, our measurements indicate an ultraslow diffusive process, in which the MSD seems to follow a slower than logarithmic growth (see Fig. 1c and ref. 14). Such ultraslow growth of the MSD is rare in diffusion, having been observed before only in a few disordered systems, from glasses (for example the Sinai model26) to polymers27 and iterated maps28.\nOn one hand, the findings summarized in A–C indicate that individual human mobility does follow reproducible scaling laws, the origins of which remain to be uncovered. Yet, they also document systematic deviations from the predictions of the Lévy-flight- or CTRW-based null models. The main purpose of this Article is to offer a model that not only explains the origin of anomalies A–C, but also leads to a self-consistent statistical model of individual human mobility.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR26",
+                "ref-CR14",
+                "ref-CR24",
+                "ref-CR28",
+                "ref-CR23",
+                "ref-CR21",
+                "ref-CR27",
+                "ref-CR22"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Generic mechanisms and individual mobility model",
+            "text": "As we build our model, we will take for granted the observations that the jump-size P(Δr) and the waiting-time P(Δt) distributions characterizing individual human trajectories are heavy-tailed, a phenomenon addressed by a series of models29,30,31,32,33. Yet, P(Δr) and P(Δt) alone are not sufficient to explain scaling laws A–C. We propose that the main reason for this discrepancy is that two generic mechanisms, exploration and preferential return, both unique to human mobility, are missing from the traditional random-walk (Lévy-flight or CTRW) models. (i) Exploration: random-walk models assume that the next diffusive step is independent of the previously visited locations. In contrast, the scaling law (1) indicates that the tendency to explore additional locations decreases with time. Indeed, the longer we observe a person’s trajectory, the harder it is to find locations in the vicinity of their home/workplace that they have not yet visited. (ii) Preferential return: in contrast with the random-walk-based models for which the visitation probability is random and uniform in space, humans show significant propensity to return to the locations they visited frequently before, such as their home or workplace.\nIn what follows we present an individual-mobility model that incorporates ingredients (1) and (2), showing that they are sufficient to explain anomalies A–C. The model, intended to describe the trajectory of an individual, assumes that at time t=0 the individual is at some preferred location (see Fig. 2). After a waiting time Δt chosen from the P(Δt) distribution, the individual will change his/her location. We assume that the individual has two choices. (i) Exploration: with probability\nthe individual moves to a new location (different from the S locations he/she visited before). The distance Δr that he/she covers during this exploratory jump is chosen from the P(Δr) distribution and his/her direction is selected to be random. As the individual moves to this new position, the number of previously visited locations increases from S to S+1. (ii) Preferential return: with the complementary probability Pret=1−ρ S−γ the individual returns to one of the S previously visited locations. In this case, the probability Πi to visit location i is chosen to be proportional to the number of visits the user previously had to that location. That is, we assume that\nan assumption known as preferential attachment or cumulative advantage in network and social science34,35,36,37,38.",
+            "cites": [
+                "ref-CR34",
+                "ref-CR31",
+                "ref-CR35",
+                "ref-CR30",
+                "ref-CR33",
+                "ref-CR36",
+                "ref-CR32",
+                "ref-CR37",
+                "ref-CR29",
+                "ref-CR38"
+            ],
+            "figures": [
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Model predictions",
+            "text": "The individual-mobility model has two parameters, 0<ρ≤1 and γ≥0, both of which control the user’s tendency to explore a new location during his/her next move versus returning to a previously visited location. The numerical values of these two parameters will be determined later from the empirical data.\nTo explain the origin of the anomaly A, we note that in the individual-mobility model the probability that an individual moves to a new location is proportional to S−γ, that is, dS/dn∝S−γ, predicting S∼n1/(1+γ), where n is the total number of discrete moves the individual had up to time t. For a fat-tailed waiting-time distribution P(Δt)∼|Δt|−1−β the time t scales with the number of jumps n as t∼n1/β (Supplementary Section S4A), showing that S(t) follows (1) with the exponent\nTo verify the validity of this prediction for the individual-mobility model, in Fig. 1d we calculated S(t) numerically for different values of β, finding that the asymptotic scaling exponent of S(t) follows equation (5). Therefore, we predict that μ≤β, in line with the empirical data.\nTo account for anomaly B we notice that mi, the number of visits to location i, increases as dmi/dn=Πi(1−Pnew), where Πi=fi=mi/Σimi(n) is the probability to return to the location i during step n. When γ>0, in the limit of  the probability to explore a new location is negligible compared with the return visits; thus, asymptotically we have dmi/dn=mi/Σimi(n). As Σimi(n)=n, we obtain mi(n)=n/ni, where ni denotes the jump during which location i was first visited, at which moment mi(ni)=1. Owing to preferential return (4), the earlier a location is visited, the more it is visited later. Thus, the ranking ki for location i coincides with the order in which it was first visited, that is, ki=S(ni)∼ni1/(1+γ). As the visitation frequency fi is proportional to mi(n)=n/ni, we have fk∼k−ζ with the exponent ζ=1+γ. In general, we find (Supplementary Section S4C)\nNote that for γ=0 and ρ=1 equation (6) predicts ζ=0, indicating, as expected, that the visitation becomes homogeneous in the CTRW limit.\nTo test the validity of prediction (6), in Fig. 1e we measured fk for different values of γ and ρ in the individual-mobility model, finding that the numerically observed scaling behaviour is in agreement with equation (6). The model also suggests that the observed Zipf’s law is rooted mainly in the preferential return (4). Indeed, if we calculate fk for a ‘democratic’ model in which Πi is independent of fi (that is, the individual visits the previously visited locations with the same likelihood), Zipf’s law vanishes (see Fig. 1e).\nTo understand the origin of anomaly C, we note that the number of jumps to new locations l relates to the displacement Δr as Δr∼l1/α (Supplementary Section S4A), suggesting that , where P(l|S) is the probability that the Sth location is l steps away from the starting point of the individual. Note that l is different from n, as l counts only moves that result in a jump to some new location, so l≤n. P(l|S) follows the recurrent equation , where each term within the sum represents a jump from the kth location to the Sth location. Here fis is the probability of visitation of the kth location given that the total number of locations visited previously is S−1, and is well approximated by Zipf’s law (2) fks≈(ζ−1)/(1−S1−ζ)k−ζ. By applying this approximation (see Supplementary Section S4D), we find\nwhich relates the MSD to the number of distinct locations S visited by the user. In Fig. 1c,f, we plot the MSD versus S for different values of ζ, finding that equation (7) agrees well with the numerical results. Furthermore, in the inset of Fig. 1c we plot the prediction (7) against the empirical data, again with excellent agreement.\nTo determine the explicit time dependence of MSD, we use Equations (1) and (5) to predict three possible scaling regimes for large t (or S). (a) For ζ<1 (γ=0 and ρ<1), S1−ζ diverges and thus the MSD grows with time as (log t)2/α. In this regime the visitation frequency P(f)∼f−(1+1/ζ) has an exponent greater than two and thus the diffusion is dominated by the infrequently visited locations. (b) For ζ=1, we have (ζ−1)/(1−S1−ζ)=log(S), and thus the MSD ∼log(log(t))2/α. (c) For ζ>1, S1−ζ approaches zero for large S and thus the MSD is expected to saturate. This is because P(f) decays with an exponent that has a value of less than two and thus the individual’s motion is dominated by his/her most visited location.\nTo compare further the individual-mobility model with the empirical data, we first need to test the validity of hypotheses (i) and (ii) as formulated by equations (3) and (4). To do this, we used the D2 data set and measured the rate at which the users visit new locations (Fig. 3a). We find that Pnew∝S−γ with γ=0.21±0.02, a result that not only confirms the validity of hypothesis (i), but also provides the numerical value of the exponent γ. To test the validity of hypothesis (ii), in Fig. 3b we plot the probability Π that a user returns to a previous location as a function of the previous visitation frequency f of this location. The plot indicates that Π=f, confirming the validity of preferential return (4). Furthermore, the ratio between Pnew and S−γ measures the parameter ρ for each user, allowing us to plot P(ρ) for our user group, finding that P(ρ) approximately follows a normal distribution with the mean at 〈ρ〉≈0.6. Note that the scaling properties of the individual-mobility model do not depend on ρ for γ>0; thus, although the precise value of ρ is important to parameterize the model, it does not affect the scaling laws discussed in A–C.\nFinally, to match our model-based prediction with the empirical data, it is necessary to inspect the relationship between the exponents characterizing the model and those observed for real human mobility. In this respect our starting point is the set of three independently determined exponents α=0.55±0.05, β=0.8±0.1 and γ=0.21±0.02. Equation (5) predicts μ=0.67±0.07, in agreement within the error bar with the empirical value μ=0.6±0.02 (Fig. 1a). Furthermore, equation (6) predicts ζ=1.21±0.02, again in excellent agreement with the empirical value ζ=1.2±0.1. Moreover, equations (5) and (6) predict the existence of the scaling relationship β=μ ζ between three empirical exponents (valid for ζ>1), which is again consistent with the empirical data (Fig. 1b). Finally, for anomaly C the analytical predictions offer three different scaling regimes, determined by the value of ζ. The empirical data indicate the Zipf exponent ζ=1.2±0.1, for which we predict a saturation in the MSD. To understand how the system reaches saturation, we expand ζ around ζ=1, finding that in the transient regime the MSD scales as (loglog(t))2/α. This prediction is valid only if S(t)<exp(1/(ζ−1))≈148, which is true for 89% of the users that have S<148 over the one-year period. This prediction is consistent with the empirical data shown in Fig. 1c, documenting a slower than logarithmic growth of the MSD. Note that in the empirical data we do not observe the predicted saturation of the MSD, potentially owing to the finite time frame (1 year) used in the study. To estimate the saturation time, we extrapolated equation (1) up to S(ts)=148 for the empirical data, predicting that the saturation can be reached only after ts=5 years, beyond our data horizon. Note that the MSD saturation could also be rooted in the finite size of the country (that is, the finite number of towers a user can visit). Yet, scaling arguments (see Supplementary S6) indicate that the saturation time for S because of the finite size effects is approximately 10,000 years. Therefore, the saturation of MSD is rooted in the need to return to the most visited locations, forcing the new locations explored by a user to be close to the user’s most visited location.\nAnother key empirical observation is population heterogeneity: the radius of gyration rg of the trajectory of different individuals is found to follow a fat-tailed distribution14 (see Fig. 4a). As we show in Fig. 4c, our model can reproduce this feature as well, indicating that the fat-tailed P(rg) is a consequence of the inherent fluctuations present within the model and it is rooted in the P(Δr) distribution. Indeed, in Supplementary Section S5 we show that the tails of P(rg) and P(Δr) are expected to share the same exponent 1+α. Furthermore, we find that the model reproduces not only the P(rg) distribution, but the ultraslow growth of rg as well (Fig. 4d), in agreement with the empirical data (Fig. 4b).\nIt is important to note that in contrast with the traditional random-walk, Lévy-flight or CTRW models, our model is dynamically quenched. That is, after an individual explores a new location, he/she will have an increasing tendency to return to it in the future, generating a recurrent and relatively stable mobility pattern for each individual. In principle one could also consider a model that assigns a quenched visitation variable to each site. Our approach not only avoids the need to parameterize such a model, but also achieves the trajectory selection dynamically, through its self-quenching character.\nWe also note that the model is designed to capture the long-term spatial and temporal scaling patterns; thus, in its present from it does not reproduce the short-term temporal order and correlations potentially present in individual mobility. Our choice to focus the asymptotic properties is driven not only by theoretical arguments (we aim to reproduce the universal and not the transient patterns), but also by practical considerations: many human-mobility-driven processes, from epidemic spreading to city planning, are driven by the asymptotic characteristics of human mobility. To achieve a better short-range temporal fidelity, we need to incorporate the periodic modulations that are known to characterize human mobility (there is a 24 hour and 7 day periodicity in human mobility; individuals are less likely to change locations during the night and are quite mobile in the morning and late afternoon, see Supplementary S7) as well potential correlations in spatial mobility (that is, if location B is between locations A and C in space, the likely order of visitation will be ABC or CBA). These correlations further constrain the human trajectories, being partly responsible for the high degree of predictability characterizing individual mobility patterns 39. Finally, we note that the dynamical quenching and the recurrent behaviour are unique to human trajectories, and do not restrict banknote diffusion or foraging behaviour13,33,40. As such, our model represents an improvement over the CTRW/Lévy-flight models, as it is adapted to capture the specifics of human mobility. By reproducing the basic scaling laws characterizing human trajectories, the present model offers a conceptual framework that has the flexibility to absorb future extensions, potentially improving the temporal fidelity of its short-term dynamics as well.",
+            "cites": [
+                "ref-CR14",
+                "ref-CR33",
+                "ref-CR13",
+                "ref-CR39",
+                "ref-CR40"
+            ],
+            "figures": [
+                "figure-4",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Methods",
+            "text": "### MSD.\nOwing to the significant population heterogeneity of P(rg), MSD averaged over all users diverges and thus is ill-defined. We therefore grouped users on the basis of their rg, guaranteeing that the MSDs defined within groups do not diverge. We calibrate t=0 to correspond to the moment when an individual leaves his/her most visited location. To compare the empirical measure with the analytical prediction (7) directly, the displacement is counted only when the individual explores a new site. This methodology does not affect the scaling behaviour of regular random-walk-based models.\n### Number of distinct locations (S).\nSimilar to the MSD, S(t) is the average over different rg groups. Given the large population in our data set, the standard error of the mean is quite small and the error bar in Fig. 1a is smaller than the symbols. The error bar in μ mainly comes from fitting of the power law, where the correlation coefficient r=0.998 and the p value associated with the fit is less than 10−6.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Figure 1: Empirical results versus the predictions of the individual-mobility model.",
+            "figure-caption": "a, The number of visited distinct locations S(t) versus time for different rg groups, indicating that S(t) grows as tμ, with μ≈0.6±0.02 (straight line). The dashed line represents the prediction of CTRW S(t)∼tβ with β≈0.8. b, Zipf’s plot showing the visitation frequency fk of the kth most visited location of a user for different S values. The empirical data is well approximated by fk∼k−ξ, where ξ≈1.2±0.1. c, Time evolution of the MSD (〈Δx2〉α/2) in a log–log scale for user groups with different radii of gyration rg, where the MSDs are normalized by their value at t=1 year. The orange curve represents the analytical prediction for the asymptotic behaviour. The grey line represents the analytical prediction of CTRW, 〈Δx2〉α/2∼tβ with β=0.8. Inset: The normalized MSD versus S for different rg groups, where the black curve represents the analytical prediction. d, The number of visited distinct locations S(t) versus time in a log–log plot, as predicted by the individual-mobility model with different β values (α=0.5, γ=0.2 and ρ=0.1). The straight lines represent the analytical prediction. Inset: The individual-mobility model prediction for different ρ values (α=0.5, β=0.6 and γ=0.2). e, Zipf’s plot showing the visitation frequency fk in the individual-mobility model with different γ and ρ values (α=0.5, β=0.6). The straight lines show the analytical prediction. The grey line corresponds to a democratic model in which preferential attachment is absent. f, The MSD (〈Δx2〉α/2) versus the number of visited distinct locations S(t) in a log–linear scale. The symbols correspond to simulations with different ξ values, where ξ=0 corresponds to the democratic model. The solid lines represent the analytical prediction.",
+            "figure-link": "https://www.nature.com/articles/nphys1760/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Figure 2: Schematic description of the individual-mobility model.",
+            "figure-caption": "Starting at time t from the configuration shown in the left panel, indicating that the user visited previously S=4 locations with frequency fi that is proportional to the size of circles drawn at each location, at time t+Δt (with Δt drawn from the P(Δt) fat-tailed distribution) the user can either visit a new location at distance Δr from his/her present location, where Δr is chosen from the P(Δr) fat-tailed distribution (exploration; upper panel), or return to a previously visited location with probability Pret=1−ρ S−γ, where the next location will be chosen with probability Πi=fi (preferential return; lower panel).",
+            "figure-link": "https://www.nature.com/articles/nphys1760/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Figure 3: Testing the hypotheses behind the individual-mobility model.",
+            "figure-caption": "a, The changes in the number of distinct locations ΔS/〈ΔS〉 visited by the users versus the number of distinct locations S visited previously, indicating that Pnew∼ΔS∼S−γ with γ=0.21±0.02. The error bars correspond to the standard error of the mean. b, The probability to return to a previously visited location Π as a function of the previous frequency of visitation f, offering evidence for preferential attachment Π=f. The error bars correspond to the standard error of the mean. c, The probability density function P(ρ) for the user group, finding that P(ρ), where ρ is the model parameter (see Fig. 2), approximately follows a normal distribution with mean ρ≈0.6.",
+            "figure-link": "https://www.nature.com/articles/nphys1760/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Figure 4: Population heterogeneity and ultraslow growth of the radius of gyration.",
+            "figure-caption": "a, The P(rg) distribution of the radius of gyration rg for the mobile-phone users at different moments of time. The straight line, shown as a guide to the eye, represents a power-law decay with the exponent 1+α≈1.55. b, The time evolution of the radius of gyration rg(t) for the mobile-phone users, where rg(t) is normalized by its maximal value rg(T) at time T=1 year. The orange curve is a guide to the eye, following (log t)2. c, The distribution of the radius of gyration P(rg) for the individual-mobility model using α=0.75, β=0.6, γ=0.2 and ρ=0.1, the values found to be of direct relevance to human mobility. d, The time evolution of the radius of gyration rg(t) for the individual-mobility model with the same parameters as in c, where rg(t) is normalized by its value rg(T) at T=106. The green curve is a guide to the eye, following (log t)2.",
+            "figure-link": "https://www.nature.com/articles/nphys1760/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Vespignani, A. Predicting the behavior of techno-social systems. Science 325, 425–428 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1171990",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009Sci...325..425V",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2548304",
+                "MATH": "http://www.emis.de/MATH-item?1226.00033",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Predicting%20the%20behavior%20of%20techno-social%20systems&journal=Science&doi=10.1126%2Fscience.1171990&volume=325&pages=425-428&publication_year=2009&author=Vespignani%2CA"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Colizza, V., Barrat, A., Barthélemy, M. & Vespignani, A. Predictability and epidemic pathways in global outbreaks of infectious diseases: The SARS case study. BMC Med. 5, 34 (2007).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/1741-7015-5-34",
+                "MATH": "http://www.emis.de/MATH-item?1296.92225",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Predictability%20and%20epidemic%20pathways%20in%20global%20outbreaks%20of%20infectious%20diseases%3A%20The%20SARS%20case%20study&journal=BMC%20Med.&doi=10.1186%2F1741-7015-5-34&volume=5&publication_year=2007&author=Colizza%2CV&author=Barrat%2CA&author=Barth%C3%A9lemy%2CM&author=Vespignani%2CA"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Balcan, D. et al. Seasonal transmission potential and activity peaks of the new influenza A(H1N1): A Monte Carlo likelihood analysis based on human mobility. BMC Med. 7, 45 (2009).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/1741-7015-7-45",
+                "MATH": "http://www.emis.de/MATH-item?1422.68287",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Seasonal%20transmission%20potential%20and%20activity%20peaks%20of%20the%20new%20influenza%20A%28H1N1%29%3A%20A%20Monte%20Carlo%20likelihood%20analysis%20based%20on%20human%20mobility&journal=BMC%20Med.&doi=10.1186%2F1741-7015-7-45&volume=7&publication_year=2009&author=Balcan%2CD"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Eubank, S. et al. Modelling disease outbreaks in realistic urban social networks. Nature 429, 180–184 (2004).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature02541",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004Natur.429..180E",
+                "MATH": "http://www.emis.de/MATH-item?0548.41007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Modelling%20disease%20outbreaks%20in%20realistic%20urban%20social%20networks&journal=Nature&doi=10.1038%2Fnature02541&volume=429&pages=180-184&publication_year=2004&author=Eubank%2CS"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Toroczkai, Z. & Guclu, H. Proximity networks and epidemics. J. Phys. A 378, 68–75 (2007).",
+            "links": {
+                "MATH": "http://www.emis.de/MATH-item?1159.37350",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Proximity%20networks%20and%20epidemics&journal=J.%20Phys.%20A&volume=378&pages=68-75&publication_year=2007&author=Toroczkai%2CZ&author=Guclu%2CH"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Makse, H. A., Havlin, S. & Stanley, H. E. Modelling urban growth patterns. Nature 377, 608–612 (1995).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2F377608a0",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1995Natur.377..608M",
+                "MATH": "http://www.emis.de/MATH-item?0925.76698",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Modelling%20urban%20growth%20patterns&journal=Nature&doi=10.1038%2F377608a0&volume=377&pages=608-612&publication_year=1995&author=Makse%2CHA&author=Havlin%2CS&author=Stanley%2CHE"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Hufnagel, L., Brockmann, D. & Geisel, T. Forecast and control of epidemics in a globalized worlds. Proc. Natl Acad. Sci. USA 101, 15124–15129 (2004).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0308344101",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004PNAS..10115124H",
+                "MATH": "http://www.emis.de/MATH-item?1267.82097",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Forecast%20and%20control%20of%20epidemics%20in%20a%20globalized%20worlds&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0308344101&volume=101&pages=15124-15129&publication_year=2004&author=Hufnagel%2CL&author=Brockmann%2CD&author=Geisel%2CT"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Rozenfeld, H. D. et al. Laws of population growth. Proc. Natl Acad. Sci. USA 105, 18702–18707 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0807435105",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PNAS..10518702R",
+                "MATH": "http://www.emis.de/MATH-item?0248.57030",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Laws%20of%20population%20growth&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0807435105&volume=105&pages=18702-18707&publication_year=2008&author=Rozenfeld%2CHD"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Krings, G., Calabrese, F., Ratti, C. & Blondel, V. D. Urban gravity: A model for inter-city telecommunication flows. J. Stat. Mech.-Theor. Exp. L07003 (2009).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Ratti, C. & Richens, P. Raster analysis of urban form. Environ. Plan. B 31, 297–309 (2004).",
+            "links": {
+                "Article": "https://doi.org/10.1068%2Fb2665",
+                "MATH": "http://www.emis.de/MATH-item?1526.05060",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Raster%20analysis%20of%20urban%20form&journal=Environ.%20Plan.%20B&doi=10.1068%2Fb2665&volume=31&pages=297-309&publication_year=2004&author=Ratti%2CC&author=Richens%2CP"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Gabaix, X., Gopikrishnan, P., Plerou, V. & Stanley, H. E. A theory of power-law distributions in financial market fluctuations. Nature 423, 267–270 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature01624",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2003Natur.423..267G",
+                "MATH": "http://www.emis.de/MATH-item?1058.91034",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20theory%20of%20power-law%20distributions%20in%20financial%20market%20fluctuations&journal=Nature&doi=10.1038%2Fnature01624&volume=423&pages=267-270&publication_year=2003&author=Gabaix%2CX&author=Gopikrishnan%2CP&author=Plerou%2CV&author=Stanley%2CHE"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Wang, P., González, M. C., Hidalgo, C. A. & Barabási, A. L. Understanding the spreading patterns of mobile phone viruses. Science 324, 1071–1076 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1167053",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009Sci...324.1071W",
+                "MATH": "http://www.emis.de/MATH-item?1198.82062",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20the%20spreading%20patterns%20of%20mobile%20phone%20viruses&journal=Science&doi=10.1126%2Fscience.1167053&volume=324&pages=1071-1076&publication_year=2009&author=Wang%2CP&author=Gonz%C3%A1lez%2CMC&author=Hidalgo%2CCA&author=Barab%C3%A1si%2CAL"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Brockmann, D., Hufnagel, L. & Geisel, T. The scaling laws of human travel. Nature 439, 462–465 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature04292",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006Natur.439..462B",
+                "MATH": "http://www.emis.de/MATH-item?0899.92007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20scaling%20laws%20of%20human%20travel&journal=Nature&doi=10.1038%2Fnature04292&volume=439&pages=462-465&publication_year=2006&author=Brockmann%2CD&author=Hufnagel%2CL&author=Geisel%2CT"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "González, M. C., Hidalgo, C. A. & Barabási, A. L. Understanding individual human mobility patterns. Nature 453, 779–782 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature06958",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008Natur.453..779G",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20individual%20human%20mobility%20patterns&journal=Nature&doi=10.1038%2Fnature06958&volume=453&pages=779-782&publication_year=2008&author=Gonz%C3%A1lez%2CMC&author=Hidalgo%2CCA&author=Barab%C3%A1si%2CAL"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Montroll, E. W. & Weiss, G. H. Random walks on lattices II. J. Math. Phys. 6, 167–181 (1965).",
+            "links": {
+                "Article": "https://doi.org/10.1063%2F1.1704269",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1965JMP.....6..167M",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=172344",
+                "MATH": "http://www.emis.de/MATH-item?1342.60067",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Random%20walks%20on%20lattices%20II&journal=J.%20Math.%20Phys.&doi=10.1063%2F1.1704269&volume=6&pages=167-181&publication_year=1965&author=Montroll%2CEW&author=Weiss%2CGH"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Weiss, G. H. Aspects and Applications of the Random Walk (North-Holland, 1994).",
+            "links": {
+                "MATH": "http://www.emis.de/MATH-item?0925.60079",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Aspects%20and%20Applications%20of%20the%20Random%20Walk&publication_year=1994&author=Weiss%2CGH"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Metzler, R. & Klafter, J. The random walk’s guide to anomalous diffusion: A fractional dynamic approach. Phys. Rep. 339, 1–77 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0370-1573%2800%2900070-3",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000PhR...339....1M",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=1809268",
+                "MATH": "http://www.emis.de/MATH-item?0984.82032",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20random%20walk%E2%80%99s%20guide%20to%20anomalous%20diffusion%3A%20A%20fractional%20dynamic%20approach&journal=Phys.%20Rep.&doi=10.1016%2FS0370-1573%2800%2900070-3&volume=339&pages=1-77&publication_year=2000&author=Metzler%2CR&author=Klafter%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Ben-Avraham, D. & Havlin, S. Diffusion and Reactions in Fractals and Disordered Systems (Cambridge Univ. Press, 2000).",
+            "links": {
+                "Book": "https://doi.org/10.1017%2FCBO9780511605826",
+                "MATH": "http://www.emis.de/MATH-item?1075.82001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Diffusion%20and%20Reactions%20in%20Fractals%20and%20Disordered%20Systems&doi=10.1017%2FCBO9780511605826&publication_year=2000&author=Ben-Avraham%2CD&author=Havlin%2CS"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Redner, S. A Guide to First-Passage Processes (Cambridge Univ. Press, 2001).",
+            "links": {
+                "Book": "https://doi.org/10.1017%2FCBO9780511606014",
+                "MATH": "http://www.emis.de/MATH-item?0980.60006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20Guide%20to%20First-Passage%20Processes&doi=10.1017%2FCBO9780511606014&publication_year=2001&author=Redner%2CS"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Ciliberti, S., Caldarelli, G., De los Rios, P., Pietronero, L. & Zhang, Y. C. Discretized diffusion processes. Phys. Rev. Lett. 85, 4848–4851 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevLett.85.4848",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000PhRvL..85.4848C",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Discretized%20diffusion%20processes&journal=Phys.%20Rev.%20Lett.&doi=10.1103%2FPhysRevLett.85.4848&volume=85&pages=4848-4851&publication_year=2000&author=Ciliberti%2CS&author=Caldarelli%2CG&author=De%20los%20Rios%2CP&author=Pietronero%2CL&author=Zhang%2CYC"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Larralde, H., Trunfio, P., Havlin, S., Stanley, H. E. & Weiss, G. H. Territory covered by N diffusing particles. Nature 355, 423–426 (1992).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2F355423a0",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1992Natur.355..423L",
+                "MATH": "http://www.emis.de/MATH-item?0874.92029",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Territory%20covered%20by%20N%20diffusing%20particles&journal=Nature&doi=10.1038%2F355423a0&volume=355&pages=423-426&publication_year=1992&author=Larralde%2CH&author=Trunfio%2CP&author=Havlin%2CS&author=Stanley%2CHE&author=Weiss%2CGH"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Larralde, H., Trunfio, P., Havlin, S., Stanley, H. E. & Weiss, G. H. Number of distinct sites visited by N random walkers. Phys. Rev. A 45, 7128–7138 (1992).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevA.45.7128",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1992PhRvA..45.7128L",
+                "MATH": "http://www.emis.de/MATH-item?0874.92029",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Number%20of%20distinct%20sites%20visited%20by%20N%20random%20walkers&journal=Phys.%20Rev.%20A&doi=10.1103%2FPhysRevA.45.7128&volume=45&pages=7128-7138&publication_year=1992&author=Larralde%2CH&author=Trunfio%2CP&author=Havlin%2CS&author=Stanley%2CHE&author=Weiss%2CGH"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Yuste, S. B., Klafter, J. & Lindenberg, K. Number of distinct sites visited by a subdiffusive random walker. Phys. Rev. E 77, 032101 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.77.032101",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PhRvE..77c2101Y",
+                "MATH": "http://www.emis.de/MATH-item?1308.82053",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Number%20of%20distinct%20sites%20visited%20by%20a%20subdiffusive%20random%20walker&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.77.032101&volume=77&publication_year=2008&author=Yuste%2CSB&author=Klafter%2CJ&author=Lindenberg%2CK"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Gillis, J. E. & Weiss, G. H. Expected number of distinct sites visited by a random walk with an infinite variance. J. Math. Phys. 11, 1307–1312 (1970).",
+            "links": {
+                "Article": "https://doi.org/10.1063%2F1.1665260",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1970JMP....11.1307G",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=260036",
+                "MATH": "http://www.emis.de/MATH-item?0205.44702",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Expected%20number%20of%20distinct%20sites%20visited%20by%20a%20random%20walk%20with%20an%20infinite%20variance&journal=J.%20Math.%20Phys.&doi=10.1063%2F1.1665260&volume=11&pages=1307-1312&publication_year=1970&author=Gillis%2CJE&author=Weiss%2CGH"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Mantegna, R. N. & Stanley, H. E. Stochastic process with ultraslow convergence to a Gaussian: The truncated Levy flight. Phys. Rev. Lett. 73, 2946–2949 (1994).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevLett.73.2946",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1994PhRvL..73.2946M",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=1303317",
+                "MATH": "http://www.emis.de/MATH-item?1020.82610",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Stochastic%20process%20with%20ultraslow%20convergence%C2%A0to%20a%20Gaussian%3A%20The%20truncated%20Levy%20flight&journal=Phys.%20Rev.%20Lett.&doi=10.1103%2FPhysRevLett.73.2946&volume=73&pages=2946-2949&publication_year=1994&author=Mantegna%2CRN&author=Stanley%2CHE"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Sinai, Y. G. The limiting behavior of a one-dimensional random walk in random medium. Theor. Probl. Appl. 27, 256–268 (1982).",
+            "links": {
+                "Article": "https://doi.org/10.1137%2F1127028",
+                "MATH": "http://www.emis.de/MATH-item?0505.60086",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20limiting%20behavior%20of%20a%20one-dimensional%20random%20walk%20in%20random%20medium&journal=Theor.%20Probl.%20Appl.&doi=10.1137%2F1127028&volume=27&pages=256-268&publication_year=1982&author=Sinai%2CYG"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Schiessel, H., Sokolov, I. M. & Blumen, A. Dynamics of a polyampholyte hooked around an obstacle. Phys. Rev. E 56, R2390–R2393 (1997).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.56.R2390",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1997PhRvE..56.2390S",
+                "MATH": "http://www.emis.de/MATH-item?0934.82028",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dynamics%20of%20a%20polyampholyte%20hooked%20around%20an%20obstacle&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.56.R2390&volume=56&pages=R2390-R2393&publication_year=1997&author=Schiessel%2CH&author=Sokolov%2CIM&author=Blumen%2CA"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Drager, J. & Klafter, J. Strong anomaly in diffusion generated by iterated maps. Phys. Rev. Lett. 84, 5998–6001 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevLett.84.5998",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000PhRvL..84.5998D",
+                "MATH": "http://www.emis.de/MATH-item?1210.65115",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Strong%20anomaly%20in%20diffusion%20generated%20by%20iterated%20maps&journal=Phys.%20Rev.%20Lett.&doi=10.1103%2FPhysRevLett.84.5998&volume=84&pages=5998-6001&publication_year=2000&author=Drager%2CJ&author=Klafter%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Viswanathan, G. M. et al. Optimizing the success of random searches. Nature 401, 911–914 (1999).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2F44831",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999Natur.401..911V",
+                "MATH": "http://www.emis.de/MATH-item?0945.94014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Optimizing%20the%20success%20of%20random%20searches&journal=Nature&doi=10.1038%2F44831&volume=401&pages=911-914&publication_year=1999&author=Viswanathan%2CGM"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Santos, M. C. et al. Origin of power-law distributions in deterministic walks: The influence of landscape geometry. Phys. Rev. E 75, 061114 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.75.061114",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007PhRvE..75f1114S",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Origin%20of%20power-law%20distributions%20in%20deterministic%20walks%3A%20The%20influence%20of%20landscape%20geometry&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.75.061114&volume=75&publication_year=2007&author=Santos%2CMC"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Lomholt, M. A., Koren, T., Metzler, R. & Klafter, J. Levy strategies in intermittent search processes are advantageous. Proc. Natl Acad. Sci. USA 105, 11055–11059 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0803117105",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PNAS..10511055L",
+                "MATH": "http://www.emis.de/MATH-item?1186.68149",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Levy%20strategies%20in%20intermittent%20search%20processes%20are%20advantageous&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0803117105&volume=105&pages=11055-11059&publication_year=2008&author=Lomholt%2CMA&author=Koren%2CT&author=Metzler%2CR&author=Klafter%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Raposo, E. P., Buldyrev, S. V., da Luz, M. G. E., Viswanathan, G. M. & Stanley, H. E. Levy flights and random searches. J. Phys. A 42, 434003 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1751-8113%2F42%2F43%2F434003",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009JPhA...42Q4003R",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2550512",
+                "MATH": "http://www.emis.de/MATH-item?1186.68152",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Levy%20flights%20and%20random%20searches&journal=J.%20Phys.%20A&doi=10.1088%2F1751-8113%2F42%2F43%2F434003&volume=42&publication_year=2009&author=Raposo%2CEP&author=Buldyrev%2CSV&author=da%20Luz%2CMGE&author=Viswanathan%2CGM&author=Stanley%2CHE"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Viswanathan, G. M., Raposo, E. P. & da Luz, M. G. E. Levy flights and superdiffusion in the context of biological encounters and random searches. Phys. Life Rev. 5, 133–150 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.plrev.2008.03.002",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PhLRv...5..133V",
+                "MATH": "http://www.emis.de/MATH-item?1186.68152",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Levy%20flights%20and%20superdiffusion%20in%20the%20context%20of%20biological%20encounters%20and%20random%20searches&journal=Phys.%20Life%20Rev.&doi=10.1016%2Fj.plrev.2008.03.002&volume=5&pages=133-150&publication_year=2008&author=Viswanathan%2CGM&author=Raposo%2CEP&author=da%20Luz%2CMGE"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Eggenberger, F. & Polya, G. Uber die Statistik verketteter vorgange. Z. Angew. Math. Mech. 1, 279–289 (1923).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fzamm.19230030407",
+                "MATH": "http://www.emis.de/MATH-item?49.0382.01",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Uber%20die%20Statistik%20verketteter%20vorgange&journal=Z.%20Angew.%20Math.%20Mech.&doi=10.1002%2Fzamm.19230030407&volume=1&pages=279-289&publication_year=1923&author=Eggenberger%2CF&author=Polya%2CG"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Yule, G. U. A mathematical theory of evolution, based on the conclusions of Dr. J. C. Willis, F.R.S. Phil. Trans. R. Soc. Lond. B 213, 21–87 (1925).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frstb.1925.0002",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1925RSPTB.213...21U",
+                "MATH": "http://www.emis.de/MATH-item?51.0411.02",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20mathematical%20theory%20of%20evolution%2C%20based%20on%20the%20conclusions%20of%20Dr.%20J.%20C.%20Willis%2C%20F.R.S&journal=Phil.%20Trans.%20R.%20Soc.%20Lond.%20B&doi=10.1098%2Frstb.1925.0002&volume=213&pages=21-87&publication_year=1925&author=Yule%2CGU"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Simon, H. A. On a class of skew distribution functions. Biometrika 42, 425–440 (1955).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fbiomet%2F42.3-4.425",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=73085",
+                "MATH": "http://www.emis.de/MATH-item?0066.11201",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=On%20a%20class%20of%20skew%20distribution%20functions&journal=Biometrika&doi=10.1093%2Fbiomet%2F42.3-4.425&volume=42&pages=425-440&publication_year=1955&author=Simon%2CHA"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Price, D. d. S. A general theory of bibliometric and other cumulative advantage processes. J. Am. Soc. Inform. Sci. 27, 292–306 (1976).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fasi.4630270505",
+                "MATH": "http://www.emis.de/MATH-item?0333.62027",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20general%20theory%20of%20bibliometric%20and%20other%20cumulative%20advantage%20processes&journal=J.%20Am.%20Soc.%20Inform.%20Sci.&doi=10.1002%2Fasi.4630270505&volume=27&pages=292-306&publication_year=1976&author=Price%2CDdS"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Barabási, A. L. & Albert, R. Emergence of scaling in random networks. Science 286, 509–512 (1999).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.286.5439.509",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999Sci...286..509B",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2091634",
+                "MATH": "http://www.emis.de/MATH-item?1226.05223",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emergence%20of%20scaling%20in%20random%20networks&journal=Science&doi=10.1126%2Fscience.286.5439.509&volume=286&pages=509-512&publication_year=1999&author=Barab%C3%A1si%2CAL&author=Albert%2CR"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Song, C., Qu, Z., Blumm, N. & Barabási, A. L. Limits of predictability in human mobility. Science 327, 1018–1021 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1177170",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010Sci...327.1018S",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2643139",
+                "MATH": "http://www.emis.de/MATH-item?1226.91058",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Limits%20of%20predictability%20in%20human%20mobility&journal=Science&doi=10.1126%2Fscience.1177170&volume=327&pages=1018-1021&publication_year=2010&author=Song%2CC&author=Qu%2CZ&author=Blumm%2CN&author=Barab%C3%A1si%2CAL"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Brown, C. T., Liebovitch, L. S. & Glendon, R. Lévy flights in Dobe Ju/’hoansi foraging patterns. Hum. Ecol. 35, 129–138 (2007).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10745-006-9083-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=L%C3%A9vy%20flights%20in%20Dobe%20Ju%2F%E2%80%99hoansi%20foraging%20patterns&journal=Hum.%20Ecol.&doi=10.1007%2Fs10745-006-9083-4&volume=35&pages=129-138&publication_year=2007&author=Brown%2CCT&author=Liebovitch%2CLS&author=Glendon%2CR"
+            }
+        }
+    ]
+}

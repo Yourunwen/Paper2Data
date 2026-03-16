@@ -1,0 +1,871 @@
+{
+    "id": "s41599-023-02570-5",
+    "journal": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "title": "Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities",
+    "legal_title": "Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities",
+    "publish_time": "2024-01-09",
+    "pdf_link": "https://www.nature.com/articles/s41599-023-02570-5",
+    "storage_path": "./Articles/Humanities and Social Sciences Communications/2024-article/s41599-023-02570-5/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Living in cities affords expanded access to various resources, infrastructures, and services at reduced travel costs, which improves social life and promotes systemic gains. However, recent research shows that urban dwellers also experience inequality in accessing urban facilities, which manifests in distinct travel and visitation patterns for residents with different demographic backgrounds. Here, we go beyond simple flawed correlation analysis and reveal prevalent accessibility gaps by quantifying the causal effects of resident demographics on mobility patterns extracted from U.S. residents’ detailed interactions with millions of urban venues. Moreover, to efficiently reveal micro neighborhood-level accessibility gaps, we design a novel Counterfactual RANdom-walks-based Embedding (CRANE) method to learn continuous embedding vectors on urban mobility networks with confounding effects disentangled. Our analysis reveals significant income and racial gaps in mobility frequency and visitation rates to sports and education venues. Besides, bachelor’s degree holders experience greater mobility reduction during the COVID-19 crisis. With extensive experiments on neighborhood-level accessibility prediction and visualizing accessibility gaps with embeddings vectors, we demonstrate that the counterfactual mobility network embeddings can improve the explanatory capacity and robustness of revealed accessibility gaps by extending them from aggregate statistics to individual neighborhoods and allowing for cross-city knowledge transfer. As such, urban mobility networks can reveal consistent accessibility gaps in the U.S., calling for urgent urban design policies to fill in the gaps.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Urban dwellers live together in a compact environment but increasingly experience inequality in accessing urban venues and taking advantage of urban opportunities, which stems from the severe mobility gaps across gender, socioeconomic, and ethnic groups (Barbosa et al., 2021; Gauvin et al., 2020; Moro et al., 2021; Wang et al., 2018). Although urbanization improves venue accessibility and stimulates economic growth (Bettencourt, 2021), growing inequalities in urban mobility threaten the fabric that holds urban society together, affecting the livelihood and well-being of each resident (Glaeser et al., 2008). Inequality in urban mobility is entangled with multiple factors, including cultural experience and expectations (Wang et al., 2018), financial circumstance (Moro et al., 2021), and physical wellness (Althoff et al., 2017). As a result, measuring inequalities in urban mobility and dissecting its underlying factors represents a challenging task, but one that must be completed to meet UN sustainable development goals (SDGs) in reducing inequality and building resilient cities (Griggs et al., 2013).\nThere has been an increasing interest in uncovering mobility inequalities in urban spaces concerning various factors (Barbosa et al., 2021; Carra et al., 2016; Dueñas et al., 2021; Frias-Martinez et al., 2012; Gauvin et al., 2020; Graells-Garrido et al., 2020; Law, 1999; Lenormand et al., 2015; Macedo et al., 2022; Moro et al., 2021; Ng and Acker, 2018; Ryan et al., 2015; Sallis et al., 2018; Uteng, 2012). An important study (Law, 1999) defines the topic of “gender and daily mobility” and reviews studies on this from the early 70s. From a gendered perspective, a study in Chile finds that women not only visit fewer unique locations than men but also distribute their duration less equally (Gauvin et al., 2020). Mobility related to specific travel behaviors such as travel distance and the number of trips has been examined by gender in eight cities in multiple countries (Ng and Acker, 2018), with findings that women tend to travel shorter distances than men. Much research has investigated the relationship between other demographic or socioeconomic features and urban mobility. Both higher socioeconomic status (Frias-Martinez et al., 2012) and younger age (Lenormand et al. 2015) strongly correlate with a larger mobility range. A study in South America finds that middle-class travelers exhibit the most diverse mobility patterns, while the lower classes manifest limited spatial exploration (Macedo et al., 2022). Regarding the response to the COVID-19 pandemic, poorer populations show lower reductions in mobility level (Dueñas et al., 2021). Moreover, planned spatial factors play an important role in urban mobility, with previous studies revealing that improved access to public transportation infrastructure (Ryan et al., 2015) and well-designed neighborhood walkability (Sallis et al., 2018) can enhance mobility within urban areas.\nExisting studies providing evidence on inequality in urban mobility, however, remain woefully inadequate due to limitations in datasets. Many efforts rely on small-scale survey data that is expensive to collect and difficult to scale up (Sharkey and Elwert, 2011). Some research attempts large-scale estimation via hypothetical models defined on spatial proximity (Hasthanasombat and Mascolo, 2019; Saxon, 2021), but this inevitably leads to bias in analytic results. Recent burgeoning precise mobility data provide the chance to compensate for the above deficiencies (Kadar et al., 2020; Moro et al., 2021). Here we measure accessibility gaps based on large-scale mobility data provided by SafeGraph company. SafeGraph curates mobile device users’ traces to obtain fine-grained visitations to urban facilities represented as Points-of-Interest (POIs). Covering over 35 million residents’ visits to more than 4 million POI in the U.S. from 2019 to 2020, the large-scale and accurate mobility dataset can sufficiently measure gaps in various mobility patterns that depict a resident’s capability to exploit urban opportunities. Beyond data limitations, previous works also suffer from research methodologies. Most of them rely on correlation analysis between mobility patterns and a few specific demographic factors (Barbosa et al., 2021; Gauvin et al., 2020; Wang et al., 2018), which cannot control for confounding effects in urban mobility and may lead to inaccurate conclusions. Findings from correlation analysis are often based on aggregate statistics and provide limited insights into the micro-level causes of accessibility gaps. Therefore, it is important to tease apart potential confounding factors and probe micro-level gaps.\nIn this study, We present a novel framework to quantify accessibility gaps in six metropolitan areas of the US. We employ a propensity score matching (PSM) method that estimates the causal effects of demographic features on mobility patterns. Specifically, we look at the causal effect of gender, race, income, physical disability, and education background on mobility frequency and urban facility accessibility across different neighborhoods, which quantify the number of movements per person and the likelihood of accessing different urban facilities, respectively. Furthermore, we design a novel Counterfactual RANdom-walks-based Embedding (CRANE) to learn representations for micro-level accessibility gaps on urban mobility networks. Specifically, we use random-walk sampling to efficiently assess the empirically observed association between demographic and urban facility accessibility and the alternative outcomes in counterfactual scenarios where the demographic does not have a causal impact. Drawing on the difference between the observed and alternative outcomes, our CRANE method can efficiently approximate the causal inference result by treating them as positive and negative samples in representation learning, respectively. The representations for neighborhoods and POIs allow us to go beyond aggregate statistics and extend our analysis to their micro-level behaviors, enriching our understanding of the causes underlying accessibility inequality.\nWe observe interesting findings regarding mobility inequality in the US. Neighborhoods with higher average income and a higher portion of the white population consistently present higher mobility frequency across different cities, which suggests these sub-populations have superior access to urban facilities. Neighborhoods with a higher portion of bachelor’s degree holders consistently manifest greater mobility reductions in response to the COVID-19 pandemic, which implies that these neighborhoods can afford fewer outdoor activities, likely from elasticity regarding their work format. Sports and education venues are more likely visited by white and higher-income populations. Extensive experiments demonstrate that neighborhood and POI embeddings learned from counterfactual random walks on urban mobility networks can improve the performance of accessibility prediction compared to traditional correlation-based methods. A case study on the POI level illustrates that our method successfully disentangles confounding effects between neighborhood demographics.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR11",
+                "ref-CR38",
+                "ref-CR2",
+                "ref-CR32",
+                "ref-CR3",
+                "ref-CR40",
+                "ref-CR30",
+                "ref-CR16",
+                "ref-CR20",
+                "ref-CR26",
+                "ref-CR21",
+                "ref-CR18",
+                "ref-CR1",
+                "ref-CR9",
+                "ref-CR27",
+                "ref-CR4",
+                "ref-CR36",
+                "ref-CR14",
+                "ref-CR8",
+                "ref-CR33",
+                "ref-CR13",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Demographic dataset\nWe collect demographic data from the 2019 U.S. Census Bureau’s American Community Survey 5-year Estimates (ACS) as the independent variable of mobility patterns. In this dataset, features are reported at the level of census block groups (CBGs), the smallest geographical unit for publicly available census data. In this study, we use CBGs as a proxy for neighborhoods. We focus on the six most populated metropolitan statistical areas (MSAs) in the U.S.: New York-Newark-Jersey City, NY-NJ-PA (hereby referred to as the “New York” MSA, “NY” for short), Los Angeles-Long Beach-Anaheim, CA (\"Los Angeles”, “LA”), Chicago-Naperville-Elgin, IL-IN-WI (\"Chicago”, “Chi”), Dallas-Fort Worth-Arlington, TX (\"Dallas”, “Dal”), Houston-The Woodlands-Sugar Land, TX (\"Houston”, “Hou”), Washington-Arlington-Alexandria, DC-VA-MD-WV (\"Washington DC”, “DC”). The numbers of neighborhoods in each MSA are listed as N_{CBG} in Table 1.\nTable 1 gives an overview of the average population \\({\\bar{N}} _{P}\\) and the number of households \\({\\bar{N}} _{H}\\) of neighborhoods in each MSA. We extract the following demographic features as potential contributors to urban accessibility gaps: (1) Female ratio is the proportion of female residents in each neighborhood, which is used to analyze the potential gender gap in urban mobility (Gauvin et al., 2020). (2) White ratio is the neighborhood’s proportion of white population, which corresponds to the previous finding that the c racial minorities experience social isolation when traveling in the city (Wang et al., 2018). (3) Bachelor ratio is the proportion of people over 25 years that have a bachelor’s degree or higher, reflecting the real-world observation that people with different educational backgrounds are likely to exhibit different mobility patterns. (4) Average income is the household average income in the past 12 months, corresponding to diverse mobility patterns associated with economic status (Macedo et al., 2022; Šćepanović et al., 2015). (5) Disability ratio is the proportion of households with at least one disabled resident whose mobility capability is constrained by the quality of urban infrastructure (Saha et al., 2021). The average values of the above neighborhood feature in each MSA are reported in Table 1.\n### Mobility dataset\nTo reflect the heterogeneity in mobility patterns across the city, we utilize SafeGraph’s Patterns dataset (https://docs.safegraph.com/docs/monthly-patterns) and Core Places dataset (https://docs.safegraph.com/docs/core-places). By tracking GPS-equipped mobile devices under consent, the Patterns dataset aggregates visit counts from CBGs to POIs each month, providing fine-grained mobility records of urban dwellers and detailed information about POIs. It is worth mentioning that workers at POIs are excluded from the visit counts, reflecting residents’ subjective capability of accessing urban venues instead of objective requirements. Across the six MSAs, the dataset records 155 million visits paid to 758 thousand POIs every month on average. The Core Places dataset identifies each POI’s category under the North American Industry Classification Systems (NAICS).\nCombining the Patterns and Core Places datasets, we can quantify mobility patterns associated with each neighborhood. In this study, we adopt Amartya Sen’s capability analysis framework (Sen, 1980), where equality is defined as a person’s basic capability of being able to do certain basic things in the environment, e.g. move or be clothed. From the perspective of mobility, the capability of accessing and visiting more urban venues is often linked with higher social status (Barbosa et al., 2021; Chang et al., 2021; Chen et al., 2022; Lenormand et al., 2015; Wang et al., 2011; Xu et al., 2018). Thus, we are devoted to revealing the gap in two measures of urban mobility capability, namely mobility frequency (N_{M}) and urban facility accessibility.\nFirst, to depict aggregate mobility capability for each neighborhood, we calculate its mobility frequency (N_{M}) as follows. We sum the neighborhood’s visits over POIs located in the MSA in three months (from July to September) to obtain the total number of visits made by its residents and then normalize it by the neighborhood’s population to obtain the average number of visits per 100 residents. To study the mobility patterns influenced by the COVID-19 pandemic, we further calculate the mobility reduction Δ _{M} by comparing N_{M} in 2019 and 2020. The average mobility frequencies \\({\\bar{N}} _{M}\\) and mobility reductions Δ _{M} for neighborhoods in each MSA are listed in Table 1. We can observe a consistent reduction in all analyzed MSAs, which reflects the overall impact of social distancing and stay-at-home orders during the pandemic.\nSecond, we calculate each neighborhood’s urban facility accessibility, which is the proportion of its visits to a specific category of POIs to its total visits N_{M}. This pattern reflects urban dwellers’ access to urban facilities. Specifically, we focus on four representative categories, i.e., Art and Recreation, Sports, Education, and Health. The average accessibility to four categories in each MSA in 2019 is listed in Table 1 as “Art%”, “Sports%”, “Edu%”, and “Health%”.\n### Preliminary analysis\nWe calculate the mobility patterns of each neighborhood in the six most populated US metropolitan statistical areas by the SafeGraph monthly patterns datasets covering July through September in the years of 2019 and 2020. A simple approach to measuring mobility inequality in an urban area is to calculate the correlation between a neighborhood’s demographic features and its mobility patterns (See Supplementary Fig. S1 for the spatial distribution of mobility patterns and demographic features in New York). Table 2 shows correlations between mobility patterns and demographic features and their corresponding significance levels (two-sided p-values) in New York MSA as an example (See correlation tables of other MSAs in Supplementary Table S1−5). Significant correlations indicate mobility patterns vary substantially with the neighborhood’s demographic features, indicating potential mobility inequalities. For example, neighborhoods with a higher bachelor ratio are correlated with higher mobility frequency. However, as observed in Supplementary Fig. S1, the bachelor ratio is also positively correlated with average income, which raises the concern of confounding: the correlation between bachelor ratio and mobility frequency might be sustained by their common correlations with average income. To address this concern, our subsequent analysis employs PSM to mitigate confounding bias and assess the impact of each feature on mobility patterns independently.\n### Propensity score matching\nWe adopt the PSM method, a matching method widely used in the causal inference literature (Rosenbaum and Rubin, 1983), to estimate the causal effect of demographic features on heterogeneous urban mobility patterns. The procedure of this method is illustrated in Fig. 1.\nThe core concept is to account for potential confounding factors denoted as covariates X by matching each neighborhood with neighborhoods that share similar X values but differ in a specific relevant demographic feature, referred to as the treatmentT (Fig. 1A). The PSM procedure disentangles the influence of confounding effects by creating a treatment group comprising neighborhoods with comparable covariates X and attributes the variations in mobility pattern within this group to differences in the treatment level, i.e., differences in the relevant demographic feature. However, exact matching based on high dimensional covariates can be computationally expensive and often leads to sparsity issues. To address this, we employ a propensity score function b(X) to map covariates into a scalar propensity score. Specifically, we first discretize the treatmentT into five equally-sized bins, defined as treatment levels L(T). Subsequently, we fit an ordinal regression model (McCullagh, 1980) to estimate propensity scores,\n\n$$\\log \\frac{P(L(T)\\le {L}^{* })}{P(L(T) > {L}^{* })}={\\theta }_{{L}^{* }}-{{{{\\bf{w}}}}}^{T}{{{\\bf{X}}}},$$\n                    (1)\nwhere L^{*} represents the treatment level, and \\({\\theta } _{{L} ^{*}}\\) along with w are learnable model parameters. The ordinal regression model satisfies the condition that treatment level L(T) and covariates X are independent given b(X) = w^{T}X. Therefore, We calculate \\({\\hat{{{{\\bf{w}}}}}} ^{T}{{{\\bf{X}}}}\\) as the estimated propensity score for each neighborhood, with \\(\\hat{{{{\\bf{w}}}}}\\) being the model’s fitted parameter. The distribution of X conditioned on b(X) tends to be similar across different values of L(T). As a result, the estimated propensity scores can be employed as matching criteria. To perform matching, we define the distance between two neighborhoods as the disparity in estimated propensity scores divided by the difference in L(T). Each neighborhood is then matched with its nearest neighbor using this distance metric.\nOnce we have established pairs of matched neighborhoods denoted as M = {(i, j)}, we estimate the average treatment effect of T on a specific mobility behavior Y. This estimation is based on the expected change in Y (which can represent mobility frequency or urban facility accessibility) when the treatment level L(T) is increased by one unit of level,\n\n$${{{\\rm{Average}}}}\\,{{{\\rm{Treatment}}}}\\,{{{\\rm{Effect}}}}=\\frac{1}{| M| }\\mathop{\\sum}\\limits_{(i,j)\\in M}\\frac{{Y}_{i}-{Y}_{j}}{L{(T)}_{i}-L{(T)}_{j}}.$$\n                    (2)\nA critical prerequisite for estimating unbiased treatment effects of demographic features on mobility patterns is the selection of covariates. In the PSM procedure, for each demographic feature as the treatment, we choose other demographic features along with the ratio of residents younger than 20 years and older than 60 years as covariates for the following reasons. First, all demographic features can potentially influence urban mobility. Previous studies have revealed disparities in urban mobility based on gender (Gauvin et al., 2020), race (Wang et al., 2018), economic status (Macedo et al., 2022), and disability (Saha et al., 2021). Additionally, differences in mobility patterns among different age groups are commonly observed in urban environments. Therefore, we consider all demographic features and age distribution as potential covariates. Second, an important characteristic of the urban environment is circular causality (Bettencourt, 2021). Demographic features at the CBG level also exhibit this characteristic. For example, CBGs with a higher percentage of bachelor’s degree holders may attract residents with higher-paying careers, resulting in a higher average income for that CBG. Conversely, CBGs with better economic conditions may be more appealing to highly educated residents, leading to an increased bachelor ratio. Therefore, for each treatment variable T, we include the other demographic features along with the age distribution within the CBG as covariates represented by vector X. In each MSA, we employ PSM to estimate the average treatment effects of five demographic features on mobility patterns, including mobility frequency in 2019, its reduction in 2020, and urban facility accessibility to four POI categories.\n### Counterfactual random walk on urban mobility network\nWhile PSM estimation is effective, it has limitations as it can only produce aggregate statistics at the MSA level, i.e., average treatment effects. These statistics provide limited insights into the micro-level mechanisms of mobility inequality and are not easily applicable to downstream applications or analyses. Drawing inspiration from recent studies that uncover gender disparities using word embeddings (Garg et al., 2018), we develop a novel representation learning algorithm to capture micro-level disparities in facility accessibility using continuous embedding vectors. Our approach involves conducting counterfactual random walks on an urban mobility network to assess the empirical association between a specific demographic feature and the accessibility of a particular category of POI. We compare these associations with alternative outcomes that would occur if the demographic feature did not causally affect access to the POI category. This process allows us to update corresponding embeddings that preserve real-world gaps in accessibility data.\nSpecifically, we first construct an urban mobility network that consists of four types of heterogeneous nodes, representing POI categories, POIs, neighborhoods (CBGs), and demographic features, shown in Fig. 2. There are three types of edges in the constructed network, i.e., POI-category edges and neighborhood-demographic edges that connect each POI and neighborhood to its category and demographic feature, respectively, and POI-neighborhood edges weighted by visitation frequency in mobility data. In each random walk, we first select a POI category Q and sample a specific POI P_{i} based on its total visitation frequency. Then, we sample a neighborhood C_{o} with probability proportional to the edge weights w_{io} between P_{i} and C_{o}, normalized by the out-degree of C_{o}, i.e., Prob(C_{o}∣P_{i}) ~ w_{io}/∑ _{k}w_{ko}. It captures the likelihood for neighborhood C_{o} to visit that POI, i.e., the accessibility of that urban facilities. Finally, we look up the value of the interested demographic feature of C_{o} as the observed outcomeo. Following this procedure, we can sample a Q → P_{i} → C_{o} → o path that iteratively connects the POI category, POI, neighborhood, and its demographic feature. It serves as a sample of the empirically observed accessibility from the interested demographic feature to a POI category.\nAside from the observed outcome, we sample a neighborhood C_{a} as the alternative outcome in the counterfactual scenario that the interested demographic feature does not have a causal effect on the access to that POI category. Specifically, we mimic the matching process in PSM to sample a neighborhood C_{a} with the same stratified covariates as C_{o} and take its demographic feature as the alternative outcomea. For instance, as shown in Fig. 2, we randomly sample a neighborhood from the pool that has the same stratified covariates as C_{o} and take its female ratio as the alternative outcome. Intuitively, the alternative outcome assesses the counterfactual scenario that the demographic feature has no causal impact on the accessibility to specific urban facilities, and hence its distribution is solely conditioned on the covariates. Therefore, if the observed outcome and alternative outcome follow significantly different distributions, it indicates the counterfactual scenario is unlikely and the demographic feature probably has a causal effect, which provides a signal to update the node embeddings.\n### Network embedding for mobility inequality\nOn top of the sampled random walks, we seek to preserve the difference between observed and alternative outcomes in the embedding space to capture the gaps in urban facility accessibility. Specifically, the alternative outcomes serve as the negative samples that the examined demographic feature does not have a causal impact. Therefore, in each random walk, we maximize the embedding similarity for the co-occurrences of observed outcome, observed neighborhood, POI, and POI category, and minimize the embedding similarity for the co-occurrences of alternative outcome, alternative neighborhood, POI and POI category.\nIn each MSA, we learn an embedding vector for each of the following entities: four POI categories, all POIs, all neighborhoods, and all treatment levels of five neighborhood demographic features. Observed outcomes and alternative outcomes are represented as the vector of its corresponding treatment level L(T). We train embedding vectors to minimize the following loss function:\n\n$$\\begin{array}{l}Loss=\\mathop{\\sum}\\limits_{\\{(c,P,{C}_{o},{C}_{a},o,a)\\}}-\\log \\sigma ({{{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{c}}}}}}^{T}\\cdot {{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{o}}}}})-\\log \\sigma (-{{{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{c}}}}}}^{T}\\cdot {{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{a}}}}})\\\\ \\qquad\\quad-\\log \\sigma ({{{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{c}}}}}}^{T}\\cdot {{{{\\boldsymbol{v}}}}}_{{{{{\\boldsymbol{C}}}}}_{{{{\\boldsymbol{o}}}}}})-\\log \\sigma (-{{{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{c}}}}}}^{T}\\cdot {{{{\\boldsymbol{v}}}}}_{{{{{\\boldsymbol{C}}}}}_{{{{\\boldsymbol{a}}}}}})-\\log \\sigma ({{{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{P}}}}}}^{T}\\cdot {{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{o}}}}})\\\\ \\qquad\\quad-\\log \\sigma (-{{{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{P}}}}}}^{T}\\cdot {{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{a}}}}})-\\log \\sigma ({{{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{P}}}}}}^{T}\\cdot {{{{\\boldsymbol{v}}}}}_{{{{{\\boldsymbol{C}}}}}_{{{{\\boldsymbol{o}}}}}})-\\log \\sigma (-{{{{{\\boldsymbol{v}}}}}_{{{{\\boldsymbol{P}}}}}}^{T}\\cdot {{{{\\boldsymbol{v}}}}}_{{{{{\\boldsymbol{C}}}}}_{{{{\\boldsymbol{a}}}}}}),\\end{array}$$\n                    (3)\nwhere {(c, P, C_{o}, C_{a}, o, a)} is the set containing the sampled category, POI, neighborhood, alternative neighborhood, observed outcome, and alternative outcome walks, v_{c}, v_{P}, \\({{{{\\boldsymbol{v}}}}} _{{{{{\\boldsymbol{C}}}}} _{{{{\\boldsymbol{o}}}}}}\\) are the POI category, POI, and neighborhood embedding vectors, σ(⋅) is the sigmoid function, v_{o} and v_{a} are embedding vectors of observed outcome and alternative outcome’s treatment levels, respectively.\nRegularization terms are added to the loss function to achieve spatial smoothness of neighborhood embeddings and continuity in demographic feature embeddings. According to the First Law of Geography (Miller, 2004), nearby things are more related to one another. Two nearby neighborhoods should also be adjacent to our embedding space. The spatial regularization term is the weighted sum of squared distances between adjacent neighborhoods in the embedding space. Weights are defined as \\(\\exp (-\\frac{{d} ^{2}}{\\left.2{\\sigma } _{s} ^{2}\\right)})/(2\\pi {\\sigma } _{s} ^{2})\\) for each pair of neighborhoods with distance d less than a threshold σ _{s}. The demographic regularization term is the sum of squared distances between adjacent L(T)’s in the embedding space, e.g. the lowest and second-lowest level of average income. We use the Adam optimizer (Kingma and Ba, 2015) to learn 64-dimensional embedding vectors for each category, POI, neighborhood, and L(T) to minimize the loss function (3). The spatial threshold σ _{s} is set to 2.5 kilometers, and the strength of regularization is 0.0001 and 0.01 for spatial and demographic feature continuity. See Supplementary Note S1.2 for implementation details and complexity analysis of the algorithm.",
+            "cites": [
+                "ref-CR3",
+                "ref-CR34",
+                "ref-CR11",
+                "ref-CR25",
+                "ref-CR40",
+                "ref-CR2",
+                "ref-CR6",
+                "ref-CR5",
+                "ref-CR42",
+                "ref-CR24",
+                "ref-CR21",
+                "ref-CR19",
+                "ref-CR35",
+                "ref-CR29",
+                "ref-CR10",
+                "ref-CR31",
+                "ref-CR23",
+                "ref-CR39"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Results",
+            "text": "### Consistent gaps in urban accessibility\n#### Mobility frequency\nThe first row in Fig. 3 shows the estimated treatment effects of demographic features on mobility frequency in each MSA. Each panel represents the effects of one demographic feature on N_{M} in six MSAs. Positive and negative effects are indicated by blue and red columns, respectively. Whiskers represent the 95% confidence interval of the treatment effect. Significant gaps are indicated by dark columns with a confidence interval on one side of the x-axis. According to Amartya Sen’s capability analysis framework, increased mobility frequency signifies an enhanced capability to access and visit urban facilities. Negative treatment effects on mobility frequency imply reduced capability as the demographic feature increases within the neighborhood.\nFrom our analysis of treatment effects, we summarize three key observations of mobility frequency gaps. First, neighborhoods with higher average income have higher mobility frequency. In all MSAs, treatment effects are over 30, implying that a neighborhood with one unit higher L(income) will have approximately 30 more visits per 100 residents in three months. This is consistent with previous findings that low-income residents have lower mobility rates (Pucher and Renne, 2003), revealing an unignorable cost of moving around the city. Second, in terms of education, neighborhoods with a higher proportion of bachelor’s degree holders demonstrate significantly lower mobility frequencies in most MSAs. This negative effect is opposite to the positive correlation reported in Table 2, underscoring the necessity of controlling for confounding demographic features. This difference implies that among individuals with similar income levels and other demographic characteristics, highly educated individuals access urban facilities less frequently. Third, neighborhoods with a higher white ratio have significantly higher mobility frequencies in most MSAs, which means that the white population is clearly advantaged in accessing urban facilities. This observation reveals the superior access to urban essential facilities of the white population in these MSAs.\n#### Mobility reduction during the COVID-19 pandemic\nSince the COVID-19 outbreak, authorities have issued mobility control measures such as social distancing and stay-at-home orders to request that urban dwellers reduce unnecessary travel. Although we observe a consistent reduction in the overall mobility frequency, such reduction is not experienced equally by all. To measure this gap, we show the treatment effect of neighborhood demographics on the reduction of mobility frequency in 2020 in the second row of Fig. 3, where blue columns indicate that a higher L(T) of the demographic feature results in a larger mobility reduction.\nWe summarize two key observations as follows. First, we find that neighborhoods with a higher bachelor ratio have greater mobility reduction in all six MSAs. One explanation is that highly-educated residents can more easily transition to telework due to the nature of their occupations, e.g., working on personal computers (Lund et al., 2020). In contrast, people with inferior educational backgrounds are more likely to be essential workers whose work cannot be performed remotely, such as building cleaning and equipment maintenance. As a result, when public health crises force people to reduce mobility, inequalities faced by people of different educational backgrounds become exacerbated.\nSecond, we find that residents with different ethnicities are unequally affected by the pandemic. Specifically, neighborhoods with a higher white ratio have less mobility reduction in all 6 MSAs, which widens the pre-existing accessibility gap among ethnic groups. This is likely because white populations have superior access to urban facilities and opportunities, making them more resilient to pandemic shocks.\n#### Urban facility accessibility\nThe treatment effects of neighborhood demographics on residents’ accessibility to four venue categories - Art & Recreation, Sports, Education, and Health in the six most populated MSAs are shown in Fig. 4.\nArt and recreational venues are more accessed by neighborhoods with a higher bachelor ratio. Treatment effects are over 0.2% in New York and Washington DC. This reveals a difference in utilizing urban facilities of art and culture, with highly educated residents more likely to visit these venues. Sports facilities are more accessed by neighborhoods with higher average income, bachelor ratio, white ratio, and lower disability rates. This suggests that disabled residents have very limited access to sports facilities.\nMeanwhile, uneven access is also prominently associated with income, race, and educational background. Educational POIs are more accessed by neighborhoods with higher average income, disability ratio, white ratio, and lower bachelor ratio. This indicates that wealthy and white populations are most advantaged in accessing educational facilities. Health services are more accessed by neighborhoods with higher disability rates and female ratios. This is reasonable as people with disabilities seek health services and rehabilitation more frequently and females carry more healthcare burdens. Surprisingly, neighborhoods with lower average income also pay a higher ratio of visits to health services in Chicago, Dallas, Houston, and Washington DC. It is likely because wealthier people resort more often to doctor home visits for care. This also reflects discrepancies in health status and healthcare needs, as wealthier people are also more likely to maintain better health with reduced onsite healthcare needs.\nBesides identifying notable inequalities in mobility frequency and urban facility accessibility, we find interesting results showing how the PSM procedure alleviates confounding effects by balancing covariates. For instance, bachelor ratio is negatively correlated with art & recreation choice in the New York MSA. After controlling for white ratio, the treatment effect of bachelor ratio on art choice is positive. Cases where the treatment effect reverses correlation direction are marked as bold in Table 2. These reversals of direction demonstrate the importance of PSM to identify inequalities from a causal perspective.\n### Counterfactual network embeddings\n#### Justification of CRANE\nWe justify the effectiveness of CRANE by examining two stages, the counterfactual random walk stage and the network embedding learning stage, respectively.\nFirst, we justify our proposed counterfactual random walk by examining its consistency with PSM. In the design of the counterfactual random walk, observed outcomes should characterize the characteristics of neighborhoods with higher urban facility accessibility. Therefore, for demographic features with significant positive treatment effects on urban facility accessibility given by PSM, observed outcomes are expected to be larger than the alternative outcomes. We count the total number of pairs among 77 demographic feature-POI category pairs that violate this law on different sample sizes and draw their relationship in Fig. 5A. We find that when we sample more random walks, the violation percentage decreases rapidly and drops below 10% when the sample size reaches 100,000. Thus, with a sufficiently large sample size, the counterfactual random walk serves as an effective approximation of the traditional PSM procedure. In the following experiments, we sample 200,000 random walks for each category, ensuring the credibility of our analysis.\nSecond, we evaluate the effectiveness of our embedding algorithm by comparing each feature’s treatment effect on urban resource access and the regression coefficient between L(T) and its proximity with POI categories in the embedding space. We measure proximities with the inner product between L(T) and POI category’s embedding vectors. Regression coefficients are listed in Table 3 (See Supplementary Table S6 for significance levels). Insignificant treatment effects of demographic features on urban facility accessibility are marked in white cells. Among 77 significant demographic-category pairs (p < 0.05), 92.2% (71) pairs have identical directions in treatment effect with regression coefficient marked by green cells. 6 pairs that have the opposite direction are marked in red cells. This result confirms the consistency between the embedding algorithm and matching analysis.\nWe further illustrate the proximity between the POI category and demographic embeddings with the highest and lowest L(T) in Chicago in Fig. 5B. Embedding vectors are projected to a 2D plane where proximities are preserved. To better demonstrate gaps in urban facility accessibility, we mark the direction from lowest L(T) to highest L(T) for each demographic feature in the plane. The visualization demonstrates (1) the association between high L(bachelor%) and high accessibility to sports and educational facilities, and (2) the association between high L(white%) and high accessibility to art and sports facilities. Based on the above observations, the counterfactual network representation learning method effectively captures MSA-level accessibility gaps across neighborhoods of different demographic backgrounds.\n#### Predictive analysis\nGiven that the learned embedding vectors can successfully capture macro MSA-level treatment effects, we proceed to employ these vectors for predicting facility accessibility at the micro neighborhood-level, thus confirming their ability to capture causal relations in fine-grained accessibility gaps. Specifically, we first conduct a within-city prediction task. In each MSA, we randomly select 80% of the neighborhoods as the training set, on which we perform counterfactual random walks and the network embedding algorithm. We combine the raw demographic features of each neighborhood with the dot products between their corresponding L(T)’s embedding vectors and all category embedding vectors as the input for Multilayer Perceptron (MLP) regression models to fit the neighborhood’s accessibility to four categories from the training set. Then we test the fitted models on the remaining 20% neighborhoods and estimate performance as the average explained variance on five train/test random splits (see Supplementary Notes S1.3 for implementation details).\nWe compare CRANE to four baselines with different model input combinations. The first baseline only utilizes the neighborhood’s raw demographic features. The second baseline utilizes both raw demographic features and aggregate statistics of urban facility accessibility from the training set. For instance, if a neighborhood has the highest L(white%), the average urban facility accessibilities of all neighborhoods with the highest L(white%) in the training set are concatenated with this neighborhood’s raw features as model input. The third and fourth baselines utilize embedding vectors learned by two graph embedding methods, namely LINE (Tang et al., 2015) and node2vec (Grover and Leskovec, 2016). The two embedding methods are correlation-based and do not incorporate specific designs to account for causal relationships. We construct a category-neighborhood-feature network with urban facility accessibility as edge weights and use unsupervised versions of these methods to learn embedding vectors that retain proximity. Dot products between treatment level vectors and all category vectors are combined with the neighborhood’s demographic features as the input of regression models. The relative improvements of the three methods compared with raw features are listed in Table 4.\nAmong all the methods considered, CRANE outperforms others in 20 out of the 24 prediction tasks, particularly in the New York, Chicago, and Dallas datasets. On average, CRANE improves the explained variance in these tasks by 12.57%. This underscores the benefit of employing a causal matching strategy to learn embedding vectors for out-of-sample prediction tasks. Unlike correlation-based methods which are susceptible to confounding effects and distribution shifts between training and test sets, CRANE’s counterfactual random walk strategy offers greater stability in prediction performance by capturing embedded micro-level causal relationships.\nIn addition to within-city prediction tasks, we further test CRANE’s ability to transfer knowledge of micro-level accessibility gaps across MSAs. Specifically, we utilize embedding vectors and aggregate statistics learned from other MSA mobility networks to predict urban facility accessibility in Chicago MSA (see Supplementary Notes S1.3 for implementation details). Improvements in explained variance compared with raw features as input are listed in Table 5. Each column represents the performance of transferring knowledge from another MSA to Chicago. Our embedding methods achieve the best performance in 16 out of 20 tasks, especially in predicting art and sports choices. Consequently, CRANE effectively distills knowledge pertaining to micro-level accessibility gaps that are universal across MSAs, thereby enhancing its capacity to generate insights with limited data availability.\n#### Visualizing maps of urban accessibility gap\nHaving demonstrated CRANE’s effectiveness in capturing MSA- and neighborhood-level accessibility gaps, we now assess its capacity to provide micro POI-level insights through a case study in Houston. Suppose we want to query the top 10 sports POIs preferred by high-income neighborhoods. The first method is to directly look at the mobility statistics and retrieve the top 10 sports POIs with the highest accessibility from neighborhoods with the highest L(income). The second method, i.e., our CRANE method, is to retrieve the top 10 sports POIs whose embedding vectors have the highest inner product with the embedding vector of the highest L(income). As a comparison, we plot the spatial distribution of queried POIs in Fig. 6. We use black, red, and blue colors to denote POIs that are queried (1) by both methods, (2) only by mobility statistics, and (3) only by CRANE embeddings. Although all queried POIs are located within rich regions of the city, the two methods make largely different choices. The reason lies in a confounding variable, white ratio. In Houston, average income and white ratio are positively correlated and they are both positively correlated with accessibility to sports POIs. After distinguishing neighborhoods in Houston by the difference in their L(income) and L(white%), we observe that most sports POIs queried by mobility statistics (red pins) are located within regions where L(income) and L(white%) are both high (white color). In contrast, most sports POIs queried by embedding (blue pins) are located within regions where L(income) is greater than L(white%) (green color). This observation suggests that the advantage of high L(income) in sports accessibility among low L(white%) regions is captured and emphasized by CRANE, while unobserved in mobility statistics. Therefore, our CRANE framework can successfully untangle strong correlations between demographic features to generate POI-level causal representations.",
+            "cites": [
+                "ref-CR28",
+                "ref-CR22",
+                "ref-CR15",
+                "ref-CR37"
+            ],
+            "figures": [
+                "figure-3",
+                "figure-6",
+                "figure-4",
+                "figure-5"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Traveling without limitation in the urban space is an essential capability for urban dwellers to sufficiently exploit urban opportunities. Our analysis of detailed mobility data covering two years reveals significant gaps in mobility behaviors from various demographic perspectives. Clear implications for urban planners and researchers can be drawn from the findings.\nWe first quantify the neighborhood-level treatment effects of demographic features on the mobility frequency before the COVID-19 pandemic by PSM. Significant treatment effects with identical direction among the majority of studied MSAs indicate serious inequality in mobility frequency. Neighborhoods with lower income have lower mobility frequencies. This is in line with long-standing social issues in class inequality across the U.S., which impairs equal sharing in urban opportunity. Such a gap might result from the interplay of the low-income group’s segregation from the mainstream communities (Moro et al., 2021) and the high cost of urban transportation (Barbosa et al., 2021). In addition, the racial gap that neighborhoods with a more white population have higher mobility frequency is observed in all six MSAs but the capital city. Such class and racial inequalities in mobility frequency raise the concern on equality of citizens sharing opportunities in the urban space, calling for the design of urban policies that mitigate them. When we control race, income, and other confounding covariates, the bachelor ratio presents a negative treatment effect in five MSAs. This evidence reflects the small commuting burden for highly-educated citizens under similar socioeconomic status. As opposed to the widely observed gender inequality in urban mobility in other countries (Gauvin et al., 2020; Ng and Acker, 2018), women’s mobility frequency is not different from men’s significantly in US cities. Additionally, we observe an insignificant treatment effect related to the disability household ratio, suggesting that urban spaces in the U.S. offer relatively equal opportunities for all genders and are accommodating for disabled individuals.\nDuring the COVID-19 pandemic, mobility frequencies in large U.S. cities drop around 25% due to lockdown policies and POI shutdowns. By analyzing demographic features’ effects on the reduction in mobility frequency in 2020, we reveal gaps in residents’ capability of responding to an abrupt outbreak of infectious disease. Neighborhoods with a higher bachelor ratio reduce their mobility frequency more drastically in all six MSAs. Similarly, high-income neighborhoods also possess significant large mobility reductions in three MSAs. The above evidence reveals the gap in the capability to positively respond to mandate lockdown policies. Highly-educated people and people with better socioeconomic conditions have the advantage of accomplishing work remotely and living with their savings. By contrast, the nature of work for people with lower educational backgrounds requires them to travel in cities despite the social distancing and lockdown policies. The white population demonstrates better resilience during the pandemic shock. Neighborhoods with a higher white ratio have less mobility reduction in all six MSAs. This evidence suggests that the mobility gap between the white population and the minorities is exacerbated during the pandemic. The minorities are gradually pushed to the fringes of society, losing their rights and capability to exploit urban resources. Local government could assign economic support to the population in need and improve their remote working condition.\nFurthermore, we analyze differences in residents’ accessibility to different types of POIs. Both PSM and network representations demonstrate differences in accessibility to various urban venues. Sports venues are highly accessed by neighborhoods with higher average income, higher bachelor ratios, and higher white population ratios. Similarly, neighborhoods with higher average income and higher white population ratios have a higher proportion of visits to educational POIs. The class and racial gaps in education and sports accessibility urgently require policies striving for low-cost and quality opportunities for being educated and exercising for minorities and low-income populations. Neighborhoods with higher disability ratio and female ratio have higher urban facility accessibility to health POIs in New York, Chicago, Dallas, and Houston MSAs, indicating a high level of healthcare burden for women and people with disabilities.\nAside from the PSM method, we propose a counterfactual random walk-based representation learning algorithm called CRANE to capture the micro-mechanism of urban mobility inequality in an embedding space. Within- and cross-city prediction tasks confirm the effectiveness of the embedding vectors performing better and more stable in the prediction of urban facility accessibility. By querying proximity representation vectors in the embedding space, we can visualize the micro-level causal mechanism of gaps in urban facility accessibility. The effort of capturing accessibility gaps by representation learning approaches opens the door to understanding the micro-level mechanism of inequality and applying representation vectors for more urban tasks. For example, we can analyze POIs in which locations possess the harshest racial gaps. POI recommendations and site selection problems should also consider gaps in residents’ mobility patterns in the embedding space to promote equal access to urban facilities.\nIt is possible that factors beyond our consideration may also contribute to gaps in mobility patterns, including spatial factors such as road network structures and the availability of public transportation. Our current focus is on assessing accessibility gaps across various demographic backgrounds. Given that demographic attributes largely determine residential choices and living contexts (Clark, 1992; Wilson, 2006), we have not included spatial factors as potential covariates that could confound demographic features. In future research, natural experiments could be conducted to analyze the impact of spatial factors on accessibility gaps. Here, by combining large-scale mobility data and leveraging causal analysis to balance key demographic covariates, we dramatically reduce confounding effects, providing an in-depth understanding of inequality in urban mobility. In addition, with the reopening policies and cancellation of mask mandates in years after 2021, consumption, production, and life are back on track. Future research can assess the inequality in the recovery of urban mobility in the post-pandemic era, revealing gaps in citizens’ mobility resilience and how the pandemic shapes their mobility.\nOverall, our study suggests that in urban planning and governance, more attention should be paid to ensuring equal accessibility to urban venues so that a city can truly become a sustainable place that “provides something to everybody” (Jacobs, 1961).",
+            "cites": [
+                "ref-CR27",
+                "ref-CR41",
+                "ref-CR11",
+                "ref-CR2",
+                "ref-CR26",
+                "ref-CR17",
+                "ref-CR7"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: A schematic representation of the propensity score matching method.",
+            "figure-caption": "A Treatment and covariates of urban CBGs. Treatment is stratified into 5 levels, denoted as L(T). B Estimation of propensity scores by fitting an ordinal regression on L(T) by covariates. C Matching two closest CBGs according to their distance determined as the difference in propensity scores divided by the difference in L(T). D Calculating average treatment effect from matched CBG pairs M.",
+            "figure-link": "https://www.nature.com/articles/s41599-023-02570-5/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Illustration of counterfactual random walks on urban mobility network.",
+            "figure-caption": "Starting from a POI category, a POI is sampled based on its total visitation frequency and an observed neighborhood is sampled based on its normalized visitation frequency to the sampled POI. An alternative neighborhood is sampled from all neighborhoods that have covariates identical to the observed neighborhood.",
+            "figure-link": "https://www.nature.com/articles/s41599-023-02570-5/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: The treatment effects on mobility frequency in 2019 and mobility reduction during COVID-19 pandemic.",
+            "figure-caption": "Each panel denotes the treatment effects of one demographic feature on a mobility pattern in six MSAs. Blue and red bars indicate positive and negative effects, respectively. Whiskers correspond to the 95% confidence intervals.",
+            "figure-link": "https://www.nature.com/articles/s41599-023-02570-5/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: The treatment effects on the accessibility to four POI categories.",
+            "figure-caption": "Each panel denotes the treatment effects of one demographic feature on the accessibility to a POI category in six MSAs. Blue and red bars indicate positive and negative effects, respectively. Whiskers correspond to the 95% confidence intervals.",
+            "figure-link": "https://www.nature.com/articles/s41599-023-02570-5/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Demonstration of the convergence and effectiveness of CRANE.",
+            "figure-caption": "A Convergence with sample size. The percentage of difference with PSM results decreases with the number of sampled random walks on the urban mobility network and is reduced under 10% when the sample size is over 200,000. B 2D visualization of learned embeddings. Four category embeddings are fixed to be projected onto (0,1), (1,0), (0,-1), and (-1,0). Dashed arrows represent the directions pointing to the highest L(T) from the lowest L(T)’s embedding in the projected 2D space of each demographic feature.",
+            "figure-link": "https://www.nature.com/articles/s41599-023-02570-5/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: The spatial distribution of queried POIs in Houston.",
+            "figure-caption": "We query sports POIs by two methods - retrieving POIs with the highest accessibility from high-income neighborhoods and POIs with the highest inner product with the embedding of the highest L(income). Red, blue, and black pointers represent POIs retrieved by the statistic method, embedding method, and both methods. Compared with red pointers, blue pointers locate in regions where the income level is greater than the white ratio level, capturing the advantage of income on accessing sports POIs in low white ratio neighborhoods.",
+            "figure-link": "https://www.nature.com/articles/s41599-023-02570-5/figures/6"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Althoff T, Sosič R, Hicks JL, King AC, Delp SL, Leskovec J (2017) Large-scale physical activity data reveal worldwide activity inequality. Nature 547(7663):336-339",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature23018",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017Natur.547..336A",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXhtFCrt73P",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28693034",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5774986",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Large-scale%20physical%20activity%20data%20reveal%20worldwide%20activity%20inequality&journal=Nature&doi=10.1038%2Fnature23018&volume=547&issue=7663&pages=336-339&publication_year=2017&author=Althoff%2CT&author=Sosi%C4%8D%2CR&author=Hicks%2CJL&author=King%2CAC&author=Delp%2CSL&author=Leskovec%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Barbosa H, Hazarie S, Dickinson B, Bassolas A, Frank A, Kautz H, Sadilek A, Ramasco JJ, Ghoshal G (2021) Uncovering the socioeconomic facets of human mobility. Sci Rep 11(1):8616",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-021-87407-4",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXpsFGltLY%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33883580",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8060260",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Uncovering%20the%20socioeconomic%20facets%20of%20human%20mobility&journal=Sci%20Rep&doi=10.1038%2Fs41598-021-87407-4&volume=11&issue=1&publication_year=2021&author=Barbosa%2CH&author=Hazarie%2CS&author=Dickinson%2CB&author=Bassolas%2CA&author=Frank%2CA&author=Kautz%2CH&author=Sadilek%2CA&author=Ramasco%2CJJ&author=Ghoshal%2CG"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Bettencourt, LM. (2021) Introduction to Urban Science: Evidence and Theory of Cities as Complex Systems. MIT Press",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Carra G, Mulalic I, Fosgerau M, Barthelemy M (2016) Modelling the relation between income and commuting distance. J R Soc Interface 13(119):20160306",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2016.0306",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27278365",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4938093",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Modelling%20the%20relation%20between%20income%20and%20commuting%20distance&journal=J%20R%20Soc%20Interface&doi=10.1098%2Frsif.2016.0306&volume=13&issue=119&publication_year=2016&author=Carra%2CG&author=Mulalic%2CI&author=Fosgerau%2CM&author=Barthelemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Chang S, Pierson E, Koh PW, Gerardin J, Redbird B, Grusky D, Leskovec J (2021) Mobility network models of covid-19 explain inequities and inform reopening. Nature 589(7840):82-87",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-020-2923-3",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021Natur.589...82C",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXisVOlu7nP",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33171481",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mobility%20network%20models%20of%20covid-19%20explain%20inequities%20and%20inform%20reopening&journal=Nature&doi=10.1038%2Fs41586-020-2923-3&volume=589&issue=7840&pages=82-87&publication_year=2021&author=Chang%2CS&author=Pierson%2CE&author=Koh%2CPW&author=Gerardin%2CJ&author=Redbird%2CB&author=Grusky%2CD&author=Leskovec%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Chen L, Xu F, Han Z, Tang K, Hui P, Evans J, Li Y (2022) Strategic covid-19 vaccine distribution can simultaneously elevate social utility and equity. Nat Hum Behav 6(11):1503-1514",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-022-01429-0",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=36008683",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Strategic%20covid-19%20vaccine%20distribution%20can%20simultaneously%20elevate%20social%20utility%20and%20equity&journal=Nat%20Hum%20Behav&doi=10.1038%2Fs41562-022-01429-0&volume=6&issue=11&pages=1503-1514&publication_year=2022&author=Chen%2CL&author=Xu%2CF&author=Han%2CZ&author=Tang%2CK&author=Hui%2CP&author=Evans%2CJ&author=Li%2CY"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Clark WA (1992) Residential preferences and residential choices in a multiethnic context. Demography 29(3):451-466",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F2061828",
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaK3s%2FltVCqsg%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1426439",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Residential%20preferences%20and%20residential%20choices%20in%20a%20multiethnic%20context&journal=Demography&doi=10.2307%2F2061828&volume=29&issue=3&pages=451-466&publication_year=1992&author=Clark%2CWA"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Dueñas M, Campi M, Olmos LE (2021) Changes in mobility and socioeconomic conditions during the covid-19 outbreak. Hum Soc Sci Commun 8(1):1-10",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changes%20in%20mobility%20and%20socioeconomic%20conditions%20during%20the%20covid-19%20outbreak&journal=Hum%20Soc%20Sci%20Commun&volume=8&issue=1&pages=1-10&publication_year=2021&author=Due%C3%B1as%2CM&author=Campi%2CM&author=Olmos%2CLE"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Frias-Martinez V, Virseda-Jerez J, Frias-Martinez E (2012) On the relation between socio-economic status and physical mobility. Inform Technol Dev 18(2):91-106",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F02681102.2011.630312",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=On%20the%20relation%20between%20socio-economic%20status%20and%20physical%20mobility&journal=Inform%20Technol%20Dev&doi=10.1080%2F02681102.2011.630312&volume=18&issue=2&pages=91-106&publication_year=2012&author=Frias-Martinez%2CV&author=Virseda-Jerez%2CJ&author=Frias-Martinez%2CE"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Garg N, Schiebinger L, Jurafsky D, Zou J (2018) Word embeddings quantify 100 years of gender and ethnic stereotypes. Proc Natl Acad Sci 115(16):E3635-E3644",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1720347115",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018PNAS..115E3635G",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXht1GgsbrN",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29615513",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5910851",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Word%20embeddings%20quantify%20100%20years%20of%20gender%20and%20ethnic%20stereotypes&journal=Proc%20Natl%20Acad%20Sci&doi=10.1073%2Fpnas.1720347115&volume=115&issue=16&pages=E3635-E3644&publication_year=2018&author=Garg%2CN&author=Schiebinger%2CL&author=Jurafsky%2CD&author=Zou%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Gauvin L, Tizzoni M, Piaggesi S, Young A, Adler N, Verhulst S, Ferres L, Cattuto C (2020) Gender gaps in urban mobility. Hum Soc Sci Commun 7(1):1-13",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Gender%20gaps%20in%20urban%20mobility&journal=Hum%20Soc%20Sci%20Commun&volume=7&issue=1&pages=1-13&publication_year=2020&author=Gauvin%2CL&author=Tizzoni%2CM&author=Piaggesi%2CS&author=Young%2CA&author=Adler%2CN&author=Verhulst%2CS&author=Ferres%2CL&author=Cattuto%2CC"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Glaeser EL, Resseger M, and Tobio K (2008) Urban inequality. Harvard Institute of Economic Research Discussion Paper, (2168)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Graells-Garrido E, Meta I, Serra-Buriel F, Reyes P, Cucchietti FM (2020) Measuring spatial subdivisions in urban mobility with mobile phone data. In Companion Proceedings of the Web Conference. The Association for Computing Machinery, New York, p 485-494",
+            "links": {}
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Griggs D, Stafford-Smith M, Gaffney O, Rockström J, Öhman MC, Shyamsundar P, Steffen W, Glaser G, Kanie N, Noble I (2013) Sustainable development goals for people and planet. Nature 495(7441):305-307",
+            "links": {
+                "Article": "https://doi.org/10.1038%2F495305a",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2013Natur.495..305G",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXktlGgu7k%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23518546",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sustainable%20development%20goals%20for%20people%20and%20planet&journal=Nature&doi=10.1038%2F495305a&volume=495&issue=7441&pages=305-307&publication_year=2013&author=Griggs%2CD&author=Stafford-Smith%2CM&author=Gaffney%2CO&author=Rockstr%C3%B6m%2CJ&author=%C3%96hman%2CMC&author=Shyamsundar%2CP&author=Steffen%2CW&author=Glaser%2CG&author=Kanie%2CN&author=Noble%2CI"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Grover A, and Leskovec J (2016) node2vec: Scalable feature learning for networks. In Proceedings of the 22nd ACM SIGKDD international conference on Knowledge discovery and data mining. The Association for Computing Machinery, New York, p 855-864",
+            "links": {}
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Hasthanasombat A, and Mascolo C (2019) Understanding the effects of the neighbourhood built environment on public health with open data. In The World Wide Web Conference. The Association for Computing Machinery, New York, p 648-658",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Jacobs J (1961) The death and life of great American cities. Random House, New York City",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Kadar C, Feuerriegel S, Noulas A, and Mascolo C (2020) Leveraging mobility flows from location technology platforms to test crime pattern theory in large cities. In Proceedings of the international AAAI conference on web and social media. The Association for the Advancement of Artificial Intelligence Press. volume 14, p 339-350",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Kingma DP, and Ba J (2015) Adam: A Method for Stochastic Optimization. In International Conference on Learning Representations, OpenReview.net, p 1-15",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Law R (1999) Beyond ‘women and transport’: towards new geographies of gender and daily mobility. Prog Hum Geogr 23(4):567-588",
+            "links": {
+                "Article": "https://doi.org/10.1191%2F030913299666161864",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Beyond%20%E2%80%98women%20and%20transport%E2%80%99%3A%20towards%20new%20geographies%20of%20gender%20and%20daily%20mobility&journal=Prog%20Hum%20Geogr&doi=10.1191%2F030913299666161864&volume=23&issue=4&pages=567-588&publication_year=1999&author=Law%2CR"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Lenormand M, Louail T, Cantú-Ros OG, Picornell M, Herranz R, Arias JM, Barthelemy M, San Miguel M, Ramasco JJ (2015) Influence of sociodemographic characteristics on human mobility. Sci Rep 5(1):1-15",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Influence%20of%20sociodemographic%20characteristics%20on%20human%20mobility&journal=Sci%20Rep&volume=5&issue=1&pages=1-15&publication_year=2015&author=Lenormand%2CM&author=Louail%2CT&author=Cant%C3%BA-Ros%2COG&author=Picornell%2CM&author=Herranz%2CR&author=Arias%2CJM&author=Barthelemy%2CM&author=San%20Miguel%2CM&author=Ramasco%2CJJ"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Lund S, Madgavkar A, Manyika J, and Smit S (2020) What’s next for remote work: An analysis of 2,000 tasks, 800 jobs, and nine countries. McKinsey Global Institute, p 1-13",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Macedo M, Lotero L, Cardillo A, Menezes R, Barbosa H (2022) Differences in the spatial landscape of urban mobility: gender and socioeconomic perspectives. Plos one 17(3):e0260874",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0260874",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xmt1CjsLk%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=35235562",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8890667",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Differences%20in%20the%20spatial%20landscape%20of%20urban%20mobility%3A%20gender%20and%20socioeconomic%20perspectives&journal=Plos%20one&doi=10.1371%2Fjournal.pone.0260874&volume=17&issue=3&publication_year=2022&author=Macedo%2CM&author=Lotero%2CL&author=Cardillo%2CA&author=Menezes%2CR&author=Barbosa%2CH"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "McCullagh P (1980) Regression models for ordinal data. J R Stat Soc: Series B 42(2):109-127",
+            "links": {
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=583347",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Regression%20models%20for%20ordinal%20data&journal=J%20R%20Stat%20Soc%3A%20Series%20B&volume=42&issue=2&pages=109-127&publication_year=1980&author=McCullagh%2CP"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Miller HJ (2004) Tobler’s first law and spatial analysis. Ann Assoc Am Geogr 94(2):284-289",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1467-8306.2004.09402005.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Tobler%E2%80%99s%20first%20law%20and%20spatial%20analysis&journal=Ann%20Assoc%20Am%20Geogr&doi=10.1111%2Fj.1467-8306.2004.09402005.x&volume=94&issue=2&pages=284-289&publication_year=2004&author=Miller%2CHJ"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Moro E, Calacci D, Dong X, Pentland A (2021) Mobility patterns are associated with experienced income segregation in large us cities. Nat Commun 12(1):1-10",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-021-24899-8",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021NatCo..12....1M",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mobility%20patterns%20are%20associated%20with%20experienced%20income%20segregation%20in%20large%20us%20cities&journal=Nat%20Commun&doi=10.1038%2Fs41467-021-24899-8&volume=12&issue=1&pages=1-10&publication_year=2021&author=Moro%2CE&author=Calacci%2CD&author=Dong%2CX&author=Pentland%2CA"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Ng WS, and Acker A (2018) Understanding urban travel behaviour by gender for efficient and equitable transport policies. International Transport Forum Discussion Paper",
+            "links": {}
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Pucher J, Renne JL (2003) Socioeconomics of urban travel: evidence from the 2001 nhts. Transp Q 57(3):49-77",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Socioeconomics%20of%20urban%20travel%3A%20evidence%20from%20the%202001%20nhts&journal=Transp%20Q&volume=57&issue=3&pages=49-77&publication_year=2003&author=Pucher%2CJ&author=Renne%2CJL"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Rosenbaum PR, Rubin DB (1983) The central role of the propensity score in observational studies for causal effects. Biometrika 70(1):41-55",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fbiomet%2F70.1.41",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=742974",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20central%20role%20of%20the%20propensity%20score%20in%20observational%20studies%20for%20causal%20effects&journal=Biometrika&doi=10.1093%2Fbiomet%2F70.1.41&volume=70&issue=1&pages=41-55&publication_year=1983&author=Rosenbaum%2CPR&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Ryan J, Wretstrand A, Schmidt SM (2015) Exploring public transport as an element of older persons’ mobility: a capability approach perspective. J Trans Geogr 48:105-114",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jtrangeo.2015.08.016",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20public%20transport%20as%20an%20element%20of%20older%20persons%E2%80%99%20mobility%3A%20a%20capability%20approach%20perspective&journal=J%20Trans%20Geogr&doi=10.1016%2Fj.jtrangeo.2015.08.016&volume=48&pages=105-114&publication_year=2015&author=Ryan%2CJ&author=Wretstrand%2CA&author=Schmidt%2CSM"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Saha M, Chauhan D, Patil S, Kangas R, Heer J, Froehlich JE (2021) Urban accessibility as a socio-political problem: a multi-stakeholder analysis. Proc ACM Hum-Comp Interact 4(CSCW3):1-26",
+            "links": {
+                "Article": "https://doi.org/10.1145%2F3432908",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20accessibility%20as%20a%20socio-political%20problem%3A%20a%20multi-stakeholder%20analysis&journal=Proc%20ACM%20Hum-Comp%20Interact&doi=10.1145%2F3432908&volume=4&issue=CSCW3&pages=1-26&publication_year=2021&author=Saha%2CM&author=Chauhan%2CD&author=Patil%2CS&author=Kangas%2CR&author=Heer%2CJ&author=Froehlich%2CJE"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Sallis JF, Conway TL, Cain KL, Carlson JA, Frank LD, Kerr J, Glanz K, Chapman JE, Saelens BE (2018) Neighborhood built environment and socioeconomic status in relation to physical activity, sedentary behavior, and weight status of adolescents. Prevent Med 110:47-54",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ypmed.2018.02.009",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighborhood%20built%20environment%20and%20socioeconomic%20status%20in%20relation%20to%20physical%20activity%2C%20sedentary%20behavior%2C%20and%20weight%20status%20of%20adolescents&journal=Prevent%20Med&doi=10.1016%2Fj.ypmed.2018.02.009&volume=110&pages=47-54&publication_year=2018&author=Sallis%2CJF&author=Conway%2CTL&author=Cain%2CKL&author=Carlson%2CJA&author=Frank%2CLD&author=Kerr%2CJ&author=Glanz%2CK&author=Chapman%2CJE&author=Saelens%2CBE"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Saxon J (2021) Empirical measures of park use in american cities, and the demographic biases of spatial models. Geogr Anal 53(4):665-685",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fgean.12265",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Empirical%20measures%20of%20park%20use%20in%20american%20cities%2C%20and%20the%20demographic%20biases%20of%20spatial%20models&journal=Geogr%20Anal&doi=10.1111%2Fgean.12265&volume=53&issue=4&pages=665-685&publication_year=2021&author=Saxon%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Šćepanović S, Mishkovski I, Hui P, Nurminen JK, Ylä-Jääski A (2015) Mobile phone call data as a regional socio-economic proxy indicator. PloS one 10(4):e0124160",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0124160",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25897957",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4405276",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mobile%20phone%20call%20data%20as%20a%20regional%20socio-economic%20proxy%20indicator&journal=PloS%20one&doi=10.1371%2Fjournal.pone.0124160&volume=10&issue=4&publication_year=2015&author=%C5%A0%C4%87epanovi%C4%87%2CS&author=Mishkovski%2CI&author=Hui%2CP&author=Nurminen%2CJK&author=Yl%C3%A4-J%C3%A4%C3%A4ski%2CA"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Sen A (1980) Equality of What?. In McMurrin S Tanner Lectures on Human Values, Volume 1. Cambridge University Press",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Sharkey P, Elwert F (2011) The legacy of disadvantage: Multigenerational neighborhood effects on cognitive ability. Am J Soc 116(6):1934-81",
+            "links": {
+                "Article": "https://doi.org/10.1086%2F660009",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20legacy%20of%20disadvantage%3A%20Multigenerational%20neighborhood%20effects%20on%20cognitive%20ability&journal=Am%20J%20Soc&doi=10.1086%2F660009&volume=116&issue=6&pages=1934-81&publication_year=2011&author=Sharkey%2CP&author=Elwert%2CF"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Tang J, Qu M, Wang M, Zhang M, Yan J, and Mei Q (2015) Line: Large-scale information network embedding. In Proceedings of the 24th international conference on world wide web. The Association for Computing Machinery, New York, p 1067-1077",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Uteng, TP (2012) Gender and Mobility in the Developing World. World Bank, Washington DC",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Wang D, Pedreschi D, Song C, Giannotti F, and Barabasi AL (2011) Human mobility, social ties, and link prediction. In Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining. The Association for Computing Machinery, New York, p 1100-1108",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Wang Q, Phillips NE, Small ML, Sampson RJ (2018) Urban mobility and neighborhood isolation in america’s 50 largest cities. Proc Natl Acad Sci 115(30):7735-7740",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1802537115",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018PNAS..115.7735W",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXitlWqs77O",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29987019",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6065036",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20mobility%20and%20neighborhood%20isolation%20in%20america%E2%80%99s%2050%20largest%20cities&journal=Proc%20Natl%20Acad%20Sci&doi=10.1073%2Fpnas.1802537115&volume=115&issue=30&pages=7735-7740&publication_year=2018&author=Wang%2CQ&author=Phillips%2CNE&author=Small%2CML&author=Sampson%2CRJ"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Wilson WJ (2006) The geography of opportunity: Race and housing choice in metropolitan America. Rowman & Littlefield",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Xu Y, Belyi A, Bojic I, Ratti C (2018) Human mobility and socioeconomic status: analysis of singapore and boston. Comput Environ Urban Syst 72:51-67",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.compenvurbsys.2018.04.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Human%20mobility%20and%20socioeconomic%20status%3A%20analysis%20of%20singapore%20and%20boston&journal=Comput%20Environ%20Urban%20Syst&doi=10.1016%2Fj.compenvurbsys.2018.04.001&volume=72&pages=51-67&publication_year=2018&author=Xu%2CY&author=Belyi%2CA&author=Bojic%2CI&author=Ratti%2CC"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The SafeGraph Monthly Patterns datasets that support the findings in this study are available from SafeGraph through the SafeGraph Data for Academics program. The availability of these data is under strict restriction under the Data License Agreement of SafeGraph. The data are used under the license for this study and are not publicly available. The conditions and limitations of access to the data can be found at https://www.safegraph.com/academics. The demographic data can be publicly obtained from U.S. Decennial Census and American Community Survey data at https://www.safegraph.com/free-data/open-census-data. Codes for reproducing the CRANE algorithm are available at https://github.com/tsinghua-fib-lab/CRANE.",
+            "links": {
+                "https://www.safegraph.com/academics": "https://www.safegraph.com/academics",
+                "https://www.safegraph.com/free-data/open-census-data": "https://www.safegraph.com/free-data/open-census-data",
+                "https://github.com/tsinghua-fib-lab/CRANE": "https://github.com/tsinghua-fib-lab/CRANE"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This work was supported in part by the National Key Research and Development Program of China under grant 2020AAA0106000 to YL and the National Natural Science Foundation of China under U22B2057, 62272262 and U21B2036 to YL. The funders had no role in the study design, data collection and analysis, decision to publish or preparation of the manuscript.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsYunke ZhangView author publicationsSearch author on:PubMedGoogle ScholarFengli XuView author publicationsSearch author on:PubMedGoogle ScholarLin ChenView author publicationsSearch author on:PubMedGoogle ScholarYuan YuanView author publicationsSearch author on:PubMedGoogle ScholarJames EvansView author publicationsSearch author on:PubMedGoogle ScholarLuis BettencourtView author publicationsSearch author on:PubMedGoogle ScholarYong LiView author publicationsSearch author on:PubMedGoogle Scholar\n### Contributions\nYZ, FX, LC, YY, JE, LB and YL contributed ideas. YZ, FX, LC, YY and YL designed the research methods and provided the research outline. YZ performed the experiments and prepared the figures. JE, LB and YL provided critical revisions. All authors jointly participated in the writing of the manuscript.\n### Corresponding author\nCorrespondence to Yong Li.",
+            "links": {
+                "View author publications": "/search?author=Yong%20Li",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Yong%20Li",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Yong%20Li%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Yong Li": "mailto:liyong07@tsinghua.edu.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.\n### Ethical approval\nThis article does not contain any studies with human participants performed by any of the authors.\n### Informed consent\nThis article does not contain any studies with human participants performed by any of the authors.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "SUPPLEMENTAL INFORMATION",
+            "links": {
+                "SUPPLEMENTAL INFORMATION": "https://static-content.springer.com/esm/art%3A10.1057%2Fs41599-023-02570-5/MediaObjects/41599_2023_2570_MOESM1_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Counterfactual%20mobility%20network%20embedding%20reveals%20prevalent%20accessibility%20gaps%20in%20U.S.%20cities&author=Yunke%20Zhang%20et%20al&contentID=10.1057%2Fs41599-023-02570-5&copyright=The%20Author%28s%29&publication=2662-9992&publicationDate=2024-01-09&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleZhang, Y., Xu, F., Chen, L. et al. Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities. Humanit Soc Sci Commun 11, 87 (2024). https://doi.org/10.1057/s41599-023-02570-5Download citationReceived:13 June 2023Accepted:21 December 2023Published:09 January 2024DOI:https://doi.org/10.1057/s41599-023-02570-5Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1057/s41599-023-02570-5?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities",
+                "description": "Living in cities affords expanded access to various resources, infrastructures, and services at reduced travel costs, which improves social life and promotes systemic gains. However, recent research shows that urban dwellers also experience inequality in accessing urban facilities, which manifests in distinct travel and visitation patterns for residents with different demographic backgrounds. Here, we go beyond simple flawed correlation analysis and reveal prevalent accessibility gaps by quantifying the causal effects of resident demographics on mobility patterns extracted from U.S. residents’ detailed interactions with millions of urban venues. Moreover, to efficiently reveal micro neighborhood-level accessibility gaps, we design a novel Counterfactual RANdom-walks-based Embedding (CRANE) method to learn continuous embedding vectors on urban mobility networks with confounding effects disentangled. Our analysis reveals significant income and racial gaps in mobility frequency and visitation rates to sports and education venues. Besides, bachelor’s degree holders experience greater mobility reduction during the COVID-19 crisis. With extensive experiments on neighborhood-level accessibility prediction and visualizing accessibility gaps with embeddings vectors, we demonstrate that the counterfactual mobility network embeddings can improve the explanatory capacity and robustness of revealed accessibility gaps by extending them from aggregate statistics to individual neighborhoods and allowing for cross-city knowledge transfer. As such, urban mobility networks can reveal consistent accessibility gaps in the U.S., calling for urgent urban design policies to fill in the gaps.",
+                "datePublished": "2024-01-09T00:00:00Z",
+                "dateModified": "2024-01-09T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "12",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1057/s41599-023-02570-5",
+                "keywords": [
+                    "Complex networks",
+                    "Geography",
+                    "Science, technology and society",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-023-02570-5/MediaObjects/41599_2023_2570_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-023-02570-5/MediaObjects/41599_2023_2570_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-023-02570-5/MediaObjects/41599_2023_2570_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-023-02570-5/MediaObjects/41599_2023_2570_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-023-02570-5/MediaObjects/41599_2023_2570_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-023-02570-5/MediaObjects/41599_2023_2570_Fig6_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Humanities and Social Sciences Communications",
+                    "issn": [
+                        "2662-9992"
+                    ],
+                    "volumeNumber": "11",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Palgrave Macmillan UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Yunke Zhang",
+                        "url": "http://orcid.org/0000-0003-0187-6015",
+                        "affiliation": [
+                            {
+                                "name": "Tsinghua University",
+                                "address": {
+                                    "name": "Beijing National Research Center for Information Science and Technology (BNRist), Department of Electronic Engineering, Tsinghua University, Beijing, PR China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Fengli Xu",
+                        "affiliation": [
+                            {
+                                "name": "Tsinghua University",
+                                "address": {
+                                    "name": "Beijing National Research Center for Information Science and Technology (BNRist), Department of Electronic Engineering, Tsinghua University, Beijing, PR China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Lin Chen",
+                        "url": "http://orcid.org/0000-0002-2605-749X",
+                        "affiliation": [
+                            {
+                                "name": "Hong Kong University of Science and Technology",
+                                "address": {
+                                    "name": "Department of Computer Science and Engineering, Hong Kong University of Science and Technology, Hong Kong SAR, PR China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yuan Yuan",
+                        "affiliation": [
+                            {
+                                "name": "Tsinghua University",
+                                "address": {
+                                    "name": "Beijing National Research Center for Information Science and Technology (BNRist), Department of Electronic Engineering, Tsinghua University, Beijing, PR China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "James Evans",
+                        "url": "http://orcid.org/0000-0001-9838-0707",
+                        "affiliation": [
+                            {
+                                "name": "University of Chicago",
+                                "address": {
+                                    "name": "Department of Sociology, University of Chicago, Chicago, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Santa Fe Institute",
+                                "address": {
+                                    "name": "Santa Fe Institute, Santa Fe, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Luis Bettencourt",
+                        "url": "http://orcid.org/0000-0001-6176-5160",
+                        "affiliation": [
+                            {
+                                "name": "Santa Fe Institute",
+                                "address": {
+                                    "name": "Santa Fe Institute, Santa Fe, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chicago",
+                                "address": {
+                                    "name": "Mansueto Institute for Urban Innovation, University of Chicago, Chicago, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chicago",
+                                "address": {
+                                    "name": "Department of Ecology and Evolution, University of Chicago, Chicago, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yong Li",
+                        "url": "http://orcid.org/0000-0001-5617-1659",
+                        "affiliation": [
+                            {
+                                "name": "Tsinghua University",
+                                "address": {
+                                    "name": "Beijing National Research Center for Information Science and Technology (BNRist), Department of Electronic Engineering, Tsinghua University, Beijing, PR China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "liyong07@tsinghua.edu.cn",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "complex-networks;geography;science-technology-and-society",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Humanities and Social Sciences Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1057/s41599-023-02570-5"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Yunke Zhang",
+                            "Fengli Xu",
+                            "Lin Chen",
+                            "Yuan Yuan",
+                            "James Evans",
+                            "Luis Bettencourt",
+                            "Yong Li"
+                        ],
+                        "publishedAt": 1704758400,
+                        "publishedAtString": "2024-01-09",
+                        "title": "Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Complex networks,Geography,Science, technology and society"
+                    },
+                    "journal": {
+                        "pcode": "palcomms",
+                        "title": "humanities and social sciences communications",
+                        "volume": "11",
+                        "issue": "1",
+                        "id": 41599,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities",
+            "dc.source": "Humanities and Social Sciences Communications 2024 11:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Palgrave",
+            "dc.date": "2024-01-09",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2024 The Author(s)",
+            "dc.rights": "2024 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Living in cities affords expanded access to various resources, infrastructures, and services at reduced travel costs, which improves social life and promotes systemic gains. However, recent research shows that urban dwellers also experience inequality in accessing urban facilities, which manifests in distinct travel and visitation patterns for residents with different demographic backgrounds. Here, we go beyond simple flawed correlation analysis and reveal prevalent accessibility gaps by quantifying the causal effects of resident demographics on mobility patterns extracted from U.S. residents’ detailed interactions with millions of urban venues. Moreover, to efficiently reveal micro neighborhood-level accessibility gaps, we design a novel Counterfactual RANdom-walks-based Embedding (CRANE) method to learn continuous embedding vectors on urban mobility networks with confounding effects disentangled. Our analysis reveals significant income and racial gaps in mobility frequency and visitation rates to sports and education venues. Besides, bachelor’s degree holders experience greater mobility reduction during the COVID-19 crisis. With extensive experiments on neighborhood-level accessibility prediction and visualizing accessibility gaps with embeddings vectors, we demonstrate that the counterfactual mobility network embeddings can improve the explanatory capacity and robustness of revealed accessibility gaps by extending them from aggregate statistics to individual neighborhoods and allowing for cross-city knowledge transfer. As such, urban mobility networks can reveal consistent accessibility gaps in the U.S., calling for urgent urban design policies to fill in the gaps.",
+            "dc.identifier": "doi:10.1057/s41599-023-02570-5",
+            "dc.creator": "Li, Yong",
+            "dc.subject": "Science, technology and society",
+            "prism.issn": "2662-9992",
+            "prism.publicationName": "Humanities and Social Sciences Communications",
+            "prism.publicationDate": "2024-01-09",
+            "prism.volume": "11",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "12",
+            "prism.copyright": "2024 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41599-023-02570-5",
+            "prism.doi": "doi:10.1057/s41599-023-02570-5",
+            "citation_pdf_url": "https://www.nature.com/articles/s41599-023-02570-5.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41599-023-02570-5",
+            "citation_journal_title": "Humanities and Social Sciences Communications",
+            "citation_journal_abbrev": "Humanit Soc Sci Commun",
+            "citation_publisher": "Palgrave",
+            "citation_issn": "2662-9992",
+            "citation_title": "Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities",
+            "citation_volume": "11",
+            "citation_issue": "1",
+            "citation_online_date": "2024/01/09",
+            "citation_firstpage": "1",
+            "citation_lastpage": "12",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1057/s41599-023-02570-5",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1057/s41599-023-02570-5&api_key=",
+            "citation_reference": "citation_journal_title=Comput Environ Urban Syst; citation_title=Human mobility and socioeconomic status: analysis of singapore and boston; citation_author=Y Xu, A Belyi, I Bojic, C Ratti; citation_volume=72; citation_publication_date=2018; citation_pages=51-67; citation_doi=10.1016/j.compenvurbsys.2018.04.001; citation_id=CR42",
+            "citation_author": "Li, Yong",
+            "citation_author_institution": "Beijing National Research Center for Information Science and Technology (BNRist), Department of Electronic Engineering, Tsinghua University, Beijing, PR China",
+            "description": "Living in cities affords expanded access to various resources, infrastructures, and services at reduced travel costs, which improves social life and promotes systemic gains. However, recent research shows that urban dwellers also experience inequality in accessing urban facilities, which manifests in distinct travel and visitation patterns for residents with different demographic backgrounds. Here, we go beyond simple flawed correlation analysis and reveal prevalent accessibility gaps by quantifying the causal effects of resident demographics on mobility patterns extracted from U.S. residents’ detailed interactions with millions of urban venues. Moreover, to efficiently reveal micro neighborhood-level accessibility gaps, we design a novel Counterfactual RANdom-walks-based Embedding (CRANE) method to learn continuous embedding vectors on urban mobility networks with confounding effects disentangled. Our analysis reveals significant income and racial gaps in mobility frequency and visitation rates to sports and education venues. Besides, bachelor’s degree holders experience greater mobility reduction during the COVID-19 crisis. With extensive experiments on neighborhood-level accessibility prediction and visualizing accessibility gaps with embeddings vectors, we demonstrate that the counterfactual mobility network embeddings can improve the explanatory capacity and robustness of revealed accessibility gaps by extending them from aggregate statistics to individual neighborhoods and allowing for cross-city knowledge transfer. As such, urban mobility networks can reveal consistent accessibility gaps in the U.S., calling for urgent urban design policies to fill in the gaps.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities",
+            "twitter:description": "Humanities and Social Sciences Communications - Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1057%2Fs41599-023-02570-5/MediaObjects/41599_2023_2570_Fig1_HTML.png",
+            "DOI": "10.1057/s41599-023-02570-5",
+            "size": "255597",
+            "journal_id": "41599"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41599-023-02570-5",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

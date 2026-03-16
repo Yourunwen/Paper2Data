@@ -1,0 +1,97 @@
+{
+    "id": "s41467-022-30051-x",
+    "title": "Using sero-epidemiology to monitor disparities in vaccination and infection with SARS-CoV-2",
+    "journal": "Nature Communications",
+    "pdf_link": "https://www.nature.com/articles/s41467-022-30051-x",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Residual serum samples from UCSF Health and SFDPH clinical blood draws with linked EHR demographics",
+            "Data_summary": "Algorithmically selected residual sera from routine clinical blood draws collected in two San Francisco hospital networks, linked to patient electronic health record demographics such as age, sex, race ethnicity, and zipcode residence. Used as the primary input biospecimen dataset for serologic testing and subsequent estimation of infection- versus vaccination-derived seropositivity.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [
+                14
+            ],
+            "Other_Information": "Evidence: residual serum samples from routine blood draws from the University of California San Francisco and San Francisco Department of Public Health inpatient and outpatient healthcare systems were sampled between February 4 and February 17 2021 Location: Methods Confidence: high",
+            "Time_Coverage": "2021-02-04 to 2021-02-17",
+            "Geographic_Coverage": "United States > California > San Francisco",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Ortho Clinical Diagnostics VITROS Anti SARS CoV 2 Total assay results on study sera",
+            "Data_summary": "Per-sample serology test results from the Ortho Clinical Diagnostics VITROS platform measuring total immunoglobulin response to the SARS-CoV-2 spike S1 subunit. Used to identify individuals with antibodies consistent with prior infection and or vaccination and as one component of the joint assay classification.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [
+                31
+            ],
+            "Other_Information": "Evidence: Each sample N = 1,014 was tested on two commercial SARS-CoV-2 serologic platforms The Ortho Clinical Diagnostics VITROS Anti-SARS-CoV-2 Total assay measures the total Ig antibody response to the S1 subunit Location: Methods Confidence: high",
+            "Time_Coverage": "2021-02-04 to 2021-02-17",
+            "Geographic_Coverage": "United States > California > San Francisco",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Roche Elecsys Anti SARS CoV 2 assay results on study sera",
+            "Data_summary": "Per-sample serology test results from the Roche Elecsys platform measuring total immunoglobulin response to the SARS-CoV-2 nucleocapsid protein. Used to identify individuals with antibodies consistent with prior natural infection and to separate infection-induced from vaccination-induced seropositivity when combined with spike assay results.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [
+                32
+            ],
+            "Other_Information": "Evidence: The Roche Elecsys Anti-SARS-CoV-2 assay measures the total Ig antibody response to the SARS-CoV-2 nucleocapsid N protein and therefore is expected to yield a positive results after natural infection but not after vaccination Location: Methods Confidence: high",
+            "Time_Coverage": "2021-02-04 to 2021-02-17",
+            "Geographic_Coverage": "United States > California > San Francisco",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "San Francisco Department of Public Health COVID 19 Vaccine Doses Given to San Franciscans by Demographics",
+            "Data_summary": "Administrative vaccination counts by demographic group for San Francisco residents. Used to build prior distributions for vaccination probability by age group and race ethnicity and to obtain reported numbers vaccinated used in the Bayesian model hyper-prior simulation step.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we first obtained the total population size Mj of group j in San Francisco as well as the reported number of individuals in that group mj who had been vaccinated up to January 20 2021 Location: Methods Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > California > San Francisco",
+            "URL": "https://data.sfgov.org/COVID-19/COVID-19-Vaccine-Doses-Given-to-San-Franciscans-by/wv2h-rqwk",
+            "ref": [
+                "ref-CR13"
+            ]
+        },
+        {
+            "Data_Name": "2015 to 2019 American Community Survey 5 Year Estimates",
+            "Data_summary": "US Census Bureau small-area socioeconomic and demographic survey estimates including indicators such as population composition and income. Used to contextualize and map zipcode-level socioeconomic and racial ethnic composition and to provide comparison information for figure inputs.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                15
+            ],
+            "Other_Information": "Evidence: Data used in Fig. 1b is shown in Supplementary Table 2 and from the 2019 American Community Survey Five Year Estimates15 Location: Data availability Confidence: high",
+            "Time_Coverage": "2015-2019",
+            "Geographic_Coverage": "United States > California > San Francisco",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR15"
+            ]
+        },
+        {
+            "Data_Name": "Paper-level individual clinical dataset access on request",
+            "Data_summary": "Individual-level clinical and serology-linked study data underlying figures that cannot be publicly shared due to institutional privacy requirements. Mentioned as available via author contact under a data sharing contract and includes the patient-level records used for analyses.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: For enquiries to access individual data please contact Isabel Rodriguez Barraquer and we will endeavour to respond within two weeks Institutional policy requires the use of a data sharing contract for sharing clinical data Location: Data availability Confidence: high",
+            "Time_Coverage": "2021-02-04 to 2021-02-17",
+            "Geographic_Coverage": "United States > California > San Francisco",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:31.966432"
+    }
+}

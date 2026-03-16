@@ -1,0 +1,844 @@
+{
+    "id": "s42949-025-00273-1",
+    "journal": "npj Urban Sustainability",
+    "type": "article",
+    "title": "AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia",
+    "legal_title": "AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia",
+    "publish_time": "2025-09-30",
+    "pdf_link": "https://www.nature.com/articles/s42949-025-00273-1",
+    "storage_path": "./Articles/npj Urban Sustainability/2025-article/s42949-025-00273-1/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Mongolia is among the countries undergoing rapid urbanization, and its temporary nomadic dwellings—known as Ger—have expanded into urban areas. Newly formed ger communities in cities are potentially recognized as informal settlements, or slums. The distinctive circular, tent-like shape of gers enables their detection through very-high-resolution satellite imagery. We develop a computer vision algorithm to detect gers in Ulaanbaatar, the capital of Mongolia, utilizing satellite images collected from 2015 to 2025. Results reveal that ger settlements have relocated towards the capital’s peripheral areas. The predicted ger household ratio based on our results exhibits a significant correlation (r = 0.85) with the World Bank’s district-level poverty data. Our nationwide extrapolation suggests that housing improvements in informal settlements have fallen short of official projections by an average of 2.8% since the COVID-19 pandemic. We discuss the potential of machine learning on satellite imagery in providing insights into urbanization patterns and sustainable development.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "After the collapse of the Soviet Union and the socialist system in the 1990s, Mongolia underwent significant economic transformations1. These changes triggered a substantial influx of rural residents to Ulaanbaatar, the capital city2. This population surge, coupled with a housing shortage, led to the emergence of extensive informal settlements on the city’s outskirts3. These settlements expanded with gers—traditional white, circular tent-like dwellings used by nomadic herders on the Mongolian steppes—reflecting the cultural roots of rural migrants4. Ger settlements in urban areas have become more permanent, evolving into what are known as ‘ger districts’5.\nGer districts, which take up an estimated 22% of households in the capital6, present substantial socio-economic challenges. Residents lack essential services such as running water, sewage systems, and central heating7. Consequently, they rely on coal-burning stoves for heating and cooking, exacerbating air pollution and related health problems8. Moreover, these settlements are not officially recorded and hence limits their access to urban planning efforts, education, healthcare, and transportation services5. High unemployment and poverty rates in ger districts further deepen economic disparities9. These challenges underscore the need of monitoring densely populated ger settlements as a distinct form of urban slums in Mongolia10,11.\nDespite gers being emblematic of urban deprivation in Mongolia, our understanding of their spatial patterns remains limited. Housing censuses have attempted to assess ger conditions, but traditional methods like surveys require considerable time and cost for accurate measurement. Additionally, the number of gers fluctuates significantly each year due to new migrants from surrounding provinces and evictions resulting from governmental redevelopment plans12.\nSeveral previous studies manually digitized the boundaries of ger dwellings from satellite images13. However, this manual approach is impractical for covering the entire region of Ulaanbaatar. Other studies have employed object-based image analysis on satellite images to track changes in ger districts. For example, Park et al3. found that the total area of ger districts expanded from 32 to 221 km2 between 1990 and 2013. However, their use of low-resolution images (i.e., 30 m resolution) and limited pixel accuracy (i.e., 0.75) hindered precise counting of gers.\nIn contrast, we employ a machine learning approach with very-high-resolution (VHR) satellite images—with a resolution of less than one meter per pixel—to detect gers in Ulaanbaatar with greater precision. Such AI-based method significantly enhances spatial and temporal coverage by enabling consistent and repeated measurements14,15. We collected VHR images over a decade from 2015 to 2025. Our results estimate the ratio of the slum population in Mongolia, following the criteria of urban slums defined by UN-Habitat16. Considering Ulaanbaatar accounts for 63.5% of Mongolia’s total urban population7, it serves as a representative indicator for extrapolating nationwide slum ratio.\nThis article advances informal settlement mapping in Mongolia by classifying ger districts as a region-specific form of urban slums based on their socio-economic deprivations. In addition, we demonstrate the effectiveness of AI-based methods for tracking informal settlements over time. Our main findings provide a comprehensive analysis of ger trends between 2015 and 2025, focusing on the persistence and expansion of these districts. Finally, our national-level extrapolation on slum ratio supplements the current understanding of deprivation trends in Mongolia, particularly in the aftermath of the COVID-19 pandemic.",
+            "cites": [
+                "ref-CR2",
+                "ref-CR11",
+                "ref-CR16",
+                "ref-CR12",
+                "ref-CR7",
+                "ref-CR1",
+                "ref-CR13",
+                "ref-CR5",
+                "ref-CR6",
+                "ref-CR4",
+                "ref-CR15",
+                "ref-CR9",
+                "ref-CR3",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR14"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Ger detection results\nYellow dots in Fig. 1 shows individual ger structures detected in 2025. The figure (right) confirms that gers are relatively absent in the center of Ulaanbaatar, where high-rise buildings are concentrated. Instead, gers are predominantly found in the peripheral areas surrounding the city center, and they tend to spread out to the north along mountain ranges and riversides. The reason gers spread to the north is due to the presence of the Tuul Gol River and Bogd Khan Mountain to the south of downtown, which limits the availability of flat land for gers in the southern area.\nThe zoomed-in result (Fig. 1 top-left) shows the typical layout of ger settlements in peri-urban areas of Ulaanbaatar. These settlements consist of square-shaped wooden fences, called khashaas, surrounding individual gers and the land within. Khashaas are used to delineate property boundaries for ger residents17. There are also makeshift wooden houses identified in satellite images and, increasingly, more permanent brick or concrete structures within khashaas as residents seek better living conditions. The settlement is connected to the city center by unpaved roads, leading to muddy conditions during the rainy season and dust in the dry season, as shown in the eastern part of the figure.\nFigure 2 illustrate the change in the number of gers in Ulaanbaatar over the past decade, revealing three major trends. The most prominent trend is the sharp decline in gers between 2016/2019 and 2023/2025. This decline is likely due to the ger redevelopment projects initiated as part of Ulaanbaatar 2020 Master Plan, which began in 2013. Although attempts to redevelop ger areas by the private sector have existed since 200818, the projects gained official support from the Mongolian government following the legal regulation enacted in 201512. The land acquisition process for these projects had been delayed and actual development began in 2016, with a target completion in the early 2020s. Significant redevelopment activities are also observed in 2025, particularly the removal of gers in Sukhbaatar and Chingeltei districts. This timeline corresponds with the rapid decline in gers during that period. In total, 11,755 new apartments were constructed by 43 individual projects on the 2519 units of land where gers were originally located19.\nThe second trend is the sporadic increases of gers in 2015/16, 2019/20, and 2022/23. During these three periods, the ger settlements increased by 1165, 1633, and 1575 respectively. This increase appears to be correlated with a rise in the total number of households within the six sub-districts. During the same periods, the total number of households increased by approximately 20,000. Given that in-migration from surrounding provinces has been a dominant factor in Ulaanbaatar’s population growth over the last three decades20, the increase in gers can be attributed to rural migrants bringing their own gers. If each newly established ger accommodates one household, it can be estimated that about 5–7% of the increased households reside in gers. In 2019, when the number of new households increased by 24,902, and approximately 6.5% of them (i.e., 1633 households) are likely to have moved into gers.\nLastly, the number of gers remained stable at around 83,000 from 2020 to 2022. This stability can be attributed to the impact of the global COVID-19 pandemic. In February 2020, the Mongolian government began restricting all travel between provinces and cities, as well as incoming and outgoing flows in Ulaanbaatar21. Multiple lockdowns were imposed in the capital22 to prevent it from becoming a nationwide source of disease transmission. Restrictions on movement were gradually lifted starting in April 2021, followed by a complete life in July 202123. The stable population during the period reflects these restrictions, highlighting rural-to-urban migration as a major driver of Ulaanbaatar’s population growth. Notably, the number of total households even decreased by 1906 in 20217. Since the stable population, the number of gers also remained stable during this period.\n### Extending to periphery of Ulaanbaatar\nOur findings demonstrate the powerful application of AI and satellite data in analyzing the geospatial marginalization of ger settlements. Figure 3 depicts the grid-level changes in prominent ger locations from 2015 to 2025. Each grid covers an area of 0.67 square kilometers and is in zoom level 15 (Details of the zoom level system are provided in the Methods section). The grid colors represent changes in ger counts, with red denoting an increase and blue a decreasing. The figure shows that ger locations have moved from the center to the periphery of the city, mirroring the urban sprawl phenomenon.\nThe figure also highlights locations of 19 yellow dots corresponding to the redevelopment projects in the area18. Satellite images reveal a trend where ger settlements near these project sites decreases as new high-rise buildings emerge. Nonetheless, ger counts increase in the surrounding grids. Particularly, in the western and eastern parts of the city center, many grids are depicted in deep red, indicating a significant increase in ger counts. This trend suggests that ger residents are being relocated to the outskirts of Ulaanbaatar due to the government’s redevelopment policy. It also indicates that the benefits of redevelopment were not equitably shared with the displaced ger residents12, and new policy decisions could further help address socio-economic disparities among urban residents.\nOur results also suggest that the living conditions of ger residents have been increasingly marginalized since 2015, particularly in terms of accessibility. We can confirm this trend from another data, as shown in Table 1. Utilizing the global high spatial resolution digital elevation model (GDEM) version 3 from Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER)24, we assessed the average elevation and slope of ger settlements in 2015 and 2025. The table shows increases in both elevation and slope over the decade, indicating that the gers have progressively relocated to highly elevated areas on the outskirts of the city.\nShifted locations also mean that accessibility to critical infrastructure and service becomes limited for ger residents. To examine this, we measured the average distance from gers to major facilities within Ulaanbaatar, based on the spatial coordinates of facilities from OpenStreetMap25, which is a collaborative project that provides free geographic datasets. This dataset includes locations of points, lines, and areas of interest, classified into various categories. Specifically, we collected information on main roads, bus stations, educational institutions, medical facilities, public amenities, marketplaces, and industrial zones, utilizing the classifications available within OpenStreetMap. For example, the main roads were categorized under classes such as “primary,” “secondary,” “tertiary,” and “trunk.” Finally, we calculated the average distance to Sükhbaatar Square, a central and significant public space known for hosting cultural events, ceremonies, and gatherings.\nThe calculation of these average distances indicated that, for all categories, the distance from gers to critical services increased by 11 to 29% in 2025 compared to 2015 (Table 1). For instance, as gers have shifted to the peripheral areas, residents now live approximately 200 m farther from public amenities, with the distance from 1931 to 2160 m. These findings are consistent with previous qualitative studies5, which suggest that residents of gers face lower accessibility compared to those living in the central areas of the capital.\n### Estimating slum population ratio based on ger detection\nWe estimate the slum population ratio in Mongolia based on the number of gers detected in satellite images. To calculate the ratio, we first divide the number of households living in gers by the number of gers detected. According to the 2020 Population and Housing Census6, there were 84,755 households living in gers in six sub-districts of Ulaanbaatar, while 83,466 gers were detected from satellite images from the same year. This results in an average of 0.985 households per ger. Using this average, we can estimate the number of households for other years by multiplying 0.985 by the number of gers detected for those years. We assumed that a consistent number of households per ger during this time. For the ger-dwelling ratio, we divide the number of households living in gers by the total number of households in the area. This ratio serves as a proxy for urban deprivation levels and the slum population in Mongolia.\nFor validation, we compare this proxy with district-level poverty headcount data. The World Bank report26 calculated poverty levels at the district level using small area estimation techniques based on the 2010 census and the 2011 household socio-economic survey. This report provides the detailed percentage of people living in poverty in 2011 across 23 districts of Ulaanbaatar. The poverty statistics from 2011 might be outdated, which may complicate comparisons with our ger detection results from 2015. However, we note that district-level (i.e., Khoroo-level) poverty statistics are not available beyond 2011 in Mongolia. Our analysis estimated the ger-dwelling ratio by districts in 2015, revealing a strong correlation of 0.847 with the 2011 poverty statistics. This significant correlation suggests that gers are predominantly situated in regions with higher urban poverty, thus supporting the use of AI-based ger-dwelling ratio as a reliable proxy for deprivation (see Supplementary Table 1).\nThe national-level ger-dwelling ratio is depicted in Fig. 4 (red) alongside the estimates from UN-Habitat (gray). We also present an interval in the figure, derived from the accuracy of ger number predictions. According to UN-Habitat, there has been a gradual decline in the slum population ratio in Mongolia16. However, several critics27 have suggested that these estimates may be understated. Moreover, UN-Habitat’s estimates have not been updated since 2022, reflecting the time- and resource-intensive nature of conducting comparable slum surveys. In contrast, our estimates show greater variability. Between 2015 and 2020, the proportion of slums is expected to decrease in our estimates at a slower rate than UN-Habitat’s estimates. More critically, our findings show that since 2020, including the pandemic period, the slum rate has stabilized at 21% of the urban population, a level that persisted through 2023. In 2025, the slum rate declined to 18%—a figure UN-Habitat projected for 2020—suggesting that housing improvements are approximately three years behind official projections, corresponding to an 2.8% shortfall on average since the COVID-19 pandemic.\nIt should be noted that our estimates may be conservative, and the actual slum ratio may be higher. This is partly because the ger-dwelling population ratio in urban areas is higher in areas outside of Ulaanbaatar compared to the six sub-districts used in our analysis7. Within these six sub-districts, 21.6% of households reside in gers. There are 17 other sub-districts in Mongolia where all households are classified as urban households, similar to the six sub-districts, and their ratio is 33.0%6. Therefore, incorporating these higher ger-dwelling ratios could reveal a more severe situation than what is currently reflected in our findings.\nFinally, our study considered only households living in gers as representing the slum population in Mongolia. This excludes other potential slum types, such as shanty towns constructed from scrap materials, rooming houses that rent out individual rooms to multiple occupants, refugee camps, and informal settlements. Additionally, even if an apartment is constructed with durable materials, it could still be classified as a slum if it lacks running water and sanitation facilities. However, satellite imagery cannot be used to detect the interior conditions of buildings, making it impossible to calculate the proportion of such slums. Therefore, including these other forms of slum settlements would likely result in a higher slum ratio than our current estimates.",
+            "cites": [
+                "ref-CR21",
+                "ref-CR18",
+                "ref-CR16",
+                "ref-CR12",
+                "ref-CR7",
+                "ref-CR27",
+                "ref-CR25",
+                "ref-CR22",
+                "ref-CR20",
+                "ref-CR26",
+                "ref-CR5",
+                "ref-CR23",
+                "ref-CR19",
+                "ref-CR6",
+                "ref-CR24",
+                "ref-CR17"
+            ],
+            "figures": [
+                "figure-4",
+                "figure-3",
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "In this paper, we presented an AI-based approach to analyzing the spatial and temporal dynamics of ger settlements in Ulaanbaatar, Mongolia. Utilizing VHR satellite imagery, our model tracked the evolution of ger settlements from 2015 to 2025. Our findings indicate a significant reduction in the number of gers due to urban redevelopment projects, coupled with a notable increase in ger dwellings in the city’s peripheral areas. Such displacement underscores the marginalization of ger residents, who now face longer distances to essential infrastructure (Table 1).\nUsing the ger detection results, we extrapolated the nationwide slum ratio in Mongolia, given that Ulaanbaatar accounts for 63.5% of the country’s total urban population. The extrapolation confirms a decline in the slum population from 2015 to 2020, consistent with official reports16. However, from 2020 onwards, the slum ratio demonstrates a delayed improvement, stabilizing at approximately one fifth of the population. This delay suggests that urban deprivation since COVID-19 may be more severe than what is reflected in official reports published by the Mongolian government and UN-Habitat.\nThis work classified densely populated urban ger settlements as informal settlements due to their poor living conditions, characterized by inadequate sanitation and insecure tenure. These gers have lost their mobility, being permanently settled in specific areas with fencing13. In contrast, labeling gers of the Mongolian steppes as slums is politically sensitive, given their role as traditional dwellings for nomadic communities. Moreover, the gers constructed for international tourists in Mongolia’s natural parks outside Ulaanbaatar (e.g., Gorkhi Terelj National Park) do not meet the criteria for slums, as they are equipped with modern amenities and have close proximity to nearby resorts. Given the distinct characteristics of gers beyond Ulaanbaatar, their broad classifications as informal settlements will be misleading and should be applied cautiously.\nA significant factor contributing to the sustained urban deprivation is the continuous migration of nomadic families from the Mongolian steppes, who bring their own gers and begin to settle in urban areas7. This migratory trend is often driven by the search for better employment opportunities and to avoid environmental hazards, such as dzud2. Dzud causes massive livestock fatalities, devastating the livelihoods of nomadic communities and accelerating their migration to cities28. The frequency and intensity of dzud are expected to rise in the future due to global environmental change29, potentially exacerbating the influx of migrants into ger districts in Ulaanbaatar. Future research could address the challenges of extreme winters by integrating our ger detection results with high-resolution climate data.\nOur method has several methodological limitations. First, the approach of detecting gers does not capture the full spectrum of urban poverty in Mongolia. Urban poverty is multifaceted, and residents of ger districts represent those living in informal settlements. To examine other forms of poverty—such as those in public apartments, dormitories, or among the homeless—additional data sources are required. Second, other forms of urban slums in Mongolia may have been excluded from the analysis. These include wooden shacks adjacent to gers, flats where three or more people share a single room, and houses lacking access to a water supply. The current analysis does not detect these types of slums, which may result in an underestimation of the actual slum rate. Finally, estimating the number of gers by dividing the area by 30 square meters requires further refinement. This approach relies on the average area per ger for computational simplicity, but developing another model that directly counts individual gers from satellite imagery could enhance accuracy.\nLastly, this study highlights the significant implications of AI-based remote sensing for monitoring urbanization patterns in Mongolia. Our research on urban deprivation could be further strengthened by engaging local community knowledge, which would provide valuable contextual information on deprived urban areas across diverse regions. Furthermore, our AI-based approach can be applied to the detection of other artificial and natural objects in Mongolia, opening avenues for future research. For example, species of vegetation can be classified using satellite and aerial imagery to better understand the impacts of (re)forestation efforts in rural areas. Additionally, the effects of soil pollution from mining activities on nearby residential areas can be assessed with daytime satellite imagery30. Change detection analysis may also be useful for evaluating economic development by measuring loss, gain, or fragmentation through multi-temporal remote sensing data.",
+            "cites": [
+                "ref-CR16",
+                "ref-CR2",
+                "ref-CR28",
+                "ref-CR7",
+                "ref-CR29",
+                "ref-CR13",
+                "ref-CR30"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Rationale for classifying gers as slums\nIn 2002, UN-Habitat convened an expert group meeting to develop an operational definition of slums. The definition classified a ‘slum household’ as one experiencing one or more of the following deprivations: (1) lack of access to improved water sources, (2) inadequate living space, (3) poor housing durability, (4) lack of access to improved sanitation facilities, and (5) insecurity of tenure. Subsequent efforts by the United Nations clarified the sub-definitions, guidelines, and methodologies for each deprivation.\nFirstly, an improved water source includes piped water, public taps, and bottled water31. Protected springs and wells are also considered acceptable, although their use in urban areas is concerning due to the high risk of contamination32. According to the 2020 Population and Housing Census of Mongolia6, most ger households in urban areas have an improved drinking water supply, including protected wells/springs (83.6%) and piped water (15.4%) (Table 2). Only one percent can be classified as slum households based on this water-related indicator.\nA sufficient living space is defined as a condition where no more than three household members share a room of at least nine square meters31. A ger, which typically consists of a single undivided room with about 30 square meters33, would need to house more than ten residents to be classified a slum based on this criterion. Since most ger households have fewer than seven residents (Table 2), gers cannot be classified as slums based on their residential space. In addition, a house is considered as ‘durable’, thereby not as slums, when its structure protects inhabitants from the extreme climatic events31. A ger, rooted in traditional nomadic knowledge, meets the durability criterion as it provides protection even during Dzud—an extreme winter storm in Mongolia where temperatures can drop to −46 °C34.\nRegarding improved sanitation, a household is classified as a slum household if its members lack access to a facility that properly separates feces from human contact32. Improved facilities include flush/pour-flush toilets or latrines connected to a sewer, septic tank or pit; ventilated improved pit latrine; pit latrine with a slab or platform, which covers the pit entirely; and composting toilets/latrines31. According to this classification, simple pit latrines, which are the most common type of toilet in gers (96.8%; Table 2), can be considered as improved facilities.\nHowever, in the Mongolian context, simple pit latrines cannot adequately separate human waste from residents in ger districts. Although these latrines are occasionally emptied by vacuum trucks during the summer, cleaning cannot be serviced during the winter due to extremely low temperatures35,36. When a pit fills up, ger households typically dig a new pit and move the latrine structure, leaving the fecal matter in the backyard where it can infiltrate into the soil and groundwater37. Such practice, combined with unsafe water storage, heightens the risk of transmitting biological pathogens38. Léo Heller, the UN Special Rapporteur on Human Rights, has noted that most residents in urban ger areas lack adequate access to toilets39. Given these conditions, up to 97.6% of urban ger districts can be potentially classified as informal settlements (Table 2).\nLastly, we focus on insecure tenure observed in ger districts. Gers are often subject to redevelopment projects and face the risk of forced eviction40,41. In 2013, the Mongolian government introduced the ‘Ulaanbaatar 2020 Master Plan and Amendments and Development Approaches for 2030 (Master Plan)’ to address the challenges of unplanned urbanization. One element of this plan is the redevelopment of ger districts, encompassing 75 ger blocks or 1500 hectares in Ulaanbaatar18. The plan identified the need for redevelopment due to inadequate urban public services, poor construction quality, and air pollution42. Supporting the plan is the Urban Redevelopment Law, enacted in June 2015. This law authorizes private developers to purchase land from ger residents and carry out development projects. However, individuals without legal land titles are excluded from requesting agreements or information about the projects from the developers. Moreover, the lack of safeguard regulations puts those affected by the redevelopment projects at risk of forced evictions40.\n### Data and study area\nWe downloaded real-color satellite images with three visible bands (reg, green, and blue) via the ESRI ArcGIS REST API from the World Imagery dataset. This dataset includes images captured by Maxar and DigitalGlobe satellites, specifically GeoEye-1 (GE01), WorldView-2 (WV02), and WorldView-3 (WV03). The images were captured at eight temporal periods, covering the downtown area of Ulaanbaatar. The periods include 2015 July, 2016 August, 2019 May, 2020 May, 2021 April, 2022 April, 2023 June, and 2025 May. The yellow boundary in Fig. 5 indicates the area where satellite images exist for all eight periods. This area encompasses 97.1% of the built-up area across six sub-districts of Ulaanbaatar as calculated using the Global Human Settlement Layer (GHSL)43: Bayangol, Bayanzurkh, Songinokhairkhan, Sukhbaatar, Khan-Uul, and Chingeltei. These six sub-districts had a population of 1,603,497 in 2024, representing 63.5% of the total urban population in Mongolia7.\nThis study gathered satellite images at a zoom-level 18 resolution. The zoom level system refers to the number of 256-by-256 pixel images required to display the world. These images, called tiles, are organized into a pyramid structure with multiple levels, known as zoom levels. At the apex of the pyramid (i.e., zoom level 0), the entire world is shown on a single tile. Each subsequent zoom level doubles the number of tiles horizontally and vertically, with zoom level 1 displaying the word with 2 × 2 tiles, and zoom level n with 2n Ⅹ 2n tiles. Higher zoom levels display smaller areas with the same number of pixels, thereby revealing more detailed information with higher spatial resolutions. The resolution of tiles varies by latitude because tiles occupy a smaller area as latitude increases. In Mongolia, the resolution of zoom level 18 tiles is approximately 40 cm per pixel, and each tile covers an area of 0.01 km2. This resolution is sufficient to clearly identify the boundaries and the roof texture of ger structures (see Fig. 6 top). A total of 50,630 tiles were downloaded for each temporal period, amounting to 405,040 tiles across the eight periods.\nTo train a machine learning model to detect gers from satellite images, we created label data due to the lack of ground-truth data on the spatial location of gers. Since the location of a ger itself can shift subtly over time due to its mobility, a new label must be created for each different temporal image, even if it was taken at the same location (see Supplementary Fig. 1). Labels were created for satellite images taken in 2022 and 2016. Using QGIS 3.14, we manually digitized the footprints of 7305 gers, visually confirmed from 2002 images (Fig. 6, red circles). The ger’s clearly distinguishable appearance and consistent size in the satellite images facilitated the digitization process, which was completed in one week. The digitized footprints were then transformed into images of 256-by-256 pixel images, matching the size of satellite images. Pixels containing gers were assigned a value of 1 and those representing non-gers were assigned a value of 0.\n### Ger segmentation model\nOur goal is to identify areas covered by gers in satellite images by predicting whether each pixel belongs to a ger (value 1) or not (value 0). In technical terms, given an input satellite image \\({\\rm{x}}\\in {{\\mathbb{R}}}^{H\\times W\\times 3}\\), which is a standard red-green-blue (RGB) image with height \\(H\\) (256 pixels) and width \\(W\\) (256 pixels), our model aims to predict a binary output \\({\\rm{y}}\\in {\\{0,\\,1\\}}^{H\\times W}\\) indicating the presence of gers at each pixel (the value 1 indicates ger while 0 represents non-ger). We use U-Net44, a widely used image segmentation model, trained in a supervised manner. The U-Net architecture employs a symmetric encoder–decoder structure connected through skip connections, which directly transfer high-resolution feature maps from the encoder to the decoder. These connections allow fine-grained spatial details from early layers to complement the broader semantic context extracted at deeper stages. By reusing encoder features in this way, U-Net achieves effective multi-scale representation without a significant increase in parameters.\nOne challenge in this task is the class imbalance. Only a small portion of the image typically contains gers, while the majority is non-ger regions. To address this, we use focal loss45, a modified version of cross entropy loss designed for imbalanced datasets. The cross entropy loss for pixel-wise classification is:\nWe then compute focal loss as:\nwhere \\(\\hat{y}\\) is a target prediction and \\({\\theta }_{C}\\) is a weight of class \\(c\\). In this case, we set the weights as \\({\\theta }_{C}=\\left(0.4,\\,0.6\\right)\\) for non-gers and gers, respectively, to emphasize the underrepresented ger class. In addition, we use ResNet-50 as the backbone of our segmentation model and training was performed using 1800 manual labeled satellite images, covering about 90 percent of the total dataset.\n### Performance evaluation\nThe performance of our model was evaluated using the remaining 10% of manually annotated labels. Evaluation metrics included the F1 score, Intersection over Union (IoU), and pixel accuracy for the binary classification of ger and non-ger areas. The F1 score, which balances precision and recall, assesses the model’s ability to correctly identify gers. The IoU measures the overlap between predicted and reference regions, providing insight into spatial localization performance. Pixel accuracy quantifies the proportion of correctly classified pixels, although F1 and IoU are generally regarded as more reliable indicators for semantic segmentation. The evaluation results indicate that the model achieved an F1 score of 0.90, an IoU of 0.81, and a pixel accuracy of 0.90 for the ger, while attaining nearly perfect scores of 1.00 across all metrics for the non-ger. These outcomes suggest a moderate level of performance in detecting gers, with a tendency to overestimate their spatial extent relative to ground truth annotations (see Fig. 6 below).\nWe further compared our approach with established segmentation baselines including FCN46, PSPNet47, and DeepLabv348. As summarized in Supplementary Table 2, the proposed U-Net variant outperforms the baselines by achieving consistently strong results across both classes, whereas competing models exhibit poor performance on the slum category due to class imbalance. Additionally, an ablation study was conducted on the hyperparameter \\({\\theta }_{C}\\) to examine its effect on performance. As shown in Supplementary Table 3, adjusting \\({\\theta }_{C}\\) from (0.1, 0.9) to (0.5, 0.5) progressively improved the IoU for gers, with the configuration (0.4, 0.6) yielding the highest mean IoU. Accordingly, this configuration was adopted for the final model.\nSince the model’s results show the area of the gers rather than generating the number of gers directly, we estimate the number of gers by dividing the detected area by the average area of a single ger. Based on the model’s detections, the average ger area was determined to be 30 m². To estimate ger counts, we divided the total segmented area by 30 and rounded the result to the nearest whole number. To assess the robustness of this area-based estimation method, we performed a sensitivity analysis by varying the assumed average ger area from 21 to 39 m² (Supplementary Fig. 2). For each value, we computed predicted ger counts by dividing the total segmented area by the assumed average and compared these estimates to actual counts derived from ground-truth data. The Pearson correlation coefficient between predicted and actual counts reached a maximum of r = 0.981 at 30 m², supporting its selection as the most representative value for estimating ger counts from area data.\nThe final step involved human verification of the results. During this process, other structures with circular shapes and white roofs (e.g., observatories, circular dome buildings) that were also detected were manually removed. Additionally, in cases where multiple gers overlapped and were detected as a single object, the number of gers was directly counted and corrected. This human inspection took a total of two days. Detection results after verification can be confirmed through uploaded Research Data.",
+            "cites": [
+                "ref-CR18",
+                "ref-CR44",
+                "ref-CR40",
+                "ref-CR34",
+                "ref-CR41",
+                "ref-CR33",
+                "ref-CR36",
+                "ref-CR45",
+                "ref-CR39",
+                "ref-CR47",
+                "ref-CR43",
+                "ref-CR37",
+                "ref-CR42",
+                "ref-CR31",
+                "ref-CR6",
+                "ref-CR46",
+                "ref-CR32",
+                "ref-CR7",
+                "ref-CR35",
+                "ref-CR38",
+                "ref-CR48"
+            ],
+            "figures": [
+                "figure-6",
+                "figure-5"
+            ]
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: (Right) The detected gers in Ulaanbaatar from satellite images of 2025.",
+            "figure-caption": "(Top-left) The zoomed-in views of the result. (Bottom-left) Ger density map per square kilometer. The background images are sourced from World Imagery and Google Maps.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00273-1/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2",
+            "figure-caption": "The number of detected gers, 2015–2025.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00273-1/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Changes in ger counts from 2015 to 2025.",
+            "figure-caption": "The locations of ger redevelopment projects (yellow dots) were sourced from M.A.D. Investment Solutions18.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00273-1/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Population living in slums in Mongolia (% of urban population).",
+            "figure-caption": "The gray line represents estimates from UN-Habitat16, while the red line shows our estimates based on the detection of gers (2015–2025).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00273-1/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Satellite images used for the study (highlighted within a yellow boundary) and administrative boundaries of Ulaanbaatar’s sub-districts (black).",
+            "figure-caption": "The background images are sourced from World Imagery.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00273-1/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: Examples of input satellite images, manual labels (red), and predicted results from U-Net model (yellow).",
+            "figure-caption": "The background images are sourced from World Imagery.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00273-1/figures/6"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Park, H., Fan, P., John, R. & Chen, J. Urbanization on the Mongolian Plateau after economic reform: changes and causes. Appl. Geogr. 86, 118–127 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apgeog.2017.06.026",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanization%20on%20the%20Mongolian%20Plateau%20after%20economic%20reform%3A%20changes%20and%20causes&journal=Appl.%20Geogr.&doi=10.1016%2Fj.apgeog.2017.06.026&volume=86&pages=118-127&publication_year=2017&author=Park%2CH&author=Fan%2CP&author=John%2CR&author=Chen%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Xu, Y., Zhang, Y. & Chen, J. Migration under economic transition and changing climate in Mongolia. J. Arid. Environ. 185, 104333 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jaridenv.2020.104333",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migration%20under%20economic%20transition%20and%20changing%20climate%20in%20Mongolia&journal=J.%20Arid.%20Environ.&doi=10.1016%2Fj.jaridenv.2020.104333&volume=185&publication_year=2021&author=Xu%2CY&author=Zhang%2CY&author=Chen%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Park, H., Fan, P., John, R., Ouyang, Z. & Chen, J. Spatiotemporal changes of informal settlements: ger districts in Ulaanbaatar, Mongolia. Landscape Urban Plann. 191, 103630 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landurbplan.2019.103630",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatiotemporal%20changes%20of%20informal%20settlements%3A%20ger%20districts%20in%20Ulaanbaatar%2C%20Mongolia&journal=Landscape%20Urban%20Plann.&doi=10.1016%2Fj.landurbplan.2019.103630&volume=191&publication_year=2019&author=Park%2CH&author=Fan%2CP&author=John%2CR&author=Ouyang%2CZ&author=Chen%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Byambadorj, T., Amati, M. & Ruming, K. J. Twenty-first century nomadic city: ger districts and barriers to the implementation of the Ulaanbaatar City Master Plan. Asia Pac. Viewp. 52, 165–177 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1467-8373.2011.01448.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Twenty-first%20century%20nomadic%20city%3A%20ger%20districts%20and%20barriers%20to%20the%20implementation%20of%20the%20Ulaanbaatar%20City%20Master%20Plan&journal=Asia%20Pac.%20Viewp.&doi=10.1111%2Fj.1467-8373.2011.01448.x&volume=52&pages=165-177&publication_year=2011&author=Byambadorj%2CT&author=Amati%2CM&author=Ruming%2CKJ"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Hamiduddin, I. & Plueckhahn, R. From the ger districts to the city centre: contrasts and inequities of access and mobility in Ulaanbaatar, Mongolia. Local Environ. 26, 1546–1563 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F13549839.2021.1997961",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=From%20the%20ger%20districts%20to%20the%20city%20centre%3A%20contrasts%20and%20inequities%20of%20access%20and%20mobility%20in%20Ulaanbaatar%2C%20Mongolia&journal=Local%20Environ.&doi=10.1080%2F13549839.2021.1997961&volume=26&pages=1546-1563&publication_year=2021&author=Hamiduddin%2CI&author=Plueckhahn%2CR"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "National Statistics Office of Mongolia. Mongolia Population and Housing Census 2020 (National Statistics Office of Mongolia, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "National Statistics Office of Mongolia. Mongolian Statistical Information Service http://1212.mn (2025).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Ariunsaikhan, A., Batbold, C., Chonokhuu, S. & Gil-Alana, L. A. Atmospheric pollution in Ulaanbaatar: persistence and long-run trends. PLoS One 20, e0322991 (2025).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0322991",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2MXhtlOjtrjE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Atmospheric%20pollution%20in%20Ulaanbaatar%3A%20persistence%20and%20long-run%20trends&journal=PLoS%20One&doi=10.1371%2Fjournal.pone.0322991&volume=20&publication_year=2025&author=Ariunsaikhan%2CA&author=Batbold%2CC&author=Chonokhuu%2CS&author=Gil-Alana%2CLA"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Battsengel, E., Murayama, T., Nishikizawa, S. & Chonokhuu, S. Evaluation of daily behaviors related to health risks of the ger residents in Ulaanbaatar, Mongolia. Sustainability 13, 4817 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu13094817",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Evaluation%20of%20daily%20behaviors%20related%20to%20health%20risks%20of%20the%20ger%20residents%20in%20Ulaanbaatar%2C%20Mongolia&journal=Sustainability&doi=10.3390%2Fsu13094817&volume=13&publication_year=2021&author=Battsengel%2CE&author=Murayama%2CT&author=Nishikizawa%2CS&author=Chonokhuu%2CS"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Boldbaatar, G. et al. Land suitability analysis in monocentric post-socialist city: case of Ulaanbaatar, Mongolia. PLoS ONE 19, e0308762 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0308762",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2cXit1eit73P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Land%20suitability%20analysis%20in%20monocentric%20post-socialist%20city%3A%20case%20of%20Ulaanbaatar%2C%20Mongolia&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0308762&volume=19&publication_year=2024&author=Boldbaatar%2CG"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Korytnyi, L. M. et al. Geographic conditions of sustainable development of the city of Ulaanbaatar. Geogr. Nat. Resour. 44, s59–s67 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1134%2FS1875372823050104",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Geographic%20conditions%20of%20sustainable%20development%20of%20the%20city%20of%20Ulaanbaatar&journal=Geogr.%20Nat.%20Resour.&doi=10.1134%2FS1875372823050104&volume=44&pages=s59-s67&publication_year=2023&author=Korytnyi%2CLM"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Choi, M. J. & Enkhbat, U. Distributional effects of Ger area redevelopment in Ulaanbaatar, Mongolia. Int. J. Urban Sci. 24, 50–68 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F12265934.2019.1571433",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Distributional%20effects%20of%20Ger%20area%20redevelopment%20in%20Ulaanbaatar%2C%20Mongolia&journal=Int.%20J.%20Urban%20Sci.&doi=10.1080%2F12265934.2019.1571433&volume=24&pages=50-68&publication_year=2020&author=Choi%2CMJ&author=Enkhbat%2CU"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Tsutsumida, N., Saizen, I., Matsuoka, M. & Ishii, R. Addressing urban expansion using feature oriented spatial data in a peripheral area of Ulaanbaatar, Mongolia. Habitat Int. 47, 196–204 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.habitatint.2015.01.024",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Addressing%20urban%20expansion%20using%20feature%20oriented%20spatial%20data%20in%20a%20peripheral%20area%20of%20Ulaanbaatar%2C%20Mongolia&journal=Habitat%20Int.&doi=10.1016%2Fj.habitatint.2015.01.024&volume=47&pages=196-204&publication_year=2015&author=Tsutsumida%2CN&author=Saizen%2CI&author=Matsuoka%2CM&author=Ishii%2CR"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Abascal, A. et al. AI perceives like a local: predicting citizen deprivation perception using satellite imagery. npj Urban Sustain. 4, 20 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs42949-024-00156-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=AI%20perceives%20like%20a%20local%3A%20predicting%20citizen%20deprivation%20perception%20using%20satellite%20imagery&journal=npj%20Urban%20Sustain.&doi=10.1038%2Fs42949-024-00156-x&volume=4&publication_year=2024&author=Abascal%2CA"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Ahn, D. et al. A human-machine collaborative approach measures economic development using satellite imagery. Nat. Commun. 14, 6811 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-023-42122-8",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3sXit1Cgu7%2FN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20human-machine%20collaborative%20approach%20measures%20economic%20development%20using%20satellite%20imagery&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-023-42122-8&volume=14&publication_year=2023&author=Ahn%2CD"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "UN-Habitat. Urban indicator database https://data.unhabitat.org (2025).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Dore, G. & Nagpal, T. Urban transition in Mongolia: Pursuing sustainability in a unique environment. Environ. Sci. Policy Sustain. Dev. 48, 10–24 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.3200%2FENVT.48.6.10-24",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20transition%20in%20Mongolia%3A%20Pursuing%20sustainability%20in%20a%20unique%20environment&journal=Environ.%20Sci.%20Policy%20Sustain.%20Dev.&doi=10.3200%2FENVT.48.6.10-24&volume=48&pages=10-24&publication_year=2006&author=Dore%2CG&author=Nagpal%2CT"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "M.A.D. Investment Solutions. Affordable Housing and Ger Area Redevelopment in Ulaanbaatar. http://www.madurb.com/real-estate-mongolia/affordable-housing-and-ger-area-redevelopment-in-ulaanbaatar/ (MADURB, 2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Erdenejargal, E. First Closure of Ger Area Redevelopment Project Takes Place. http://www.montsame.mn/en/read/296282# (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Otgonkhuu, T.-I., Enkh-Amgalan, S. & Amanguli, S. Issues of determining the effects of migration on population growth in Ulaanbaatar. Proc. Mong. Acad. Sci. 63, 10–20 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.5564%2Fpmas.v63i03.3403",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Issues%20of%20determining%20the%20effects%20of%20migration%20on%20population%20growth%20in%20Ulaanbaatar&journal=Proc.%20Mong.%20Acad.%20Sci.&doi=10.5564%2Fpmas.v63i03.3403&volume=63&pages=10-20&publication_year=2023&author=Otgonkhuu%2CT-I&author=Enkh-Amgalan%2CS&author=Amanguli%2CS"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "International Organization for Migration. Mongolia - Flow Monitoring in Ulaanbaatar (COVID-19 Preparedness) - Situation Report 90. https://dtm.iom.int/es/node/9587 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Krusekopf, C. & Jargalsaikhan, M. Mongolia: After successful containment, challenges remain. In Covid-19 in Asia: Law and Policy Contexts, 411–424 (Oxford Academic, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Dorjdagva, J., Batbaatar, E. & Kauhanen, J. Early lift of restrictions in Mongolia during the COVID-19 pandemic: Child rights, public trust, and social inequality. Asia Pac. J. Public Health 34, 675–677 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F10105395221108592",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Early%20lift%20of%20restrictions%20in%20Mongolia%20during%20the%20COVID-19%20pandemic%3A%20Child%20rights%2C%20public%20trust%2C%20and%20social%20inequality&journal=Asia%20Pac.%20J.%20Public%20Health&doi=10.1177%2F10105395221108592&volume=34&pages=675-677&publication_year=2022&author=Dorjdagva%2CJ&author=Batbaatar%2CE&author=Kauhanen%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Abrams, M., Yamaguchi, Y. & Crippen, R. ASTER Global DEM (GDEM) Version 3. ISPRS Archives 43, 593–598 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=ASTER%20Global%20DEM%20%28GDEM%29%20Version%203&journal=ISPRS%20Archives&volume=43&pages=593-598&publication_year=2022&author=Abrams%2CM&author=Yamaguchi%2CY&author=Crippen%2CR"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "OpenStreetMap. Open Street Map http://www.openstreetmap.org (2025).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Singh, G., Guedes, G., Mulhausen, J., Dash, B. & Gadgil, G. U. Urban Poverty in Ulannabaatar: Understanding the Dimensions and Addressing the Challenges (World Bank Group, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Breuer, J. H., Friesen, J., Taubenböck, H., Wurm, M. & Pelz, P. F. The unseen population: do we underestimate slum dwellers in cities of the Global South? Habitat Int. 148, 103056 (2024).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=&journal=The%20unseen%20population%3A%20do%20we%20underestimate%20slum%20dwellers%20in%20cities%20of%20the%20Global%20South%3F%20Habitat%20Int.&volume=148&publication_year=2024&author=Breuer%2CJH&author=Friesen%2CJ&author=Taubenb%C3%B6ck%2CH&author=Wurm%2CM&author=Pelz%2CPF"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Algaa, S. Relationship between rural to urban migration and Dzud disaster impact. Mong. J. Popul. 27, 78–82 (2023).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Relationship%20between%20rural%20to%20urban%20migration%20and%20Dzud%20disaster%20impact&journal=Mong.%20J.%20Popul.&volume=27&pages=78-82&publication_year=2023&author=Algaa%2CS"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Fernández-Giménez, M. E., Batkhishig, B. & Batbuyan, B. Cross-boundary and cross-level dynamics increase vulnerability to severe winter disasters (dzud) in Mongolia. Global Environ. Change 22, 836–851 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.gloenvcha.2012.07.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cross-boundary%20and%20cross-level%20dynamics%20increase%20vulnerability%20to%20severe%20winter%20disasters%20%28dzud%29%20in%20Mongolia&journal=Global%20Environ.%20Change&doi=10.1016%2Fj.gloenvcha.2012.07.001&volume=22&pages=836-851&publication_year=2012&author=Fern%C3%A1ndez-Gim%C3%A9nez%2CME&author=Batkhishig%2CB&author=Batbuyan%2CB"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Pecina, V. et al. The impacts of mining on soil pollution with metal(loid)s in resource-rich Mongolia. Sci. Rep. 13, 2763 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-023-29370-w",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3sXjtlyrsbs%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impacts%20of%20mining%20on%20soil%20pollution%20with%20metal%28loid%29s%20in%20resource-rich%20Mongolia&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-023-29370-w&volume=13&publication_year=2023&author=Pecina%2CV"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "UN-Habitat. SDG Indicator Metadata (Harmonized Metadata Template - Format Version 1.1) https://unstats.un.org/sdgs/metadata/files/Metadata-11-01-01.pdf (UN, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "UN-Habitat. The Challenges of Slums: Global Report on Human Settlements 2003. (United Nations Human Settlements Programme, 2003).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Silkroadyurts. How Big Are Mongolian Yurts? (Square Meters / Feet) http://silkroadyurts.com/how-big-are-mongolian-yurts-square-meters-feet (Silkroadyurts, 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Hahn, A. H. Mongolian Dzud: threats to and protection of Mongolia’s herding communities. Educ. Asia 22, 42–46 (2017).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mongolian%20Dzud%3A%20threats%20to%20and%20protection%20of%20Mongolia%E2%80%99s%20herding%20communities&journal=Educ.%20Asia&volume=22&pages=42-46&publication_year=2017&author=Hahn%2CAH"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Bolchover, J. & Tong, J. C. K. The Ger Plug-In: demonstrating a model for sustainable and affordable housing in Ulaanbaatar’s fringe districts. Archit. Res. Q. 27, 255–267 (2023).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20Ger%20Plug-In%3A%20demonstrating%20a%20model%20for%20sustainable%20and%20affordable%20housing%20in%20Ulaanbaatar%E2%80%99s%20fringe%20districts&journal=Archit.%20Res.%20Q.&volume=27&pages=255-267&publication_year=2023&author=Bolchover%2CJ&author=Tong%2CJCK"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Uddin, S. W. N. et al. Evaluation of a closed-loop sanitation system in a cold climate: a case from peri-urban areas of Mongolia. Environ. Urban. 27, 455–472 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0956247815584539",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Evaluation%20of%20a%20closed-loop%20sanitation%20system%20in%20a%20cold%20climate%3A%20a%20case%20from%20peri-urban%20areas%20of%20Mongolia&journal=Environ.%20Urban.&doi=10.1177%2F0956247815584539&volume=27&pages=455-472&publication_year=2015&author=Uddin%2CSWN"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Sigel, K., Altantuul, K. & Basandorj, D. Household needs and demand for improved water supply and sanitation in peri-urban ger areas: the case of Darkhan, Mongolia. Environ. Earth Sci. 65, 1561–1566 (2012).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s12665-011-1221-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Household%20needs%20and%20demand%20for%20improved%20water%20supply%20and%20sanitation%20in%20peri-urban%20ger%20areas%3A%20the%20case%20of%20Darkhan%2C%20Mongolia&journal=Environ.%20Earth%20Sci.&doi=10.1007%2Fs12665-011-1221-7&volume=65&pages=1561-1566&publication_year=2012&author=Sigel%2CK&author=Altantuul%2CK&author=Basandorj%2CD"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Uddin, S. W. N. et al. Exposure to WASH-borne hazards: a scoping study on peri-urban Ger areas in Ulaanbaatar, Mongolia. Habitat Int. 44, 403–411 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.habitatint.2014.08.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exposure%20to%20WASH-borne%20hazards%3A%20a%20scoping%20study%20on%20peri-urban%20Ger%20areas%20in%20Ulaanbaatar%2C%20Mongolia&journal=Habitat%20Int.&doi=10.1016%2Fj.habitatint.2014.08.006&volume=44&pages=403-411&publication_year=2014&author=Uddin%2CSWN"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "OHCHR. Statement at the Conclusion of the Official Visit to Mongolia by the Special Rapporteur on the Human Rights to Safe Drinking Water and Sanitation, Mr. Léo Heller. United Nations Human Rights Office of the High Commissioner http://www.ohchr.org/en/statements/2018/04/statement-conclusion-official-visit-mongolia-special-rapporteur-human-rights (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Amnesty International. Falling Short: The Right to Adequate Housing in Ulaanbaatar, Mongolia (Amnesty International, 2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Amnesty International. Mongolia: Submission to the UN Special Rapporteur on Adequate Housing as a Component of the Right to an Adequate Standard of Living, and on the Right to Non-Discrimination in this Context (Amnesty International, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "City of Ulaanbaatar. Ulaanbaatar 2020 Master Plan and Development Approaches for 2030, General Summary for Public (City of Ulaanbaatar, 2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Pesaresi, M. & Politis, P. GHS-BUILT-V R2023A - GHS Built-Up Volume Grids Derived from Joint Assessment of Sentinel2, Landsat, and Global DEM Data, Multitemporal (1975-2030). https://doi.org/10.2905/AB2F107A-03CD-47A3-85E5-139D8EC63283 (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Ronneberger, O., Fischer, P. & Brox, T. U-Net: Convolutional Networks for Biomedical Image Segmentation. In Medical Image Computing and Computer-Assisted Intervention 2015 9351 (Springer, 2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Lin, T.-Y., Goyal, P., Girshick, R. & He, K. & Dollár, P. Focal loss for dense object detection. IEEE Trans. Pattern Anal. Mach. Intell. 42, 318–327 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1109%2FTPAMI.2018.2858826",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=%26%20Doll%C3%A1r%2C%20P.%20Focal%20loss%20for%20dense%20object%20detection&journal=IEEE%20Trans.%20Pattern%20Anal.%20Mach.%20Intell.&doi=10.1109%2FTPAMI.2018.2858826&volume=42&pages=318-327&publication_year=2020&author=Lin%2CT-Y&author=Goyal%2CP&author=Girshick%2CR&author=He%2CK"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Long, J., Shelhamer, E. & Darrell, T. Fully convolutional networks for semantic segmentation. In the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 3431–3440 (IEEE, 2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Zhao, H., Shi, J., Qi, X., Wang, X. & Jia, J. Pyramid scene parsing network. In the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 6230–6239 (IEEE, 2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Chen, L., Papandreou, G., Schroff, F. & Adam, H. Rethinking atrous convolution for semantic image segmentation. In the European Conference on Computer Vision (ECCV), 801–818 (Springer, 2017).",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The datasets generated during the study are available in the github repository (https://github.com/dlsumn/GerDetection/tree/master. This repository includes labels and ger segmentation results derived from satellite images. The satellite images from the World Imagery dataset are not uploaded due to copyright issues.",
+            "links": {
+                "https://github.com/dlsumn/GerDetection/tree/master": "https://github.com/dlsumn/GerDetection/tree/master"
+            }
+        },
+        "Code availability": {
+            "content": "The codes generated during the study are available in the github repository (https://github.com/dlsumn/GerDetection/tree/master).",
+            "links": {
+                "https://github.com/dlsumn/GerDetection/tree/master": "https://github.com/dlsumn/GerDetection/tree/master"
+            }
+        },
+        "Acknowledgements": {
+            "content": "The authors thank Soyoung Lee, Donghyun Ahn, Hyunjoo Yang, Sangyoon Park, Jihee Kim, and colleagues from the Institute for Basic Science (IBS) and Max Planck Institute for Security and Privacy (MPI-SP) for their valuable comments on the initial conceptualization of this paper.",
+            "links": {}
+        },
+        "Funding": {
+            "content": "Open Access funding enabled and organized by Projekt DEAL.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsJeasurk YangView author publicationsSearch author on:PubMed Google ScholarSumin LeeView author publicationsSearch author on:PubMed Google ScholarSungwon ParkView author publicationsSearch author on:PubMed Google ScholarMinjun LeeView author publicationsSearch author on:PubMed Google ScholarMeeyoung ChaView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nJ.Y. conceptualized the study, curated the data, conducted the investigation, provided resources, created the visualizations, and wrote the original draft and reviewed and edited the manuscript. S.L. performed the formal analysis, developed the methodology, wrote the software, validated the results, and wrote the original draft. S.P. conducted the investigation, developed the methodology, and wrote the original draft. M.L. performed the formal analysis, developed the methodology, wrote the software, and validated the results. M.C. managed the project, supervised the work, and reviewed and edited the manuscript.\n### Corresponding authors\nCorrespondence to\n                Jeasurk Yang or Meeyoung Cha.",
+            "links": {
+                "View author publications": "/search?author=Meeyoung%20Cha",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Meeyoung%20Cha",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Meeyoung%20Cha%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Jeasurk Yang": "mailto:jeasurk.yang@mpi-sp.org",
+                "Meeyoung Cha": "mailto:mia.cha@mpi-sp.org"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary Materials",
+            "links": {
+                "Supplementary Materials": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42949-025-00273-1/MediaObjects/42949_2025_273_MOESM1_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=AI-based%20Ger%20detection%20reveals%20post-pandemic%20delay%20in%20informal%20housing%20progress%20in%20Mongolia&author=Jeasurk%20Yang%20et%20al&contentID=10.1038%2Fs42949-025-00273-1&copyright=The%20Author%28s%29&publication=2661-8001&publicationDate=2025-09-30&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleYang, J., Lee, S., Park, S. et al. AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia.\n                    npj Urban Sustain 5, 78 (2025). https://doi.org/10.1038/s42949-025-00273-1Download citationReceived: 10 January 2025Accepted: 14 September 2025Published: 30 September 2025DOI: https://doi.org/10.1038/s42949-025-00273-1Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42949-025-00273-1?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia",
+                "description": "Mongolia is among the countries undergoing rapid urbanization, and its temporary nomadic dwellings—known as Ger—have expanded into urban areas. Newly formed ger communities in cities are potentially recognized as informal settlements, or slums. The distinctive circular, tent-like shape of gers enables their detection through very-high-resolution satellite imagery. We develop a computer vision algorithm to detect gers in Ulaanbaatar, the capital of Mongolia, utilizing satellite images collected from 2015 to 2025. Results reveal that ger settlements have relocated towards the capital’s peripheral areas. The predicted ger household ratio based on our results exhibits a significant correlation (r = 0.85) with the World Bank’s district-level poverty data. Our nationwide extrapolation suggests that housing improvements in informal settlements have fallen short of official projections by an average of 2.8% since the COVID-19 pandemic. We discuss the potential of machine learning on satellite imagery in providing insights into urbanization patterns and sustainable development.",
+                "datePublished": "2025-09-30T00:00:00Z",
+                "dateModified": "2025-09-30T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "9",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s42949-025-00273-1",
+                "keywords": [
+                    "Computer science",
+                    "Geography",
+                    "Environment",
+                    "general",
+                    "Sustainable Development",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urbanism",
+                    "Urban Ecology"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00273-1/MediaObjects/42949_2025_273_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00273-1/MediaObjects/42949_2025_273_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00273-1/MediaObjects/42949_2025_273_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00273-1/MediaObjects/42949_2025_273_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00273-1/MediaObjects/42949_2025_273_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00273-1/MediaObjects/42949_2025_273_Fig6_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "npj Urban Sustainability",
+                    "issn": [
+                        "2661-8001"
+                    ],
+                    "volumeNumber": "5",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Jeasurk Yang",
+                        "affiliation": [
+                            {
+                                "name": "Max Planck Institute for Security and Privacy",
+                                "address": {
+                                    "name": "Max Planck Institute for Security and Privacy, Bochum, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "jeasurk.yang@mpi-sp.org",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Sumin Lee",
+                        "affiliation": [
+                            {
+                                "name": "Korea Advanced Institute of Science and Technology",
+                                "address": {
+                                    "name": "School of Computing, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Sungwon Park",
+                        "affiliation": [
+                            {
+                                "name": "Korea Advanced Institute of Science and Technology",
+                                "address": {
+                                    "name": "School of Computing, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Minjun Lee",
+                        "affiliation": [
+                            {
+                                "name": "Korea Advanced Institute of Science and Technology",
+                                "address": {
+                                    "name": "School of Computing, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Meeyoung Cha",
+                        "affiliation": [
+                            {
+                                "name": "Max Planck Institute for Security and Privacy",
+                                "address": {
+                                    "name": "Max Planck Institute for Security and Privacy, Bochum, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Korea Advanced Institute of Science and Technology",
+                                "address": {
+                                    "name": "School of Computing, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "mia.cha@mpi-sp.org",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "computer-science;geography",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "AI and Cities",
+                            "webtrendsContentGroup": "npj Urban Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42949-025-00273-1"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Jeasurk Yang",
+                            "Sumin Lee",
+                            "Sungwon Park",
+                            "Minjun Lee",
+                            "Meeyoung Cha"
+                        ],
+                        "publishedAt": 1759190400,
+                        "publishedAtString": "2025-09-30",
+                        "title": "AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Computer science,Geography"
+                    },
+                    "journal": {
+                        "pcode": "npjurbansustain",
+                        "title": "npj urban sustainability",
+                        "volume": "5",
+                        "issue": "1",
+                        "id": 42949,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "djfibegaai"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia",
+            "dc.source": "npj Urban Sustainability 2025 5:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-09-30",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Mongolia is among the countries undergoing rapid urbanization, and its temporary nomadic dwellings—known as Ger—have expanded into urban areas. Newly formed ger communities in cities are potentially recognized as informal settlements, or slums. The distinctive circular, tent-like shape of gers enables their detection through very-high-resolution satellite imagery. We develop a computer vision algorithm to detect gers in Ulaanbaatar, the capital of Mongolia, utilizing satellite images collected from 2015 to 2025. Results reveal that ger settlements have relocated towards the capital’s peripheral areas. The predicted ger household ratio based on our results exhibits a significant correlation (r = 0.85) with the World Bank’s district-level poverty data. Our nationwide extrapolation suggests that housing improvements in informal settlements have fallen short of official projections by an average of 2.8% since the COVID-19 pandemic. We discuss the potential of machine learning on satellite imagery in providing insights into urbanization patterns and sustainable development.",
+            "dc.identifier": "doi:10.1038/s42949-025-00273-1",
+            "dc.creator": "Cha, Meeyoung",
+            "dc.subject": "Geography",
+            "prism.issn": "2661-8001",
+            "prism.publicationName": "npj Urban Sustainability",
+            "prism.publicationDate": "2025-09-30",
+            "prism.volume": "5",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "9",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42949-025-00273-1",
+            "prism.doi": "doi:10.1038/s42949-025-00273-1",
+            "citation_pdf_url": "https://www.nature.com/articles/s42949-025-00273-1.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42949-025-00273-1",
+            "citation_journal_title": "npj Urban Sustainability",
+            "citation_journal_abbrev": "npj Urban Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2661-8001",
+            "citation_title": "AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia",
+            "citation_volume": "5",
+            "citation_issue": "1",
+            "citation_online_date": "2025/09/30",
+            "citation_firstpage": "1",
+            "citation_lastpage": "9",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42949-025-00273-1",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42949-025-00273-1&api_key=",
+            "citation_reference": "Chen, L., Papandreou, G., Schroff, F. & Adam, H. Rethinking atrous convolution for semantic image segmentation. In the European Conference on Computer Vision (ECCV), 801–818 (Springer, 2017).",
+            "citation_author": "Cha, Meeyoung",
+            "citation_author_institution": "School of Computing, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea",
+            "description": "Mongolia is among the countries undergoing rapid urbanization, and its temporary nomadic dwellings—known as Ger—have expanded into urban areas. Newly formed ger communities in cities are potentially recognized as informal settlements, or slums. The distinctive circular, tent-like shape of gers enables their detection through very-high-resolution satellite imagery. We develop a computer vision algorithm to detect gers in Ulaanbaatar, the capital of Mongolia, utilizing satellite images collected from 2015 to 2025. Results reveal that ger settlements have relocated towards the capital’s peripheral areas. The predicted ger household ratio based on our results exhibits a significant correlation (r = 0.85) with the World Bank’s district-level poverty data. Our nationwide extrapolation suggests that housing improvements in informal settlements have fallen short of official projections by an average of 2.8% since the COVID-19 pandemic. We discuss the potential of machine learning on satellite imagery in providing insights into urbanization patterns and sustainable development.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia",
+            "twitter:description": "npj Urban Sustainability - AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42949-025-00273-1/MediaObjects/42949_2025_273_Fig1_HTML.png",
+            "DOI": "10.1038/s42949-025-00273-1",
+            "size": "142144",
+            "journal_id": "42949"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42949-025-00273-1",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

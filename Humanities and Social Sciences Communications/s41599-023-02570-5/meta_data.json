@@ -1,0 +1,49 @@
+{
+    "id": "s41599-023-02570-5",
+    "title": "Counterfactual mobility network embedding reveals prevalent accessibility gaps in U.S. cities",
+    "journal": "Humanities and Social Sciences Communications",
+    "pdf_link": "https://www.nature.com/articles/s41599-023-02570-5",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "American Community Survey ACS 5-year Estimates 2019",
+            "Data_summary": "Neighborhood demographic attributes reported at the census block group level, used as independent variables and covariates to estimate causal effects of demographics on mobility frequency and facility accessibility and to define treatment levels for matching and embedding.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We collect demographic data from the 2019 U.S. Census Bureau’s American Community Survey 5-year Estimates ACS as the independent variable of mobility patterns, Location: Methods Demographic dataset, Confidence: high",
+            "Time_Coverage": "2015-2019",
+            "Geographic_Coverage": "United States > NY NY NJ PA and CA and IL IN WI and TX and DC VA MD WV MSAs",
+            "URL": "https://www.safegraph.com/free-data/open-census-data",
+            "ref": []
+        },
+        {
+            "Data_Name": "SafeGraph Monthly Patterns",
+            "Data_summary": "Aggregated monthly visit counts from home census block groups to individual points of interest derived from consented GPS-enabled mobile devices, used to build CBG to POI mobility networks, compute neighborhood mobility frequency and mobility reduction, and compute category-level accessibility shares.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we utilize SafeGraph’s Patterns dataset and Core Places dataset, By tracking GPS-equipped mobile devices under consent, the Patterns dataset aggregates visit counts from CBGs to POIs each month, Location: Methods Mobility dataset, Confidence: high",
+            "Time_Coverage": "2019-07 to 2020-09",
+            "Geographic_Coverage": "United States > NY NY NJ PA and CA and IL IN WI and TX and DC VA MD WV MSAs",
+            "URL": "https://docs.safegraph.com/docs/monthly-patterns",
+            "ref": []
+        },
+        {
+            "Data_Name": "SafeGraph Core Places",
+            "Data_summary": "Point of interest reference database containing POI metadata including categorical classifications, used to label POIs and map them to POI categories for computing accessibility measures and for constructing the heterogeneous mobility network.",
+            "Category": "Points of Interest (POIs)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The Core Places dataset identifies each POI’s category under the North American Industry Classification Systems NAICS, Location: Methods Mobility dataset, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://docs.safegraph.com/docs/core-places",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:26.859323"
+    }
+}

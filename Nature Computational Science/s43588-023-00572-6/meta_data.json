@@ -1,0 +1,109 @@
+{
+    "id": "s43588-023-00572-6",
+    "title": "Quantifying spatial under-reporting disparities in resident crowdsourcing",
+    "journal": "Nature Computational Science",
+    "pdf_link": "https://www.nature.com/articles/s43588-023-00572-6",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "NYC Open Data Forestry Service Requests",
+            "Data_summary": "Administrative 311 service request records submitted by the public to NYC Parks Forestry about street tree issues, including request timestamps, locations, and request-level attributes. Used to reconstruct incident-level sequences of reports including duplicates, define first-report times, and provide incident and location covariates for estimating reporting rates and delays.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: 311 service requests made to the Forestry unit of NYC Parks, retrieved on 22 October 2022 at 14:45 EDT from https://data.cityofnewyork.us/Environment/Forestry-Service-Requests/mu46-p9is Location: Data availability Confidence: high",
+            "Time_Coverage": "2017-06-30 to 2020-06-30",
+            "Geographic_Coverage": "United States > New York > New York City",
+            "URL": "https://data.cityofnewyork.us/Environment/Forestry-Service-Requests/mu46-p9is",
+            "ref": []
+        },
+        {
+            "Data_Name": "NYC Open Data Forestry Inspections",
+            "Data_summary": "Records of inspections conducted by NYC Parks Forestry staff, containing inspection timestamps and inspector-assessed incident attributes such as risk assessment and tree condition. Used to set observation interval end times for counting duplicate reports and to supply incident-level covariates for regression models of reporting rates.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Inspections conducted by the Forestry unit of NYC Parks retrieved 22 October 2022 at 14:32 EDT from https://data.cityofnewyork.us/Environment/Forestry-Inspections/4pt5-3vv4 Location: Data availability Confidence: high",
+            "Time_Coverage": "2017-06-30 to 2022-09-01",
+            "Geographic_Coverage": "United States > New York > New York City",
+            "URL": "https://data.cityofnewyork.us/Environment/Forestry-Inspections/4pt5-3vv4",
+            "ref": []
+        },
+        {
+            "Data_Name": "NYC Open Data Forestry Work Orders",
+            "Data_summary": "Administrative records of work orders completed by NYC Parks Forestry, including work order details and completion timestamps. Used to characterize agency response actions and delays after inspections and to compare reporting delays versus downstream inspection and maintenance delays.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Work orders completed by the Forestry unit of NYC Parks retrieved 22 October 2022 at 14:31 EDT from https://data.cityofnewyork.us/Environment/Forestry-Work-Orders/bdjm-n7q4 Location: Data availability Confidence: high",
+            "Time_Coverage": "2017-06-30 to 2022-09-01",
+            "Geographic_Coverage": "United States > New York > New York City",
+            "URL": "https://data.cityofnewyork.us/Environment/Forestry-Work-Orders/bdjm-n7q4",
+            "ref": []
+        },
+        {
+            "Data_Name": "NYC Open Data Forestry Risk Assessments",
+            "Data_summary": "Forestry risk assessment records with risk ratings and related evaluation fields for tree incidents. Used as incident severity covariates and for risk-based stratification when comparing reporting, inspection, and work order delays.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Risk assessments by the Forestry unit of NYC Parks retrieved 24 October 2022 at 14:30 EDT from https://data.cityofnewyork.us/Environment/Forestry-Risk-Assessments/259a-b6s7 Location: Data availability Confidence: high",
+            "Time_Coverage": "2017-06-30 to 2022-09-01",
+            "Geographic_Coverage": "United States > New York > New York City",
+            "URL": "https://data.cityofnewyork.us/Environment/Forestry-Risk-Assessments/259a-b6s7",
+            "ref": []
+        },
+        {
+            "Data_Name": "Private NYC DPR enriched forestry dataset with anonymized reporter identifiers",
+            "Data_summary": "Non-public NYC Parks and Recreation forestry service-request data shared confidentially with the authors, augmented with anonymized reporter identification fields. Used to filter out duplicate reports submitted by the same caller and to support the main-text NYC analyses beyond what is possible with the purely public portal fields.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The primary NYC results in the main text are aided by private data confidentially provided to us by NYC DPR that cannot be shared Location: Data availability Confidence: high",
+            "Time_Coverage": "2017-06-30 to 2020-06-30",
+            "Geographic_Coverage": "United States > New York > New York City",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "2020 United States Census data for NYC census tracts",
+            "Data_summary": "Census-derived demographic and socioeconomic variables at census-tract level, such as income, race composition, renters, education, age, and population density. Used to construct tract-level covariates and to quantify socioeconomic associations with reporting rates and spatial disparities in estimated reporting delays.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: for each incident we join relevant information about it from the service requests it receives the inspection outcomes logged by NYC DPR inspectors and 2020 Census data Location: Methods > Problem setting dataset and preprocessing Confidence: medium",
+            "Time_Coverage": "2020",
+            "Geographic_Coverage": "United States > New York > New York City",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Chicago Data Portal 311 Service Requests",
+            "Data_summary": "City of Chicago 311 service request logs, including report timestamps, locations, and incident categories for requests routed to agencies such as the Department of Transportation and Department of Water Management. Used to replicate the NYC modeling pipeline to estimate reporting rates and spatial and socioeconomic heterogeneity in reporting delays in Chicago.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: it contained 949352 service requests made by the public in the period between 1 March 2019 and 4 July 2022 Location: Methods > Analyses using Chicago data Confidence: high",
+            "Time_Coverage": "2019-03-01 to 2022-07-04",
+            "Geographic_Coverage": "United States > Illinois > Chicago",
+            "URL": "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit (Source Data files for figures)",
+            "Data_summary": "Article-provided tabular source data files underlying plotted results for main figures. Used to support reproducibility of the reported statistical summaries and visualizations rather than serving as primary raw input to the modeling.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Source Data Fig. 1 Statistical source data Location: Source data Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_MOESM4_ESM.csv",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:55.827662"
+    }
+}

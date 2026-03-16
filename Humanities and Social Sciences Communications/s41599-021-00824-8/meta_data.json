@@ -1,0 +1,63 @@
+{
+    "id": "s41599-021-00824-8",
+    "title": "High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns",
+    "journal": "Humanities and Social Sciences Communications",
+    "pdf_link": "https://www.nature.com/articles/s41599-021-00824-8",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Cuebiq anonymized mobile device GPS mobility data for Greater Houston",
+            "Data_summary": "Anonymized, opted-in mobile device location traces consisting of timestamped latitude and longitude records that are converted into stay points and trajectories for each device. The study uses these traces to infer home locations, detect evacuations, determine evacuation destinations, compute evacuation distances and durations, and generate origin destination transition matrices and spatial density estimates of relocation flows.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We use mobility data provided by Cuebiq a leading private sector firm that handles human mobility data with anonymized identifiers and guarantees user privacy. Location: Methods Data and preprocessing Confidence: high",
+            "Time_Coverage": "2017-07-01 to 2017-09-30",
+            "Geographic_Coverage": "United States > Texas > Houston Metropolitan Statistical Area",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "2018 American Community Survey ACS block group population statistics",
+            "Data_summary": "US Census Bureau American Community Survey estimates used at the census block group level including total population counts and poverty and race composition fields. The study uses ACS values to assess representativeness of the mobility sample, to weight or resample block group device counts for sampling bias correction, and to classify block groups into neighborhood types by poverty status and majority race.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: for each block group we compare the number of devices in the dataset with the total population reported in the 2018 American Community Survey ACS 2018. Location: Methods Sampling bias correction Confidence: high",
+            "Time_Coverage": "2018",
+            "Geographic_Coverage": "United States > Texas > Houston Metropolitan Statistical Area",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "EM-DAT The International Disaster Database",
+            "Data_summary": "A global disaster event database compiled by CRED containing disaster occurrences and impacts such as deaths and economic damages. The study uses it for contextual background statistics about global natural hazards rather than for the core evacuation analysis.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: killing nearly 12000 people and causing 130 billion US damage in 2019 alone EM-DAT 2019. Location: Introduction Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://www.emdat.be/index.php",
+            "ref": [
+                "ref-CR10"
+            ]
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data Availability",
+            "Data_summary": "A paper level statement indicating that the underlying anonymized mobile phone dataset cannot be shared publicly under the data provider agreement, but that aggregated data or summary statistics may be obtainable via contacting the corresponding authors. This is not a repository deposit, but it governs access to the main input dataset.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Our usage agreement with Cuebiq does not allow us to make public or otherwise share the anonymized mobile phone data used in this study. Location: Data availability Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:34.784342"
+    }
+}

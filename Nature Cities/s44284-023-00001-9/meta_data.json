@@ -1,0 +1,95 @@
+{
+    "id": "s44284-023-00001-9",
+    "title": "Quantifying the decrease in heat exposure through adaptation and mitigation in twenty-first-century US cities",
+    "journal": "Nature Cities",
+    "pdf_link": "https://www.nature.com/articles/s44284-023-00001-9",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "Paper-level data deposit at ASU Library Research Data Repository",
+            "Data_summary": "Repository deposit containing the data supporting the study findings, including regional climate model simulation outputs and associated inputs or derived variables used to compute city-scale heat exposure person-hours under multiple scenarios.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data that supported the findings communicated in this manuscript can be obtained by accessing the ASU Library Research Data Repository at https://doi.org/10.48349/ASU/3TYXZI. Location: Data availability, Extra_info; Confidence: high",
+            "Time_Coverage": "2000-2009, 2090-2099",
+            "Geographic_Coverage": "United States > Conterminous United States",
+            "URL": "https://doi.org/10.48349/ASU/3TYXZI",
+            "ref": []
+        },
+        {
+            "Data_Name": "EPA Integrated Climate and Land-Use Scenarios ICLUS v1.3.2",
+            "Data_summary": "Scenario dataset of housing density change used to estimate impervious surface cover and represent contemporary and future urban land classes. The study uses ICLUS 2010 for contemporary urban classes and the 2090 A2 scenario for end-of-century urban expansion and densification, aggregated into three WRF urban land-use classes.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We represented start and end of century CONUS urban classes using the Environmental Protection Agencys Integrated Climate and Land Use Scenarios ICLUS version 1.3.2. Location: Methods; Confidence: high",
+            "Time_Coverage": "2010, 2090",
+            "Geographic_Coverage": "United States > Conterminous United States",
+            "URL": "https://cfpub.epa.gov/ncea/global/recordisplay.cfm?deid=257306",
+            "ref": [
+                "ref-CR36"
+            ]
+        },
+        {
+            "Data_Name": "ERA-Interim reanalysis",
+            "Data_summary": "Global atmospheric reanalysis used to initialize and provide boundary forcing for the WRF contemporary decade simulations, supplying meteorological state variables needed to run the regional climate model for 2000 to 2009.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We initialized and forced our contemporary climate 2000 to 2009 simulations using the European Centre for Medium-Range Weather Forecasts ERA Interim reanalysis. Location: Methods; Confidence: high",
+            "Time_Coverage": "2000-2009",
+            "Geographic_Coverage": "United States > Conterminous United States",
+            "URL": "https://doi.org/10.5065/D6CR5RD9",
+            "ref": [
+                "ref-CR37"
+            ]
+        },
+        {
+            "Data_Name": "NCAR CESM Global Bias-Corrected CMIP5 Output to Support WRF MPAS Research",
+            "Data_summary": "Bias-corrected global climate model output from CESM CMIP5 ensemble member six, used as boundary and forcing data for end-of-century WRF downscaling under RCP 4.5 and RCP 8.5 scenarios.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: WRF simulations dynamically downscaled bias-corrected GCM output from the CESM CMIP5 ensemble member six for RCPs 4.5 and 8.5. Location: Methods; Confidence: high",
+            "Time_Coverage": "2090-2099",
+            "Geographic_Coverage": "United States > Conterminous United States",
+            "URL": "https://doi.org/10.5065/D6DJ5CN4",
+            "ref": [
+                "ref-CR40"
+            ]
+        },
+        {
+            "Data_Name": "GFDL ESM2M CMIP5 climate forcing data",
+            "Data_summary": "Global climate model output from the GFDL Earth System Model 2M used as alternative boundary and forcing data for end-of-century WRF downscaling, to assess sensitivity of regional and diurnal heat exposure projections to the driving GCM.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We repeated end-of-century simulations with the GFDL Earth System Model 2M climate forcing. Location: Methods; Confidence: medium",
+            "Time_Coverage": "2090-2099",
+            "Geographic_Coverage": "United States > Conterminous United States",
+            "URL": "ftp://nomads.gfdl.noaa.gov/CMIP5",
+            "ref": [
+                "ref-CR41"
+            ]
+        },
+        {
+            "Data_Name": "ENERGY STAR Roof Product List",
+            "Data_summary": "Product list used as an input reference to set the maximum cool-roof spectrally integrated albedo parameter value applied in the adaptation scenario within WRF urban canopy representation.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the deployment of cool roofs to a maximum spectrally integrated albedo value of 0.88 as informed by several Environmental Protection Agency Energy Star products. Location: Methods; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://downloads.energystar.gov/bi/qplist/roofs_prod_list.pdf?8ddd-02cf",
+            "ref": [
+                "ref-CR43"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:45.497162"
+    }
+}

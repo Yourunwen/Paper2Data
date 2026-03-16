@@ -1,0 +1,109 @@
+{
+    "id": "s44284-025-00278-y",
+    "title": "Association between urban shrinkage and excess mortality during the COVID-19 pandemic",
+    "journal": "Nature Cities",
+    "pdf_link": "https://www.nature.com/articles/s44284-025-00278-y",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "CDC WONDER county monthly all cause mortality data",
+            "Data_summary": "County-level monthly death counts from all causes retrieved from the US Centers for Disease Control and Prevention WONDER system. Used to fit a pre-pandemic baseline model per county and then compute expected deaths and excess deaths during the COVID-19 period.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Raw monthly mortality data for each county from January 2015 to March 2023 that are used for the calculation of excess death are available from the Centers for Disease Control and Prevention’s WONDER database https://wonder.cdc.gov/ Location: Data availability Confidence: high",
+            "Time_Coverage": "2015-01 to 2023-03",
+            "Geographic_Coverage": "United States > Counties",
+            "URL": "https://wonder.cdc.gov/",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Bureau of Economic Analysis county gross regional domestic product GRDP",
+            "Data_summary": "County-level gross regional domestic product values used to measure local economic change and to compute compound annual growth rates as an urban shrinkage indicator and for county typology classification.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Raw GRDP data for each county from 2010 to 2020 that are used for the severity of urban shrinkage are available from the Bureau of Economic Analysis https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas Location: Data availability Confidence: high",
+            "Time_Coverage": "2010-2020",
+            "Geographic_Coverage": "United States > Counties",
+            "URL": "https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Census Bureau county population estimates including age specific population",
+            "Data_summary": "County-level population counts and age-specific population estimates used to compute population growth or decline and the share of older residents used as predictors and for shrinkage classification.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Raw population data for each county including age-specific population from 2010 to 2020 are available from the US Census Bureau https://www.census.gov/data/datasets/time-series/demo/popest/2020s-counties-total.html Location: Data availability Confidence: high",
+            "Time_Coverage": "2010-2020",
+            "Geographic_Coverage": "United States > Counties",
+            "URL": "https://www.census.gov/data/datasets/time-series/demo/popest/2020s-counties-total.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "USDA Economic Research Service county level data sets income education unemployment",
+            "Data_summary": "County-level socioeconomic indicator tables including median household income, education attainment and unemployment rate used as explanatory variables in the mixed-effects models and descriptive comparisons across county types.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Raw median household income, education and unemployment data for each county are available from the US Department of Agriculture https://www.ers.usda.gov/data-products/county-level-data-sets/ Location: Data availability Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Counties",
+            "URL": "https://www.ers.usda.gov/data-products/county-level-data-sets/",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Census Bureau ACS 5 year table B02001 race by county",
+            "Data_summary": "County-level racial composition counts or shares from the American Community Survey table B02001 used to construct race percentage covariates for regression models and county profiling.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Raw population ratio by race for each county is available from the US Census Bureau https://data.census.gov/table/ACSDT5Y2020.B02001 Location: Data availability Confidence: high",
+            "Time_Coverage": "2020",
+            "Geographic_Coverage": "United States > Counties",
+            "URL": "https://data.census.gov/table/ACSDT5Y2020.B02001?q=United%20States&t=White&g=010XX00US,$0500000&y=2020",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Census Bureau county land area geography information",
+            "Data_summary": "County area measurements used to compute population density as a control variable in statistical models and descriptive analysis.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Raw area data for each county, required for calculating population density, are available from the US Census Bureau https://data.census.gov/table?d=GEO+Geography+Information Location: Data availability Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Counties",
+            "URL": "https://data.census.gov/table?g=010XX00US$0500000&d=GEO+Geography+Information",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Census Bureau county boundary vector data",
+            "Data_summary": "Public domain vector boundary data for US counties used to map and visualize the spatial distribution of county typologies in QGIS.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The county boundaries were based on public domain vector data from the United States Census Bureau https://www.census.gov/en.html Location: Extended data Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Counties",
+            "URL": "https://www.census.gov/en.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data availability GitHub",
+            "Data_summary": "Authors compiled county-level analytic dataset containing monthly observed, expected and excess deaths and derived shrinkage and socioeconomic variables used in modeling and descriptive analysis.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Overall, the organized data, including each county’s monthly observed, expected and excess deaths, and the CAGR of GRDP, CAGR of population, median income, education, unemployment, ratio of older people and population by race, are available via GitHub at https://github.com/GukhwaJang/journal_shrinking_covid Location: Data availability Confidence: high",
+            "Time_Coverage": "2015-01 to 2023-03",
+            "Geographic_Coverage": "United States > Counties",
+            "URL": "https://github.com/GukhwaJang/journal_shrinking_covid",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:08.282609"
+    }
+}

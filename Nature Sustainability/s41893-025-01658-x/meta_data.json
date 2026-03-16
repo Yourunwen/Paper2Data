@@ -1,0 +1,99 @@
+{
+    "id": "s41893-025-01658-x",
+    "title": "Housing exchange framework to reduce carbon emissions from commuting",
+    "journal": "Nature Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s41893-025-01658-x",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Beijing household housing and travel survey collected by authors",
+            "Data_summary": "Household-level survey records capturing home and work locations with geographic coordinates plus commuting behaviors and key socio-demographic attributes, used to build the Beijing sample for the housing exchange matching and to calibrate commuting-related variables used in utility, distance, and emissions calculations.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The sample of Beijing was drawn from a household housing and travel survey conducted by the authors’ research team in Beijing between 9 October 2020 and 16 March 2021. Location: Methods Study area and data Confidence: high",
+            "Time_Coverage": "2020-10-09 to 2021-03-16",
+            "Geographic_Coverage": "China > Beijing",
+            "URL": "https://doi.org/10.24433/CO.4363875.v1",
+            "ref": []
+        },
+        {
+            "Data_Name": "Wohnen–Arbeiten–Mobilität Survey WAM Munich household housing and travel survey",
+            "Data_summary": "Household housing and travel survey responses including residential location coordinates, travel attitudes, travel modes, socio-economic profile, and housing and travel costs, used to represent Munich commuters and to provide housing transaction prices for the Munich sample used in WTP estimation and exchange feasibility checks.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The sample of Munich was drawn from a household housing and travel survey named Wohnen–Arbeiten–Mobilität Survey jointly conducted at the Technical University of Munich between 27 November 2014 and 19 April 2015. Location: Methods Study area and data Confidence: high",
+            "Time_Coverage": "2014-11-27 to 2015-04-19",
+            "Geographic_Coverage": "Germany > Bavaria > Munich",
+            "URL": "https://doi.org/10.24433/CO.4363875.v1",
+            "ref": []
+        },
+        {
+            "Data_Name": "Singapore Household Interview Travel Survey HITS",
+            "Data_summary": "National household travel survey microdata containing household home location and travel information including commuting to work, used as the Singapore input sample for modeling commuting distance, mode choice behavior, and emissions impacts under housing exchange scenarios.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The Singapore sample was drawn from a Household Interview Travel Survey HITS conducted by Singapore Land Transport Authority between 1 October 2012 and 30 September 2013. Location: Methods Study area and data Confidence: high",
+            "Time_Coverage": "2012-10 to 2013-09",
+            "Geographic_Coverage": "Singapore",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "OpenStreetMap road network data",
+            "Data_summary": "Crowd-sourced digital road network data used to compute network-based commuting distances between home and workplace locations and to construct commuting distance matrices used in the housing exchange optimization and emissions calculations.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The commuting distance along the road network between workers and each housing are crawled from OpenStreetMap using Python 3.6 and Java 1.8. Location: Methods Study area and data Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Beijing and Germany > Bavaria > Munich and Singapore",
+            "URL": "https://www.openstreetmap.org/",
+            "ref": []
+        },
+        {
+            "Data_Name": "URA Realis database Singapore housing transaction records",
+            "Data_summary": "Property transaction record data used to estimate housing transaction prices for Singapore survey households by spatially matching each sampled home to nearby similar homes and averaging their transaction records for use in the price regression and exchange budget constraints.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we estimate the transaction price of the sample’s house by spatially matching them with other adjacent similar housing and calculate the mean of their transaction records Realis database in Singapore. Location: Methods Study area and data Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Singapore",
+            "URL": "https://eservice.ura.gov.sg/reis/index",
+            "ref": []
+        },
+        {
+            "Data_Name": "Fang tianxia real estate information platform Beijing housing transaction data",
+            "Data_summary": "Beijing housing transaction data from a commercial real estate information platform used to estimate transaction prices for Beijing survey households via spatial matching to nearby similar housing transactions and averaging matched records for input to price regression and exchange feasibility checks.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we estimate the transaction price of the sample’s house by spatially matching them with other adjacent similar housing and calculate the mean of their transaction records Fang tianxia real estate information platform in Beijing. Location: Methods Study area and data Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Beijing",
+            "URL": "https://www1.fang.com/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit (Code Ocean package and matrices)",
+            "Data_summary": "Packaged data deposit containing Beijing and Munich household travel survey variables and corresponding network-based commuting matrices prepared for the study and shared for reproducibility alongside the analysis code.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Household travel surveys for Beijing and Munich along with the corresponding network-based commuting matrices are available via Code Ocean at https://doi.org/10.24433/CO.4363875.v1 ref. 51. Location: Data availability Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Beijing and Germany > Bavaria > Munich",
+            "URL": "https://doi.org/10.24433/CO.4363875.v1",
+            "ref": [
+                "ref-CR51"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:22.267012"
+    }
+}

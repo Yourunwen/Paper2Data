@@ -1,0 +1,818 @@
+{
+    "id": "s44284-023-00001-9",
+    "journal": "Nature Cities",
+    "type": "article",
+    "title": "Quantifying the decrease in heat exposure through adaptation and mitigation in twenty-first-century US cities",
+    "legal_title": "Quantifying the decrease in heat exposure through adaptation and mitigation in twenty-first-century US cities",
+    "publish_time": "2023-12-18",
+    "pdf_link": "https://www.nature.com/articles/s44284-023-00001-9",
+    "storage_path": "./Articles/Nature Cities/2023-article/s44284-023-00001-9/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "The continued increase in the duration, frequency and intensity of heat waves is especially problematic in cities, where more than half of the world’s population lives. Here we combine decadal-scale regional climate modeling simulations with projections of urban expansion, greenhouse gas emissions and population migration to examine the extent to which adaptation and mitigation strategies, in isolation and in tandem, can reduce population heat exposure in US cities at the end of the century. We show that adaptation and mitigation strategies, when deployed in isolation, lead to the largest reduction in population heat exposure for Northeast and Midwest cities compared with Southeast, Great Plains and Southwest cities, relative to a contemporary start-of-century baseline. Our results demonstrate synergistic interactions between adaptation and mitigation strategies when deployed in tandem. This results in an end-of-century decrease in population heat exposure that is greater than the sum of their individual parts for the lowest extreme heat thresholds, but less than the sum of their individual parts for the highest extreme heat thresholds, for US cities across all regions.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "We used version 3.6.1 of the WRF-ARW regional climate model (freely available at: https://www2.mmm.ucar.edu/wrf/users/download/get_source.html) to generate all results. Modest modifications to WRF were made to incorporate subgrid features33. The data that supported the findings communicated in this manuscript can be obtained by accessing the ASU Library Research Data Repository at: https://doi.org/10.48349/ASU/3TYXZI.",
+            "links": {
+                "https://www2.mmm.ucar.edu/wrf/users/download/get_source.html": "https://www2.mmm.ucar.edu/wrf/users/download/get_source.html",
+                "33": "/articles/s44284-023-00001-9#ref-CR33",
+                "https://doi.org/10.48349/ASU/3TYXZI": "https://doi.org/10.48349/ASU/3TYXZI"
+            }
+        },
+        "Code availability": {
+            "content": "Analysis was performed using custom-made scripts coded in Python v.2.7.12. The WRF source code for the latest version of the modeling system is available from the public WRF-Model Release page on GitHub at: https://github.com/wrf-model/WRF/releases. The WRF source code for the version of the code used here is freely available via the WRF User’s Page and can be obtained from: https://www2.mmm.ucar.edu/wrf/users/download/get_source.html. The code modification used to derive the subgrid representation of urban air temperature is available from the corresponding author upon reasonable request.",
+            "links": {
+                "https://github.com/wrf-model/WRF/releases": "https://github.com/wrf-model/WRF/releases",
+                "https://www2.mmm.ucar.edu/wrf/users/download/get_source.html": "https://www2.mmm.ucar.edu/wrf/users/download/get_source.html"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This work was supported by National Science Foundation Sustainability Research Network Cooperative Agreement Number 1444758, the Urban Water Innovation Network. M.G. also acknowledges support courtesy of the US Department of Energy, Office of Science, Office of Biological and Environmental Research’s Urban Integrated Field Laboratories research activity, under Award Number DE-SC0023520. The authors acknowledge support from Research Computing at Arizona State University for the provision of high-performance supercomputing services and from ASU Libraries for storage of model simulation output at: https://dataverse.asu.edu/dataset.xhtml?persistentId=doi:10.48349/ASU/3TYXZI.",
+            "links": {
+                "https://dataverse.asu.edu/dataset.xhtml?persistentId=doi:10.48349/ASU/3TYXZI": "https://dataverse.asu.edu/dataset.xhtml?persistentId=https://doi.org/10.48349/ASU/3TYXZI"
+            }
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsMatei GeorgescuView author publicationsSearch author on:PubMed Google ScholarAshley M. BroadbentView author publicationsSearch author on:PubMed Google ScholarE. Scott KrayenhoffView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nA.M.B, E.S.K. and M.G. designed the research and analysis. A.M.B. analysed the model output. A.M.B., E.S.K. and M.G contributed to writing the manuscript.\n### Corresponding author\nCorrespondence to\n                Matei Georgescu.",
+            "links": {
+                "View author publications": "/search?author=E.%20Scott%20Krayenhoff",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=E.%20Scott%20Krayenhoff",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22E.%20Scott%20Krayenhoff%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Matei Georgescu": "mailto:Matei.Georgescu@asu.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Cities thanks Cascade Tuholske, Pouya Vahmani and Kangning Huang for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Figs. 1–10.Reporting SummarySupplementary Table 1Description and naming convention of WRF experiments.",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_MOESM2_ESM.pdf",
+                "Supplementary Table 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_MOESM3_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Quantifying%20the%20decrease%20in%20heat%20exposure%20through%20adaptation%20and%20mitigation%20in%20twenty-first-century%20US%20cities&author=Matei%20Georgescu%20et%20al&contentID=10.1038%2Fs44284-023-00001-9&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20America%2C%20Inc.&publication=2731-9997&publicationDate=2023-12-18&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleGeorgescu, M., Broadbent, A.M. & Krayenhoff, E.S. Quantifying the decrease in heat exposure through adaptation and mitigation in twenty-first-century US cities.\n                    Nat Cities 1, 42–50 (2024). https://doi.org/10.1038/s44284-023-00001-9Download citationReceived: 28 March 2023Accepted: 03 November 2023Published: 18 December 2023Version of record: 18 December 2023Issue date: January 2024DOI: https://doi.org/10.1038/s44284-023-00001-9Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s44284-023-00001-9?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Quantifying the decrease in heat exposure through adaptation and mitigation in twenty-first-century US cities",
+                "description": "The continued increase in the duration, frequency and intensity of heat waves is especially problematic in cities, where more than half of the world’s population lives. Here we combine decadal-scale regional climate modeling simulations with projections of urban expansion, greenhouse gas emissions and population migration to examine the extent to which adaptation and mitigation strategies, in isolation and in tandem, can reduce population heat exposure in US cities at the end of the century. We show that adaptation and mitigation strategies, when deployed in isolation, lead to the largest reduction in population heat exposure for Northeast and Midwest cities compared with Southeast, Great Plains and Southwest cities, relative to a contemporary start-of-century baseline. Our results demonstrate synergistic interactions between adaptation and mitigation strategies when deployed in tandem. This results in an end-of-century decrease in population heat exposure that is greater than the sum of their individual parts for the lowest extreme heat thresholds, but less than the sum of their individual parts for the highest extreme heat thresholds, for US cities across all regions. As the Earth’s climate warms, cities must balance how they adapt, by greening roofs and streets, and how they mitigate, by reducing their greenhouse gas emissions. This study finds that, for US cities, these two strategies are synergistic but that the potential for offsetting heat exposure varies by region.",
+                "datePublished": "2023-12-18T00:00:00Z",
+                "dateModified": "2023-12-18T00:00:00Z",
+                "pageStart": "42",
+                "pageEnd": "50",
+                "sameAs": "https://doi.org/10.1038/s44284-023-00001-9",
+                "keywords": [
+                    "Climate-change mitigation",
+                    "Projection and prediction",
+                    "Cities",
+                    "Countries",
+                    "Regions",
+                    "Sustainable Architecture/Green Buildings",
+                    "Civil Engineering",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urban Studies/Sociology",
+                    "Urban Economics"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_Fig6_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Cities",
+                    "issn": [
+                        "2731-9997"
+                    ],
+                    "volumeNumber": "1",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Matei Georgescu",
+                        "url": "http://orcid.org/0000-0001-7321-2483",
+                        "affiliation": [
+                            {
+                                "name": "Arizona State University",
+                                "address": {
+                                    "name": "School of Geographical Sciences and Urban Planning, Arizona State University, Tempe, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Arizona State University",
+                                "address": {
+                                    "name": "Urban Climate Research Center, Arizona State University, Tempe, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "Matei.Georgescu@asu.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Ashley M. Broadbent",
+                        "affiliation": [
+                            {
+                                "name": "Arizona State University",
+                                "address": {
+                                    "name": "Urban Climate Research Center, Arizona State University, Tempe, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "National Institute of Water and Atmospheric Research",
+                                "address": {
+                                    "name": "National Institute of Water and Atmospheric Research, Wellington, New Zealand",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "E. Scott Krayenhoff",
+                        "affiliation": [
+                            {
+                                "name": "Arizona State University",
+                                "address": {
+                                    "name": "Urban Climate Research Center, Arizona State University, Tempe, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Guelph",
+                                "address": {
+                                    "name": "School of Environmental Sciences, University of Guelph, Guelph, Canada",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "climate-change-mitigation;projection-and-prediction",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "Cities and climate change",
+                            "webtrendsContentGroup": "Nature Cities",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s44284-023-00001-9"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Matei Georgescu",
+                            "Ashley M. Broadbent",
+                            "E. Scott Krayenhoff"
+                        ],
+                        "publishedAt": 1702857600,
+                        "publishedAtString": "2023-12-18",
+                        "title": "Quantifying the decrease in heat exposure through adaptation and mitigation in twenty-first-century US cities",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Climate-change mitigation,Projection and prediction"
+                    },
+                    "journal": {
+                        "pcode": "natcities",
+                        "title": "nature cities",
+                        "volume": "1",
+                        "issue": "1",
+                        "id": 44284,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "cghcedcihj"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Quantifying the decrease in heat exposure through adaptation and mitigation in twenty-first-century US cities",
+            "dc.source": "Nature Cities 2023 1:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2023-12-18",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2023 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rights": "2023 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "The continued increase in the duration, frequency and intensity of heat waves is especially problematic in cities, where more than half of the world’s population lives. Here we combine decadal-scale regional climate modeling simulations with projections of urban expansion, greenhouse gas emissions and population migration to examine the extent to which adaptation and mitigation strategies, in isolation and in tandem, can reduce population heat exposure in US cities at the end of the century. We show that adaptation and mitigation strategies, when deployed in isolation, lead to the largest reduction in population heat exposure for Northeast and Midwest cities compared with Southeast, Great Plains and Southwest cities, relative to a contemporary start-of-century baseline. Our results demonstrate synergistic interactions between adaptation and mitigation strategies when deployed in tandem. This results in an end-of-century decrease in population heat exposure that is greater than the sum of their individual parts for the lowest extreme heat thresholds, but less than the sum of their individual parts for the highest extreme heat thresholds, for US cities across all regions. As the Earth’s climate warms, cities must balance how they adapt, by greening roofs and streets, and how they mitigate, by reducing their greenhouse gas emissions. This study finds that, for US cities, these two strategies are synergistic but that the potential for offsetting heat exposure varies by region.",
+            "dc.identifier": "doi:10.1038/s44284-023-00001-9",
+            "dc.creator": "Krayenhoff, E. Scott",
+            "dc.subject": "Projection and prediction",
+            "prism.issn": "2731-9997",
+            "prism.publicationName": "Nature Cities",
+            "prism.publicationDate": "2023-12-18",
+            "prism.volume": "1",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "42",
+            "prism.endingPage": "50",
+            "prism.copyright": "2023 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s44284-023-00001-9",
+            "prism.doi": "doi:10.1038/s44284-023-00001-9",
+            "citation_pdf_url": "https://www.nature.com/articles/s44284-023-00001-9.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s44284-023-00001-9",
+            "citation_journal_title": "Nature Cities",
+            "citation_journal_abbrev": "Nat Cities",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2731-9997",
+            "citation_title": "Quantifying the decrease in heat exposure through adaptation and mitigation in twenty-first-century US cities",
+            "citation_volume": "1",
+            "citation_issue": "1",
+            "citation_publication_date": "2024/01",
+            "citation_online_date": "2023/12/18",
+            "citation_firstpage": "42",
+            "citation_lastpage": "50",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s44284-023-00001-9",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s44284-023-00001-9&api_key=",
+            "citation_reference": "ENERGY STAR Roof Product List (Energy Star, 2013); \n                  https://downloads.energystar.gov/bi/qplist/roofs_prod_list.pdf?8ddd-02cf\n                  \n                ",
+            "citation_author": "Krayenhoff, E. Scott",
+            "citation_author_institution": "School of Environmental Sciences, University of Guelph, Guelph, Canada",
+            "description": "The continued increase in the duration, frequency and intensity of heat waves is especially problematic in cities, where more than half of the world’s population lives. Here we combine decadal-scale regional climate modeling simulations with projections of urban expansion, greenhouse gas emissions and population migration to examine the extent to which adaptation and mitigation strategies, in isolation and in tandem, can reduce population heat exposure in US cities at the end of the century. We show that adaptation and mitigation strategies, when deployed in isolation, lead to the largest reduction in population heat exposure for Northeast and Midwest cities compared with Southeast, Great Plains and Southwest cities, relative to a contemporary start-of-century baseline. Our results demonstrate synergistic interactions between adaptation and mitigation strategies when deployed in tandem. This results in an end-of-century decrease in population heat exposure that is greater than the sum of their individual parts for the lowest extreme heat thresholds, but less than the sum of their individual parts for the highest extreme heat thresholds, for US cities across all regions. As the Earth’s climate warms, cities must balance how they adapt, by greening roofs and streets, and how they mitigate, by reducing their greenhouse gas emissions. This study finds that, for US cities, these two strategies are synergistic but that the potential for offsetting heat exposure varies by region.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Quantifying the decrease in heat exposure through adaptation and mitigation in twenty-first-century US cities",
+            "twitter:description": "Nature Cities - As the Earth’s climate warms, cities must balance how they adapt, by greening roofs and streets, and how they mitigate, by reducing their greenhouse gas emissions. This study...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44284-023-00001-9/MediaObjects/44284_2023_1_Fig1_HTML.png",
+            "DOI": "10.1038/s44284-023-00001-9",
+            "size": "110993",
+            "journal_id": "44284"
+        },
+        "canonical_url": "https://www.nature.com/articles/s44284-023-00001-9",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "The devastating extreme heat that overwhelmed Europe during July 2022 resulted in thousands of excess fatalities, numerous wildfires and widespread evacuations1. Extreme heat waves have been a recurring theme in recent years as cities across the globe—from South America to North America and from Europe to Asia—have experienced unprecedented thermal conditions2,3,4. As one remarkable example of the observed increase in the strength of heat waves, the town of Lytton (Canada) recorded air temperatures in excess of 45 °C for three consecutive days, culminating in a maximum of 49.6 °C on 29 June 20215, contributing to combustion of the majority of the village the subsequent day6.\nIn addition to these direct effects, extreme heat also acts as an invisible hazard through increased exposure, leading to a rise in emergency room visits and a range of cardiovascular and mental health issues7. Recent work has demonstrated a sharp surge—a nearly 200% increase between 1983 and 2016—in the global urban exposure to extreme heat8. While considerable research focused on reducing climate change impacts across cities exists, such work has been dedicated to assessment of either adaptation or mitigation activities9,10,11,12; their integration, despite rising encouragement to do so, has received less attention13,14,15,16. Especially concerning is the complete lack of such integrated assessments on the potential to reduce heat exposure in cities. Examination of synergies resulting from simultaneously deployed adaptation (that is, local infrastructure-based strategies that reduce air temperature, such as the incorporation of cool and evaporative roofs and street trees) and mitigation (that is, action that reduces global emissions of greenhouse gases (GHGs)) strategies is required to enhance decision-making capacity and is an essential step in the development of effective urban planning policies aiming to increase the resilience of urban dwellers and the infrastructure that so many livelihoods depend on17.\nRecent projections indicate an increase in population-weighted heat exposure to locally defined extreme near-surface air temperature (hereafter extreme heat) by a factor of 13 to 30 under a high-intensity GHG emission and urban expansion scenario for twenty-first century US cities18. We build on previous work to advance our understanding of end-of-century changes in exposure to extreme heat across US cities through a lens defined as person-hours (that is, the number of hours a threshold of extreme heat is exceeded multiplied by the total population exposed to such conditions; 18). We further ask whether and to what extent adaptation and mitigation, in isolation and in tandem, can reduce population heat exposure across twenty-first-century US cities. We combine Weather Research and Forecasting (WRF) regional climate modeling simulations with projections of urban expansion, GHG emissions and population migration, and calculate the end-of-century reduction in person-hours at the scale of National Climate Assessment (NCA; ref. 19) and individual urban regions to characterize the efficacy of contrasting heat-burden reducing strategies (Supplementary Table 1). The adaptation strategies examined—simultaneous deployment of cool and evaporative roofs and street trees—are applied uniformly across all cities (Methods). Our WRF simulations examine a contemporary decade (2000–2009) against which future projections (2090–2099) are compared. We dynamically downscale a pair of global climate models (GCMs), retrieved from the Coupled Model Intercomparison Project Phase 5 (CMIP5), with varying sensitivity to GHG emissions to ascertain the dependence of our regional climate modeling simulations on GCM forcing.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR12",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR18",
+                "ref-CR15",
+                "ref-CR7",
+                "ref-CR19"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Variability in heat exposure projections",
+            "text": "There is considerable regional variability in projected population-weighted daytime annual heat exposure (hereafter population heat exposure) and the absolute magnitude depends on the intensity of the heat threshold and the sensitivity to increased concentrations of GHGs of each of the dynamically downscaled GCMs considered (Fig. 1). The projected increase in the absolute magnitude of end-of-century population heat exposure is greater for Northeast cities relative to cities in any other region of the USA. Concurrently, increases in heat exposure are consistently greater when Community Earth System Model (CESM) GCM projections are used to dynamically downscale the WRF model relative to the Geophysical Fluid Dynamics Laboratory (GFDL) GCM, and these differences are largest for the 99th percentile of local temperatures. WRF projections using the CESM GCM as a driver routinely project a two-to-fourfold increase in person-hours for 99th percentile days relative to projections using the GFDL GCM as a driver. These results are not directly translatable to night-time hours, when meaningful increases in person-hours are projected to occur only for the most extreme heat thresholds (that is, 99th percentile; Supplementary Fig. 1). For both GCMs that were dynamically downscaled, all NCA regions are projected to undergo a substantial increase in person-hours except cities located in the Northwest NCA region. This result is evident for both daytime and night-time and highlights the importance of continentality in characterizing the spatial variability of impacts. We emphasize that our results do not imply that Northwest NCA cities will not experience such extremes, but rather that they will be relatively small compared with US cities across all other climate regions.",
+            "cites": [],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "The role of adaptation and mitigation",
+            "text": "The relative change in population heat exposure to the 99th percentile of contemporary daytime maximum temperature indicates that end-of-century person-hours can be substantially reduced across continental US (hereafter CONUS) cities when incorporating the full suite of adaptation strategies considered here (Supplementary Table 1, Methods and Fig. 2a,b). The effect of adaptation strategies results in a latitudinal gradient, with a correspondingly greater reduction in population heat exposure with increasing latitude relative to the contemporary baseline. These results highlight the dependency on projections of population in determining overall exposure to extreme heat. Heat exposure in northeastern US urban areas is projected to be nearly completely offset by adaptation in the GFDL GCM projections, whereas dynamical downscaling in the CESM GCM results in end-of-century heat exposure values that remain ~5–30 times greater than the contemporary baseline. Relative increases in population heat exposure are constrained to Southeast, Great Plains and Southwest urban areas, with GFDL-driven WRF projections consistently indicating population heat exposure values closer to the contemporary baseline than CESM-driven WRF projections.\nThe relative changes in projected population heat exposure to the 99th percentile of contemporary daytime maximum temperatures are similar when incorporating GHG mitigation strategies (Fig. 2c,d). A latitudinal gradient is once more noted for both driving GCMs: following the deployment of mitigation strategies, population heat exposure values are consistently greater than contemporary values as one moves from higher- to lower-latitude CONUS cities. This latitudinal gradient, as noted for adaptation strategies, underscores the importance of increased population in quantifying the overall impact on exposure to extreme heat. End-of-century population heat exposure is nearly entirely offset for Northeastern and Midwest cities when dynamically downscaling both GCMs. Heat exposure remains ~20–40 times greater than the contemporary baseline across Southeast and Great Plains cities when dynamically downscaling the CESM GCM. Our results show that the simultaneous incorporation of both adaptation and mitigation strategies is projected to lead to population heat exposure values that are closer to the contemporary baseline for a broader collection of CONUS cities than either strategy in isolation (Fig. 2e,f). As noted previously, the GFDL-driven WRF simulations consistently indicate population heat exposure values closer to, or slightly below, the contemporary baseline. WRF simulations using the CESM GCM as a driver indicate lingering increases (generally less than 20 times) in heat exposure relative to the contemporary baseline in select locations (mostly across Southeast and Great Plains cities). Our results indicate a generally greater ability to reduce population heat exposure to extreme daytime temperatures than extreme night-time temperatures (Supplementary Fig. 2).\nOur results thus far emphasize the extent to which adaptation and mitigation strategies are able to revert to a contemporary baseline that resembles start-of-century conditions. However, it is also important to characterize the efficacy of such strategies in reducing projected (that is, end-of-century) person-hours relative to the warmer future baselines that urban environments are already on a path towards (Fig. 3). The percentage of end-of-century extreme person-hours avoided varies depending on the extreme heat threshold and strategy implemented (that is, adaptation, mitigation or both). As extreme heat thresholds increase, the percentage of avoided person-hours from implementation of adaptation and mitigation strategies also increases. The percentage of avoided person-hours is consistently greater for mitigation than adaptation strategies. For some regions and extreme heat thresholds the differences are substantial, underscoring the importance of curbing emissions of GHGs. As one example, for extreme heat thresholds between the 90th and 95th percentiles (that is, the 18th to 37th warmest days of the year), the percentage of avoided person-hours is less than 5% for Northeast urban areas when incorporating adaptation strategies, but closer to 30% when incorporating mitigation strategies. We note that this lower threshold of extreme heat (that is, 90th to 95th percentiles) is indicative of the increase in the number of hot hours during the shoulder seasons (that is, spring and fall) throughout CONUS cities (Supplementary Fig. 3). Our results demonstrate that mitigation is more effective than adaptation when the desired outcome is focused on the avoidance of person-hours, for both the CESM-driven and GFDL-driven WRF simulations. Differences in the absolute magnitude of reduction depend on the choice of dynamically downscaled GCM (Supplementary Fig. 4) and the magnitude of each strategy, roughly corresponding to a maximum adaptation scenario (Methods), and a large, but perhaps not maximum, mitigation scenario.\nThere is benefit in contextualizing results for individual cities to characterize the efficacy associated with contrasting heat-burden reducing strategies at a subregional level. Figure 4 illustrates the avoided person-hours due to adaptation versus mitigation for 47 cities across CONUS for WRF projections that dynamically downscale both GCMs considered. WRF projections using the GFDL GCM as a driver indicate a nearly one-to-one correspondence between avoided person-hours due to adaptation and mitigation strategies. However, not all cities follow this broad, linear best-fit generalization. For example, Denver (CO) shows a greater reduction in person-hours resulting from mitigation than adaptation strategies. Conversely, WRF projections using the CESM GCM as driver indicate that mitigation efforts are generally more effective (highlighting the greater sensitivity to GHG forcing compared with the GFDL GCM), in agreement with our assessment of urban areas within the context of entire NCA regions (Fig. 3). We underscore the importance of characterizing such results on the basis of individual urban environments as it paves the way for prioritizing strategies with identified impacts at the urban, rather than broader regional, scale.",
+            "cites": [],
+            "figures": [
+                "figure-4",
+                "figure-3",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Impacts across the diurnal cycle",
+            "text": "Our high-resolution simulation output over climate-length (that is, decadal scale) timescales appropriate for urban environments permits us to examine when in the diurnal cycle the greatest increase in extreme heat hours (that is, the total number of heat threshold exceedances at any given hour) occurs. Cities in the Southeast, Northeast and Great Plains South NCA regions are projected to experience the greatest increase in the 99th percentile of daytime maximum temperatures, with correspondingly lower exceedances for urban areas across other NCA regions (Supplementary Fig. 5). This result is consistent for WRF simulations driven by both the CESM and GFDL GCMs under a worst-case GHG emissions and urban development scenario. As before, exceedances are greater when the CESM GCM is used to drive WRF. Although the timing of occurrence peaks in the mid-afternoon hours for WRF simulations driven by both the CESM and GFDL GCMs, the temporal range of impacts extends from the morning to evening hours when the CESM GCM is used to drive WRF. Conversely, the timing of occurrence is restricted to the afternoon hours when the GFDL model is downscaled. These results are generally consistent with impacts during night-time hours: exceedances are greater when the CESM GCM is used to drive WRF and are greatest for cities in the Southeast, Northeast and Great Plains South NCA regions (Supplementary Fig. 6). Our results highlight the potential severity of future night-time heat across US cities, particularly in the east and south of the country.\nA critical question is how these impacts change across the diurnal cycle as a result of implementation of adaptation and mitigation strategies. WRF projections using the CESM GCM denote a broad reduction in extreme heat hours spanning the daytime portion of the diurnal cycle, from morning to evening hours, with peak reductions occurring during the mid-afternoon (Fig. 5). By comparison, WRF projections using the GFDL GCM indicate the reduction in extreme heat hours spans a narrower portion of the diurnal cycle and is generally restricted to a window spanning mid-morning to late afternoon hours. The greatest reductions in extreme heat hours are evident for urban areas located in the Southeast, Northeast and Great Plains South NCA regions, coinciding with those regions projected to undergo the greatest increase in person-hours. This result is consistent for both dynamically downscaled GCMs, although the magnitude of extreme heat hours offset is considerably greater when WRF projections dynamically downscale the CESM, rather than the GFDL GCM. Unlike the varying effects resulting from adaptation and mitigation noted during daytime hours, the change in the number and timing of extreme night-time heat hours is largely independent of the hour of the day, varying only between NCA regions (Supplementary Fig. 7).",
+            "cites": [],
+            "figures": [
+                "figure-5"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Our results indicate that climate change mitigation equivalent to the global shift from RCP 8.5 to 4.5 provides similar or greater reduction in daytime and night-time heat exposure than intensive application of local adaptation strategies for CONUS cities. We emphasize that there is variability in the overall magnitude of decrease in person-hours according to the GCM driver and regional context, underscoring the significance of uncertainty quantification to future projections of global change and the variation of future urban heat exposure across US cities. The overall impact resulting from simultaneous deployment is greater than the linear sum of adaptation and mitigation strategies in isolation, resulting in a superlinear reduction in person-hours for the lowest extreme heat thresholds (Fig. 6). As the extreme heat thresholds increase (that is, from the 90th to 99th percentile) the superlinear reduction in person-hours transitions to sublinear for cities across all NCA regions and for WRF simulations driven by both GCMs (Supplementary Fig. 8). This result is not directly translatable to the night-time reduction in person-hours as the night-time effect is correspondingly small for all but the most extreme heat thresholds examined here (that is, the 99th percentile; Supplementary Figs. 9 and 10). During night-time hours, the overall impact resulting from simultaneous deployment is broadly equal to the linear sum of adaptation and mitigation strategies deployed in isolation for the 99th percentile heat threshold when WRF simulations are driven by the CESM GCM (Supplementary Fig. 9); however, they are sublinear for the WRF simulations driven by the GFDL GCM (Supplementary Fig. 10).\nOur results bracket the maximum possible benefits derived from adaptation and mitigation solutions separately and in tandem. Such knowledge provides insights into optimizing (that is, adaptation or mitigation, or their combination) approaches and demonstrates the benefits of adaptation solutions that have direct place-based impacts as opposed to national-level GHG emission reduction pledges, which require international cooperation and are more difficult to achieve. Nonetheless, our results do not address questions associated with reduced benefits arising from partial deployment of these strategies. The deployment of adaptation strategies includes its own set of challenges and requires a coordinated approach at the scale of individual cities. The benefits accrued are local, and unlike mitigation do not depend on any level of adoption elsewhere. Partial deployment of adaptation and mitigation solutions could produce heat exposure reduction benefits that scale nonlinearly, as shown here for the lowest (superlinear) and highest (sublinear) extreme heat thresholds following complete deployment. Our documented nonlinear response to simultaneous deployment highlights the correspondingly greater change in efficacy of adaptation with increased extreme heat waves relative to mitigation. However, because mitigation is manifest as a reduction in the atmospheric concentration of GHGs that reduces the frequency and intensity of extreme heat waves, adaptation offers a reduced potential to act on extreme heat that is no longer occurring, as heat waves themselves have decreased in frequency and intensity. Therefore, under the most extreme heat waves the efficacy of adaptation when deployed simultaneously with mitigation reverts back to the reduced efficiency evident for the lowest heat threshold following individual deployment. Future research that identifies such nonlinear effects, with a particular focus on at-risk populations that are highly sensitive to extreme heat, is required.\nRecent high-resolution modeling simulations conducted with WRF show that needs-based deployment of cool roofs, as a biophysical adaptation, decreases heat inequity across Maricopa County, anchored by Phoenix, the fifth largest city in the USA20. The value of this work notwithstanding, there are several hurdles to clear before moving forward. First, spatially explicit identification of vulnerable communities is required and the development of such geospatial datasets is not straightforward, especially as the most vulnerable of these populations are difficult to track and often not a part of existing datasets (for example, the homeless population). Second, a coordinated set of CONUS-wide high-resolution (that is, convection-permitting) simulations that estimate the efficacy of a suite of biophysical adaptation strategies (both type and spatial extent of deployment), which vary across geographies, is necessary for local impact assessment. Third, the identification of a locally contextualized desired outcome, or outcomes, is a necessary element of any grouping of choices of adaptation strategies. Finally, the question of who bears responsibility for the protection of vulnerable citizens against extreme heat is receiving increasing levels of attention, but work so far has provided few material answers21,22. The problem of reducing the health risks of heat is as much a matter of (already available) resource(s) distribution as it is on further study of and raising educational awareness about the effects of extreme heat. Educating institutions to ensure appropriate and efficacious coordination that places resources in the hands of those most vulnerable is mandatory. What is necessary, ultimately, is that institutions (a topically related but altogether different focus than our work is the definition of what constitutes ‘participating and actively cooperating institutions’) become responsive to community needs. For example, the provision of weatherization and energy efficiency programs, and improved heat risk communication tools that are well correlated with heat-attributable mortality23 are merely starting points.\nObfuscating the existing focus on heat risk management is the notion that air temperature may not be the most appropriate metric to use under some circumstances. Recent observational measurements indicate that the deployment of highly reflective road surfaces in two Los Angeles neighborhoods reduced near-surface air temperatures by 0.5 °C, thereby attaining the desired outcome associated with this adaptation strategy. However, measurements also revealed a substantial increase in the solar radiation load that a pedestrian would experience through a metric known as mean radiant temperature24. The mean radiant temperature metric is particularly advantageous over geographical locations where radiative load (that is, the enhanced receipt of solar radiation due to a high sun angle and clear skies) has a more important impact on physiological comfort than air temperature alone (for example, southwestern US cities and global conurbations across desert environments). Additional complexities arise when humidity levels are high25 and the incorporation of distinct metrics such as the wet-bulb globe temperature, which also account for atmospheric moisture levels, is more appropriate. Ultimately, there remains a disconnect between the practitioner and stakeholder communities, and the urban climate modeling community, the latter of which is best suited to examine impacts associated with what-if scenarios that quantify the efficacy of proposed solutions. Improved engagement between academic and philanthropic organizations and, critically, elected (and non-elected) officials and appropriate stakeholders is required. The development of strategically coordinated frameworks that include the spectrum of these aforementioned actors can guide meaningful prioritization and incorporation of solutions that are targeted on those communities that require greatest assistance.\nOur regional climate modeling results demonstrate that while mitigation strategies may be able to reduce heat exposure to extreme air temperatures more than adaptation strategies, the potential benefits to cities that act now via the deployment of adaptation solutions are substantial. We show that end-of-century population heat exposure is nearly entirely offset for Northeastern and Midwest US cities when adaptation and mitigation strategies are deployed simultaneously, highlighting the regions where such efforts are likely to be most beneficial in terms of reducing future population exposure to extreme heat. Conversely, end-of-century population heat exposure is projected to remain greater than the contemporary baseline across Southeast and Great Plains US cities, underscoring the importance of additional measures to buttress heat-related risks. Our work also points to the need for improved understanding of the conditions that favor one strategy over another. Finally, our results point to the need for future research focused on the synergistic assessment of adaptation and mitigation efforts, to highlight potentially beneficial outcomes when solutions are deployed in tandem, rather than in isolation, while also accounting for impacts from humidity, wind speed, variability in clothing and activity, and a range of demographic aspects that necessitate a more holistic assessment of potential societal impacts25,26,27,28.\nAs with any modeling study, our results are based on certain assumptions, including our dynamical downscaling of GCM simulation output from the CMIP5 archive. The next iteration of the extensive set of simulations performed here should make use of the CMIP Phase 6 generation of GCMs, thereby taking full advantage of improvements in the representation of large-scale climate conditions. In addition, our results are based on projections of urban expansion and population migration that are dependent on a host of demographic and methodological considerations29,30,31. The recent proliferation in future population projections highlights the uncertainty associated with the changing rates of fertility, mortality and the ever-shifting landscape of government policies (for example, health care) all of which have important roles in shaping the growth of future cities. Appropriate accounting for the variability in future urban boundary extent and type and population migration should be incorporated in regional climate simulations characterizing future exposure to extreme heat across end-of-century urban environments. Finally, we note that our simulations do not capture the full complexity of urban systems and the assumptions we have made are such that one cannot interpret our results to correspond to the neighborhood scale, but instead more broadly to the scale of a city itself.",
+            "cites": [
+                "ref-CR30",
+                "ref-CR25",
+                "ref-CR20",
+                "ref-CR24",
+                "ref-CR26",
+                "ref-CR22",
+                "ref-CR27",
+                "ref-CR28",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR21",
+                "ref-CR23"
+            ],
+            "figures": [
+                "figure-6"
+            ]
+        },
+        {
+            "title": "Methods",
+            "text": "We used 10-year WRF simulations to calculate the reduction in avoided person-hour exposure for end- (2090–2099) relative to start-of-century (2000–2009) US cities associated with adaptation and mitigation in isolation and in tandem. Our analysis is based on WRF (version 3.6, ref. 32) simulations that accounted for urban expansion and GHG emissions (see below) separately and in tandem33. The Advanced Research WRF was coupled to a single-layer urban canopy parameterization34 and was used to conduct 11 continuous decadal-scale simulations representing different GHG, urban development and adaptation scenarios in either contemporary climate (2000–2009) or end-of-century climate (2090–2099) for CONUS (Supplementary Table 1). The model domain was discretized with 310 grid cells in the east–west direction and 190 grid cells in the north–south direction, comprising a region extending from southern Canada to northern Mexico and from the eastern Pacific Ocean to the western Atlantic Ocean. Model output was written at a 3 h frequency, the horizontal grid spacing utilized was 20 km and 30 pressure levels were used to represent the vertical extent of the atmosphere, extending to the lower stratosphere. The detailed set of physics options used are provided in the supplementary methods of ref. 33.\nWe next describe our approach in representing contemporary and future urban environments. We represented start- and end-of-century CONUS urban classes using the Environmental Protection Agency’s Integrated Climate and Land-Use Scenarios (ICLUS) version 1.3.2, which contains scenarios of housing density changes to calculate impervious surface cover for the conterminous USA to the end of the century35,36. We utilized the 2090 A2 ICLUS scenario to represent urban expansion and densification through the end of the century, and ICLUS 2010 to represent contemporary urban classes. ICLUS-derived projections of housing density were aggregated into three urban land-use classes for ingestion into WRF. Further details on the mapping of ICLUS to WRF classes, and additional required urban parameters including anthropogenic heating, are detailed in ref. 33.\nWe initialized and forced our contemporary climate (2000–2009) simulations using the European Centre for Medium-Range Weather Forecasts ERA Interim reanalysis37. The baseline (that is, Control) simulation (2000–2009) against which future projections were compared has been extensively evaluated against a suite of temperature and precipitation observational products at city, regional and NCA scales18,33,38,39. The Control simulation demonstrated excellent agreement with available observations, and permitted us to explore the effects of adaptation and mitigation on the reduction of population heat exposure across twenty-first-century US cities.\nTo represent end-of-century climate, WRF simulations dynamically downscaled bias-corrected GCM output from the CESM CMIP5 ensemble member six for RCPs 4.5 and 8.5 (ref. 40; we note that there is no CMIP6 analog for this bias-corrected CESM dataset). RCP 8.5 assumes continuous and heavy use of fossil fuels to the end of the century, while RCP 4.5 represents considerable reductions in fossil fuel use with a corresponding decrease in global radiative forcing. We repeated end-of-century simulations with the GFDL Earth System Model 2M climate forcing41,42. This CMIP5 product is used to explore the sensitivity of regional and diurnal variations of heat exposure impacts to global climate projections. Further details of additional model options, including the sea surface temperature representation, land-based phenological representation of vegetation (for example, leaf area index), model spin-up and model configuration settings, are provided in ref. 33.\nThe adaptation strategy examined here includes a simultaneous combination of biophysical modifications that were uniformly applied to all built environments. In this fashion, our approach evaluated the maximum possible impact associated with infrastructure-based modification of cities, and included the following alterations: (1) the deployment of cool roofs to a maximum spectrally integrated albedo value of 0.88, as informed by several Environmental Protection Agency Energy Star products43; (2) the incorporation of green, or maximally evaporating, roofs under the assumption that water is not a limiting constraint; (3) the planting of street trees with a mean urban canyon leaf area index of 2.0 m2 m−2 and height distribution between 2.5 m and 7.5 m across streets of all urban classes. Further details of the incorporation of this comprehensive adaptation strategy are provided in ref. 33.\nWe emphasize that while our analysis is based on examination of CMIP5 (rather than CMIP6) data, we expect that repetition of these simulations with CMIP6 GCMs as drivers of our regional climate model experiments would not change the overall significance of our results. We highlight that the breadth of our modeling design, which produced roughly 100 Tb of data, precludes rapid replication. The robustness of our simulation results is demonstrated via a comprehensive model comparison to available observations, at multiple scales, for mean and extreme temperatures, and mean and extreme precipitation18,33,38, and would be difficult to replicate with CMIP6 forcing.\nFinally, we define extreme heat using locally defined (that is, specific for each city) contemporary (that is, 2000–2009) Nth percentile temperatures. Although the horizontal grid spacing of our model domain was 20 km, we derived a subgrid urban air temperature to assess local urban climate conditions unaffected by rural areas in the same grid cell. This innovation ensures that our urban temperatures correspond directly to the built environment33. Finally, our calculation of person-hours for each metropolitan region (defined here as a city) was based on projected end-of-century population growth. Further details are provided in the supplementary methods of ref. 18 (see Supplementary Fig. 1 for a map of the projected impervious fraction in the year 2100, which indicates bounding boxes that delineate urban grid squares with impervious fractions >0 to represent contiguous metropolitan regions of interest).\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR37",
+                "ref-CR34",
+                "ref-CR36",
+                "ref-CR35",
+                "ref-CR38",
+                "ref-CR40",
+                "ref-CR18",
+                "ref-CR41",
+                "ref-CR39",
+                "ref-CR42",
+                "ref-CR43",
+                "ref-CR33",
+                "ref-CR32"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: The absolute increase in average annual population heat exposure during the twenty-first century for a worst-case scenario of GHG-induced climate change, urban development and population growth.",
+            "figure-caption": "The projections are derived from dynamical downscaling of two independent GCMs (CESM and GFDL) with the WRF model. The increase in population heat exposure is calculated as 2090–2099 minus 2000–2009 person-hours. a–d, Population heat exposure is locally defined using the following definitions of extreme heat: 90th to <95th percentiles (a), 95th to <97.5th percentiles (b), 97.5th to <99th (c) and 99th (d) percentiles of the 15:00 air temperature (local time). Error bars show the annual variation in person-hours, expressed as ±1 s.d. of the spatial variability within the corresponding NCA region. Geographical designations correspond to NCA region definitions19.",
+            "figure-link": "https://www.nature.com/articles/s44284-023-00001-9/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: The relative change in annual population heat exposure during the twenty-first century for CESM and GFDL forcings from GHG mitigation and adaptation, separately and in tandem.",
+            "figure-caption": "a–f, The relative change in population heat exposure during during the twenty-first century for CESM (a,c,e) and GFDL (b,d,f) forcings with local adaptation (a,b), global GHG mitigation (a shift from Representative Concentration Pathway (RCP) 8.5 to RCP 4.5; c,d) and adaptation and mitigation (e,f). Person-hours are calculated on the basis of exposure to the locally defined start-of-century 99th percentile of the 15:00 air temperature (local time).",
+            "figure-link": "https://www.nature.com/articles/s44284-023-00001-9/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: End-of-century annual heat exposure avoided due to GHG mitigation and adaptation in a worst-case scenario.",
+            "figure-caption": "a–d, The percentage of end-of-century person-hours of heat exposure in a worst-case scenario (CESM RCP 8.5 GHG emissions and intensive urban development) avoided due to GHG mitigation (a shift from RCP 8.5 to RCP 4.5) and adaptation (Supplementary Table 1) for locally defined heat thresholds of the 90th to <95th (a), 95th to <97.5th (b), 97.5th to <99th (c) and 99th (d) percentiles of the 15:00 air temperature (local time).",
+            "figure-link": "https://www.nature.com/articles/s44284-023-00001-9/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: End-of-century person-hours avoided per year relative to a worst-case scenario for individual cities.",
+            "figure-caption": "The end-of-century person-hours (99th percentile of 15:00 (local time) air temperature) avoided per year relative to a worst-case scenario (RCP 8.5 GHG emissions and intensive urban development) due to adaptation (x axis) versus mitigation (y axis) for CESM (blue) and GFDL (orange) forcings. Note that axes are nonlinear.",
+            "figure-link": "https://www.nature.com/articles/s44284-023-00001-9/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Change in the number and timing of extreme heat hours per year due to adaptation and mitigation.",
+            "figure-caption": "Results from dynamically downscaled simulations using the CESM (top) and GFDL (bottom) GCMs. Extreme heat is defined as the 99th percentile of the 15:00 air temperature (local time) for the period 2000–2009. The x axes depict the hour of the day.",
+            "figure-link": "https://www.nature.com/articles/s44284-023-00001-9/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: Total end-of-century extreme heat person-hours avoided for a worst-case scenario due to GHG mitigation and adaptation.",
+            "figure-caption": "a–d, The total person-hours avoided for a worst-case scenario (CESM RCP 8.5 GHG emissions and intensive urban development) due to GHG mitigation (a shift from RCP 8.5 to RCP 4.5) and adaptation for locally defined heat thresholds of the 90th to <95th (a), 95th to <97.5th (b), 97.5th to <99th (c) and 99th (d) percentiles of 15:00 air temperature (local time). The error bars show the annual variation in person-hours expressed as ±1 s.d. of the spatial variability within the corresponding NCA region. Geographical designations correspond to NCA region definitions19.",
+            "figure-link": "https://www.nature.com/articles/s44284-023-00001-9/figures/6"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Bredeen, A. & Kwai, I. Wildfires, and a heat wave, sweep across Europe. The New York Times (16 July 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Ortega, R. P. Extreme temperatures in major Latin American cities could be linked to 1 million deaths. Science https://doi.org/10.1126/science.add7039 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Witze, A. Extreme heatwaves: surprising lessons from the record warmth. Nature https://doi.org/10.1038/d41586-022-02114-y (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Heating up. Nat. Clim. Change 12, 693 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "June ends with exceptional heat. WMO (30 June 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Isai, V. Heatwave spread fire that erased Canadian town. The New York Times (10 July 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Ebi, K. L. et al. Hot weather and heat extremes: health risks. Lancet 398, 698–708 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2821%2901208-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hot%20weather%20and%20heat%20extremes%3A%20health%20risks&journal=Lancet&doi=10.1016%2FS0140-6736%2821%2901208-3&volume=398&pages=698-708&publication_year=2021&author=Ebi%2CKL"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Tuholske, C. et al. Global urban population exposure to extreme heat. Proc. Natl Acad. Sci. USA 118, e2024792118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2024792118",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20urban%20population%20exposure%20to%20extreme%20heat&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2024792118&volume=118&publication_year=2021&author=Tuholske%2CC"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Georgescu, M., Morefield, P. E., Bierwagen, B. G. & Weaver, C. P. Urban adaptation can roll back warming of emerging megapolitan regions. Proc. Natl Acad. Sci. USA 111, 2909–2914 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1322280111",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20adaptation%20can%20roll%20back%20warming%20of%20emerging%20megapolitan%20regions&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1322280111&volume=111&pages=2909-2914&publication_year=2014&author=Georgescu%2CM&author=Morefield%2CPE&author=Bierwagen%2CBG&author=Weaver%2CCP"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Garshasbi, S. et al. Urban mitigation and building adaptation to minimize the future cooling energy needs. Sol. Energy 204, 708–719 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.solener.2020.04.089",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20mitigation%20and%20building%20adaptation%20to%20minimize%20the%20future%20cooling%20energy%20needs&journal=Sol.%20Energy&doi=10.1016%2Fj.solener.2020.04.089&volume=204&pages=708-719&publication_year=2020&author=Garshasbi%2CS"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Jay, O. et al. Reducing the health effects of hot weather and heat extremes: from personal cooling strategies to green cities. Lancet 398, 709–724 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2821%2901209-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Reducing%20the%20health%20effects%20of%20hot%20weather%20and%20heat%20extremes%3A%20from%20personal%20cooling%20strategies%20to%20green%20cities&journal=Lancet&doi=10.1016%2FS0140-6736%2821%2901209-5&volume=398&pages=709-724&publication_year=2021&author=Jay%2CO"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Hsu, A. et al. Performance determinants show European cities are delivering on climate mitigation. Nat. Clim. Change 10, 1015–1022 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-020-0879-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Performance%20determinants%20show%20European%20cities%20are%20delivering%20on%20climate%20mitigation&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-020-0879-9&volume=10&pages=1015-1022&publication_year=2020&author=Hsu%2CA"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Wong, N. H., Tan, C. L., Kolokotsa, D. D. & Takebayashi, H. Greenery as a mitigation and adaptation strategy to urban heat. Nat. Rev. Earth Environ. 2, 166–181 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs43017-020-00129-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Greenery%20as%20a%20mitigation%20and%20adaptation%20strategy%20to%20urban%20heat&journal=Nat.%20Rev.%20Earth%20Environ.&doi=10.1038%2Fs43017-020-00129-5&volume=2&pages=166-181&publication_year=2021&author=Wong%2CNH&author=Tan%2CCL&author=Kolokotsa%2CDD&author=Takebayashi%2CH"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Rosenzweig, C. et al. (eds) Climate Change and Cities: Second Assessment Report of the Urban Climate Change Research Network (Cambridge Univ. Press, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Hurlimann, A., Moosavi, S. & Browne, G. R. Urban planning policy must do more to integrate climate change adaptation and mitigation actions. Land Use Policy 101, 105188 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landusepol.2020.105188",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20planning%20policy%20must%20do%20more%20to%20integrate%20climate%20change%20adaptation%20and%20mitigation%20actions&journal=Land%20Use%20Policy&doi=10.1016%2Fj.landusepol.2020.105188&volume=101&publication_year=2021&author=Hurlimann%2CA&author=Moosavi%2CS&author=Browne%2CGR"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Dodman, D. et al. in Climate Change 2022: Impacts, Adaptation and Vulnerability (eds Pörtner, H.-O. et al.) 907–1040 (IPCC, Cambridge Univ. Press, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Sharifi, A. Co-benefits and synergies between urban climate change mitigation and adaptation measures: a literature review. Sci. Total Environ. 750, 141642 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.141642",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Co-benefits%20and%20synergies%20between%20urban%20climate%20change%20mitigation%20and%20adaptation%20measures%3A%20a%20literature%20review&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.141642&volume=750&publication_year=2021&author=Sharifi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Broadbent, A. M., Krayenhoff, E. S. & Georgescu, M. The motley drivers of heat and cold exposure in 21st century US cities. Proc. Natl Acad. Sci. USA 117, 21108–21117 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2005492117",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20motley%20drivers%20of%20heat%20and%20cold%20exposure%20in%2021st%20century%20US%20cities&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2005492117&volume=117&pages=21108-21117&publication_year=2020&author=Broadbent%2CAM&author=Krayenhoff%2CES&author=Georgescu%2CM"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Wuebbles, D. J., Fahey, D. W. & Hibbard, K. A. Climate Science Special Report: Fourth National Climate Assessment Vol. 1 (2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Broadbent, A. M., Declet-Barreto, J., Krayenhoff, E. S., Harlan, S. L. & Georgescu, M. Targeted implementation of cool roofs for equitable urban adaptation to extreme heat. Sci. Total Environ. 811, 151326 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2021.151326",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Targeted%20implementation%20of%20cool%20roofs%20for%20equitable%20urban%20adaptation%20to%20extreme%20heat&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2021.151326&volume=811&publication_year=2022&author=Broadbent%2CAM&author=Declet-Barreto%2CJ&author=Krayenhoff%2CES&author=Harlan%2CSL&author=Georgescu%2CM"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Mees, H. L., Driessen, P. P. & Runhaar, H. A. ‘Cool’ governance of a’ hot’ climate issue: public and private responsibilities for the protection of vulnerable citizens against extreme heat. Reg. Environ. Change 15, 1065–1079 (2015).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10113-014-0681-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=%E2%80%98Cool%E2%80%99%20governance%20of%20a%E2%80%99%20hot%E2%80%99%20climate%20issue%3A%20public%20and%20private%20responsibilities%20for%20the%20protection%20of%20vulnerable%20citizens%20against%20extreme%20heat&journal=Reg.%20Environ.%20Change&doi=10.1007%2Fs10113-014-0681-1&volume=15&pages=1065-1079&publication_year=2015&author=Mees%2CHL&author=Driessen%2CPP&author=Runhaar%2CHA"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Keith, L., Meerow, S., Hondula, D. M., Turner, V. K. & Arnott, J. C. Deploy heat officers, policies and metrics. Nature 598, 29–31 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fd41586-021-02677-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Deploy%20heat%20officers%2C%20policies%20and%20metrics&journal=Nature&doi=10.1038%2Fd41586-021-02677-2&volume=598&pages=29-31&publication_year=2021&author=Keith%2CL&author=Meerow%2CS&author=Hondula%2CDM&author=Turner%2CVK&author=Arnott%2CJC"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Hondula, D. M., Meltzer, S., Balling, R. C. Jr. & Iñiguez, P. Spatial analysis of United States National Weather Service excessive heat warnings and heat advisories. Bull. Am. Meteorol. Soc. 103, E2017–E2031 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20analysis%20of%20United%20States%20National%20Weather%20Service%20excessive%20heat%20warnings%20and%20heat%20advisories&journal=Bull.%20Am.%20Meteorol.%20Soc.&volume=103&pages=E2017-E2031&publication_year=2022&author=Hondula%2CDM&author=Meltzer%2CS&author=Balling%2CRCJr&author=I%C3%B1iguez%2CP"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Middel, A., Turner, V. K., Schneider, F. A., Zhang, Y. & Stiller, M. Solar reflective pavements—a policy panacea to heat mitigation? Environ. Res. Lett. 15, 064016 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Fab87d4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Solar%20reflective%20pavements%E2%80%94a%20policy%20panacea%20to%20heat%20mitigation%3F&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Fab87d4&volume=15&publication_year=2020&author=Middel%2CA&author=Turner%2CVK&author=Schneider%2CFA&author=Zhang%2CY&author=Stiller%2CM"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Chakraborty, T., Venter, Z. S., Qian, Y. & Lee, X. Lower urban humidity moderates outdoor heat stress. AGU Adv. 3, e2022AV000729 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2022AV000729",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Lower%20urban%20humidity%20moderates%20outdoor%20heat%20stress&journal=AGU%20Adv.&doi=10.1029%2F2022AV000729&volume=3&publication_year=2022&author=Chakraborty%2CT&author=Venter%2CZS&author=Qian%2CY&author=Lee%2CX"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Vanos, J. K., Baldwin, J. W., Jay, O. & Ebi, K. L. Simplicity lacks robustness when projecting heat-health outcomes in a changing climate. Nat. Commun. 11, 6079 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-020-19994-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Simplicity%20lacks%20robustness%20when%20projecting%20heat-health%20outcomes%20in%20a%20changing%20climate&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-020-19994-1&volume=11&publication_year=2020&author=Vanos%2CJK&author=Baldwin%2CJW&author=Jay%2CO&author=Ebi%2CKL"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Baldwin, J. W. et al. Humidity’s role in heat-related health outcomes: a heated debate. Environ. Health Perspect. 131, 055001 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1289%2FEHP11807",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Humidity%E2%80%99s%20role%20in%20heat-related%20health%20outcomes%3A%20a%20heated%20debate&journal=Environ.%20Health%20Perspect.&doi=10.1289%2FEHP11807&volume=131&publication_year=2023&author=Baldwin%2CJW"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Yang, J., Zhao, L. & Oleson, K. Large humidity effects on urban heat exposure and cooling challenges under climate change. Environ. Res. Lett. 18, 044024 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Facc475",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Large%20humidity%20effects%20on%20urban%20heat%20exposure%20and%20cooling%20challenges%20under%20climate%20change&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Facc475&volume=18&publication_year=2023&author=Yang%2CJ&author=Zhao%2CL&author=Oleson%2CK"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Lee, R. The outlook for population growth. Science 333, 569–573 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1208859",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20outlook%20for%20population%20growth&journal=Science&doi=10.1126%2Fscience.1208859&volume=333&pages=569-573&publication_year=2011&author=Lee%2CR"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Buettner, T. Urban estimates and projections at the United Nations: the strengths, weaknesses, and underpinnings of the world urbanization prospects. Spat. Demogr. 3, 91–108 (2015).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s40980-015-0004-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20estimates%20and%20projections%20at%20the%20United%20Nations%3A%20the%20strengths%2C%20weaknesses%2C%20and%20underpinnings%20of%20the%20world%20urbanization%20prospects&journal=Spat.%20Demogr.&doi=10.1007%2Fs40980-015-0004-2&volume=3&pages=91-108&publication_year=2015&author=Buettner%2CT"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Hauer, M. E. Population projections for US counties by age, sex, and race controlled to shared socioeconomic pathway. Sci. Data 6, 1–15 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsdata.2019.5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Population%20projections%20for%20US%20counties%20by%20age%2C%20sex%2C%20and%20race%20controlled%20to%20shared%20socioeconomic%20pathway&journal=Sci.%20Data&doi=10.1038%2Fsdata.2019.5&volume=6&pages=1-15&publication_year=2019&author=Hauer%2CME"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Skamarock, W. C. & Klemp, J. B. A time-split nonhydrostatic atmospheric model for weather research and forecasting applications. J. Comput. Phys. 227, 3465–3485 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jcp.2007.01.037",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20time-split%20nonhydrostatic%20atmospheric%20model%20for%20weather%20research%20and%20forecasting%20applications&journal=J.%20Comput.%20Phys.&doi=10.1016%2Fj.jcp.2007.01.037&volume=227&pages=3465-3485&publication_year=2008&author=Skamarock%2CWC&author=Klemp%2CJB"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Krayenhoff, E. S., Moustaoui, M., Broadbent, A. M., Gupta, V. & Georgescu, M. Diurnal interaction between urban expansion, climate change and adaptation in US cities. Nat. Clim. Change 8, 1097–1103 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-018-0320-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Diurnal%20interaction%20between%20urban%20expansion%2C%20climate%20change%20and%20adaptation%20in%20US%20cities&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-018-0320-9&volume=8&pages=1097-1103&publication_year=2018&author=Krayenhoff%2CES&author=Moustaoui%2CM&author=Broadbent%2CAM&author=Gupta%2CV&author=Georgescu%2CM"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Kusaka, H., Kondo, H., Kikegawa, Y. & Kimura, F. A simple single-layer urban canopy model for atmospheric models: comparison with multi-layer and slab models. Bound. Layer Meteorol. 101, 329–358 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1023%2FA%3A1019207923078",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20simple%20single-layer%20urban%20canopy%20model%20for%20atmospheric%20models%3A%20comparison%20with%20multi-layer%20and%20slab%20models&journal=Bound.%20Layer%20Meteorol.&doi=10.1023%2FA%3A1019207923078&volume=101&pages=329-358&publication_year=2001&author=Kusaka%2CH&author=Kondo%2CH&author=Kikegawa%2CY&author=Kimura%2CF"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Bierwagen, B. G. et al. National housing and impervious surface scenarios for integrated climate impact assessments. Proc. Natl Acad. Sci. USA 107, 20887–20892 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1002096107",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=National%20housing%20and%20impervious%20surface%20scenarios%20for%20integrated%20climate%20impact%20assessments&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1002096107&volume=107&pages=20887-20892&publication_year=2010&author=Bierwagen%2CBG"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "ICLUS Tools and Datasets v.1.3.2 (US Environmental Protection Agency, 2010); https://cfpub.epa.gov/ncea/global/recordisplay.cfm?deid=257306",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "ERA-Interim Project 2009 (Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory, accessed 29 November 2016); https://doi.org/10.5065/D6CR5RD9",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Georgescu, M., Broadbent, A. M., Wang, M., Krayenhoff, E. S. & Moustaoui, M. Precipitation response to climate change and urban development over the continental United States. Environ. Res. Lett. 16, 044001 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Ghanbari, M., Arabi, M., Georgescu, M. & Broadbent, A. M. The role of climate change and urban development on compound dry-hot extremes across US Cities. Nat. Commun. 14, 3509 (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Monaghan, A. J., Steinhoff, D. F., Bruyere, C. L. & Yates, D. NCAR CESM Global Bias-Corrected CMIP5 Output to Support WRF/MPAS Research 2014 (Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory, accessed 23 June 2016); https://doi.org/10.5065/D6DJ5CN4",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "CMIP5 Data Availability (Geophysical Fluid Dynamics Laboratory, accessed 4 November 2016); ftp://nomads.gfdl.noaa.gov/CMIP5",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Dunne, J. P. et al. GFDL’s ESM2 global coupled climate–carbon earth system models. Part I: physical formulation and baseline simulation characteristics. J. Clim. 25, 6646–6665 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1175%2FJCLI-D-11-00560.1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=GFDL%E2%80%99s%20ESM2%20global%20coupled%20climate%E2%80%93carbon%20earth%20system%20models.%20Part%20I%3A%20physical%20formulation%20and%20baseline%20simulation%20characteristics&journal=J.%20Clim.&doi=10.1175%2FJCLI-D-11-00560.1&volume=25&pages=6646-6665&publication_year=2012&author=Dunne%2CJP"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "ENERGY STAR Roof Product List (Energy Star, 2013); https://downloads.energystar.gov/bi/qplist/roofs_prod_list.pdf?8ddd-02cf",
+            "links": {}
+        }
+    ]
+}

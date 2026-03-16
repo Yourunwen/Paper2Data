@@ -1,0 +1,1076 @@
+{
+    "id": "s41599-025-05460-0",
+    "journal": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "title": "The impact of weather patterns on increasing violent crime and social cost in South Africa",
+    "legal_title": "The impact of weather patterns on increasing violent crime and social cost in South Africa",
+    "publish_time": "2025-07-16",
+    "pdf_link": "https://www.nature.com/articles/s41599-025-05460-0",
+    "storage_path": "./Articles/Humanities and Social Sciences Communications/2025-article/s41599-025-05460-0/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Crimes in South Africa are characterized by more violent crimes, more frequent in warm seasons, and more in Gauteng Province. We propose interpretable machine learning (IML) and multiple linear regression (MLR) algorithms to quantify the determinants of crime. From 2017 to 2023, the total number of crimes decreased by 974.8 cases per quarter, but violent crimes continued to increase (694.8 cases per quarter). Meteorological factors accounted for 64% of the contribution to violent crime, greater than that of property crime (44%). Notably, air temperature and precipitation may increase violent crime by 0.41% (95% CI: 0.38%, 0.44%) and 33% (95% CI: 31%, 34%) in the warm season. PM_{2.5} pollution leads to a 2.1% increase in violent-related crime, indicating a marginally significant impact on human activity. South Africa’s international homicide (IH), as a severe violent crime, reached the top in 2021 worldwide. Based on the IML, per capita income plays a leading role in IH. The social cost of IH reaches USD 838.49 million, with the climate-induced factor accounting for USD 503.09 million (60%). Despite differences in the economic and climatic contexts of Chicago’s urban crime data and Mexico’s crime records, the findings remain valid, revealing universal patterns of crime and the impact of climate change. We therefore recommend that economic development, together with the mitigation of climate and environmental pollution, can effectively reduce criminal activities and thus contribute to sustainable social development.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Public safety is critical in the concept of sustainable cities (Kourtit et al. 2021). Urban crime directly affects personal security and even poses social problems, notably in South Africa (Demombynes and Özler, 2005; Grabrucker and Grimm, 2018). Even violence and crime are the second leading drivers of death in South Africa (Seedat et al. 2009). Prior studies have concluded that crime is usually attributed to some socioeconomic and meteorological factors (Corcoran and Zahnow, 2022; Skudder et al. 2017; Rotaru et al. 2022). For instance, crimes are strongly associated with economic inequality, especially in developing areas with high Gini index and unemployment rate (Manea et al. 2023; Sviatschi and Trako, 2024). Recently, South Africa’s frequent extreme weather events (floods) have further fueled social unrest due to climate change (Baninla et al. 2022). Therefore, there is an urgent need to identify the anthropogenic and meteorological contributions to the high crime rate in South Africa and promote a sustainable city linking the climate and public safety.\nSocioeconomic factors are the primary determinants of crime. Traditionally, per capita income negatively correlates with crime rates (Gould et al. 2002). Poverty (mainly attributed to unemployment) and income inequality are also crucial (Lymperopoulou and Bannister, 2022), especially in areas with high agricultural employment (Enamorado et al. 2016). The Gini coefficient is a potent predictor of violent crime in countries with high economic inequality such as South Africa (Adeleye and Jamal, 2020). Inflation contributes to more crimes by reducing purchasing power and increasing financial stress (Adekoya and Abdul Razak, 2016). Unemployment affects crime through two opposing effects. One is the motivation effect, suggesting that unemployed individuals have a greater incentive to commit crimes. The other is the opportunity effect, i.e., a higher unemployment rate leads to less time spent at work and traveling, thus reducing the number of suitable targets and increasing the number of guardians (Phillips and Land, 2012). Additionally, utility gained from criminal activities can exceed that of legal activities in contexts of high unemployment and low income, thereby motivating criminal behavior (Becker, 1968). Education may lower crime rates by increasing wage rates, thereby increasing the opportunity cost of crime (Lochner, 2020).\nThe influence of meteorological factors on violent crime appears to be realized through economic and non-economic channels, with the non-economic channel being more critical (Blakeslee et al. 2021; Jiang et al. 2013). The routine activity theory and the heat-aggression hypothesis help to explain it (Choi et al. 2024; Cruz et al. 2023). More specifically, temperature or rainfall affects the chances of a crime by altering individual routine activity patterns, e.g., increasing outdoor activities, changing modes of transport, etc. (Blakeslee and Fishman (2013); Cruz et al. 2020). High temperatures trigger irritability and impulsivity in individuals, which in turn increases aggressive behavior and leads to more violent crime (Thomas et al. 2024). In the United States (Ranson, 2014), higher temperatures lead to more cases of violent crime, partly due to changes in alcohol consumption and time use patterns (Cohen and Gonzalez, 2024). Climate-induced crime even exhibits significant seasonality, with seasonal weather variations such as less rain and higher temperatures reducing the opportunity cost of crime (Skudder et al, 2017). Severe seasonal weather reduces agricultural productivity (Lesk et al. 2016), resulting in lower wages and higher unemployment for agricultural workers (Rotaru et al. 2022). In addition, the seasonality presented by robberies and rape offenses is associated with haze (Mares and Moffett (2016)), urban environments (Kim and Lee, 2023), wind speed (WS), wind direction (WD), and relative humidity (RH) (Shen et al. 2020).\nOther potential drivers of crime may be attributed to haze pollution and mental health. Environmental pollution, such as PM_{2.5} pollution, is usually a long-term concern with economic development. Specifically, the influence of PM_{2.5} emissions on crime is not fully verified. Herrnstadt et al. (2021) conclude that air pollution increases violent crime instead of property crime in Chicago from 2001 to 2012. On the contrary, the effect of haze on crime is negative because unfavorable weather increases the discomfort of offenders, who are more likely to flee unpleasant situations (Shen et al. 2020). Additionally, some of the latest studies link crime to mental health disorders (Halle et al. 2020). Access to mental healthcare might significantly reduce the likelihood of criminality among those with mental health histories (Jácome, 2020).\nMeasuring the social costs of crime is crucial for maintaining public safety, crime policymaking, etc. (Picasso and Grand, 2019). Existing literature summarizes the cost of each of the following crimes to describe the range of potential social costs, e.g., USD 5 million for murder, manslaughter, etc. (Cohen et al. 2004; McCollister et al. 2010), but this is a rough estimate (Ranson, 2014). In legal cases involving personal injury, the availability of Value of Statistical Life (VSL) allows the victim’s future economic contribution, quality of life, and other factors to contribute to the amount of compensation more reasonably reflecting the value of the victim’s life (Hoffmann et al. 2017; Picasso and Cohen, 2019). Nevertheless, the assumption of constant income or consumption over a lifetime ignores real-world fluctuations (e.g., income peaks in middle age), which may underestimate the VSL for younger populations (Hammitt and Robinson (2011)). VSL has mainly been applied in developed countries, with Masterman and Viscusi (2018) calibrating the US VSL to income levels to obtain VSLs for the rest of the world. Robinson et al. (2019) adjust for income levels and expected life expectancy to obtain an adjusted value of statistical life year (VSLY).\nMultiple linear regression (MLR) has been widely used to analyze environmental and anthropologic factors that can affect air quality and pollution levels (Liu and Wang, 2020). However, MLR is less efficient for big datasets due to its limited ability to handle complicated, non-linear relationships. Machine learning algorithms are effective substitutes that provide improved interpretability and performance (Backer and Billing, 2024). Specifically, interpretable machine learning (IML), such as the Shapley additive explanation (SHAP) method, has proven to be robustly interpretable in a wide range of situations. In particular, to clarify the effects of environmental factors on air quality, SHAP can be integrated with models like XGBoost (Extreme Gradient Boosting) (Wang et al. 2023; Hou et al. 2022). Therefore, the XGBoost-SHAP algorithm is applied to quantify and visualize the influence of meteorological factors on crime rates (Zhang et al. 2022).\nIn light of the above summary, there is a lack of quantitative research to reveal the impact of meteorological and anthropogenic factors on crime, notably climate-induced social costs. Our main contributions are quantifying the effect of climate-induced crime and its associated social cost. More specifically, this study aims to (1) quantify the meteorological and anthropogenic contributions to crime in South Africa, (2) reveal the influence of air temperature on violent crime, (3) reveal the influence of PM_{2.5} pollution on crime, (4) apply IML to quantify further and visualize the multiple drivers of violent crime, such as international homicide (IH), and (5) calculate the social cost of IH.",
+            "cites": [
+                "ref-CR22",
+                "ref-CR11",
+                "ref-CR38",
+                "ref-CR2",
+                "ref-CR15",
+                "ref-CR32",
+                "ref-CR35",
+                "ref-CR10",
+                "ref-CR63",
+                "ref-CR39",
+                "ref-CR3",
+                "ref-CR25",
+                "ref-CR61",
+                "ref-CR55",
+                "ref-CR40",
+                "ref-CR43",
+                "ref-CR46",
+                "ref-CR42",
+                "ref-CR16",
+                "ref-CR19",
+                "ref-CR21",
+                "ref-CR26",
+                "ref-CR17",
+                "ref-CR18",
+                "ref-CR31",
+                "ref-CR9",
+                "ref-CR57",
+                "ref-CR27",
+                "ref-CR65",
+                "ref-CR30",
+                "ref-CR48",
+                "ref-CR29",
+                "ref-CR51",
+                "ref-CR59",
+                "ref-CR14",
+                "ref-CR7",
+                "ref-CR44",
+                "ref-CR8",
+                "ref-CR34",
+                "ref-CR49",
+                "ref-CR45",
+                "ref-CR24",
+                "ref-CR37",
+                "ref-CR53",
+                "ref-CR67",
+                "ref-CR50",
+                "ref-CR52"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Materials and methods",
+            "text": "### Data resources\nThe Republic of South Africa (22°S-35°S, 17°E-33°E), located in the Southern Hemisphere, has been plagued by economic inequality. Besides, the quarterly crime statistics (2017-2023) are taken from the South Africa Police Service (SAPS). Hourly data for meteorological indexes including air temperature (°C), wind direction (degree), wind speed (m/s), precipitation (mm), and relative humidity (%) are taken from the Pretoria Airport from 1994 to 2021. The data of the Pretoria Airport can be seen on the R package named “worldmet”. The quarterly per capita GDP (rands) is taken from the Federal Reserve Bank of St. Louis. Quarterly export data (USD) can be collected from the China Entrepreneur Investment Club (CEIC). The yearly IH per 100,000 people, rate of population growth (%), unemployment rate (%), and life expectancy at birth (year) in South Africa are collected from the World Bank. Yearly PM_{2.5} emissions (μg/m^{3}) for South Africa are taken from the Atmospheric Components Analysis Group of Washington University in St. Louis.\nAccording to the SAPS, violent crimes include murder, sexual offenses, homicide, assault with the intent to inflict grievous bodily harm, common assault, common robbery, and robbery with aggravating circumstances. The violent-related crimes cover arson and malicious property damage. Property-related crimes include burglary at non-residential and residential premises, theft of motor vehicles and motorcycles, theft out of or from vehicles and motorcycles, and stock-theft. Other serious crimes include theft not mentioned elsewhere, commercial crime, and shoplifting.\n### Methods\n#### Multiple linear regression\nMany existing studies use MLR to quantify the meteorological and anthropogenic drivers of pollutants, namely ozone and PM2.5 pollution (Yao et al. 2024). In light of the influence of weather conditions on crime, MLR is employed to reveal the weather conditions and anthropogenic contributions to crime.\n\n$${{Crime}}_{j}=\\mathop{\\sum }\\limits_{i=1}^{5}{\\beta }_{i}{X}_{j}+{\\beta }_{o}+{e}_{j},\\left(i=1,2,..,5\\right)$$\n                    (1)\nwhere X denotes each meteorological factor, covering relative humidity, wind direction, wind speed, air temperature, and precipitation, \\(\\beta\\) denotes the regression coefficient, \\({\\beta } _{o}\\) is the intercept term, e_{j} is the residual, and j indicates each observation.\nThe residual in Eq. (1) is the component of the anomaly that cannot be explained by the MLR meteorological model but is defined as the anthropogenic effect of homicide. The anthropogenic-driven homicide (\\({{Crime}} _{a}\\)) can be expressed as Eq. (2).\n\n$${{Crime}}_{a}={{Crime}}_{j}-{{Crime}}_{m}$$\n                    (2)\nwhere \\({{Crime}} _{j}\\) indicates the observed homicide and \\(m\\) denotes the meteorological effect.\n#### Interpretable machine learning algorithms\n### Machine learning models\nIn this study, several machine learning models were applied to identify the impact of meteorological and anthropologic factors on criminal activities. Artificial Neural Network (ANN) has the potential to rapidly process information through massive parallel implementation, making it a promising choice for classification, clustering, and prediction tasks (Abiodun et al. 2018). Additionally, Multilayer Perceptron (MLP) is utilized as a powerful tool that applies supervised training procedures using data examples and known outputs to construct nonlinear prediction functions (Taud and Mas, 2018). Decision Trees (DT), a prevalent data mining technique for managing large datasets by segmenting them into branching structures, were utilized as the base classifier in the Gradient Boosting Machine (GBM) algorithm (Friedman, 2001). GBM build predictive models by iteratively adding weak learners (usually decision trees) and minimizing a variable loss function through gradient descent in the function space, thus improving prediction accuracy and interpretability. In each iteration, a new classifier is trained on the updated dataset, progressively reducing errors and enhancing the overall accuracy, particularly in imbalanced datasets (Sevinç, 2022). Advanced tree-based models, including the XGBoost, are selected for their efficiency in handling high-dimensional data and large-scale analysis (Chen and Guestrin, 2016). These models provide the foundation for applying the SHAP algorithm as the explainer.\n### Shapley additive explanation model\nThe SHAP algorithm can open the ‘black box’ of traditional machine learning models and improve the interpretability and accuracy of the models. As a result, SHAP is employed to reveal further the contribution of meteorological and non-meteorological factors in criminal activities. SHAP is a model-agnostic technique rooted in cooperative game theory, designed to compute an additive feature importance score for individual predictions while adhering to a set of well-defined properties (Lundberg and Lee, 2017). Moreover, tree SHAP is a variant optimized for tree-based models such as XGBoost. It can enhance the practical applicability of SHAP by efficiently calculating SHAP values and accurately capturing feature interactions, thereby offering valuable insights into both global and local model behaviors. The SHAP value of each determinant of crime cases can be expressed as Eq. (3) ~ (4).\n\n$${{Crime}}_{i}={{Crime}}_{i({base})}+\\mathop{\\sum }\\limits_{j=1}^{S}{shap}({x}_{i,j})$$\n                    (3)\n\n$${shap}\\left({x}_{i,j}\\right)=\\mathop{\\sum}\\limits _{M}\\frac{{|M|}!\\left(S-{|M|}-1\\right)!}{S!}({Crime}_{(M\\cup \\{{x}_{i,j}\\})}-{{Crime}}_{(M)})$$\n                    (4)\nwhere \\({{Crime}} _{i({base})}\\) is the expectancy-value of \\({{Crime}} _{i}\\), shap(\\({x} _{i,j})\\) denotes the value of the contribution of factor j to Crime_{i} at moment i, S denotes the set of all input indexes, x includes all meteorological (wind speed, wind direction, relative humidity, air temperature and precipitation) and non-meteorological factors (per capita GDP, unemployment rate, export, education level, population growth rate, life expectancy and PM_{2.5} pollution) related to crime, and M is the subset of features excluding factor j.\n#### The adjusted value of a statistical life year\nThe VSL is commonly used as a metric for assessing the economic cost of life. The VSL depicts variability across different countries, influenced by varying levels of social development. It represents the amount individuals are willing to pay for a marginal reduction in mortality risk. Notably, VSL does not represent the value of an individual’s life. It reflects the aggregated willingness to pay (WTP) within a population for minor reductions in mortality risk (Viscusi, 2018). Whereas the VSL estimates the monetary value of reducing the risk of death, the VSLY focuses on extending life by one year. Following the Global Fund, the VSLY can be derived for specific nations by calibrating the VSL of the United States. In converting VSL to VSLY, the remaining life expectancy is discounted to ensure consistency in the discounting of all health benefits and costs. This methodology allows the valuation of homicide deaths in relation to the remaining life expectancy associated with the counterfactual scenario of that death, that is, the length of life that individuals would have experienced had they not been victim to homicide. The adjusted VSLY can be expressed as Eq. (5) (Robinson et al. 2019).\n\n$${{VSLY}}_{{it}}=\\frac{\\left({VSL}_{{USA}}\\times {\\left(\\frac{{{GDP}}_{{it}}}{{{GDP}}_{{USA}}}\\right)}^{e}\\right)}{0.5\\times {LE}}$$\n                    (5)\nwhere VSL_{USA} refers to the VSL for the United States (Supplementary Fig. S1), \\({{GDP}} _{{it}}\\) denotes the purchasing power parity (PPP)-adjusted GDP per capita for other countries, including South Africa, \\({{GDP}} _{{USA}}\\) denotes the PPP-adjusted GDP per capita for the USA, LE represent the life expectancy at birth, the one-half LE denotes the discounted remaining LE from middle age, i denotes different countries, and t indicates the year ranging from 2008 to 2021. Besides, e is a conservative estimate of income elasticity set at 1.5, indicating that individuals with lower income levels are willing to allocate a smaller proportion of their income for a given increment of health risk reduction.",
+            "cites": [
+                "ref-CR41",
+                "ref-CR56",
+                "ref-CR23",
+                "ref-CR64",
+                "ref-CR1",
+                "ref-CR13",
+                "ref-CR62",
+                "ref-CR66",
+                "ref-CR52"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### The crime patterns in South Africa\nAccording to the SAPS, there are quarterly changes in the general crime rate from 2017 to 2023. Broadly, violent crimes are the most frequent, but violent-related offenses are the least frequent (Fig. 1C). Crime in South Africa first experienced an increase and then, after a decline during the epidemic, a rapid increase. The COVID-19 stay-at-home restrictions resulted in a sharp decrease in 2020 and 2022 (Nivette et al. 2021; Shepherd et al. 2021). The lockdown policy taken to prevent the spread of the virus requires social distancing, which also drastically reduces the incidence of criminal acts. It is worth noting that crime rates tend to be relatively high in the fourth quarter, possibly due to higher temperatures. The third quarter of 2022 reached the top, with 426,791 offenses. In comparison, the second quarter of 2020 is the minimum, with 350,519 offenses. Violent and violent-related crimes seem to have a more striking seasonality.\nFor the provincial distribution of crimes in South Africa in 2023, all provinces had the highest number of offenses in the fourth quarter, related to the warm season (Fig. 1B). Gauteng had the highest number of offenses, followed by KwaZulu-Natal and the Western Cape. Gauteng topped the list with 107,128 offenses in the fourth quarter. Conversely, the Northern Cape had the lowest number in the first quarter, with 10,530 offenses.\n### The meteorological and anthropogenic contributions to crime\n#### Quantifying the multiple drivers of crime by MLR\nAccording to the SAPS, the total number of crimes in South Africa experienced a decrease, with 974.8 cases per quarter from 2017 to 2023 (Table 1). The total reduction is primarily attributed to a decrease in property crime (1681.8 cases). However, violent crime shows an upward trend, with 694.8 cases. The results of regressions between crime patterns and meteorological factors are shown in Supplementary Table S1. Notably, violent crimes are strongly associated with weather conditions. MLR is committed to revealing the meteorological and anthropogenic trends of crimes in South Africa. The decomposition of total crime trends does not account for the heterogeneity between different types of crime. Specifically, meteorological conditions accounted for a higher proportion of violent crimes (64%), while human factors accounted for a higher proportion of property crimes (56%).\n#### The influence of temperature and PM_{2.5} on crime\nQuarterly data are applied to examine the effect of air temperature and precipitation on crime from 2017 to 2023. As they depict strong seasonality, a dummy variable (DV) is built. In the fourth and first seasons, DV is equal to 1. Otherwise, 0. For Table 2, the Poisson regression for violence-related crime performs best with the lowest AIC (Akaike Information Criterion). During the warm season, temperature and precipitation have a significant stimulating effect on crime frequency. When seasonal effects are not involved, precipitation has a non-significant effect on violent and property crime, and wind direction has a non-significant effect on violent crime. Still, all other variables are significant at the 0.1% level. The ADF (Augmented Dickey-Fuller) test is shown in Supplementary Table S2, and the model’s introduction is in the Supplementary Method A. The results show that temperature is the cause of Granger variation in crime rates.\nThis paper focuses on the impact of temperature and precipitation on crime during the warm season, as South Africa does not experience very high temperatures throughout the year. For every 1 °C increase in temperature during the warm season, violent crime increases by 0.41% (95% CI: 0.38%, 0.44%), violence-related crime increases by 0.40% (95% CI: 0.33%, 0.46%), but property crime decreases by 1.5% (95% CI: 1.49%, 1.56%). The impact of precipitation on crime appears to be masked by seasonality throughout the year. However, precipitation increases property, violent, and violence-related crime by 45% (95% CI: 43%, 47%), 33% (95% CI: 31%, 34%), and 9.6% (95% CI: 6.6%, 13%) in the warm season, respectively. Therefore, higher temperature and rainfall during the warm season can easily lead to flooding outbreaks, which are likely to cause social disruption. The SAPS should intensify its deployment to maintain public order and create a safe society.\nSouth Africa suffers from slight haze pollution (Supplementary Fig. S2). For every unit increase in PM_{2.5} pollution, violent-related crime increases by 2.1% (95% CI: −0.2%, 4.3%). However, other crime patterns are not significantly correlated with PM_{2.5} emissions (see Supplementary Table S3). Since overall crime has been on a downward trend since 2014, the relationship between PM_{2.5} pollution, violent crime, and property crime, is not as entirely consistent as in the study by Herrnstadt et al. (2021). We can speculate that the positive relationship between property crime and pollution is relatively strong. Temperature stimulates an increase in all crime types, while the seasonal effect is primarily associated with an increase in violent crime.\n### The multiple drivers and social cost of homicide\n#### The multiple drivers of homicide by data-driven models\nWe quantify the quarterly observed, meteorological, and anthropogenic trends of IH in South Africa from 1994-2021. Table 3 shows that meteorological conditions affect 60% of IH in South Africa (60%), while anthropogenic factors account for 40% of IH. The SHAP algorithm is further committed to quantifying the multiple drivers of homicide (Fig. 2). The evaluation metrics of ML techniques include mean average error (MAE), mean standard error (MSE), root mean standard error (RMSE), and the coefficient of determination (R^{2}), where the R^{2} is the primary metric. Compared to the other five machine learning algorithms, the XGBoost technique (R² = 0.96, MSE = 3.81, MAE = 1.68, and RMSE = 1.95) performs better and is therefore used as the explainer for SHAP (Supplementary Fig. S3). The models’ parameters are illustrated in Supplementary Table S4.\nThe results represent that per capita GDP plays a leading role in crime, followed by population growth rate, export, PM_{2.5} emissions, unemployment rate, education level, urbanization, and life expectancy (Fig. 3). Socio-economic factors contribute significantly to crime and the contribution is almost negative. IH increases as the level of urbanization increases. However, murder decreases when urbanization is too high, which may be related to income. On the contrary, the employment rate is positively associated with crime. For weather conditions, higher air temperature is the primary contributor to rising crime. Figure 3B-E illustrate partial dependent plots for significant factors affecting IH, other factors are shown in Supplementary Fig. S4.\n#### The social cost of homicide\nSouth Africa has the highest IH rate globally at 42 cases per 100,000 inhabitants in 2021 (Fig. 4). Other serious countries include Honduras (38.2 cases), Myanmar (28.4 cases), Mexico (28.2 cases), and Colombia (27.5 cases). The area around the Caribbean has more homicides, such as St. Lucia (39.0 cases). The IH rate of the USA is just 6.8 cases per 100,000 persons. However, the social cost of the USA reaches 6988.90 USD million, followed by Mexico (1946.13 USD million), Russia (1347.96 USD million) and South Africa (838.49 USD million).\nCompared with the US, South Africa’s VSLY is much lower since its economic development varies dramatically. The VSLY of South Africa’s homicide rises from 2008 to 2021, reaching the top in 2021 (Table 4). South Africa’s IH depicts a marked downward trend, where the weather contribution is 60%, based on MLR. Consistent with the social costs of crime, weather-induced social costs have also experienced incremental growth from USD 299.02 million in 2008 to USD 503.09 million.\n### Robustness test\n#### IHs in Mexico and Chicago\nTo demonstrate the generalizability of this paper’s MLR quantitative decomposition approach to the crime domain, this study applies the method to both Chicago as an urban case and Mexico as a national case. The three regions share similar characteristics with high population density, economic inequality, and inter-regional social unrest, which leads to crime (Campedelli et al. 2020; Demombynes and Özler, 2005). We use IHs for Mexico and Chicago from 1994 to 2021 to verify the impact of climatic factors. Table 3 illustrates that meteorological conditions affect 67% of IH in Mexico and 65% of IH in Chicago, similar to South Africa (60%), indicating the reliability of climate change effects on murder as a significant crime type. Cohen and Gonzalez (2024) find that daily temperatures are associated with changes in time use and higher alcohol consumption, triggering more crime in Mexico. Therefore, controlling alcohol consumption might reduce crime.\n#### Evidence from Chicago\nDue to the limited availability of data from South Africa and the importance of crime in urban studies, the study verifies the results from an urban perspective using the data-rich case of Chicago. The total number of crime cases in Chicago is 262,280 in 2023, where property crimes are more than violent crimes (Supplementary Fig. S6). Noticeably, there are more crimes in Chicago’s coastal and central areas (Fig. 5).\nMoran’s I (Supplementary Method B) is proposed to examine the spatial autocorrelation of urban crime (Zhuo et al. 2024). The Global Moran’s I reaches 0.21 (p-value < 0.01), indicating a positive spatial correlation. We also use Local Moran’s I to develop a clustering analysis that reflects the geographical variation in crime. High-high clusters are concentrated near the eastern border and center of Chicago (Fig. 5B), and low-low clusters are located in the southwest and northwest parts. The number of crime incidents in these areas is significantly and positively correlated with the number of crime incidents in the neighboring areas, i.e., they positively impact the neighboring areas. High-low anomalies are located in the periphery of Chicago’s high-high clusters and are concentrated in relatively large numbers in the community border areas. Low-high anomalies are primarily located around low-low clusters in Chicago. The number of crimes in these squares is negatively correlated with the number of crimes in the surrounding area, indicating that they harm the surrounding area.\nChicago has more haze pollution than South Africa, presenting strong seasonality (Supplementary Fig. S7). PM_{2.5} concentrations are higher during the warm season and are more strongly associated with sea breezes (Supplementary Fig. S8). Poisson regression is employed to reveal the influence of PM_{2.5} emissions on crime at the daily level from 2014-2023. In a set of generalized linear models, we control for potential confounders such as temperature, public holidays, and year effects (Table 5). Results present that crime in Chicago is decreasing slightly. Crime rises by 0.08% (95% CI: 0.06%, 0.1%) and 0.40% (95% CI: 0.4%, 0.41%), if PM_{2.5} pollution and air temperature increase by one unit, respectively. Besides, the holiday effect is more significant. Crime is expected to rise by 14% (95% CI: 12%, 15%) during the holidays.\nSince total crime has been on a downward trend since 2014, the relationship between PM_{2.5} pollution, violent crime, and property crime is not as entirely consistent as in the study by Herrnstadt et al. (2021). We can speculate that the positive relationship between property crime and pollution is relatively strong. Temperature stimulates an increase in all types of crime, while the seasonal effect has a significant impact on the frequency of violent crime. Violent crime increased by 29% during the holidays, while property crime decreased by 13%.\n### Explanation of heterogeneity\n#### Differences in IHs among three regions\nA Least Squares Dummy Variable (LSDV) model (Supplementary Method C) is committed to revealing the significant heterogeneity in the impact of various meteorological factors between developed areas (Chicago), developing areas (South Africa), and emerging economies (Mexico). Specifically, Chicago experiences a lower baseline IH, while Mexico has a higher baseline IH than South Africa when controlling for other factors (Table 6). This suggests that unique regional characteristics, such as economic conditions and policing strategies, influence overall crime trends (Scheider et al. 2012).\nThe model with interaction terms indicates that WS, AT, and RH have different effects on IH in these three regions. The marginal effect of wind speed on IH is lower in Chicago compared to South Africa, but higher in Mexico than in South Africa. This difference may be attributed to the varying urban infrastructure and social behaviors in response to weather conditions. In Chicago, stronger winds might disrupt outdoor activities more significantly than South Africa (Hart et al. 2022). Conversely, Mexico’s harmful interaction with wind speed may reflect different infrastructure and social conditions that lessen wind’s impact on crime compared to South Africa. Additionally, IH is expected to increase more in South Africa compared to Chicago when the apparent temperature or relative humidity rises. This heterogeneity may result from different social contexts, such as varying levels of heat tolerance (Ankel-Peters et al. 2023) or residents’ source of income (Algahtany et al. 2022).\n#### Differences in nine provinces for South Africa\nFrom the perspective of the nine provinces in South Africa, Gauteng has a much higher level of urbanization than the other provinces, based on the density of nightlights (Supplementary Fig. S9). Therefore, in the dummy variable for the level of urbanization, only Gauteng takes the value of 1. In addition, South Africa is located at a higher altitude, and we set provinces with an altitude of more than 1 km to 1, and the others to 0. The results represent that provinces with an altitude higher than 1 km have a 41% reduction in violent crime and a 52% reduction in violence-related crime compared to those with a lower altitude (Table 7). In contrast, provinces with higher levels of urbanization have 157% more and 155% more violence-related crime than other provinces.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR68",
+                "ref-CR58",
+                "ref-CR5",
+                "ref-CR16",
+                "ref-CR21",
+                "ref-CR54",
+                "ref-CR29",
+                "ref-CR4",
+                "ref-CR47",
+                "ref-CR28"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-3",
+                "figure-5",
+                "figure-2",
+                "figure-4"
+            ]
+        },
+        {
+            "title": "Discussions",
+            "text": "This study deduces that weather conditions may contribute to about 64% of violent crime in South Africa. Air temperature and precipitation are expected to increase violent crime by 0.41% (95% CI: 0.38%, 0.44%) and 33% (95% CI: 31%, 34%) during warm seasons. For every unit increase in PM_{2.5} pollution, violent-related crime increases by 2.1% (95% CI: −0.2%, 4.3%). The social cost of weather-induced IH is 503.09 USD million in 2021, with weather patterns accounting for 60%. Finally, urban crime data from Chicago and homicide data from Mexico support the main findings of this study and further reveal the spatial aggregation of crime and the holiday effect, thus providing guidance for crime control policy in South Africa.\nAlthough the general crime rate in South Africa shows a downward trend (−974.8 cases per quarter), this is mainly due to a decline in property-related offenses (−1681.8 cases per quarter). Conversely, violent (694.8 cases) and violent crime-related (48.24 cases) offenses significantly increased. Based on MLR, the meteorological contribution to violent-related crime is as high as 80%, followed by violent crime (64%), other crime (47%), and property crime (44%). For meteorological factors, temperature does not strongly influence the total crime rate. Nonetheless, it significantly affects violence-related offenses and depicts a seasonal effect. During the warm season, temperature leads to a 0.40% (95% CI: 0.33%, 0.46%) increase in violent crime from 2017-2023. Precipitation results in a 33% (95% CI: 31%, 34%) increase in violent crime, and a 45% (95% CI: 43%, 47%) rise in property crime. The heat-aggression theory can explain the positive effect of temperature on crime. Nevertheless, South Africa’s precipitation defies the routine activity theory. It may be attributed to the fact that South Africa has experienced excessive precipitation and flooding in recent years, resulting in severe damage to the personal property of its citizens, thus triggering an excessive amount of property and violent crime. Provinces with high altitudes, such as Gauteng and North West Provinces, have lower temperatures, thus making their violent crime 41% lower than other provinces. For anthropogenic factors, PM_{2.5} pollution will increase violent-related crime by 2.1% (95% CI: −0.2%, 4.3%) from 2017-2022. Compared to the provinces, Gauteng’s high level of urbanization has resulted in 157% higher violent crime than other provinces with low levels of urbanization. Additionally, mental health disorders might be associated with crime in South Africa in 2021 (Supplementary Fig. S5).\nThere is limited research data for South Africa, and we apply daily crime data for Chicago from 2014 to 2023 to support our conclusions despite the economic and climatic differences between the two regions. In addition, crime is a classic ‘urban disease’, thus necessitating the selection of the city with the higher crime rate, i.e., Chicago. Significantly, Chicago’s urban crime results show that PM_{2.5} pollution leads to a 0.08% increase in crime, and temperature leads to a 0.40% increase in crime. More importantly, crime in Chicago presents spatial clustering and holiday effects. Governments or policymakers should prioritize areas where crime is clustered and increase the cost of crime in the altered area, thus reducing crime in that and surrounding areas and thus reducing overall crime. Additionally, security should be increased during holidays to improve public safety. These proposals provide an essential reference for the governance of crime in South Africa.\nIH is a very serious violent crime and has become one of the leading causes of death in South Africa. IML is committed to revealing the multiple drivers. The results of the XGBoost-SHAP technique show that socio-economic factors are far more crucial than weather conditions. Per capita income plays a dominant role in crime, and temperature is the primary meteorological factor. Compared with the U.S., the VSLY of South Africa is much lower, since their economic development varies dramatically. The VSLY of South Africa’s homicide rose from 2008 to 2021, reaching the top in 2021. The IHs of the USA are just 6.8 cases per 100,000 persons, however, the social cost of the USA (6988.90 USD million), followed by Mexico (1946.13 USD million), Russia (1347.96 USD million) and South Africa (838.49 USD million). It is noted that the social cost of climate-induced homicide is 503.09 USD million in 2021, highlighting the importance of mitigating climate change.\nThis study proposes novel data models to examine climate-induced crime in developing countries and its social costs, but it still has some limitations. First, due to the inaccessibility of data from South Africa, the research corroborates the South African findings with typical cases from Mexico and Chicago, USA. However, these three regions have immense economic and climatic differences, and some of the data are inconsistent on time scales, especially the VSL. Second, the study does not fully account for potential confounding factors that could influence the observed climate-crime relationship (Supplementary Fig. S10). For instance, localized policy adaptations, such as alcohol sales restrictions in the U.S. or targeted policing strategies, could simultaneously reduce crimes (Dau et al. 2023; Jennings et al. 2014). Similarly, abrupt economic shocks, such as price shocks in natural resources, may also impact crime rates (Axbard et al. 2021). Third, there remains a possibility of reverse causality. Specifically, high crime rates often trigger population out-migration from affected areas (Kirk & Laub, 2010). This population outflow often accelerates neighborhood deterioration, leading to abandoned properties and a decline in vegetation and green spaces, which together intensify urban heat island effects (Stone et al. 2010). Future research could explore the VSL for developing areas and use more refined data to uncover causal links between climate, policy, and crime.",
+            "cites": [
+                "ref-CR60",
+                "ref-CR33",
+                "ref-CR6",
+                "ref-CR20",
+                "ref-CR36"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Conclusion",
+            "text": "In summary, rising temperatures, extreme precipitation, and PM_{2.5} emissions are visible features of global climate change, positively contributing to crime, which affects up to 64% of violent crime. Combating climate change, reducing pollution alongside economic development, and reducing the income gap are essential for reducing crime and enhancing the sustainability of societies.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: The spatiotemporal patterns of crime for South Africa.",
+            "figure-caption": "Total crimes in 2023 (A), the quarterly crimes in its nine provinces in 2023 (B), and four crime patterns quarterly (C) between 2017 and 2023.",
+            "figure-link": "https://www.nature.com/articles/s41599-025-05460-0/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: The study framework of IML applied to crime’s determinants.",
+            "figure-caption": "Meteorological and anthropogenic factors are processed through data splitting (training set and testing set), modeled using DT, ANN, MLP, GBM, and XGBoost algorithms, interpreted by SHAP, and assessed for their contributions to crime determinants. Mental health factors are mainly explored in the Supplementary Material.",
+            "figure-link": "https://www.nature.com/articles/s41599-025-05460-0/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: The SHAP values of crime drivers.",
+            "figure-caption": "The partial dependent plots of pGDP (GDP per capita), PM_{2.5}, education, and air temperature. SHAP summary plot of all features (A). Partial dependence plots of pGDP (B), PM_{2.5} (C), education (D), and air temperature (E), respectively.",
+            "figure-link": "https://www.nature.com/articles/s41599-025-05460-0/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: The international homicide and its social cost across the world in 2021.",
+            "figure-caption": "The IH rate, measured as cases per 100,000 people (A). The estimated social cost of IH, measured in USD million (B).",
+            "figure-link": "https://www.nature.com/articles/s41599-025-05460-0/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: The distribution (160-meter grid) and cluster analysis of total crime for Chicago, the U.S. in 2023.",
+            "figure-caption": "Spatial distribution of total crime (A). Cluster analysis results of total crime (B). The distributions of the main four crime patterns, including violence (C), violence related (D), property (E), and other (F) crime.",
+            "figure-link": "https://www.nature.com/articles/s41599-025-05460-0/figures/5"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Abiodun OI, Jantan A, Omolara AE, Dada KV, Mohamed NA, Arshad H (2018) State-of-the-art in artificial neural network applications: A survey. Heliyon 4(11). https://doi.org/10.1016/j.heliyon.2018.e00938",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Adekoya AF, Abdul Razak NA (2016) Inflation, deterrence and crime: Evidence from Nigeria using bounds test approach. J Econ. Sustain Dev 7(18):23-32",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inflation%2C%20deterrence%20and%20crime%3A%20Evidence%20from%20Nigeria%20using%20bounds%20test%20approach.%20J%20Econ&journal=Sustain%20Dev&volume=7&issue=18&pages=23-32&publication_year=2016&author=Adekoya%2CAF&author=Abdul%20Razak%2CNA"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Adeleye N, Jamal A (2020) Dynamic analysis of violent crime and income inequality in Africa. Int J Econ Comm Manag 8(2):1-25",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dynamic%20analysis%20of%20violent%20crime%20and%20income%20inequality%20in%20Africa&journal=Int%20J%20Econ%20Comm%20Manag&volume=8&issue=2&pages=1-25&publication_year=2020&author=Adeleye%2CN&author=Jamal%2CA"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Algahtany M, Kumar L, Barclay E(2022) A tested method for assessing and predicting weather-crime associations. Environ Sci Pollut Res 29:75013-75030",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Ankel-Peters J, Bruederle A, Roberts G (2023) Weather and Crime-cautious evidence from South Africa. Q Open 3(1):qoac033",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fqopen%2Fqoac033",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Weather%20and%20Crime%E2%80%94cautious%20evidence%20from%20South%20Africa&journal=Q%20Open&doi=10.1093%2Fqopen%2Fqoac033&volume=3&issue=1&publication_year=2023&author=Ankel-Peters%2CJ&author=Bruederle%2CA&author=Roberts%2CG"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Axbard S, Benshaul-Tolonen A, Poulsen J (2021) Natural resource wealth and crime: The role of international price shocks and public policy. J Environ Econ Manag 110:102527",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jeem.2021.102527",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Natural%20resource%20wealth%20and%20crime%3A%20The%20role%20of%20international%20price%20shocks%20and%20public%20policy&journal=J%20Environ%20Econ%20Manag&doi=10.1016%2Fj.jeem.2021.102527&volume=110&publication_year=2021&author=Axbard%2CS&author=Benshaul-Tolonen%2CA&author=Poulsen%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Backer D, Billing T (2024) Forecasting the prevalence of child acute malnutrition using environmental and conflict conditions as leading indicators. World Dev 176:106484",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.worlddev.2023.106484",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Forecasting%20the%20prevalence%20of%20child%20acute%20malnutrition%20using%20environmental%20and%20conflict%20conditions%20as%20leading%20indicators&journal=World%20Dev&doi=10.1016%2Fj.worlddev.2023.106484&volume=176&publication_year=2024&author=Backer%2CD&author=Billing%2CT"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Baninla Y, et al. (2022) An overview of climate change adaptation and mitigation research in Africa. Front Clim 4. https://doi.org/10.3389/fclim.2022.976427",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Becker GS (1968) Crime and punishment: An economic approach. J Polit Econ 76(2):169-217",
+            "links": {
+                "Article": "https://doi.org/10.1086%2F259394",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Crime%20and%20punishment%3A%20An%20economic%20approach&journal=J%20Polit%20Econ&doi=10.1086%2F259394&volume=76&issue=2&pages=169-217&publication_year=1968&author=Becker%2CGS"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Blakeslee D, Chaurey R, Fishman R, Malghan D, Malik S (2021) In the heat of the moment: Economic and non-economic drivers of the weather-crime relationship. J Econ Behav Organ 192:832-856",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jebo.2021.11.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=In%20the%20heat%20of%20the%20moment%3A%20Economic%20and%20non-economic%20drivers%20of%20the%20weather-crime%20relationship&journal=J%20Econ%20Behav%20Organ&doi=10.1016%2Fj.jebo.2021.11.003&volume=192&pages=832-856&publication_year=2021&author=Blakeslee%2CD&author=Chaurey%2CR&author=Fishman%2CR&author=Malghan%2CD&author=Malik%2CS"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Blakeslee DS, Fishman R (2013) Rainfall shocks and property crimes in agrarian societies: Evidence from India. Available at SSRN 2208292",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Campedelli GM, Favarin S, Aziani A, Piquero AR (2020) Disentangling community-level changes in crime trends during the COVID-19 pandemic in Chicago. Crime Sci 9:1-18",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s40163-020-00131-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Disentangling%20community-level%20changes%20in%20crime%20trends%20during%20the%20COVID-19%20pandemic%20in%20Chicago&journal=Crime%20Sci&doi=10.1186%2Fs40163-020-00131-8&volume=9&pages=1-18&publication_year=2020&author=Campedelli%2CGM&author=Favarin%2CS&author=Aziani%2CA&author=Piquero%2CAR"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Chen T, Guestrin C (2016) Xgboost: A scalable tree boosting system. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 785-794. https://doi.org/10.1145/2939672.2939785",
+            "links": {}
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Choi HM, Heo S, Foo D, Song Y, Stewart R, Son J, Bell ML (2024) Temperature, crime, and violence: A systematic review and meta-analysis. Environ Health Perspect 132(10):106001",
+            "links": {
+                "Article": "https://doi.org/10.1289%2FEHP14300",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=39404825",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC11477092",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Temperature%2C%20crime%2C%20and%20violence%3A%20A%20systematic%20review%20and%20meta-analysis&journal=Environ%20Health%20Perspect&doi=10.1289%2FEHP14300&volume=132&issue=10&publication_year=2024&author=Choi%2CHM&author=Heo%2CS&author=Foo%2CD&author=Song%2CY&author=Stewart%2CR&author=Son%2CJ&author=Bell%2CML"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Cohen MA, Rust RT, Steen S, Tidd ST (2004) Willingness-to-pay for crime control programs. Criminology 42(1):89-110",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1745-9125.2004.tb00514.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Willingness-to-pay%20for%20crime%20control%20programs&journal=Criminology&doi=10.1111%2Fj.1745-9125.2004.tb00514.x&volume=42&issue=1&pages=89-110&publication_year=2004&author=Cohen%2CMA&author=Rust%2CRT&author=Steen%2CS&author=Tidd%2CST"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Cohen F, Gonzalez F (2024) Understanding the link between temperature and crime. Am Econ J Econ Policy 16(2):480-514",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Fpol.20220118",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20the%20link%20between%20temperature%20and%20crime&journal=Am%20Econ%20J%20Econ%20Policy&doi=10.1257%2Fpol.20220118&volume=16&issue=2&pages=480-514&publication_year=2024&author=Cohen%2CF&author=Gonzalez%2CF"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Corcoran J, Zahnow R (2022) Weather and crime: a systematic review of the empirical literature. Crime Sci 11(1):16",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s40163-022-00179-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Weather%20and%20crime%3A%20a%20systematic%20review%20of%20the%20empirical%20literature&journal=Crime%20Sci&doi=10.1186%2Fs40163-022-00179-8&volume=11&issue=1&publication_year=2022&author=Corcoran%2CJ&author=Zahnow%2CR"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Cruz AR, de Castro-Rodrigues A, Barbosa F (2020) Executive dysfunction, violence and aggression. Aggress Violent Behav 51:101380",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.avb.2020.101380",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Executive%20dysfunction%2C%20violence%20and%20aggression&journal=Aggress%20Violent%20Behav&doi=10.1016%2Fj.avb.2020.101380&volume=51&publication_year=2020&author=Cruz%2CAR&author=Castro-Rodrigues%2CA&author=Barbosa%2CF"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Cruz E, D’Alessio SJ, Stolzenberg L (2023) The effect of maximum daily temperature on outdoor violence. Crime Delinquency 69(6-7):1161-1182",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0011128720926119",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20maximum%20daily%20temperature%20on%20outdoor%20violence&journal=Crime%20Delinquency&doi=10.1177%2F0011128720926119&volume=69&issue=6-7&pages=1161-1182&publication_year=2023&author=Cruz%2CE&author=D%E2%80%99Alessio%2CSJ&author=Stolzenberg%2CL"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Dau PM, Vandeviver C, Dewinter M, Witlox F, Vander Beken T (2023) Policing directions: A systematic review on the effectiveness of police presence. Eur J Crim Policy Res 29(2):191-225",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10610-021-09500-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Policing%20directions%3A%20A%20systematic%20review%20on%20the%20effectiveness%20of%20police%20presence&journal=Eur%20J%20Crim%20Policy%20Res&doi=10.1007%2Fs10610-021-09500-8&volume=29&issue=2&pages=191-225&publication_year=2023&author=Dau%2CPM&author=Vandeviver%2CC&author=Dewinter%2CM&author=Witlox%2CF&author=Beken%2CT"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Demombynes G, Özler B (2005) Crime and local inequality in South Africa. J Dev Econ 76(2):265-292",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jdeveco.2003.12.015",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Crime%20and%20local%20inequality%20in%20South%20Africa&journal=J%20Dev%20Econ&doi=10.1016%2Fj.jdeveco.2003.12.015&volume=76&issue=2&pages=265-292&publication_year=2005&author=Demombynes%2CG&author=%C3%96zler%2CB"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Enamorado T, López-Calva LF, Rodríguez-Castelán C, Winkler H (2016) Income inequality and violent crime: Evidence from Mexico’s drug war. J Dev Econ 120:128-143",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jdeveco.2015.12.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Income%20inequality%20and%20violent%20crime%3A%20Evidence%20from%20Mexico%E2%80%99s%20drug%20war&journal=J%20Dev%20Econ&doi=10.1016%2Fj.jdeveco.2015.12.004&volume=120&pages=128-143&publication_year=2016&author=Enamorado%2CT&author=L%C3%B3pez-Calva%2CLF&author=Rodr%C3%ADguez-Castel%C3%A1n%2CC&author=Winkler%2CH"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Friedman JH (2001) Greedy function approximation: a gradient boosting machine. Ann Stat 1189-1232. https://doi.org/10.1214/aos/1013203451",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Gould ED, Weinberg BA, Mustard DB (2002) Crime rates and local labor market opportunities in the United States: 1979-1997. Rev Econ Stat 84(1):45-61",
+            "links": {
+                "Article": "https://doi.org/10.1162%2F003465302317331919",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Crime%20rates%20and%20local%20labor%20market%20opportunities%20in%20the%20United%20States%3A%201979%E2%80%931997&journal=Rev%20Econ%20Stat&doi=10.1162%2F003465302317331919&volume=84&issue=1&pages=45-61&publication_year=2002&author=Gould%2CED&author=Weinberg%2CBA&author=Mustard%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Grabrucker K, Grimm M (2018) Does crime deter South Africans from self-employment? J Comp Econ 46(2):413-435",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jce.2017.11.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20crime%20deter%20South%20Africans%20from%20self-employment%3F&journal=J%20Comp%20Econ&doi=10.1016%2Fj.jce.2017.11.003&volume=46&issue=2&pages=413-435&publication_year=2018&author=Grabrucker%2CK&author=Grimm%2CM"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Halle C, Tzani-Pepelasi C, Pylarinou NR, Fumagalli A (2020) The link between mental health, crime and violence. N. Ideas Psychol 58:100779",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.newideapsych.2020.100779",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20link%20between%20mental%20health%2C%20crime%20and%20violence&journal=N.%20Ideas%20Psychol&doi=10.1016%2Fj.newideapsych.2020.100779&volume=58&publication_year=2020&author=Halle%2CC&author=Tzani-Pepelasi%2CC&author=Pylarinou%2CNR&author=Fumagalli%2CA"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Hammitt JK, Robinson LA (2011) The income elasticity of the value per statistical life: transferring estimates between high and low income populations. J Benefit-Cost Anal 2(1). https://doi.org/10.2202/2152-2812.1009",
+            "links": {}
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Hart R, Pedersen W, Skardhamar T (2022) Blowing in the wind? Testing the effect of weather on the spatial distribution of crime using generalized additive models. Crime Sci 11:9",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s40163-022-00171-2",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=36211474",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC9525942",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Blowing%20in%20the%20wind%3F%20Testing%20the%20effect%20of%20weather%20on%20the%20spatial%20distribution%20of%20crime%20using%20generalized%20additive%20models&journal=Crime%20Sci&doi=10.1186%2Fs40163-022-00171-2&volume=11&publication_year=2022&author=Hart%2CR&author=Pedersen%2CW&author=Skardhamar%2CT"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Herrnstadt E, Heyes A, Muehlegger E, Saberian S (2021) Air pollution and criminal activity: Microgeographic evidence from Chicago. Am Econ J Appl Econ 13(4):70-100",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Fapp.20190091",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20pollution%20and%20criminal%20activity%3A%20Microgeographic%20evidence%20from%20Chicago&journal=Am%20Econ%20J%20Appl%20Econ&doi=10.1257%2Fapp.20190091&volume=13&issue=4&pages=70-100&publication_year=2021&author=Herrnstadt%2CE&author=Heyes%2CA&author=Muehlegger%2CE&author=Saberian%2CS"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Hoffmann S, Krupnick A, Qin P (2017) Building a set of internationally comparable value of statistical life studies: estimates of Chinese willingness to pay to reduce mortality risk. J Benefit-Cost Anal 8(2):251-289",
+            "links": {
+                "Article": "https://doi.org/10.1017%2Fbca.2017.16",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Building%20a%20set%20of%20internationally%20comparable%20value%20of%20statistical%20life%20studies%3A%20estimates%20of%20Chinese%20willingness%20to%20pay%20to%20reduce%20mortality%20risk&journal=J%20Benefit-Cost%20Anal&doi=10.1017%2Fbca.2017.16&volume=8&issue=2&pages=251-289&publication_year=2017&author=Hoffmann%2CS&author=Krupnick%2CA&author=Qin%2CP"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Hou L, Dai Q, Song C, Liu B, Guo F, Dai T, Feng Y (2022) Revealing drivers of haze pollution by explainable machine learning. Environ Sci Technol Lett 9(2):112-119",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.estlett.1c00865",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XitFegtA%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Revealing%20drivers%20of%20haze%20pollution%20by%20explainable%20machine%20learning&journal=Environ%20Sci%20Technol%20Lett&doi=10.1021%2Facs.estlett.1c00865&volume=9&issue=2&pages=112-119&publication_year=2022&author=Hou%2CL&author=Dai%2CQ&author=Song%2CC&author=Liu%2CB&author=Guo%2CF&author=Dai%2CT&author=Feng%2CY"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Jácome E (2020) Mental health and criminal involvement: Evidence from losing Medicaid eligibility. Job Market Paper, Princeton University",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Jennings JM, Milam AJ, Greiner A, Furr-Holden CDM, Curriero FC, Thornton RJ (2014) Neighborhood alcohol outlets and the association with violent crime in one mid-Atlantic city: the implications for zoning policy. J Urban Health 91:62-71",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11524-013-9821-z",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24002723",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighborhood%20alcohol%20outlets%20and%20the%20association%20with%20violent%20crime%20in%20one%20mid-Atlantic%20city%3A%20the%20implications%20for%20zoning%20policy&journal=J%20Urban%20Health&doi=10.1007%2Fs11524-013-9821-z&volume=91&pages=62-71&publication_year=2014&author=Jennings%2CJM&author=Milam%2CAJ&author=Greiner%2CA&author=Furr-Holden%2CCDM&author=Curriero%2CFC&author=Thornton%2CRJ"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Jiang S, Land KC, Wang J (2013) Social ties, collective efficacy and perceived neighborhood property crime in Guangzhou, China. Asian J Criminol 8:207-223",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11417-013-9167-1",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXitVSitrfL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20ties%2C%20collective%20efficacy%20and%20perceived%20neighborhood%20property%20crime%20in%20Guangzhou%2C%20China&journal=Asian%20J%20Criminol&doi=10.1007%2Fs11417-013-9167-1&volume=8&pages=207-223&publication_year=2013&author=Jiang%2CS&author=Land%2CKC&author=Wang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Kim S, Lee S (2023) Nonlinear relationships and interaction effects of an urban environment on crime incidence: Application of urban big data and an interpretable machine learning method. Sustain Cities Soc 91:104419",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2023.104419",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Nonlinear%20relationships%20and%20interaction%20effects%20of%20an%20urban%20environment%20on%20crime%20incidence%3A%20Application%20of%20urban%20big%20data%20and%20an%20interpretable%20machine%20learning%20method&journal=Sustain%20Cities%20Soc&doi=10.1016%2Fj.scs.2023.104419&volume=91&publication_year=2023&author=Kim%2CS&author=Lee%2CS"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Kirk DS, Laub JH (2010) Neighborhood change and crime in the modern metropolis. Crime Justice 39(1):441-502",
+            "links": {
+                "Article": "https://doi.org/10.1086%2F652788",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighborhood%20change%20and%20crime%20in%20the%20modern%20metropolis&journal=Crime%20Justice&doi=10.1086%2F652788&volume=39&issue=1&pages=441-502&publication_year=2010&author=Kirk%2CDS&author=Laub%2CJH"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Kourtit K, Nijkamp P, Wahlström MH (2021) How to make cities the home of people-a ‘soul and body’ analysis of urban attractiveness. Land Use Policy 111:104734",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landusepol.2020.104734",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20to%20make%20cities%20the%20home%20of%20people%E2%80%93a%20%E2%80%98soul%20and%20body%E2%80%99%20analysis%20of%20urban%20attractiveness&journal=Land%20Use%20Policy&doi=10.1016%2Fj.landusepol.2020.104734&volume=111&publication_year=2021&author=Kourtit%2CK&author=Nijkamp%2CP&author=Wahlstr%C3%B6m%2CMH"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Lesk C, Rowhani P, Ramankutty N (2016) Influence of extreme weather disasters on global crop production. Nature 529(7584):84-87",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature16467",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016Natur.529...84L",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28Xks1OgsA%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26738594",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Influence%20of%20extreme%20weather%20disasters%20on%20global%20crop%20production&journal=Nature&doi=10.1038%2Fnature16467&volume=529&issue=7584&pages=84-87&publication_year=2016&author=Lesk%2CC&author=Rowhani%2CP&author=Ramankutty%2CN"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Liu Y, Wang T (2020) Worsening urban ozone pollution in China from 2013 to 2017-Part 1: The complex and varying roles of meteorology. Atmos Chem Phys 20(11):6305-6321",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Facp-20-6305-2020",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020ACP....20.6305L",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXht1Glt7fI",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Worsening%20urban%20ozone%20pollution%20in%20China%20from%202013%20to%202017%E2%80%93Part%201%3A%20The%20complex%20and%20varying%20roles%20of%20meteorology&journal=Atmos%20Chem%20Phys&doi=10.5194%2Facp-20-6305-2020&volume=20&issue=11&pages=6305-6321&publication_year=2020&author=Liu%2CY&author=Wang%2CT"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Lochner L (2020) Education and crime. In: The economics of education. Academic Press, pp 109-117. https://doi.org/10.1016/B978-0-12-815391-8.00009-4",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Lundberg SM, Lee SI (2017) A unified approach to interpreting model predictions. Adv Neural Inf Process Syst 30. https://doi.org/10.48550/arXiv.1705.07874",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Lymperopoulou K, Bannister J (2022) The spatial reordering of poverty and crime: A study of Glasgow and Birmingham (United Kingdom), 2001/2 to 2015/16. Cities 130:103874",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cities.2022.103874",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20spatial%20reordering%20of%20poverty%20and%20crime%3A%20A%20study%20of%20Glasgow%20and%20Birmingham%20%28United%20Kingdom%29%2C%202001%2F2%20to%202015%2F16&journal=Cities&doi=10.1016%2Fj.cities.2022.103874&volume=130&publication_year=2022&author=Lymperopoulou%2CK&author=Bannister%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Manea RE, Piraino P, Viarengo M (2023) Crime, inequality and subsidized housing: Evidence from South Africa. World Dev 168:106243",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.worlddev.2023.106243",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Crime%2C%20inequality%20and%20subsidized%20housing%3A%20Evidence%20from%20South%20Africa&journal=World%20Dev&doi=10.1016%2Fj.worlddev.2023.106243&volume=168&publication_year=2023&author=Manea%2CRE&author=Piraino%2CP&author=Viarengo%2CM"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Mares DM, Moffett KW (2016) Climate change and interpersonal violence: a “global” estimate and regional inequities. Clim Change 135:297-310",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10584-015-1566-0",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016ClCh..135..297M",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20and%20interpersonal%20violence%3A%20a%20%E2%80%9Cglobal%E2%80%9D%20estimate%20and%20regional%20inequities&journal=Clim%20Change&doi=10.1007%2Fs10584-015-1566-0&volume=135&pages=297-310&publication_year=2016&author=Mares%2CDM&author=Moffett%2CKW"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Masterman CJ, Viscusi WK (2018) The income elasticity of global values of a statistical life: stated preference evidence. J Benefit-Cost Anal 9(3):407-434",
+            "links": {
+                "Article": "https://doi.org/10.1017%2Fbca.2018.20",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20income%20elasticity%20of%20global%20values%20of%20a%20statistical%20life%3A%20stated%20preference%20evidence&journal=J%20Benefit-Cost%20Anal&doi=10.1017%2Fbca.2018.20&volume=9&issue=3&pages=407-434&publication_year=2018&author=Masterman%2CCJ&author=Viscusi%2CWK"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "McCollister KE, French MT, Fang H (2010) The cost of crime to society: New crime-specific estimates for policy and program evaluation. Drug Alcohol Depend 108(1-2):98-109",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.drugalcdep.2009.12.002",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20071107",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835847",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20cost%20of%20crime%20to%20society%3A%20New%20crime-specific%20estimates%20for%20policy%20and%20program%20evaluation&journal=Drug%20Alcohol%20Depend&doi=10.1016%2Fj.drugalcdep.2009.12.002&volume=108&issue=1%E2%80%932&pages=98-109&publication_year=2010&author=McCollister%2CKE&author=French%2CMT&author=Fang%2CH"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Nivette AE, Zahnow R, Aguilar R, Ahven A, Amram S, Ariel B, Eisner MP (2021) A global analysis of the impact of COVID-19 stay-at-home restrictions on crime. Nat Hum Behav 5(7):868-877",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-021-01139-z",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34079096",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8298205",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20global%20analysis%20of%20the%20impact%20of%20COVID-19%20stay-at-home%20restrictions%20on%20crime&journal=Nat%20Hum%20Behav&doi=10.1038%2Fs41562-021-01139-z&volume=5&issue=7&pages=868-877&publication_year=2021&author=Nivette%2CAE&author=Zahnow%2CR&author=Aguilar%2CR&author=Ahven%2CA&author=Amram%2CS&author=Ariel%2CB&author=Eisner%2CMP"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Phillips J, Land KC (2012) The link between unemployment and crime rate fluctuations: An analysis at the county, state, and national levels. Soc Sci Res 41(3):681-694",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ssresearch.2012.01.001",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23017802",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20link%20between%20unemployment%20and%20crime%20rate%20fluctuations%3A%20An%20analysis%20at%20the%20county%2C%20state%2C%20and%20national%20levels&journal=Soc%20Sci%20Res&doi=10.1016%2Fj.ssresearch.2012.01.001&volume=41&issue=3&pages=681-694&publication_year=2012&author=Phillips%2CJ&author=Land%2CKC"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Picasso E, Cohen MA (2019) Valuing the public’s demand for crime prevention programs: A discrete choice experiment. J Exp Criminol 15:529-550",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11292-019-09378-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Valuing%20the%20public%E2%80%99s%20demand%20for%20crime%20prevention%20programs%3A%20A%20discrete%20choice%20experiment&journal=J%20Exp%20Criminol&doi=10.1007%2Fs11292-019-09378-x&volume=15&pages=529-550&publication_year=2019&author=Picasso%2CE&author=Cohen%2CMA"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Picasso E, Grand MC (2019) The value of the risk to life in the context of crime. J Benefit-Cost Anal 10(2):178-205",
+            "links": {
+                "Article": "https://doi.org/10.1017%2Fbca.2019.12",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20value%20of%20the%20risk%20to%20life%20in%20the%20context%20of%20crime&journal=J%20Benefit-Cost%20Anal&doi=10.1017%2Fbca.2019.12&volume=10&issue=2&pages=178-205&publication_year=2019&author=Picasso%2CE&author=Grand%2CMC"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Ranson M (2014) Crime, weather, and climate change. J Environ Econ Manag 67(3):274-302",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jeem.2013.11.008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Crime%2C%20weather%2C%20and%20climate%20change&journal=J%20Environ%20Econ%20Manag&doi=10.1016%2Fj.jeem.2013.11.008&volume=67&issue=3&pages=274-302&publication_year=2014&author=Ranson%2CM"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Robinson LA, Hammitt JK, O’Keeffe L (2019) Valuing mortality risk reductions in global benefit-cost analysis. J Benefit-Cost Anal 10(S1):15-50",
+            "links": {
+                "Article": "https://doi.org/10.1017%2Fbca.2018.26",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32968616",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7473065",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Valuing%20mortality%20risk%20reductions%20in%20global%20benefit-cost%20analysis&journal=J%20Benefit-Cost%20Anal&doi=10.1017%2Fbca.2018.26&volume=10&issue=S1&pages=15-50&publication_year=2019&author=Robinson%2CLA&author=Hammitt%2CJK&author=O%E2%80%99Keeffe%2CL"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Rotaru V, Huang Y, Li T, Evans J, Chattopadhyay I (2022) Event-level prediction of urban crime reveals a signature of enforcement bias in US cities. Nat Hum Behav 6(8):1056-1068",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-022-01372-0",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=35773401",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Event-level%20prediction%20of%20urban%20crime%20reveals%20a%20signature%20of%20enforcement%20bias%20in%20US%20cities&journal=Nat%20Hum%20Behav&doi=10.1038%2Fs41562-022-01372-0&volume=6&issue=8&pages=1056-1068&publication_year=2022&author=Rotaru%2CV&author=Huang%2CY&author=Li%2CT&author=Evans%2CJ&author=Chattopadhyay%2CI"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Scheider MC, Spence DL, Mansourian J (2012) The relationship between economic conditions, policing, and crime trends. US Department of Justice, Washington, DC",
+            "links": {}
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Seedat S, Scott KM, Angermeyer MC, Berglund P, Bromet EJ, Brugha TS, Kessler RC (2009) Cross-national associations between gender and mental disorders in the World Health Organization World Mental Health Surveys. Arch Gen Psychiatry 66(7):785-795",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Farchgenpsychiatry.2009.36",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19581570",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2810067",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cross-national%20associations%20between%20gender%20and%20mental%20disorders%20in%20the%20World%20Health%20Organization%20World%20Mental%20Health%20Surveys&journal=Arch%20Gen%20Psychiatry&doi=10.1001%2Farchgenpsychiatry.2009.36&volume=66&issue=7&pages=785-795&publication_year=2009&author=Seedat%2CS&author=Scott%2CKM&author=Angermeyer%2CMC&author=Berglund%2CP&author=Bromet%2CEJ&author=Brugha%2CTS&author=Kessler%2CRC"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Sevinç E (2022) An empowered AdaBoost algorithm implementation: A COVID-19 dataset study. Comput Ind Eng 165:107912",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cie.2021.107912",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=35013637",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8730510",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20empowered%20AdaBoost%20algorithm%20implementation%3A%20A%20COVID-19%20dataset%20study&journal=Comput%20Ind%20Eng&doi=10.1016%2Fj.cie.2021.107912&volume=165&publication_year=2022&author=Sevin%C3%A7%2CE"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Shen B, Hu X, Wu H (2020) Impacts of climate variations on crime rates in Beijing, China. Sci Total Environ 725:138190",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.138190",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXnvVequrY%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32464740",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impacts%20of%20climate%20variations%20on%20crime%20rates%20in%20Beijing%2C%20China&journal=Sci%20Total%20Environ&doi=10.1016%2Fj.scitotenv.2020.138190&volume=725&publication_year=2020&author=Shen%2CB&author=Hu%2CX&author=Wu%2CH"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Shepherd JP, Moore SC, Long A, Kollar LMM, Sumner SA (2021) Association between COVID-19 lockdown measures and emergency department visits for violence-related injuries in Cardiff, Wales. JAMA 325(9):885-887",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjama.2020.25511",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXlvFCisbg%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33651083",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7926284",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Association%20between%20COVID-19%20lockdown%20measures%20and%20emergency%20department%20visits%20for%20violence-related%20injuries%20in%20Cardiff%2C%20Wales&journal=JAMA&doi=10.1001%2Fjama.2020.25511&volume=325&issue=9&pages=885-887&publication_year=2021&author=Shepherd%2CJP&author=Moore%2CSC&author=Long%2CA&author=Kollar%2CLMM&author=Sumner%2CSA"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Skudder H, Druckman A, Cole J, McInnes A, Brunton-Smith I, Ansaloni GP (2017) Addressing the carbon-crime blind spot: A carbon footprint approach. J Ind Ecol 21(4):829-843",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fjiec.12457",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXht1OmsLvK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Addressing%20the%20carbon-crime%20blind%20spot%3A%20A%20carbon%20footprint%20approach&journal=J%20Ind%20Ecol&doi=10.1111%2Fjiec.12457&volume=21&issue=4&pages=829-843&publication_year=2017&author=Skudder%2CH&author=Druckman%2CA&author=Cole%2CJ&author=McInnes%2CA&author=Brunton-Smith%2CI&author=Ansaloni%2CGP"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Stone B, Hess JJ, Frumkin H (2010) Urban form and extreme heat events: are sprawling cities more vulnerable to climate change than compact cities? Environ Health Perspect 118(10):1425-1428",
+            "links": {
+                "Article": "https://doi.org/10.1289%2Fehp.0901879",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21114000",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2957923",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20form%20and%20extreme%20heat%20events%3A%20are%20sprawling%20cities%20more%20vulnerable%20to%20climate%20change%20than%20compact%20cities%3F&journal=Environ%20Health%20Perspect&doi=10.1289%2Fehp.0901879&volume=118&issue=10&pages=1425-1428&publication_year=2010&author=Stone%2CB&author=Hess%2CJJ&author=Frumkin%2CH"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Sviatschi MM, Trako I (2024) Gender violence, enforcement, and human capital: Evidence from women’s justice centers in Peru. J Dev Econ 168:103262",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jdeveco.2024.103262",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Gender%20violence%2C%20enforcement%2C%20and%20human%20capital%3A%20Evidence%20from%20women%E2%80%99s%20justice%20centers%20in%20Peru&journal=J%20Dev%20Econ&doi=10.1016%2Fj.jdeveco.2024.103262&volume=168&publication_year=2024&author=Sviatschi%2CMM&author=Trako%2CI"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Taud H, Mas JF (2018) Multilayer perceptron (MLP). In: Geomatic approaches for modeling land change scenarios. Springer, pp 451-455",
+            "links": {}
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Thomas C, Jeong J, Wolff KT (2024) Testing Routine Activity Theory: Behavioural pathways linking temperature to crime. Br J Criminol azae091",
+            "links": {}
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Viscusi W (2018) Pricing lives: Guideposts for a safer society. Princeton University Press, Princeton",
+            "links": {}
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Wang L, Zhao Y, Shi J, Ma J, Liu X, Han D, Huang T (2023) Predicting ozone formation in petrochemical industrialized Lanzhou city by interpretable ensemble machine learning. Environ Pollut 318:120798",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envpol.2022.120798",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XjtFSksr%2FI",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=36464118",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Predicting%20ozone%20formation%20in%20petrochemical%20industrialized%20Lanzhou%20city%20by%20interpretable%20ensemble%20machine%20learning&journal=Environ%20Pollut&doi=10.1016%2Fj.envpol.2022.120798&volume=318&publication_year=2023&author=Wang%2CL&author=Zhao%2CY&author=Shi%2CJ&author=Ma%2CJ&author=Liu%2CX&author=Han%2CD&author=Huang%2CT"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "Yao T, Lu S, Wang Y, Li X, Ye H, Duan Y, Li J (2024) Revealing the drivers of surface ozone pollution by explainable machine learning and satellite observations in Hangzhou Bay, China J Clean Prod 440:140938",
+            "links": {}
+        },
+        {
+            "id": "ref-CR67",
+            "content": "Zhang X, Liu L, Lan M, Song G, Xiao L, Chen J (2022) Interpretable machine learning models for crime prediction. Comput Environ Urban Syst 94:101789",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.compenvurbsys.2022.101789",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Interpretable%20machine%20learning%20models%20for%20crime%20prediction&journal=Comput%20Environ%20Urban%20Syst&doi=10.1016%2Fj.compenvurbsys.2022.101789&volume=94&publication_year=2022&author=Zhang%2CX&author=Liu%2CL&author=Lan%2CM&author=Song%2CG&author=Xiao%2CL&author=Chen%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR68",
+            "content": "Zhuo J, Hao M, Ding F, Dong J, Jiang D, Chen S (2024) The spatiotemporal patterns and driving factors of cybercrime in the UK during the COVID-19 pandemic. Humanit Soc Sci Commun 11(1):1-10",
+            "links": {
+                "Article": "https://doi.org/10.1057%2Fs41599-024-04051-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20spatiotemporal%20patterns%20and%20driving%20factors%20of%20cybercrime%20in%20the%20UK%20during%20the%20COVID-19%20pandemic&journal=Humanit%20Soc%20Sci%20Commun&doi=10.1057%2Fs41599-024-04051-9&volume=11&issue=1&pages=1-10&publication_year=2024&author=Zhuo%2CJ&author=Hao%2CM&author=Ding%2CF&author=Dong%2CJ&author=Jiang%2CD&author=Chen%2CS"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The quarterly crime statistics are publicly available at the South Africa Police Service (https://www.saps.gov.za/services/crimestats.php). Air temperature, wind direction, wind speed, precipitation, and relative humidity are taken from the R package named “worldmet” (https://github.com/openair-project/worldmet). The quarterly per capita GDP is taken from the Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/ZAFGDPNQDSMEI). Quarterly export data can be collected from the China Entrepreneur Investment Club (Available at: https://www.ceicdata.com/en/country/south-africa). The yearly international homicide rate, population growth rate, unemployment rate, and life expectancy at birth in South Africa are collected from the World Bank (https://data.worldbank.org/country/south-africa). Yearly PM_{2.5} emissions for South Africa are taken from the Atmospheric Components Analysis Group of Washington University in St. Louis (https://sites.wustl.edu/acag/datasets/surface-pm2-5/).",
+            "links": {
+                "https://www.saps.gov.za/services/crimestats.php": "https://www.saps.gov.za/services/crimestats.php",
+                "https://github.com/openair-project/worldmet": "https://github.com/openair-project/worldmet",
+                "https://fred.stlouisfed.org/series/ZAFGDPNQDSMEI": "https://fred.stlouisfed.org/series/ZAFGDPNQDSMEI",
+                "https://www.ceicdata.com/en/country/south-africa": "https://www.ceicdata.com/en/country/south-africa",
+                "https://data.worldbank.org/country/south-africa": "https://data.worldbank.org/country/south-africa",
+                "https://sites.wustl.edu/acag/datasets/surface-pm2-5/": "https://sites.wustl.edu/acag/datasets/surface-pm2-5/"
+            }
+        },
+        "Code availability": {
+            "content": "The codes generated in this study have been deposited in the following GitHub repository: https://github.com/KallenSivan/Crime-models-code.",
+            "links": {
+                "https://github.com/KallenSivan/Crime-models-code": "https://github.com/KallenSivan/Crime-models-code"
+            }
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsTianen YaoView author publicationsSearch author on:PubMedGoogle ScholarJinjia ZhangView author publicationsSearch author on:PubMedGoogle ScholarXinyu YangView author publicationsSearch author on:PubMedGoogle ScholarYida WangView author publicationsSearch author on:PubMedGoogle ScholarHuaixiao YeView author publicationsSearch author on:PubMedGoogle ScholarZhenyu ZhangView author publicationsSearch author on:PubMedGoogle ScholarMing XuView author publicationsSearch author on:PubMedGoogle Scholar\n### Contributions\nTY and MX conceived and designed the manuscript.TY, JZ, XY, YW, and HY did a literature search and downloaded the data. TY, JZ, and XY conducted the analysis and interpretation of the data; TY, JZ, XY, and MX drafted the manuscript. TY, JZ, XY, ZZ, and MX. improved this research and edited the manuscript. All authors read and approved the final version of the paper.\n### Corresponding author\nCorrespondence to Ming Xu.",
+            "links": {
+                "View author publications": "/search?author=Ming%20Xu",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Ming%20Xu",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Ming%20Xu%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Ming Xu": "mailto:xum2022@pku.edu.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.\n### Ethical approval\nThis article does not contain any studies with human participants performed by any of the authors.\n### Informed consent\nThis article does not contain any studies with human participants performed by any of the authors.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary materials",
+            "links": {
+                "Supplementary materials": "https://static-content.springer.com/esm/art%3A10.1057%2Fs41599-025-05460-0/MediaObjects/41599_2025_5460_MOESM1_ESM.docx"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by-nc-nd/4.0/": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=The%20impact%20of%20weather%20patterns%20on%20increasing%20violent%20crime%20and%20social%20cost%20in%20South%20Africa&author=Tianen%20Yao%20et%20al&contentID=10.1057%2Fs41599-025-05460-0&copyright=The%20Author%28s%29&publication=2662-9992&publicationDate=2025-07-16&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY-NC-ND"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleYao, T., Zhang, J., Yang, X. et al. The impact of weather patterns on increasing violent crime and social cost in South Africa. Humanit Soc Sci Commun 12, 1106 (2025). https://doi.org/10.1057/s41599-025-05460-0Download citationReceived:20 November 2024Accepted:26 June 2025Published:16 July 2025DOI:https://doi.org/10.1057/s41599-025-05460-0Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1057/s41599-025-05460-0?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "The impact of weather patterns on increasing violent crime and social cost in South Africa",
+                "description": "Crimes in South Africa are characterized by more violent crimes, more frequent in warm seasons, and more in Gauteng Province. We propose interpretable machine learning (IML) and multiple linear regression (MLR) algorithms to quantify the determinants of crime. From 2017 to 2023, the total number of crimes decreased by 974.8 cases per quarter, but violent crimes continued to increase (694.8 cases per quarter). Meteorological factors accounted for 64% of the contribution to violent crime, greater than that of property crime (44%). Notably, air temperature and precipitation may increase violent crime by 0.41% (95% CI: 0.38%, 0.44%) and 33% (95% CI: 31%, 34%) in the warm season. PM2.5 pollution leads to a 2.1% increase in violent-related crime, indicating a marginally significant impact on human activity. South Africa’s international homicide (IH), as a severe violent crime, reached the top in 2021 worldwide. Based on the IML, per capita income plays a leading role in IH. The social cost of IH reaches USD 838.49 million, with the climate-induced factor accounting for USD 503.09 million (60%). Despite differences in the economic and climatic contexts of Chicago’s urban crime data and Mexico’s crime records, the findings remain valid, revealing universal patterns of crime and the impact of climate change. We therefore recommend that economic development, together with the mitigation of climate and environmental pollution, can effectively reduce criminal activities and thus contribute to sustainable social development.",
+                "datePublished": "2025-07-16T00:00:00Z",
+                "dateModified": "2025-07-16T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "11",
+                "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "sameAs": "https://doi.org/10.1057/s41599-025-05460-0",
+                "keywords": [
+                    "Criminology",
+                    "Economics",
+                    "Geography",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-025-05460-0/MediaObjects/41599_2025_5460_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-025-05460-0/MediaObjects/41599_2025_5460_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-025-05460-0/MediaObjects/41599_2025_5460_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-025-05460-0/MediaObjects/41599_2025_5460_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-025-05460-0/MediaObjects/41599_2025_5460_Fig5_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Humanities and Social Sciences Communications",
+                    "issn": [
+                        "2662-9992"
+                    ],
+                    "volumeNumber": "12",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Palgrave Macmillan UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Tianen Yao",
+                        "affiliation": [
+                            {
+                                "name": "Peking University",
+                                "address": {
+                                    "name": "Peking University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jinjia Zhang",
+                        "affiliation": [
+                            {
+                                "name": "Peking University",
+                                "address": {
+                                    "name": "Peking University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Xinyu Yang",
+                        "affiliation": [
+                            {
+                                "name": "Peking University",
+                                "address": {
+                                    "name": "Peking University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yida Wang",
+                        "affiliation": [
+                            {
+                                "name": "University of Chicago",
+                                "address": {
+                                    "name": "University of Chicago, Chicago, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Huaixiao Ye",
+                        "affiliation": [
+                            {
+                                "name": "Peking University",
+                                "address": {
+                                    "name": "Peking University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Zhenyu Zhang",
+                        "affiliation": [
+                            {
+                                "name": "Peking University",
+                                "address": {
+                                    "name": "Peking University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Ming Xu",
+                        "affiliation": [
+                            {
+                                "name": "Peking University",
+                                "address": {
+                                    "name": "Peking University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "xum2022@pku.edu.cn",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "criminology;economics;geography",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Humanities and Social Sciences Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1057/s41599-025-05460-0"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Tianen Yao",
+                            "Jinjia Zhang",
+                            "Xinyu Yang",
+                            "Yida Wang",
+                            "Huaixiao Ye",
+                            "Zhenyu Zhang",
+                            "Ming Xu"
+                        ],
+                        "publishedAt": 1752624000,
+                        "publishedAtString": "2025-07-16",
+                        "title": "The impact of weather patterns on increasing violent crime and social cost in South Africa",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Criminology,Economics,Geography"
+                    },
+                    "journal": {
+                        "pcode": "palcomms",
+                        "title": "humanities and social sciences communications",
+                        "volume": "12",
+                        "issue": "1",
+                        "id": 41599,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "The impact of weather patterns on increasing violent crime and social cost in South Africa",
+            "dc.source": "Humanities and Social Sciences Communications 2025 12:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Palgrave",
+            "dc.date": "2025-07-16",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Crimes in South Africa are characterized by more violent crimes, more frequent in warm seasons, and more in Gauteng Province. We propose interpretable machine learning (IML) and multiple linear regression (MLR) algorithms to quantify the determinants of crime. From 2017 to 2023, the total number of crimes decreased by 974.8 cases per quarter, but violent crimes continued to increase (694.8 cases per quarter). Meteorological factors accounted for 64% of the contribution to violent crime, greater than that of property crime (44%). Notably, air temperature and precipitation may increase violent crime by 0.41% (95% CI: 0.38%, 0.44%) and 33% (95% CI: 31%, 34%) in the warm season. PM2.5 pollution leads to a 2.1% increase in violent-related crime, indicating a marginally significant impact on human activity. South Africa’s international homicide (IH), as a severe violent crime, reached the top in 2021 worldwide. Based on the IML, per capita income plays a leading role in IH. The social cost of IH reaches USD 838.49 million, with the climate-induced factor accounting for USD 503.09 million (60%). Despite differences in the economic and climatic contexts of Chicago’s urban crime data and Mexico’s crime records, the findings remain valid, revealing universal patterns of crime and the impact of climate change. We therefore recommend that economic development, together with the mitigation of climate and environmental pollution, can effectively reduce criminal activities and thus contribute to sustainable social development.",
+            "dc.identifier": "doi:10.1057/s41599-025-05460-0",
+            "dc.creator": "Xu, Ming",
+            "dc.subject": "Geography",
+            "prism.issn": "2662-9992",
+            "prism.publicationName": "Humanities and Social Sciences Communications",
+            "prism.publicationDate": "2025-07-16",
+            "prism.volume": "12",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "11",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41599-025-05460-0",
+            "prism.doi": "doi:10.1057/s41599-025-05460-0",
+            "citation_pdf_url": "https://www.nature.com/articles/s41599-025-05460-0.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41599-025-05460-0",
+            "citation_journal_title": "Humanities and Social Sciences Communications",
+            "citation_journal_abbrev": "Humanit Soc Sci Commun",
+            "citation_publisher": "Palgrave",
+            "citation_issn": "2662-9992",
+            "citation_title": "The impact of weather patterns on increasing violent crime and social cost in South Africa",
+            "citation_volume": "12",
+            "citation_issue": "1",
+            "citation_online_date": "2025/07/16",
+            "citation_firstpage": "1",
+            "citation_lastpage": "11",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1057/s41599-025-05460-0",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1057/s41599-025-05460-0&api_key=",
+            "citation_reference": "citation_journal_title=Humanit Soc Sci Commun; citation_title=The spatiotemporal patterns and driving factors of cybercrime in the UK during the COVID-19 pandemic; citation_author=J Zhuo, M Hao, F Ding, J Dong, D Jiang, S Chen; citation_volume=11; citation_issue=1; citation_publication_date=2024; citation_pages=1-10; citation_doi=10.1057/s41599-024-04051-9; citation_id=CR68",
+            "citation_author": "Xu, Ming",
+            "citation_author_institution": "Peking University, Beijing, China",
+            "description": "Crimes in South Africa are characterized by more violent crimes, more frequent in warm seasons, and more in Gauteng Province. We propose interpretable machine learning (IML) and multiple linear regression (MLR) algorithms to quantify the determinants of crime. From 2017 to 2023, the total number of crimes decreased by 974.8 cases per quarter, but violent crimes continued to increase (694.8 cases per quarter). Meteorological factors accounted for 64% of the contribution to violent crime, greater than that of property crime (44%). Notably, air temperature and precipitation may increase violent crime by 0.41% (95% CI: 0.38%, 0.44%) and 33% (95% CI: 31%, 34%) in the warm season. PM2.5 pollution leads to a 2.1% increase in violent-related crime, indicating a marginally significant impact on human activity. South Africa’s international homicide (IH), as a severe violent crime, reached the top in 2021 worldwide. Based on the IML, per capita income plays a leading role in IH. The social cost of IH reaches USD 838.49 million, with the climate-induced factor accounting for USD 503.09 million (60%). Despite differences in the economic and climatic contexts of Chicago’s urban crime data and Mexico’s crime records, the findings remain valid, revealing universal patterns of crime and the impact of climate change. We therefore recommend that economic development, together with the mitigation of climate and environmental pollution, can effectively reduce criminal activities and thus contribute to sustainable social development.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "The impact of weather patterns on increasing violent crime and social cost in South Africa",
+            "twitter:description": "Humanities and Social Sciences Communications - The impact of weather patterns on increasing violent crime and social cost in South Africa",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1057%2Fs41599-025-05460-0/MediaObjects/41599_2025_5460_Fig1_HTML.png",
+            "DOI": "10.1057/s41599-025-05460-0",
+            "size": "231632",
+            "journal_id": "41599"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41599-025-05460-0",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

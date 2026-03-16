@@ -1,0 +1,812 @@
+{
+    "id": "nclimate2022",
+    "journal": "Nature Climate Change",
+    "type": "article",
+    "title": "Attributing mortality from extreme temperatures to climate change in Stockholm, Sweden",
+    "legal_title": "Attributing mortality from extreme temperatures to climate change in Stockholm, Sweden",
+    "publish_time": "2013-10-20",
+    "pdf_link": "https://www.nature.com/articles/nclimate2022",
+    "storage_path": "./Articles/Nature Climate Change/2013-article/nclimate2022/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "A changing climate is increasing the frequency, intensity, duration and spatial extent of heat waves. These changes are associated with increased human mortality during heat extremes. At the other end of the temperature scale, it has been widely speculated that cold-related mortality could decrease in a warmer world. We aim to answer a key question; the extent to which mortality due to temperature extremes in Stockholm, Sweden during 1980–2009 can be attributed to climate change that has occurred since our reference period (1900–1929). Mortality from heat extremes in 1980–2009 was double what would have occurred without climate change. Although temperature shifted towards warmer temperatures in the winter season, cold extremes occurred more frequently, contributing to a small increase of mortality during the winter months. No evidence was found for adaptation over 1980–2009.",
+    "Extra_info": {
+        "Change history": {
+            "content": "",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "D.O.Å. would like to acknowledge the Umeå SIMSAM network for a travel grant.\nD.O.Å. is a Ph.D. candidate financially supported by a grant from The Swedish Council for Working Life and Social Research (FAS:2009-0454) awarded to B.F.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsDaniel Oudin ÅströmView author publicationsSearch author on:PubMed Google ScholarBertil ForsbergView author publicationsSearch author on:PubMed Google ScholarKristie L. EbiView author publicationsSearch author on:PubMed Google ScholarJoacim RocklövView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nD.O.Å. and J.R. conceived and designed the study. D.O.Å. collected and analysed the data and wrote the first version of the manuscript. B.F., K.L.E. and J.R. helped interpret data and results and write the manuscript.\n### Corresponding author\nCorrespondence to\n                Daniel Oudin Åström.",
+            "links": {
+                "View author publications": "/search?author=Joacim%20Rockl%C3%B6v",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Joacim%20Rockl%C3%B6v",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Joacim%20Rockl%C3%B6v%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Daniel Oudin Åström": "mailto:daniel.astrom@envmed.umu.se"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing financial interests.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary Information (PDF 334 kb)",
+            "links": {
+                "Supplementary Information (PDF 334 kb)": "https://static-content.springer.com/esm/art%3A10.1038%2Fnclimate2022/MediaObjects/41558_2013_BFnclimate2022_MOESM427_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Reprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Attributing%20mortality%20from%20extreme%20temperatures%20to%20climate%20change%20in%20Stockholm%2C%20Sweden&author=Daniel%20Oudin%20%C3%85str%C3%B6m%20et%20al&contentID=10.1038%2Fnclimate2022&copyright=Springer%20Nature%20Limited&publication=1758-678X&publicationDate=2013-10-20&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleOudin Åström, D., Forsberg, B., Ebi, K. et al. Attributing mortality from extreme temperatures to climate change in Stockholm, Sweden.\n                    Nature Clim Change 3, 1050–1054 (2013). https://doi.org/10.1038/nclimate2022Download citationReceived: 01 October 2012Accepted: 10 September 2013Published: 20 October 2013Issue date: December 2013DOI: https://doi.org/10.1038/nclimate2022Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/nclimate2022?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Attributing mortality from extreme temperatures to climate change in Stockholm, Sweden",
+                "description": "A changing climate is increasing the frequency, intensity, duration and spatial extent of heat waves. These changes are associated with increased human mortality during heat extremes. At the other end of the temperature scale, it has been widely speculated that cold-related mortality could decrease in a warmer world. We aim to answer a key question; the extent to which mortality due to temperature extremes in Stockholm, Sweden during 1980–2009 can be attributed to climate change that has occurred since our reference period (1900–1929). Mortality from heat extremes in 1980–2009 was double what would have occurred without climate change. Although temperature shifted towards warmer temperatures in the winter season, cold extremes occurred more frequently, contributing to a small increase of mortality during the winter months. No evidence was found for adaptation over 1980–2009. Climate extremes are on the increase. Research into mortality from extremes of heat in Stockholm now shows that during the period 1980–2009 mortality was double that likely to have occurred without climate change. Moreover, the frequency of cold extremes also increased slightly, despite higher average winter temperatures, contributing to a small increase in mortality during the winter months.",
+                "datePublished": "2013-10-20T00:00:00Z",
+                "dateModified": "2014-06-23T00:00:00Z",
+                "pageStart": "1050",
+                "pageEnd": "1054",
+                "sameAs": "https://doi.org/10.1038/nclimate2022",
+                "keywords": [
+                    "Attribution",
+                    "Environment",
+                    "general",
+                    "Climate Change",
+                    "Climate Change/Climate Change Impacts",
+                    "Environmental Law/Policy/Ecojustice"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fnclimate2022/MediaObjects/41558_2013_Article_BFnclimate2022_Fig1_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fnclimate2022/MediaObjects/41558_2013_Article_BFnclimate2022_Fig2_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fnclimate2022/MediaObjects/41558_2013_Article_BFnclimate2022_Fig3_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fnclimate2022/MediaObjects/41558_2013_Article_BFnclimate2022_Fig4_HTML.jpg"
+                ],
+                "isPartOf": {
+                    "name": "Nature Climate Change",
+                    "issn": [
+                        "1758-6798",
+                        "1758-678X"
+                    ],
+                    "volumeNumber": "3",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Daniel Oudin Åström",
+                        "affiliation": [
+                            {
+                                "name": "Umeå University, 901 87 Umeå",
+                                "address": {
+                                    "name": "Department of Public Health and Clinical Medicine, Division of Occupational and Environmental Medicine, Umeå University, 901 87 Umeå, Sweden",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "daniel.astrom@envmed.umu.se",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Bertil Forsberg",
+                        "affiliation": [
+                            {
+                                "name": "Umeå University, 901 87 Umeå",
+                                "address": {
+                                    "name": "Department of Public Health and Clinical Medicine, Division of Occupational and Environmental Medicine, Umeå University, 901 87 Umeå, Sweden",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Kristie L. Ebi",
+                        "affiliation": [
+                            {
+                                "name": "Umeå University, 901 87 Umeå",
+                                "address": {
+                                    "name": "Department of Public Health and Clinical Medicine, Division of Occupational and Environmental Medicine, Umeå University, 901 87 Umeå, Sweden",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Joacim Rocklöv",
+                        "affiliation": [
+                            {
+                                "name": "Umeå University, 901 87 Umeå",
+                                "address": {
+                                    "name": "Department of Public Health and Clinical Medicine, Division of Epidemiology and Global Health, Umeå University, 901 87 Umeå, Sweden",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "attribution",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Climate Change",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/nclimate2022"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Daniel Oudin Åström",
+                            "Bertil Forsberg",
+                            "Kristie L. Ebi",
+                            "Joacim Rocklöv"
+                        ],
+                        "publishedAt": 1382227200,
+                        "publishedAtString": "2013-10-20",
+                        "title": "Attributing mortality from extreme temperatures to climate change in Stockholm, Sweden",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Attribution"
+                    },
+                    "journal": {
+                        "pcode": "nclimate",
+                        "title": "nature climate change",
+                        "volume": "3",
+                        "issue": "12",
+                        "id": 41558,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Attributing mortality from extreme temperatures to climate change in Stockholm, Sweden",
+            "dc.source": "Nature Climate Change 2013 3:12",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2013-10-20",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2013 Springer Nature Limited",
+            "dc.rights": "2013 Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "A changing climate is increasing the frequency, intensity, duration and spatial extent of heat waves. These changes are associated with increased human mortality during heat extremes. At the other end of the temperature scale, it has been widely speculated that cold-related mortality could decrease in a warmer world. We aim to answer a key question; the extent to which mortality due to temperature extremes in Stockholm, Sweden during 1980–2009 can be attributed to climate change that has occurred since our reference period (1900–1929). Mortality from heat extremes in 1980–2009 was double what would have occurred without climate change. Although temperature shifted towards warmer temperatures in the winter season, cold extremes occurred more frequently, contributing to a small increase of mortality during the winter months. No evidence was found for adaptation over 1980–2009. Climate extremes are on the increase. Research into mortality from extremes of heat in Stockholm now shows that during the period 1980–2009 mortality was double that likely to have occurred without climate change. Moreover, the frequency of cold extremes also increased slightly, despite higher average winter temperatures, contributing to a small increase in mortality during the winter months.",
+            "dc.identifier": "doi:10.1038/nclimate2022",
+            "dc.creator": "Rocklöv, Joacim",
+            "dc.subject": "Attribution",
+            "prism.issn": "1758-6798",
+            "prism.publicationName": "Nature Climate Change",
+            "prism.publicationDate": "2013-10-20",
+            "prism.volume": "3",
+            "prism.number": "12",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1050",
+            "prism.endingPage": "1054",
+            "prism.copyright": "2013 Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/nclimate2022",
+            "prism.doi": "doi:10.1038/nclimate2022",
+            "citation_pdf_url": "https://www.nature.com/articles/nclimate2022.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/nclimate2022",
+            "citation_journal_title": "Nature Climate Change",
+            "citation_journal_abbrev": "Nature Clim Change",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "1758-6798",
+            "citation_title": "Attributing mortality from extreme temperatures to climate change in Stockholm, Sweden",
+            "citation_volume": "3",
+            "citation_issue": "12",
+            "citation_publication_date": "2013/12",
+            "citation_online_date": "2013/10/20",
+            "citation_firstpage": "1050",
+            "citation_lastpage": "1054",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/nclimate2022",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/nclimate2022&api_key=",
+            "citation_reference": "citation_journal_title=Epidemiology; citation_title=Models for the relationship between ambient temperature and daily mortality; citation_author=B Armstrong; citation_volume=17; citation_publication_date=2006; citation_pages=624-631; citation_doi=10.1097/01.ede.0000239732.50999.8f; citation_id=CR42",
+            "citation_author": "Rocklöv, Joacim",
+            "citation_author_institution": "Department of Public Health and Clinical Medicine, Division of Epidemiology and Global Health, Umeå University, 901 87 Umeå, Sweden",
+            "description": "A changing climate is increasing the frequency, intensity, duration and spatial extent of heat waves. These changes are associated with increased human mortality during heat extremes. At the other end of the temperature scale, it has been widely speculated that cold-related mortality could decrease in a warmer world. We aim to answer a key question; the extent to which mortality due to temperature extremes in Stockholm, Sweden during 1980–2009 can be attributed to climate change that has occurred since our reference period (1900–1929). Mortality from heat extremes in 1980–2009 was double what would have occurred without climate change. Although temperature shifted towards warmer temperatures in the winter season, cold extremes occurred more frequently, contributing to a small increase of mortality during the winter months. No evidence was found for adaptation over 1980–2009. Climate extremes are on the increase. Research into mortality from extremes of heat in Stockholm now shows that during the period 1980–2009 mortality was double that likely to have occurred without climate change. Moreover, the frequency of cold extremes also increased slightly, despite higher average winter temperatures, contributing to a small increase in mortality during the winter months.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Attributing mortality from extreme temperatures to climate change in Stockholm, Sweden",
+            "twitter:description": "Nature Climate Change - Climate extremes are on the increase. Research into mortality from extremes of heat in Stockholm now shows that during the period 1980–2009 mortality was double that...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnclimate2022/MediaObjects/41558_2013_Article_BFnclimate2022_Fig1_HTML.jpg",
+            "DOI": "10.1038/nclimate2022",
+            "size": "101796",
+            "journal_id": "41558"
+        },
+        "canonical_url": "https://www.nature.com/articles/nclimate2022",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Climate change has increased the frequency, intensity, duration and spatial extent of some extreme weather events, particularly heat waves, with further increases projected1. The numbers of more persistent and more severe heat waves are increasing faster than the number of days with extreme temperatures2. During the summer of 2012, many parts of the globe experienced extreme heat waves, resulting in an all-time record of globally averaged land surface temperature for June–August3. The increase in the number of extreme temperature events is further illustrated by heat waves in Europe in 2003, 2007 and 2010, with the 2010 event surpassing the 2003 heat wave in terms of temperature and spatial extent4. Temperatures in 2010 broke twentieth and twenty-first century records, with an 80% probability the record heat would not have occurred without climate change5.\nAll temperature-related mortality is potentially preventable, making mortality during extreme temperature events a public health concern. Extreme heat is well recognized to adversely affect human health and performance, with potentially fatal consequences6. The negative effects of heat and heat waves on human health cover the spectra from relatively mild symptoms such as heat syncope and fainting to more serious effects such as cramps, heat exhaustion and heat stroke7. When exposed to high ambient temperatures, the human body attempts to regulate its interior temperature by increasing perspiration and by increasing heart rate and cardiac output to redistribute blood to the skin, where heat is dissipated8.\nCold extremes are also associated with adverse impacts on human health. Mortality due to cold is mainly attributed to arterial thrombosis due to cold-induced haemo-concentration and hypertension, and to respiratory disease attributable to infectious disease9,10.\nIt has been proposed that reductions in cold-related mortality may partially compensate for the additional burden of heat-related mortality projected with climate change11. Although there is a physiological basis for increased cardiovascular and respiratory disease mortality during winter months, the limited evidence does not suggest a significant shift in the balance of deaths between winters and summers because of lower cold-related mortality12.\nHuman adaptation to a changing climate can, over time, occur through changes in the body’s physiology and through behavioural and health system changes13,14,15. These changes are used to explain declining mortality from heat and cold extremes in historic registers13,16,17. However, the extent of physiological acclimatization cannot be easily separated from changes in population demographics and the built environment, and from the changing prevalence of susceptibility factors during the twentieth century18. Therefore, adaptation to past temperature changes may not be predictive of the ability of societies to adapt to future changes in the frequency, intensity and duration of heat waves, particularly when they are outside the range of common expectations.\nA key policy-relevant question is the extent to which changes in climate-sensitive morbidity and mortality can be attributed to historic climate change19. Factors contributing to this research gap include the complexity of attributing a temporal change within multiple drivers of health outcomes, and the lack of long-term quality health data. To help fill this gap, we determine the extent to which mortality related to temperature extremes in Stockholm, Sweden can be attributed to climate change across the twentieth century.\nUsing temperature data from the beginning of the twentieth century (1900–1929) in Stockholm, Sweden, we define extreme cold/heat events and then use these thresholds to calculate the number of extreme events in 1900–1929 and 1980–2009. The temperature distribution in 1900–1929 was used as the reference and we assumed constant exposure–response relationships. The population in 1980–2009 was used to show how changes in the occurrence of temperature extremes over the twentieth century affected mortality. Long-term temperature and recent health data sets allow us to attribute recent deaths from extreme cold and heat temperatures to observed climate change.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR12",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR18",
+                "ref-CR15",
+                "ref-CR7",
+                "ref-CR19"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "In central Stockholm, temperature distributions for the winter period (January, February and March) and summer period (June, July and August) shifted to warmer temperatures over the twentieth to twenty-first century. The 26-day moving average of daily mean temperatures warmed overall during the winter months (Fig. 1) in the period 1980–2009 compared with 1900–1929. As would be expected, cold extremes of the same intensity (or colder) continued to occur in 1980–2009. The total number of annual observations below the second percentile is roughly the same across the century, although the more recent period had more extremely cold days.\nThe distribution of the 2-day moving average of daily mean temperature during the summer months (Fig. 2) showed a positive shift, with more warmer days and heat extremes in 1980–2009 compared with 1900–1929.\nThese data were corrected for the effect of urbanization and the heat island effect20.\nSupplementary Fig. 1 shows the 26-day moving average of daily mean winter temperatures uncorrected for the effect of urbanization and the heat island effect. Substantial warming is present along with more cold extremes. Supplementary Fig. 2 shows the 2-day moving average of daily mean summer temperatures uncorrected for the effect of urbanization and the heat island effect. An even more substantial warming during the summer months can be detected compared with the corrected data.",
+            "cites": [
+                "ref-CR20"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Mortality risk during cold and heat",
+            "text": "Cold extremes were defined as days colder than the second percentile of the 26-day moving average of daily mean temperatures (lag0-25). Heat extremes were defined as days warmer than the 98th percentile of the 2-day moving average of daily mean temperatures (lag0-1). The second percentile for cold corresponds to temperatures below −6.3 °C and the 98th percentile for heat corresponds to temperatures above 19.6 °C. Using the temperature distribution during 1900–1929 as the reference period, Fig. 3 shows the number of temperature extremes occurring per decade over the century, into the twenty-first century. Supplementary Table 1 presents descriptive statistics for the periods 1900–1929 and 1980–2009.\nThe relative risks (RRs) of mortality from cold and heat extremes remained stable over the period 1980–2009 in a decade-by-decade comparison (β trend cold = 0.0063; 95% CI: −0.043, 0.056, β trend heat = 0.0077; 95% CI: −0.024, 0.039) adjusting for general time trends of mortality for the total population as well as for those 65 years of age and older (Fig. 4). Extreme cold, compared with normal winter days, significantly increased daily mortality by 5.6% (95% confidence interval (CI) 2.9%, 8.2%). There was a 4.6% (95% CI: 2.6%, 6.7%) increase in mortality for extreme heat compared with normal summer days. The estimates for adults 65 and older were consistently higher; for cold extremes there was a 6.8% increase in mortality (95% CI: 4.1%, 9.6%) and for hot extremes, there was a 5.5% (95% CI: 3.4%, 7.7%) increase in mortality. Supplementary Table 2 presents the results for different lags; the results are overall consistent.",
+            "cites": [],
+            "figures": [
+                "figure-4",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Adaptation to more frequent extremes",
+            "text": "To determine whether the number of temperature extremes affected the relative risks associated with cold or hot extreme temperatures (for example, whether adaptation occurred), the estimated annual RRs were regressed on the number of extremes occurring the same year. The ranges of extremes per year were 0–57 for cold extremes and 1–38 for hot extremes. The RR associated with cold extremes showed a slight and non-significant negative relationship with the number of cold extremes within each year (β# cold extremes = −0.0003; 95% CI: −0.0023, 0.0017). The relationship between the RR of mortality during a heat extreme and the number of heat extremes was weakly negative and non-significant (β# heat extremes = −0.0033; 95% CI: −0.0066, 0.00091).\nThese results suggest that significant short-term adaptation to more frequent cold and hot extremes in Stockholm did not occur during 1980–2009. This suggests that any new temperature extreme could cause the same magnitude of additional mortality independent of the number of such events occurring over a year. In addition, the overall relative risks associated with heat and cold extremes were stable between decades. We therefore conclude that any short-term adaptation to more frequent temperature extremes that occurred during the period 1980–2009 was probably too insignificant to reduce mortality, despite the sharp increase in the frequency of heat extremes (Fig. 3).",
+            "cites": [],
+            "figures": []
+        },
+        {
+            "title": "Attribution of mortality",
+            "text": "As mortality due to cold and heat extremes differs by age, cause of death21,22, and years of life lost23, results are presented separately for cold and heat.\nAdjusting for urbanization and the urban heat island effect, there were 220 cold extremes over the period 1900–1929 compared with 251 extremes in the period 1980–2009. The increase of 31 cold extremes in the past 30 years translated into 75 (95% CI: 40, 112) lives lost owing to more frequent cold extremes.\nThere was an increase in the number of heat extremes between 1900–1929 (220) and 1980–2009 (378). This increase, together with the shift in the 2-day moving average of daily mean temperatures, suggests that these excess extreme events occurred owing to climate change. This is consistent with recent conclusions about the impacts of climate change on the frequency and intensity of extreme weather and climate events1. On the basis of this increase, the number of deaths attributable to climate change over the past 30 years due to excess heat extremes in Stockholm is estimated to be 288 (95% CI: 161, 417).\nNot accounting for urbanization and the urban heat island effect would yield a net reduction of 12 cold spells and 33 (95% CI: 18, 49) lives saved owing to fewer cold extremes. The increase of the number of heat extremes would be even more remarkable with 273 excess heat extremes occurring in 1980–2009, resulting in 447 (95% CI: 252, 646) excess deaths attributable to changes in the frequency of heat extremes. The estimates derived from the observed data would increase the excess number of heat related deaths due to climate change by as much as 55% as compared with the adjusted data.",
+            "cites": [
+                "ref-CR1",
+                "ref-CR22",
+                "ref-CR21",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Discussion",
+            "text": "Over the century, there was a shift in the temperature distributions of winter and summer seasons, including the number of cold and hot extremes in Stockholm, Sweden. This finding is consistent with changes in other European regions3,24. The relationship between temperature and mortality is well established22,25,26, and assuming that these relationships do not change over time (for example, are robust to changes in the number of extremes), the number of deaths associated with those extremes can be calculated. We estimated a large increase in mortality from heat extremes due to the warming associated with climate change, with a smaller increase in deaths due to slightly more frequent cold extremes.\nThere was an observed shift in the temperature distribution towards warmer temperatures in the winter season. The number of cold extremes increased slightly during 1980–2009 as compared with 1900–1929, contributing to increasing mortality during the winter months. As fewer winter deaths increase vulnerability to heat extremes, a warming climate also could increase heat-related mortality through this mechanism26,27. Therefore, the extent to which the balance of heat- and cold-related mortality would shift owing only to warmer winters is confounded by how much heat-related mortality could increase owing to warmer summers. Separating future winter mortality into a seasonal effect and a temperature effect, seasonal mortality would remain elevated during the colder months, as most winter mortality is not strongly associated with temperature28.\nA significant proportion of deaths during heat waves could be attributed to urban heat island effects, on the basis of the estimated 288 excess deaths attributed to the increase in heat extreme exposure in the data adjusted for urban heat island effects and the estimated 447 excess deaths in the unadjusted data. From a public health perspective, both factors are potent risk factors for future heat-related mortality under scenarios of population growth and climate change.\nIn the data adjusted for urban heat island effects, there was limited evidence of acclimatization during the past three decades, suggesting that projections of heat-related mortality with climate change not considering adaptation may not significantly overestimate mortality impacts.\nThere was a declining trend in the RR of mortality due to both cold and hot extremes on a decadal basis from 1901 until 2009, with a levelling off during the past three decades. This decline was probably due to, among other factors, improvements in health care and dwellings and behavioural changes during temperature extremes29. The RRs of mortality during the period 1980–2009 are stable on a decadal basis. It is difficult to judge how time trends in disease prevalence and health have influenced the stability of RRs of mortality. The proportions of deaths due to cardiovascular diseases and the death rates for cardiovascular diseases have been decreasing constantly in Sweden since the 1980s. In 1987, the death rate per 100,000 women aged 15–74 years was 128 and was 55 in 2010. For men, the death rate decreased from 352 in 1987 to 126 per 100,000 in 201030.\nWe believe that results from Stockholm are representative for most of the Swedish population. A previous study of Stockholm, Scania (South Sweden) and Gothenburg (West Sweden) reported the effects of warm temperatures on the elderly population in Sweden to be rather strong and consistent across different regions31. These results are partially consistent with those of ref. 13, which reports adaptation in England and Wales over time, with decreasing mortality rates for cold-related mortality over the period 1976–2005 and slightly increasing rates for heat-related mortality over the period 1977–2005.\nThe stable and constant mortality impact of cold and heat over the past three decades, independent of the number of extreme events, shows the difficulties in adapting to changing temperatures. The negative effects of heat in the Stockholm region are apparent during a short summer season and the adaptive measures taken in, for instance, the warmer regions of the United States with an increased use of air conditioning32, are not used to the same extent in Sweden. There is very low awareness of the negative health effects of heat in Sweden. Future changes in the frequency and intensity of heat waves might be of a magnitude large enough to overwhelm the ability of individuals and communities to adapt. The expected increase in the number of elderly and other potentially vulnerable groups, in absolute numbers and as a proportion of the population, could make the impact of temperature extremes on human health even more severe33.\nSome limitations in our study need to be acknowledged. The number of deaths attributable to cold and heat is under-reported on the basis of the thresholds identified to define such extremes; in a climate such as Stockholm’s, more so for cold than for heat. In reality it is well known that mortality occurs over a wider temperature range34,35,36. An added effect of heat wave duration has been reported in addition to heat intensity21,37. We did not explicitly consider the duration of extreme events when estimating mortality; however, the approach taken here incorporates duration and corresponds to the estimates from an average duration above the defined threshold. Analyses of changes in the number of extreme events did not take into account changes in the intensity of these events. Ref. 38 reports increasing risks for more extreme heat waves but no increase for cold. We may thus underestimate the effect of heat extremes on mortality. The impact of warmer summers also may be underestimated because a warmer climate influences atmospheric chemistry, thus increasing ground level ozone and ozone-related mortality, all else being equal39.\nThe approach taken does not strictly adhere to the Intergovernmental Panel on Climate Change best practice for attribution of temperature-related mortality to external forcing because temperature-related mortality was not estimated during our reference period. We could not make any direct comparisons between mortality to temperature extremes during 1900–1929 and mortality to temperature extremes during 1980–200940.\nThis is the first study to estimate the number of deaths due to cold and hot extreme temperatures attributable to climate change. There was a small increase in extreme cold temperature-related mortality and a substantial increase in extreme heat temperature-related mortality in 1980–2009 as compared with 1900–1929. Not adjusting for urbanization and heat island effects, there was a small decrease in extreme cold temperature mortality in 1980–2009 compared with 1900–1929, with a much larger increase in extreme hot temperature mortality. Although the number of extreme hot temperature deaths (288) attributable to climate change is very small compared with other public health burdens, these deaths are only for the Stockholm region. Applying this method to attribute the number of deaths due to climate change in the European region or worldwide, using different regional-specific estimates of climate change and population characteristics would probably yield much larger estimates for both cold and heat (although the former might be a decrease rather than increase).",
+            "cites": [
+                "ref-CR24",
+                "ref-CR36",
+                "ref-CR38",
+                "ref-CR39",
+                "ref-CR25",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR22",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR3",
+                "ref-CR40",
+                "ref-CR28",
+                "ref-CR21",
+                "ref-CR30",
+                "ref-CR37",
+                "ref-CR26",
+                "ref-CR33",
+                "ref-CR32"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Conclusion",
+            "text": "Mortality due to heat extremes in Stockholm, Sweden was significantly elevated in the past thirty years because of more frequent events compared with the beginning of the twentieth century. Cold spells occurred slightly more frequently, contributing to increasing mortality during the winter months. Additional changes in the frequency of extreme temperature events due to climate change, combined with increases in the size of the vulnerable population, will probably be associated with increased mortality during summer extremes.",
+            "cites": [],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "We collected daily mortality during the period 1980–2009 and daily temperature data for the period 1900–2009 for Stockholm County, Sweden. Temperature observations have been made at the same place since the 1750s. Urbanization at this location has led to a warming of about 0.7 °C on average. The temperature data thus incorporated changes due to urbanization and the heat island effect20.\nFor the reference period 1900–1929, heat extremes were defined as days when the temperature rose above the 98th percentile of daily mean temperature (2% warmest days) for a 2-day moving average of mean temperature (lag0 to lag1). Cold extremes were defined as days when the temperature fell below the second percentile of daily mean temperature (2% coldest days) for a 26-day moving average of mean temperature (lag0 to lag25). The percentiles were derived from daily observations across the years. These lags were chosen on the basis of previous research22,41.\nFor the reference period 1900–1929, the second percentile for cold corresponds to temperatures below −6.3 °C and the 98th percentile for heat corresponds to temperatures above 19.6 °C. Changes in the number of temperature extremes during this period and in 1980–2009 were investigated using these thresholds.\n### Statistics.\nThe analysis of the relationship between cold and heat extremes and mortality during 1980–2009 assumed the daily counts of mortality followed an overdispersed Poisson distribution. A generalized linear model was fitted42. The time trends over the period were described by a smooth function with 120 degrees of freedom (df; for example, 4 df per year of study). This function allowed the baseline mortality to vary depending on demographic changes and other slowly changing and time-varying extraneous factors. The short-term variability of daily deaths is due to factors in addition to daily temperatures. Potential confounding variables varying over a shorter time span, such as day of week and national holidays, were included as categorical and binary variables respectively, yielding the final model:\nTo validate the approach taken attributing the surplus/deficit of heat/cold extremes to the difference in climate between the two study periods, we assessed whether adaptation (or maladaptation) occurred over the past 30 years (for example, the stability of the RR estimates). We investigated whether the number of cold/heat extremes occurring during a year influenced the relative risk of mortality. If the RR was sensitive to the number of extreme events per year, this would be subtracted from the RR when attributing deaths to the difference between the two study periods. This was analysed using linear regression with the RR of mortality during an extreme event as the dependent variable and the number of extreme event each year as the independent variable.\nThe RRs for each year during the period 1980–2009 were calculated using the following model:\nThe estimated annual coefficient related to heat and cold extremes were then regressed on the number of extreme events occurring each year over the period 1980–2009.\nLinear regression with the decadal estimates of the RRs as the response variable and decade as the explanatory variable was used to analyse any potential time trend in the RRs over time using weights inversely proportional to the variance of each RR.\nWe quantified the number of deaths that could be attributed to climate change through a change in the frequency of extreme heat and cold events. If the numbers of extreme events were roughly the same during the reference period as during 1980–2009, it would not have been possible to attribute any change in the extremes or their associated mortality to climate change.\nAttributed mortality was calculated as: ΔEE*MB*(RREE−1), where ΔEE is the difference between the number of extreme events occurring in 1980–2009 and 1900–1929, MB is the seasonal baseline mortality in 1980–2009 and (RREE−1) is the increase in risk during every excess extreme event estimated from 1980–2009 mortality data.\nOwing to seasonality in mortality patterns, we used appropriate baseline mortality for winter (January, February and March) and summer (June, July and August).\nWe do not estimate the temperature–mortality relationship or quantify the number of deaths attributable to extreme temperatures during the reference period.\nSAS version 9.2 was used for the creation of data sets and variables. R version 2.13.1 was used for the statistical models and creation of outputs.",
+            "cites": [
+                "ref-CR42",
+                "ref-CR22",
+                "ref-CR20",
+                "ref-CR41"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Figure 1: Temperature distribution of 26-day moving average of mean temperatures during winter months.",
+            "figure-caption": "Grey distribution, 1900–1929; black distribution, 1980–2009; white, overlapping distributions.",
+            "figure-link": "https://www.nature.com/articles/nclimate2022/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Figure 2: Temperature distribution of 2-day moving average of mean temperatures during summer months.",
+            "figure-caption": "Grey distribution, 1900–1929; black distribution, 1980–2009.",
+            "figure-link": "https://www.nature.com/articles/nclimate2022/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Figure 3: Number of cold/heat extremes per decade 1900–2009.",
+            "figure-caption": "Filled circles, number of cold extremes; open triangles, number of heat extremes.",
+            "figure-link": "https://www.nature.com/articles/nclimate2022/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Figure 4: Mortality related to temperature extremes for 1980–2009.",
+            "figure-caption": "Filled circles, relative risk of mortality related to cold extremes; open circles, relative risk of mortality related to cold extremes 65+; filled triangles, relative risk of mortality related to heat extremes; open triangles, relative risk RR and 95% CI of mortality related to heat extremes 65+.",
+            "figure-link": "https://www.nature.com/articles/nclimate2022/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "IPCC Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (eds Field, C. B. et al.) 3–22 (Cambridge Univ. Press, 2012).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Coumou, D. & Rahmstorf, S. A decade of weather extremes. Nature Clim. Change 2, 491–496 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnclimate1452",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20decade%20of%20weather%20extremes&journal=Nature%20Clim.%20Change&doi=10.1038%2Fnclimate1452&volume=2&pages=491-496&publication_year=2012&author=Coumou%2CD&author=Rahmstorf%2CS"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "National Climatic Data Center. National Oceanic and Atmospheric Administration. Accessed 21 September 2012; available at http://www.ncdc.noaa.gov/sotc/.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Barriopedro, D., Fischer, E. M., Luterbacher, J., Trigo, R. M. & Garcia-Herrera, R. The hot summer of 2010: Redrawing the temperature record map of Europe. Science 332 (2011).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Rahmstorf, S. & Coumou, D. Increase of extreme events in a warming world. Proc. Natl Acad. Sci. USA 108, 17905–17909 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1101766108",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXhsVOktLvF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Increase%20of%20extreme%20events%20in%20a%20warming%20world&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1101766108&volume=108&pages=17905-17909&publication_year=2011&author=Rahmstorf%2CS&author=Coumou%2CD"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Kovats, R. S. & Hajat, S. Heat stress and public health: A critical review. Annu. Rev. Public Health 29, 41–55 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev.publhealth.29.020907.090843",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Heat%20stress%20and%20public%20health%3A%20A%20critical%20review&journal=Annu.%20Rev.%20Public%20Health&doi=10.1146%2Fannurev.publhealth.29.020907.090843&volume=29&pages=41-55&publication_year=2008&author=Kovats%2CRS&author=Hajat%2CS"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Frumkin, H. Urban sprawl and public health. Public Health Rep. 117, 201–217 (2002).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0033-3549%2804%2950155-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20sprawl%20and%20public%20health&journal=Public%20Health%20Rep.&doi=10.1016%2FS0033-3549%2804%2950155-3&volume=117&pages=201-217&publication_year=2002&author=Frumkin%2CH"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Worfolk, J. B. Heat waves: Their impact on the health of elders. Geriatr. Nurs. 21, 70–77 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1067%2Fmgn.2000.107131",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD387hsV2htg%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Heat%20waves%3A%20Their%20impact%20on%20the%20health%20of%20elders&journal=Geriatr.%20Nurs.&doi=10.1067%2Fmgn.2000.107131&volume=21&pages=70-77&publication_year=2000&author=Worfolk%2CJB"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Keatinge, W. R. et al. Increases in platelet and red cell counts, bloodviscosity, and arterial pressure during mild surface cooling: Factors in mortality from coronary and cerebral thrombosis in winter. Br. Med. J. 289, 1405–1408 (1984).",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Fbmj.289.6456.1405",
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaL2M%2Fksl2ksA%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Increases%20in%20platelet%20and%20red%20cell%20counts%2C%20bloodviscosity%2C%20and%20arterial%20pressure%20during%20mild%20surface%20cooling%3A%20Factors%20in%20mortality%20from%20coronary%20and%20cerebral%20thrombosis%20in%20winter&journal=Br.%20Med.%20J.&doi=10.1136%2Fbmj.289.6456.1405&volume=289&pages=1405-1408&publication_year=1984&author=Keatinge%2CWR"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Keatinge, W. R. et al. Cold exposure and winter mortality from ischaemic heart disease, cerebrovascular disease, respiratory disease, and all causes in warm and cold regions of Europe. Lancet 349, 1341–1346 (1997).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2896%2912338-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cold%20exposure%20and%20winter%20mortality%20from%20ischaemic%20heart%20disease%2C%20cerebrovascular%20disease%2C%20respiratory%20disease%2C%20and%20all%20causes%20in%20warm%20and%20cold%20regions%20of%20Europe&journal=Lancet&doi=10.1016%2FS0140-6736%2896%2912338-2&volume=349&pages=1341-1346&publication_year=1997&author=Keatinge%2CWR"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "McMichael, A. J. & Lindgren, E. Climate change: Present and future risks to health, and necessary responses. J. Intern. Med. 270, 401–413 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1365-2796.2011.02415.x",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BC3MbgsV2nsA%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%3A%20Present%20and%20future%20risks%20to%20health%2C%20and%20necessary%20responses&journal=J.%20Intern.%20Med.&doi=10.1111%2Fj.1365-2796.2011.02415.x&volume=270&pages=401-413&publication_year=2011&author=McMichael%2CAJ&author=Lindgren%2CE"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Ebi, K. L., Mills, D., Smith, J. B. & Grambsch, A. Climate change and human health impacts in the United States: An update on the results of the US national assessment. Environ. Health Perspect. 114, 1318–1324 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1289%2Fehp.8880",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20and%20human%20health%20impacts%20in%20the%20United%20States%3A%20An%20update%20on%20the%20results%20of%20the%20US%20national%20assessment&journal=Environ.%20Health%20Perspect.&doi=10.1289%2Fehp.8880&volume=114&pages=1318-1324&publication_year=2006&author=Ebi%2CKL&author=Mills%2CD&author=Smith%2CJB&author=Grambsch%2CA"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Christidis, N., Donaldson, G. C. & Stott, P. Causes for the recent changes in cold- and heat-related mortality in England and Wales. Climatic Change 120, 539–553 (2010).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10584-009-9774-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Causes%20for%20the%20recent%20changes%20in%20cold-%20and%20heat-related%20mortality%20in%20England%20and%20Wales&journal=Climatic%20Change&doi=10.1007%2Fs10584-009-9774-0&volume=120&pages=539-553&publication_year=2010&author=Christidis%2CN&author=Donaldson%2CGC&author=Stott%2CP"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Moseley, P. L. Mechanisms of heat adaptation: Thermotolerance and acclimatization. J. Lab Clin. Med. 123, 48–52 (1994).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaK2c7hsl2huw%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mechanisms%20of%20heat%20adaptation%3A%20Thermotolerance%20and%20acclimatization&journal=J.%20Lab%20Clin.%20Med.&volume=123&pages=48-52&publication_year=1994&author=Moseley%2CPL"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "O’Neill, M. S., Zanobetti, A. & Schwartz, J. Disparities by race in heat-related mortality in four US cities: The role of air conditioning prevalence. J. Urban Health 82, 191–197 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fjurban%2Fjti043",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Disparities%20by%20race%20in%20heat-related%20mortality%20in%20four%20US%20cities%3A%20The%20role%20of%20air%20conditioning%20prevalence&journal=J.%20Urban%20Health&doi=10.1093%2Fjurban%2Fjti043&volume=82&pages=191-197&publication_year=2005&author=O%E2%80%99Neill%2CMS&author=Zanobetti%2CA&author=Schwartz%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Carson, C., Hajat, S., Armstrong, B. & Wilkinson, P. Declining vulnerability to temperature-related mortality in London over the 20th century. Am. J. Epidemiol. 164, 77–84 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Faje%2Fkwj147",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Declining%20vulnerability%20to%20temperature-related%20mortality%20in%20London%20over%20the%2020th%20century&journal=Am.%20J.%20Epidemiol.&doi=10.1093%2Faje%2Fkwj147&volume=164&pages=77-84&publication_year=2006&author=Carson%2CC&author=Hajat%2CS&author=Armstrong%2CB&author=Wilkinson%2CP"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Davis, R. E., Knappenberger, P. C., Michaels, P. J. & Novicoff, W. M. Changing heat-related mortality in the United States. Environ. Health Perspect. 111, 1712–1718 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.1289%2Fehp.6336",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changing%20heat-related%20mortality%20in%20the%20United%20States&journal=Environ.%20Health%20Perspect.&doi=10.1289%2Fehp.6336&volume=111&pages=1712-1718&publication_year=2003&author=Davis%2CRE&author=Knappenberger%2CPC&author=Michaels%2CPJ&author=Novicoff%2CWM"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Omran, A. R. The epidemiologic transition: A theory of the epidemiology of population change. Milbank Mem. Fund Q. 49, 509–538 (1971).",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F3349375",
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaE3s%2FkvVyltg%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20epidemiologic%20transition%3A%20A%20theory%20of%20the%20epidemiology%20of%20population%20change&journal=Milbank%20Mem.%20Fund%20Q.&doi=10.2307%2F3349375&volume=49&pages=509-538&publication_year=1971&author=Omran%2CAR"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Confalonieri, U. et al. in IPCC Climate Change 2007: Impacts, Adaptation and Vulnerability (eds Parry, M. L., Canziani, O. F., Palutikof, J. P., van der Linden, P. J. & Hanson, C. E.) 391–431 (Cambridge Univ. Press, 2007).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=IPCC%20Climate%20Change%202007%3A%20Impacts%2C%20Adaptation%20and%20Vulnerability&pages=391-431&publication_year=2007&author=Confalonieri%2CU"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Moberg, A., Bergström, H., Ruiz Krisman, J. & Svanerud, O. Daily air temperature and pressure series for Stockholm (1756–1998). Clim. Sci. 53, 171–212 (2002).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Daily%20air%20temperature%20and%20pressure%20series%20for%20Stockholm%20%281756%E2%80%931998%29&journal=Clim.%20Sci.&volume=53&pages=171-212&publication_year=2002&author=Moberg%2CA&author=Bergstr%C3%B6m%2CH&author=Ruiz%20Krisman%2CJ&author=Svanerud%2CO"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Rocklöv, J., Ebi, K. L. & Forsberg, B. Mortality related to temperature and persistent extreme temperatures: A study of cause-specific and age-stratified mortality. Occup. Environ. Med. 68, 531–536 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Foem.2010.058818",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mortality%20related%20to%20temperature%20and%20persistent%20extreme%20temperatures%3A%20A%20study%20of%20cause-specific%20and%20age-stratified%20mortality&journal=Occup.%20Environ.%20Med.&doi=10.1136%2Foem.2010.058818&volume=68&pages=531-536&publication_year=2011&author=Rockl%C3%B6v%2CJ&author=Ebi%2CKL&author=Forsberg%2CB"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Anderson, B. G. & Bell, M. L. Weather-related mortality. how heat, cold and heat waves affect mortality in the United States. Epidemiology 20, 205–213 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1097%2FEDE.0b013e318190ee08",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Weather-related%20mortality.%20how%20heat%2C%20cold%20and%20heat%20waves%20affect%20mortality%20in%20the%20United%20States&journal=Epidemiology&doi=10.1097%2FEDE.0b013e318190ee08&volume=20&pages=205-213&publication_year=2009&author=Anderson%2CBG&author=Bell%2CML"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Huang, C., Barnett, A. G., Wang, X. & Tong, S. The impact of temperatureon years of life lost in Brisbane, Australia. Nature Clim. Change 2, 265–270 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnclimate1369",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20temperatureon%20years%20of%20life%20lost%20in%20Brisbane%2C%20Australia&journal=Nature%20Clim.%20Change&doi=10.1038%2Fnclimate1369&volume=2&pages=265-270&publication_year=2012&author=Huang%2CC&author=Barnett%2CAG&author=Wang%2CX&author=Tong%2CS"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Seneviratne, S. I. et al. in Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (eds Field, C. B. et al.) 109–230 (IPCC, Cambridge Univ. Press, 2012).",
+            "links": {
+                "Book": "https://doi.org/10.1017%2FCBO9781139177245.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Managing%20the%20Risks%20of%20Extreme%20Events%20and%20Disasters%20to%20Advance%20Climate%20Change%20Adaptation&doi=10.1017%2FCBO9781139177245.006&pages=109-230&publication_year=2012&author=Seneviratne%2CSI"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Bacchini, M. et al. Heat effects on mortality in 15 European cities. Epidemiology 19, 711–719 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1097%2FEDE.0b013e318176bfcd",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Heat%20effects%20on%20mortality%20in%2015%20European%20cities&journal=Epidemiology&doi=10.1097%2FEDE.0b013e318176bfcd&volume=19&pages=711-719&publication_year=2008&author=Bacchini%2CM"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Rocklöv, J., Forsberg, B. & Meister, K. Winter mortality modifies the heat-mortality association the following summer. Eur. Respir. J. 33, 245–251 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1183%2F09031936.00037808",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Winter%20mortality%20modifies%20the%20heat-mortality%20association%20the%20following%20summer&journal=Eur.%20Respir.%20J.&doi=10.1183%2F09031936.00037808&volume=33&pages=245-251&publication_year=2009&author=Rockl%C3%B6v%2CJ&author=Forsberg%2CB&author=Meister%2CK"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Stafoggia, M., Forastiere, F., Michelozzi, P. & Perucci, C. A. Summer temperature-related mortality: Effect modification by previous winter mortality. Epidemiology 20, 575–583 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1097%2FEDE.0b013e31819ecdf0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Summer%20temperature-related%20mortality%3A%20Effect%20modification%20by%20previous%20winter%20mortality&journal=Epidemiology&doi=10.1097%2FEDE.0b013e31819ecdf0&volume=20&pages=575-583&publication_year=2009&author=Stafoggia%2CM&author=Forastiere%2CF&author=Michelozzi%2CP&author=Perucci%2CCA"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Kinney, P. L., Pascal, M., Vautard, R. & Laaidi, K. Winter mortality in a changing climate: Will it go down? Bull. Epidemiol. Hebd 12-13, 148–151 (2012).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Winter%20mortality%20in%20a%20changing%20climate%3A%20Will%20it%20go%20down%3F&journal=Bull.%20Epidemiol.%20Hebd&volume=12-13&pages=148-151&publication_year=2012&author=Kinney%2CPL&author=Pascal%2CM&author=Vautard%2CR&author=Laaidi%2CK"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Oudin Åström, D., Forsberg, B., Edvinsson, S. & Rocklöv, J. Acute fatal effects of short-lasting extreme temperatures in Stockholm, Sweden: Evidence over a century of change. Epidemiology 24, 820–829 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1097%2F01.ede.0000434530.62353.0b",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Acute%20fatal%20effects%20of%20short-lasting%20extreme%20temperatures%20in%20Stockholm%2C%20Sweden%3A%20Evidence%20over%20a%20century%20of%20change&journal=Epidemiology&doi=10.1097%2F01.ede.0000434530.62353.0b&volume=24&pages=820-829&publication_year=2013&author=Oudin%20%C3%85str%C3%B6m%2CD&author=Forsberg%2CB&author=Edvinsson%2CS&author=Rockl%C3%B6v%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "National Board of Health and Welfare. Statistics—Health and Medical Care: Causes of Death 2010 (National Board of Health and Welfare, 2011).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Rocklöv, J. & Forsberg, B. The effect of high ambient temperature on the elderly population in three regions of Sweden. Int. J. Environ. Res. Public Health 7, 2607–2619 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph7062607",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20high%20ambient%20temperature%20on%20the%20elderly%20population%20in%20three%20regions%20of%20Sweden&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph7062607&volume=7&pages=2607-2619&publication_year=2010&author=Rockl%C3%B6v%2CJ&author=Forsberg%2CB"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Medina-Ramon, M. & Schwartz, J. Temperature, temperature extremes, and mortality: A study of acclimatisation and effect modification in 50 US cities. Occup. Environ. Med. 64, 827–833 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Foem.2007.033175",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BC38zhvFGksw%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Temperature%2C%20temperature%20extremes%2C%20and%20mortality%3A%20A%20study%20of%20acclimatisation%20and%20effect%20modification%20in%2050%20US%20cities&journal=Occup.%20Environ.%20Med.&doi=10.1136%2Foem.2007.033175&volume=64&pages=827-833&publication_year=2007&author=Medina-Ramon%2CM&author=Schwartz%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Sierra, F., Hadley, E., Suzman, R. & Hodes, R. Prospects for life span extension. Annu. Rev. Med. 60, 457–469 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev.med.60.061607.220533",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1MXitlyntbc%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Prospects%20for%20life%20span%20extension&journal=Annu.%20Rev.%20Med.&doi=10.1146%2Fannurev.med.60.061607.220533&volume=60&pages=457-469&publication_year=2009&author=Sierra%2CF&author=Hadley%2CE&author=Suzman%2CR&author=Hodes%2CR"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Basu, R. & Samet, J. M. Relation between elevated ambient temperature and mortality: A review of the epidemiologic evidence. Epidemiol. Rev. 24, 190–202 (2002).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fepirev%2Fmxf007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Relation%20between%20elevated%20ambient%20temperature%20and%20mortality%3A%20A%20review%20of%20the%20epidemiologic%20evidence&journal=Epidemiol.%20Rev.&doi=10.1093%2Fepirev%2Fmxf007&volume=24&pages=190-202&publication_year=2002&author=Basu%2CR&author=Samet%2CJM"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Zanobetti, M. & Schwartz, J. Temperature and mortality in nine US cities. Epidemiology 19, 563–570 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1097%2FEDE.0b013e31816d652d",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Temperature%20and%20mortality%20in%20nine%20US%20cities&journal=Epidemiology&doi=10.1097%2FEDE.0b013e31816d652d&volume=19&pages=563-570&publication_year=2008&author=Zanobetti%2CM&author=Schwartz%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Curriero, F. C. et al. Temperature and mortality in 11 cities of the Eastern United States. Am. J. Epidemiol. 155, 80–87 (2002).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Faje%2F155.1.80",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Temperature%20and%20mortality%20in%2011%20cities%20of%20the%20Eastern%20United%20States&journal=Am.%20J.%20Epidemiol.&doi=10.1093%2Faje%2F155.1.80&volume=155&pages=80-87&publication_year=2002&author=Curriero%2CFC"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Gasparrini, A. & Armstrong, B. The impact of Heat Waves on Mortality. Epidemiology 22, 68–73 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1097%2FEDE.0b013e3181fdcd99",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20Heat%20Waves%20on%20Mortality&journal=Epidemiology&doi=10.1097%2FEDE.0b013e3181fdcd99&volume=22&pages=68-73&publication_year=2011&author=Gasparrini%2CA&author=Armstrong%2CB"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Barnett, A. G., Hajat, S., Gasparrini, A. & Rocklöv, J. Cold and heat waves in the United States. Environ. Res. 112, 218–224 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envres.2011.12.010",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC38XhsFGiu7o%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cold%20and%20heat%20waves%20in%20the%20United%20States&journal=Environ.%20Res.&doi=10.1016%2Fj.envres.2011.12.010&volume=112&pages=218-224&publication_year=2012&author=Barnett%2CAG&author=Hajat%2CS&author=Gasparrini%2CA&author=Rockl%C3%B6v%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Orru, H. et al. Impact of climate change on ozone related mortality and morbidity in Europe. Eur. Respir. J. 41, 285–294 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1183%2F09031936.00210411",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20climate%20change%20on%20ozone%20related%20mortality%20and%20morbidity%20in%20Europe&journal=Eur.%20Respir.%20J.&doi=10.1183%2F09031936.00210411&volume=41&pages=285-294&publication_year=2012&author=Orru%2CH"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Hegerl, G. C. et al. in IPCC Expert Meeting on Detection and Attribution of Anthropogenic Climate Change (eds Stocker, T. F. et al.) 25–27 (Univ. Bern, 2009).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=IPCC%20Expert%20Meeting%20on%20Detection%20and%20Attribution%20of%20Anthropogenic%20Climate%20Change&pages=25-27&publication_year=2009&author=Hegerl%2CGC"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Rocklöv, J. & Forsberg, B. The effect of temperature on mortality in Stockholm 1998–2003: A study of lag structures and heatwave effects. Scand. J. Public Health 36, 516–523 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F1403494807088458",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20temperature%20on%20mortality%20in%20Stockholm%201998%E2%80%932003%3A%20A%20study%20of%20lag%20structures%20and%20heatwave%20effects&journal=Scand.%20J.%20Public%20Health&doi=10.1177%2F1403494807088458&volume=36&pages=516-523&publication_year=2008&author=Rockl%C3%B6v%2CJ&author=Forsberg%2CB"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Armstrong, B. Models for the relationship between ambient temperature and daily mortality. Epidemiology 17, 624–631 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1097%2F01.ede.0000239732.50999.8f",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Models%20for%20the%20relationship%20between%20ambient%20temperature%20and%20daily%20mortality&journal=Epidemiology&doi=10.1097%2F01.ede.0000239732.50999.8f&volume=17&pages=624-631&publication_year=2006&author=Armstrong%2CB"
+            }
+        }
+    ]
+}

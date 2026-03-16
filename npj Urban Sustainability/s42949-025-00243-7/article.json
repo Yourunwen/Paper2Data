@@ -1,0 +1,931 @@
+{
+    "id": "s42949-025-00243-7",
+    "journal": "npj Urban Sustainability",
+    "type": "article",
+    "title": "Cities’ review of the sustainable development goals and insights from voluntary local reviews",
+    "legal_title": "Cities’ review of the sustainable development goals and insights from voluntary local reviews",
+    "publish_time": "2025-07-15",
+    "pdf_link": "https://www.nature.com/articles/s42949-025-00243-7",
+    "storage_path": "./Articles/npj Urban Sustainability/2025-article/s42949-025-00243-7/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Progress toward the 17 Sustainable Development Goals (SDGs) has been insufficient, partly due to weak policy follow-up and review (FUR) at all government levels. While local governments are key to implementing the SDGs, the country-centric design of the 2030 Agenda hinders effective local-level FUR. To address this shortcoming, local governments have initiated FUR through Voluntary Local Reviews (VLRs). Here, we analyze 151 VLR reports published in 2018–2022 to explore how cities are following up and reviewing the SDGs. Our results indicate that cities often prioritize a subset of SDGs in their VLRs, focusing on reviewing actions rather than conducting quantitative, indicator-based assessments. City-level factors—such as resource availability, size, growth, and experience in conducting VLRs—combined with national and international influences, shape the approaches and scope of SDG reviews. This analysis highlights challenges cities face in engaging with the SDGs, underscoring the need for local perspectives in designing global sustainability agendas.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Adopted in 2015, the 2030 Agenda for Sustainable Development set a 15-year timeframe for achieving 17 ambitious Sustainable Development Goals (SDGs) worldwide1. However, progress has been insufficient and uneven2,3, with 2023 UN projections warning that most of the SDGs will be unmet barring a drastic change of course4. While this can be attributed to various unforeseen and overlapping crises—including increasing climate-related disasters and the COVID-19 pandemic5,6,7—other factors stemming from the design of the 2030 Agenda itself have also contributed, such as weak accountability, difficulty of monitoring and evaluation, and multi-level implementation challenges8,9,10. Given its non-binding nature, which relies on voluntary commitments from countries to implement the SDGs11,12,13, the 2030 Agenda established a country-led ‘follow-up and review’ (FUR) process structured around 169 targets and 231 unique indicators to guide, monitor, and report on the implementation of the SDGs1. This FUR architecture centers on national governments as the main actors and is based on two key elements: (1) Voluntary National Reviews (VNRs), as countries’ reporting mechanisms; and (2) the High-level Political Forum on Sustainable Development (HLPF) as the global stage for presenting VNRs14,15. Additionally, the HLPF highlights several Goals for in-depth review each year, recommending national governments to review them in their VNRs14.\nDespite the 2030 Agenda’s country-centric design, local governments play a crucial role in successfully implementing the SDGs16,17,18,19,20. This dependency underscores the need for local-level FUR to accurately assess global SDG progress. In response, Voluntary Local Reviews (VLRs) emerged as a tool for local governments to structure FUR by translating the SDGs, associated targets, and indicators to their specific contexts21,22. Lacking an official guiding framework, VLRs replicate the FUR process of VNRs23,24. However, the inherent tension between the national focus of the 2030 Agenda and the need for local implementation complicates local-level FUR.\nIn addition to the relative low level of VLR adoption by local governments, current VLR practices exhibit significant disparities in procedures, output quality, and impact25. To standardize VLRs, international organizations have developed VLR guidelines17,26,27,28,29,30,31,32,33,34,35 and supported their local implementation. However, these guidelines often draw from theoretical principles and case studies, facing challenges in balancing practicality, generalizability, and local relevance. Research examining the challenges in conducting VLRs highlights data availability, indicator limitations, and the applicability of SDGs to the local context as the main obstacles hindering local-level FUR exercises22,36,37,38. While these studies provide important insights, they are limited by their small sample size and narrow geographic representation, therefore not shedding light on cities’ approaches to FUR through VLRs. A systematic analysis of VLRs is required to gain a more comprehensive understanding of the scope of SDGs considered and reviewed, as well as the various factors impacting the review scope.\nThis paper examines available VLR reports published by local governments worldwide from 2018 to 2022. It focuses on municipal governments, or cities, as they are the primary actors responsible for local performance related to many SDGs39. We explore three major questions about local FUR through VLRs:\nAnswering these questions is necessary to maximize the potential contribution of local FUR processes to sustainable development efforts. Understanding the scope and methods of SDG reviews in VLRs, along with the factors that shape them, can help bridge the gap between global goals and local actions, enabling cities to play a more active role in achieving the SDGs. We employ content analysis of VLR reports to generate quantifiable data and derive variables from various sources (“Methods” and Table 3), which enables us to address these research questions through appropriate statistical methods (Supplementary Table 1).\nThe Pressure-State-Response (PSR) framework guides our exploratory analysis. A widely used conceptual approach for sustainable development assessments, the PSR framework (and its variations) links causes, conditions, and actions through feedback loops, highlighting the importance of incremental, and evidence-driven interventions. This framework has informed the development of integrated monitoring and assessment tools, including the UN’s SDG FUR framework40,41.\nThis study compiles all available VLR reports included in all online repositories where local governments voluntarily submit their VLR reports, focusing on those covering SDG performance from 2018 to 2022 and published by October 2023 (Supplementary Table 2). To determine which SDGs are addressed in these reports at the local level we consider two approaches consistent with the literature on FUR: (1) Outcome-based Review (OR), which quantitatively measures the status and progress toward achieving a given SDG; and (2) Action-based Review (AR), which qualitatively assesses the interventions taken to achieve results42,43,44. We code the use of each approach using an indicator, subsequently combining these indicators to generate a series of Review Scores (RS) for each report: RS for individual SDGs (RS_SDGi), RS for total review (TRS), RS for outcome-based review (TORS), and RS for action-based review (TARS). These review scores allow us to unveil global patterns of SDG reviews while also examining the varying influence of different factors on SDG assessments (“Methods”).\nThe coding process reflects the three primary components of the PSR framework—pressure, state, and response (Supplementary Table 3). The outcome review approach integrates pressure and state, acknowledging their interconnections due to feedback loops, measurement challenges, and systems complexity. The action-based review approach emphasizes responses and their relevance to outcomes tied to specific SDGs. Similarly, the modeling approach is informed by the PSR framework. We view SDG reviews in VLRs as part of a city’s adaptive response to dynamic pressures and conditions, shaped by factors such as the relevance of specific SDGs, resource availability, and intergovernmental alignment, as highlighted in the existing literature45,46. Our study adds to the literature by exploring both country- and city-level variables. However, due to data limitations and the intricate interplay among the PSR components, it is infeasible to account for all relevant factors. This limitation is acknowledged in the Methods section.",
+            "cites": [
+                "ref-CR18",
+                "ref-CR27",
+                "ref-CR44",
+                "ref-CR40",
+                "ref-CR34",
+                "ref-CR41",
+                "ref-CR23",
+                "ref-CR19",
+                "ref-CR33",
+                "ref-CR24",
+                "ref-CR10",
+                "ref-CR36",
+                "ref-CR2",
+                "ref-CR21",
+                "ref-CR28",
+                "ref-CR12",
+                "ref-CR45",
+                "ref-CR20",
+                "ref-CR29",
+                "ref-CR13",
+                "ref-CR39",
+                "ref-CR4",
+                "ref-CR15",
+                "ref-CR14",
+                "ref-CR17",
+                "ref-CR30",
+                "ref-CR43",
+                "ref-CR11",
+                "ref-CR37",
+                "ref-CR1",
+                "ref-CR25",
+                "ref-CR22",
+                "ref-CR42",
+                "ref-CR31",
+                "ref-CR26",
+                "ref-CR5",
+                "ref-CR6",
+                "ref-CR46",
+                "ref-CR9",
+                "ref-CR16",
+                "ref-CR32",
+                "ref-CR7",
+                "ref-CR35",
+                "ref-CR38",
+                "ref-CR3",
+                "ref-CR8"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Overview of the voluntary local reviews (2018–2022)\nThe 151 VLR reports analyzed in this study were produced by 121 cities, with the majority located in the Latin America and the Caribbean (LAC) subregion of the United Nations Geoscheme (N = 39, 32%), followed by Europe (N = 38, 31%) and Asia (N = 32, 26%). Far fewer are in Northern America (N = 7, 6%), Africa (N = 5, 4%), and Oceania (N = 1) (see Supplementary Table 4). Figure 1 nuances this geographical classification, showing an equal distribution of VLRs across Europe and LAC, while most Asian cities are in Eastern Asia. About half of the cities are coastal cities, with populations ranging from around 3300 to 15 million. Two-thirds are medium-sized (200,000 to 1,000,000) and large cities (1,000,000 to 10,000,000) (Fig. 1).\nVLRs are predominantly conducted by cities in high-income countries, with half of the cities (N = 61, 50%) belonging to this group. They are followed by upper-middle-income countries (N = 50, 41%) and lower-middle-income countries (N = 11, 9%). There are no cities from low-income countries. Notably, 17 out of the 22 cities that have produced multiple editions are from high-income countries. Conversely, cities from relatively lower income countries are more likely to receive support from international organizations.\nAbout one-third of the VLRs analyzed (N = 50) highlighted the involvement of specific international organizations in their VLR process, including 11 (84.6%) of the cities from lower-middle-income countries and 30 (53.5%) of the cities from the upper-middle-income countries. In contrast, only nine (11%) of the VLRs from cities in high-income countries mention the support of an international organization. The majority of VLRs (N = 33) referenced only one international organization, while 17 cited the involvement of two or more. Among the international organizations mentioned, UN agencies were the most prevalent, with UN-Habitat being the most frequently cited (N = 17), followed by other agencies such as UNDP (N = 6) and UNESCAP (N = 4). Additionally, associations of local governments played a significant role, with UCLG referenced in six VLRs and ICLEI in four. However, the VLR reports do not specify the exact nature of the support provided by these organizations.\nAmong the 151 analyzed VLR reports, 39 reference at least one international guideline for conducting their local reviews. Of these, 8 reports exclusively followed the UNDESA VNR Guidelines, all published before 2020, when the first guidelines specifically tailored to VLRs became available24. Of the VLR-specific guidelines, those developed by UCLG and UN-Habitat29 in 2020 are the most frequently referenced, with 14 mentions, followed by those launched by UNESCAP26 with 11 mentions and the 2021 edition by UCLG and UN-Habitat30 with 8 mentions. Regional frameworks, such as the one developed by the EU Joint Research Center27, are cited less frequently, with 7 mentions (see Supplementary Table 5). Without direct interviews with the individuals responsible for conducting the VLRs, it remains unclear whether guidelines were underutilized or simply not explicitly referenced, possibly due to informal adaptation to suit local contexts.\n### Selection of SDGs in review\nExamining the SDG review scores reveals a selective approach in the reviewed SDGs within VLRs, reflecting local governments’ efforts to focus on context-specific priorities and capacities. While research on national-level FUR highlights the risks of cherry-picking certain SDGs47,48, practical guidelines tailored to the local level emphasize the value of prioritization to empower local ownership and feasibility in the localization process29,30. Only 41 reports (27.2%) address all 17 SDGs using outcome-based review (OR), and 61 reports (40.4%) review all of them using action-based review (AR), with 36 reports (23.8%) employing both approaches for all SDGs. Among the 36 reports using both approaches to review all SDGs, 20 are from cities in Europe and 11 from cities in Asia; all but four of these VLRs are from high-income countries. Among these 36 reports, 9 are second or third editions, suggesting that cities conducting multiple VLRs tend to produce more comprehensive reviews over time. This underscores the learning curve in following up and reviewing the SDGs locally, as cities refine their processes with each iteration. Additionally, the prevalence of such comprehensive reviews among high-income countries highlights the importance of resource-based factors, such as institutional capacity and access to data.\nThe relative attention given to different SDGs varies from year to year. Some patterns of consistency are evident from the average total review scores (TRS) by year (Table 1). SDG 11 on Sustainable Cities and Communities is the most reviewed Goal in 2018, 2020, and 2022, and ranks second in 2021. SDG 13 (Climate Action) and SDG 4 (Quality Education) were the most reviewed in 2019, while SDG 3 (Good Health and Well-being) took the lead in 2021. SDG 11 is the only Goal to be among the top three Goals for four years, while SDGs 3 and 13 were in the top three for three years each. Conversely, SDG 14 (Life Below Water) ranks as the least reviewed Goal throughout the study period. Comparing the most reviewed SDGs in the VLRs with those highlighted by the HPFL from year to year shows a general alignment. The most notable exception is SDG 11, which, although it was only prioritized by the HLPF in 2018 during the years covered by our study, consistently ranks at the top.\nFigure 2 illustrates the average TRS for each SDG by geographic region annually from 2018 to 2022. A more circular shape, formed by the 17 SDGs’ TRSs, indicates a more comprehensive review, reflecting a broader scope of SDGs reviewed and the use of both approaches. The year 2020 stands out with the highest level of review for all SDGs, especially in Asia and Europe, as shown by the more circular shape of their lines. In that year, Europe maintained an RS above 1.5 for all SDGs, while Asia did so for all but five Goals—namely SDGs 1, 2, 10, 14, and 16. The area covered by each region’s line decreases in subsequent years, indicating a more selective review process focusing on fewer SDGs. This trend may reflect the global impact of the COVID-19 pandemic in 2020, which prompted cities to assess their recovery efforts more broadly across multiple SDGs. In contrast, the decline in scope in subsequent years could indicate an evolution of VLR practices, as cities shifted toward more selective reviews tailored to local priorities and capacities. Additionally, the growing number of first-time reviews in 2021 and 2022 may have contributed to this trend as cities tested the VLR format with a subset of Goals.\nConversely, LAC consistently tends to select a subset of SDGs, often using a single approach for review, as indicated by the smaller shape areas in the figure. This trend is most evident in 2020 and 2022, although less so in 2021. In general, LAC ranks lowest in TRS for ten SDGs—2, 3, 6, 7, 8, 12, 13, 14, 16, and 17—compared to other regions. This may reflect methodological preferences in LAC cities, where Action-based Review is more prevalent than Outcome-based Review, potentially due to challenges in aligning local data with global SDG indicators, even though 27 of the 48 VLRs from LAC report receiving support from an international organization. Additionally, the prioritization of SDGs addressing immediate local issues, such as poverty and inequality, may contribute to lower TRS for some Goals.\nRegional differences in the selection of reviewed SDGs are evident in the varying average total review scores (Fig. 2), indicating that cities tend to concentrate their policy efforts on those SDGs that better reflect local concerns49 or existing strategies and priorities47. For instance, African cities tend to focus their attention on SDGs addressing immediate needs. Here, SDG 6 (Clean Water and Sanitation) is the most reviewed Goal, reaching an average TRS of 2—together with SDG 11—and closely followed by SDG 1 (No Poverty); on the contrary, SDGs 10 (Reduced Inequalities), 14, and 15 (Life on Land) achieve the lowest average TRS in the region. However, the small sample size of only five reports published by cities in Africa may limit the generalizability of these findings. On the other hand, SDG 10 achieve the highest average TRS in VLRs from cities in Europe and North America, reflecting the growing concern about widespread socioeconomic inequalities50,51.\nThese patterns in the selection of SDGs for review can be attributed to several factors. First, the prominence of SDG 11 shows its affinity with issues that easily relate to cities and their existing planning processes. Second, the HLPF seems to impact the selection of SDGs under review in VLRs. Our analysis shows that this influence extends to cities, especially in earlier years; this is particularly evident in 2018 and 2019, when the HLPF’s pre-selected SDGs were among the three most reviewed by cities. However, its influence diminishes thereafter; by 2022, only one out of the five HLPF priority Goals, SDG 4, is among the top three most reviewed Goals by cities (Table 1). Finally, crisis-driven urgency also shapes the selection of Goals for review. For instance, the COVID-19 pandemic likely pushed SDG 3 to second place in 2020 and first place in 2021—a year in which it was also prioritized by the HLPF. Similarly, climate change (SDG 13) is among the top three most reviewed Goals in 2019, 2021, and 2022, due to the increasing commitments by cities to achieve carbon neutrality observed in recent years52,53.\n### Approaches to review\nThe 151 reports show that cities are in general more likely to use Action-based Review (AR) than Outcome-based Review (OR), a finding echoing a recent study by Stamos et al.25; for every SDG, the percentage of reports using AR exceeds those using OR (Fig. 3). The gap between AR and OR was larger on average in 2018 and 2019, progressively becoming smaller in subsequent years, reaching below 10% for most SDGs by 2021, before increasing again in 2022. The difference between the use of AR and OR is more pronounced for certain SDGs. SDG 17 (Partnership for the Goals) shows the greatest disparity, with 82% of reports using AR and 61% using OR, indicating a 21% gap. SDG 13 (Climate Change) and SDG 8 (Decent Work and Economic Growth) follow, each with a 14% gap. In contrast, SDG 7 (Affordable and Clean Energy) has the smallest gap, with 68% of reports using AR and 61% using OR, a difference of 7%.\nThese results reflect challenges in operationalizing the SDGs’ targets into a locally relevant monitoring framework, whether using quantitative indicators or local actions. The lack of local statistical data to support OR is frequently highlighted in existing literature16,34. This study reveals that this challenge appears particularly acute for some SDGs. Specifically, SDGs 2, 10, 14, 15, and 16 have the lowest percentage of reports using OR, all below 60%, in contrast to SDGs 3, 4, and 11, for which more than 70% of VLR reports use OR. Additionally, the use of AR for some SDGs is consistently low, even though AR typically is not affected by data availability. For example, only 49% of the VLRs use AR approach to review SDG 14 (Life Below Water), suggesting the difficulty in connecting this goal to local actions. Similar challenges, although to a lesser degree, are seen for SDGs 7 (Affordable and Clean Energy) and 10 (Reduced Ineqaulities).\n### Factors affecting SDG reviews through VLRs\nDespite the varying levels of attention each SDG receives in VLRs, there is limited understanding of the factors influencing the selection of SDGs and the review approaches used. Understanding these factors is crucial for identifying strategies to expand the scope and depth of the follow-up and review of the SDGs through VLRs. This paper employs statistical analysis of the best available data to examine factors influencing the scope and approach of SDG reviews in VLRs, including a city’s geographic location, resource availability, international influences, VLR experience, and broader national context.\nWe employed Linear Mixed Models (LMMs) to examine the effects of country- and city-level predictors on SDG review scores, incorporating interaction terms to assess their interplay. Detailed specifications of the models are provided in the Methods section. Table 2 presents the results of models with explanatory variables selected to evaluate these relationships and to collectively optimize model fit and parsimony. We also perform z-test to compare a variable’s respective contribution to total outcome-based review scores (TORS) and total action-based review scores (TARS).\nThe results highlight the role of local resources in SDG reviews, a factor frequently discussed in the literature about uneven sustainable development globally54. Using per capita city GDP as a proxy, we found that cities’ higher resource levels are positively associated with more comprehensive SDG reviews across both outcome-based and action-based review approaches. This effect is stronger for outcome-based review (B = 0.22, p = 0.03) than for action-based review (B = 0.17, p = 0.09), although the difference is not statistically significant. This finding aligns with existing literature showing that resource availability often constrains data-driven, outcome-based reviews55. Additionally, the three interaction terms involving the city resource measure reveal that national-level SDG initiatives—such as official commitments to the SDGs, integration of the SDGs into the national budget, and national SDG FUR systems—enhance the contribution of city-level resources to SDG review scope, as indicated by statistically significant coefficients.\nMost city-level variables exhibit expected effects on the SDG review scopes. Larger cities ( >1 million), those with experience from multiple VLR editions, and cities with stable or growing populations are positively associated with broader SDG review scopes, particularly for total outcome-based review scores (TORS). These findings suggest that larger cities, typically with greater institutional capacities, face fewer data constraints for outcome-based reviews. Cities may also expand their outcome-based SDG reviews as they develop information infrastructure through repeated VLR practices. Stable or growing cities and repeated VLR practices show statistically significant greater contributions to TORS than to TARS (see the z-test results in Table 2). The higher TORS by stable or growing cities likely reflect their increased resources from economic development and the need to address rising urbanization challenges.\nThe model presents mixed findings regarding the influence of international factors on SDG reviews. Two temporal variables, Year 2020 and Year 2021, capture how the HLPF and global crises shaped the selection of SDGs reviewed. In 2020, the HLPF called on countries to address all SDGs, while in 2021, cities used VLRs to reflect on the challenges and responses to the COVID-19 pandemic. The results show that cities significantly expanded their action-based SDG reviews during these years compared to 2018, 2019, and 2022. In contrast, the variables measuring cities’ collaboration with international organizations and the influence of international guidelines shows no statistically significant effect on SDG review scores, although it shows a positive association.\nMost country-level variables demonstrate the expected effects on local SDG reviews, although their statistical significance varies. Higher national statistical performance, an official declaration of commitment to the SDGs, and the establishment of national SDG FUR systems are consistently associated with broader local SDG reviews. However, a surprising finding emerges: integrating the SDGs into a country’s budget is associated with less comprehensiveness local reviews. Existing literature suggests that countries often prioritize specific SDGs in their national agendas45, likely leading to selective rather than comprehensive approaches to integrating the SDGs into national budgets. To explore this, we analyzed 9 countries identified as integrating the SDGs into their budgets: Argentina, Canada, Colombia, Finland, Japan, Malaysia, Mexico, Spain, and Sweden. Among these, all but two (Finland and Sweden) adopt a selective approach, focusing on specific SDGs. This selectivity at the national level may shape cities’ selection of SDGs, potentially narrowing the scope of their reviews. This reasoning may also help explain another unexpected finding: cities with national or regional capital status tend to have narrower SDG review scopes. While the reasons for this observation are not entirely clear, it may stem from the alignment of these capitals with national strategies.\nOverall, our models effectively explain the variations in the SDG total review scores (TRS) and the total review scores by the two approaches (TORS and TARS). The likelihood ratio test (LRT) values for all models, compared to their respective null models, are statistically significant (p < 0.05), indicating that the inclusion of predictor variables significantly improves model fit. Marginal R-squared values show that the independent variables explain approximately 39% of the variation in the TRS, 34% in TORS, and 25% in TARS. This suggests that a city’s TARS is, on average, less influenced by the commonly considered factors compared to the other review approach (TORS). Including random effects increases the explained variation by an additional 5% to 6%, as shown by conditional R-squared values, underscoring the role of country-level influences. The intraclass correlation coefficient (ICC) further highlights the significance of country-level random effects, with 10.6% of the variance in TRS, 6.7% in TORS, and 19.1% in TARS, that can be attributed to differences at the country-level. These findings validate the two-level nested structure of the data, emphasizing the interaction between city- and country-level factors, both conceptually and methodologically.",
+            "cites": [
+                "ref-CR16",
+                "ref-CR55",
+                "ref-CR27",
+                "ref-CR50",
+                "ref-CR45",
+                "ref-CR51",
+                "ref-CR25",
+                "ref-CR29",
+                "ref-CR34",
+                "ref-CR26",
+                "ref-CR54",
+                "ref-CR53",
+                "ref-CR47",
+                "ref-CR48",
+                "ref-CR49",
+                "ref-CR24",
+                "ref-CR52",
+                "ref-CR30"
+            ],
+            "figures": [
+                "figure-3",
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Local governments, especially municipalities, play a critical role in achieving the SDGs by operationalizing, implementing, and monitoring these Global Goals at the local level17,56. Voluntary Local Reviews (VLRs) have emerged as a key tool to help cities track their SDG performance and contribute to global monitoring efforts, despite being excluded from official follow-up and review processes57. By 2022, the midpoint of the 15-year period to achieve the SDGs, more than 150 VLR reports had been produced by over 120 municipalities. This study highlights significant disparities in the scope and approaches of SDG reviews in VLRs, shedding light on the barriers that limit their comprehensiveness.\nThis paper contributes to the emerging literature aimed at developing a systematic understanding of local-level follow-up and review of the SDGs25,58. Our exploratory analysis examines factors influencing the comprehensiveness of SDG reviews in VLRs operating at two levels: city-level and external factors (national and international).\nOur research suggests that while a city’s financial and institutional resources influence the scope of SDG reviews, capacity-building pathways exist to enhance these reviews. Resource limitations constrain the overall review scope, but they have a greater impact on outcome-based reviews due to their heavy reliance on quantitative data, compared to action-based reviews that focus on describing SDG implementation. Treating VLRs as iterative processes rather than one-time reports—evident through multiple editions with updated data and strategies—enables cities to achieve greater comprehensiveness in their reviews. The iterative approach fosters continuous learning, strengthening cities’ capacity to follow up on and review SDG progress over time. The positive association between urban growth and SDG review scope may reflect rising pressures driving greater responses, as well as increased collaborative governance and stakeholder engagement, as frequently observed in VLRs from expanding cities. These findings highlight the need for future research to explore mechanisms involving stakeholder participation and other unmeasured factors shaping SDG reviews.\nOur analysis indicates that both international and national factors influence the comprehensiveness of SDG reviews, though much remains to be explored. The findings suggest that the HLPF and the interaction between global events and local conditions shape SDG review practices. However, support from international organizations and their guidelines for conducting VLRs appear to have limited influence. In contrast, country-level factors demonstrate a more significant impact. Various forms of national alignment with SDGs—excluding budget integration—can broaden the scope of VLRs.\nFurthermore, all forms of national SDG alignment enhance the positive effects of city-level resources on SDG review scope. These effects operate independently of city-level factors, highlighting the potential for national efforts to help cities address resource constraints and conduct more comprehensive reviews. Given the critical role of local governments in SDG implementation, national strategies should adopt holistic approaches to support local efforts actively. These findings also suggest that voluntary review mechanisms at other governance levels—including regional governments, sections within a city, joint VLRs between a local and a regional government, among others59—may create multi-level dynamics as SDG reviews expand. Understanding multi-level interactions becomes increasingly important for broader SDG implementation and reviews.\nWhile our regression analyses do not examine individual SDGs, our descriptive analysis of geographic and temporal patterns, combined with detailed readings of VLR reports, identifies two key factors influencing the selection of SDGs in local-level FUR through VLRs: (1) the relevance of specific SDGs to the functional roles and areas of authority of cities, and (2) the applicability of SDGs to local conditions and challenges.\nSDGs closely aligned with cities’ functional responsibilities are more likely to be selected in VLRs. For instance, SDG 11 (Sustainable Cities and Communities)—often called the “Urban Sustainable Development Goal”—receives the most attention. Its ten city-focused targets—such as housing, transportation, cultural heritage preservation, disaster response, and air quality—align closely with local government’s existing policy mechanisms. Many VLRs indicate that cities are well-equipped to address these targets through established actions (action-based reviews) and the use of readily available data and indicators (outcome-based reviews). This alignment facilitates a more straightforward and effective follow-up and review process for SDG 11. Other SDGs, such as SDG 3 (Good Health and Well-being) and SDG 13 (Climate Action), are reviewed frequently due to their universal relevance, often amplified by global crises like the COVID-19 pandemic and climate change. For example, SDG 3 saw a significant increase in reviews during 2020 and 2021, reflecting the pandemic’s widespread impact. Similarly, SDG 13 consistently ranks among the top three most reviewed goals, underscoring the urgency of addressing climate challenges.\nConversely, some SDGs face operational challenges that limit their review in VLRs. For instance, SDG 10 (Reduced Inequalities) addresses migration policy, trade agreements, and fiscal decisions—areas typically beyond the jurisdiction of city governments. Similarly, SDG 14 (Life Below Water) focuses on issues like tourism, fishing regulations, and coastal management, which are often shaped by national-level policies. These jurisdictional limitations can reduce cities’ willingness or capacity to engage with these goals. Consequently, SDG 10 and 14 are frequently underrepresented in VLRs, even in cities dealing with socioeconomic inequalities or located near rivers and coastal areas.\nThis paper suggests that efforts to promote VLR implementation must go beyond technical support and resource provision to address the mismatch between the global scope of the SDGs and the specific authority and contextual realities of cities—key implementers of many targets. Since 2020, an increasing number of UN agencies have provided guidelines and participated directly in these reviews26,28,29,30,31,33,34. However, most support focuses on technical issues, such as identifying indicators and analyzing data. A critical challenge lies in reframing the SDGs to align with cities’ jurisdictions and designing specific targets accordingly36,60. This requires a thorough assessment of the 169 targets to ensure their relevance to local governments’ responsibilities and their ability to address specific local issues49,61. Localization is now an integral part of many VLRs processes, which usually help to translate the SDGs to the local context36,37,57,62. However, this remains a complex and labor-intensive task that needs considerable human, technical, and financial resources as well as significant local knowledge63,64. When approached on a one-by-one basis, this localization process often lacks replicability. A more scalable approach could involve establishing a national SDG FUR framework for local governments. For instance, the SDG monitoring framework for German municipalities provides tailored indicators with available data for local governments over 5000 inhabitants20, serving as an example of how comprehensive and locally relevant targets and indicators can be developed within a national context.\nBeyond emphasizing the need for mechanisms that empower cities to play a meaningful role in shaping global agendas, this paper calls for a broader discussion on two fundamental questions: What is the true purpose and focus of VLRs? And how do current VLR practices impact equity? Future research should aim to provide clearer answers to these questions.\nThe purpose of VLRs remains contested. Scholars continue debating whether Voluntary Local Reviews (VLRs) should serve as rigorous, scientific evaluations of urban SDG progress—assessing specific goals and targets—or whether they should also function as political instruments, which often proves both inevitable and potentially advantageous in practice56,64. Cities leverage VLRs to achieve various objectives, such as enhancing their international standing, gaining national recognition, influencing policymaking, and advocating for funding opportunities. These dual roles, serving both as assessment and advocacy tools, highlight the complex position of VLRs within local and global governance.\nThe equity implications of current VLR practices warrant careful consideration. Emphasizing a holistic SDG review scope may inadvertently disadvantage low-resourced cities. Our findings suggest that action-based reviews, less affected by resource availability, offer a more viable option for cities with financial or institutional constraints. However, as Persson et al.44 note, action-based reporting does not always reflect actual implementation, as cities may include planned projects that are not fully realized. While comprehensiveness in SDG reviews is often considered valuable, a growing debate questions its desirability45. Cities should prioritize making their VLRs as useful as possible for addressing their unique sustainable development challenges. Rather than aiming to meet global ambitions through comprehensive reviews, VLRs should serve as practical tools to guide local efforts toward achieving the SDGs. Similar questions are currently being addressed at the national level45. Further research should investigate effective strategies for aligning VLRs with local needs and priorities.\nWhile international organizations can play a key role in addressing resource-related challenges, further research is needed to develop review approaches that are less resource-intensive and more equitable. Strategies that empower cities to conduct effective FUR processes that inform local policymaking, regardless of resource availability, are essential to ensuring that VLRs become meaningful tools for achieving the SDGs.",
+            "cites": [
+                "ref-CR44",
+                "ref-CR61",
+                "ref-CR34",
+                "ref-CR49",
+                "ref-CR33",
+                "ref-CR36",
+                "ref-CR28",
+                "ref-CR45",
+                "ref-CR60",
+                "ref-CR20",
+                "ref-CR29",
+                "ref-CR62",
+                "ref-CR64",
+                "ref-CR56",
+                "ref-CR17",
+                "ref-CR30",
+                "ref-CR58",
+                "ref-CR37",
+                "ref-CR25",
+                "ref-CR31",
+                "ref-CR26",
+                "ref-CR63",
+                "ref-CR59",
+                "ref-CR57"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### VLR reports included in the study\nOur study analyzes VLR reports from municipal governments produced between 2018 to 2022. We chose 2018 as the initial year because it marks the formal inception of VLRs with the launch of reports from New York City (US), Kitakyushu City, Shimokawa Town, and Toyama City (Japan) during the 2018 HLPF. We retrieved these reports from four international databases—UCLG, IGES’ VLR Lab, UNDESA, and UN-HABITAT (see Supplementary Table 6). During our data collection period (August–October 2023), all VLR reports available in these databases were downloaded, named with the year and local authority to organize the records, and duplicate reports were removed to create a dataset of unique reports. All available reports were compiled with a cut-off year of 2022, acknowledging the time lag between a report’s target review year and its final publication year. However, as VLRs are not officially recognized by the United Nations (Narang Suri et al. 2021), there are usually delays between a VLR’s publication and its inclusion in an online database, which can result in the omission of some reports. These delays, which reflect the bottom-up nature of the VLR process, are due to local authorities independently developing and disseminating their reports.\nAs of October 2023, the online repositories contain 154 reports produced by municipal governments assessing their SDG performance for the period from 2018 to 2022. This study excludes three reports because, while they describe VLR processes, they provide little or no information about the review results. The remaining 151 VLR reports were produced by 121 cities (see Supplementary Table 2 and Supplementary Table 4), with 22 cities updating their reports and producing follow-up editions that involved changing the SDGs reviewed, updating data, or using different approaches. The municipalities studied include various local government units directly responsible for providing public services and shaping local development through policy and investment decisions. Despite variations in population and size, most municipalities in our sample have a mayor or council that is explicitly referenced in their respective reports.\n### Coding and data processing\nBoth authors, along with a research assistant, read all VLR reports and independently coded each one; following this initial coding, both authors compared the coding results. In most cases, VLR reports are published in both the local language and in English; however, some reports are available only in the local language. Ortiz-Moya conducted direct reviews of non-English reports in Spanish, Portuguese, Italian, and French, while Yang examined English translations of these reports. For reports in Albanian, German, and Norwegian, we used the DeepL Translate and Google Translate to generate English translations, which both authors then reviewed. Extensive discussions were undertaken to resolve any discrepancies between the authors’ coding outcomes. The coding results underwent further processing to facilitate subsequent statistical analyses.\nTwo dichotomous indicators were created for each SDG–an Outcome-based Review Indicator (ORI) and an Action-based Review Indicator (ARI), serving to indicate the two SDG’s review approaches, respectively. While this study focuses on reviews at the Goal level, we acknowledge that target-level analysis could provide deeper insights into follow-up and review processes. However, many VLRs do not consistently provide detailed information at the target level, and in some cases, Goals are grouped under broader themes corresponding with municipal strategies. These inconsistencies make systematic target-level analysis unfeasible within the scope and timeframe of this study.\nIf a report reviews an SDG using one or more quantitative indicators to assess SDG-specific city-wide conditions, the SDG’s ORI is coded as 1. If a report reviews an SDG by presenting one or more actions taken to improve relevant conditions, it receives a code of 1 for the SDG’s ARI. Acceptable actions include implementation of policies, programs, and/or projects and their performances if data is available. Generic descriptions of city functions are excluded from being counted as response actions. Additionally, initiatives or activities taken up by local nonprofit organizations (civil society organizations) without the backing of clear municipal policies were not counted. This approach does not assess the quality of the outcome-based or action-based reviews in a VLR report, such as their alignment with the UN’s official set of indicators or specific SDG targets. As an example of Outcome-based Review, the city of Barcelona, in its 2021 VLR report, includes several indicators for each SDG. For instance, among the indicators used to measure progress toward SDG 1 are the “percentage of homeless people assisted,” the “severe material deprivation ratio,” and the “days waiting for the first appointment with municipal social services.” For SDG 11, indicators include the “proportion of families allocating more than 40% of their resources to housing expenditure,” the “degree of bus fleet electrification,” and the “surface area of non-woodland urban green areas”65. In these and similar instances, the SDG’s ORI is coded as 1.\nThere is greater variability in Action-based Review, as cities often showcase different programs to address the SDGs. In some cases, initiatives are linked to a single SDG. For example, Buenos Aires’ 2022 VLR highlights several initiatives to implement SDG 4. Among them is the “Escuelas Verdes (Green Schools)” program, which aims to “promote sustainable development through education and the environmental management of schools”66. In this instance, SDG 4’s ARI is coded as 1. In other VLR reports, one action relates to multiple SDGs. For example, Tokyo’s 2021 VLR presents 21 strategies, each aligned with several SDGs. The strategy “Promoting Women’s Empowerment” is linked to SDGs 3, 4, 5, 8, and 1767. In this case, the ARI for SDGs 3, 4, 5, 8, and 17 are all coded as 1.\nAggregating the ORI and ARI allows the creation of a series of SDG Review Scores (RS), which facilitates examination of the scope of SDG reviews across all reports. These RSs include the following for a report: RS for an individual SDG (RS_SDGi), Total Review Score (TRS), Total Review Score of Outcome-based Reviews (TORS), and Total Review Score for Action-based Reviews (TARS).\nThe TRS is used to screen out VLR reports that do not include SDG reviews using any of the two approaches considered in this study, leading to the elimination of three reports from further analyses. Consequently, a total of 151 VLRs from 122 cities are included in the statistical analysis.\nA series of contextual variables were considered in examining factors associated with SDG review approaches and scope. Whenever possible, most municipality-specific contextual variables were obtained or derived directly from their respective VLR reports. While the methods for constructing these variables are generally self-explanatory, additional explanations are provided for those requiring further clarification.\nTo measure the level of international exposure, suggested by Ruiz-Campillo and Nieva38 as a factor influencing cities’ decision to conduct a VLR, two indicators were generated. One indicates whether a VLR follows international guidelines and the other the involvement of international organizations in VLR report development. This process involved a thorough review of reports and a keyword search using terms such as “guideline,” “guidelines,” “handbook,” and “manual” throughout the text of the entire report to identify whether and which international guidelines were referenced. The emphasis was on scrutinizing the influence of well-known guidelines authored by international organizations, such as the “Asia-Pacific Regional Guidelines on Voluntary Local Reviews: Reviewing local progress to accelerate action for the Sustainable Development Goals” by UNESCAP26, the “European Handbook for SDG Voluntary Local Reviews” by the EU-Joint Research Center27,32, and the “Guidelines for Voluntary Local Reviews” by UCLG and UN-Habitat29, among others (see Supplementary Table 5). Similarly, efforts were made to ascertain the engagement of various international organizations known for their active technical and financial support for cities to undertake VLRs. These organizations include several UN Agencies as well as United Cities and Local Governments (UCLG), the European Union, Local Governments for Sustainability (ICLEI), among others. The two indicators are combined into a single variable to represent the degree of international influence, where the presence of international organization collaboration and references to international guidance together signify strong international influence. All three variables were tested in the modeling process.\nThe broader geographic region category was based on the United Nations Statistics Division classification of countries; including Africa, Asia, Europe, the Americas, and Oceania. Given that between 2018 and 2022 there was only one report from Oceania, this report is included in the Asia region to generate meaningful results. Moreover, the broader category of the Americas was divided into Northern America, and Latin America and the Caribbean to better reflect on the different levels of engagement observed between the two sub-regions.\nTable 3 summarizes the variables included in the subsequent analysis, along with their descriptive statistics and data source descriptions. Please note that while all variables listed in the table were tested in the statistical modeling, only a subset was included in the final models, selected based on their statistical significance and contributions to overall model performance.\n### Analytical process\nWe conduct descriptive analyses to identify patterns and trends in SDG review approach and scope presented in the 151 VLR reports. These analyses allow us to compare SDG reviews from year to year and across different regions. We also perform regression analyses to explore the association of various factors on a city’s selections of SDGs in their reviews. Our statistical analyses aim to identify the association of cities’ SDG reviews with proxy measures of city resources, experience in conducting VLRs, international exposure, and its country’s SDG support. While we acknowledge that these analyses do not provide a complete account of all factors influencing the selection of SDGs under review and the approaches utilized, they represent a significant step toward theory development.\nOur analysis utilizes a series of Linear Mixed Models (LMMs) to examine the effects of predictors operating at two hierarchical levels: the country level (Level 2) and the city level (Level 1). The dependent variable is alternately specified as the total review score (TRS), the total review scores for outcome-based approach (TORS), or action-based approach (TARS). All models are estimated using the restricted maximum likelihood method and initially include the independent variables outlined below. To achieve a more parsimonious model and improve fit, some explanatory variables are excluded in the final models based on their statistical significance and contributions to fit indices, such as Akaike Information Criterion (AIC) and -2 Log Likelihood. Additionally, interaction terms are included to test the hypothesis that country-level support for SDG modifies the relationship between city-level factors (e.g., resource availability) and SDG review scores. These interactions allow for an exploration of how contextual country-level factors influence the role of city-level characteristics in shaping the scope and approach of SDG reviews. The sample size for the Linear Mixed Model (LMM) analysis was reduced to 122 observations to meet the statistical assumption that each country must have at least three or more Voluntary Local Review (VLR) cases. This criterion ensures sufficient within-group observations to reliably estimate both fixed and random effects in the hierarchical model.\nModel Structure specification for the linear mixed models is depicted below:\nWhere:\nDependent Variable (DV): The dependent variable represents a review score and can be one of the following:\nModel Components",
+            "cites": [
+                "ref-CR32",
+                "ref-CR27",
+                "ref-CR66",
+                "ref-CR29",
+                "ref-CR38",
+                "ref-CR26",
+                "ref-CR65",
+                "ref-CR67"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Caveats and future research",
+            "text": "While this study aims to comprehensively include all VLRs globally, it is not possible to exhaustively cover all VLRs due to definitional ambiguities—i.e., lack of a common understanding of which elements are needed for a follow-up and review exercise of the SDGs at the local level to make a VLR—and uncertain initiation dates. For instance, Ruiz-Campillo and Nieva38 consider reports from as early as 2016, despite acknowledging 2018 as the “formal beginning” of VLRs. Additionally, international VLR repositories only include voluntarily submitted reports, potentially omitting some VLRs not submitted by their respective local governments. We set October 2023 as the cut-off to accommodate the delay in the inclusion of VLR reports covering up to 2022 in online repositories; however, this cut-off date may still result in the exclusion of some reports. Therefore, it is necessary to conduct longitudinal studies to effectively monitor the implementation and evolution of VLRs.\nThis paper uses content analysis to identify the scope of SDG reviews using two approaches, coded in a dichotomous fashion. While this ensures high-level consistency in coding, the resulting measures only indicate the presence or absence of SDG reviews in quantitative terms, without assessing the depth and quality of the reviews. To effectively study the quality of VLRs, more in-depth research is necessary, relying on local knowledge and even ground truthing. As our findings indicate a possible correlation between VLR experience and local sustainability competencies, future research based on a case study methodology should help improve our understanding of the qualitative improvements in VLRs.\nThis study employs regression analysis to examine the factors influencing the scope of SDG reviews through VLRs. A key challenge with this approach is the inability to include all relevant contextual variables. This limitation arises from working with a diverse set of cities, which restricts the availability of consistent contextual data. Additionally, this method falls short in capturing the nuanced relationships between factors that cannot be quantified. For example, stakeholder engagement in the VLR process is mentioned in almost all reports, but substantial variation in engagement approaches and depth makes it difficult to systematically quantify this dimension due to insufficient information.\nExpanding theories to explain variations in VLR outputs will require improvements in both data availability and conceptual frameworks. Future research should incorporate direct inquiries, such as interviews and surveys with city representatives, to gain deeper insights into their VLR processes and SDG reviews. An example of this approach is demonstrated in the work of Ortiz-Moya and Reggiani22. Such efforts are particularly important for understanding how to make investments and resources from international organizations more effective in scaling up VLR practices and improving their quality.\nFuture research should also refine the conceptual framework to better capture interactions between voluntary reviews within multilevel review mechanisms. For example, scholars could examine how subnational voluntary review mechanisms, particularly Voluntary Subnational Reviews (VSRs), influence city-level VLRs. A key question is whether cities’ participation in VSRs could have influenced the scope and approach of SDG review in their VLRs. While empirical testing of these relationships with the current dataset was not feasible due to the limited overlap of cities engaged in both VLRs and VSRs, this emerging dynamic warrants examination as SDG reporting expands across government tiers. We hope this research serves to lay the groundwork for a systematic understanding of local SDG reviews, advancing toward robust, testable theories to inform policy and practice.",
+            "cites": [
+                "ref-CR22",
+                "ref-CR38"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Geographic distribution of municipalities that have published at least one VLR report between 2018 and 2022, categorized by population size.",
+            "figure-caption": "N refers to the number of VLR reports. World map showing cities that published Voluntary Local Reviews (VLRs), represented as colored circles by population size: Green circles: Very small cities (population <50,000); 15 VLRs (N = 15). Blue circles: Small cities (population 50,000–200,000); 24 VLRs. Yellow circles: Medium-sized cities (population 200,000–1 million); 65 VLRs. Red circles: Large cities (population 1–10 million); 42 VLRs. Brown circles: Mega cities (population >10 million); 5 VLRs.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00243-7/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Average total review score (TRS) for each SDG by geographic region.",
+            "figure-caption": "Radar maps illustrating the average TRS for each SDG by geographic region, presented in six panels (a–f): a Radar map for 2018 VLRs: The blue polygon represents TRS scores for 4 VLRs from Asian cities, the orange polygon for 1 VLR from a Latin American and Caribbean (LAC) city, the red polygon for 2 VLRs from European cities, and the green polygon for 1 VLR from a North American city. b Radar map for 2019 VLRs: The blue polygon represents TRS scores for 3 VLRs from Asian cities, the orange polygon for 5 VLRs from LAC cities, the red polygon for 7 VLRs from European cities, and the green polygon for 2 VLRs from North American cities. c Radar map for 2020 VLRs: The blue polygon represents TRS scores for 5 VLRs from Asian cities, the orange polygon for 9 VLRs from LAC cities, the red polygon for 11 VLRs from European cities, the green polygon for 1 VLR from a North American city, and the purple polygon for 4 VLRs from African cities. d Radar map for 2021 VLRs: The blue polygon represents TRS scores for 15 VLRs from Asian cities, the orange polygon for 8 VLRs from LAC cities, the red polygon for 16 VLRs from European cities, the green polygon for 4 VLRs from North American cities, and the purple polygon for 1 VLR from an African city. e Radar map for 2022 VLRs: The blue polygon represents TRS scores for 12 VLRs from Asian cities, the orange polygon for 25 VLRs from LAC cities, the red polygon for 14 VLRs from European cities, and the green polygon for 1 VLR from a North American city. f Radar map for all VLRs (2018–2022): The blue polygon represents TRS scores for 39 VLRs from Asian cities, the orange polygon for 48 VLRs from LAC cities, the red polygon for 50 VLRs from European cities, the green polygon for 9 VLRs from North American cities, and the purple polygon for 5 VLRs from African cities.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00243-7/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Share of VLR reports reviewing each SDG by approach.",
+            "figure-caption": "Line graphs depicting the percentage share of reviews for each SDG using outcome-based, action-based, and combined approaches, summarised for VLRs from 2018 to 2022, presented across six panels (a–f): a Share of SDG reviews by approach in 2018 VLRs. The blue line represents outcome-based reviews, the red line action-based reviews, and the gray dotted line combined approaches. Pronounced peaks, valleys, and large gaps are visible across SDGs, with the red line consistently leading, followed by the blue line and the gray dotted line. b Share of SDG reviews in 2019 VLRs. The red line continues to lead, followed by the blue line and the gray dotted line, with peaks, valleys, and large gaps across SDGs, similar to panel (a). c Share of SDG reviews in 2020 VLRs. Peaks and valleys remain, but gaps between the lines are smaller compared to panels (a) and (b). The red line still leads, followed by the blue line and the gray dotted line, with a narrower gap between the red and blue lines. d Share of SDG reviews in 2021 VLRs. Peaks and valleys persist, with gaps smaller than in panels (a) and (b) but larger than in panel (c). The red line remains the leader, followed by the blue line and the gray dotted line, with a narrowing gap. e Share of SDG reviews in 2022 VLRs. Peaks and valleys are evident, with gaps smaller than in panels (a) and (b) but larger than in panel (c). The red line leads consistently, followed by the blue line and the gray dotted line, with a narrower gap compared to earlier years. f Share of SDG reviews across all 2018–2022 VLRs. Peaks and valleys persist, with gaps smaller than in panels (a) and (b) but larger than in panels (c) and (d). The red line leads, followed by the blue line and the gray dotted line, with a gap narrower than in panels (a) and (b) but wider than in panels (c) and (d). The X-axis displays the 17 SDGs, and the Y-axis represents the percentage share of reviews for each approach.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00243-7/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "UNGA, (United Nations General Assembly). Transforming our world: the 2030 Agenda for Sustainable Development. (2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Sachs, J., Kroll, C., Lafortune, G., Fuller, G. & Woelm, F. Sustainable Development Report 2021. (Cambridge University Press, 2021). https://doi.org/10.1017/9781009106559.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Sachs, J., Lafortune, G. & Fuller, G. Sustainable Development Report 2024: The SDGs and the UN Summit of the Future. (Dublin University Press, 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "United Nations. Progress towards the Sustainable Development Goals: Towards a Rescue Plan for People and Planet. Report of the Secretary-General (Special Edition). (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Yin, C., Zhao, W., Fu, B., Meadows, M. E. & Pereira, P. Key axes of global progress towards the Sustainable Development Goals. J. Clean. Prod. 385, 135767 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2022.135767",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Key%20axes%20of%20global%20progress%20towards%20the%20Sustainable%20Development%20Goals&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2022.135767&volume=385&publication_year=2023&author=Yin%2CC&author=Zhao%2CW&author=Fu%2CB&author=Meadows%2CME&author=Pereira%2CP"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Yuan, H. et al. Progress towards the Sustainable Development Goals has been slowed by indirect effects of the COVID-19 pandemic. Commun. Earth Environ. 4, 1–13 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs43247-023-00846-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Progress%20towards%20the%20Sustainable%20Development%20Goals%20has%20been%20slowed%20by%20indirect%20effects%20of%20the%20COVID-19%20pandemic&journal=Commun.%20Earth%20Environ.&doi=10.1038%2Fs43247-023-00846-x&volume=4&pages=1-13&publication_year=2023&author=Yuan%2CH"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Zhao, W. et al. Achieving the sustainable development goals in the post-pandemic era. Humanit. Soc. Sci. Commun. 9, 1–7 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1057%2Fs41599-022-01283-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Achieving%20the%20sustainable%20development%20goals%20in%20the%20post-pandemic%20era&journal=Humanit.%20Soc.%20Sci.%20Commun.&doi=10.1057%2Fs41599-022-01283-5&volume=9&pages=1-7&publication_year=2022&author=Zhao%2CW"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Erin, O. A., Bamigboye, O. A. & Oyewo, B. Sustainable development goals (SDG) reporting: an analysis of disclosure. J. Account. Emerg. Econ. 12, 761–789 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sustainable%20development%20goals%20%28SDG%29%20reporting%3A%20an%20analysis%20of%20disclosure&journal=J.%20Account.%20Emerg.%20Econ.&volume=12&pages=761-789&publication_year=2022&author=Erin%2COA&author=Bamigboye%2COA&author=Oyewo%2CB"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Pattberg, P. & Bäckstrand, K. Enhancing the achievement of the SDGs: lessons learned at the half-way point of the 2030 Agenda. Int. Environ. Agreem. Polit. Law Econ. 23, 107–114 (2023).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Enhancing%20the%20achievement%20of%20the%20SDGs%3A%20lessons%20learned%20at%20the%20half-way%20point%20of%20the%202030%20Agenda&journal=Int.%20Environ.%20Agreem.%20Polit.%20Law%20Econ.&volume=23&pages=107-114&publication_year=2023&author=Pattberg%2CP&author=B%C3%A4ckstrand%2CK"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Van Driel, M., Biermann, F., Kim, R. E. & Vijge, M. J. International organisations as ‘custodians’ of the sustainable development goals? Fragmentation and coordination in sustainability governance. Glob. Policy 13, 669–682 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2F1758-5899.13114",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=International%20organisations%20as%20%E2%80%98custodians%E2%80%99%20of%20the%20sustainable%20development%20goals%3F%20Fragmentation%20and%20coordination%20in%20sustainability%20governance&journal=Glob.%20Policy&doi=10.1111%2F1758-5899.13114&volume=13&pages=669-682&publication_year=2022&author=Driel%2CM&author=Biermann%2CF&author=Kim%2CRE&author=Vijge%2CMJ"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Biermann, F., Kanie, N. & Kim, R. E. Global governance by goal-setting: the novel approach of the UN Sustainable Development Goals. Curr. Opin. Environ. Sustain. 26–27, 26–31 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cosust.2017.01.010",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20governance%20by%20goal-setting%3A%20the%20novel%20approach%20of%20the%20UN%20Sustainable%20Development%20Goals&journal=Curr.%20Opin.%20Environ.%20Sustain.&doi=10.1016%2Fj.cosust.2017.01.010&volume=26%E2%80%9327&pages=26-31&publication_year=2017&author=Biermann%2CF&author=Kanie%2CN&author=Kim%2CRE"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Kanie, N. et al. Rules to goals: emergence of new governance strategies for sustainable development. Sustain. Sci. 14, 1745–1749 (2019).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11625-019-00729-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rules%20to%20goals%3A%20emergence%20of%20new%20governance%20strategies%20for%20sustainable%20development&journal=Sustain.%20Sci.&doi=10.1007%2Fs11625-019-00729-1&volume=14&pages=1745-1749&publication_year=2019&author=Kanie%2CN"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Long, G., Censoro, J. & Rietig, K. The sustainable development goals: governing by goals, targets and indicators. Int. Environ. Agreem. Polit. Law Econ. 23, 149–156 (2023).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20sustainable%20development%20goals%3A%20governing%20by%20goals%2C%20targets%20and%20indicators&journal=Int.%20Environ.%20Agreem.%20Polit.%20Law%20Econ.&volume=23&pages=149-156&publication_year=2023&author=Long%2CG&author=Censoro%2CJ&author=Rietig%2CK"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Beisheim, M. & Fritzsche, F. The UN High-Level Political Forum on Sustainable Development: An orchestrator, more or less?. Glob. Policy 13, 683–693 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2F1758-5899.13112",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20UN%20High-Level%20Political%20Forum%20on%20Sustainable%20Development%3A%20An%20orchestrator%2C%20more%20or%20less%3F&journal=Glob.%20Policy&doi=10.1111%2F1758-5899.13112&volume=13&pages=683-693&publication_year=2022&author=Beisheim%2CM&author=Fritzsche%2CF"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Elder, M. & Ellis, G. ASEAN countries’ environmental policies for the Sustainable Development Goals (SDGs). Environ. Dev. Sustain. 25, 10975–10993 (2023).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10668-022-02514-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=ASEAN%20countries%E2%80%99%20environmental%20policies%20for%20the%20Sustainable%20Development%20Goals%20%28SDGs%29&journal=Environ.%20Dev.%20Sustain.&doi=10.1007%2Fs10668-022-02514-0&volume=25&pages=10975-10993&publication_year=2023&author=Elder%2CM&author=Ellis%2CG"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Graute, U. Local Authorities Acting Globally for Sustainable Development. Reg. Stud. 50, 1931–1942 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F00343404.2016.1161740",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local%20Authorities%20Acting%20Globally%20for%20Sustainable%20Development&journal=Reg.%20Stud.&doi=10.1080%2F00343404.2016.1161740&volume=50&pages=1931-1942&publication_year=2016&author=Graute%2CU"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "OECD. A Territorial Approach to the Sustainable Development Goals: Synthesis report. (OECD Publishing, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "OECD. OECD Toolkit for a Territorial Approach to the SDGs. (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Ruan, F. The complexity of the urban system: Profiles based on current literature and gaps with Sustainable Development Goals. Sustain. Dev. 31, 2137–2154 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fsd.2540",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20complexity%20of%20the%20urban%20system%3A%20Profiles%20based%20on%20current%20literature%20and%20gaps%20with%20Sustainable%20Development%20Goals&journal=Sustain.%20Dev.&doi=10.1002%2Fsd.2540&volume=31&pages=2137-2154&publication_year=2023&author=Ruan%2CF"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Jossin, J. & Peters, O. Sustainable Development Goals (SDG) indicators for municipalities: a comprehensive monitoring approach from Germany. J. Urban Ecol. 8, juac020 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fjue%2Fjuac020",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sustainable%20Development%20Goals%20%28SDG%29%20indicators%20for%20municipalities%3A%20a%20comprehensive%20monitoring%20approach%20from%20Germany&journal=J.%20Urban%20Ecol.&doi=10.1093%2Fjue%2Fjuac020&volume=8&publication_year=2022&author=Jossin%2CJ&author=Peters%2CO"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Ciambra, A., Siragusa, A., Proietti, P. & Stamos, I. Monitoring SDG localisation: an evidence-based approach to standardised monitoring frameworks. J. Urban Ecol. 9, juad013 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fjue%2Fjuad013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Monitoring%20SDG%20localisation%3A%20an%20evidence-based%20approach%20to%20standardised%20monitoring%20frameworks&journal=J.%20Urban%20Ecol.&doi=10.1093%2Fjue%2Fjuad013&volume=9&publication_year=2023&author=Ciambra%2CA&author=Siragusa%2CA&author=Proietti%2CP&author=Stamos%2CI"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Ortiz-Moya, F. & Reggiani, M. Contributions of the voluntary local review process to policy integration: evidence from frontrunner cities. Npj Urban Sustain 3, 1–8 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs42949-023-00101-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Contributions%20of%20the%20voluntary%20local%20review%20process%20to%20policy%20integration%3A%20evidence%20from%20frontrunner%20cities&journal=Npj%20Urban%20Sustain&doi=10.1038%2Fs42949-023-00101-4&volume=3&pages=1-8&publication_year=2023&author=Ortiz-Moya%2CF&author=Reggiani%2CM"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Ortiz-Moya, F., Koike, H., Ota, J., Kataoka, Y. & Fujino, J. State of the Voluntary Local Reviews 2020: Local Action for Global Impact in Achieving the SDGs. https://www.iges.or.jp/en/pub/vlrs-2020/en (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Ortiz-Moya, F., Saraff Marcos, E., Kataoka, Y. & Fujino, J. State of the Voluntary Local Reviews 2021: From Reporting to Action. https://www.iges.or.jp/en/pub/vlrs-2021/enhttps://doi.org/10.57405/iges-11553 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Stamos, I., Vivas, L., Enrique Regueira, I. & Bertozzi, C. What does SDG monitoring practice tell us? an analysis of 120 voluntary local reviews. Sustainability 16, 10649 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu162310649",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=What%20does%20SDG%20monitoring%20practice%20tell%20us%3F%20an%20analysis%20of%20120%20voluntary%20local%20reviews&journal=Sustainability&doi=10.3390%2Fsu162310649&volume=16&publication_year=2024&author=Stamos%2CI&author=Vivas%2CL&author=Enrique%20Regueira%2CI&author=Bertozzi%2CC"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "UNESCAP. Asia-Pacific Regional Guidelines on Voluntary Local Reviews: Reviewing local progress to accelerate action for the Sustainable Development Goals. (United Nations Economic and Social Commission for Asia and the Pacific, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Siragusa, A., Vizacaino, P., Proietti, P. & Lavalle, C. European Handbook for SDG Voluntary Local Reviews. (European Commission, Joint Research Centre, 2020). https://doi.org/10.2760/670387.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR28",
+            "content": "UNECA. Africa Voluntary Local Review Guidelines. (United Nations Economic Commission for Africa, UCLG Africa, and UN-Habitat, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "UCLG & UN-Habitat. Guidelines for Voluntary Local Reviews: Volume 1, A Comparative Analysis of Existing VLRs. (UCLG and UN-Habitat, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR30",
+            "content": "UCLG & UN-Habitat. Guidelines for Voluntary Local Reviews: Volume 2, Towards a New Generation of VLRs: Exploring the Local-National Link. (UCLG and UN-Habitat, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR31",
+            "content": "UNECE. Guidelines for the Development of Voluntary Local Reviews in the ECE Region. (United Nations Economic Commission for Europe, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Siragusa, A., Stamos, I., Bertozzi, C. & Proietti, P. European Handbook for SDG Voluntary Local Reviews, 2022 Edition. https://doi.org/10.2760/355330 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "UN-Habitat & UCLG. Action-oriented Voluntary Local Reviews: A Methodology for the Partners of UN-Habitat. (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Richiedei, A. & Pezzagno, M. Territorialización de los Objetivos de Desarrollos Sostenible en América Latina y el Caribe, Guía para la Elaboración de Exámenes Locales Voluntarios a Nivel Subnacional. (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR35",
+            "content": "arco. Linee guida per la redazione di Voluntary Local Review in Italia. (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Fox, S. & Macleod, A. Localizing the SDGs in cities: Reflections from an action research project in Bristol, UK. Urban Geogr. 44, 517–537 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F02723638.2021.1953286",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Localizing%20the%20SDGs%20in%20cities%3A%20Reflections%20from%20an%20action%20research%20project%20in%20Bristol%2C%20UK&journal=Urban%20Geogr.&doi=10.1080%2F02723638.2021.1953286&volume=44&pages=517-537&publication_year=2023&author=Fox%2CS&author=Macleod%2CA"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Ortiz-Moya, F. & Kataoka, Y. State of the Voluntary Local Reviews 2022: OVERCOMING BARRIERS TO IMPLEMENTATION. https://www.iges.or.jp/en/publication_documents/pub/researchreport/en/12331/State+of+VLR+2022+-+Final.pdf (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Ruiz-Campillo, X. & Rosas Nieva, S. Local voluntary reports: the implementation of sustainable development goals in northern and southern cities. J. Urban Ecol. 8, 1–10 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fjue%2Fjuac013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local%20voluntary%20reports%3A%20the%20implementation%20of%20sustainable%20development%20goals%20in%20northern%20and%20southern%20cities&journal=J.%20Urban%20Ecol.&doi=10.1093%2Fjue%2Fjuac013&volume=8&pages=1-10&publication_year=2022&author=Ruiz-Campillo%2CX&author=Rosas%20Nieva%2CS"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Ansell, C. et al. The Key Role of Local Governance in Achieving the SDGs. in Co-Creation for Sustainability 9–22 (Emerald Publishing Limited, 2022). https://doi.org/10.1108/978-1-80043-798-220220002.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Shah, R. Session 2: Frameworks for Environmental Statistics and for the Development of Indicators. (2007).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "UNDESA. The Integrated Nature of the Sustainable Development Goals as a Lever for Trust, Institutional Resilience and Innovation. https://www.un-ilibrary.org/content/papers/10.18356/27081990-164 (https://doi.org/10.18356/27081990-164 (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Bamberger, M., Segone, M. & Tateossian, F. Evaluating the Sustainable Development Goals with a “no one left behind” lens through equity-focused and gender-responsive evaluations. (2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Giles-Corti, B., Lowe, M. & Arundel, J. Achieving the SDGs: Evaluating indicators to be used to benchmark and monitor progress towards creating healthy and sustainable cities. Health Policy 124, 581–590 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.healthpol.2019.03.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Achieving%20the%20SDGs%3A%20Evaluating%20indicators%20to%20be%20used%20to%20benchmark%20and%20monitor%20progress%20towards%20creating%20healthy%20and%20sustainable%20cities&journal=Health%20Policy&doi=10.1016%2Fj.healthpol.2019.03.001&volume=124&pages=581-590&publication_year=2020&author=Giles-Corti%2CB&author=Lowe%2CM&author=Arundel%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Persson, Å., Weitz, N. & Nilsson, M. Follow-up and Review of the Sustainable Development Goals: Alignment vs. Internalization. Rev. Eur. Comp. Int. Environ. Law 25, 59–68 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Freel.12150",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Follow-up%20and%20Review%20of%20the%20Sustainable%20Development%20Goals%3A%20Alignment%20vs.%20Internalization&journal=Rev.%20Eur.%20Comp.%20Int.%20Environ.%20Law&doi=10.1111%2Freel.12150&volume=25&pages=59-68&publication_year=2016&author=Persson%2C%C3%85&author=Weitz%2CN&author=Nilsson%2CM"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Asadikia, A., Rajabifard, A. & Kalantari, M. Navigating sustainability: key factors in prioritising Sustainable Development Goals. Sustain. Sci. 19, 2041–2063 (2024).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11625-024-01561-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Navigating%20sustainability%3A%20key%20factors%20in%20prioritising%20Sustainable%20Development%20Goals&journal=Sustain.%20Sci.&doi=10.1007%2Fs11625-024-01561-y&volume=19&pages=2041-2063&publication_year=2024&author=Asadikia%2CA&author=Rajabifard%2CA&author=Kalantari%2CM"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Massuga, F., Larson, M. A., Kuhl, M. R. & Doliveira, S. L. D. The influence of global governance on the sustainable performance of countries. Environ. Dev. Sustain. 26, 28567–28589 (2024).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10668-023-03827-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20influence%20of%20global%20governance%20on%20the%20sustainable%20performance%20of%20countries&journal=Environ.%20Dev.%20Sustain.&doi=10.1007%2Fs10668-023-03827-4&volume=26&pages=28567-28589&publication_year=2024&author=Massuga%2CF&author=Larson%2CMA&author=Kuhl%2CMR&author=Doliveira%2CSLD"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Forestier, O. & Kim, R. E. Cherry-picking the Sustainable Development Goals: Goal prioritization by national governments and implications for global governance. Sustain. Dev. 28, 1269–1278 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fsd.2082",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cherry-picking%20the%20Sustainable%20Development%20Goals%3A%20Goal%20prioritization%20by%20national%20governments%20and%20implications%20for%20global%20governance&journal=Sustain.%20Dev.&doi=10.1002%2Fsd.2082&volume=28&pages=1269-1278&publication_year=2020&author=Forestier%2CO&author=Kim%2CRE"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Qi, Y., Shi, X., Chen, Y. & Shen, Y. Country-level evenness measure in assessing progress towards Sustainable Development Goals (SDGs). Humanit. Soc. Sci. Commun. 11, 1–13 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1057%2Fs41599-024-03572-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Country-level%20evenness%20measure%20in%20assessing%20progress%20towards%20Sustainable%20Development%20Goals%20%28SDGs%29&journal=Humanit.%20Soc.%20Sci.%20Commun.&doi=10.1057%2Fs41599-024-03572-7&volume=11&pages=1-13&publication_year=2024&author=Qi%2CY&author=Shi%2CX&author=Chen%2CY&author=Shen%2CY"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Reinar, M. B. & Lundberg, A. K. Goals à la carte: selective translation of the Sustainable Development Goals in strategic municipal planning in Norway. J. Environ. Plan. Manag. 1–17 https://doi.org/10.1080/09640568.2023.2191816 (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Musterd, S., Marcińczak, S., van Ham, M. & Tammaru, T. Socioeconomic segregation in European capital cities. Increasing separation between poor and rich. Urban Geogr. 38, 1062–1083 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F02723638.2016.1228371",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Socioeconomic%20segregation%20in%20European%20capital%20cities.%20Increasing%20separation%20between%20poor%20and%20rich&journal=Urban%20Geogr.&doi=10.1080%2F02723638.2016.1228371&volume=38&pages=1062-1083&publication_year=2017&author=Musterd%2CS&author=Marci%C5%84czak%2CS&author=Ham%2CM&author=Tammaru%2CT"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Carlisle, J. E. & Maloney, T. N. The evolution of economic and political inequality: minding the gap. Philos. Trans. R. Soc. B Biol. Sci. 378, 20220290 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frstb.2022.0290",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20evolution%20of%20economic%20and%20political%20inequality%3A%20minding%20the%20gap&journal=Philos.%20Trans.%20R.%20Soc.%20B%20Biol.%20Sci.&doi=10.1098%2Frstb.2022.0290&volume=378&publication_year=2023&author=Carlisle%2CJE&author=Maloney%2CTN"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Salvia, M. et al. Will climate mitigation ambitions lead to carbon neutrality? An analysis of the local-level plans of 327 cities in the EU. Renew. Sustain. Energy Rev. 135, 110253 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2020.110253",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Will%20climate%20mitigation%20ambitions%20lead%20to%20carbon%20neutrality%3F%20An%20analysis%20of%20the%20local-level%20plans%20of%20327%20cities%20in%20the%20EU&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2020.110253&volume=135&publication_year=2021&author=Salvia%2CM"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Huovila, A. et al. Carbon-neutral cities: Critical review of theory and practice. J. Clean. Prod. 341, 130912 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2022.130912",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XmsFWltbs%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Carbon-neutral%20cities%3A%20Critical%20review%20of%20theory%20and%20practice&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2022.130912&volume=341&publication_year=2022&author=Huovila%2CA"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Gupta, J. & Vegelin, C. Inclusive development, leaving no one behind, justice and the sustainable development goals. Int. Environ. Agreem. Polit. Law Econ. 23, 115–121 (2023).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inclusive%20development%2C%20leaving%20no%20one%20behind%2C%20justice%20and%20the%20sustainable%20development%20goals&journal=Int.%20Environ.%20Agreem.%20Polit.%20Law%20Econ.&volume=23&pages=115-121&publication_year=2023&author=Gupta%2CJ&author=Vegelin%2CC"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Nilashi, M., Boon, O. K., Tan, G., Lin, B. & Abumalloh, R. Critical data challenges in measuring the performance of sustainable development goals: Solutions and the role of big-data analytics. Harv. Data Sci. Rev. 5, e545db2cf (2023).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Critical%20data%20challenges%20in%20measuring%20the%20performance%20of%20sustainable%20development%20goals%3A%20Solutions%20and%20the%20role%20of%20big-data%20analytics&journal=Harv.%20Data%20Sci.%20Rev.&volume=5&publication_year=2023&author=Nilashi%2CM&author=Boon%2COK&author=Tan%2CG&author=Lin%2CB&author=Abumalloh%2CR"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Malekpour, S. et al. Transformative localization to accelerate the 2030. Agenda Nat. Sustain. 7, 516–518 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-024-01324-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Transformative%20localization%20to%20accelerate%20the%202030&journal=Agenda%20Nat.%20Sustain.&doi=10.1038%2Fs41893-024-01324-8&volume=7&pages=516-518&publication_year=2024&author=Malekpour%2CS"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Narang Suri, S., Miraglia, M. & Ferrannini, A. Voluntary Local Reviews as Drivers for SDG Localisation and Sustainable Human Development. J. Hum. Dev. Capab. 22, 725–736 (2021).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Voluntary%20Local%20Reviews%20as%20Drivers%20for%20SDG%20Localisation%20and%20Sustainable%20Human%20Development&journal=J.%20Hum.%20Dev.%20Capab.&volume=22&pages=725-736&publication_year=2021&author=Narang%20Suri%2CS&author=Miraglia%2CM&author=Ferrannini%2CA"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Ortiz-Moya, F. & Reggiani, M. Operationalising the Follow-up and Review of the Sustainable Development Goals at the Local Level: Insights from European Cities and their Voluntary Local Review Experience. J. Urban Ecol. 11, 1–12 (2025).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fjue%2Fjuaf001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Operationalising%20the%20Follow-up%20and%20Review%20of%20the%20Sustainable%20Development%20Goals%20at%20the%20Local%20Level%3A%20Insights%20from%20European%20Cities%20and%20their%20Voluntary%20Local%20Review%20Experience.&journal=J.%20Urban%20Ecol.&doi=10.1093%2Fjue%2Fjuaf001&volume=11&pages=1-12&publication_year=2025&author=Ortiz-Moya%2CF&author=Reggiani%2CM"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Ortiz-Moya, F., Tan, Z. & Kataoka, Y. State of the Voluntary Local Reviews 2023: Follow-up and Review of the 2030 Agenda at the Local Level. (Institute for Global Environmental Strategies, 2023). https://doi.org/10.57405/iges-12331.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Reuter, T. A. SDG localization: finding the middle ground to top-down and bottom-up approaches with the help of digital networking. Sustain. Sci. Pract. Policy 19, 2207372 (2023).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=SDG%20localization%3A%20finding%20the%20middle%20ground%20to%20top-down%20and%20bottom-up%20approaches%20with%20the%20help%20of%20digital%20networking&journal=Sustain.%20Sci.%20Pract.%20Policy&volume=19&publication_year=2023&author=Reuter%2CTA"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Ningrum, D., Malekpour, S., Raven, R. & Moallemi, E. A. Lessons learnt from previous local sustainability efforts to inform local action for the Sustainable Development Goals. Environ. Sci. Policy 129, 45–55 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envsci.2021.12.018",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Lessons%20learnt%20from%20previous%20local%20sustainability%20efforts%20to%20inform%20local%20action%20for%20the%20Sustainable%20Development%20Goals&journal=Environ.%20Sci.%20Policy&doi=10.1016%2Fj.envsci.2021.12.018&volume=129&pages=45-55&publication_year=2022&author=Ningrum%2CD&author=Malekpour%2CS&author=Raven%2CR&author=Moallemi%2CEA"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Bilsky, E., Moreno, A. C. & Fernández Tortosa, A. Local Governments and SDG Localisation: Reshaping Multilevel Governance from the Bottom up. J. Hum. Dev. Capab. 0, 1–12 (2021).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local%20Governments%20and%20SDG%20Localisation%3A%20Reshaping%20Multilevel%20Governance%20from%20the%20Bottom%20up&journal=J.%20Hum.%20Dev.%20Capab.&volume=0&pages=1-12&publication_year=2021&author=Bilsky%2CE&author=Moreno%2CAC&author=Fern%C3%A1ndez%20Tortosa%2CA"
+            }
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Perry, B., Diprose, K., Taylor Buck, N. & Simon, D. Localizing the SDGs in England: Challenges and Value Propositions for Local Government. Front. Sustain. Cities 3, 746337 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.3389%2Ffrsc.2021.746337",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Localizing%20the%20SDGs%20in%20England%3A%20Challenges%20and%20Value%20Propositions%20for%20Local%20Government&journal=Front.%20Sustain.%20Cities&doi=10.3389%2Ffrsc.2021.746337&volume=3&publication_year=2021&author=Perry%2CB&author=Diprose%2CK&author=Taylor%20Buck%2CN&author=Simon%2CD"
+            }
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Valencia, S. C. et al. Adapting the Sustainable Development Goals and the New Urban Agenda to the city level: Initial reflections from a comparative research project. Int. J. Urban Sustain. Dev. 11, 4–23 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F19463138.2019.1573172",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Adapting%20the%20Sustainable%20Development%20Goals%20and%20the%20New%20Urban%20Agenda%20to%20the%20city%20level%3A%20Initial%20reflections%20from%20a%20comparative%20research%20project&journal=Int.%20J.%20Urban%20Sustain.%20Dev.&doi=10.1080%2F19463138.2019.1573172&volume=11&pages=4-23&publication_year=2019&author=Valencia%2CSC"
+            }
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Barcelona City Council. Annual monitoring and evaluation report on the Barcelona 2030 Agenda (Voluntary Local Review 2021). (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR66",
+            "content": "Buenos Aires Ciudad. Buenos Aires City Voluntary Local Review 2021. Localization of the 2030 Agenda in Buenos Aires City. (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR67",
+            "content": "Tokyo Metropolitan Government. Tokyo Sustainability Action. (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR68",
+            "content": "Thriving: making cities green, resilient, and inclusive in a changing climate. (World Bank Publications, 2023).",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The data used in this study consists of publicly available Voluntary Local Review (VLR) reports, which can be accessed via the online databases listed in Supplementary Table 3. The coding and analysis derived from these reports are available from the corresponding author upon reasonable request.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "This research was supported by the Environment Research and Technology Development Fund [JPMEERF20221M03] of the Environmental Restoration and Conservation Agency provided by the Ministry of the Environment of Japan. Yizhao Yang’s work was supported by the Fulbright Japan Scholarship, enabling collaboration and the exploration of theoretical frameworks through observations and interviews in Japan. We are also grateful to Emma Fushimi for her support in proofreading the paper.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsFernando Ortiz-MoyaView author publicationsSearch author on:PubMed Google ScholarYizhao YangView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nF.O.M. and Y.Y. contributed to the conception and design of the work, to the analysis and interpretation of the data, and drafted the work. Y.Y. conducted the statistical analysis.\n### Corresponding authors\nCorrespondence to\n                Fernando Ortiz-Moya or Yizhao Yang.",
+            "links": {
+                "View author publications": "/search?author=Yizhao%20Yang",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Yizhao%20Yang",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Yizhao%20Yang%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Fernando Ortiz-Moya": "mailto:ortiz-moya@iges.or.jp",
+                "Yizhao Yang": "mailto:yizhao@uoregon.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary Tables",
+            "links": {
+                "Supplementary Tables": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42949-025-00243-7/MediaObjects/42949_2025_243_MOESM1_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by-nc-nd/4.0/": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Cities%E2%80%99%20review%20of%20the%20sustainable%20development%20goals%20and%20insights%20from%20voluntary%20local%20reviews&author=Fernando%20Ortiz-Moya%20et%20al&contentID=10.1038%2Fs42949-025-00243-7&copyright=The%20Author%28s%29&publication=2661-8001&publicationDate=2025-07-15&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY-NC-ND"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleOrtiz-Moya, F., Yang, Y. Cities’ review of the sustainable development goals and insights from voluntary local reviews.\n                    npj Urban Sustain 5, 58 (2025). https://doi.org/10.1038/s42949-025-00243-7Download citationReceived: 08 November 2024Accepted: 25 June 2025Published: 15 July 2025DOI: https://doi.org/10.1038/s42949-025-00243-7Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42949-025-00243-7?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Cities’ review of the sustainable development goals and insights from voluntary local reviews",
+                "description": "Progress toward the 17 Sustainable Development Goals (SDGs) has been insufficient, partly due to weak policy follow-up and review (FUR) at all government levels. While local governments are key to implementing the SDGs, the country-centric design of the 2030 Agenda hinders effective local-level FUR. To address this shortcoming, local governments have initiated FUR through Voluntary Local Reviews (VLRs). Here, we analyze 151 VLR reports published in 2018–2022 to explore how cities are following up and reviewing the SDGs. Our results indicate that cities often prioritize a subset of SDGs in their VLRs, focusing on reviewing actions rather than conducting quantitative, indicator-based assessments. City-level factors—such as resource availability, size, growth, and experience in conducting VLRs—combined with national and international influences, shape the approaches and scope of SDG reviews. This analysis highlights challenges cities face in engaging with the SDGs, underscoring the need for local perspectives in designing global sustainability agendas.",
+                "datePublished": "2025-07-15T00:00:00Z",
+                "dateModified": "2025-07-15T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "15",
+                "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "sameAs": "https://doi.org/10.1038/s42949-025-00243-7",
+                "keywords": [
+                    "Development studies",
+                    "Social policy",
+                    "Environment",
+                    "general",
+                    "Sustainable Development",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urbanism",
+                    "Urban Ecology"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00243-7/MediaObjects/42949_2025_243_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00243-7/MediaObjects/42949_2025_243_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00243-7/MediaObjects/42949_2025_243_Fig3_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "npj Urban Sustainability",
+                    "issn": [
+                        "2661-8001"
+                    ],
+                    "volumeNumber": "5",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Fernando Ortiz-Moya",
+                        "url": "http://orcid.org/0000-0002-1390-2519",
+                        "affiliation": [
+                            {
+                                "name": "Institute for Global Environmental Strategies",
+                                "address": {
+                                    "name": "City Taskforce, Institute for Global Environmental Strategies, Hayama, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "ortiz-moya@iges.or.jp",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yizhao Yang",
+                        "url": "http://orcid.org/0000-0002-0715-4745",
+                        "affiliation": [
+                            {
+                                "name": "University of Oregon",
+                                "address": {
+                                    "name": "School of Planning, Public Policy and Management, University of Oregon, Eugene, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "yizhao@uoregon.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "development-studies;social-policy",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "SDG 11 in Action: How Cities and Urban Communities Advance Urban Sustainability",
+                            "webtrendsContentGroup": "npj Urban Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42949-025-00243-7"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Fernando Ortiz-Moya",
+                            "Yizhao Yang"
+                        ],
+                        "publishedAt": 1752537600,
+                        "publishedAtString": "2025-07-15",
+                        "title": "Cities’ review of the sustainable development goals and insights from voluntary local reviews",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Development studies,Social policy"
+                    },
+                    "journal": {
+                        "pcode": "npjurbansustain",
+                        "title": "npj urban sustainability",
+                        "volume": "5",
+                        "issue": "1",
+                        "id": 42949,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "cfbdibicdj"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Cities’ review of the sustainable development goals and insights from voluntary local reviews",
+            "dc.source": "npj Urban Sustainability 2025 5:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-07-15",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Progress toward the 17 Sustainable Development Goals (SDGs) has been insufficient, partly due to weak policy follow-up and review (FUR) at all government levels. While local governments are key to implementing the SDGs, the country-centric design of the 2030 Agenda hinders effective local-level FUR. To address this shortcoming, local governments have initiated FUR through Voluntary Local Reviews (VLRs). Here, we analyze 151 VLR reports published in 2018–2022 to explore how cities are following up and reviewing the SDGs. Our results indicate that cities often prioritize a subset of SDGs in their VLRs, focusing on reviewing actions rather than conducting quantitative, indicator-based assessments. City-level factors—such as resource availability, size, growth, and experience in conducting VLRs—combined with national and international influences, shape the approaches and scope of SDG reviews. This analysis highlights challenges cities face in engaging with the SDGs, underscoring the need for local perspectives in designing global sustainability agendas.",
+            "dc.identifier": "doi:10.1038/s42949-025-00243-7",
+            "dc.creator": "Yang, Yizhao",
+            "dc.subject": "Social policy",
+            "prism.issn": "2661-8001",
+            "prism.publicationName": "npj Urban Sustainability",
+            "prism.publicationDate": "2025-07-15",
+            "prism.volume": "5",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "15",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42949-025-00243-7",
+            "prism.doi": "doi:10.1038/s42949-025-00243-7",
+            "citation_pdf_url": "https://www.nature.com/articles/s42949-025-00243-7.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42949-025-00243-7",
+            "citation_journal_title": "npj Urban Sustainability",
+            "citation_journal_abbrev": "npj Urban Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2661-8001",
+            "citation_title": "Cities’ review of the sustainable development goals and insights from voluntary local reviews",
+            "citation_volume": "5",
+            "citation_issue": "1",
+            "citation_online_date": "2025/07/15",
+            "citation_firstpage": "1",
+            "citation_lastpage": "15",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42949-025-00243-7",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42949-025-00243-7&api_key=",
+            "citation_reference": "Thriving: making cities green, resilient, and inclusive in a changing climate. (World Bank Publications, 2023).",
+            "citation_author": "Yang, Yizhao",
+            "citation_author_institution": "School of Planning, Public Policy and Management, University of Oregon, Eugene, USA",
+            "description": "Progress toward the 17 Sustainable Development Goals (SDGs) has been insufficient, partly due to weak policy follow-up and review (FUR) at all government levels. While local governments are key to implementing the SDGs, the country-centric design of the 2030 Agenda hinders effective local-level FUR. To address this shortcoming, local governments have initiated FUR through Voluntary Local Reviews (VLRs). Here, we analyze 151 VLR reports published in 2018–2022 to explore how cities are following up and reviewing the SDGs. Our results indicate that cities often prioritize a subset of SDGs in their VLRs, focusing on reviewing actions rather than conducting quantitative, indicator-based assessments. City-level factors—such as resource availability, size, growth, and experience in conducting VLRs—combined with national and international influences, shape the approaches and scope of SDG reviews. This analysis highlights challenges cities face in engaging with the SDGs, underscoring the need for local perspectives in designing global sustainability agendas.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Cities’ review of the sustainable development goals and insights from voluntary local reviews",
+            "twitter:description": "npj Urban Sustainability - Cities’ review of the sustainable development goals and insights from voluntary local reviews",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42949-025-00243-7/MediaObjects/42949_2025_243_Fig1_HTML.png",
+            "DOI": "10.1038/s42949-025-00243-7",
+            "size": "267559",
+            "journal_id": "42949"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42949-025-00243-7",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

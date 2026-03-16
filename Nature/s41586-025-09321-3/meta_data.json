@@ -1,0 +1,85 @@
+{
+    "id": "s41586-025-09321-3",
+    "title": "Countrywide natural experiment links built environment to physical activity",
+    "journal": "Nature",
+    "pdf_link": "https://www.nature.com/articles/s41586-025-09321-3",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Paper-level data deposit from Data Availability movers-public GitHub repository",
+            "Data_summary": "A public repository providing the study data and code used for the relocation natural experiment analyses, intended to support reproducibility and reuse of the inputs and derived analytic files referenced by the paper.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data are available at GitHub https://github.com/behavioral-data/movers-public, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://github.com/behavioral-data/movers-public",
+            "ref": []
+        },
+        {
+            "Data_Name": "Azumio Argus smartphone app step and user metadata dataset used in this study",
+            "Data_summary": "Anonymized longitudinal smartphone-derived activity records from the Azumio Argus health app, including minute-by-minute step counts derived from phone accelerometers plus user-reported demographics and body-mass-index-related fields and inferred daily city location used to identify relocations and compute pre-post changes in steps and MVPA.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Anonymized Azumio Argus app data was obtained through a Data Use Agreement, Location: Methods Study design, Confidence: high",
+            "Time_Coverage": "2013-03 to 2016-02",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Walk Score city walkability scores",
+            "Data_summary": "City-level walkability scores on a 1 to 100 scale from the Walk Score product, computed from proximity to amenities and pedestrian-friendliness indicators such as block length and intersection density, used to quantify origin-destination walkability differences for each relocation and relate them to activity changes.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Walkability scores for these cities were based on the publicly available and systematically developed Walk Score, Location: Methods Walkability measure, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > 1609 cities",
+            "URL": "https://www.walkscore.com/cities-and-neighborhoods/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Koppen climate type classification",
+            "Data_summary": "A climate-zone classification scheme providing categorical climate types, used to group or filter origin-destination city pairs into similar climates when checking whether walkability-activity associations persist under comparable climate conditions.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We considered potential confounders such as differences in climate using Koppen climate type, Location: Methods Aggregating relocation-based quasi-experiments, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Census Bureau Current Population Survey geographic mobility Table A-5 Reason for Move 1999-2023",
+            "Data_summary": "Official US Census Bureau mobility statistics tabulating reasons people moved, used to support the argument that most relocations occur for housing, family, or employment rather than walkability-related motivations.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: According to a 2013 US Census Bureau report 98% of people moved primarily for reasons of housing family and employment, Location: Methods Selection effects in relocation and mobile app usage, Confidence: high",
+            "Time_Coverage": "1999-2023",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.census.gov/data/tables/time-series/demo/geographic-mobility/historic.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Census Bureau 2016 civilian population estimates by age",
+            "Data_summary": "Official population estimates providing age-stratified counts for the US civilian population, used as the target distribution for post-stratification weights when simulating national impacts of walkability improvements from the relocation-derived regression model.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We used civilian population estimates from the US Census Bureau for 2016 as the target population distribution, Location: Methods Simulating the impact of walkability improvements, Confidence: high",
+            "Time_Coverage": "2016",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:45.746394"
+    }
+}

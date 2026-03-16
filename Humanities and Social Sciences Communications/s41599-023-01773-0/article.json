@@ -1,0 +1,946 @@
+{
+    "id": "s41599-023-01773-0",
+    "journal": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "title": "Has the establishment of green finance reform and innovation pilot zones improved air quality? Evidence from China",
+    "legal_title": "Has the establishment of green finance reform and innovation pilot zones improved air quality  Evidence from China",
+    "publish_time": "2023-05-26",
+    "pdf_link": "https://www.nature.com/articles/s41599-023-01773-0",
+    "storage_path": "./Articles/Humanities and Social Sciences Communications/2023-article/s41599-023-01773-0/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "The role of finance in environmental sustainability is becoming increasingly important. This study conducts a quasi-natural experiment using a sample of 146 prefecture-level cities from 2015 to 2019. It adopts difference-in-differences to examine the impact of China’s green finance reform and innovations pilot zones (GFRIs) on urban air quality. The findings show that air quality has improved after the establishment of GFRIs, indicating that GFRIs have the potential to control air pollution levels. The mechanism tests indicate that the GFRIs are conducive to improving air quality through industrial structure upgrading and green innovation. Furthermore, the heterogeneity analyses show that the air quality in the south of the Qinling Mountains-Huaihe River line, in large and well-developed financially scaled cities, has improved significantly after the establishment of GFRIs.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Since it began to reform and open up, China, the largest developing nation in the world, has witnessed astounding economic progress. However, the long-term extended development paradigm has resulted in significant environmental concerns and ecological deterioration, such as greenhouse gas emissions and air pollution, dominating a crucial concern in China. According to the 2020 Bulletin on the State of China’s Ecological Environment, 40.1% of Chinese cities fail to meet air quality standards. Also, some recent studies have shown that China’s PM_{2.5} from air pollution has a detrimental influence on healthcare expenditures. The Chinese government has proposed green finance to reduce air pollution to integrate economic growth and environmental control. The formation of GFRIs is one of the green finance initiatives adopted to hasten the development of an ecologically friendly economy. In June 2017, the State Council of China selected eight pilot zones in five provinces, including Xinjiang (Hami City, Changji Prefecture, and Karamay City), Guizhou (Gui’an New Area), Jiangxi (Ganjiang New Area), Guangdong (Guangzhou City) and Zhejiang (Huzhou City, Quzhou City) to build GFRIs pilot zones each with its focus and features. Their main purpose is to accelerate innovation in green financial systems, increase financial support for improving the ecological environment, and utilize and protect resources efficiently. The selection of GFRIs mainly considers the differences in spatial layout and economic development. For instance, Zhejiang and Guangdong, located in eastern China, are relatively developed economies and financial hubs, but the need for industrial transformation and upgrading to achieve green development is urgent. Also, Jiangxi and Guizhou are in the central part of China and are less developed regions, but they have rich green resources and ecological advantages. Guizhou and Jiangxi are building GFRIs to avoid the old path of “pollution first, treatment later.” Xinjiang, located in western China, should explore a new model of sustainable development based on the Belt and Road Initiative. When selecting cities to set up GFRIs, China covers major administrative regions and achieves “full coverage” regarding spatial layout, resource endowment, developmental level and industrial structure. With the implementation of related policies, green finance has received prominent attention and sparked debate among scholars (Wang and Wang, 2021; Wang et al., 2022).\nCompared to conventional finance, green finance emphasizes environmental concerns. It considers environmental conservation and resource efficiency to be significant criteria for measuring the performance of its actions (Irfan et al., 2022). Green finance aims to achieve a cleaner environment by reconciling financial development and environmental conservation. Also, green finance can effectively guide the flow of social and economic resources from highly polluting and energy-consuming industries to environmentally friendly ones and provide more financial services for environmentally friendly projects. It can promote investment in environmental projects at lower costs and achieve sustainable social development (Chang, 2015). As a feature of enhanced finance to improve environmental quality (Zhou et al., 2020), green finance has also become a new powerhouse to promote ecological civilization. Theoretically, green finance can optimize resource allocation and improve the industrial structure, effectively curbing environmental degradation.\nMoreover, recent studies have found that the establishment of GFRIs can significantly reduce environmental pollution in the province where the GFRIs are located. The more severe the environmental pollution, the better the policy effect (Huang and Zhang, 2021). Wang et al. (2021) found that the establishment of GFRIs promotes regional green development. Some scholars have also used green financial instruments, such as green bonds and banks, and found that green finance can significantly improve urban air quality (Chen et al., 2021; Zeng et al., 2022). Therefore, examining whether different GFRIs impact air quality is necessary to provide theoretical support and policy implications for policymakers.\nThis study explores the impact of green financial development on urban air quality from the perspective of GFRIs, which has the contributions to the research of green finance and the environment. First, despite considerable scholarly attention to green finance, little is known about the financial strategies that may be utilized to improve air pollution at the micro-level. This study contributes to existing knowledge on the impact of green finance on urban air pollution by examining the mechanisms underlying the impact of the establishment of GFRIs on urban air quality. Second, the extant literature on the effects of green financial policies revolves around only single financial instrument, such as green credit, green bond and green bank. The establishment of GFRIs syndicates government support with market incentives, offering a robust setting for thoroughly and systematically testing the effects of green financial policies. Therefore, this study considers a variety of green finance policies and instruments. Third, the study broadens the literature on urban air quality to green finance. While earlier research has focused on the factors impacting air quality, more discussion of green finance perspectives is needed. This study provides new insight into how green finance policies influence air quality. Utilizing a difference-indifference (DID) approach, the paper assesses the effects of green finance on air pollutants and considers green finance policies that control air pollution based on different cities.\nThe rest of the study proceeds: Section “Literature review and research hypotheses” presents the literature review and research hypotheses. Section “Data and methodology” describes the research design, and section “Empirical results” presents the empirical findings. Section “Further analysis” shows the further analyses, and section “Conclusions and policy implications” provides the main conclusions and policy implications.",
+            "cites": [
+                "ref-CR44",
+                "ref-CR3",
+                "ref-CR43",
+                "ref-CR2",
+                "ref-CR42",
+                "ref-CR21",
+                "ref-CR18",
+                "ref-CR51",
+                "ref-CR59"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Literature review and research hypotheses",
+            "text": "### Literature review\n#### Air quality\nAir pollution is air contamination caused by compounds in the atmosphere that are hazardous to human and other living beings’ health and cause damage to the environment (Landrigan, 2017). On the one hand, some factors affecting air quality are economic development. For instance, Guo et al. (2017) found that developing logistics services has made air pollution severe, but the impact of GDP and urban population growth is insignificant. Sun et al. (2023) proposed that developing information and communication technology would affect CO_{2} emissions.\nOther factors affecting air quality are government-related factors, including government institutions and environmental policies. Huynh and Hoang (2019) discovered that FDI worsens air quality, but improvements in institutional quality can reduce the effect. Cheng and Zhu (2021) argued that fiscal decentralization would exacerbate smog pollution in local and surrounding cities. Zheng et al. (2020) proved that reducing the proportion of secondary industry output value in GDP could reduce SO_{2} and NOx pollution and improve air quality. Some scholars also proposed improving air quality through joint prevention and control of regional atmospheric pollution (Song et al., 2020). Environmental policies impact air pollutants, including traffic restrictions (Viard and Fu, 2015) and environmental regulatory interviews (Jin et al., 2021). Liu et al. (2016) highlighted that urban air quality is improved during major events (APCE summit, military parade). Greenstone and Hanna (2014) studied air pollution regulations and found that regulations improve air quality in India. Moreover, some scholars analyzed determinants of air quality from the infrastructure perspective, including the construction of subways (Chen and Whalley, 2012; Li et al., 2019) and the expansion of railway services (Lalive et al., 2018).\n#### The policy effect of the establishment of GFRIs\nSome scholars used the establishment of GFRIs as a natural experiment to explore the implementation effects of green finance policies. The establishment of GFRIs reduces enterprises’ inefficient and excessive investment in the pilot zone, improves their investment efficiency (Yan et al., 2022), and helps enterprises obtain higher SEG scores through environmental, social, and governance mechanisms (Chen et al., 2022). The establishment of GFRIs improves enterprises’ quality and quantity of green innovation (Zhang and Li, 2022). In addition, in these experimental areas, the policy effect of inducing enterprise green innovation in descending order is Guangdong, Zhejiang, Jiangxi, Guizhou, and Xinjiang (Dong et al., 2022). Some scholars found that GFRIs encourages heavy-polluting enterprises to take the initiative to assume social responsibilities, thus reducing their debt financing costs (Shi et al., 2022). Hu et al. (2021) found that the establishment of GFRIs improves the Tobin Q value of green enterprises and affects their long-term value. At the macro level, scholars have found that the establishment of GFRIs can optimize the industrial structure (Hu and Zhang, 2022) and promote regional green development through industrial structure upgrading and technological innovation (Wang et al., 2021). Zhang et al. (2022) highlighted that the establishment of GFRIs induces urban green technology innovation, reflected in the application and acquisition of green invention and utility model patents.\n#### Green finance and air quality\nMany pollutants released by residents, motor vehicles and factories that burn fossil fuels contribute to air pollution. Various economic factors are being investigated to address the air pollution dilemma, with green finance garnering increasing attention. However, most of the literature on green finance focuses on environmental pollution. There are few studies on the impact of green finance on air quality, particularly in China. At the micro-level, some studies showed that green credit policies increase the long-term credit constraints of polluting enterprises (Peng et al., 2022) and have significant restrictive and punitive effects on the investment and financing behaviors of highly polluting enterprises (Liu et al., 2019; Wang et al., 2019). They will reduce the corporate performance of heavily polluting industries (Yao et al., 2021) and promote green transformation, while it will not last in the long run (Tian et al., 2022). Also, Zhang and Lu (2022) found that the establishment of GFRIs reduces illegal emissions (PM_{2.5}) from heavily polluting enterprises by increasing financing constraints, improving green innovation and fulfilling social responsibilities. Xiao et al. (2022) found that green credit policies reduce SO_{2} emissions from industrial enterprises by increasing environmental investment and energy consumption intensity. Some scholars also found that green credit policies reduce the debt financing cost of green enterprises (Xu and Li, 2020). Moreover, the issuance of green bonds improves the environmental rating of the issuing company (Flammer, 2021).\nAt the macro level, some scholars used the promulgation of the Green Credit Guidelines as a quasi-natural experiment and found that green finance has suppressed SO_{2} and sewage emissions (Zhang et al., 2021) and improved China’s overall environmental quality (Zhang et al., 2021). Some studies have found that the establishment of GFRIs reduced environmental pollution in the provinces where the pilot zones are located. The more polluted the environment, the more influential the policies (Huang and Zhang, 2021). Hou et al. (2023) also highlighted that the establishment of GFRIs improves provincial environmental quality, with digital finance and green technology innovation playing an intermediary role. Other studies also incorporated green finance, economic growth and environmental quality into the same framework in their analysis. For instance, Zhou et al. (2020) established that green finance dampens industrial smoke (dust), industrial solid waste and CO_{2} emissions. While in regions with low levels of economic development, green finance will lead to environmental degradation. Using the spatial Durbin model, Huang and Chen (2022) found that green finance positively impacts environmental quality but hurts the surrounding environment.\nWith the risks of green businesses, companies will only actively pursue green-related activities if government subsidies are provided. At this stage, government policies are needed to allay financial institutions’ concerns about green financing. Also, to encourage financial institutions to become more active in developing green finance, the government must intervene to offer appropriate assistance and mobilize more private capital to participate in the green loan, bond, and insurance financing, allowing green finance to proceed smoothly (Zhang et al., 2022). In the literature on green finance affecting air quality, Zeng et al. (2022) found that green finance (green bonds) reduce urban haze pollution (PM_{2.5}) by promoting technological progress. Chen et al. (2021) found that green finance, represented by green banks, reduce SO_{2} emissions in cities by improving innovation capabilities, FDI, and upgrading industrial institutions. There is only one piece of literature on the impact of GFRIs on air quality. Zhang et al. (2022) used the DID model at the provincial level and found that the establishment of GFRIs reduces AQI, SO_{2}, NO_{2}, and PM_{2.5}.\nIn summary, scholars have extensively discussed the impact of government policies on air quality and green finance on environmental pollution, laying a specific literature foundation for the study. However, some things could be improved: First, the extant literature on the impact of green finance on air quality is centered around single green financial instruments such as green credit, green bonds and green banks, lacking classification. Second, the existing literature primarily analyzes its mediating mechanism from the perspective of technological innovation. Therefore, our study fills this gap by analyzing the impact mechanism from the two channels of industrial upgrading and green total factor productivity.\n### Hypothesis development\n#### GFRIs and air quality\nThe theory of environmental economics proposes that the problem of urban environmental pollution is a typical negative external effect, especially for public resources such as air without clear property rights. Therefore, enterprises and other entities would instead transfer the environmental pollution caused by production activities to the whole society. The problem of market failure requires government intervention to combat it. The government can generally convert such social costs into private costs through Pigouvian taxes and emissions trading. Firstly, the GFRIs encourage establishing a market for trading environmental rights, such as pollution discharge rights, energy use rights, and water rights. According to the Coase theorem, the emission trading system defines environmental property rights as emission rights traded through the market to reduce environmental pollution emissions and improve air quality.\nSecondly, the GFRIs establish a green credit system and build a platform for information sharing, such as corporate pollution emissions and environmental violations. Studies have proven that heavily polluting enterprises will disclose environmental information to obtain more credit support (Du et al., 2022). Enterprises disclose information on information-sharing platforms and adopt emission reduction and green production practices to build good images. Mandatory disclosure will improve urban air quality (Chen et al., 2018).\nThirdly, the establishment of GFRIs has sent the public a signal of green development. Green finance raises investors’ attention to the environmental performance of heavily polluting enterprises and reduces investment in illegal polluting enterprises (Li and Lu, 2021). In addition, the GFRIs promote using green payment tools such as mobile payment, which indirectly guides consumers’ green consumption. Consumers will be more inclined to choose green products, such as new energy vehicles, based on the concept of green consumption. Therefore, the establishment of GFRIs has promoted the extension of the green industrial chain and improved air quality at the consumer level by influencing consumer investment and consumption.\nFinally, the establishment of GFRIs encourages financial institutions to innovate green products like green credit and insurance. The innovation of green finance products has provided more financing channels for energy conservation and environmental protection sectors, such as green buildings and smart grids. The green transformation in these sectors is conducive to improving air quality. At the same time, innovative green financial products support the application of green and low-carbon technologies and the development of the clean energy industry, which will help improve air quality. Hence, the study proposes the research hypothesis.\nH1: The establishment of GFRIs can improve air quality.\n#### Effect of GFRIs on industrial structure upgrading\nGreen finance has been identified as an effective mechanism for promoting sustainable technology innovations and facilitating green economic growth and structural change (Wang et al., 2022). On a theoretical background, funds can be channeled through financial sectors to facilitate the transformation of high-polluting firms into low-polluting ones. Moreover, environmental regulation can promote the upgrading of industrial structures (Wang and Wang, 2021). Also, green finance plays a role in resource reallocation and capital leverage during the industrial structure upgrade process. In the context of air quality, the establishment of GFRIs can restrain the activities of high-polluting enterprises by restricting their investment and financing behavior. At the same time, GFRIs facilitate financing for green and emerging industries. The preferential policies granted by GFRIs will also attract foreign investment and high-tech enterprises to the city. Its characteristics of high technology, low energy consumption and low pollution will reduce emissions and help improve air quality. The establishment of GFRIs can also limit the polluting behavior of enterprises through the “reverse force effect” and “demonstration effect”. That will lead to realizing green production, making capital flow to green industries and optimizing the industrial structure. In addition, environmental regulation can promote the upgrading of industrial structures (Wang et al., 2022). The establishment of GFRIs as a particular environmental regulatory policy can also promote the upgrading of industrial structures. Wang et al. (2023) emphasized that the emission reduction effect of command-controlled environmental regulations is superior to market-based environmental regulations.\nOverall, the establishment of GFRIs promotes the upgrading of traditional industries by “leveraging” green industries and “deleveraging” polluting industries. Upgrading industrial structures will gradually eliminate high-polluting industries and promote cleaner production, reducing air pollution and promoting green industry development (Zheng et al., 2020). Hence, the study proposes the following research hypothesis.\nH2: The establishment of GFRIs can improve air quality by upgrading the industrial structure.\n#### Effect of GFRIs on green innovation\nFollowing the microeconomic theory of banking, the fundamental reasons for loan rationing are morality and detrimental choice resulting from information asymmetry between banks and companies (Irfan et al., 2022). Because endogenous funding is scarce and China’s financial system is mainly indirect, bank lending has emerged as a crucial source of finance for firms’ innovation initiatives. The establishment of GFRIs has influenced corporate behavior in green technology innovation by altering the sectoral flow of financial resources, assisting firms with clean technology innovations transition and incentivizing financial institutions to create green financial products. Under the strain of green finance rules, firms’ inclination to conduct according to policy norms contributes to developing a positive corporate reputation and gaining stakeholders’ trust (Zhang and Li, 2022). Additionally, companies can receive longer-term and larger-scale external finance. Due to the increased stability of their financial flows and less uncertainty of their future operations, they become more resilient and solvent to green innovation.\nAlso, Schumpeter’s innovation theory proposes that the availability of funds plays a vital role in technological innovation. Green finance can alleviate the financing constraints of green innovation (Hong et al., 2021; Yu et al., 2021). The GFRIs provide green financial services for enterprises that meet environmental standards and increase the availability of their funds, prompting them to have more funds for R&D investments, thereby reducing the use of polluting equipment. The establishment of GFRIs can also induce green innovation among heavy-polluting enterprises in the pilot zone, reducing pollution emissions during production and improving air quality. Moreover, the Porter hypothesis proposes that appropriate environmental regulation compels enterprises to engage in sustainable innovation activities. The establishment of GFRIs restricts enterprises’ energy conservation and emission reduction in the pilot zone, forcing enterprises to innovate green technology. Enterprises are incentivized to offset the higher costs of reducing pollution through the “innovation offset effect”, which benefits their long-term growth and air quality. The incentive effect of environmental regulation on enterprises is greater than the constraint effect (Liu et al., 2021). Based on the above analysis, the study proposes the following hypothesis.\nH3: The establishment of GFRIs can improve air quality by promoting green innovation.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR56",
+                "ref-CR22",
+                "ref-CR11",
+                "ref-CR38",
+                "ref-CR15",
+                "ref-CR54",
+                "ref-CR35",
+                "ref-CR39",
+                "ref-CR3",
+                "ref-CR25",
+                "ref-CR6",
+                "ref-CR58",
+                "ref-CR30",
+                "ref-CR40",
+                "ref-CR16",
+                "ref-CR46",
+                "ref-CR20",
+                "ref-CR19",
+                "ref-CR17",
+                "ref-CR18",
+                "ref-CR5",
+                "ref-CR26",
+                "ref-CR42",
+                "ref-CR21",
+                "ref-CR47",
+                "ref-CR28",
+                "ref-CR9",
+                "ref-CR57",
+                "ref-CR27",
+                "ref-CR48",
+                "ref-CR43",
+                "ref-CR4",
+                "ref-CR29",
+                "ref-CR36",
+                "ref-CR51",
+                "ref-CR59",
+                "ref-CR14",
+                "ref-CR7",
+                "ref-CR44",
+                "ref-CR8",
+                "ref-CR34",
+                "ref-CR49",
+                "ref-CR45",
+                "ref-CR24",
+                "ref-CR37",
+                "ref-CR53",
+                "ref-CR13",
+                "ref-CR50"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Data and methodology",
+            "text": "### Sample and data sources\nThe sample data consists of panel data from 146 prefecture-level cities in China from January 2015 to December 2019. Data is sourced from the China City Statistical Yearbook (2015-2019) and the Database of China Economic Network. The missing data are filled by linear interpolation. The air quality data are obtained through the China Air Quality Online Monitoring and Analysis Platform (http://www.aqistudy.cn/historydata/). The monthly average temperatures are mainly from the statistical yearbooks of various provinces and cities. The data of cities that have not published the monthly average temperatures are supplemented by consulting rp5.ru world weather (https://rp5.ru/%E4%B8%96%E7%95%8C%E5%A4%A9%E6%B0%94_).\n### Variable selection\n#### Explained variable\nFollowing extant studies, we use Air Quality Index (AQI) to measure air quality since the air pollutants monitored by AQI include fine particles (PM_{2.5}), inhalable particulate (PM_{10}), sulfur dioxide (SO_{2}), etc. It is a dimensionless index that quantitatively describes air quality. AQI monitors regional air quality based on the Environmental Air Quality Standard, formulated by the Environmental Protection Law and the Air Pollution Prevention and Control Law. AQI is a scientific basis for measuring regional air quality and an evaluation index for preventing and controlling haze pollution and improving air quality in China. In addition, we selecte the monthly average concentrations of PM_{2.5}, PM_{10}, SO_{2,} CO, NO_{2}, and O_{3} as the substitution variables for air quality to conduct robustness tests.\n#### Explanatory variable\nTreat_{i} * Post_{t}, as the interaction term, is the core explanatory variable in this study, in which Treat_{i} is a dummy variable for the pilot zone. If the city is one of the first batches of GFRIs, namely, Quzhou City, Huzhou City, Guangzhou City, Karamay City, Changji City, Hami City, Gui’an New Area (Guiyang City and Anshun City), Ganjiang New Area (Nanchang City and Jiujiang City), then Treat_{i} is 1. Otherwise, it is 0. In addition, there are considerable differences between different cities. To narrow the differences between the treatment and control group, the study selects the cities with a closer geographical distance to the pilot cities as the control group. Post_{t} is a time dummy variable, representing the establishment time of the GFRIs. If the time is before the establishment of the pilot zones (January 2015-June 2017), Post_{t} is set to 0. If the time is after the establishment of the pilot zones (July 2017-December 2019), Post_{t} is set to 1. According to the principle of DID, the coefficient β _{1} of Treat_{i} * Post_{t} is the net effect of the establishment of GFRIs on air quality. If Treat_{i} is 1 and Post_{t} is 1, the value of Treat_{i} * Post_{t} is 1, and otherwise, it is 0.\n#### Control variables\nReferring to extant studies, we select the monthly average temperature (temp) as a control variable. Also, we select the following development indicators as the second type of control variables, including economic development (lngdp), the green coverage rate (greenr), the natural population growth rate (pop) and foreign direct investment (fdi). The second type of control variables will use annual data (2015-2019).\nUrban monthly average temperature (temp): It has been proved that urban meteorological factors impact air pollution, but there is no consensus on the direction. Burning coal in northern China exacerbates urban air pollution when temperatures are low. However, when the temperature is higher, the instability of the atmosphere is enhanced, which may lead to the diffusion of the high temperature of PM_{2.5}. Kayes et al. (2019) took Dhaka, the capital of Bangladesh, as the research object and found that air temperature is negatively correlated with air pollution.\nEconomic development (lngdp): The higher the level of economic development is, the better the role of green finance policies can be played. In this paper, regional per capita GDP is selected to measure economic development and is treated as a logarithm (lngdp). Moreover, mainstream literatures believe an inverted U-shaped relationship between environmental pollution and economic development, namely, Environmental Kuznet Curve (EKC). Therefore, the square term of regional per capita GDP is also taken as the control variable (lngdp^{2}).\nGreen coverage rate (greenr): Greenery can absorb and filter harmful gases in the air. Studies have shown that urban greening can effectively absorb pollutants in the air, reduce air pollution and clean the air (Nowak et al., 2006). Natural population growth rate (pop): The increase in population will raise the demand for resources and the environment, leading to air pollution.\nForeign direct investment (fdi): The prevailing view that FDI contributing to environmental pollution is the “pollution paradise” hypothesis. However, FDI may improve air quality by introducing environmentally friendly production technologies and products into developing countries. Therefore, foreign direct investment is selected as a control variable and measured by converting the actual utilization of foreign investment into RMB as a percentage of GDP.\n#### Intervening variables\nThe industrial structure upgrading effect (Ris) is measured by the ratio of the tertiary industry’s added value to the secondary industry’s added value. We selecte green total factor productivity (GTFP) to measure green innovation. Unlike R&D investment and green patents, which only measure the input or output of green innovation, green total factor productivity puts the input and output in the same framework to measure green innovation performance. The paper selects the indicators in Table 1 and uses the SBM-GML method to measure green total factor productivity (Mao et al., 2022). Among them, the capital input uses the perpetual inventory method to calculate the fixed capital stock of each city. The formula is as follows: \\(K_t = \\left({1 - {\\it{\\updelta }}} \\right)K_{t - 1} + I_t^\\prime\\), where K_{t} and K_{t−1} represent the fixed capital stock in period t and period t−1, respectively. δ represents the depreciation rate of fixed assets. According to the practice of most scholars, the value of δ is 9.6%. As the fixed-asset investment after the price adjustment, \\(I_t^\\prime\\) is adjusted to take the year 2004 as the base period. Next, the real GDP of each city measures the expected output, and the data is calculated based on the year 2000 (Liu and Xin, 2019). Since the data on industrial wastewater discharge, sulfur dioxide emissions, and industrial smoke (dust) emissions of each city are relatively complete, the study uses the entropy method to obtain the comprehensive index of environmental pollution based on the amount of these three pollutants as the undesired output.\n### Models\nA DID approach is used in quasi-natural experiments to find the net impact of a policy by comparing the differing effects on the treatment and control variables (Irfan et al., 2022). Therefore, we construct a DID model to verify the net effect of GFRIs on air quality. We select the cities where the first eight experimental areas are located as pilot zones. This temporal and spatial difference provides an opportunity for assessment using the difference-in-difference method. The model is set as shown in formula (1):\n\n$$Pollution_{it} = \\alpha + {{\\beta }}_1Treat_i \\ast Post_t + \\gamma Control_{it} + \\varepsilon _{it}$$\n                    (1)\nwhere Pollution_{it} refers to the air quality of city i in month t. Treat_{i} is the city dummy variable. If the city belongs to the first eight pilot zones, the value is 1, and 0 otherwise. Post_{t} represents a time dummy variable that is set to 1 in June 2017 and later, and 0 otherwise. Treati * Post_{t} is the interaction term of the DID estimation, which is the core explanatory variable, reflecting whether the GFRIs have been established. Control_{it} is the control variables of this paper. ε _{it} is the random disturbance term.\nFurther, to investigate whether the establishment of GFRIs affects air quality through the industrial structure upgrading effect and the green innovation effect, the author constructs the following mediating effect models:\nStep 1: Test the influence of the establishment of GFRIs on the intermediary variable:\n\n$$Mech_{it} = \\alpha + \\alpha _1Treat_i \\ast Post_t + \\alpha _2Control_{it} + \\varepsilon _{it}$$\n                    (2)\nStep 2: Test the effect of intermediary variables on air quality:\n\n$$Pollution_{it} = \\beta + \\beta _1Mech_{it} + \\beta _2Treat_i \\ast Post_t + \\beta _3Control_{it} + \\varepsilon _{it}$$\n                    (3)\nwhere Mech_{it} as the mediating variable, represents the industrial structure upgrading effect and green innovation effect, respectively. Other variables are the same as in model (1).",
+            "cites": [
+                "ref-CR33",
+                "ref-CR21",
+                "ref-CR32",
+                "ref-CR31",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Empirical results",
+            "text": "### Descriptive statistics\nThe descriptive statistics of the main variables are in Table 2. The explained variable AQI in the sample is 70.4819, the minimum value is 0, and the maximum value is 330, indicating that the air quality in the sample is good. However, the standard deviation is 27.7540, indicating significant differences in air quality between cities. Similar conclusions can be drawn for air pollutants such as PM_{2.5}, PM_{10,} SO_{2}, CO, and other air pollutants. The explanatory variable the establishment of GFRIs has a mean value of 0.0342, indicating that the sample of cities establishing GFRIs is small. The monthly average temperature has a mean value of 18.0396 and a maximum value of 37.3, while its minimum value of −22.2 is an enormous difference.\n### DID regression results\nTable 3 shows the regression results of the benchmark model and reports the impact of the establishment of GFRIs on air quality. No fixed effects are added to columns (1) and (2), fixed effects are added to columns (3) and (4), and no control variables are added to columns (1) and (3). It can be seen from the results that no matter which model is used, the coefficient of the interaction term Treat_{i} * Post_{t} is significantly negative at the 1% significance level. The coefficient in the benchmark model is −4.5337, indicating that the establishment of GFRIs significantly improves air quality. Hypothesis 1 is verified. From the perspective of control variables, the monthly average temperature significantly negatively correlates with air quality because the winter heating period is generally the case when the monthly average temperature is low. Fan et al. (2020) showed that China’s winter coal-fired heating system would increase AQI and thus deteriorate the air quality. The green coverage rate significantly negatively correlates with air quality, mainly because urban greening can absorb harmful gases to a certain extent and improve air quality.\n### Robustness test\n#### Parallel trend test\nWhen applying the DID method to evaluate the policy effect, the samples in the treatment and control groups should have parallel trends before policy implementation. Thus, under the assumption that no GFRIs are established, the changing air quality trends in the treatment and control groups are consistent. As shown in Fig. 1, the average trend of air quality (AQI) in the treatment and control groups from January 2015 to December 2019 is plotted. The horizontal axis is the 60 months from January 2015 to December 2019, and the vertical axis is air quality (AQI). As seen in Fig. 1, the air quality trends for cities in the treatment and control groups were the same before the establishment of GFRIs, which is consistent with the parallel trend hypothesis.\n#### Propensity score matching method (PSM)-DID\nThe DID model requires the randomization of two sample groups. To address the non-randomness in selecting GFRIs, we use the propensity score matching method (PSM) to match the cities in the treatment and control groups and then use the DID method to estimate.\nFirstly, we take the monthly average temperature (temp), per capita GDP (lngdp), the square term of per capita GDP (lngdp^{2}), green coverage rate (greenr), natural population growth rate (pop) and foreign direct investment (fdi) as the attribute variables of the cities to perform the Probit regression on the treatment and control groups. Secondly, we use the predicted values of the scores to perform one-to-one nearest-neighbor matching. Finally, we perform regression according to the benchmark model. After matching, we also check whether the PSM balances the data so there is no significant difference between the treatment and control groups. Table 4 shows that most variables have a standardized bias of less than 10% after matching. Only the natural population growth rate has a bias of 10.5%, but it is within an acceptable range. It indicates that the PSM-DID method can be used to conduct the test.\nIn addition, the paper uses probability distribution plots of propensity scores to observe the differences between the treatment and control groups, making the DID estimates valid. As can be seen in Fig. 2, there is sufficient overlap between the matched treatment and control groups, which suggests that the matching effect is valid.\nColumns (1) and (2) of Table 5 are the regression results of PSM-DID with one-to-one nearest-neighbor matching. In addition, this paper adopts the kernel density matching method to further verify the robustness of the conclusions, as shown in columns (3) and (4). The results show that the establishment of GFRIs can significantly reduce the AQI and improve the air quality. That is consistent with the results in Table 3, indicating that the previous conclusions are robust.\n#### Placebo test\nThe article conducts a placebo test to strengthen the robustness of the research findings and to test whether there are inherent differences and omitted variables between the treatment and control groups before the establishment of GFRIs. The specific method is to randomly advance the establishment time of GFRIs by four months. That is, from January 2015 to February 2017, the value of Post is 0, while from April 2017 to December 2019, the value of Post is 1. Alternatively, by setting up GFRIs one year earlier, from January 2015 to June 2016, the Post is 0. While from July 2016 to December 2019, the Post is 1. Then benchmark regression according to model (1) is performed. Other settings are the same as discussed previously. Table 6 shows the results. The coefficients are insignificant whether establishing GFRIs four months or one year earlier, suggesting that the inherent differences and omitted variables between treatment and control group cities before the establishment of GFRIs have little impact on the findings of this paper.\n#### Explained variable substitution test\nThis paper uses the monthly average concentrations of PM_{2.5}, PM_{10}, SO_{2}, CO, NO_{2}, and O_{3}, which constitute the air quality (AQI), as proxy variables for air quality to conduct robustness tests. Table 7 shows that the establishment of GFRIs significantly reduced the monthly average concentration of various pollutants and improved air quality. The paper findings are verified.",
+            "cites": [
+                "ref-CR10"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Further analysis",
+            "text": "### Mechanism analysis\nFrom the above empirical results, the establishment of GFRIs significantly improves air quality. Hence, whether the establishment of GFRIs can improve air quality through the effect of industrial structure upgrading and green innovation, as discussed in section “Hypothesis development.” The study will validate H2 and H3 with models (2) and (3). The effect of industrial structure upgrading on air quality is shown in columns (1) and (2) of Table 8. The establishment of GFRIs has insignificant effect on industrial structure upgrading. However, the regression coefficients of industrial structure upgrading and the establishment of GFRIs on AQI are negative. Based on this, the study used the Bootstrap method to test whether industrial structure upgrading has a mediating effect. As the test power of the Bootstrap method is higher than the sequential test method of models (2) and (3), it is challenging to detect significant mediating effects by sequential tests. Industrial structure upgrading and the establishment of GFRIs have significant regression coefficients on AQI. Then, the regression coefficient of GFRIs to Ris is positive, and the regression coefficient of Ris to AQI is negative, so the product of the two is negative. Moreover, the coefficient of the establishment of GFRIs regression to AQI is also negative, which is the same as the product result. Therefore, the effect of industrial structure upgrading has a partial intermediary effect. The proportion of the mediating effect to the total effect is 0.0182*(−7.4510)/(−4.5337) = 0.0299, which verifies hypothesis H2. That is, the establishment of GFRIs improves air quality through the effect of industrial structure upgrading. Columns (3) and (4) of Table 8 indicate the impact of green innovation on air quality. The results show that the establishment of GFRIs significantly improves GTFP. The improvement of GTFP and the establishment of GFRIs significantly reduce the AQI, meaning there is a partial mediation effect. Hypothesis H3 is verified. Therefore, industrial structure upgrading and green innovation have partial mediating effects. Thus, the establishment of GFRIs can not only improve air quality on its own but also improve air quality by promoting industrial structure upgrading and green innovation.\n### Heterogeneity analysis\n#### Regional heterogeneity analysis\nThe paper divides the sample cities into north and south regions according to Qinling Mountains-Huaihe River line in China because the central heating in northern cities seriously deteriorates air quality in winter (Cai et al., 2020). The Qinling-Huaihe line divides the cities into southern and northern regions, as shown in Fig. 3. The red line is the Qinling-Huaihe line. The results are shown in columns (1) and (2) of Table 9. The establishment of GFRIs does not significantly affect air quality in cities north of the Qinling-Huaihe line. However, air quality is significantly improved in cities south of the Qinling-Huaihe line. The possible reasons are that the deterioration of air quality caused by coal-fired heating in winter is relatively more severe in the north, and the industrial structure in the north is mainly dominated by the secondary industry with high pollution. The effect of the GFRIs is limited in the cities north of the Qinling-Huaihe line. However, most cities south of the Qinling-Huaihe line are developing rapidly, and the proportion of tertiary industry has gradually exceeded that of secondary industry. Furthermore, these cities have gradually formed the concept of green development, so the establishment of GFRIs can also play the role of “icing on the cake”.\n#### Heterogeneity analysis of city scale\nLarger cities generally have a higher level of economic development, so whether the agglomeration effect brought by them will optimize the efficiency of resource allocation or aggravate the problem of “urban diseases”. The author divides the sample cities into large-scale, small and medium-scale cities for analysis. According to the Notice on Adjusting the Criteria for the Classification of Urban Scale issued by the China State Council in 2014, large-scale cities are those with a permanent population of more than 1 million in urban areas, while small and medium-scale cities are less than 1 million. The number of permanent residents is obtained from the ratio of municipal district GDP to per capita GDP. The results are shown in columns (3) and (4) of Table 9. The establishment of GFRIs has significantly improved the air quality of large cities but has had no significant impact on small and medium-scale cities. The possible reasons are that the resource advantages of large-scale cities have been further exerted through the establishment of GFRIs, and the green innovation effect has further tackled “urban diseases”, thereby improving air quality. Small and medium-scale cities may limit the role of GFRIs due to their inadequate green infrastructure.\n#### Heterogeneity analysis of city characteristics\nDifferent cities have different air quality, financial development scales, and fiscal expenditures. Therefore, the establishment of GFRIs has different effects on air quality. The author analyzes the heterogeneity according to the different characteristics of the cities. Specifically, this paper divides the sample into two groups according to the median of AQI, financial development scales, and fiscal expenditure, respectively (Wang et al., 2021).\nFirstly, the study divides the sample cities’ air quality according to the AQI median. Cities with AQI above the median (65) have worse air quality, while those below the median have better air quality. Columns (1) and (2) of Table 10 show the impact of the establishment of GFRIs in cities with different air quality. The establishment of GFRIs has significantly improved air quality for both groups of cities with better and worse air quality, and the impact is more pronounced for cities with worse air quality.\nSecondly, the paper divides cities into two groups based on the median value of financial development scales. Cities larger than the median have better financial development, while those more minor than the median have worse financial development. The scale of financial development is measured according to the ratio of deposit and loan balances of financial institutions to GDP. Columns (3) and (4) of Table 10 show the heterogeneous results for the scale of financial development. The establishment of GFRIs has significantly improved the air quality of cities with better financial development but has insignificant effect on those cities with worse financial development. The possible reasons are that cities with worse financial development are relatively lacking in green financial development. In other words, the green financial system and infrastructure need to be better equipped, and the efficiency of resource allocation needs to be improved. Therefore, GFRIs have not positively impacted cities with worse financial development. While for cities with better financial development, the situations are just the opposite.\nFinally, the paper divides the sample cities into two groups based on the median level of fiscal expenditure. Cities above the median have higher levels of fiscal expenditure and vice versa. The level of fiscal expenditure is measured by the proportion of prefecture-level city fiscal expenditure to its GDP. The results are shown in columns (5) and (6) of Table 10. The establishment of GFRIs significantly improves air quality in both groups of sample cities, but its effect is more pronounced in cities with lower levels of fiscal expenditure. The possible reason is that, to some extent, cities with higher fiscal expenditures pay more attention to controlling environmental pollution than cities with lower fiscal expenditures, so the establishment of GFRIs can play a more critical role in cities with lower fiscal expenditures.",
+            "cites": [
+                "ref-CR1",
+                "ref-CR44"
+            ],
+            "figures": [
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Conclusions and policy implications",
+            "text": "In the context of China’s green economic growth transition, sustainable environment and green finance policy, it is essential to analyze how the establishment of GFRIs affects air quality. The paper conducts a quasi-natural experiment and adopts DID model to examine the impact of China’s green finance reform and innovations pilot zones (GFRIs) on urban air quality and its mechanism. The results show that the establishment of GFRIs has significantly reduced AQI and improved air quality. The results remain robust after the parallel trend test, propensity score matching test, placebo test and indicator replacement test. The mechanism inspection shows that the establishment of GFRIs improves air quality through industrial structure upgrading and green innovation. Moreover, the heterogeneity results show that air quality in the south of the Qinling Mountains-Huaihe River line, in large and well-developed financially scaled cities, has improved significantly after the establishment of GFRIs. Compared with cities with better air quality and higher fiscal expenditure, the establishment of GFRIs has improved the air quality in cities with worse air quality and lower financial expenditure to a greater extent.\nBased on the findings, the following policies are recommended: First, policymakers should increase the number of cities with GFRIs so that they can play a more vital role in improving air quality. As observed, the establishment of GFRIs has reached the original intention of the policy, which has the effect of improving and optimizing air quality. Therefore, the government should deepen the implementation level of the pilot zone for different subjects. Specifically, establishing GFRIs should combine the government and market forces to leverage the role of GFRIs. At the same time, enterprises should actively disclose their environmental protection information. Consumers should establish the concept of green consumption and encourage green investment and consumption to extend the green industry chain. Financial institutions should innovate green financial products, providing more financing channels for energy conservation and environmental protection industries.\nSecondly, policymakers should pay more attention to the role of industrial structure upgrading and green technology innovation on air quality. GFRIs should strengthen their support for green industries and projects, as well as restrictions on investment and financing for heavy polluters, thus promoting industrial structure upgrading. In addition, GFRIs should encourage green innovation and improve the productivity of clean industries.\nThird, different cities should combine their resource endowments to exploit the situation. The heterogeneity analyses show that the GFRIs can play different roles due to the different geographical locations and scales of cities. Therefore, different GFRIs should focus on their tasks according to local conditions. By implementing disaggregated policies, governments should avoid blindly imitating the development experiences of other pilot regions. Cities with poorly implemented GFRIs should revise and implement valid policies to reduce air pollution. While cities with well-implemented GFRIs should learn from their experiences and strengthen their role in improving air quality. In addition, financial and green financial infrastructure should be strengthened to support the establishment of GFRIs. This study shows that the GFRIs are challenging to play a role in cities with worse financial development. Therefore, the government should accelerate the construction of green financial markets and formulate more comprehensive green financial policies by controlling fiscal expenditure. Also, banks should incentivize investments in energy-efficient technology by offering interest reductions and considering pollution-reduction standards when constructing financial products.\nThe findings of this study have the following limitations: (1) In terms of sample selection of the treatment group, the GFRIs are expanding. The Chongqing GFRI was officially launched in August 2022, and the implementation time is so short that the effect still needs to be visible. Therefore, only the first batch of established GFRIs is selected as the treatment group in this paper. However, a multi-period DID model can be used to analyze the pilot policies at different time points in the future. (2) Since the pilot policy is only in six provinces and nine locations, the sample size of cities in the treatment group is small. There is the problem of an uneven sample size of cities in the treatment and control groups. (3) Green finance may impact neighboring cities, and the air is mobile. This paper is expected to combine spatial economics and green finance and use spatial DID to conduct empirical research.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Parallel trend.",
+            "figure-caption": "This figure shows the changing trends of AQI in the treatment and control groups before and after the establishment of GFRIs. Not subject to copyright.",
+            "figure-link": "https://www.nature.com/articles/s41599-023-01773-0/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Kernel density plots before and after matching.",
+            "figure-caption": "This figure shows the overlap between the treatment and control groups before and after matching using PSM, indicating that the matching effect is valid. Not subject to copyright.",
+            "figure-link": "https://www.nature.com/articles/s41599-023-01773-0/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Qinling Mountains-Huaihe River line in China.",
+            "figure-caption": "This figure clearly shows the northern and southern cities of China. Not subject to copyright.",
+            "figure-link": "https://www.nature.com/articles/s41599-023-01773-0/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Cai HY, Nan YQ, Zhao YL et al. (2020) Impacts of winter heating on the atmospheric pollution of northern China’s prefectural cities: evidence from a regression discontinuity design. Ecol Indic 118:11. https://doi.org/10.1016/j.ecolind.2020.106709",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecolind.2020.106709",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhsFOit7fP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impacts%20of%20winter%20heating%20on%20the%20atmospheric%20pollution%20of%20northern%20China%E2%80%99s%20prefectural%20cities%3A%20evidence%20from%20a%20regression%20discontinuity%20design&journal=Ecol%20Indic&doi=10.1016%2Fj.ecolind.2020.106709&volume=118&publication_year=2020&author=Cai%2CHY&author=Nan%2CYQ&author=Zhao%2CYL"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Chang SC (2015) Effects of financial developments and income on energy consumption. Int Rev Econ Financ 35:28-44. https://doi.org/10.1016/j.iref.2014.08.011",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.iref.2014.08.011",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effects%20of%20financial%20developments%20and%20income%20on%20energy%20consumption&journal=Int%20Rev%20Econ%20Financ&doi=10.1016%2Fj.iref.2014.08.011&volume=35&pages=28-44&publication_year=2015&author=Chang%2CSC"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Chen Y, Cheng L, Lee CC et al. (2021) The impact of regional banks on environmental pollution: evidence from China’s city commercial banks. Energy Econ 102:15. https://doi.org/10.1016/j.eneco.2021.105492",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.eneco.2021.105492",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20regional%20banks%20on%20environmental%20pollution%3A%20evidence%20from%20China%E2%80%99s%20city%20commercial%20banks&journal=Energy%20Econ&doi=10.1016%2Fj.eneco.2021.105492&volume=102&publication_year=2021&author=Chen%2CY&author=Cheng%2CL&author=Lee%2CCC"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Chen Y, Whalley A (2012) Green infrastructure: the effects of urban rail transit on air quality. Am Econ J-Econ Policy 4(1):58-97. https://doi.org/10.1257/pol.4.1.58",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Fpol.4.1.58",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXpsFCntg%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Green%20infrastructure%3A%20the%20effects%20of%20urban%20rail%20transit%20on%20air%20quality&journal=Am%20Econ%20J-Econ%20Policy&doi=10.1257%2Fpol.4.1.58&volume=4&issue=1&pages=58-97&publication_year=2012&author=Chen%2CY&author=Whalley%2CA"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Chen YC, Hung MY, Wang YX (2018) The effect of mandatory CSR disclosure on firm profitability and social externalities: evidence from China. J Account Econ 65(1):169-190. https://doi.org/10.1016/j.jacceco.2017.11.009",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jacceco.2017.11.009",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20mandatory%20CSR%20disclosure%20on%20firm%20profitability%20and%20social%20externalities%3A%20evidence%20from%20China&journal=J%20Account%20Econ&doi=10.1016%2Fj.jacceco.2017.11.009&volume=65&issue=1&pages=169-190&publication_year=2018&author=Chen%2CYC&author=Hung%2CMY&author=Wang%2CYX"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Chen Z, Hu L, He X et al. (2022) Green financial reform and corporate ESG performance in China: empirical evidence from the green financial reform and innovation pilot zone. Int J Environ Res Public Health 19(22). https://doi.org/10.3390/ijerph192214981",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Cheng ZH, Zhu YM (2021) The spatial effect of fiscal decentralization on haze pollution in China. Environ Sci Pollut Res 28(36):49774-49787. https://doi.org/10.1007/s11356-021-14176-y",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-021-14176-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20spatial%20effect%20of%20fiscal%20decentralization%20on%20haze%20pollution%20in%20China&journal=Environ%20Sci%20Pollut%20Res&doi=10.1007%2Fs11356-021-14176-y&volume=28&issue=36&pages=49774-49787&publication_year=2021&author=Cheng%2CZH&author=Zhu%2CYM"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Dong Z, Xu H, Zhang Z et al. (2022) Whether green finance improves green innovation of listed companies-Evidence from China. Int J Environ Res Public Health 19(17). https://doi.org/10.3390/ijerph191710882",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Du M, Chai SL, Wei W et al. (2022) Will environmental information disclosure affect bank credit decisions and corporate debt financing costs? Evidence from China’s heavily polluting industries. Environ Sci Pollut Res 29(31):47661-47672. https://doi.org/10.1007/s11356-022-19229-4",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-022-19229-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Will%20environmental%20information%20disclosure%20affect%20bank%20credit%20decisions%20and%20corporate%20debt%20financing%20costs%3F%20Evidence%20from%20China%E2%80%99s%20heavily%20polluting%20industries&journal=Environ%20Sci%20Pollut%20Res&doi=10.1007%2Fs11356-022-19229-4&volume=29&issue=31&pages=47661-47672&publication_year=2022&author=Du%2CM&author=Chai%2CSL&author=Wei%2CW"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Fan MY, He GJ, Zhou MG (2020) The winter choke: coal-fired heating, air pollution, and mortality in China. J Health Econ 71:17. https://doi.org/10.1016/j.jhealeco.2020.102316",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jhealeco.2020.102316",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20winter%20choke%3A%20coal-fired%20heating%2C%20air%20pollution%2C%20and%20mortality%20in%20China&journal=J%20Health%20Econ&doi=10.1016%2Fj.jhealeco.2020.102316&volume=71&publication_year=2020&author=Fan%2CMY&author=He%2CGJ&author=Zhou%2CMG"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Flammer C (2021) Corporate green bonds. J Financ Econ 142(2):499-516. https://doi.org/10.1016/j.jfineco.2021.01.010",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jfineco.2021.01.010",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Corporate%20green%20bonds&journal=J%20Financ%20Econ&doi=10.1016%2Fj.jfineco.2021.01.010&volume=142&issue=2&pages=499-516&publication_year=2021&author=Flammer%2CC"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Greenstone M, Hanna R (2014) Environmental regulations, air and water pollution, and infant mortality in India. Am Econ Rev 104(10):3038-3072. https://doi.org/10.1257/aer.104.10.3038",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Faer.104.10.3038",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20regulations%2C%20air%20and%20water%20pollution%2C%20and%20infant%20mortality%20in%20India&journal=Am%20Econ%20Rev&doi=10.1257%2Faer.104.10.3038&volume=104&issue=10&pages=3038-3072&publication_year=2014&author=Greenstone%2CM&author=Hanna%2CR"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Guo XP, Shi JX, Ren DF et al. (2017) Correlations between air pollutant emission, logistic services, GDP, and urban population growth from vector autoregressive modeling: a case study of Beijing. Nat Hazards 87(2):885-897. https://doi.org/10.1007/s11069-017-2799-1",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11069-017-2799-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Correlations%20between%20air%20pollutant%20emission%2C%20logistic%20services%2C%20GDP%2C%20and%20urban%20population%20growth%20from%20vector%20autoregressive%20modeling%3A%20a%20case%20study%20of%20Beijing&journal=Nat%20Hazards&doi=10.1007%2Fs11069-017-2799-1&volume=87&issue=2&pages=885-897&publication_year=2017&author=Guo%2CXP&author=Shi%2CJX&author=Ren%2CDF"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Hong M, Li ZH, Drakeford B (2021) Do the green credit guidelines affect corporate green technology innovation? Empirical research from China. Int J Environ Res Public Health 18(4):21. https://doi.org/10.3390/ijerph18041682",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph18041682",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Do%20the%20green%20credit%20guidelines%20affect%20corporate%20green%20technology%20innovation%3F%20Empirical%20research%20from%20China&journal=Int%20J%20Environ%20Res%20Public%20Health&doi=10.3390%2Fijerph18041682&volume=18&issue=4&publication_year=2021&author=Hong%2CM&author=Li%2CZH&author=Drakeford%2CB"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Hou H, Zhu Y, Wang J et al. (2023) Will green financial policy help improve China’s environmental quality? The role of digital finance and green technology innovation. Environ Sci Pollut Res Int 30(4):10527-10539. https://doi.org/10.1007/s11356-022-22887-z",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-022-22887-z",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=36085218",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Will%20green%20financial%20policy%20help%20improve%20China%E2%80%99s%20environmental%20quality%3F%20The%20role%20of%20digital%20finance%20and%20green%20technology%20innovation&journal=Environ%20Sci%20Pollut%20Res%20Int&doi=10.1007%2Fs11356-022-22887-z&volume=30&issue=4&pages=10527-10539&publication_year=2023&author=Hou%2CH&author=Zhu%2CY&author=Wang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Hu J, Li JC, Li XY et al. (2021) Will green finance contribute to a green recovery? Evidence from green financial pilot zone in China. Front Public Health 9:14. https://doi.org/10.3389/fpubh.2021.794195",
+            "links": {
+                "Article": "https://doi.org/10.3389%2Ffpubh.2021.794195",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Will%20green%20finance%20contribute%20to%20a%20green%20recovery%3F%20Evidence%20from%20green%20financial%20pilot%20zone%20in%20China&journal=Front%20Public%20Health&doi=10.3389%2Ffpubh.2021.794195&volume=9&publication_year=2021&author=Hu%2CJ&author=Li%2CJC&author=Li%2CXY"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Hu J, Zhang H (2022) Has green finance optimized the industrial structure in China? Environ Sci Pollut Res Int. https://doi.org/10.1007/s11356-022-24514-3",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Huang HF, Zhang J (2021) Research on the environmental effect of green finance policy based on the analysis of pilot zones for green finance reform and innovations. Sustainability 13(7):14. https://doi.org/10.3390/su13073754",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu13073754",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Research%20on%20the%20environmental%20effect%20of%20green%20finance%20policy%20based%20on%20the%20analysis%20of%20pilot%20zones%20for%20green%20finance%20reform%20and%20innovations&journal=Sustainability&doi=10.3390%2Fsu13073754&volume=13&issue=7&publication_year=2021&author=Huang%2CHF&author=Zhang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Huang YM, Chen C (2022) The spatial spillover and threshold effect of green finance on environmental quality: evidence from China. Environ Sci Pollut Res 29(12):17487-17498. https://doi.org/10.1007/s11356-021-16892-x",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-021-16892-x",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=4456052",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20spatial%20spillover%20and%20threshold%20effect%20of%20green%20finance%20on%20environmental%20quality%3A%20evidence%20from%20China&journal=Environ%20Sci%20Pollut%20Res&doi=10.1007%2Fs11356-021-16892-x&volume=29&issue=12&pages=17487-17498&publication_year=2022&author=Huang%2CYM&author=Chen%2CC"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Huynh CM, Hoang HH (2019) Foreign direct investment and air pollution in Asian countries: does institutional quality matter. Appl Econ Lett 26(17):1388-1392. https://doi.org/10.1080/13504851.2018.1563668",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F13504851.2018.1563668",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Foreign%20direct%20investment%20and%20air%20pollution%20in%20Asian%20countries%3A%20does%20institutional%20quality%20matter&journal=Appl%20Econ%20Lett&doi=10.1080%2F13504851.2018.1563668&volume=26&issue=17&pages=1388-1392&publication_year=2019&author=Huynh%2CCM&author=Hoang%2CHH"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Irfan M, Razzaq A, Sharif A et al. (2022) Influence mechanism between green finance and green innovation: exploring regional policy intervention effects in China. Technol Forecast Soc Chang 182:12. https://doi.org/10.1016/j.techfore.2022.121882",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.techfore.2022.121882",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Influence%20mechanism%20between%20green%20finance%20and%20green%20innovation%3A%20exploring%20regional%20policy%20intervention%20effects%20in%20China&journal=Technol%20Forecast%20Soc%20Chang&doi=10.1016%2Fj.techfore.2022.121882&volume=182&publication_year=2022&author=Irfan%2CM&author=Razzaq%2CA&author=Sharif%2CA"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Jin X, Sumaila UR, Yin KD et al. (2021) Evaluation of the policy effect of China’s environmental interview system for effective air quality governance. Int J Environ Res Public Health 18(17):20. https://doi.org/10.3390/ijerph18179006",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph18179006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Evaluation%20of%20the%20policy%20effect%20of%20China%E2%80%99s%20environmental%20interview%20system%20for%20effective%20air%20quality%20governance&journal=Int%20J%20Environ%20Res%20Public%20Health&doi=10.3390%2Fijerph18179006&volume=18&issue=17&publication_year=2021&author=Jin%2CX&author=Sumaila%2CUR&author=Yin%2CKD"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Kayes I, Shahriar SA, Hasan K et al. (2019) The relationships between meteorological parameters and air pollutants in an urban environment. Global J Environ Sci Manage 5(3):265-278. https://doi.org/10.22034/GJESM.2019.03.01",
+            "links": {
+                "Article": "https://doi.org/10.22034%2FGJESM.2019.03.01",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXisVOmtrjM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20relationships%20between%20meteorological%20parameters%20and%20air%20pollutants%20in%20an%20urban%20environment&journal=Global%20J%20Environ%20Sci%20Manage&doi=10.22034%2FGJESM.2019.03.01&volume=5&issue=3&pages=265-278&publication_year=2019&author=Kayes%2CI&author=Shahriar%2CSA&author=Hasan%2CK"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Lalive R, Luechinger S, Schmutzler A (2018) Does expanding regional train service reduce air pollution. J Environ Econ Manage 92:744-764. https://doi.org/10.1016/j.jeem.2017.09.003",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jeem.2017.09.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20expanding%20regional%20train%20service%20reduce%20air%20pollution&journal=J%20Environ%20Econ%20Manage&doi=10.1016%2Fj.jeem.2017.09.003&volume=92&pages=744-764&publication_year=2018&author=Lalive%2CR&author=Luechinger%2CS&author=Schmutzler%2CA"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Landrigan PJ (2017) Air pollution and health. Lancet Public Health 2(1):E4-E5. https://doi.org/10.1016/s2468-2667(16)30023-8",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fs2468-2667%2816%2930023-8",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29249479",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20pollution%20and%20health&journal=Lancet%20Public%20Health&doi=10.1016%2Fs2468-2667%2816%2930023-8&volume=2&issue=1&pages=E4-E5&publication_year=2017&author=Landrigan%2CPJ"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Li H, Lu J (2021) Can stable environmental protection officials’ tenure reduce illegal emissions? Socio-Econ Plan Sci 78:13. https://doi.org/10.1016/j.seps.2021.101055",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.seps.2021.101055",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1997EM%26P...78...13L",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Can%20stable%20environmental%20protection%20officials%E2%80%99%20tenure%20reduce%20illegal%20emissions%3F&journal=Socio-Econ%20Plan%20Sci&doi=10.1016%2Fj.seps.2021.101055&volume=78&publication_year=2021&author=Li%2CH&author=Lu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Li SJ, Liu YY, Purevjav AO et al. (2019) Does subway expansion improve air quality. J Environ Econ Manage 96:213-235. https://doi.org/10.1016/j.jeem.2019.05.005",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jeem.2019.05.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20subway%20expansion%20improve%20air%20quality&journal=J%20Environ%20Econ%20Manage&doi=10.1016%2Fj.jeem.2019.05.005&volume=96&pages=213-235&publication_year=2019&author=Li%2CSJ&author=Liu%2CYY&author=Purevjav%2CAO"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Liu HR, Liu C, Xie ZQ et al. (2016) A paradox for air pollution controlling in China revealed by “APEC Blue” and “Parade Blue”. Sci Rep 6:13. https://doi.org/10.1038/srep34408",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsrep34408",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XhsF2qtrfN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20paradox%20for%20air%20pollution%20controlling%20in%20China%20revealed%20by%20%E2%80%9CAPEC%20Blue%E2%80%9D%20and%20%E2%80%9CParade%20Blue%E2%80%9D&journal=Sci%20Rep&doi=10.1038%2Fsrep34408&volume=6&publication_year=2016&author=Liu%2CHR&author=Liu%2CC&author=Xie%2CZQ"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Liu S, Xu RX, Chen XY (2021) Does green credit affect the green innovation performance of high-polluting and energy-intensive enterprises? Evidence from a quasi-natural experiment. Environ Sci Pollut Res 28(46):65265-65277. https://doi.org/10.1007/s11356-021-15217-2",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-021-15217-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20green%20credit%20affect%20the%20green%20innovation%20performance%20of%20high-polluting%20and%20energy-intensive%20enterprises%3F%20Evidence%20from%20a%20quasi-natural%20experiment&journal=Environ%20Sci%20Pollut%20Res&doi=10.1007%2Fs11356-021-15217-2&volume=28&issue=46&pages=65265-65277&publication_year=2021&author=Liu%2CS&author=Xu%2CRX&author=Chen%2CXY"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Liu XH, Wang EX, Cai DT (2019) Green credit policy, property rights and debt financing: quasi-natural experimental evidence from China. Financ Res Lett 29:129-135. https://doi.org/10.1016/j.frl.2019.03.014",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.frl.2019.03.014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Green%20credit%20policy%2C%20property%20rights%20and%20debt%20financing%3A%20quasi-natural%20experimental%20evidence%20from%20China&journal=Financ%20Res%20Lett&doi=10.1016%2Fj.frl.2019.03.014&volume=29&pages=129-135&publication_year=2019&author=Liu%2CXH&author=Wang%2CEX&author=Cai%2CDT"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Liu ZK, Xin L (2019) Has China’s Belt and Road Initiative promoted its green total factor productivity?-Evidence from primary provinces along the route. Energy Policy 129:360-369. https://doi.org/10.1016/j.enpol.2019.02.045",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2019.02.045",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Has%20China%E2%80%99s%20Belt%20and%20Road%20Initiative%20promoted%20its%20green%20total%20factor%20productivity%3F-Evidence%20from%20primary%20provinces%20along%20the%20route&journal=Energy%20Policy&doi=10.1016%2Fj.enpol.2019.02.045&volume=129&pages=360-369&publication_year=2019&author=Liu%2CZK&author=Xin%2CL"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Mao JH, Wu Q, Zhu MH et al. (2022) Effects of environmental regulation on green total factor productivity: an evidence from the yellow river basin, China. Sustainability 14(4):21. https://doi.org/10.3390/su14042015",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu14042015",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effects%20of%20environmental%20regulation%20on%20green%20total%20factor%20productivity%3A%20an%20evidence%20from%20the%20yellow%20river%20basin%2C%20China&journal=Sustainability&doi=10.3390%2Fsu14042015&volume=14&issue=4&publication_year=2022&author=Mao%2CJH&author=Wu%2CQ&author=Zhu%2CMH"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Nowak DJ, Crane DE, Stevens JC (2006) Air pollution removal by urban trees and shrubs in the United States. Urban Forest Urban Green 4(3-4):115-123. https://doi.org/10.1016/j.ufug.2006.01.007",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ufug.2006.01.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20pollution%20removal%20by%20urban%20trees%20and%20shrubs%20in%20the%20United%20States&journal=Urban%20Forest%20Urban%20Green&doi=10.1016%2Fj.ufug.2006.01.007&volume=4&issue=3-4&pages=115-123&publication_year=2006&author=Nowak%2CDJ&author=Crane%2CDE&author=Stevens%2CJC"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Peng BH, Yan WM, Elahi E et al. (2022) Does the green credit policy affect the scale of corporate debt financing? Evidence from listed companies in heavy pollution industries in China. Environ Sci Pollut Res 29(1):755-767. https://doi.org/10.1007/s11356-021-15587-7",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-021-15587-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20the%20green%20credit%20policy%20affect%20the%20scale%20of%20corporate%20debt%20financing%3F%20Evidence%20from%20listed%20companies%20in%20heavy%20pollution%20industries%20in%20China&journal=Environ%20Sci%20Pollut%20Res&doi=10.1007%2Fs11356-021-15587-7&volume=29&issue=1&pages=755-767&publication_year=2022&author=Peng%2CBH&author=Yan%2CWM&author=Elahi%2CE"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Shi J, Yu C, Li Y et al. (2022) Does green financial policy affect debt-financing cost of heavy-polluting enterprises? An empirical evidence based on Chinese pilot zones for green finance reform and innovations. Technol Forecast Soc Chang 179. https://doi.org/10.1016/j.techfore.2022.121678",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Song Y, Li ZR, Yang TT et al. (2020) Does the expansion of the joint prevention and control area improve the air quality?-Evidence from China’s Jing-Jin-Ji region and surrounding areas. Sci Total Environ 706:9. https://doi.org/10.1016/j.scitotenv.2019.136034",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2019.136034",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXisVajsbfP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20the%20expansion%20of%20the%20joint%20prevention%20and%20control%20area%20improve%20the%20air%20quality%3F-Evidence%20from%20China%E2%80%99s%20Jing-Jin-Ji%20region%20and%20surrounding%20areas&journal=Sci%20Total%20Environ&doi=10.1016%2Fj.scitotenv.2019.136034&volume=706&publication_year=2020&author=Song%2CY&author=Li%2CZR&author=Yang%2CTT"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Sun X, Xiao S, Ren X et al. (2023) Time-varying impact of information and communication technology on carbon emissions. Energy Econ 106492. https://doi.org/10.1016/j.eneco.2022.106492",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Tian C, Li XQ, Xiao LM et al. (2022) Exploring the impact of green credit policy on green transformation of heavy polluting industries. J Clean Prod 335:12. https://doi.org/10.1016/j.jclepro.2021.130257",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2021.130257",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XisVersrs%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20the%20impact%20of%20green%20credit%20policy%20on%20green%20transformation%20of%20heavy%20polluting%20industries&journal=J%20Clean%20Prod&doi=10.1016%2Fj.jclepro.2021.130257&volume=335&publication_year=2022&author=Tian%2CC&author=Li%2CXQ&author=Xiao%2CLM"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Viard VB, Fu SH (2015) The effect of Beijing’s driving restrictions on pollution and economic activity. J Public Econ 125:98-115. https://doi.org/10.1016/j.jpubeco.2015.02.003",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jpubeco.2015.02.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20Beijing%E2%80%99s%20driving%20restrictions%20on%20pollution%20and%20economic%20activity&journal=J%20Public%20Econ&doi=10.1016%2Fj.jpubeco.2015.02.003&volume=125&pages=98-115&publication_year=2015&author=Viard%2CVB&author=Fu%2CSH"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Wang EX, Liu XH, Wu JP et al. (2019) Green credit, debt maturity, and corporate investment-evidence from China. Sustainability 11(3):19. https://doi.org/10.3390/su11030583",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu11030583",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Green%20credit%2C%20debt%20maturity%2C%20and%20corporate%20investment-evidence%20from%20China&journal=Sustainability&doi=10.3390%2Fsu11030583&volume=11&issue=3&publication_year=2019&author=Wang%2CEX&author=Liu%2CXH&author=Wu%2CJP"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Wang LH, Wang Z, Ma YT (2022) Heterogeneous environmental regulation and industrial structure upgrading: evidence from China. Environ Sci Pollut Res 29(9):13369-13385. https://doi.org/10.1007/s11356-021-16591-7",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-021-16591-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Heterogeneous%20environmental%20regulation%20and%20industrial%20structure%20upgrading%3A%20evidence%20from%20China&journal=Environ%20Sci%20Pollut%20Res&doi=10.1007%2Fs11356-021-16591-7&volume=29&issue=9&pages=13369-13385&publication_year=2022&author=Wang%2CLH&author=Wang%2CZ&author=Ma%2CYT"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Wang QJ, Wang HJ, Chang CP (2022) Environmental performance, green finance and green innovation: what’s the long-run relationships among variables. Energy Econ 110:12. https://doi.org/10.1016/j.eneco.2022.106004",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.eneco.2022.106004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20performance%2C%20green%20finance%20and%20green%20innovation%3A%20what%E2%80%99s%20the%20long-run%20relationships%20among%20variables&journal=Energy%20Econ&doi=10.1016%2Fj.eneco.2022.106004&volume=110&publication_year=2022&author=Wang%2CQJ&author=Wang%2CHJ&author=Chang%2CCP"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Wang XY, Wang Q (2021) Research on the impact of green finance on the upgrading of China’s regional industrial structure from the perspective of sustainable development. Resour Policy 74:10. https://doi.org/10.1016/j.resourpol.2021.102436",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.resourpol.2021.102436",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Research%20on%20the%20impact%20of%20green%20finance%20on%20the%20upgrading%20of%20China%E2%80%99s%20regional%20industrial%20structure%20from%20the%20perspective%20of%20sustainable%20development&journal=Resour%20Policy&doi=10.1016%2Fj.resourpol.2021.102436&volume=74&publication_year=2021&author=Wang%2CXY&author=Wang%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Wang YL, Zhao N, Lei XD et al. (2021) Green finance innovation and regional green development. Sustainability 13(15):19. https://doi.org/10.3390/su13158230",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu13158230",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Green%20finance%20innovation%20and%20regional%20green%20development&journal=Sustainability&doi=10.3390%2Fsu13158230&volume=13&issue=15&publication_year=2021&author=Wang%2CYL&author=Zhao%2CN&author=Lei%2CXD"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Wang Z, Fu H, Ren X (2023) Political connections and corporate carbon emission: new evidence from Chinese industrial firms. Technol Forecast Soc Chang 188:122326. https://doi.org/10.1016/j.techfore.2023.122326",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.techfore.2023.122326",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Political%20connections%20and%20corporate%20carbon%20emission%3A%20new%20evidence%20from%20Chinese%20industrial%20firms&journal=Technol%20Forecast%20Soc%20Chang&doi=10.1016%2Fj.techfore.2023.122326&volume=188&publication_year=2023&author=Wang%2CZ&author=Fu%2CH&author=Ren%2CX"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Xiao ZM, Yu L, Liu YW et al. (2022) Does green credit policy move the industrial firms toward a greener future? Evidence from a quasi-natural experiment in China. Front Environ Sci 9:11. https://doi.org/10.3389/fenvs.2021.810305",
+            "links": {
+                "Article": "https://doi.org/10.3389%2Ffenvs.2021.810305",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2022FrMat...9....3X",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20green%20credit%20policy%20move%20the%20industrial%20firms%20toward%20a%20greener%20future%3F%20Evidence%20from%20a%20quasi-natural%20experiment%20in%20China&journal=Front%20Environ%20Sci&doi=10.3389%2Ffenvs.2021.810305&volume=9&publication_year=2022&author=Xiao%2CZM&author=Yu%2CL&author=Liu%2CYW"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Xu XK, Li JS (2020) Asymmetric impacts of the policy and development of green credit on the debt financing cost and maturity of different types of enterprises in China. J Clean Prod 264:13. https://doi.org/10.1016/j.jclepro.2020.121574",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2020.121574",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Asymmetric%20impacts%20of%20the%20policy%20and%20development%20of%20green%20credit%20on%20the%20debt%20financing%20cost%20and%20maturity%20of%20different%20types%20of%20enterprises%20in%20China&journal=J%20Clean%20Prod&doi=10.1016%2Fj.jclepro.2020.121574&volume=264&publication_year=2020&author=Xu%2CXK&author=Li%2CJS"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Yan C, Mao Z, Ho K-C (2022) Effect of green financial reform and innovation pilot zones on corporate investment efficiency. Energy Econ 113. https://doi.org/10.1016/j.eneco.2022.106185",
+            "links": {}
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Yao SY, Pan YY, Sensoy A et al. (2021) Green credit policy and firm performance: what we learn from China. Energy Econ 101:16. https://doi.org/10.1016/j.eneco.2021.105415",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.eneco.2021.105415",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Green%20credit%20policy%20and%20firm%20performance%3A%20what%20we%20learn%20from%20China&journal=Energy%20Econ&doi=10.1016%2Fj.eneco.2021.105415&volume=101&publication_year=2021&author=Yao%2CSY&author=Pan%2CYY&author=Sensoy%2CA"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Yu CH, Wu XQ, Zhang DY et al. (2021) Demand for green finance: resolving financing constraints on green innovation in China. Energy Policy 153:13. https://doi.org/10.1016/j.enpol.2021.112255",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2021.112255",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Demand%20for%20green%20finance%3A%20resolving%20financing%20constraints%20on%20green%20innovation%20in%20China&journal=Energy%20Policy&doi=10.1016%2Fj.enpol.2021.112255&volume=153&publication_year=2021&author=Yu%2CCH&author=Wu%2CXQ&author=Zhang%2CDY"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Zeng YT, Wang F, Wu J (2022) The impact of green finance on urban haze pollution in China: a technological innovation perspective. Energies 15(3):20. https://doi.org/10.3390/en15030801",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fen15030801",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20green%20finance%20on%20urban%20haze%20pollution%20in%20China%3A%20a%20technological%20innovation%20perspective&journal=Energies&doi=10.3390%2Fen15030801&volume=15&issue=3&publication_year=2022&author=Zeng%2CYT&author=Wang%2CF&author=Wu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Zhang AL, Wang SY, Liu B (2022) How to control air pollution with economic means? Exploration of China’s green finance policy. J Clean Prod 353:10. https://doi.org/10.1016/j.jclepro.2022.131664",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2022.131664",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhsVOnurjO",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20to%20control%20air%20pollution%20with%20economic%20means%3F%20Exploration%20of%20China%E2%80%99s%20green%20finance%20policy&journal=J%20Clean%20Prod&doi=10.1016%2Fj.jclepro.2022.131664&volume=353&publication_year=2022&author=Zhang%2CAL&author=Wang%2CSY&author=Liu%2CB"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Zhang C, Cheng X, Ma Y (2022) Research on the impact of green finance policy on regional green innovation-Based on evidence from the pilot zones for green finance reform and innovation. Front Environ Sci 10. https://doi.org/10.3389/fenvs.2022.896661",
+            "links": {}
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Zhang K, Li YC, Qi Y et al. (2021) Can green credit policy improve environmental quality? Evidence from China. J Environ Manage 298:11. https://doi.org/10.1016/j.jenvman.2021.113445",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jenvman.2021.113445",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Can%20green%20credit%20policy%20improve%20environmental%20quality%3F%20Evidence%20from%20China&journal=J%20Environ%20Manage&doi=10.1016%2Fj.jenvman.2021.113445&volume=298&publication_year=2021&author=Zhang%2CK&author=Li%2CYC&author=Qi%2CY"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Zhang SL, Wu ZH, Wang Y et al. (2021) Fostering green development with green finance: an empirical study on the environmental effect of green credit policy in China. J Environ Manage 296:12. https://doi.org/10.1016/j.jenvman.2021.113159",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jenvman.2021.113159",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fostering%20green%20development%20with%20green%20finance%3A%20an%20empirical%20study%20on%20the%20environmental%20effect%20of%20green%20credit%20policy%20in%20China&journal=J%20Environ%20Manage&doi=10.1016%2Fj.jenvman.2021.113159&volume=296&publication_year=2021&author=Zhang%2CSL&author=Wu%2CZH&author=Wang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Zhang YB, Li X (2022) The impact of the green finance reform and innovation pilot zone on the green innovation-Evidence from China. Int J Environ Res Public Health 19(12):20. https://doi.org/10.3390/ijerph19127330",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph19127330",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhsVOhsrrK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20the%20green%20finance%20reform%20and%20innovation%20pilot%20zone%20on%20the%20green%20innovation-Evidence%20from%20China&journal=Int%20J%20Environ%20Res%20Public%20Health&doi=10.3390%2Fijerph19127330&volume=19&issue=12&publication_year=2022&author=Zhang%2CYB&author=Li%2CX"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Zhang YL, Lu J (2022) Green finance and corporate environmental violations: a test from the perspective of illegal pollution discharge behaviors. Environ Sci Pollut Res 29(32):48477-48490. https://doi.org/10.1007/s11356-022-19228-5",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-022-19228-5",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xht12mt7jE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Green%20finance%20and%20corporate%20environmental%20violations%3A%20a%20test%20from%20the%20perspective%20of%20illegal%20pollution%20discharge%20behaviors&journal=Environ%20Sci%20Pollut%20Res&doi=10.1007%2Fs11356-022-19228-5&volume=29&issue=32&pages=48477-48490&publication_year=2022&author=Zhang%2CYL&author=Lu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Zheng Y, Peng JC, Xiao JZ et al. (2020) Industrial structure transformation and provincial heterogeneity characteristics evolution of air pollution: evidence of a threshold effect from China. Atmos Pollut Res 11(3):598-609. https://doi.org/10.1016/j.apr.2019.12.011",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apr.2019.12.011",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXisVehsb7J",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Industrial%20structure%20transformation%20and%20provincial%20heterogeneity%20characteristics%20evolution%20of%20air%20pollution%3A%20evidence%20of%20a%20threshold%20effect%20from%20China&journal=Atmos%20Pollut%20Res&doi=10.1016%2Fj.apr.2019.12.011&volume=11&issue=3&pages=598-609&publication_year=2020&author=Zheng%2CY&author=Peng%2CJC&author=Xiao%2CJZ"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Zhou XG, Tang XM, Zhang R (2020) Impact of green finance on economic development and environmental quality: a study based on provincial panel data from China. Environ Sci Pollut Res 27(16):19915-19932. https://doi.org/10.1007/s11356-020-08383-2",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-020-08383-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20green%20finance%20on%20economic%20development%20and%20environmental%20quality%3A%20a%20study%20based%20on%20provincial%20panel%20data%20from%20China&journal=Environ%20Sci%20Pollut%20Res&doi=10.1007%2Fs11356-020-08383-2&volume=27&issue=16&pages=19915-19932&publication_year=2020&author=Zhou%2CXG&author=Tang%2CXM&author=Zhang%2CR"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The datasets used and analyzed during the current study are available from the corresponding author on reasonable request.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "This work was supported by the National Social Science and Fund Project “Research on the mechanism and counter measures of digital inclusive finance to support SME credit community financing” (Program No. 22BJY076).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsXiaoyang XuView author publicationsSearch author on:PubMedGoogle ScholarYufan XieView author publicationsSearch author on:PubMedGoogle ScholarEmma Serwaa ObobisaView author publicationsSearch author on:PubMedGoogle ScholarHuaping SunView author publicationsSearch author on:PubMedGoogle Scholar\n### Contributions\nXX: Methodology, writing-review & editing. YX: data analysis, writing-review & editing. ESO: writing-review & editing. HS: review & editing.\n### Corresponding author\nCorrespondence to Xiaoyang Xu.",
+            "links": {
+                "View author publications": "/search?author=Huaping%20Sun",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Huaping%20Sun",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Huaping%20Sun%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Xiaoyang Xu": "mailto:xiaoyangxu@ujs.edu.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.\n### Ethical approval\nThis article does not contain any studies with human participants performed by any of the authors.\n### Informed consent\nThis article does not contain any studies with human participants performed by any of the authors.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Rights and permissions": {
+            "content": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Has%20the%20establishment%20of%20green%20finance%20reform%20and%20innovation%20pilot%20zones%20improved%20air%20quality%3F%20Evidence%20from%20China&author=Xiaoyang%20Xu%20et%20al&contentID=10.1057%2Fs41599-023-01773-0&copyright=The%20Author%28s%29&publication=2662-9992&publicationDate=2023-05-26&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleXu, X., Xie, Y., Obobisa, E.S. et al. Has the establishment of green finance reform and innovation pilot zones improved air quality? Evidence from China. Humanit Soc Sci Commun 10, 262 (2023). https://doi.org/10.1057/s41599-023-01773-0Download citationReceived:30 December 2022Accepted:18 May 2023Published:26 May 2023DOI:https://doi.org/10.1057/s41599-023-01773-0Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1057/s41599-023-01773-0?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Has the establishment of green finance reform and innovation pilot zones improved air quality? Evidence from China",
+                "description": "The role of finance in environmental sustainability is becoming increasingly important. This study conducts a quasi-natural experiment using a sample of 146 prefecture-level cities from 2015 to 2019. It adopts difference-in-differences to examine the impact of China’s green finance reform and innovations pilot zones (GFRIs) on urban air quality. The findings show that air quality has improved after the establishment of GFRIs, indicating that GFRIs have the potential to control air pollution levels. The mechanism tests indicate that the GFRIs are conducive to improving air quality through industrial structure upgrading and green innovation. Furthermore, the heterogeneity analyses show that the air quality in the south of the Qinling Mountains-Huaihe River line, in large and well-developed financially scaled cities, has improved significantly after the establishment of GFRIs.",
+                "datePublished": "2023-05-26T00:00:00Z",
+                "dateModified": "2023-05-26T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "14",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1057/s41599-023-01773-0",
+                "keywords": [
+                    "Environmental studies",
+                    "Finance",
+                    "Social policy",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-023-01773-0/MediaObjects/41599_2023_1773_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-023-01773-0/MediaObjects/41599_2023_1773_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-023-01773-0/MediaObjects/41599_2023_1773_Fig3_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Humanities and Social Sciences Communications",
+                    "issn": [
+                        "2662-9992"
+                    ],
+                    "volumeNumber": "10",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Palgrave Macmillan UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Xiaoyang Xu",
+                        "url": "http://orcid.org/0000-0001-7861-0747",
+                        "affiliation": [
+                            {
+                                "name": "Jiangsu University",
+                                "address": {
+                                    "name": "School of Finance and Economics, Jiangsu University, Zhenjiang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Jiangsu University",
+                                "address": {
+                                    "name": "Institute of Industrial Economics, Jiangsu University, Zhenjiang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "xiaoyangxu@ujs.edu.cn",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yufan Xie",
+                        "affiliation": [
+                            {
+                                "name": "Jiangsu University",
+                                "address": {
+                                    "name": "School of Finance and Economics, Jiangsu University, Zhenjiang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Emma Serwaa Obobisa",
+                        "affiliation": [
+                            {
+                                "name": "Jiangsu University",
+                                "address": {
+                                    "name": "School of Finance and Economics, Jiangsu University, Zhenjiang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Huaping Sun",
+                        "url": "http://orcid.org/0000-0002-9328-7850",
+                        "affiliation": [
+                            {
+                                "name": "Jiangsu University",
+                                "address": {
+                                    "name": "School of Finance and Economics, Jiangsu University, Zhenjiang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "environmental-studies;finance;social-policy",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Humanities and Social Sciences Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1057/s41599-023-01773-0"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Xiaoyang Xu",
+                            "Yufan Xie",
+                            "Emma Serwaa Obobisa",
+                            "Huaping Sun"
+                        ],
+                        "publishedAt": 1685059200,
+                        "publishedAtString": "2023-05-26",
+                        "title": "Has the establishment of green finance reform and innovation pilot zones improved air quality? Evidence from China",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Environmental studies,Finance,Social policy"
+                    },
+                    "journal": {
+                        "pcode": "palcomms",
+                        "title": "humanities and social sciences communications",
+                        "volume": "10",
+                        "issue": "1",
+                        "id": 41599,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Has the establishment of green finance reform and innovation pilot zones improved air quality? Evidence from China",
+            "dc.source": "Humanities and Social Sciences Communications 2023 10:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Palgrave",
+            "dc.date": "2023-05-26",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2023 The Author(s)",
+            "dc.rights": "2023 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "The role of finance in environmental sustainability is becoming increasingly important. This study conducts a quasi-natural experiment using a sample of 146 prefecture-level cities from 2015 to 2019. It adopts difference-in-differences to examine the impact of China’s green finance reform and innovations pilot zones (GFRIs) on urban air quality. The findings show that air quality has improved after the establishment of GFRIs, indicating that GFRIs have the potential to control air pollution levels. The mechanism tests indicate that the GFRIs are conducive to improving air quality through industrial structure upgrading and green innovation. Furthermore, the heterogeneity analyses show that the air quality in the south of the Qinling Mountains-Huaihe River line, in large and well-developed financially scaled cities, has improved significantly after the establishment of GFRIs.",
+            "dc.identifier": "doi:10.1057/s41599-023-01773-0",
+            "dc.creator": "Sun, Huaping",
+            "dc.subject": "Social policy",
+            "prism.issn": "2662-9992",
+            "prism.publicationName": "Humanities and Social Sciences Communications",
+            "prism.publicationDate": "2023-05-26",
+            "prism.volume": "10",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "14",
+            "prism.copyright": "2023 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41599-023-01773-0",
+            "prism.doi": "doi:10.1057/s41599-023-01773-0",
+            "citation_pdf_url": "https://www.nature.com/articles/s41599-023-01773-0.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41599-023-01773-0",
+            "citation_journal_title": "Humanities and Social Sciences Communications",
+            "citation_journal_abbrev": "Humanit Soc Sci Commun",
+            "citation_publisher": "Palgrave",
+            "citation_issn": "2662-9992",
+            "citation_title": "Has the establishment of green finance reform and innovation pilot zones improved air quality? Evidence from China",
+            "citation_volume": "10",
+            "citation_issue": "1",
+            "citation_online_date": "2023/05/26",
+            "citation_firstpage": "1",
+            "citation_lastpage": "14",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1057/s41599-023-01773-0",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1057/s41599-023-01773-0&api_key=",
+            "citation_reference": "citation_journal_title=Environ Sci Pollut Res; citation_title=Impact of green finance on economic development and environmental quality: a study based on provincial panel data from China; citation_author=XG Zhou, XM Tang, R Zhang; citation_volume=27; citation_issue=16; citation_publication_date=2020; citation_pages=19915-19932; citation_doi=10.1007/s11356-020-08383-2; citation_id=CR59",
+            "citation_author": "Sun, Huaping",
+            "citation_author_institution": "School of Finance and Economics, Jiangsu University, Zhenjiang, China",
+            "description": "The role of finance in environmental sustainability is becoming increasingly important. This study conducts a quasi-natural experiment using a sample of 146 prefecture-level cities from 2015 to 2019. It adopts difference-in-differences to examine the impact of China’s green finance reform and innovations pilot zones (GFRIs) on urban air quality. The findings show that air quality has improved after the establishment of GFRIs, indicating that GFRIs have the potential to control air pollution levels. The mechanism tests indicate that the GFRIs are conducive to improving air quality through industrial structure upgrading and green innovation. Furthermore, the heterogeneity analyses show that the air quality in the south of the Qinling Mountains-Huaihe River line, in large and well-developed financially scaled cities, has improved significantly after the establishment of GFRIs.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Has the establishment of green finance reform and innovation pilot zones improved air quality? Evidence from China",
+            "twitter:description": "Humanities and Social Sciences Communications - Has the establishment of green finance reform and innovation pilot zones improved air quality? Evidence from China",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1057%2Fs41599-023-01773-0/MediaObjects/41599_2023_1773_Fig1_HTML.png",
+            "DOI": "10.1057/s41599-023-01773-0",
+            "size": "275911",
+            "journal_id": "41599"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41599-023-01773-0",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

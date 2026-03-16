@@ -1,0 +1,980 @@
+{
+    "id": "palcomms201529",
+    "journal": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "title": "Food safety incidents in Beijing: occurrence patterns, causes and wider social implications",
+    "legal_title": "Food safety incidents in Beijing  occurrence patterns, causes and wider social implications",
+    "publish_time": "2015-10-06",
+    "pdf_link": "https://www.nature.com/articles/palcomms201529",
+    "storage_path": "./Articles/Humanities and Social Sciences Communications/2015-article/palcomms201529/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Food safety incidents have the potential to result in a range of adverse health effects, including diarrhoeal diseases and various forms of cancer. Furthermore, they also have a disruptive effect on the economy, trade and tourism. As Beijing strives to become a global centre of politics, economy and culture, serious food safety incidents continue to be frequently reported in the city. It is clear that a large number of food safety incidents, such as those that have occurred in China, and in some other parts of the world, cannot be fully tackled by means of conventional analysis, which focuses on biological and chemical factors, but which often ignores potential human factors (which may be intentional in nature). In this article, we dynamically examine the time intervals between successive distinct food safety incidents that were mainly caused by human factors. Our intention is to identify information that could be of use to governmental and other bodies in efforts to curb the occurrence of food safety incidents. We analyse data spanning a 10-year period from 2004 to 2013, during which time 295 food safety incidents occurred in Beijing. We find that the occurrence of food safety incidents was drastically different from Poisson processes, suggesting that their causes may have been systemic in nature. We further found that the sequence of time intervals had persistent long-range correlations, characterized by a Hurst parameter of H=0.65, suggesting that food safety incidents occurred in bursts. Finally, we propose scenarios that may be responsible for these long-range correlations. Our quantitative findings may not only hold in Beijing and elsewhere in China, but also in other parts of the world where human factors are an important cause of food safety incidents. In all those situations, our proposed scenarios for long-range correlations may be used as part of efforts to devise strategies to curb or prevent future food safety incidents.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Food safety is crucial to every city, not least to Beijing, the capital of the world’s most populous nation, which is striving to become a global centre of politics, economy and culture: serious food safety incidents that occur in Beijing have the potential to endanger a significant number of people (Jia and Jukes, 2013; Lam et al., 2013; Wu and Chen, 2013; Liu et al., 2015b). It is therefore of concern that serious food safety incidents continue to be frequently reported in Beijing (Liu et al., 2015b). Although the infamous wide-spread melamine-tainted milk incident of 2008 did not occur in Beijing (Lancet, 2009,2012), the capital did not fare much better than elsewhere in mainland China (Liu et al., 2015b): in 2009, from a survey on food safety conducted by the Beijing Municipal of the National Bureau of Statistics, it was found that only 51.1% of the respondents surveyed believed overall food safety standards in Beijing to be acceptable (Wang and Tong, 2009). By 2011, while surveys showed improvements, only approximately 70% of those surveyed considered food in the capital to be safe (Wang and Tong, 2011).\nAn especially damaging class of food safety incidents that has occurred in Beijing is that caused by human factors, sometimes intentional. Examples include recycled gutter oil sold as cooking oil for profit (Wang, 2011); poisonous egg-like substances sold as eggs (Patrick, 2012); bean sprouts grown in poisonous chemicals to enhance their appearance, weight and value (China Daily, 2013); rat meat sold as mutton by street-side vendors (Burkitt, 2013); and expired food served in fast-food restaurants (Filloon, 2014). A pressing question, therefore, is whether the Beijing municipal government (and authorities elsewhere in China) can curb the occurrence of such food safety incidents.\nWhile much research has been conducted on food safety management in Beijing, this has tended to focus on food production (Khan et al., 2008; Wang and Qiao, 2011; Du et al., 2012; Fan et al., 2012), distribution and consumption (Cheng et al., 2009; Wang et al., 2009, 2011; Mao and An, 2012) and supervision (Zhou, 2009; Ren et al., 2011), rather than on human factors. As an important step towards confronting this question, in this article we set out to uncover salient patterns behind food safety incidents that have occurred in Beijing, and then examine whether those patterns could be used as part of an effort to devise strategies to curb or prevent food safety incidents.\nThe selection of food safety incidents we examine is inspired by the recent success of applying quantitative analyses to various aspects of human behaviour (Perc, 2013; Kuhn et al., 2014). These have largely been driven by important advances in theory as well as the availability of vast amounts of numerical and non-numerical data-collectively, sometimes termed metaknowledge (Evans and Foster, 2011). The diverse array of human behaviours that has been examined using these approaches includes travel and mobility patterns (Brockmann et al., 2006; González et al., 2008), infectious diseases (Balcan et al., 2009), epidemics (Hufnagel et al., 2004), malware (Hu et al., 2009), online popularity (Ratkiewicz et al., 2010), language (Lieberman et al., 2007; Puglisi et al., 2008; Loreto et al., 2011; Perc, 2012,2014; Petersen et al., 2012a) and culture (Leetaru, 2011; Michel et al., 2011; Gao et al., 2012; Petersen et al., 2012b). The extensive media reports of food safety incidents in China have provided the metaknowledge for us to use as a basis for investigating this problem. We choose to examine food safety incidents in Beijing since media reports about this issue in the city are among the most abundant in China. This is not surprising given that Beijing, as the capital and the country’s most populous city, has been at the forefront of food safety management in China (Liu et al., 2015b).\nIn the present study, we specifically examine whether it is possible to gain new insights into prevalence of food safety incidents by applying random fractal theory (Mandelbrot, 1982; Gao et al., 2007) to the series of time intervals between successive food safety incidents-which we call the inter-event-interval (IEI) series. First, we examine the distribution of the IEIs: if the IEIs follow an exponential distribution, then the occurrence of food safety incidents may be said to follow a Poisson process. Exponential distributions and the underlying Poisson processes do not possess any memory. Many physical processes, including radioactive decay, belong to this category. If this is the case with food safety incidents in Beijing, suggesting that the occurrence of incidents resulted from purely stochastic factors, then it could be concluded that there is very little the government could do to drastically reduce the occurrences of such incidents. We expect food safety incidents in Beijing to be highly non-Poissonian, as many incidents are intentional. Second, and more importantly, we examine whether the IEIs possess long-range correlations by computing the main scaling exponent from random fractal theory, the Hurst parameter H, which characterizes the nature of correlations (memory) contained in the irregular IEI time series. In general, data with long-range correlations are an important subclass of 1/f^{α} noise (Press, 1978; Bak et al., 1987; Bak, 1996), which is characterized by a power-law decaying power spectral density (PSD). In addition, having a power-law decaying rank-ordered eigenvalue spectrum, the dimension of 1/f^{α} noise cannot be reduced by principal component analysis (Gao et al., 2003). Processes that generate time series with such properties are said to have antipersistent correlations, are memory-less or have only short-range correlations, and have persistent long-range correlations (long memory) if 0<H<1/2, H=1/2 and 1/2<H<1, respectively (Mandelbrot, 1982). If the IEIs do possess long-range correlations, then the question is how the Beijing municipal government could design innovative strategies to break the long-range correlations in IEIs. Such successful interference may lead to a drastic fall in overall food safety incidents-it is desirable that remaining incidents occur sporadically and resemble a Poisson process.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR56",
+                "ref-CR11",
+                "ref-CR38",
+                "ref-CR2",
+                "ref-CR15",
+                "ref-CR40",
+                "ref-CR32",
+                "ref-CR3",
+                "ref-CR25",
+                "ref-CR61",
+                "ref-CR30",
+                "ref-CR58",
+                "ref-CR43",
+                "ref-CR6",
+                "ref-CR46",
+                "ref-CR5",
+                "ref-CR20",
+                "ref-CR26",
+                "ref-CR42",
+                "ref-CR17",
+                "ref-CR16",
+                "ref-CR31",
+                "ref-CR47",
+                "ref-CR28",
+                "ref-CR1",
+                "ref-CR64",
+                "ref-CR57",
+                "ref-CR27",
+                "ref-CR60",
+                "ref-CR41",
+                "ref-CR48",
+                "ref-CR29",
+                "ref-CR36",
+                "ref-CR51",
+                "ref-CR59",
+                "ref-CR14",
+                "ref-CR7",
+                "ref-CR8",
+                "ref-CR34",
+                "ref-CR49",
+                "ref-CR45",
+                "ref-CR24",
+                "ref-CR53",
+                "ref-CR13",
+                "ref-CR66",
+                "ref-CR50",
+                "ref-CR52"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Data and methods",
+            "text": "Our research data are taken from ZCCW.info (http://www.zccw.info/index), which is a database of food safety incidents in China created by volunteers (Wu, 2012). This database is regularly expanded and comprises information sources obtained by searching reports in the public domain since 2001 relating to food contamination, covering all mainland China. By 2013, ZCCW.info had collected more than 3,000 food safety incidents from across China. As such, the food safety incidents covered by the ZCCW.info database may be considered representative of what the Chinese government permits society to be aware of. Few reports can be found on the Internet before 2004, most likely because before this date media and governmental authorities in China generally did not use these outlets to disseminate information on food safety to the general public. This reflects, to some extent, the underdevelopment of China’s Internet infrastructure before 2004, and changes in openness as well as greater political concerns over food safety after 2004.\nWhen studying the dynamical nature of food safety incidents, it is prudent to confine an analysis to a single city, given the inevitable differences in hygiene levels, climate, and economic and political conditions; here we focus on Beijing, specifically focusing on food safety incidents that occurred over the period from January 2004 to August 2013. The raw data were preprocessed to remove irrelevant, incomplete and repeated entries. After data preprocessing, the total number of food safety incidents in Beijing was 295; that is approximately 10% of mainland China’s incidents, recalling that there were a total of about 3,000 incidents during this period. This percentage is high, considering that Beijing’s population only counts for 1.6% of the national population. However, as Beijing is widely considered to have been at the forefront of food safety management in mainland China, it is perhaps not surprising that there has been an apparent greater degree of reporting of such incidents in the city (Liu et al., 2015b). The datasets that we analysed have been made publicly available in the Dataverse repository (Liu et al., 2015a).\nFood safety incidents have a variety of causes at different stages of food supply chain. Orthodox approaches for studying food safety usually focus on chemical and biological factors as the major risk factors (Luning et al., 2006; Liu et al., 2015b). Unfortunately, this approach is often not sufficient when investigating incidents that have arisen largely from human factors, especially intentional actions (for example, criminal behaviour), whose origins may be manifold (for example, political, economic, cultural and value system). Consequently, food safety incidents may not occur sporadically, but in bursts with certain structure. To better reveal the dynamic, and possibly organized behaviours in food safety incidents, we choose to focus on an analysis of IEIs.\nTo analyse IEIs, we first perform distributional analysis, checking whether IEIs may follow two specific distributions. One is exponential distribution, which may be expressed by its probability density function (PDF):\n\n(1)\n                          \n                          \n                            \n                              \n                                f\n                              \n                              \n                                X\n                              \n                            \n                            \n                              (\n                              x\n                              )\n                            \n                            =\n                            λ\n                            \n                              \n                                e\n                              \n                              \n                                −\n                                λ\n                                x\n                              \n                            \n                            ,\n                            x\n                            ⩾\n                            0\n                            ,\n                            λ\n                            >\n                            0\n                            ,\nor its complementary cumulative distribution function (CCDF),\n\n(2)\n                          \n                          \n                            P\n                            \n                              (\n                              \n                                X\n                                ⩾\n                                x\n                              \n                              )\n                            \n                            =\n                            \n                              \n                                e\n                              \n                              \n                                −\n                                λ\n                                x\n                              \n                            \n                            ,\n                            x\n                            ⩾\n                            0\n                            ,\n                            λ\n                            >\n                            0\n                            .\nThe other is power-law distribution, whose PDF is:\n\nf\n                        (\n                        x\n                        )\n                      ∼\n                        \n                          x\n                        \n                        \n                          −\n                          α\n                          −\n                          1\n                        \n                      ,x→∞.\nAnd whose CCDF is:\n\n(3)\n                          \n                          \n                            P\n                            \n                              (\n                              \n                                X\n                                ⩾\n                                x\n                              \n                              )\n                            \n                            ∼\n                            \n                              \n                                x\n                              \n                              \n                                −\n                                α\n                              \n                            \n                            ,\n                            x\n                            →\n                            ∞\n                            .\nWe also examine whether the IEI series may possess long-range correlations. A covariance stationary stochastic process X={X_{t}:t=0, 1, 2,...}, with mean μ, variance σ ^{2} and autocorrelation function r(w), w⩾0, is said to have long-range temporal correlation if r(w) is of the form (Cox, 1984)\n\n(4)\n                          \n                          \n                            r\n                            \n                              (\n                              w\n                              )\n                            \n                            ∼\n                            \n                              \n                                w\n                              \n                              \n                                2\n                                H\n                                −\n                                2\n                              \n                            \n                            ,\n                            a\n                            s\n                            w\n                            →\n                            ∞\n                            ,\nwhere 0<H<1 is the Hurst parameter. When 1/2<H<1, Σ _{w}r(w)=∞, leading to long-range temporal correlation. The process X has a PSD of 1/f^{2H−1}. Its integration, called a random walk process, has a PSD of 1/f^{2H+1}. Being a 1/f process, it cannot be aptly modelled by a Markov process or an ARIMA model (Box and Jenkins, 1976), as the PSD for those processes are distinctly different from 1/f. To adequately model a 1/f process, a fractional order process has to be used. A well-known process of this class is the fractional Brownian motion model (Mandelbrot, 1982).\nOne of the most popular methods for estimating the Hurst parameter H is detrended fluctuation analysis (DFA) (Peng et al., 1994). Given a time series x_{1}, x_{2}, x_{3},..., x_{N}, DFA works as follows: first one constructs a random walk process\n\n(5)\n                          \n                          \n                            u\n                            \n                              (\n                              n\n                              )\n                            \n                            =\n                            \n                              ∑\n                              \n                                k\n                                =\n                                1\n                              \n                              n\n                            \n                            \n                              (\n                              \n                                \n                                  \n                                    x\n                                  \n                                  \n                                    k\n                                  \n                                \n                                −\n                                \n                                  x\n                                  ¯\n                                \n                              \n                              )\n                            \n                            ,\n                            n\n                            =\n                            1\n                            ,\n                            2\n                            ,\n                            …\n                            ,\n                            N\n                            ,\nwhere x ¯ is the mean of the series x_{i}, i=1, 2,.... Then one divides the constructed random walk process, which is of length N, into [N/l] non-overlapping segments, each containing l points. Next, one defines the local trend in each segment to be the ordinate of a linear least-squares fit or best polynomial fit of the time series in that segment, and computes the “detrended walk”, denoted by μ _{l}(n), as the difference between the original “walk” u(n) and the local trend. The Hurst parameter H is given by the following scaling relation:\n\n(6)\n                          \n                          \n                            \n                              \n                                F\n                              \n                              \n                                d\n                              \n                            \n                            \n                              (\n                              l\n                              )\n                            \n                            =\n                            \n                              ⟨\n                              \n                                \n                                  ∑\n                                  \n                                    i\n                                    =\n                                    1\n                                  \n                                  l\n                                \n                                \n                                  \n                                    \n                                      u\n                                    \n                                    \n                                      l\n                                    \n                                  \n                                  \n                                    \n                                      \n                                        (\n                                        i\n                                        )\n                                      \n                                    \n                                    2\n                                  \n                                \n                              \n                              ⟩\n                            \n                            ∼\n                            \n                              \n                                l\n                              \n                              \n                                2\n                                H\n                              \n                            \n                            ,\nwhere the angle brackets denote ensemble averages of all the segments.\nWe note that the best linear or polynomial fits of DFA may have large discontinuities at the boundaries of adjacent segments. To overcome this problem, recently, a new method, called adaptive fractal analysis (AFA), has been proposed (Gao et al., 2011, 2012). AFA involves first fitting a globally smooth trend signal v(n) to the u(n) time series for window size w (Gao et al., 2010; Tung et al., 2011). The residual, u(n)−v(n), characterizes fluctuations around the global trend, and its variance yields the Hurst parameter H according to\n\n(7)\n                          \n                          \n                            F\n                            \n                              (\n                              w\n                              )\n                            \n                            =\n                            \n                              \n                                \n                                  [\n                                  \n                                    \n                                      1\n                                      N\n                                    \n                                    \n                                      ∑\n                                      \n                                        n\n                                        −\n                                        1\n                                      \n                                      N\n                                    \n                                    \n                                      \n                                        \n                                          \n                                            \n                                              (\n                                              \n                                                u\n                                                \n                                                  (\n                                                  n\n                                                  )\n                                                \n                                                −\n                                                v\n                                                \n                                                  (\n                                                  n\n                                                  )\n                                                \n                                              \n                                              )\n                                            \n                                          \n                                        \n                                        2\n                                      \n                                    \n                                  \n                                  ]\n                                \n                              \n                              \n                                \n                                  1\n                                  2\n                                \n                              \n                            \n                            ∼\n                            \n                              \n                                w\n                              \n                              H\n                            \n                            .",
+            "cites": [
+                "ref-CR44",
+                "ref-CR55",
+                "ref-CR40",
+                "ref-CR19",
+                "ref-CR35",
+                "ref-CR10",
+                "ref-CR36",
+                "ref-CR4",
+                "ref-CR18",
+                "ref-CR17",
+                "ref-CR63",
+                "ref-CR39"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "By examining the contents of the food safety incidents that occurred in Beijing over the period from January 2004 to August 2013, we identified 293 food safety incidents caused by human factors, which accounted for approximately 99% of the cases (295) collected by the database. It should be emphasized that the human factors may be classified into two categories: un-intentional (human errors); and intentional or deliberate (intentional behaviours). In the present study, distinguishing between these two categories is sometimes difficult. There are two reasons for this: first, some incidents may involve both factors; second, media reports may lack sufficient detail as to determine the cause.\nFigure 1 shows the monthly number of food safety incidents reported in Beijing over the period from January 2004 to August 2013.\nNext, we analysed the series of time intervals between successive food safety incidents, or IEI series. Denoting the time for the ith food safety incident to occur as T_{i}, then IEI series is simply T_{i+1}−T_{i}; therefore, the length of IEI series is 294. Here, we distinguish between two types of IEIs. One corresponds to the T_{i} being reported by the media; the other to the T_{i} that actually occurred. Figure 2 shows these two time series; note that a large IEI means a large time period without a food safety incident, which is clearly the desired situation.\nWe estimated the CCDF for the two IEI series (Fig. 3). If the distribution is exponential, then in a semi-log plot for the CCDF we should observe a straight line. Yet this is not the case; instead, we observe good linear fittings in double-logarithmic plots for the CCDFs. Therefore, the distribution resembles a power law, suggesting that the occurrence of food safety incidents in Beijing is highly non-Poissonian.\nWe used DFA and AFA to estimate the Hurst parameter from the IEI series (Fig. 4). We observe power-law scaling behaviour. In particular, the Hurst parameters estimated by DFA and AFA are consistent. The average H is close to 0.65. Therefore, the IEI series possesses long-range correlations. Note that the value of H is closer to 0.5 than to 1. This is consistent with the fact that more incidents were caused by human errors instead of intentional behaviours (Liu et al., 2013).\nFollowing Gao et al. (2012), we also attempted to first remove the trend from the IEI time series, then estimate the Hurst parameter. It turns out the trend is not significant, and the Hurst parameter for the original and the detrended data are almost the same (0.645).\nFor the series of IEIs, the Hurst parameter is larger than 0.5. This means that a large IEI is more likely followed by another large IEI, while a small IEI is more likely followed by another small IEI. That is to say, food safety incidents occur as bursts: in one period, many incidents would occur leading to small IEIs; then, a safer period with fewer food safety incidents and larger IEIs would follow.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR37"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2",
+                "figure-3",
+                "figure-4"
+            ]
+        },
+        {
+            "title": "Conclusion and discussion",
+            "text": "Food safety is a critical issue worldwide. Beijing has experienced a specific class of food safety-related incidents, particularly those caused by human factors, sometimes purely intentional in nature. Based on data from the ZCCW.info database, over the period from January 2004 to August 2013, we found that 99% of the 295 food safety incidents that occurred in Beijing were caused by human factors (the remaining incidents were caused by the victims themselves, and thus were due to negligence). We analysed the time intervals between successive food safety incidents, and found that they did not follow an exponential distribution; hence, food safety incidents were distinctly different from Poisson processes, suggesting that they may have systemic causes. Furthermore, we found that the time intervals between successive food safety incidents had persistent long-range correlations, characterized by a Hurst parameter of H=0.65. This suggests that food safety incidents would occur as bursts: in one period, many incidents would occur leading to small time intervals between incidents; then, a safer period with fewer food safety incidents and larger time intervals would follow.\nThe results presented above could be used as part of an effort to devise novel strategies to curb or prevent food safety incidents. As perceived by the general public in China, the current strategy adopted by the Beijing municipal government and the Chinese central government for combating food safety scandals involves not reporting incidents to the general public if they are considered to be related to malfeasance or corruption, or may cause public panic; a small subset of incidents tends to be reported in the hope that those incidents presumably arouse general vigilance and warn off further food safety malpractice. Information control in China remains a wide-spread practice. While some incidents are reported, exactly what, how many and how to expose the incidents depends largely on the reasoning by the privileged groups such as government and corporations (Yang, 2013). Food Safety Law was revised in China in 2013, the first draft of which stipulated that any information about food safety incidents should be censored by a governmental agency before it could be released to the general public (LAOSC, 2013). Fortunately, this requirement was removed in the second draft (The Standing Committee of the National People’s Congress, 2014). This may be considered a big step forward for the disclosure of food safety information.\nAgainst the context of the above discussions, we can better understand the mechanisms for the long-range correlations in IEIs. Three distinct scenarios can be identified. First, a wave of incidents with small IEI is uncovered when governmental agencies become more serious and diligent. This corresponds to a sequence of small IEIs. Second, food safety incidents often co-occur, in the sense that when a fraud on a specific type of food is not cracked down on by the government, similar incidents tend to be seen reoccurring. Moreover, malpractice affecting one type of food may be adapted to different types of food. There might also be a possibility that overexposure of one fraud may divert public attention and provide opportunities for similar frauds to occur on other types of food. This scenario is the basis for observing small IEIs when food frauds are cracked down on. Third, following an intense period of monitoring and cracking down, fewer unlawful intentional activities are conducted, and the number of un-intentional incidents also decreases as many vendors become more cautious. This is the basis for observing large IEIs. A sequence of small IEIs followed by a sequence of large IEIs is the very reason for long-range correlations to occur. It is now clear that the very long-range correlations observed in the present study were closely related to the very involvement of government in combating food safety scandals. The question is whether a more effective strategy may be devised to reduce the number of incidents. We suggest that this is possible. In particular, we propose that there are two fronts where the Beijing municipal government and similar bodies elsewhere in China can take action: invest in ways to better uncover incidents, such as purchasing advanced food testing equipment; and expose more incidents to the general public. To understand the latter, it is important to emphasize that the number of food safety incidents reported to the general public is only a very small subset of the incidents that have actually occurred (Lam et al., 2013). While the concern of avoiding public panic is legitimate, we believe the risk of public panic caused by such reporting is not significant, and may even be negligible, particularly given that the Chinese public has long been accustomed to food safety scandals over the past 10 years or more.\nThese strategies alone may not be sufficient for preventing food safety incidents from occurring, as the underlying motives are many and varied. Besides a more concerted effort to tackle food fraud, the application of new legislation and the enforcement of the law are of paramount importance. To this end, Beijing has a lot to learn from Hong Kong (whose food is mostly supplied by mainland China), which has an admiringly high and stable food safety rate. Since 2001, the overall food safety rate in Hong Kong, in line with the international Codex Maximum Residue Limits (Chu, 2009), remained above 99.5% for 13 consecutive years (HKCFS, 2014). The main driving force for this is Hong Kong’s effective laws and regulations (Hong Kong Legislative Council, 2012; Wu et al., 2014; HKCFS, 2015) and the government’s effective application of the law.\nTo facilitate proper implementation of the above approaches, scientific and technological efforts to support food safety supervision also have to be strengthened. This includes improving techniques for food preservation and food hygiene, introducing advanced detection techniques to examine food safety issues, and developing food safety traceability systems (Jia and Jukes, 2013; Liu et al., 2013). Finally, there is scope to improve food safety education. This includes greatly elevating food producers’ and processors’ knowledge about food safety, as well as tremendously raising public awareness of the issues in question and their capabilities for dealing with various types of risks associated with food safety incidents.\nWe acknowledge that our study has some limitations. These relate to the scarcity of the data and the shortness of the IEI series. Moreover, as we pointed out, sometimes it is difficult to clearly distinguish between human error and intentional behaviour. When more food safety incidents become declassified and released to the public, and sufficient information is made available that can help distinguish the main causes (human error or intentional behaviour), an analysis of the series of the IEIs of food safety incidents resulting from these two causes could be carried out. We surmise that the property of long-range correlations in the IEI series of food safety incidents mainly involving intentional behaviours will be more salient than that involving human error. Specifically, the Hurst parameter in the series of IEIs due to intentional behaviours may be significantly larger than 0.5, as intentional behaviours are more closely related to systemic causes, while H in the series of IEIs due to human errors may be around 0.5, as human errors resemble simple stochastic factors.",
+            "cites": [
+                "ref-CR65",
+                "ref-CR33",
+                "ref-CR22",
+                "ref-CR37",
+                "ref-CR21",
+                "ref-CR54",
+                "ref-CR29",
+                "ref-CR26",
+                "ref-CR9",
+                "ref-CR62",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Data Availability",
+            "text": "The dataset analysed in this study is available in the Dataverse repository (Liu FY, Liu Y, Gao JB and Zhang JF, 2015a): http://dx.doi.org/10.7910/DVN/Q8DDM9\nThese datasets were derived from the following resource: http://www.zccw.info/index",
+            "cites": [],
+            "figures": []
+        },
+        {
+            "title": "Additional Information",
+            "text": "How to cite this article: Liu F, Liu Y, Gao J, Zhang J (2015) Food safety incidents in Beijing: occurrence patterns, causes and wider social implications. Palgrave Communications. 1:15029 doi: 10.1057/palcomms.2015.29.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Figure 1",
+            "figure-caption": "The monthly number of food safety incidents reported in Beijing over the period from January 2004 to August 2013. The number of food safety incidents reported in September 2005 and December 2006 is the largest, reaching 12; the number of food safety incidents reported in May 2005 and May 2011 follows, reaching 11; in the majority of months, the number of food safety incidents reported mainly falls below six.",
+            "figure-link": "https://www.nature.com/articles/palcomms201529/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Figure 2",
+            "figure-caption": "Series of IEIs: (a) reported, (b) actual. Note the intermittent pattern-time periods with small IEIs correspond to clustered occurrence of food safety incidents, or bursts; large intervals means long periods without food safety incidents; this is the desired situation.",
+            "figure-link": "https://www.nature.com/articles/palcomms201529/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Figure 3",
+            "figure-caption": "Log-log plot of CCDF for the series of IEIs (red circles): (a) reported, (b) actual. Blue lines in the subplots are the linear fits. The coefficient of determination (R^{2}) in the linear fitting of (a) and (b) is 0.985 and 0.979, respectively, thus suggesting power-law behaviour in CCDF.",
+            "figure-link": "https://www.nature.com/articles/palcomms201529/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Figure 4",
+            "figure-caption": "Fractal analysis of IEI series: (a) reported, (b) actual. The linear fittings are good, with coefficient of determination (R^{2}) of at least 0.98. The slopes of the linear fittings yield the estimation of the Hurst parameters H. The estimations of the Hurst parameter using DFA and AFA are consistent. With H larger than 0.5, the IEI series have long-range correlations.",
+            "figure-link": "https://www.nature.com/articles/palcomms201529/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Bak P (1996) How Nature Works: The Science of Self-Organized Criticality. Copernicus: New York.",
+            "links": {
+                "Book": "https://link.springer.com/doi/10.1007/978-1-4757-5426-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20Nature%20Works%3A%20The%20Science%20of%20Self-Organized%20Criticality&doi=10.1007%2F978-1-4757-5426-1&publication_year=1996&author=Bak%2CP"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Bak P, Tang C and Wiesenfeld K (1987) Self-organized criticality: An explanation of 1/f noise. Physical Review Letters; 59 (4): 381-384.",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevLett.59.381",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BC2sfotlSqug%3D%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1987PhRvL..59..381B",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Self-organized%20criticality%3A%20An%20explanation%20of%201%2Ff%20noise&journal=Physical%20Review%20Letters&doi=10.1103%2FPhysRevLett.59.381&volume=59&issue=4&pages=381-384&publication_year=1987&author=Bak%2CP&author=Tang%2CC&author=Wiesenfeld%2CK"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Balcan D, Colizza V, Gonçalves B, Hu H, Ramasco JJ and Vespignani A (2009) Multiscale mobility networks and the spatial spreading of infectious diseases. Proceedings of the National Academy of Sciences of the United States of America; 106 (51): 21484-21489.",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0906910106",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXltVKitQ%3D%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009PNAS..10621484B",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multiscale%20mobility%20networks%20and%20the%20spatial%20spreading%20of%20infectious%20diseases&journal=Proceedings%20of%20the%20National%20Academy%20of%20Sciences%20of%20the%20United%20States%20of%20America&doi=10.1073%2Fpnas.0906910106&volume=106&issue=51&pages=21484-21489&publication_year=2009&author=Balcan%2CD&author=Colizza%2CV&author=Gon%C3%A7alves%2CB&author=Hu%2CH&author=Ramasco%2CJJ&author=Vespignani%2CA"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Box GEP and Jenkins GM (1976) Time Series Analysis: Forecasting and Control; 2nd edn Holden-Day: San Francisco, CA.",
+            "links": {
+                "MATH": "http://www.emis.de/MATH-item?0363.62069",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Time%20Series%20Analysis%3A%20Forecasting%20and%20Control&publication_year=1976&author=Box%2CGEP&author=Jenkins%2CGM"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Brockmann D, Hufnagel L and Geisel T (2006) The scaling laws of human travel. Nature; 439 (7075): 462-465.",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature04292",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD28XntFWmtQ%3D%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006Natur.439..462B",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20scaling%20laws%20of%20human%20travel&journal=Nature&doi=10.1038%2Fnature04292&volume=439&issue=7075&pages=462-465&publication_year=2006&author=Brockmann%2CD&author=Hufnagel%2CL&author=Geisel%2CT"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Burkitt L (2013) Rats! China chews on new food safety scandal. China Real Time, http://blogs.wsj.com/chinarealtime/2013/05/03/rats-china-chews-on-new-food-safety-scandal/, accessed 28 July 2014.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Cheng L, Ma X, Li LZ, Zheng Y and Liu YD (2009) Investigation of urban consumers’ concerns and attitudes towards food safety in Beijing. Journal of Beijing University of Agriculture; 24 (1): 47-49.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Investigation%20of%20urban%20consumers%E2%80%99%20concerns%20and%20attitudes%20towards%20food%20safety%20in%20Beijing&journal=Journal%20of%20Beijing%20University%20of%20Agriculture&volume=24&issue=1&pages=47-49&publication_year=2009&author=Cheng%2CL&author=Ma%2CX&author=Li%2CLZ&author=Zheng%2CY&author=Liu%2CYD"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "China Daily. (2013) 8 arrested for selling toxic bean sprouts, http://www.chinadaily.com.cn/china/2013-07/15/content_16779259.htm, accessed 15 July 2013.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Chu YK (2009) Pesticide residues in fruits, http://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_38_01.html, accessed 17 September 2009.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Cox DR (1984) Long range dependence: A review In: David HA and Davis HT (eds). Statistics: An Appraisal. The Iowa State University Press: Ames, Iowa.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Long%20range%20dependence%3A%20A%20review&publication_year=1984&author=Cox%2CDR&author=David%2CHA&author=Davis%2CHT"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Du SS, Cai JM, Guo H and Fan ZW (2012) Food security-oriented urban agriculture development typologies: A case study of vegetable production in peri-urban Beijing. Progress in Geography; 31 (6): 783-791.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Food%20security-oriented%20urban%20agriculture%20development%20typologies%3A%20A%20case%20study%20of%20vegetable%20production%20in%20peri-urban%20Beijing&journal=Progress%20in%20Geography&volume=31&issue=6&pages=783-791&publication_year=2012&author=Du%2CSS&author=Cai%2CJM&author=Guo%2CH&author=Fan%2CZW"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Evans JA and Foster JG (2011) Metaknowledge. Science; 331 (6018): 721-724.",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1201765",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXhs1yrsr4%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011Sci...331..721E",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2798026",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Metaknowledge&journal=Science&doi=10.1126%2Fscience.1201765&volume=331&issue=6018&pages=721-724&publication_year=2011&author=Evans%2CJA&author=Foster%2CJG"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Fan LJ, Mu YY and Fu WG (2012) Analysis on the factors of vegetable production in big city: Based on the survey of 196 vegetable growers in Beijing. The World of Survey and Research; 25 (12): 17-20.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Analysis%20on%20the%20factors%20of%20vegetable%20production%20in%20big%20city%3A%20Based%20on%20the%20survey%20of%20196%20vegetable%20growers%20in%20Beijing&journal=The%20World%20of%20Survey%20and%20Research&volume=25&issue=12&pages=17-20&publication_year=2012&author=Fan%2CLJ&author=Mu%2CYY&author=Fu%2CWG"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Filloon W (2014) Latest Chinese food scandal erupts at subway in Beijing. Eater, http://www.eater.com/2014/12/30/7470469/latest-chinese-food-scandal-erupts-at-subway-in-beijing, accessed 30 December 2014.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Gao JB, Cao YH and Lee JM (2003) Principal component analysis of 1/f noise. Physics Letters A; 314(5-6): 392.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0375-9601%2803%2900938-1",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD3sXlvFGlt7w%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2003PhLA..314..392G",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Principal%20component%20analysis%20of%201%2Ff%20noise&journal=Physics%20Letters%20A&doi=10.1016%2FS0375-9601%2803%2900938-1&volume=314&publication_year=2003&author=Gao%2CJB&author=Cao%2CYH&author=Lee%2CJM"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Gao JB, Cao YH, Tung WW and Hu J (2007) Multiscale Analysis of Complex Time Series: Integration of Chaos and Random Fractal Theory, and Beyond. John Wiley & Sons: Hoboken, NJ. Chapter 5, 69-75.",
+            "links": {
+                "Book": "https://doi.org/10.1002%2F9780470191651",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multiscale%20Analysis%20of%20Complex%20Time%20Series%3A%20Integration%20of%20Chaos%20and%20Random%20Fractal%20Theory%2C%20and%20Beyond&doi=10.1002%2F9780470191651&pages=69-75&publication_year=2007&author=Gao%2CJB&author=Cao%2CYH&author=Tung%2CWW&author=Hu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Gao JB, Hu J, Mao M and Perc M (2012) Culturomics meets random fractal theory: Insights into long-range correlations of social and natural phenomena over the past two centuries. Journal of the Royal Society Interface; 9 (73): 1956-1964.",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2011.0846",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Culturomics%20meets%20random%20fractal%20theory%3A%20Insights%20into%20long-range%20correlations%20of%20social%20and%20natural%20phenomena%20over%20the%20past%20two%20centuries&journal=Journal%20of%20the%20Royal%20Society%20Interface&doi=10.1098%2Frsif.2011.0846&volume=9&issue=73&pages=1956-1964&publication_year=2012&author=Gao%2CJB&author=Hu%2CJ&author=Mao%2CM&author=Perc%2CM"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Gao JB, Hu J and Tung WW (2011) Facilitating joint chaos and fractal analysis of biosignals through nonlinear adaptive filtering. PLoS One; 6 (9): e24331.",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0024331",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXht1entL%2FN",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PLoSO...624331G",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Facilitating%20joint%20chaos%20and%20fractal%20analysis%20of%20biosignals%20through%20nonlinear%20adaptive%20filtering&journal=PLoS%20One&doi=10.1371%2Fjournal.pone.0024331&volume=6&issue=9&publication_year=2011&author=Gao%2CJB&author=Hu%2CJ&author=Tung%2CWW"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Gao JB, Sultan H, Hu J and Tung WW (2010) Denoising nonlinear time series by adaptive filtering and wavelet shrinkage: A comparison. IEEE Signal Processing Letters; 17 (3): 237-240.",
+            "links": {
+                "Article": "https://doi.org/10.1109%2FLSP.2009.2037773",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010ISPL...17..237G",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Denoising%20nonlinear%20time%20series%20by%20adaptive%20filtering%20and%20wavelet%20shrinkage%3A%20A%20comparison&journal=IEEE%20Signal%20Processing%20Letters&doi=10.1109%2FLSP.2009.2037773&volume=17&issue=3&pages=237-240&publication_year=2010&author=Gao%2CJB&author=Sultan%2CH&author=Hu%2CJ&author=Tung%2CWW"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "González MC, Hidalgo CA and Barabási AL (2008) Understanding individual human mobility patterns. Nature; 453 (7196): 779-782.",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature06958",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008Natur.453..779G",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20individual%20human%20mobility%20patterns&journal=Nature&doi=10.1038%2Fnature06958&volume=453&issue=7196&pages=779-782&publication_year=2008&author=Gonz%C3%A1lez%2CMC&author=Hidalgo%2CCA&author=Barab%C3%A1si%2CAL"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "HKCFS. (2014) Food surveillance results for 2000 to 2013, http://www.cfs.gov.hk/english/programme/programme_fs/programme_fs_Archive.html, accessed 1 October 2014.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "HKCFS. (2015) Food law in Hong Kong, http://www.cfs.gov.hk/english/food/ _leg/food_leg.html, accessed 14 January 2015.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Hong Kong Legislative Council. (2012) Food safety ordinance, http://www.cfs.gov.hk/english/whatsnew/whatsnew_fstr/whatsnew_fstr_Food_Safety_Bill.html, accessed 16 May 2012.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Hu H, Myers S, Colizza V and Vespignani A (2009) Wifi networks and malware epidemiology. Proceedings of the National Academy of Sciences USA; 106 (5): 1318-1323.",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0811973106",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1MXhvV2qt7Y%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009PNAS..106.1318H",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Wifi%20networks%20and%20malware%20epidemiology&journal=Proceedings%20of%20the%20National%20Academy%20of%20Sciences%20USA&doi=10.1073%2Fpnas.0811973106&volume=106&issue=5&pages=1318-1323&publication_year=2009&author=Hu%2CH&author=Myers%2CS&author=Colizza%2CV&author=Vespignani%2CA"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Hufnagel L, Brockmann D and Geisel T (2004) Forecast and control of epidemics in a globalized world. Proceedings of the National Academy of Sciences USA; 101 (42): 15124-15129.",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0308344101",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD2cXpsVSgs7k%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004PNAS..10115124H",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Forecast%20and%20control%20of%20epidemics%20in%20a%20globalized%20world&journal=Proceedings%20of%20the%20National%20Academy%20of%20Sciences%20USA&doi=10.1073%2Fpnas.0308344101&volume=101&issue=42&pages=15124-15129&publication_year=2004&author=Hufnagel%2CL&author=Brockmann%2CD&author=Geisel%2CT"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Jia CH and Jukes D (2013) The national food safety control system of China-A systematic review. Food Control; 32 (1): 236-245.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.foodcont.2012.11.042",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20national%20food%20safety%20control%20system%20of%20China%E2%80%94A%20systematic%20review&journal=Food%20Control&doi=10.1016%2Fj.foodcont.2012.11.042&volume=32&issue=1&pages=236-245&publication_year=2013&author=Jia%2CCH&author=Jukes%2CD"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Khan S, Cao Q, Zheng YM, Huang YZ and Zhu YG (2008) Health risks of heavy metals in contaminated soils and food crops irrigated with wastewater in Beijing, China. Environmental Pollution; 152 (3): 686-692.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envpol.2007.06.056",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1cXktFentrY%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Health%20risks%20of%20heavy%20metals%20in%20contaminated%20soils%20and%20food%20crops%20irrigated%20with%20wastewater%20in%20Beijing%2C%20China&journal=Environmental%20Pollution&doi=10.1016%2Fj.envpol.2007.06.056&volume=152&issue=3&pages=686-692&publication_year=2008&author=Khan%2CS&author=Cao%2CQ&author=Zheng%2CYM&author=Huang%2CYZ&author=Zhu%2CYG"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Kuhn T, Perc M and Helbing D (2014) Inheritance patterns in citation networks reveal scientific memes. Physical Review X; 4 (4): 041036.",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevX.4.041036",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014PhRvX...4d1036K",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inheritance%20patterns%20in%20citation%20networks%20reveal%20scientific%20memes&journal=Physical%20Review%20X&doi=10.1103%2FPhysRevX.4.041036&volume=4&issue=4&publication_year=2014&author=Kuhn%2CT&author=Perc%2CM&author=Helbing%2CD"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Lam HM, Remais J, Fung MC, Xu L and Sun SSM (2013) Food supply and food safety issues in China. The Lancet; 381 (9882): 2044-2053.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2813%2960776-X",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Food%20supply%20and%20food%20safety%20issues%20in%20China&journal=The%20Lancet&doi=10.1016%2FS0140-6736%2813%2960776-X&volume=381&issue=9882&pages=2044-2053&publication_year=2013&author=Lam%2CHM&author=Remais%2CJ&author=Fung%2CMC&author=Xu%2CL&author=Sun%2CSSM"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Lancet Editorial T. (2009) Melamine and food safety in China. The Lancet; 373 (9661): 353-353.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2809%2960114-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Melamine%20and%20food%20safety%20in%20China&journal=The%20Lancet&doi=10.1016%2FS0140-6736%2809%2960114-8&volume=373&issue=9661&pages=353-353&publication_year=2009"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Lancet Editorial T. (2012) Food safety in China: A long way to go. The Lancet; 380 (9837): 75-75.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2812%2961157-X",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Food%20safety%20in%20China%3A%20A%20long%20way%20to%20go&journal=The%20Lancet&doi=10.1016%2FS0140-6736%2812%2961157-X&volume=380&issue=9837&pages=75-75&publication_year=2012"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Leetaru KH (2011) Culturnomics 2.0: Forecasting large-scale human behavior using global news media tone in time and space. First Monday; 16 (9).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Legislative Affairs Office of State Council. (2013) The food safety law of the People’s Republic of China (revised draft), http://www.sda.gov.cn/WS01/CL0050/93694.html, accessed 29 October 2013.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Lieberman E, Michel JB, Jackson J, Tang T and Nowak MA (2007) Quantifying the evolutionary dynamics of language. Nature; 449 (7163): 713-716.",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature06137",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD2sXhtFChu77J",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007Natur.449..713L",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20the%20evolutionary%20dynamics%20of%20language&journal=Nature&doi=10.1038%2Fnature06137&volume=449&issue=7163&pages=713-716&publication_year=2007&author=Lieberman%2CE&author=Michel%2CJB&author=Jackson%2CJ&author=Tang%2CT&author=Nowak%2CMA"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Liu FY, Liu Y, Gao JB and Zhang JF (2015a) Replication data for: Food safety incidents in Beijing: Patterns, causes and wider social implications. Dataverse. http://dx.doi.org/10.7910/DVN/Q8DDM9.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Liu Y, Liu FY, Zhang JF and Gao JB (2015b) Insights into the nature of food safety issues in Beijing through content analysis of an internet database of food safety incidents in China. Food Control; 51: 206-211.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.foodcont.2014.11.017",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Insights%20into%20the%20nature%20of%20food%20safety%20issues%20in%20Beijing%20through%20content%20analysis%20of%20an%20internet%20database%20of%20food%20safety%20incidents%20in%20China&journal=Food%20Control&doi=10.1016%2Fj.foodcont.2014.11.017&volume=51&pages=206-211&publication_year=2015&author=Liu%2CY&author=Liu%2CFY&author=Zhang%2CJF&author=Gao%2CJB"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Liu S, Xie ZM, Zhang WW, Cao X and Pei XF (2013) Risk assessment in Chinese food safety. Food Control; 30 (1): 162-167.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.foodcont.2012.06.038",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Risk%20assessment%20in%20Chinese%20food%20safety&journal=Food%20Control&doi=10.1016%2Fj.foodcont.2012.06.038&volume=30&issue=1&pages=162-167&publication_year=2013&author=Liu%2CS&author=Xie%2CZM&author=Zhang%2CWW&author=Cao%2CX&author=Pei%2CXF"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Loreto V, Baronchelli A, Mukherjee A, Puglisi A and Tria F (2011) Statistical physics of language dynamics. Journal of Statistical Mechanics; 2011: P04006.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Luning PA, Devlieghere F and Verh R (2006) (eds) Safety in the Agri-Food Chain. Wageningen Academic: Wageningen, Gelderland, The Netherlands.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Safety%20in%20the%20Agri-Food%20Chain&publication_year=2006&author=Luning%2CPA&author=Devlieghere%2CF&author=Verh%2CR"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Mandelbrot BB (1982) The Fractal Geometry of Nature. Freeman: San Francisco, CA.",
+            "links": {
+                "MATH": "http://www.emis.de/MATH-item?0504.28001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20Fractal%20Geometry%20of%20Nature&publication_year=1982&author=Mandelbrot%2CBB"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Mao ZY and An YF (2012) An empirical study about food safety and consumer behavior of “farmers market transformation supermarket”: Analysis based on the investigation of Beijing market. Consumer Economics; 28 (5): 62-65.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20empirical%20study%20about%20food%20safety%20and%20consumer%20behavior%20of%20%E2%80%9Cfarmers%20market%20transformation%20supermarket%E2%80%9D%3A%20Analysis%20based%20on%20the%20investigation%20of%20Beijing%20market&journal=Consumer%20Economics&volume=28&issue=5&pages=62-65&publication_year=2012&author=Mao%2CZY&author=An%2CYF"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Michel JB, Shen YK, Aiden AP, Veres A and Gray MK (2011) Quantitative analysis of culture using millions of digitized books. Science; 331 (6014): 176-182.",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1199644",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXjslSjug%3D%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011Sci...331..176M",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantitative%20analysis%20of%20culture%20using%20millions%20of%20digitized%20books&journal=Science&doi=10.1126%2Fscience.1199644&volume=331&issue=6014&pages=176-182&publication_year=2011&author=Michel%2CJB&author=Shen%2CYK&author=Aiden%2CAP&author=Veres%2CA&author=Gray%2CMK"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Patrick B (2012) Bad eggs: Another fake-food scandal rocks China. Time, http://newsfeed.time.com/2012/11/06/how-to-make-a-rotten-egg/, accessed 6 November 2012.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Peng CK, Buldyrev SV, Havlin S, Simons M, Stanley HE and Goldberger AL (1994) Mosaic organization of DNA nucleotides. Physical Review E; 49 (2): 1685-1689.",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.49.1685",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaK2cXksFamsr8%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1994PhRvE..49.1685P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mosaic%20organization%20of%20DNA%20nucleotides&journal=Physical%20Review%20E&doi=10.1103%2FPhysRevE.49.1685&volume=49&issue=2&pages=1685-1689&publication_year=1994&author=Peng%2CCK&author=Buldyrev%2CSV&author=Havlin%2CS&author=Simons%2CM&author=Stanley%2CHE&author=Goldberger%2CAL"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Perc M (2012) Evolution of the most common English words and phrases over the centuries. Journal of The Royal Society Interface; 12 (109): rsif20120491.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Evolution%20of%20the%20most%20common%20English%20words%20and%20phrases%20over%20the%20centuries&journal=Journal%20of%20The%20Royal%20Society%20Interface&volume=12&issue=109&publication_year=2012&author=Perc%2CM"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Perc M (2013) Self-organization of progress across the century of physics. Scientific Reports; 3: 1720.",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsrep01720",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXhtVejsrvM",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2013NatSR...3E1720P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Self-organization%20of%20progress%20across%20the%20century%20of%20physics&journal=Scientific%20Reports&doi=10.1038%2Fsrep01720&volume=3&publication_year=2013&author=Perc%2CM"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Perc M (2014) The Matthew effect in empirical data. Journal of The Royal Society Interface; 11 (98): rsif20140378.",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2014.0378",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20Matthew%20effect%20in%20empirical%20data&journal=Journal%20of%20The%20Royal%20Society%20Interface&doi=10.1098%2Frsif.2014.0378&volume=11&issue=98&publication_year=2014&author=Perc%2CM"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Petersen AM, Tenenbaum JN, Havlin S, Stanley HE and Perc M (2012a) Languages cool as they expand: Allometric scaling and the decreasing need for new words. Scientific Reports; 2: 943.",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsrep00943",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012NatSR...2E.943P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Languages%20cool%20as%20they%20expand%3A%20Allometric%20scaling%20and%20the%20decreasing%20need%20for%20new%20words&journal=Scientific%20Reports&doi=10.1038%2Fsrep00943&volume=2&publication_year=2012&author=Petersen%2CAM&author=Tenenbaum%2CJN&author=Havlin%2CS&author=Stanley%2CHE&author=Perc%2CM"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Petersen AM, Tenenbaum JN, Havlin S and Stanley HE (2012b) Statistical laws governing fluctuations in word use from word birth to word death. Scientific Reports; 2: 313.",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsrep00313",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012NatSR...2E.313P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Statistical%20laws%20governing%20fluctuations%20in%20word%20use%20from%20word%20birth%20to%20word%20death&journal=Scientific%20Reports&doi=10.1038%2Fsrep00313&volume=2&publication_year=2012&author=Petersen%2CAM&author=Tenenbaum%2CJN&author=Havlin%2CS&author=Stanley%2CHE"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Press WH (1978) Flicker noises in astronomy and elsewhere. Comments on Astrophysics; 7 (4): 103-119.",
+            "links": {
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1978ComAp...7..103P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Flicker%20noises%20in%20astronomy%20and%20elsewhere&journal=Comments%20on%20Astrophysics&volume=7&issue=4&pages=103-119&publication_year=1978&author=Press%2CWH"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Puglisi A, Baronchelli A and Loreto V (2008) Cultural route to the emergence of linguistic categories. Proceedings of the National Academy of Sciences USA; 105 (23): 7936-7947.",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0802485105",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1cXns1SqsLg%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PNAS..105.7936P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cultural%20route%20to%20the%20emergence%20of%20linguistic%20categories&journal=Proceedings%20of%20the%20National%20Academy%20of%20Sciences%20USA&doi=10.1073%2Fpnas.0802485105&volume=105&issue=23&pages=7936-7947&publication_year=2008&author=Puglisi%2CA&author=Baronchelli%2CA&author=Loreto%2CV"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Ratkiewicz J, Fortunato S, Flammini A, Menczer F and Vespignani A (2010) Characterizing and modeling the dynamics of online popularity. Physical Review Letters; 105 (15): 158701.",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevLett.105.158701",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010PhRvL.105o8701R",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Characterizing%20and%20modeling%20the%20dynamics%20of%20online%20popularity&journal=Physical%20Review%20Letters&doi=10.1103%2FPhysRevLett.105.158701&volume=105&issue=15&publication_year=2010&author=Ratkiewicz%2CJ&author=Fortunato%2CS&author=Flammini%2CA&author=Menczer%2CF&author=Vespignani%2CA"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Ren Y, An YF and Duo XL (2011) Function conversion and strategy choice of government in food safety supervision: A case study in Beijing market. Journal of Public Management; 8 (1): 16-25.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Function%20conversion%20and%20strategy%20choice%20of%20government%20in%20food%20safety%20supervision%3A%20A%20case%20study%20in%20Beijing%20market&journal=Journal%20of%20Public%20Management&volume=8&issue=1&pages=16-25&publication_year=2011&author=Ren%2CY&author=An%2CYF&author=Duo%2CXL"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "The Standing Committee of the National People’s Congress. (2014) The food safety law of the People’s Republic of China (second revised draft), http://www.npc.gov.cn/npc/xinwen/lfgz/flca/2014-12/29/content_1891935.htm, accessed 29 December 2014.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Tung WW, Gao JB, Hu J and Yang L (2011) Detecting chaotic signals in heavy noise environments. Physical Review E; 83 (4): 046210.",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.83.046210",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PhRvE..83d6210T",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Detecting%20chaotic%20signals%20in%20heavy%20noise%20environments&journal=Physical%20Review%20E&doi=10.1103%2FPhysRevE.83.046210&volume=83&issue=4&publication_year=2011&author=Tung%2CWW&author=Gao%2CJB&author=Hu%2CJ&author=Yang%2CL"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Wang F, Zhang J, Mu W, Fu Z and Zhang X (2009) Consumers’ perception toward quality and safety of fishery products, Beijing, China. Food Control; 20 (10): 918-922.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.foodcont.2009.01.008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Consumers%E2%80%99%20perception%20toward%20quality%20and%20safety%20of%20fishery%20products%2C%20Beijing%2C%20China&journal=Food%20Control&doi=10.1016%2Fj.foodcont.2009.01.008&volume=20&issue=10&pages=918-922&publication_year=2009&author=Wang%2CF&author=Zhang%2CJ&author=Mu%2CW&author=Fu%2CZ&author=Zhang%2CX"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Wang JF (2011) Debate: Gutter oil. China Daily, http://www.chinadaily.com.cn/business/2011-10/31/content_14005255.htm, accessed 31 October 2011.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Wang JH and Tong BJ (2009) High satisfaction on food safety in Beijing. Data; (4): 26-27.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Wang JH and Tong BJ (2011) Why food is safe: Lessons from the polls of Beijing food safety. Data; (11): 22-23.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Wang HJ and Qiao J (2011) Analyze on farmers’ behavior and produce efficiency by participating in food safety traceability system: Case of vegetable farmers in Beijing. Issues in Agricultural Economy; 2 (4): 45-50.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Analyze%20on%20farmers%E2%80%99%20behavior%20and%20produce%20efficiency%20by%20participating%20in%20food%20safety%20traceability%20system%3A%20Case%20of%20vegetable%20farmers%20in%20Beijing&journal=Issues%20in%20Agricultural%20Economy&volume=2&issue=4&pages=45-50&publication_year=2011&author=Wang%2CHJ&author=Qiao%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Wang ZG, Lv D and Wang SW (2011) Elasticity analysis of urban residents’ liquid milk consumption under important food safety accident: Based on the questionnaires in Beijing, Tianjin and Shijiazhuang. Food and Nutrition in China Food Control; 17 (10): 41-44.",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Elasticity%20analysis%20of%20urban%20residents%E2%80%99%20liquid%20milk%20consumption%20under%20important%20food%20safety%20accident%3A%20Based%20on%20the%20questionnaires%20in%20Beijing%2C%20Tianjin%20and%20Shijiazhuang&journal=Food%20and%20Nutrition%20in%20China%20Food%20Control&volume=17&issue=10&pages=41-44&publication_year=2011&author=Wang%2CZG&author=Lv%2CD&author=Wang%2CSW"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Wu X, Ye Y, Hu D, Liu Z and Cao J (2014) Food safety assurance systems in Hong Kong. Food Control; 37: 141-145.",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.foodcont.2013.09.025",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Food%20safety%20assurance%20systems%20in%20Hong%20Kong&journal=Food%20Control&doi=10.1016%2Fj.foodcont.2013.09.025&volume=37&pages=141-145&publication_year=2014&author=Wu%2CX&author=Ye%2CY&author=Hu%2CD&author=Liu%2CZ&author=Cao%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Wu H (2012) Food safety incidents in China. ZCCW.info. Available at: http://www.zccw.info/index, accessed 5 September 2013.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Wu Y and Chen Y (2013) Food safety in China. Journal of Epidemiology and Community Health; 67 (6): 478-479.",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Fjech-2012-201767",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Food%20safety%20in%20China&journal=Journal%20of%20Epidemiology%20and%20Community%20Health&doi=10.1136%2Fjech-2012-201767&volume=67&issue=6&pages=478-479&publication_year=2013&author=Wu%2CY&author=Chen%2CY"
+            }
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Yang G (2013) Contesting food safety in the Chinese media: Between hegemony and counter-hegemony. The China Quarterly; 214: 337-355.",
+            "links": {
+                "Article": "https://doi.org/10.1017%2FS0305741013000386",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Contesting%20food%20safety%20in%20the%20Chinese%20media%3A%20Between%20hegemony%20and%20counter-hegemony&journal=The%20China%20Quarterly&doi=10.1017%2FS0305741013000386&volume=214&pages=337-355&publication_year=2013&author=Yang%2CG"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "Zhou QJ (2009) Research on the Beijing model of food safety supervision. Study on China Administration for Industry & Commerce; (2): 7-10.",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Acknowledgements": {
+            "content": "The author thanks the anonymous reviewers for their instructive suggestions that have greatly improved the article.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsFeiyan LiuView author publicationsSearch author on:PubMedGoogle ScholarYang LiuView author publicationsSearch author on:PubMedGoogle ScholarJianbo GaoView author publicationsSearch author on:PubMedGoogle ScholarJianfang ZhangView author publicationsSearch author on:PubMedGoogle Scholar\n### Corresponding author\nCorrespondence to Jianbo Gao.",
+            "links": {
+                "View author publications": "/search?author=Jianfang%20Zhang",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jianfang%20Zhang",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Jianfang%20Zhang%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Jianbo Gao": "mailto:jbgao.pmb@gmail.com"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe author declares no competing financial interests.",
+            "links": {}
+        },
+        "Rights and permissions": {
+            "content": "This work is licensed under a Creative Commons Attribution 3.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/3.0/": "http://creativecommons.org/licenses/by/3.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Food%20safety%20incidents%20in%20Beijing%3A%20occurrence%20patterns%2C%20causes%20and%20wider%20social%20implications&author=Feiyan%20Liu%20et%20al&contentID=10.1057%2Fpalcomms.2015.29&copyright=The%20Author%28s%29&publication=2055-1045&publicationDate=2015-10-06&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleLiu, F., Liu, Y., Gao, J. et al. Food safety incidents in Beijing: occurrence patterns, causes and wider social implications. Palgrave Commun 1, 15029 (2015). https://doi.org/10.1057/palcomms.2015.29Download citationReceived:15 June 2015Accepted:03 September 2015Published:06 October 2015DOI:https://doi.org/10.1057/palcomms.2015.29Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1057/palcomms.2015.29?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Food safety incidents in Beijing: occurrence patterns, causes and wider social implications",
+                "description": "Food safety incidents have the potential to result in a range of adverse health effects, including diarrhoeal diseases and various forms of cancer. Furthermore, they also have a disruptive effect on the economy, trade and tourism. As Beijing strives to become a global centre of politics, economy and culture, serious food safety incidents continue to be frequently reported in the city. It is clear that a large number of food safety incidents, such as those that have occurred in China, and in some other parts of the world, cannot be fully tackled by means of conventional analysis, which focuses on biological and chemical factors, but which often ignores potential human factors (which may be intentional in nature). In this article, we dynamically examine the time intervals between successive distinct food safety incidents that were mainly caused by human factors. Our intention is to identify information that could be of use to governmental and other bodies in efforts to curb the occurrence of food safety incidents. We analyse data spanning a 10-year period from 2004 to 2013, during which time 295 food safety incidents occurred in Beijing. We find that the occurrence of food safety incidents was drastically different from Poisson processes, suggesting that their causes may have been systemic in nature. We further found that the sequence of time intervals had persistent long-range correlations, characterized by a Hurst parameter of H=0.65, suggesting that food safety incidents occurred in bursts. Finally, we propose scenarios that may be responsible for these long-range correlations. Our quantitative findings may not only hold in Beijing and elsewhere in China, but also in other parts of the world where human factors are an important cause of food safety incidents. In all those situations, our proposed scenarios for long-range correlations may be used as part of efforts to devise strategies to curb or prevent future food safety incidents.",
+                "datePublished": "2015-10-06T00:00:00Z",
+                "dateModified": "2015-10-06T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "7",
+                "license": "http://creativecommons.org/licenses/by/3.0/",
+                "sameAs": "https://doi.org/10.1057/palcomms.2015.29",
+                "keywords": [
+                    "Operational research",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fpalcomms.2015.29/MediaObjects/41599_2015_Article_BFpalcomms201529_Fig1_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fpalcomms.2015.29/MediaObjects/41599_2015_Article_BFpalcomms201529_Fig2_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fpalcomms.2015.29/MediaObjects/41599_2015_Article_BFpalcomms201529_Fig3_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fpalcomms.2015.29/MediaObjects/41599_2015_Article_BFpalcomms201529_Fig4_HTML.jpg"
+                ],
+                "isPartOf": {
+                    "name": "Palgrave Communications",
+                    "issn": [
+                        "2055-1045"
+                    ],
+                    "volumeNumber": "1",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Palgrave Macmillan UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Feiyan Liu",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Complexity Science and Big Data Technology, Guangxi University",
+                                "address": {
+                                    "name": "Institute of Complexity Science and Big Data Technology, Guangxi University, Nanning, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yang Liu",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Complexity Science and Big Data Technology, Guangxi University",
+                                "address": {
+                                    "name": "Institute of Complexity Science and Big Data Technology, Guangxi University, Nanning, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jianbo Gao",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Complexity Science and Big Data Technology, Guangxi University",
+                                "address": {
+                                    "name": "Institute of Complexity Science and Big Data Technology, Guangxi University, Nanning, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "PMB Intelligence LLC, Sunnyvale",
+                                "address": {
+                                    "name": "PMB Intelligence LLC, Sunnyvale, CA, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "jbgao.pmb@gmail.com",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jianfang Zhang",
+                        "affiliation": [
+                            {
+                                "name": "School of Management, University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "School of Management, University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "operational-research",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Palgrave Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1057/palcomms.2015.29"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/3.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Feiyan Liu",
+                            "Yang Liu",
+                            "Jianbo Gao",
+                            "Jianfang Zhang"
+                        ],
+                        "publishedAt": 1444089600,
+                        "publishedAtString": "2015-10-06",
+                        "title": "Food safety incidents in Beijing: occurrence patterns, causes and wider social implications",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Operational research"
+                    },
+                    "journal": {
+                        "pcode": "palcomms",
+                        "title": "palgrave communications",
+                        "volume": "1",
+                        "issue": "1",
+                        "id": 41599,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Food safety incidents in Beijing: occurrence patterns, causes and wider social implications",
+            "dc.source": "Palgrave Communications 2015 1:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Palgrave",
+            "dc.date": "2015-10-06",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2015 The Author(s)",
+            "dc.rights": "2015 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Food safety incidents have the potential to result in a range of adverse health effects, including diarrhoeal diseases and various forms of cancer. Furthermore, they also have a disruptive effect on the economy, trade and tourism. As Beijing strives to become a global centre of politics, economy and culture, serious food safety incidents continue to be frequently reported in the city. It is clear that a large number of food safety incidents, such as those that have occurred in China, and in some other parts of the world, cannot be fully tackled by means of conventional analysis, which focuses on biological and chemical factors, but which often ignores potential human factors (which may be intentional in nature). In this article, we dynamically examine the time intervals between successive distinct food safety incidents that were mainly caused by human factors. Our intention is to identify information that could be of use to governmental and other bodies in efforts to curb the occurrence of food safety incidents. We analyse data spanning a 10-year period from 2004 to 2013, during which time 295 food safety incidents occurred in Beijing. We find that the occurrence of food safety incidents was drastically different from Poisson processes, suggesting that their causes may have been systemic in nature. We further found that the sequence of time intervals had persistent long-range correlations, characterized by a Hurst parameter of H=0.65, suggesting that food safety incidents occurred in bursts. Finally, we propose scenarios that may be responsible for these long-range correlations. Our quantitative findings may not only hold in Beijing and elsewhere in China, but also in other parts of the world where human factors are an important cause of food safety incidents. In all those situations, our proposed scenarios for long-range correlations may be used as part of efforts to devise strategies to curb or prevent future food safety incidents.",
+            "dc.identifier": "doi:10.1057/palcomms.2015.29",
+            "dc.creator": "Zhang, Jianfang",
+            "dc.subject": "Operational research",
+            "prism.issn": "2055-1045",
+            "prism.publicationName": "Palgrave Communications",
+            "prism.publicationDate": "2015-10-06",
+            "prism.volume": "1",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "7",
+            "prism.copyright": "2015 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/palcomms201529",
+            "prism.doi": "doi:10.1057/palcomms.2015.29",
+            "citation_pdf_url": "https://www.nature.com/articles/palcomms201529.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/palcomms201529",
+            "citation_journal_title": "Palgrave Communications",
+            "citation_journal_abbrev": "Palgrave Commun",
+            "citation_publisher": "Palgrave",
+            "citation_issn": "2055-1045",
+            "citation_title": "Food safety incidents in Beijing: occurrence patterns, causes and wider social implications",
+            "citation_volume": "1",
+            "citation_issue": "1",
+            "citation_online_date": "2015/10/06",
+            "citation_firstpage": "1",
+            "citation_lastpage": "7",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1057/palcomms.2015.29",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1057/palcomms.2015.29&api_key=",
+            "citation_reference": "Zhou QJ (2009) Research on the Beijing model of food safety supervision. Study on China Administration for Industry & Commerce; (2): 7–10.",
+            "citation_author": "Zhang, Jianfang",
+            "citation_author_institution": "School of Management, University of Chinese Academy of Sciences, Beijing, China",
+            "description": "Food safety incidents have the potential to result in a range of adverse health effects, including diarrhoeal diseases and various forms of cancer. Furthermore, they also have a disruptive effect on the economy, trade and tourism. As Beijing strives to become a global centre of politics, economy and culture, serious food safety incidents continue to be frequently reported in the city. It is clear that a large number of food safety incidents, such as those that have occurred in China, and in some other parts of the world, cannot be fully tackled by means of conventional analysis, which focuses on biological and chemical factors, but which often ignores potential human factors (which may be intentional in nature). In this article, we dynamically examine the time intervals between successive distinct food safety incidents that were mainly caused by human factors. Our intention is to identify information that could be of use to governmental and other bodies in efforts to curb the occurrence of food safety incidents. We analyse data spanning a 10-year period from 2004 to 2013, during which time 295 food safety incidents occurred in Beijing. We find that the occurrence of food safety incidents was drastically different from Poisson processes, suggesting that their causes may have been systemic in nature. We further found that the sequence of time intervals had persistent long-range correlations, characterized by a Hurst parameter of H=0.65, suggesting that food safety incidents occurred in bursts. Finally, we propose scenarios that may be responsible for these long-range correlations. Our quantitative findings may not only hold in Beijing and elsewhere in China, but also in other parts of the world where human factors are an important cause of food safety incidents. In all those situations, our proposed scenarios for long-range correlations may be used as part of efforts to devise strategies to curb or prevent future food safety incidents.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Food safety incidents in Beijing: occurrence patterns, causes and wider social implications",
+            "twitter:description": "Humanities and Social Sciences Communications - Food safety incidents in Beijing: occurrence patterns, causes and wider social implications",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1057%2Fpalcomms.2015.29/MediaObjects/41599_2015_Article_BFpalcomms201529_Fig1_HTML.jpg",
+            "DOI": "10.1057/palcomms.2015.29",
+            "size": "148844",
+            "journal_id": "41599"
+        },
+        "canonical_url": "https://www.nature.com/articles/palcomms201529",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

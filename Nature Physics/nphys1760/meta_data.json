@@ -1,0 +1,37 @@
+{
+    "id": "nphys1760",
+    "title": "Modelling the scaling properties of human mobility",
+    "journal": "Nature Physics",
+    "pdf_link": "https://www.nature.com/articles/nphys1760",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "D1 anonymized mobile phone call detail records with cell tower locations",
+            "Data_summary": "Anonymized, time-stamped mobile phone event location records where each user location is inferred from the cellular tower that routed an initiated or received call. Used to reconstruct long-term individual trajectories and compute mobility scaling statistics such as distinct visited locations, visitation frequencies, mean square displacement, and radius of gyration.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The first data set D1 captures for a one-year period the time-resolved trajectories of three million anonymized mobile-phone users; Location: Scaling anomalies; Confidence: high",
+            "Time_Coverage": "1 year",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "D2 anonymized hourly locations from a location based service cohort",
+            "Data_summary": "Anonymized, regularly sampled user location histories recorded at hourly intervals for participants of a location-based service. Used to compute displacement distributions at hourly intervals, waiting times spent at one location, and to empirically estimate model parameters governing exploration of new locations and preferential return to previously visited locations.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The second data set D2 uses the anonymized location record of 1,000 users who signed up for a location-based service, thus their location was recorded every hour for a two-week period; Location: Scaling anomalies; Confidence: high",
+            "Time_Coverage": "2 weeks",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:45.342497"
+    }
+}

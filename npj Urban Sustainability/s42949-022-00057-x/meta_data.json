@@ -1,0 +1,85 @@
+{
+    "id": "s42949-022-00057-x",
+    "title": "Underload city conceptual approach extending ghost city studies",
+    "journal": "npj Urban Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s42949-022-00057-x",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "China City Construction Statistical Yearbook 2019",
+            "Data_summary": "An official statistical compilation providing city-level socioeconomic and urban construction indicators. In this study it supplies resident population and gross domestic product values for each of the 81 cities and also provides each city built-up area used in computing population density and land carrying rate related measures.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: For demographic and economic data population and GDP data are retrieved from the China city construction statistical yearbook in 2019 and built-up area of each city is obtained from China city construction statistical yearbook in 2019, Location: Methods Data, Confidence: high",
+            "Time_Coverage": "2019",
+            "Geographic_Coverage": "China > 81 major cities",
+            "URL": "https://www.mohurd.gov.cn/gongkai/fdzdgknr/sjfb/tjxx/jstjnj/index.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "2019 fused VHR optical satellite imagery for 81 major Chinese cities (SPOT-6 GF-1 ZY-3)",
+            "Data_summary": "A city-covering mosaic of very high resolution optical satellite images fused from multiple sensors with visible RGB bands and ortho-rectification. The imagery is the primary earth observation input used to map 12-category land functional zones via multilevel semantic segmentation.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: satellite images covering 81 major cities are acquired by splicing and resampling images from different sensors including SPOT-6 GF-1 and ZY-3, Location: Methods Data, Confidence: high",
+            "Time_Coverage": "2019",
+            "Geographic_Coverage": "China > 81 major cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Manually labeled land functional zone training and test samples created in this study",
+            "Data_summary": "A human-interpreted annotation set of land functional zones derived from visual interpretation and field investigations. It includes labeled polygon or pixel samples that are converted into image patches for model training and a held-out portion used for accuracy assessment of the land functional zone maps.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we manually delineated and labeled 84730 samples of land functional zones based on visual interpretations and field investigations and utilize the remaining 30% samples 25419 for evaluating mapping results, Location: Methods Multilevel semantic segmentation to map land functional zone, Confidence: high",
+            "Time_Coverage": "2019",
+            "Geographic_Coverage": "China > 81 major cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Produced land functional zone maps of 81 major Chinese cities released with this paper",
+            "Data_summary": "Citywide raster or vector maps of land functional zones at very high spatial resolution with 12 land function categories. The maps are generated from the fused VHR imagery and are used to derive land functional structure indices that feed the land carrying capacity estimation.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the produced land functional zone maps of 81 major cities in China and the estimated land carrying capacities of these cities are open to download at https://geoscape.pku.edu.cn/, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2019",
+            "Geographic_Coverage": "China > 81 major cities",
+            "URL": "https://geoscape.pku.edu.cn/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Estimated land carrying capacities for 81 major Chinese cities released with this paper",
+            "Data_summary": "A city-level dataset of estimated land carrying capacity values for population and GDP derived by modeling relationships between land functional structure indices and observed population and GDP. The LCC values are used to compute shortage in land carrying and land carrying rate and to identify underload and overload cities.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the produced land functional zone maps of 81 major cities in China and the estimated land carrying capacities of these cities are open to download at https://geoscape.pku.edu.cn/, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2019",
+            "Geographic_Coverage": "China > 81 major cities",
+            "URL": "https://geoscape.pku.edu.cn/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper source data for figures and tables",
+            "Data_summary": "A package of underlying numeric source data supporting the plotted figures and tabulated results in the article. It serves as supplementary inputs for reproducing the paper visuals and reported computations.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: All data shown in the figures and tables are publicly available and the source data are provided with this paper, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:47.187937"
+    }
+}

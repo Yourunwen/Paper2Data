@@ -1,0 +1,111 @@
+{
+    "id": "s43588-021-00125-9",
+    "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+    "journal": "Nature Computational Science",
+    "pdf_link": "https://www.nature.com/articles/s43588-021-00125-9",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "SafeGraph Social Distancing Metrics stay at home data",
+            "Data_summary": "Aggregated and anonymized smartphone location based mobility metrics produced by SafeGraph at the US Census Block Group level, including counts of devices observed in a CBG and counts of devices that stayed completely at home. The study uses these daily CBG time series to compute the stay at home fraction, derive a never near home metric, and perform manifold learning and clustering to characterize mobility behavior patterns.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                7
+            ],
+            "Other_Information": "Evidence: We obtained mobility data from SafeGraph, we estimate the number of people who stay at home each day by dividing completely_home_device_count by device_count7; Location: Methods SafeGraph mobility data; Confidence: high",
+            "Time_Coverage": "2020-02-23 to 2020-07-? (117 days)",
+            "Geographic_Coverage": "United States > California and Georgia and Texas and Washington",
+            "URL": "https://www.safegraph.com/covid-19-data-consortium",
+            "ref": []
+        },
+        {
+            "Data_Name": "SafeGraph Common Nighttime Location Algorithm documentation",
+            "Data_summary": "Method documentation describing how SafeGraph assigns device home locations using nighttime observations and how the procedure changed between Social Distancing Metrics versions. The study uses this information to interpret artifacts in the never near home device fractions and home CBG assignment updates.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                28
+            ],
+            "Other_Information": "Evidence: SafeGraph defines a person’s home using a six week period and we used v2 before 10 May 2020 and v2.1 for later dates28; Location: Methods SafeGraph mobility data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://docs.safegraph.com/docs/places-manual#section-safe-graph-common-nighttime-location-algorithm",
+            "ref": [
+                "ref-CR28"
+            ]
+        },
+        {
+            "Data_Name": "2018 American Community Survey ACS Census Block Group estimates",
+            "Data_summary": "US Census Bureau American Community Survey tabular estimates at the Census Block Group level, including total population and age structure, median household income, college enrollment, housing tenure, and residential mobility indicators. The study uses these variables to relate mobility clusters to socioeconomic and demographic characteristics and to compute per capita COVID case rates using population denominators.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                36
+            ],
+            "Other_Information": "Evidence: We obtained US population data from the 2018 American Community Survey ACS accessed using the R package tidycensus36; Location: Methods Census and geographic data; Confidence: high",
+            "Time_Coverage": "2018",
+            "Geographic_Coverage": "United States > California and Georgia and Texas and Washington",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR36"
+            ]
+        },
+        {
+            "Data_Name": "US Census Bureau cartographic boundary files for Census Block Groups and ZCTAs",
+            "Data_summary": "Simplified geographic boundary shapefiles from the US Census Bureau for Census Block Groups and ZIP Code Tabulation Areas. The study uses these boundaries for mapping mobility clusters and for spatial operations including assigning CBGs to ZCTAs and computing population density using land area from boundary metadata.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The 2019 shapefiles for both CBGs and ZCTAs are publicly available and were downloaded from the US Census Bureau website https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html; Location: Data availability; Confidence: high",
+            "Time_Coverage": "2019",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "Esri World Topographic Map basemap tiles",
+            "Data_summary": "A commercial basemap product providing topographic map layers used as a background for visualization. The study uses it to generate a detailed map of Seattle for displaying cluster locations.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                37
+            ],
+            "Other_Information": "Evidence: The detailed map of Seattle was generated using ESRI’s World Topographic Map37 obtained using R’s OpenStreetMap package38; Location: Methods Census and geographic data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Washington > Seattle",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR37"
+            ]
+        },
+        {
+            "Data_Name": "Washington Disease Reporting System WDRS COVID testing and case surveillance data",
+            "Data_summary": "Routine public health surveillance records for COVID tests in Washington State, aggregated for the study by ZIP code and specimen collection date. The study uses these data to compute cases per capita by ZIP code, map ZIP codes to dominant mobility clusters, and compare epidemic trajectories across cluster groups.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data on COVID tests in Washington state were provided by Washington state Department of Health through the Washington Disease Reporting System WDRS; Location: Methods COVID-19 test and case data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Washington",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level source data deposit for figures",
+            "Data_summary": "Publisher hosted supplementary source data files intended to reproduce figure panels, containing the underlying values used in the plotted mobility metrics and demographic summaries. These files function as a packaged data deposit supporting the article figures.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Source Data Fig. 1 Source information and data to reproduce each panel for Fig. 1; Location: Source data; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_MOESM3_ESM.zip",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:35.844622"
+    }
+}

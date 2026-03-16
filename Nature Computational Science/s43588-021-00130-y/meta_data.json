@@ -1,0 +1,63 @@
+{
+    "id": "s43588-021-00130-y",
+    "title": "Vector-based pedestrian navigation in cities",
+    "journal": "Nature Computational Science",
+    "pdf_link": "https://www.nature.com/articles/s43588-021-00130-y",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "Pseudo-anonymized pedestrian GPS traces from a mobility tracking app",
+            "Data_summary": "Raw, high-resolution GPS trajectory traces collected by an always-on smartphone mobility tracking application, with trips segmented into walking paths and associated with pseudo-anonymous user IDs and company-provided activity labels. The traces are used to reconstruct pedestrian routes, quantify deviations from shortest paths, test directional asymmetry in route choice, and fit and compare navigation models.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Due to privacy constraint policies and a signed data usage agreement we are not allowed to share the full GPS tracks considered in this work. Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Massachusetts > Boston and surrounding areas, United States > California > San Francisco and surrounding areas",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "OpenStreetMap walkable street network data for Boston and San Francisco",
+            "Data_summary": "Street network data from OpenStreetMap describing walkable street segments and intersections for Boston and San Francisco and surrounding areas. The network is used for map-matching pedestrian GPS traces, computing shortest paths, generating comparison paths, and measuring direction and distance features in the navigation models.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We retrieved the street network of the city of Boston and San Francisco and their surrounding areas from Open Street Map. Location: Methods > Street networks, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Massachusetts > Boston and surrounding areas, United States > California > San Francisco and surrounding areas",
+            "URL": "https://www.openstreetmap.org",
+            "ref": []
+        },
+        {
+            "Data_Name": "Google Maps Routes API pedestrian routing results",
+            "Data_summary": "Routes returned by the Google Map Routing API for selected origin destination pairs, used as an external benchmark for comparing geometry and length distributions of human walking routes against app suggested routes after map-matching them to the same street network representation.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The Google paths were retrieved from the Google Map Routing API and map-matched to the original street network. Location: Methods > Walking paths, Confidence: high",
+            "Time_Coverage": "2021",
+            "Geographic_Coverage": "United States > Massachusetts > Boston, United States > California > San Francisco",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Zenodo deposit with sample trajectories and pre-processed street networks",
+            "Data_summary": "A public data deposit providing a small sample of pedestrian trajectories and the pre-processed pedestrian street network datasets for Boston and San Francisco, released to support reproducibility given restrictions on sharing full GPS tracks.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The sample dataset and street network data can be accessed at Zenodo60. Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Massachusetts > Boston, United States > California > San Francisco",
+            "URL": "https://doi.org/10.5281/zenodo.5187718",
+            "ref": [
+                "ref-CR60"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:26.017691"
+    }
+}

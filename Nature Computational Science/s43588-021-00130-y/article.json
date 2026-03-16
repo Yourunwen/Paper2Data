@@ -1,0 +1,1085 @@
+{
+    "id": "s43588-021-00130-y",
+    "journal": "Nature Computational Science",
+    "type": "article",
+    "title": "Vector-based pedestrian navigation in cities",
+    "legal_title": "Vector-based pedestrian navigation in cities",
+    "publish_time": "2021-10-18",
+    "pdf_link": "https://www.nature.com/articles/s43588-021-00130-y",
+    "storage_path": "./Articles/Nature Computational Science/2021-article/s43588-021-00130-y/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "How do pedestrians choose their paths within city street networks? Researchers have tried to shed light on this matter through strictly controlled experiments, but an ultimate answer based on real-world mobility data is still lacking. Here, we analyze salient features of human path planning through a statistical analysis of a massive dataset of GPS traces, which reveals that (1) people increasingly deviate from the shortest path when the distance between origin and destination increases and (2) chosen paths are statistically different when origin and destination are swapped. We posit that direction to goal is a main driver of path planning and develop a vector-based navigation model; the resulting trajectories, which we have termed pointiest paths, are a statistically better predictor of human paths than a model based on minimizing distance with stochastic effects. Our findings generalize across two major US cities with different street networks, hinting to the fact that vector-based navigation might be a universal property of human path planning.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "Due to privacy constraint policies and a signed data usage agreement, we are not allowed to share the full GPS tracks considered in this work. For this reason, we generated a small sample of 100 trajectories for Boston. We also make available the pre-processed pedestrian street networks for Boston and San Francisco. The sample dataset and street network data can be accessed at Zenodo60. Figures 1c, 2a and 3a used basemap from Open Street Map (https://www.openstreetmap.org) under an Open Database license (https://www.openstreetmap.org/copyright). Figure 3b uses Google Map data (2021) under fair-use guidelines (https://about.google/brand-resource-center/products-and-services/geo-guidelines/#general-guidelines-copyright-fair-use). Source data are provided with this paper.",
+            "links": {
+                "60": "/articles/s43588-021-00130-y#ref-CR60",
+                "https://www.openstreetmap.org": "https://www.openstreetmap.org",
+                "https://www.openstreetmap.org/copyright": "https://www.openstreetmap.org/copyright",
+                "https://about.google/brand-resource-center/products-and-services/geo-guidelines/#general-guidelines-copyright-fair-use": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/#general-guidelines-copyright-fair-use"
+            }
+        },
+        "Code availability": {
+            "content": "The version of PedNav package used in this study and a guide to reproducing the results is available through GitHub under a GNU GPL-3.0 license (https://github.com/cbongiorno/pednav). The specific version of the package used to generate the results in the current study is available at Zenodo60. A pseudo-code description of the algorithms used for human navigation based on stochastic distance minimization and vector navigation is reported in Supplementary Section 4.",
+            "links": {
+                "https://github.com/cbongiorno/pednav": "https://github.com/cbongiorno/pednav",
+                "60": "/articles/s43588-021-00130-y#ref-CR60",
+                "4": "/articles/s43588-021-00130-y#MOESM1"
+            }
+        },
+        "Acknowledgements": {
+            "content": "P.S. and C.R. thank the Amsterdam Institute for Advanced Metropolitan Solutions, Enel Foundation, DOVER and all of the members of the MIT Senseable City Laboratory Consortium for supporting this research. This material is based on work supported by the Center for Brains, Minds and Machines (CBMM), funded by NSF STC award no. CCF-1231216. C.B. and A.R. acknowledge support from the MISTI/MITOR fund. A.R. acknowledges support from Compagnia di San Paolo. This work was performed using HPC resources from the ‘Mésocentre’ computing center of CentraleSupélec and Ecole Normale Supérieure Paris-Saclay supported by CNRS and Région Île-de-France. Y.Z. acknowledges B. Huang and the Chinese University of Hong Kong for supporting his academic visit at the MIT Senseable City Laboratory.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsChristian BongiornoView author publicationsSearch author on:PubMed Google ScholarYulun ZhouView author publicationsSearch author on:PubMed Google ScholarMarta KryvenView author publicationsSearch author on:PubMed Google ScholarDavid TheurelView author publicationsSearch author on:PubMed Google ScholarAlessandro RizzoView author publicationsSearch author on:PubMed Google ScholarPaolo SantiView author publicationsSearch author on:PubMed Google ScholarJoshua TenenbaumView author publicationsSearch author on:PubMed Google ScholarCarlo RattiView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nA.R. and P.S. conceived and supervised the research. C.B. and Y.Z. led and performed the exploratory data analysis. C.B. designed the asymmetry testing procedure, the stochastic modeling, the validation method and performed the simulations. Y.Z. processed the data, conducted statistical analyses and drafted the manuscript. M.K. and D.T. carried out exploratory modeling converging on the presented model. M.K. drafted the introduction, content related to cognitive science and neuroscience, as well as cognitive science research and methodology. C.R. contributed to conceptualize and design the research. J.T. provided conceptualization and feedback. All authors contributed to writing and revising the manuscript.\n### Corresponding author\nCorrespondence to\n                Paolo Santi.",
+            "links": {
+                "View author publications": "/search?author=Carlo%20Ratti",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Carlo%20Ratti",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Carlo%20Ratti%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Paolo Santi": "mailto:psanti@mit.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Peer review information Nature Computational Science thanks Nora Newcombe, Steven Weisberg, Daniel Montello and Laura Alessandretti for their contribution to the peer review of this work. Handling editor: Fernando Chirigati, in collaboration with the Nature Computational Science team.\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Figs. 1–8, Tables 1–3 and additional analyses.Supplementary Data 1Statistical source data for Supplementary Fig. 4.Supplementary Data 2Statistical source data for Supplementary Fig. 5.Supplementary Data 3Statistical source data for Supplementary Fig. 6.Supplementary Data 4Statistical source data for Supplementary Fig. 7.Supplementary Data 5Statistical source data for Supplementary Fig. 8.",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_MOESM1_ESM.pdf",
+                "Supplementary Data 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_MOESM2_ESM.xls",
+                "Supplementary Data 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_MOESM3_ESM.xls",
+                "Supplementary Data 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_MOESM4_ESM.xls",
+                "Supplementary Data 4": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_MOESM5_ESM.xls",
+                "Supplementary Data 5": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_MOESM6_ESM.xls"
+            }
+        },
+        "Source data": {
+            "content": "Source Data Fig. 1Statistical source data.Source Data Fig. 2Statistical source data.Source Data Fig. 4Statistical source data.",
+            "links": {
+                "Source Data Fig. 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_MOESM7_ESM.xls",
+                "Source Data Fig. 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_MOESM8_ESM.xls",
+                "Source Data Fig. 4": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_MOESM9_ESM.xls"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Reprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Vector-based%20pedestrian%20navigation%20in%20cities&author=Christian%20Bongiorno%20et%20al&contentID=10.1038%2Fs43588-021-00130-y&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20America%2C%20Inc.&publication=2662-8457&publicationDate=2021-10-18&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleBongiorno, C., Zhou, Y., Kryven, M. et al. Vector-based pedestrian navigation in cities.\n                    Nat Comput Sci 1, 678–685 (2021). https://doi.org/10.1038/s43588-021-00130-yDownload citationReceived: 17 March 2021Accepted: 12 August 2021Published: 18 October 2021Version of record: 18 October 2021Issue date: October 2021DOI: https://doi.org/10.1038/s43588-021-00130-yShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s43588-021-00130-y?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Vector-based pedestrian navigation in cities",
+                "description": "How do pedestrians choose their paths within city street networks? Researchers have tried to shed light on this matter through strictly controlled experiments, but an ultimate answer based on real-world mobility data is still lacking. Here, we analyze salient features of human path planning through a statistical analysis of a massive dataset of GPS traces, which reveals that (1) people increasingly deviate from the shortest path when the distance between origin and destination increases and (2) chosen paths are statistically different when origin and destination are swapped. We posit that direction to goal is a main driver of path planning and develop a vector-based navigation model; the resulting trajectories, which we have termed pointiest paths, are a statistically better predictor of human paths than a model based on minimizing distance with stochastic effects. Our findings generalize across two major US cities with different street networks, hinting to the fact that vector-based navigation might be a universal property of human path planning. An analysis of GPS pedestrian traces shows that (1) people increasingly deviate from the shortest path when the distance between origin and destination increases and that (2) chosen paths are statistically different when origin and destination are swapped. Ultimately, this can explain the observed human attitude in selecting different paths upon return trips.",
+                "datePublished": "2021-10-18T00:00:00Z",
+                "dateModified": "2021-10-18T00:00:00Z",
+                "pageStart": "678",
+                "pageEnd": "685",
+                "sameAs": "https://doi.org/10.1038/s43588-021-00130-y",
+                "keywords": [
+                    "Computational science",
+                    "Geography",
+                    "Society",
+                    "Computer Science",
+                    "general"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Computational Science",
+                    "issn": [
+                        "2662-8457"
+                    ],
+                    "volumeNumber": "1",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Christian Bongiorno",
+                        "affiliation": [
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Senseable City Lab, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Université Paris-Saclay, CentraleSupélec, Mathématiques et Informatique pour la Complexité et les Systèmes",
+                                "address": {
+                                    "name": "Université Paris-Saclay, CentraleSupélec, Mathématiques et Informatique pour la Complexité et les Systèmes, Gif-sur-Yvette, France",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yulun Zhou",
+                        "affiliation": [
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Senseable City Lab, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "The University of Hong Kong",
+                                "address": {
+                                    "name": "Department of Urban Planning and Design, Faculty of Architecture, The University of Hong Kong, Pokfulam, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Marta Kryven",
+                        "url": "http://orcid.org/0000-0002-2764-8611",
+                        "affiliation": [
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "David Theurel",
+                        "affiliation": [
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Department of Physics, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Alessandro Rizzo",
+                        "affiliation": [
+                            {
+                                "name": "Politecnico di Torino",
+                                "address": {
+                                    "name": "Dipartimento di Elettronica e Telecomunicazioni, Politecnico di Torino, Torino, Italy",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "New York University Tandon School of Engineering, Six MetroTech Center",
+                                "address": {
+                                    "name": "Office of Innovation, New York University Tandon School of Engineering, Six MetroTech Center, New York, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Paolo Santi",
+                        "url": "http://orcid.org/0000-0002-8942-8702",
+                        "affiliation": [
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Senseable City Lab, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Istituto di Informatica e Telematica del CNR",
+                                "address": {
+                                    "name": "Istituto di Informatica e Telematica del CNR, Pisa, Italy",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "psanti@mit.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Joshua Tenenbaum",
+                        "affiliation": [
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Carlo Ratti",
+                        "affiliation": [
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Senseable City Lab, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "computational-science;geography;society",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "Computational social science;Populating Nature Cities;One-Year Anniversary Collection",
+                            "webtrendsContentGroup": "Nature Computational Science",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s43588-021-00130-y"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Christian Bongiorno",
+                            "Yulun Zhou",
+                            "Marta Kryven",
+                            "David Theurel",
+                            "Alessandro Rizzo",
+                            "Paolo Santi",
+                            "Joshua Tenenbaum",
+                            "Carlo Ratti"
+                        ],
+                        "publishedAt": 1634515200,
+                        "publishedAtString": "2021-10-18",
+                        "title": "Vector-based pedestrian navigation in cities",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Computational science,Geography,Society"
+                    },
+                    "journal": {
+                        "pcode": "natcomputsci",
+                        "title": "nature computational science",
+                        "volume": "1",
+                        "issue": "10",
+                        "id": 43588,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "fcaaefbjdj;jbjcbjhgif;bcgjdefjbb"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "download-issue-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Vector-based pedestrian navigation in cities",
+            "dc.source": "Nature Computational Science 2021 1:10",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2021-10-18",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2021 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rights": "2021 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "How do pedestrians choose their paths within city street networks? Researchers have tried to shed light on this matter through strictly controlled experiments, but an ultimate answer based on real-world mobility data is still lacking. Here, we analyze salient features of human path planning through a statistical analysis of a massive dataset of GPS traces, which reveals that (1) people increasingly deviate from the shortest path when the distance between origin and destination increases and (2) chosen paths are statistically different when origin and destination are swapped. We posit that direction to goal is a main driver of path planning and develop a vector-based navigation model; the resulting trajectories, which we have termed pointiest paths, are a statistically better predictor of human paths than a model based on minimizing distance with stochastic effects. Our findings generalize across two major US cities with different street networks, hinting to the fact that vector-based navigation might be a universal property of human path planning. An analysis of GPS pedestrian traces shows that (1) people increasingly deviate from the shortest path when the distance between origin and destination increases and that (2) chosen paths are statistically different when origin and destination are swapped. Ultimately, this can explain the observed human attitude in selecting different paths upon return trips.",
+            "dc.identifier": "doi:10.1038/s43588-021-00130-y",
+            "dc.creator": "Ratti, Carlo",
+            "dc.subject": "Society",
+            "prism.issn": "2662-8457",
+            "prism.publicationName": "Nature Computational Science",
+            "prism.publicationDate": "2021-10-18",
+            "prism.volume": "1",
+            "prism.number": "10",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "678",
+            "prism.endingPage": "685",
+            "prism.copyright": "2021 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s43588-021-00130-y",
+            "prism.doi": "doi:10.1038/s43588-021-00130-y",
+            "citation_pdf_url": "https://www.nature.com/articles/s43588-021-00130-y.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s43588-021-00130-y",
+            "citation_journal_title": "Nature Computational Science",
+            "citation_journal_abbrev": "Nat Comput Sci",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2662-8457",
+            "citation_title": "Vector-based pedestrian navigation in cities",
+            "citation_volume": "1",
+            "citation_issue": "10",
+            "citation_publication_date": "2021/10",
+            "citation_online_date": "2021/10/18",
+            "citation_firstpage": "678",
+            "citation_lastpage": "685",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s43588-021-00130-y",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s43588-021-00130-y&api_key=",
+            "citation_reference": "citation_journal_title=J. Am. Stat. Assoc.; citation_title=Probable inference, the law of succession and statistical inference; citation_author=EB Wilson; citation_volume=22; citation_publication_date=1927; citation_pages=209-212; citation_doi=10.1080/01621459.1927.10502953; citation_id=CR61",
+            "citation_author": "Ratti, Carlo",
+            "citation_author_institution": "Senseable City Lab, Massachusetts Institute of Technology, Cambridge, USA",
+            "description": "How do pedestrians choose their paths within city street networks? Researchers have tried to shed light on this matter through strictly controlled experiments, but an ultimate answer based on real-world mobility data is still lacking. Here, we analyze salient features of human path planning through a statistical analysis of a massive dataset of GPS traces, which reveals that (1) people increasingly deviate from the shortest path when the distance between origin and destination increases and (2) chosen paths are statistically different when origin and destination are swapped. We posit that direction to goal is a main driver of path planning and develop a vector-based navigation model; the resulting trajectories, which we have termed pointiest paths, are a statistically better predictor of human paths than a model based on minimizing distance with stochastic effects. Our findings generalize across two major US cities with different street networks, hinting to the fact that vector-based navigation might be a universal property of human path planning. An analysis of GPS pedestrian traces shows that (1) people increasingly deviate from the shortest path when the distance between origin and destination increases and that (2) chosen paths are statistically different when origin and destination are swapped. Ultimately, this can explain the observed human attitude in selecting different paths upon return trips.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Vector-based pedestrian navigation in cities",
+            "twitter:description": "Nature Computational Science - An analysis of GPS pedestrian traces shows that (1) people increasingly deviate from the shortest path when the distance between origin and destination increases and...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-021-00130-y/MediaObjects/43588_2021_130_Fig1_HTML.png",
+            "DOI": "10.1038/s43588-021-00130-y",
+            "size": "220406",
+            "journal_id": "43588"
+        },
+        "canonical_url": "https://www.nature.com/articles/s43588-021-00130-y",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Although path planning is one of the hardest problems to solve computationally1, humans plan remarkably efficient paths when navigating cities, and do so at various scales. Although human path planning can be near-optimal, it also exhibits systematic divergences from the shortest available path2,3,4, and these divergences are still not well understood. We hypothesize that a contribution to such divergences arises from a common mental computational mechanism, which is shared among humans, that can be modeled in precise quantitative terms, and generalizes across urban environments. Describing this mechanism by a formal computational account can help explain mental computations in the brain that support human mobility, inform the design of real-time planning tools that can better couple human and machine intelligence, and improve urban planning.\nIn the laboratory setting, humans often rely on the ‘approximate rationality principle’, whereby humans use approximate planning heuristics to maximize their goals, while limiting subjective costs5,6,7,8,9. In the real world, these costs may be a combination of mental and physical effort10; for example, the mental cost of planning a route comes with the physical cost of travel. Multiple studies have investigated aggregate mobility flows11,12,13,14,15,16,17,18,19,20,21 and the cognitive abilities that support navigation22,23,24,25,26,27,28,29. Quantitative models of how humans may plan their routes in real cities have also been proposed, although these are limited to a small neighborhood in which the planning problem could be optimally solved with exhaustive route enumeration by a ‘breadth-first search’4. However, generalizable computational models that can generate precise quantitative predictions in large-scale city environments are still lacking. It is thus unclear which subjective costs and planning heuristics may explain human routes in real urban environments.\nIn this Article, we investigate this question by analyzing a large dataset of GPS traces of 552,478 pseudo-anonymized human paths undertaken by 14,380 pedestrians in two major US cities—Boston and San Francisco (Methods). The original dataset was retrieved from a company that runs one of the largest mobile apps for mobility tracking. With full consent from users, the app records high-resolution trajectories of human movements in complex urban environments while going about their daily life. Activity types have been labeled by the company using proprietary machine learning tools; only activities labeled as ‘walking path’ were analyzed in this work. Unlike previous studies of aggregate human mobility, which mostly rely on sparse location sampling (such as the serial numbers of US banknotes12, surveys18,30, commuting trips20, mobile communication records13, social-media check-ins31,32 or location history15,17), we study high-resolution routes of individual pedestrians, reconstructed from their GPS traces. Thanks to pseudo-anonymization, which assigned a unique anonymous ID to each individual in the dataset, we could also associate multiple trajectories to the same individual, allowing the study of individual-level properties of pedestrian routes (Supplementary Section 5). Importantly, the majority of human trajectories in our dataset were substantially different from routes suggested by Google Maps (Supplementary Tables 1–3 and Supplementary Fig. 3), indicating the minimal bias introduced by machine-generated trajectories on our data. This property, along with recordings of multiple trips by the same individual and between the same locations, enabled us to fit and evaluate alternate quantitative models of pedestrian navigation. In particular, we restricted our attention to simple geometric, computational models that can be used to at least partially explain human navigation ability.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR31",
+                "ref-CR18",
+                "ref-CR23",
+                "ref-CR32",
+                "ref-CR27",
+                "ref-CR29",
+                "ref-CR7",
+                "ref-CR19",
+                "ref-CR17",
+                "ref-CR24",
+                "ref-CR28",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR13",
+                "ref-CR16",
+                "ref-CR21",
+                "ref-CR2",
+                "ref-CR15",
+                "ref-CR14",
+                "ref-CR3",
+                "ref-CR4",
+                "ref-CR6",
+                "ref-CR12",
+                "ref-CR11",
+                "ref-CR20",
+                "ref-CR10",
+                "ref-CR22",
+                "ref-CR26",
+                "ref-CR30",
+                "ref-CR8",
+                "ref-CR5"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Evaluating paths based on distance\nAs a first approximation, consider a simple way to formalize the cost of a path as equal to its distance:\nHere, \\({{{\\mathcal{P}}}}\\) denotes a path connecting the origin to the destination, which is composed of a list of street segments S1, S2, …, and li denotes the walking distance along segment Si. Although this simple model captures the motivation to reduce distance, which is central to human planning33,34, several studies show that humans often deviate from the shortest paths2,11,26,34,35.\nIndeed, Fig. 1a shows that the human paths recorded in our dataset were consistently longer than the shortest-distance path computed using the standard Dijkstra algorithm36. The tendency to deviate from the shortest path increases with distance between the origin and destination (Fig. 1b), which could be due to the increasing complexity of evaluating relatively longer paths, in line with the approximate rationality principle. However, it is also interesting to observe that most of the relative deviation from the shortest path is achieved by paths of length around 1 km, and only a modest further increasing deviation is observed for longer paths.\n### Stochastic distance minimization\nThe increasing deviation from the shortest path observed in the data could arise from uncertainty about the lengths of street segments, which leads to an accumulation of errors over time. Formally, we can describe this process by an error term in the evaluation of street segment lengths:\nand\nwhere the new cost function c(li) is obtained by applying a log-normally distributed random noise to the original street segment length li. The use of a log-normal distribution to model uncertainty in street length estimation is motivated by the widely accepted Weber–Fechner law of just noticeable difference37, which states that humans perceive measurable quantities on a logarithmic scale. We will refer to equation (1) as the ‘stochastic distance minimization’ model. The number of street segments in the cost function (1) tends to increase with the Euclidean distance separating the origin and destination. Hence, the deviation from the shortest distance tends to accumulate with increased separation between origin and destination, as we observed.\nImportantly, in the Methods we show that this model predicts path choices to be symmetrical—the available paths are ranked in the same order of preference regardless of travel direction, which may not be the case in human paths. Navigation asymmetry has been demonstrated in the laboratory38,39,40,41 and empirically noted—although never statistically tested—in pedestrian flows35 and driving routes34. A well-established theory of navigation by line of sight predicts asymmetric routes by suggesting that people travel along straight lines of sight in the desired direction and, when their view is obstructed, establish a new line of sight11. Empirical findings in neuroscience42,43 and psychology25,38 further suggest that neural and mental representations of space and direction could lead to asymmetry in two ways. Landmark-based navigation, extensively documented in humans22,23,25,29 and animals44, may lead to asymmetric paths that depend on the distribution of views in the environment. Furthermore, many animals, such as rodents45, bats46,47 and cats48, rely on direction42,43,45,49,50 for vector navigation50,51. Human subjects in laboratory studies likewise rely on direction for navigation, taking a route to the first destination that begins in the direction of subsequent destinations52, and rely on neural representations of both Euclidian distance and direction to destination42. Several small-scale studies have found that human routes exhibit systematic biases, such as bias toward paths that begin with a longer initial segment39,40,41, or a southern bias53, which may contribute to asymmetries. However, such biases have not yet been computationally modeled, nor quantitatively evaluated, in large-scale urban environments.\nIf present in human paths, asymmetric routes would falsify the stochastic distance minimization model as the only main contributor to pedestrian path formation. We tested for asymmetry as follows. First, we tested for asymmetric path choices within the same individual repeatedly visiting any given two locations in either order. If present, such individual-level asymmetries could arise from a cognitive cost heuristic used to evaluate trajectories, which depends on direction, or from stochasticity in distance evaluation, followed by memorizing the planned routes. Second, to disambiguate these two scenarios, we tested for asymmetries in repeated paths aggregated over different pedestrians. Such an asymmetry would indicate a persistent quality of human path planning that cannot be explained by stochastic route learning, and thus may be attributed to a common direction-dependent cost heuristic. We performed extensive statistical asymmetry tests at both individual and aggregate levels (see Methods for details). The results of the tests, reported in Fig. 2, show a statistically significant asymmetry in individual walking trajectories, as well as in aggregate trajectories, suggesting that asymmetries are a persistent quality of pedestrian navigation in urban street networks (see Methods for details).\n### Vector-based navigation model\nOther geometric models, such as the ‘initial straightest segment’ (ISS) strategy proposed by Bailenson et al. in ref. 40, could be used to explain the observed asymmetry in human paths. If humans manifested a preference for the straightest first segment, we would expect to observe relatively longer first road segments in the human path than in the shortest path. However, human paths have consistently shorter initial segments than shortest paths, hinting that the ISS strategy is probably not a cause of the observed asymmetry (Supplementary Section 5.2).\nInspired by the evidence of asymmetry in human paths and the prevalence of vector navigation in animal models, we then hypothesized that humans use direction when planning their paths. We formalize the ‘vector-based navigation model’ as a cost that depends on the angular deviation of the street segment from the destination:\nwhere\nand θi ∈ [−π, π] represents the angle between the tangent to the path at street segment Si and the straight line to the destination (Fig. 3). In the example reported in Fig. 3a, the stochastic distance minimization model using equation (1) slightly prefers the blue path (for which ∑li = 935 m) over the red path (∑li = 938 m). The vector-based navigation model prefers what we call the pointiest path, meaning the path that more directly points towards the destination, which in this case is the red path (∑∣θi∣li = 400 m rad) over the blue path (∑∣θi∣li = 516 m rad). Because the angular deviations of street segments in this model depend on direction, the cost estimate of a path may change if its direction is reversed, implying that vector-based navigation could explain the asymmetries observed in human trajectories (see Methods for a detailed proof).\n### Model comparison\nHaving formally defined the two models, we compared their explanatory power relative to each other. We aggregated all paths by origin–destination (OD) distance separation, in steps of 50 m, and estimated the most likely parameters for the stochastic distance minimization and for the vector-based model in each bin (Methods). We measured the fraction of paths in each bin for which the vector-based model had a higher pointwise likelihood than the stochastic distance minimization model, and we called this the directional prevalence fraction (DPF). A value higher than 50% would imply a higher probability that a class of paths is explained through the vector-based model than the stochastic distance minimization model. The results reported in Fig. 4 show that, for each bin of OD distance separation with enough samples to reach statistical significance (Supplementary Section 3), the DPF is consistently above 50%, suggesting the higher explanatory power of the vector-based model. The decreasing trend of the DPF function as OD distance separation increases can be consistently observed both in Boston and in San Francisco. Moreover, the value of the DPF function is very similar across the entire range of OD distance separation, ranging from a peak of 68% at 150-m separation—which corresponds to 35% better predictive power of the vector-based model versus the stochastic shortest distance model—to 53% at 1-km separation. For the sake of completeness, note that the σ parameters for both models reach overall different values, 0.44 and 1.06 for the stochastic vector-based and shortest path models in Boston and 0.42 and 1.1 in San Francisco. More details on the calibration process and the detailed shape of the σ function are reported in Supplementary Figs. 4 and 5.\nThe decreasing trend of the DPF function suggests a metacognitive mental computational mechanism that trades off mental and physical costs during navigation. As the length of the planned path increases, humans probably shift from the relatively easier direction optimization strategy towards optimizing the distance to save physical effort and travel time. This hypothesis is also supported by the observed deviation of human trajectories from shorter paths, which tends to level off for paths longer than 1 km (recall Fig. 1). Observing this trend in two cities with drastically different street network topologies suggests that this mental process generalizes across city environments.",
+            "cites": [
+                "ref-CR34",
+                "ref-CR25",
+                "ref-CR35",
+                "ref-CR23",
+                "ref-CR50",
+                "ref-CR48",
+                "ref-CR29",
+                "ref-CR46",
+                "ref-CR43",
+                "ref-CR44",
+                "ref-CR33",
+                "ref-CR47",
+                "ref-CR42",
+                "ref-CR2",
+                "ref-CR39",
+                "ref-CR40",
+                "ref-CR38",
+                "ref-CR41",
+                "ref-CR52",
+                "ref-CR36",
+                "ref-CR11",
+                "ref-CR53",
+                "ref-CR51",
+                "ref-CR22",
+                "ref-CR49",
+                "ref-CR26",
+                "ref-CR45",
+                "ref-CR37"
+            ],
+            "figures": [
+                "figure-2",
+                "figure-4",
+                "figure-3",
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "The data-driven approach used in this Article illustrates how large-scale observations of behavior in natural settings can be used to derive quantitative models of complex cognitive and physical tasks, and complements studies of cognition in the laboratory by providing a unique insight into how the different cognitive faculties work together in real life. Despite all the challenges of an uncontrolled real city environment—as well as the lack of information about users and their activities that limits the range of applicability of our findings—we have discovered behavioral trends that generalize across cities, attesting to the potential of big data in the fields of psychology and cognitive science.\nOur results suggest that vector navigation may be a common property of human route planning in cities and also establish direct connections between the study of human mobility, human cognitive psychology and neuroscience. Empirical support of the vector navigation model by real human behavior provides evidence in favor of theoretical claims that human minds and brains represent both Euclidean maps and graphs of street networks, as suggested in previous work54. The quantitative cost models described in this work suggest a possible computational mechanism by which route planning may be implemented in the brain. However, more work is needed to overcome the limitations of our study (lack of information about users and their activity) and understand, for instance, the effect of individual differences and the extent to which people pre-plan their routes, use hierarchical map representations, develop routing habits and diversify path alternates as a result of map learning.\nThe requirement to implement precise falsifiable models has limited our study to factors that could be measured objectively and exactly—such as direction and distance—as well as a number of simplifying assumptions. Although our models assume that pedestrians have accurate map knowledge, future work should consider how human path planning may depend on mental representations of the street networks, which may include larger streets and omit secondary ones55. Future work should also consider other factors that can influence navigation decisions, to the extent that these factors can be quantitatively tracked—such as day of the week, sunlight, weather, trees, attractions, presence of crowds, fatigue, time of the day, neighborhood safety and elevation gradient—as well as individual differences in responsiveness to these factors.\nOur results extend our understanding of human route planning, and could have significant implications for those areas where route planning is a basic mechanism, such as transportation, cognitive maps and real-time planning algorithms. We expect our methodology to be of even greater use with increasingly accurate 5G and 6G tracking data. The latter should allow monitoring on which side of the street someone is walking, the time spent at intersections, forward-facing direction and speed, supporting a more detailed investigation of internal planning mechanisms. Future models should account for walking speed, tendency to change direction at a red light, as well as tendency to consistently orient toward specific visual landmarks. We hope that our findings will stimulate new research exploring these connections.",
+            "cites": [
+                "ref-CR54",
+                "ref-CR55"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Dataset description and preparation\nThe full dataset comprises 579,231 pseudo-anonymized human paths produced by 14,380 pedestrians—5,590 in Boston and 8,790 in San Francisco—recorded by an always-on pedestrian tracking smartphone application over a time period of one year. As is customary in research based on datasets acquired through mobile applications, we do not have information about the demographics of the population of app users, which thus does not necessarily represent an unbiased sample of the population in Boston and San Francisco. The two cities differ in street network geometry (Supplementary Fig. 1). The San Francisco street network is designed as a grid, while the Boston street network is highly irregular, for historical reasons. The app was continuously recording individuals’ movements throughout the day. Accordingly, the dataset consists of raw high-quality GPS traces, which include a range of pedestrian activities. The analysis reported in this Article focuses on activities that have been labeled as ‘walking activity’ by the app using proprietary machine learning algorithms. Also, due to privacy limitations, we have no information about user profiles, such as whether they are resident in the city, their level of familiarity with the environment and so on. The average recording gap is 15 s, and the positioning accuracy is within 10 m. The GPS traces were segmented to individual paths based on tracking continuity, with a path considered to end at a destination if the walking activity was paused for longer than 5 min. To preserve privacy, the origin and destination of each trip were randomly relocated within a 100-m radius centered at the original location. To remove any possible bias resulting from this randomization procedure, we trimmed the beginning and end of each path within this range. All paths were map-matched to the Open Street Map network available at www.openstreetmap.org using a hidden Markov chain algorithm56. We also screened all map-matched paths using the Douglas–Peucker (DP) algorithm57 to exclude any detours that could be caused by GPS jitters that were not fully removed by the trimming.\nWe analyzed a subset of walking paths, selected from the full dataset, that met the following criteria: (1) no straight-line paths and (2) a path was not more than 80% longer than the shortest possible path connecting the origin and destination. The 80% cutoff was taken as the 95% quantile. The first criterion removed straightforward (from a navigational perspective) paths. The second criterion was implemented to exclude multi-purpose trips, sight-seeing and exercise. We also excluded paths with a shortest network distance smaller than 200 m. After this pre-processing, 165,645 trajectories by 4,879 pedestrians from Boston and 189,075 trajectories by 7,372 pedestrians from San Francisco remained in the analysis, comprising ~60% of paths from the original dataset.\nThe paths in Boston had a mean length of 856.0 m (s.d. = 843.6 m) and the paths in San Francisco had a mean length of 868.1 m (s.d. = 912.1 m). Detailed aggregate statistics of the human paths included in the study are reported in Supplementary Table 1.\n### Street networks\nWe retrieved the street network of the city of Boston and San Francisco and their surrounding areas from Open Street Map (Supplementary Fig. 1). All walkable street segments were included to form the walkable street network, which is used consistently for all the following calculations and analyses, including, but not limited to, map-matching of the human path, calculation of the shortest path, and random walk paths.\nWe simplified the retrieved street networks to speed up the calculation by cleaning up redundant nodes and edges around intersections. Specifically, we grouped adjacent intersections into one by applying a hierarchical clustering using the complete linkage and network distance among nodes. We selected 30 m as the threshold of the diameter of the clusters through repeated experiments. This simplification eliminated unnecessary details around intersections, while preserving network topology. The street networks of Boston and San Francisco used in our data analysis are illustrated in Supplementary Fig. 1.\n### Walking paths\nThe GPS trajectories of human paths were map-matched to the walking street network from Open Street Map (Supplementary Section 1.1) using a hidden Markov chain algorithm56. The algorithm was implemented using the map-matching application programming interface (API) of GraphHopper (https://graphhopper.com/api/1/docs/map-matching/). A small number of paths that were not successfully matched were eliminated from the dataset. The map-matched human paths were projected onto the simplified network utilizing the link table between nodes in the original network and the simplified network (Supplementary Section 1.1). The summary statistics of the shortest paths in both Boston and San Francisco are shown in Supplementary Table 1.\nFor each human path, the corresponding shortest-distance path was calculated based on the street network from Open Street Map (Supplementary Section 1.1) using the classic Dijkstra’s algorithm implemented in the Python package of igraph-python (http://igraph.org/python/). The map-matched shortest paths were projected onto the simplified network utilizing the link table between nodes in the original network and the simplified network. The summary statistics of the shortest paths in both Boston and San Francisco are shown in the Supplementary Table 1. The trip velocity distribution is reported in Supplementary Fig. 2.\nThe Google paths were retrieved from the Google Map Routing API and map-matched to the original street network using the identical hidden Markov model algorithm as applied to the human paths. Because of resource limitations, we randomly extracted a subset of paths for the comparison between human and Google paths in Boston and San Francisco, respectively. We retrieved Google paths for 9,254 OD pairs in Boston and 1,492 OD pairs in San Francisco. The comparison was restricted to the human paths for which we could obtain a corresponding Google path between the given origin and destination. If multiple human paths existed for one OD pair, all human paths were compared separately to the Google path, and average similarity performances were taken for the comparison. All retrieved Google trajectories were map-matched to the original street networks before being projected onto the simplified network.\nTo examine the probability of pedestrians following app-planned paths, we compared human paths to paths planned by the most widely used routing app—Google Map. The results show that Google paths are significantly different from human paths. First, the length distribution of Google paths is significantly different from that of human paths in both cities (Supplementary Fig. 3). Metrics comparing the geometries of Google paths with the geometries of human paths also demonstrate a significant difference in Jaccard similarity measured as exact overlaps, and in geometric similarity measured using Hausdorff distance (Supplementary Tables 2 and 3).\n### Detection of asymmetries\nTo test whether the sample probability distribution of paths chosen between any specific OD pair depends on the direction, we needed to aggregate trips across OD pairs. However, because the sample size obtained by considering the original OD pair was limited, we also considered intermediate points in a trajectory as possible OD pairs. To achieve a sufficiently large sample size, we considered only OD pairs within a Euclidean separation distance between 200 m and 250 m, with at least 50 recorded paths, including at least 20 paths in each direction, that do not lie on a straight line path. We define a straight-line path for an OD if there exists a path that simplifies to two points with the DP algorithm57, with a cutoff of 30 m. Note that this approach is conservative, because a symmetric model must necessarily be symmetric at all scales.\nFor the individual-level asymmetry test, this criterion is met by 235 OD pairs generated by 73 pedestrians in San Francisco and by 316 OD pairs generated by 101 pedestrians in Boston. For the aggregate asymmetry analysis, we also include any OD pairs that have a sufficient number of paths combined between different pedestrians, giving 2,865 and 3,000 OD pairs in San Francisco and Boston, respectively. Note that a single pedestrian path could be counted multiple times by considering different sub-parts of the original trajectory.\nAggregate-level analysis is done as follows. For a specific OD pair, we consider the universe of all paths followed by humans in each direction, and represent them as an unordered set of street intersection points. For each intersection point, we record the occurrence of out-bound \\({\\rm{O}}{\\rm{D}}^{\\to }=\\{{n}_{1}^{\\to },... \\ ,{n}_{m}^{\\to }\\}\\) and in-bound \\({\\rm{O}}{\\rm{D}}^{\\leftarrow }=\\{{n}_{1}^{\\leftarrow },... \\ ,{n}_{m}^{\\leftarrow }\\}\\) paths. Individual-level analysis is done as follows. We group all paths taken by an individual between a specific OD pair, \\({\\rm{OD}}=\\{{{{{\\mathcal{P}}}}}_{1},\\ldots ,{{{{\\mathcal{P}}}}}_{m}\\}\\), to determine the universe of observed paths in each direction. We count the number of occurrences of these paths in the forward and reverse directions, defined as \\({\\rm{O}}{\\rm{D}}^{\\to }=\\{{n}_{1}^{\\to },\\ldots ,{n}_{m}^{\\to }\\}\\) and \\({\\rm{O}}{\\rm{D}}^{\\leftarrow }=\\{{n}_{1}^{\\leftarrow },\\ldots ,{n}_{m}^{\\leftarrow }\\}\\), and establish an analogy with the process of extracting with replacement marbles from an urn containing m different types of marble—one for each possible path. More specifically, the urn contains \\({n}_{i}^{\\to }+{n}_{i}^{\\leftarrow }\\) marbles of type i, for each i. Given this analogy, the observed group of paths in one direction, say OD→, can be seen as an instance of a random extraction of \\({q}^{\\to }={\\sum }_{i}{n}_{i}^{\\to }\\) marbles from the urn. If the paths were symmetric—null hypothesis—the extraction would obey a multinomial distribution. We can thus apply the standard statistical hypothesis test to the null hypothesis that the observations from sets OD→ and OD← follow such a distribution. The results of the test, reported in Fig. 2, show that the null hypothesis can be rejected with a 0.05 significance threshold for 32% and 24% of the OD pairs for Boston and San Francisco, respectively, and that the cumulative distribution of the resulting P values is considerably skewed towards lower values than those expected under the null hypothesis. We thus find a statistically significant asymmetry in individual human paths.\nThe proposed statistical test, which applies to both individual- and aggregate-level analyses, builds on the analogy with the process of independently extracting m marbles from an urn. If the null hypothesis that paths are symmetric is true, there exists a set of probabilities {p1,..., pm} with \\(\\mathop{\\sum }\\nolimits_{i = 1}^{m}{p}^{i}=1\\) associated to each path that are direction-independent. In such a case, the best estimates for such probabilities can be obtained as\nwith \\({q}^{\\leftarrow }=\\mathop{\\sum }\\nolimits_{i = 1}^{m}{n}_{i}^{\\leftarrow }\\) and \\({q}^{\\to }=\\mathop{\\sum }\\nolimits_{i = 1}^{m}{n}_{i}^{\\to }\\).\nTo assess the validity of the null hypothesis, we test whether the sample occurrences OD→ and OD← are statistically compatible with the process of repeatedly and independently extracting q→ + q← elements from an urn with m marbles (with replacement). The resulting distribution is multinomial and defined by probabilities Pi. The exact P value for the test cannot be obtained analytically; however, the likelihood-ratio test58 provides an asymptotic distribution in the case the null hypothesis holds. Specifically, the maximum likelihood estimate is\nand the alternate model is\nFinally, according to Wilks’ theorem 58, the likelihood-ratio statistic should converge to a chi square with m − 1 degrees of freedom:\nThe results of the test are reported in the main text. Because the underlying distribution on which the statistical test is performed is unknown, we proceed with a more conservative test based on a null sampled distribution. This implies that the real null expectation should be slightly below the first bisector, as depicted by the shortest distance P-value distribution in Fig. 2b.\n### Asymmetry proofs\nTo prove that the stochastic distance minimization model cannot explain asymmetry, consider the (random) cost \\({{{{\\mathcal{C}}}}}_{\\rm{dist}}({\\rm{O}}{\\rm{D}}^{\\to })\\) of a path between a certain OD pair, and the cost \\({{\\mathcal{C}}}_{\\rm{dist}}({\\rm{O}}{\\rm{D}}^{\\leftarrow })\\) of the reverse path. Because both costs are obtained as the sum of independent random variables, and the random variables considered in the summation are the same (except for their order), both \\({{\\mathcal{C}}}_{\\rm{dist}}({\\rm{O}}{\\rm{D}}^{\\to })\\) and \\({{\\mathcal{C}}}_{\\rm{dist}}({\\rm{O}}{{\\rm{D}}}^{\\leftarrow })\\) have the same probability distribution, which contradicts our empirical observations of asymmetric human paths.\nTo prove that the vector-based navigation model can explain asymmetry, note that, for a given path between origin and destination, the costs of the path in the forward and reverse directions, Cdir(OD→) and Cdir(OD←), are obtained from the summation of different random variables, because the value \\({\\theta }_{i}^{\\to }\\) for street segment Si in the forward direction is different from that of \\({\\theta }_{i}^{\\leftarrow }\\) in the reverse direction (Fig. 3). Thus, the probability distribution of Cdir(OD→) is different from that of Cdir(OD←), which implies that the stochastic distance minimization model can support the hypothesis of asymmetric human navigation.\n### Model fitting and comparison\nWe compared the explanatory power of the two models by performing a set of 1,000 simulations in Boston and San Francisco to optimally tune the error parameter σ for both the stochastic distance minimization and the vector-based model (details about the exploration ranges for σ are provided in Supplementary Section 3). Given a human path OD(h)→ from origin to destination, we ran both models on that OD pair for 1,000 simulations, and recorded the number of times each of the two models selected exactly path OD(h)→. To determine which of the two models performed statistically better in this task, we compared their respective likelihood values. The likelihood of a model is obtained from\nthat is, the sum over all N paths of the logarithm of the probability\nof selecting the human path OD(h)→ for OD pair ODi, computed using the cost function of the specific model x = {dist, dir} with the optimal value σx for model x of the error parameter.\nWe aggregated paths into bins by OD separation, in steps of 50 m. For each bin we calibrated σ and tested model performances with a leave-one-out cross-validation59. Accordingly, we found the value of σ that maximizes the likelihood of Ns − 1 paths associated with bin s, and measured the likelihood of the out-of-sample path. We repeated this procedure by leaving out another path until we covered the whole set of paths in each bin. We also included a cutoff parameter c to account for paths with zero sample probability, which would cause divergence of the likelihood metric. This parameter was set to c = 1/Ns = 0.001, which is the expected minimal detectable probability with Ns = 1,000 simulations. A detailed exploration of the dependency of c is reported in Supplementary Section 3. However, we did not observe a substantial change in our results with different values of c.",
+            "cites": [
+                "ref-CR57",
+                "ref-CR59",
+                "ref-CR58",
+                "ref-CR56"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Differences between human paths and shortest paths.",
+            "figure-caption": "a, Aggregated comparisons of the lengths of human and shortest paths (y axis) in Boston and San Francisco, as a function of the Euclidean distance between the origin (O) and destination (D) (x axis). b, Relative differences between human and shortest path lengths (y axis) as a function of the Euclidean distance between origin and destination (x axis). In the top plot, the bars denote the interquartile range, and the lines demonstrate the change of median % deviation values with increased origin–destination separation. The lower plot is a frequency histogram of sample distribution over origin–destination separations in log scale. c, Two examples of the difference between human paths (in red) and their corresponding shortest paths (in blue). Map data © OpenStreetMap contributors.Source data",
+            "figure-link": "https://www.nature.com/articles/s43588-021-00130-y/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Asymmetric human paths.",
+            "figure-caption": "a, Examples of asymmetric human paths in street networks. Red paths start at red markers and blue paths at blue markers. b, Cumulative distribution function (CDF) of one-tailed P values for the asymmetry test in Boston and San Francisco (Methods). P values consistently above the diagonal dashed line indicate a statistically significant deviation from symmetric paths. Solid lines refer to individual-level tests and dotted lines to aggregate-level tests. Shortest-distance paths used in the tests are obtained by simulating the stochastic distance minimization model. Map data © OpenStreetMap contributors.Source data",
+            "figure-link": "https://www.nature.com/articles/s43588-021-00130-y/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Model design.",
+            "figure-caption": "Example illustrating the calculation of the vector-based cost approximated by equation (2). a, The human path is shown in red and the shortest path in blue. The quantities li and θi appearing in equations (1) and (2) are shown for the first street segment of the blue path. b, Alternate paths produced by Google Maps. (Note that Google reports both path lengths as 950 m.) Map data © OpenStreetMap contributors.",
+            "figure-link": "https://www.nature.com/articles/s43588-021-00130-y/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: DPF for different OD separations.",
+            "figure-caption": "Top: marginal frequency distributions of paths in Boston and San Francisco. Bottom: similar DPF patterns in Boston and San Francisco. Error bars are obtained from the 95% Wilson-score interval61.Source data",
+            "figure-link": "https://www.nature.com/articles/s43588-021-00130-y/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Newell, A., Shaw, J. C. & Simon, H. A. Elements of a theory of human problem solving. Psychol. Rev. 65, 151–166 (1958).",
+            "links": {
+                "Article": "https://doi.org/10.1037%2Fh0048495",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Elements%20of%20a%20theory%20of%20human%20problem%20solving&journal=Psychol.%20Rev.&doi=10.1037%2Fh0048495&volume=65&pages=151-166&publication_year=1958&author=Newell%2CA&author=Shaw%2CJC&author=Simon%2CHA"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Zhu, S. & Levinson, D. Do people use the shortest path? An empirical test of Wardrop’s first principle. PLoS ONE 10, e0134322 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0134322",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Do%20people%20use%20the%20shortest%20path%3F%20An%20empirical%20test%20of%20Wardrop%E2%80%99s%20first%20principle&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0134322&volume=10&publication_year=2015&author=Zhu%2CS&author=Levinson%2CD"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Lima, A., Stanojevic, R., Papagiannaki, D., Rodriguez, P. & González, M. C. Understanding individual routing behaviour. J. R. Soc. Interface 13, 20160021 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2016.0021",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20individual%20routing%20behaviour&journal=J.%20R.%20Soc.%20Interface&doi=10.1098%2Frsif.2016.0021&volume=13&publication_year=2016&author=Lima%2CA&author=Stanojevic%2CR&author=Papagiannaki%2CD&author=Rodriguez%2CP&author=Gonz%C3%A1lez%2CMC"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Javadi, A.-H. et al. Hippocampal and prefrontal processing of network topology to simulate the future. Nat. Commun. 8, 14652 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fncomms14652",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hippocampal%20and%20prefrontal%20processing%20of%20network%20topology%20to%20simulate%20the%20future&journal=Nat.%20Commun.&doi=10.1038%2Fncomms14652&volume=8&publication_year=2017&author=Javadi%2CA-H"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Griffiths, T. L., Lieder, F. & Goodman, N. D. Rational use of cognitive resources: levels of analysis between the computational and the algorithmic. Top. Cogn. Sci. 7, 217–229 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Ftops.12142",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rational%20use%20of%20cognitive%20resources%3A%20levels%20of%20analysis%20between%20the%20computational%20and%20the%20algorithmic&journal=Top.%20Cogn.%20Sci.&doi=10.1111%2Ftops.12142&volume=7&pages=217-229&publication_year=2015&author=Griffiths%2CTL&author=Lieder%2CF&author=Goodman%2CND"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Huys, Q. J. et al. Interplay of approximate planning strategies. Proc. Natl Acad. Sci. USA 112, 3098–3103 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1414219112",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Interplay%20of%20approximate%20planning%20strategies&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1414219112&volume=112&pages=3098-3103&publication_year=2015&author=Huys%2CQJ"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Gershman, S. J., Horvitz, E. J. & Tenenbaum, J. B. Computational rationality: a converging paradigm for intelligence in brains, minds and machines. Science 349, 273–278 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aac6076",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=3382220",
+                "MATH": "http://www.emis.de/MATH-item?1355.68220",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Computational%20rationality%3A%20a%20converging%20paradigm%20for%20intelligence%20in%20brains%2C%20minds%20and%20machines&journal=Science&doi=10.1126%2Fscience.aac6076&volume=349&pages=273-278&publication_year=2015&author=Gershman%2CSJ&author=Horvitz%2CEJ&author=Tenenbaum%2CJB"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Baker, C. L., Jara-Ettinger, J., Saxe, R. & Tenenbaum, J. B. Rational quantitative attribution of beliefs, desires and percepts in human mentalizing. Nat. Hum. Behav. 1, 0064 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-017-0064",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rational%20quantitative%20attribution%20of%20beliefs%2C%20desires%20and%20percepts%20in%20human%20mentalizing&journal=Nat.%20Hum.%20Behav.&doi=10.1038%2Fs41562-017-0064&volume=1&publication_year=2017&author=Baker%2CCL&author=Jara-Ettinger%2CJ&author=Saxe%2CR&author=Tenenbaum%2CJB"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Liu, S., Ullman, T. D., Tenenbaum, J. B. & Spelke, E. S. Ten-month-old infants infer the value of goals from the costs of actions. Science 358, 1038–1041 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aag2132",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ten-month-old%20infants%20infer%20the%20value%20of%20goals%20from%20the%20costs%20of%20actions&journal=Science&doi=10.1126%2Fscience.aag2132&volume=358&pages=1038-1041&publication_year=2017&author=Liu%2CS&author=Ullman%2CTD&author=Tenenbaum%2CJB&author=Spelke%2CES"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Gershman, S. J. Origin of perseveration in the trade-off between reward and complexity. Cognition 204, 104394 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cognition.2020.104394",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Origin%20of%20perseveration%20in%20the%20trade-off%20between%20reward%20and%20complexity&journal=Cognition&doi=10.1016%2Fj.cognition.2020.104394&volume=204&publication_year=2020&author=Gershman%2CSJ"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Hillier, B. & Iida, S. Network and psychological effects in urban movement. In International Conference on Spatial Information Theory (eds Cohn, A. G. & Mark, D. M.) 475–490 (Springer, 2005).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Brockmann, D., Hufnagel, L. & Geisel, T. The scaling laws of human travel. Nature 439, 462–465 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature04292",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20scaling%20laws%20of%20human%20travel&journal=Nature&doi=10.1038%2Fnature04292&volume=439&pages=462-465&publication_year=2006&author=Brockmann%2CD&author=Hufnagel%2CL&author=Geisel%2CT"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Gonzalez, M. C., Hidalgo, C. A. & Barabasi, A.-L. Understanding individual human mobility patterns. Nature 453, 779–782 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature06958",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20individual%20human%20mobility%20patterns&journal=Nature&doi=10.1038%2Fnature06958&volume=453&pages=779-782&publication_year=2008&author=Gonzalez%2CMC&author=Hidalgo%2CCA&author=Barabasi%2CA-L"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Simini, F., González, M. C., Maritan, A. & Barabási, A.-L. A universal model for mobility and migration patterns. Nature 484, 96–100 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature10856",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20universal%20model%20for%20mobility%20and%20migration%20patterns&journal=Nature&doi=10.1038%2Fnature10856&volume=484&pages=96-100&publication_year=2012&author=Simini%2CF&author=Gonz%C3%A1lez%2CMC&author=Maritan%2CA&author=Barab%C3%A1si%2CA-L"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Alessandretti, L., Sapiezynski, P., Sekara, V., Lehmann, S. & Baronchelli, A. Evidence for a conserved quantity in human mobility. Nat. Hum. Behav. 2, 485–491 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-018-0364-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Evidence%20for%20a%20conserved%20quantity%20in%20human%20mobility&journal=Nat.%20Hum.%20Behav.&doi=10.1038%2Fs41562-018-0364-x&volume=2&pages=485-491&publication_year=2018&author=Alessandretti%2CL&author=Sapiezynski%2CP&author=Sekara%2CV&author=Lehmann%2CS&author=Baronchelli%2CA"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Hamedmoghadam, H., Ramezani, M. & Saberi, M. Revealing latent characteristics of mobility networks with coarse-graining. Sci. Rep. 9, 7545 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-019-44005-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Revealing%20latent%20characteristics%20of%20mobility%20networks%20with%20coarse-graining&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-019-44005-9&volume=9&publication_year=2019&author=Hamedmoghadam%2CH&author=Ramezani%2CM&author=Saberi%2CM"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Kraemer, M. U. et al. Mapping global variation in human mobility. Nat. Hum. Behav 4, 800–810 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-020-0875-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mapping%20global%20variation%20in%20human%20mobility&journal=Nat.%20Hum.%20Behav&doi=10.1038%2Fs41562-020-0875-0&volume=4&pages=800-810&publication_year=2020&author=Kraemer%2CMU"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Verbavatz, V. & Barthelemy, M. The growth equation of cities. Nature 587, 397–401 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-020-2900-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20growth%20equation%20of%20cities&journal=Nature&doi=10.1038%2Fs41586-020-2900-x&volume=587&pages=397-401&publication_year=2020&author=Verbavatz%2CV&author=Barthelemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Alessandretti, L., Aslak, U. & Lehmann, S. The scales of human mobility. Nature 587, 402–407 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-020-2909-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20scales%20of%20human%20mobility&journal=Nature&doi=10.1038%2Fs41586-020-2909-1&volume=587&pages=402-407&publication_year=2020&author=Alessandretti%2CL&author=Aslak%2CU&author=Lehmann%2CS"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Er-Jian, L. & Xiao-Yong, Y. A universal opportunity model for human mobility. Sci. Rep. 10, 4657 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-020-61613-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20universal%20opportunity%20model%20for%20human%20mobility&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-020-61613-y&volume=10&publication_year=2020&author=Er-Jian%2CL&author=Xiao-Yong%2CY"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Gallotti, R., Bazzani, A., Rambaldi, S. & Barthelemy, M. A stochastic model of randomly accelerated walkers for human mobility. Nat. Commun. 7, 12600 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fncomms12600",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20stochastic%20model%20of%20randomly%20accelerated%20walkers%20for%20human%20mobility&journal=Nat.%20Commun.&doi=10.1038%2Fncomms12600&volume=7&publication_year=2016&author=Gallotti%2CR&author=Bazzani%2CA&author=Rambaldi%2CS&author=Barthelemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Gillner, S. & Mallot, H. A. Navigation and acquisition of spatial knowledge in a virtual maze. J. Cogn. Neurosci. 10, 445–463 (1998).",
+            "links": {
+                "Article": "https://doi.org/10.1162%2F089892998562861",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Navigation%20and%20acquisition%20of%20spatial%20knowledge%20in%20a%20virtual%20maze&journal=J.%20Cogn.%20Neurosci.&doi=10.1162%2F089892998562861&volume=10&pages=445-463&publication_year=1998&author=Gillner%2CS&author=Mallot%2CHA"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Foo, P., Warren, W. H., Duchon, A. & Tarr, M. J. Do humans integrate routes into a cognitive map? Map-versus landmark-based navigation of novel shortcuts. J. Exp. Psychol. Learn. Mem. Cogn. 31, 195–215 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1037%2F0278-7393.31.2.195",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Do%20humans%20integrate%20routes%20into%20a%20cognitive%20map%3F%20Map-versus%20landmark-based%20navigation%20of%20novel%20shortcuts&journal=J.%20Exp.%20Psychol.%20Learn.%20Mem.%20Cogn.&doi=10.1037%2F0278-7393.31.2.195&volume=31&pages=195-215&publication_year=2005&author=Foo%2CP&author=Warren%2CWH&author=Duchon%2CA&author=Tarr%2CMJ"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Norman, J. F., Crabtree, C. E., Clayton, A. M. & Norman, H. F. The perception of distances and spatial relationships in natural outdoor environments. Perception 34, 1315–1324 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1068%2Fp5304",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20perception%20of%20distances%20and%20spatial%20relationships%20in%20natural%20outdoor%20environments&journal=Perception&doi=10.1068%2Fp5304&volume=34&pages=1315-1324&publication_year=2005&author=Norman%2CJF&author=Crabtree%2CCE&author=Clayton%2CAM&author=Norman%2CHF"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Sun, Y. & Wang, H. Perception of space by multiple intrinsic frames of reference. PLoS ONE 5, e10442 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0010442",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Perception%20of%20space%20by%20multiple%20intrinsic%20frames%20of%20reference&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0010442&volume=5&publication_year=2010&author=Sun%2CY&author=Wang%2CH"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Weisberg, S. M. & Newcombe, N. S. How do (some) people make a cognitive map? Routes, places and working memory. J. Exp. Psychol. Learn. Mem. Cogn. 42, 768–785 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1037%2Fxlm0000200",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20do%20%28some%29%20people%20make%20a%20cognitive%20map%3F%20Routes%2C%20places%20and%20working%20memory&journal=J.%20Exp.%20Psychol.%20Learn.%20Mem.%20Cogn.&doi=10.1037%2Fxlm0000200&volume=42&pages=768-785&publication_year=2016&author=Weisberg%2CSM&author=Newcombe%2CNS"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Vuong, J., Fitzgibbon, A. W. & Glennerster, A. No single, stable 3D representation can explain pointing biases in a spatial updating task. Sci. Rep. 9, 12578 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-019-48379-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=No%20single%2C%20stable%203D%20representation%20can%20explain%20pointing%20biases%20in%20a%20spatial%20updating%20task&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-019-48379-8&volume=9&publication_year=2019&author=Vuong%2CJ&author=Fitzgibbon%2CAW&author=Glennerster%2CA"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Bécu, M. et al. Age-related preference for geometric spatial cues during real-world navigation. Nat. Hum. Behav. 4, 88–99 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-019-0718-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Age-related%20preference%20for%20geometric%20spatial%20cues%20during%20real-world%20navigation&journal=Nat.%20Hum.%20Behav.&doi=10.1038%2Fs41562-019-0718-z&volume=4&pages=88-99&publication_year=2020&author=B%C3%A9cu%2CM"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "van der Ham, I. J., Claessen, M. H., Evers, A. W. & van der Kuil, M. N. Large-scale assessment of human navigation ability across the lifespan. Sci. Rep. 10, 3299 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-020-60302-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Large-scale%20assessment%20of%20human%20navigation%20ability%20across%20the%20lifespan&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-020-60302-0&volume=10&publication_year=2020&author=Ham%2CIJ&author=Claessen%2CMH&author=Evers%2CAW&author=Kuil%2CMN"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Marshall, J. M. et al. Mathematical models of human mobility of relevance to malaria transmission in Africa. Sci. Rep. 8, 7713 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-018-26023-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mathematical%20models%20of%20human%20mobility%20of%20relevance%20to%20malaria%20transmission%20in%20Africa&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-018-26023-1&volume=8&publication_year=2018&author=Marshall%2CJM"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Yan, X.-Y., Wang, W.-X., Gao, Z.-Y. & Lai, Y.-C. Universal model of individual and population mobility on diverse spatial scales. Nat. Commun. 8, 1639 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-017-01892-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Universal%20model%20of%20individual%20and%20population%20mobility%20on%20diverse%20spatial%20scales&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-017-01892-8&volume=8&publication_year=2017&author=Yan%2CX-Y&author=Wang%2CW-X&author=Gao%2CZ-Y&author=Lai%2CY-C"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Yan, X.-Y. & Zhou, T. Destination choice game: a spatial interaction theory on human mobility. Sci. Rep. 9, 9466 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-019-46026-w",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Destination%20choice%20game%3A%20a%20spatial%20interaction%20theory%20on%20human%20mobility&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-019-46026-w&volume=9&publication_year=2019&author=Yan%2CX-Y&author=Zhou%2CT"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Coutrot, A. et al. Virtual navigation tested on a mobile app is predictive of real-world wayfinding navigation performance. PLoS ONE 14, e0213272 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0213272",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Virtual%20navigation%20tested%20on%20a%20mobile%20app%20is%20predictive%20of%20real-world%20wayfinding%20navigation%20performance&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0213272&volume=14&publication_year=2019&author=Coutrot%2CA"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Manley, E., Addison, J. & Cheng, T. Shortest path or anchor-based route choice: a large-scale empirical analysis of minicab routing in London. J. Transport Geogr. 43, 123–139 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jtrangeo.2015.01.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Shortest%20path%20or%20anchor-based%20route%20choice%3A%20a%20large-scale%20empirical%20analysis%20of%20minicab%20routing%20in%20London&journal=J.%20Transport%20Geogr.&doi=10.1016%2Fj.jtrangeo.2015.01.006&volume=43&pages=123-139&publication_year=2015&author=Manley%2CE&author=Addison%2CJ&author=Cheng%2CT"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Malleson, N. et al. The characteristics of asymmetric pedestrian behavior: a preliminary study using passive smartphone location data. Trans. GIS 22, 616–634 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Ftgis.12336",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20characteristics%20of%20asymmetric%20pedestrian%20behavior%3A%20a%20preliminary%20study%20using%20passive%20smartphone%20location%20data&journal=Trans.%20GIS&doi=10.1111%2Ftgis.12336&volume=22&pages=616-634&publication_year=2018&author=Malleson%2CN"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Dijkstra, E. A note on two problems in connexion with graphs. Numerische Math. 1, 269–271 (1959).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/BF01386390",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=107609",
+                "MATH": "http://www.emis.de/MATH-item?0092.16002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20note%20on%20two%20problems%20in%20connexion%20with%20graphs&journal=Numerische%20Math.&doi=10.1007%2FBF01386390&volume=1&pages=269-271&publication_year=1959&author=Dijkstra%2CE"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Fechner, G. T. Elements of Psychophysics (eds Howes, D. H. & Boring, E. G.) (Holt, Rinehar and Winston, 1860).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Newcombe, N., Huttenlocher, J., Sandberg, E., Lie, E. & Johnson, S. What do misestimations and asymmetries in spatial judgement indicate about spatial representation. J. Exp. Psychol. Learn. Mem. Cogn. 25, 986–996 (1999).",
+            "links": {
+                "Article": "https://doi.org/10.1037%2F0278-7393.25.4.986",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=What%20do%20misestimations%20and%20asymmetries%20in%20spatial%20judgement%20indicate%20about%20spatial%20representation&journal=J.%20Exp.%20Psychol.%20Learn.%20Mem.%20Cogn.&doi=10.1037%2F0278-7393.25.4.986&volume=25&pages=986-996&publication_year=1999&author=Newcombe%2CN&author=Huttenlocher%2CJ&author=Sandberg%2CE&author=Lie%2CE&author=Johnson%2CS"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Bailenson, J. N., Shum, M. S. & Uttal, D. H. Road climbing: principles governing asymmetric route choices on maps. J. Environ. Psychol. 18, 251–264 (1998).",
+            "links": {
+                "Article": "https://doi.org/10.1006%2Fjevp.1998.0095",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Road%20climbing%3A%20principles%20governing%20asymmetric%20route%20choices%20on%20maps&journal=J.%20Environ.%20Psychol.&doi=10.1006%2Fjevp.1998.0095&volume=18&pages=251-264&publication_year=1998&author=Bailenson%2CJN&author=Shum%2CMS&author=Uttal%2CDH"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Bailenson, J. N., Shum, M. S. & Uttal, D. H. The initial segment strategy: a heuristic for route selection. Mem. Cogn. 28, 306–318 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.3758%2FBF03213808",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20initial%20segment%20strategy%3A%20a%20heuristic%20for%20route%20selection&journal=Mem.%20Cogn.&doi=10.3758%2FBF03213808&volume=28&pages=306-318&publication_year=2000&author=Bailenson%2CJN&author=Shum%2CMS&author=Uttal%2CDH"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Christenfeld, N. Choices from identical options. Psychol. Sci. 6, 50–55 (1995).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1467-9280.1995.tb00304.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Choices%20from%20identical%20options&journal=Psychol.%20Sci.&doi=10.1111%2Fj.1467-9280.1995.tb00304.x&volume=6&pages=50-55&publication_year=1995&author=Christenfeld%2CN"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Howard, L. R. et al. The hippocampus and entorhinal cortex encode the path and euclidean distances to goals during navigation. Curr. Biol. 24, 1331–1340 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cub.2014.05.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20hippocampus%20and%20entorhinal%20cortex%20encode%20the%20path%20and%20euclidean%20distances%20to%20goals%20during%20navigation&journal=Curr.%20Biol.&doi=10.1016%2Fj.cub.2014.05.001&volume=24&pages=1331-1340&publication_year=2014&author=Howard%2CLR"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Marchette, S. A., Vass, L. K., Ryan, J. & Epstein, R. A. Anchoring the neural compass: coding of local spatial reference frames in human medial parietal lobe. Nat. Neurosci. 17, 1598–1606 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnn.3834",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Anchoring%20the%20neural%20compass%3A%20coding%20of%20local%20spatial%20reference%20frames%20in%20human%20medial%20parietal%20lobe&journal=Nat.%20Neurosci.&doi=10.1038%2Fnn.3834&volume=17&publication_year=2014&author=Marchette%2CSA&author=Vass%2CLK&author=Ryan%2CJ&author=Epstein%2CRA"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Collett, T. S. & Graham, P. Animal navigation: path integration, visual landmarks and cognitive maps. Curr. Biol. 14, R475–R477 (2004).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cub.2004.06.013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Animal%20navigation%3A%20path%20integration%2C%20visual%20landmarks%20and%20cognitive%20maps&journal=Curr.%20Biol.&doi=10.1016%2Fj.cub.2004.06.013&volume=14&pages=R475-R477&publication_year=2004&author=Collett%2CTS&author=Graham%2CP"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Hafting, T., Fyhn, M., Molden, S., Moser, M.-B. & Moser, E. I. Microstructure of a spatial map in the entorhinal cortex. Nature 436, 801–806 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature03721",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Microstructure%20of%20a%20spatial%20map%20in%20the%20entorhinal%20cortex&journal=Nature&doi=10.1038%2Fnature03721&volume=436&pages=801-806&publication_year=2005&author=Hafting%2CT&author=Fyhn%2CM&author=Molden%2CS&author=Moser%2CM-B&author=Moser%2CEI"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "de Cothi, W. & Spiers, H. J. Spatial cognition: goal-vector cells in the bat hippocampus. Curr. Biol. 27, R239–R241 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cub.2017.01.061",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20cognition%3A%20goal-vector%20cells%20in%20the%20bat%20hippocampus&journal=Curr.%20Biol.&doi=10.1016%2Fj.cub.2017.01.061&volume=27&pages=R239-R241&publication_year=2017&author=Cothi%2CW&author=Spiers%2CHJ"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Toledo, S. et al. Cognitive map-based navigation in wild bats revealed by a new high-throughput tracking system. Science 369, 188–193 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aax6904",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cognitive%20map-based%20navigation%20in%20wild%20bats%20revealed%20by%20a%20new%20high-throughput%20tracking%20system&journal=Science&doi=10.1126%2Fscience.aax6904&volume=369&pages=188-193&publication_year=2020&author=Toledo%2CS"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Poucet, B., Thinus-Blanc, C. & Chapuis, N. Route planning in cats, in relation to the visibility of the goal. Animal Behav. 31, 594–599 (1983).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0003-3472%2883%2980083-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Route%20planning%20in%20cats%2C%20in%20relation%20to%20the%20visibility%20of%20the%20goal&journal=Animal%20Behav.&doi=10.1016%2FS0003-3472%2883%2980083-9&volume=31&pages=594-599&publication_year=1983&author=Poucet%2CB&author=Thinus-Blanc%2CC&author=Chapuis%2CN"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Epstein, R. A., Patai, E. Z., Julian, J. B. & Spiers, H. J. The cognitive map in humans: spatial navigation and beyond. Nat. Neurosci. 20, 1504–1513 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnn.4656",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20cognitive%20map%20in%20humans%3A%20spatial%20navigation%20and%20beyond&journal=Nat.%20Neurosci.&doi=10.1038%2Fnn.4656&volume=20&pages=1504-1513&publication_year=2017&author=Epstein%2CRA&author=Patai%2CEZ&author=Julian%2CJB&author=Spiers%2CHJ"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Poulter, S., Lee, S. A., Dachtler, J., Wills, T. J. & Lever, C. Vector trace cells in the subiculum of the hippocampal formation. Nat. Neurosci 24, 266–275 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41593-020-00761-w",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Vector%20trace%20cells%20in%20the%20subiculum%20of%20the%20hippocampal%20formation&journal=Nat.%20Neurosci&doi=10.1038%2Fs41593-020-00761-w&volume=24&pages=266-275&publication_year=2021&author=Poulter%2CS&author=Lee%2CSA&author=Dachtler%2CJ&author=Wills%2CTJ&author=Lever%2CC"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Tolman, E. C. Cognitive maps in rats and men. Psychol. Rev. 55, 189–208 (1948).",
+            "links": {
+                "Article": "https://doi.org/10.1037%2Fh0061626",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cognitive%20maps%20in%20rats%20and%20men&journal=Psychol.%20Rev.&doi=10.1037%2Fh0061626&volume=55&pages=189-208&publication_year=1948&author=Tolman%2CEC"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Fu, E., Bravo, M. & Roskos, B. Single-destination navigation in a multiple-destination environment: a new later-destination attractor bias in route choice. Mem. Cogn. 43, 1043–1055 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.3758%2Fs13421-015-0521-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Single-destination%20navigation%20in%20a%20multiple-destination%20environment%3A%20a%20new%20later-destination%20attractor%20bias%20in%20route%20choice&journal=Mem.%20Cogn.&doi=10.3758%2Fs13421-015-0521-7&volume=43&pages=1043-1055&publication_year=2015&author=Fu%2CE&author=Bravo%2CM&author=Roskos%2CB"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Brunyé, T. T. et al. Planning routes around the world: international evidence for southern route preferences. J. Environ. Psychol. 32, 297–304 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jenvp.2012.05.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Planning%20routes%20around%20the%20world%3A%20international%20evidence%20for%20southern%20route%20preferences&journal=J.%20Environ.%20Psychol.&doi=10.1016%2Fj.jenvp.2012.05.003&volume=32&pages=297-304&publication_year=2012&author=Bruny%C3%A9%2CTT"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Peer, M., Brunec, I. K., Newcombe, N. S. & Epstein, R. A. Structuring knowledge with cognitive maps and cognitive graphs. Trends Cogn. Sci. 25, 37–54 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tics.2020.10.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Structuring%20knowledge%20with%20cognitive%20maps%20and%20cognitive%20graphs&journal=Trends%20Cogn.%20Sci.&doi=10.1016%2Fj.tics.2020.10.004&volume=25&pages=37-54&publication_year=2020&author=Peer%2CM&author=Brunec%2CIK&author=Newcombe%2CNS&author=Epstein%2CRA"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Stern, E. & Leiser, D. Levels of spatial knowledge and urban travel modeling. Geogr. Anal. 20, 140–155 (1988).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1538-4632.1988.tb00172.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Levels%20of%20spatial%20knowledge%20and%20urban%20travel%20modeling&journal=Geogr.%20Anal.&doi=10.1111%2Fj.1538-4632.1988.tb00172.x&volume=20&pages=140-155&publication_year=1988&author=Stern%2CE&author=Leiser%2CD"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Newson, P. & Krumm, J. Hidden Markov map matching through noise and sparseness. In Proc. 17th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, GIS ’09, 336–343 (Association for Computing Machinery, 2009); https://doi.org/10.1145/1653771.1653818",
+            "links": {}
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Douglas, D. H. & Peucker, T. K. Algorithms for the reduction of the number of points required to represent a digitized line or its caricature. Cartogr. Int. J. Geogr. Inf. Geovis. 10, 112–122 (1973).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Algorithms%20for%20the%20reduction%20of%20the%20number%20of%20points%20required%20to%20represent%20a%20digitized%20line%20or%20its%20caricature&journal=Cartogr.%20Int.%20J.%20Geogr.%20Inf.%20Geovis.&volume=10&pages=112-122&publication_year=1973&author=Douglas%2CDH&author=Peucker%2CTK"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Wilks, S. S. The large-sample distribution of the likelihood ratio for testing composite hypotheses. Ann. Math. Stat. 9, 60–62 (1938).",
+            "links": {
+                "Article": "https://doi.org/10.1214%2Faoms%2F1177732360",
+                "MATH": "http://www.emis.de/MATH-item?64.1211.05",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20large-sample%20distribution%20of%20the%20likelihood%20ratio%20for%20testing%20composite%20hypotheses&journal=Ann.%20Math.%20Stat.&doi=10.1214%2Faoms%2F1177732360&volume=9&pages=60-62&publication_year=1938&author=Wilks%2CSS"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Zhang, P. Model selection via multifold cross validation. Ann. Stat 21, 299–313 (1993).",
+            "links": {
+                "Article": "https://doi.org/10.1214%2Faos%2F1176349027",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=1212178",
+                "MATH": "http://www.emis.de/MATH-item?0770.62053",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Model%20selection%20via%20multifold%20cross%20validation&journal=Ann.%20Stat&doi=10.1214%2Faos%2F1176349027&volume=21&pages=299-313&publication_year=1993&author=Zhang%2CP"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Buongiorno, C. et al. Pednav (1.1) (Zenodo, 2021); https://doi.org/10.5281/zenodo.5187718",
+            "links": {}
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Wilson, E. B. Probable inference, the law of succession and statistical inference. J. Am. Stat. Assoc. 22, 209–212 (1927).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01621459.1927.10502953",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Probable%20inference%2C%20the%20law%20of%20succession%20and%20statistical%20inference&journal=J.%20Am.%20Stat.%20Assoc.&doi=10.1080%2F01621459.1927.10502953&volume=22&pages=209-212&publication_year=1927&author=Wilson%2CEB"
+            }
+        }
+    ]
+}

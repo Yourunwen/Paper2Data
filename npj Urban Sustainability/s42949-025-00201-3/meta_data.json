@@ -1,0 +1,49 @@
+{
+    "id": "s42949-025-00201-3",
+    "title": "Green environments and cardiometabolic health: exploring incidence and progression through multi-state analysis",
+    "journal": "npj Urban Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s42949-025-00201-3",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "UK Biobank cohort data and linked health records",
+            "Data_summary": "Large prospective cohort dataset with baseline questionnaires and health assessment measures for UK residents, linked over time to national medical data sources including hospital inpatient records, primary care records, and death registry. Used to define the study population, covariates, cardiometabolic disease incidence and multimorbidity transitions, and mortality outcomes for multi state and Cox analyses.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data used in this current study are available from the UK Biobank data resources, Permissions are required in order to gain access, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2006-03 to 2021-03",
+            "Geographic_Coverage": "United Kingdom",
+            "URL": "https://www.ukbiobank.ac.uk/",
+            "ref": []
+        },
+        {
+            "Data_Name": "MODIS 16 day 250 m composite imagery derived NDVI for the UK",
+            "Data_summary": "Satellite remote sensing composite product used to compute Normalized Difference Vegetation Index values as residential greenness exposure. Summer season scenes are processed to remove cloud and snow, NDVI values below or equal to zero are excluded, and NDVI is averaged within multiple distance buffers around participants registered residential addresses to create exposure metrics used in models.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The MODIS satellite provided 16 day 250 m resolution composite remote sensing product, images of the UK during 2006 to 2010 were captured, Location: Methods Exposure assessment, Confidence: high",
+            "Time_Coverage": "2006-2010",
+            "Geographic_Coverage": "United Kingdom",
+            "URL": "https://modis.gsfc.nasa.gov/data/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Office for National Statistics postal code based urban rural classification data",
+            "Data_summary": "Government statistical dataset used to classify participants residential locations as urban or rural by cross referencing participant postal codes. Used as a covariate to adjust for geographic confounding and in stratified analyses by residence type.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: residency status was classified as urban or rural, obtained through cross referencing their postal codes with data from the Office of National Statistics, Location: Methods Covariates, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United Kingdom",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:39.725580"
+    }
+}

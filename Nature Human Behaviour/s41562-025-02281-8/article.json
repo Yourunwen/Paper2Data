@@ -1,0 +1,828 @@
+{
+    "id": "s41562-025-02281-8",
+    "journal": "Nature Human Behaviour",
+    "type": "article",
+    "title": "Understanding the migratory response to hurricanes and tropical storms in the USA",
+    "legal_title": "Understanding the migratory response to hurricanes and tropical storms in the USA",
+    "publish_time": "2025-10-06",
+    "pdf_link": "https://www.nature.com/articles/s41562-025-02281-8",
+    "storage_path": "./Articles/Nature Human Behaviour/2025-article/s41562-025-02281-8/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "The adverse effects of climate change will be worse in some locations than in others, raising the possibility that migration from more severely impacted areas to less impacted areas will reduce future damages. Assessing whether such migration is already occurring can inform our understanding of future responses to climate change. Using data on the paths of all Atlantic basin hurricanes and tropical storms from 1992 to 2017, we study whether outmigration from US counties increases after a storm. On average, storms are not followed by outmigration, and total population-weighted exposure to storms increases over the sample period. Very destructive storms are followed by outmigration, though often to other high-risk counties. Counties with high economic activity see net in-migration after a storm. Given existing policies and incentives, the economic and social benefits of high-risk areas currently appear to outweigh the incentive to reduce exposure to future storms by relocating across counties.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "All raw data used in the study are publicly available, and descriptions of the original data sources are provided in the main text, Methods or Supplementary Information. The data to replicate the findings of the study are available via Harvard Dataverse at https://doi.org/10.7910/DVN/FNFYUG.",
+            "links": {
+                "Methods": "/articles/s41562-025-02281-8#Sec9",
+                "Supplementary Information": "/articles/s41562-025-02281-8#MOESM1",
+                "https://doi.org/10.7910/DVN/FNFYUG": "https://doi.org/10.7910/DVN/FNFYUG"
+            }
+        },
+        "Code availability": {
+            "content": "The code to replicate the results is available via Harvard Dataverse at https://doi.org/10.7910/DVN/FNFYUG. The results are generated using Stata v.17, ArcGIS v.10 and R v.4.2.3.",
+            "links": {
+                "https://doi.org/10.7910/DVN/FNFYUG": "https://doi.org/10.7910/DVN/FNFYUG"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We thank R. Robinson and N. Kantamneni for research assistance and S. Heft-Neal and J. Park for feedback. We also appreciate comments from audience members at the 2022 AERE meetings. The findings, interpretations and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the World Bank and its affiliated organizations, or those of the executive directors of the World Bank or the governments they represent. The authors received no specific funding for this work.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsA. Patrick BehrerView author publicationsSearch author on:PubMed Google ScholarValentin BolotnyyView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nA.P.B. and V.B. contributed equally to all parts of the research.\n### Corresponding author\nCorrespondence to\n                A. Patrick Behrer.",
+            "links": {
+                "View author publications": "/search?author=Valentin%20Bolotnyy",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Valentin%20Bolotnyy",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Valentin%20Bolotnyy%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "A. Patrick Behrer": "mailto:abehrer@worldbank.org"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Human Behaviour thanks the anonymous reviewers for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Figs. 1–6, Tables 1–19 and Discussion.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41562-025-02281-8/MediaObjects/41562_2025_2281_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41562-025-02281-8/MediaObjects/41562_2025_2281_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Understanding%20the%20migratory%20response%20to%20hurricanes%20and%20tropical%20storms%20in%20the%20USA&author=A.%20Patrick%20Behrer%20et%20al&contentID=10.1038%2Fs41562-025-02281-8&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20Limited&publication=2397-3374&publicationDate=2025-10-06&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleBehrer, A.P., Bolotnyy, V. Understanding the migratory response to hurricanes and tropical storms in the USA.\n                    Nat Hum Behav  (2025). https://doi.org/10.1038/s41562-025-02281-8Download citationReceived: 01 November 2023Accepted: 01 July 2025Published: 06 October 2025Version of record: 06 October 2025DOI: https://doi.org/10.1038/s41562-025-02281-8Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41562-025-02281-8?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Understanding the migratory response to hurricanes and tropical storms in the USA",
+                "description": "The adverse effects of climate change will be worse in some locations than in others, raising the possibility that migration from more severely impacted areas to less impacted areas will reduce future damages. Assessing whether such migration is already occurring can inform our understanding of future responses to climate change. Using data on the paths of all Atlantic basin hurricanes and tropical storms from 1992 to 2017, we study whether outmigration from US counties increases after a storm. On average, storms are not followed by outmigration, and total population-weighted exposure to storms increases over the sample period. Very destructive storms are followed by outmigration, though often to other high-risk counties. Counties with high economic activity see net in-migration after a storm. Given existing policies and incentives, the economic and social benefits of high-risk areas currently appear to outweigh the incentive to reduce exposure to future storms by relocating across counties. Population-weighted exposure to tropical storms and hurricanes increased in the USA between 1992 and 2017. The attractions of high-risk areas currently outweigh incentives to reduce exposure to future storms through migration.",
+                "datePublished": "2025-10-06T00:00:00Z",
+                "dateModified": "2025-10-06T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "10",
+                "sameAs": "https://doi.org/10.1038/s41562-025-02281-8",
+                "keywords": [
+                    "Climate-change adaptation",
+                    "Environmental economics",
+                    "Life Sciences",
+                    "general",
+                    "Behavioral Sciences",
+                    "Neurosciences",
+                    "Microeconomics",
+                    "Personality and Social Psychology",
+                    "Experimental Psychology"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41562-025-02281-8/MediaObjects/41562_2025_2281_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41562-025-02281-8/MediaObjects/41562_2025_2281_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41562-025-02281-8/MediaObjects/41562_2025_2281_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41562-025-02281-8/MediaObjects/41562_2025_2281_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Human Behaviour",
+                    "issn": [
+                        "2397-3374"
+                    ],
+                    "@type": [
+                        "Periodical"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "A. Patrick Behrer",
+                        "url": "http://orcid.org/0000-0001-6946-7213",
+                        "affiliation": [
+                            {
+                                "name": "World Bank",
+                                "address": {
+                                    "name": "World Bank, Washington, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "abehrer@worldbank.org",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Valentin Bolotnyy",
+                        "url": "http://orcid.org/0000-0002-1505-6985",
+                        "affiliation": [
+                            {
+                                "name": "Stanford University",
+                                "address": {
+                                    "name": "Hoover Institution, Stanford University, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "climate-change-adaptation;environmental-economics",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Human Behaviour",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41562-025-02281-8"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "A. Patrick Behrer",
+                            "Valentin Bolotnyy"
+                        ],
+                        "publishedAt": 1759708800,
+                        "publishedAtString": "2025-10-06",
+                        "title": "Understanding the migratory response to hurricanes and tropical storms in the USA",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Climate-change adaptation,Environmental economics"
+                    },
+                    "journal": {
+                        "pcode": "nathumbehav",
+                        "title": "nature human behaviour",
+                        "volume": null,
+                        "issue": null,
+                        "id": 41562,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Understanding the migratory response to hurricanes and tropical storms in the USA",
+            "dc.source": "Nature Human Behaviour 2025",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-10-06",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rights": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "The adverse effects of climate change will be worse in some locations than in others, raising the possibility that migration from more severely impacted areas to less impacted areas will reduce future damages. Assessing whether such migration is already occurring can inform our understanding of future responses to climate change. Using data on the paths of all Atlantic basin hurricanes and tropical storms from 1992 to 2017, we study whether outmigration from US counties increases after a storm. On average, storms are not followed by outmigration, and total population-weighted exposure to storms increases over the sample period. Very destructive storms are followed by outmigration, though often to other high-risk counties. Counties with high economic activity see net in-migration after a storm. Given existing policies and incentives, the economic and social benefits of high-risk areas currently appear to outweigh the incentive to reduce exposure to future storms by relocating across counties. Population-weighted exposure to tropical storms and hurricanes increased in the USA between 1992 and 2017. The attractions of high-risk areas currently outweigh incentives to reduce exposure to future storms through migration.",
+            "dc.identifier": "doi:10.1038/s41562-025-02281-8",
+            "dc.creator": "Bolotnyy, Valentin",
+            "dc.subject": "Environmental economics",
+            "prism.issn": "2397-3374",
+            "prism.publicationName": "Nature Human Behaviour",
+            "prism.publicationDate": "2025-10-06",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "10",
+            "prism.copyright": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41562-025-02281-8",
+            "prism.doi": "doi:10.1038/s41562-025-02281-8",
+            "citation_pdf_url": "https://www.nature.com/articles/s41562-025-02281-8.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41562-025-02281-8",
+            "citation_journal_title": "Nature Human Behaviour",
+            "citation_journal_abbrev": "Nat Hum Behav",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2397-3374",
+            "citation_title": "Understanding the migratory response to hurricanes and tropical storms in the USA",
+            "citation_online_date": "2025/10/06",
+            "citation_firstpage": "1",
+            "citation_lastpage": "10",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41562-025-02281-8",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41562-025-02281-8&api_key=",
+            "citation_reference": "citation_journal_title=J. Clim.; citation_title=Environmental factors affecting tropical cyclone power dissipation; citation_author=K Emanuel; citation_volume=20; citation_publication_date=2007; citation_pages=5497-5509; citation_doi=10.1175/2007JCLI1571.1; citation_id=CR51",
+            "citation_author": "Bolotnyy, Valentin",
+            "citation_author_institution": "Hoover Institution, Stanford University, Stanford, USA",
+            "description": "The adverse effects of climate change will be worse in some locations than in others, raising the possibility that migration from more severely impacted areas to less impacted areas will reduce future damages. Assessing whether such migration is already occurring can inform our understanding of future responses to climate change. Using data on the paths of all Atlantic basin hurricanes and tropical storms from 1992 to 2017, we study whether outmigration from US counties increases after a storm. On average, storms are not followed by outmigration, and total population-weighted exposure to storms increases over the sample period. Very destructive storms are followed by outmigration, though often to other high-risk counties. Counties with high economic activity see net in-migration after a storm. Given existing policies and incentives, the economic and social benefits of high-risk areas currently appear to outweigh the incentive to reduce exposure to future storms by relocating across counties. Population-weighted exposure to tropical storms and hurricanes increased in the USA between 1992 and 2017. The attractions of high-risk areas currently outweigh incentives to reduce exposure to future storms through migration.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Understanding the migratory response to hurricanes and tropical storms in the USA",
+            "twitter:description": "Nature Human Behaviour - Population-weighted exposure to tropical storms and hurricanes increased in the USA between 1992 and 2017. The attractions of high-risk areas currently outweigh incentives...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41562-025-02281-8/MediaObjects/41562_2025_2281_Fig1_HTML.png",
+            "DOI": "10.1038/s41562-025-02281-8",
+            "size": "132559",
+            "journal_id": "41562"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41562-025-02281-8",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "An increase in powerful storms will be one of the most pronounced consequences of climate change1. These disasters impose substantial costs on the communities that they impact through asset destruction, human capital losses and the loss of human life2,3,4. However, the incidence of these storms varies over space, and while climate change will increase the frequency, severity and range of these storms, some areas will be more impacted than others1.\nAs a consequence of this variation in incidence over space, migration away from areas that will be more impacted by these disasters may be an important form of adaptation to climate change5,6,7,8. Calibrated theory-based modelling of the impacts of climate change suggests that as much as 5% of the world’s population will relocate because of climate change, including increased storm risk9.\nThe specific mechanisms that will motivate this migration remain unclear. It may be a long-run response to better understanding of which areas will be at risk from climate change. Or it may be a short-term response to experiencing climate disasters. Existing evidence on this question is limited and mixed. Evidence from Indonesia indicates storms have not led to outmigration that meaningfully reduces future risk, while evidence from the Philippines suggests that typhoons increase outmigration10,11.\nWe advance the literature by using data on the paths of all Atlantic basin hurricanes and tropical storms between 1992 and 2017 to study the migratory response to these storms in the USA. We focus on whether outmigration increases in response to a storm and whether migrants relocate to areas that are less exposed to disasters. Our analysis provides evidence on the migratory responses of residents of a high-income country, with substantial insurance and disaster compensation programmes, to storm exposure. Documenting this response is important to understand how people respond to climate-driven damages in similar locations, but it may be less useful in understanding the response of residents of low- or middle-income countries. Our results are also unlikely to capture all the characteristics of adaptive responses via migration. For example, our aggregate measures of migration will not capture the fact that migration may be adaptive for some individuals or may be more adaptive for certain income, racial and ethnic groups than for others.\nExperiencing a storm may lead to outmigration for a variety of reasons. Storms can destroy assets and reduce an individual’s connection to a location, which may facilitate moving to a location less exposed to future storms. Experiencing a storm may also cause an individual to update expectations about risks of future storms and induce moves to a less risky location. This could occur for classically rational reasons—learning new information about the personal costs of experiencing a disaster12—or because of a variety of behavioural biases. For example, the availability heuristic suggests that salient information, in this case the cost of a disaster, is overemphasized when making decisions about the future13. Individuals may also move due to changes in the net benefits of a given location. Amenities destroyed by a storm may not be fully rebuilt, and insurance rates may be adjusted upwards after a storm, both of which could induce relocation14.\nDespite theoretical reasons why experiencing a disaster might lead to outmigration, it is not clear that outmigration will actually increase after disasters. The drivers of migration are complex15,16,17,18. In a stylized model of migration, the choice to migrate is based on a comparison of the benefits of staying, the benefits of a new location and the costs of moving19. This view of migration implies that migrants jointly consider the choice to move and the location they will move to. The hypothesis that migration will respond to climate shocks gives primacy to reducing risk from climate change in this calculation over many other potential motivations—many of which may be countervailing—for migration. It also assumes that migrants have full information about the difference in risks between staying in place and the destinations they consider, an assumption that may not be correct.\nMost migration is driven by existing social networks and takes place over relatively short distances20,21. Even long-distance migratory responses to storms are driven by existing social networks22. If social and family networks are geographically concentrated, and the risk from storms changes slowly over space, migration along these existing networks may offer little protection from future storms23. A clear example is migration after Hurricane Katrina, when the majority of migrants from New Orleans fled to Houston24, a city also highly exposed to storms25,26. Migration to reduce flood risk—encouraged by government buy-outs—is highly local27. Whether these local moves reduce risk is unclear27,28 and depends on how quickly risk profiles change over space. But whether local migration reduces risk or not, its local nature suggests that local ties are important in migration decisions.\nThe process of migration is also expensive. Individuals impacted by disasters have often suffered a negative wealth shock and may not be able to incur the costs of a major relocation20,29,30. This is exacerbated if housing costs in less vulnerable areas are bid up because these areas are less vulnerable31.\nIn the USA there are also a variety of economic and policy conditions that incentivize people to stay put or migrate in ways that may not reduce risk. While storms lead to the destruction of property, federal or state-subsidized insurance often reduces the costs of these losses. Take-up of these policies increases after the occurrence of disasters32,33. Yet, the way these policies are priced does not necessarily reflect true risk, and many policies are subsidized or paid for by taxpayers34. As a result, the lack of a migratory response to storms that leads to more take-up of these programmes has important public finance implications. Economic activity in the USA is also disproportionately concentrated along the coasts. More than 50% of gross domestic product (GDP) in 2014, the last year for which data are available from the National Oceanic and Atmospheric Administration (NOAA), was generated within 50 miles of the coasts35. This is true in other parts of the world as well36. Because of this pattern of economic activity, moving to opportunity may require moving into at-risk areas.\nDespite these reasons to believe that migration may not substantially reduce risk from future storms, both researchers and policymakers assume that migration will reduce the future damages of climate change37,38. Recent estimates of the damage from climate-driven coastal flooding, to which storms contribute, argue that changes in investment and migration will reduce damage by 98% over the next 150 years39. If, however, individuals choose not to migrate, other forms of adaptation (for example, sea barriers) might instead be implemented. Understanding the extent to which migration patterns have responded to storm events in the past is thus important for understanding the likely scope for future migration to reduce damages.\nWe examine two specific empirical questions. First, do more individuals migrate out of counties in the years following a storm than in non-storm years? Second, after a storm, do migrants move to counties that are less at risk than the counties migrants move to in non-storm years? As a corollary to the second point, we also ask whether people move to counties that are less at risk than the county they are moving from.\nChanges in short-term migration rates after an individual storm are not the only relevant margin on which migration response might reduce risk from future storms. Long-run trends in migration may be reducing risk, even if the immediate response to a storm shows no evidence of risk-reducing migration. We therefore also examine whether the population living in at-risk areas has declined over the full 25-year period in our panel. This approach has limitations—migration that reduces risk may be occurring but may be too small to offset the organic population growth in at-risk areas. Nevertheless, we believe that understanding whether the total population exposed to these risks has grown or shrunk over this period is an important empirical question.\nTo perform our analyses, we assemble data from the Internal Revenue Service Statistics of Income on aggregate county-to-county migration in the USA and data on the paths of every Atlantic basin storm from 1992 to 2017. These data allow us to examine how migration patterns change in counties that are impacted by storms, relative to the normal patterns of migration from those counties. They also have the advantage of capturing only individuals who file taxes in their new county and so do not include temporary migrants who might relocate briefly before returning. We use multiple definitions of exposure to storms based on the incidence of flood warnings, wind speeds and Federal Emergency Management Agency (FEMA) disaster damage determinations. We also collect data on county-level GDP from the Bureau of Economic Analysis to examine how another important determinant of migration—access to economic opportunity—interacts with storm exposure. We do not exclude any data points from our sample except for counties in states that do not experience a storm in our sample.\nWe estimate the impact of experiencing a storm in a linear regression model that allows for separate intercepts for each county in our data. We also include year and state fixed effects to account for correlated shocks to migration with states or years (for example the Great Recession or the Bakken Shale boom) and state-year trends that account for long-term state-specific trends in migration. Our main model estimates the change in migration in the year of a storm relative to the migration in a non-storm year. We also apply a model with lags that estimates the change in migration in the years following a storm compared with non-post-storm years. We estimate similar models for the change in net migration and the average risk of the counties that receive migrants from a storm-impacted county in storm years versus non-storm years.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR36",
+                "ref-CR38",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR39",
+                "ref-CR11",
+                "ref-CR25",
+                "ref-CR9",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR28",
+                "ref-CR21",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR37",
+                "ref-CR26",
+                "ref-CR7",
+                "ref-CR33",
+                "ref-CR19",
+                "ref-CR32",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Outmigration does not increase after storms\nOn average, we observed a −0.42% (t33 = −0.44; P = 0.659; β = −0.42; 95% confidence interval (CI), −2.35, 1.51) change in outmigration in years in which a storm occurs. This is, in effect, a precise null effect of storms on outmigration (Fig. 1c and Supplementary Table 1). Equivalence tests using the two-one-sided-test approach indicate that we can reject positive changes in outmigration of greater than 1.5% (t33 = 2.02, P = 0.026) and negative changes in outmigration of more than 2.5% (t33 = 2.19, P = 0.018)40. A 1.5% change in outmigration represents less than a tenth of the standard deviation in year-to-year outmigration in our sample.\nThe change in outmigration after a storm is both not statistically significant and not economically meaningful. Even the most positive numbers in the 95% CI do not represent a meaningful change in the outmigration rate in storm years relative to non-storm years. Our effects are also substantially smaller than those found in the literature on the impact of storms on net mortality41,42.\nAs Fig. 1c shows, when we allow for five years of lags in the impact of storms on outmigration, the effects are not different from our primary result. Changes in outmigration remain small and on average negative for the five years following a storm. The sum of lags indicates no meaningful change in migration in the year of and five years following a storm. We also did not find evidence that migratory responses are larger when a storm occurs after one or more recent storms (Supplementary Table 16).\nWe found that net migration is positive on average in storm years and in the years following a storm. We define net migration as in-migration minus outmigration, so a positive number indicates more individuals moving into a county. In storm years, net migration increases by 10.28% (t33 = 3.28; P = 0.002; β = 10.28; 95% CI, 3.90, 16.67) (Fig. 1d and Supplementary Table 1). This effect persists for the year following a storm, before declining to near zero in years 2 through 5. In total, the sum of the lags in a five-lag model is not statistically different from zero, but the point estimate indicates that net migration is on average 22.91% higher (t33 = 1.47; P = 0.150; β = 10.28; 95% CI, −8.73, 54.55) over the year of and five years following a storm.\nWe found consistent effects of storms on migration using alternative definitions of exposure to storms. Defining exposure on the basis of wind speed (Supplementary Table 2) and flood warnings (Supplementary Table 3), rather than just storm incidence, yields qualitatively and quantitatively similar estimates. We mapped the counties exposed to storms under each of these definitions in Supplementary Fig. 1. Our results are also robust to estimation using a stacked differences-in-differences approach (Supplementary Information section 2.10 and Supplementary Fig. 6).\n### Storm migration’s impact on exposure to storms\nWe found no evidence that migrants in storm years move to areas that are less exposed to storms than migrants in non-storm years. On average, migrants who leave in a storm year move to counties that experience −0.18% (t33 = −0.59; P = 0.560; β = −0.18; 95% CI, −0.80, 0.44) fewer storms than counties migrants from the origin county move to in non-storm years (Supplementary Table 4). This difference is not statistically different from zero, and two-one-sided-test equivalence tests indicate that we can reject increases in storm exposure of 0.45% (t33 = 2.07, P = 0.023) and decreases in storm exposure of −0.70% (t33 = 1.71, P = 0.048).\nAn alternative way of measuring whether moves after storm years reduce risk is to examine the average difference in exposure between the origin county and all destination counties in a given year and compare changes in this measure between storm and non-storm years. We calculated this for each origin county as the average of origin county risk minus destination county risk for a given year. If migrants after storms reduced their risk, this difference should be larger and more positive in storm years. We found that it is not. In Supplementary Table 4, we show that the difference in this measure between storm and non-storm years is not statistically significant. When we considered exposure to only high-damage storms in the destination counties—rather than all storms—we found similar results (Supplementary Table 15).\nOur regression results were confirmed by both visual inspection and simple t-tests of means. Figure 1e shows the average number of migrants to counties around the USA, including only those who moved during years in which their origin county did not experience a storm. Figure 1f displays the same average, but for those who moved during a storm year.\nThe differences between Fig. 1e and Fig. 1f are minor. The most noticeable is that slightly more individuals moved to large coastal cities (New York, Miami and Houston) after storms than in non-storm years. A t-test of the average number of storms experienced by origin counties and destination counties, restricting the sample to storm year migration, indicates no evidence of difference (Supplementary Table 5), with a (statistically insignificant) 0.04% (t11,296 = 0.460; P = 0.646; 95% CI, −0.13, 0.21) increase in the average number of storms in destination counties relative to origin counties.\n### High-damage storms increase migration\nUnlike average storms, the most damaging storms are followed by increased outmigration in the year of the storm. We used data from FEMA on total compensation paid to disaster victims to isolate the most damaging storms—those that resulted in at least US$10 million in compensation, roughly the top 10% of storms by damage in our sample. The least damaging storms in this category do not significantly increase outmigration, but storms that caused at least US$20 million in total compensated damages increase outmigration by 15.45% (t33 = 2.65; P = 0.012; β = 15.45; 95% CI, 3.60, 27.30) (Supplementary Table 6). The effects we measured on migration increase monotonically in the damage threshold. The most damaging storms, representing fewer than 1% of storm-county years in our data, have the largest impacts on outmigration, increasing it by 66.10% (t33 = 3.91; P < 0.001; β = 66.10; 95% CI, 31.69, 100.52). For the most damaging storms, these effects persist in the year following a storm. Our lags model indicates that the year after a storm also sees elevated outmigration for storms that caused at least US$80 million in damages, but this impact declines to zero by year two (Fig. 2 and Supplementary Table 7). Net migration is consistently negative in the storm year after storms that caused at least US$80 million in damages. For storms that caused between US$10 million and US$40 million in damages, net migration is not statistically different from zero in the storm year and becomes positive in the year following a storm. For the most damaging storms, net migration generally remains close to zero and not statistically significant in all the years following a storm that we observed.\nIn our main analysis of high-damage storms, we used a threshold approach, counting all storms above certain damage levels. When we instead assigned storms to bins on the basis of the damage they caused (for example, storms that caused US$10–20 million in compensated damage), the effects on migration are even more strongly concentrated among the most damaging storms, with only the storms in the highest two categories resulting in statistically significant outmigration. We saw similar results using per capita, rather than total, compensation measures (Supplementary Table 18). We discuss the binned approach at length in Supplementary Information section 2.6.\nWe found no evidence that the migration that occurs after high-damage storms reduces the risk that migrants face from future storms. Migrants leaving counties impacted by high-damage storms move to counties that are at no lower risk than the counties they leave (Supplementary Table 8). Over our sample period, counties that received migrants from counties experiencing a high-damage storm experienced 7.72 storms on average, while origin counties experienced 7.65 storms (difference, −0.06 (t8384 = −0.620; P = 0.535; 95% CI, −0.27, 0.14)). We also found evidence suggesting that much of the outmigration that occurs after high-damage storms might be offset by migration from the destination counties back to the origin county in years following the storm. We discuss this return migration in Supplementary Information section 2.7.\n### Population-level exposure is growing\nWe found no evidence that storms increase county-to-county migration rates, unless those storms are particularly damaging. Even in the cases of highly damaging storms, it appears that initial outmigration is offset by substantial in-migration and, on average, involves migrants moving to counties that are no less at risk of future storms than the origin county.\nHowever, a lack of migration after individual storms does not necessarily indicate that individuals are not moving away from storm risk. It is possible that average trends in migration result in movement away from at-risk areas. We therefore examined a second question: has the total population exposed to storm risk changed over our sample period? This is a test of whether any long-term migration that has occurred has been large enough to offset other countervailing forces (for example, organic population growth in at-risk areas) such that it reduces the country’s total population-weighted storm risk over the long run (in our case, a 25-year period).\nWe found that with respect to both all storms and the set of the most damaging storms, overall population exposure to storms has increased over our sample period (Fig. 3a). We calculated the average exposure to each type of storm—high and low damage—across all the counties in our sample in each year of the sample, weighting each year individually on the basis of the population living in the county in that year. This holds exposure to storms constant at the county level and reallocates risk across years according to changes in county populations. Migration is not the only determinant of county population, but if there is systematic migration—that is, larger than population growth—to places that reduce population-level risk, the overall population risk would be declining, holding storms constant. We observed the opposite. The blue and dashed orange lines in Fig. 3a are both increasing relative to the solid grey and dashed grey lines, which represent the population-level risk had the distribution of population remained the same across counties.\nWe also found that the total number of storms a county experienced over our 25-year sample and the total net migration it experienced are positively correlated. In Fig. 3b, we show that the Z-score of total storms and the Z-score of total net migration are positively correlated (t2,382 = 5.70; P < 0.001; β = 0.12; 95% CI, 0.08, 0.16). Experiencing one standard deviation more storms in our sample period is associated with a 0.12-standard-deviation increase in net migration. That is, counties that experienced more storms in our sample had on average more migrants moving in than moving out.\n### Moving to opportunity versus moving to adaptation\nMigration is often driven by economic opportunity, with individuals choosing to relocate to locations with better economic prospects19. Even migration that occurs after weather shocks may be motivated by economic opportunity43. Using data on county-level GDP as a proxy for economic opportunity, we observed that higher county GDP is strongly positively correlated (t2,324 = 36.41; P < 0.001; β = 0.86; 95% CI, 0.81, 0.91) with total net migration over our sample period (Fig. 4a). A one-standard-deviation increase in GDP in 2019 is associated with a 0.86-standard-deviation increase in net migration over our sample period.\nUsing the same data, we examined the extent to which there is a trade-off between moving to economic opportunity and moving to places that face lower storm risk. We observed that places with greater economic opportunity, proxied by higher county-level GDP in 2019, face greater storm risk. The correlation between economic activity and the number of storms that a county experienced in our sample is positive (Fig. 4b). The positive correlation between GDP and storms, which shows that a doubling of GDP is associated with experiencing 0.68 more storms in our sample (a 27% increase from the mean) (t2,331 = 19.16; P < 0.001; β = 0.68; 95% CI, 0.61, 0.75), suggests that migrants do face a trade-off between moving to areas with greater economic activity and those with lower storm risk.\nCombined with our finding that population-weighted exposure to storms has increased slightly over time, these results suggest that the benefits of economic opportunity currently outweigh the costs associated with the risk of greater storm exposure that people face. To test this directly, we ran a horse race where we allowed net migration to be a function of both a county’s storm risk and its GDP in 2019.\nWe found that GDP is substantially more predictive of net migration than storm risk (Supplementary Table 10). A standard-deviation change in GDP is associated with more than double the change in net migration associated with a standard-deviation change in storm exposure. We discuss these results further in Supplementary Information section 2.8.",
+            "cites": [
+                "ref-CR41",
+                "ref-CR42",
+                "ref-CR43",
+                "ref-CR19",
+                "ref-CR40"
+            ],
+            "figures": [
+                "figure-4",
+                "figure-1",
+                "figure-2",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Migration out of US counties after average storms did not increase between 1992 and 2017. Outmigration did increase after the most damaging storms in our sample. The migration that did occur after storms, even some of the most damaging ones, generally did not involve movement to counties that are at substantially lower risk of future storms than the origin county. Rather, we found that the population of impacted counties may actually increase after storms, consistent with prior evidence that demand for homes in impacted counties exceeds supply in the years after storms44. We also found evidence that exposure to storm risk has increased between 1992 and 2017 at the population level due to changes in the geographic distribution of the US population.\nWe found evidence of a trade-off between moving to locations with more economic opportunity and moving to those that are at lower risk from future storms in the USA. Many of the most economically productive counties (for example, New York County, Harris County and Miami-Dade County) are also among the most exposed to storms. The agglomeration benefits offered by these cities may currently outweigh the incentives to reduce exposure to future storms by relocating. This is a consequence of the particular economic geography of the USA and of particular policies. More migration that reduces risk in the USA might happen in the future, but our results suggest that it will not happen without changes in the economic, social and policy landscape.\nIt is important to note that our analysis examines the aggregate migratory response to storms. There is likely to be substantial individual heterogeneity in this response (Supplementary Information section 2.5). This heterogeneity will be driven in part by the aspiration and ability of individuals to move in response to storms17. It is possible that we found relatively low average migration responses after storms because those individuals who are most impacted by storms, and so would benefit the most from moving to avoid future storms, have the least ability to move. Conversely, those with the ability to move may also be able to self-insure against damages from storms and so have limited aspirations to move.\nOne response to our results is to point out that the gravity-type models that urban and trade economists use have long recognized the importance of agglomeration and economic opportunity as dominant forces driving migration. We acknowledge those models but highlight that this same class of models is often used to show that migration will occur in ways that reduce the risks of climate change, implying that individuals move away from at-risk areas9,39. In showing that those at-risk areas are often centres of economic opportunity—at least in the USA—and that these areas of opportunity attract migrants despite the higher risk of storms, our paper complicates these existing models. Specifically, our empirical results suggest that the relative weights given to economic opportunity and climate change in gravity model calibration may need to be revised. Some of these revisions appear to be occurring. Recent work using these models calibrated to US county data has found that high-damage storms lead to outmigration, similar to our results, but, in a calibrated model, overall migration may have a negligible impact on aggregate losses from climate change45. A relatively small role for migration in reducing damages from future climate change, absent substantial changes to migration patterns, is consistent with the results we present here.\nOur results are subject to several important caveats. First, it is difficult to prove a null effect. We have shown relatively precise zero effects across a variety of sensible specifications and ways of measuring exposure to storms. However, it remains possible that particular sub-populations or geographies are in fact experiencing adaptive migration. This is particularly true given that our measure of migration relies on individuals filing tax returns. Very low-income or other vulnerable populations may not file returns and so may not appear in our data. The migratory responses of these individuals may therefore be different from what is documented here.\nSecond, we cannot measure within-county migration. This may be an important dimension of adaptation, as individuals move from more- to less-exposed areas within the same county. We cannot capture this form of adaptive migration. However, recent work using data from US Census tracts has found little to no evidence that migration within US counties has reduced a composite of climate change risk28. This result, using aggregate data examining all moves, is contrary to work that focuses on movement after targeted buy-out programmes27,46.\nThird, there are many other natural disasters whose frequency will increase as a result of climate change. Our evidence does not indicate that adaptive migration in response to these other disasters is not occurring. Different kinds of disasters may lead to different kinds of migratory responses. Nor do our results preclude the possibility that migration has been adaptive for some sub-groups of the population. We show that on average individuals do not leave in response to storms. But it is possible that some sub-groups of the population have stronger adaptive migratory responses.\nFinally, we show that the population exposed to storm risk has increased over time. This suggests that migration away from at-risk areas is not large enough to offset the other drivers of population growth in these areas. But that does not necessarily mean that migration has not reduced risk in these areas at all. It is possible—relative to a counterfactual of no migration, for example—that migration has lowered the total population exposed to storms. Nonetheless, we believe our results are important because they indicate that, despite any adaptive migration that may be occurring, population in at-risk areas has grown relative to the population in lower-risk areas over our sample period.\nThe decision of whether or not to migrate occurs in a specific economic, social and policy context. Our results may be driven by existing policy supports and insurance markets that do not fully price in the effects of climate change, leading people to face lower-than-optimal costs of storm damage33,47. The USA is a wealthy country with robust insurance and other programmes to compensate those who suffer damages from storms. These programmes may dampen the migratory response to storms. Our results are not evidence that the migratory response to storms everywhere will be so limited, especially in places where similar insurance and compensation schemes do not exist. Similarly, high-risk areas could be lowering the costs of future storms to individuals by investing in more storm-resilient infrastructure and thus lowering incentives for adaptive migration. To the extent that all of these forces are at play, there is an important role for policy in encouraging adaptive responses2,48,49.\nNon-policy changes in economic and social conditions in which the decision to migrate occurs may also change. The increasing prevalence of remote work in the aftermath of the COVID-19 pandemic is one example. If forces such as remote work reduce the agglomeration benefits of coastal cities, they may reduce the trade-off between moving to economic opportunity, staying socially connected and adapting to climate change. The increasing frequency and intensity of storms due to climate change may also make damages a more salient feature of the migration decision in the future.\nFuture research is needed to understand what factors currently lead to the limited migratory response to storms in the USA. Such research will be useful for informing discussions of managed retreat. The contrast between our results and those focusing on targeted buy-out programmes suggests these programmes may have substantial effects relative to a counterfactual of no policy intervention. Migration in the face of climate change will certainly occur in the future as some coastal areas become uninhabitable. Understanding why current patterns of settlement appear to be leading to larger, rather than smaller, populations in these at-risk areas is critical to understanding how to minimize the costs of future climate change.",
+            "cites": [
+                "ref-CR47",
+                "ref-CR17",
+                "ref-CR9",
+                "ref-CR2",
+                "ref-CR48",
+                "ref-CR27",
+                "ref-CR39",
+                "ref-CR49",
+                "ref-CR45",
+                "ref-CR28",
+                "ref-CR33",
+                "ref-CR44",
+                "ref-CR46"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Data\nWe used data on the tracks of every Atlantic basin storm that has struck the continental USA from 1988 to 201850. These data are based on information tracked by the NOAA Storm Events database and the National Hurricane Center. They provide us with information on the track, rainfall totals and wind speeds associated with the storms, as well as the counties that experienced a flood warning as a consequence of each storm. NOAA also provides data on the intensity of storms in the Atlantic basin that indicate that the strength and frequency of these storms have grown over time51.\nWe define counties as exposed to a storm in three ways. In our primary analysis, a county is considered exposed if it experienced a flood warning within one day of the track of the storm passing through it or if it experienced winds greater than 21 m s−1 in the same period. In alternative analyses, we used the flood warning definition and the wind speed definition individually to assign exposure. In Supplementary Fig. 1, we show the counties affected by storms under these alternative definitions in our sample. We chose 21 m s−1 as our wind threshold because this is (1) the wind speed at which NOAA indicates structural damage to buildings will begin to occur and (2) approximately the lower bound for wind speed for a storm to be considered a tropical storm. It is substantially below the minimum wind speed on the Saffir–Simpson scale for a Category 1 hurricane. We note, however, that our results are robust to using higher wind speed thresholds and that, as one increases the wind speed threshold to the Category 1 threshold, the set of impacted counties collapses to those that would be included on the basis of the flooding definition. We show in the Supplementary Information that our results are robust to using only those counties that meet this flooding threshold.\nWe supplemented these data with data from FEMA on the total payments made to individuals for every disaster declared by FEMA since 1954.\nOur migration data come from the Internal Revenue Service Statistics of Income’s county-to-county migration flows. The Internal Revenue Service publishes data on the number of migrants leaving each county and their destination based on aggregated tax return data for each year from 1991 to 2019.\nFrom these datasets, we assembled a balanced panel that lists all migration to and from all counties in the USA and the number of storms each county experienced from 1992 to 2017.\n### Empirical approach\nOur base specification is a two-way fixed-effects model of the form:\nwhere, in our first analysis, Yist is the number of outmigrants (or net migration) from county i in state s and year t. We estimated models using the inverse hyperbolic sine transformation of these outcomes, as well as a Poisson specification. 1[Stormist] is an indicator of whether a county experienced a storm in a given year. We defined exposure in a variety of ways (for example, maximum wind speed, flood warnings or cost of damage), taking advantage of the range of data we have on each storm. In some specifications, we also allowed storms to have a five-year lag effect. We also examined the impact of five years of leads in the Supplementary Information. In specifications without leads or lags, we did not control for the occurrence of storms in years other than t. αis is a county fixed effect, χt is a year fixed effect and ηs is a state-by-year trend.\nIn our second analysis, we estimated the following model:\nwhere our outcome, ΔEist, is the weighted average difference in exposure to storms between the counties receiving migrants from county i over our full sample and county i. We weighted by the number of migrants heading to each receiving county in a given year. In other words, if county i sent migrants to five other counties over our sample, we took a weighted average of the number of storms experienced by those five counties during the sample, where the weights are the number of migrants sent by county i, and then took the difference between the storms experienced by county i and this weighted average. In this specification, exposure is defined as the sum of the storms each county experienced in our sample period. We also estimated a version of this model where the outcome is the weighted average exposure of counties receiving migrants from county i, where the weights are the number of migrants in year t.\nThe purpose of this analysis is to measure whether migrants move to counties with lower storm risk when they move after a storm. We also examined whether the migrants who move after a storm move to counties with different levels of storm risk, regardless of how that risk level relates to their home county, and whether such patterns are different for migrants who move in a non-storm year.\nNo statistical methods were used to predetermine sample sizes, but our sample size includes all available data in our sample period. The length of the sample period is determined by the availability of data on storm tracks. In our t-tests, we did not test for normality formally, as our sample size is large and t-tests are generally robust to deviations from normality. We did not assume equal variances in our t-tests.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR51",
+                "ref-CR50"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Migration and storms.",
+            "figure-caption": "a, County GDP in 2019 from the Bureau of Economic Affairs. b, Total number of storms by county over our sample period. c,d, Coefficients from a panel fixed-effects regression of outmigration (c) and net migration (d) on whether a county experienced a storm. The first bar plots the coefficient from a regression with only contemporaneous storms. The next six bars show coefficients from a separate regression that includes contemporaneous storms and five year lags (L1–L5). The final bar shows the sum of the coefficients from the lags regression. The light grey lines show the 95% CIs. The sample size for these regressions was 52,514 for the outmigration results and 52,448 for the net migration results. e, Migrant-receiving counties in our sample period and the average number of migrants received in non-storm years. f, The same as e but in storm years.",
+            "figure-link": "https://www.nature.com/articles/s41562-025-02281-8/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Counties impacted by high-damage storms.",
+            "figure-caption": "a–e, Coefficients from a panel fixed-effects regression of outmigration (blue bars) or net migration (orange bars) on whether a county experienced a storm. The first bar plots the coefficient from a regression with only contemporaneous storms. The next six show coefficients from a separate regression that includes contemporaneous storms and the five years after a storm. The final bar shows the sum of the coefficients from the lags regression. Starting from the top, the first panel shows the results from a sample with storms causing at least US$10 million in damages, then US$20 million, US$40 million, US$80 million and lastly only storms causing at least US$160 million in damages. The light grey lines show the 95% CIs. The sample size for these regressions was 52,514 for the outmigration results and 52,448 for the net migration results.",
+            "figure-link": "https://www.nature.com/articles/s41562-025-02281-8/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3",
+            "figure-caption": "Trend in population-weighted exposure and correlation between net migration and total storms. a, Trend in population-weighted exposure. We plotted the weighted average number of storms across all 2,387 counties in our sample. Weights are the county population in each year. The number of storms in each county is the sum over the sample and so remains constant across years. The change in the trend line is due to changes in where people live. The flat grey lines show the weighted average if populations had not changed from 1990 levels—that is, if no one had moved. The solid lines show all storms. The dashed lines show storms with at least US$10 million in damages according to FEMA. b, Correlation between net migration and total storms. The Z-score of total net migration is the Z-score across all counties of the sum of net migration (in-migration minus outmigration) in the county across all years in the sample. The Z-score of total storms is the Z-score across all counties of all storms over our sample period. All points are shaded equally; darker areas on the graph indicate a greater density of counties. The dashed line is the linear best fit line of the plotted data points.",
+            "figure-link": "https://www.nature.com/articles/s41562-025-02281-8/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4",
+            "figure-caption": "GDP versus net migration and number of storms. a, Correlation between net migration and GDP. The Z-score of total net migration is the Z-score across all counties of the sum of net migration (in-migration minus outmigration) for each county across all years in the sample. The Z-score of GDP is based on county GDP in 2019, as measured by the Bureau of Economic Analysis. All points are shaded equally, with darker areas on the graph indicating a greater density of counties. We omitted three outliers with GDP Z-scores >10. We show a version of this figure that includes the outliers in Supplementary Fig. 3. b, Correlation between the number of storms and GDP. Total storms is the sum of storms hitting each county across all years in our sample. ln(2019 GDP) is the natural log of county GDP in 2019, as measured by the Bureau of Economic Analysis. All points are shaded equally, with darker areas on the graph indicating a greater density of counties. The x-axis units are log points.",
+            "figure-link": "https://www.nature.com/articles/s41562-025-02281-8/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "IPCC Climate Change 2014: Synthesis Report (eds Core Writing Team, Pachauri, R. K. & Meyer, L. A.) (IPCC, 2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Baylis, P. W. & Boomhower, J. Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires Working Paper No. 29621 (National Bureau of Economic Research, 2021); http://www.nber.org/papers/w29621",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Husted, L., Opper, I. M. & Park, R. J. The Impact of Natural Disasters on Human Capital Ed Working Paper No. 22-548 (Annenberg Institute for School Reform at Brown University, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Hsiang, S. M. & Jina, A. S. The Causal Effect of Environmental Catastrophe on Long-Run Economic Growth: Evidence from 6,700 Cyclones (National Bureau of Economic Research, 2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Bardsley, D. K. & Hugo, G. J. Migration and climate change: examining thresholds of change to guide effective adaptation decision-making. Popul. Environ. 32, 238–262 (2010).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11111-010-0126-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migration%20and%20climate%20change%3A%20examining%20thresholds%20of%20change%20to%20guide%20effective%20adaptation%20decision-making&journal=Popul.%20Environ.&doi=10.1007%2Fs11111-010-0126-9&volume=32&pages=238-262&publication_year=2010&author=Bardsley%2CDK&author=Hugo%2CGJ"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Black, R., Bennett, S. R., Thomas, S. M. & Beddington, J. R. Migration as adaptation. Nature 478, 447–449 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2F478477a",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22012304",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXhtlCht7%2FI",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migration%20as%20adaptation&journal=Nature&doi=10.1038%2F478477a&volume=478&pages=447-449&publication_year=2011&author=Black%2CR&author=Bennett%2CSR&author=Thomas%2CSM&author=Beddington%2CJR"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Boustan, L. P., Kahn, M. E. & Rhode, P. W. Moving to higher ground: migration response to natural disasters in the early twentieth century. Am. Econ. Rev. 102, 238–244 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Faer.102.3.238",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25067842",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Moving%20to%20higher%20ground%3A%20migration%20response%20to%20natural%20disasters%20in%20the%20early%20twentieth%20century&journal=Am.%20Econ.%20Rev.&doi=10.1257%2Faer.102.3.238&volume=102&pages=238-244&publication_year=2012&author=Boustan%2CLP&author=Kahn%2CME&author=Rhode%2CPW"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Rigaud, K. K. et al. Groundswell (World Bank Group, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Cruz, J.-L. & Rossi-Hansberg, E. The Economic Geography of Global Warming (National Bureau of Economic Research, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Bohra-Mishra, P., Oppenheimer, M. & Hsiang, S. M. Nonlinear permanent migration response to climatic variations but minimal response to disasters. Proc. Natl Acad. Sci. USA 111, 9780–9785 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1317166111",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24958887",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4103331",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2cXhtVaisrbK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Nonlinear%20permanent%20migration%20response%20to%20climatic%20variations%20but%20minimal%20response%20to%20disasters&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1317166111&volume=111&pages=9780-9785&publication_year=2014&author=Bohra-Mishra%2CP&author=Oppenheimer%2CM&author=Hsiang%2CSM"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Murathanoglu, E. When the Weather Turns: Coping with Shocks Through International Migration in the Presence of Search Frictions (Univ. Michigan, 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Siegrist, M. & Gutscher, H. Flooding risks: a comparison of lay people’s perceptions and expert’s assessments in Switzerland. Risk Anal. 26, 971–979 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1539-6924.2006.00792.x",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16948689",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Flooding%20risks%3A%20a%20comparison%20of%20lay%20people%E2%80%99s%20perceptions%20and%20expert%E2%80%99s%20assessments%20in%20Switzerland&journal=Risk%20Anal.&doi=10.1111%2Fj.1539-6924.2006.00792.x&volume=26&pages=971-979&publication_year=2006&author=Siegrist%2CM&author=Gutscher%2CH"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Rabin, M. Psychology and economics. J. Econ. Lit. 36, 11–46 (1998).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Psychology%20and%20economics&journal=J.%20Econ.%20Lit.&volume=36&pages=11-46&publication_year=1998&author=Rabin%2CM"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Born, P. & Viscusi, W. K. The catastrophic effects of natural disasters on insurance markets. J. Risk Uncertain. 33, 55–72 (2006).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11166-006-0171-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20catastrophic%20effects%20of%20natural%20disasters%20on%20insurance%20markets&journal=J.%20Risk%20Uncertain.&doi=10.1007%2Fs11166-006-0171-z&volume=33&pages=55-72&publication_year=2006&author=Born%2CP&author=Viscusi%2CWK"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Bryan, G., Chowdhury, S. & Mobarak, A. M. Underinvestment in a profitable technology: the case of seasonal migration in Bangladesh. Econometrica 82, 1671–1748 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.3982%2FECTA10489",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Underinvestment%20in%20a%20profitable%20technology%3A%20the%20case%20of%20seasonal%20migration%20in%20Bangladesh&journal=Econometrica&doi=10.3982%2FECTA10489&volume=82&pages=1671-1748&publication_year=2014&author=Bryan%2CG&author=Chowdhury%2CS&author=Mobarak%2CAM"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Carling, J. R. Migration in the age of involuntary immobility: theoretical reflections and Cape Verdean experiences. J. Ethn. Migr. Stud. 28, 5–42 (2002).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F13691830120103912",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migration%20in%20the%20age%20of%20involuntary%20immobility%3A%20theoretical%20reflections%20and%20Cape%20Verdean%20experiences&journal=J.%20Ethn.%20Migr.%20Stud.&doi=10.1080%2F13691830120103912&volume=28&pages=5-42&publication_year=2002&author=Carling%2CJR"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "De Haas, H. A theory of migration: the aspirations–capabilities framework. Comp. Migr. Stud. 9, 8 (2021).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s40878-020-00210-4",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33680858",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7902564",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20theory%20of%20migration%3A%20the%20aspirations%E2%80%93capabilities%20framework&journal=Comp.%20Migr.%20Stud.&doi=10.1186%2Fs40878-020-00210-4&volume=9&publication_year=2021&author=Haas%2CH"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Benveniste, H., Oppenheimer, M. & Fleurbaey, M. Effect of border policy on exposure and vulnerability to climate change. Proc. Natl Acad. Sci. USA 117, 26692–26702 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2007597117",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33046645",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7604488",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXitFymt7nI",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effect%20of%20border%20policy%20on%20exposure%20and%20vulnerability%20to%20climate%20change&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2007597117&volume=117&pages=26692-26702&publication_year=2020&author=Benveniste%2CH&author=Oppenheimer%2CM&author=Fleurbaey%2CM"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Jia, N., Molloy, R., Smith, C. & Wozniak, A. The economics of internal migration: advances and policy questions. J. Econ. Lit. 61, 144–180 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Fjel.20211623",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20economics%20of%20internal%20migration%3A%20advances%20and%20policy%20questions&journal=J.%20Econ.%20Lit.&doi=10.1257%2Fjel.20211623&volume=61&pages=144-180&publication_year=2023&author=Jia%2CN&author=Molloy%2CR&author=Smith%2CC&author=Wozniak%2CA"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Cattaneo, C. et al. Human migration in the era of climate change. Rev. Environ. Econ. Policy 13, 189–206 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Freep%2Frez008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Human%20migration%20in%20the%20era%20of%20climate%20change&journal=Rev.%20Environ.%20Econ.%20Policy&doi=10.1093%2Freep%2Frez008&volume=13&pages=189-206&publication_year=2019&author=Cattaneo%2CC"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Boas, I., Wiegel, H., Farbotko, C., Warner, J. & Sheller, M. Climate mobilities: migration, im/mobilities and mobility regimes in a changing climate. J. Ethn. Migr. Stud. 48, 3365–3379 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F1369183X.2022.2066264",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20mobilities%3A%20migration%2C%20im%2Fmobilities%20and%20mobility%20regimes%20in%20a%20changing%20climate&journal=J.%20Ethn.%20Migr.%20Stud.&doi=10.1080%2F1369183X.2022.2066264&volume=48&pages=3365-3379&publication_year=2022&author=Boas%2CI&author=Wiegel%2CH&author=Farbotko%2CC&author=Warner%2CJ&author=Sheller%2CM"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Mahajan, P. & Yang, D. Taken by storm: hurricanes, migrant networks, and US immigration. Am. Econ. J. Appl. Econ. 12, 250–77 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Fapp.20180438",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=38562148",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10982855",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Taken%20by%20storm%3A%20hurricanes%2C%20migrant%20networks%2C%20and%20US%20immigration&journal=Am.%20Econ.%20J.%20Appl.%20Econ.&doi=10.1257%2Fapp.20180438&volume=12&pages=250-77&publication_year=2020&author=Mahajan%2CP&author=Yang%2CD"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Sun, P. Asymmetric Migration Response: An Application to Welfare Analysis in Climate Change (Pennsylvania State Univ., 2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Sastry, N. & Gregory, J. The location of displaced New Orleans residents in the year after Hurricane Katrina. Demography 51, 753–775 (2014).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s13524-014-0284-y",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24599750",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20location%20of%20displaced%20New%20Orleans%20residents%20in%20the%20year%20after%20Hurricane%20Katrina&journal=Demography&doi=10.1007%2Fs13524-014-0284-y&volume=51&pages=753-775&publication_year=2014&author=Sastry%2CN&author=Gregory%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Griego, A. L., Flores, A. B., Collins, T. W. & Grineski, S. E. Social vulnerability, disaster assistance, and recovery: a population-based study of Hurricane Harvey in Greater Houston, Texas. Int. J. Disaster Risk Reduct. 51, 101766 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ijdrr.2020.101766",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20vulnerability%2C%20disaster%20assistance%2C%20and%20recovery%3A%20a%20population-based%20study%20of%20Hurricane%20Harvey%20in%20Greater%20Houston%2C%20Texas&journal=Int.%20J.%20Disaster%20Risk%20Reduct.&doi=10.1016%2Fj.ijdrr.2020.101766&volume=51&publication_year=2020&author=Griego%2CAL&author=Flores%2CAB&author=Collins%2CTW&author=Grineski%2CSE"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Bodenreider, C., Wright, L., Barr, O., Xu, K. & Wilson, S. Assessment of social, economic, and geographic vulnerability pre- and post-Hurricane Harvey in Houston, Texas. Environ. Justice 12, 182–193 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1089%2Fenv.2019.0001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assessment%20of%20social%2C%20economic%2C%20and%20geographic%20vulnerability%20pre-%20and%20post-Hurricane%20Harvey%20in%20Houston%2C%20Texas&journal=Environ.%20Justice&doi=10.1089%2Fenv.2019.0001&volume=12&pages=182-193&publication_year=2019&author=Bodenreider%2CC&author=Wright%2CL&author=Barr%2CO&author=Xu%2CK&author=Wilson%2CS"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Elliott, J. R. & Wang, Z. Managed retreat: a nationwide study of the local, racially segmented resettlement of homeowners from rising flood risks. Environ. Res. Lett. 18, 064050 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Facd654",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Managed%20retreat%3A%20a%20nationwide%20study%20of%20the%20local%2C%20racially%20segmented%20resettlement%20of%20homeowners%20from%20rising%20flood%20risks&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Facd654&volume=18&publication_year=2023&author=Elliott%2CJR&author=Wang%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Indaco, A. & Ortega, F. Adapting to Climate Risk? Local Population Dynamics in the United States IZA DP No. 15982 (IZA Institute of Labor Economics, 2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Peri, G. & Sasahara, A. The Impact of Global Warming on Rural–Urban Migrations: Evidence from Global Big Data (National Bureau of Economic Research, 2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Benveniste, H., Oppenheimer, M. & Fleurbaey, M. Climate change increases resource-constrained international immobility. Nat. Clim. Change 12, 634–641 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-022-01401-w",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20increases%20resource-constrained%20international%20immobility&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-022-01401-w&volume=12&pages=634-641&publication_year=2022&author=Benveniste%2CH&author=Oppenheimer%2CM&author=Fleurbaey%2CM"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Hummel, M. A., Griffin, R., Arkema, K. & Guerry, A. D. Economic evaluation of sea-level rise adaptation strongly influenced by hydrodynamic feedbacks. Proc. Natl Acad. Sci. USA 118, e2025961118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2025961118",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34253614",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8307291",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXitVylt7nJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Economic%20evaluation%20of%20sea-level%20rise%20adaptation%20strongly%20influenced%20by%20hydrodynamic%20feedbacks&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2025961118&volume=118&publication_year=2021&author=Hummel%2CMA&author=Griffin%2CR&author=Arkema%2CK&author=Guerry%2CAD"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Gallagher, J. Learning about an infrequent event: evidence from flood insurance take-up in the United States. Am. Econ. J. Appl. Econ. 6, 206–233 (2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Kousky, C. Disasters as learning experiences or disasters as policy opportunities? Examining flood insurance purchases after hurricanes. Risk Anal. 37, 517–530 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Frisa.12646",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27576946",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Disasters%20as%20learning%20experiences%20or%20disasters%20as%20policy%20opportunities%3F%20Examining%20flood%20insurance%20purchases%20after%20hurricanes&journal=Risk%20Anal.&doi=10.1111%2Frisa.12646&volume=37&pages=517-530&publication_year=2017&author=Kousky%2CC"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Keys, B. J. & Mulder, P. Property Insurance and Disaster Risk: New Evidence from Mortgage Escrow Data (National Bureau of Economic Research, 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Total Economy of Coastal Areas Data: Based on Data from the Bureau of Labor Statistics and the Bureau of Economic Analysis (NOAA, 2022); https://coast.noaa.gov/digitalcoast/data/coastaleconomy.html",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Bell, A. R. et al. Migration towards Bangladesh coastlines projected to increase with sea-level rise through 2100. Environ. Res. Lett. 16, 024045 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Fabdc5b",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=36034333",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC9415774",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migration%20towards%20Bangladesh%20coastlines%20projected%20to%20increase%20with%20sea-level%20rise%20through%202100&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Fabdc5b&volume=16&publication_year=2021&author=Bell%2CAR"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Boas, I. et al. Climate migration myths. Nat. Clim. Change 9, 901–903 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-019-0633-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20migration%20myths&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-019-0633-3&volume=9&pages=901-903&publication_year=2019&author=Boas%2CI"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Fifth National Climate Assessment (US Global Change Research Program, 2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Desmet, K. et al. Evaluating the Economic Cost of Coastal Flooding (National Bureau of Economic Research, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Lakens, D., McLatchie, N., Isager, P. M., Scheel, A. M. & Dienes, Z. Improving inferences about null effects with Bayes factors and equivalence tests. J. Gerontol. B 75, 45–57 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fgeronb%2Fgby065",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Improving%20inferences%20about%20null%20effects%20with%20Bayes%20factors%20and%20equivalence%20tests&journal=J.%20Gerontol.%20B&doi=10.1093%2Fgeronb%2Fgby065&volume=75&pages=45-57&publication_year=2020&author=Lakens%2CD&author=McLatchie%2CN&author=Isager%2CPM&author=Scheel%2CAM&author=Dienes%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Evans, R. W., Hu, Y. & Zhao, Z. The fertility effect of catastrophe: US hurricane births. J. Popul. Econ. 23, 1–36 (2010).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00148-008-0219-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20fertility%20effect%20of%20catastrophe%3A%20US%20hurricane%20births&journal=J.%20Popul.%20Econ.&doi=10.1007%2Fs00148-008-0219-2&volume=23&pages=1-36&publication_year=2010&author=Evans%2CRW&author=Hu%2CY&author=Zhao%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Young, R. & Hsiang, S. Mortality caused by tropical cyclones in the United States. Nature 635, 121–128 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-024-07945-5",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=39358513",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC11541193",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2cXitFCkurrK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mortality%20caused%20by%20tropical%20cyclones%20in%20the%20United%20States&journal=Nature&doi=10.1038%2Fs41586-024-07945-5&volume=635&pages=121-128&publication_year=2024&author=Young%2CR&author=Hsiang%2CS"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Sedova, B. & Kalkuhl, M. Who are the climate migrants and where do they go? Evidence from rural India. World Dev. 129, 104848 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.worlddev.2019.104848",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Who%20are%20the%20climate%20migrants%20and%20where%20do%20they%20go%3F%20Evidence%20from%20rural%20India&journal=World%20Dev.&doi=10.1016%2Fj.worlddev.2019.104848&volume=129&publication_year=2020&author=Sedova%2CB&author=Kalkuhl%2CM"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Zivin, J. G., Liao, Y. & Panassie, Y. How hurricanes sweep up housing markets: evidence from Florida. J. Environ. Econ. Manage. 118, 102770 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jeem.2022.102770",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20hurricanes%20sweep%20up%20housing%20markets%3A%20evidence%20from%20Florida&journal=J.%20Environ.%20Econ.%20Manage.&doi=10.1016%2Fj.jeem.2022.102770&volume=118&publication_year=2023&author=Zivin%2CJG&author=Liao%2CY&author=Panassie%2CY"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Bilal, A. & Rossi-Hansberg, E. Anticipating Climate Change Across the United States (National Bureau of Economic Research, 2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR46",
+            "content": "McGhee, D. J., Binder, S. B. & Albright, E. A. First, do no harm: evaluating the vulnerability reduction of post-disaster home buyout programs. Nat. Hazards Rev. 21, 05019002 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1061%2F%28ASCE%29NH.1527-6996.0000337",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=First%2C%20do%20no%20harm%3A%20evaluating%20the%20vulnerability%20reduction%20of%20post-disaster%20home%20buyout%20programs&journal=Nat.%20Hazards%20Rev.&doi=10.1061%2F%28ASCE%29NH.1527-6996.0000337&volume=21&publication_year=2020&author=McGhee%2CDJ&author=Binder%2CSB&author=Albright%2CEA"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Gourevitch, J. D. et al. Unpriced climate risk and the potential consequences of overvaluation in US housing markets. Nat. Clim. Change 13, 250–257 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-023-01594-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Unpriced%20climate%20risk%20and%20the%20potential%20consequences%20of%20overvaluation%20in%20US%20housing%20markets&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-023-01594-8&volume=13&pages=250-257&publication_year=2023&author=Gourevitch%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Behrer, A. P. & Bolotnyy, V. Heat, Crime, and Punishment Working Paper No. 21114 (Hoover Institution, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Park, J., Pankratz, N. & Behrer, A. P. Temperature, Workplace Safety, and Labor Market Inequality IZA Discussion Paper (Institute of Labor Economics, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Anderson, G. et al. Hurricane exposure data: Data characterizing exposure to hurricanes in United States counties. R package version 0.1 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Emanuel, K. Environmental factors affecting tropical cyclone power dissipation. J. Clim. 20, 5497–5509 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1175%2F2007JCLI1571.1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20factors%20affecting%20tropical%20cyclone%20power%20dissipation&journal=J.%20Clim.&doi=10.1175%2F2007JCLI1571.1&volume=20&pages=5497-5509&publication_year=2007&author=Emanuel%2CK"
+            }
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "id": "s41558-025-02391-1",
+    "title": "Reduction of methane emissions through improved landfill management",
+    "journal": "Nature Climate Change",
+    "pdf_link": "https://www.nature.com/articles/s41558-025-02391-1",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "PRISMA hyperspectral satellite imagery",
+            "Data_summary": "Spaceborne hyperspectral VNIR-SWIR radiance imagery from the PRISMA mission used to retrieve methane column enhancement maps via a matched-filter algorithm, visually identify landfill plumes, and quantify plume-based emission rates using the IME approach across surveyed landfill sites.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Using PRISMA data from 2019 to 2024 methane column mole fractions are derived through the matched filter algorithm to detect landfill methane emissions globally16,19 , Location: Results, Confidence: high",
+            "Time_Coverage": "2019-2024",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR16",
+                "ref-CR19"
+            ]
+        },
+        {
+            "Data_Name": "Google Earth high-resolution true-colour imagery",
+            "Data_summary": "High-resolution true-colour satellite imagery basemap used for manual visual inspection to confirm plume morphology, delineate polygon masks to remove false positives from roads buildings and solar panels, and assess landfill management type by visible exposed waste and leachate ponds.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: these results were overlaid onto high-resolution true-colour remote sensing imagery Google Earth where each high-value area exhibiting plume morphology was visually inspected, Location: Methods Plume identification and methane emission quantification, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://earth.google.com/web/",
+            "ref": [
+                "ref-CR50"
+            ]
+        },
+        {
+            "Data_Name": "ERA5 reanalysis meteorological data from Copernicus CDS",
+            "Data_summary": "Global meteorological reanalysis fields used to supply 10 m wind vectors and other surface meteorological variables to filter candidate plumes by wind direction consistency and to stratify and analyze emission flux dependence on temperature humidity and atmospheric pressure.",
+            "Category": "City-wide camera networks and meteorological stations",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Finally using the ERA5 10-m wind field data we excluded potential high-value areas that did not conform to the wind direction, Location: Methods Plume identification and methane emission quantification, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://cds.climate.copernicus.eu/cdsapp#!/home",
+            "ref": []
+        },
+        {
+            "Data_Name": "EDGAR v8.0 greenhouse gas emissions inventory",
+            "Data_summary": "Gridded global greenhouse gas inventory data providing methane emissions estimates for the solid waste sector on a 0.1 by 0.1 degree grid, used as a bottom-up reference for comparison against PRISMA-derived landfill emissions by selecting the nearest grid cell to each landfill.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: EDGAR v8.0 provides global methane emissions from the solid waste sector at a 0.1° × 0.1° grid resolution allowing comparison with PRISMA estimates32,33, Location: Methods Bottom-up emission estimates, Confidence: high",
+            "Time_Coverage": "2019-2022",
+            "Geographic_Coverage": "Global",
+            "URL": "https://edgar.jrc.ec.europa.eu/dataset_ghg80",
+            "ref": []
+        },
+        {
+            "Data_Name": "US EPA Greenhouse Gas Reporting Program GHGRP facility emissions",
+            "Data_summary": "Facility-level greenhouse gas emissions reports from the US EPA GHGRP used as validation and comparison data for PRISMA-derived average methane emission rates for US landfills and for landfill-by-landfill comparison in the San Francisco Bay Area examples.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the emissions reported to the Greenhouse Gas Reporting Program GHGRP were used as reference data13, Location: Results, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://ghgdata.epa.gov/",
+            "ref": [
+                "ref-CR37"
+            ]
+        },
+        {
+            "Data_Name": "Bay Area Air Quality Management District BAAQMD landfill emissions inventory data",
+            "Data_summary": "Facility-level methane emissions estimates for landfills reported by the Bay Area Air Quality Management District used to compare with PRISMA-derived emissions for selected San Francisco Bay Area landfill facilities.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: for four landfills in the San Francisco Bay Area of California emissions reported by the Bay Area Air Quality Management District BAAQMD and the GHGRP are also compared5,36,37, Location: Results, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > California > San Francisco Bay Area",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Carbon Mapper US airborne methane measurement data",
+            "Data_summary": "Airborne imaging spectroscopy methane plume detections and quantified emission rates from US landfill overflights used to validate PRISMA IME-derived emission rates at 14 US landfills and to support analysis of event-driven emission distributions from airborne campaigns.",
+            "Category": "Aerial and drone imagery",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: US airborne measurement data are available via the Carbon Mapper website at https://data.carbonmapper.org, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2016-09 to 2024-06",
+            "Geographic_Coverage": "United States",
+            "URL": "https://data.carbonmapper.org/",
+            "ref": []
+        },
+        {
+            "Data_Name": "What a Waste Global Database",
+            "Data_summary": "World Bank global solid waste database providing city-level information including organic waste amounts and composition metrics, used in this study to relate methane emission flux patterns to organic waste addition and biodegradable content at landfill locations.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Information on organic waste addition in landfills across 330 cities globally can be found in the What a Waste Global Database, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://datacatalog.worldbank.org/search/dataset/0039597",
+            "ref": []
+        },
+        {
+            "Data_Name": "TROPOMI Sentinel-5P CH4 S5P L2 OFFLINE product",
+            "Data_summary": "Daily satellite methane column product from the TROPOMI instrument referenced as an available methane dataset and part of the broader multisource satellite context for methane monitoring mentioned in the study.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: TROPOMI data S5P L2 CH4 OFFLINE are available daily via the Copernicus Open Access Hub, Location: Data availability, Confidence: low",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://scihub.copernicus.eu/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data Availability",
+            "Data_summary": "Authors released study data products including detected plume images and additional source data files supporting figures and analyses.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The plume images detected in this study are available via Figshare at https://doi.org/10.6084/m9.figshare.29247518.v2 ref. 59, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2019-2024",
+            "Geographic_Coverage": "Global",
+            "URL": "https://doi.org/10.6084/m9.figshare.29247518.v2",
+            "ref": [
+                "ref-CR59"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:19.434620"
+    }
+}

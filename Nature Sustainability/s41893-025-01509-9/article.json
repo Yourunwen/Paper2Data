@@ -1,0 +1,932 @@
+{
+    "id": "s41893-025-01509-9",
+    "journal": "Nature Sustainability",
+    "type": "article",
+    "title": "Rising socio-economic costs of PM2.5 pollution and medical service mismatching",
+    "legal_title": "Rising socio-economic costs of PM2.5 pollution and medical service mismatching",
+    "publish_time": "2025-02-04",
+    "pdf_link": "https://www.nature.com/articles/s41893-025-01509-9",
+    "storage_path": "./Articles/Nature Sustainability/2025-article/s41893-025-01509-9/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "The harmful impact of fine particulate matter (PM2.5) air pollution on public health remains a pressing concern. Detrimental effects of such pollution on elderly populations can be exacerbated by the ageing process, making it necessary to identify vulnerable groups or regions, especially in the context of shifting demographics and healthcare disparities. Focusing on Japan, with its extreme ageing demographic, our study assesses the health impacts of PM2.5 across different age segments from a spatial–temporal perspective while considering the uneven distribution of medical resources across different regions. We find that the Baby Boomer generation, born in the 1950s, faces a statistical value of life that is approximately 52% higher than that of other generations, signifying that individuals of this generation are more likely to bear increased costs for health issues caused by long-term exposure to PM2.5. On the basis of 170,000 medical-clinic records across Japan, our research reveals that the disease burden exacerbated by mismatches in medical resources has become increasingly evident, affecting over 86% of the areas we studied, with remote regions in West Japan being particularly vulnerable. These findings highlight the amplified challenges posed by demographic shifts, the need for targeted health and environmental policies, and serve as a critical warning for regions facing similar issues.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "PM2.5 concentration data are publicly available on the website of the Atmospheric Composition Analysis Group of Washington University in St Louis51 (https://sites.wustl.edu/acag/). Population data are maintained by Li and Managi52. We obtained the age structure data and household asset data from the Statistics Bureau of Japan (https://www.stat.go.jp/english/). GDP data are available from the Japan Cabinet Office (https://www.cao.go.jp/index-e.html). Baseline mortality, life expectancy and survival probability data are also open access and can be obtained from the Global Burden of Disease Study 201953 (https://ghdx.healthdata.org/gbd-2019). Medical-clinic records data are developed by the Geospatial Information Authority of Japan, Ministry of Land, Infrastructure, Transport and Tourism, and are available from https://nlftp.mlit.go.jp/. Source data are provided with this paper.",
+            "links": {
+                "51": "/articles/s41893-025-01509-9#ref-CR51",
+                "https://sites.wustl.edu/acag/": "https://sites.wustl.edu/acag/",
+                "52": "/articles/s41893-025-01509-9#ref-CR52",
+                "https://www.stat.go.jp/english/": "https://www.stat.go.jp/english/",
+                "https://www.cao.go.jp/index-e.html": "https://www.cao.go.jp/index-e.html",
+                "53": "/articles/s41893-025-01509-9#ref-CR53",
+                "https://ghdx.healthdata.org/gbd-2019": "https://ghdx.healthdata.org/gbd-2019",
+                "https://nlftp.mlit.go.jp/": "https://nlftp.mlit.go.jp/",
+                "Source data": "/articles/s41893-025-01509-9#Sec13"
+            }
+        },
+        "Code availability": {
+            "content": "The code used to process and analyse the data is developed in Python 3.7, and is available from the corresponding authors upon reasonable request.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "We thank for Z. Chen (University of Tokyo, Tokyo, Japan) for his help and insightful comments regarding the figures of the paper. This research is also funded by Japan Society for the Promotion of Science KAKENHI B (grant number JP24K03146, Y.Y.) and KAKENHI C (grant number JP23K11542, L.Y.).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsXiaoyan XuView author publicationsSearch author on:PubMed Google ScholarLiqiao HuangView author publicationsSearch author on:PubMed Google ScholarLiming YaoView author publicationsSearch author on:PubMed Google ScholarYoshikuni YoshidaView author publicationsSearch author on:PubMed Google ScholarYin LongView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nX.X. and Y.L. conceptualized the research question and designed the analytical framework. X.X. and L.H. conducted the data collection, preprocessing, modelling and statistical analyses. Visualizations were created by X.X. and Y.L. The paper was draughted by X.X. and L.H., and it was critically reviewed and revised by Y.L., Y.Y. and L.Y. All authors discussed the results and edited the final paper.\n### Corresponding authors\nCorrespondence to\n                Liming Yao or Yin Long.",
+            "links": {
+                "View author publications": "/search?author=Yin%20Long",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Yin%20Long",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Yin%20Long%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Liming Yao": "mailto:lmyao@scu.edu.cn",
+                "Yin Long": "mailto:longyinutokyo@gmail.com"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Sustainability thanks Pin Wang and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Figs. 1–25, Methods, Tables 1–8 and ref. 1.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01509-9/MediaObjects/41893_2025_1509_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01509-9/MediaObjects/41893_2025_1509_MOESM2_ESM.pdf"
+            }
+        },
+        "Source data": {
+            "content": "Source Data Fig. 1Statistical source data.Source Data Fig. 2Statistical source data.Source Data Fig. 3Statistical source data.",
+            "links": {
+                "Source Data Fig. 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01509-9/MediaObjects/41893_2025_1509_MOESM3_ESM.xlsx",
+                "Source Data Fig. 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01509-9/MediaObjects/41893_2025_1509_MOESM4_ESM.xlsx",
+                "Source Data Fig. 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01509-9/MediaObjects/41893_2025_1509_MOESM5_ESM.xlsx"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Rising%20socio-economic%20costs%20of%20PM2.5%20pollution%20and%20medical%20service%20mismatching&author=Xiaoyan%20Xu%20et%20al&contentID=10.1038%2Fs41893-025-01509-9&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20Limited&publication=2398-9629&publicationDate=2025-02-04&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleXu, X., Huang, L., Yao, L. et al. Rising socio-economic costs of PM2.5 pollution and medical service mismatching.\n                    Nat Sustain 8, 265–275 (2025). https://doi.org/10.1038/s41893-025-01509-9Download citationReceived: 02 February 2024Accepted: 08 January 2025Published: 04 February 2025Version of record: 04 February 2025Issue date: March 2025DOI: https://doi.org/10.1038/s41893-025-01509-9Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41893-025-01509-9?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Rising socio-economic costs of PM2.5 pollution and medical service mismatching",
+                "description": "The harmful impact of fine particulate matter (PM2.5) air pollution on public health remains a pressing concern. Detrimental effects of such pollution on elderly populations can be exacerbated by the ageing process, making it necessary to identify vulnerable groups or regions, especially in the context of shifting demographics and healthcare disparities. Focusing on Japan, with its extreme ageing demographic, our study assesses the health impacts of PM2.5 across different age segments from a spatial–temporal perspective while considering the uneven distribution of medical resources across different regions. We find that the Baby Boomer generation, born in the 1950s, faces a statistical value of life that is approximately 52% higher than that of other generations, signifying that individuals of this generation are more likely to bear increased costs for health issues caused by long-term exposure to PM2.5. On the basis of 170,000 medical-clinic records across Japan, our research reveals that the disease burden exacerbated by mismatches in medical resources has become increasingly evident, affecting over 86% of the areas we studied, with remote regions in West Japan being particularly vulnerable. These findings highlight the amplified challenges posed by demographic shifts, the need for targeted health and environmental policies, and serve as a critical warning for regions facing similar issues. PM2.5 pollution can have a detrimental effect on human health, especially for elderly populations, due to the ageing process. This study examines the social–economic impact of such pollution on different age segments and healthcare systems across Japan, a country with a super-ageing society.",
+                "datePublished": "2025-02-04T00:00:00Z",
+                "dateModified": "2025-02-04T00:00:00Z",
+                "pageStart": "265",
+                "pageEnd": "275",
+                "sameAs": "https://doi.org/10.1038/s41893-025-01509-9",
+                "keywords": [
+                    "Atmospheric science",
+                    "Environmental health",
+                    "Outcomes research",
+                    "Sustainable Development"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-025-01509-9/MediaObjects/41893_2025_1509_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-025-01509-9/MediaObjects/41893_2025_1509_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-025-01509-9/MediaObjects/41893_2025_1509_Fig3_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Sustainability",
+                    "issn": [
+                        "2398-9629"
+                    ],
+                    "volumeNumber": "8",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Xiaoyan Xu",
+                        "affiliation": [
+                            {
+                                "name": "University of Tokyo",
+                                "address": {
+                                    "name": "Graduate School of Engineering, University of Tokyo, Tokyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Liqiao Huang",
+                        "url": "http://orcid.org/0000-0002-8117-8999",
+                        "affiliation": [
+                            {
+                                "name": "University of Tokyo",
+                                "address": {
+                                    "name": "Graduate School of Engineering, University of Tokyo, Tokyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Liming Yao",
+                        "url": "http://orcid.org/0000-0003-4596-0366",
+                        "affiliation": [
+                            {
+                                "name": "Sichuan University",
+                                "address": {
+                                    "name": "Business School, Sichuan University, Chengdu, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "lmyao@scu.edu.cn",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yoshikuni Yoshida",
+                        "affiliation": [
+                            {
+                                "name": "University of Tokyo",
+                                "address": {
+                                    "name": "Graduate School of Engineering, University of Tokyo, Tokyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yin Long",
+                        "url": "http://orcid.org/0000-0002-6761-9735",
+                        "affiliation": [
+                            {
+                                "name": "University of Tokyo",
+                                "address": {
+                                    "name": "Graduate School of Engineering, University of Tokyo, Tokyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "longyinutokyo@gmail.com",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "atmospheric-science;environmental-health;outcomes-research",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41893-025-01509-9"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Xiaoyan Xu",
+                            "Liqiao Huang",
+                            "Liming Yao",
+                            "Yoshikuni Yoshida",
+                            "Yin Long"
+                        ],
+                        "publishedAt": 1738627200,
+                        "publishedAtString": "2025-02-04",
+                        "title": "Rising socio-economic costs of PM2.5 pollution and medical service mismatching",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Atmospheric science,Environmental health,Outcomes research"
+                    },
+                    "journal": {
+                        "pcode": "natsustain",
+                        "title": "nature sustainability",
+                        "volume": "8",
+                        "issue": "3",
+                        "id": 41893,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Rising socio-economic costs of PM2.5 pollution and medical service mismatching",
+            "dc.source": "Nature Sustainability 2025 8:3",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-02-04",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rights": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "The harmful impact of fine particulate matter (PM2.5) air pollution on public health remains a pressing concern. Detrimental effects of such pollution on elderly populations can be exacerbated by the ageing process, making it necessary to identify vulnerable groups or regions, especially in the context of shifting demographics and healthcare disparities. Focusing on Japan, with its extreme ageing demographic, our study assesses the health impacts of PM2.5 across different age segments from a spatial–temporal perspective while considering the uneven distribution of medical resources across different regions. We find that the Baby Boomer generation, born in the 1950s, faces a statistical value of life that is approximately 52% higher than that of other generations, signifying that individuals of this generation are more likely to bear increased costs for health issues caused by long-term exposure to PM2.5. On the basis of 170,000 medical-clinic records across Japan, our research reveals that the disease burden exacerbated by mismatches in medical resources has become increasingly evident, affecting over 86% of the areas we studied, with remote regions in West Japan being particularly vulnerable. These findings highlight the amplified challenges posed by demographic shifts, the need for targeted health and environmental policies, and serve as a critical warning for regions facing similar issues. PM2.5 pollution can have a detrimental effect on human health, especially for elderly populations, due to the ageing process. This study examines the social–economic impact of such pollution on different age segments and healthcare systems across Japan, a country with a super-ageing society.",
+            "dc.identifier": "doi:10.1038/s41893-025-01509-9",
+            "dc.creator": "Long, Yin",
+            "dc.subject": "Outcomes research",
+            "prism.issn": "2398-9629",
+            "prism.publicationName": "Nature Sustainability",
+            "prism.publicationDate": "2025-02-04",
+            "prism.volume": "8",
+            "prism.number": "3",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "265",
+            "prism.endingPage": "275",
+            "prism.copyright": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41893-025-01509-9",
+            "prism.doi": "doi:10.1038/s41893-025-01509-9",
+            "citation_pdf_url": "https://www.nature.com/articles/s41893-025-01509-9.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41893-025-01509-9",
+            "citation_journal_title": "Nature Sustainability",
+            "citation_journal_abbrev": "Nat Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2398-9629",
+            "citation_title": "Rising socio-economic costs of PM2.5 pollution and medical service mismatching",
+            "citation_volume": "8",
+            "citation_issue": "3",
+            "citation_publication_date": "2025/03",
+            "citation_online_date": "2025/02/04",
+            "citation_firstpage": "265",
+            "citation_lastpage": "275",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41893-025-01509-9",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41893-025-01509-9&api_key=",
+            "citation_reference": "World Bank & Institute for Health Metrics and Evaluation. The Cost of Air Pollution: Strengthening the Economic Case for Action (World Bank Group, 2016).",
+            "citation_author": "Long, Yin",
+            "citation_author_institution": "Graduate School of Engineering, University of Tokyo, Tokyo, Japan",
+            "description": "The harmful impact of fine particulate matter (PM2.5) air pollution on public health remains a pressing concern. Detrimental effects of such pollution on elderly populations can be exacerbated by the ageing process, making it necessary to identify vulnerable groups or regions, especially in the context of shifting demographics and healthcare disparities. Focusing on Japan, with its extreme ageing demographic, our study assesses the health impacts of PM2.5 across different age segments from a spatial–temporal perspective while considering the uneven distribution of medical resources across different regions. We find that the Baby Boomer generation, born in the 1950s, faces a statistical value of life that is approximately 52% higher than that of other generations, signifying that individuals of this generation are more likely to bear increased costs for health issues caused by long-term exposure to PM2.5. On the basis of 170,000 medical-clinic records across Japan, our research reveals that the disease burden exacerbated by mismatches in medical resources has become increasingly evident, affecting over 86% of the areas we studied, with remote regions in West Japan being particularly vulnerable. These findings highlight the amplified challenges posed by demographic shifts, the need for targeted health and environmental policies, and serve as a critical warning for regions facing similar issues. PM2.5 pollution can have a detrimental effect on human health, especially for elderly populations, due to the ageing process. This study examines the social–economic impact of such pollution on different age segments and healthcare systems across Japan, a country with a super-ageing society.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Rising socio-economic costs of PM2.5 pollution and medical service mismatching",
+            "twitter:description": "Nature Sustainability - PM2.5 pollution can have a detrimental effect on human health, especially for elderly populations, due to the ageing process. This study examines the social–economic...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41893-025-01509-9/MediaObjects/41893_2025_1509_Fig1_HTML.png",
+            "DOI": "10.1038/s41893-025-01509-9",
+            "size": "213037",
+            "journal_id": "41893"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41893-025-01509-9",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Demographic ageing is emerging as a global challenge that is driven primarily driven by declining fertility rates and increased longevity1. By 2050, the cohort of individuals aged over 65 years will surpass 1.6 billion, accounting for 16% of the world’s population2. In tandem with rural-to-urban and international migration, regions with lower urbanization rates are increasingly experiencing a rise in their elderly population, and are also grappling with an overall population decline, which diminishes their capacity to support sustainable socio-economic development3. At the same time, 80% of older people will be living in low- and middle-income countries4; therefore, demographic ageing is an unavoidable and critical issue for both developed and emerging economies, requiring urgent attention and a strategic response5. Moreover, this trend has the potential to exacerbate disparities between high- and low-income countries and further deepen the rural–urban divide within nations. Such disparities are driven by variations in the ageing process, resilience and adaptability, as reflected in current healthcare resources, social security systems and strategies for managing the ageing workforce6,7,8.\nAgainst the worldwide ageing situation, the current focus has shifted from attempting to reverse this demographic trend to minimizing the multifaceted threats that it poses9. In terms of air pollution, which is a notable health threat for the elderly, the ageing process may amplify its detrimental effects10. Despite ongoing efforts to control pollutants, their health risks are progressively being revealed11. The long-term harm of air pollution is multifaceted and requires time for a full assessment12. Among all air pollutants, PM2.5 (fine particulate matter, that is, of up to 2.5 µm diameter) is especially hazardous to elderly individuals because its composition, which includes heavy metals and black carbon, can deeply penetrate the respiratory system, leading to serious, cumulative and often potential health issues13. Existing research has shown that exposure to PM2.5 is linked to age-related diseases, including cardiovascular disease, chronic respiratory illness and cognitive impairment, which show higher morbidity and mortality among the older population11. According to a global analysis, in 2016, over 69% of deaths and 59% of health costs attributable to PM2.5 exposure were associated with the elderly population, which were about 5.8 million deaths and US$4.09 trillion14. Furthermore, statistical reports and regional studies have provided evidence that older adults are disproportionately affected by deaths attributable to PM2.5 (ref. 15). Therefore, addressing the compounded impact of PM2.5 on an ageing population is imperative, as shown by the substantial health and economic burdens that it imposes.\nHowever, the impact of air pollution comprising fine particulate matter in an ageing society is not uniform across all individuals, regions or generations16. It has been revealed that the combination of a rapidly diminishing young workforce and escalating health burdens due to ageing is likely to put a strain on public finances and challenge the capability of local healthcare systems to adapt to and support these dramatic demographic changes17. Worse than that, many elders in low-income regions still cannot afford basic medical expenses due to low pensions and limited public health insurance18,19, and this economic constraint places them at a heightened risk of experiencing the adverse effects of PM2.5 pollution. In addition to financial pressures, spatial disparities in the availability of healthcare resources present a considerable challenge. Urban areas, which benefit from higher levels of development, typically have a greater abundance of medical resources, including a greater number of hospitals, medical equipment and physicians compared with rural areas20. Thus, economically disadvantaged rural regions, which often have a larger elderly population, may face more severe additional burdens on their healthcare systems due to PM2.5 exposure21.\nMoreover, individuals of the same age from different generations experience disparate impacts due to temporal changes in demographic structure and socio-economic fluctuations, leading to intergenerational inequities22. For instance, certain generations find themselves with the dual responsibility of supporting both their upcoming generation and ageing parents23, and some grapple with higher credit card debt and medical debt24. Both generation groups are encountering difficulties accessing their own healthcare in later years due to financial constraints. More negatively, some generations, such as the Baby Boomer generation—often defined as people born around 1950 during the mid-twentieth-century baby boom—constitute a considerable portion. The substantial financial burden that they suffer may ultimately be transferred to the public healthcare system, which is primarily funded by the working-age population25. This, in turn, affects the social well-being of this demographic26. Hence, people living in less-developed areas and generations who become elderly in tough situations, with a higher ageing ratio, more severe exposure to air pollutants and with fewer medical resources, may face more regional and intergenerational inequality.\nTo address this looming challenge, identifying the most susceptible generation and improving the healthcare system are essential. In recent years, many countries have reformed their healthcare services, recognizing its crucial role in mitigating and addressing the challenges posed by ageing27. For the purpose of maximizing the efficacy of strategy, making informed decisions and allocating medical resources reasonably on the basis of the intergenerational gap and uneven distribution of extra burden on healthcare resources caused by health loss associated with PM2.5 exposure and ageing is particularly meaningful. Whereas research incorporates age-related health effects in assessing the impacts of PM2.5 exposure, few studies have used the age-specific value of statistical life (VSL) to monetize PM2.5-related health loss and explore the intergenerational disparities, particularly in the context of super-ageing populations at the subnational level10,14,28. Moreover, the regional mismatch between PM2.5-related health burdens and healthcare resources, including the allocation of medical facilities by disease type and speciality, remains limited29,30,31,32.\nIn this research we focus on Japan—a prime example of a natural laboratory for demographic ageing—as our study area. We use an age-adjusted VSL (AVSL)14 methodology that accounts for the varying willingness to pay across different age segments. Notably, Japan stands out as the only country with over 30% of its population aged 60 years and above (known as the ‘grey population’), which serves as a pivotal model for studying the impacts of a super-ageing society33. Our approach enables us to pinpoint the vulnerable generations in terms of the AVSL, and identify regions in Japan with high medical care burdens because of PM2.5 exposure from a subnational scale. Insights gained from this study are anticipated to offer not only region-specific recommendations but also valuable perspectives on promoting global healthy ageing. Specifically, we estimated PM2.5-attributable socio-economic costs using the Global Exposure Mortality Model (GEMM)34 and the AVSL, enabling a nuanced assessment of PM2.5-related economic impacts across different age segments and observing the spatio-temporal variations in economic burdens among the elderly in the past two decades. Building on these insights, our study combines 170,000 medical-clinic records and examines the health burden of PM2.5 on healthcare systems in a super-ageing society, providing a comprehensive analysis with insight into the reallocation of medical resources. We aim to guide local policymakers in creating targeted healthcare and social welfare strategies, addressing the unique challenges of ageing populations and serving as a reference for other regions.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR25",
+                "ref-CR9",
+                "ref-CR34",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR28",
+                "ref-CR21",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR26",
+                "ref-CR7",
+                "ref-CR33",
+                "ref-CR19",
+                "ref-CR32",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Effects of PM2.5 exposure and demographic ageing\nFirst, PM2.5 exposure is estimated to have promoted a rise in premature deaths over the past two decades. Our results indicate that from 2001 to 2019, the total PM2.5-attributable deaths in Japan showed a 1.3-fold increase (Fig. 1g), rising from 42,580 (95% confidence interval (CI), 24,705–58,631) to 56,420 (95% CI, 32,091–78,618). Among these deaths, it was observed that nearly 95% of them occurred in individuals aged over 60 years, and where 67% of these were aged over 80 years, with a 5 and 17% increase, respectively, since 2001 (Fig. 1d,e, bottom). Besides, mortality displays an uneven spatial distribution due to the disparities in population structure and exposure levels across different regions. Additional insights into the spatial distribution of PM2.5-correlated premature deaths by prefecture and region can be found in Supplementary Figs. 3 and 4. According to the estimates, by 2036, one in three people in Japan will be over 65 years old (ref. 35). Considering the vulnerability of the elderly and the continuing ageing trend, the growing number of oldest elderly individuals (that is, above 80 years) may lead to an upsurge in deaths from PM2.5 exposure in the coming decades.\nThe assessed economic cost associated with premature deaths is also closely related to the AVSL, which varies throughout one’s lifetime on the basis of wealth, survival rates and the life expectancy that individuals have. As shown in Fig. 1a–f, in the past nearly two decades, the annual average AVSL was the highest among individuals aged 40–59 years (US$3.79 million), surpassing the average of other age segments by 52%. More importantly, this age group primarily comprises individuals from the Baby Boomer generation of the 1950s. It signifies that, during this period, individuals of this generation were more likely to bear increased costs for health issues caused by long-term exposure to PM2.5, potentially intensifying the strain on their medical expenditures. Compared with other generations, the 1950s’ Baby Boomer generation bears the additional financial responsibility of raising their children and supporting older parents23. Consequently, these extra medical costs could increase the risk of bankruptcy when the Baby Boomer generation becomes elderly, contributing to intergenerational inequality.\nMoreover, variations in the spatial disparity of the AVSL (Fig. 1a–e) may lead to different economic burdens for the same generation. For all age segments, residents living around three major metropolitan areas (the Tokyo metropolitan area, the Osaka metropolitan area and the Nagoya metropolitan area, as denoted in Supplementary Fig. 22), exhibit almost 6% higher AVSL values than those living in non-metropolitan areas, mainly due to their higher gross domestic product (GDP) per capita. It is of note that the Baby Boomer generation from Tokyo shows the highest AVSL, totalling around US$6.63 million, which is approximately 68 times the GDP per capita of the Tokyo in 2011. This underscores the potential exacerbation of the socio-economic burden of caring for the Baby Boomer generation, particularly in highly developed regions, heightening intragenerational inequality among the regions.\nExposure to PM2.5 not only adds to the economic burden but may also contribute to challenges in the labour market, potentially straining the already constrained labour force in Japan. Here we adopted the years of life lost (YLL) metric to assess the longevity loss from PM2.5-related premature deaths (Fig. 1h). As of the latest year in our study (2019), attributable deaths led to about 0.74 million YLL (95% CI, 0.43–1.03), of which 86 and 46% were contributed by individuals aged over 60 years and 80 years, which had increased by 11 and 19%, respectively, since 2001. Surprisingly, metropolitan areas suffered a substantial YLL value, with the YLL in the Kanto region exceeding 0.2 million, whereas non-metropolitan areas such as Chugoku, Tohoku and Hokkaido have YLL at less than a quarter of those in the Kanto region, indicating spatial disparities. More importantly, coupled with the ageing population and continuous exposure to air pollutants, the workforce loss from the older generation, such as the Japanese Baby Boomer generation, may present a more severe hurdle to the social welfare of the younger generation in metropolitan areas.\n### Heaviest economic burden due to PM2.5 exposure in West Japan\nIn the result above, we analysed PM2.5-exposure-related impacts on public health, which can also be quantified as socio-economic costs based on the AVSL. Within the socio-economic costs presented in this section, we used the relative costs to illustrate the varied challenges faced by regions. In contrast to absolute socio-economic costs, which directly indicate regions with the highest costs, relative socio-economic costs are expressed as the economic cost relative to GDP (EC/GDP), known as the relative economic cost. This measure incorporates varying levels of regional economic development into the analysis of different socio-economic burdens related to PM2.5 pollution across regions.\nTo begin with, as illustrated by the map, the relative socio-economic cost in Japan exhibits an entirely distinct spatial pattern compared with absolute socio-economic costs (their annual variations are presented in Supplementary Figs. 5 and 6). In absolute socio-economic costs, major metropolitan areas such as Tokyo, Nagoya, Osaka and Fukuoka incurred over ~US$3 billion in economic costs due to higher attributable deaths and AVSL. However, considering local economic development, the economic cost of prefectures in West Japan, especially Kyushu and the surrounding regions, surpassed 2% of their GDP, nearly twice the figures observed in metropolitan areas. This indicates that the economic burden of PM2.5-attributable health costs was disproportionately higher in West Japan, which is less-developed, rapidly ageing (see Supplementary Fig. 19, the growth rate of the ageing population) and more PM2.5-polluted. Apart from that, Fukuoka, Osaka and Gunma are the prefectures that experienced severe consequences in both absolute and relative socio-economic costs, urging widespread attention.\nTracing back to demographics, the grey population (that is, individuals aged over 60 years) is the main contributor to the relative economic costs. It was noted that they bore an economic cost exceeding 1% of GDP in the top five high absolute (Fig. 2a–e, bar charts) and relative socio-economic-cost prefectures (Fig. 2f–j, bar charts), with additional data for other prefectures shown in Supplementary Figs. 7–10. A more remarkable finding emerges in the results of the top five prefectures with high relative socio-economic costs, which are concentrated in West Japan. The economic cost for residents aged over 60 years and 80 years in these prefectures surpasses, respectively, 2 and 1% of GDP, nearly double those in the top five prefectures with high absolute socio-economic costs, located in metropolitan areas. This underscores that, despite the elderly (specifically those aged over 70 years) having a lower AVSL compared with other age segments, they still contributed substantially to the economic burden associated with PM2.5 exposure, especially in some non-metropolitan areas of West Japan, mainly related closely to their severe ageing, a shrinking society and underdevelopment.\nFrom the annual variation, we found a stable growth in the relative socio-economic costs for those in the oldest age segment compared with 2001 despite a consecutive decrease in PM2.5 concentrations recorded since 2001 (Supplementary Figs. 1 and 2), signalling their increasing role in driving the economic burden associated with PM2.5 exposure (Fig. 2a–j, lollipop charts). Acknowledging this, concerns regarding the Baby Boomer generation may also be raised. As the majority of the Japanese Baby Boomer generation approaches the oldest age segment, the growing economic burden from PM2.5 exposure within this demographic could place additional strain on local public finances, social assistance systems and healthcare services, particularly in West Japan, leading to a range of social challenges.\n### Mismatched healthcare resources for local disease burden\nConfronted with elevated and uneven socio-economic costs attributed to PM2.5 exposure and an ageing population, Japan’s current focus on its impacts appears inadequate. In particular, the emerging trend of urban depopulation in Japan will present challenges to the sustainability of local healthcare, affecting the health and social well-being of the residents, and highlighting the importance of future healthcare planning. To provide a reference for this under the PM2.5 pollution and ageing trend, we utilized 170,000 medical-clinic records and quantified the disease burden by combining the PM2.5-attributable economic burden for five PM2.5-related diseases and the availability of hospital departments that are capable of treating those specific diseases, the distribution of which is supplemented in Supplementary Fig. 13.\nThe findings indicate that, relative to other diseases, both lower respiratory infection (LRI) and ischaemic heart disease (IHD) imposed a greater burden on Japan’s healthcare system (Fig. 3a,d). This may result from the highest economic cost caused by these two diseases14 (Supplementary Figs. 11 and 12). Examining various medical departments, the strain caused by LRI and IHD on respiratory medicine and cardiovascular medicine was notably pronounced in non-metropolitan areas throughout Japan, especially in West Japan. However, for thoracic surgery, the burden imposed by LRI was evident across the country and extending to certain metropolitan areas, which may have stemmed from the limited surgical medical resources in densely populated regions (Fig. 3f).\nIn comparison with LRI and IHD, stroke and lung cancer (LC) result in a relatively lower level of stress in hospital departments, indicating a different spatial pattern. As for hospital departments, the stroke-associated burden on neurology and neurosurgery was more severe in West Japan and the Tohoku region, particularly in Yamaguchi and Kagoshima (Fig. 3c). Furthermore, the LC-related burden on respiratory medicine was substantial in the Chugoku region, whereas the impact on thoracic surgery extended considerably to the Kyushu region and the Shikoku region (Fig. 3e), all of which are located in West Japan. In addition, oncology and surgical oncology in West Japan, as well as metropolitan areas, also faced a greater burden of LC. Note that chronic obstructive pulmonary disease (COPD) imposed the lightest burden among the five diseases, yet respiratory medicine and thoracic surgery in West Japan, particularly the Chugoku region, still bore a relatively higher disease burden (Fig. 3b).\nFrom the view of the accumulated disease burden, there is an obvious gap between metropolitan and non-metropolitan areas (Fig. 3g). Specifically, the least stress is observed in the three major metropolitan areas (Tokyo, Nagoya and Osaka), which is attributable to the abundance of medical resources (Fig. 3f) and the lower per-capita economic cost related to PM2.5 in these regions. By contrast, approximately 86% of the areas, primarily non-metropolitan regions—notably in West Japan—experienced a notably higher burden (an accumulated disease burden of >5), possibly due to their elevated per-capita economic cost related to PM2.5 and the comparatively limited medical resources (Fig. 3f). Moreover, these non-metropolitan areas are characterized by lower levels of development, extensive ageing and declining populations. As their demographic structure skews towards the elderly with a diminishing overall population, the widening imbalance in PM2.5-related health burdens and medical resources is likely to strain healthcare systems in remote areas, challenging the healthy ageing and sustainable development of these regions.",
+            "cites": [
+                "ref-CR14",
+                "ref-CR35",
+                "ref-CR23"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "In response to Japan’s societal challenges regarding demographic ageing and PM2.5 pollution, our study used the GEMM and the AVSL metric, incorporating 170,000 medical point data, to evaluate several economic and health challenges posed by PM2.5 pollution in this super-ageing society. Our findings indicate that the elderly group (≥60 years), particularly the oldest age segment (≥80 years), faces the greatest challenge, as reflected by the mortality and associated economic losses—in line with previous findings that revealed the vulnerability of the elderly14. Looking ahead, the ageing Baby Boomer generation of the 1950s, which will predominantly constitute the oldest age segment of the demographic by 2030, may contribute to augmented intergenerational inequalities due to PM2.5 exposures. Furthermore, looking at a spatial distribution, West Japan (the non-metropolitan areas in particular), bears a disproportionate socio-economic, disease and healthcare burden.\nOur research investigated the intergenerational inequality amid the challenges related to PM2.5 pollution and population ageing. The Baby Boomer generation may bear a greater financial burden, driven largely by their relatively high willingness to pay to mitigate PM2.5-related health risks. This is compounded by changes in family structure, with many elderly individuals supporting both unemployed children and aged parents. Currently, approximately 25–30% of those aged ≥65 years continue to work beyond the retirement age in Japan36,37, but health risks and the loss of work capacity due to PM2.5 exposure could reduce their ability to sustain the labour force. On another note, younger generations face the dual pressures of funding elderly care via taxes while extending their working years due to workforce shortages. Nonetheless, delayed retirement can also improve self-rated health and mental well-being, offering benefits under certain circumstances38,39.\nThe study further uncovers health inequalities by examining the spatial mismatch between medical resources and the disease burden attributable to PM2.5 exposure. The evident mismatch concentrates on PM2.5-related diseases such as myocardial infarction and stroke, which require rapid and specialized treatment, highlighting the urgent need for improvements in emergency services. From a spatial perspective, West Japan, with underdeveloped economies, rapidly ageing populations and more severe PM2.5 pollution, is under greater pressure for managing health-related costs that are attributable to PM2.5 exposure. These regions face pronounced healthcare resource shortages, such as the number of doctors and hospital beds, highlighting the gap concerning the mismatch between specific disease burdens and medical resources. Moreover, in 2022, all prefectures saw natural population decreases and rising numbers of residents aged 75 years and above, with urban migration further straining rural areas40. This urban migration accelerates rural ageing, leading to labour shortages, diminished tax revenues and heightened financial pressures on local governments, undermining resilience to bear the socio-economic losses from PM2.5 pollution41.\nTo address these challenges, Japan must re-evaluate the allocation of resources to bridge the urban–rural divide in healthcare. Despite the fact that government initiatives for attracting younger generations to less-developed regions and the ongoing physician dispatch system offer some relief, limited income, career prospects and inadequate resources may deter them from relocating from metropolitan centres41,42. Hence, targeted policies to retain the workforce are crucial, particularly in attracting and training healthcare professionals to compensate for the medical resource mismatching. For instance, in West Japan, there should be the targeted recruitment of more healthcare professionals that specialize in the treatment of cardiovascular diseases and stroke in the rural areas where we identified mismatches.\nRelying on immigrant labour is another feasible solution for alleviating pressures on the medical system that are caused by air pollution, ageing and workforce decline. In the United States, immigrants constitute over 18% of healthcare workers, filling critical labour shortages and providing essential elderly-care services43. Although Japan has historically been restrictive in immigration policies, recent initiatives such as the Specified Skilled Worker visa programme include the aim of addressing labour shortages in eldercare44,45. Nonetheless, this immigration policy faces challenges, such as the language barrier for foreign nursing staff, legal protections for foreign care workers and the necessary training and certification systems46,47. In addition, most immigrants reside in urban areas—with 40.4% of long-term residents in the Tokyo metropolitan area—leaving rural regions, especially in West Japan, with less than 3,000 resident immigrants48.\nOnce healthcare professionals have been retained, ensuring accessibility to medical resources, particularly in underserved regions, is crucial. In areas such as West Japan, one potential barrier that limits residents’ accessibility to hospitals is the relatively underdeveloped public transportation system (Supplementary Fig. 23). To mitigate this, investment in improving rural transportation infrastructure, such as expanding bus routes and establishing reliable transport links to support access to healthcare, becomes necessary. Besides, extreme temperatures (Supplementary Fig. 24) may contribute to discomfort and potential health risks. These compounded effects of climate change may exacerbate these challenges by making travel difficult, particularly for the elderly and those with pre-existing health conditions. In such scenarios, enhancing telemedicine services could further reduce the need for travel and provide timely medical care for residents.\nWhereas this study focuses on Japan, its methodology and findings offer global insights into the health risks correlated with PM2.5 pollution, ageing and a shortage of healthcare resources. In Japan, where there is a high density of medical facilities and professionals, disparities in resource distribution between urban and rural areas still persist. Our assessment of PM2.5 exposure and the analysis of healthcare resource mismatch underscore the need for other countries to increase the total volume of healthcare resources and ensure the equitable access to effective and high-quality medical services. Identifying mismatches between supply and demand in healthcare enables the targeted development of infrastructure, preventing the improper allocation of resources. For developing countries, this includes strategies for improving the healthcare infrastructure and retaining skilled professionals, especially in underserved areas. Even though ageing-related challenges may not yet be as prominent in developing countries, proactively managing and preparing for ageing-related health issues can better equip these nations to handle future demographic shifts. For instance, by securing a stable workforce in critical regions, developing countries could also mitigate health risks associated with PM2.5 exposure and demographic changes.\nIn our study, we have endeavoured to display the uneven spatial distribution of PM2.5 disease burden that is caused by mismatched medical resources. However, it is important to note that there are certain limitations, as listed below. These aspects could be enhanced with access to future higher-resolution data. First, owing to the lack of cost data related to medical resources, it is challenging to design financially feasible scenarios. Therefore, we did not consider future scenarios and discuss an efficient strategy for allocating medical resources aimed at reducing the disease burden and enhancing social well-being. In future research, if we could acquire healthcare cost data, we intend to formulate potential scenarios and assess the most cost-effective planning of medical resources that can effectively minimize the disease burden in the context of ageing and PM2.5 pollution. Second, another key limitation of our study is its reliance on medical-clinic data from a single year, specifically 2015. This prevents us from performing longitudinal analyses and observing long-term trends of the extra disease burden caused by PM2.5 exposure in each hospital department across different years. To improve the robustness of our findings, future research should incorporate data spanning multiple years. This would facilitate more comprehensive temporal analyses and better account for variations in medical resources, ageing and PM2.5 pollution over time. Third, the number of hospitals can provide only a one-dimensional indication of the level of healthcare resources. In fact, these hospital departments vary in scale and are equipped with different facilities, beds and medical staff. Hence, the sheer number of hospital departments may not precisely represent the local healthcare level, impeding a thorough estimation of the the disease burden that they are faced with. However, with more detailed medical data available, we could evaluate the disease burden on hospitals from diverse perspectives, enabling us to present a more in-depth map of the disease burden.",
+            "cites": [
+                "ref-CR47",
+                "ref-CR37",
+                "ref-CR36",
+                "ref-CR38",
+                "ref-CR14",
+                "ref-CR48",
+                "ref-CR41",
+                "ref-CR46",
+                "ref-CR39",
+                "ref-CR45",
+                "ref-CR42",
+                "ref-CR43",
+                "ref-CR44",
+                "ref-CR40"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "Our study used an integrated methodology to comprehensively analyse the socio-economic impacts arising from PM2.5 pollution, rapid ageing and the uneven distribution of medical resources. Initially, we used the GEMM, incorporating data on PM2.5 concentrations, population demographics and age structures to quantify PM2.5-attributable deaths across a diverse range of age segments. Subsequently, the baseline VSL was refined on the basis of the regional GDP, life expectancy, survival probability and wealth parameters across various age segments, resulting in an AVSL. In the third phase, leveraging the attributable deaths and AVSL data, we estimated the age-specific socio-economic costs attributed to PM2.5 pollution and ageing in different prefectures, enabling us to carry out a deeper examination of the intergenerational and regional inequalities that stem from PM2.5 exposure. Finally, using a dataset of 170,000 medical-clinic records, we conducted an assessment of the spatial distribution of the PM2.5-related disease burden at a granular level, revealing the unequal stress on local medical systems. More detailed information regarding these analyses is available in the subsequent section and the Supplementary Methods. The flowchart depicting the research framework is presented in Supplementary Fig. 25.\n### Grey exposure and mortality in Japan\nIn this context, ‘grey exposure’ specifically refers to the various health and environmental issues faced by the elderly population due to exposure to PM2.5 particles similar to the concept of the ‘grey-hair economy’ (or ‘silver economy’)49,50. To capture the grey PM2.5 exposure risk and attributable deaths of different ages, the GEMM, one of the most popular models for measuring the mortality of PM2.5 exposure, was used. Briefly, the GEMM was constructed on the basis of cohort studies of outdoor PM2.5 pollution from 16 countries34. The relationship between exposure to fine particulate matter and the hazard ratio is developed by fitting a set of logarithmic functions. In this study, five specific diseases associated with PM2.5 exposure, modelled using the GEMM, were selected as death causes, that is, COPD, IHD, LRI, LC and stroke. To account for the disparities between individuals of different ages, we divided the ages into 17 age-stratified segments, of five years each, from 0 to ≥80 (that is, 0–4, 5–9, …, 75–79 and ≥80).\nThe GEMM required four types of data from 2001 to 2019 as inputs: PM2.5 concentration data, population data, ageing structure data and baseline mortality data. We collected average annual PM2.5 concentration data for Japan from the Atmospheric Composition Analysis Group of Washington University in St Louis51. This dataset provides concentration data spanning from 1998 to 2021, with a spatial resolution of 0.01 × 0.01°, which could meet our spatio-temporal analysis demands. In addition, this group applies a mixed approach to estimate the annual and monthly ground-level PM2.5 concentrations by combining satellite-based aerosol optical depth retrievals with the GEOS-Chem chemical transport model. Concurrently, simulation data were calibrated to global ground-based observations using geographically weighted regression, ensuring the quality and accuracy of the re-analysis datasets.\nAnother essential input, that is, annual Japanese population data, was retrieved from the population gridded datasets of Japan52. The spatial resolution of this dataset is 500 m, covering the period from 2001 to 2020. We aggregated the population data to a spatial resolution of 0.01°, matching that of the PM2.5 data, using the Aggregate tool in the ArcGIS geospatial platform with the sum method for aggregation.\nThe age structure data of different prefectures were downloaded from the Statistics Bureau of Japan. The Government of Japan conducts a population census every five years and estimates the population in non-census years. Thus, among the two-decade dataset that we obtained, data from the years 2005, 2010 and 2015 belong to the census data and the remaining data belong to the estimates. Similarly, population by age in different prefectures was previously preprocessed for generating prefecture-specific proportions of different age segments. We then used the Polygon to Raster tool in ArcGIS to downscale the data at the same spatial resolution as the PM2.5 data. Specifically, the cell size is set to 0.01°, and the cell assignment type is ‘CELL_CENTER’, which ensures that each raster cell is assigned the value of the polygon if the centroid of the cell falls within the polygon’s boundaries. Baseline mortality data for the five causes of death by age were obtained from the results of the Global Burden of Disease Study 2019 (GBD 2019)53. Note that the baseline mortality data were unavailable for both IHD among individuals aged from zero to 14 years and for LC among individuals aged from zero to 10 years. To fill in the missing data, we assigned zero to the missing values as some research argues that there are low morbidity and mortality rates of these two diseases among children, with congenital diseases being excluded from consideration54,55. In addition, baseline mortality data at the prefecture level were transformed into a gridded dataset with 0.01° spatial resolution using the same method as applied to the age structure data.\nOn the basis of the data mentioned above, the relative risk attributable to PM2.5 for different age segments was calculated via equation (1):\nwhere \\({{{\\mathrm{RR}}}}_{y,c,a}^{i,\\,j}\\) refers to the relative risk of each death cause c at age a under a specific PM2.5 concentration \\({z}_{y}^{i,\\,j}\\) in grid (i,j) and year y. In addition, \\(\\Delta {z}_{y}^{i,\\,j}={z}_{y}^{i,\\,j}-{z}_{0}\\), where z0 is the counterfactual concentration of PM2.5 and it is assumed that the value below z0 indicates no additional risk. Here, to assess the impacts under the conservative scenario, z0 is set at 2.4 μg/m3, which is the lower bound of counterfactual PM2.5 concentration observed in cohort studies across 41 countries34. The variables θc,a, μc,a, αc,a and vc,a are age- and disease-specific constants that control the shape of the log–linear curve and have been reported previously in ref. 34. However, these constants exclusively include the values for individuals aged 25 years and older. Considering that our study primarily focuses on the ageing population, the constants for ages below 25 years were set to match those of the ≥25 segment in the record. This approach ensures consistency across age groupings in different data sources without compromising the comparability of the results across different regions and years.\nFollowing the assessment of relative risk attributable to PM2.5, the number of premature deaths of each death cause c, at age a, in grid cell (i,j), in the year y (\\({D}_{y,{c},a}^{i,\\,j}\\)) can be estimated via equation (2):\nwhere \\({{{\\mathrm{BM}}}}_{y,c,a}^{i,\\,j}\\) represents the baseline mortality of each death cause c and age segment a in the grid cell (i,j) and year y, \\({{{\\mathrm{AF}}}}_{y,c,a}^{i,\\,j}\\) is equal to \\(\\left({{{\\mathrm{RR}}}}_{y,c,a}^{i,\\,j}-1\\right)/{{{\\mathrm{RR}}}}_{y,c,a}^{i,\\,j}\\), and is the attributable fraction of relative risks caused by PM2.5, and \\({P}_{y,a}^{i,\\,j}\\) is the population of specific age segment a in grid cell (i,j) during year y, which can be obtained by multiplying the population and age ratio in each grid. In addition, we estimated the YLL to denote the long-term social impacts such as reducing the working time and workforce due to PM2.5 exposure, the method for which is provided in the Supplementary Methods.\n### AVSL and economic cost, 2001–2019\nNext, to accurately reflect and comprehend the socio-economic repercussions resulting from PM2.5 exposure among the grey population, the AVSL and age-adjusted value of statistical life year (AVSLY)14 metrics were used to monetize the health cost associated with exposure. The AVSL and AVSLY further consider the impacts of socio-economic development on the willingness of individuals to pay for disease treatment at different ages, integrating the disparities of the prefectures’ GDP values and the age-specific variables covering life expectancy, wealth and survival probability into the calculation of VSL and VSLY.\nAmong these inputting variables, the annual GDP of prefectures from 2001 to 2019 was obtained from the Cabinet Office, Government of Japan. As the records of annual GDP are presented on different base years, we recalculated the data based on the same base year (2011) using the GDP deflator reported by the Japanese government.\nThe life expectancy data of prefectures were retrieved from the GBD 2019 results53. On the grounds that the GBD results censor the last age segment at ≥110 years, data for the age segment of ‘≥80’ is not available. Therefore, we applied a population-weighted average approach and integrated population weights of different age segments, derived from the ageing structure data of Japan released by the Statistics Bureau, to adjust the value. In this way, the life expectancy of age segments in five-year intervals above 80 years was aggregated into a single age segment of ‘over 80 years old’. Following this adjustment, the prefecture-level life expectancy data were resampled into grids at a spatial resolution of 0.01° with the method used for transforming the age structure data. Survival probability by age segment for prefectures over the 19 year study period was collected on the basis of the all-cause mortality from the GBD 2019 results53.\nBesides, given the lack of wealth data for individuals at different ages, household total amount assets (that is, the sum of net financial assets and the estimated value of the house and residential land) by the household head’s age were selected as an alternative, as it could depict a general relationship between age and wealth. We retrieved the household asset dataset from the section of the National Survey of Family Income (Consumption and Wealth) in the Statistics Bureau of Japan. Since 1994, the Japanese government has conducted this survey every five years. The latest data from 2019 were chosen for this study as this dataset is more complete and detailed in age divisions compared with data from previous years. Furthermore, individuals under the age of 20 were assumed to have the same wealth as one of their parents (approximately 31 years older than their children, estimated on the basis of the average maternal age in Japan).\nThen, the AVSLY values of different prefectures and years can be calculated via equation (3):\nwhere n refers to the prefecture, y is the year, a represents the age segment, VSLbaseline was set at US$3.54 million (in 2011) according to previous reports14,56. In addition, \\({{{\\mathrm{GDP}}}}_{y}^{n}\\) is the GDP per capita of prefecture n in the year y, whereas \\({{{\\mathrm{GDP}}}}_{y,{{\\mathrm{mean}}}}^{{{\\mathrm{p}}}}\\) is average GDP per capita of prefectures in the year y. Variable e is the income elasticity, which is normally 0.8 for high-income countries57,58. \\({L}_{y,a}^{n}\\) is the life expectancy at age a, in prefecture n in year y; \\({{{\\mathrm{SP}}}}_{y,{a}}^{n}\\) represents the survival probability of age segment a in prefecture n and year y; and r is the discount rate, which is set at 4% (ref. 58). \\({L}_{y,{{\\mathrm{mean}}}}^{n}\\) is the average life expectancy for prefecture n and year y, and it was calculated using \\(\\frac{\\sum {L}_{y,a}^{n}\\times {P}_{y,a}^{n}}{\\sum {P}_{y,a}^{n}}\\), where \\({P}_{y,a}^{n}\\) is the population of age segment a in prefecture n and year y. Variable Wa is the wealth that people possess at age a; variable Wmean is the average wealth of all age segments. In the end, we adopted the Polygon to Raster tool with the same parameters as those used for transforming the age structure data to downscale AVSLY in the prefectures into a 0.01 × 0.01° gridded resolution.\nThrough integrating the AVSLY over the remaining life expectancy, the AVSL can be obtained via equation (4):\nwhere \\({{{\\mathrm{AVSL}}}}_{y,{a}}^{i,{\\,j}}\\) and \\({{L}}_{y,{a}}^{i,\\,j}\\) are the mean AVSL and life expectancy, respectively, at age a in the grid (i,j) and year y. \\({{{\\mathrm{AVSLY}}}}_{y,{a}+t}^{i,{\\,j}}\\) is the AVSLY of individuals aged a + t in the grid (i,j) during the year y, t represents the tth year after the age of attributable death 𝑎.\nBased on the AVSL and premature deaths attributable to PM2.5 exposure, the economic cost (EC) can be assessed as follows:\nwhere \\({{{\\mathrm{AVSL}}\\_{\\mathrm{EC}}}}_{y,c,{a}}^{i,\\,j}\\) is the economic cost of age segment a contributed by death cause c in the grid (i,j) and the year y, and \\({D}_{y,{c},a}^{i,\\,j}\\) is the number of premature deaths for each death cause c, at age a, in grid cell (i,j), in year y.\nTo better elucidate the economic burden imposed on local economies by socio-economic losses associated with PM2.5 exposure, we focused on analysing the relative economic costs in the second result. Here, the relative economic costs were calculated by dividing the absolute economic costs (estimated economic costs) by the local GDP. This method provides a measure of the socio-economic burden in relation to the economic development of each region, enabling a more accurate depiction of the financial challenges encountered by different prefectures.\n### Disease burden from PM2.5 exposure on the medical system\nOwing to disparities in economic development and healthcare resources, different regions exhibit differing capacities to tackle the health risks associated with the synergistic health effects of PM2.5 exposure and ageing. Hence, cities in remote areas, which are characterized by limited access to medical resources, higher ageing ratios and intensified PM2.5 exposure, may encounter a greater disease burden. To show this unequal pattern, a disease burden index was devised to quantify the impact of five diseases exacerbated by PM2.5 exposure on the healthcare system. First, we acquired medical-clinic data from the Japanese Ministry of Land, Infrastructure, Transport and Tourism, which contains information on the location and departments of over 170,000 hospitals in Japan for the year 2015. Following this, departments capable of treating the five PM2.5-related diseases were filtered out. To streamline the calculation, our selection focused mainly on departments that hold a central role and specialize in treating these particular diseases. In other words, our approach did not encompass all departments involved in treatment but instead ensured the inclusion of representative departments such as common departments of internal medicine and surgery. Consequently, we identified eight hospital departments renowned for their proficiency in treating the specified diseases: these included respiratory medicine and thoracic surgery for COPD, LRI and LC, cardiovascular medicine and cardiovascular surgery for IHD, neurology and neurosurgery for stroke, and oncology and surgical oncology for LC. Given that the same departments have different names, such as ‘pulmonology’ and ‘respiratory medicine’, we extracted unique keywords that represent similar meanings to filter the target departments. A detailed description of the keywords is presented in the Supplementary Tables 1–8.\nAfter deriving the location data of departments capable of treating five diseases, we generated spatial grids using regular hexagons with a 5 km apothem in Japan. This choice of range is based on the common practice of individuals seeking medical care within a 5 km radius for convenience. Then, the number of departments in each regular hexagonal grid was counted, thereby illustrating the distribution of medical resources correspondingly. Likewise, the economic cost per capita (ECP), originally in mesh format, was converted to the point data using the Raster to Point tool in ArcMap. These points were then spatially joined to a regular hexagonal grid net, with the average value of the points within each hexagonal cell calculated to represent the average health burden per capita caused by PM2.5 in each spatial cell. On this basis, the disease burden index, representing the health burden of five diseases in each department, can be calculated using equation (6):\nwhere \\({{{\\mathrm{DB}}}}_{u,v}^{c,d}\\) refers to the burden of disease c to departments d in hexagonal grid (u,v), \\({{{\\mathrm{AVSL}}\\_{\\mathrm{ECP}}}}_{u,v}^{c}\\) is the ECP of death cause c in hexagonal grid (u,v), \\({{{\\mathrm{AVSL}}\\_{\\mathrm{ECP}}}}_{\\max }\\) is the maximum ECP for five diseases in all hexagonal grids, \\({{N}}_{u,v}^{\\,c,d}\\) represents the number of department d which could treat disease c in hexagonal grid (u,v) and \\({{N}}_{\\max }^{c}\\) is the maximum number among all departments that could treat disease c in all hexagonal grids. The disease burden value ranges from 0 to 1, meaning from a low burden to an intense burden. In this equation for the disease burden index, spatial log normalization was applied to map the number of departments and economic cost to a range spanning from 0 to 1 to maintain the discrepancy of original data with an uneven distribution. It should be noted that the hospital department data were normalized within specific disease categories that they are equipped to treat, whereas economic cost data were normalized across the five diseases. For instance, the number of cardiovascular medicine departments was normalized on the basis of the maximum number of cardiovascular medicine and cardiovascular surgery departments across all grids. On the other hand, economic costs related to IHD were normalized on the basis of the maximum economic cost of five diseases in all grids. This approach enables us to compare the impact of various PM2.5-related diseases and evaluate the burden placed on different departments that are capable of diagnosing the same disease. Apart from that, to provide a comprehensive overview of the past 19 years, the calculation was based on the average ECP from 2001 to 2019.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR52",
+                "ref-CR57",
+                "ref-CR51",
+                "ref-CR34",
+                "ref-CR55",
+                "ref-CR54",
+                "ref-CR14",
+                "ref-CR53",
+                "ref-CR58",
+                "ref-CR49",
+                "ref-CR56",
+                "ref-CR50"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Age-stratified AVSL and PM2.5-related health impacts in Japan.",
+            "figure-caption": "a–e, Annual average AVSL (top) and variation of premature deaths (bottom) attributable to PM2.5 among individuals aged 0–19 yr (a), 20–39 yr (b), 40–59 yr (c), 60–79 yr (d) and ≥80 yr (e) from 2001 to 2019 across 47 prefectures. The solid blue line indicates the number of deaths, and the shaded blue area represents the 95% CI, calculated from uncertainties in relative risk using the standard errors of the GEMM parameters. f, Relationship between age, AVSL, and deaths at the prefecture level (annual average value from 2001 to 2019) for the data shown in a–e. g, Annual variation of total deaths attributable to PM2.5 from 2001 to 2019. The solid red line indicates the total number of deaths, and the shaded pink area represents the 95% CI, calculated as for a–e. h, YLL values across ten regions in 2001, 2005, 2010, 2015 and 2019.Source data",
+            "figure-link": "https://www.nature.com/articles/s41893-025-01509-9/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Monetized health impacts attributable to PM2.5 exposure and the contribution from different prefectures and age segments.",
+            "figure-caption": "The central map shows the annual average EC/GDP across prefectures from 2001 to 2019 (that is, the relative economic cost), and the right inset map provides additional context on the annual average economic cost caused by PM2.5 exposure across prefectures from 2001 to 2019 (that is, the absolute economic cost). a–j, Relative economic cost by age segment and year for the top five prefectures with the highest absolute socio-economic cost (Tokyo (a), Osaka (b), Aichi (c), Kanagawa (d) and Fukuoka (e)) and the top five prefectures with the highest relative socio-economic cost (Saga (f), Kumamoto (g), Kagoshima (h), Yamaguchi (i) and Nagasaki (j)). For each, the bar chart (top left) depicts the 19 year average EC/GDP contributed by the different age groups, the lollipop chart (top right) illustrates the fluctuations in EC/GDP for the years 2005, 2010, 2015 and 2019 compared with the baseline year of 2001 and the line graph (bottom) depicts the annual variation of EC/GDP from 2001 to 2019. Bottom: the dashed line in the line graph represents the fitted trendline of the EC/GDP over the analyzed years, calculated using a linear regression model.Source data",
+            "figure-link": "https://www.nature.com/articles/s41893-025-01509-9/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Map of disease burden considering the spatial mismatch between PM2.5 exposure and healthcare resources.",
+            "figure-caption": "a–e, Disease burden of LRI (a), COPD (b), stroke (c), IHD (d) and LC (e). RM, respiratory medicine; TS, thoracic surgery; CVM, cardiovascular medicine; CVS, cardiovascular surgery; NEURO, neurology; NEUROS, neurosurgery; ONC, oncology; SONC, surgical oncology. f, Spatial distribution of the eight types of hospital department. The bar chart indicates the number of respective hospital departments in Japan. g, Accumulated disease burden from the five diseases in a–e. The accumulated disease burden maps (1–3, bottom) provide zoomed-in views of the spatial distribution across the Kanto (1), Kinki (2) and Kyushu regions (3). The bar charts indicate the grid average disease burden experienced by each prefecture. Detailed versions of a–e are shown in Supplementary Figs. 14–18 for better clarification. Credit: body and organ icons in a–e, Freepik.com.Source data",
+            "figure-link": "https://www.nature.com/articles/s41893-025-01509-9/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Bloom, D. E. & Luca, D. L. in Handbook of the Economics of Population Aging, Vol. 1A (eds Piggott, J. & Woodland, A.) 3–56 (North-Holland, 2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "World Population Prospects 2022: Summary of Results UN DESA/POP/2022/TR/NO. 3 (United Nations, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Jarzebski, M. P. et al. Ageing and population shrinking: implications for sustainability in the urban century. npj Urban Sustain. 1, 17 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs42949-021-00023-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ageing%20and%20population%20shrinking%3A%20implications%20for%20sustainability%20in%20the%20urban%20century&journal=npj%20Urban%20Sustain.&doi=10.1038%2Fs42949-021-00023-z&volume=1&publication_year=2021&author=Jarzebski%2CMP"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Hutton, D. Older People in Emergencies: Considerations for Action and Policy Development (World Health Organization, 2008).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "World Population Ageing 2020 Highlights: Living Arrangements of Older Persons ST/ESA/SER.A/451 (United Nations, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Shrestha, L. B. Population aging in developing countries: the elderly populations of developing countries are now growing more rapidly than those in industrialized nations, thanks to health advances and declining fertility rates. Health Aff. 19, 204–212 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1377%2Fhlthaff.19.3.204",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD3c3nt1Krsg%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Population%20aging%20in%20developing%20countries%3A%20the%20elderly%20populations%20of%20developing%20countries%20are%20now%20growing%20more%20rapidly%20than%20those%20in%20industrialized%20nations%2C%20thanks%20to%20health%20advances%20and%20declining%20fertility%20rates&journal=Health%20Aff.&doi=10.1377%2Fhlthaff.19.3.204&volume=19&pages=204-212&publication_year=2000&author=Shrestha%2CLB"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Higo, M. & Khan, H. T. Global population aging: unequal distribution of risks in later life between developed and developing countries. Glob. Soc. Policy 15, 146–166 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F1468018114543157",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20population%20aging%3A%20unequal%20distribution%20of%20risks%20in%20later%20life%20between%20developed%20and%20developing%20countries&journal=Glob.%20Soc.%20Policy&doi=10.1177%2F1468018114543157&volume=15&pages=146-166&publication_year=2014&author=Higo%2CM&author=Khan%2CHT"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Lloyd-Sherlock, P. Population ageing in developed and developing regions: implications for health policy. Soc. Sci. Med. 51, 887–895 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0277-9536%2800%2900068-X",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD3M7gvFegsA%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Population%20ageing%20in%20developed%20and%20developing%20regions%3A%20implications%20for%20health%20policy&journal=Soc.%20Sci.%20Med.&doi=10.1016%2FS0277-9536%2800%2900068-X&volume=51&pages=887-895&publication_year=2000&author=Lloyd-Sherlock%2CP"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Chand, M. & Tung, R. L. The aging of the world’s population and its effects on global business. Acad. Manag. Perspect. 28, 409–429 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.5465%2Famp.2012.0070",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20aging%20of%20the%20world%E2%80%99s%20population%20and%20its%20effects%20on%20global%20business&journal=Acad.%20Manag.%20Perspect.&doi=10.5465%2Famp.2012.0070&volume=28&pages=409-429&publication_year=2014&author=Chand%2CM&author=Tung%2CRL"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Xu, F. et al. The challenge of population aging for mitigating deaths from PM2.5 air pollution in China. Nat. Commun. 14, 5222 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-023-40908-4",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3sXhsl2qt7bE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20challenge%20of%20population%20aging%20for%20mitigating%20deaths%20from%20PM2.5%20air%20pollution%20in%20China&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-023-40908-4&volume=14&publication_year=2023&author=Xu%2CF"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Thangavel, P., Park, D. & Lee, Y.-C. Recent insights into particulate matter (PM2.5)-mediated toxicity in humans: an overview. Int. J. Environ. Res. Public Health 19, 7511 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph19127511",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xhs1yhtbjM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Recent%20insights%20into%20particulate%20matter%20%28PM2.5%29-mediated%20toxicity%20in%20humans%3A%20an%20overview&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph19127511&volume=19&publication_year=2022&author=Thangavel%2CP&author=Park%2CD&author=Lee%2CY-C"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Wang, B. et al. The impact of long-term PM2.5 exposure on specific causes of death: exposure–response curves and effect modification among 53 million U.S. Medicare beneficiaries. Environ. Health 19, 20 (2020).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12940-020-00575-0",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXls1Cit70%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20long-term%20PM2.5%20exposure%20on%20specific%20causes%20of%20death%3A%20exposure%E2%80%93response%20curves%20and%20effect%20modification%20among%2053%20million%20U.S.%20Medicare%20beneficiaries&journal=Environ.%20Health&doi=10.1186%2Fs12940-020-00575-0&volume=19&publication_year=2020&author=Wang%2CB"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Feng, S., Gao, D., Liao, F., Zhou, F. & Wang, X. The health effects of ambient PM2.5 and potential mechanisms. Ecotoxicol. Environ. Saf. 128, 67–74 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecoenv.2016.01.030",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XivFyjs7Y%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20health%20effects%20of%20ambient%20PM2.5%20and%20potential%20mechanisms&journal=Ecotoxicol.%20Environ.%20Saf.&doi=10.1016%2Fj.ecoenv.2016.01.030&volume=128&pages=67-74&publication_year=2016&author=Feng%2CS&author=Gao%2CD&author=Liao%2CF&author=Zhou%2CF&author=Wang%2CX"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Yin, H. et al. Population ageing and deaths attributable to ambient PM2.5 pollution: a global analysis of economic cost. Lancet Planet. Health 5, e356–e367 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2821%2900131-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Population%20ageing%20and%20deaths%20attributable%20to%20ambient%20PM2.5%20pollution%3A%20a%20global%20analysis%20of%20economic%20cost&journal=Lancet%20Planet.%20Health&doi=10.1016%2FS2542-5196%2821%2900131-5&volume=5&pages=e356-e367&publication_year=2021&author=Yin%2CH"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Liu, J. et al. Transition in air pollution, disease burden and health cost in China: a comparative study of long-term and short-term exposure. Environ. Pollut. 277, 116770 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envpol.2021.116770",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXls1Srsb4%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Transition%20in%20air%20pollution%2C%20disease%20burden%20and%20health%20cost%20in%20China%3A%20a%20comparative%20study%20of%20long-term%20and%20short-term%20exposure&journal=Environ.%20Pollut.&doi=10.1016%2Fj.envpol.2021.116770&volume=277&publication_year=2021&author=Liu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Pope, C. 3rd Epidemiology of fine particulate air pollution and human health: biologic mechanisms and who’s at risk? Environ. Health Perspect. 108, 713–723 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1289%2Fehp.108-1637679",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD3cXms1ylsL4%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Epidemiology%20of%20fine%20particulate%20air%20pollution%20and%20human%20health%3A%20biologic%20mechanisms%20and%20who%E2%80%99s%20at%20risk%3F&journal=Environ.%20Health%20Perspect.&doi=10.1289%2Fehp.108-1637679&volume=108&pages=713-723&publication_year=2000&author=Pope%2CC"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Bloom, D. E. et al. Macroeconomic implications of population ageing and selected policy responses. Lancet 385, 649–657 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2814%2961464-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Macroeconomic%20implications%20of%20population%20ageing%20and%20selected%20policy%20responses&journal=Lancet&doi=10.1016%2FS0140-6736%2814%2961464-1&volume=385&pages=649-657&publication_year=2015&author=Bloom%2CDE"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "World Economic and Social Survey 2007: Development in an Ageing World (United Nations, 2007).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Masereka, E. M. et al. in Health Insurance Across Worldwide Health Systems (ed. Tavares, A. I.) Ch. 3 (IntechOpen, 2024); https://doi.org/10.5772/intechopen.1003279",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Du, X., Du, Y., Zhang, Y., Zhu, Y. & Yang, Y. Urban and rural disparities in general hospital accessibility within a Chinese metropolis. Sci. Rep. 14, 23359 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-024-74816-4",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2cXitF2gt7nJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20and%20rural%20disparities%20in%20general%20hospital%20accessibility%20within%20a%20Chinese%20metropolis&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-024-74816-4&volume=14&publication_year=2024&author=Du%2CX&author=Du%2CY&author=Zhang%2CY&author=Zhu%2CY&author=Yang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Health at a Glance 2023: OECD Indicators (OECD Publishing, 2023)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Yan, D. et al. The effect of fine particulate matter (PM2.5) pollution on health inequality: an intergenerational perspective. Environ. Geochem. Health 46, 195 (2024).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10653-024-01982-9",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2cXps12jtr8%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20fine%20particulate%20matter%20%28PM2.5%29%20pollution%20on%20health%20inequality%3A%20an%20intergenerational%20perspective&journal=Environ.%20Geochem.%20Health&doi=10.1007%2Fs10653-024-01982-9&volume=46&publication_year=2024&author=Yan%2CD"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Fingerman, K. L., Pillemer, K. A., Silverstein, M. & Suitor, J. J. The Baby Boomers’ intergenerational relationships. Gerontologist 52, 199–209 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fgeront%2Fgnr139",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20Baby%20Boomers%E2%80%99%20intergenerational%20relationships&journal=Gerontologist&doi=10.1093%2Fgeront%2Fgnr139&volume=52&pages=199-209&publication_year=2012&author=Fingerman%2CKL&author=Pillemer%2CKA&author=Silverstein%2CM&author=Suitor%2CJJ"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Mudrazija, S. & Butrica, B. A. How does debt shape health outcomes for older Americans? Soc. Sci. Med. 329, 116010 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.socscimed.2023.116010",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20does%20debt%20shape%20health%20outcomes%20for%20older%20Americans%3F&journal=Soc.%20Sci.%20Med.&doi=10.1016%2Fj.socscimed.2023.116010&volume=329&publication_year=2023&author=Mudrazija%2CS&author=Butrica%2CBA"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Knickman, J. R. & Snell, E. K. The 2030 problem: caring for aging Baby Boomers. Health Serv. Res. 37, 849–884 (2002).",
+            "links": {
+                "Article": "https://doi.org/10.1034%2Fj.1600-0560.2002.56.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%202030%20problem%3A%20caring%20for%20aging%20Baby%20Boomers&journal=Health%20Serv.%20Res.&doi=10.1034%2Fj.1600-0560.2002.56.x&volume=37&pages=849-884&publication_year=2002&author=Knickman%2CJR&author=Snell%2CEK"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Cooper, M. A burden on future generations? How we learned to hate deficits and blame the baby boomers. Sociol. Rev. 69, 743–758 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0038026121999211",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20burden%20on%20future%20generations%3F%20How%20we%20learned%20to%20hate%20deficits%20and%20blame%20the%20baby%20boomers&journal=Sociol.%20Rev.&doi=10.1177%2F0038026121999211&volume=69&pages=743-758&publication_year=2021&author=Cooper%2CM"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Tynkkynen, L.-K. et al. Health system reforms and the needs of the ageing population—an analysis of recent policy paths and reform trends in Finland and Sweden. Eur. J. Ageing 19, 221–232 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10433-022-00699-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Health%20system%20reforms%20and%20the%20needs%20of%20the%20ageing%20population%E2%80%94an%20analysis%20of%20recent%20policy%20paths%20and%20reform%20trends%20in%20Finland%20and%20Sweden&journal=Eur.%20J.%20Ageing&doi=10.1007%2Fs10433-022-00699-x&volume=19&pages=221-232&publication_year=2022&author=Tynkkynen%2CL-K"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Yin, H., McDuffie, E. E., Martin, R. V. & Brauer, M. Global health costs of ambient PM2.5 from combustion sources: a modelling study supporting air pollution control strategies. Lancet Planet. Health 8, e476–e488 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2824%2900098-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20health%20costs%20of%20ambient%20PM2.5%20from%20combustion%20sources%3A%20a%20modelling%20study%20supporting%20air%20pollution%20control%20strategies&journal=Lancet%20Planet.%20Health&doi=10.1016%2FS2542-5196%2824%2900098-6&volume=8&pages=e476-e488&publication_year=2024&author=Yin%2CH&author=McDuffie%2CEE&author=Martin%2CRV&author=Brauer%2CM"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Feng, Y. et al. Long-term exposure to ambient PM2.5, particulate constituents and hospital admissions from non-respiratory infection. Nat. Commun. 15, 1518 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-024-45776-0",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2cXksVagsr4%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Long-term%20exposure%20to%20ambient%20PM2.5%2C%20particulate%20constituents%20and%20hospital%20admissions%20from%20non-respiratory%20infection&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-024-45776-0&volume=15&publication_year=2024&author=Feng%2CY"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Liao, L., Du, M. & Chen, Z. Air pollution, health care use and medical costs: evidence from China. Energy Econ. 95, 105132 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.eneco.2021.105132",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20pollution%2C%20health%20care%20use%20and%20medical%20costs%3A%20evidence%20from%20China&journal=Energy%20Econ.&doi=10.1016%2Fj.eneco.2021.105132&volume=95&publication_year=2021&author=Liao%2CL&author=Du%2CM&author=Chen%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Yang, J. & Zhang, B. Air pollution and healthcare expenditure: implication for the benefit of air pollution control in China. Environ. Int. 120, 443–455 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envint.2018.08.011",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20pollution%20and%20healthcare%20expenditure%3A%20implication%20for%20the%20benefit%20of%20air%20pollution%20control%20in%20China&journal=Environ.%20Int.&doi=10.1016%2Fj.envint.2018.08.011&volume=120&pages=443-455&publication_year=2018&author=Yang%2CJ&author=Zhang%2CB"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Chen, F. & Chen, Z. Cost of economic growth: air pollution and health expenditure. Sci. Total Environ. 755, 142543 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.142543",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXitVeiu7%2FM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cost%20of%20economic%20growth%3A%20air%20pollution%20and%20health%20expenditure&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.142543&volume=755&publication_year=2021&author=Chen%2CF&author=Chen%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "McCurry, J. Japan will be model for future super-ageing societies. Lancet 386, 1523 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2815%2900525-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Japan%20will%20be%20model%20for%20future%20super-ageing%20societies&journal=Lancet&doi=10.1016%2FS0140-6736%2815%2900525-5&volume=386&publication_year=2015&author=McCurry%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Burnett, R. et al. Global estimates of mortality associated with long-term exposure to outdoor fine particulate matter. Proc. Natl Acad. Sci. USA 115, 9592–9597 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1803222115",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXitVKhu7rI",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20estimates%20of%20mortality%20associated%20with%20long-term%20exposure%20to%20outdoor%20fine%20particulate%20matter&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1803222115&volume=115&pages=9592-9597&publication_year=2018&author=Burnett%2CR"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Plackett, B. Tackling the crisis of care for older people: lessons from India and Japan. Nature 601, S12–S14 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fd41586-022-00074-x",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhsF2mtLo%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Tackling%20the%20crisis%20of%20care%20for%20older%20people%3A%20lessons%20from%20India%20and%20Japan&journal=Nature&doi=10.1038%2Fd41586-022-00074-x&volume=601&pages=S12-S14&publication_year=2022&author=Plackett%2CB"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Employment Status Survey 2022 (Statistics Bureau of Japan, 2023); https://www.stat.go.jp/english/data/shugyou/index.html",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Clark, R., Ogawa, N., Lee, S.-H. & Matsukura, R. Older workers and national productivity in Japan. Popul. Dev. Rev. 34, 257–274 (2008).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Older%20workers%20and%20national%20productivity%20in%20Japan&journal=Popul.%20Dev.%20Rev.&volume=34&pages=257-274&publication_year=2008&author=Clark%2CR&author=Ogawa%2CN&author=Lee%2CS-H&author=Matsukura%2CR"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Christophers, B. Intergenerational inequality? Labour, capital, and housing through the ages. Antipode 50, 101–121 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fanti.12339",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Intergenerational%20inequality%3F%20Labour%2C%20capital%2C%20and%20housing%20through%20the%20ages&journal=Antipode&doi=10.1111%2Fanti.12339&volume=50&pages=101-121&publication_year=2018&author=Christophers%2CB"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Minami, U. et al. Effects of the change in working status on the health of older people in Japan. PLoS ONE 10, e0144069 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0144069",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effects%20of%20the%20change%20in%20working%20status%20on%20the%20health%20of%20older%20people%20in%20Japan&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0144069&volume=10&publication_year=2015&author=Minami%2CU"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Statistics on foreign residents (formerly known as registered foreigners). Immigration Services Agency of Japan https://www.moj.go.jp/isa/policies/statistics/toukei_ichiran_touroku.html (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Dilley, L., Gkartzios, M. & Odagiri, T. Developing counterurbanisation: making sense of rural mobility and governance in Japan. Habitat Int. 125, 102595 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.habitatint.2022.102595",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Developing%20counterurbanisation%3A%20making%20sense%20of%20rural%20mobility%20and%20governance%20in%20Japan&journal=Habitat%20Int.&doi=10.1016%2Fj.habitatint.2022.102595&volume=125&publication_year=2022&author=Dilley%2CL&author=Gkartzios%2CM&author=Odagiri%2CT"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Medical Care Act No. 79 (Ministry of Justice of Japan, 2018)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Batalova, J. Immigrant Health-Care Workers in the United States (Migration Policy Institute, 2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Kamo, H. Care worker shortage and the regional characteristics of foreign candidate acceptance for certified care workers in Japan. Ann. Assoc. Econ. Geogr. 65, 280–294 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Care%20worker%20shortage%20and%20the%20regional%20characteristics%20of%20foreign%20candidate%20acceptance%20for%20certified%20care%20workers%20in%20Japan&journal=Ann.%20Assoc.%20Econ.%20Geogr.&volume=65&pages=280-294&publication_year=2019&author=Kamo%2CH"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Japan is looking for Specified Skilled Workers! Ministry of Foreign Affairs of Japan https://www.mofa.go.jp/mofaj/ca/fna/ssw/us/ (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Otomo, R. Healthcare, language and a free-trade agreement: institutional logics of on-the-job Japanese language training for migrant healthcare workers. Multilingua 39, 343–367 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1515%2Fmulti-2019-0007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Healthcare%2C%20language%20and%20a%20free-trade%20agreement%3A%20institutional%20logics%20of%20on-the-job%20Japanese%20language%20training%20for%20migrant%20healthcare%20workers&journal=Multilingua&doi=10.1515%2Fmulti-2019-0007&volume=39&pages=343-367&publication_year=2020&author=Otomo%2CR"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Hirano, Y. O., Tsubota, K. & Ohno, S. Factors associated with the recruitment of foreign nurses in Japan: a nationwide study of hospitals. Hum. Resour. Health 18, 88 (2020).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12960-020-00532-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Factors%20associated%20with%20the%20recruitment%20of%20foreign%20nurses%20in%20Japan%3A%20a%20nationwide%20study%20of%20hospitals&journal=Hum.%20Resour.%20Health&doi=10.1186%2Fs12960-020-00532-5&volume=18&publication_year=2020&author=Hirano%2CYO&author=Tsubota%2CK&author=Ohno%2CS"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Regarding the Number of Foreign Residents as of the End of June 2020 (Immigration Services Agency of Japan, 2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Eitner, C., Enste, P., Naegele, G. & Leve, V. in The Silver Market Phenomenon: Marketing and Innovation in the Aging Society (eds. Kohlbacher, F. & Herstatt, C.) 309–324 (Springer, 2011).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "The Silver Economy: Final Report (European Union, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR51",
+            "content": "van Donkelaar, A. et al. Monthly global estimates of fine particulate matter and their uncertainty. Environ. Sci. Technol. 55, 15287–15300 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.1c05309",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Monthly%20global%20estimates%20of%20fine%20particulate%20matter%20and%20their%20uncertainty&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.1c05309&volume=55&pages=15287-15300&publication_year=2021&author=Donkelaar%2CA"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Li, C. & Managi, S. Gridded datasets for Japan: total, male, and female populations from 2001–2020. Sci. Data 10, 81 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41597-023-01989-4",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3sXhvFSnur4%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Gridded%20datasets%20for%20Japan%3A%20total%2C%20male%2C%20and%20female%20populations%20from%202001%E2%80%932020&journal=Sci.%20Data&doi=10.1038%2Fs41597-023-01989-4&volume=10&publication_year=2023&author=Li%2CC&author=Managi%2CS"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Global Burden of Disease Study 2019 (GBD 2019) Results (Institute for Health Metrics and Evaluation, 2020); https://ghdx.healthdata.org/gbd-2019",
+            "links": {}
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Guan, C., Wu, S., Xu, W. & Zhang, J. Global, regional, and national burden of ischaemic heart disease and its trends, 1990–2019. Public Health 223, 57–66 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.puhe.2023.07.010",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%2C%20regional%2C%20and%20national%20burden%20of%20ischaemic%20heart%20disease%20and%20its%20trends%2C%201990%E2%80%932019&journal=Public%20Health&doi=10.1016%2Fj.puhe.2023.07.010&volume=223&pages=57-66&publication_year=2023&author=Guan%2CC&author=Wu%2CS&author=Xu%2CW&author=Zhang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Marelli, A. J., Mackie, A. S., Ionescu-Ittu, R., Rahme, E. & Pilote, L. Congenital heart disease in the general population: changing prevalence and age distribution. Circulation 115, 163–172 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1161%2FCIRCULATIONAHA.106.627224",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Congenital%20heart%20disease%20in%20the%20general%20population%3A%20changing%20prevalence%20and%20age%20distribution&journal=Circulation&doi=10.1161%2FCIRCULATIONAHA.106.627224&volume=115&pages=163-172&publication_year=2007&author=Marelli%2CAJ&author=Mackie%2CAS&author=Ionescu-Ittu%2CR&author=Rahme%2CE&author=Pilote%2CL"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "The Economic Consequences of Outdoor Air Pollution (OECD, 2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Narain, U. & Sall, C. Methodology for Valuing The Health Impacts Of Air Pollution: Discussion of Challenges and Proposed Solutions (World Bank Group, 2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR58",
+            "content": "World Bank & Institute for Health Metrics and Evaluation. The Cost of Air Pollution: Strengthening the Economic Case for Action (World Bank Group, 2016).",
+            "links": {}
+        }
+    ]
+}

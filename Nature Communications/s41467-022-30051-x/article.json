@@ -1,0 +1,903 @@
+{
+    "id": "s41467-022-30051-x",
+    "journal": "Nature Communications",
+    "type": "article",
+    "title": "Using sero-epidemiology to monitor disparities in vaccination and infection with SARS-CoV-2",
+    "legal_title": "Using sero-epidemiology to monitor disparities in vaccination and infection with SARS-CoV-2",
+    "publish_time": "2022-05-04",
+    "pdf_link": "https://www.nature.com/articles/s41467-022-30051-x",
+    "storage_path": "./Articles/Nature Communications/2022-article/s41467-022-30051-x/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": true,
+    "review_link": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_MOESM2_ESM.pdf",
+    "Abstract": "As SARS-CoV-2 continues to spread and vaccines are rolled-out, the “double burden” of disparities in exposure and vaccination intersect to determine patterns of infection, immunity, and mortality. Serology provides a unique opportunity to measure prior infection and vaccination simultaneously. Leveraging algorithmically-selected residual sera from two hospital networks in the city of San Francisco, cross-sectional samples from 1,014 individuals from February 4–17, 2021 were each tested on two assays (Ortho Clinical Diagnostics VITROS Anti-SARS-CoV-2 and Roche Elecsys Anti-SARS-CoV-2), capturing the first year of the epidemic and early roll-out of vaccination. We estimated, using Bayesian estimation of infection and vaccination, that infection risk of Hispanic/Latinx residents was five times greater than of White residents aged 18–64 (95% Credible Interval (CrI): 3.2–10.3), and that White residents over 65 were twice as likely to be vaccinated as Black/African American residents (95% CrI: 1.1–4.6). We found that socioeconomically-deprived zipcodes had higher infection probabilities and lower vaccination coverage than wealthier zipcodes. While vaccination has created a ‘light at the end of the tunnel’ for this pandemic, ongoing challenges in achieving and maintaining equity must also be considered.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "During the initial waves of the COVID-19 pandemic, disparities in disease burden were largely driven by differences in infection rates1,2. In addition, structural inequalities are associated with disparities in the risk of comorbidities (which increase the likelihood of hospitalization and death from COVID-193) and with disparities in access to healthcare (both in managing comorbidities and in accessing care for COVID-19). As vaccine and booster roll-outs continue to advance in the United States and globally, disparities also exist in both vaccine access and uptake. These disparities are multifactorial and complex, including reduced technology access and literacy4, barriers in access to healthcare, concern about the safety of the vaccines5,6, mistrust as a result of a history of medical racism and discrimination6,7,8,9, and poor access to reliable information about the vaccine6,10. In the age of vaccination, policymakers must understand the way in which societal structures affect disparities in both infection and vaccination. These disparities may interact to affect both population level immunity and the burden of COVID-19 in different communities. This is relevant both in the present and in the future, as policymakers consider the continued roll-out of vaccines in the context of new variants, as well as preparing for and responding to other diseases.\nGiven the high levels of disease under-ascertainment, serology (i.e., the measurement of antibodies) has been particularly useful for understanding SARS-CoV-2 infection levels in the population. When there is variability in testing rates and healthcare seeking behavior, serology is an even more useful tool. Seroepidemiology provides a unique opportunity to measure biomarkers of infection and vaccination simultaneously, and to relate these metrics to demographic and geographic factors. In settings where vaccines based on the SARS-CoV-2 spike protein (e.g., currently available mRNA or adenovirus vector vaccines) are used, measuring long-lived antibody responses to both spike and non-spike proteins can be used to disentangle immune responses elicited by infection from vaccination. While structural inequalities are by no means limited to the United States, here we focus on a case example leveraging serology to understand inequalities within this context.\nSan Francisco is a city which has had a relatively successful early and sustained COVID-19 response and has achieved high vaccination coverage. However, reported case counts of COVID-19 and hospitalization rates have been higher in socioeconomically deprived areas, amongst homeless individuals, and within the city’s Hispanic/Latinx and Black/African American communities11,12. Disparities in vaccination coverage have also been reported, particularly in the early months of vaccine roll-out, creating a double burden for some vulnerable communities. In San Francisco, whilst some disparities have now been addressed, vaccination remains much lower in homeless individuals and in Black/African American individuals13.\nTo measure disparities in both infection rates and vaccination, we leveraged a SARS-CoV-2 serosurveillance platform launched in March 2020 that utilizes residual blood samples taken from two hospital networks in San Francisco. Estimates derived from this platform during the first wave of the pandemic showed seroprevalence in Hispanic/Latinx individuals to be nearly two times higher than in White individuals, and nearly two times higher in homeless individuals than the population average14. We collected samples from individuals undergoing routine blood draws between February 4 and February 17, 2021, capturing transmission during the first 11 months of the epidemic and the early roll-out of vaccination (primarily for those over 65 years old as well as workers in specific professions i.e., healthcare). These samples were tested using two serologic assays: one detecting antibodies to SARS-CoV-2 elicited by infection and not by vaccines currently used in the US, and one detecting antibodies to SARS-CoV-2 elicited by both infection and vaccination. We used Bayesian statistical models to estimate the proportion of the population that was seropositive due to natural infection and the proportion seropositive due to vaccination, stratified by age, race and zipcode of residence.",
+            "cites": [
+                "ref-CR5",
+                "ref-CR3",
+                "ref-CR12",
+                "ref-CR14",
+                "ref-CR8",
+                "ref-CR2",
+                "ref-CR10",
+                "ref-CR13",
+                "ref-CR11",
+                "ref-CR6",
+                "ref-CR1",
+                "ref-CR7",
+                "ref-CR4",
+                "ref-CR9"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "Between February 4, 2021, and February 17, 2021, we collected samples from 1014 individual patients, from UCSF Health (n = 698 patients) and the San Francisco Department of Public Health (n = 316 patients) networks. By design, the geographic distribution of residents matched the proportion of the San Francisco population living in each zipcode (Fig. 1). Our sample was equally distributed by sex; however, our sample over-represented the 65+ age range and under-represented the 0-34 age range relative to the San Francisco population (Table 1). Our results were relatively representative of the San Francisco population by race and ethnicity, although our sample over-represented those who identified as Black/African American and under-represented those who identified as Asian.\nFollowing testing samples on both Vitros (spike protein) and Roche (nucleocapsid protein) assays, of the sampled population where assay results were complete (N = 915), we found that while 28.4% (N = 260) tested positive on the Vitros assay and therefore antibodies to SARS-CoV-2 were detected, only 8.6% (N = 79) tested positive on the Roche assay, detecting antibodies elicited by prior natural infection (i.e., natural infection prior to serosurvey) (Fig. 2, Supplementary Fig. 1, Supplementary Table 1). Of the 999 samples where assay results were available, N = 81 samples were excluded from the bivariate analyses due to missing data in at least one assay, and 3 additional samples were excluded due to positive results on the Roche assay despite negative results on the Vitros assay.\nOur estimated probabilities of vaccination and prior infection stratified by age, race/ethnicity and zipcode showed striking differences in prior infection rates and vaccination rates across the city (Fig. 3, Supplementary Fig. 2, Supplementary Table 2). Zipcodes in the southeastern region of the city, comprising medically underserved neighborhoods, had demonstrably higher rates of prior infection and lower rates of vaccination. This pattern is not evident in estimated seroprevalence by the Vitros assay, which captures antibody responses acquired through natural infection and/or vaccination. For example, within the 94124 zipcode, Bayview-Hunter’s Point, one of the city’s most deprived zipcodes, the mean probability of prior infection was 0.155 (95% credible interval (CrI): 0.077–0.254) and vaccination was 0.079 (95% CrI: 0.019–0.163), whereas 94115, Pacific Heights, one of the wealthier zipcodes in San Francisco with a median household income almost double that of Bayview-Hunter’s Point at $123,03715, the probability of infection was just 0.023 (95% CrI: 0.001–0.080) and vaccination was 0.359 (95% CrI: 0.258–0.467). Supplementary Fig. 3 maps the socioeconomic and racial/ethnic make-up of zipcodes within San Francisco to further contextualise Fig. 3.\nWe found the highest seroprevalence as a result of prior infection in younger age groups (using the Roche assay, Fig. 4a, Supplementary Table 3). We estimated seroprevalence derived from both vaccination and natural infection using the Vitros assay to be much higher in those aged over 65 (Fig. 4b, Supplementary Table 3), consistent with the eligibility criteria for vaccination in the weeks before the sampling period.\nWe identified differences in prior infection rates by race/ethnicity (Fig. 4c, d): we estimated that the risk of prior infection of Hispanic/Latinx residents was 5.3 (95% CrI: 3.2–10.3) times greater than the risk of White residents aged 18–64 (Fig. 5a, Supplementary Table 4). These trends were echoed in older individuals (aged 65 + ) (Fig. 5a, Supplementary Table 4). We also identified disparities in vaccination coverage among the 65+ year old population, who were eligible to receive the vaccine during this time period. We estimated that White San Francisco residents over the age of 65 were twice as likely (2.0, 95% CrI: 1.1–4.6) to be vaccinated as Black/African American residents.\nTaken together, these findings imply that there is an imbalance between the risk of infection and the early rate of vaccination in certain populations. Among the 65+ year old population, we found greatly increased ratios of vaccination coverage as compared to infection risk among Asian and White individuals, while these ratios were much lower among Black/African American and Hispanic/Latinx individuals (Fig. 5b, Supplementary Table 4). For every naturally infected Asian resident of this age group, there were 12.2 vaccinated Asian residents (95% CrI: 4.2–55.5), whereas, for every naturally infected Hispanic/Latinx resident of this age group, there were only 1.6 vaccinated Hispanic/Latinx residents (95% CrI: 0.7–3.7). For both Hispanic/Latinx and Black/African American individuals over 65 years old, the risk of having immunity acquired through vaccination, relative to natural infection, was up to four times lower than for White individuals.",
+            "cites": [
+                "ref-CR15"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-3",
+                "figure-5",
+                "figure-4",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Using data from a previously established serosurveillance platform for SARS-CoV-2 in San Francisco, we quantified disparities in both vaccination coverage and infection rates across different demographic groups and geographies, and show that, during early vaccine roll-out, vaccination coverage was much higher in Asian and White populations, despite experiencing lower risk of infection by SARS-CoV-2 than Black/African American and Hispanic/Latinx populations.\nThe “double burden” we observed in San Francisco during the early vaccine roll-out echoes broader patterns that have been observed in San Francisco and elsewhere. Even though San Francisco was hailed as the first major US city to reach the milestone of 80% vaccination coverage in adults16, recent increases in infection have been found to be concentrated in the neighborhoods which were hardest hit by initial infections and where we found vaccination-related immunity was lowest17. A report from the University of Texas found striking geographic and racial stratification of cases of COVID-19 and vaccination rates in Austin, Texas, which also closely mapped with indices of deprivation and social vulnerability over zipcodes18. Like in San Francisco, the neighborhoods which were predominantly Hispanic/Latinx communities and had higher indices of deprivation also had higher incidence of SARS-CoV-2 infection and lower vaccination coverage. Disparities in SARS-CoV-2 vaccination coverage among socially vulnerable populations have been documented across the United States19 and in other parts of the world20.\nThere are several caveats and limitations to the approach introduced here. The Roche assay can only differentiate antibody responses resulting from natural infections in settings where Spike-based vaccines are used (that do not generate antibody responses against the nucleocapsid), so in geographies where other vaccines are used, this approach would not be suitable. Although we used samples obtained through the University of California San Francisco and San Francisco Department of Public Health (SFDPH) health networks, which allowed for the inclusion of un-insured and under-insured individuals, we still are only able to capture those seeking healthcare or are reached by the SFDPH. Although the exclusion of non-emergency room inpatients and those seeking care for COVID-19 symptoms and inclusion of only routinely collected blood tests all were designed to reduce the biases in our sample, this study still may not capture a fully representative cross-section of the population. As eligibility in San Francisco for vaccination among individuals under 65 years of age during our sampling period was limited to healthcare workers, we necessarily aggregated vaccination coverage among 18–64 year olds into a single age group (Supplementary Fig. 4). In addition, given the short duration between the start of vaccine roll-out in San Francisco and this serosurvey, these data are only able to capture vaccination coverage and inequities therein during the early roll-out.\nWhile inequalities revealed during COVID-19 are not new, the pandemic has highlighted the ways in which even a city such as San Francisco which invests deeply in public health and social safety nets21 still has deep structural inequalities. These have been proposed to be the result of a combination of higher infection rates11, incompatibility of living or work conditions with risk reduction8,11, and lower or delayed access to and uptake of vaccines as they were initially being rolled out22.\nVarious initiatives are underway around the country to pinpoint geographic and other disparities in the context of COVID-1923,24. However, as well as highlighting disparities, it is important to consider what testing and vaccination initiatives have been successful to reduce these inequities. For example, within San Francisco, robust community-academic partnerships have been key for effectively responding to the pandemic in vulnerable communities25,26 and for narrowing gaps in vaccination coverage, such as through low-barrier neighborhood vaccination sites27. Prospectively, as we continue to gain a better understanding of waning immunity and continue to roll-out vaccine booster doses, considerations of equity will remain an important consideration for allocating resources. In the context of the United States, where vaccination and infection elicit different immune responses, serology provides a powerful lens through which we can quantify these disparities directly28. In addition, it is important to consider the desired metric before conducting a serosurvey, as assays measure different pathways to immunity and any disparities in infection rates may be masked by using assays that measure overall antibody prevalence.\nSince the early days of the pandemic, many policy recommendations have been made for ways to reduce health disparities in infection29 and vaccination30. Policymakers must invest in addressing both the upstream, structural drivers of health disparities, such as providing workers with a living wage, affordable housing, and access to quality healthcare, and also downstream drivers such as improved community engagement, targeted testing and vaccination provision, and assistance with common barriers to accessing healthcare such as technology access/literacy, transport, and providing accessible health information in multiple languages. While the arrival of the SARS-CoV-2 vaccine has created a ‘light at the end of the tunnel’ for this pandemic, ongoing challenges that long predate COVID-19 in achieving and maintaining equity must also be considered.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR18",
+                "ref-CR27",
+                "ref-CR16",
+                "ref-CR17",
+                "ref-CR22",
+                "ref-CR23",
+                "ref-CR30",
+                "ref-CR8",
+                "ref-CR21",
+                "ref-CR24",
+                "ref-CR28",
+                "ref-CR29",
+                "ref-CR11",
+                "ref-CR19",
+                "ref-CR20",
+                "ref-CR26"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "As part of an existing serological survey14, residual serum samples from routine blood draws from the University of California, San Francisco (UCSF) and San Francisco Department of Public Health (SFDPH) inpatient and outpatient healthcare systems were sampled between February 4 and February 17, 2021 (Supplementary Fig. 5). UCSF Medical Center is a network of three hospitals with ~1.8 million outpatient visits annually (https://www.ucsfhealth.org/about/annual-reports). The SFDPH hospital, Zuckerberg San Francisco General Hospital (ZSFG), is a city hospital that provides trauma, medical, and surgical services to a heterogeneous population of largely un- or underinsured patients, including the city’s homeless population, and serves roughly 100,000 patients per year (https://zsfg.ucsf.edu/about-ucsf-zsfg). A total of 1,091 samples were collected, of which 77 were excluded due to participation in a separate COVID research study, and a further 15 were later excluded from further analyses as they could not be linked to antibody test results. The characteristics of the samples are illustrated in Table 1. The full inclusion and exclusion criteria and sampling algorithm are described previously14. Briefly, we included patients undergoing routine blood testing, defined as blood chemistries and tests for sexually transmitted infections and rubella. We included patients residing in San Francisco, including those experiencing homelessness. We excluded individuals who were tested for SARS-CoV-2 during the visit when they received their blood draw (except if the test was for routine purposes, such as testing prior to an elective procedure or admittance to the hospital). We did not have any exclusion criteria for previous visits or tests for SARS-CoV-2 of any severity. We restricted our sample to outpatient and emergency department visits for adults; for under 18 s, we included both inpatient and outpatient visits due to small numbers of available samples. Finally, we excluded samples if a sample from the same patient had been selected within the previous 14 days. All demographic data were obtained from the electronic health record data. For race/ethnicity categorisation we aggregated the clinical records for self-reported race (Options: Black/African American, White, Asian, Hawaiian/Pacific Islander, Native American, Other, Do not wish to disclose) and self-reported ethnicity (Hispanic/Latinx, Not Hispanic/Latinx, Do not wish to disclose), so that those who self identify as Hispanic/Latinx of any race were categorised as Hispanic/Latinx for this study and all others were categorised by their self-reported race.\nEach sample (N = 1,014) was tested on two commercial SARS-CoV-2 serologic platforms. The Ortho Clinical Diagnostics VITROS Anti-SARS-CoV-2 Total assay measures the total Ig antibody response to the S1 subunit of the SARS-CoV-2 spike (S) protein and therefore is expected to yield a positive results after natural infection or vaccination31. The Roche Elecsys Anti-SARS-CoV-2 assay measures the total Ig antibody response to the SARS-CoV-2 nucleocapsid (N) protein32 and therefore is expected to yield a positive results after natural infection, but not after vaccination with vaccines based on the spike protein. In a previous analysis assessing the test performance characteristics of many SARS-CoV-2 serological assays, we found both assays to exhibit high sensitivity over time following infection33.\nSeropositivity on the Vitros assay indicates whether or not an individual has had any prior immune response to SARS-CoV-2, either through natural infection and/or vaccination. The SARS-CoV-2 mRNA and adenovirus vector vaccines elicit immune responses to only the S protein of the virus. Therefore, in contexts where these vaccines are used exclusively (such as the United States), seropositivity on the Roche assay indicates whether an individual has had a prior immune response to SARS-CoV-2 via infection. Assuming perfect test performance characteristics, the difference between the proportion seropositive on Vitros and the proportion seropositive on Roche indicates the proportion of the population that has been vaccinated and has not been infected.\nWe used Binomial models in a Bayesian framework to first estimate seropositivity separately by assay. We adjusted for the manufacturer-reported specificity of each assay (100% for Vitros and 99.80% for Roche) and for in-house estimates of the sensitivity of each assay (at 2 months post symptom onset among non-hospitalized individuals based on a longitudinal post-infection study33), corresponding to 83.8% for Vitros and 90.0% for Roche. We note that sensitivity was particularly consistent over time following infection for these assays, so our results are robust to the choice of exact time point used. By using the manufacturer-reported specificity values to adjust estimates, we assume that they are unbiased and reflect specificity in the general population. We computed 95% credible intervals (CrI) to quantify uncertainty in posterior estimates. For these univariate analyses, age was stratified into 4 groups (0–17 y, 18–34 y, 35–64 y, and 65 + y) and race/ethnicity was stratified into 5 groups (Asian, Black/African American, Hispanic/Latinx, White, and Other).\nWe then conducted bivariate analyses using the results of each sample on both assays (see Fig. 2 for a schematic). We used the data set of individuals who had a test result on both the Vitros and Roche assays, and removed the 81 samples that had a result on only one assay. In addition, we removed the 3 samples that tested negative on Vitros and positive on Roche, which likely reflects a false negative result on the Vitros assay and/or a false positive result on the Roche assay (Supplementary Table 4).\nFor demographic analyses, age was stratified into 2 groups (18-64 y and 65 + y), and race/ethnicity was stratified into 4 groups (Asian, Black/African American, Hispanic/Latinx, and White). We omitted individuals aged 0–17 y from this portion of the analysis, as individuals in that age group were not eligible for vaccination during this time frame in San Francisco (February 2021). The decision to choose 65 years as a cutoff was due to the age-based roll-out of SARS-CoV-2 vaccination and the expected resultant differences in vaccine coverage by age during the time period of this serosurvey. We also omitted individuals with race/ethnicity of “Other” due to lack of data on vaccine doses in this demographic group that are used as a prior for estimation (see below). For each combination of age group and race/ethnicity j, we estimated the marginal probabilities of natural infection, Pr(inf), and of vaccination, Pr(vacc), separately as follows:\nNj represents the number of individuals in our data set in group j who were included, and nx,j represents the number of individuals in group j with antibody results x. For this analysis, we assumed perfect test performance characteristics. As Pr(vacc|inf) is not identified by our data, and we do not assume that Pr(vacc|inf) = Pr(vacc|uninf), we set up a process to estimate the hyper-priors μj (mean) and κj (precision) for each group j based on reported vaccination coverage data. To do this, we first obtained the total population size Mj of group j in San Francisco as well as the reported number of individuals in that group mj who had been vaccinated up to January 20, 2021 (i.e., 3 weeks before the weighted mean date of sample collection, allowing for time to sero-conversion after vaccination). We then used a hypergeometric distribution to sample Nj individuals without replacement from a population in which mj individuals had been vaccinated and Mj - mj had not. We then calculated the empirical proportion of vaccinated individuals among the Nj in that simulation, and repeated this procedure 10,000 times to obtain a prior distribution of Pr(vacc). This distribution was used to estimate the hyper-priors of the Beta distribution. This procedure was performed separately for each group j.\nFor geographic analyses, zipcodes with fewer than 10 individuals were excluded. As data on vaccine doses distributed by zipcode during this time-frame was not available, we modified the model above by assuming that vaccination was independent of infection, and estimated a single Pr(inf) and Pr(vacc) for each zipcode.\nAll Bayesian analyses were conducted in Stan version 2.21.2. Four chains with 2000 iterations were run, including a burn-in period of 1000 iterations. Convergence was confirmed using the R-hat statistic. All parameters where priors are not specifically described above had uninformative priors and were informed solely by the observed data.\nThis study received expedited review approval by the UCSF IRB #20-30379 (Serological Surveillance of SARS-CoV-2 in Residual Serum/Plasma Samples). The IRB did not require patient contact or written consent to use residual sera.\n### Reporting summary\nFurther information on research design is available in the Nature Research Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR14",
+                "ref-CR32",
+                "ref-CR31",
+                "ref-CR33"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Sample characteristics.",
+            "figure-caption": "a Age distribution by health network of sample collection within the University of California, San Francisco (UCSF) (N = 698 biologically independent samples) and San Francisco Department of Public Health (ZSFG) hospital networks (N = 316 biologically independent samples). Each point represents a sample and colors correspond to age bins used for analysis. The box plot whiskers show the maximum and minimum ages, the box shows the 25-75th percentile values for age, and the central line within the boxplot represents the median age within each health network. b Proportion of samples from a given San Francisco zipcode plotted against the proportion of the San Francisco population within that zipcode. Colors show the percentage of residents below the poverty line within that zipcode, as determined by the American Community Survey 201915, using census bureau definitions of poverty thresholds35.",
+            "figure-link": "https://www.nature.com/ncomms/articles/s41467-022-30051-x/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Schematic of parameters to be estimated using serosurveillance platform (shown in red, blue and gold).",
+            "figure-caption": "Red represents the probability of vaccination given prior infection, Pr(vacc|inf), blue represents the probability of prior infection, Pr(inf), and gold represents the probability of vaccination given no prior history of infection, Pr(vacc|uninf).",
+            "figure-link": "https://www.nature.com/ncomms/articles/s41467-022-30051-x/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Maps showing geographic disparities in SARS-CoV-2 within San Francisco.",
+            "figure-caption": "Maps show a estimated probability of prior infection and b probability of vaccination by zipcode in San Francisco, as of February 2021.",
+            "figure-link": "https://www.nature.com/ncomms/articles/s41467-022-30051-x/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Stratified seroprevalence by assay and by demographic group.",
+            "figure-caption": "a Univariate Roche seropositivity estimates by age (elicited by prior infection). b Univariate Vitros estimates by age (elicited by either prior infection or vaccination). c Univariate Roche estimates by race/ethnicity. d Univariate Vitros estimates by race/ethnicity. For all panels, the center line of the box and whisker diagram represents the median posterior estimate, the box represents the 25-75th percentile values of the posterior, and the whisker lines show the 95% Credible Interval.",
+            "figure-link": "https://www.nature.com/ncomms/articles/s41467-022-30051-x/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Relationship between probability of vaccination and probability of prior infection by race/ethnicity.",
+            "figure-caption": "a Probability of infection vs. probability of vaccination by age and race/ethnicity. Error bars show the upper and lower limits of the 95% Credible Interval of the estimates, and points show the median of the estimates. (65+ and Black/African American, N = 33; 65+ and White, N = 160; 65+ and Hispanic/Latinx, N = 37; 18–64 and Black/African American, N = 82; 18–64 and White, N = 202; 18–64 and Hispanic/Latinx, N = 130). b Infographic showing the number of estimated people vaccinated for every one person previously naturally infected in San Francisco within each racial/demographic group.",
+            "figure-link": "https://www.nature.com/ncomms/articles/s41467-022-30051-x/figures/5"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Zelner, J. et al. Racial disparities in Coronavirus disease 2019 (COVID-19) mortality are driven by unequal infection risks. Clin. Infect. Dis. 72, e88–e95 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fcid%2Fciaa1723",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXit1SgsbrK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Racial%20disparities%20in%20Coronavirus%20disease%202019%20%28COVID-19%29%20mortality%20are%20driven%20by%20unequal%20infection%20risks&journal=Clin.%20Infect.%20Dis.&doi=10.1093%2Fcid%2Fciaa1723&volume=72&pages=e88-e95&publication_year=2021&author=Zelner%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Rozenfeld, Y. et al. A model of disparities: risk factors associated with COVID-19 infection. Int. J. Equity Health 19, 126 (2020).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12939-020-01242-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20model%20of%20disparities%3A%20risk%20factors%20associated%20with%20COVID-19%20infection&journal=Int.%20J.%20Equity%20Health&doi=10.1186%2Fs12939-020-01242-z&volume=19&publication_year=2020&author=Rozenfeld%2CY"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Patel, J. A. et al. Poverty, inequality and COVID-19: the forgotten vulnerable. Public Health 183, 110–111 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.puhe.2020.05.006",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BB38rmtlegtA%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Poverty%2C%20inequality%20and%20COVID-19%3A%20the%20forgotten%20vulnerable&journal=Public%20Health&doi=10.1016%2Fj.puhe.2020.05.006&volume=183&pages=110-111&publication_year=2020&author=Patel%2CJA"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Press, ValerieG., Huisingh-Scheetz, Megan & Arora, VineetM. Inequities in technology contribute to disparities in COVID-19 vaccine distribution. JAMA Health Forum 2, e210264 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjamahealthforum.2021.0264",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inequities%20in%20technology%20contribute%20to%20disparities%20in%20COVID-19%20vaccine%20distribution&journal=JAMA%20Health%20Forum&doi=10.1001%2Fjamahealthforum.2021.0264&volume=2&publication_year=2021&author=Press%2CValerieG&author=Huisingh-Scheetz%2CMegan&author=Arora%2CVineetM"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Callaghan, T. et al. Correlates and disparities of intention to vaccinate against COVID-19. Soc. Sci. Med. 272, 113638 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.socscimed.2020.113638",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Correlates%20and%20disparities%20of%20intention%20to%20vaccinate%20against%20COVID-19&journal=Soc.%20Sci.%20Med.&doi=10.1016%2Fj.socscimed.2020.113638&volume=272&publication_year=2021&author=Callaghan%2CT"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Momplaisir, F. et al. Understanding drivers of Coronavirus disease 2019 vaccine hesitancy among blacks. Clin. Infect. Dis. 73, 1784–1789 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fcid%2Fciab102",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXis1ajtrjK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20drivers%20of%20Coronavirus%20disease%202019%20vaccine%20hesitancy%20among%20blacks&journal=Clin.%20Infect.%20Dis.&doi=10.1093%2Fcid%2Fciab102&volume=73&pages=1784-1789&publication_year=2021&author=Momplaisir%2CF"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Quinn, S. C. et al. Exploring racial influences on flu vaccine attitudes and behavior: results of a national survey of White and African American adults. Vaccine 35, 1167–1174 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.vaccine.2016.12.046",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20racial%20influences%20on%20flu%20vaccine%20attitudes%20and%20behavior%3A%20results%20of%20a%20national%20survey%20of%20White%20and%20African%20American%20adults&journal=Vaccine&doi=10.1016%2Fj.vaccine.2016.12.046&volume=35&pages=1167-1174&publication_year=2017&author=Quinn%2CSC"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Bibbins-Domingo, K. This time must be different: disparities during the COVID-19 pandemic. Ann. Intern. Med. 173, 233–234 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.7326%2FM20-2247",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=This%20time%20must%20be%20different%3A%20disparities%20during%20the%20COVID-19%20pandemic&journal=Ann.%20Intern.%20Med.&doi=10.7326%2FM20-2247&volume=173&pages=233-234&publication_year=2020&author=Bibbins-Domingo%2CK"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Freimuth, V. S., Jamison, A. M., An, J., Hancock, G. R. & Quinn, S. C. Determinants of trust in the flu vaccine for African Americans and Whites. Soc. Sci. Med. 193, 70–79 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.socscimed.2017.10.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Determinants%20of%20trust%20in%20the%20flu%20vaccine%20for%20African%20Americans%20and%20Whites&journal=Soc.%20Sci.%20Med.&doi=10.1016%2Fj.socscimed.2017.10.001&volume=193&pages=70-79&publication_year=2017&author=Freimuth%2CVS&author=Jamison%2CAM&author=An%2CJ&author=Hancock%2CGR&author=Quinn%2CSC"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Balasuriya, L. et al. COVID-19 vaccine acceptance and access among Black and Latinx communities. JAMA Netw. Open 4, e2128575 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjamanetworkopen.2021.28575",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=COVID-19%20vaccine%20acceptance%20and%20access%20among%20Black%20and%20Latinx%20communities&journal=JAMA%20Netw.%20Open&doi=10.1001%2Fjamanetworkopen.2021.28575&volume=4&publication_year=2021&author=Balasuriya%2CL"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Chamie, G. et al. SARS-CoV-2 community transmission disproportionately affects latinx population during shelter-in-place in San Francisco. Clin. Infect. Dis. https://doi.org/10.1093/cid/ciaa1234 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fcid%2Fciaa1234",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31697383",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7799223",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=SARS-CoV-2%20community%20transmission%20disproportionately%20affects%20latinx%20population%20during%20shelter-in-place%20in%20San%20Francisco&journal=Clin.%20Infect.%20Dis.&doi=10.1093%2Fcid%2Fciaa1234&publication_year=2020&author=Chamie%2CG"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Imbert, E. et al. Coronavirus Disease 2019 Outbreak in a San Francisco Homeless Shelter. Clin. Infect. Dis. 73, 324–327 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fcid%2Fciaa1071",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXhs1Wqur%2FN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Coronavirus%20Disease%202019%20Outbreak%20in%20a%20San%20Francisco%20Homeless%20Shelter&journal=Clin.%20Infect.%20Dis.&doi=10.1093%2Fcid%2Fciaa1071&volume=73&pages=324-327&publication_year=2021&author=Imbert%2CE"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "San Francisco Department of Public Health. COVID-19 Vaccine Doses Given to San Franciscans by Demographics [Dataset]. (2021) https://data.sfgov.org/COVID-19/COVID-19-Vaccine-Doses-Given-to-San-Franciscans-by/wv2h-rqwk.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Routledge, I. et al. Citywide serosurveillance of the initial SARS-CoV-2 outbreak in San Francisco using electronic health records. Nat. Commun. 12, 3566 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-021-23651-6",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021NatCo..12.3566R",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXhtlegu77J",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Citywide%20serosurveillance%20of%20the%20initial%20SARS-CoV-2%20outbreak%20in%20San%20Francisco%20using%20electronic%20health%20records&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-021-23651-6&volume=12&publication_year=2021&author=Routledge%2CI"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "U.S. Census Bureau. 2015-2019 American Community Survey 5-Year Estimates. (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR16",
+            "content": "San Francisco Office of the Mayor. San Francisco Reaches Milestone: 80% of Eligible Residents Have Received at Least One Vaccine Dose. https://sfmayor.org/article/san-francisco-reaches-milestone-80-eligible-residents-have-received-least-one-vaccine-dose (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Neilson, S. Who is the coronavirus surge impacting in San Francisco? The San Francisco Chronicle (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Woody, S. et al. Spatial distribution of COVID-19 infections and vaccinations in Austin, Texas. https://doi.org/10.15781/m60y-tc90 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Hughes, M. M. et al. County-Level COVID-19 Vaccination Coverage and Social Vulnerability - United States, December 14, 2020-March 1, 2021. MMWR Morb. Mortal. Wkly. Rep. 70, 431–436 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.15585%2Fmmwr.mm7012e1",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXosVShsLc%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=County-Level%20COVID-19%20Vaccination%20Coverage%20and%20Social%20Vulnerability%20-%20United%20States%2C%20December%2014%2C%202020-March%201%2C%202021&journal=MMWR%20Morb.%20Mortal.%20Wkly.%20Rep.&doi=10.15585%2Fmmwr.mm7012e1&volume=70&pages=431-436&publication_year=2021&author=Hughes%2CMM"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Paton, J. U. K. Vaccination Rates Struggle in Places Worst-Hit by Covid-19. Bloomberg News (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR21",
+            "content": "The City and County of San Francisco. City budget for fiscal years 2021–2022 and 2022–2023. https://sf.gov/resource/2021/city-budget-fiscal-years-2021-2022-and-2022-2023 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Reitsma, M. B., Goldhaber-Fiebert, J. D. & Salomon, J. A. Quantifying and benchmarking disparities in COVID-19 vaccination rates by race and ethnicity. JAMA Netw. Open 4, e2130343 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjamanetworkopen.2021.30343",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20and%20benchmarking%20disparities%20in%20COVID-19%20vaccination%20rates%20by%20race%20and%20ethnicity&journal=JAMA%20Netw.%20Open&doi=10.1001%2Fjamanetworkopen.2021.30343&volume=4&publication_year=2021&author=Reitsma%2CMB&author=Goldhaber-Fiebert%2CJD&author=Salomon%2CJA"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Advance OC. Orange County Equity Map. https://www.advanceoc.com/orange-county-equity-map/ (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Dottle, R., Tartar, A., Greenfield, R. & Qiu, Y. Tracking Covid Vaccines by Race: Black and Hispanic Rates Lower Than White and Asian. https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution/us-vaccine-demographics.html (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Fields Jessica et al. Community-Academic Partnerships to Address Covid-19 Inequities: Lessons from the San Francisco Bay Area. Catalyst non-issue content 2,.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "University of California San Francisco black health initiative (UCSF BHI) COVID-19 response. University of California San Francisco Black Health Initiative (UCSF BHI) COVID-19 Response | PCORI https://www.pcori.org/research-results/2020/university-california-san-francisco-black-health-initiative-ucsf-bhi-covid-19-response (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Marquez, C. et al. A multi-component, community-based strategy to facilitate COVID-19 vaccine uptake among Latinx populations: from theory to practice https://doi.org/10.1101/2021.06.07.21258230 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Jones, J. M. et al. Estimated US infection- and vaccine-induced SARS-CoV-2 seroprevalence based on blood donations, July 2020-may 2021. JAMA 326, 1400–1409 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjama.2021.15161",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXit1CrsrbO",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimated%20US%20infection-%20and%20vaccine-induced%20SARS-CoV-2%20seroprevalence%20based%20on%20blood%20donations%2C%20July%202020-may%202021&journal=JAMA&doi=10.1001%2Fjama.2021.15161&volume=326&pages=1400-1409&publication_year=2021&author=Jones%2CJM"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Wang, M. L. et al. Addressing inequities in COVID-19 morbidity and mortality: research and policy recommendations. Transl. Behav. Med 10, 516–519 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Ftbm%2Fibaa055",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Addressing%20inequities%20in%20COVID-19%20morbidity%20and%20mortality%3A%20research%20and%20policy%20recommendations&journal=Transl.%20Behav.%20Med&doi=10.1093%2Ftbm%2Fibaa055&volume=10&pages=516-519&publication_year=2020&author=Wang%2CML"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Fernández, L. & Shorett, P. Lessons in Equity From the Front Lines of COVID-19 Vaccination. JAMA Health Forum 2, e210612–e210612 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjamahealthforum.2021.0612",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Lessons%20in%20Equity%20From%20the%20Front%20Lines%20of%20COVID-19%20Vaccination&journal=JAMA%20Health%20Forum&doi=10.1001%2Fjamahealthforum.2021.0612&volume=2&pages=e210612-e210612&publication_year=2021&author=Fern%C3%A1ndez%2CL&author=Shorett%2CP"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "The Food and Drug Administration. VITROS Immunodiagnostic Products Anti-SARS-CoV-2 IgG Reagent Pack - Instructions for Use. https://www.fda.gov/media/137363/download.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "The Food and Drug Administration. Elecsys Anti-SARS-CoV-2 - Instructions for Use. https://www.fda.gov/media/137605/download (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Peluso, M. J. et al. SARS-CoV-2 antibody magnitude and detectability are driven by disease severity, timing, and assay. medRxiv (2021) https://doi.org/10.1101/2021.03.03.21251639.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "[software code] Routledge, I. EPPIcenter/scale-it-2: SCALE-IT 2.0. (2022). https://doi.org/10.5281/ZENODO.6354840.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR35",
+            "content": "US Census Bureau. How the census bureau measures poverty. (2021). URL: https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "Data to reproduce Fig. 1a cannot be shared on an individual level due to institutional data privacy requirements but sample distributions by age band are shown in Table 1. Data used in Fig. 1b is shown in Supplementary Table 2, and from the 2019 American Community Survey Five Year Estimates15. Data to reproduce Fig. 2 is available in Supplementary Table 1. Data to reproduce Fig. 3 is in Supplementary Table 2. Data to reproduce Fig. 4 is in Supplementary Table 3. Data to reproduce Fig. 5 is in Supplementary Table 4. For enquiries to access individual data, please contact Isabel Rodriguez Barraquer Isabel.rodriguez@ucsf.edu and we will endeavour to respond within two weeks. Institutional policy requires the use of a data sharing contract for sharing clinical data.",
+            "links": {
+                "1a": "/articles/s41467-022-30051-x#Fig1",
+                "1": "/articles/s41467-022-30051-x#MOESM1",
+                "1b": "/articles/s41467-022-30051-x#Fig1",
+                "2": "/articles/s41467-022-30051-x#MOESM1",
+                "15": "/articles/s41467-022-30051-x#ref-CR15",
+                "3": "/articles/s41467-022-30051-x#MOESM1",
+                "4": "/articles/s41467-022-30051-x#MOESM1",
+                "5": "/articles/s41467-022-30051-x#Fig5"
+            }
+        },
+        "Code availability": {
+            "content": "All analysis was conducted using the R statistical software, version 4.0.3 and the Stan programming language. All code to reproduce these results are available at: https://github.com/EPPIcenter/scale-it-234 and the previously published algorithm used to select samples is available at https://github.com/EPPIcenter/scale-it.",
+            "links": {
+                "https://github.com/EPPIcenter/scale-it-2": "https://github.com/EPPIcenter/scale-it-2",
+                "34": "/articles/s41467-022-30051-x#ref-CR34",
+                "https://github.com/EPPIcenter/scale-it": "https://github.com/EPPIcenter/scale-it"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We acknowledge sources of funding support, including from the Schmidt Science Fellows, in partnership with the Rhodes Trust (S.T.); Chan Zuckerberg Biohub Investigator program (B.G.); the ZSFG Department of Medicine and Division of HIV, ID, and Global Medicine; the MIDAS Coordination Center COVID-19 Urgent Grant Program (MIDASNI2020-5) by a grant from the National Institute of General Medical Science (3U24GM132013-02S2) (I.R., S.T., I.R.B.); and the National Institutes of Health/National Institute of General Medical Sciences R35GM138361-02 (I.R.B.). We acknowledge Dr. Carina Marquez for helpful comments on the manuscript. We acknowledge Valerie Green and Phillip Williamson at Creative Testing Solutions for performing the Roche testing. We acknowledge the groups of Dr. Kara Lynch and Dr. Alan Wu for facilitating the collection of samples at ZSFG. We acknowledge the groups of Dr. Lee Besana and Dr. Marcelina Coh for facilitating the collection of samples at UCSF.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsIsobel RoutledgeView author publicationsSearch author on:PubMed Google ScholarSaki TakahashiView author publicationsSearch author on:PubMed Google ScholarAdrienne EpsteinView author publicationsSearch author on:PubMed Google ScholarJill HakimView author publicationsSearch author on:PubMed Google ScholarOwen JansonView author publicationsSearch author on:PubMed Google ScholarKeirstinne TurciosView author publicationsSearch author on:PubMed Google ScholarJo VindenView author publicationsSearch author on:PubMed Google ScholarJohn Tomas RisosView author publicationsSearch author on:PubMed Google ScholarMargaret Rose BaniquedView author publicationsSearch author on:PubMed Google ScholarLori PhamView author publicationsSearch author on:PubMed Google ScholarClara Di GermanioView author publicationsSearch author on:PubMed Google ScholarMichael BuschView author publicationsSearch author on:PubMed Google ScholarMargot KushelView author publicationsSearch author on:PubMed Google ScholarBryan GreenhouseView author publicationsSearch author on:PubMed Google ScholarIsabel Rodríguez-BarraquerView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nI.R, S.T., A.E., and I.R.B. conceived of study; I.R. and S.T. carried out analysis; I.R., S.T., and A.E. wrote code/sampling algorithm; M.K., I.R.B., and B.G. provided supervision and guidance. J.H., O.J., K.T., J.V., J.T.R., M.R.B., L.P., C.D.G., and M.B. contributed to data acquisition and sample processing. I.R. and S.T. wrote paper and generated figures. All authors reviewed manuscript and provided comments.\n### Corresponding authors\nCorrespondence to\n                Isobel Routledge, Saki Takahashi or Isabel Rodríguez-Barraquer.",
+            "links": {
+                "View author publications": "/search?author=Isabel%20Rodr%C3%ADguez-Barraquer",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Isabel%20Rodr%C3%ADguez-Barraquer",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Isabel%20Rodr%C3%ADguez-Barraquer%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Isobel Routledge": "mailto:isobel.routledge@ucsf.edu",
+                "Saki Takahashi": "mailto:saki.takahashi@ucsf.edu",
+                "Isabel Rodríguez-Barraquer": "mailto:Isabel.rodriguez@ucsf.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Communications thanks Stephen Waterman and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available.",
+            "links": {
+                "Peer reviewer reports": "/articles/s41467-022-30051-x#MOESM2"
+            }
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationPeer Review FileReporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_MOESM1_ESM.pdf",
+                "Peer Review File": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_MOESM2_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_MOESM3_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Using%20sero-epidemiology%20to%20monitor%20disparities%20in%20vaccination%20and%20infection%20with%20SARS-CoV-2&author=Isobel%20Routledge%20et%20al&contentID=10.1038%2Fs41467-022-30051-x&copyright=The%20Author%28s%29&publication=2041-1723&publicationDate=2022-05-04&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleRoutledge, I., Takahashi, S., Epstein, A. et al. Using sero-epidemiology to monitor disparities in vaccination and infection with SARS-CoV-2.\n                    Nat Commun 13, 2451 (2022). https://doi.org/10.1038/s41467-022-30051-xDownload citationReceived: 08 December 2021Accepted: 07 April 2022Published: 04 May 2022DOI: https://doi.org/10.1038/s41467-022-30051-xShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41467-022-30051-x?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Using sero-epidemiology to monitor disparities in vaccination and infection with SARS-CoV-2",
+                "description": "As SARS-CoV-2 continues to spread and vaccines are rolled-out, the “double burden” of disparities in exposure and vaccination intersect to determine patterns of infection, immunity, and mortality. Serology provides a unique opportunity to measure prior infection and vaccination simultaneously. Leveraging algorithmically-selected residual sera from two hospital networks in the city of San Francisco, cross-sectional samples from 1,014 individuals from February 4–17, 2021 were each tested on two assays (Ortho Clinical Diagnostics VITROS Anti-SARS-CoV-2 and Roche Elecsys Anti-SARS-CoV-2), capturing the first year of the epidemic and early roll-out of vaccination. We estimated, using Bayesian estimation of infection and vaccination, that infection risk of Hispanic/Latinx residents was five times greater than of White residents aged 18–64 (95% Credible Interval (CrI): 3.2–10.3), and that White residents over 65 were twice as likely to be vaccinated as Black/African American residents (95% CrI: 1.1–4.6). We found that socioeconomically-deprived zipcodes had higher infection probabilities and lower vaccination coverage than wealthier zipcodes. While vaccination has created a ‘light at the end of the tunnel’ for this pandemic, ongoing challenges in achieving and maintaining equity must also be considered. Continued monitoring of SARS-CoV-2 at the population level is important for identifying at-risk groups. Here the authors analyse data from a serological surveillance platform in San Francisco and find considerable variation in infection and vaccination history by race/ethnicity and socioeconomic status.",
+                "datePublished": "2022-05-04T00:00:00Z",
+                "dateModified": "2022-05-04T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "7",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s41467-022-30051-x",
+                "keywords": [
+                    "Epidemiology",
+                    "SARS-CoV-2",
+                    "Society",
+                    "Viral infection",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_Fig5_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Communications",
+                    "issn": [
+                        "2041-1723"
+                    ],
+                    "volumeNumber": "13",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Isobel Routledge",
+                        "url": "http://orcid.org/0000-0002-0354-4076",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "isobel.routledge@ucsf.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Saki Takahashi",
+                        "url": "http://orcid.org/0000-0001-5413-5507",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "saki.takahashi@ucsf.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Adrienne Epstein",
+                        "url": "http://orcid.org/0000-0002-8253-6102",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jill Hakim",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Owen Janson",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Keirstinne Turcios",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jo Vinden",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of California Berkeley",
+                                "address": {
+                                    "name": "Infectious Disease and Immunity Graduate Group, University of California Berkeley, Berkeley, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "John Tomas Risos",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Laboratory Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Margaret Rose Baniqued",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Laboratory Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Lori Pham",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Laboratory Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Clara Di Germanio",
+                        "affiliation": [
+                            {
+                                "name": "Vitalant Research Institute",
+                                "address": {
+                                    "name": "Vitalant Research Institute, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Michael Busch",
+                        "url": "http://orcid.org/0000-0002-1446-125X",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Laboratory Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Vitalant Research Institute",
+                                "address": {
+                                    "name": "Vitalant Research Institute, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Margot Kushel",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Center for Vulnerable Populations, Zuckerberg San Francisco General Hospital and Trauma Center, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Bryan Greenhouse",
+                        "url": "http://orcid.org/0000-0003-0287-9111",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Isabel Rodríguez-Barraquer",
+                        "affiliation": [
+                            {
+                                "name": "University of California San Francisco",
+                                "address": {
+                                    "name": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "Isabel.rodriguez@ucsf.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "epidemiology;sars-cov-2;society;viral-infection",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41467-022-30051-x"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Isobel Routledge",
+                            "Saki Takahashi",
+                            "Adrienne Epstein",
+                            "Jill Hakim",
+                            "Owen Janson",
+                            "Keirstinne Turcios",
+                            "Jo Vinden",
+                            "John Tomas Risos",
+                            "Margaret Rose Baniqued",
+                            "Lori Pham",
+                            "Clara Di Germanio",
+                            "Michael Busch",
+                            "Margot Kushel",
+                            "Bryan Greenhouse",
+                            "Isabel Rodríguez-Barraquer"
+                        ],
+                        "publishedAt": 1651622400,
+                        "publishedAtString": "2022-05-04",
+                        "title": "Using sero-epidemiology to monitor disparities in vaccination and infection with SARS-CoV-2",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Epidemiology,SARS-CoV-2,Society,Viral infection"
+                    },
+                    "journal": {
+                        "pcode": "ncomms",
+                        "title": "nature communications",
+                        "volume": "13",
+                        "issue": "1",
+                        "id": 41467,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Using sero-epidemiology to monitor disparities in vaccination and infection with SARS-CoV-2",
+            "dc.source": "Nature Communications 2022 13:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2022-05-04",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2022 The Author(s)",
+            "dc.rights": "2022 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "As SARS-CoV-2 continues to spread and vaccines are rolled-out, the “double burden” of disparities in exposure and vaccination intersect to determine patterns of infection, immunity, and mortality. Serology provides a unique opportunity to measure prior infection and vaccination simultaneously. Leveraging algorithmically-selected residual sera from two hospital networks in the city of San Francisco, cross-sectional samples from 1,014 individuals from February 4–17, 2021 were each tested on two assays (Ortho Clinical Diagnostics VITROS Anti-SARS-CoV-2 and Roche Elecsys Anti-SARS-CoV-2), capturing the first year of the epidemic and early roll-out of vaccination. We estimated, using Bayesian estimation of infection and vaccination, that infection risk of Hispanic/Latinx residents was five times greater than of White residents aged 18–64 (95% Credible Interval (CrI): 3.2–10.3), and that White residents over 65 were twice as likely to be vaccinated as Black/African American residents (95% CrI: 1.1–4.6). We found that socioeconomically-deprived zipcodes had higher infection probabilities and lower vaccination coverage than wealthier zipcodes. While vaccination has created a ‘light at the end of the tunnel’ for this pandemic, ongoing challenges in achieving and maintaining equity must also be considered. Continued monitoring of SARS-CoV-2 at the population level is important for identifying at-risk groups. Here the authors analyse data from a serological surveillance platform in San Francisco and find considerable variation in infection and vaccination history by race/ethnicity and socioeconomic status.",
+            "dc.identifier": "doi:10.1038/s41467-022-30051-x",
+            "dc.creator": "Rodríguez-Barraquer, Isabel",
+            "dc.subject": "Viral infection",
+            "prism.issn": "2041-1723",
+            "prism.publicationName": "Nature Communications",
+            "prism.publicationDate": "2022-05-04",
+            "prism.volume": "13",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "7",
+            "prism.copyright": "2022 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41467-022-30051-x",
+            "prism.doi": "doi:10.1038/s41467-022-30051-x",
+            "citation_pdf_url": "https://www.nature.com/articles/s41467-022-30051-x.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41467-022-30051-x",
+            "citation_journal_title": "Nature Communications",
+            "citation_journal_abbrev": "Nat Commun",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2041-1723",
+            "citation_title": "Using sero-epidemiology to monitor disparities in vaccination and infection with SARS-CoV-2",
+            "citation_volume": "13",
+            "citation_issue": "1",
+            "citation_online_date": "2022/05/04",
+            "citation_firstpage": "1",
+            "citation_lastpage": "7",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41467-022-30051-x",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41467-022-30051-x&api_key=",
+            "citation_reference": "US Census Bureau. How the census bureau measures poverty. (2021). URL: \n                  https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html\n                  \n                ",
+            "citation_author": "Rodríguez-Barraquer, Isabel",
+            "citation_author_institution": "Department of Medicine, University of California San Francisco, San Francisco, USA",
+            "description": "As SARS-CoV-2 continues to spread and vaccines are rolled-out, the “double burden” of disparities in exposure and vaccination intersect to determine patterns of infection, immunity, and mortality. Serology provides a unique opportunity to measure prior infection and vaccination simultaneously. Leveraging algorithmically-selected residual sera from two hospital networks in the city of San Francisco, cross-sectional samples from 1,014 individuals from February 4–17, 2021 were each tested on two assays (Ortho Clinical Diagnostics VITROS Anti-SARS-CoV-2 and Roche Elecsys Anti-SARS-CoV-2), capturing the first year of the epidemic and early roll-out of vaccination. We estimated, using Bayesian estimation of infection and vaccination, that infection risk of Hispanic/Latinx residents was five times greater than of White residents aged 18–64 (95% Credible Interval (CrI): 3.2–10.3), and that White residents over 65 were twice as likely to be vaccinated as Black/African American residents (95% CrI: 1.1–4.6). We found that socioeconomically-deprived zipcodes had higher infection probabilities and lower vaccination coverage than wealthier zipcodes. While vaccination has created a ‘light at the end of the tunnel’ for this pandemic, ongoing challenges in achieving and maintaining equity must also be considered. Continued monitoring of SARS-CoV-2 at the population level is important for identifying at-risk groups. Here the authors analyse data from a serological surveillance platform in San Francisco and find considerable variation in infection and vaccination history by race/ethnicity and socioeconomic status.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Using sero-epidemiology to monitor disparities in vaccination and infection with SARS-CoV-2",
+            "twitter:description": "Nature Communications - Continued monitoring of SARS-CoV-2 at the population level is important for identifying at-risk groups. Here the authors analyse data from a serological surveillance...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-30051-x/MediaObjects/41467_2022_30051_Fig1_HTML.png",
+            "DOI": "10.1038/s41467-022-30051-x",
+            "size": "120479",
+            "journal_id": "41467"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41467-022-30051-x",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

@@ -1,0 +1,905 @@
+{
+    "id": "s41558-025-02396-w",
+    "journal": "Nature Climate Change",
+    "type": "article",
+    "title": "Measuring flood underinsurance in the USA",
+    "legal_title": "Measuring flood underinsurance in the USA",
+    "publish_time": "2025-08-15",
+    "pdf_link": "https://www.nature.com/articles/s41558-025-02396-w",
+    "storage_path": "./Articles/Nature Climate Change/2025-article/s41558-025-02396-w/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Flood insurance could mitigate the negative shock from climate-induced disasters, yet many households are still not covered. Here, using data on expected flood damage and National Flood Insurance Program policies, we provide estimates of annual flood risk protection gaps and underinsurance among single-family residences in the contiguous USA. Annually, 70% (US$17.1 billion) of total flood losses would be uninsured. Underinsurance, defined as protection gaps among properties whose current coverage is under the optimal level, totals US$15.7 billion annually. Among at-risk households, 88% are underinsured and average underinsurance is US$7,208 per year. Underinsurance persists both inside and outside the Federal Emergency Management Agency’s special flood hazard areas, suggesting frictions in the provision of risk information and regulatory compliance. Underinsurance falls disproportionately on low-income communities. At least 70% of at-risk households would benefit from purchasing flood insurance, even as prevailing prices rise.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "The property-level flood damage estimates and projections that support the findings of this study are available from the FSF, and the property characteristics used to define the sample are available from CoreLogic. Both datasets were used under licence and are not publicly available due to restrictive data sharing agreements. The following data in the study are publicly available. The study was conducted using v.1 of the publicly available National Flood Insurance Program redacted policies data. While v.1 is no longer provided on the FEMA website, an updated version of the data with additional fields is available at www.fema.gov/openfema-data-page/fima-nfip-redacted-policies-v2. Climate change beliefs survey data are made available by the YPCCC at climatecommunication.yale.edu/visualizations-data/ycom-us/. This analysis was conducted using data from the Redistricting Data Hub. Voter registration data are available from L2 at redistrictingdatahub.org. American Community Survey data were obtained from www.nhgis.org. Census shapefiles were obtained from www2.census.gov/geo/tiger/GENZ2019/shp/.",
+            "links": {
+                "www.fema.gov/openfema-data-page/fima-nfip-redacted-policies-v2": "https://www.fema.gov/openfema-data-page/fima-nfip-redacted-policies-v2",
+                "climatecommunication.yale.edu/visualizations-data/ycom-us/": "https://climatecommunication.yale.edu/visualizations-data/ycom-us/",
+                "redistrictingdatahub.org": "https://redistrictingdatahub.org/",
+                "www.nhgis.org": "https://www.nhgis.org",
+                "www2.census.gov/geo/tiger/GENZ2019/shp/": "https://www2.census.gov/geo/tiger/GENZ2019/shp/"
+            }
+        },
+        "Code availability": {
+            "content": "The code used for this analysis is available on Zenodo at https://doi.org/10.5281/zenodo.15756729 (ref. 60).",
+            "links": {
+                "https://doi.org/10.5281/zenodo.15756729": "https://doi.org/10.5281/zenodo.15756729",
+                "60": "/articles/s41558-025-02396-w#ref-CR60"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We thank I. Hacamo, S. Mishra, K. Wagner and participants at the RADAR virtual seminar, CFPB Consumer Finance Round Robin, Temple University, AREUEA National Conference, Eastern Finance Association Annual Meeting and WEAI Annual Meeting for valuable comments. We are also grateful to J. Dice and P. Griggs for assistance with the FSF and CoreLogic Solutions datasets. The YPCCC bears no responsibility for the analyses or interpretations of the data presented here. The views expressed in this paper belong solely to the authors and do not necessarily reflect the views of the Federal Reserve Banks of Philadelphia and San Francisco or the Federal Reserve System. Any errors or omissions are the responsibility of the authors. No statements here should be treated as legal or investment advice.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsNatee AmornsiripanitchView author publicationsSearch author on:PubMed Google ScholarSiddhartha BiswasView author publicationsSearch author on:PubMed Google ScholarJohn Orellana-LiView author publicationsSearch author on:PubMed Google ScholarDavid ZinkView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nN.A. conceived of the project. J.O.-L. performed all analyses. S.B. wrote the paper. All authors contributed equally to the refinement, interpretation and discussion of the analyses.\n### Corresponding author\nCorrespondence to\n                Siddhartha Biswas.",
+            "links": {
+                "View author publications": "/search?author=David%20Zink",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=David%20Zink",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22David%20Zink%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Siddhartha Biswas": "mailto:siddhartha.biswas@phil.frb.org"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Climate Change thanks Chaosu Li and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data": {
+            "content": "Extended Data Table 1 Underinsurance with Various AssumptionsFull size tableExtended Data Table 2 Distribution of Underinsurance Across Household TypeFull size tableExtended Data Table 3 Flood Underinsurance By Census RegionFull size tableExtended Data Table 4 Correlations of Climate Belief Indicators and UnderinsuranceFull size tableExtended Data Fig. 1 Illustration of Estimating Protection Gaps and Underinsurance.Notes: Illustrative example of the exceedance probability curve. The area under the curve measures average annual losses (AALs). For damage below the policy coverage limit of Ci, the deficit is zero. For damage greater than Ci, we use the areas of the white rectangles as an approximation of the protection gap. Therefore, our method yields a lower bound, as we underestimate the protection gap by an amount equivalent to the area of the gray regions between the exceedance probability curve and the white rectangles.Extended Data Fig. 2 Cumulative Distribution of Underinsurance.Notes: This figure plots the distribution of underinsurance. Statistics are derived from the sample of positive flood risk SFRs for which purchasing full coverage of flood insurance is optimal. Dollar values are presented in 2023 USD. We assume full coverage is optimal for an SFR if the annual premium is less than or equal to average annual losses (AALs). The blue line plots the unweighted distribution and can be interpreted as the share of SFRs with underinsurance below a specific amount. The red line plots the dollar-weighted distribution and can be interpreted as the share of underinsured dollars below a specific amount. The sample includes 2,175,703 properties.Extended Data Fig. 3 Insured Share by Tract Income and Minority Composition.Notes: Tract-level average insured share by (a) tract-level median household income decile and (b) tract-level minority share decile. Income and minority shares are sorted from low (decile 1) to high (decile 10). Minority share is defined as the share of Hispanic and Black individuals in the census tract. Bars show tract-level mean values (weighted by number of properties) within each decile and orange error bars show the 95% confidence intervals (mean +/- 1.96 × standard error of the mean). Panel (a) has a sample size of 15,499 tracts and panel (b) has a sample size of 15,505 tracts. Sample includes tracts with at least 20 properties with positive flood risk for which purchasing full coverage of flood insurance is optimal. We assume full coverage is optimal for an SFR if the annual premium is less than or equal to average annual losses (AALs).Extended Data Fig. 4 Financial Gains from Purchasing Flood Insurance by Tract Income and Minority Composition.Notes: Tract-level average financial gains from purchasing insurance as share of tract’s median household income by (a) tract-level median household income decile and (b) tract-level minority share decile. Income and minority shares are sorted from low (decile 1) to high (decile 10). Minority share is defined as the share of Hispanic and Black individuals in the census tract. Financial gain is defined as the difference between insurance coverage of expected flood damage (capped at $250,000) and estimated premiums under Risk Rating 2.0. Financial insurance gain is zero if estimated premium exceeds expected flood damage because the homeowner would not buy insurance in this scenario. Bars show tract-level mean values (weighted by number of properties) within each decile and orange error bars show the 95% confidence intervals (mean +/- 1.96 × standard error of the mean). Panel (a) has a sample size of 14,394 tracts and panel (b) has a sample size of 14,399 tracts. Sample includes tracts with at least 20 properties with positive flood risk for which purchasing full coverage of flood insurance is optimal. We assume full coverage is optimal for an SFR if the annual premium is less than or equal to average annual losses (AALs).",
+            "links": {
+                "Full size table": "/articles/s41558-025-02396-w/tables/8",
+                "Extended Data Fig. 1 Illustration of Estimating Protection Gaps and Underinsurance.": "/articles/s41558-025-02396-w/figures/3",
+                "Extended Data Fig. 2 Cumulative Distribution of Underinsurance.": "/articles/s41558-025-02396-w/figures/4",
+                "Extended Data Fig. 3 Insured Share by Tract Income and Minority Composition.": "/articles/s41558-025-02396-w/figures/5",
+                "Extended Data Fig. 4 Financial Gains from Purchasing Flood Insurance by Tract Income and Minority Composition.": "/articles/s41558-025-02396-w/figures/6"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Measuring%20flood%20underinsurance%20in%20the%20USA&author=Natee%20Amornsiripanitch%20et%20al&contentID=10.1038%2Fs41558-025-02396-w&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20Limited&publication=1758-678X&publicationDate=2025-08-15&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleAmornsiripanitch, N., Biswas, S., Orellana-Li, J. et al. Measuring flood underinsurance in the USA.\n                    Nat. Clim. Chang. 15, 971–977 (2025). https://doi.org/10.1038/s41558-025-02396-wDownload citationReceived: 04 November 2024Accepted: 03 July 2025Published: 15 August 2025Version of record: 15 August 2025Issue date: September 2025DOI: https://doi.org/10.1038/s41558-025-02396-wShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41558-025-02396-w?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Measuring flood underinsurance in the USA",
+                "description": "Flood insurance could mitigate the negative shock from climate-induced disasters, yet many households are still not covered. Here, using data on expected flood damage and National Flood Insurance Program policies, we provide estimates of annual flood risk protection gaps and underinsurance among single-family residences in the contiguous USA. Annually, 70% (US$17.1 billion) of total flood losses would be uninsured. Underinsurance, defined as protection gaps among properties whose current coverage is under the optimal level, totals US$15.7 billion annually. Among at-risk households, 88% are underinsured and average underinsurance is US$7,208 per year. Underinsurance persists both inside and outside the Federal Emergency Management Agency’s special flood hazard areas, suggesting frictions in the provision of risk information and regulatory compliance. Underinsurance falls disproportionately on low-income communities. At least 70% of at-risk households would benefit from purchasing flood insurance, even as prevailing prices rise. Homeowners could benefit from flood insurance to offset the negative impacts of climate-induced natural disasters. However, with detailed micro-level data, researchers find substantial protection gaps and underinsurance across the USA that disproportionately affect low-income households.",
+                "datePublished": "2025-08-15T00:00:00Z",
+                "dateModified": "2025-08-15T00:00:00Z",
+                "pageStart": "971",
+                "pageEnd": "977",
+                "sameAs": "https://doi.org/10.1038/s41558-025-02396-w",
+                "keywords": [
+                    "Climate-change mitigation",
+                    "Economics",
+                    "Environment",
+                    "general",
+                    "Climate Change",
+                    "Climate Change/Climate Change Impacts",
+                    "Environmental Law/Policy/Ecojustice"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41558-025-02396-w/MediaObjects/41558_2025_2396_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41558-025-02396-w/MediaObjects/41558_2025_2396_Fig2_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Climate Change",
+                    "issn": [
+                        "1758-6798",
+                        "1758-678X"
+                    ],
+                    "volumeNumber": "15",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Natee Amornsiripanitch",
+                        "affiliation": [
+                            {
+                                "name": "Federal Reserve Bank of Philadelphia",
+                                "address": {
+                                    "name": "Federal Reserve Bank of Philadelphia, Philadelphia, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Siddhartha Biswas",
+                        "url": "http://orcid.org/0000-0003-1765-8696",
+                        "affiliation": [
+                            {
+                                "name": "Federal Reserve Bank of Philadelphia",
+                                "address": {
+                                    "name": "Federal Reserve Bank of Philadelphia, Philadelphia, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "siddhartha.biswas@phil.frb.org",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "John Orellana-Li",
+                        "affiliation": [
+                            {
+                                "name": "Federal Reserve Bank of Philadelphia",
+                                "address": {
+                                    "name": "Federal Reserve Bank of Philadelphia, Philadelphia, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "David Zink",
+                        "affiliation": [
+                            {
+                                "name": "Federal Reserve Bank of San Francisco",
+                                "address": {
+                                    "name": "Federal Reserve Bank of San Francisco, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "climate-change-mitigation;economics",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Climate Change",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41558-025-02396-w"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Natee Amornsiripanitch",
+                            "Siddhartha Biswas",
+                            "John Orellana-Li",
+                            "David Zink"
+                        ],
+                        "publishedAt": 1755216000,
+                        "publishedAtString": "2025-08-15",
+                        "title": "Measuring flood underinsurance in the USA",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Climate-change mitigation,Economics"
+                    },
+                    "journal": {
+                        "pcode": "nclimate",
+                        "title": "nature climate change",
+                        "volume": "15",
+                        "issue": "9",
+                        "id": 41558,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Measuring flood underinsurance in the USA",
+            "dc.source": "Nature Climate Change 2025 15:9",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-08-15",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rights": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Flood insurance could mitigate the negative shock from climate-induced disasters, yet many households are still not covered. Here, using data on expected flood damage and National Flood Insurance Program policies, we provide estimates of annual flood risk protection gaps and underinsurance among single-family residences in the contiguous USA. Annually, 70% (US$17.1 billion) of total flood losses would be uninsured. Underinsurance, defined as protection gaps among properties whose current coverage is under the optimal level, totals US$15.7 billion annually. Among at-risk households, 88% are underinsured and average underinsurance is US$7,208 per year. Underinsurance persists both inside and outside the Federal Emergency Management Agency’s special flood hazard areas, suggesting frictions in the provision of risk information and regulatory compliance. Underinsurance falls disproportionately on low-income communities. At least 70% of at-risk households would benefit from purchasing flood insurance, even as prevailing prices rise. Homeowners could benefit from flood insurance to offset the negative impacts of climate-induced natural disasters. However, with detailed micro-level data, researchers find substantial protection gaps and underinsurance across the USA that disproportionately affect low-income households.",
+            "dc.identifier": "doi:10.1038/s41558-025-02396-w",
+            "dc.creator": "Zink, David",
+            "dc.subject": "Economics",
+            "prism.issn": "1758-6798",
+            "prism.publicationName": "Nature Climate Change",
+            "prism.publicationDate": "2025-08-15",
+            "prism.volume": "15",
+            "prism.number": "9",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "971",
+            "prism.endingPage": "977",
+            "prism.copyright": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41558-025-02396-w",
+            "prism.doi": "doi:10.1038/s41558-025-02396-w",
+            "citation_pdf_url": "https://www.nature.com/articles/s41558-025-02396-w.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41558-025-02396-w",
+            "citation_journal_title": "Nature Climate Change",
+            "citation_journal_abbrev": "Nat. Clim. Chang.",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "1758-6798",
+            "citation_title": "Measuring flood underinsurance in the USA",
+            "citation_volume": "15",
+            "citation_issue": "9",
+            "citation_publication_date": "2025/09",
+            "citation_online_date": "2025/08/15",
+            "citation_firstpage": "971",
+            "citation_lastpage": "977",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41558-025-02396-w",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41558-025-02396-w&api_key=",
+            "citation_reference": "Orellana, J. Measuring Flood Underinsurance in the US. Zenodo \n                  https://doi.org/10.5281/zenodo.15756729\n                  \n                 (2025).",
+            "citation_author": "Zink, David",
+            "citation_author_institution": "Federal Reserve Bank of San Francisco, San Francisco, USA",
+            "description": "Flood insurance could mitigate the negative shock from climate-induced disasters, yet many households are still not covered. Here, using data on expected flood damage and National Flood Insurance Program policies, we provide estimates of annual flood risk protection gaps and underinsurance among single-family residences in the contiguous USA. Annually, 70% (US$17.1 billion) of total flood losses would be uninsured. Underinsurance, defined as protection gaps among properties whose current coverage is under the optimal level, totals US$15.7 billion annually. Among at-risk households, 88% are underinsured and average underinsurance is US$7,208 per year. Underinsurance persists both inside and outside the Federal Emergency Management Agency’s special flood hazard areas, suggesting frictions in the provision of risk information and regulatory compliance. Underinsurance falls disproportionately on low-income communities. At least 70% of at-risk households would benefit from purchasing flood insurance, even as prevailing prices rise. Homeowners could benefit from flood insurance to offset the negative impacts of climate-induced natural disasters. However, with detailed micro-level data, researchers find substantial protection gaps and underinsurance across the USA that disproportionately affect low-income households.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Measuring flood underinsurance in the USA",
+            "twitter:description": "Nature Climate Change - Homeowners could benefit from flood insurance to offset the negative impacts of climate-induced natural disasters. However, with detailed micro-level data, researchers find...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41558-025-02396-w/MediaObjects/41558_2025_2396_Fig1_HTML.png",
+            "DOI": "10.1038/s41558-025-02396-w",
+            "size": "290087",
+            "journal_id": "41558"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41558-025-02396-w",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Homeowners insurance mitigates financial risks from natural disasters collectively faced by households, lenders and investors in the USA, but does not cover flooding, which has large adverse economic consequences on many parts of the economy1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25. The National Flood Insurance Program (NFIP) represents over 95% of the flood insurance market and is the primary financial protection against US$24.4 billion of expected annual flood-related property losses for single-family residences (SFRs). However, large claims relative to premiums collected have left the NFIP in financial stress26. Quantifying this insurance crisis is necessary to identify solutions for mitigation of financial losses from floods.\nThis Article asks if households’ flood insurance coverage would protect against expected flood losses and if the resulting protection gaps are economically inefficient. Existing studies measure damages from floods, document the inequitable distribution of damages faced by poorer communities and identify a mismatch between flood risks and the Federal Emergency Management Agency’s (FEMA) flood maps, which provide information about flood risk and set insurance purchase requirements27,28,29,30. More closely related to this Article, earlier works find that NFIP insurance take-up is low, even when premiums are substantially lower than average payouts, normalized for coverage31,32. Furthermore, demand for flood insurance appears to be price inelastic, suggesting that homeowners are underinsured against flood risk potentially because of non-price factors such as information frictions and behavioural biases30,33,34,35,36. Existing literature acknowledges insurance gaps and speculates that underinsurance constitutes a non-trivial amount of these gaps37,38. This Article advances this field by providing quantitative estimates of these objects and documenting empirical facts about their distribution across geography and communities’ socioeconomic characteristics.\nFirst, we measure protection gaps by aggregating individual properties’ expected flood damages that exceed existing flood insurance coverage. Second, we estimate flood underinsurance by identifying protection gaps for properties that have suboptimal rates of full coverage as suggested by existing economic models of insurance demand. Third, we discuss the distribution of underinsurance by event severity, location, income and race. Last, we explore inaccurate climate beliefs as determinants of low insurance take-up and discuss the implications of our results for insurance pricing and flood risk management.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR36",
+                "ref-CR38",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR25",
+                "ref-CR9",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR28",
+                "ref-CR21",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR37",
+                "ref-CR26",
+                "ref-CR7",
+                "ref-CR33",
+                "ref-CR19",
+                "ref-CR32",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "We measure flood protection gaps and underinsurance for SFRs in the contiguous USA by combining current estimates of property-level flood damages in US dollars from the First Street Foundation (FSF) with administrative data on flood insurance policies from the NFIP. The NFIP policies provide coverage for flood damages to structures, but exclude contents. As we do not observe the precise address of policies, we assign the highest coverage limits to the homes with the largest expected losses within a local area. This assumption forces the riskiest properties to have the most coverage and gives the lower bound on estimated protection gaps and underinsurance.\nFor each property, we define the protection gap as the expected amount of flood losses that would not be covered by flood insurance across the distribution of flood events. Protection gaps provide a descriptive measure, but the economic implications are unclear as households may rationally purchase less coverage. Therefore, we define economic underinsurance as the expected protection gap faced by households for whom it is optimal to purchase full coverage for their home.\nBased on existing economic models of rational insurance demand39,40, the annual premium being less than or equal to expected losses in a year is a sufficient condition for households to optimally choose full coverage for the property, under the assumption that households are risk-averse and markets are complete. Intuitively, a household should fully insure their home if the benefit of holding flood insurance (the average annual losses (AAL)) exceeds the cost (the annual premium). We assume that households can fully insure their home beyond the NFIP maximum coverage limit of US$250,000 by purchasing coverage on the private market at similar rates per dollar of coverage. Our results are robust to relaxing this assumption (Methods and Extended Data Tables 1 and 2).\nWe interpret underinsurance as the amount of uninsured flood losses households face as a result of not holding full coverage when it is optimal. Households in this sample should be fully insured against flood losses based on a frictionless economic model with rational agents and complete markets. We count households who deviate from this benchmark due to any constraints as underinsured. For example, behavioural frictions (such as misunderstanding flood risks or insurance pricing), institutional constraints (such as NFIP maximum coverage of US$250,000) and financial constraints (including lack of liquidity or credit access) might lead households to hold less coverage than the model optimum. As this Articleʼs primary goal is to estimate aggregate flood underinsurance relative to the stated economic framework, we do not decompose underinsurance by specific constraints. Instead, we discuss descriptive evidence related to information and institutional constraints.\nEstimating underinsurance requires two steps (Methods). First, we identify households who have optimal demand for full coverage by comparing premiums from the NFIP and expected damages from the FSF. Second, we measure the protection gap as the area under the exceedance probability curve that is above the property’s coverage limit (Extended Data Fig. 1). Exceedance probability measures the likelihood of annual damages above a specific amount. Our data include expected flood damages for select severe events, which plot a subset of points on the exceedance probability curve. Using these events, we calculate a lower Riemann sum to estimate a lower bound for the protection gap and underinsurance. We do not consider households who optimally demand partial insurance coverage as being underinsured because household-level wealth data, which we do not have, is required to make this determination. Excluded households may still be underinsured, which, if included in the analysis, will enlarge our estimate of economic underinsurance.\n### Protection gaps\nAmong 92.3 million SFRs in the USA, nearly 6 million face AAL that are greater than zero. Among these residences, the average protection gap is US$2,865 (2023 US$) with 85% of at-risk SFRs facing positive uninsured losses (Table 1(a)). In total, US$17.1 billion of expected flood losses would be uninsured annually, representing 70% of US$24.4 billion of expected flood damages.\nWe find that 69% of the total protection gap falls outside Special Flood Hazard Areas (SFHAs), where 77% of SFRs do not hold flood insurance. Still, 76% of SFRs inside SFHAs face protection gaps totalling US$5.3 billion. These gaps imply that 52% of expected flood losses inside SFHAs remain uninsured. SFHAs provide information about flood risk by mapping floodplains with at least a 1% annual probability of flooding, and mandate flood insurance coverage in these high risk areas for federally regulated mortgages. The large prevalence of protection gaps inside SFHAs suggests that these two purposes function imperfectly. Moreover, uninsured SFRs account for 82% (US$14.1 billion) of the protection gap, while insured SFRs account for 18% (Table 2(a)).\n### Economic underinsurance\nTo understand whether the protection gap is economically inefficient, we focus on households for whom purchasing full flood insurance coverage would be optimal. We estimate counterfactual premiums for currently uninsured households using the average premium paid per dollar of coverage by insured households in the same census tract and SFHA. In total, 2,175,703 SFRs have positive expected flood damages and face annual premiums that are lower than or equal to AAL. We measure underinsurance as protection gaps for this sample of households.\nUnderinsurance totals US$15.7 billion (or 91% of the total protection gap) and the average underinsurance of US$7,208 is more than double the average protection gap (Table 1(b)). Underinsurance is both economically large and widespread, as 71% of expected damages and 88% of sample households are underinsured. The distribution of underinsurance shows the concentration of highly underinsured homes: 20% of homes are underinsured by more than US$10,000 and they account for 80% of the total dollar amount of underinsurance (Extended Data Fig. 2).\nThe dollar distribution of underinsurance across household types is identical to that of protection gaps, although the distribution of underinsured properties differs (Table 2(b)). Uninsured properties outside SFHAs represent 56% of underinsured SFRs. Properties that are insured up to the NFIP coverage limit of US$250,000 represent 23% of all underinsured SFRs. The results suggest two types of frictions affecting a majority of households. First, uninsured SFRs outside SFHAs may have inaccurate beliefs about flood risks due to information frictions29,30. Second, insured SFRs constrained by the NFIP coverage limit face institutional frictions and require a policy change to alleviate underinsurance. Both frictions are less prevalent for the remaining SFRs because they either hold insurance below the maximum coverage or receive flood risk disclosures due to residing inside SFHAs.\n### Severe events\nUnderinsurance increases as flood severity increases from a 1-in-20-year return period to a 1-in-500-year return period (Table 3). Inside SFHAs, depending on the flood severity, underinsured rates range from 38% to 80%, with average underinsurance of US$55,597 to US$150,618, while outside SFHAs underinsurance rates range from 37% to 93%, with average underinsurance of US$59,369 to US$223,966. Underinsurance for a 1-in-20-year event would result in a certain and large financial expenditure for the 19% of households who live in the same housing unit for longer than 20 years. As events become more severe, underinsurance diverges by SFHA status. Underinsurance grows more for households outside SFHAs even though events inside SFHAs are more damaging, potentially due to documented behavioural frictions that lead uninformed households to incorrectly assess tail risks34,36,41.\n### Geographic distribution\nTotal underinsurance is largest in the coastal Mid-Atlantic and South Atlantic regions, which are most likely to be affected by floods resulting from hurricanes and tropical storms (Extended Data Table 3). However, the inland East North Central, East South Central, Mountain West and West North Central regions experience the highest underinsurance rates (95–98%) and average amounts (US$9,782 to US$12,880). Underinsurance in these regions reflects damages from some of the highest rates of severe convective storms and inland flooding in the country28. Mapping these patterns show that Appalachian and Midwest counties have higher underinsurance than the Atlantic and Gulf coasts (Fig. 1). Higher underinsurance rates in these areas may be due to FEMA flood maps, which mostly cover coastal areas, providing incorrect signals about inland flood risk29,30.\n### Income and minority composition\nWe consider the distribution of underinsurance with respect to income, race and ethnicity. Underinsurance shares and amounts are higher in tracts with lower median household income (Fig. 2a,c). For the lowest three income deciles, the underinsured share is greater than 90% and average underinsurance accounts for more than 18% of annual household income. Average underinsurance for the highest three income deciles is less than 5% of household income. Underinsured share is not strictly decreasing in tract income. The underinsured share is higher for the top income decile than the eighth income decile. But average underinsurance as a share of income is strictly decreasing in tract income. Insured share increases by income, which suggests that higher income households are not more likely to self-insure (Extended Data Fig. 3). Instead, the uptick in underinsured share at the highest income deciles is potentially due to the US$250,000 coverage limit not being sufficient for higher value properties. Areas with the lowest minority shares, defined as the share of Hispanic and Black individuals in the tract, have the highest underinsured shares (Fig. 2b). However, the gradient remains relatively flat across the remainder of the minority share deciles. The pattern for average underinsurance as a share of income is nearly monotonic as tracts with lower share of minorities experience higher underinsurance (Fig. 2d). The latter finding is consistent with recent studies, which document that areas with the largest disaster losses and the highest levels of unpriced climate risks tend to have a higher share of White residents9,28.\n### Climate beliefs\nInaccurate household beliefs of future flood risks can lead to suboptimal insurance decisions34,36,41. We consider this mechanism by estimating correlations between the average tract-level underinsurance and various measures of climate beliefs. If information constraints bind, households who believe climate risks are lower should be more underinsured. We restrict this regression to households that hold less than the NFIP coverage limit of US$250,000 to avoid conflating institutional constraints with information constraints as determinants of underinsurance.\nWe use three different measures to proxy climate beliefs: the county share of Yale Climate Opinion Survey of 2023 respondents who think global warming will cause a moderate or great deal of personal harm; tract share of registered Republican voters; and tract share of college-educated residents11,12. Our controls include AAL as an objective measure of flood risks and previously analysed indicators of climate information frictions, such as SFHA status and household income35. We account for additional confounders by adding state fixed effects and controls for financial, demographic and housing characteristics (Methods).\nAll three indicators of climate beliefs are strongly correlated with tract-level underinsurance (Extended Data Table 4). Converting log changes to percentage changes, our estimates imply that a 10% higher share of survey respondents perceiving personal harm from global warming is associated with 28.5% lower underinsurance. These correlations remain economically and statistically significant when all three indicators are included together in the regression. Perception of personal harm shows the strongest correlation, as a 10% higher share is associated with 18.1% lower underinsurance, suggesting that beliefs of climate damages may be more salient for household insurance demand than expectations of government responses and financial sophistication, as proxied by political affiliation and education, respectively.",
+            "cites": [
+                "ref-CR30",
+                "ref-CR34",
+                "ref-CR36",
+                "ref-CR9",
+                "ref-CR35",
+                "ref-CR41",
+                "ref-CR12",
+                "ref-CR39",
+                "ref-CR28",
+                "ref-CR29",
+                "ref-CR40",
+                "ref-CR11"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "We find that US$17.1 billion of expected flood losses would be uninsured annually for SFRs, representing 70% of total flood losses. Nearly the entire protection gap (US$15.7 billion) is economically inefficient. Among homes with positive expected flood losses and an optimal demand for full flood insurance coverage, 88% are underinsured by an average of US$7,208. Homes outside SFHAs account for the majority of total underinsurance, suggesting that existing flood maps do not comprehensively capture flood risk. Distributional analysis shows that inland areas, poorer tracts and areas with a higher share of White residents face the largest insurance deficits. Our results imply that existing NFIP insurance coverage leaves agents in housing and mortgage markets exposed to physical climate risks. As underinsurance is large both inside and outside SFHAs, the findings suggest frictions in both the risk information and regulatory compliance purposes of flood maps.\nOur findings present considerations for policies to manage flood risks. Pricing flood risk through insurance premiums is a key policy lever and has been a large focus of the related literature. Although we do not explicitly model insurance demand, we consider whether flood insurance would be financially beneficial if premiums increase to reflect flood risks. We conduct a simple cost-benefit analysis and compute financial gains of holding flood insurance under different insurance premium assumptions.\nWe calculate property-level financial gains from flood insurance as the amount of insurable expected flood damages minus premiums if the household purchased the maximum allowed coverage from the NFIP. We assume households pay relatively high local prevailing prices, using the mean, median, 75th and 99th percentile of premiums for insured homes in the same tract and flood zone. We also estimate financial gains assuming pricing under Risk Rating 2.0, which transitioned towards actuarially fair prices and increased insurance premiums by 11%, on average, by 2023.\nAverage financial gains of purchasing insurance range from US$5,617 to US$8,937, depending on SFHA location and insurance status, if households faced the 99th percentile of local premiums (Table 4). Furthermore, 70–92% of households would financially benefit from purchasing flood insurance even if they faced the highest prevailing local premiums. If households faced the average premiums in their tract and flood zone under Risk Rating 2.0, average financial gains would range from US$6,786 to US$10,037 with 82–86% benefitting. Gains from purchasing insurance under Risk Rating 2.0 premiums are highest for areas with lower incomes and lower minority shares (Extended Data Fig. 4).\nWhile our analysis seems to suggest that higher premiums would improve NFIP solvency without reducing coverage, underinsurance is substantial even with lower prices and larger financial gains. One explanation may be that the benchmark optimum in our analysis does not capture financial constraints (for example, low liquidity or lack of credit access) that make insurance unaffordable. Analyses of past increases to NFIP premiums show reductions in household coverage35,42. Alternatively, households may face non-financial constraints that reduce insurance demand even when pricing is actuarially favourable. Existing literature finds that households’ willingness to pay for flood insurance is lower than its benefits32. While we cannot test the presence of financial constraints, the result that proxies of inaccurate beliefs are strongly correlated with higher underinsurance provides evidence to support information frictions as a salient factor for household insurance demand.\nTaken together, our findings have several implications for flood risk management. First, the large estimated financial gains from buying flood insurance imply that implementing mandated long-term flood insurance policies may substantially increase welfare43,44,45. Second, as most of total flood underinsurance comes from households without any flood insurance and properties located outside SFHAs, increasing the NFIP policy limit may not substantially lower underinsurance. On the other hand, expanding FEMA flood maps to better reflect flood risks may increase demand for flood insurance and deter settlement in risky areas22. Similarly, levees can create a false sense of safety, which can cause insufficient demand for flood insurance and private adaptation46. Studies find that underinvestment in private adaptation against floods is driven by inaccurate risk perceptions, inadequate capitalization of adaptation investments into home prices and insurance market regulations that distort the risk information embedded in insurance premiums11,30,36,45,47. Our finding that climate beliefs are strongly correlated with underinsurance implies that inaccurate risk perceptions are also a key driver of low flood insurance uptake. Consequently, households that underestimate flood risk not only underinvest in adaptation, but are also more likely to be underinsured. Policies that reduce information frictions and correct inaccurate beliefs could reduce underinsurance.",
+            "cites": [
+                "ref-CR30",
+                "ref-CR47",
+                "ref-CR35",
+                "ref-CR36",
+                "ref-CR22",
+                "ref-CR46",
+                "ref-CR45",
+                "ref-CR42",
+                "ref-CR43",
+                "ref-CR44",
+                "ref-CR32",
+                "ref-CR11"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Data sources\nWe combine several data sources to measure flood underinsurance for SFRs in the contiguous USA.\n#### FSF\nData from the FSF provide both current estimates and 30-year projections of property-level flood damage in US dollars, and have been regarded as some of the best publicly available estimates of flood risk in the USA29,48,49,50,51,52. The FSF’s methodology can be summarized in three broad steps.\nFirst, the FSF simulates the physical flow of water through geography based on the open source hydrodynamic model, LISFLOOD-FP. This model accounts for features such as elevation, proximity to water and adaptation measures, such as levees. Importantly, the model incorporates four types of flooding: fluvial (riverine flooding), pluvial (resulting from heavy rainfall), tidal and storm surge. Model outputs perform well when validated against historic flood reports, government flood claims and precise local flood hazard studies conducted by the US Geological Survey53,54,55.\nSecond, the FSF combines its hydrodynamic model with climate projections to simulate the breadth and depth of flooding across different climate scenarios. These scenarios, from Coupled Model Intercomparison Project Phase 6 (CMIP6) simulations, project future environmental changes, such as carbon emissions, sea level rise and precipitation patterns. The CMIP6 models are used by the United Nations’ Intergovernmental Panel on Climate Change in their latest assessment report about the state of scientific, technical and socioeconomic knowledge on climate change. We use the FSF’s projections under CMIP6 Shared Socioeconomic Pathways 2–4.5, which is considered to be the most realistic future climate scenario.\nThird, the FSF uses a private engineering firm, Arup Corporation, to map flood depth to property damage. This step adds the inventory of buildings to the modelled flooding under different climate scenarios from the first two steps. Arup provides damage functions, which are derived from engineering principles, evidence of damage from past floods and current building standards, to estimate the reconstruction costs after damage from flooding. These functions also account for the type and material of each building, including features such as a basement and first-floor elevation.\nThe FSF methodology provides distinct advantages over existing measures of flood risk, such as FEMA’s flood maps that are used to define federal policies on NFIP pricing and mandatory purchase requirements. The FSF model better captures floods from rainfall and ungauged streams and therefore improves coverage of inland flood risks. In addition to AAL in US dollars, the FSF data also include details about the loss distribution by providing expected damage for events of varying likelihoods.\n#### NFIP\nWe merge the flood damage data to administrative data on flood insurance policies from the NFIP. However, this data lacks the geographic granularity necessary to link policies to properties by geographic location alone. Therefore, we assign the highest observed coverage limits to the homes with the largest expected losses. This assumption ensures that we measure a lower bound on underinsurance, because the riskiest properties in our merged data set have the most coverage.\n#### Additional data sources\nWe incorporate Census Bureau data on tract-level income and demographic characteristics to conduct our distributional analysis. For additional analysis in the Article, we gather publicly available data from (1) policy premiums under FEMA’s Risk Rating 2.0 pricing proposal; (2) the Yale Climate Opinion Map, 2023, provided by the Yale Program on Climate Change Communication (YPCCC); and (3) L2 voter data.\n### Sample construction\nWe merge FSF parcel-level data with their nearest neighbour, by Euclidean distance, in CoreLogic property data. We use CoreLogic to identify which properties are SFRs. We then map all these properties to census tracts, using 2010 map delineations. This results in a cross-section of virtually all SFR properties in the USA (FSF and CoreLogic coverage permitting) linked to FSF flood risk measures and damage estimates.\nSecond, we merge the above set of properties with the NFIP redacted policy data under an adverse selection assumption, described in more detail below. As our FSF data use estimates for the year 2022, we want to identify all policies in effect at the start of 2022. To capture a snapshot of active policies in 2022, we keep policies with start dates from 2021Q2 through to 2022Q1, which ensures that there is no more than one policy per home, as NFIP policies must be renewed every year. As with our set of FSF-CoreLogic matched properties, we only use NFIP policies taken out on SFRs.\nAs NFIP policy data do not contain addresses or detailed geocoding, we use an adverse selection assumption to match the policies to the properties in our FSF-CoreLogic data. We first classify all policies by census tract, flood zone designation (for example, ‘A’, ‘V’, ‘X’) and the year the home was built. Within these cells defined by property characteristics, we rank policies by insurance coverage amount, from highest (a maximum of US$250,000) to lowest. We also incorporate deductibles as a tie-breaker for a given amount of flood insurance. If two homes have the US$250,000 maximum in flood insurance coverage, the home with the higher deductible receives the highest rank.\nWe perform an analogous ranking exercise with the FSF-CoreLogic data, assigning homes within each cell the highest ranking if they have the highest AAL, as estimated by the FSF. For each property, the FSF provides the 10th, 50th and 90th percentile of AAL; we use the 50th percentile. We then merge NFIP policies to FSF-CoreLogic properties by census tract, flood zone, year built and the above-described ranking. As not all policies merge in the first step, we iterate on this process, systematically relaxing the granularity of these policy and home characteristic cells, reranking the remaining policies and homes within each cell and merging again, until virtually every NFIP policy is matched to a home. We perform this ranking and merge in the following six sequential steps:\nFlood zone designation refers to the alphabetic assignments A, B, C, D, X and V. Therefore, in step (1), a property is matched to an NFIP policy if the alphabetic assignment matches exactly. In steps (2) through to (5), SFHA signifies whether the property is located in an SFHA, defined as having a flood zone designation of A or V. A total of 68% of our matched policies merge in step (1), while 97% merge on or before step (4). In total, we match 3,420,751 NFIP policies to SFRs, excluding only 6,500 NFIP policies (0.19%) from our sample that we are unable to match through the above process.\nThe final property-level sample contains 92.3 million SFRs. The combination of adverse selection assumption and the imperfect coverage of the FSF and CoreLogic implies that the underinsurance quantities presented in this Article can probably be interpreted as lower bounds. The total AAL for our sample of SFRs is US$24.4 billion. A previous study finds that the AAL for all properties is US$36.8 billion (published as US$32.1 billion in 2021 US$), suggesting our damage estimate may be too large because our sample does not include non-SFR properties27. The main driver of the discrepancy comes from the difference in data version. Our Article uses the more recent v.3 of the FSF data, while the other study use v.1. Using v.1, we find that the AAL for all SFRs is US$17.5 billion and the AAL for all properties is US$34.6 billion, which is very close to existing estimates of AAL27. The remaining discrepancy is probably driven by the difference in the data source for repair costs. We use repair costs directly provided by the FSF data, while the other study used ‘a variety of sources’ to compute structure valuation and repair costs.\nFor the tract-level analyses, we build the tract-level sample from the property-level sample using the 2010 census tract delineation. Tract characteristics such as median household income and minority share were collected from the 2015–2019 five-year American Community Survey. Minority share is defined as the share of Hispanic and Black individuals in the census tract. We use each year’s January Consumer Price Index from the US Bureau of Labor Statistics to adjust for inflation on the median household income quantities. Additionally, we restrict our tract-level analyses to a total of 15,498 tracts that have at least 20 homes with positive AAL. This restriction reduces the geographic footprint from the 44,320 tracts used in our SFR-level analysis, but it does not substantially limit the set of properties used in the tract-level analysis, as 8.2% of SFRs are dropped.\n### Measures of underinsurance\nOur goal is to estimate expected protection gaps and underinsurance for flooding, conditional on expected flood losses and existing insurance coverage. First, we must calculate the below expectation to estimate the protection gap. For each property, we define the protection gap, Gi, as the expected amount of flood losses that would not be covered by flood insurance for a property i across the distribution of flood events j. This calculation abstracts away from policy deductibles, which we consider in our robustness exercise (Methods).\nFor events with damages, Dij, lower than the coverage limit, Ci, insurance payouts are capped by damages. Therefore, properties that have more coverage than damages from all possible events have no protection gap. Furthermore, as the term inside the expectation is nonlinear, the protection gap does not equal max{0,E(Dij) − Ci, which could be easily estimated as the difference between expected losses (AAL) and insurance coverage limit. Instead, we calculate the expectation using event probabilities and damages from FSF’s flood scenario loss estimates for the following return periods: 5 years, 20 years, 100 years, 200 years and 500 years.\nFor each property–scenario pair, FSF provides the 10th, 50th and 90th percentile of repair cost. We use the 50th percentile number for all of our underinsurance calculations. For a specific return period, rj, the inverse of each return period defines the exceedance probability, Pj, which measures the likelihood with which annual damage will exceed or equal the loss estimate for the return period, Dj:\nFor example, annual flood damage for a property would exceed the five-year return period loss estimate with a likelihood of one-fifth.\nAs the exceedance probability is 1 − FD, where FD is the cumulative loss distribution, the expected losses can be calculated as the area under the exceedance probability curve. We estimate the expected protection gaps using the discrete set of return periods available from FSF as\nSpecifically, for each scenario and home, we subtract the home’s insurance coverage from the estimated scenario loss amount to compute a dollar amount of deficit. We then perform step-wise integration over these five probabilistic protection gap estimates for each home, such that the loss estimate remains flat across the density between flood return periods. For instance, we assign the 5-year flood underinsurance estimate for the density between a 5-year flood and a 20-year flood (the next likeliest return period in the data) and the 20-year estimate for the density between a 20-year flood and a 100-year flood. Similarly, as we have no estimate for return periods shorter than 5 years, underinsurance is equal to 0 for all shorter return periods.\nWe define economic underinsurance as protection gaps faced by households for whom it is optimal to purchase full flood coverage. Using \\({\\hat{G}}_{i}\\), we estimate underinsurance as\nIn the above equation, the indicator function determines the sample of SFRs that have optimal demand for full insurance by comparing the annual cost, pi, of full insurance coverage for each property with its AAL, E(Di). However, we do not directly observe the cost to fully insure most SFR homes, either because they are uninsured or because full coverage would exceed US$250,000. We assume full coverage for each property is equivalent to its FSF-estimated rebuild cost. For fewer than 1,500 properties that lack a rebuild cost value, we assign them the tract median rebuild cost. Then, for properties that match to an NFIP policy, we scale the observed premium by building coverage to obtain the per dollar coverage premium. For properties with no such match, we use a local mean premium (tract-by-SFHA) taken of only homes purchasing US$250,000 in coverage. We multiply this per coverage dollar cost by the property rebuild cost to obtain the annual full coverage premium, and keep in the sample only properties for which this full coverage premium is less than or equal to AAL.\nThis method produces a lower bound estimate of expected protection gaps and underinsurance for each home, because we use the least severe loss estimate within the interval between two consecutive return periods. Visually, our approximation of the expected underinsurance aggregates the area of the white rectangles to the right of the coverage limit line Ci and under the exceedance probability curve (Extended Data Fig. 1). As a result, we underestimate the true expected underinsurance for our household sample by the area of the grey regions.\n### Financial gains of insurance under various prices\nFirst, we compute the benefits an underinsured home would receive from flood insurance as the expected flood damage in each flooding scenario capped at the NFIP coverage maximum of US$250,000. Second, we estimate counterfactual annual premiums for each policy. Third, we compute the financial gain for each flooding scenario by subtracting the counterfactual premium from the expected insurance gain amount, including the scenario where no flooding occurs. As our sample focuses on households with optimal demand for full insurance, we assume that every exposed homeowner buys a policy with the maximum coverage allowed by the NFIP.\nThe first set of counterfactual considers local prevailing prices, where we calculate the mean, median, 75th and 99th percentile of premiums for US$250,000 worth of coverage within each property’s census tract and SFHA designation. Premiums can be assigned in this manner for 1,663,356 homes, over 86% of underinsured homes. There is no active NFIP policy in some census tracts from which to estimate local premiums; therefore, another 242,150 homes are assigned premiums from the distribution of local premiums at the county-by-SFHA level. For 16,742 homes, premiums are assigned at the state-by-SFHA level.\nThe second counterfactual considers FEMA’s Risk Rating 2.0 pricing approach, which prices flood insurance policies in a more actuarially fair manner. Specifically, we gather publicly available data on policy premiums under FEMA’s proposed pricing. The data are available at https://www.fema.gov/flood-insurance/work-with-nfip/risk-rating/single-family-home. The data provide zip-code-level average premium increases under Risk Rating 2.0 relative to premiums from September 2022. We scale existing policy premiums in our data by these zip-code-level premium increases to estimate the counterfactual for each policy under Risk Rating 2.0.\n### Climate beliefs and underinsurance\nWe estimate equation (1) by aggregating the sample of homeowners who have an optimal demand for full insurance coverage (that is, their annual premium is less than or equal to expected annual losses) to a census tract-level average underinsurance amount. We further focus on the sample of homeowners who hold less than the FEMA coverage limit of US$250,000 of flood insurance. This restriction allows us to better identify the role of information constraints (for example, beliefs about climate risk) in underinsurance, as households below the maximum coverage limit should not be affected by other institutional constraints. We keep tracts with at least 20 homes in the sample.\nThis regression estimates the correlation (β) between census tract-level climate beliefs, Ic, and underinsurance, Uc, while controlling for census tract-level characteristics, Xc, and state fixed effects, λs. α is a constant and εc is an error term. We obtain three measures of climate beliefs, Ic, as follows. First, we calculate the share of residents in the county who respond to the question ‘how much do you think global warming will harm you personally?’ with ‘a moderate amount’ and ‘a great deal’ in the Yale Climate Opinion Maps from 2023. The data are provided by the YPCCC56,57. Second, we obtain the share of voters in the census tract who are registered Republican from the 2021 census block aggregated L2 voter file (and aggregate to the census tract-level) to capture divergence in beliefs of climate risks by political affiliation as well as expectations of government support after disasters. Third, we measure the share of residents in the census tract who have obtained at least a bachelor’s degree from the American Community Survey (2015–2019) as an indicator of consumer sophistication and knowledge of financial products such as insurance.\nIn addition to state fixed effects, equation (1) includes the following census tract-level measures as control variables, Xc: the log of mean AAL and the share of homes in the SFHAs from FSF, the log of the number of housing units, the share of residents who identify as Black or Hispanic, the share of homeowners with a mortgage, the log of median income and the log of median home value from the American Community Survey adjusted to 2022 dollars by the FHFA house price index, which is available at www.fhfa.gov/data/hpi.\n### Robustness\nWe check the robustness of our findings by relaxing three assumptions made in our analysis. First, we account for policy deductibles by not counting them as underinsurance, instead interpreting them as expected out-of-pocket expenses for homeowners. To estimate the distribution of flood underinsurance with deductibles, we follow the same method as our underinsurance calculation but adjust each home’s insurance coverage by adding the deductible amount. We consider the insurance deductible as the amount the homeowner is willing to pay out-of-pocket in the event of flood damage. Accordingly, we match deductibles to homes in a similar fashion as we do for flood insurance coverage; that is, at a given amount of insurance coverage, the homes with the highest expected flood losses are assigned the highest deductibles. Therefore, we interpret underinsurance after accounting for deductibles as the amount a household needs to pay beyond their expected out-of-pocket expenses.\nSecond, we produce an estimate of the flood underinsurance distribution that accounts for the regulatory limitation on NFIP supply. To do so, we cap flood damages from all flood events, j, for each property, i, at the NFIP coverage maximum of US$250,000. Therefore, the insurance deficit used to calculate underinsurance is adjusted to be\nThe resulting estimate reflects the amount of underinsurance that could be fully offset with NFIP coverage.\nThird, we account for private flood insurance that might eliminate underinsurance for some households. We estimate the number of policies held by the private market in each state and assume those private policies fully cover losses for the most underinsured homes within each state. The share of flood insurance policies currently estimated to belong to the private market is 4.5% nationwide, with 20% of these private policies located in Florida and another 20% in Puerto Rico58. We estimate the number of nationwide private policies as\nWe distribute these private policies among the states by first assigning Florida its disproportionate share and then assign the remaining private policies among the remaining states in proportion to the number of NFIP policies held in each state. As Puerto Rico is not included in our data, we assign Florida 25% of US private policies, that is, 20% of the remaining 80% once Puerto Rico is removed. Within each state, we assign private policies to properties with the highest underinsurance in that state and assume those private policies insure against 100% of those losses. By assuming private insurance covers the most underinsured homes, this method produces a lower bound estimate for underinsurance with NFIP policies without requiring a model of the demand for private flood insurance.\nRelaxing these assumptions does not substantially change our findings. Total underinsurance ranges from US$11.9 billion to US$15.6 billion, or 76% to 99% of our main underinsurance results (Extended Data Table 1). Underinsurance remains high as a share of expected damages, ranging from 54% to 71% of AAL. The distribution of underinsurance by household types is also similar to our main results, with uninsured households outside SFHAs comprising the majority of underinsurance (Extended Data Table 2).\nNote that our measure of underinsurance does not account for federal disaster assistance grants and loans. Grants to restore property damage are small, totalling US$349 million per year from 2014 to 2023, which is less than 1.5% of expected annual flood damages. While disaster loans comprise a larger share of aid, they should not crowd out the optimal insurance demand for our underinsurance estimation sample. Purchasing insurance coverage for property damage is cheaper than borrowing an equal amount of disaster loans—the insurance premium is lower than expected damages while loan repayment is greater than or equal to expected damages and can require collateral for securitization59. Furthermore, the regressive nature of disaster assistance allocation would further exacerbate the disparity in coverage by income as we observe low-income populations to be most underinsured21.\n### Limitations\nOur study has several notable limitations. First, AAL from the FSF are model-generated and, thus, contain a degree of uncertainty from modelling assumptions, methods and choice of historical data. We take the point estimates as-is as we cannot quantify this uncertainty. Second, our Article focuses on SFRs and cannot measure uninsured flood risk that other property types face. Furthermore, our focus on SFRs measures the financial risks faced by the owners of these properties, which would understate the climate risks faced by minority populations who have lower home ownership rates. Third, we do not consider future climate scenarios because existing models of such scenarios do not account for adaptive behaviours (for example, migration and disaster mitigation). Last, our analysis on rising insurance premiums uses estimated local premiums, which may differ from the NFIP’s actual premium schedule.",
+            "cites": [
+                "ref-CR52",
+                "ref-CR57",
+                "ref-CR51",
+                "ref-CR55",
+                "ref-CR59",
+                "ref-CR54",
+                "ref-CR48",
+                "ref-CR27",
+                "ref-CR53",
+                "ref-CR58",
+                "ref-CR49",
+                "ref-CR29",
+                "ref-CR56",
+                "ref-CR21",
+                "ref-CR50"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Geographic distribution of flood underinsurance.",
+            "figure-caption": "a,b, County-level average of expected underinsurance (a) and percentage of at-risk properties facing underinsurance (b). Negative values of underinsurance are set to zero. Statistics are derived from the sample of positive flood risk SFRs for which purchasing full coverage of flood insurance is optimal and for counties with at least 20 such properties. We assume full coverage is optimal for an SFR if the annual premium is less than or equal to AAL. The sample includes 2,170,588 properties located in 2,222 counties.",
+            "figure-link": "https://www.nature.com/articles/s41558-025-02396-w/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Underinsurance by tract income and minority composition.",
+            "figure-caption": "a,b, Census tract-level average underinsured share (percentage of properties with expected flood damage that exceeds insurance coverage) by tract-level median household income deciles (a) and minority share deciles (b). c,d, Tract-level average underinsurance as share of each tract’s median household income by tract-level median household income deciles (c) and minority share deciles (d). Income and minority shares are sorted from low (decile 1) to high (decile 10). Minority share is defined as the share of Hispanic and Black individuals in the census tract. Bars show tract-level mean values (weighted by number of properties) within each decile and orange error bars show the 95% confidence intervals (CI; mean ± 1.96 × s.e.m.). Sample size is 15,499 tracts in a and c and 15,505 tracts in b and d. Sample includes tracts with at least 20 properties with positive flood risk for which purchasing full coverage of flood insurance is optimal. We assume full coverage is optimal for an SFR if the annual premium is less than or equal to AAL.",
+            "figure-link": "https://www.nature.com/articles/s41558-025-02396-w/figures/2"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Atreya, A., Ferreira, S. & Kriesel, W. Forgetting the flood? An analysis of the flood risk discount over time. Land Econ. 89, 577–596 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.3368%2Fle.89.4.577",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Forgetting%20the%20flood%3F%20An%20analysis%20of%20the%20flood%20risk%20discount%20over%20time&journal=Land%20Econ.&doi=10.3368%2Fle.89.4.577&volume=89&pages=577-596&publication_year=2013&author=Atreya%2CA&author=Ferreira%2CS&author=Kriesel%2CW"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Gallagher, J. & Hartley, D. Household finance after a natural disaster: the case of Hurricane Katrina. Am. Econ. J: Econ. Polic. 9, 199–228 (2017).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Household%20finance%20after%20a%20natural%20disaster%3A%20the%20case%20of%20Hurricane%20Katrina&journal=Am.%20Econ.%20J%3A%20Econ.%20Polic.&volume=9&pages=199-228&publication_year=2017&author=Gallagher%2CJ&author=Hartley%2CD"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Hsiang, S. et al. Estimating economic damage from climate change in the United States. Science 356, 1362–1369 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aal4369",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXhtVKgsb%2FL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20economic%20damage%20from%20climate%20change%20in%20the%20United%20States&journal=Science&doi=10.1126%2Fscience.aal4369&volume=356&pages=1362-1369&publication_year=2017&author=Hsiang%2CS"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Ortega, F. & Taṣpinar, S. Rising sea levels and sinking property values: Hurricane Sandy and New York’s housing market. J. Urban Econ. 106, 81–100 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jue.2018.06.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rising%20sea%20levels%20and%20sinking%20property%20values%3A%20Hurricane%20Sandy%20and%20New%20York%E2%80%99s%20housing%20market&journal=J.%20Urban%20Econ.&doi=10.1016%2Fj.jue.2018.06.005&volume=106&pages=81-100&publication_year=2018&author=Ortega%2CF&author=Ta%E1%B9%A3pinar%2CS"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Boustan, L. P., Kahn, M. E., Rhode, P. W. & Yanguas, M. L. The effect of natural disasters on economic activity in US counties: a century of data. J. Urban Econ. 118, 103257 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jue.2020.103257",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20natural%20disasters%20on%20economic%20activity%20in%20US%20counties%3A%20a%20century%20of%20data&journal=J.%20Urban%20Econ.&doi=10.1016%2Fj.jue.2020.103257&volume=118&publication_year=2020&author=Boustan%2CLP&author=Kahn%2CME&author=Rhode%2CPW&author=Yanguas%2CML"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Gibson, M. & Mullins, J. T. Climate risk and beliefs in New York floodplains. J. Assoc. Environ. Resour. Econ. 7, 1069–1111 (2020).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20risk%20and%20beliefs%20in%20New%20York%20floodplains&journal=J.%20Assoc.%20Environ.%20Resour.%20Econ.&volume=7&pages=1069-1111&publication_year=2020&author=Gibson%2CM&author=Mullins%2CJT"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Bilal, A. & Rossi-Hansberg, E. Anticipating Climate Change Across the United States (National Bureau of Economic Research, 2023); https://doi.org/10.3386/w31323",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Indaco, A. & Ortega, F. Adapting to Climate Risk? Local Population Dynamics in the United States (IZA Institute of Labor Economics, 2023); docs.iza.org/dp15982.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Gourevitch, J. D. et al. Unpriced climate risk and the potential consequences of overvaluation in US housing markets. Nat. Clim. Change 13, 250–257 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-023-01594-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Unpriced%20climate%20risk%20and%20the%20potential%20consequences%20of%20overvaluation%20in%20US%20housing%20markets&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-023-01594-8&volume=13&pages=250-257&publication_year=2023&author=Gourevitch%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Addoum, J. M., Eichholtz, P. M. A., Steiner, E. & Yönder, E. Climate Change and Commercial Real Estate: Evidence from Hurricane Sandy (SSRN, 2021); https://doi.org/10.2139/ssrn.3206257",
+            "links": {}
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Bernstein, A., Gustafson, M. T. & Lewis, R. Disaster on the horizon: the price effect of sea level rise. J. Financ. Econ. 134, 253–272 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jfineco.2019.03.013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Disaster%20on%20the%20horizon%3A%20the%20price%20effect%20of%20sea%20level%20rise&journal=J.%20Financ.%20Econ.&doi=10.1016%2Fj.jfineco.2019.03.013&volume=134&pages=253-272&publication_year=2019&author=Bernstein%2CA&author=Gustafson%2CMT&author=Lewis%2CR"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Baldauf, M., Garlappi, L. & Yannelis, C. Does climate change affect real estate prices? Only if you believe in it. Rev. Financ. Stud. 33, 1256–1295 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Frfs%2Fhhz073",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20climate%20change%20affect%20real%20estate%20prices%3F%20Only%20if%20you%20believe%20in%20it&journal=Rev.%20Financ.%20Stud.&doi=10.1093%2Frfs%2Fhhz073&volume=33&pages=1256-1295&publication_year=2020&author=Baldauf%2CM&author=Garlappi%2CL&author=Yannelis%2CC"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Keys, B. J. & Mulder, P. Neglected No More: Housing Markets, Mortgage Lending, and Sea Level Rise (National Bureau of Economic Research, 2020); https://doi.org/10.3386/w27930",
+            "links": {}
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Atreya, A. & Czajkowski, J. Graduated flood risks and property prices in Galveston County. Real Estate Econ. 47, 807–844 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2F1540-6229.12163",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Graduated%20flood%20risks%20and%20property%20prices%20in%20Galveston%20County&journal=Real%20Estate%20Econ.&doi=10.1111%2F1540-6229.12163&volume=47&pages=807-844&publication_year=2019&author=Atreya%2CA&author=Czajkowski%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Murfin, J. & Spiegel, M. Is the risk of sea level rise capitalized in residential real estate? Rev. Financ. Stud. 33, 1217–1255 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Frfs%2Fhhz134",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Is%20the%20risk%20of%20sea%20level%20rise%20capitalized%20in%20residential%20real%20estate%3F&journal=Rev.%20Financ.%20Stud.&doi=10.1093%2Frfs%2Fhhz134&volume=33&pages=1217-1255&publication_year=2020&author=Murfin%2CJ&author=Spiegel%2CM"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Hino, M. & Burke, M. The effect of information about climate risk on property values. Proc. Natl Acad. Sci. USA 118, e2003374118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2003374118",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXpvFantL8%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20information%20about%20climate%20risk%20on%20property%20values&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2003374118&volume=118&publication_year=2021&author=Hino%2CM&author=Burke%2CM"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Kousky, C., Palim, M. & Pan, Y. Flood damage and mortgage credit risk: a case study of Hurricane Harvey. J. Hous. Res. 29, S86–S120 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F10527001.2020.1840131",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Flood%20damage%20and%20mortgage%20credit%20risk%3A%20a%20case%20study%20of%20Hurricane%20Harvey&journal=J.%20Hous.%20Res.&doi=10.1080%2F10527001.2020.1840131&volume=29&pages=S86-S120&publication_year=2020&author=Kousky%2CC&author=Palim%2CM&author=Pan%2CY"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Ratcliffe, C., Congdon, W., Teles, D., Stanczyk, A. & Martín, C. From bad to worse: natural disasters and financial health. J. Hous. Res. 29, S25–S53 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F10527001.2020.1838172",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=From%20bad%20to%20worse%3A%20natural%20disasters%20and%20financial%20health&journal=J.%20Hous.%20Res.&doi=10.1080%2F10527001.2020.1838172&volume=29&pages=S25-S53&publication_year=2020&author=Ratcliffe%2CC&author=Congdon%2CW&author=Teles%2CD&author=Stanczyk%2CA&author=Mart%C3%ADn%2CC"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Du, D. & Zhao, X. Hurricanes and Residential Mortgage Loan Performance (Office of the Comptroller of the Currency, 2020); www.occ.gov/publications-and-resources/publications/economics/working-papers-banking-perf-reg/economic-working-paper-hurricanes-residential-mortgage-loan-perf.html",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Issler, P., Stanton, R., Vergara-Alert, C. & Wallace, N. Housing and Mortgage Markets with Climate Risk: Evidence from California Wildfires (SSRN, 2023); https://doi.org/10.2139/ssrn.3511843",
+            "links": {}
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Billings, S. B., Gallagher, E. A. & Ricketts, L. Let the rich be flooded: the distribution of financial aid and distress after Hurricane Harvey. J. Financ. Econ. 146, 797–819 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jfineco.2021.11.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Let%20the%20rich%20be%20flooded%3A%20the%20distribution%20of%20financial%20aid%20and%20distress%20after%20Hurricane%20Harvey&journal=J.%20Financ.%20Econ.&doi=10.1016%2Fj.jfineco.2021.11.006&volume=146&pages=797-819&publication_year=2022&author=Billings%2CSB&author=Gallagher%2CEA&author=Ricketts%2CL"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Panjwani, A. Mortgage Forbearance and Households’ Exposure to Climate Risk (SSRN, 2024); https://doi.org/10.2139/ssrn.4949590",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "An, X., Biswas, S., Hossain, M., Tarlin, S. & Zhang, C. A Bottom-up Approach to Climate Stress Tests: The Effect of Hurricanes on Mortgage Repayment Research brief (Federal Reserve Bank of Philadelphia, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "An, X., Gabriel, S. A. & Tzur-Ilan, N. The Effects of Extreme Wildfire and Smoke Events on Household Financial Outcomes (SSRN, 2023); https://doi.org/10.2139/ssrn.4353113",
+            "links": {}
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Biswas, S., Hossain, M. & Zink, D. California Wildfires, Property Damage, and Mortgage Repayment (Federal Reserve Bank of Philadelphia, 2023); https://doi.org/10.2139/ssrn.4372320",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Horn, D. P. & Webel, B. Introduction to the National Flood Insurance Program (NFIP) Report R44593 (Congressional Research Service, 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "E. J. Wing, O. et al. Inequitable patterns of US flood risk in the Anthropocene. Nat. Clim. Change 12, 156–162 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-021-01265-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inequitable%20patterns%20of%20US%20flood%20risk%20in%20the%20Anthropocene&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-021-01265-6&volume=12&pages=156-162&publication_year=2022&author=E.%20J.%20Wing%2CO"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Wylie, D., Amornsiripanitch, N., Heilbron, J. & Zhao, K. Who Bears Climate-Related Physical Risk? Working paper 23-29 (Federal Reserve Bank of Philadelphia, 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Weill, J. A. Flood Risk Mapping and the Distributional Impacts of Climate Information Working paper, Finance and Economics Discussion Series (Board of Governors of the Federal Reserve System, 2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Mulder, P. Mismeasuring Risk: The Welfare Effects of Flood Risk Information (SSRN, 2024); https://doi.org/10.2139/ssrn.4966795",
+            "links": {}
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Anderson, D. R. The National Flood Insurance Program—problems and potential. J. Risk Insur. 41, 579–599 (1974).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Wagner, K. R. H. Adaptation and adverse selection in markets for natural disaster insurance. Am. Econ. J.: Econ. Polic. 14, 380–421 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Adaptation%20and%20adverse%20selection%20in%20markets%20for%20natural%20disaster%20insurance&journal=Am.%20Econ.%20J.%3A%20Econ.%20Polic.&volume=14&pages=380-421&publication_year=2022&author=Wagner%2CKRH"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Landry, C. E. & Jahan-Parvar, M. R. Flood insurance coverage in the coastal zone. J. Risk Insur. 78, 361–388 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1539-6975.2010.01380.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Flood%20insurance%20coverage%20in%20the%20coastal%20zone&journal=J.%20Risk%20Insur.&doi=10.1111%2Fj.1539-6975.2010.01380.x&volume=78&pages=361-388&publication_year=2011&author=Landry%2CCE&author=Jahan-Parvar%2CMR"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Botzen, W. J. W., Kunreuther, H. & Michel-Kerjan, E. Divergence between individual perceptions and objective indicators of tail risks: evidence from floodplain residents in New York City. Judgm. Decis. Mak. 10, 365–385 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1017%2FS1930297500005179",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Divergence%20between%20individual%20perceptions%20and%20objective%20indicators%20of%20tail%20risks%3A%20evidence%20from%20floodplain%20residents%20in%20New%20York%20City&journal=Judgm.%20Decis.%20Mak.&doi=10.1017%2FS1930297500005179&volume=10&pages=365-385&publication_year=2015&author=Botzen%2CWJW&author=Kunreuther%2CH&author=Michel-Kerjan%2CE"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Bradt, J. T., Kousky, C. & Wing, O. E. J. Voluntary purchases and adverse selection in the market for flood insurance. J. Environ. Econ. Manag. 110, 102515 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jeem.2021.102515",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Voluntary%20purchases%20and%20adverse%20selection%20in%20the%20market%20for%20flood%20insurance&journal=J.%20Environ.%20Econ.%20Manag.&doi=10.1016%2Fj.jeem.2021.102515&volume=110&publication_year=2021&author=Bradt%2CJT&author=Kousky%2CC&author=Wing%2COEJ"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Choi, J., Diffenbaugh, N. S. & Burke, M. The effect of flood exposure on insurance adoption among US households. Earth’s Future 12, e2023EF004110 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2023EF004110",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20flood%20exposure%20on%20insurance%20adoption%20among%20US%20households&journal=Earth%E2%80%99s%20Future&doi=10.1029%2F2023EF004110&volume=12&publication_year=2024&author=Choi%2CJ&author=Diffenbaugh%2CNS&author=Burke%2CM"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Kousky, C. The role of natural disaster insurance in recovery and risk reduction. Annu. Rev. Resour. Econ. 11, 399–418 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-resource-100518-094028",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20natural%20disaster%20insurance%20in%20recovery%20and%20risk%20reduction&journal=Annu.%20Rev.%20Resour.%20Econ.&doi=10.1146%2Fannurev-resource-100518-094028&volume=11&pages=399-418&publication_year=2019&author=Kousky%2CC"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Xue, Y., Fu, X. & Li, C. Mismatch between flood risk and insurance protection: a county-level analysis in the contiguous United States. Environ. Plan. B 52, 756–760 (2025).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mismatch%20between%20flood%20risk%20and%20insurance%20protection%3A%20a%20county-level%20analysis%20in%20the%20contiguous%20United%20States&journal=Environ.%20Plan.%20B&volume=52&pages=756-760&publication_year=2025&author=Xue%2CY&author=Fu%2CX&author=Li%2CC"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Mossin, J. Aspects of rational insurance purchasing. J. Political Econ. 76, 553–568 (1968).",
+            "links": {
+                "Article": "https://doi.org/10.1086%2F259427",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Aspects%20of%20rational%20insurance%20purchasing&journal=J.%20Political%20Econ.&doi=10.1086%2F259427&volume=76&pages=553-568&publication_year=1968&author=Mossin%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Einav, L., Finkelstein, A. & Cullen, M. R. Estimating welfare in insurance markets using variation in prices. Q. J. Econ. 125, 877–921 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1162%2Fqjec.2010.125.3.877",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20welfare%20in%20insurance%20markets%20using%20variation%20in%20prices&journal=Q.%20J.%20Econ.&doi=10.1162%2Fqjec.2010.125.3.877&volume=125&pages=877-921&publication_year=2010&author=Einav%2CL&author=Finkelstein%2CA&author=Cullen%2CMR"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Landry, C. & Turner, D. Risk perceptions and flood insurance: insights from homeowners on the Georgia Coast. Sustainability 12, 10372 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Collier, B., Huber, T., Jaspersen, J. G. & Richter, A. Homeowners’ Willingness to Hedge Flood Risks as Prices Increase (SSRN, 2023); https://doi.org/10.2139/ssrn.4635177",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Jaffee, D., Kunreuther, H. & Michel-Kerjan, E. Long Term Insurance (LTI) for Addressing Catastrophe Risk (National Bureau of Economic Research, 2008).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Kousky, C. & Kunreuther, H. Improving flood insurance and flood-risk management: insights from St. Louis, Missouri. Nat. Hazards Rev. 11, 162–172 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1061%2F%28ASCE%29NH.1527-6996.0000021",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Improving%20flood%20insurance%20and%20flood-risk%20management%3A%20insights%20from%20St.%20Louis%2C%20Missouri&journal=Nat.%20Hazards%20Rev.&doi=10.1061%2F%28ASCE%29NH.1527-6996.0000021&volume=11&pages=162-172&publication_year=2010&author=Kousky%2CC&author=Kunreuther%2CH"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Hovekamp, W. P. & Wagner, K. R. H. Effective adaptation to flood risk. AEA Pap. Proc. 113, 304–309 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Fpandp.20231103",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effective%20adaptation%20to%20flood%20risk&journal=AEA%20Pap.%20Proc.&doi=10.1257%2Fpandp.20231103&volume=113&pages=304-309&publication_year=2023&author=Hovekamp%2CWP&author=Wagner%2CKRH"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Tobin, G. A. The levee love affair: a stormy relationship? J. Am. Water Resour. As. 31, 359–367 (1995).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1752-1688.1995.tb04025.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20levee%20love%20affair%3A%20a%20stormy%20relationship%3F&journal=J.%20Am.%20Water%20Resour.%20As.&doi=10.1111%2Fj.1752-1688.1995.tb04025.x&volume=31&pages=359-367&publication_year=1995&author=Tobin%2CGA"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Gallagher, J. Learning about an infrequent event: evidence from flood insurance take-up in the United States. Am. Econ. J.: Appl. Econ. 6, 206–33 (2014).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Learning%20about%20an%20infrequent%20event%3A%20evidence%20from%20flood%20insurance%20take-up%20in%20the%20United%20States&journal=Am.%20Econ.%20J.%3A%20Appl.%20Econ.&volume=6&pages=206-33&publication_year=2014&author=Gallagher%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Bates, P. D., Horritt, M. S. & Fewtrell, T. J. A simple inertial formulation of the shallow water equations for efficient two-dimensional flood inundation modelling. J. Hydrol. 387, 33–45 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jhydrol.2010.03.027",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20simple%20inertial%20formulation%20of%20the%20shallow%20water%20equations%20for%20efficient%20two-dimensional%20flood%20inundation%20modelling&journal=J.%20Hydrol.&doi=10.1016%2Fj.jhydrol.2010.03.027&volume=387&pages=33-45&publication_year=2010&author=Bates%2CPD&author=Horritt%2CMS&author=Fewtrell%2CTJ"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Neal, J., Schumann, G. & Bates, P. A Subgrid channel model for simulating river hydraulics and floodplain inundation over large and data sparse areas. Water Resour. Res. https://doi.org/10.1029/2012WR012514 (2012).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "de Almeida, G. A. M. & Bates, P. Applicability of the local inertial approximation of the shallow water equations to flood modeling. Water Resour. Res. 49, 4833–4844 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fwrcr.20366",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Applicability%20of%20the%20local%20inertial%20approximation%20of%20the%20shallow%20water%20equations%20to%20flood%20modeling&journal=Water%20Resour.%20Res.&doi=10.1002%2Fwrcr.20366&volume=49&pages=4833-4844&publication_year=2013&author=Almeida%2CGAM&author=Bates%2CP"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Sampson, C. C., Bates, P. D., Neal, J. C. & Horritt, M. S. An automated routing methodology to enable direct rainfall in high resolution shallow water models. Hydrol. Process. 27, 467–476 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fhyp.9515",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20automated%20routing%20methodology%20to%20enable%20direct%20rainfall%20in%20high%20resolution%20shallow%20water%20models&journal=Hydrol.%20Process.&doi=10.1002%2Fhyp.9515&volume=27&pages=467-476&publication_year=2013&author=Sampson%2CCC&author=Bates%2CPD&author=Neal%2CJC&author=Horritt%2CMS"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Sampson, C. C. et al. A high-resolution global flood hazard model. Water Resour. Res. 51, 7358–7381 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2F2015WR016954",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20high-resolution%20global%20flood%20hazard%20model&journal=Water%20Resour.%20Res.&doi=10.1002%2F2015WR016954&volume=51&pages=7358-7381&publication_year=2015&author=Sampson%2CCC"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "E. J. Wing, O. et al. Validation of a 30 m resolution flood hazard model of the conterminous United States. Water Resour. Res. 53, 7968–7986 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2F2017WR020917",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Validation%20of%20a%2030%E2%80%89m%20resolution%20flood%20hazard%20model%20of%20the%20conterminous%20United%20States&journal=Water%20Resour.%20Res.&doi=10.1002%2F2017WR020917&volume=53&pages=7968-7986&publication_year=2017&author=E.%20J.%20Wing%2CO"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Armal, S. et al. Assessing property level economic impacts of climate in the US, new insights and evidence from a comprehensive flood risk assessment tool. Climate https://doi.org/10.3390/cli8100116 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Bates, P. D. et al. Combined modeling of US fluvial, pluvial, and coastal flood hazard under current and future climates. Water Resour. Res. 57, e2020WR028673 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2020WR028673",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Combined%20modeling%20of%20US%20fluvial%2C%20pluvial%2C%20and%20coastal%20flood%20hazard%20under%20current%20and%20future%20climates&journal=Water%20Resour.%20Res.&doi=10.1029%2F2020WR028673&volume=57&publication_year=2021&author=Bates%2CPD"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Howe, P. D., Mildenberger, M., Marlon, J. R. & Leiserowitz, A. Geographic variation in opinions on climate change at state and local scales in the USA. Nat. Clim. Change 5, 596–603 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnclimate2583",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Geographic%20variation%20in%20opinions%20on%20climate%20change%20at%20state%20and%20local%20scales%20in%20the%20USA&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fnclimate2583&volume=5&pages=596-603&publication_year=2015&author=Howe%2CPD&author=Mildenberger%2CM&author=Marlon%2CJR&author=Leiserowitz%2CA"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Marlon, J. R. et al. Change in US state-level public opinion about climate change: 2008-2020. Environ. Res. Lett. 17, 124046 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Faca702",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Change%20in%20US%20state-level%20public%20opinion%20about%20climate%20change%3A%202008-2020&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Faca702&volume=17&publication_year=2022&author=Marlon%2CJR"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Kousky, C., Kunreuther, H., Lingle, B. & Shabman, L. The Emerging Private Residential Flood Insurance Market in the United States (Resources for the Future, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Collier, B. L., Ellis, C. & Keys, B. J. The Cost of Consumer Collateral: Evidence from Bunching (National Bureau of Economic Research, 2021); https://doi.org/10.3386/w29527",
+            "links": {}
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Orellana, J. Measuring Flood Underinsurance in the US. Zenodo https://doi.org/10.5281/zenodo.15756729 (2025).",
+            "links": {}
+        }
+    ]
+}

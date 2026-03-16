@@ -1,0 +1,97 @@
+{
+    "id": "s44284-025-00235-9",
+    "title": "Disparities in access to sustainable dining options across the Tokyo Metropolis",
+    "journal": "Nature Cities",
+    "pdf_link": "https://www.nature.com/articles/s44284-025-00235-9",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "Dining out menu database from chain restaurant official websites",
+            "Data_summary": "Dish-level menu data manually collected from official websites of chain restaurants, including each dish nutritional profile and listed price. Used to estimate nutrient density and represent average nutritional profiles by restaurant type for calculating the nutritional component of the sustainable dining out index.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: By scouring the official websites of renowned chain restaurants in Tokyo we gathered publicly available menu information from chain stores; Location: Methods Dining out menu dataset; Confidence: high",
+            "Time_Coverage": "2024-11",
+            "Geographic_Coverage": "Japan > Tokyo Metropolis",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Google Maps Places API restaurant POI dataset for Tokyo",
+            "Data_summary": "Restaurant points of interest extracted via the Google Maps Places API including restaurant name, address, coordinates, identifier code, and price level. Used to map restaurant density and price, categorize restaurants, compute station vicinity metrics within 500 m, and serve as the base restaurant inventory for SDOI and optimization analyses.",
+            "Category": "Points of Interest (POIs)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We used the places API from the Google Maps platform to retrieve the POI data including essential details such as the restaurant name address latitude longitude identifier code and price level; Location: Methods Restaurant information data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Japan > Tokyo Metropolis",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Tabelog restaurant labels data",
+            "Data_summary": "Restaurant category labels from the Tabelog dining review platform retrieved by searching each restaurant and collecting one to three labels per restaurant. Used to disambiguate and validate restaurant types when Google Maps POI types were too generic, enabling mapping to 12 dining subtypes.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: To address this ambiguity we integrated information from Tabelog a Japanese dining review platform; Location: Methods Menu and restaurant data categorization and validation; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Japan > Tokyo Metropolis",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Japan National Land Numerical Information Station data S12 v2.3",
+            "Data_summary": "Open public transport dataset providing railway station locations plus associated route details operator types and daily passenger traffic used to compute station foot traffic and define station-based analyses of sustainable dining environments along station vicinities and railway lines.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data on railway stations and their daily passenger traffic averaged over 2020 were obtained from the National Land Information Division Ministry of Land Infrastructure Transport and Tourism Japan; Location: Methods Public transport open data and dining out sketch for households in Japan; Confidence: high",
+            "Time_Coverage": "2020",
+            "Geographic_Coverage": "Japan > Tokyo Metropolis",
+            "URL": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-v2_3.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "Family Income and Expenditure Survey FIES Japan",
+            "Data_summary": "Official household survey microdata or tabulations describing household spending patterns, dining out expenditures, and purchase frequencies by income group. Used to define dining out type classification criteria and to provide consumption and frequency inputs for estimating meal carbon footprints by restaurant type and income group.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: dining out expenditures and frequencies for the year 2023 are derived from the FIES; Location: Extra_info Data availability; Confidence: high",
+            "Time_Coverage": "2023",
+            "Geographic_Coverage": "Japan",
+            "URL": "https://www.stat.go.jp/english/data/kakei/index.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "3EID input output life cycle inventory database Japan",
+            "Data_summary": "Japan environmentally extended input output life cycle inventory database providing embodied energy and emission intensity values by industrial sector based on input output tables. Used as emission intensity inputs to quantify indirect carbon footprints for dining out when combined with expenditure and frequency data.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we utilized the 3EID database which provides embodied energy and emission intensity values for Japan’s approximately 400 industrial sectors based on input output tables; Location: Extra_info Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Japan",
+            "URL": "https://www.cger.nies.go.jp/publications/report/d031/jpn/page/what_is_3eid.htm",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data Availability",
+            "Data_summary": "Aggregated or de-identified supporting datasets shared by the authors for the study, intended to enable reproduction of the analyses and figures.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Aggregated or de-identified data supporting the findings of this study are available on GitHub at https://github.com/LiqiaoHuang/Sus-Din-Out; Location: Extra_info Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Japan > Tokyo Metropolis",
+            "URL": "https://github.com/LiqiaoHuang/Sus-Din-Out",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:07.719299"
+    }
+}

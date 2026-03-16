@@ -1,0 +1,1430 @@
+{
+    "id": "s42256-022-00462-y",
+    "journal": "Nature Machine Intelligence",
+    "type": "article",
+    "title": "Quantifying the spatial homogeneity of urban road networks via graph neural networks",
+    "legal_title": "Quantifying the spatial homogeneity of urban road networks via graph neural networks",
+    "publish_time": "2022-03-23",
+    "pdf_link": "https://www.nature.com/articles/s42256-022-00462-y",
+    "storage_path": "./Articles/Nature Machine Intelligence/2022-article/s42256-022-00462-y/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Quantifying the topological similarities of different parts of urban road networks enables us to understand urban growth patterns. Although conventional statistics provide useful information about the characteristics of either a single node’s direct neighbours or the entire network, such metrics fail to measure the similarities of subnetworks or capture local, indirect neighbourhood relationships. Here we propose a graph-based machine learning method to quantify the spatial homogeneity of subnetworks. We apply the method to 11,790 urban road networks across 30 cities worldwide to measure the spatial homogeneity of road networks within each city and across different cities. We find that intracity spatial homogeneity is highly associated with socioeconomic status indicators such as gross domestic product and population growth. Moreover, intercity spatial homogeneity values obtained by transferring the model across different cities reveal the intercity similarity of urban network structures originating in Europe, passed on to cities in the United States and Asia. The socioeconomic development and intercity similarity revealed using our method can be leveraged to understand and transfer insights between cities. It also enables us to address urban policy challenges including network planning in rapidly urbanizing areas and regional inequality.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "We used the publicly available road network data from OpenStreetMap (https://www.openstreetmap.org/) via the OSMnx Python package (https://github.com/gboeing/osmnx). We also used images from Google Maps (https://www.google.com/maps) to validate the node merging results. These images are also available to the public. The population data we used comes from https://worldpopulationreview.com/, which is a visualization platform for the open datasets owned by the United Nations. The airport flow data for 21 cities are from the 2019 Annual Airport Traffic Report at https://www.panynj.gov/airports/en/statistics-general-info.html owned by the Port Authority of New York and New Jersey and are also publicly available. The airport flow data for the other nine cities can be accessed from links that are listed in Supplementary Section 4. Both the road network data and socioeconomic data are available at the online data warehouse: https://github.com/jiang719/road-network-predictability.git. The data are available via Zenodo at https://doi.org/10.5281/zenodo.5866593 (ref. 109).",
+            "links": {
+                "https://www.openstreetmap.org/": "https://www.openstreetmap.org/",
+                "https://github.com/gboeing/osmnx": "https://github.com/gboeing/osmnx",
+                "https://www.google.com/maps": "https://www.google.com/maps",
+                "https://worldpopulationreview.com/": "https://worldpopulationreview.com/",
+                "https://www.panynj.gov/airports/en/statistics-general-info.html": "https://www.panynj.gov/airports/en/statistics-general-info.html",
+                "https://github.com/jiang719/road-network-predictability.git": "https://github.com/jiang719/road-network-predictability.git",
+                "https://doi.org/10.5281/zenodo.5866593": "https://doi.org/10.5281/zenodo.5866593",
+                "109": "/articles/s42256-022-00462-y#ref-CR109"
+            }
+        },
+        "Code availability": {
+            "content": "Source codes for the training and testing results are available at the online data warehouse: https://github.com/jiang719/road-network-predictability.git. The code is available via Zenodo at https://doi.org/10.5281/zenodo.5866593 (ref. 109).",
+            "links": {
+                "https://github.com/jiang719/road-network-predictability.git": "https://github.com/jiang719/road-network-predictability.git",
+                "https://doi.org/10.5281/zenodo.5866593": "https://doi.org/10.5281/zenodo.5866593",
+                "109": "/articles/s42256-022-00462-y#ref-CR109"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We thank S. Rao from Purdue University for discussions about the comparison between the spatial homogeneity metric and existing network metrics. S.L. acknowledges support from the Ross-Lynn fellowship, Purdue University. T.Y. is partly funded by National Science Foundation (grant number 1638311).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsJiawei XueView author publicationsSearch author on:PubMed Google ScholarNan JiangView author publicationsSearch author on:PubMed Google ScholarSenwei LiangView author publicationsSearch author on:PubMed Google ScholarQiyuan PangView author publicationsSearch author on:PubMed Google ScholarTakahiro YabeView author publicationsSearch author on:PubMed Google ScholarSatish V. UkkusuriView author publicationsSearch author on:PubMed Google ScholarJianzhu MaView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nJ.X., T.Y., S.V.U. and J.M. proposed the question. J.X., N.J., S.L., Q.P. and J.M. designed the research. N.J. trained and tested the GNN models. S.L. and Q.P. performed the intracity analysis. N.J. and J.X. conducted the intercity analysis. J.X. and J.M. drew the figures. J.X., T.Y., S.V.U. and J.M. wrote the paper.\n### Corresponding authors\nCorrespondence to\n                Satish V. Ukkusuri or Jianzhu Ma.",
+            "links": {
+                "View author publications": "/search?author=Jianzhu%20Ma",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jianzhu%20Ma",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Jianzhu%20Ma%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Satish V. Ukkusuri": "mailto:sukkusur@purdue.edu",
+                "Jianzhu Ma": "mailto:majianzhu@pku.edu.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Machine Intelligence thanks Martin Fleischmann and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Figs. 1–28 and Tables 1–5.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-022-00462-y/MediaObjects/42256_2022_462_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-022-00462-y/MediaObjects/42256_2022_462_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Reprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Quantifying%20the%20spatial%20homogeneity%20of%20urban%20road%20networks%20via%20graph%20neural%20networks&author=Jiawei%20Xue%20et%20al&contentID=10.1038%2Fs42256-022-00462-y&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20Limited&publication=2522-5839&publicationDate=2022-03-23&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleXue, J., Jiang, N., Liang, S. et al. Quantifying the spatial homogeneity of urban road networks via graph neural networks.\n                    Nat Mach Intell 4, 246–257 (2022). https://doi.org/10.1038/s42256-022-00462-yDownload citationReceived: 09 July 2021Accepted: 15 February 2022Published: 23 March 2022Version of record: 23 March 2022Issue date: March 2022DOI: https://doi.org/10.1038/s42256-022-00462-yShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42256-022-00462-y?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Quantifying the spatial homogeneity of urban road networks via graph neural networks",
+                "description": "Quantifying the topological similarities of different parts of urban road networks enables us to understand urban growth patterns. Although conventional statistics provide useful information about the characteristics of either a single node’s direct neighbours or the entire network, such metrics fail to measure the similarities of subnetworks or capture local, indirect neighbourhood relationships. Here we propose a graph-based machine learning method to quantify the spatial homogeneity of subnetworks. We apply the method to 11,790 urban road networks across 30 cities worldwide to measure the spatial homogeneity of road networks within each city and across different cities. We find that intracity spatial homogeneity is highly associated with socioeconomic status indicators such as gross domestic product and population growth. Moreover, intercity spatial homogeneity values obtained by transferring the model across different cities reveal the intercity similarity of urban network structures originating in Europe, passed on to cities in the United States and Asia. The socioeconomic development and intercity similarity revealed using our method can be leveraged to understand and transfer insights between cities. It also enables us to address urban policy challenges including network planning in rapidly urbanizing areas and regional inequality. The spatial homogeneity of urban road networks can be quantified in a fine-grained manner with graph neural networks. This method is studied across 11,790 inner-city road networks around the world and can be used to study socioeconomic development and help with urban planning.",
+                "datePublished": "2022-03-23T00:00:00Z",
+                "dateModified": "2022-03-23T00:00:00Z",
+                "pageStart": "246",
+                "pageEnd": "257",
+                "sameAs": "https://doi.org/10.1038/s42256-022-00462-y",
+                "keywords": [
+                    "Complex networks",
+                    "Computer science",
+                    "Geography",
+                    "Engineering",
+                    "general"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-022-00462-y/MediaObjects/42256_2022_462_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-022-00462-y/MediaObjects/42256_2022_462_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-022-00462-y/MediaObjects/42256_2022_462_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-022-00462-y/MediaObjects/42256_2022_462_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-022-00462-y/MediaObjects/42256_2022_462_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-022-00462-y/MediaObjects/42256_2022_462_Fig6_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Machine Intelligence",
+                    "issn": [
+                        "2522-5839"
+                    ],
+                    "volumeNumber": "4",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Jiawei Xue",
+                        "url": "http://orcid.org/0000-0001-7519-6130",
+                        "affiliation": [
+                            {
+                                "name": "Purdue University",
+                                "address": {
+                                    "name": "Lyles School of Civil Engineering, Purdue University, West Lafayette, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Nan Jiang",
+                        "affiliation": [
+                            {
+                                "name": "Purdue University",
+                                "address": {
+                                    "name": "Department of Computer Science, Purdue University, West Lafayette, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Senwei Liang",
+                        "url": "http://orcid.org/0000-0002-3558-6828",
+                        "affiliation": [
+                            {
+                                "name": "Purdue University",
+                                "address": {
+                                    "name": "Department of Mathematics, Purdue University, West Lafayette, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Qiyuan Pang",
+                        "affiliation": [
+                            {
+                                "name": "Purdue University",
+                                "address": {
+                                    "name": "Department of Mathematics, Purdue University, West Lafayette, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Takahiro Yabe",
+                        "url": "http://orcid.org/0000-0001-8967-1967",
+                        "affiliation": [
+                            {
+                                "name": "Purdue University",
+                                "address": {
+                                    "name": "Lyles School of Civil Engineering, Purdue University, West Lafayette, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Satish V. Ukkusuri",
+                        "url": "http://orcid.org/0000-0001-8754-9925",
+                        "affiliation": [
+                            {
+                                "name": "Purdue University",
+                                "address": {
+                                    "name": "Lyles School of Civil Engineering, Purdue University, West Lafayette, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "sukkusur@purdue.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jianzhu Ma",
+                        "url": "http://orcid.org/0000-0002-8236-6609",
+                        "affiliation": [
+                            {
+                                "name": "Purdue University",
+                                "address": {
+                                    "name": "Department of Computer Science, Purdue University, West Lafayette, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Peking University",
+                                "address": {
+                                    "name": "Institute for Artificial Intelligence, Peking University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Beijing Institute for General Artificial Intelligence",
+                                "address": {
+                                    "name": "Beijing Institute for General Artificial Intelligence, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "majianzhu@pku.edu.cn",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "complex-networks;computer-science;geography",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Machine Intelligence",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42256-022-00462-y"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Jiawei Xue",
+                            "Nan Jiang",
+                            "Senwei Liang",
+                            "Qiyuan Pang",
+                            "Takahiro Yabe",
+                            "Satish V. Ukkusuri",
+                            "Jianzhu Ma"
+                        ],
+                        "publishedAt": 1647993600,
+                        "publishedAtString": "2022-03-23",
+                        "title": "Quantifying the spatial homogeneity of urban road networks via graph neural networks",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Complex networks,Computer science,Geography"
+                    },
+                    "journal": {
+                        "pcode": "natmachintell",
+                        "title": "nature machine intelligence",
+                        "volume": "4",
+                        "issue": "3",
+                        "id": 42256,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Quantifying the spatial homogeneity of urban road networks via graph neural networks",
+            "dc.source": "Nature Machine Intelligence 2022 4:3",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2022-03-23",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2022 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rights": "2022 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Quantifying the topological similarities of different parts of urban road networks enables us to understand urban growth patterns. Although conventional statistics provide useful information about the characteristics of either a single node’s direct neighbours or the entire network, such metrics fail to measure the similarities of subnetworks or capture local, indirect neighbourhood relationships. Here we propose a graph-based machine learning method to quantify the spatial homogeneity of subnetworks. We apply the method to 11,790 urban road networks across 30 cities worldwide to measure the spatial homogeneity of road networks within each city and across different cities. We find that intracity spatial homogeneity is highly associated with socioeconomic status indicators such as gross domestic product and population growth. Moreover, intercity spatial homogeneity values obtained by transferring the model across different cities reveal the intercity similarity of urban network structures originating in Europe, passed on to cities in the United States and Asia. The socioeconomic development and intercity similarity revealed using our method can be leveraged to understand and transfer insights between cities. It also enables us to address urban policy challenges including network planning in rapidly urbanizing areas and regional inequality. The spatial homogeneity of urban road networks can be quantified in a fine-grained manner with graph neural networks. This method is studied across 11,790 inner-city road networks around the world and can be used to study socioeconomic development and help with urban planning.",
+            "dc.identifier": "doi:10.1038/s42256-022-00462-y",
+            "dc.creator": "Ma, Jianzhu",
+            "dc.subject": "Geography",
+            "prism.issn": "2522-5839",
+            "prism.publicationName": "Nature Machine Intelligence",
+            "prism.publicationDate": "2022-03-23",
+            "prism.volume": "4",
+            "prism.number": "3",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "246",
+            "prism.endingPage": "257",
+            "prism.copyright": "2022 The Author(s), under exclusive licence to Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42256-022-00462-y",
+            "prism.doi": "doi:10.1038/s42256-022-00462-y",
+            "citation_pdf_url": "https://www.nature.com/articles/s42256-022-00462-y.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42256-022-00462-y",
+            "citation_journal_title": "Nature Machine Intelligence",
+            "citation_journal_abbrev": "Nat Mach Intell",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2522-5839",
+            "citation_title": "Quantifying the spatial homogeneity of urban road networks via graph neural networks",
+            "citation_volume": "4",
+            "citation_issue": "3",
+            "citation_publication_date": "2022/03",
+            "citation_online_date": "2022/03/23",
+            "citation_firstpage": "246",
+            "citation_lastpage": "257",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42256-022-00462-y",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42256-022-00462-y&api_key=",
+            "citation_reference": "Xue, J. et al. Quantifying the spatial homogeneity of urban road networks via graph neural networks [Data set]. Zenodo \n                  https://doi.org/10.5281/zenodo.5866593\n                  \n                 (2022).",
+            "citation_author": "Ma, Jianzhu",
+            "citation_author_institution": "Beijing Institute for General Artificial Intelligence, Beijing, China",
+            "description": "Quantifying the topological similarities of different parts of urban road networks enables us to understand urban growth patterns. Although conventional statistics provide useful information about the characteristics of either a single node’s direct neighbours or the entire network, such metrics fail to measure the similarities of subnetworks or capture local, indirect neighbourhood relationships. Here we propose a graph-based machine learning method to quantify the spatial homogeneity of subnetworks. We apply the method to 11,790 urban road networks across 30 cities worldwide to measure the spatial homogeneity of road networks within each city and across different cities. We find that intracity spatial homogeneity is highly associated with socioeconomic status indicators such as gross domestic product and population growth. Moreover, intercity spatial homogeneity values obtained by transferring the model across different cities reveal the intercity similarity of urban network structures originating in Europe, passed on to cities in the United States and Asia. The socioeconomic development and intercity similarity revealed using our method can be leveraged to understand and transfer insights between cities. It also enables us to address urban policy challenges including network planning in rapidly urbanizing areas and regional inequality. The spatial homogeneity of urban road networks can be quantified in a fine-grained manner with graph neural networks. This method is studied across 11,790 inner-city road networks around the world and can be used to study socioeconomic development and help with urban planning.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Quantifying the spatial homogeneity of urban road networks via graph neural networks",
+            "twitter:description": "Nature Machine Intelligence - The spatial homogeneity of urban road networks can be quantified in a fine-grained manner with graph neural networks. This method is studied across 11,790 inner-city...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-022-00462-y/MediaObjects/42256_2022_462_Fig1_HTML.png",
+            "DOI": "10.1038/s42256-022-00462-y",
+            "size": "234085",
+            "journal_id": "42256"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42256-022-00462-y",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Road networks have sprawled due to rapid urbanization over the past decades, especially in developing countries. Urban road networks (URNs) play a central role in efficient social communication1,2 and the movement of goods3, and are complicated owing to their interdependence with the population4,5 and human mobility6,7. There are underlying signatures that reveal the interplay between structure and functionality (such as road usage8, network dynamics9,10, traffic congestion11,12,13 and land use14). Urban scientists have exploited various topological features, such as road length distribution15, relative angle16, degree distribution17,18, betweenness centrality19,20, clustering coefficients21, block shape22 and travel route morphology23. At an aggregate level, ‘scaling laws’ are widely investigated theories that either characterize the distribution of road network topological features9,15,17 or present the scale-invariant relationships between road networks and other urban indicators4,24,25,26. Many of these metrics and laws either focus on the direct-neighbour-node-level characteristics (for example, node degree, clustering coefficient) or the aggregate-level characteristics of the entire network (for example, betweenness, scaling laws) and are thus insufficient to capture indirect neighbourhood node (such as two-hop neighbours) relationships. Here, node n1 is an indirect neighbourhood of node n2 if, and only if, the shortest path between n1 and n2 has a length larger than 1.\nLocal network metrics such as local betweenness27,28,29,30 and local closeness29,31,32 inherit the same formulae from the global metric and focus on the subnetwork surrounding a specific node. Subgraph theories such as motifs33,34 and higher-order interactions35 mine the structure and interaction patterns among a group of nearby nodes. Both are capable of describing the indirect neighbourhood node relationships. However, they do not directly quantify the similarity of subnetworks owing to the lack of subsequent distance (or similarity) functions. Furthermore, many distance functions (for example, Euclidean distance) are manually designed and return unbounded values from 0 to ∞, which contradicts the fact that existing similarity measures in statistics (such as Pearson correlation coefficients) are mostly bounded (see discussion in Supplementary Section 3.1). Hence, at present we lack a network metric that measures the similarities of local topological patterns across subnetworks and considers indirect neighbourhood node relationships (Fig. 1a). In this study, we use spatial homogeneity to describe the similarities between subnetworks, capturing the indirect neighbourhood relationships.\nThe spatial homogeneity of a URN represents the level of similarity in the topological signatures of intersection connections across different regions within a city, which may have been constructed in distinct periods with varying historical contexts. Intersections and neighbourhood blocks constructed under unified road planning standards would have high spatial homogeneity, whereas roads planned under varying infrastructure policies would have low spatial homogeneity. Note that the spatial homogeneity is defined from multi-hop neighbourhood node relationships, which embody local road network features that moving agents would perceive during daily travel. Hence, the spatial homogeneity is likely to reveal urban knowledge by extracting multi-hop neighbourhood node information from URNs. The spatial homogeneity of URNs could shed light on socioeconomic development thanks to the relationships between urban planning, economic activities and spatial homogeneity. These insights display nuanced interactions between infrastructure networks and socioeconomic environment36,37. If the scope of spatial homogeneity is extended from subnetworks within one city to subnetworks across multiple cities, spatial homogeneity could also capture the intercity similarity38 of the road network structure and socioeconomic processes. Such observations are valuable for analysing the interactions of URNs from cities in developed and developing countries in a global manner.\nTo derive the aforementioned urban insights from URNs, the first task is to define the spatial homogeneity, capturing indirect neighbourhood node relationships that are missing in existing URN metrics. We overcome this challenge using graph neural networks (GNNs), which are innovative models and variants of deep neural networks designed for graph-structured data. GNNs have already driven tremendous achievements in a diverse array of graph-based applications, such as drug discovery39, social friendship prediction40, social network embedding41, human mobility computation42 and visual question answering43. The multi-hop message-passing mechanism in GNNs effectively captures multi-hop node relationships44 in URNs. We claim that there is a fundamental connection between the spatial homogeneity of URNs and the predictability of road links using GNN models, as they both measure the similarity in topology between subnetworks and the whole network. Neural networks have also been successfully leveraged to not only predict urban factors45 but also reveal urban knowledge46,47. Consequently, we trained GNN models to predict the existence of road links in URNs from 30 cities in the United States, Europe and Asia, and then used the prediction accuracy metrics to define the road network spatial homogeneity within and across cities. Despite using only the network information, the road network spatial homogeneity was found to have strong correlations with various socioeconomic factors, allowing us to further interpret the prediction results.\nRemarkably, we found that road network spatial homogeneity uncovers profound socioeconomic development and intercity urban similarity patterns that are invisible to existing road network metrics (Fig. 1a). Note that we used two standard indexes, gross domestic product (GDP) and population growth (PG), to characterize socioeconomic development. We computed the intracity spatial homogeneity and found that cities with high GDP and low PG have statistically significantly higher spatial homogeneity than other cities. To quantify intercity spatial homogeneity, we established the city homogeneity transfer matrix (CHTM) by measuring the transferability of the GNN models between different cities. Results from the CHTM suggest that city clusters are highly consistent across different areas (the United States, Europe and Asia) and reveal far-reaching global urban dissemination patterns48.\nIn short, the main contribution of this study is mining fine-grained local URN information using GNNs and presenting its connections with intracity development and intercity urban similarity. Our goal was to understand entangled relationships between infrastructure and urban socioeconomic processes. Our metrics and findings will be particularly valuable to various academic disciplines and stakeholders in practice (Fig. 1a): (1) intracity spatial homogeneity will help urban regional and social scientists assess the spatial infrastructure equity49; (2) intercity spatial homogeneity serves as a quantitative measure of road network similarity to support various cross-city transfers of policies50 such those relating to autonomous vehicles and accident prevention, especially from cities in developed countries to developing countries and (3) intercity urban insights document urban historical patterns, which are useful to urban archaeologists.",
+            "cites": [
+                "ref-CR47",
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR36",
+                "ref-CR38",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR39",
+                "ref-CR49",
+                "ref-CR45",
+                "ref-CR43",
+                "ref-CR11",
+                "ref-CR50",
+                "ref-CR25",
+                "ref-CR9",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR40",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR28",
+                "ref-CR21",
+                "ref-CR44",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR37",
+                "ref-CR26",
+                "ref-CR48",
+                "ref-CR41",
+                "ref-CR46",
+                "ref-CR7",
+                "ref-CR42",
+                "ref-CR33",
+                "ref-CR19",
+                "ref-CR32",
+                "ref-CR23"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Results",
+            "text": "### Measuring the spatial homogeneity of 30 cities using GNN models\nURNs were modelled as graphs, in which intersections and road segments were denoted by nodes and links, respectively (Fig. 1b). We quantified the spatial homogeneity of the network by taking the F1 score (which is a standard and extensively used prediction accuracy metric in machine-learning tasks with the range between 0 and 1) of the ‘link prediction’ problem51,52,53, where we predicted the presence of a link on the basis of the structural roles of its two endpoints using a GNN model, that is, relational graph convolutional network (R-GCN),54, as shown in Fig. 1c,d (Methods). The reason for selecting this task is that a URN with high spatial homogeneity is likely to contain many links that can be recovered (predicted) by the rest of the graph. We performed link prediction on 11,790 URNs from 30 cities in the United States, Europe and Asia (Supplementary Table 1) and achieved an overall average F1 score of 0.42 (Fig. 1e).\nWe first show that the spatial homogeneity metric is a composite measure that captures various existing network statistics, including the average degree and betweenness. We found that cities with low average betweenness and high average degree values (for example, New York, Chicago and San Antonio) have higher spatial homogeneity (P values < 0.001 under one-sided Student’s t-tests) when the 30 cities are evenly distributed into two groups on the basis of their average betweenness and average degree values (Supplementary Fig. 17). This is due to intersections with more road segments receiving more neighbourhood information via the message-passing mechanism in the GNN model, resulting in higher predictability. In contrast, a road segment with high betweenness (such as a bridge) attracts many shortest-path flows and is distinct from its neighbouring road segments, and therefore provides low predictability.\nNext, we interpreted the prediction results by connecting them with road network clustering from existing works. As shown in Fig. 1e, although the overall performance is much higher than the random model, the prediction results show variance among different cities. A higher F1 score implies that the subnetworks are more predictable using the global information, but this understanding is insufficient to connect with existing urban science theories. Hence, we investigated whether different topology types of URNs, defined by existing urban science studies55,56, have different F1 scores. In this way, we directly connected our new metric to well-defined URN types, which were constructed on the basis of multidimensional representations of existing network factors. Note that we performed the clustering on URNs based on multidimensional representations of existing network metrics, rather than F1 scores, because the former provided more complete topology information than the F1 score. For each of the 11,790 URNs, we calculated 11 existing network metrics and encoded each URN as an 11-dimensional vector point whose elements were these metric values (Fig. 2a, Methods). Next, in the 11-dimensional real number space, we clustered these 11,790 points into four types using the K-means algorithm. The results showed that type 1 URNs have the largest average degree (3.11, types 2–4 have 2.78, 2.64 and 2.60 respectively) and the largest fraction of ‘Degree≥4’ nodes (37.8%, types 2–4: 19.6%, 20.6% and 17.0%). Type 2 URNs are characterized with a large proportion of ‘Degree=3’ nodes (47.7%, Types 1, 3, 4: 41.2%, 41.5%, 40.6%). The key features defining type 3 URNs are the ‘Degree=1’ nodes and dead-end edges. Type 4 URNs have the largest circuity values and fractions of bridges.\nUsing these dominant features, we labelled types 1–4 Grid, Degree-3, Irregular grid and Circuitous, respectively. For each type, we visualized 12 representative URNs in the United States, Europe and Asia in Supplementary Figs. 20–23. The differences in F1 scores across cities (Fig. 2b) can be explained using the road types. Figure 2c shows the statistically significant performance disparities across these four types of URNs. F1 scores associated with Grid URNs (average: 0.526) are statistically significantly higher than Degree-3, Irregular grid and Circuitous URNs (averages: 0.413, 0.341 and 0.314) with P values < 10−37 under one-sided Student’s t-tests, suggesting that more predictable patterns exist in the Grid type. We thus hypothesized that a city with a large proportion of Grid type URNs would have high predictability. To test the hypothesis, we calculated the URN type composition for each city (Fig. 2d; Supplementary Fig. 19). As expected, the average F1 score of a city is positively correlated with the proportions of the Grid type (Pearson correlation = 0.702). To evaluate the robustness of the clustering results, we randomly selected 8, 9 and 10 features among the 11 metrics and reran the clustering results. We found that the URN clustering results were highly consistent. For instance, at least 93.1%, 75.4%, 80.2% and 84.4% of URNs of types 1–4 had the same memberships when three features were removed (Supplementary Fig. 15).\nTo further dissect the spatial homogeneity metric, we performed a principal component analysis on 11-dimensional vector representations of URNs. The first principal component (PC1) encoded a small average degree, large circuity and large dendricity, explaining 48% of the data variability (Supplementary Table 4). PC1 has been defined as the street-network disconnectedness index and investigated in previous studies55,56. For brevity, we refer to PC1 as network irregularity. Network irregularity is shown to be positively related to circuity and dendricity (the fraction of bridge edges and dead-end edges) and negatively related to the average degree. Figure 3a visualizes the network irregularity and F1 scores for testing URNs in 30 cities and presents the stunning correlation: the F1 score is negatively correlated with network irregularity (Pearson correlation = −0.484), implying that a URN with a larger network irregularity is less predictable. This negative relationship is more prominent in the United States (Pearson correlation = −0.563) than in Europe and Asia (Pearson correlation = −0.269, −0.430; Supplementary Fig. 24). The US cities have a relatively short history of large-scale population agglomeration, and their road networks were built under standardized land ordinance policies that trace back to the grid plan in Philadelphia, PA, in the early eighteenth century57. In contrast, megacities in Europe and Asia (such as London and Beijing) experienced long periods of both top-down planning policies from authority and self-organization from residents, which simultaneously carved the urban prototype58. As illustrated in Fig. 3b–d, Chicago has prevalent grid-like blocks, whereas Paris and Singapore are occupied by roads with irregular blocks.\n### Spatial homogeneity reveals socioeconomic development\nRoad networks serve as the skeleton of urban space, evolving over the historical process of economic development and spatial population agglomeration. To facilitate understanding of cities, we investigated the interplay between intracity spatial homogeneity and socioeconomic status indicators such as economy, PG and city ages. More precisely, we defined the PG as the ratio of population in year 2 to year 1 to measure the increase in the population from year 1 to year 2. The PG for all 30 cities was calculated using population data spanning from 1950 to 2020 (Supplementary Fig. 26). We uniformly classified each city as one of the four categories on the basis of its GDP and PG values. For example, London (GDP = US$634 billion, PG (1950–2020) = 1.140) ranked in the first half of the 30 cities in terms of GDP and the latter half in terms of PG (1950–2020), so we classified London into the ‘high GDP and low PG’ class. Figure 4a–c shows that during different time intervals, the cities in the high GDP and low PG class have statistically significantly higher prediction accuracy than the other three classes of cities (P values < 0.05 under one-sided Student’s t-tests). Moreover, all high GDP and low PG cities (London, Paris, New York, Los Angeles, Chicago, Philadelphia and Osaka) are in developed countries and we refer to them as mature cities. These cities have invested much more in road network planning so that their road networks are more standardized and predictable. Moreover, the low PG in a mature city reveals that this city has already experienced rapid PG and entered a stable period, therefore the forces of road network expansion are not as strong as before and consequently are more predictable. We also investigated the relationships between existing network metrics (degree, betweenness) and city types, and did not find results as noticeable as those for the spatial homogeneity (Supplementary Fig. 25).\nNext we studied whether our new metric was associated with the age of the city. We clustered the 30 cities into four types (bc, 1–16th century, 17–18th century and 19–20th century) on the basis of the first settlement time (Supplementary Table 5). As shown in Supplementary Fig. 28, we found that 17–18th century and 19–20th century cities had statistically significantly higher F1 values than the bc and 1–16th century cities. This result could be expected, as road networks in ‘younger’ cities grew in the motor age, when standard and united urban planning was necessary at the city level.\nTo further explore the interactions between spatial homogeneity and urban factors, we performed regression analyses between the spatial homogeneity and 15 measures from four categories: socioeconomic factors, road network scale metrics, road density metrics and network topology metrics. We conducted linear regressions with one of these fifteen factors as the explanatory variable and the average F1 score for the same city as the response variable. The R2 values (Fig. 4d) for the regressions and the P values (Fig. 4e) for the coefficients of the 15 factors under two-sided Student’s t-tests were calculated to demonstrate the statistical significance. We recognize that PG is more relevant than the population itself with respect to URN spatial homogeneity (R2: 0.115 versus 0.048; P values: 0.071 versus 0.243), implying a closer connection between spatial homogeneity and PG rate. The F1 score was found to be associated with GDP; higher GDP led to higher spatial homogeneity. The spatial homogeneity was positively related to road network scale metrics, whereas road density metrics were weak predictors (R2 < 0.130). Note that the land area alone was not sufficient to estimate the F1 score (R2= 0.071) but was statistically significantly related to the F1 score (P value < 0.001), revealing that the urban coverage affected, but did not fully determine, URN network spatial homogeneity.\n### Transfer learning reveals intercity similarity\nSocioeconomic development encodes the intracity urban process, whereas intercity similarity relates to the interactions between different cities. These relationships present how urban patterns emerge, spread and evolve over the globe and are fundamental properties of human urbanization history. However, these relationships are especially hard to capture accurately and depict quantitatively owing to complex urban network patterns and the sheer volume of urban data. Here, we find that intercity similarity can be captured by our spatial homogeneity metric, defined by transferring GNN models between cities.\nTo compute the intercity URN spatial homogeneity, we performed cross-city link prediction (trained GNN models on city A and tested on city B across 30 cities) and implemented hierarchical clustering on these cities on the basis of their average F1 scores as the training sample and the testing sample. Each city was associated with 30 F1 scores when it served as the training city, and 30 other F1 scores when it was the testing city. For each city, we averaged the former 30 F1 scores, and the latter 30 F1 scores, respectively, and present the results in Fig. 5a,b. Figure 5c shows the CHTM whose entry CHTM(A, B) was defined as the F1 score when applying the GNN trained on city A to city B. Note that the CHTM is not symmetric: the F1 score obtained by training on city A and testing on city B differed from the F1 score when city A and city B were swapped. In the CHTM, a high F1 score block is situated at the top-left deep red corner (training cities: Milan, London, ..., Seoul; testing cities: Chicago, Philadelphia, ..., Los Angeles). In this block, most training cities are historical European cities (Milan, London, Paris and so on) or the US cities (Los Angeles, Chicago, New York and so on), whereas testing cities are primarily the US cities (10 out of 13), revealing that URN patterns in the US are sufficiently covered by cities from Europe and other US cities. This result aligns with the history of US urban planning styles being inspired by European cities59.\nThe second observation is that there are four city clusters from the testing side: USA, Asia(c), Asia(w) and Europe (Fig. 5a,c). In general, USA type cities have the highest F1 scores, and Europe type cities, all from Europe, are less predictable. The other two types with weak prediction performance are the Asia(c) and Asia(w) types. Asia(c) type cities were heavily affected by Chinese culture, whereas Asia(w) cities had active connections with the Western world. Collectively speaking, American cities were systematically planned and constructed and therefore predictable, whereas cities in Europe and Asia were shaped simultaneously by intricate historical and modern factors.\nAnother interesting observation is that setting the training city as a city from Milan to Seoul achieved higher F1 scores than the remaining cities (Fig. 5b,c). We deduced that if a city contains multiple substructures and has a large spatial coverage, it is likely that the topological features learned from this city are applicable to other cities. In this case, we reasoned that these cities have excellent road network ‘diversity’. Most Asian cities have low diversity as they did not exert such enduring impacts worldwide on modern urban planning as cities in Europe and the United States48.\nWe then encoded the city with a 16-dimensional vector composed of 5 metrics (number of nodes, number of links, total link length, betweenness and total area) plus the 11 metrics we used in the road network clustering (Methods). These 16 metrics include aggregate measurements (for example, number of nodes60), centrality measurements (for example, betweenness20), degree measurements (for example, average degree61), circuity metrics (for example, logarithmic circuity (r ≤ 0.5 km))62 and dendricity metrics (for example, fraction of bridge edges56) and therefore provide comprehensive descriptions of the urban road network characteristics. We used the cosine value of two vectors to calculate the intercity similarity and demonstrate the results in Fig. 5d,e. In general, Fig. 5d exhibits two clusters (from Brussels to Shanghai; from Madrid to Chicago). Eight out of the 13 cities in the second cluster are US cities. Compared with the CHTM in this study, this similarity matrix does not clearly separate Asian and European cities. Figure 5e fails to present interpretable patterns. In summary, spatial homogeneity outperforms these existing network metrics at revealing topological similarity patterns in intercity road networks. More details of this experiment can be found in Supplementary Section 3.1.\n### Historical urban insights from intercity transfer learning\nNext, we downscaled the analysis and studied the predictability performance of intercity transfer learning on local subnetworks to further investigate the historical urban insights63. For instance, when the models were trained on Chicago and New York and tested on Los Angeles (Fig. 6a,b), better prediction performance was found for the south and west of downtown areas of Los Angeles than downtown, northern and eastern Los Angeles, implying that southern and western Los Angeles were more consistent with Chicago and New York in terms of road network style. The early settlement in Los Angeles concentrated on the downtown area, which evolved into a strong central business district later. After the 1880s, rapid urban expansion converted the farmland into sprawling residential areas along the directions of current Interstate-10 and Interstate-110 under a united municipal zoning ordinance that had a far-reaching influence on contemporary American cities, resulting in the high predictability of roads in these ‘new’ areas64.\nContrasting results were found for historical cities such as Osaka. We found that the road networks in downtown Osaka are well predicted by the model trained on Tokyo, whereas the prediction performance for the surrounding areas is not very good (Fig. 6c). This is because cultural centripetal force and the short spatial distance helped Osaka and Tokyo form a tight socioeconomic (including road network planning) connection since the period when downtown Osaka was populated. However, the populated urban land far from downtown Osaka was mostly constructed after being incorporated as a city in 1889, when both the domestic and international urban planning modes exerted influence. As a result, road networks in downtown Osaka were weakly captured by models trained on London (Fig. 6d) and New York (Supplementary Fig. 27c).\nThe final key finding is the reclaimed land in Tokyo. We noticed that URNs in the reclaimed area at the coast of Tokyo Bay were better captured by road network patterns learned from Chicago and New York (Fig. 6) and London and Paris (Supplementary Fig. 27e,f) than broad areas in the western part of Tokyo. Administrators in Tokyo turned Tokyo Bay into usable land via landfill technologies. The ‘reclaimed land’ marked in Fig. 6e,f was mostly filled after 1987 for residence, exhibition and amusement purposes65. Road networks on these artificial islands are ‘modern’ (do not follow the traditional road network styles in inland Tokyo) and share some similarities with the URNs in other international cities.",
+            "cites": [
+                "ref-CR52",
+                "ref-CR57",
+                "ref-CR51",
+                "ref-CR55",
+                "ref-CR59",
+                "ref-CR20",
+                "ref-CR62",
+                "ref-CR63",
+                "ref-CR64",
+                "ref-CR54",
+                "ref-CR48",
+                "ref-CR65",
+                "ref-CR53",
+                "ref-CR58",
+                "ref-CR60",
+                "ref-CR56",
+                "ref-CR61"
+            ],
+            "figures": [
+                "figure-6",
+                "figure-5",
+                "figure-3",
+                "figure-2",
+                "figure-4"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Using GNN models, we proposed a spatial homogeneity metric that reveals profound urban development and intercity similarity patterns. We noticed that cities with high GDP and low PG have statistically significantly more homogeneous road networks than other cities, revealing the hidden principle between road network structures and well-studied urban indicators used in urban scaling law studies4,5,37,66. Compared with existing network metrics, spatial homogeneity has the unique functionality of quantifying bidirectional intercity urban similarity, providing a scientific foundation for many urban insight transfer methods67,68,69, as well as methods to discover similarities between cities38.\nThe spatial homogeneity of URNs shares some similarities with the concept of fractals70,71,72, whose variants (multifractal, monofractal) describe road network morphologies37,73,74,75 and characterize road network evolution patterns76,77. The spatial homogeneity of URNs measures the analogy of intersection ‘connection’ patterns between the subset and the entire network, whereas the fractal dimension quantifies the invariance of road network ‘images’ at different levels of resolution. Both metrics summarize the structural properties of URNs; however, spatial homogeneity can be applied to intra- and intercity (via the CHTM) scenarios, whereas fractals are used for intracity analysis.\nThis study has three limitations. First, although the GNN encodes intricate multi-hop node dependencies in road networks, the prediction performance degrades when the GNN goes deeper, suffering from vanishing gradients78 and oversmoothing79 issues during model training. The prediction performance could be improved by using more advanced learning architectures and training algorithms. Second, the link prediction reliability of URNs, which is affected by node merging threshold (30 m), train–test split ratio (75%/25%) and link hidden percentage (20%) (Supplementary Sections 1 and 2), should be carefully considered. In fact, parameter selection in road network studies is a common challenge. When developing the street-network disconnectedness index55,56, Barrington-Leigh et al. set the node merging threshold at 20 m after a comparison with a threshold of 14 m. In this study, we defined it as 30 m after checking the node merging results in New York and London (Supplementary Fig. 6). Comprehensive parameter sensitivity tests and a unified criterion tailored to different road networks are needed for further investigation. Third, we defined the city region as a 20 km × 20 km square area. More optimal boundary definitions would be: (1) the urban boundary from standard sources such as metropolitan statistical areas80 or the global human settlement layer81 if socioeconomic data are unavailable; (2) the urban boundary defined using existing methods such as the city clustering algorithm82, commuting data-based method83, cellular automata model84 or percolation model85, if socioeconomic data are available. We also found that the boundary road segments on URNs have minor effects on the overall spatial homogeneity evaluation (Supplementary Fig. 13); further investigation to reduce the impact of these boundary road segments is therefore needed.\nThis study has many academic and practical contributions to future urban studies:\nIn summary, the spatial homogeneity metric quantifies the similarity between the subsection and the entire network, and provides a wide variety of multidisciplinary contributions. In the future, high-granularity road networks and urban traffic data (such as road hierarchy and traffic flow) will promote the quantification of the traffic-network spatial homogeneity. User-friendly spatial homogeneity computing packages would also increase the efficiency of machine learning implementation in practice. This study advances our understanding of complex road networks building on seminal work10,11,12,89,90 in recent years.\n### Broader impact\nOur proposed spatial homogeneity metric that quantifies the similarity between subnetworks has two main features. First, our approach enables quantitative comparisons of road networks across different cities. Second, this network-agnostic metric reveals the transferability of various urban planning policies. With these two features, the proposed metric has applications in a wide spectrum of disciplines such as urban science, urban computing and network science.\nOur metric builds on a global perception of road network similarity and intertwines with societal factors. We highlight here several possible issues of concern with regard to real-world implications. First, vigilance is needed to ensure that our metric is not used to evaluate a city in isolation, given that it was designed to conduct comparisons between cities. It is also worth noting that road network data used in this study come from OpenStreetMap, which is a public data source. Although this dataset is widely used by the academic community, it may not include all the latest road segments. Hence, we advise readers to validate the road network data using other road network data sources when applying our method to real-world urban practice. Moreover, training neural networks inevitably consumes electric power. With increasing network sizes and volumes of training data, the computation costs will increase, and more resources will be consumed. Compared with other artificial intelligence tasks that require hundreds of GPUs or GPU hours, such as model pretraining91 and neural network searches92, our approach has a much lower computation cost. Specifically, in our implementation with a small-sized GNN and 11,790 training samples, we used only a conventional personal computer to train our model within several hours. To mitigate biased training, we balanced the ratio of data from different categories, comprising 30 cities in developing and developed countries. Furthermore, in our approach, we used the F1 score, which is the average of the precision and recall, to depict the performance of the trained GNN model. On the basis of our empirical tests, our model is robust to different spatial data collection ranges and provides stable outcomes. With regard to the risk of potential attacks on the GNN model, we can apply techniques to mitigate the impact, such as GNNGuard93.",
+            "cites": [
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR66",
+                "ref-CR74",
+                "ref-CR90",
+                "ref-CR38",
+                "ref-CR10",
+                "ref-CR89",
+                "ref-CR92",
+                "ref-CR81",
+                "ref-CR80",
+                "ref-CR82",
+                "ref-CR76",
+                "ref-CR69",
+                "ref-CR75",
+                "ref-CR11",
+                "ref-CR72",
+                "ref-CR70",
+                "ref-CR84",
+                "ref-CR12",
+                "ref-CR93",
+                "ref-CR56",
+                "ref-CR68",
+                "ref-CR78",
+                "ref-CR55",
+                "ref-CR77",
+                "ref-CR85",
+                "ref-CR67",
+                "ref-CR91",
+                "ref-CR71",
+                "ref-CR37",
+                "ref-CR79",
+                "ref-CR73",
+                "ref-CR83"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Datasets\nWe utilized OSMnx94 to download the road network data from OpenStreetMap (OSM), which is widely used for academic purposes20,60,95. We chose 30 major global cities (Supplementary Section 1.1) as samples to accommodate diverse cities in terms of age (ancient and modern cities), regions (cities in the United States, Europe and Asia), locations (coastal and inland cities) and development status (cities in developed and developing countries). The intuition of selecting mainly metropolitan cities is that road networks in metropolitan cities are representative of the road network planning paradigm in a specific region.\nFor each city, we defined the study area as a 0.2° (~20 km × 20 km) grid area containing 400 URNs with a size of 1 km × 1 km (Supplementary Fig. 1). Note that grid cells have been widely used in existing urban studies46,56,96,97. Despite the discrepancy of research objectives, the fundamental principle is that the grid cell size should fit the specific task. In our study, we found that the 1 km × 1 km grid cell contained a sufficient number of intersections and road segments for us to train the link prediction model, and thus set the grid cell size at 1 km × 1 km. Specifically, we first built the grid around the city centroid point with the spatial distance of 0.01° in the longitude and latitude directions. Next, we extracted the road network data using OSMnx using the G = ox.graph_from_point(location, distance, distance_type = bbox, network_type = drive) function. Here, the function input variable location represents the longitude and latitude of the centroid of the extracted area, and the function input variable distance represents half of the side length of the square area surrounding the centroid of the extracted area. Next, we studied whether our definition of the URN as the grid cell affected the overall F1 scores. In particular, we shifted the centroid of the 20 km × 20 km grid for each city by half of the unit, so that most boundary road segments in the previous setting were included within the URN after the centroid shifting. We retrained the machine learning model and found that: (1) both the median and variance of the F1 score distribution for the 30 cities changed slightly after the centroid shifting; and (2) the spatial homogeneity order (from Chicago to Moscow) remained stable, despite some local changes (Supplementary Fig. 13).\nWe visualized 20 km × 20 km city regions for all 30 cities in Supplementary Figs. 1–4. It can be seen that both the central and peripheral regions of the cities have been included. We also computed spatial homogeneity values for six cities with the regions defined as 30 km × 30 km, and found that their F1 score distributions were very close to the 20 km × 20 km case (Supplementary Figs. 10–12). More importantly, we obtained the same conclusion (that is, the road networks in Chicago and Singapore have the highest and lowest spatial homogeneity respectively) from the 20 km × 20 km and 30 km × 30 km experiments. The alternative city boundary definitions could be metropolitan statistical areas (MSA)62, larger urban zones (LUZ) or European Union Urban Atlas (EU-UA)98. Note that MSA are used in datasets for only the US cities, LUZ and EU-UA are used in the datasets for European cities. We therefore suggest quantifying the spatial homogeneity for regional cities using the MSA, LUZ or EU-UA datasets in future works. Owing to the lack of standard commuting data in all 30 cities, in this study we do not refer to urban functional delineation83,99,100,101, which is an alternative to defining urban boundaries. Given that our objective included comparing and transferring the spatial homogeneity across cities, we chose consistent sampling sizes that included the urban cores and surrounding areas to avoid impacts from varying urban sizes. We set the training and testing sample ratio to 3:1 (Supplementary Fig. 5). To deal with the ‘duplicate node problem’, we implemented a node merging algorithm and verified the merging performance in New York and London (Supplementary Fig. 6). We also collected the social indicator data (for example, GDP, population) used in the association analysis (Supplementary Section 4).\n### GNN model\nWe predicted the missing links on the basis of the URN topology. It was easy to extend our model by adding known socioeconomic factors (for example, land use, demographic statistics) as the node and link features, or predict other types of information (for example, the number of road lanes, traffic flows) by formulating the task as a multiclass classification problem. Our machine learning task was the link prediction for URNs, where we sampled 80% of links and predicted the presence of the remaining 20% (Supplementary Section 1.2). The 11,790 URNs from 30 cities were fed into an R-GCN model to generate a low-dimensional representation hi, for each node i, that is a nonlinear aggregation of its neighbours’ representation hj at the previous layer:\nwhere l + 1 and l are the layer numbers, R is the relation set (Supplementary Section 2.3), \\(N_i^r\\) is the neighbourhood node set of node i under the relation r. \\(W_r^l\\) and \\(W_0^l\\) are learnable parameter matrices. Next, we adopted a bilinear projection function, named DistMult102 to transform the representation of a pair of nodes into their connecting strength:\nwhere d denotes that Wd is a diagonal matrix. We then used the sigmoid function to transform the range of scoring strength to (0, 1) using \\(\\sigma \\left( {s(i,j)} \\right) = \\frac{1}{{1 + e^{ - s(i,j)}}}\\). If the sigmoid connecting strength for a pair of nodes exceeded the threshold δ (that is, σ(s(i, j)) > δ), we predicted that the link (i, j) exists.\nTo further fit our model to this task, we also implemented R-GCN*, which appended two decoding improvements to the original R-GCN, to avoid ‘acute angles’ and ‘intersecting links’ in the prediction (Supplementary Fig. 7). To compare the model performance, we also implemened five other GNN models (node2vec103, struc2vec104, GraphSAGE105, spectral GCN106 and GAT107; Supplementary Section 2.2) to benchmark the prediction. Using Adam optimizer108 to minimize the cross-entropy loss, we jointly trained parameters in R-GCN and DistMult in an end-to-end manner. In the intracity predictions we trained separate models for different cities, whereas in the intercity predictions, we trained on city A and tested on city B.\n### Model performance\nAs link prediction is a highly imbalanced machine learning task (more negative data than positive data), we evaluated the prediction performance using both the area under the precision–recall curve and the F1 score, which is a weighted average of precision and recall. Overall, R-GCN* achieved good prediction accuracy with an area under the precision–recall curve of 0.28 and an F1 score of 0.42 and outperformed other models, demonstrating the power of R-GCN* in capturing the link existence patterns of a URN. There was considerable variance in performance among different cities, with a maximum of 0.690 (Chicago) and a minimum of 0.199 (Stockholm). Since all models provided the connecting strength for each pair of nodes, we defined the sigmoid connecting strength threshold as 0.61 by maximizing the F1 score in the best model, R-GCN*. If the sigmoid connecting strength for two nodes was at least 0.61, then we predicted that they were joined by a road segment in the real world, because their structural roles were similar in the road network. Complete receiver operator curves and precision–recall curves can be found in Supplementary Figs. 8 and 9.\n### Quantifying spatial homogeneity\nThe spatial homogeneity describes the similarity between the local and the entire network. A network with high spatial homogeneity tends to be predictable because the link prediction utilizes the global road network information to predict the links in the local road network. Hence, we used the prediction performance metric F1 to quantify the spatial homogeneity:\n### Association analysis\nWe performed an association analysis between the spatial homogeneity and network topological features such as network type or network irregularity. (Supplementary Section 3.2). Specifically, we followed the procedure used by Barrington-Leigh and Millard-Ball55,56 to obtain the URN type and compute network irregularity scores. We computed 11 measurements (that is, average degree, fractions of degree = 1, degree = 2, degree = 3 and degree = 4 nodes, logarithmic circuity (r ≤ 0.5 km), logarithmic circuity (r > 0.5 km), fraction of bridge edge length, fraction of bridge edge number, fraction of dead-end edge length, and fraction of dead-end edge number) from three aspects (node degree, circuity, and dendricity) (descriptions of these 11 measurements can be found in Supplementary Tables 3 and 4 and an explanation in Supplementary Section 3.2). Next, we tried distinct numbers k of clusters and found that when k = 4, the partitions of URNs had the best interpretability (Supplementary Fig. 18). It should be noted that a similar study that utilized the urban image data to cluster the global cities97 could be useful to extend our spatial homogeneity definition idea from URNs to urban images. A detailed description can be found in Supplementary Fig. 16. Despite the input data difference, we found that the adjusted rank index between our city clusters from the testing data in the CHTM (that is, USA, Asia(c), Asia(w) and Europe) and their city clusters97 (that is, motor city, high transit, intense, sparse, chequerboard and informal) was 0.535, demonstrating that our study obtained similar clustering results for the 30 cities as those in ref. 97. City cluster results are presented in Supplementary Table 2. Note that the urban image data that Thompson et al. used contained information about urban transit so that it could be reflected in their cluster results97. In addition, we performed a principal component analysis on these vectors (Supplementary Table 4), using PC1 to define the network irregularity, which represents the sprawl of a URN56.\n### Hyperparameters\nIn this link prediction task, the number of negative samples (non-existent links) was much larger than the positive samples (links). To prohibit the GNN model from focusing too much on the negative samples, we sampled a subset of negative samples to make the ratio between positive and negative samples 1:5. The numbers of layers, epochs and neurons and the learning rate in the GNN are hyperparameters. To determine these hyperparameters, we performed the standard fivefold cross validation. We set the number of epochs as 10, the learning rate as 0.001, the number of layers as 3 and the number of neurons as 50.\n### Reporting Summary\nFurther information on research design is available in the Nature Research Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR102",
+                "ref-CR98",
+                "ref-CR62",
+                "ref-CR100",
+                "ref-CR96",
+                "ref-CR108",
+                "ref-CR97",
+                "ref-CR99",
+                "ref-CR103",
+                "ref-CR107",
+                "ref-CR56",
+                "ref-CR94",
+                "ref-CR20",
+                "ref-CR55",
+                "ref-CR95",
+                "ref-CR104",
+                "ref-CR105",
+                "ref-CR83",
+                "ref-CR106",
+                "ref-CR101",
+                "ref-CR60",
+                "ref-CR46"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Spatial homogeneity.",
+            "figure-caption": "a, Description of spatial homogeneity. Left, spatial homogeneity measures whether part of the network shares analogous link existence patterns with the entire network. Middle, spatial homogeneity reveals insights into urban socioeconomic development and intercity similarity. Right, the metric and insights enable many real-world applications in urban policymaking. b, Top: a road network in Manhattan, New York. Bottom: we modelled intersections as nodes, road segments as links in a graph neural network (GNN). c, Message-passing between two layers in the GNN. The node embeddings (representations) of node 2 (n2) and n5 are nonlinear aggregations of the embeddings of their neighbourhood nodes (n1 and n3, and n4, n6 and n7, respectively) in the lower layer (see Methods for details). d, Connecting strength S of a pair of nodes. It is calculated as a weighted dot product of the representations of two endpoint nodes (W is a diagonal matrix). If the sigmoid connecting strength is above a threshold δ, we predict that the link between n2 and n5 exists. Note that T implies the vector transpose operator. e, The model performance represented by the precision–recall curves of the link prediction for the road network samples in 30 cities (Supplementary Table 1) under different GNN models. We define the road network spatial homogeneity as the F1 score of the best GNN model with a well-tuned strength threshold δ. The triangle represents the model and δ with the best performance, which achieves an average recall of 0.47 and precision of 0.38, yielding an average F1 score of 0.42. Note that Relation GCN* is a variant of Relation GCN and is described in Supplementary Section 2.2.5. We later see discrepancies among 30 cities in terms of the F1 score (see the Results for details) and report a wide variety of urban insights based on these F1 scores. GCN, graph convolutional network; GAT, graph attention network. Base map in b © OpenStreetMap contributors.",
+            "figure-link": "https://www.nature.com/articles/s42256-022-00462-y/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Interpretation of the spatial homogeneity via road network types.",
+            "figure-caption": "a, Centroid coordinates of the four URN types. b, F1 score distribution. For each city, we trained a GNN model and applied the model to many test road network samples in the same city, then we obtained the distribution of F1 scores for all testing samples. The boxes mark first (q1), second (q2) and third (q3) percentiles, and whiskers mark q1 – 1.5 (q3–q1), q3 + 1.5 (q3–q1). We found that Chicago achieved the highest average F1 score. c, Comparison of F1 score across type 1–4 URNs. We found that type 1 URNs achieved a statistically significantly higher F1 score than the other three types. The marks in the boxes and whiskers are the same as those in b. d, Type compositions and F1 scores of URNs in ten cities. There was a general tendency of the average F1 score to increase with the ratio of type 1 URNs in the city (see the statistical evidence in the Results; the 30 cities’ results are shown in Supplementary Fig. 19).",
+            "figure-link": "https://www.nature.com/articles/s42256-022-00462-y/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Interpretation of the spatial homogeneity via network irregularity.",
+            "figure-caption": "a, Relationship between the F1 score and PC1 (network irregularity) values. The F1 score decreases when the PC1 value increases, suggesting that regular URNs are more likely to be homogeneous. b–d, Link prediction results for Chicago (b), Paris (c) and Singapore (d). The top and bottom rows display real-world links and predicted links in two URNs for each city. Green links denote true positive (links exist in both reality and in predictions), red links denote false positive (links exist in predictions but not in reality) and blue links denote false negative (links exist in reality but not in predictions).",
+            "figure-link": "https://www.nature.com/articles/s42256-022-00462-y/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Socioeconomic development revealed by the intracity road network spatial homogeneity.",
+            "figure-caption": "a–c, Comparison of F1 scores for the four types of cities defined by high and low GDP and high and low PG from year 1 to year 2, where year 2 is the same (2020) for all plots and year 1 is 1950 (a), 1960 (b) or 1970 (c). The boxes mark first (q1), second (q2) and third (q3) percentiles, and whiskers mark q1 – 1.5 (q3–q1), q3 + 1.5 (q3–q1). We found that mature cities (that is, the high GDP and low PG class) had statistically significantly higher F1 scores than the other classes, which indicated that road networks in mature cities were more predictable and homogeneous than other cities (see the Results for more discussion). d, R2 values for the linear regression with a single explanatory variable when the response variable was the F1 score. We found that the average betweenness, average degree and road length explained a large proportion of the variance of the F1 score. e, P values for the explanatory variables in the linear regression in d. To better visualize small P values, we replaced P < 0.001 with P = 0.001 and drew the wind plot based on −log(P). In addition to the average betweenness, average degree and road length, we found that the F1 score was also sensitive to the land area.",
+            "figure-link": "https://www.nature.com/articles/s42256-022-00462-y/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Intercity similarity revealed by the intercity road network spatial homogeneity.",
+            "figure-caption": "We trained a GNN model on one city, and performed the link prediction on the other cities. a, Average F1 score when the city is used as the testing city. The USA type cities (defined from the CHTM) have higher F1 scores than other types of city and are generally more predictable. b, Average F1 score when the city is used as the training city. The cities with high diversity (defined from the CHTM) achieve higher F1 scores. c, The CHTM. Each entry denotes the average F1 score of URNs for each training–testing city pair. The CHTM reveals the URN pattern dissemination sequence from Europe to the United States, and then to Asia. We clustered these cities using only the F1 scores, and obtained four testing classes and two training classes. The clustering results were highly consistent with the continents, and we refer to them as USA type, Asia(c) type, Asia(w) type, Europe type, high diversity and low diversity. d,e, City similarity matrices constructed using 16 conventional network metrics. d, We normalized the values linearly to 0 and 1 using the minimal and maximal values (min–max normalization). e, We normalized the values by dividing each by the maximal value (zero–one normalization).",
+            "figure-link": "https://www.nature.com/articles/s42256-022-00462-y/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: Historical urban insights revealed using intercity spatial homogeneity.",
+            "figure-caption": "a,b, Spatial distribution of F1 scores for 1 km × 1 km URNs in Los Angeles. The red, white and blue shading in each cell represent high (>0.45), medium (0.25–0.45) and low (<0.25) F1 scores. The western and southern parts of LA along Interstate-10 (I-10) and Interstate-110 (I-110) are highly predictable. These areas were mostly urbanized after 1900 when the zoning ordinance policy in the United States took effect. c,d, F1 scores for URNs in Osaka. The URN patterns in downtown areas are well captured by Tokyo, but not London. This is because Osaka and Tokyo formed strong domestic socioeconomic communication bonds when the downtown area was populated. e,f, F1 scores for URNs in Tokyo. Both Chicago and New York contain more URN patterns in the reclaimed land area in Tokyo than western Tokyo, which is consistent with Tokyo’s administration applying landfill technologies in Tokyo Bay after 1987. Base maps © OpenStreetMap contributors.",
+            "figure-link": "https://www.nature.com/articles/s42256-022-00462-y/figures/6"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Sun, L., Axhausen, K. W., Lee, D.-H. & Huang, X. Understanding metropolitan patterns of daily encounters. Proc. Natl Acad. Sci. USA 110, 13774–13779 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1306440110",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20metropolitan%20patterns%20of%20daily%20encounters&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1306440110&volume=110&pages=13774-13779&publication_year=2013&author=Sun%2CL&author=Axhausen%2CKW&author=Lee%2CD-H&author=Huang%2CX"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Roth, C., Kang, S. M., Batty, M. & Barthélemy, M. Structure of urban movements: polycentric activity and entangled hierarchical flows. PLoS ONE 6, e15923 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0015923",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Structure%20of%20urban%20movements%3A%20polycentric%20activity%20and%20entangled%20hierarchical%20flows&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0015923&volume=6&publication_year=2011&author=Roth%2CC&author=Kang%2CSM&author=Batty%2CM&author=Barth%C3%A9lemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "SteadieSeifi, M., Dellaert, N. P., Nuijten, W., Van Woensel, T. & Raoufi, R. Multimodal freight transportation planning: a literature review. Eur. J. Oper. Res. 233, 1–15 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ejor.2013.06.055",
+                "MATH": "http://www.emis.de/MATH-item?1339.90008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multimodal%20freight%20transportation%20planning%3A%20a%20literature%20review&journal=Eur.%20J.%20Oper.%20Res.&doi=10.1016%2Fj.ejor.2013.06.055&volume=233&pages=1-15&publication_year=2014&author=SteadieSeifi%2CM&author=Dellaert%2CNP&author=Nuijten%2CW&author=Woensel%2CT&author=Raoufi%2CR"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Bettencourt, L. M. A., Lobo, J., Helbing, D., Kuhnert, C. & West, G. B. Growth, innovation, scaling, and the pace of life in cities. Proc. Natl Acad. Sci. USA 104, 7301–7306 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0610172104",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Growth%2C%20innovation%2C%20scaling%2C%20and%20the%20pace%20of%20life%20in%20cities&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0610172104&volume=104&pages=7301-7306&publication_year=2007&author=Bettencourt%2CLMA&author=Lobo%2CJ&author=Helbing%2CD&author=Kuhnert%2CC&author=West%2CGB"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Arcaute, E. et al. Constructing cities, deconstructing scaling laws. J. R. Soc. Interface 12, 20140745 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2014.0745",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Constructing%20cities%2C%20deconstructing%20scaling%20laws&journal=J.%20R.%20Soc.%20Interface&doi=10.1098%2Frsif.2014.0745&volume=12&publication_year=2015&author=Arcaute%2CE"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Xu, Y., Olmos, L. E., Abbar, S. & González, M. C. Deconstructing laws of accessibility and facility distribution in cities. Sci. Adv. 6, eabb4112 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fsciadv.abb4112",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Deconstructing%20laws%20of%20accessibility%20and%20facility%20distribution%20in%20cities&journal=Sci.%20Adv.&doi=10.1126%2Fsciadv.abb4112&volume=6&publication_year=2020&author=Xu%2CY&author=Olmos%2CLE&author=Abbar%2CS&author=Gonz%C3%A1lez%2CMC"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Snellen, D., Borgers, A. & Timmermans, H. Urban form, road network type, and mode choice for frequently conducted activities: a multilevel analysis using quasi-experimental design data. Environ. Plan. Econ. Space 34, 1207–1220 (2002).",
+            "links": {
+                "Article": "https://doi.org/10.1068%2Fa349",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20form%2C%20road%20network%20type%2C%20and%20mode%20choice%20for%20frequently%20conducted%20activities%3A%20a%20multilevel%20analysis%20using%20quasi-experimental%20design%20data&journal=Environ.%20Plan.%20Econ.%20Space&doi=10.1068%2Fa349&volume=34&pages=1207-1220&publication_year=2002&author=Snellen%2CD&author=Borgers%2CA&author=Timmermans%2CH"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Wang, P., Hunter, T., Bayen, A. M., Schechtner, K. & González, M. C. Understanding road usage patterns in urban areas. Sci. Rep. 2, 1001 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsrep01001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20road%20usage%20patterns%20in%20urban%20areas&journal=Sci.%20Rep.&doi=10.1038%2Fsrep01001&volume=2&publication_year=2012&author=Wang%2CP&author=Hunter%2CT&author=Bayen%2CAM&author=Schechtner%2CK&author=Gonz%C3%A1lez%2CMC"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Zhan, X., Ukkusuri, S. V. & Rao, P. S. C. Dynamics of functional failures and recovery in complex road networks. Phys. Rev. E 96, 052301 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.96.052301",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dynamics%20of%20functional%20failures%20and%20recovery%20in%20complex%20road%20networks&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.96.052301&volume=96&publication_year=2017&author=Zhan%2CX&author=Ukkusuri%2CSV&author=Rao%2CPSC"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Li, D. et al. Percolation transition in dynamical traffic network with evolving critical bottlenecks. Proc. Natl Acad. Sci. USA 112, 669–672 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1419185112",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Percolation%20transition%20in%20dynamical%20traffic%20network%20with%20evolving%20critical%20bottlenecks&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1419185112&volume=112&pages=669-672&publication_year=2015&author=Li%2CD"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Saberi, M. et al. A simple contagion process describes spreading of traffic jams in urban networks. Nat. Commun. 11, 1616 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-020-15353-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20simple%20contagion%20process%20describes%20spreading%20of%20traffic%20jams%20in%20urban%20networks&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-020-15353-2&volume=11&publication_year=2020&author=Saberi%2CM"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Çolak, S., Lima, A. & González, M. C. Understanding congested travel in urban areas. Nat. Commun. 7, 10793 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fncomms10793",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20congested%20travel%20in%20urban%20areas&journal=Nat.%20Commun.&doi=10.1038%2Fncomms10793&volume=7&publication_year=2016&author=%C3%87olak%2CS&author=Lima%2CA&author=Gonz%C3%A1lez%2CMC"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Zhang, L. et al. Scale-free resilience of real traffic jams. Proc. Natl Acad. Sci. USA 116, 8673–8678 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1814982116",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scale-free%20resilience%20of%20real%20traffic%20jams&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1814982116&volume=116&pages=8673-8678&publication_year=2019&author=Zhang%2CL"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Foley, J. A. et al. Global consequences of land use. Science 309, 570–574 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1111772",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20consequences%20of%20land%20use&journal=Science&doi=10.1126%2Fscience.1111772&volume=309&pages=570-574&publication_year=2005&author=Foley%2CJA"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Strano, E. et al. The scaling structure of the global road network. R. Soc. Open Sci. 4, 170590 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsos.170590",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20scaling%20structure%20of%20the%20global%20road%20network&journal=R.%20Soc.%20Open%20Sci.&doi=10.1098%2Frsos.170590&volume=4&publication_year=2017&author=Strano%2CE"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Molinero, C., Murcio, R. & Arcaute, E. The angular nature of road networks. Sci. Rep. 7, 4312 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-017-04477-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20angular%20nature%20of%20road%20networks&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-017-04477-z&volume=7&publication_year=2017&author=Molinero%2CC&author=Murcio%2CR&author=Arcaute%2CE"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Kalapala, V., Sanwalani, V., Clauset, A. & Moore, C. Scale invariance in road networks. Phys. Rev. E 73, 026130 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.73.026130",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scale%20invariance%20in%20road%20networks&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.73.026130&volume=73&publication_year=2006&author=Kalapala%2CV&author=Sanwalani%2CV&author=Clauset%2CA&author=Moore%2CC"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Porta, S., Crucitti, P. & Latora, V. The network analysis of urban streets: a dual approach. Phys. A 369, 853–866 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.physa.2005.12.063",
+                "MATH": "http://www.emis.de/MATH-item?1144.37339",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20network%20analysis%20of%20urban%20streets%3A%20a%20dual%20approach&journal=Phys.%20A&doi=10.1016%2Fj.physa.2005.12.063&volume=369&pages=853-866&publication_year=2006&author=Porta%2CS&author=Crucitti%2CP&author=Latora%2CV"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Crucitti, P., Latora, V. & Porta, S. Centrality measures in spatial networks of urban streets. Phys. Rev. E 73, 036125 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.73.036125",
+                "MATH": "http://www.emis.de/MATH-item?1144.37339",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Centrality%20measures%20in%20spatial%20networks%20of%20urban%20streets&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.73.036125&volume=73&publication_year=2006&author=Crucitti%2CP&author=Latora%2CV&author=Porta%2CS"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Kirkley, A., Barbosa, H., Barthelemy, M. & Ghoshal, G. From the betweenness centrality in street networks to structural invariants in random planar graphs. Nat. Commun. 9, 2501 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-018-04978-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=From%20the%20betweenness%20centrality%20in%20street%20networks%20to%20structural%20invariants%20in%20random%20planar%20graphs&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-018-04978-z&volume=9&publication_year=2018&author=Kirkley%2CA&author=Barbosa%2CH&author=Barthelemy%2CM&author=Ghoshal%2CG"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Jiang, B. & Claramunt, C. Topological analysis of urban street networks. Environ. Plan. B 31, 151–162 (2004).",
+            "links": {
+                "Article": "https://doi.org/10.1068%2Fb306",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Topological%20analysis%20of%20urban%20street%20networks&journal=Environ.%20Plan.%20B&doi=10.1068%2Fb306&volume=31&pages=151-162&publication_year=2004&author=Jiang%2CB&author=Claramunt%2CC"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Louf, R. & Barthelemy, M. A typology of street patterns. J. R. Soc. Interface 11, 20140924 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2014.0924",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20typology%20of%20street%20patterns&journal=J.%20R.%20Soc.%20Interface&doi=10.1098%2Frsif.2014.0924&volume=11&publication_year=2014&author=Louf%2CR&author=Barthelemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Lee, M., Barbosa, H., Youn, H., Holme, P. & Ghoshal, G. Morphology of travel routes and the organization of cities. Nat. Commun. 8, 2229 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-017-02374-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Morphology%20of%20travel%20routes%20and%20the%20organization%20of%20cities&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-017-02374-7&volume=8&publication_year=2017&author=Lee%2CM&author=Barbosa%2CH&author=Youn%2CH&author=Holme%2CP&author=Ghoshal%2CG"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Masucci, A. P., Arcaute, E., Hatna, E., Stanilov, K. & Batty, M. On the problem of boundaries and scaling for urban street networks. J. R. Soc. Interface 12, 20150763 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2015.0763",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=On%20the%20problem%20of%20boundaries%20and%20scaling%20for%20urban%20street%20networks&journal=J.%20R.%20Soc.%20Interface&doi=10.1098%2Frsif.2015.0763&volume=12&publication_year=2015&author=Masucci%2CAP&author=Arcaute%2CE&author=Hatna%2CE&author=Stanilov%2CK&author=Batty%2CM"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Lämmer, S., Gehlsen, B. & Helbing, D. Scaling laws in the spatial structure of urban road networks. Phys. A 363, 89–95 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.physa.2006.01.051",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scaling%20laws%20in%20the%20spatial%20structure%20of%20urban%20road%20networks&journal=Phys.%20A&doi=10.1016%2Fj.physa.2006.01.051&volume=363&pages=89-95&publication_year=2006&author=L%C3%A4mmer%2CS&author=Gehlsen%2CB&author=Helbing%2CD"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Depersin, J. & Barthelemy, M. From global scaling to the dynamics of individual cities. Proc. Natl Acad. Sci. USA 115, 2317–2322 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1718690115",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=From%20global%20scaling%20to%20the%20dynamics%20of%20individual%20cities&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1718690115&volume=115&pages=2317-2322&publication_year=2018&author=Depersin%2CJ&author=Barthelemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Thadakamalla, H. P., Albert, R. & Kumara, S. R. T. Search in weighted complex networks. Phys. Rev. E 72, 066128 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.72.066128",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Search%20in%20weighted%20complex%20networks&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.72.066128&volume=72&publication_year=2005&author=Thadakamalla%2CHP&author=Albert%2CR&author=Kumara%2CSRT"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Jeong, J. & Berman, P. Low-cost search in scale-free networks. Phys. Rev. E 75, 036104 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.75.036104",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Low-cost%20search%20in%20scale-free%20networks&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.75.036104&volume=75&publication_year=2007&author=Jeong%2CJ&author=Berman%2CP"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Ahmadzai, F., Rao, K. M. L. & Ulfat, S. Assessment and modelling of urban road networks using integrated graph of natural road network (a GIS-based approach). J. Urban Manag. 8, 109–125 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jum.2018.11.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assessment%20and%20modelling%20of%20urban%20road%20networks%20using%20integrated%20graph%20of%20natural%20road%20network%20%28a%20GIS-based%20approach%29&journal=J.%20Urban%20Manag.&doi=10.1016%2Fj.jum.2018.11.001&volume=8&pages=109-125&publication_year=2019&author=Ahmadzai%2CF&author=Rao%2CKML&author=Ulfat%2CS"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Nigam, R., Sharma, D. K., Jain, S. & Srivastava, G. A local betweenness centrality based forwarding technique for social opportunistic IoT networks. Mob. Netw. Appl. https://doi.org/10.1007/s11036-021-01820-7 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Porta, S. et al. Street centrality and the location of economic activities in Barcelona. Urban Stud. 49, 1471–1488 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0042098011422570",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Street%20centrality%20and%20the%20location%20of%20economic%20activities%20in%20Barcelona&journal=Urban%20Stud.&doi=10.1177%2F0042098011422570&volume=49&pages=1471-1488&publication_year=2012&author=Porta%2CS"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Mahyar, H., Hasheminezhad, R. & Stanley, H. E. Compressive closeness in networks. Appl. Netw. Sci. 4, 100 (2019).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s41109-019-0213-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Compressive%20closeness%20in%20networks&journal=Appl.%20Netw.%20Sci.&doi=10.1007%2Fs41109-019-0213-5&volume=4&publication_year=2019&author=Mahyar%2CH&author=Hasheminezhad%2CR&author=Stanley%2CHE"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Schneider, C. M., Belik, V., Couronné, T., Smoreda, Z. & González, M. C. Unravelling daily human mobility motifs. J. R. Soc. Interface 10, 20130246 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2013.0246",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Unravelling%20daily%20human%20mobility%20motifs&journal=J.%20R.%20Soc.%20Interface&doi=10.1098%2Frsif.2013.0246&volume=10&publication_year=2013&author=Schneider%2CCM&author=Belik%2CV&author=Couronn%C3%A9%2CT&author=Smoreda%2CZ&author=Gonz%C3%A1lez%2CMC"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Dey, A. K., Gel, Y. R. & Poor, H. V. What network motifs tell us about resilience and reliability of complex networks. Proc. Natl Acad. Sci. USA 116, 19368–19373 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1819529116",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=What%20network%20motifs%20tell%20us%20about%20resilience%20and%20reliability%20of%20complex%20networks&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1819529116&volume=116&pages=19368-19373&publication_year=2019&author=Dey%2CAK&author=Gel%2CYR&author=Poor%2CHV"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Benson, A. R., Abebe, R., Schaub, M. T., Jadbabaie, A. & Kleinberg, J. Simplicial closure and higher-order link prediction. Proc. Natl Acad. Sci. USA 115, E11221–E11230 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1800683115",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Simplicial%20closure%20and%20higher-order%20link%20prediction&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1800683115&volume=115&pages=E11221-E11230&publication_year=2018&author=Benson%2CAR&author=Abebe%2CR&author=Schaub%2CMT&author=Jadbabaie%2CA&author=Kleinberg%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Chandra, A. & Thompson, E. Does public infrastructure affect economic activity? Reg. Sci. Urban Econ. 30, 457–490 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0166-0462%2800%2900040-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20public%20infrastructure%20affect%20economic%20activity%3F&journal=Reg.%20Sci.%20Urban%20Econ.&doi=10.1016%2FS0166-0462%2800%2900040-5&volume=30&pages=457-490&publication_year=2000&author=Chandra%2CA&author=Thompson%2CE"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Molinero, C. & Thurner, S. How the geometry of cities determines urban scaling laws. J. R. Soc. Interface 18, 20200705 (2021). rsif.2020.0705.",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2020.0705",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20the%20geometry%20of%20cities%20determines%20urban%20scaling%20laws&journal=J.%20R.%20Soc.%20Interface&doi=10.1098%2Frsif.2020.0705&volume=18&publication_year=2021&author=Molinero%2CC&author=Thurner%2CS"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Currid, E. & Williams, S. Two cities, five industries: similarities and differences within and between cultural industries in New York and Los Angeles. J. Plan. Educ. Res. 29, 322–335 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0739456X09358559",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Two%20cities%2C%20five%20industries%3A%20similarities%20and%20differences%20within%20and%20between%20cultural%20industries%20in%20New%20York%20and%20Los%20Angeles&journal=J.%20Plan.%20Educ.%20Res.&doi=10.1177%2F0739456X09358559&volume=29&pages=322-335&publication_year=2010&author=Currid%2CE&author=Williams%2CS"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Cheng, F., Kovács, I. A. & Barabási, A.-L. Network-based prediction of drug combinations. Nat. Commun. 10, 1197 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-019-09186-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Network-based%20prediction%20of%20drug%20combinations&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-019-09186-x&volume=10&publication_year=2019&author=Cheng%2CF&author=Kov%C3%A1cs%2CIA&author=Barab%C3%A1si%2CA-L"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Jalili, M., Orouskhani, Y., Asgari, M., Alipourfard, N. & Perc, M. Link prediction in multiplex online social networks. R. Soc. Open Sci. 4, 160863 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsos.160863",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=3623499",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Link%20prediction%20in%20multiplex%20online%20social%20networks&journal=R.%20Soc.%20Open%20Sci.&doi=10.1098%2Frsos.160863&volume=4&publication_year=2017&author=Jalili%2CM&author=Orouskhani%2CY&author=Asgari%2CM&author=Alipourfard%2CN&author=Perc%2CM"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Lerique, S., Abitbol, J. L. & Karsai, M. Joint embedding of structure and features via graph convolutional networks. Appl. Netw. Sci. 5, 5 (2020).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s41109-019-0237-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Joint%20embedding%20of%20structure%20and%20features%20via%20graph%20convolutional%20networks&journal=Appl.%20Netw.%20Sci.&doi=10.1007%2Fs41109-019-0237-x&volume=5&publication_year=2020&author=Lerique%2CS&author=Abitbol%2CJL&author=Karsai%2CM"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Ren, Y., Ercsey-Ravasz, M., Wang, P., González, M. C. & Toroczkai, Z. Predicting commuter flows in spatial networks using a radiation model based on temporal ranges. Nat. Commun. 5, 5347 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fncomms6347",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Predicting%20commuter%20flows%20in%20spatial%20networks%20using%20a%20radiation%20model%20based%20on%20temporal%20ranges&journal=Nat.%20Commun.&doi=10.1038%2Fncomms6347&volume=5&publication_year=2014&author=Ren%2CY&author=Ercsey-Ravasz%2CM&author=Wang%2CP&author=Gonz%C3%A1lez%2CMC&author=Toroczkai%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Teney, D., Liu, L. & Van Den Hengel, A. Graph-structured representations for visual question answering. In 2017 IEEE Conference on Computer Vision and Pattern Recognition 2017, 3233–3241 (IEEE, 2017); https://doi.org/10.1109/CVPR.2017.344",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Wu, N., Zhao, X. W., Wang, J. & Pan, D. Learning effective road network representation with hierarchical graph neural networks. In Proc. 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining 6–14 (ACM, 2020); https://doi.org/10.1145/3394486.3403043",
+            "links": {}
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Gebru, T. et al. Using deep learning and Google Street View to estimate the demographic makeup of neighborhoods across the United States. Proc. Natl Acad. Sci. USA 114, 13108–13113 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1700035114",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Using%20deep%20learning%20and%20Google%20Street%20View%20to%20estimate%20the%20demographic%20makeup%20of%20neighborhoods%20across%20the%20United%20States&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1700035114&volume=114&pages=13108-13113&publication_year=2017&author=Gebru%2CT"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Abitbol, J. L. & Karsai, M. Interpretable socioeconomic status inference from aerial imagery through urban patterns. Nat. Mach. Intell. 2, 684–692 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs42256-020-00243-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Interpretable%20socioeconomic%20status%20inference%20from%20aerial%20imagery%20through%20urban%20patterns&journal=Nat.%20Mach.%20Intell.&doi=10.1038%2Fs42256-020-00243-5&volume=2&pages=684-692&publication_year=2020&author=Abitbol%2CJL&author=Karsai%2CM"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Kempinska, K. & Murcio, R. Modelling urban networks using variational autoencoders. Appl. Netw. Sci. 4, 114 (2019).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s41109-019-0234-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Modelling%20urban%20networks%20using%20variational%20autoencoders&journal=Appl.%20Netw.%20Sci.&doi=10.1007%2Fs41109-019-0234-0&volume=4&publication_year=2019&author=Kempinska%2CK&author=Murcio%2CR"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Peng, X., Chen, X. & Cheng, Y. Urbanization and its Consequences (Eolss, 2011).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Hanson, S. The Geography of Urban Transportation (Guilford, 2004).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Cook, I. R. Mobilising urban policies: the policy transfer of US business improvement districts to England and Wales. Urban Stud. 45, 773–795 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0042098007088468",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mobilising%20urban%20policies%3A%20the%20policy%20transfer%20of%20US%20business%20improvement%20districts%20to%20England%20and%20Wales&journal=Urban%20Stud.&doi=10.1177%2F0042098007088468&volume=45&pages=773-795&publication_year=2008&author=Cook%2CIR"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Ghasemian, A., Hosseinmardi, H., Galstyan, A., Airoldi, E. M. & Clauset, A. Stacking models for nearly optimal link prediction in complex networks. Proc. Natl Acad. Sci. USA 117, 23393–23400 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1914950117",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Stacking%20models%20for%20nearly%20optimal%20link%20prediction%20in%20complex%20networks&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1914950117&volume=117&pages=23393-23400&publication_year=2020&author=Ghasemian%2CA&author=Hosseinmardi%2CH&author=Galstyan%2CA&author=Airoldi%2CEM&author=Clauset%2CA"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Clauset, A., Moore, C. & Newman, M. E. J. Hierarchical structure and the prediction of missing links in networks. Nature 453, 98–101 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature06830",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hierarchical%20structure%20and%20the%20prediction%20of%20missing%20links%20in%20networks&journal=Nature&doi=10.1038%2Fnature06830&volume=453&pages=98-101&publication_year=2008&author=Clauset%2CA&author=Moore%2CC&author=Newman%2CMEJ"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Stanfield, Z., Coskun, M. & Koyuturk, M. Drug response prediction as a link prediction problem. In Proc. 8th ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics 638–638 (ACM, 2017); https://doi.org/10.1145/3107411.3107459",
+            "links": {}
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Schlichtkrull, M. et al. in The Semantic Web Vol. 10843 (eds Gangemi, A. et al.) 593–607 (Springer International, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Barrington-Leigh, C. & Millard-Ball, A. A global assessment of street-network sprawl. PLoS ONE 14, e0223078 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0223078",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20global%20assessment%20of%20street-network%20sprawl&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0223078&volume=14&publication_year=2019&author=Barrington-Leigh%2CC&author=Millard-Ball%2CA"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Barrington-Leigh, C. & Millard-Ball, A. Global trends toward urban street-network sprawl. Proc. Natl Acad. Sci. USA 117, 1941–1950 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1905232116",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20trends%20toward%20urban%20street-network%20sprawl&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1905232116&volume=117&pages=1941-1950&publication_year=2020&author=Barrington-Leigh%2CC&author=Millard-Ball%2CA"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Hammack, D. C., Weighley, R. F. & Lukacs, J. Philadelphia: a 300-year history. Am. Hist. Rev. 89, 878 (1984).",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F1856312",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Philadelphia%3A%20a%20300-year%20history&journal=Am.%20Hist.%20Rev.&doi=10.2307%2F1856312&volume=89&publication_year=1984&author=Hammack%2CDC&author=Weighley%2CRF&author=Lukacs%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Barthelemy, M., Bordin, P., Berestycki, H. & Gribaudi, M. Self-organization versus top-down planning in the evolution of a city. Sci. Rep. 3, 2153 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsrep02153",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Self-organization%20versus%20top-down%20planning%20in%20the%20evolution%20of%20a%20city&journal=Sci.%20Rep.&doi=10.1038%2Fsrep02153&volume=3&publication_year=2013&author=Barthelemy%2CM&author=Bordin%2CP&author=Berestycki%2CH&author=Gribaudi%2CM"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Peterson, J. A. The birth of organized city planning in the United States, 1909–1910. J. Am. Plann. Assoc. 75, 123–133 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01944360802608484",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20birth%20of%20organized%20city%20planning%20in%20the%20United%20States%2C%201909%E2%80%931910&journal=J.%20Am.%20Plann.%20Assoc.&doi=10.1080%2F01944360802608484&volume=75&pages=123-133&publication_year=2009&author=Peterson%2CJA"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Boeing, G. A multi-scale analysis of 27,000 urban street networks: every US city, town, urbanized area, and Zillow neighborhood. Environ. Plan. B 47, 590–608 (2020).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20multi-scale%20analysis%20of%2027%2C000%20urban%20street%20networks%3A%20every%20US%20city%2C%20town%2C%20urbanized%20area%2C%20and%20Zillow%20neighborhood&journal=Environ.%20Plan.%20B&volume=47&pages=590-608&publication_year=2020&author=Boeing%2CG"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Wang, J. Resilience of self-organised and top-down planned cities—a case study on London and Beijing street networks. PLoS ONE 10, e0141736 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0141736",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Resilience%20of%20self-organised%20and%20top-down%20planned%20cities%E2%80%94a%20case%20study%20on%20London%20and%20Beijing%20street%20networks&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0141736&volume=10&publication_year=2015&author=Wang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Giacomin, D. J. & Levinson, D. M. Road network circuity in metropolitan areas. Environ. Plan. B 42, 1040–1053 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1068%2Fb130131p",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Road%20network%20circuity%20in%20metropolitan%20areas&journal=Environ.%20Plan.%20B&doi=10.1068%2Fb130131p&volume=42&pages=1040-1053&publication_year=2015&author=Giacomin%2CDJ&author=Levinson%2CDM"
+            }
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Ortman, S. G., Cabaniss, A. H. F., Sturm, J. O. & Bettencourt, L. M. A. The pre-history of urban scaling. PLoS ONE 9, e87902 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0087902",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20pre-history%20of%20urban%20scaling&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0087902&volume=9&publication_year=2014&author=Ortman%2CSG&author=Cabaniss%2CAHF&author=Sturm%2CJO&author=Bettencourt%2CLMA"
+            }
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Whittemore, A. H. Zoning Los Angeles: a brief history of four regimes. Plan. Perspect. 27, 393–415 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F02665433.2012.681140",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Zoning%20Los%20Angeles%3A%20a%20brief%20history%20of%20four%20regimes&journal=Plan.%20Perspect.&doi=10.1080%2F02665433.2012.681140&volume=27&pages=393-415&publication_year=2012&author=Whittemore%2CAH"
+            }
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Endoh, T. Historical review of reclamation works in Tokyo port area. J. Geogr. Chigaku Zasshi 113, 534–538 (2004).",
+            "links": {
+                "Article": "https://doi.org/10.5026%2Fjgeography.113.4_534",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Historical%20review%20of%20reclamation%20works%20in%20Tokyo%20port%20area&journal=J.%20Geogr.%20Chigaku%20Zasshi&doi=10.5026%2Fjgeography.113.4_534&volume=113&pages=534-538&publication_year=2004&author=Endoh%2CT"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "Bettencourt, L. M. A. Urban growth and the emergent statistics of cities. Sci. Adv. 6, eaat8812 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fsciadv.aat8812",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20growth%20and%20the%20emergent%20statistics%20of%20cities&journal=Sci.%20Adv.&doi=10.1126%2Fsciadv.aat8812&volume=6&publication_year=2020&author=Bettencourt%2CLMA"
+            }
+        },
+        {
+            "id": "ref-CR67",
+            "content": "Wei, Y., Zheng, Y. & Yang, Q. Transfer knowledge between cities. In Proc. 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 1905–1914 (ACM, 2016); https://doi.org/10.1145/2939672.2939830",
+            "links": {}
+        },
+        {
+            "id": "ref-CR68",
+            "content": "Dai, W., Jin, O., Xue, G.-R., Yang, Q. & Yu, Y. EigenTransfer: a unified framework for transfer learning. In Proc. 26th Annual International Conference on Machine Learning 193–200 (ACM, 2009); https://doi.org/10.1145/1553374.1553399",
+            "links": {}
+        },
+        {
+            "id": "ref-CR69",
+            "content": "Dong, L., Ratti, C. & Zheng, S. Predicting neighborhoods’ socioeconomic attributes using restaurant data. Proc. Natl Acad. Sci. USA 116, 15447–15452 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1903064116",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Predicting%20neighborhoods%E2%80%99%20socioeconomic%20attributes%20using%20restaurant%20data&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1903064116&volume=116&pages=15447-15452&publication_year=2019&author=Dong%2CL&author=Ratti%2CC&author=Zheng%2CS"
+            }
+        },
+        {
+            "id": "ref-CR70",
+            "content": "Mandelbrot, B. B. The Fractal Geometry of Nature (W.H. Freeman, 1982).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR71",
+            "content": "Falconer, K. J. Techniques in Fractal Geometry (Wiley, 1997).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR72",
+            "content": "Meakin, P. Formation of fractal clusters and networks by irreversible diffusion-limited aggregation. Phys. Rev. Lett. 51, 1119–1122 (1983).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevLett.51.1119",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Formation%20of%20fractal%20clusters%20and%20networks%20by%20irreversible%20diffusion-limited%20aggregation&journal=Phys.%20Rev.%20Lett.&doi=10.1103%2FPhysRevLett.51.1119&volume=51&pages=1119-1122&publication_year=1983&author=Meakin%2CP"
+            }
+        },
+        {
+            "id": "ref-CR73",
+            "content": "Batty, M. & Longley, P. A. Fractal Cities: A Geometry of Form and Function (Academic, 1994).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR74",
+            "content": "Sidqi, Y., Thomas, I., Frankhauser, P. & Retière, N. Comparing fractal indices of electric networks to roads and buildings: the case of Grenoble (France). Phys. Stat. Mech. Appl. 531, 121774 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.physa.2019.121774",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Comparing%20fractal%20indices%20of%20electric%20networks%20to%20roads%20and%20buildings%3A%20the%20case%20of%20Grenoble%20%28France%29&journal=Phys.%20Stat.%20Mech.%20Appl.&doi=10.1016%2Fj.physa.2019.121774&volume=531&publication_year=2019&author=Sidqi%2CY&author=Thomas%2CI&author=Frankhauser%2CP&author=Reti%C3%A8re%2CN"
+            }
+        },
+        {
+            "id": "ref-CR75",
+            "content": "Ariza-Villaverde, A. B., Jiménez-Hornero, F. J. & Ravé, E. G. D. Multifractal analysis of axial maps applied to the study of urban morphology. Comput. Environ. Urban Syst. 38, 1–10 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.compenvurbsys.2012.11.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multifractal%20analysis%20of%20axial%20maps%20applied%20to%20the%20study%20of%20urban%20morphology&journal=Comput.%20Environ.%20Urban%20Syst.&doi=10.1016%2Fj.compenvurbsys.2012.11.001&volume=38&pages=1-10&publication_year=2013&author=Ariza-Villaverde%2CAB&author=Jim%C3%A9nez-Hornero%2CFJ&author=Rav%C3%A9%2CEGD"
+            }
+        },
+        {
+            "id": "ref-CR76",
+            "content": "Makse, H. A., Andrade, J. S., Batty, M., Havlin, S. & Stanley, H. E. Modeling urban growth patterns with correlated percolation. Phys. Rev. E 58, 7054–7062 (1998).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.58.7054",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Modeling%20urban%20growth%20patterns%20with%20correlated%20percolation&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.58.7054&volume=58&pages=7054-7062&publication_year=1998&author=Makse%2CHA&author=Andrade%2CJS&author=Batty%2CM&author=Havlin%2CS&author=Stanley%2CHE"
+            }
+        },
+        {
+            "id": "ref-CR77",
+            "content": "Murcio, R., Masucci, A. P., Arcaute, E. & Batty, M. Multifractal to monofractal evolution of the London street network. Phys. Rev. E 92, 062130 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.92.062130",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multifractal%20to%20monofractal%20evolution%20of%20the%20London%20street%20network&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.92.062130&volume=92&publication_year=2015&author=Murcio%2CR&author=Masucci%2CAP&author=Arcaute%2CE&author=Batty%2CM"
+            }
+        },
+        {
+            "id": "ref-CR78",
+            "content": "He, K., Zhang, X., Ren, S. & Sun, J. Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition 770–778 (IEEE, 2016); https://doi.org/10.1109/CVPR.2016.90",
+            "links": {}
+        },
+        {
+            "id": "ref-CR79",
+            "content": "Chen, D. et al. Measuring and relieving the over-smoothing problem for graph neural networks from the topological view. Proc. AAAI Conf. Artif. Intell. 34, 3438–3445 (2020).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20and%20relieving%20the%20over-smoothing%20problem%20for%20graph%20neural%20networks%20from%20the%20topological%20view&journal=Proc.%20AAAI%20Conf.%20Artif.%20Intell.&volume=34&pages=3438-3445&publication_year=2020&author=Chen%2CD"
+            }
+        },
+        {
+            "id": "ref-CR80",
+            "content": "Berry, B., Goheen, P. & Goldstein, H. Metropolitan Area Definition: A Re-evaluation of Concept and Statistical Practice Vol. 28 (US Department of Commerce, Bureau of the Census, 1968).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR81",
+            "content": "Corbane, C. et al. Automated global delineation of human settlements from 40 years of Landsat satellite data archives. Big Earth Data 3, 140–169 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F20964471.2019.1625528",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Automated%20global%20delineation%20of%20human%20settlements%20from%2040%20years%20of%20Landsat%20satellite%20data%20archives&journal=Big%20Earth%20Data&doi=10.1080%2F20964471.2019.1625528&volume=3&pages=140-169&publication_year=2019&author=Corbane%2CC"
+            }
+        },
+        {
+            "id": "ref-CR82",
+            "content": "Rozenfeld, H. D. et al. Laws of population growth. Proc. Natl Acad. Sci. USA 105, 18702–18707 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0807435105",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Laws%20of%20population%20growth&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0807435105&volume=105&pages=18702-18707&publication_year=2008&author=Rozenfeld%2CHD"
+            }
+        },
+        {
+            "id": "ref-CR83",
+            "content": "Shen, Y. & Batty, M. Delineating the perceived functional regions of London from commuting flows. Environ. Plan. Econ. Space 51, 547–550 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0308518X18786253",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Delineating%20the%20perceived%20functional%20regions%20of%20London%20from%20commuting%20flows&journal=Environ.%20Plan.%20Econ.%20Space&doi=10.1177%2F0308518X18786253&volume=51&pages=547-550&publication_year=2019&author=Shen%2CY&author=Batty%2CM"
+            }
+        },
+        {
+            "id": "ref-CR84",
+            "content": "Long, Y., Shen, Y. & Jin, X. Mapping block-level urban areas for all Chinese cities. Ann. Am. Assoc. Geogr. 106, 96–113 (2016).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mapping%20block-level%20urban%20areas%20for%20all%20Chinese%20cities&journal=Ann.%20Am.%20Assoc.%20Geogr.&volume=106&pages=96-113&publication_year=2016&author=Long%2CY&author=Shen%2CY&author=Jin%2CX"
+            }
+        },
+        {
+            "id": "ref-CR85",
+            "content": "Cao, W., Dong, L., Wu, L. & Liu, Y. Quantifying urban areas with multi-source data based on percolation theory. Remote Sens. Environ. 241, 111730 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rse.2020.111730",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20urban%20areas%20with%20multi-source%20data%20based%20on%20percolation%20theory&journal=Remote%20Sens.%20Environ.&doi=10.1016%2Fj.rse.2020.111730&volume=241&publication_year=2020&author=Cao%2CW&author=Dong%2CL&author=Wu%2CL&author=Liu%2CY"
+            }
+        },
+        {
+            "id": "ref-CR86",
+            "content": "Zischg, J., Klinkhamer, C., Zhan, X., Rao, P. S. C. & Sitzenfrei, R. A century of topological coevolution of complex infrastructure networks in an Alpine city. Complexity 2019, 2096749 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1155%2F2019%2F2096749",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20century%20of%20topological%20coevolution%20of%20complex%20infrastructure%20networks%20in%20an%20Alpine%20city&journal=Complexity&doi=10.1155%2F2019%2F2096749&volume=2019&publication_year=2019&author=Zischg%2CJ&author=Klinkhamer%2CC&author=Zhan%2CX&author=Rao%2CPSC&author=Sitzenfrei%2CR"
+            }
+        },
+        {
+            "id": "ref-CR87",
+            "content": "Yabe, T., Tsubouchi, K., Shimizu, T., Sekimoto, Y. & Ukkusuri, S. V. Unsupervised translation via hierarchical anchoring: functional mapping of places across cities. In Proc. 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining 2841–2851 (ACM, 2020); https://doi.org/10.1145/3394486.3403335",
+            "links": {}
+        },
+        {
+            "id": "ref-CR88",
+            "content": "Zhao, J., Li, D., Sanhedrai, H., Cohen, R. & Havlin, S. Spatio-temporal propagation of cascading overload failures in spatially embedded networks. Nat. Commun. 7, 10094 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fncomms10094",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatio-temporal%20propagation%20of%20cascading%20overload%20failures%20in%20spatially%20embedded%20networks&journal=Nat.%20Commun.&doi=10.1038%2Fncomms10094&volume=7&publication_year=2016&author=Zhao%2CJ&author=Li%2CD&author=Sanhedrai%2CH&author=Cohen%2CR&author=Havlin%2CS"
+            }
+        },
+        {
+            "id": "ref-CR89",
+            "content": "Loder, A., Ambühl, L., Menendez, M. & Axhausen, K. W. Understanding traffic capacity of urban networks. Sci. Rep. 9, 16283 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-019-51539-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20traffic%20capacity%20of%20urban%20networks&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-019-51539-5&volume=9&publication_year=2019&author=Loder%2CA&author=Amb%C3%BChl%2CL&author=Menendez%2CM&author=Axhausen%2CKW"
+            }
+        },
+        {
+            "id": "ref-CR90",
+            "content": "Zeng, G. et al. Multiple metastable network states in urban traffic. Proc. Natl Acad. Sci. USA 117, 17528–17534 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1907493117",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multiple%20metastable%20network%20states%20in%20urban%20traffic&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1907493117&volume=117&pages=17528-17534&publication_year=2020&author=Zeng%2CG"
+            }
+        },
+        {
+            "id": "ref-CR91",
+            "content": "Devlin, J., Chang, M.-W., Lee, K. & Toutanova, K. BERT: pre-training of deep bidirectional transformers for language understanding. In Proc. of the 2019 Conference of the North American Chapter ofthe Association for Computational Linguistics: Human Language Technologies 4171–4186 (NAACL-HLT, 2019); https://doi.org/10.18653/v1/n19-1423",
+            "links": {}
+        },
+        {
+            "id": "ref-CR92",
+            "content": "Zoph, B. & Le, Q. V. Neural architecture search with reinforcement learning. The 5th International Conference on Learning Representations (ICLR, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR93",
+            "content": "Zhang, X. & Zitnik, M. GNNGuard: defending graph neural networks against adversarial attacks. In Advances in Neural Information Processing Systems 9263–9275 (NeurIPS, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR94",
+            "content": "Boeing, G. OSMnx: New methods for acquiring, constructing, analyzing, and visualizing complex street networks. Comput. Environ. Urban Syst. 65, 126–139 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.compenvurbsys.2017.05.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=OSMnx%3A%20New%20methods%20for%20acquiring%2C%20constructing%2C%20analyzing%2C%20and%20visualizing%20complex%20street%20networks&journal=Comput.%20Environ.%20Urban%20Syst.&doi=10.1016%2Fj.compenvurbsys.2017.05.004&volume=65&pages=126-139&publication_year=2017&author=Boeing%2CG"
+            }
+        },
+        {
+            "id": "ref-CR95",
+            "content": "Ganin, A. A. et al. Resilience and efficiency in transportation networks. Sci. Adv. 3, e1701079 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fsciadv.1701079",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Resilience%20and%20efficiency%20in%20transportation%20networks&journal=Sci.%20Adv.&doi=10.1126%2Fsciadv.1701079&volume=3&publication_year=2017&author=Ganin%2CAA"
+            }
+        },
+        {
+            "id": "ref-CR96",
+            "content": "Louail, T. et al. From mobile phone data to the spatial structure of cities. Sci. Rep. 4, 5276 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsrep05276",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=From%20mobile%20phone%20data%20to%20the%20spatial%20structure%20of%20cities&journal=Sci.%20Rep.&doi=10.1038%2Fsrep05276&volume=4&publication_year=2015&author=Louail%2CT"
+            }
+        },
+        {
+            "id": "ref-CR97",
+            "content": "Thompson, J. et al. A global analysis of urban design types and road transport injury: an image processing study. Lancet Planet. Health 4, e32–e42 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2819%2930263-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20global%20analysis%20of%20urban%20design%20types%20and%20road%20transport%20injury%3A%20an%20image%20processing%20study&journal=Lancet%20Planet.%20Health&doi=10.1016%2FS2542-5196%2819%2930263-3&volume=4&pages=e32-e42&publication_year=2020&author=Thompson%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR98",
+            "content": "Urban Atlas 2018 (Copernicus Land Monitoring Service, accessed 7 March 2022); https://land.copernicus.eu/local/urban-atlas/urban-atlas-2018?tab=mapview",
+            "links": {}
+        },
+        {
+            "id": "ref-CR99",
+            "content": "Khiali-Miab, A., van Strien, M. J., Axhausen, K. W. & Grêt-Regamey, A. Combining urban scaling and polycentricity to explain socio-economic status of urban regions. PLoS ONE 14, e0218022 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0218022",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Combining%20urban%20scaling%20and%20polycentricity%20to%20explain%20socio-economic%20status%20of%20urban%20regions&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0218022&volume=14&publication_year=2019&author=Khiali-Miab%2CA&author=Strien%2CMJ&author=Axhausen%2CKW&author=Gr%C3%AAt-Regamey%2CA"
+            }
+        },
+        {
+            "id": "ref-CR100",
+            "content": "Rozenblat, C. Extending the concept of city for delineating large urban regions (LUR) for the cities of the world. Cybergeo https://doi.org/10.4000/cybergeo.35411 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR101",
+            "content": "Ma, S. & Long, Y. Functional urban area delineations of cities on the Chinese mainland using massive Didi ride-hailing records. Cities 97, 102532 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cities.2019.102532",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Functional%20urban%20area%20delineations%20of%20cities%20on%20the%20Chinese%20mainland%20using%20massive%20Didi%20ride-hailing%20records&journal=Cities&doi=10.1016%2Fj.cities.2019.102532&volume=97&publication_year=2020&author=Ma%2CS&author=Long%2CY"
+            }
+        },
+        {
+            "id": "ref-CR102",
+            "content": "Yang, B., Yih, W., He, X., Gao, J. & Deng, L. Embedding Entities and Relations for Learning and Inference in Knowledge Bases. The 3rd International Conference on Learning Representations (ICLR, 2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR103",
+            "content": "Grover, A. & Leskovec, J. node2vec: scalable feature learning for networks. In Proc. 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 855–864 (ACM, 2016); https://doi.org/10.1145/2939672.2939754",
+            "links": {}
+        },
+        {
+            "id": "ref-CR104",
+            "content": "Ribeiro, L. F. R., Saverese, P. H. P. & Figueiredo, D. R. struc2vec: learning node representations from structural identity. In Proc. 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 385–394 (ACM, 2017); https://doi.org/10.1145/3097983.3098061",
+            "links": {}
+        },
+        {
+            "id": "ref-CR105",
+            "content": "Hamilton, W. L., Ying, R. & Leskovec, J. Inductive representation learning on large graphs. In Advances in Neural Information Processing Systems 1024–1034 (NIPS, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR106",
+            "content": "Kipf, T. N. & Welling, M. Semi-supervised classification with graph convolutional networks. The 5th International Conference on Learning Representations (ICLR, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR107",
+            "content": "Veličković, P. et al. Graph attention networks. The 6th International Conference on Learning Representations (ICLR, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR108",
+            "content": "Kingma, D. P. & Ba, J. Adam: a method for stochastic optimization. The 3rd International Conference on Learning Representations (ICLR, 2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR109",
+            "content": "Xue, J. et al. Quantifying the spatial homogeneity of urban road networks via graph neural networks [Data set]. Zenodo https://doi.org/10.5281/zenodo.5866593 (2022).",
+            "links": {}
+        }
+    ]
+}

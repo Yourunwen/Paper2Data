@@ -1,0 +1,101 @@
+{
+    "id": "s41562-025-02281-8",
+    "title": "Understanding the migratory response to hurricanes and tropical storms in the USA",
+    "journal": "Nature Human Behaviour",
+    "pdf_link": "https://www.nature.com/articles/s41562-025-02281-8",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "IRS Statistics of Income county-to-county migration flows",
+            "Data_summary": "Administrative tax-record tabulations published by the US Internal Revenue Service that report annual aggregated county-to-county migration counts based on tax returns, including the number of migrants leaving each county and their destination counties. The study uses these flows to construct county-year outmigration, in-migration, and net migration measures and to compute weighted destination-risk measures based on where movers from each origin county go.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Our migration data come from the Internal Revenue Service Statistics of Income’s county-to-county migration flows; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "1991-2019",
+            "Geographic_Coverage": "United States > County",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Atlantic basin storm tracks and county exposure dataset based on NOAA Storm Events and National Hurricane Center",
+            "Data_summary": "Storm-track and event characterization data for Atlantic basin hurricanes and tropical storms affecting the continental United States, including storm paths plus associated wind speeds and rainfall totals and an indicator of which counties received flood warnings linked to each storm. The study uses these data to define county-year storm exposure (storm incidence, wind threshold exceedance, and flood-warning based exposure) and to count storms experienced by each county over the analysis period.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                50
+            ],
+            "Other_Information": "Evidence: We used data on the tracks of every Atlantic basin storm that has struck the continental USA from 1988 to 201850; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "1988-2018",
+            "Geographic_Coverage": "United States > Continental USA > County",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR50"
+            ]
+        },
+        {
+            "Data_Name": "NOAA Storm Events Database",
+            "Data_summary": "An NOAA event-level hazard database used as an underlying source for the paper’s storm track and impact variables, providing recorded storm event information that supports constructing storm paths and associated impact indicators such as flood warnings and meteorological attributes. The study cites it as an input source used to build the storm exposure measures.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: These data are based on information tracked by the NOAA Storm Events database and the National Hurricane Center; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "National Hurricane Center hurricane and tropical storm track data",
+            "Data_summary": "Hurricane and tropical storm track and intensity information curated by the US National Hurricane Center, used as an underlying source for constructing the storm-path dataset that links storms to counties and provides meteorological attributes such as wind speed along tracks. The study uses it to identify storms affecting US counties and to compute exposure based on proximity, wind thresholds, and linked warnings.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: These data are based on information tracked by the NOAA Storm Events database and the National Hurricane Center; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Atlantic basin and United States > Continental USA",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "FEMA disaster assistance payments and compensated damages dataset",
+            "Data_summary": "Administrative records from the US Federal Emergency Management Agency reporting total payments or compensation amounts made to individuals for FEMA-declared disasters. The study uses these payment totals to define and threshold 'high-damage' storms, classify storms by compensated damage levels, and examine migration responses specifically following the most financially damaging events.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We supplemented these data with data from FEMA on the total payments made to individuals for every disaster declared by FEMA since 1954; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "1954-N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Bureau of Economic Analysis county-level GDP data",
+            "Data_summary": "Official regional economic accounts from the US Bureau of Economic Analysis providing gross domestic product measures at the county level. The study uses county GDP as a proxy for economic opportunity, correlating it with storm exposure and migration outcomes and interacting it with storm measures in regression analyses and descriptive comparisons.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We also collect data on county-level GDP from the Bureau of Economic Analysis to examine how another important determinant of migration interacts with storm exposure; Location: Main; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > County",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit (from Data Availability)",
+            "Data_summary": "Replication package deposited by the authors containing the data used to replicate the study’s findings, provided as a consolidated access point for the analysis inputs and/or processed versions used in the workflows.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data to replicate the findings of the study are available via Harvard Dataverse at https:doi.org10.7910DVN/FNFYUG; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://doi.org/10.7910/DVN/FNFYUG",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:54.114772"
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "id": "s44284-025-00279-x",
+    "title": "Individual and city-level variations in heat-related road traffic deaths in Latin America",
+    "journal": "Nature Cities",
+    "pdf_link": "https://www.nature.com/articles/s44284-025-00279-x",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "SALURBAL daily road traffic mortality microdata harmonized from national statistical agencies",
+            "Data_summary": "Daily counts of road traffic deaths constructed from individual death records coded with ICD-10 external cause codes, including subcategories for pedestrian, cyclist, motorcyclist and motor vehicle occupant deaths. The study uses these daily city time series as the primary outcome, applying redistribution for ill-defined external-cause codes and creating multiple imputations to account for misclassification and incomplete coding detail.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Country-level mortality data were obtained from national statistical agencies with some publicly available and others available via Drexel University upon request, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2000-2019",
+            "Geographic_Coverage": "Latin America > Brazil, Mexico, Chile, El Salvador, Panama, Costa Rica > 272 cities",
+            "URL": "https://drexel.edu/lac/data-evidence/data-acknowledgements/",
+            "ref": []
+        },
+        {
+            "Data_Name": "SALURBAL study platform dataset",
+            "Data_summary": "A harmonized multicountry urban health data platform that consolidates environmental, social and health-related data across Latin American cities. In this paper it serves as the integration framework for linking mortality, temperature exposure and city-level contextual measures across the analyzed cities.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Access to restricted data requires a data use agreement and approval of a study proposal by the SALURBAL proposal and publications committee, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Latin America > 11 countries > 371 cities",
+            "URL": "https://drexel.edu/lac/salurbal/overview/",
+            "ref": []
+        },
+        {
+            "Data_Name": "ERA5-Land population-weighted hourly temperature reanalysis",
+            "Data_summary": "Hourly near-surface air temperature reanalysis at gridded resolution, aggregated to daily mean temperature and then population-weighted for each city. These daily city temperatures are the exposure variable, converted to city-specific temperature percentiles for pooled modeling, with missing grid cells addressed via imputation using coarser ERA5 and terrain variables.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The exposure variable was the daily mean temperature derived from hourly temperature data from the fifth generation European Centre for Medium-Range Weather Forecasts atmospheric reanalysis ERA5-Land, Location: Methods Outcome exposure and effect modifiers, Confidence: high",
+            "Time_Coverage": "2000-2019",
+            "Geographic_Coverage": "Latin America > Brazil, Mexico, Chile, El Salvador, Panama, Costa Rica > 272 cities",
+            "URL": "https://github.com/Drexel-UHC/salurbal_heat",
+            "ref": []
+        },
+        {
+            "Data_Name": "ERA5 hourly data on single levels (reanalysis era5 single levels) used for temperature-gap imputation",
+            "Data_summary": "Gridded hourly meteorological reanalysis data resampled to coarser spatial resolution and used as auxiliary predictors to impute missing ERA5-Land temperature grid cells within city boundaries, before population-weighting and daily aggregation.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: These missing temperature values were imputed using a random forest regression model integrating resampled ERA5 temperature data at a 31-km resolution along with elevation and aspect, Location: Methods Outcome exposure and effect modifiers, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Latin America > Brazil, Mexico, Chile, El Salvador, Panama, Costa Rica > 272 cities",
+            "URL": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+            "ref": []
+        },
+        {
+            "Data_Name": "WorldPop gridded population dataset",
+            "Data_summary": "Gridded population counts used to population-weight gridded temperature data to the city level and to provide annual population denominators for calculating city-level road traffic mortality rates.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Publicly available datasets used in this study include ERA5-Land temperature WorldPop population and Global Urban Footprint urban form, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2000-2019",
+            "Geographic_Coverage": "Latin America > Brazil, Mexico, Chile, El Salvador, Panama, Costa Rica > 272 cities",
+            "URL": "https://github.com/Drexel-UHC/salurbal_heat",
+            "ref": []
+        },
+        {
+            "Data_Name": "Global Urban Footprint (GUF) urban form dataset",
+            "Data_summary": "A remote-sensing-derived global map of built-up or urban form used within the SALURBAL workflow to characterize urban areas and support city-level spatial delineations and built environment characterization referenced in the study.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Publicly available datasets used in this study include ERA5-Land temperature WorldPop population and Global Urban Footprint urban form, Location: Data availability, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global including Latin America > 272 cities",
+            "URL": "https://github.com/Drexel-UHC/salurbal_heat",
+            "ref": []
+        },
+        {
+            "Data_Name": "OpenStreetMap street network data",
+            "Data_summary": "Crowdsourced street network geometry used to define intersections as nodes and links as street segments, enabling computation of mean street segment length as a city-level effect modifier representing street-network block/segment structure.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: In the street network data sourced from OpenStreetMap each intersection was considered as a node and the link connecting each node as a street segment, Location: Methods Outcome exposure and effect modifiers, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global including Latin America > 272 cities",
+            "URL": "https://www.openstreetmap.org",
+            "ref": []
+        },
+        {
+            "Data_Name": "Google Maps Distance Matrix API travel time estimates",
+            "Data_summary": "Estimated peak-hour travel times generated from the Google Maps Distance Matrix API for randomly sampled origin-destination pairs within each city street network at multiple peak-hour time points. These data are summarized to a city-level mean peak-hour travel time effect modifier representing commute duration.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The metric was derived from the Google Maps Distance Matrix application programming interface using estimated delays for 30 randomly selected origin-destination pairs at seven different time points, Location: Methods Outcome exposure and effect modifiers, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Latin America > Brazil, Mexico, Chile, El Salvador, Panama, Costa Rica > 272 cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data availability GitHub portal",
+            "Data_summary": "A project GitHub portal referenced as the access point for multiple publicly available datasets used in the study, including temperature, population and urban form inputs.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Publicly available datasets used in this study include ERA5-Land temperature WorldPop population and Global Urban Footprint urban form available via GitHub at https://github.com/Drexel-UHC/salurbal_heat, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://github.com/Drexel-UHC/salurbal_heat",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:39.877657"
+    }
+}

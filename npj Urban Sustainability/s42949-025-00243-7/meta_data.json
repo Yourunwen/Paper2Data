@@ -1,0 +1,97 @@
+{
+    "id": "s42949-025-00243-7",
+    "title": "Cities’ review of the sustainable development goals and insights from voluntary local reviews",
+    "journal": "npj Urban Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s42949-025-00243-7",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Voluntary Local Review reports dataset compiled from online repositories",
+            "Data_summary": "A corpus of municipal Voluntary Local Review report documents on cities SDG follow up and review, downloaded from multiple international repositories and used as the primary input for content analysis and coding of outcome based and action based review indicators and derived review scores.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We retrieved these reports from four international databases UCLG IGES’ VLR Lab UNDESA and UN HABITAT, and duplicate reports were removed to create a dataset of unique reports. Location: Methods VLR reports included in the study, Confidence: high",
+            "Time_Coverage": "2018-2022",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "UCLG online database of Voluntary Local Review reports",
+            "Data_summary": "An online repository maintained by United Cities and Local Governments that hosts Voluntary Local Review report files submitted by local governments, used to retrieve VLR documents for the study corpus.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We retrieved these reports from four international databases UCLG IGES’ VLR Lab UNDESA and UN HABITAT. Location: Methods VLR reports included in the study, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "IGES VLR Lab repository of Voluntary Local Review reports",
+            "Data_summary": "An online repository hosted by the Institute for Global Environmental Strategies VLR Lab containing Voluntary Local Review report documents, used as a source to download VLRs for analysis.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We retrieved these reports from four international databases UCLG IGES’ VLR Lab UNDESA and UN HABITAT. Location: Methods VLR reports included in the study, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "UNDESA online database of Voluntary Local Review reports",
+            "Data_summary": "An online repository associated with UNDESA that provides access to publicly available Voluntary Local Review reports, used to obtain VLR report documents for the study dataset.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We retrieved these reports from four international databases UCLG IGES’ VLR Lab UNDESA and UN HABITAT. Location: Methods VLR reports included in the study, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "UN-Habitat online repository of Voluntary Local Review reports",
+            "Data_summary": "An online repository maintained by UN-Habitat that hosts Voluntary Local Review report files, used to download VLR documents included in the study corpus.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We retrieved these reports from four international databases UCLG IGES’ VLR Lab UNDESA and UN HABITAT. Location: Methods VLR reports included in the study, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "United Nations Statistics Division country classification and geoscheme",
+            "Data_summary": "A UN Statistics Division classification system for grouping countries into regions and subregions, used to assign each city report to geographic region categories for analysis and visualization.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The broader geographic region category was based on the United Nations Statistics Division classification of countries. Location: Methods Coding and data processing, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Author-created VLR coding dataset with ORI and ARI indicators and review scores",
+            "Data_summary": "A structured dataset created by the authors from manual coding of each VLR report, containing dichotomous variables for each SDG indicating outcome based review and action based review, plus aggregated review score variables used as dependent variables in descriptive statistics and linear mixed models.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The coding and analysis derived from these reports are available from the corresponding author upon reasonable request. Location: Extra info Data availability, Confidence: high",
+            "Time_Coverage": "2018-2022",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:43.963462"
+    }
+}

@@ -1,0 +1,617 @@
+{
+    "id": "s43588-023-00572-6",
+    "journal": "Nature Computational Science",
+    "type": "article",
+    "title": "Quantifying spatial under-reporting disparities in resident crowdsourcing",
+    "legal_title": "Quantifying spatial under-reporting disparities in resident crowdsourcing",
+    "publish_time": "2023-12-05",
+    "pdf_link": "https://www.nature.com/articles/s43588-023-00572-6",
+    "storage_path": "./Articles/Nature Computational Science/2023-article/s43588-023-00572-6/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": true,
+    "review_link": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_MOESM3_ESM.pdf",
+    "Abstract": "Modern city governance relies heavily on crowdsourcing to identify problems such as downed trees and power lines. A major concern is that residents do not report problems at the same rates, with heterogeneous reporting delays directly translating to downstream disparities in how quickly incidents can be addressed. Here we develop a method to identify reporting delays without using external ground-truth data. Our insight is that the rates at which duplicate reports are made about the same incident can be leveraged to disambiguate whether an incident has occurred by investigating its reporting rate once it has occurred. We apply our method to over 100,000 resident reports made in New York City and to over 900,000 reports made in Chicago, finding that there are substantial spatial and socioeconomic disparities in how quickly incidents are reported. We further validate our methods using external data and demonstrate how estimating reporting delays leads to practical insights and interventions for a more equitable, efficient government service.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "Public 311 data for both NYC and Chicago is available via their Open Data portals, and are updated periodically. The main datasets we used from these portals are as follows: 311 service requests made to the Forestry unit of NYC Parks. This dataset is actively maintained, and the version used in the main text was retrieved on 22 October 2022 at 14:45 EDT from https://data.cityofnewyork.us/Environment/Forestry-Service-Requests/mu46-p9is. Inspections conducted by the Forestry unit of NYC Parks. This dataset is actively maintained, and the version used in the main text was retrieved 22 October 2022 at 14:32 EDT from https://data.cityofnewyork.us/Environment/Forestry-Inspections/4pt5-3vv4. Work orders completed by the Forestry unit of NYC Parks. This dataset is actively maintained, and the version used in the main text was retrieved 22 October 2022 at 14:31 EDT from https://data.cityofnewyork.us/Environment/Forestry-Work-Orders/bdjm-n7q4. Risk assessments by the Forestry unit of NYC Parks. This dataset is actively maintained, and the version used in the main text was retrieved 24 October 2022 at 14:30 EDT from https://data.cityofnewyork.us/Environment/Forestry-Risk-Assessments/259a-b6s7; 311 service requests data from City of Chicago. This dataset is actively maintained, and the version used in the main text was retrieved 4 July 2022 at 21:20 EDT from https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy In the reproduction code capsule23, we have included official links to the portals and further host the exact version of data used in this work, along with description of the data. The primary NYC results in the main text are aided by private data confidentially provided to us by NYC DPR that cannot be shared—that data additionally contains columns for anonymized reporter identification, to allow filtering duplicate reports by the same user. All results replicate with the available public data, as reported in the Supplementary Section. The Chicago analyses are fully based on publicly available data. Source Data are provided with this paper.",
+            "links": {
+                "https://data.cityofnewyork.us/Environment/Forestry-Service-Requests/mu46-p9is": "https://data.cityofnewyork.us/Environment/Forestry-Service-Requests/mu46-p9is",
+                "https://data.cityofnewyork.us/Environment/Forestry-Inspections/4pt5-3vv4": "https://data.cityofnewyork.us/Environment/Forestry-Inspections/4pt5-3vv4",
+                "https://data.cityofnewyork.us/Environment/Forestry-Work-Orders/bdjm-n7q4": "https://data.cityofnewyork.us/Environment/Forestry-Work-Orders/bdjm-n7q4",
+                "https://data.cityofnewyork.us/Environment/Forestry-Risk-Assessments/259a-b6s7": "https://data.cityofnewyork.us/Environment/Forestry-Risk-Assessments/259a-b6s7",
+                "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy": "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy",
+                "23": "/articles/s43588-023-00572-6#ref-CR23",
+                "Source Data": "/articles/s43588-023-00572-6#Sec31"
+            }
+        },
+        "Code availability": {
+            "content": "Our reproduction code is available as a Code Ocean capsule23, as well as on GitHub24. The code to apply our method to other datasets is available on Github25. The main data analysis software we used were Python v.3, CmdStan v.2.27 and Scikit-learn v.1.1.3.",
+            "links": {
+                "23": "/articles/s43588-023-00572-6#ref-CR23",
+                "24": "/articles/s43588-023-00572-6#ref-CR24",
+                "25": "/articles/s43588-023-00572-6#ref-CR25"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We benefited from discussions with A. Ahmad, A. Schein, A. Koenecke, A. Kobald, B. Laufer, E. Pierson, G. Agostini, K. Shiragur, T. Jiang and Q. Xie. We also thank the New York City Department of Parks and Recreation for their valuable work, inside knowledge, and data, and we especially thank F. Watt. This work was funded in part by the Urban Tech Hub at Cornell Tech, and we especially thank A. Townsend and N. Sobers. The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsZhi LiuView author publicationsSearch author on:PubMed Google ScholarUma BhandaramView author publicationsSearch author on:PubMed Google ScholarNikhil GargView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nZ.L. and N.G. devised the method, performed data analysis, analysed the results, and wrote the paper. U.B. provided domain expertise and anonymized data, and contributed to writing.\n### Corresponding author\nCorrespondence to\n                Nikhil Garg.",
+            "links": {
+                "View author publications": "/search?author=Nikhil%20Garg",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Nikhil%20Garg",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Nikhil%20Garg%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Nikhil Garg": "mailto:ng343@cornell.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nUma Bhandaram is an employee of the New York Department of Parks and Recreation. We use data from the NYC DPR and discuss how our findings have implications for their policies.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Computational Science thanks Daniel T. O’Brien, Ravi Shroff, and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Primary Handling Editor: Fernando Chirigati, in collaboration with the Nature Computational Science team. Peer reviewer reports are available.",
+            "links": {
+                "Peer reviewer reports": "/articles/s43588-023-00572-6#MOESM3"
+            }
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Sections 1–4, Tables 1–28, Figs. 1–22 and Proposition 1.Reporting SummaryPeer Review File",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_MOESM2_ESM.pdf",
+                "Peer Review File": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_MOESM3_ESM.pdf"
+            }
+        },
+        "Source data": {
+            "content": "Source Data Fig. 1Statistical source data.Source Data Fig. 2Statistical source data.Source Data Fig. 3Statistical source data.",
+            "links": {
+                "Source Data Fig. 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_MOESM4_ESM.csv",
+                "Source Data Fig. 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_MOESM5_ESM.csv",
+                "Source Data Fig. 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_MOESM6_ESM.csv"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Quantifying%20spatial%20under-reporting%20disparities%20in%20resident%20crowdsourcing&author=Zhi%20Liu%20et%20al&contentID=10.1038%2Fs43588-023-00572-6&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20America%2C%20Inc.&publication=2662-8457&publicationDate=2023-12-05&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleLiu, Z., Bhandaram, U. & Garg, N. Quantifying spatial under-reporting disparities in resident crowdsourcing.\n                    Nat Comput Sci 4, 57–65 (2024). https://doi.org/10.1038/s43588-023-00572-6Download citationReceived: 19 March 2023Accepted: 13 November 2023Published: 05 December 2023Version of record: 05 December 2023Issue date: January 2024DOI: https://doi.org/10.1038/s43588-023-00572-6Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s43588-023-00572-6?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Quantifying spatial under-reporting disparities in resident crowdsourcing",
+                "description": "Modern city governance relies heavily on crowdsourcing to identify problems such as downed trees and power lines. A major concern is that residents do not report problems at the same rates, with heterogeneous reporting delays directly translating to downstream disparities in how quickly incidents can be addressed. Here we develop a method to identify reporting delays without using external ground-truth data. Our insight is that the rates at which duplicate reports are made about the same incident can be leveraged to disambiguate whether an incident has occurred by investigating its reporting rate once it has occurred. We apply our method to over 100,000 resident reports made in New York City and to over 900,000 reports made in Chicago, finding that there are substantial spatial and socioeconomic disparities in how quickly incidents are reported. We further validate our methods using external data and demonstrate how estimating reporting delays leads to practical insights and interventions for a more equitable, efficient government service. Zhi Liu et al. develop a method to measure disparities in reporting delays in urban crowdsourcing systems, uncovering socioeconomic disparities and providing actionable insights for interventions that enhance the efficiency and equity of city services.",
+                "datePublished": "2023-12-05T00:00:00Z",
+                "dateModified": "2023-12-05T00:00:00Z",
+                "pageStart": "57",
+                "pageEnd": "65",
+                "sameAs": "https://doi.org/10.1038/s43588-023-00572-6",
+                "keywords": [
+                    "Government",
+                    "Statistics",
+                    "Computer Science",
+                    "general"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_Fig3_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Computational Science",
+                    "issn": [
+                        "2662-8457"
+                    ],
+                    "volumeNumber": "4",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Zhi Liu",
+                        "url": "http://orcid.org/0000-0002-5506-2335",
+                        "affiliation": [
+                            {
+                                "name": "Cornell Tech",
+                                "address": {
+                                    "name": "School of Operations Research and Information Engineering, Cornell Tech, New York, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Uma Bhandaram",
+                        "affiliation": [
+                            {
+                                "name": "NYC Department of Parks & Recreation",
+                                "address": {
+                                    "name": "Data Systems & Analytics, NYC Department of Parks & Recreation, New York, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Nikhil Garg",
+                        "url": "http://orcid.org/0000-0002-1988-792X",
+                        "affiliation": [
+                            {
+                                "name": "Cornell Tech",
+                                "address": {
+                                    "name": "School of Operations Research and Information Engineering, Cornell Tech, New York, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "ng343@cornell.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "government;statistics",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "Computational Social Science;Computational social science",
+                            "webtrendsContentGroup": "Nature Computational Science",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s43588-023-00572-6"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Zhi Liu",
+                            "Uma Bhandaram",
+                            "Nikhil Garg"
+                        ],
+                        "publishedAt": 1701734400,
+                        "publishedAtString": "2023-12-05",
+                        "title": "Quantifying spatial under-reporting disparities in resident crowdsourcing",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Government,Statistics"
+                    },
+                    "journal": {
+                        "pcode": "natcomputsci",
+                        "title": "nature computational science",
+                        "volume": "4",
+                        "issue": "1",
+                        "id": 43588,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "diddjeabge;fcaaefbjdj"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "download-issue-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Quantifying spatial under-reporting disparities in resident crowdsourcing",
+            "dc.source": "Nature Computational Science 2023 4:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2023-12-05",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2023 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rights": "2023 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Modern city governance relies heavily on crowdsourcing to identify problems such as downed trees and power lines. A major concern is that residents do not report problems at the same rates, with heterogeneous reporting delays directly translating to downstream disparities in how quickly incidents can be addressed. Here we develop a method to identify reporting delays without using external ground-truth data. Our insight is that the rates at which duplicate reports are made about the same incident can be leveraged to disambiguate whether an incident has occurred by investigating its reporting rate once it has occurred. We apply our method to over 100,000 resident reports made in New York City and to over 900,000 reports made in Chicago, finding that there are substantial spatial and socioeconomic disparities in how quickly incidents are reported. We further validate our methods using external data and demonstrate how estimating reporting delays leads to practical insights and interventions for a more equitable, efficient government service. Zhi Liu et al. develop a method to measure disparities in reporting delays in urban crowdsourcing systems, uncovering socioeconomic disparities and providing actionable insights for interventions that enhance the efficiency and equity of city services.",
+            "dc.identifier": "doi:10.1038/s43588-023-00572-6",
+            "dc.creator": "Garg, Nikhil",
+            "dc.subject": "Statistics",
+            "prism.issn": "2662-8457",
+            "prism.publicationName": "Nature Computational Science",
+            "prism.publicationDate": "2023-12-05",
+            "prism.volume": "4",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "57",
+            "prism.endingPage": "65",
+            "prism.copyright": "2023 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s43588-023-00572-6",
+            "prism.doi": "doi:10.1038/s43588-023-00572-6",
+            "citation_pdf_url": "https://www.nature.com/articles/s43588-023-00572-6.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s43588-023-00572-6",
+            "citation_journal_title": "Nature Computational Science",
+            "citation_journal_abbrev": "Nat Comput Sci",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2662-8457",
+            "citation_title": "Quantifying spatial under-reporting disparities in resident crowdsourcing",
+            "citation_volume": "4",
+            "citation_issue": "1",
+            "citation_publication_date": "2024/01",
+            "citation_online_date": "2023/12/05",
+            "citation_firstpage": "57",
+            "citation_lastpage": "65",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s43588-023-00572-6",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s43588-023-00572-6&api_key=",
+            "citation_reference": "Liu, Z. & Garg, N. Reporting Rate Estimation Method, November (Zenodo, 2023); \n                  https://doi.org/10.5281/zenodo.10086346\n                  \n                ",
+            "citation_author": "Garg, Nikhil",
+            "citation_author_institution": "School of Operations Research and Information Engineering, Cornell Tech, New York, USA",
+            "description": "Modern city governance relies heavily on crowdsourcing to identify problems such as downed trees and power lines. A major concern is that residents do not report problems at the same rates, with heterogeneous reporting delays directly translating to downstream disparities in how quickly incidents can be addressed. Here we develop a method to identify reporting delays without using external ground-truth data. Our insight is that the rates at which duplicate reports are made about the same incident can be leveraged to disambiguate whether an incident has occurred by investigating its reporting rate once it has occurred. We apply our method to over 100,000 resident reports made in New York City and to over 900,000 reports made in Chicago, finding that there are substantial spatial and socioeconomic disparities in how quickly incidents are reported. We further validate our methods using external data and demonstrate how estimating reporting delays leads to practical insights and interventions for a more equitable, efficient government service. Zhi Liu et al. develop a method to measure disparities in reporting delays in urban crowdsourcing systems, uncovering socioeconomic disparities and providing actionable insights for interventions that enhance the efficiency and equity of city services.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Quantifying spatial under-reporting disparities in resident crowdsourcing",
+            "twitter:description": "Nature Computational Science - Zhi Liu et al. develop a method to measure disparities in reporting delays in urban crowdsourcing systems, uncovering socioeconomic disparities and providing...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-023-00572-6/MediaObjects/43588_2023_572_Fig1_HTML.png",
+            "DOI": "10.1038/s43588-023-00572-6",
+            "size": "186280",
+            "journal_id": "43588"
+        },
+        "canonical_url": "https://www.nature.com/articles/s43588-023-00572-6",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Crowdsourcing systems are essential to modern city management1,2. People report problems that they encounter (flooding, potholes, fallen trees), which are then logged and responded to by city agencies. Such reporting systems are widely used in North America, including the four most populous cities in the United States; for example, New York City’s (NYC) 311 system receives over three million reports a year. Reports provide real-time updates on the conditions on the ground 3,4,5,6; these updates are used to make immediate decisions such as which failing trees to inspect and fix, and longer-term planning decisions such as which streets to resurface.\nAlthough such reporting systems are prevalent, it is unclear how they affect the efficiency and equity of service allocation. One long-standing concern is whether—conditional on experiencing a similar issue—some residents are more likely to log a report and request government services4,5,7,8,9,10,11,12, and even those who do submit reports do so with different delays13,14,15,16. If reporting behavior is heterogeneous (varies by neighborhood), then government services that rely on such reporting will also be inefficient and inequitable; for example, reporting delays may correspond to delays in incidents being addressed, if the agency responds to incidents in the order that they are reported.\nThe central methodological challenge in measuring heterogeneous behavior emerges for the same reason cities rely on crowdsourcing: ground-truth conditions are unknown. This induces a missing data challenge: researchers do not directly observe what incidents occurred. Even when an incident is reported, researchers and the city do not directly observe when they occurred. It is therefore difficult to determine whether one neighborhood is under-reporting issues compared with other neighborhoods, or whether they truly experience fewer issues (due to, for instance, differences in infrastructure). More generally, this challenge regarding identifiability between reporting and ground-truth rates is referred to as the benchmark problem, and similarly appears in criminal justice, healthcare and other domains. Arrest data for predictive policing systems, for example, may conflate historical policing disparities versus true crime rates17. Akpinar and colleagues18 study the downstream consequences of mistakenly using the observed incident count as a proxy for the incident rate.\nWe contribute a method with two distinct advantages to the long-standing literature: first, whereas previous literature primarily considers the estimation of whether an incident is reported at all, we provide estimates for reporting delays; that is, for an incident of a given type and neighborhood, how long after incident occurrence do we expect the incident to be first reported? Second, the method does not require external, ground-truth data to estimate incident occurrence rates as distinct from reporting rates. As a result, we can estimate heterogeneous reporting rates as they differ across high-dimensional incident characteristics (incident category, type, risk level, exact location and so on). Past literature either (1) assumed uniform incident occurrence and so assume that heterogeneity in the observed reports is a result of differential reporting rate5,8,9; or (2) use external data to construct custom, domain-specific proxies for differences in incident occurrence, and then compare the estimates with observed rates4,10,11,12,13. Such an approach requires high-quality data on incident occurrence rates, which may be expensive to obtain for each incident characteristic (see Supplementary Section 1 for an extended discussion of this literature). The accuracy of our method is validated in the 'Empirical validation of model results in NYC' section.\nThe key insight of our method is to leverage duplicate reports on the same incident to disentangle the reporting process from the incident occurrence process, thus identifying reporting delays after an incident has occurred. We use this method to understand reporting disparities; furthermore, as we show through a collaboration with the NYC Department of Parks and Recreation (DPR), our method directly translates to operational relevance in practice: agencies can use our method’s estimates to change incident response policies, for more equitable and efficient government service allocation.",
+            "cites": [
+                "ref-CR15",
+                "ref-CR18",
+                "ref-CR14",
+                "ref-CR17",
+                "ref-CR3",
+                "ref-CR4",
+                "ref-CR6",
+                "ref-CR9",
+                "ref-CR11",
+                "ref-CR1",
+                "ref-CR8",
+                "ref-CR12",
+                "ref-CR13",
+                "ref-CR16",
+                "ref-CR5",
+                "ref-CR2",
+                "ref-CR7",
+                "ref-CR10"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Model and theoretical results\nWe directly model and distinguish the two underlying processes that lead to a reported incident: incident occurrence, and the public’s reporting behavior conditional on an incident having occurred. Supplementary Fig. 1 illustrates the model for a given incident. Our theoretical result is a method to the reporting process as distinct from the occurrence process, using just report information—leveraging duplicate reports.\n#### Model part 1 (incident birth and death)\nIncidents of type θ occur (‘are born’) according to a random process parameterized by Λθ (for example, a homogeneous Poisson process with rate Λθ). Type θ encodes geographic and incident-level (for instance, whether it is a hazard) characteristics. For each incident i, let ti denote its birth time. Furthermore, the incident ‘dies’ at some time ti + Ti, and no more reports are logged. The death time reflects, for example, the incident being resolved by the agency or by an outside group, or reports no longer being logged because the issue has been inspected.\nCrucially, birth times are unobserved in the model; death times may be unobserved or partially observed. In practice, death times are partially observed: agency actions such as inspections and work orders are observed by the agency; however, (1) such data may not be available to external researchers; (2) many incidents are resolved by outside community groups, and these times are unobserved even by the agency. Fully observed death times improve our method’s accuracy but do not change the problem difficulty, as birth times are always unobserved by both the agency and researchers, by definition.\n#### Model part 2 (reports)\nAn incident i of type θ is active in time window [ti, ti + Ti]. During this time, reports are submitted according to a homogeneous Poisson process, at rate λθ > 0. Thus, the number of reports Mi for incident i follows a Poisson distribution, \\({M}_{i} \\sim \\,{{\\mbox{Poisson}}}\\,\\left({\\lambda }_{\\theta }{T}_{i}\\right)\\).\n#### Observed data\nWe observe reports and city actions from the viewpoint of the city and researchers. For each type θ, the observed data for a time interval (0, T) consists of the following. We observe the subset of incidents for which there was at least one report. For each such incident, we observe Mi and the time of each report. Finally, we observe how the agency responded to the reported incidents, such as when an inspection was completed, and the details of any inspection and completed work order.\n#### Research question\nWe are interested in auditing the efficiency and equity of the reporting process: how quickly are incidents reported, and how does that reporting rate λθ vary with the incident type θ? Estimating this value directly reveals heterogeneous reporting delays, as the expected time between incident occurrence and the first report in the model is \\(\\frac{1}{{\\lambda }_{\\theta }}\\). The primary methodological task is overcoming the missing data challenge: we do not observe incidents that are never reported, nor the birth times ti of the incidents that are reported. This makes it difficult to distinguish between the incident rate (Λθ) and reporting rate conditioned on an incident (λθ). As we prove in Supplementary Proposition 1, it is impossible to do so with just the above data, if one throws away the information on duplicates. The idea—confounding incident occurrence and reporting—is an example of the canonical benchmark problem. Nevertheless, many works in the resident crowdsourcing literature conduct such analyses.\n#### Theoretical identification result and application\nWe show that λθ is identifiable in practically reasonable settings, using duplicate reports on the same incidents: the first incident report informs us that this incident exists, and the remaining reports identify the reporting rate.\nThe chief estimation challenge is that we do not observe incident birth and death times, and so we must construct an observation interval \\(\\left({s}_{i},{e}_{i}\\right]\\) such that the number of reports within the interval follows a known distribution as a function of λ. The challenge is that this interval itself must depend on the reporting process; for example, we can only start the counting interval at the time of the first report, and the agency responds to the incident partially as a function of the number of reports. As a result, the distribution of the entire data, not just the number of reports within the interval (that is, including interval start and end times) could be a complex, unknown function of λ. Some interval choices are therefore invalid; for example, if si is the time of the first report and ei is the time immediately before the second report, then we would always observe zero reports in the interval, independent of λ. The theorem formalizes that, as long as the start and end times depend only on the rate λ through the number of reports up to those times, we can nevertheless decompose the likelihood and reduce the task to Poisson rate estimation. In the theorem statement, we assume a fixed incident type θ, and so omit it from the notation.\n### Theorem 1\nSuppose reporting follows a homogeneous Poisson process with reporting rate λ. For each incident, construct: (1) an interval start time random variable Si ≥ ti that is independent of the reporting rate λ, conditional on the first report; (2) an end time random variable Ei ≤ ti + Ti that is independent of λ and Si, and conditional on the reports observed up until that time. Let data \\({{{{\\mathbf{D}}}}}_{i}\\) include Si = si, Ei = ei, the number of reports \\({\\tilde{M}}_{i}\\) within \\(\\left({s}_{i},{e}_{i}\\right]\\) and their associated report times.\nThen, the likelihood of the data \\({{{{\\mathbf{D}}}}}_{i}\\) as a function of the reporting rate λ, conditional on all reports before si, can be decomposed as\nwhere\nis the probability mass function of a Poisson distributed random variable with \\({\\tilde{M}}_{i}\\) occurrences and rate parameter λ(ei − si), and \\(f({{{{\\mathbf{D}}}}}_{i})\\) is a function that does not depend on λ.\nThe decomposition in equation (1) enables standard Poisson rate estimation methods to be applied. For example, the maximum likelihood estimate (MLE) for λ is:\nThe proof is in Supplementary Section 2.2 and follows from decomposing the likelihood function into full conditional probabilities. The key step is to find the conditions under which one can use data-dependent observation period length Ei − Si while maintaining a Poisson likelihood for reports within the period. The result extends to the zero-inflated model we use in our empirical estimation.\n#### Applying the theory to our setting\nFirst, we need to choose interval \\(\\left({S}_{i},{E}_{i}\\right]\\) that meets the conditions of the theorem. The best choice for Si is the (observed) time of the first report, and so we count reports starting after the first report—this time is the earliest that we know the incident exists. This choice formalizes the idea that our method uses the first report to establish an incident existing (and a timestamp for it), and then duplicate reports to identify the reporting rate. To set Ei, we leverage government agency response data detailing the time when each incident was inspected or worked on. We choose the minimum of these two times and a fixed period after the first report, \\({\\tilde{t}}_{i}+\\bar{T}\\), where \\(\\bar{T}\\) is a researcher choice for which we conduct robustness checks. We discuss this choice in Supplementary Section 4.2.\nSecond, we must empirically estimate reporting rates given high dimensional incident types θ. We leverage Poisson regression, that is, we assume the form\nTo better match the data distribution, we further fit a zero-inflation component (corresponding to the probability that we receive no reports in the given period). To accommodate the high dimensionality of the incident type vector θ, we fit our models in a Bayesian setting and report posterior distributions of regression coefficients α and β.\nOur data from NYC contains 223,416 service requests made by the public between 30 June 2017 and 30 June 2020 to the NYC Department of Parks and Recreation (DPR) about street trees (see the Methods and 'Data availability' sections for more details on the data). All statements regarding statistical significance of the coefficient estimates refer to whether 95% Bayesian credible intervals include 0.\n### Heterogeneous reporting in NYC\n#### Reporting heterogeneity across incident type\nWe first study how reporting rates vary by incident-level characteristics. Table 1 shows the coefficients resulting from the zero-inflated regression, using our base analysis covariates, which include incident-level covariates and borough-level fixed effects. Table 2 contextualizes the coefficient estimates into average estimated reporting delays, assuming that the reporting rate coefficients correspond to a homogeneous reporting process.\nWe find that the reporting rate substantially (and statistically significantly) varies by incident characteristics. In particular, we have several columns characterizing the results of an inspection by a forester. The following incident characteristics (as marked by the inspector) are associated with higher resident reporting rates: higher risk ratings, trees in poor or critical condition (as opposed to excellent, good, fair or dead), and incidents deemed as hazards (as opposed to, for example, a root/sewer/sidewalk issue) by the first reporter. These differences are practically relevant: the difference in coefficients between the hazard and illegal tree damage categories is 1.2, and so hazard incidents are reported at approximately a e1.2 ≈ 3.3-times higher rate than illegal tree damage incidents.\nThese incident-level associations are as expected—more serious incidents are reported more quickly, providing evidence that our method is precise enough to capture such heterogeneity. For instance, NYC DPR inspectors suggest that root/sewer/sidewalk issues are particularly difficult for most residents to find, as the problem is often underground. This level of precision is not available for other methods to measure under-reporting, as one would need to construct equally precise estimates on the ground-truth rate at which incidents of different types occur.\n#### Socioeconomic and spatial reporting inequities\nThere are substantial socioeconomic and demographic disparities in reporting rates, beyond those that can be explained via incident-level characteristics. To analyze these disparities, we first fit our model with socioeconomic characteristics from census data, where each socioeconomic covariate is included alone in a regression, alongside the incident-level covariates. Table 3 contains the corresponding coefficients. One of the strongest associations is with population density: the more people per unit area, the more people who might encounter and report an issue. Furthermore, a higher fraction of people with college degrees, the log income per capita, and the fraction of the population that is white, all positively correlate with reporting rates, with the Bayesian credible intervals not overlapping with 0. For example, one standard deviation increase in the proportion of white people is associated with a 5.8% increase in reporting rate, even conditional on incident-level covariates (which are obtained by calculating e0.057, according to the Poisson regression model).\nWe next study the relationship between socioeconomic characteristics and reporting rates in each census tract, by fitting our model with the incident-level characteristics and a set of socioeconomic characteristics jointly (log income per capita, the fraction of white residents, the fraction of renters, the median age, and the fraction of residents with a college degree, but not population density); we then use the socioeconomic coefficients to learn the cumulative association for each census tract (we give one example of such a calculation in Supplementary Section 4.6). Figure 1 shows the resulting map—there are substantial spatial differences in reporting across census tracts as explained by demographics. For instance, downtown and midtown Manhattan (the blue region in the middle) have much higher values than Harlem and the Bronx (the red region to the north of the blue region), and the last two are substantially socioeconomically disadvantaged compared with Manhattan. In Supplementary Section 4.8.4 we further show that these census tract-level values further correlate with voter participation rates in each tract; that is, disparities in 311 system usage further relate to other forms of civic participation and representation. We note that these associations cannot be explained via correlations with population density (as shown in Supplementary Tables 6 and 7), further controlling for population density does not substantially affect the other coefficients. These reporting disparities suggest substantial downstream effects in how quickly incidents are addressed, even if the agency does not prioritize one demographic group over another after receiving reports.\nFinally, we study spatial heterogeneity beyond which may occur due to socioeconomic information. We analyze this heterogeneity by including indicator variables for each of the over 2,000 census tracts (with spatial smoothing19), alongside incident-level covariates. Supplementary Fig. 7a shows the coefficient associated with each census tract—there are substantial (and statistically significant) spatial effects. Notably, these coefficients are on the same order as the incident-level characteristics, further suggesting substantial inefficiencies and inequities, even beyond those that are associated with socioeconomic characteristics.\n### Empirical validation of model results in NYC\nWe now empirically validate our model estimates. A distinct advantage of our method is that it provides estimates of the reporting delay for specific incidents of each type. In this section we validate our model-estimated reporting delays from our spatial model—the model with the richest set of covariates—against a set of approximate ground truth on the reporting delays: when the incident time is approximately known due to storm events. Storms cause substantial serious tree damage, including knocking down trees; crucially, we can approximate the true incident time as the time at which the storm arrived. Thus, for incidents reported in the days following a storm, we approximately know the true reporting delay.\nOn 4 August 2020, Tropical Storm Isaias hit NYC, which caused major damage and triggered a travel advisory, predicting that the strongest winds and rains would be from 12 pm to 2 pm on that day. The DPR received 15,266 service requests on 8 April 2020 alone, far exceeding their daily average of around 200. We analyze service requests for incidents first submitted to the DPR from 12 pm on 4 August 2020 to 12 pm on 14 August 2020, and calculate the true reporting delay of an incident as the time between the submission of the first report associated with it, and 12 pm on 4 August 2020. We then use results from our spatial model to calculate the model-estimated reporting delays for each incident, conditional on the delay being shorter than ten days.\nFigure 2 shows the relationship between model-estimated delays and true reporting delays. There is a strong correlation between binned model-estimated reporting delays and the true reporting delays, and predictions are approximately on the y = x line, suggesting that our model accurately recovers heterogeneity in incident-level reporting delays. We note that our model slightly over-predicts reporting delays: reporting behavior probably changes after natural disasters, due to the amount of damage and city communication asking the public to report damage.\nSupplementary Section 4.8 contains results from additional validation analyses: (1) comparison of our estimated reporting delay with observed delay between the first and the second reports, (2) using a model based on training set that starts from the second report to predict reporting delay between the first and the second reports, and (3) comparison of our estimated socioeconomic reporting inequities with participation in political voting.\nThroughout the paper, when evaluating correlation between two samples of size n, we report the Pearson correlation coefficient r, test statistic \\(\\,{{{\\beta}}}\\,\\left(\\frac{n}{2}-1,\\frac{n}{2}-1\\right)\\), which is associated with testing the two-sided null hypothesis that the two samples are drawn from uncorrelated normal distributions, and the corresponding P-value.\n### Heterogeneous reporting in Chicago\nOur data from Chicago comprise service requests made to the City of Chicago’s Department of Transportation and Department of Water Management (see Supplementary Section 4.11 for detailed results from Chicago). More urgent incidents get reported more quickly, with ‘open fire hydrant’ incidents having the highest reporting rate. Similar to the case for NYC, there is also substantial spatial heterogeneity, and these spatial differences correspond to socioeconomic disparities, but some individual relationships differ directionally and in magnitude.\n### Application of reporting delay quantification\nOur method measures reporting delays; however, reporting is just the first stage of a response pipeline. After an incident is reported, the NYC DPR may schedule an inspector to travel to the report site to analyze the incident. This scheduling decision is made by the agency based on reports—more hazardous report types are prioritized, as are incidents with more reports and incidents that were reported earlier. Then, based on the inspector’s risk determination, the incident may be scheduled for a maintenance crew to address the issue. In each case, operational concerns, such as locations and schedules of individual employees and incidents, also play a role. The overall risk and welfare loss an incident poses is a function of the total delay between the time that an incident occurs and when it is resolved.\nMeasurement of reporting delays thus contextualizes where in the incident response pipeline is the most inefficiency or inequity. Are reporting delays large compared with downstream delays in agency responses? What are the most impactful intervention steps, attempting to improve reporting rates (such as through advertising) or modifying how incidents are addressed once they are reported? Measuring how these values differ by incident characteristics is important: some incidents must be more urgently addressed than other incidents. In this section, in partnership with our collaborators at the DPR, we demonstrate how to use our methods to answer such questions.\nWe use the zero-inflated Poisson regression model with all the base covariates (that is, the model shown in Table 1), with two differences: (1) risk assessment scores are discretized into four bins (A–D), following DPR practice in how risk levels lead to work order prioritization; (2) we include an interaction term between the risk category and the borough to highlight heterogeneity. As above, we analyze service requests between 30 June 2017 and 30 June 2020; however, we include inspections and work orders up until 1 September 2022, which is the latest update before we retrieved the public data.\nWe now compare reporting delays to inspection and maintenance delays: for each incident, we estimate its expected reporting delay and compare this value to the inspection delay (after the first report) and work order delay (after inspection). Figure 3a shows the results: median reporting, inspection and work order delays, in each borough, restricted to the highest risk incidents group A (which are also prioritized for work orders). Figure 3b converts the end-to-end delays to relative differences from the city-wide median for such incidents—we calculate incident-level overall days and then compare borough-specific median delays to the citywide median. Note that, as the analysis is restricted to a single work order priority level, incidents across boroughs are comparable; ideal, risk-aware reporting and responses would equalize delays across boroughs (see Supplementary Section 4.9 for similar analyses for other priority groups and incident categories).\n#### Substantial end-to-end resolution inequities\nThere are large differences in end-to-end median delays to address incidents across boroughs. Although the analysis is restricted to incidents that all received the highest work order priority level, there are differences in how long incidents take to be reported, inspected and worked on. The cumulative differences are meaningful and point to substantial inequity: highest-risk incidents are resolved within two days in Manhattan, but only within 14 days in Queens. If the city instead had resolution parity (incidents of similar risk levels being addressed at similar delays after incident occurrence) then incidents in Manhattan would be addressed approximately two-times slower, and in Queens approximately 2.5-times more quickly than in the status quo.\n#### Substantial reporting delays\nThese estimates also suggest that reporting delays are substantial, on the same scale as both inspection delays and work order delays. Reporting delays further contribute to overall heterogeneity across boroughs: for example, on average, incidents are already resolved in Manhattan by the time they are first reported in any of the other boroughs. However, it may also be misleading to consider one stage in isolation; for instance, incidents in the Bronx are reported quickly, but not resolved quickly, leading to large overall disparities.\n#### Relative potential of different interventions\nThese estimates further lend insight on the potential effects of interventions: how much would the public’s reporting behavior or agency response policies have to change, to improve system performance? For example, although public reporting behavior may be difficult to change (as it is a complex function of many factors, including access factors and trust in government), it may be relatively easy to change agency actions to mitigate the undesirable effects of heterogeneous reporting. Agencies could incorporate reporting delay estimates into their inspection and maintenance scheduling policies. First, prioritize individual incidents that are estimated to have had substantial reporting delays (for example, for two incidents of the same type, prioritizing the incident with the earlier estimated time of occurrence, instead of report time as per the status quo). Second, invest more resources overall in neighborhoods with higher overall estimated reporting delays to respond to reported incidents—doing so would shorten inspection and work order delays to render overall time from incident to resolution more equitable. Third, design a proactive inspection program that emphasizes inspections in areas of the city known to have lower rates of reporting. New York City DPR is actively considering these interventions, in response to this work.\nOur work provides a principled approach to compare reporting and response delays, enabling such analysis. For example, reducing work order delays (and to a lesser extent, inspection delays) in Staten Island, The Bronx and Queens would substantially mitigate borough-level inequity. Reducing inspection and work order delays down to one day each (as in Manhattan and Brooklyn) would make end-to-end delays in these boroughs comparable with those in Brooklyn; however, to reach parity with Manhattan (without introducing new delays there), the city would need to increase the reporting rate in every other borough, such as through advertising or proactive inspections. Similar insights hold for other risk prioritization levels in Supplementary Section 4.9.",
+            "cites": [
+                "ref-CR19"
+            ],
+            "figures": [
+                "figure-2",
+                "figure-3",
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Our model captures several key aspects of municipal crowdsourcing, and is well-suited to be applied to other such systems. First, incidents are not directly observed by the city. Rather, the city observes reports made by the public once an incident has occurred. Second, reports usually do not come in immediately after an incident occurs—it takes a (random) amount of time for someone to first notice an incident and consider it worth reporting. Third, there often are duplicate reports of the same incident. Multiple residents may encounter the same incident and report it. Crucially, city agencies often identify and log such duplicates, as it is important to do so to decide which reports to address and to audit response rates and times; for example, Kontokosta et al.12 mention filtering out duplicates in their work.\nIn what settings is the model applicable? First, although the incident occurrence process Λθ can be arbitrary, the reporting process must be Poisson with rates λθ. This means reports on the same incident must be independent; that is, our method primarily works for public incidents such as potholes and downed trees that may be encountered and reported by separate people. However, the method does not easily handle private incidents, such as bed bugs within an apartment or food poisoning, in which potential reporters are likely to communicate with each other. Second, the analysis requires that the agency log information about duplicate reports and that this data be available to researchers—our empirical analyses were restricted to agencies that make this data publicly available via Open Data portals. Applying the methods to other cities or agencies may require data sharing agreements, or automated methods for researchers to identify what are probably duplicate reports for the same incident. Third, it is important to note that our method does not require external estimates for how many incidents of each type θ one expects to see, which may be difficult to estimate for high-dimensional types.\nAlthough our data application focuses on reports made in NYC and Chicago to specific city agencies, these requirements are widely met in other crowdsourcing systems in other cities, and in other domains such as software bug reporting (for example, users can report issues and bugs in open source repositories such as GitHub, and there may be heterogeneous reporting based on who the bug affects). Similarly, it is possible to apply our methods to 911 or other emergency systems, for types of incidents where there may be multiple independent witnesses. Such broad applicability is especially important because reporting behavior (and its association with socioeconomic factors) may vary by context. For instance, in India, marginalized communities tend to use formal channels (such as reporting systems) to access government resources, whereas dominant groups use informal ones20. We provide a code package designed for the use of our method in other settings.\nAs such, our method provides a general approach to precisely quantifying reporting efficiency and equity in the use of crowdsourcing systems, without needing external ground-truth data. Our findings imply that crowdsourcing systems may have substantial disparate usage, leading to overall disparities in how quickly problems are addressed. However, our work also provides actionable insights to mitigate resulting inefficiencies and inequities.",
+            "cites": [
+                "ref-CR20",
+                "ref-CR12"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Parameter estimation (a Bayesian Poisson regression approach)\nTheorem 1 transforms our setting into a standard Poisson rate estimation task. However, that does not mean that the estimation is computationally or statistically tractable. In particular, in our setting, incident type θ is high-dimensional, but incidents of similar types may have similar rates λθ. We adopt a tractable Bayesian Poisson regression approach.\nFirst, we assume that the reporting rate is affected by the type vector θ as in a Poisson regression: for each model, we have a standard reporting rate λθ, defined as:\nand so, for each incident i, the likelihood follows from equation (1) and satisfies the following:\nwhere β is a coefficient vector of appropriate dimension, (α, β) are coefficients to be estimated, and p(⋅) is the Poisson likelihood function as defined in equation (2).\nWe further fit a zero-inflated Poisson regression21, which corresponds to a data-generating process in which, with probability γ, only one report is generated for each incident and thus there are zero duplicate reports: \\({\\tilde{M}}_{i}=0\\). For example, perhaps those incidents are personal requests for service (for example, to plant a tree somewhere or to prune a tree to enable certain construction), for which duplicates are unlikely; alternatively, officials may physically mark the location of an incident as ‘report received; full inspection pending,’ to prevent future reports. Under this scenario, the likelihood of the data satisfies:\nSuch a model is typically used when one observes more zeros than would be expected from a Poisson distribution.\nAs shown in Supplementary Fig. 5, these models reasonably match the observed distribution of the number of reports received in the observation period, and we run analyses both with and without zero inflation. The feature set can differ across analyses; for example, in the spatial analyses, we add coefficients for each census tract and then include spatial smoothing19.\nNote that our choices are not exhaustive; other specifications may also be appropriate, preferable in various dimensions or correspond to more realistic data-generating processes. The empirical strategy developed in the 'Model and theoretical results' section allows a large Poisson rate estimation literature (spatial, time-dependent, feature-dependent) to be applied, off-the-shelf. Our approaches here are chosen for simplicity in model interpretation.\nWe analyze our methods using simulated data in Supplementary Section 3. The simulation results confirm that: (1) under our model, evaluating data within an observation interval correctly disentangles reporting rates from incident rates, unlike a naive approach; and (2) a Poisson regression approach is more data-efficient than a naive maximum likelihood estimation approach, yielding estimates with lower variance.\n### Problem setting, dataset and preprocessing\nThe NYC dataset is composed of partially public data from the NYC DPR. It contains 223,416 service requests made by the public between 30 June 2017 and 30 June 2020 on street trees. We have the location and incident-level covariates for each request. We further observe whether the service request led to an inspection (an NYC DPR inspector attempting to find and evaluate the issue), the outcome of the inspection (for example, an assessment of the risk the problem poses), and what type of work order was created (if any). We also observe time stamps for each event. Crucially, for inspected requests (63%), the NYC DPR marks which other requests refer to the same incident (see Supplementary Table 2 for summary statistics).\nThere are two potential sources of bias not captured by the model: (1) duplicate reports may be reported by the same person, and so would not be independent; (2) due to practices by NYC DPR, we only observe whether a report is a duplicate for inspected incidents. We analyze these biases in Supplementary Section 4.1, arguing that they should have minimal impact on the validity of our results. Notably: (a) using data provided by NYC DPR, we can partially filter out duplicate reports by the same person and so mitigate bias (1); (b) the Chicago data does not suffer from bias (2).\nBefore applying our Bayesian Poisson regression approach, we need to construct a dataset where each row corresponds to an incident and contains all relevant covariates (Supplementary Section 4.2 details this procedure). In short, our pre-processing proceeds in the following steps: (1) we filter uninspected service requests for which we have no duplicate information, duplicate reports by the same caller, or incidents in which the first inspection is logged as taking place before the first service request (due to, for example, data errors); (2) we construct an observation interval for each incident, according to Theorem 1 and the discussion that follows, and then count the number of service requests in this observation interval; and (3) for each incident, we join relevant information about it from the service requests it receives, the inspection outcomes logged by NYC DPR inspectors, and 2020 Census data.\nAfter pre-processing there are 81,638 incidents on which we conduct our main analyses; for each incident i, we have the duration of observance ei − si, the number of total reports \\({\\tilde{M}}_{i}\\), and all the various geographic and demographic covariates associated with it (Supplementary Table 3 presents all of the covariates in this dataset).\n### Analyses, training and evaluation\nWe fit the models using Stan22, a Bayesian probabilistic programming language that estimates models using Hamiltonian Monte Carlo. All models were run with 150 warm-up iterations and 300 sampling iterations on four chains. Priors are generally zero mean Normal distributions, with variance chosen according to the dimensionality and expected scale of the parameters. Models (with full prior information) are in Supplementary Section 4.12 and the code repository.\n#### Covariates included in the analyses\nWe use three sets of covariates for the three analyses introduced below. Every analysis includes our incident-level covariates (inspection results which include a risk-assessment score and the condition of the tree, report category, tree size) and an intercept.\nOur base analysis includes just these covariates along with borough-level fixed effects. As the covariates are standardized, these coefficients all have a zero-mean normal prior. Borough and category are categorical variables; instead of dropping one level for each variable, to maintain identifiability, we enforce a sum-zero constraint on their coefficients to ease interpretability. For the other categorical covariates, we drop one level each.\nIn our spatial analysis, we include coefficients for each of the (over 2,000) census tracts. We use an intrinsic conditional auto-regressive model19 for the spatial coefficients, alongside the incident-level coefficients. In such models, each census tract coefficient is assumed to be normally distributed with a mean equal to the average of its neighbors; that is, spatial smoothness is encoded such that census tracts with few incidents borrow information from neighboring census tracts.\nIn our socioeconomic analyses, we first include each census socioeconomic covariate individually with the incident-level covariates (for example, the regression with median age contains as coefficients the base covariates, but not fraction of Hispanic residents; this choice is due to the census covariates being collinear). These covariates are also standardized, and coefficients’ prior means are set to zero. The result of this analysis is presented in Table 3. We further conduct an analysis where we include a subset of these socioeconomic covariates jointly, including log income per capita, the fraction of white residents, the fraction of renters, median age, the fraction of residents with college degrees, and log population density. Note that we do not, for example, further include the fraction of Hispanic residents, which would be highly collinear with the fraction of white residents.\n#### Evaluation of model fit\nFor the Base covariates, we fit both the standard and zero-inflated Poisson regressions, and evaluate model fit. Both models perform similarly in terms of overall predictive power, with Pearson correlations of 0.1335 and 0.1248, respectively, for the mean prediction for the number of reports for each incident versus the observed number of reports. We next perform a standard check for Bayesian models: that is, we check whether the posterior prediction distribution matches the observed data distribution, to test whether the model captures the underlying data generating process (Supplementary Fig. 5 compares the distribution for each model specification). We observe that each model roughly matches the observed distribution but differs in various ways. The standard Poisson regression under-estimates the (large) fraction that \\({\\tilde{M}}_{i}=0\\), but more accurately captures the distribution tail. Inversely, the zero-inflated Poisson regression matches the fraction for small \\({\\tilde{M}}_{i}\\) (where the majority of the mass is), at the cost of misestimating the tail. We further experiment with a zero-inflated Poisson regression where the zero-inflation coefficient depends on incident category, with qualitatively similar results. We primarily report results with the zero-inflated Poisson regressions, choosing it because it better matches the primary distribution mass while keeping the model succinct. Results with the standard model are similar.\n#### Reproducibility with public NYC data\nThe NYC results presented in the main text leverage non-public data provided to us by the NYC DPR. In Supplementary Section 4.7 we replicate all analyses with data that are publicly available from the NYC Open Data platform. The results are qualitatively similar.\n#### Comparison to methods from prior work\nThe spatial effects further demonstrate that our methods—correcting for heterogeneous incident type distributions—give different results than those of prior work. Supplementary Fig. 3b shows the relationship between our measured census tract coefficient and the number of unique incidents per tree observed for that census tract in the period. Perhaps surprisingly, there is a slight negative relationship. These differences may emerge for two reasons: (1) the non-identifiability between the rates incidents occur and are reported (Supplementary Proposition 1), and (2) tree counts do not control for ‘legitimate’ incident-level characteristics (such as risk), in ways that may correlate with geography. Similar results emerge when restricting the analysis to Hazard-type incidents, and comparing the census tract coefficients to the total number of observed incidents or reports per census tract, without normalizing by number of trees. Although it may be possible to construct accurate normalizing estimates for how many incidents of each type (severity, tree characteristics, location) are expected to occur, our approach does not require doing so.\n### Analyses using Chicago data\nWe also apply our method to data from the City of Chicago to demonstrate its generalizability. This dataset comes from resident reports made to the City of Chicago’s Department of Transportation and Department of Water Management through Chicago’s 311 system. The data can be accessed via the Chicago Data Portal, which logs all 311 service requests. This dataset is actively maintained by the Chicago Data Portal and, at the time of our access, it contained 949,352 service requests made by the public in the period between 1 March 2019 and 4 July 2022 (Supplementary Section 4.10 details the preprocessing). We repeat the analysis done on the NYC DPR data. We use the same sets of covariates for analysis, using the zero-inflated Poisson regression model: a Base analysis using all incident-level type characteristics, Spatial model with census block group coefficients and spatial smoothing, and socioeconomic analysis.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR22",
+                "ref-CR19",
+                "ref-CR21"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Map of coefficients for each census tract in NYC.",
+            "figure-caption": "These coefficients represent the combined association of socioeconomic variables (log income per capita, fraction of white residents, fraction of renter, median age and fraction of residents with college degrees) on reporting rates. More positive coefficients indicate higher reporting rates.Source Data",
+            "figure-link": "https://www.nature.com/articles/s43588-023-00572-6/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Scatterplot of true reporting delays after a storm and model estimated reporting delays.",
+            "figure-caption": "These delays are based on data from the ten-day period after Tropical Storm Isaias hit NYC on 4 August 2020. True reporting delays for these incidents are calculated as the time between the first report of an incident and 12 pm on 4 August 2020; model-estimated reporting delays are obtained with coefficients learned using the spatial model. All incidents are then categorized into 30 bins based on their estimated reporting delays, and we calculate and plot the means of true and estimated delays within each bin. At the bin level, we observe that Pearson’s r = 0.88 (β(14, 14) = 0.939, P < 0.001), while on the individual incident level, we observe that Pearson’s r = 0.20 (β(4095, 4095) = 0.606, P < 0.001). Source Data",
+            "figure-link": "https://www.nature.com/articles/s43588-023-00572-6/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Bar chart evaluating reporting delay across boroughs.",
+            "figure-caption": "a, Median estimated reporting delay, inspection delay and work order delay in each borough in NYC DPR data, for the highest risk incidents (note that Manhattan median inspection and work order delays for such incidents are each shorter than one day). Together, these delays represent the end-to-end delay for an incident to be resolved after it occurs. b, Relative difference between the status quo and if all incidents in the city were reported and responded to at the same rate. For the highest-risk incidents and each borough, we calculate the relative difference between the total historical end-to-end delays and the total hypothetical end-to-end delays if each incident had the same delay as the city-wide median for incidents with that risk profile.Source Data",
+            "figure-link": "https://www.nature.com/articles/s43588-023-00572-6/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Yuan, Q. Co-production of public service and information technology: a literature review. In Proc. 20th Annual International Conference on Digital Government Research (ACM, 2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Brabham, D. C. Crowdsourcing in the Public Sector (Georgetown Univ. Press, 2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Schwester, R. W., Carrizales, T. & Holzer, M. An examination of the municipal 311 system. Int. J. Org. Theory Behav. 12, 218–236 (2009).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Hacker, K. P., Greenlee, A. J., Hill, A. L., Schneider, D. & Levy, M. Z. Spatiotemporal trends in bed bug metrics: New York City. PloS One 17, e0268798 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0268798",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatiotemporal%20trends%20in%20bed%20bug%20metrics%3A%20New%20York%20City&journal=PloS%20One&doi=10.1371%2Fjournal.pone.0268798&volume=17&publication_year=2022&author=Hacker%2CKP&author=Greenlee%2CAJ&author=Hill%2CAL&author=Schneider%2CD&author=Levy%2CMZ"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Minkoff, S. L. NYC 311: a tract-level analysis of citizen–government contacting in New York City. Urban Affairs Rev. 52, 211–246 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F1078087415577796",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=NYC%20311%3A%20a%20tract-level%20analysis%20of%20citizen%E2%80%93government%20contacting%20in%20New%20York%20City&journal=Urban%20Affairs%20Rev.&doi=10.1177%2F1078087415577796&volume=52&pages=211-246&publication_year=2016&author=Minkoff%2CSL"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Lee, M., Wang, J., Janzen, S., Winter, S. & Harlow, J. Crowdsourcing behavior in reporting civic issues: the case of Boston’s 311 systems. In Academy of Management Proceedings NY 10510 (Academy of Management, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Thijssen, P. & Van Dooren, W. Who you are/where you live: do neighbourhood characteristics explain co-production? Int. Rev. Adm. Sci. 82, 88–109 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0020852315570554",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Who%20you%20are%2Fwhere%20you%20live%3A%20do%20neighbourhood%20characteristics%20explain%20co-production%3F&journal=Int.%20Rev.%20Adm.%20Sci.&doi=10.1177%2F0020852315570554&volume=82&pages=88-109&publication_year=2016&author=Thijssen%2CP&author=Dooren%2CW"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Clark, B. Y., Brudney, J. L. & Jang, Sung-Gheel Coproduction of government services and the new information technology: investigating the distributional biases. Public Adm. Rev. 73, 687–701 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fpuar.12092",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Coproduction%20of%20government%20services%20and%20the%20new%20information%20technology%3A%20investigating%20the%20distributional%20biases&journal=Public%20Adm.%20Rev.&doi=10.1111%2Fpuar.12092&volume=73&pages=687-701&publication_year=2013&author=Clark%2CBY&author=Brudney%2CJL&author=Jang%2CSung-Gheel"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Cavallo, S., Lynch, J. & Scull, P. The digital divide in citizen-initiated government contacts: a GIS approach. J. Urban Technol. 21, 77–93 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F10630732.2014.942167",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20digital%20divide%20in%20citizen-initiated%20government%20contacts%3A%20a%20GIS%20approach&journal=J.%20Urban%20Technol.&doi=10.1080%2F10630732.2014.942167&volume=21&pages=77-93&publication_year=2014&author=Cavallo%2CS&author=Lynch%2CJ&author=Scull%2CP"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Kontokosta, C. E. & Hong, B. Bias in smart city governance: how socio-spatial disparities in 311 complaint behavior impact the fairness of data-driven decisions. Sustain. Cities Soc. 64, 102503 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2020.102503",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bias%20in%20smart%20city%20governance%3A%20how%20socio-spatial%20disparities%20in%20311%20complaint%20behavior%20impact%20the%20fairness%20of%20data-driven%20decisions&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2020.102503&volume=64&publication_year=2021&author=Kontokosta%2CCE&author=Hong%2CB"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Pak, B., Chua, A. & Vande Moere, A. FixMyStreet Brussels: socio-demographic inequality in crowdsourced civic participation. J. Urban Technol. 24, 65–87 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F10630732.2016.1270047",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=FixMyStreet%20Brussels%3A%20socio-demographic%20inequality%20in%20crowdsourced%20civic%20participation&journal=J.%20Urban%20Technol.&doi=10.1080%2F10630732.2016.1270047&volume=24&pages=65-87&publication_year=2017&author=Pak%2CB&author=Chua%2CA&author=Vande%20Moere%2CA"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Kontokosta, C., Hong, B. & Korsberg, K. Equity in 311 reporting: understanding socio-spatial differentials in the propensity to complain. Preprint at arXiv https://doi.org/10.48550/arXiv.1710.02452 (2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "O’Brien, DanielTumminelli, Sampson, R. J. & Winship, C. Ecometrics in the age of big data: measuring and assessing ‘broken windows’ using large-scale administrative records. Sociol. Methodol. 45, 101–147 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0081175015576601",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ecometrics%20in%20the%20age%20of%20big%20data%3A%20measuring%20and%20assessing%20%E2%80%98broken%20windows%E2%80%99%20using%20large-scale%20administrative%20records&journal=Sociol.%20Methodol.&doi=10.1177%2F0081175015576601&volume=45&pages=101-147&publication_year=2015&author=O%E2%80%99Brien%2CDanielTumminelli&author=Sampson%2CRJ&author=Winship%2CC"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "O’Brien, DanielTumminelli, Offenhuber, D., Baldwin-Philippi, J., Sands, M. & Gordon, E. Uncharted territoriality in coproduction: the motivations for 311 reporting. J. Public Admin. Res.Theory 27, 320–335 (2017).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Uncharted%20territoriality%20in%20coproduction%3A%20the%20motivations%20for%20311%20reporting&journal=J.%20Public%20Admin.%20Res.Theory&volume=27&pages=320-335&publication_year=2017&author=O%E2%80%99Brien%2CDanielTumminelli&author=Offenhuber%2CD&author=Baldwin-Philippi%2CJ&author=Sands%2CM&author=Gordon%2CE"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "O’Brien, D. T. The Urban Commons: How Data and Technology Can Rebuild Our Communities (Harvard Univ. Press, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Klemmer, K., Neill, D. B. & Jarvis, S. A. Understanding spatial patterns in rape reporting delays. R. Soc. Open Sci. 8, 201795 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsos.201795",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20spatial%20patterns%20in%20rape%20reporting%20delays&journal=R.%20Soc.%20Open%20Sci.&doi=10.1098%2Frsos.201795&volume=8&publication_year=2021&author=Klemmer%2CK&author=Neill%2CDB&author=Jarvis%2CSA"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Lum, K. & Isaac, W. To predict and serve? Significance 13, 14–19 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1740-9713.2016.00960.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=To%20predict%20and%20serve%3F&journal=Significance&doi=10.1111%2Fj.1740-9713.2016.00960.x&volume=13&pages=14-19&publication_year=2016&author=Lum%2CK&author=Isaac%2CW"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Nil-Akpinar, J., De-Arteaga, M. & Chouldechova, A. The effect of differential victim crime reporting on predictive policing systems. In Proc. 2021 ACM Conference on Fairness, Accountability, and Transparency 838–849 (ACM, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Morris, M. et al. Bayesian hierarchical spatial models: implementing the Besag York Mollié model in stan. Spat. Spatio-temporal Epidemiol. 31, 100301 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.sste.2019.100301",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bayesian%20hierarchical%20spatial%20models%3A%20implementing%20the%20Besag%20York%20Molli%C3%A9%20model%20in%20stan&journal=Spat.%20Spatio-temporal%20Epidemiol.&doi=10.1016%2Fj.sste.2019.100301&volume=31&publication_year=2019&author=Morris%2CM"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Kruks-Wisner, G. Seeking the local state: gender, caste, and the pursuit of public services in post-tsunami India. World Dev. 39, 1143–1154 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.worlddev.2010.11.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Seeking%20the%20local%20state%3A%20gender%2C%20caste%2C%20and%20the%20pursuit%20of%20public%20services%20in%20post-tsunami%20India&journal=World%20Dev.&doi=10.1016%2Fj.worlddev.2010.11.001&volume=39&pages=1143-1154&publication_year=2011&author=Kruks-Wisner%2CG"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Lambert, D. Zero-inflated poisson regression, with an application to defects in manufacturing. Technometrics 34, 1–14 (1992).",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F1269547",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Zero-inflated%20poisson%20regression%2C%20with%20an%20application%20to%20defects%20in%20manufacturing&journal=Technometrics&doi=10.2307%2F1269547&volume=34&pages=1-14&publication_year=1992&author=Lambert%2CD"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Carpenter, B. et al. Stan: a probabilistic programming language. J. Stat. Softw. 76, 1–32 (2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Liu, Z. & Garg, N. Quantifying spatial under-reporting disparities in resident crowdsourcing. Code Ocean https://doi.org/10.24433/CO.0984693.V1 (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Garg, N. & Liu, Z. Nikhgarg/Spatial_Underreporting_Crowdsourcing: Accepted, November (Zenodo, 2023); https://doi.org/10.5281/zenodo.10086832",
+            "links": {}
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Liu, Z. & Garg, N. Reporting Rate Estimation Method, November (Zenodo, 2023); https://doi.org/10.5281/zenodo.10086346",
+            "links": {}
+        }
+    ]
+}

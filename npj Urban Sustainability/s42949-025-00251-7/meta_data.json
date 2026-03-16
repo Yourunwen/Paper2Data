@@ -1,0 +1,159 @@
+{
+    "id": "s42949-025-00251-7",
+    "title": "Does people oriented urbanization catch up with land and population urbanization",
+    "journal": "npj Urban Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s42949-025-00251-7",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "China Statistical Yearbook",
+            "Data_summary": "National official statistical yearbook providing socioeconomic and demographic statistics that can be disaggregated to support city-level indicators used in the study such as population urbanization and multiple people-oriented urbanization indicators.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Statistical data including socioeconomic indicators at the prefecture-level city scale were sourced from the China Statistical Yearbook China City Statistical Yearbook and prefecture-level city statistical bulletins available on official websites. Location: Data availability; Confidence: high",
+            "Time_Coverage": "2005-2020",
+            "Geographic_Coverage": "China > Mainland > Prefecture-level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "China City Statistical Yearbook",
+            "Data_summary": "Official city-focused statistical yearbook used to obtain prefecture-level city socioeconomic and public-service indicators forming the people-oriented urbanization indicator set and supporting population and land urbanization measures.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Statistical data including socioeconomic indicators at the prefecture-level city scale were sourced from the China Statistical Yearbook China City Statistical Yearbook and prefecture-level city statistical bulletins available on official websites. Location: Data availability; Confidence: high",
+            "Time_Coverage": "2005-2020",
+            "Geographic_Coverage": "China > Mainland > Prefecture-level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Prefecture-level city statistical bulletins of China",
+            "Data_summary": "Official city statistical bulletins published on government or official websites used to compile prefecture-level city socioeconomic, social service, environmental management, and equity indicators used in constructing the study’s people-oriented urbanization indicators and urbanization measures.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Statistical data including socioeconomic indicators at the prefecture-level city scale were sourced from the China Statistical Yearbook China City Statistical Yearbook and prefecture-level city statistical bulletins available on official websites. Location: Data availability; Confidence: high",
+            "Time_Coverage": "2005-2020",
+            "Geographic_Coverage": "China > Mainland > Prefecture-level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "National Bureau of Statistics of China urban and rural population statistics classification and definition 2014",
+            "Data_summary": "Official statistical standard defining who is counted as urban versus rural population and the criteria for permanent urban residents, used to operationalize the population urbanization indicator as the proportion of permanent urban residents.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The definition of permanent urban residents follows the official criteria established by the National Bureau of Statistics of China as outlined in the Classification and Definition of Urban and Rural Population Statistics 2014. Location: Methods > Quantify the multiple dimensions of urbanization; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Ministry of Housing and Urban-Rural Development urban built-up area statistics and definition",
+            "Data_summary": "Official definition and reporting of total urban built-up area describing the land designated for urban construction within built-up zones and planned expansion corridors, used as the study’s land urbanization measure at the prefecture-level city scale.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: According to the Ministry of Housing and Urban rural Development of the People’s Republic of China this area comprises all land designated for urban construction within the existing built-up zone and its planned expansion corridors. Location: Methods > Quantify the multiple dimensions of urbanization; Confidence: high",
+            "Time_Coverage": "2005-2020",
+            "Geographic_Coverage": "China > Mainland > Prefecture-level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "NASA Shuttle Radar Topography Mission SRTM",
+            "Data_summary": "Global digital elevation model derived from radar measurements, used as a spatial dataset within the study’s remote sensing and spatial data inputs for city-scale analysis and spatial matching with prefecture-level statistics.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Remote sensing and spatial datasets utilized include NASA's Shuttle Radar Topography Mission SRTM dataset https://www2.jpl.nasa.gov/srtm/. Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Mainland",
+            "URL": "https://www2.jpl.nasa.gov/srtm/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Urban built-up area proportion data by He et al 2016 TPDC dataset",
+            "Data_summary": "Gridded or spatially explicit dataset providing urban built-up area proportion, used as an alternative land-urbanization indicator in robustness checks comparing different measures of urban land urbanization across cities.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Remote sensing and spatial datasets utilized include ... urban built-up area proportion data by He et al. 2016 http://data.tpdc.ac.cn/zh-hans/data/3100de5c-ac8d-4091-9bbf-6a02de100c88/. Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China",
+            "URL": "http://data.tpdc.ac.cn/zh-hans/data/3100de5c-ac8d-4091-9bbf-6a02de100c88/",
+            "ref": []
+        },
+        {
+            "Data_Name": "China High-resolution Air Pollution dataset CHAP PM2.5",
+            "Data_summary": "High-resolution gridded PM2.5 concentration dataset for China used to derive city-level PM2.5 exposure by spatial overlay with prefecture-level boundaries and to populate the environmental indicator PM2.5 in the people-oriented urbanization indicator set.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Remote sensing and spatial datasets utilized include ... China's high-resolution air pollution dataset CHAP for PM2.5 concentrations https://zenodo.org/records/10800980. Location: Data availability; Confidence: high",
+            "Time_Coverage": "2005-2020",
+            "Geographic_Coverage": "China > Mainland",
+            "URL": "https://zenodo.org/records/10800980",
+            "ref": []
+        },
+        {
+            "Data_Name": "National New-Type Urbanization Plan 2014-2020 policy document",
+            "Data_summary": "National policy document defining the New-Type Urbanization strategy and its timelines, used to frame the intervention point for interrupted time-series analysis and to motivate indicator selection aligned with people-oriented urbanization objectives.",
+            "Category": "Policy texts and regulatory frameworks",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Policy documents including the National New-Type Urbanization Plan 2014–2020 are publicly available through official government portals. Location: Data availability; Confidence: high",
+            "Time_Coverage": "2014-2020",
+            "Geographic_Coverage": "China",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR13"
+            ]
+        },
+        {
+            "Data_Name": "People-Oriented New-Type Urbanization Strategy policy document",
+            "Data_summary": "Policy or authoritative document describing people-oriented new-type urbanization goals and evaluation emphasis, used as a source to select and justify the study’s people-oriented urbanization indicator system.",
+            "Category": "Policy texts and regulatory frameworks",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The method of indicator selection rigorously follows policy and authoritative documents including the People-Oriented New-Type Urbanization Strategy. Location: Methods > Quantify the multiple dimensions of urbanization; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "14th Five-Year Plan 2021-2025 for National Economic and Social Development",
+            "Data_summary": "National planning document specifying development priorities and targets used to guide selection of people-oriented urbanization indicators included in the study’s evaluation system.",
+            "Category": "Policy texts and regulatory frameworks",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The method of indicator selection rigorously follows policy and authoritative documents including the 14th Five-Year Plan 2021–2025 for National Economic and Social Development. Location: Methods > Quantify the multiple dimensions of urbanization; Confidence: medium",
+            "Time_Coverage": "2021-2025",
+            "Geographic_Coverage": "China",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "National New-Type Urbanization Planning 2021-2035",
+            "Data_summary": "National long-term planning document for new-type urbanization used to guide the selection and justification of people-oriented urbanization indicators in the study.",
+            "Category": "Policy texts and regulatory frameworks",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The method of indicator selection rigorously follows policy and authoritative documents including National New-Type Urbanization Planning 2021–2035. Location: Methods > Quantify the multiple dimensions of urbanization; Confidence: medium",
+            "Time_Coverage": "2021-2035",
+            "Geographic_Coverage": "China",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:21:07.181022"
+    }
+}

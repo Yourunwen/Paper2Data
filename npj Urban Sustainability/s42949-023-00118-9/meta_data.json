@@ -1,0 +1,81 @@
+{
+    "id": "s42949-023-00118-9",
+    "title": "Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities",
+    "journal": "npj Urban Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s42949-023-00118-9",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "NASA NEX-GDDP-CMIP6 daily maximum temperature projections",
+            "Data_summary": "Downscaled CMIP6 global climate model outputs providing daily near-surface maximum air temperature on a 0.25 degree grid for historical and future scenario runs. The study uses these Tmax fields to compute local heatwave thresholds, identify heatwave events, and derive heatwave duration and intensity metrics used in exposure-risk calculations under SSP2-4.5 and SSP5-8.5.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We applied climate data based on a collection of 27 high-resolution GCMs derived from 0.25-degree grid and daily scale near-surface air maximum temperature Tmax, Location: Methods Climate data, Confidence: high",
+            "Time_Coverage": "1950-2014 and 2020-2100",
+            "Geographic_Coverage": "Global",
+            "URL": "https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6",
+            "ref": [
+                "ref-CR39"
+            ]
+        },
+        {
+            "Data_Name": "Global Human Settlement Layer Urban Centre Database 2015 (GHS-UCDB)",
+            "Data_summary": "Global urban centre boundary polygons with associated city attributes. The study uses the urban settlement boundaries to spatially aggregate gridded heatwave and population fields to city totals and averages, and uses city attributes such as 2015 income group and city size to stratify inequality analyses across 9188 selected urban settlements.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The urban settlement boundary data were obtained from the Global Urban Centre for Human Settlements Database GHS-UCDB, Location: Methods Urban settlement data, Confidence: high",
+            "Time_Coverage": "2015",
+            "Geographic_Coverage": "Global",
+            "URL": "https://ghsl.jrc.ec.europa.eu/datasets.php",
+            "ref": [
+                "ref-CR59"
+            ]
+        },
+        {
+            "Data_Name": "Global One-Eighth Degree Population Base Year and Projection Grids Based on the SSPs",
+            "Data_summary": "Spatially explicit gridded population counts aligned to SSP scenarios at 0.125 degree resolution and decadal steps. The study uses these grids to estimate future population within each urban boundary and to multiply with heatwave characteristics to compute exposure risk for total population under SSP2-4.5 and SSP5-8.5.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The gridded population projections under the different SSP scenarios were obtained from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the SSPs, Location: Methods Population and ageing structure projection data, Confidence: high",
+            "Time_Coverage": "2010-2100",
+            "Geographic_Coverage": "Global",
+            "URL": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01",
+            "ref": [
+                "ref-CR60"
+            ]
+        },
+        {
+            "Data_Name": "IIASA SSP Database version 2.0 age structure and ageing rates",
+            "Data_summary": "Country-level demographic scenario data consistent with SSPs, including age-structure variables used to derive national shares of population aged 65 and over. The study uses these national ageing rates by decade and scenario to estimate elderly population counts within each city by combining them with city population totals.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: age structure data for each country in the corresponding scenarios are available from the SSP database version 2.0, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2020-2090",
+            "Geographic_Coverage": "Global",
+            "URL": "https://tntcat.iiasa.ac.at/SspDb/",
+            "ref": [
+                "ref-CR61"
+            ]
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data availability statement",
+            "Data_summary": "A paper-specific package described as containing all data related to the article and the code used to process the data, distributed by contacting the corresponding authors. It likely includes processed derivatives such as city-level exposure-risk time series and intermediate gridded products created from the public inputs.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: All data related to this article, as well as the codes used to process the data, are available from the corresponding authors upon request, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:40.105985"
+    }
+}

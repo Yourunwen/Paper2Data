@@ -1,0 +1,1094 @@
+{
+    "id": "s41893-019-0224-3",
+    "journal": "Nature Sustainability",
+    "type": "article",
+    "title": "Health and climate impacts of future United States land freight modelled with global-to-urban models",
+    "legal_title": "Health and climate impacts of future United States land freight modelled with global-to-urban models",
+    "publish_time": "2019-02-11",
+    "pdf_link": "https://www.nature.com/articles/s41893-019-0224-3",
+    "storage_path": "./Articles/Nature Sustainability/2019-article/s41893-019-0224-3/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Driven by economic growth, globalization and e-commerce, freight per capita in the United States has been consistently increasing in recent decades. Projecting to 2050, we explore the emissions, and health and climate impacts of US freight truck and rail transport under various policy scenarios. We predict that, overall, air pollutant emissions and health impacts from the freight-truck-rail system will be greatly reduced from 2010 to 2030, while long-term climate forcing will continue to increase if petroleum is the fuel source. A carbon tax could shift freight shipments from trucking to energy-efficient rail, providing the greatest reduction in long-term forcing among all policies (24%), whereas a policy enforcing truck fleet maintenance would cause the largest reduction in air pollutant emissions, offering the largest reduction in mortalities (36%). Increasing urban compactness could reduce freight activity but increase population exposure per unit emission, offering slight health benefits over the current urban sprawl trend (13%).",
+    "Extra_info": {
+        "Data availability": {
+            "content": "The data that support the findings of this study are available from the corresponding author upon reasonable request.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "This publication was supported by assistance agreement nos. EPA RD-83428001 and R835873 (Center for Clean Air Climate Solutions) awarded by the EPA. It has not been formally reviewed by the EPA. The views expressed in this document are solely those of the authors and do not necessarily reflect those of the Agency. The EPA does not endorse any products or commercial services mentioned in this publication. C. Barkan shared the observation about mode-shifting in response to fuel price increase that inspired the long-haul freight modelling. Additional support was provided by the PNNL Global Technology Strategy Program for S.J.S. We thank R. Minjares of the International Council for Clean Transportation for critical feedback on the work, and Y. Cui and C. Roney for their helpful comments.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsLiang LiuView author publicationsSearch author on:PubMed Google ScholarTaesung HwangView author publicationsSearch author on:PubMed Google ScholarSungwon LeeView author publicationsSearch author on:PubMed Google ScholarYanfeng OuyangView author publicationsSearch author on:PubMed Google ScholarBumsoo LeeView author publicationsSearch author on:PubMed Google ScholarSteven J. SmithView author publicationsSearch author on:PubMed Google ScholarChristopher W. TessumView author publicationsSearch author on:PubMed Google ScholarJulian D. MarshallView author publicationsSearch author on:PubMed Google ScholarFang YanView author publicationsSearch author on:PubMed Google ScholarKathryn DaenzerView author publicationsSearch author on:PubMed Google ScholarTami C. BondView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nT.C.B. conceived and managed the project; T.H. and Y.O. developed the freight demand forecasting models and produced the freight shipment flows over the truck and rail network; S.L. and B.L. developed the urban development scenarios; S.J.S. produced the macroeconomic scenarios; K.D. supplied the Phoenix model data; C.W.T. and J.D.M. developed InMAP and helped with the model analysis; F.Y. developed the SPEW-Trend model. L.L. integrated all model results, estimated the emissions and impacts, and wrote the first draft of the manuscript; all authors provided feedback on the manuscript.\n### Corresponding author\nCorrespondence to\n                Tami C. Bond.",
+            "links": {
+                "View author publications": "/search?author=Tami%20C.%20Bond",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Tami%20C.%20Bond",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Tami%20C.%20Bond%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Tami C. Bond": "mailto:yark@illinois.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Notes 1–6, Supplementary Tables 1–7, Supplementary Figures 1–4, Supplementary Discussion, Supplementary References 1–48",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-019-0224-3/MediaObjects/41893_2019_224_MOESM1_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Reprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Health%20and%20climate%20impacts%20of%20future%20United%20States%20land%20freight%20modelled%20with%20global-to-urban%20models&author=Liang%20Liu%20et%20al&contentID=10.1038%2Fs41893-019-0224-3&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20Limited&publication=2398-9629&publicationDate=2019-02-11&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleLiu, L., Hwang, T., Lee, S. et al. Health and climate impacts of future United States land freight modelled with global-to-urban models.\n                    Nat Sustain 2, 105–112 (2019). https://doi.org/10.1038/s41893-019-0224-3Download citationReceived: 02 July 2017Accepted: 08 January 2019Published: 11 February 2019Version of record: 11 February 2019Issue date: February 2019DOI: https://doi.org/10.1038/s41893-019-0224-3Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41893-019-0224-3?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Health and climate impacts of future United States land freight modelled with global-to-urban models",
+                "description": "Driven by economic growth, globalization and e-commerce, freight per capita in the United States has been consistently increasing in recent decades. Projecting to 2050, we explore the emissions, and health and climate impacts of US freight truck and rail transport under various policy scenarios. We predict that, overall, air pollutant emissions and health impacts from the freight-truck-rail system will be greatly reduced from 2010 to 2030, while long-term climate forcing will continue to increase if petroleum is the fuel source. A carbon tax could shift freight shipments from trucking to energy-efficient rail, providing the greatest reduction in long-term forcing among all policies (24%), whereas a policy enforcing truck fleet maintenance would cause the largest reduction in air pollutant emissions, offering the largest reduction in mortalities (36%). Increasing urban compactness could reduce freight activity but increase population exposure per unit emission, offering slight health benefits over the current urban sprawl trend (13%). Per-capita freight in the United States has been increasing in recent decades. This study presents projections to 2050 to examine the emissions, and health and climate impacts of US freight truck and rail transportation under various policy scenarios.",
+                "datePublished": "2019-02-11T00:00:00Z",
+                "dateModified": "2019-02-11T00:00:00Z",
+                "pageStart": "105",
+                "pageEnd": "112",
+                "sameAs": "https://doi.org/10.1038/s41893-019-0224-3",
+                "keywords": [
+                    "Atmospheric science",
+                    "Climate-change mitigation",
+                    "Environmental impact",
+                    "Socioeconomic scenarios",
+                    "Sustainable Development"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-019-0224-3/MediaObjects/41893_2019_224_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-019-0224-3/MediaObjects/41893_2019_224_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-019-0224-3/MediaObjects/41893_2019_224_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-019-0224-3/MediaObjects/41893_2019_224_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-019-0224-3/MediaObjects/41893_2019_224_Fig5_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Sustainability",
+                    "issn": [
+                        "2398-9629"
+                    ],
+                    "volumeNumber": "2",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Liang Liu",
+                        "affiliation": [
+                            {
+                                "name": "University of Illinois at Urbana-Champaign",
+                                "address": {
+                                    "name": "Department of Civil and Environmental Engineering, University of Illinois at Urbana-Champaign, Urbana, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Taesung Hwang",
+                        "affiliation": [
+                            {
+                                "name": "University of Illinois at Urbana-Champaign",
+                                "address": {
+                                    "name": "Department of Civil and Environmental Engineering, University of Illinois at Urbana-Champaign, Urbana, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Asia Pacific School of Logistics, Inha University",
+                                "address": {
+                                    "name": "Asia Pacific School of Logistics, Inha University, Incheon, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Sungwon Lee",
+                        "affiliation": [
+                            {
+                                "name": "University of Illinois at Urbana-Champaign",
+                                "address": {
+                                    "name": "Department of Urban and Regional Planning, University of Illinois at Urbana-Champaign, Champaign, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Korea Research Institute for Human Settlements",
+                                "address": {
+                                    "name": "Smart & Green City Research Center, Korea Research Institute for Human Settlements, Sejong, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yanfeng Ouyang",
+                        "affiliation": [
+                            {
+                                "name": "University of Illinois at Urbana-Champaign",
+                                "address": {
+                                    "name": "Department of Civil and Environmental Engineering, University of Illinois at Urbana-Champaign, Urbana, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Bumsoo Lee",
+                        "affiliation": [
+                            {
+                                "name": "University of Illinois at Urbana-Champaign",
+                                "address": {
+                                    "name": "Department of Urban and Regional Planning, University of Illinois at Urbana-Champaign, Champaign, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Steven J. Smith",
+                        "url": "http://orcid.org/0000-0003-3248-5607",
+                        "affiliation": [
+                            {
+                                "name": "Pacific Northwest National Laboratory",
+                                "address": {
+                                    "name": "Joint Global Change Research Institute, Pacific Northwest National Laboratory, College Park, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Christopher W. Tessum",
+                        "url": "http://orcid.org/0000-0002-8864-7436",
+                        "affiliation": [
+                            {
+                                "name": "University of Washington",
+                                "address": {
+                                    "name": "Department of Civil and Environmental Engineering, University of Washington, Seattle, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Julian D. Marshall",
+                        "affiliation": [
+                            {
+                                "name": "University of Washington",
+                                "address": {
+                                    "name": "Department of Civil and Environmental Engineering, University of Washington, Seattle, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Fang Yan",
+                        "affiliation": [
+                            {
+                                "name": "Argonne National Laboratory",
+                                "address": {
+                                    "name": "Energy Systems Division, Argonne National Laboratory, Argonne, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Kathryn Daenzer",
+                        "affiliation": [
+                            {
+                                "name": "Pennsylvania State University",
+                                "address": {
+                                    "name": "Department of Agricultural Economics, Sociology, and Education, Pennsylvania State University, University Park, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Tami C. Bond",
+                        "url": "http://orcid.org/0000-0001-5968-8928",
+                        "affiliation": [
+                            {
+                                "name": "University of Illinois at Urbana-Champaign",
+                                "address": {
+                                    "name": "Department of Civil and Environmental Engineering, University of Illinois at Urbana-Champaign, Urbana, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "yark@illinois.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "atmospheric-science;climate-change-mitigation;environmental-impact;socioeconomic-scenarios",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41893-019-0224-3"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Liang Liu",
+                            "Taesung Hwang",
+                            "Sungwon Lee",
+                            "Yanfeng Ouyang",
+                            "Bumsoo Lee",
+                            "Steven J. Smith",
+                            "Christopher W. Tessum",
+                            "Julian D. Marshall",
+                            "Fang Yan",
+                            "Kathryn Daenzer",
+                            "Tami C. Bond"
+                        ],
+                        "publishedAt": 1549843200,
+                        "publishedAtString": "2019-02-11",
+                        "title": "Health and climate impacts of future United States land freight modelled with global-to-urban models",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Atmospheric science,Climate-change mitigation,Environmental impact,Socioeconomic scenarios"
+                    },
+                    "journal": {
+                        "pcode": "natsustain",
+                        "title": "nature sustainability",
+                        "volume": "2",
+                        "issue": "2",
+                        "id": 41893,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "download-issue-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Health and climate impacts of future United States land freight modelled with global-to-urban models",
+            "dc.source": "Nature Sustainability 2019 2:2",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2019-02-11",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2019 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rights": "2019 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Driven by economic growth, globalization and e-commerce, freight per capita in the United States has been consistently increasing in recent decades. Projecting to 2050, we explore the emissions, and health and climate impacts of US freight truck and rail transport under various policy scenarios. We predict that, overall, air pollutant emissions and health impacts from the freight-truck-rail system will be greatly reduced from 2010 to 2030, while long-term climate forcing will continue to increase if petroleum is the fuel source. A carbon tax could shift freight shipments from trucking to energy-efficient rail, providing the greatest reduction in long-term forcing among all policies (24%), whereas a policy enforcing truck fleet maintenance would cause the largest reduction in air pollutant emissions, offering the largest reduction in mortalities (36%). Increasing urban compactness could reduce freight activity but increase population exposure per unit emission, offering slight health benefits over the current urban sprawl trend (13%). Per-capita freight in the United States has been increasing in recent decades. This study presents projections to 2050 to examine the emissions, and health and climate impacts of US freight truck and rail transportation under various policy scenarios.",
+            "dc.identifier": "doi:10.1038/s41893-019-0224-3",
+            "dc.creator": "Bond, Tami C.",
+            "dc.subject": "Socioeconomic scenarios",
+            "prism.issn": "2398-9629",
+            "prism.publicationName": "Nature Sustainability",
+            "prism.publicationDate": "2019-02-11",
+            "prism.volume": "2",
+            "prism.number": "2",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "105",
+            "prism.endingPage": "112",
+            "prism.copyright": "2019 The Author(s), under exclusive licence to Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41893-019-0224-3",
+            "prism.doi": "doi:10.1038/s41893-019-0224-3",
+            "citation_pdf_url": "https://www.nature.com/articles/s41893-019-0224-3.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41893-019-0224-3",
+            "citation_journal_title": "Nature Sustainability",
+            "citation_journal_abbrev": "Nat Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2398-9629",
+            "citation_title": "Health and climate impacts of future United States land freight modelled with global-to-urban models",
+            "citation_volume": "2",
+            "citation_issue": "2",
+            "citation_publication_date": "2019/02",
+            "citation_online_date": "2019/02/11",
+            "citation_firstpage": "105",
+            "citation_lastpage": "112",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41893-019-0224-3",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41893-019-0224-3&api_key=",
+            "citation_reference": "\n                           USA State Boundaries (Esri.com, accessed 15 January 2018); \n                  https://www.arcgis.com/home/item.html?id=540003aa59b047d7a1f465f7b1df1950\n                  \n                \n                        ",
+            "citation_author": "Bond, Tami C.",
+            "citation_author_institution": "Department of Civil and Environmental Engineering, University of Illinois at Urbana-Champaign, Urbana, USA",
+            "description": "Driven by economic growth, globalization and e-commerce, freight per capita in the United States has been consistently increasing in recent decades. Projecting to 2050, we explore the emissions, and health and climate impacts of US freight truck and rail transport under various policy scenarios. We predict that, overall, air pollutant emissions and health impacts from the freight-truck-rail system will be greatly reduced from 2010 to 2030, while long-term climate forcing will continue to increase if petroleum is the fuel source. A carbon tax could shift freight shipments from trucking to energy-efficient rail, providing the greatest reduction in long-term forcing among all policies (24%), whereas a policy enforcing truck fleet maintenance would cause the largest reduction in air pollutant emissions, offering the largest reduction in mortalities (36%). Increasing urban compactness could reduce freight activity but increase population exposure per unit emission, offering slight health benefits over the current urban sprawl trend (13%). Per-capita freight in the United States has been increasing in recent decades. This study presents projections to 2050 to examine the emissions, and health and climate impacts of US freight truck and rail transportation under various policy scenarios.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Health and climate impacts of future United States land freight modelled with global-to-urban models",
+            "twitter:description": "Nature Sustainability - Per-capita freight in the United States has been increasing in recent decades. This study presents projections to 2050 to examine the emissions, and health and climate...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41893-019-0224-3/MediaObjects/41893_2019_224_Fig1_HTML.png",
+            "DOI": "10.1038/s41893-019-0224-3",
+            "size": "165495",
+            "journal_id": "41893"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41893-019-0224-3",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Freight transport is an essential component of a healthy economy dependent on trade and commerce. Freight shipments in the United States have more than doubled in the past three decades due to economic development, increased globalization, and the rise of e-commerce1. Freight transport accounts for about 35% of total transport energy consumption in the United States. Trucks and trains carry about 70 and 10% of US freight in tonnage, respectively1. Energy for these modes is mainly provided by diesel engines, which are important emitters of air pollutants including nitrogen oxides (NOx), carbon monoxide (CO), and fine particulate matter (PM2.5, which includes black carbon). Exposure to vehicle emissions, especially PM2.5, has been found to cause acute and chronic health damages, such as cardiovascular and respiratory disease and cancer2,3. Freight transport also has climate effects, since the greenhouse gas carbon dioxide (CO2) is emitted from the complete combustion of fuel, and short-lived air pollutants such as black carbon and ozone also cause climate forcing. On-road transport has been identified as the largest contributor to near-term climate forcing and the second largest, after the power sector, to long-term climate forcing4.\nThe emissions from freight transport and their health and climate impacts are determined by many factors, including economic development, engine technologies, mode choices, infrastructure, and the spatial distributions of freight activity and the exposed population. Economic activities determine the amount and types of freight demand. Emission and fuel economy regulations drive the development of new engine technologies and after-treatment devices. A truck-to-rail modal shift could reduce both emissions of air pollutants and CO25. The spatial distributions of population and employment also play an important role. A more compact urban spatial structure may reduce vehicle mileage, thereby reducing energy consumption and emissions6,7,8,9. On the other hand, a higher population density can lead to increased traffic congestion and higher exposure to air pollutants10,11.\nThese many interacting factors call for a systematic approach to evaluate future freight emissions and impacts. However, most studies examine these factors in isolation. The Freight Analysis Framework12 estimated US freight shipments by all modes through to 2040 but did not investigate the resulting emissions and impacts. Muratori et al.13 examined freight CO2 emissions and the impact of carbon taxes until 2100 using the Global Change Assessment Model, but did not estimate criteria pollutant emissions in detail nor investigate how technology and infrastructure would affect the projections. Several studies have examined the potential emission benefits from shifting freight from truck to rail for single corridors14,15 or regions5 within the United States, but not the entire nation.Limited research has explored the impacts of urban spatial structures on freight transport, in contrast to the vast literature on passenger transport16,17. Little research has linked freight emissions with health impacts.\nThis work demonstrates a system of systems approach, shown in Fig. 1, in which models of economy, technology, and infrastructure are connected to simulate the emissions, health, and climate impacts of freight truck and rail transport in the United States from 2010 to 2050 under scenarios that address most of the major drivers of emissions. The goal of this approach is to provide comprehensive information for policy evaluation, embedding the important factors of infrastructure, urban development, and technology into projections to demonstrate the effect of policy and regulation levers that are specific to this sector. This work presents the unified study design and its predictions. For each scenario, we present three dimensions of impact: (1) mortality caused by particulate air pollution; (2) short-lived climate forcing caused by air pollutants that occurs within the first year after emission; and (3) long-lived climate forcing, integrated over 100 years, caused by greenhouse gases.\nWe divide freight shipments within the continental United States into two types: interregional (long-haul) freight shipments between freight analysis zones (FAZs) and intraregional (short-haul) freight shipments within FAZs. We use the 120 domestic FAZs defined by the Freight Analysis Framework as the analysis regions. A general equilibrium model projects overall economic activity in the United States by commodity18. Next, a shift-share model downscales the national economy to FAZ level19. For long-haul transport, a multiregional input–output model determines regional commodity production and consumption20, and a four-step freight demand forecasting framework21 generates freight shipment flows between FAZs. A modal-shift model chooses truck versus rail shipments with a dependence on oil price, and shipments are loaded on truck and rail networks with a traffic equilibrium algorithm. Emission projections for long-haul freight are described in previous work22. This paper adds the development of short-haul freight emissions, and the health and climate impacts of the entire US freight truck and rail system.\nShort-haul freight demand is represented by employment in each census tract. We use a dynamic spatial model23 to project future employment distribution at the census tract level with different urban spatial structures, and an asymptotic vehicle routing model to estimate freight shipment flows within each FAZ24,25. Both long-haul and short-haul freight activities are translated into fuel consumption, and then emissions using a vehicle fleet model speciated pollutant emissions wizard (SPEW)-Trend26, in which vehicles are represented as vintage technologies built to different emission standards. Vehicle characteristics such as degradation, retirement, and the transition over time of some vehicles to high-emitting conditions (‘technology slip’) are modelled in SPEW-Trend (Methods). We simulate changes in engine technology, not refrigeration alternatives, so the effects of only exhaust emissions are given in this study.\nEmissions serve as inputs to a reduced-form air quality model, the Intervention Model for Air Pollution (InMAP). This model combines meteorology, emissions, atmospheric transport, and chemical reaction rates to estimate PM2.5 concentrations from primary (directly emitted) and secondary (formed from gases) emissions27. PM2.5 concentrations are then converted to health impacts using a concentration-response function. The health impacts of ozone are not included in this study; prior research suggests that the health impacts from PM2.5 are larger than those from ozone. InMAP uses a variable resolution grid that employs higher spatial resolution in locations with large gradients in population density and PM2.5 concentrations (for example, urban areas) and lower spatial resolution where population density and PM2.5 concentration are more homogeneous (for example, rural areas)27. We also estimate health impacts using three other reduced-form models for comparison (Methods).\nClimate impacts from both short- and long-lived climate forcers are determined using forcing-per-emission values derived from a literature review. We include climate impacts from aerosol warming by black carbon, aerosol cooling by organic carbon and sulfate, indirect forcing due to cloud changes caused by aerosols, warming by the effects of NOx, CO, and volatile organic compounds (VOCs) on the tropospheric ozone system, warming and cooling through the effects of CO and NOx on the methane budget, and the warming greenhouse gas effect of CO2. We present short- and long-lived climate effects in the same units of forcing integrated over time (terawatt-year (TW-yr)) to facilitate comparison. One TW-yr corresponds to about 0.023 gigatonne (Gtonne) CO2 equivalent, but the forcing occurs over 100 years for long-lived gases, and within 1 year of emission for short-lived species. Further details of modelling short-haul freight activity and fuel use, emissions, health, and climate impacts are presented in the Methods  section.\nFour macroeconomic scenarios are projected by the general equilibrium model and downscaled as described earlier to represent differences in economy and climate policy18. The baseline scenario has a gross domestic product (GDP) growth rate in which the US GDP per capita doubles between 2005 and 2050 and no climate policy is applied. The low-growth scenario has a GDP growth rate 21% lower than that of the baseline. The carbon policy scenario has the same GDP growth rate as the baseline but employs a carbon tax policy to emulate a 450 parts per million (ppm) stabilization scenario. The low-growth carbon policy scenario has the lower GDP growth rate and the same carbon tax policy.\nUrban development affects employment distributions, which determine the freight shipment flows within each FAZ. In 73 metropolitan FAZs, identified as those with more than half a million people, we develop three urban development scenarios within the baseline macroeconomic scenario: trend; polycentric; and compact. A dynamic spatial model of density gradient23 is applied to project census tract-level employment distributions (Supplementary Notes). We term the continuation of the current trend in employment density distribution a ‘trend scenario’, in keeping with terminology in other urban planning studies28. This trend shows a continuous decentralization of jobs during 1990–2000 in most metropolitan areas. Two alternative scenarios with concentrated employment growth around existing job centres are built by modifying the parameters of the density gradient functions. The polycentric scenario continues current dispersion but increases the employment concentration near sub-centres. In the compact scenario, faster employment densification occurs near both the central business districts and sub-centres. For the remaining 47 FAZs, identified as rural, the dynamic spatial model does not apply and census tract-level employment distributions are not projected.\nIn an approach that connects models of complex systems, the traditional method of propagating uncertainties in each parameter is impractical. Instead, primary sensitivities in the economic18, vehicle fleet29, and urban form models were identified during characterization of those models, and scenarios were obtained by modifying these sensitive parameters within reasonable ranges. Conclusions are drawn from comparative outcomes, assuming that uncertain parameters have similar effects on each scenario. The scenarios used to evaluate the impacts of US freight transport are the baseline scenario (baseline economic development, no climate policy, and trend development in urban structure) and three mitigation scenarios: carbon tax; no technology slip (elimination of high-emitting trucks); and alternative urban spatial structure (polycentric or compact); these are summarized in Supplementary Table 3. Carbon tax and technology slip affect all freight transport, but urban spatial structure affects only intraregional freight. Multiple models are used to estimate normalized health impacts, to ensure that comparisons between scenarios are not dominated by the behaviour of an individual model.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR18",
+                "ref-CR23",
+                "ref-CR27",
+                "ref-CR29",
+                "ref-CR7",
+                "ref-CR19",
+                "ref-CR17",
+                "ref-CR24",
+                "ref-CR28",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR13",
+                "ref-CR16",
+                "ref-CR21",
+                "ref-CR2",
+                "ref-CR15",
+                "ref-CR14",
+                "ref-CR3",
+                "ref-CR4",
+                "ref-CR6",
+                "ref-CR12",
+                "ref-CR11",
+                "ref-CR20",
+                "ref-CR10",
+                "ref-CR22",
+                "ref-CR26",
+                "ref-CR8",
+                "ref-CR5"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Results and discussion",
+            "text": "The integrated model system shown in Fig. 1 simulates freight activity, emissions, spatial distribution, and health and climate impacts over time and under a variety of policies.\n### Freight activity and emissions\nFigure 2 shows short-haul freight activity, fuel consumption, and emissions during 2010–2050. Short-haul freight activity increases by 146, 108, and 100% from 2010 to 2050 under the trend, polycentric, and compact scenarios in urban areas, respectively, and 83% in rural areas. Fuel consumption increases more slowly than freight activity, due to improvements in fuel efficiency. Despite the increase in fuel consumption, pollutant emissions from short-haul delivery decline rapidly from 2010 to 2030 as older vehicles built under less stringent standards retire from the fleet. From 2030 to 2050, emissions start to increase again, driven by growing freight activity and the assumption that no new regulations further reduce emissions. As the fleet gets cleaner, high-emitting trucks resulting from technology slip become more important, contributing to over 70% of PM2.5 emissions while consuming only 5% of the fuel use in 2050. Because both long-haul and short-haul evolution rely on the same vehicle fleet model and economic growth, the evolution of short-haul emissions with time is similar to the emission trend from long-haul freight transport presented in previous work22.\nPolycentric and compact spatial structures reduce freight shipment distances, reducing urban fuel consumption and emissions by about 20% in 2050 compared to the trend scenario. Several studies have reported reduced passenger transport activity, but not freight activity, as population density increases. Stone et al.30 found that under a smart growth scenario, where urban share of new population growth increases by 10% per decade, growth in US household vehicle CO2 emissions during 2000–2050 is reduced by 34% compared to that in the trend scenario. Lee and Lee31 estimated that a 10% increase in polycentricity and a 10% decrease in centrality contribute to 0.7 and 0.9% reduction in CO2 emissions from household travel, respectively. Hankey and Marshall6, modelling combined growth scenarios for all US urban areas during 2000–2020, reported a CO2 emission difference of 20% for a realistic higher-sprawl scenario, relative to a lower-sprawl scenario.\nIn earlier work, we showed that a carbon tax could cause a modal shift from truck to rail, thus reducing fuel consumption by 30% and pollutant emissions by 10–28%22 below the baseline. This curtailment counters about half the increased activity due to economic growth, so that even with a carbon tax, CO2 emissions increase by 23% between 2010 and 2050. Meeting an economy-wide target of 80% reduction by 2050 would require additional stringent measures or an activity reduction. Eliminating high-emitting trucks reduces pollutant emissions by 20–65%. Supplementary Table 5 summarizes PM2.5 and NOx emissions from long-haul trucks and rail and short-haul trucks in 2010 and 2050 under the baseline scenario and mitigation scenarios including carbon tax, no technology slip, and alternative urban spatial structures.\n### Spatial distribution of PM2.5\nThe predicted spatial distributions of total PM2.5 concentrations resulting from long-haul and short-haul freight transport under the baseline scenario are shown in Fig. 3. PM2.5 concentrations are highest in the Midwest and West Coast of the United States, where population and economic activities are concentrated. The total population-weighted annual average PM2.5 concentration from ground freight during 2010–2050 decreases from 0.37 μg m−3 to 0.17 μg m−3 (from 0.28 μg m−3 to 0.11 μg m−3 when area-weighted). Urban freight delivery contributes only 6% of the total area-weighted PM2.5 concentration, but about 30% of the total population-weighted concentration due to the high population density in urban areas.\n### PM2.5-related health impacts\n#### Total PM2.5-related health impacts\nTotal mortalities from inhalation of PM2.5, and their spatial distributions, are shown in Fig. 4 and Supplementary Fig. 2, respectively. Total mortalities from ground freight transport are projected to decrease 44% from 5,500 (in 2010) to 3,055 (in 2050), under the baseline scenarios. This decrease is caused by the implementation of vehicle standards, and occurs despite a 40% increase in population and a 67% increase in fuel consumption. Mortalities from long-haul and short-haul freight decrease by about 2,060 and 385, respectively.\nAlthough urban freight delivery provides only about 8% of total emissions, those emissions occur near densely populated areas and cause 20% of the mortalities in 2010. Urban delivery emissions under the polycentric and compact development scenarios are 19 and 23% below the trend scenario in 2050. However, a higher population density is exposed to those emissions, so associated mortalities are reduced by a lower percentage—11 and 13%, respectively. Therefore, the benefit of reduced emissions under the more concentrated urban spatial forms outweighs the increased population exposure.\nA carbon tax causes a modal shift from truck to rail, reducing mortalities from long-haul freight by 25%, for a total of 540 avoided deaths. Eliminating truck technology slip reduces mortality from long-haul and short-haul freight by 42 and 32%, respectively, for a total of 1,100 avoided deaths.\n#### Health impacts by species and freight category\nTable 1 presents the marginal health impact—the avoided mortalities per kilotonne (ktonne) of annual emissions reduced—for each chemical species and freight category in 2010 and 2050. The marginal health impact per ktonne of primary PM2.5 emissions is greater than that of precursor gases by about one order of magnitude because precursor gases must be transformed into PM2.5 before exerting health impacts, and are not converted with 100% efficiency32. Among the secondary inorganic precursors, ammonia (NH3) has the largest marginal impacts. The relative benefit of reducing 1 ktonne of NH3 is about 13 times higher than that of NOx in urban areas. Urban environments generally have more NOx than NH3, and formation of urban PM2.5 is more sensitive to changes in NH3 concentration. While freight trucks and rail do not emit substantial amounts of NH3, reductions of urban NOx at the expense of emitting NH3 (such as selective catalytic reduction) should be carefully evaluated.\nEmissions from urban freight delivery occur in densely populated areas and have higher marginal impacts than rural freight delivery, for all pollutants. The marginal impact of primary PM2.5 emitted from urban transport is 7–8 times higher than that emitted from rural transport. Differences between urban and rural emissions are much smaller for precursor gases because the transformation from gases to aerosols occurs during transport from the source, thereby reducing the impacts on the adjacent population. Long-haul transport covers both urban and rural areas, so its marginal impacts fall between those of urban and rural transport. Marginal health damages from emissions are larger for long-haul trucks than rail, in part because a larger proportion of truck emissions occur in urban areas: 37% for trucks and 26% for rail. The marginal impact for all pollutants increases by 30–50% during 2010–2050, which corresponds to the population growth rate in different areas; it also reflects the assumption of a constant baseline mortality rate.\n#### Comparison with other models and previous studies\nWe first evaluate uncertainty in health impacts by comparing results with another reduced-form source-receptor model, the co-benefits risk assessment (COBRA) screening model33. Supplementary Fig. 3 compares the mortalities for the scenarios considered in this study. The difference in total mortalities between the two models is less than 6% for all scenarios, but estimates by InMAP are about 30% higher for urban freight and 15% lower for rural freight. A probable contributor is that spatial resolution in urban areas is higher for InMAP. We compared the marginal health impact of pollutants, including primary PM2.5, NOx, NH3, sulfur oxide (SOx), and VOCs, with results from two other models (APEEP/AP2 and EASIUR) and two other studies (Supplementary Fig. 4). The difference in marginal impacts is within a factor of two. InMAP has higher estimates for urban freight and lower estimate for rural freight, relative to the other models, again probably due to the difference in spatial resolutions.\nNo previous studies have estimated the health impacts specifically attributable to US freight transport. The United States Environmental Protection Agency (EPA)34 estimated 160,000 premature deaths attributable to PM2.5 exposure in the United States in 2010. Fann et al.35 reported 17,000 and 130,000 premature deaths attributable to PM2.5 exposure from the mobile-source sector and all sectors in the United States in 2016, respectively. Scaling the mobile-source totals for freight trucks and rail according to their 25% of total energy consumption1 gives mortality estimates of about 5,100, comparable to the 5,500 deaths estimated in this study.\n### Present-day climate impacts\nShort-lived and long-lived climate forcing by the entire freight system is overall positive (leading to warming), even accounting for impacts from species with negative forcing (cooling). In 2010, short-lived forcing was about 14% of the value of long-lived forcing, yet short-lived forcing occurs entirely in the first year. Short-lived forcing is dominated by positive forcing from black carbon (70%), which is offset only marginally by the emission of cooling aerosols. Positive forcing through the tropospheric ozone system, caused by NOx, CO, and VOCs makes up the balance of short-lived positive forcing. Long-lived forcing is dominated by CO2, for which positive forcing is about five times larger than the negative forcing from methane depletion via NOx.\n### Triple-impact scenario projections\nFigure 5 shows the summaries of annual mortalities, short-lived forcing, and long-lived forcing for each scenario. The transition between 2010, 2030, and 2050 under the baseline scenario appears in Fig. 5a. Implementation of emission standards substantially decreases air pollutant emissions, short-lived forcing, and mortalities by 2030. In contrast, the growth in fuel consumption drives an increase in CO2 emissions and long-lived forcing. Short-lived forcers transition from contributing about 20% of the total integrated forcing in 2010 to less than 5% in 2050.\nFigure 5b shows how mitigation policies affect outcomes in 2050. The baseline scenario is the high GDP growth scenario with trend development in urban areas. The application of a carbon tax shifts freight shipments from trucking to the more energy-efficient rail, reducing emissions of traditional pollutants and CO2 emissions for both long-haul and short-haul freight shipments, giving the greatest climate benefits among the policies (24 and 26% reductions in short-lived and long-lived forcing, respectively). The lower air pollutant emissions also reduce mortalities by 22%. The scenarios investigated in this study do not include alternative fuels, vehicle electrification, or automated manufacturing. Alternative fuels, such as biodiesel, could reduce long-lived climate forcing but would not change mortalities substantially as long as combustion engines are in use. Electrification of delivery vehicles would shift emissions to the point of generation and reduce urban mortalities, while the more difficult electrification of long-haul vehicles would also shift emissions and would be required to address the majority of the health impacts. Low-carbon fuels or sequestration could reduce forcing beyond the 30% reduction estimated in this study. Uncertainties in modal choice response to carbon price, estimation of intraregional fuel consumption, representation of technology slip, forcing-per-emission, and spatial distribution (Supplementary Notes) do not cause scenarios to rank differently in any of the three impacts.\nCompact urban development reduces fuel consumption and emissions only for urban freight, a small fraction of the total freight system, so that short-lived and long-lived forcing are reduced by only 2%. With increased population density, the more compact urban spatial structure reduces freight activity, with a slightly positive health benefit over the current decentralized structure (3% for the overall system). In our framework, avoiding technology slip reduces only traditional pollutants, causing a large reduction in mortalities (36%) and short-lived forcing (54%) but no reduction in long-lived forcing.\nThis study has reported an unprecedented system of systems treatment to evaluate the future of the US freight shipment system on three axes: mortality; short-lived climate forcing; and long-lived climate forcing. Minimizing a range of adverse impacts while also allowing for economic growth requires investigation and improvement of sector-wide practices on national scales. The approach presented in this study employs models that are responsive to major constraints on technological evolution, such as transport networks, vehicle fleets, and urban form, thereby offering an outlook on beneficial and negligible influences on the system that cannot be obtained from either top-down econometric models or detailed, bottom-up models in isolation.",
+            "cites": [
+                "ref-CR34",
+                "ref-CR31",
+                "ref-CR35",
+                "ref-CR30",
+                "ref-CR33",
+                "ref-CR6",
+                "ref-CR32",
+                "ref-CR1",
+                "ref-CR22"
+            ],
+            "figures": [
+                "figure-2",
+                "figure-4",
+                "figure-5",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Concluding remarks",
+            "text": "By using a system of systems approach, we project future emissions and impacts of US freight truck and rail activity under various policies. We show that continued freight growth results in an increase in climate forcing if petroleum remains the dominant fuel, but air pollutant emissions will be greatly reduced by 2030 because of incoming performance standards. Three policies were simulated and compared to the ‘business as usual’ case scenario. Carbon tax provides the greatest benefit on long-term climate forcing by shifting freight from truck to rail (24% reduction above the baseline case by 2050). Enforcing truck fleet maintenance causes the largest reduction in air pollutant emissions and mortalities even after the cleaner fleet is accounted for (36% reduction). Increasing urban compactness offers slight health benefits over the current urban sprawl trend (3% overall and 13% of mortalities caused by urban delivery).",
+            "cites": [],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Short-haul freight activity and fuel use\nIn the 73 metropolitan FAZs, urban freight delivery activity was modelled as a large-scale planar vehicle routing problem and computed by an asymptotic vehicle routing model that aims to minimize the asymptotic total vehicle delivery distance needed to satisfy a large number of spatially distributed freight demand24,25. The model treats a subset of census tracts as a freight delivery region, and estimates (1) total line-haul distance from freight (truck- and rail-based) terminals to the freight delivery regions and (2) total local travel distance in-between consecutive delivery points within each region. The model eventually computes the total delivery distance in each FAZ, which is the sum of the aforementioned total line-haul distance and total local travel distance, based on the employment number by industry type in each census tract as well as their spatial distribution in the FAZ. As employment and population are more concentrated in the polycentric and compact urban development scenarios, freight delivery distances are less than those in the trend scenario.\nLittle data about isolated traffic statistics (in kilometres or tonne-kilometres (t-km)) for metropolitan freight trucks are available to validate the model results. We compared the modelled urban freight truck mileages in this study with those by the EMFAC2014 database36 for California in the baseline year (2007). The vehicle routing model underestimated truck mileages by about a factor of two, possibly because real-world short-haul trucks may carry less payload, have more empty hauls and deadheading, and are less efficiently operated than the near-optimum prediction from the model (Supplementary Notes). We applied this adjustment factor to all urban truck activity predicted by the routing model, reasoning that the predicted freight truck activities from the asymptotic model (largely additive across census tracts) are insensitive to urban spatial structures at the larger spatial scale.\nFuel consumption for urban freight was estimated by summing short-haul truck activity in each FAZ, and was then used to determine emissions in the vehicle fleet model. We assumed that urban freight delivery was handled by heavy-duty single-unit diesel trucks. The average fuel intensity of 57 g (tonne-km)−1 or 200 g km−1 from urban freight trucks in EMFAC2014 was applied to determine the fuel consumption for urban delivery in the baseline year (2007). This fuel intensity value is an average of typical fuel intensities for single-unit trucks (39–72 g (tonne-km)−1)37. Speed information for urban freight flows was not available from the vehicle routing model. We assumed that the fuel intensity of short-haul trucks follows the same trend as that of long-haul trucks in the baseline scenario22, which increases 20% from 2007 to 2050 under the combined effects of congestion and technology development.\nHistorical fuel records for short-haul delivery from 1970 to 2007 were used to infer the technological composition of the initial fleet; details are presented in the Supplementary Notes. Fuel consumption for freight delivery in rural areas was estimated by subtracting diesel use by urban delivery from the total diesel by short-haul delivery. The same fuel intensity of urban delivery trucks was applied to rural delivery trucks. Rural freight activity (in t-km) was assumed to grow at the same rate as the rural freight demand (in tons) during 2007–2050.\n### Emission modelling\nEmissions were modelled with the vehicle fleet model SPEW-Trend26, in which vehicles are represented as vintage technologies built to certain emission standards, such as the Tier series. New technology is placed into service when needed to satisfy increased activity. The vehicle emission rate increases with age38 while vehicle driving distance decreases with age39. Old vehicles are removed from the fleet per observed retirement rates. Normal vehicles transition to high-emitting conditions at a rate so that the prevalence of high emissions approximately matches observations40,41. Details about the model and parameters were discussed in earlier work22,26,42.\nEarlier work22 developed emission factors and degradation rates for pollutants that have been regulated by the federal emission standards, including particulate matter, CO, total hydrocarbon (THC), and NOx. This work added NH3 and SOx to the emission database because they are precursors to secondary PM2.5 that cause adverse health effects. Since heavy-duty diesel vehicles are not important sources for NH3 and SOx (less than 0.2% of the total)43,44, we used fleet-average emission factors for NH3 (0.035 g kg−1)45,46 and SOx (0.03 g kg−1)47. VOCs are precursors to secondary organic PM2.5. VOCs are considered equivalent to THC plus aldehydes minus both methane and ethane48. The emission factor of VOCs is calculated using a conversion factor of 0.987 for VOC/THC48.\nEmissions from long-haul freight transport were gridded at 0.25 degree resolution, using truck and rail t-km on highway and railway links as spatial surrogates22. The asymptotic vehicle routing model used for short-haul freight delivery does not store detailed truck routes, so emissions within the metropolitan FAZs were distributed per employment in each census tract. Emissions from rural areas were first distributed to the freight demand in each FAZ, and then further distributed according to the population in each county, obtained from the Integrated Climate and Land Use Change Scenario developed by EPA49.\n### Impact assessment\nHealth and climate impacts from both long-haul and short-haul freight transport are determined for the baseline scenario and three mitigation scenarios, including carbon tax, eliminating truck technology slip, and alternative (polycentric or compact) urban spatial forms.\n#### Health impact assessment\nFine particulate matter (PM2.5) concentrations resulting from emissions of PM2.5, NOx, VOCs, NH3, and SOx from freight transport were estimated using InMAP27. InMAP is a reduced-form model that estimates the annual changes in primary and secondary PM2.5 concentrations caused by changes in emissions. While three-dimensional Eulerian chemical transport models (CTMs) such as CAM50, CMAQ51, and WRF-Chem52 are powerful tools to simulate atmospheric concentrations from emissions, running CTMs is computationally intensive and not typically used for multiple scenarios. InMAP leverages preprocessed annual average physical and chemical information derived from a WRF-Chem model run53, and assumes a linear relationship in the changes of PM2.5 concentrations to the changes in precursor emissions, thus reducing the computational costs by orders of magnitude compared to the CTMs. InMAP uses a variable resolution grid that employs higher spatial resolution in locations where population density or PM2.5 concentrations are spatially heterogeneous (for example, urban areas) and lower resolution in locations where population density or PM2.5 concentrations are more homogeneous (for example, rural and remote areas); grid cell edge lengths range between 1 and 48 km. The high spatial resolution in urban areas could provide improved human health exposure estimates.\nA typical health impact function that assumes a log-linear relationship between relative risk and air quality change was used to estimate the changes in mortality. Mortalities for each freight emission scenario were calculated by summing the mortality for each grid cell in the contiguous United States, as shown in equation (1):\nwhere M is the total annual mortalities for each scenario, n is the total number of grid cells, and β is a relative risk coefficient obtained from epidemiology studies. We used a relative risk that equals 1.06 per 10 µg m−3 increase in PM2.5 concentrations54, a value widely used in other models and studies33,55,56. Here P is population and I is the county-specific background all-cause mortality rate in the United States. County-level population projection data through 2050 were obtained from the EPA49. Census tract-level population was scaled from the baseline population in 201057 to 2050 based on the employment growth rates in the three urban development scenarios. The 2014 all-cause background mortality data58 were used and the mortality rates were held constant in the future. This conservative approach of constant mortality rates reduces overall complexity. It also allows the changes in mortalities to reflect only the changes in PM2.5 concentrations, which aligns with the goal of comparing the impacts of different mitigation policies relative to that of the baseline.\nWe included only mortalities from PM2.5 concentrations and did not consider impacts from ozone exposures or any independent damages associated with NOx, VOCs, NH3, and SOx exposures. All PM2.5 species were assumed to have the same toxicity and contribute equally to mortalities, following the general practice of the EPA59. While PM2.5 chemical composition may affect its toxicity, current knowledge does not yet allow detailed quantification of such differences60.\nWe also estimated health impacts using three other reduced-form models for comparison: COBRA33; APEEP/AP255,61; and EASIUR56. These reduced-form models have county-scale resolution, which is not sufficient to represent the differences in urban spatial forms of interest.\n#### Climate impact analysis\nThe climate impacts of freight emissions were estimated by summing the short- and long- term radiative forcing over all species and mechanisms. The units used here of TW-yr are those that would be obtained by multiplying the absolute global warming potential by emission quantity, and further multiplying by the surface of the earth to represent a total forcing flow rather than a globally averaged one. The radiative forcing for each species and each mechanism was determined using forcing-per-emission values obtained from the literature (Supplementary Table 4). Long-term radiative forcing from CO2 was estimated using the absolute global warming potential of CO2 (0.087 (mW m−2) (Tg yr−1)−1) over a 100-year horizon62. Short-term radiative forcing from black carbon, organic carbon, and sulfate, as well as the indirect effects of CO and NOx through their effects on the tropospheric ozone and methane budgets were included. Since emitting locations affect the forcing of short-lived species, we averaged all regional direct forcing-per-emission values in North America or the United States. For indirect forcing, we assumed the indirect black carbon radiative forcing is 0.55 times the direct black carbon radiative forcing63, the indirect organic carbon radiative forcing is 1.1 times the direct organic carbon radiative forcing63, and the indirect sulfate radiative forcing is 1.2 times the direct sulfate radiative forcing64,65 according to a literature review of estimated cloud forcing.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR55",
+                "ref-CR57",
+                "ref-CR59",
+                "ref-CR50",
+                "ref-CR48",
+                "ref-CR27",
+                "ref-CR65",
+                "ref-CR56",
+                "ref-CR46",
+                "ref-CR43",
+                "ref-CR44",
+                "ref-CR24",
+                "ref-CR33",
+                "ref-CR47",
+                "ref-CR42",
+                "ref-CR63",
+                "ref-CR39",
+                "ref-CR40",
+                "ref-CR38",
+                "ref-CR58",
+                "ref-CR41",
+                "ref-CR52",
+                "ref-CR36",
+                "ref-CR53",
+                "ref-CR51",
+                "ref-CR22",
+                "ref-CR60",
+                "ref-CR49",
+                "ref-CR26",
+                "ref-CR45",
+                "ref-CR61",
+                "ref-CR54",
+                "ref-CR37",
+                "ref-CR64",
+                "ref-CR62"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: System of systems approach.",
+            "figure-caption": "Schematic of the method for projecting emissions, health and climate impacts of freight truck and rail transport in the United States using integrated models.",
+            "figure-link": "https://www.nature.com/articles/s41893-019-0224-3/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Effect of urban spatial structure on trends in short-haul freight delivery and impacts from 2010 to 2050.",
+            "figure-caption": "a, Freight activity (t-km; to convert from t-km to tonne-mile, multiply by 0.685), and fuel consumption (Mtonne). b, Primary PM2.5 emissions (Gg). c, NOx emissions (Gg).",
+            "figure-link": "https://www.nature.com/articles/s41893-019-0224-3/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Spatial distribution of PM2.5 concentrations resulting from freight truck and rail transport in 2010 and 2050 under the baseline scenario.",
+            "figure-caption": "a, 2010. b, 2050. Sources of state boundaries: Esri.com66; TomTom North America, Inc.",
+            "figure-link": "https://www.nature.com/articles/s41893-019-0224-3/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Total mortalities from inhalation of PM2.5.",
+            "figure-caption": "Total PM2.5-related mortalities from long-haul and short-haul freight transport as estimated by InMAP in 2010 and 2050 under the different scenarios considered.",
+            "figure-link": "https://www.nature.com/articles/s41893-019-0224-3/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Assessment of annual mortalities, integrated short-lived forcing, and long-lived forcing for all US truck and rail freight.",
+            "figure-caption": "a, Trajectory from 2010 to 2030 and 2050 under the high GDP growth scenario. b, Effect of policy measures in the year 2050 applied to the high-GDP growth scenario. The data for 2050 without policy in each plot are identical. The axis ranges in TW-yr correspond to 0.7 and 0.08 Gtonne CO2 equivalent for short-lived and long-lived pollutants, respectively. The ‘2050, urban trend, no policy’ is the same in both figures. The ‘compact urban’ scenario is shown as a dashed line because it overlies the no policy case closely. The ‘tax + no-slip + compact’ is simulated based on a combination of reductions in all scenarios (see Supplementary Note 2).",
+            "figure-link": "https://www.nature.com/articles/s41893-019-0224-3/figures/5"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Bureau of Transportation Statistics. National Transportation Statistics http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_statistics/index.html (2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Laden, F., Neas, L. M., Dockery, D. W. & Schwartz, J. Association of fine particulate matter from different sources with daily mortality in six US cities. Environ. Health Perspect. 108, 941–947 (2000).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Pope, C. A. III et al. Lung cancer, cardiopulmonary mortality, and long-term exposure to fine particulate air pollution. JAMA 287, 1132–1141 (2002).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Unger, N. et al. Attribution of climate forcing to economic sectors. Proc. Natl Acad. Sci. USA 107, 3382–3387 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0906548107",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXjtFymtbw%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Attribution%20of%20climate%20forcing%20to%20economic%20sectors&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0906548107&volume=107&pages=3382-3387&publication_year=2010&author=Unger%2CN"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Bickford, E. et al. Emissions and air quality impacts of truck-to-rail freight modal shifts in the Midwestern United States. Environ. Sci. Technol. 48, 446–454 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes4016102",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXhtlOjtLnO",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emissions%20and%20air%20quality%20impacts%20of%20truck-to-rail%20freight%20modal%20shifts%20in%20the%20Midwestern%20United%20States&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Fes4016102&volume=48&pages=446-454&publication_year=2014&author=Bickford%2CE"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Hankey, S. & Marshall, J. D. Impacts of urban form on future US passenger-vehicle greenhouse gas emissions. Energy Policy 38, 4880–4887 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2009.07.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impacts%20of%20urban%20form%20on%20future%20US%20passenger-vehicle%20greenhouse%20gas%20emissions&journal=Energy%20Policy&doi=10.1016%2Fj.enpol.2009.07.005&volume=38&pages=4880-4887&publication_year=2010&author=Hankey%2CS&author=Marshall%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Frank, L. D., Stone, B. Jr & Bachman, W. Linking land use with household vehicle emissions in the central Puget Sound: methodological framework and findings. Transp. Res. D Transp. Environ. 5, 173–196 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS1361-9209%2899%2900032-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Linking%20land%20use%20with%20household%20vehicle%20emissions%20in%20the%20central%20Puget%20Sound%3A%20methodological%20framework%20and%20findings&journal=Transp.%20Res.%20D%20Transp.%20Environ.&doi=10.1016%2FS1361-9209%2899%2900032-2&volume=5&pages=173-196&publication_year=2000&author=Frank%2CLD&author=Stone%2CB&author=Bachman%2CW"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Stone, B., Mednick, A. C., Holloway, T. & Spak, S. N. Is compact growth good for air quality? J. Am. Plann. Assoc. 73, 404–418 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01944360708978521",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Is%20compact%20growth%20good%20for%20air%20quality%3F&journal=J.%20Am.%20Plann.%20Assoc.&doi=10.1080%2F01944360708978521&volume=73&pages=404-418&publication_year=2007&author=Stone%2CB&author=Mednick%2CAC&author=Holloway%2CT&author=Spak%2CSN"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Marshall, J. D. Energy-efficient urban form. Environ. Sci. Technol. 42, 3133–3137 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes087047l",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1cXlt1yru7s%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Energy-efficient%20urban%20form&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Fes087047l&volume=42&pages=3133-3137&publication_year=2008&author=Marshall%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "van der Waals, J. The compact city and the environment: a review. Tijdschr. Econ. Soc. Geogr. 91, 111–121 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2F1467-9663.00099",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20compact%20city%20and%20the%20environment%3A%20a%20review&journal=Tijdschr.%20Econ.%20Soc.%20Geogr.&doi=10.1111%2F1467-9663.00099&volume=91&pages=111-121&publication_year=2000&author=van%20der%20Waals%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Marshall, J. D., McKone, T. E., Deakin, E. & Nazaroff, W. W. Inhalation of motor vehicle emissions: effects of urban population and land area. Atmos. Environ. 39, 283–295 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2004.09.059",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD2cXhtVKgurvF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inhalation%20of%20motor%20vehicle%20emissions%3A%20effects%20of%20urban%20population%20and%20land%20area&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2004.09.059&volume=39&pages=283-295&publication_year=2005&author=Marshall%2CJD&author=McKone%2CTE&author=Deakin%2CE&author=Nazaroff%2CWW"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Federal Highway Administration. Freight Analysis Framework 3 https://ops.fhwa.dot.gov/freight/freight_analysis/faf/faf3/userguide/ (2011).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Muratori, M. et al. Role of the freight sector in future climate change mitigation scenarios. Environ. Sci. Technol. 51, 3526–3533 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.6b04515",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXjtl2rtLo%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Role%20of%20the%20freight%20sector%20in%20future%20climate%20change%20mitigation%20scenarios&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.6b04515&volume=51&pages=3526-3533&publication_year=2017&author=Muratori%2CM"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "You, S. I. et al. Air Pollution Impacts of Shifting San Pedro Bay Ports Freight from Truck to Rail in Southern California (University of California Transportation Center, UC Berkeley, 2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Park, M., Regan, A. & Yang C.-H. Emissions impacts of a modal shift: a case study of the Southern California ports region. J. Int. Logist. Trade (Online) 5, 67–81 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.24006%2Fjilt.2007.5.2.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emissions%20impacts%20of%20a%20modal%20shift%3A%20a%20case%20study%20of%20the%20Southern%20California%20ports%20region&journal=J.%20Int.%20Logist.%20Trade%20%28Online%29&doi=10.24006%2Fjilt.2007.5.2.004&volume=5&pages=67-81&publication_year=2007&author=Park%2CM&author=Regan%2CA&author=Yang%2CCH"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Ewing, R., Pendall, R. & Chen, D. Measuring sprawl and its transportation impacts. Transp. Res. Rec. 1831, 175–183 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.3141%2F1831-20",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20sprawl%20and%20its%20transportation%20impacts&journal=Transp.%20Res.%20Rec.&doi=10.3141%2F1831-20&volume=1831&pages=175-183&publication_year=2003&author=Ewing%2CR&author=Pendall%2CR&author=Chen%2CD"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Stone, B. Jr Urban sprawl and air quality in large US cities. J. Environ. Manage. 86, 688–698 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jenvman.2006.12.034",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1cXjs1elsbw%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20sprawl%20and%20air%20quality%20in%20large%20US%20cities&journal=J.%20Environ.%20Manage.&doi=10.1016%2Fj.jenvman.2006.12.034&volume=86&pages=688-698&publication_year=2008&author=Stone%2CB"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Fisher-Vanden, K., Schu, K., Sue Wing, I. & Calvin, K. Decomposing the impact of alternative technology sets on future carbon emissions growth. Energy Econ. 34, S359–S365 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.eneco.2012.07.021",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Decomposing%20the%20impact%20of%20alternative%20technology%20sets%20on%20future%20carbon%20emissions%20growth&journal=Energy%20Econ.&doi=10.1016%2Fj.eneco.2012.07.021&volume=34&pages=S359-S365&publication_year=2012&author=Fisher-Vanden%2CK&author=Schu%2CK&author=Sue%20Wing%2CI&author=Calvin%2CK"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Hewings, G. J. D. On the accuracy of alternative models for stepping-down multi-county employment projections to counties. Econ. Geogr. 52, 206–217 (1976).",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F143268",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=On%20the%20accuracy%20of%20alternative%20models%20for%20stepping-down%20multi-county%20employment%20projections%20to%20counties.&journal=Econ.%20Geogr.&doi=10.2307%2F143268&volume=52&pages=206-217&publication_year=1976&author=Hewings%2CGJD"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Cascetta, E. Transportation Systems Analysis Models and Applications 2nd edn (Springer, New York, 2009).",
+            "links": {
+                "Book": "https://link.springer.com/doi/10.1007/978-0-387-75857-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Transportation%20Systems%20Analysis%20Models%20and%20Applications&doi=10.1007%2F978-0-387-75857-2&publication_year=2009&author=Cascetta%2CE"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Cohen, H, Horowitz, A. & Pendyala, R. M. Forecasting Statewide Freight Toolkit. (Transportation Research Board, Washington DC, 2008).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Forecasting%20Statewide%20Freight%20Toolkit&publication_year=2008&author=Cohen%2CH&author=Horowitz%2CA&author=Pendyala%2CRM"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Liu, L. et al. Emission projections for long-haul freight trucks and rail in the United States through 2050. Environ. Sci. Technol. 49, 11569–11576 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.5b01187",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXhsVyksb3K",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emission%20projections%20for%20long-haul%20freight%20trucks%20and%20rail%20in%20the%20United%20States%20through%202050&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.5b01187&volume=49&pages=11569-11576&publication_year=2015&author=Liu%2CL"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Elhorst, J. P. Dynamic models in space and time. Geogr. Anal. 33, 119–140 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1538-4632.2001.tb00440.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dynamic%20models%20in%20space%20and%20time&journal=Geogr.%20Anal.&doi=10.1111%2Fj.1538-4632.2001.tb00440.x&volume=33&pages=119-140&publication_year=2001&author=Elhorst%2CJP"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Newell, G. F. & Daganzo, C. F. Design of multiple-vehicle delivery tours—I a ring-radial network. Transp. Res. Part B Method. 20, 345–363 (1986).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2F0191-2615%2886%2990008-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Design%20of%20multiple-vehicle%20delivery%20tours%E2%80%94I%20a%20ring-radial%20network&journal=Transp.%20Res.%20Part%20B%20Method.&doi=10.1016%2F0191-2615%2886%2990008-1&volume=20&pages=345-363&publication_year=1986&author=Newell%2CGF&author=Daganzo%2CCF"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Lee, S. & Hwang, T. Estimating emissions from regional freight delivery under different urban development scenarios. Sustainability 10, 1188 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu10041188",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20emissions%20from%20regional%20freight%20delivery%20under%20different%20urban%20development%20scenarios&journal=Sustainability&doi=10.3390%2Fsu10041188&volume=10&publication_year=2018&author=Lee%2CS&author=Hwang%2CT"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Yan, F., Winijkul, E., Jung, S., Bond, T. C. & Streets, D. G. Global emission projections of particulate matter (PM): I. Exhaust emissions from on-road vehicles. Atmos. Environ. 45, 4830–4844 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2011.06.018",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXpt1aitb4%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20emission%20projections%20of%20particulate%20matter%20%28PM%29%3A%20I.%20Exhaust%20emissions%20from%20on-road%20vehicles&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2011.06.018&volume=45&pages=4830-4844&publication_year=2011&author=Yan%2CF&author=Winijkul%2CE&author=Jung%2CS&author=Bond%2CTC&author=Streets%2CDG"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Tessum, C. W., Hill, J. D. & Marshall, J. D. InMAP: a model for air pollution interventions. PLoS ONE 12, e0176131 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0176131",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=InMAP%3A%20a%20model%20for%20air%20pollution%20interventions&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0176131&volume=12&publication_year=2017&author=Tessum%2CCW&author=Hill%2CJD&author=Marshall%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Ewing, R., Bartholomew, K., Winkelman, S., Walters, J. & Chen, D. Growing cooler: the evidence on urban development and climate change. RRJ 25, 6–13 (2009).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Growing%20cooler%3A%20the%20evidence%20on%20urban%20development%20and%20climate%20change&journal=RRJ&volume=25&pages=6-13&publication_year=2009&author=Ewing%2CR&author=Bartholomew%2CK&author=Winkelman%2CS&author=Walters%2CJ&author=Chen%2CD"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Yan, F., Winijkul, E., Bond, T. C. & Streets, D. G. Global emission projections of particulate matter (PM): II. Uncertainty analyses of on-road vehicle exhaust emissions. Atmos. Environ. 87, 189–199 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2014.01.045",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2cXktlGnsrg%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20emission%20projections%20of%20particulate%20matter%20%28PM%29%3A%20II.%20Uncertainty%20analyses%20of%20on-road%20vehicle%20exhaust%20emissions&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2014.01.045&volume=87&pages=189-199&publication_year=2014&author=Yan%2CF&author=Winijkul%2CE&author=Bond%2CTC&author=Streets%2CDG"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Stone, B. Jr., Mednick, A. C., Holloway, T. & Spak, S. N. Mobile source CO2 mitigation through smart growth development and vehicle fleet hybridization. Environ. Sci. Technol. 43, 1704–1710 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes8021655",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1MXhslOqtbw%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mobile%20source%20CO2%20mitigation%20through%20smart%20growth%20development%20and%20vehicle%20fleet%20hybridization&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Fes8021655&volume=43&pages=1704-1710&publication_year=2009&author=Stone%2CB&author=Mednick%2CAC&author=Holloway%2CT&author=Spak%2CSN"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Lee, S. & Lee, B. The influence of urban form on GHG emissions in the US household sector. Energy Policy 68, 534–549 (2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Ansari, A. S. & Pandis, S. N. Response of inorganic PM to precursor concentrations. Environ. Sci. Technol. 32, 2706–2714 (1998).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes971130j",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaK1cXltVeisbs%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Response%20of%20inorganic%20PM%20to%20precursor%20concentrations&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Fes971130j&volume=32&pages=2706-2714&publication_year=1998&author=Ansari%2CAS&author=Pandis%2CSN"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "United States Environmental Protection Agency. User’s Manual for the Co-Benefits Risk Assessment (COBRA) Screening Model https://www.epa.gov/statelocalenergy/users-manual-co-benefits-risk-assessment-cobra-screening-model (2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "The Benefits and Costs of the Clean Air Act from 1990 to 2020 (United States Environmental Protection Agency, 2011); https://www.epa.gov/sites/production/files/2015-07/documents/summaryreport.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Fann, N., Fulcher, C. M. & Baker, K. The recent and future health burden of air pollution apportioned across US sectors. Environ. Sci. Technol. 47, 3580–3589 (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "EMFAC2014 Web Database v1.0.7 (California Air Resources Board, 2015); https://www.arb.ca.gov/emfac/2014/",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "National Research Council. Technologies and Approaches to Reducing the Fuel Consumption of Medium- and Heavy-Duty Vehicles (National Academies Press, Washington DC, 2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Ubanwa, B., Burnette, A., Kishan, S. & Fritz, S. G. Exhaust particulate matter emission factors and deterioration rate for in-use motor vehicles. J. Eng. Gas Turbine Power 125, 513–523 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.1115%2F1.1559904",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD3sXjtlKjsb0%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exhaust%20particulate%20matter%20emission%20factors%20and%20deterioration%20rate%20for%20in-use%20motor%20vehicles&journal=J.%20Eng.%20Gas%20Turbine%20Power&doi=10.1115%2F1.1559904&volume=125&pages=513-523&publication_year=2003&author=Ubanwa%2CB&author=Burnette%2CA&author=Kishan%2CS&author=Fritz%2CSG"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Zachariadis, T., Ntziachristos, L. & Samaras, Z. The effect of age and technological change on motor vehicle emissions. Transp. Res. D Transp. Environ. 6, 221–227 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS1361-9209%2800%2900025-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20age%20and%20technological%20change%20on%20motor%20vehicle%20emissions&journal=Transp.%20Res.%20D%20Transp.%20Environ.&doi=10.1016%2FS1361-9209%2800%2900025-0&volume=6&pages=221-227&publication_year=2001&author=Zachariadis%2CT&author=Ntziachristos%2CL&author=Samaras%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Ban-Weiss, G. A., Lunden, M. M., Kirchstetter, T. W. & Harley, R. A. Measurement of black carbon and particle number emission factors from individual heavy-duty trucks. Environ. Sci. Technol. 43, 1419–1424 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes8021039",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1MXhsVCrsrY%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measurement%20of%20black%20carbon%20and%20particle%20number%20emission%20factors%20from%20individual%20heavy-duty%20trucks&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Fes8021039&volume=43&pages=1419-1424&publication_year=2009&author=Ban-Weiss%2CGA&author=Lunden%2CMM&author=Kirchstetter%2CTW&author=Harley%2CRA"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Zhang, Y., Stedman, D. H., Bishop, G. A., Guenther, P. L. & Beaton, S. P. Worldwide on-road vehicle exhaust emissions study by remote-sensing. Environ. Sci. Technol. 29, 2286–2294 (1995).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes00009a020",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaK2MXntFCjurs%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Worldwide%20on-road%20vehicle%20exhaust%20emissions%20study%20by%20remote-sensing&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Fes00009a020&volume=29&pages=2286-2294&publication_year=1995&author=Zhang%2CY&author=Stedman%2CDH&author=Bishop%2CGA&author=Guenther%2CPL&author=Beaton%2CSP"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Yan, F. et al. Global emission projections for the transportation sector using dynamic technology modeling. Atmos. Chem. Phys. 14, 5709–5733 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Facp-14-5709-2014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20emission%20projections%20for%20the%20transportation%20sector%20using%20dynamic%20technology%20modeling&journal=Atmos.%20Chem.%20Phys.&doi=10.5194%2Facp-14-5709-2014&volume=14&pages=5709-5733&publication_year=2014&author=Yan%2CF"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "United States Environmental Protection Agency. National Emissions Inventory (NEI) Air Pollutant Emissions Trends Data https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei (2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Burgard, D. A., Bishop, G. A., Stedman, D. H., Gessner, V. H. & Daeschlein, C. Remote sensing of in-use heavy-duty diesel trucks. Environ. Sci. Technol. 40, 6938–6942 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes060989a",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD28XhtFSgu7zE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Remote%20sensing%20of%20in-use%20heavy-duty%20diesel%20trucks&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Fes060989a&volume=40&pages=6938-6942&publication_year=2006&author=Burgard%2CDA&author=Bishop%2CGA&author=Stedman%2CDH&author=Gessner%2CVH&author=Daeschlein%2CC"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Harvey, C. A. et al. A Study of the Potential Impact of Some Unregulated Motor Vehicle Emissions. SAE Technical Paper 830987 (SAE International, 1983).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Pierson, W. R. & Brachaczek, W. W. Emissions of ammonia and amines from vehicles on the road. Environ. Sci. Technol. 17, 757–760 (1983).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes00118a013",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaL3sXlvF2ktb8%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emissions%20of%20ammonia%20and%20amines%20from%20vehicles%20on%20the%20road&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Fes00118a013&volume=17&pages=757-760&publication_year=1983&author=Pierson%2CWR&author=Brachaczek%2CWW"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "United States Environmental Protection Agency. Diesel Fuel Standards & Rulemakings https://www.epa.gov/diesel-fuel-standards/diesel-fuel-standards-rulemakings (2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Average In-Use Emissions from Heavy-Duty Trucks (EPA420-F-08-027) (United States Environmental Protection Agency, 2008).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Land-Use Scenarios: National-Scale Housing-Density Scenarios Consistent with Climate Change Storylines (Final Report) (EPA/600/R-08/076F) (United States Environmental Protection Agency, 2009).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Collins, W. D. et al. The formulation and atmospheric simulation of the Community Atmosphere Model version 3 (CAM3). J. Clim. 19, 2144–2161 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1175%2FJCLI3760.1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20formulation%20and%20atmospheric%20simulation%20of%20the%20Community%20Atmosphere%20Model%20version%203%20%28CAM3%29&journal=J.%20Clim.&doi=10.1175%2FJCLI3760.1&volume=19&pages=2144-2161&publication_year=2006&author=Collins%2CWD"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Byun, D. W. & Ching, J. K. S. Science Algorithms of the EPA Models-3 Community Multiscale Air Quality (CMAQ) Modeling System (US Environmental Protection Agency, Office of Research and Development, Washington DC, 1999).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Grell, G. A. et al. Fully coupled “online” chemistry within the WRF model. Atmos. Environ. 39, 6957–6975 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2005.04.027",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD2MXhtFGht7vK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fully%20coupled%20%E2%80%9Conline%E2%80%9D%20chemistry%20within%20the%20WRF%20model&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2005.04.027&volume=39&pages=6957-6975&publication_year=2005&author=Grell%2CGA"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Tessum, C. W., Hill, J. D. & Marshall, J. D. Twelve-month, 12 km resolution North American WRF-Chemv3.4 air quality simulation: performance evaluation. Geosci. Model Dev. 8, 957–973 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Fgmd-8-957-2015",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Twelve-month%2C%2012%20km%20resolution%20North%20American%20WRF-Chemv3.4%20air%20quality%20simulation%3A%20performance%20evaluation&journal=Geosci.%20Model%20Dev.&doi=10.5194%2Fgmd-8-957-2015&volume=8&pages=957-973&publication_year=2015&author=Tessum%2CCW&author=Hill%2CJD&author=Marshall%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Krewski, D. et al. Extended Follow-up and Spatial Analysis of the American Cancer Society Study Linking Particulate Air Pollution and Mortality (Health Effects Institute, 2009).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Muller, N. Z. & Mendelsohn, R. Efficient pollution regulation: getting the prices right. Am. Econ. Rev. 99, 1714–1739 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Faer.99.5.1714",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Efficient%20pollution%20regulation%3A%20getting%20the%20prices%20right&journal=Am.%20Econ.%20Rev.&doi=10.1257%2Faer.99.5.1714&volume=99&pages=1714-1739&publication_year=2009&author=Muller%2CNZ&author=Mendelsohn%2CR"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Heo, J., Adams, P. J. & Gao, H. O. Reduced-form modeling of public health impacts of inorganic PM2.5 and precursor emissions. Atmos. Environ. 137, 80–89 (2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR57",
+            "content": "United States Census Bureau. County Population Totals and Components of Change 2010–2017 https://www.census.gov/data/tables/2017/demo/popest/counties-total.html (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Centers for Disease Control and Prevention. Compressed Mortality File https://www.cdc.gov/nchs/data_access/cmf.htm (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Quantitative Health Risk Assessment for Particulate Matter (EPA-452/R-10-005) (United States Environmental Protection Agency, 2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Kelly, F. J. & Fussell, J. C. Size, source and chemical composition as determinants of toxicity attributable to ambient particulate matter. Atmos. Environ. 60, 504–526 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2012.06.039",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC38XhtlWls7zP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Size%2C%20source%20and%20chemical%20composition%20as%20determinants%20of%20toxicity%20attributable%20to%20ambient%20particulate%20matter&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2012.06.039&volume=60&pages=504-526&publication_year=2012&author=Kelly%2CFJ&author=Fussell%2CJC"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Muller, N. Z. Linking policy to statistical uncertainty in air pollution damages. B E J. Econom. Anal. Policy 11, 1–29 (2011).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Linking%20policy%20to%20statistical%20uncertainty%20in%20air%20pollution%20damages&journal=B%20E%20J.%20Econom.%20Anal.%20Policy&volume=11&pages=1-29&publication_year=2011&author=Muller%2CNZ"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Myhre, G. et al. in Climate Change 2013: The Physical Science Basis Ch. 2 (eds Stocker, T. F. et al.) (IPCC, Cambridge Univ. Press, 2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Bond, T. C. et al. Bounding the role of black carbon in the climate system: a scientific assessment. J. Geophys. Res. Atmos. 118, 5380–5552 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fjgrd.50171",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXhtVyrtbrF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bounding%20the%20role%20of%20black%20carbon%20in%20the%20climate%20system%3A%20a%20scientific%20assessment&journal=J.%20Geophys.%20Res.%20Atmos.&doi=10.1002%2Fjgrd.50171&volume=118&pages=5380-5552&publication_year=2013&author=Bond%2CTC"
+            }
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Kvalevåg, M. M. & Myhre, G. Human impact on direct and diffuse solar radiation during the industrial era. J. Clim. 20, 4874–4883 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1175%2FJCLI4277.1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Human%20impact%20on%20direct%20and%20diffuse%20solar%20radiation%20during%20the%20industrial%20era&journal=J.%20Clim.&doi=10.1175%2FJCLI4277.1&volume=20&pages=4874-4883&publication_year=2007&author=Kvalev%C3%A5g%2CMM&author=Myhre%2CG"
+            }
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Shindell, D. T. et al. Climate forcing and air quality change due to regional emissions reductions by economic sector. Atmos. Chem. Phys. 8, 7101–7113 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Facp-8-7101-2008",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1MXhslaqur0%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20forcing%20and%20air%20quality%20change%20due%20to%20regional%20emissions%20reductions%20by%20economic%20sector&journal=Atmos.%20Chem.%20Phys.&doi=10.5194%2Facp-8-7101-2008&volume=8&pages=7101-7113&publication_year=2008&author=Shindell%2CDT"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "USA State Boundaries (Esri.com, accessed 15 January 2018); https://www.arcgis.com/home/item.html?id=540003aa59b047d7a1f465f7b1df1950",
+            "links": {}
+        }
+    ]
+}

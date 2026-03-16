@@ -1,0 +1,761 @@
+{
+    "id": "s44284-024-00083-z",
+    "journal": "Nature Cities",
+    "type": "article",
+    "title": "Worldwide delineation of multi-tier city–regions",
+    "legal_title": "Worldwide delineation of multi-tier city–regions",
+    "publish_time": "2024-06-26",
+    "pdf_link": "https://www.nature.com/articles/s44284-024-00083-z",
+    "storage_path": "./Articles/Nature Cities/2024-article/s44284-024-00083-z/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Urban centers are pivotal in shaping societies, yet a systematic global analysis of how countries are organized around multiple urban centers is lacking. We enhance understanding by delineating city–regions worldwide, classifying over 30,000 urban centers into four tiers—town, small, intermediate and large city—based on population size and mapping their catchment areas based on travel time, differentiating between primary and secondary city–regions. Here we identify 1,403 primary city–regions employing a 3 h travel time cutoff and increasing to 4,210 with a 1 h cutoff, which is more indicative of commuting times. Our findings reveal substantial interconnectedness among urban centers and with their surrounding areas, with 3.2 billion people having physical access to multiple tiers within an hour and 4.7 billion within 3 h. Notably, among people living in or closest to towns or small cities, twice as many have easier access to intermediate than to large cities, underscoring intermediate cities’ crucial role in connecting surrounding populations. This systematic identification of city–regions globally uncovers diverse organizational patterns across urban tiers, influenced by geography, level of development and infrastructure, offering a valuable spatial dataset for regional planning, economic development and resource management.",
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Sustainable development requires understanding how societies are organized spatially, especially around urban centers, given that 92% of the global population either lives in an urban center or within 1 h travel time1. City–regions, typically intended as combinations of an urban center or centers linked to periurban areas and a rural hinterland by functional ties, are increasingly attracting the attention of academics and policymakers for the implementation of development policies2,3. However, research on city–regions frequently relies on case studies of major cities4, lacking a comprehensive systems perspective on the relationships between cities of varying sizes and their surrounding areas. This knowledge gap is especially pronounced between North and South and between small and large cities4,5. This study helps fill this critical knowledge gap by providing a comprehensive framework to characterize city–regions worldwide.\nAn urban hierarchy exists in terms of services provided by cities of different sizes (as recently conveyed by the universal visitation law of human mobility)6 or the travel time to access such services1,7. For example, one may rely on the closest town for groceries but may commute to work in a small city and travel to a hospital in a large city for a specialized medical opinion. Acknowledging such hierarchy is particularly relevant to populations living in rural or periurban areas or smaller urban centers, whereby the size of nearby cities and their distance will affect the breadth of services and opportunities (for example, employment) available and their accessibility8. Recent work on the degree of urbanization has introduced vital nuance to help overcome the rural/urban dichotomy9. However, the possible interconnections among urban centers and their relationship with surrounding areas have not been analyzed in a systematic manner at a global level.\nAgainst this background, this paper builds upon recent work mapping functional urban areas (FUAs)10 and urban‒rural catchment areas (URCAs)1, which express the interconnection between urban centers and their surrounding rural areas. While valuable, these approaches link locations to a single urban center of reference, ignoring that a location may have multiple centers of reference for varying activities11. Our study introduces the concept of locations accessing multiple urban tiers; the original URCA and FUA approaches with only one urban center of reference are considered a special case.\nThe aim of this study is to create a comprehensive spatial representation of city–regions globally and to gain a better understanding of their diversity. In this Article, we provide a detailed worldwide representation of how people are organized around urban centers in city–regions, covering 213 countries/territories and their populations for the year 2020. Acknowledging that urban issues in the Global South are distinct from those in the Global North and the dearth of evidence on the former12, we further bridge this knowledge gap and illustrate the diversity of city–regions around the world by comparing Ethiopia, France, Nigeria and Pakistan (and for 86 countries in Supplementary Information). We investigate two areas of particular importance for sustainable regional development: the relationship between urban centers and their surrounding areas and intercity relationships within city–regions. These can inform strategies to enhance connectivity to improve food systems, access to health and education services and environmental and natural resource management.",
+            "cites": [
+                "ref-CR10",
+                "ref-CR6",
+                "ref-CR4",
+                "ref-CR11",
+                "ref-CR2",
+                "ref-CR8",
+                "ref-CR1",
+                "ref-CR12",
+                "ref-CR7",
+                "ref-CR9",
+                "ref-CR5",
+                "ref-CR3"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Defining city–regions",
+            "text": "Despite a long tradition, there is no agreed-upon definition of city–regions13. Rodríguez-Pose summarizes existing definitions, highlighting how most have one or more core cities linked to a hinterland by functional ties such as economic, housing-market, commuting, marketing or retail catchment factors2.\nThe starting point for our perspective on city–regions is that people access different types of activities with different frequency, where ‘activities’ refers to services and employment opportunities located in urban centers. Buying groceries and commuting to work are usually done on a more frequent basis than visiting a hospital. It follows that the level of specialization of activity depends on the size of an urban center, whereby larger centers are expected to provide more specialized activities that require a lower visitation frequency (for example, airports) than smaller ones. This notion of a nested hierarchy of locations dates back to central place theory developed in the 1930s14 and is still relevant in regional science15. The recent universal visitation law of human mobility is a formal expression of this intuition6.\nIn view of this, we identify city–regions based on catchment areas, in turn, based on travel time. In other words, we identify the areas delineated by the minimum travel time (up to 1, 2 or 3 h away) to access each urban tier expressing urban centers of different sizes, assumed to have different levels of specialization (Methods). We assume that towns of between 20,000 and 50,000 people provide basic activities, such as grocery shopping, primary healthcare services and primary schools, while incrementally more specialized activities are provided by small cities of between 50,000 and 250,000 people and intermediate cities of between 250,000 and 1 million people, while large cities of more than 1 million people provide higher-end activities such as sizeable airports and specialized hospitals. A higher tier is assumed to provide all activities provided by lower tiers.\nThe activities provided by urban centers of the same population size may vary greatly with context, particularly across country average income levels16,17,18,19,20. Nonetheless, this tiered classification can capture how larger urban centers are likely to provide more specialized activities in a given context in addition to those already provided by lower tiers. It also captures how people may rely on more than one urban center for different needs, reflecting a stratification of access to urban centers that characterizes city–regions. For instance, an individual might use a nearby town for groceries, commute to an intermediate city for work and travel to a large city for international flights. Their location will thus be part of catchment areas of three distinct urban centers. Someone living very close to a large city, in contrast, will be able to access all the above activities and belong to only the catchment area having the large city as reference.\nThe proposed approach allows us to delineate city–regions in an exhaustive manner by using accessibility within specified travel times to encompass urban centers within a larger center’s catchment area. Catchment areas are determined by a given travel time, whereby the longer the travel time, the broader the catchment area. A catchment area based on 1 h travel represents daily commuting potential, whereas a 3 h travel time suggests access to essential, albeit less frequent services.\nThis paper adopts John Parr’s conceptual framing of city–regions to provide a comprehensive, worldwide spatial representation of central place theory13. We identify, for all land-based locations at 30 arc-seconds resolution (approximately 1 km at the equator), the center of reference by urban tier category and the associated travel time. This is achieved using an established method that estimates the time required to reach each grid cell of the world’s surface21,22,23. Drawing on this dataset and providing a new approach to determine access to multiple urban centers of reference, we then combine it with the Global Human Settlement Layer—Population (GHS-POP) to allocate population to individual pixels (Methods). The approach is tested using three alternative population datasets (Supplementary Information).",
+            "cites": [
+                "ref-CR6",
+                "ref-CR18",
+                "ref-CR16",
+                "ref-CR21",
+                "ref-CR15",
+                "ref-CR2",
+                "ref-CR22",
+                "ref-CR20",
+                "ref-CR17",
+                "ref-CR23",
+                "ref-CR19",
+                "ref-CR13",
+                "ref-CR14"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Mapping access to different urban tiers\nA total of 30,079 urban centers are covered: 18,619 towns, 9,440 small cities, 1,538 intermediate cities and 482 large cities. The catchment areas provide the boundaries for accessing the closest urban center in a given tier within a given travel time cutoff and, thus, determine how many city–regions of different types there are globally for the given travel time cutoff. We distinguish between primary and secondary city–regions; unlike primary city–regions, in secondary city–regions catchment areas of urban centers overlap with that of larger centers (see Table 1 for the terminology and definitions used in this paper).\nWe differentiate primary city–regions into four categories (from one tier to four tiers) based on how many urban tiers these span within the catchment area of the largest urban center of reference. For example, two-tier city–regions may contain any two sizes of urban centers, such as a large city surrounded by towns. The urban centers whose catchment area does not overlap with those of urban centers in other tiers are the special case of ‘single-tier city–regions’. Following Duranton, we further provide alternative delineations for parameter thresholds24 by distinguishing between different travel-time cutoffs (1, 2 and 3 h) for the overlapping catchment areas of different urban centers.\nAnalyzing 30,079 urban centers, spanning 213 countries and territories, we identified 4,210 primary and 25,869 secondary city–regions with an urban center within a 1 h travel time for all locations within their catchment area, relevant for commuting (Extended Data Table 1). Of these, 1,524 are single tier and 2,686 are multi-tier, with 1,751 being two-tier systems. More complex city–regions are fewer, with 627 and 308 city–regions with three and four urban tiers, respectively. We note that standalone single-tier city–regions are relatively few (1,524 out of 30,079 urban centers). Most of these are towns and their surrounding areas, which are more numerous and, being the smallest urban centers considered, cannot form a multi-tier city–region with a smaller urban center.\nThe most common city–regions are two-tier systems centered around small cities that are also a reference center for one or more towns (1,560 within 1 h travel time). In general, the smaller the population of an urban center, the more probable that urban center is to be part of a higher-tier city–region: 95% of towns, 78% of small cities, and 56% of intermediate cities are part of a higher-tier city–region. The results for 2 and 3 h travel time cutoff—relevant for activities that may be critical but are accessed less frequently—can be viewed in Extended Data Table 1. Using a 3 h travel time cutoff reduces fragmentation of catchment areas, making larger urban centers accessible to a broader population for activities that necessitate longer travel times between 1 and 3 h. This reduces the number of urban centers that are at the apex of a city–region for these less-frequent activities to 1,403.\nHaving outlined how many city–regions of different types exist worldwide, the next step is to present the global population distribution across these. Figure 1 shows the share of population living in, or within a certain travel time (1, 2 or 3 h) to the closest urban center, whether a town, small, intermediate or large city. Each column sums up to 100%, and the share above the gray boxes is the summation of all the subshares in the latter. Within the gray boxes, petal diagrams are provided to indicate the share of population that, within a given travel time, can also access urban centers in higher tiers, beyond the one they are closest to. For example, individuals for which the closest urban center is a town but where a small city may also exist within 1 h. The percentages in blue refer to the share of population with access to just one urban center within the given travel time. To illustrate, we find that 5% of the world’s population lives within 1 h from a town with no other urban center in the same vicinity (see row B). Conversely, 7% live within 1 h from a town and a small city, with the town being the closest, while 4% live closest to a town but can also access a small and an intermediate city within 1 h travel time, the small city being the closer of the two.\nLooking at row A, almost half of the world’s population lives outside an urban center (of 20,000 people or more), while only 8% have to travel more than 1 h to access an urban center. This implies that 92% of people live within a commuting distance of an urban center, a considerable contrast to Moreno-Monroy et al., who find that 53% of the population lived in FUAs10. This can be attributed to differences in delineation methods and to the FUA population accounting only for cells with more than 300 people km−2, which excludes a priori 23.5% of the global population25. Another difference is that we consider city–regions of urban centers between 20,000 and 50,000 people, accounting for 5% of the global population (see row B of Fig. 1, blue font, for 1 h travel).\nOur findings reveal substantial interconnectedness among urban centers and with their surrounding areas: of the 7.8 billion people worldwide in 2020, 41% had physical access to multiple tiers within 1 h travel (3.2 billion) and 57% and 64% within 2 and 3 h, respectively (4.5 and 5 billion). Furthermore, out of the 92% who are within 1 h travel time from an urban center, 55% live in or closest to a town or small city and 37% to an intermediate or large city. However, many locations closest to a town or a small city also have access to a higher tier within 1 h travel time. Indeed, considering both single-tier and multi-tier access, by summing all combinations of ‘petals’ that include either an intermediate and/or large city, we find that two-thirds of the world’s population (over 5 billion people) live within 1 h travel time from one or both of these urban tiers providing more specialized activities.\nThe population distribution in Fig. 1 also aligns with central place theory, whereby smaller urban centers tend to gravitate around larger centers with greater economies of scale and more specialized activities. In other words, they are more likely to belong to city–regions with a larger center as reference. Indeed, more than one-third of the global population (34%) is part of city–regions with at least one intermediate or large city within 1 h travel (obtained summing all ‘petals’ in Fig. 1 with at least one intermediate or large city linked to a smaller urban center). When differentiated by level, we find that 28% of the world’s population is part of two-tier city–regions, and 13% of three tier or four tier. These shares increase to 32% and 33%, respectively, when considering 3 h travel time—encompassing 5.0 billion people. Additional results for 35 countries (representing 5.8 billion people) are illustrated in Extended Data Fig. 1.\nAmong people living in or within 1 h travel time to towns or small cities, twice as many have easier access to intermediate cities (20%) than to large cities (10%). This share increases to 35% and 17%, respectively, for 3 h travel time. This occurs despite urban cores of large cities hosting more individuals (23%) than intermediate ones (9%), as can be observed in the very first column of Fig. 1. This suggests that large cities are less relevant than smaller ones in regard to engaging populations outside their urban core for activities that can also be provided by the latter. Indeed, most people do not need frequent access to the very specialized activities provided by large cities only and, thus, may choose to live further away. Figure 1 shows that, within a 1 h travel time, two-thirds of the global population has easier access to small or intermediate cities than to large ones. Still, for the most specialized activities, accessed with lower frequency by many, large cities can be accessed by a sizeable share of the population—up to 50% for 3 h travel time, in addition to another 24% living in their core).\nGlobal averages, however, can be misleading. To illustrate, while a relatively small share (8%) of the global population lives in rural locations that are more than 1 h away from any urban center, at the country level, this number can be far higher—well beyond 50% in countries such as Madagascar, South Sudan and Zimbabwe (Supplementary Table A1.1). For these populations, access to basic activities is probably more challenging. Even more worrisome are the 50% of individuals in these countries for whom access to a small city or larger requires more than 2 h (against the global average of 5%) (Supplementary Table A1.1, adding the second and fifth column entries). For these countries, special attention may be required for regional planning and development to overcome infrastructural challenges. This focus may also apply to countries in less extreme situations, though still problematic, such as Brazil and the Russian Federation, which have populations distributed over a very large territory and for which 8–9% of the population are more than 2 h away from a small city or larger.\n### A closer look at city–regions in four countries\nThis section explores how city–regions are structured within countries, using the examples of Ethiopia, France, Nigeria and Pakistan (Fig. 2), chosen because they have comparable national surface area but different population sizes, physical geography and level of development and infrastructure. Figure 2 represents the spatial distribution of catchment areas composing city–regions for the four countries within 3 h travel time. The maps in the first row refer to catchment areas for accessing the closest urban center and are thus conceptually equivalent to the URCAs1 and most relevant for activities that are typically accessed with higher frequency1. Spanning the four urban tiers, each tier is color-coded differently, with higher level tiers providing more specialized activities, as well as the more basic ones. Moving down in Fig. 2, lower urban tiers are incrementally excluded, for example, in the second row, catchment areas are delineated for the closest small city or larger, in the third row for the closest intermediate city or larger and in the fourth row for the closest large city. A global version of these maps is provided in Supplementary Fig. A2.1).\nPredictably, as the urban tier level increases so does the hinterland (light green), where people do not have access to the activities of the higher tier. What is interesting, however, is how this area changes by country. France and Ethiopia are a case in point. In France—a high-income country with adequate infrastructure—the catchment areas of three-tier city–regions cover almost the entire country and, consequently, probably almost all of its population. Conversely, in Ethiopia—a low-income country with weaker infrastructure—most areas are more than 3 h travel time from an intermediate or large city. It would, thus, appear that more specialized activities are less accessible in the latter country. The weaker infrastructure in Ethiopia is also responsible for the high number of primary city–regions (20) as a share of all urban centers in the country (358). Most of these primary city–regions (16) have a small city as the largest center of reference, indicating limited connectivity across the country. In comparison, France has fewer primary city–regions (4) relative to its total number of urban centers (223), and these are either intermediate or large cities (Extended Data Table 2).\nFollowing Fig. 1, Extended Data Fig. 2 indicates the population distribution—for the same four countries—across city–regions. It emerges that, while the distribution profile changes quite considerably, a sizeable proportion of the population belongs to city–regions—even for the limited 1 h travel time—with an intermediate or large city as reference to access specialized activities: 36% in France, 45% in Nigeria and up to 48% in Pakistan. This share increases to 47–55% if city–regions composed of a small city and towns are included, if slightly less specialized activities are needed (Supplementary Figs. A3.1 and A3.2 for 2 h and 3 h travel, respectively).\nEthiopia is the exception: 76% of the population lives more than 1 h away from any intermediate or large city. Multi-tier city–regions are also relatively limited and an option for only 36% of the population in Ethiopia, with the majority involving towns and small cities (21%). This is unsurprising, given the results in Fig. 2 and the fact that 21% cannot access any urban center within 1 h travel, and only 5% have access to a large city. However, despite low accessibility to intermediate and large cities, towns and small cities can be reached within 1 h travel by 70% of the population. Even in France, Nigeria and Pakistan—where large cities play a notable role and are better connected—we find city–regions with small or intermediate cities as the highest urban tier can engage twice or more of the population compared to city–regions with a large city as the highest tier. This supports the aggregate findings in Fig. 1, whereby large cities were found to be less relevant than smaller ones in engaging populations. In sum, these national differences are, in part, not only due to how urban centers are spatially distributed but also due to the quality of the transport infrastructure connecting urban centers, which can considerably reduce travel time.",
+            "cites": [
+                "ref-CR10",
+                "ref-CR24",
+                "ref-CR25",
+                "ref-CR1"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "This research pioneers a comprehensive framework for representing city–regions worldwide (Figs. 3 and 4), providing insights into how societies organize around urban centers across multiple tiers. The analysis of over 30,000 urban centers reveals a predominance of multi-tier city–regions within a 1 h travel time—relevant for commuting—with single-tier city–regions being relatively rare. This interconnection is extensive, enabling over 5 billion people to access urban centers of 250,000 people or more within 1 h travel time. Expanding the travel time to three hours reduces fragmentation of catchment areas, leading to a decrease of both single-tier and multi-tier primary city–regions, making larger urban centers accessible to an even broader population for activities that necessitate travel times between 1 and 3 h.\nThis research represents the first systematic worldwide delineation of city–regions across urban tiers, helping identify potential needs for infrastructure investment at country level. National results point to striking diversity in city–regions worldwide (Supplementary Annexes 1 and 3). Accessibility patterns vary greatly depending on geography, infrastructure and income level. The diversity of accessibility patterns worldwide calls for national urban policies tailored to unique geographic and income contexts rather than one-size-fits-all solutions often focusing on primate cities. We find intermediate and small cities and, in some cases, towns play an essential role in engaging populations outside urban cores, especially in low income countries. By overcoming infrastructure deficits that hinder regional integration, investments in these urban nodes and in tertiary roads and transport services radiating from them would promote inclusive economic development.\nWe acknowledge noteworthy caveats that would need to be addressed in future work. First, we assume that larger cities have more specialized activities; however, these may vary appreciably even within the same urban tier across different countries and regions. We also acknowledge that urban population alone does not fully capture economic composition, infrastructure, and political and cultural roles that differentiate urban centers. However, our approach can be a first step in considering these important dimensions. We also do not delve into how historical development patterns, resource distribution and governance have shaped present urban hierarchies and rural–urban linkages, warranting further exploration. On a positive note, we test the sensitivity of populations within different city–regions for different population datasets and find results to be robust (Supplementary Annex 5). In sum, the dataset is a valuable tool for regional planning in countries around the world, especially those where spatial analyses are currently not available. Future research can build upon this analysis and dataset by incorporating place-specific data and narratives to provide more grounded geographic insights into city–regions and sustainability.\nOur hope is that this research—grounded in where people live and their physical access to urban centers of different sizes—will stimulate further debate on developing sustainable city–regions worldwide. The dataset can enhance socioeconomic research, regional planning and natural resource management by integrating with spatial socioeconomic data. For sustainable resource management, a coordinated regional approach can be important to plan land use, for provision of amenities, to manage watersheds and to mitigate pollution and ecological impacts transcending urban boundaries. Analyzing city–regions, including their primary and secondary urban centers, can offer insights into urban form, environmental sustainability and environmental amenities provision. The study also invites further examination into the resilience and strategic advantages of polycentric urban regions, where cities share influence without one overshadowing the others. Polycentric regions can be understood as a network of city–regions, each centered around a major hub, impacting governance and development policy considerably.",
+            "cites": [],
+            "figures": [
+                "figure-3",
+                "figure-4"
+            ]
+        },
+        {
+            "title": "Methods",
+            "text": "### The rationale\nThe aim is to represent city–regions in a systematic manner that can help analyze the interaction between an urban core or cores and the surrounding periurban and rural areas. The historical reference for this approach is central place theory developed by Christaller in the 1930s14, which defines regions as areas of a certain market size distributed around a central place, representing a common catchment area for goods and services.\nOur proposed city–regions, based on multiple catchment areas to access different urban tiers, follow more closely the conceptual characterization of city–region proposed by Parr13, whereby the city (C zone) consists of a continuous urbanized area with a population above a predetermined lower bound, surrounded by a territory (S zone). The characteristic of the S zone is that it is linked more with the C zone in question than with the C zone of some adjacent city–region due to its physical proximity to the former. The S zone can contain a rural population as well as an urban population, with the urban population of the S zone located in centers of varying size. As noted by Parr (p. 562)13,\nThe approach taken is to detect systems of city–regions at the global level by identifying what locations are part of primary or secondary city–regions and mapping their S zones, which, to the best of our knowledge, has never been done systematically. This overcomes the critique that city–regions are politically constructed by including some cities and not others26. In our approach, any urban center with a population of 20,000 or more may be identified endogenously as part of a city–region (as primary or secondary C zone).\nFor the purposes of this paper, a city–region describes accessibility for a given travel time to urban activities and is identified by an ensemble of patches sharing the same urban center of reference; we distinguish between primary and secondary city–regions. We consider urban centers to be agglomerations with a population of 20,000 people or more, and the travel time used is from a location to the closest edge of an urban center. Here the term ‘activities’ encompasses both services and employment opportunities. This is because an individual might visit an urban center to access a service (for example, health center) or to commute to work.\nIn Table 1, we summarize the terminology introduced in this article to facilitate the description of the workflow and algorithm. On a technical front, all spatial analysis required to delineate city–region patches was done by using code developed in Go, PHP and Python. QGIS was used for prototyping and visualization purposes. A script in PHP was used to perform the analysis identifying city–regions and providing summary information. All research code is available in the code repository of the paper.\n### Identifying catchment areas is an intermediate step in delineating city–regions\n#### Urban centers\nWe assume four urban tiers based on the population size of the urban centers and assign a unique identifier for each urban center and its catchment area. This was the starting point to create a global representation of city–regions based on the data for accessing each of the four tiers.\nBasic activities are provided by all urban centers, of which the locations and populations have been derived starting from the Global Human Settlement Layer27,28. We process data so that each urban center has a unique number to identify it and its classification as a town, small, intermediate or large city (see Table 1 for a definition of each). To prevent bias when classifying urban centers into different levels, four different gridded global population datasets are utilized in this study, and decision rules are applied that aim at an unbiased classification considering information provided by all datasets (Supplementary Annexes 4 and 5).\nUrban centers of four tiers are grouped into four different urban grids (locating urban centers on a map) based on activity levels. These urban grids are crucial because the city–regions we want to identify describe spatial distribution of availability of multiple levels of specialization of activities. Because higher-tier urban centers can provide all activities that can be provided by lower-tiers (recall Table 1), urban centers have to be grouped into four activity tiers representing the level of accessibility of activities: the first tier urban grid including all urban centers above 20,000 people with access to basic activities (for example, grocery shopping and primary education); the second tier urban grid including small, intermediate and large cities providing higher-level activities (for example, large supermarkets, secondary and higher education); the third tier including intermediate and large cities with more sophisticated and diversified activities (for example, broader employment opportunities and multiple specialized health care options); and the fourth tier including only large cities providing most specialized activities (for example, an airport).\n#### Travel time\nAfter classifying urban centers into our four urban tiers and creating the urban grids based on activity tiers, the next step in representing city–regions in a systematic manner is delineating the catchment areas around the urban centers based on representative metrics of accessibility. Physical accessibility based on travel time is one of the most common metrics used for this purpose. The calculations of travel time from an arbitrary location and its most proximate urban center apply a least-cost path algorithm that determines the fastest route over a travel cost surface, while keeping track of the destination urban center (see ref. 22 for details). This allows efficient delineation of the least-travel-time catchments around urban centers.\nThe travel cost grid derives from spatial datasets that represent the surface transport network (that is, roads, railroads, navigable rivers and other surfaces traversed by foot) and land-cover data, elevation and slope and international borders. The characteristics of these datasets allow the estimation of plausible travel speeds across different parts of the transport network, foot-based speeds over different types of terrain, speed adjustment factors associated with slope and extreme elevation and delays at international border crossings22. The resulting cost surface estimates the time required to cross each grid cell of the world’s surface. We use the most up-to-date global estimates of travel times available at a spatial resolution of about 1 km and build on earlier work that applied the method across a spectrum of settlement sizes21,23.\n#### Catchment areas\nFor each urban grid, the catchment area around each urban center is determined based on minimum travel time that is calculated by using a grid-based minimum cumulative weighted distance method developed for the study that considers eight-connectivity on a spherical coordinate system with rolling at the International Date Line and the poles; hence, it enables a global travel time analysis. By using the urban centers as starting points and utilizing the travel cost grid for the unit travel cost at each grid cell (min km−1), the method generates global minimum travel time and minimum travel time sheds concurrently.\nThe catchment area of an urban center for a given activity tier is thus defined by the set of locations for which that urban center is closest for that tier. Should two or more urban centers be equally distant from a location, we assume that people will prefer to travel to a smaller city if it is sufficient for the level of activity that is required. This is based on intuition but also serves the purpose of keeping track of the smaller urban center for providing less specialized activities. As a result, each location has up to four urban center of reference, one for each activity tier level. Figure 2 presents sequentially the catchment areas for the different activity levels for four countries. It highlights how the catchment areas of urban centers expand as the urban tier level increases; hence, the activity level being sought increases, which follows from our definition that lower-tier urban centers cannot provide the more specialized activities of higher urban tiers.\n### City–region delineation and stratified access to activities\n#### City–region patches\nTo enable categorization of city–regions based on the number and types of their reference urban centers we first identify patches. The patches describe the spatial distribution of the availability of multiple levels of activities and by which urban centers they are provided. For this purpose, urban center identifications (IDs) of each overlapping catchment grid cell for four different activity levels are merged into a patch ID by using a variable-bit encoding method, which results in unique IDs for each unique set of urban centers providing different levels of activities (Supplementary Annex 4). Land-based locations worldwide are divided among over 100,000 unique patches. Figure 3 presents the workflow, starting from the identification of urban centers, delineation of catchments and aggregation into patches, which form the basis of city–regions.\nWe use a four-digit classification system to identify the types of patches based on the urban tiers of the related reference urban centers. The first digit is used to indicate the tier of the urban center for tier 1 activities (that is, basic activities), the second one for tier 2, the third for tier 3 and finally the fourth for tier 4 (that is, most specialized activities). The allowed values for each digit are 0–4, with 0 representing no access to activities (that is, no urban center is within reach of a patch to provide the indicated level of activity) and 1–4 representing the urban tier of the urban center providing the indicated level of activity. For the tiers, 1 indicates a town, 2 indicates a small city, 3 indicates an intermediate city and 4 indicates a large city. There are 16 possible type codes that range between 0000 (no access to activities) and 4444 (all activities provided by a large city), which are illustrated in Fig. 4.\nIn Fig. 4, each box shows a location indicated by a star and the patch it belongs to, which can be viewed as part of a city–region. Urban centers are shown with solid circles with different colors and increasing diameters from town to large city. The exception being the top box where no urban center is accessible within a given travel time. The catchment areas are then shown with semitransparent circles of the same color, which assumes for visual simplicity a uniform unit travel-time grid. Hence, the distance between the outer boundaries of the urban centers and the edge of their corresponding catchment areas are identical for a specific travel time cutoff (t*). As catchment areas of the different urban centers increasingly overlap, different types of patches are created. The code at the bottom-right of each box indicates the type of the patch where the star is located. As illustrated in Fig. 4 (and recalling Table 1), patches can be of four types: single-tier (second row; codes 1000, 2200, 3330 and 4444), two-tier (third row; codes 1200, 1330, 1444, 2230, 2244 and 3334), three-tier (fourth row; codes 1230, 1244, 1334 and 2234) and four-tier (fifth row; code 1234). As shown in Fig. 4, three-tier and four-tier patches encompass two-tier patches in their vicinity, reflecting a more complex urbanization pattern.\nFor illustration purposes, a four-digit code of 2230 shows that for all grid cells in the patch the closest urban center is a small city (2), which provides both tier 1 and tier 2 activities, but there is also an intermediate city (3) within a given travel time cutoff providing more specialized activities. The code also indicates that there are no large cities within travel time cutoff. If there were a large city, then the code would be 2234, or possibly 2244 if the large city were closer than the intermediate city or 4444 if it were the closest urban center. If there were a town closer than the small city, then the code would be 1230.\n#### City–regions\nBy identifying patches associated with the same highest-tier urban center, we delineate the boundaries of that center’s city–region. The resulting city–regions are mutually exclusive from each other for each activity level and have a global coverage for different travel time cutoffs. The travel time cutoffs used in our analysis are 1 (to reflect a commuting cutoff), 2 and 3 h (to reflect accessing activities that require less frequent trips), but it is straightforward to select different cutoffs. The patch IDs are persistent between different travel time cutoffs, that is, the same patch ID is assigned to the same set of urban centers of various tiers, which allows tracking of the change of patch, hence, city–region, extents depending on the travel time cutoffs.\nIn the final step, we determine whether an urban center is the apex of a primary city–region or whether it belongs to a secondary city–region (first branching in Extended Data Fig. 3). When an urban center serves as a reference to locations in just one single patch it is classified as a single-tier city–region; it is not part of the catchment area of a larger urban center, and no lower-tier urban centers are accessible within the travel time cutoff. For secondary city–regions we distinguish between satellite ones, which basically just gravitate around a larger urban center, and nested ones, whose catchment areas overlap with those of lower-tier centers. An example of primary and secondary city–regions for the area surrounding Birmingham is given in Supplementary Fig. A4.2.\nFor each city–region, the country where the city–region is located is identified by using the Global Administrative Areas Database29. For city–regions that spread to multiple countries, the country with the largest proportion by surface area is considered as country of the city–region. To enable city–region population statistics at country level, separate population values are also calculated for each country segment of multicountry city–regions.\nSimilar to the urban centers, the population of each city–region is calculated by using the GHS-POP, Gridded Population of the World, LandScan and WorldPop population datasets for all three travel time cutoffs. The results are presented here only for GHS-POP (for a comparison across population datasets, see Supplementary Annex 5).\nBy using this data, we compute the following variables: (1) area and population of each urban center, (2) area and population of the ‘proximate catchments’ that are less than 1 h from the edge of an urban center (not including the area of the urban core), (3) area and population that are up to 2 h away from an urban center (not including the area of the urban core) and (4) area and population of the ‘full catchment’, which include areas that are up to 3 h away from an urban center (not including the area of the urban core).\nWhen computing the number of city–regions of different types, we calculated different city–region types separately for each tier to avoid double counting. Some high-tier city–regions may contain subareas (patches) associated with lower tiers that could be wrongly counted as separate systems; we adjusted for this by accounting for secondary city–regions embedded within higher ones. This provided the number of primary city–regions associated with different travel time cutoffs to reach the urban centers of reference (Table 1).\nOur approach is an advancement in several respects relative to the URCA1 methodology that most closely aligns with ours: it allows locations to reference multiple urban centers across four tiers, introduces precise travel time measurements instead of broad ranges, tracks the specific urban center and its city–region for each location and uses four population datasets to minimize bias in population estimates for city–regions (Supplementary Annex 4). Our algorithm for identifying city–regions also eliminates the prerequisite of predefining a hierarchy based on urban center size within each travel time range, a constraint in the URCA approach since it limited each location to a single urban center of reference. Furthermore, our approach is also complementary and relevant for a polycentric perspective focusing on an area containing a cluster of urban centers, none of which has a pronounced dominance over the others30,31. Polycentric regions can be viewed as a series of city–regions—each based on a major center of the supposed polycentric urban region—providing access to different urban tiers within each31.\nIn spite of the innovations introduced by our approach, there are key assumptions that need to be highlighted. The number and types of city–regions identified will be sensitive to the travel time cutoff adopted and to the population range prespecified for the four urban tiers. The first issue can be easily adjusted by specifying different travel time cutoffs. So, for example, it is straightforward to calculate a set of results for city–regions delineated by a 90 min travel time instead of the ones used in the paper. On the other hand, changing the population ranges for the urban tiers is possible but would essentially entail adjusting the code to construct a new dataset ex novo.\nOur study establishes a global city–region classification using uniform criteria to ensure broad applicability and comparability, albeit at the expense of contextual factors. By defining urban tiers through population thresholds and physical accessibility, we offer a first-step approximation to global patterns, acknowledging the inevitable loss of local geographic nuances shaped by history, culture, economics and environment. This framework aims to inspire further research into urban–rural connections and regional connectivity, offering our dataset as a foundation to progress from broad patterns to detailed, localized analyses.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR28",
+                "ref-CR21",
+                "ref-CR31",
+                "ref-CR22",
+                "ref-CR1",
+                "ref-CR23",
+                "ref-CR29",
+                "ref-CR13",
+                "ref-CR30",
+                "ref-CR26",
+                "ref-CR27",
+                "ref-CR14"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Global population distribution across different types of city–regions, 2020.",
+            "figure-caption": "The figure presents the share of population living in or within a certain travel time of the closest urban center, broken down by size of the urban center. It is divided into four columns, each of which sums to 100% and determines the share of the population living in the core or within a certain time range—1, 2 or 3 h—of an urban center, whether a town, small, intermediate or large city. Row A refers to the share of population living in a rural area with no surrounding urban center, given travel time. Rows B–E apply to locations whereby the closest urban center is a town, small city, intermediate city or large city, respectively. Moving from left to right, the values increase with travel time as they incorporate the population in preceding columns. To illustrate, the population considered within 1 h travel time also includes those living in the core. The petal diagrams in the gray boxes differentiate the share of population with access to different urban tiers. The percentages in blue refer to the share of population with access to just one urban center within the given travel time.",
+            "figure-link": "https://www.nature.com/natcities/articles/s44284-024-00083-z/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: City–region catchment areas by minimum travel time (up to 3 h) to access different urban tiers in Ethiopia, France, Nigeria and Pakistan.",
+            "figure-caption": "Higher-tier urban centers are assumed to provide all activities provided by lower-tier urban centers; therefore, their catchment areas are included in the lower tiers. Light green indicates locations that are more than 3 h away from an urban center.",
+            "figure-link": "https://www.nature.com/natcities/articles/s44284-024-00083-z/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Workflow for delineating urban catchments and city–region patches.",
+            "figure-caption": "To categorize city–regions, we first classify reference urban centers by population size as a proxy for the range of activities they provide. An urban center in a higher tier is assumed to provide all activities provided by lower tiers. Next, we determine urban centers’ catchment area for each activity tier, within a specified travel time cutoff, and overlay these catchment areas to identify patches. Unique patch IDs are created for describing locations served by the same set of urban centers.",
+            "figure-link": "https://www.nature.com/natcities/articles/s44284-024-00083-z/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Types of city–region patches.",
+            "figure-caption": "A patch is made up of locations served by the same set of urban centers within a specified travel time cutoff. As catchment areas (semi-transparent circles) of the different urban centers increasingly overlap, different types of patches are created. Each box shows a location indicated by a star and the type of patch it belongs to. The four-digit classification in each panel is to identify the type of patch based on the size of urban centers providing different levels of activity. The allowed values for each digit are 0–4. Thus, the four-digit value ‘0000’ expresses no access to urban activities, while ‘4444’ expresses that all four level of activities are provided by a large city (see Methods for details).",
+            "figure-link": "https://www.nature.com/natcities/articles/s44284-024-00083-z/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Cattaneo, A., Nelson, A. & McMenomy, T. Global mapping of urban–rural catchment areas reveals unequal access to services. Proc. Natl Acad. Sci. USA 118, e2011990118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2011990118",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20mapping%20of%20urban%E2%80%93rural%20catchment%20areas%20reveals%20unequal%20access%20to%20services&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2011990118&volume=118&publication_year=2021&author=Cattaneo%2CA&author=Nelson%2CA&author=McMenomy%2CT"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Rodríguez-Pose, A. The rise of the ‘city–region’ concept and its development policy implications. Eur. Plan. 16, 1025–1046 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F09654310802315567",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20rise%20of%20the%20%E2%80%98city%E2%80%93region%E2%80%99%20concept%20and%20its%20development%20policy%20implications&journal=Eur.%20Plan.&doi=10.1080%2F09654310802315567&volume=16&pages=1025-1046&publication_year=2008&author=Rodr%C3%ADguez-Pose%2CA"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Moisio, S. & Jonas, A. E. in Handbook on the Geographies of Regions and Territories (eds Paasi, A. et al.) 285–297 (Edward Elgar Publishing, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Acuto, M., Parnell, S. & Seto, K. C. Building a global urban science. Nat. Sustain. 1, 2–4 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-017-0013-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Building%20a%20global%20urban%20science&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-017-0013-9&volume=1&pages=2-4&publication_year=2018&author=Acuto%2CM&author=Parnell%2CS&author=Seto%2CKC"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Keith, M. et al. A new urban narrative for sustainable development. Nat. Sustain. 6, 115–117 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-022-00979-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20new%20urban%20narrative%20for%20sustainable%20development&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-022-00979-5&volume=6&pages=115-117&publication_year=2022&author=Keith%2CM"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Schläpfer, M. et al. The universal visitation law of human mobility. Nature 593, 522–527 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-021-03480-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20universal%20visitation%20law%20of%20human%20mobility&journal=Nature&doi=10.1038%2Fs41586-021-03480-9&volume=593&pages=522-527&publication_year=2021&author=Schl%C3%A4pfer%2CM"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Hutchings, P. et al. Understanding rural–urban transitions in the Global South through peri-urban turbulence. Nat. Sustain. 5, 924–930 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-022-00920-w",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20rural%E2%80%93urban%20transitions%20in%20the%20Global%20South%20through%20peri-urban%20turbulence&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-022-00920-w&volume=5&pages=924-930&publication_year=2022&author=Hutchings%2CP"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Liotta, C., Viguié, V. & Creutzig, F. Environmental and welfare gains via urban transport policy portfolios across 120 cities. Nat. Sustain. 6, 1067–1076 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-023-01138-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20and%20welfare%20gains%20via%20urban%20transport%20policy%20portfolios%20across%20120%20cities&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-023-01138-0&volume=6&pages=1067-1076&publication_year=2023&author=Liotta%2CC&author=Vigui%C3%A9%2CV&author=Creutzig%2CF"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Dijkstra, L. et al. Applying the degree of urbanisation to the globe: a new harmonised definition reveals a different picture of global urbanisation. J. Urban Econ. 125, 103312 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jue.2020.103312",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Applying%20the%20degree%20of%20urbanisation%20to%20the%20globe%3A%20a%20new%20harmonised%20definition%20reveals%20a%20different%20picture%20of%20global%20urbanisation&journal=J.%20Urban%20Econ.&doi=10.1016%2Fj.jue.2020.103312&volume=125&publication_year=2021&author=Dijkstra%2CL"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Moreno-Monroy, A. I., Schiavina, M. & Veneri, P. Metropolitan areas in the world. Delineation and population trends. J. Urban Econ. 125, 103242 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jue.2020.103242",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Metropolitan%20areas%20in%20the%20world.%20Delineation%20and%20population%20trends&journal=J.%20Urban%20Econ.&doi=10.1016%2Fj.jue.2020.103242&volume=125&publication_year=2020&author=Moreno-Monroy%2CAI&author=Schiavina%2CM&author=Veneri%2CP"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Cattaneo, A. et al. Economic and social development along the urban–rural continuum: new opportunities to inform policy. World Dev. 157, 105941 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.worlddev.2022.105941",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Economic%20and%20social%20development%20along%20the%20urban%E2%80%93rural%20continuum%3A%20new%20opportunities%20to%20inform%20policy&journal=World%20Dev.&doi=10.1016%2Fj.worlddev.2022.105941&volume=157&publication_year=2022&author=Cattaneo%2CA"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Nagendra, H., Bai, X., Brondizio, E. S. & Lwasa, S. The urban south and the predicament of global sustainability. Nat. Sustain. 1, 341–349 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-018-0101-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20urban%20south%20and%20the%20predicament%20of%20global%20sustainability&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-018-0101-5&volume=1&pages=341-349&publication_year=2018&author=Nagendra%2CH&author=Bai%2CX&author=Brondizio%2CES&author=Lwasa%2CS"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Parr, J. Perspectives on the city–region. Reg. Stud. 39, 555–566 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F00343400500151798",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Perspectives%20on%20the%20city%E2%80%93region&journal=Reg.%20Stud.&doi=10.1080%2F00343400500151798&volume=39&pages=555-566&publication_year=2005&author=Parr%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Christaller, W. Die zentralen Orte in Süddeutschland (the Central Places in Southern Germany)(Gustav Fischer, 1933).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Mulligan, G. F., Partridge, M. & Carruthers, J. I. Central place theory and its reemergence in regional science. Ann. Reg. Sci. 48, 405–431 (2012).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00168-011-0496-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Central%20place%20theory%20and%20its%20reemergence%20in%20regional%20science&journal=Ann.%20Reg.%20Sci.&doi=10.1007%2Fs00168-011-0496-7&volume=48&pages=405-431&publication_year=2012&author=Mulligan%2CGF&author=Partridge%2CM&author=Carruthers%2CJI"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Kompil, M., Jacobs-Crisioni, C., Dijkstra, L. & Lavalle, C. Mapping accessibility to generic services in Europe: a market-potential based approach. Sustain. Cities Soc. 47, 101372 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2018.11.047",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mapping%20accessibility%20to%20generic%20services%20in%20Europe%3A%20a%20market-potential%20based%20approach&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2018.11.047&volume=47&publication_year=2019&author=Kompil%2CM&author=Jacobs-Crisioni%2CC&author=Dijkstra%2CL&author=Lavalle%2CC"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Milbert, A., Breuer, I., Rosik, P., Stępniak, M. & Velasco, X. Accessibility of services of general interest in Europe. Romanian J. Reg. Sci. 7, 37–65 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Accessibility%20of%20services%20of%20general%20interest%20in%20Europe.&journal=Romanian%20J.%20Reg.%20Sci.&volume=7&pages=37-65&publication_year=2019&author=Milbert%2CA&author=Breuer%2CI&author=Rosik%2CP&author=St%C4%99pniak%2CM&author=Velasco%2CX"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Jacobs-Crisioni, C., Kompil, M. & Dijkstra, L. Big in the neighbourhood: identifying local and regional centres through their network position. Pap. Reg. Sci. 102, 421–457 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fpirs.12727",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Big%20in%20the%20neighbourhood%3A%20identifying%20local%20and%20regional%20centres%20through%20their%20network%20position&journal=Pap.%20Reg.%20Sci.&doi=10.1111%2Fpirs.12727&volume=102&pages=421-457&publication_year=2023&author=Jacobs-Crisioni%2CC&author=Kompil%2CM&author=Dijkstra%2CL"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Post, A. E. & Kuipers, N. City size and public service access: evidence from Brazil and Indonesia. Perspect. Politics 21, 811–830 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1017%2FS1537592722003176",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=City%20size%20and%20public%20service%20access%3A%20evidence%20from%20Brazil%20and%20Indonesia&journal=Perspect.%20Politics&doi=10.1017%2FS1537592722003176&volume=21&pages=811-830&publication_year=2023&author=Post%2CAE&author=Kuipers%2CN"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Austin, S. et al. Access to urban acute care services in high- vs. middle-income countries: an analysis of seven cities. Intensive Care Med. 40, 342–352 (2014).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00134-013-3174-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Access%20to%20urban%20acute%20care%20services%20in%20high-%20vs.%20middle-income%20countries%3A%20an%20analysis%20of%20seven%20cities&journal=Intensive%20Care%20Med.&doi=10.1007%2Fs00134-013-3174-7&volume=40&pages=342-352&publication_year=2014&author=Austin%2CS"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Weiss, D. J. et al. Global maps of travel time to healthcare facilities. Nat. Med. 26, 1835–1838 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41591-020-1059-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20maps%20of%20travel%20time%20to%20healthcare%20facilities&journal=Nat.%20Med.&doi=10.1038%2Fs41591-020-1059-1&volume=26&pages=1835-1838&publication_year=2020&author=Weiss%2CDJ"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Weiss, D. J. et al. A global map of travel time to cities to assess inequalities in accessibility in 2015. Nature 553, 333–336 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature25181",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20global%20map%20of%20travel%20time%20to%20cities%20to%20assess%20inequalities%20in%20accessibility%20in%202015&journal=Nature&doi=10.1038%2Fnature25181&volume=553&pages=333-336&publication_year=2018&author=Weiss%2CDJ"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Nelson, A. et al. A suite of global accessibility indicators. Sci. Data 6, 266 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41597-019-0265-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20suite%20of%20global%20accessibility%20indicators&journal=Sci.%20Data&doi=10.1038%2Fs41597-019-0265-5&volume=6&publication_year=2019&author=Nelson%2CA"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Duranton, G. Classifying locations and delineating space: an introduction. J. Urban Econ. 125, 103353 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jue.2021.103353",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Classifying%20locations%20and%20delineating%20space%3A%20an%20introduction&journal=J.%20Urban%20Econ.&doi=10.1016%2Fj.jue.2021.103353&volume=125&publication_year=2021&author=Duranton%2CG"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "OECD and European Commission. Cities in the World: A New Perspective on Urbanisation (OECD, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Harrison, J. & Heley, J. Governing beyond the metropolis: placing the rural in city–region development. Urban Stud. 52, 1113–1133 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0042098014532853",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Governing%20beyond%20the%20metropolis%3A%20placing%20the%20rural%20in%20city%E2%80%93region%20development&journal=Urban%20Stud.&doi=10.1177%2F0042098014532853&volume=52&pages=1113-1133&publication_year=2015&author=Harrison%2CJ&author=Heley%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Schiavina, M. et al. GHSL Data Package 2022—Public Release GHS P2022 (Publications Office of the European Union, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Schiavina, M., Freire, S. & MacManus, K. GHS-POP R2022A—GHS population grid multitemporal (1975–2030). Joint Research Centre Data Catalogue https://doi.org/10.2905/D6D86A90-4351-4508-99C1-CB074B022C4A (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Hijmans, R. Global Administrative Areas Database (GADM) Version 4.1 (GADM, 2022); https://gadm.org/",
+            "links": {}
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Parr, J. The polycentric urban region: a closer inspection. Reg. Stud. 38, 231–240 (2004).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F003434042000211114",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20polycentric%20urban%20region%3A%20a%20closer%20inspection&journal=Reg.%20Stud.&doi=10.1080%2F003434042000211114&volume=38&pages=231-240&publication_year=2004&author=Parr%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Parr, J. B. The regional economy, spatial structure and regional urban systems. Reg. Stud. 48, 1926–1938 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F00343404.2013.799759",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20regional%20economy%2C%20spatial%20structure%20and%20regional%20urban%20systems&journal=Reg.%20Stud.&doi=10.1080%2F00343404.2013.799759&volume=48&pages=1926-1938&publication_year=2014&author=Parr%2CJB"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Cattaneo, A. et al. Worldwide delineation of multi-tier city–regions [data set]. Zenodo https://doi.org/10.5281/zenodo.11187634 (2024).",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The global spatial dataset of city–regions for different travel time cutoffs is available in a public repository (check README.md). In the repository we also provide, for each population dataset, a tool in Excel that can generate the distribution of populations across types of city–region (shown in Fig. 1 and Extended Data Fig. 2 of this paper using the GHS-POP version) for any country in the world. All files are available on the City–Region System Toolbox from Zenodo via https://doi.org/10.5281/zenodo.11187634 (ref. 32). The input data used for the analysis can be found in Supplementary refs. 1 and 3–6.",
+            "links": {
+                "1": "/articles/s44284-024-00083-z#MOESM1",
+                "2": "/articles/s44284-024-00083-z#Fig6",
+                "https://doi.org/10.5281/zenodo.11187634": "https://doi.org/10.5281/zenodo.11187634",
+                "32": "/articles/s44284-024-00083-z#ref-CR32",
+                "3–6": "/articles/s44284-024-00083-z#MOESM1"
+            }
+        },
+        "Code availability": {
+            "content": "Scripts in Python and PHP were used to preprocess input data. They are available via GitHub at http://github.com/ITC-CRIB/city-regions. Minimum cumulative weighted distance and catchment delineation code is available via GitHub at https://github.com/ITC-CRIB/globetrotter. Final data cleaning and analysis was done in Microsoft Excel (commercial). All maps were made in QGIS 3.22 and R.",
+            "links": {
+                "http://github.com/ITC-CRIB/city-regions": "http://github.com/ITC-CRIB/city-regions",
+                "https://github.com/ITC-CRIB/globetrotter": "https://github.com/ITC-CRIB/globetrotter"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We would like to thank P. D’odorico, I. Soloaga, K. Stamoulis, K. Svobodova and C. Tuholske for feedback provided in earlier drafts of this paper. The views expressed in this article are those of the authors and do not necessarily reflect the views or policies of the institutions they are affiliated with.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsAndrea CattaneoView author publicationsSearch author on:PubMed Google ScholarSerkan GirginView author publicationsSearch author on:PubMed Google ScholarRolf de ByView author publicationsSearch author on:PubMed Google ScholarTheresa McMenomyView author publicationsSearch author on:PubMed Google ScholarAndrew NelsonView author publicationsSearch author on:PubMed Google ScholarSara VazView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nA.C. and S.G. jointly conceived and coordinated the study. S.G. developed the algorithm needed to implement the approach and test its robustness, supported by A.N. and R.d.B. A.C. developed the petal diagrams reporting population distribution. All authors contributed equally to analyzing and interpreting the results and drafting the paper.\n### Corresponding author\nCorrespondence to\n                Andrea Cattaneo.",
+            "links": {
+                "View author publications": "/search?author=Sara%20Vaz",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Sara%20Vaz",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Sara%20Vaz%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Andrea Cattaneo": "mailto:Andrea.cattaneo@fao.org"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Cities thanks Remy Sietchiping, Sumeeta Srinivasan and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data": {
+            "content": "Extended Data Table 1 Number of primary city–regions, globally, for different travel time cutoffsFull size tableExtended Data Table 2 Number of primary and secondary city–regions for Ethiopia, France, Nigeria, and Pakistan by travel time cutoffFull size tableExtended Data Fig. 1 Percentage of population that has access to more than one urban tier based on travel time.Note: This Figure is derived from information contained in the petal-diagram of the type presented in Fig. 1 of the manuscript, when computed for the respective countries (see Fig. 1 and Figs. A3.1 and A3.2 for Ethiopia, France, Nigeria, and Pakistan). They reflect the sum of the bold values in rows B, C and D (the share of the population in locations whereby the closest urban centre is a town, small city, intermediate city, respectively) and subtract the blue values in those rows (the share of population with access to just one urban centre across the given travel time).Extended Data Fig. 2 Population distribution across different types of city–regions for Ethiopia, France, Nigeria, and Pakistan within 1-hour travel time, 2020.Legend: The figure presents the share of population living in, or within a certain travel time of, the closest urban centre, broken down by size of the urban centre. It is divided into four columns, each of which sums to 100% and determines the share of the population living in the core or within a certain time range – 1, 2 or 3 hours – of an urban centre, whether a town, small, intermediate, or large city. Row A refers to the share of population living in a rural area with no surrounding urban centre, given travel time. Rows B–E apply to locations whereby the closest urban centre is a town, small city, intermediate city, or large city, respectively. Moving from left to right, values increase with travel time as they incorporate the population in preceding columns. To illustrate, the population considered within 1-hour travel time also includes those living in the core. The petal diagrams in the grey boxes differentiate the share of population with access to different urban tiers. Percentages in blue refer to the share of population with access to just one urban centre within the given travel time.Extended Data Fig. 3 Determination of primary and secondary city–regions.Note: In order to classify city-regions as primary, secondary, and satellite city-regions, the following analysis is performed. For each city-region, the highest-tier urban centre of all patches of the city-region are enumerated. For example, for a city-region that is composed of five patches, five highest-tier urban centres are listed. If all highest-tier urban centres of the city-region is equal to the urban centre of the city-region, then the city-region is classified as a primary city-region. This indicates that the city-region does not overlap with a city-region of a higher-tier urban centre. If at least one highest-tier urban centre is equal to the urban centre of the city-region, but there are also other highest-tier urban centres, then the city-region is classified as a secondary city-region. This indicates that the city-region overlaps with one or more city-regions of higher-tier urban centres. Finally, among secondary city-regions, we distinguish between satellite city–regions, which have no lower tiers embedded below it, and nested city–regions that instead do overlap with lower tiers.",
+            "links": {
+                "Full size table": "/articles/s44284-024-00083-z/tables/3",
+                "Extended Data Fig. 1 Percentage of population that has access to more than one urban tier based on travel time.": "/articles/s44284-024-00083-z/figures/5",
+                "1": "/articles/s44284-024-00083-z#Fig1",
+                "A3.1": "/articles/s44284-024-00083-z#MOESM1",
+                "A3.2": "/articles/s44284-024-00083-z#MOESM1",
+                "Extended Data Fig. 2 Population distribution across different types of city–regions for Ethiopia, France, Nigeria, and Pakistan within 1-hour travel time, 2020.": "/articles/s44284-024-00083-z/figures/6",
+                "Extended Data Fig. 3 Determination of primary and secondary city–regions.": "/articles/s44284-024-00083-z/figures/7"
+            }
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Annexes 1–5, Discussion, Tables A1.1, A4.1, A5.1 and A5.2, and Figs. A2.1, A3.1, A3.2., A4.1, A4.2, A5.1 and A5.2.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-024-00083-z/MediaObjects/44284_2024_83_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-024-00083-z/MediaObjects/44284_2024_83_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Worldwide%20delineation%20of%20multi-tier%20city%E2%80%93regions&author=Andrea%20Cattaneo%20et%20al&contentID=10.1038%2Fs44284-024-00083-z&copyright=Food%20and%20Agriculture%20Organization%20of%20the%20United%20Nations&publication=2731-9997&publicationDate=2024-06-26&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleCattaneo, A., Girgin, S., de By, R. et al. Worldwide delineation of multi-tier city–regions.\n                    Nat Cities 1, 469–479 (2024). https://doi.org/10.1038/s44284-024-00083-zDownload citationReceived: 09 January 2024Accepted: 16 May 2024Published: 26 June 2024Issue date: July 2024DOI: https://doi.org/10.1038/s44284-024-00083-zShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s44284-024-00083-z?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Worldwide delineation of multi-tier city–regions",
+                "description": "Urban centers are pivotal in shaping societies, yet a systematic global analysis of how countries are organized around multiple urban centers is lacking. We enhance understanding by delineating city–regions worldwide, classifying over 30,000 urban centers into four tiers—town, small, intermediate and large city—based on population size and mapping their catchment areas based on travel time, differentiating between primary and secondary city–regions. Here we identify 1,403 primary city–regions employing a 3 h travel time cutoff and increasing to 4,210 with a 1 h cutoff, which is more indicative of commuting times. Our findings reveal substantial interconnectedness among urban centers and with their surrounding areas, with 3.2 billion people having physical access to multiple tiers within an hour and 4.7 billion within 3 h. Notably, among people living in or closest to towns or small cities, twice as many have easier access to intermediate than to large cities, underscoring intermediate cities’ crucial role in connecting surrounding populations. This systematic identification of city–regions globally uncovers diverse organizational patterns across urban tiers, influenced by geography, level of development and infrastructure, offering a valuable spatial dataset for regional planning, economic development and resource management. This study uncovers the surprising interconnectedness of urban centers globally, finding that 3.2 billion individuals can access multiple urban tiers ranging from towns to large cities within an hour’s travel. It particularly emphasizes the strategic importance of intermediate cities in linking various urban and rural areas, crucial for effective regional development.",
+                "datePublished": "2024-06-26T00:00:00Z",
+                "dateModified": "2024-06-26T00:00:00Z",
+                "pageStart": "469",
+                "pageEnd": "479",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s44284-024-00083-z",
+                "keywords": [
+                    "Complex networks",
+                    "Developing world",
+                    "Geography",
+                    "Cities",
+                    "Countries",
+                    "Regions",
+                    "Sustainable Architecture/Green Buildings",
+                    "Civil Engineering",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urban Studies/Sociology",
+                    "Urban Economics"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-024-00083-z/MediaObjects/44284_2024_83_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-024-00083-z/MediaObjects/44284_2024_83_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-024-00083-z/MediaObjects/44284_2024_83_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-024-00083-z/MediaObjects/44284_2024_83_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Cities",
+                    "issn": [
+                        "2731-9997"
+                    ],
+                    "volumeNumber": "1",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Andrea Cattaneo",
+                        "url": "http://orcid.org/0000-0002-8845-5020",
+                        "affiliation": [
+                            {
+                                "name": "Food and Agriculture Organization of the United Nations",
+                                "address": {
+                                    "name": "Food and Agriculture Organization of the United Nations, Rome, Italy",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "Andrea.cattaneo@fao.org",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Serkan Girgin",
+                        "url": "http://orcid.org/0000-0002-0156-185X",
+                        "affiliation": [
+                            {
+                                "name": "University of Twente",
+                                "address": {
+                                    "name": "Faculty of Geo-Information Science and Earth Observation, University of Twente, Enschede, the Netherlands",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Rolf de By",
+                        "affiliation": [
+                            {
+                                "name": "University of Twente",
+                                "address": {
+                                    "name": "Faculty of Geo-Information Science and Earth Observation, University of Twente, Enschede, the Netherlands",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Theresa McMenomy",
+                        "url": "http://orcid.org/0000-0002-6100-7850",
+                        "affiliation": [
+                            {
+                                "name": "Food and Agriculture Organization of the United Nations",
+                                "address": {
+                                    "name": "Food and Agriculture Organization of the United Nations, Rome, Italy",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Andrew Nelson",
+                        "url": "http://orcid.org/0000-0002-7249-3778",
+                        "affiliation": [
+                            {
+                                "name": "University of Twente",
+                                "address": {
+                                    "name": "Faculty of Geo-Information Science and Earth Observation, University of Twente, Enschede, the Netherlands",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Sara Vaz",
+                        "url": "http://orcid.org/0000-0003-1263-8098",
+                        "affiliation": [
+                            {
+                                "name": "Food and Agriculture Organization of the United Nations",
+                                "address": {
+                                    "name": "Food and Agriculture Organization of the United Nations, Rome, Italy",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "complex-networks;developing-world;geography",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "Computational Social Science",
+                            "webtrendsContentGroup": "Nature Cities",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s44284-024-00083-z"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Andrea Cattaneo",
+                            "Serkan Girgin",
+                            "Rolf de By",
+                            "Theresa McMenomy",
+                            "Andrew Nelson",
+                            "Sara Vaz"
+                        ],
+                        "publishedAt": 1719360000,
+                        "publishedAtString": "2024-06-26",
+                        "title": "Worldwide delineation of multi-tier city–regions",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Complex networks,Developing world,Geography"
+                    },
+                    "journal": {
+                        "pcode": "natcities",
+                        "title": "nature cities",
+                        "volume": "1",
+                        "issue": "7",
+                        "id": 44284,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "diddjeabge"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "BR",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Worldwide delineation of multi-tier city–regions",
+            "dc.source": "Nature Cities 2024 1:7",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2024-06-26",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2024 Food and Agriculture Organization of the United Nations",
+            "dc.rights": "2024 Food and Agriculture Organization of the United Nations",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Urban centers are pivotal in shaping societies, yet a systematic global analysis of how countries are organized around multiple urban centers is lacking. We enhance understanding by delineating city–regions worldwide, classifying over 30,000 urban centers into four tiers—town, small, intermediate and large city—based on population size and mapping their catchment areas based on travel time, differentiating between primary and secondary city–regions. Here we identify 1,403 primary city–regions employing a 3 h travel time cutoff and increasing to 4,210 with a 1 h cutoff, which is more indicative of commuting times. Our findings reveal substantial interconnectedness among urban centers and with their surrounding areas, with 3.2 billion people having physical access to multiple tiers within an hour and 4.7 billion within 3 h. Notably, among people living in or closest to towns or small cities, twice as many have easier access to intermediate than to large cities, underscoring intermediate cities’ crucial role in connecting surrounding populations. This systematic identification of city–regions globally uncovers diverse organizational patterns across urban tiers, influenced by geography, level of development and infrastructure, offering a valuable spatial dataset for regional planning, economic development and resource management. This study uncovers the surprising interconnectedness of urban centers globally, finding that 3.2 billion individuals can access multiple urban tiers ranging from towns to large cities within an hour’s travel. It particularly emphasizes the strategic importance of intermediate cities in linking various urban and rural areas, crucial for effective regional development.",
+            "dc.identifier": "doi:10.1038/s44284-024-00083-z",
+            "dc.creator": "Vaz, Sara",
+            "dc.subject": "Geography",
+            "prism.issn": "2731-9997",
+            "prism.publicationName": "Nature Cities",
+            "prism.publicationDate": "2024-06-26",
+            "prism.volume": "1",
+            "prism.number": "7",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "469",
+            "prism.endingPage": "479",
+            "prism.copyright": "2024 Food and Agriculture Organization of the United Nations",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s44284-024-00083-z",
+            "prism.doi": "doi:10.1038/s44284-024-00083-z",
+            "citation_pdf_url": "https://www.nature.com/articles/s44284-024-00083-z.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s44284-024-00083-z",
+            "citation_journal_title": "Nature Cities",
+            "citation_journal_abbrev": "Nat Cities",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2731-9997",
+            "citation_title": "Worldwide delineation of multi-tier city–regions",
+            "citation_volume": "1",
+            "citation_issue": "7",
+            "citation_publication_date": "2024/07",
+            "citation_online_date": "2024/06/26",
+            "citation_firstpage": "469",
+            "citation_lastpage": "479",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s44284-024-00083-z",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s44284-024-00083-z&api_key=",
+            "citation_reference": "Cattaneo, A. et al. Worldwide delineation of multi-tier city–regions [data set]. Zenodo \n                  https://doi.org/10.5281/zenodo\n                  \n                .11187634 (2024).",
+            "citation_author": "Vaz, Sara",
+            "citation_author_institution": "Food and Agriculture Organization of the United Nations, Rome, Italy",
+            "description": "Urban centers are pivotal in shaping societies, yet a systematic global analysis of how countries are organized around multiple urban centers is lacking. We enhance understanding by delineating city–regions worldwide, classifying over 30,000 urban centers into four tiers—town, small, intermediate and large city—based on population size and mapping their catchment areas based on travel time, differentiating between primary and secondary city–regions. Here we identify 1,403 primary city–regions employing a 3 h travel time cutoff and increasing to 4,210 with a 1 h cutoff, which is more indicative of commuting times. Our findings reveal substantial interconnectedness among urban centers and with their surrounding areas, with 3.2 billion people having physical access to multiple tiers within an hour and 4.7 billion within 3 h. Notably, among people living in or closest to towns or small cities, twice as many have easier access to intermediate than to large cities, underscoring intermediate cities’ crucial role in connecting surrounding populations. This systematic identification of city–regions globally uncovers diverse organizational patterns across urban tiers, influenced by geography, level of development and infrastructure, offering a valuable spatial dataset for regional planning, economic development and resource management. This study uncovers the surprising interconnectedness of urban centers globally, finding that 3.2 billion individuals can access multiple urban tiers ranging from towns to large cities within an hour’s travel. It particularly emphasizes the strategic importance of intermediate cities in linking various urban and rural areas, crucial for effective regional development.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Worldwide delineation of multi-tier city–regions",
+            "twitter:description": "Nature Cities - This study uncovers the surprising interconnectedness of urban centers globally, finding that 3.2 billion individuals can access multiple urban tiers ranging from towns to large...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44284-024-00083-z/MediaObjects/44284_2024_83_Fig1_HTML.png",
+            "DOI": "10.1038/s44284-024-00083-z",
+            "size": "148012",
+            "journal_id": "44284"
+        },
+        "canonical_url": "https://www.nature.com/articles/s44284-024-00083-z",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

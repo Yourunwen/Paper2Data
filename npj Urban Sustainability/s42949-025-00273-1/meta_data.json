@@ -1,0 +1,147 @@
+{
+    "id": "s42949-025-00273-1",
+    "title": "AI-based Ger detection reveals post-pandemic delay in informal housing progress in Mongolia",
+    "journal": "npj Urban Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s42949-025-00273-1",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "ESRI World Imagery satellite tiles for Ulaanbaatar via ArcGIS REST API",
+            "Data_summary": "Very-high-resolution real color satellite imagery tiles with three visible bands used as the primary input to train and run the computer-vision segmentation model for detecting ger structures and estimating ger-covered area and counts across multiple years.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We downloaded real-color satellite images with three visible bands via the ESRI ArcGIS REST API from the World Imagery dataset; Location: Methods Data and study area; Confidence: high",
+            "Time_Coverage": "2015-07 to 2025-05",
+            "Geographic_Coverage": "Mongolia > Ulaanbaatar > six sub-districts Bayangol Bayanzurkh Songinokhairkhan Sukhbaatar Khan-Uul Chingeltei",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Manual ger footprint labels digitized from 2016 and 2022 satellite images",
+            "Data_summary": "Author-created ground-truth annotations consisting of manually digitized ger footprints from satellite imagery and rasterized into per-pixel binary masks used for supervised training and held-out evaluation of the U-Net ger segmentation model.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Using QGIS 3.14 we manually digitized the footprints of 7305 gers, Labels were created for satellite images taken in 2022 and 2016; Location: Methods Data and study area; Confidence: high",
+            "Time_Coverage": "2016-08, 2022-04",
+            "Geographic_Coverage": "Mongolia > Ulaanbaatar > six sub-districts Bayangol Bayanzurkh Songinokhairkhan Sukhbaatar Khan-Uul Chingeltei",
+            "URL": "https://github.com/dlsumn/GerDetection/tree/master",
+            "ref": []
+        },
+        {
+            "Data_Name": "ASTER Global Digital Elevation Model GDEM Version 3",
+            "Data_summary": "Global gridded digital elevation model used to derive elevation and slope values for ger settlement locations and compare terrain characteristics of ger areas between earlier and later years to assess increasing marginalization to steeper higher-elevation peripheries.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Utilizing the global high spatial resolution digital elevation model GDEM version 3 from ASTER we assessed the average elevation and slope of ger settlements; Location: Results Extending to periphery of Ulaanbaatar; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global subset used for Mongolia > Ulaanbaatar",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR24"
+            ]
+        },
+        {
+            "Data_Name": "OpenStreetMap geospatial features for Ulaanbaatar facilities and roads",
+            "Data_summary": "Crowdsourced vector geographic data of roads and facility locations used to compute distances from detected gers to main roads bus stations schools medical facilities public amenities marketplaces industrial zones and to a central landmark as accessibility indicators.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We measured the average distance from gers to major facilities within Ulaanbaatar based on the spatial coordinates of facilities from OpenStreetMap; Location: Results Extending to periphery of Ulaanbaatar; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Mongolia > Ulaanbaatar",
+            "URL": "http://www.openstreetmap.org",
+            "ref": [
+                "ref-CR25"
+            ]
+        },
+        {
+            "Data_Name": "Mongolia Population and Housing Census 2020",
+            "Data_summary": "Official census tabulations on households and housing characteristics including counts of households living in gers and WASH-related attributes used to calibrate households-per-ger conversion and to contextualize slum classification indicators for ger households.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: According to the 2020 Population and Housing Census there were 84755 households living in gers in six sub-districts of Ulaanbaatar; Location: Results Estimating slum population ratio based on ger detection; Confidence: high",
+            "Time_Coverage": "2020",
+            "Geographic_Coverage": "Mongolia > Ulaanbaatar and national tables",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR6"
+            ]
+        },
+        {
+            "Data_Name": "Mongolian Statistical Information Service 1212.mn",
+            "Data_summary": "National official statistics portal providing socioeconomic indicator series such as total households and population counts for Ulaanbaatar sub-districts and national urban population shares used in interpreting temporal changes and scaling city results to national estimates.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: These six sub-districts had a population of 1603497 in 2024 representing 63.5% of the total urban population in Mongolia; Location: Methods Data and study area; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Mongolia",
+            "URL": "http://1212.mn",
+            "ref": [
+                "ref-CR7"
+            ]
+        },
+        {
+            "Data_Name": "World Bank district-level poverty headcount estimates for Ulaanbaatar 2011",
+            "Data_summary": "Poverty headcount percentage estimates at district level for Ulaanbaatar produced using small area estimation from census and household survey inputs used to validate the ger-dwelling ratio proxy by correlating poverty rates with ger prevalence by district.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The World Bank report calculated poverty levels at the district level using small area estimation based on the 2010 census and the 2011 household socio-economic survey; Location: Results Estimating slum population ratio based on ger detection; Confidence: high",
+            "Time_Coverage": "2011",
+            "Geographic_Coverage": "Mongolia > Ulaanbaatar > 23 districts",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR26"
+            ]
+        },
+        {
+            "Data_Name": "Global Human Settlement Layer GHSL built-up area layer",
+            "Data_summary": "Global built-up area mapping product used to quantify built-up extent and define the study coverage area by calculating the portion of built-up land within Ulaanbaatar sub-districts that is covered by the available satellite imagery across all time periods.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: This area encompasses 97.1% of the built-up area across six sub-districts of Ulaanbaatar as calculated using the Global Human Settlement Layer GHSL; Location: Methods Data and study area; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global subset used for Mongolia > Ulaanbaatar",
+            "URL": "https://doi.org/10.2905/AB2F107A-03CD-47A3-85E5-139D8EC63283",
+            "ref": [
+                "ref-CR43"
+            ]
+        },
+        {
+            "Data_Name": "UN-Habitat Urban Indicator Database slum population estimates",
+            "Data_summary": "International indicator dataset providing Mongolia slum population share estimates used as an external benchmark series to compare against the study’s satellite-derived national slum proxy and to discuss divergence after the COVID-19 period.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The national-level ger-dwelling ratio is depicted alongside the estimates from UN-Habitat; Location: Results Estimating slum population ratio based on ger detection; Confidence: high",
+            "Time_Coverage": "2015-2022",
+            "Geographic_Coverage": "Mongolia",
+            "URL": "https://data.unhabitat.org",
+            "ref": [
+                "ref-CR16"
+            ]
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data availability GitHub GerDetection",
+            "Data_summary": "Repository deposit containing the study-generated training labels and the ger segmentation outputs derived from the satellite imagery which can be reused for replication or further analysis.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The datasets generated during the study are available in the github repository This repository includes labels and ger segmentation results derived from satellite images; Location: Extra info Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Mongolia > Ulaanbaatar",
+            "URL": "https://github.com/dlsumn/GerDetection/tree/master",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:21:06.014216"
+    }
+}

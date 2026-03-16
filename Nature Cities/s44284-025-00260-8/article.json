@@ -1,0 +1,1053 @@
+{
+    "id": "s44284-025-00260-8",
+    "journal": "Nature Cities",
+    "type": "article",
+    "title": "Systematic global stocktake of over 50,000 urban climate change studies",
+    "legal_title": "Systematic global stocktake of over 50,000 urban climate change studies",
+    "publish_time": "2025-06-24",
+    "pdf_link": "https://www.nature.com/articles/s44284-025-00260-8",
+    "storage_path": "./Articles/Nature Cities/2025-article/s44284-025-00260-8/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Taking stock of climate change evidence is essential to helping cities address climate change. However, such efforts face challenges in appraising the growing scholarship in this fast-moving area. Here we use supervised and unsupervised machine learning to identify and classify over 53,000 urban climate studies, creating a dynamic, interactive and searchable evidence database for researchers and policymakers. Nearly 20,000 are city-specific case studies, revealing a rapidly growing yet unevenly distributed knowledge base. Notably, small and fast-growing cities, particularly in Africa and Asia, remain substantially underrepresented, contributing to topical, geographic and disciplinary biases in previous Intergovernmental Panel on Climate Change (IPCC) assessments. We propose three strategies to address this: (1) synthesizing case studies to support IPCC uptake, (2) identifying cross-city learning opportunities and (3) closing evidence gaps in the Global South. Thereby, our systematic stocktake helps inform adaptation and mitigation efforts in cities, guides future research and strengthens the IPCC’s ability to deliver robust, policy-relevant evidence.",
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Cities and other small human settlements are becoming increasingly important for taking coordinated action to achieve the global climate targets in the Paris Agreement1,2,3,4,5. Cities are hotspots of human activity6, innovation and economic growth7. They are also especially vulnerable, as the growing urban population, expected to reach 68% of the global population by 2050, will be exposed to heightened climate risks8.\nSystematically assessing scientific evidence regarding climate change impacts, adaptation and mitigation in cities is critical to effectively supporting decision-making for addressing these challenges. Without dedicated efforts to provide a systematic and up-to-date synthesis of the evidence on adaptation and mitigation strategies in cities, relevant knowledge remains scattered across thousands of publications in various research fields, including climate science, urban studies, urban engineering, geography and social sciences. Access to and understanding of the available knowledge for researchers, practitioners and decision-makers is further compounded by the fast growth of the literature.\nScientific assessments, such as the reports produced by the Intergovernmental Panel on Climate Change (IPCC), can serve as entry points for aggregating scientific evidence into manageable chunks of knowledge useful for policymakers. Indeed, the IPCC has been tasked with producing a Special Report (SR) on Climate Change and Cities. However, without dedicated evidence synthesis efforts to pre-aggregate the underlying literature by the entire research community, the IPCC may struggle to deliver a balanced and comprehensive review9. Furthermore, other scientific assessments, such as those conducted by the Urban Climate Change Research Network10, have faced challenges addressing the vast and rapidly expanding body of scientific evidence on cities. To our knowledge, comprehensive and systematic assessments of place-specific and non-place-specific research on cities are lacking, yet such pre-aggregated knowledge plays a crucial role in the supply side of the science–policy interface and in enabling evidence-based policy change11,12.\nHere we undertake a systematic global stocktake of available scientific evidence on climate change impacts, adaptation and mitigation in cities rooted in artificial intelligence (AI), providing a crucial underpinning for future research in this domain, the AR7 SR and city practitioners. As traditional, manually compiled systematic maps have been limited to a few hundred pieces of evidence, we leverage recent advances in AI to upscale our stocktake13,14. This allows us to scope out entire research fields and still accommodate the rapidly expanding evidence base—often termed ‘big literature[’15,16—using transparent and rigorous methods17,18,19. Our machine learning approach enables the robust quantification of the research gaps to advance the urban climate change research agenda and address demands for providing an overview of entire research fields as required in IPCC and other urban science assessments18,20,21 and evidence-based policy in general. Given the political nature of the processes involved in the outline of such urban science assessment reports, we evaluate whether biases in the literature toward certain topics, types of cities or disciplines are aggravated or mitigated therein. As such, with our analysis of evidence gaps, our AI-rooted machine learning pipeline may inform a more coordinated research agenda for the broader scientific community, informing debates about how evidence assessments should be structured and underpin balanced IPCC reports.\nOur machine learning pipeline can, in principle, continuously update22 the systematic evidence map on climate change and cities and supports a searchable, interactive, living database that provides easy access to relevant urban evidence for researchers, policymakers and other stakeholders. This facilitates a targeted approach to evidence production and in-depth synthesis. It represents a valuable resource for city practitioners, scientists and IPCC authors, showing which topics have been well covered or omitted in past reports, reducing the time and effort needed to access relevant evidence on cities and climate change (accessible at https://cc-cities.adibilis.ch).\nThe transparent, systematic evidence-mapping methodology contains four steps (for details, see Methods). First, we developed and validated a replicable keyword query on the literature database OpenAlex23—the largest open-access bibliographic database—and built a well-performing machine learning classifier from 1,020 randomly sampled articles that identifies relevant studies on cities and climate change with high precision and recall (Extended Data Fig. 1). Second, we extracted spatially explicit city-specific case studies from this database using geographic coordinates derived from titles and abstracts through a pretrained machine learning geoparser24. These coordinates were then intersected with city polygons from the Global Human Settlement Layer Urban Centers Database (GHSL-UCDB), defined as such when having a population of above 50,000 inhabitants25. We further augmented the classifier with keyword-based geoparsing to effectively identify spatially specific case studies on climate change and cities (Methods). Our resulting global database26 contains 19,733 spatially specific city case studies and 33,562 generic studies on cities and climate change that are not spatially specific. Third, to compare the coverage of research in IPCC assessments with the broader scientific literature, we conducted a fuzzy match of the references in our database and those in AR6. Fourth, we combined structural topic modeling27 with an in-depth qualitative comparison of the most cited and, thus, influential studies covered and omitted by the IPCC. This enables us to identify patterns and biases in past IPCC coverage and inform the upcoming SR on Cities.",
+            "cites": [
+                "ref-CR1",
+                "ref-CR11",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR15",
+                "ref-CR7",
+                "ref-CR10",
+                "ref-CR6",
+                "ref-CR13",
+                "ref-CR4",
+                "ref-CR26",
+                "ref-CR3",
+                "ref-CR16",
+                "ref-CR18",
+                "ref-CR17",
+                "ref-CR19",
+                "ref-CR24",
+                "ref-CR14",
+                "ref-CR20",
+                "ref-CR25",
+                "ref-CR5",
+                "ref-CR23",
+                "ref-CR21",
+                "ref-CR8",
+                "ref-CR2",
+                "ref-CR9",
+                "ref-CR27"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Vast and fast-growing evidence on climate change in cities\nThe scientific literature on climate change in cities is much larger than previously estimated. Our comprehensive machine learning/AI-enhanced systematic map on climate change in cities identifies 53,295 research articles. While the scope of our evidence map is much broader, covering all climate-related research on impacts, adaptation and mitigation in cities, our AI-enhanced approach also identifies much more research in every subdomain. For example, ref. 28 identified a total of about 4,051 case studies on climate change mitigation compared to 6,247 identified with our method over the same period. We additionally identified 11,101 non-spatially specific mitigation studies that do not reference a particular city.\nOverall, we observe rapid, exponential growth of the literature on climate change in cities—faster than for the entire climate change literature. Overall, 84% of the literature has emerged over the past 10 years, from 2012 to 2022. During the AR6 assessment period, 37,539 studies were published (Fig. 1a)—2.3 times more than during all prior assessment periods combined. As shown by the growth rate normalized to 1990, the case study literature is now 239 times as large as in 1990 (Fig. 1b). This growth is 4.5 times as fast as that of the entire climate change literature, posing challenges for urban evidence assessments such as those by the IPCC.\nThe absolute quantity of city-related research on climate change mitigation exceeds that on climate impacts and adaptation (Fig. 1c). However, the share of spatially specific city case studies that address mitigation (35%) and adaptation (32%) is smaller than for climate change impacts (43%). Thus, researchers deem place-specific idiosyncrasies of cities relevant in each domain.\n### Research bias toward the Global North and large cities\nOur systematic map reveals evidence gaps, particularly regarding vulnerable cities in the Global South. These include Central and South America, Africa, the Middle East and South and South East Asia29. Cities in these regions bear little responsibility for climate change, particularly small and fast-growing cities in which most of the global population will reside in the future. Some of these biases could be mitigated through transfer learning of underresearched cities from peers with more abundant evidence.\nAlthough 8,907 studies address the Global South in Asia, a third of which focus on China, the per capita coverage of Asia is still the second lowest, close to that of Africa, South America and Central America. In the Global North, 4,104 and 3,260 studies are available for Europe and North America, respectively. However, the per capita coverage of these two regions is twice that of Europe–Africa (Fig. 1d), essentially including the Mediterranean region according to the IPCC definitions (see Supplementary Fig. 1 for the spatial boundaries of IPCC regions). The world regions with the highest per capita coverage but the smallest absolute number of studies are located in the developed Global North, namely Oceania, which includes Australia and the Polar region, essentially Iceland’s capital Reykjavík, the region’s only city with more than 50,000 inhabitants.\nMapping the spatially specific city case studies around the world (Fig. 2) further shows that, despite the large number of publications that address Asia, most areas are covered by fewer than five studies. Relative to the share of the population, vast parts of South and Southeast Asia are still underresearched (see Extended Data Fig. 2a showing the research share relative to the population share). This low coverage of Asian cities, particularly in India and China, occurs against the backdrop of rapid population growth, urbanization and economic development. In contrast, more than five studies address most cities in the Global North, specifically North America, Europe and Oceania, where urbanization is unfolding more slowly30.\nResearch coverage across much of South America ranges between zero and five studies. Large coastal metropolitan areas, such as São Paulo, Rio de Janeiro and Buenos Aires, with populations over 6 million, are better covered. Addressing evidence gaps for small inland cities with sparse research will be key in South America.\nIn Africa, 92% of cities are still covered by no more than one study (Fig. 2b), a gap further exacerbated by the region’s small overall number of research articles (Fig. 1c). In contrast, in the Global North in North America and Europe, only half of the cities have at most a single study (Fig. 2b).\nBeyond the Global North–South disparities, our analysis reveals key attributes of underresearched cities. They tend to be small, fast-growing and noncoastal, with low gross domestic product, and low CO2 emissions (Fig. 2e). Overall, research is significantly biased toward the cities contributing the most to climate change and with greater capacity to implement climate adaptation and mitigation solutions.\nNotably, the underrepresentation of small cities in Asia and Africa, along with fast-growing cities in Asia, Africa and Oceania (Extended Data Fig. 3), where much of the future population will reside, is arguably the most problematic bias. The mean population growth rate of cities covered by no more than one study is significantly higher than those covered by more than five studies (Fig. 2c). This sparse research coverage implies a huge knowledge gap and missed opportunity to support decision-makers with useful evidence since these cities have a large potential to curb emissions and limit climate impacts through low-carbon and resilient urban planning strategies31,32. Particularly for these small cities, crucial solution-oriented topics are underresearched. For instance, coverage of topics about urban planning strategies and policy outcomes related to goal attainment is not commensurate with the population of such cities. This pattern is less pronounced for problem-oriented topics such as impact assessments and climate change vulnerability (Extended Data Fig. 5).\nWhile large research gaps in the global coverage of individual cities persist (Fig. 2b), closing these exclusively through individual case studies for each city may be neither feasible nor desirable, as the available evidence may be applicable elsewhere. To alleviate some of the biases toward large and established cities, future research must develop data-driven typologies that identify similar cities on the basis of a variety of factors, such as city size, built-up area, location, distance, language, multi-level governance embeddedness or fossil fuel prices, to enable cross-city transfer learning from successful climate solutions. This will be crucial for city decision-makers and the IPCC SR on Cities, which will be dedicated to identifying climate solutions for different types of cities33.\nUnless such cross-city transfer learning efforts are successful, biases in the city research landscape may create validity issues for evidence assessments. In the latest IPCC report, the bias toward large and mega cities was even greater in terms of references included in the report than in the wider literature. AR6 covered bigger cities with higher GPD and lower CO2 emissions than the average size in the literature (Fig. 2c). Moreover, normalized to respective population share living in small, medium, large and megacities, biases in the literature toward large and mega cities were even aggravated (Extended Data Fig. 2, inset a).\n### Thematically rich city research with concentrated scientific attention\nWe apply a computational topic model to our entire database26 of 53,295 publications on spatially specific city case studies and generic urban research. We find a broad and rich array of topics related to impacts, adaptation, mitigation and cross-sectoral issues. Each addresses more granular themes found in the IPCC reports, such as the sectors of energy, transport and buildings for mitigation, or governance, health and water for cross-sectoral topics (Fig. 3).\nMost topics cover climate change mitigation, followed by impacts, adaptation and cross-cutting research. The largest include emissions, management-based adaptation and cross-sectoral impacts (Fig. 3). The latter is composed of more granular topics associated with impact assessment, temperature increases or extreme weather impacts (Extended Data Fig. 6). The largest topic cutting across the IPCC Working Group (WG) domains addresses policy and governance issues related to institutional action, federal regulation, planning processes or goal achievement (Extended Data Fig. 6), which have also featured prominently in IPCC assessments (Fig. 3).\nThe IPCC AR6 tends to disproportionately cover bigger research topics, particularly impacts (human-managed systems), adaptation (management-based adaptation) and cross-cutting policy and governance issues. Interdisciplinary topics within each WG theme, such as cross-sectoral mitigation and adaptation, are better covered by the IPCC, sometimes at the expense of smaller disciplinary topics such as technology-focused adaptation and industry or negative emissions in mitigation (Fig. 3; see also Box 1).\n### Analyzing prior IPCC reports to guide future evidence assessments\nOur estimates suggest that the IPCC covered 2,421 urban studies in AR6. However, these only represent 4.6% of the entire research landscape. Through the literature synthesized in reviews that the IPCC cited—so-called second-order inclusion—an additional 2.1% was covered (Fig 4b). The synthesized research in the assessment reports relies heavily on a highly selective set of case studies, particularly in the urban chapters of AR6, where almost half of the cited literature are case studies (Fig. 4a). Similarly to the IPCC coverage of the entire literature, the included case studies represent only 4.2% of the available case study universe (Fig. 4b).\nThe results indicate a research gap regarding the synthesis of case studies. Only 12.4% of those we identified were covered in relevant reviews (Fig. 4c). Furthermore, our results suggest a weak and insignificant correlation between the share of case studies and the share of reviews (Fig. 5a). Since case studies offer highly granular and case-specific insights, synthesizing robust results across cases would be particularly insightful for city decision-makers.\nWe call upon the research community working on climate change and cities to engage in a more coordinated reviewing effort. This will probably encourage research uptake in science assessments, such as those of the IPCC and the Urban Climate Change Research Network10. Our findings (Fig. 5b) support this reasoning owing to the statistically significant relationship between the share of reviews per topic and the share of studies covered by the IPCC (correlation of 0.62; P = 0.002).\nRegarding potentially relevant research for the IPCC WGs, the review coverage of impacts and most mitigation topics is below average. Exceptions include the cross-sectoral mitigation literature and that on buildings. Research on mitigation is largely underrepresented compared to the size of the research body (Fig. 5c). Targeted reviews in key climate change mitigation areas—such as negative emissions, transport, energy and agriculture, forestry and other land use—could help fill this gap and facilitate greater uptake by science assessment since the IPCC tends to rely on pre-aggregated, often more robust evidence when available.\nWhile the IPCC tends to better cover topics that have been synthesized more thoroughly, it has not fully leveraged the potential of available reviews. In principle, reliance on systematic reviews would enable science assessments to include up to 11.7% of the urban climate change research field through second-order coverage (Fig. 4b). In AR6, only a fraction (6.8%) of available reviews were utilized (Fig. 4b). If the IPCC conducted so-called systematic reviews of reviews, it could screen 15 times more reviews than those included in AR6. This comparison is valid, as OpenAlex23, the source of our database, includes 92.6% of the literature cited by the IPCC AR6 (Fig. 4c).\nHowever, the wider city literature and the IPCC reports both have their own biases, implying that IPCC coverage commensurate with the literature may not be ideal. There are several explanations for this. First, these biases may arise owing to government involvement in the reports’ outlines and final approval, potentially sidelining critical or contentious issues. Second, resource disparities between authors in the Global North and South favor well-funded, high-impact research from developed nations. Third, the IPCC reports lack clear literature inclusion criteria and quality standards, unlike the best practices for systematic reviews. Fourth, biases may arise owing to relatively small author teams that struggle to keep up with all relevant sectoral literature, such as on disciplinary technological topics (Box 1), requiring specialized engineering knowledge. Finally, once the reports are drafted, reviewers may pay inadequate attention to certain chapters34. Collectively, these factors may lead to biases by reinforcing dominant research topics from the underlying research landscape. This can create validity issues in evidence assessments. It should be noted, however, that a perfectly proportional representation of the city literature may not be optimal, and there may be valid reasons why the proportion of articles included in IPCC reports differs from that in the literature. Making these differences visible helps to ensure that any such differences are intentional, can be justified and are made with full knowledge of the state of the literature.\nThe wider scientific community working on climate change and cities can make an important contribution to moderating such validity issues by engaging in a coordinated, systematic evidence synthesis effort and closing the evidence gaps. This would enable more comprehensive and robust coverage of the growing literature (Fig. 1) and provide the IPCC reports, located at the supply side of the science–policy interface, with the best available evidence.\n### Discussion\nThe vast diversity of research topics and methods, the rapid growth in publications and the sheer volume of climate change and cities literature make it increasingly difficult for the research community, the IPCC and practitioners to keep track of the best available evidence. Yet this evidence is critical for sustaining the evidence-based supply to the science–policy interface11,12. For the upcoming IPCC SR on Cities, the 53,295 research articles we have identified represent a large evidence base26, one-third of which are city case studies. These 19,733 case studies cover 64% of the global population living in cities and 23% of all cities. The evidence base we provide here can be continuously updated, making it a living resource of the best available evidence in an accessible format22 (available at https://cc-cities.adibilis.ch). This database can serve as a starting point for more focused synthesis efforts and support evidence assessments, such as the IPCC SR on Cities. Below, we outline three approaches for closing the evidence gaps identified through our large-scale systematic. The evidence gaps idientifed include the underrepresentation of small and fast-growing cities (type of cities), the Global South (geographic space) and case study evidence synthesis (research methods).\n#### Synthesizing city case study evidence\nTo address the research gap that case studies are not sufficiently reviewed (Figs. 4c and 5a), the broader research community at the intersection of cities and climate change needs to engage in more coordinated evidence synthesis efforts (compare with refs. 20,35). Using systematic, reproducible methods to identify and synthesize the literature would enhance our understanding of adaptation and mitigation solutions in cities, probably leading to greater uptake by the IPCC and improving its coverage (Fig. 5b), thereby generating better-targeted policy advice at the science–policy interface.\nFuture evidence synthesis in the climate domain may involve coordinating efforts by joining forces through entities such as the Campbell Organization, a global network of leading evidence synthesis researchers that emerged from the health domain. The climate change research community can apply many of the principles that have worked well in medical and health research, which has a long and established tradition of systematically synthesizing the available evidence with rigorous and replicable methods. The latter are increasingly entering climate change research, for instance, through recent methodological advances that make systematic evidence synthesis constantly updatable22, and the development and application of AI-assisted screening of the literature for systematic reviews36.\n#### Typologies for cross-city learning and accessible knowledge for practitioners\nOur analysis also highlights biases in the global research landscape, particularly disadvantaging small and fast-growing cities (Fig. 2c and Extended Data Fig. 3). These cities have significant mitigation and adaptation potential37 and are critical for avoiding the lock-in38 of carbon-intensive, impact-vulnerable systems. City typologies can help fill this gap by promoting cross-city learning from successful climate solutions. For instance, a case study of three small Indonesian cities demonstrates how technical support, stakeholder engagement and local leadership can overcome institutional capacity barriers39, offering valuable lessons for other small, underresearched Indonesian cities.\nCity typologies could be further developed by combining them with systematic evidence synthesis. Additionally, typologies can help balance the trade-offs between scientifically rigorous evidence synthesis for each city type and accessible case study illustrations that exemplify robust relationships with rich contextualization. This can facilitate the understanding of decision-makers40. Forward-looking typologies for fast-growing cities could group cities on the basis of their anticipated pathways to climate change mitigation and adaptation41, showing why and how certain cities change from one path to another and embark on the climate-resilient path. Future typologies could also combine global, generic and domain specific local typologies to generate more directly applicable, fine-grained insights into transfer learning. Such transfer learning may benefit from highlighting best-in-class examples to learn from.\n#### Leveraging advances in AI and computational methods to reduce north-south data imbalances\nOur results reveal that cities in the Global South are vastly underresearched (Figs. 1 and 2). Although some of these gaps may be closed through cross-city transfer learning from the available evidence, this uneven coverage remains a major barrier to evidence-based climate action, particularly in fast-growing cities in less developed regions of Africa and Asia.\nFuture AI applications and other computational methods could help close such evidence gaps. For instance, AI could support the creation of data-driven typologies rooted in global remote sensing initiatives to provide continuous, high-quality tracking of city developments, for instance, related to CO2 emissions. Combined with the machine learning-assisted article selection of potentially relevant literature, AI-assisted literature screening with humans in the loop could take IPCC evidence synthesis to a new level with close attention to gray literature, which may provide complementary insights when peer-reviewed literature is lacking. The combination of AI and computational methods with rigorous and transparent evidence synthesis for different types of cities could drastically increase the value of science assessments for city decision-makers and contribute to closing north-south data imbalances.\nOur analysis has several limitations. First, our database excludes literature from the physical sciences (Methods and Table 1), despite its relevance to issues such as urban heat islands. Some of these topics are also discussed in WGII on adaptation and impacts, making it difficult to attribute findings to specific WGs. Second, identifying and attributing the scientific literature to individual cities with computational methods can lead to misclassifications and uncertainties, which we have communicated and quantified (Extended Data Figs. 1 and 7). This challenge is particularly pronounced in South America and Africa, where informal settlements and weaker data coverage complicate spatial attribution on the basis of the pretrained geoparser24 or the GHSL-UCDB city boundaries25. Third, our analysis only covers studies in English. Future research may invest in AI-assisted evidence synthesis pipelines that accommodate multilingual geoparsing and topic modeling.\nIn conclusion, our systematic map helps to shape the future research agenda for climate change and cities. It provides a foundation for the broader research community to address critical evidence gaps and overcome the underrepresentation of key research areas in the IPCC, such as specific sectoral technological solutions. The research community can support more effective evidence production by systematically reviewing the relevant literature, leveraging fine-grained case study evidence through applying city typologies and closing data gaps using advances in AI and co-produced knowledge with practitioners. This will strengthen the IPCC’s ability to provide robust evidence at the science–policy interface, particularly in terms of identifying what climate solutions work, under what conditions and why.",
+            "cites": [
+                "ref-CR11",
+                "ref-CR22",
+                "ref-CR31",
+                "ref-CR33",
+                "ref-CR12",
+                "ref-CR32",
+                "ref-CR36",
+                "ref-CR10",
+                "ref-CR30",
+                "ref-CR41",
+                "ref-CR26",
+                "ref-CR35",
+                "ref-CR37",
+                "ref-CR24",
+                "ref-CR20",
+                "ref-CR29",
+                "ref-CR25",
+                "ref-CR23",
+                "ref-CR40",
+                "ref-CR34",
+                "ref-CR39",
+                "ref-CR38",
+                "ref-CR28"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-4",
+                "figure-3",
+                "figure-2",
+                "figure-5"
+            ]
+        },
+        {
+            "title": "Methods",
+            "text": "We use systematic mapping methods to paint a granular picture of the evidence on climate change adaptation and mitigation in cities. Systematic maps and evidence gap maps can help make the existing evidence accessible using transparent and rigorous methods17, showing what is being studied (topic), where (study location), when (time) and how (research methods)13,14. Existing evidence maps on cities tend to be limited in scope, focusing on specific fields, such as climate change mitigation28, health42 or adaptation43. Even within their scope, existing maps do not provide a comprehensive and up-to-date picture of all lines of evidence, nor do they provide a methodology that enables continuous tracking of developments in cities research over time22. Our systematic map and database can, in principle, update continuously, making the relevant evidence available in a searchable and interactive format.\n### Search query and identification of relevant articles for the literature database\nWe use OpenAlex23, the largest open-source literature database, containing more than 248 million publications. The OpenAlex corpus is three times larger than the commercial Web of Science and contains 92.6% of references cited by the IPCC (identified by digital object identifier (DOI) or title and year of publication) (Fig. 3b). Therefore, OpenAlex offers the best available foundation for a comprehensive overview of the relevant literature on climate change and human settlements. We queried OpenAlex in February 2023 using the search string on the left side of Table 1 for a comprehensive set of articles related to climate change mitigation and adaptation. Using the search string on the right side based on keywords related to human settlements, we subset the sample to potentially relevant articles on climate change and human settlements in the programming language R.\nTo increase our sample’s precision, in intuitive terms, meaning the amount of noise, that is, irrelevant articles in our sample, we used a supervised machine learning classifier to detect irrelevant articles and filter them out of our sample. To do so, we trained an XGBoost classifier with a random sample of 1,020 research article abstracts that we annotated manually in a group effort (for details on the coding and the definition of the inclusion criterion, see Table 1 and the Supplementary Information). To prepare the data in machine-readable format, we preprocessed the article abstracts and titles; we tokenize for word stems (meaning that words are digitally represented), removed stopwords (these are words that do not contain information to infer the meaning of the text as they are used in almost all texts, such as ‘the’ or ‘and’) and tokens that appear more than 100 times as these contain little relevant information for the classification. Since such classifiers often struggle when the data is unequally distributed between the outcome classes, we upsample on the minority class (nine to one).\nThe performance of supervised machine learning classifiers can be improved when tuning their hyperparameters, meaning the specific settings of the model. In the case of tree-based models, which we use here, these refer to aspects of the decision tree using successive yes–no decisions to segregate the outcome class, here whether an article is relevant or not. These include the tree depth, the learning rate, loss reduction, the minimal node size, the sample size, the number of randomly sampled predictors used at each tree split, the number of trees, the number of iterations without improvement until the classifier stops and the prediction probability threshold.\nWe then used a nested cross-validation pipeline with five outer and inner folds. Nested cross-validation is a method used to reliably evaluate and fine-tune machine learning models. It works by splitting the data inside an outer loop and an inner loop. In the outer loop, the data are divided into five parts, with one part left out as a test set to evaluate the model, while the remaining parts are used for training. Inside this training set, the inner loop performs another round of splitting to test different model settings, called hyperparameters. Once the best settings are determined in the inner loop, they are used to train the model, which is then tested on the outer loop’s test set. This process is repeated multiple times to ensure every part of the data is tested, providing a thorough and fair evaluation while preventing the model from overfitting or becoming too tailored to the training data. This approach provides conservative estimates of the model performance. We achieve an out-of-sample F1 score of 0.952 (Extended Data Fig. 1). In comparison to a sample obtained solely through the keyword search, it could increase the precision of our sample by 4 percentage points, that is, we have 4 percentage points less noise in our sample.\n### Identification of spatially specific city case studies\nTo identify spatially specific city case studies, we combine two geoparsing approaches: pretrained named-entity recognition and a simple keyword match.\nFirst, we use Mordecai24, a pretrained named-entity recognition geoparser able to identify geographic locations mentioned in unstructured text and match it to the correct entity in a large database, which provides geospatial coordinates and mappings to the respective cities, states, countries and continents. In the first step, this pretrained named entity recognition geoparser employs a transformer-based model. These use an encoder–decoder structure to process sequences of text. The encoder reads the text sequence and transforms it into numerical representations, capturing the context and meaning of each word. The decoder then uses these representations to identify and classify place names within the text. In the second step, it conducts a so-called toponym resolution whereby the place names are matched to their corresponding centroid coordinates of the places in a huge geographic database containing locations and their coordinates24.\nSecond, we explicitly search for more than 13,000 city names from the GHSL-UCDB25. To achieve a computationally viable search for each city, we extract sequences of capitalized and noncapitalized words and single capitalized words as some of these contain names of cities, such as Aix-en-Provence or Los Angeles. In some cases, city names are not unique both inside the same country and across different countries. If cities are uniquely identified, we attribute the study to that particular city. If the city name exists in several countries, we assign it based on a country keyword match if mentioned. If this still does not allow us to uniquely identify the city name, we assign it based on the observed probability of the uniquely identifiable cities. For instance, most publications mentioning the city name of London cover London in Great Britain rather than London in Canada. Thus, when London is mentioned but neither Great Britain nor Canada, we are more likely to correctly assign it to London in Great Britain. If such an observed probability is not available, we assign duplicated city names randomly with equal probability.\nWe clean the input data for both approaches to reduce noise and avoid false positives when there are recognizable patterns, for instance, related to international agreements with place names in their name, such as the Paris Agreement or the Kyoto Protocol. We further exclude citations in parentheses and text passages following acknowledgments, references and correspondence listed at the end of some article abstracts, as these contain city names but are not locations of the case study places assessed. For the word-matching approach, we additionally replace special characters with their nonspecial counterparts. For instance, we replace ‘Â’ with ‘A’. These data-cleaning steps help reduce the noise in the data, both to avoid detecting false positives in cities by our two computational approaches and to obtain meaningful results for our topic model.\nBoth approaches have their advantages and disadvantages. First, the named entity recognition may detect places at any scale from countries to subnational units and cities. Thus, when a text talks about a district in a city but not the city itself, it may still be correctly attributed to a specific city. However, when another entity, such as a subnational unit has the same centroid as the city, it may be falsely predicted to belong to a particular city. Second, the keyword-matching approach does not face this particular issue but instead may confound the names of subnational units with cities with the same name. Furthermore, it cannot detect places within cities, such as a public transport station, talked about in a spatially specific city case study. Which of these two approaches and in what combination works best is an empirical question that we addressed by validating both approaches individually and their logical combinations. In each approach a city is considered as such if predicted by (1) only the spatial intersection based on the pretrained geoparser, (2) only the word match approach based on the city names, (3) the spatial intersection and the word match approach and (4) either the word match or the spatial intersection.\nTo evaluate the different approaches, we randomly sampled 600 articles, which we then read and manually annotated by recording the city names mentioned. If place names were referenced without directly mentioning the city, we looked them up online and assigned them to the appropriate city. We compared the predicted city names from the computational methods with the manually identified names, resolving any spelling differences. The resulting clean ground-truth data allowed us to compute standard machine learning performance metrics using confusion matrices, including true positives, false positives, true negatives and false negatives. A true positive indicates that the same city was both predicted and manually identified. A false positive means that a city was predicted that does not match the city in the text or there was no city in the text. For a false negative, no city was predicted, but one was actually present in the text. A true negative indicates the correct prediction of no city mentioned. These counts served as the basis for calculating recall, precision and the F1 score, which is the harmonic mean of recall and precision.\nThe results of our validation exercise showed that we achieved the most comprehensive sample when augmenting the pretrained geoparser with a city name keyword-matching approach. This means we consider city case studies as such if predicted through either of the two approaches (recall of 0.85, precision of 0.74 and F1 score of 0.79; for details see Extended Data Fig. 7). Regions where we face most difficulties in correctly identifying cities are South America and Africa. We achieve lower performance scores in these regions as a result of these difficulties probably arising because of more complicated city names than elsewhere. This implies that we are less likely to correctly identify case study topics in these areas of the world.\n### Identification of reviews and their coverage of the relevant city literature\nFor the identification of the reviews in our database, we use a keyword-matching approach. In each abstract or title, we evaluate if the terms ‘review’, ‘systematic map’, ‘meta analysis’, ‘meta-analysis’ or ‘evidence synthesis’ are mentioned. These keywords broadly capture if an article synthesizes existing research. Articles that devote a significant effort to reviewing the literature typically mention this in the abstract. We further investigate to what extent the reviews and other evidence synthesis studies cover the relevant city literature. To do so, we construct a query that downloads all papers that OpenAlex23 lists these reviews to cite. Using unique article identifiers, we match the literature cited by reviews to our database. Because OpenAlex citation networks are not exhaustive and may miss some references, this approach probably slightly underestimates the true coverage.\n### Topic modeling\nTo investigate the coverage of the research topics in this literature, we employ an unsupervised machine learning algorithm called structural topic modeling (STM) to identify latent topics from unstructured text. We run topic models with the topic numbers ranging from 60 to 240 topics, adding 10 topics in each subsequent run. We compare these models by placing related topics next to one another to observe how topics split as we add more topics to the model. We use the model with 220 topics for the analysis here as these provide an appropriate level of granularity. We then label and group these topics into overarching fields, such as impacts, adaptation and mitigation, to provide a comprehensive overview of the entire literature on cities and climate change. In a group effort, we label the topics by inspecting the most predictive words and article abstracts that are most predictive of each topic. For the results presented in the paper, we exclude topics related to research methods (for example, regression), geographic places (for example, Europe or cardinal directions such as north and south) or frequently used words (for example, can and also) as these do not contain substantively relevant information for our analyses.\n### Mixed-method evaluation of IPCC coverage against the city literature\nWe use a mixed-method approach to compare included and omitted articles in all chapters of the recent IPCC A6 reports from WGI on the physical basis, WGII on the impacts and adaptation and WGIII on mitigation. We use quantitative computational, natural language processing methods and complement this effort with an illustrative, qualitative comparison of important and influential articles included and omitted by AR6 to guide the future SR on cities.\nFor the quantitative part, we match the references of the city literature in our database against the references used in the entire AR6 and the specific chapters on cities. The latter includes cross chapter 8, WGII chapter 2 and WGIII chapter 8. To identify articles in our database covered in the IPCC reports, we use a fuzzy matching method to account for the possibility that there may be differences in the way articles are described in the database. We use a combination of the DOI where available, commonly used to identify research articles, combined with the title and the author’s name. To show that OpenAlex23 is a viable alternative to proprietary commercial services, such as Web of Science or Scopus in our use case, we measure the coverage of IPCC AR6 references in the free database. Where available (18% of references are missing a DOI), we use the DOI from the citation and search for it in OpenAlex. Since the data quality of the IPCC reference list is not perfect, we verify that the title and year of publication also match. Secondly, we search OpenAlex on the basis of the titles of the references. We do so for exact title matches and with a fuzzy search where 80% of the words must match. Again, we verify that the publication year must be within 1 year of that listed in the citation. Out of 81,000 IPCC references, we find 75,000 in OpenAlex, 54,000 of which were matched by DOI, 69,000 by the exact title and 70,000 on a fuzzy title match.\nFor the qualitative part, we exported the 100 most cited and thus important and influential articles published after the literature cutoff date for AR5 (15 March 2013) to ensure that the articles left out could not already have been included in a previous report. We used the citation count (from 13 March 2024) normalized by the number of years since publication as a criterion because they capture how often other researchers build their arguments on a specific article, thus measuring its influence. We compared (1) included case studies with (2) omitted case studies and (3) included generic studies with (4) omitted generic studies to understand patterns in the differences between included and omitted articles. We first looked at general patterns regarding journal outlets and writing styles, then conducted a more in-depth, inductive comparison of the topics, starting with the most cited articles. This revealed that the important omitted articles more often focus on topics related to technological solutions. For specific omitted topics listed in Box 1, we consulted recent reports to qualify our statements about the extent to which a specific technological solution is covered in AR6.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR22",
+                "ref-CR13",
+                "ref-CR42",
+                "ref-CR43",
+                "ref-CR24",
+                "ref-CR14",
+                "ref-CR28",
+                "ref-CR25",
+                "ref-CR23",
+                "ref-CR17"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Overview of the database.",
+            "figure-caption": "a, The growth of the literature on human settlements in absolute numbers over time. b, The normalized growth of spatially specific city case studies, the generic non-place-specific literature on cities and other smaller human settlements, and the entire literature on climate change normalized to 1990. c, The number of studies on impacts and adaptation (IPCC WGII), and mitigation (IPCC WGIII) were assigned based on the main topic computed by summing the topic proportions from the STM of each article across each of the four domains. d, The geographic distribution of the research attributable to specific continents using IPCC regional definitions (for an overview of these, see Supplementary Fig. 1) in absolute numbers (vertical axis) and the number of studies normalized by millions of inhabitants (horizontal axis). The patterned fills distinguish between case studies that cover specific cities and generic literature on human settlements. The latter are either not place-specific or cover very small human settlements of fewer than 50,000 inhabitants to which the global definition of cities by the GHSL-UCDB does not apply25.",
+            "figure-link": "https://www.nature.com/natcities/articles/s44284-025-00260-8/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Spatial distribution of the spatially specific city case studies.",
+            "figure-caption": "a, The number of spatially specific city case studies per hexagon, normalized by the number of cities in the same hexagon. Dark colors indicate higher coverage, while light colors indicate lower research coverage. Areas without hexagons contain no cities with above 50,000 inhabitants. b, The number of studies per city across the six continents globally. c, The mean values of city covariates with 95% confidence intervals displayed by the error bars for areas with ≤1 study per hexagon, 1–5 studies per hexagon, and ≥5 studies for hexagons (normalized by the number of cities in that hexagon). The bar indicates the mean value of city covariates across the entire literature, and the cross indicates the mean value of spatially specific city case studies referenced in the IPCC AR6, allowing for a comparison between the available evidence base and the studies included in the IPCC evidence assessments. There are 9,564, 2,576 and 995 observations for bars with ≤1, 1–5 and ≥5 studies per hexagon, respectively. The spatial information of cities (in a) and their characteristics (in c) are available in the GHSL-UCDB25. The distance to the coast has been computed from the centroid of the city polygon to the nearest point on the coast line. Non-spatially explicit studies are not included in any of the panels (Extended Data Fig. 4).",
+            "figure-link": "https://www.nature.com/natcities/articles/s44284-025-00260-8/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Size of research topics in the entire literature on cities and that covered by the IPCC AR6 relative.",
+            "figure-caption": "Values higher (lower) than 1 indicate that coverage is higher (lower) than average in the literature. A unit increase (decrease) on the binary log scale indicates that the research topic is twice (half) as large as the mean size of the research topic. Bars capture the entire city literature, including spatially specific city case studies and non-spatially specific city studies relative to the mean size of the topics in the entire literature. The cross indicates the topics covered by the IPCC relative to the mean size of the IPCC topics. Topics were identified using the STM by summing the topic proportions of all topics categorized by WG themes (Extended Data Fig. 6; for details see Methods).",
+            "figure-link": "https://www.nature.com/natcities/articles/s44284-025-00260-8/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Types of references in all human settlement research, the IPCC AR6 reports and literature reviews.",
+            "figure-caption": "a, The research share in the entire literature and that covered in the IPCC AR6, distinguishing spatially specific case studies, generic urban research and reviews. b, The share of the entire relevant literature covered by all AR6 reports and the coverage of IPCC references by the bibliographic database OpenAlex, which underpins this analysis. c, The share of articles in our database covered by the reviews. Coverage indicates that articles are directly represented in the IPCC AR6. Second-order coverage captures all articles in our database cited by the reviews included in AR6. The IPCC urban chapters include cross-cutting chapter 6, WG2 chapter 2 and WG3 chapter 8.",
+            "figure-link": "https://www.nature.com/natcities/articles/s44284-025-00260-8/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Review coverage of case studies and IPCC AR6 coverage of reviews and the wider literature.",
+            "figure-caption": "a,b, Topics (represented as dots) are positioned based on the share of reviews, the share of case studies and the share of studies represented in the IPCC AR6, normalized by the respective mean share. The gray shaded area shows the 95% confidence interval of the ordinary least squares fit line. The relationship between the share of reviews (vertical axis) and the share of case studies (horizontal axis) (a). The relationship between the share of studies covered in IPCC AR6 (vertical axis) and the share of reviews by topic (horizontal axis) (b). Values higher (lower) than 1 indicate that coverage is higher (lower) than average in the literature. A unit increase (decrease) on the binary log scale indicates that the research topic is twice (half) as large as the mean size of the research topic. c, The share of research on impacts, adaptation, mitigation and cross-sectoral topics for all human settlement research, IPCC references and evidence synthesis studies.",
+            "figure-link": "https://www.nature.com/natcities/articles/s44284-025-00260-8/figures/5"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Bulkeley, H. & Betsill, M. Rethinking sustainable cities: multilevel governance and the ‘urban’ politics of climate change. Environ. Polit. 14, 42–63 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F0964401042000310178",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rethinking%20sustainable%20cities%3A%20multilevel%20governance%20and%20the%20%E2%80%98urban%E2%80%99%20politics%20of%20climate%20change&journal=Environ.%20Polit.&doi=10.1080%2F0964401042000310178&volume=14&pages=42-63&publication_year=2005&author=Bulkeley%2CH&author=Betsill%2CM"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Andonova, L. B., Betsill, M. M. & Bulkeley, H. Transnational climate governance. Glob. Environ. Pol. 9, 52–73 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1162%2Fglep.2009.9.2.52",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Transnational%20climate%20governance&journal=Glob.%20Environ.%20Pol.&doi=10.1162%2Fglep.2009.9.2.52&volume=9&pages=52-73&publication_year=2009&author=Andonova%2CLB&author=Betsill%2CMM&author=Bulkeley%2CH"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Andonova, L. B. & Mitchell, R. B. The rescaling of global environmental politics. Annu. Rev. Environ. Resour. 35, 255–282 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-environ-100809-125346",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20rescaling%20of%20global%20environmental%20politics&journal=Annu.%20Rev.%20Environ.%20Resour.&doi=10.1146%2Fannurev-environ-100809-125346&volume=35&pages=255-282&publication_year=2010&author=Andonova%2CLB&author=Mitchell%2CRB"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Cole, D. H. Advantages of a polycentric approach to climate change policy. Nat. Clim. Change 5, 114–118 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnclimate2490",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Advantages%20of%20a%20polycentric%20approach%20to%20climate%20change%20policy&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fnclimate2490&volume=5&pages=114-118&publication_year=2015&author=Cole%2CDH"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Broto, V. C. Urban governance and the politics of climate change. World Dev. 93, 1–15 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.worlddev.2016.12.031",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20governance%20and%20the%20politics%20of%20climate%20change&journal=World%20Dev.&doi=10.1016%2Fj.worlddev.2016.12.031&volume=93&pages=1-15&publication_year=2017&author=Broto%2CVC"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Howe, P. D., Mildenberger, M., Marlon, J. R. & Leiserowitz, A. Geographic variation in opinions on climate change at state and local scales in the USA. Nat. Clim. Change 5, 596–603 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnclimate2583",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Geographic%20variation%20in%20opinions%20on%20climate%20change%20at%20state%20and%20local%20scales%20in%20the%20USA&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fnclimate2583&volume=5&pages=596-603&publication_year=2015&author=Howe%2CPD&author=Mildenberger%2CM&author=Marlon%2CJR&author=Leiserowitz%2CA"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Bettencourt, L. M., Lobo, J., Helbing, D., Kühnert, C. & West, G. B. Growth, innovation, scaling, and the pace of life in cities. Proc. Natl. Acad. Sci. USA 104, 7301–7306 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0610172104",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Growth%2C%20innovation%2C%20scaling%2C%20and%20the%20pace%20of%20life%20in%20cities&journal=Proc.%20Natl.%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0610172104&volume=104&pages=7301-7306&publication_year=2007&author=Bettencourt%2CLM&author=Lobo%2CJ&author=Helbing%2CD&author=K%C3%BChnert%2CC&author=West%2CGB"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "World Cities Report (United Nations, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Minx, J. C., Callaghan, M., Lamb, W. F., Garard, J. & Edenhofer, O. Learning about climate change solutions in the IPCC and beyond. Environ. Sci. Pol. 77, 252–259 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envsci.2017.05.014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Learning%20about%20climate%20change%20solutions%20in%20the%20IPCC%20and%20beyond&journal=Environ.%20Sci.%20Pol.&doi=10.1016%2Fj.envsci.2017.05.014&volume=77&pages=252-259&publication_year=2017&author=Minx%2CJC&author=Callaghan%2CM&author=Lamb%2CWF&author=Garard%2CJ&author=Edenhofer%2CO"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Rosenzweig, C. et al. Climate Change and Cities: Second Assessment Report of the Urban Climate Change Research Network (Cambridge Univ. Press, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Montfort, S., Fesenfeld, L., Ingold, K., Lamb, W. F. & Andrijevic, M. Political enablers of ambitious climate policies: a framework and thematic review. npj Clim. Action 4, 1–12 (2025).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs44168-024-00206-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Political%20enablers%20of%20ambitious%20climate%20policies%3A%20a%20framework%20and%20thematic%20review&journal=npj%20Clim.%20Action&doi=10.1038%2Fs44168-024-00206-1&volume=4&pages=1-12&publication_year=2025&author=Montfort%2CS&author=Fesenfeld%2CL&author=Ingold%2CK&author=Lamb%2CWF&author=Andrijevic%2CM"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Montfort, S. Pathways to Ambitious Climate Policies. PhD thesis, Oeschger Centre for Climate Change Research (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Nakagawa, S. et al. A new ecosystem for evidence synthesis. Nat. Ecol. Evol. 4, 498–501 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41559-020-1153-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20new%20ecosystem%20for%20evidence%20synthesis&journal=Nat.%20Ecol.%20Evol.&doi=10.1038%2Fs41559-020-1153-2&volume=4&pages=498-501&publication_year=2020&author=Nakagawa%2CS"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "James, K. L., Randall, N. P. & Haddaway, N. R. A methodology for systematic mapping in environmental sciences. Environ. Evid. 5, 1–13 (2016).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s13750-016-0059-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20methodology%20for%20systematic%20mapping%20in%20environmental%20sciences&journal=Environ.%20Evid.&doi=10.1186%2Fs13750-016-0059-6&volume=5&pages=1-13&publication_year=2016&author=James%2CKL&author=Randall%2CNP&author=Haddaway%2CNR"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Nunez-Mir, G. C., Iannone III, B. V., Pijanowski, B. C., Kong, N. & Fei, S. Automated content analysis: addressing the big literature challenge in ecology and evolution. Methods Ecol. Evol. 7, 1262–1272 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2F2041-210X.12602",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Automated%20content%20analysis%3A%20addressing%20the%20big%20literature%20challenge%20in%20ecology%20and%20evolution&journal=Methods%20Ecol.%20Evol.&doi=10.1111%2F2041-210X.12602&volume=7&pages=1262-1272&publication_year=2016&author=Nunez-Mir%2CGC&author=Iannone%20III%2CBV&author=Pijanowski%2CBC&author=Kong%2CN&author=Fei%2CS"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Minx, J. C., Lamb, W. F., Callaghan, M. W., Bornmann, L. & Fuss, S. Fast growing research on negative emissions. Environ. Res. Lett. 12, 035007 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Faa5ee5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fast%20growing%20research%20on%20negative%20emissions&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Faa5ee5&volume=12&publication_year=2017&author=Minx%2CJC&author=Lamb%2CWF&author=Callaghan%2CMW&author=Bornmann%2CL&author=Fuss%2CS"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Miake-Lye, I. M., Hempel, S., Shanman, R. & Shekelle, P. G. What is an evidence map? A systematic review of published evidence maps and their definitions, methods, and products. Syst. Rev. 5, 28 (2016).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s13643-016-0204-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=What%20is%20an%20evidence%20map%3F%20A%20systematic%20review%20of%20published%20evidence%20maps%20and%20their%20definitions%2C%20methods%2C%20and%20products&journal=Syst.%20Rev.&doi=10.1186%2Fs13643-016-0204-x&volume=5&publication_year=2016&author=Miake-Lye%2CIM&author=Hempel%2CS&author=Shanman%2CR&author=Shekelle%2CPG"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Callaghan, M. et al. Machine-learning-based evidence and attribution mapping of 100,000 climate impact studies. Nat. Clim. Change 11, 966–972 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-021-01168-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Machine-learning-based%20evidence%20and%20attribution%20mapping%20of%20100%2C000%20climate%20impact%20studies&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-021-01168-6&volume=11&pages=966-972&publication_year=2021&author=Callaghan%2CM"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Montfort, S., Ingold, K., Fesenfeld, L., Repke, T. & Callaghan, M. The rising importance of distributional barriers to climate mitigation policies. Working Paper.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Callaghan, M. W., Minx, J. C. & Forster, P. M. A topography of climate change research. Nat. Clim. Change 10, 118–123 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-019-0684-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20topography%20of%20climate%20change%20research&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-019-0684-5&volume=10&pages=118-123&publication_year=2020&author=Callaghan%2CMW&author=Minx%2CJC&author=Forster%2CPM"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Berrang-Ford, L. et al. Systematic mapping of global research on climate and health: a machine learning review. Lancet Planet. Health 5, e514–e525 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2821%2900179-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Systematic%20mapping%20of%20global%20research%20on%20climate%20and%20health%3A%20a%20machine%20learning%20review&journal=Lancet%20Planet.%20Health&doi=10.1016%2FS2542-5196%2821%2900179-0&volume=5&pages=e514-e525&publication_year=2021&author=Berrang-Ford%2CL"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Elliott, J. et al. Decision makers need constantly updated evidence synthesis. Nature 600, 383–385 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fd41586-021-03690-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Decision%20makers%20need%20constantly%20updated%20evidence%20synthesis&journal=Nature&doi=10.1038%2Fd41586-021-03690-1&volume=600&pages=383-385&publication_year=2021&author=Elliott%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Priem, J., Piwowar, H. & Orr, R. Openalex: a fully-open index of scholarly works, authors, venues, institutions, and concepts. Preprint at https://arxiv.org/abs/2205.01833 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Halterman, A. Mordecai: full text geoparsing and event geocoding. J. Open Source Softw. 2, 91 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.21105%2Fjoss.00091",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mordecai%3A%20full%20text%20geoparsing%20and%20event%20geocoding&journal=J.%20Open%20Source%20Softw.&doi=10.21105%2Fjoss.00091&volume=2&publication_year=2017&author=Halterman%2CA"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Florczyk, A. et al. Description of the ghs urban centre database 2015. Pub. Rel. 1, 1–75 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Description%20of%20the%20ghs%20urban%20centre%20database%202015&journal=Pub.%20Rel.&volume=1&pages=1-75&publication_year=2019&author=Florczyk%2CA"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Montfort, S. et al. Output data of ‘Systematic Global Stocktake of over 50,000 Urban Climate Change Studies’ https://doi.org/10.7910/DVN/RSJF0Y (2025).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Roberts, M. E. et al. Structural topic models for open-ended survey responses. Am. J. Pol. Sci. 58, 1064–1082 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fajps.12103",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Structural%20topic%20models%20for%20open-ended%20survey%20responses&journal=Am.%20J.%20Pol.%20Sci.&doi=10.1111%2Fajps.12103&volume=58&pages=1064-1082&publication_year=2014&author=Roberts%2CME"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Lamb, W. F., Creutzig, F., Callaghan, M. W. & Minx, J. C. Learning about urban climate solutions from case studies. Nat. Clim. Change 9, 279–287 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-019-0440-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Learning%20about%20urban%20climate%20solutions%20from%20case%20studies&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-019-0440-x&volume=9&pages=279-287&publication_year=2019&author=Lamb%2CWF&author=Creutzig%2CF&author=Callaghan%2CMW&author=Minx%2CJC"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Lees, N. The Brandt line after forty years: the more north–south relations change, the more they stay the same? Rev. Int. Stud. 47, 85–106 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1017%2FS026021052000039X",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20Brandt%20line%20after%20forty%20years%3A%20the%20more%20north%E2%80%93south%20relations%20change%2C%20the%20more%20they%20stay%20the%20same%3F&journal=Rev.%20Int.%20Stud.&doi=10.1017%2FS026021052000039X&volume=47&pages=85-106&publication_year=2021&author=Lees%2CN"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Sun, L., Chen, J., Li, Q. & Huang, D. Dramatic uneven urbanization of large cities throughout the world in recent decades. Nat. Commun. 11, 5366 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-020-19158-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dramatic%20uneven%20urbanization%20of%20large%20cities%20throughout%20the%20world%20in%20recent%20decades&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-020-19158-1&volume=11&publication_year=2020&author=Sun%2CL&author=Chen%2CJ&author=Li%2CQ&author=Huang%2CD"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Creutzig, F., Baiocchi, G., Bierkandt, R., Pichler, P.-P. & Seto, K. C. Global typology of urban energy use and potentials for an urbanization mitigation wedge. Proc. Natl Acad. Sci. USA 112, 6283–6288 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1315545112",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20typology%20of%20urban%20energy%20use%20and%20potentials%20for%20an%20urbanization%20mitigation%20wedge&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1315545112&volume=112&pages=6283-6288&publication_year=2015&author=Creutzig%2CF&author=Baiocchi%2CG&author=Bierkandt%2CR&author=Pichler%2CP-P&author=Seto%2CKC"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Spaliviero, M. et al. Resilience planning under information scarcity in fast growing African cities and towns: the cityrap approach. Int. J. Disaster Risk Reduct. 44, 101419 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ijdrr.2019.101419",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Resilience%20planning%20under%20information%20scarcity%20in%20fast%20growing%20African%20cities%20and%20towns%3A%20the%20cityrap%20approach&journal=Int.%20J.%20Disaster%20Risk%20Reduct.&doi=10.1016%2Fj.ijdrr.2019.101419&volume=44&publication_year=2020&author=Spaliviero%2CM"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Sixty-First Session of the IPCC: Decisions Adopted by the Panel (Intergovermnetal Panel on Climate Change, 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Palutikof, J. P. et al. Enhancing the review process in global environmental assessments: the case of the IPCC. Environ. Sci. Pol. 139, 118–129 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envsci.2022.10.012",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Enhancing%20the%20review%20process%20in%20global%20environmental%20assessments%3A%20the%20case%20of%20the%20IPCC&journal=Environ.%20Sci.%20Pol.&doi=10.1016%2Fj.envsci.2022.10.012&volume=139&pages=118-129&publication_year=2023&author=Palutikof%2CJP"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Noy, I. Economists are not engaged enough with the IPCC. npj Clim. Action 2, 33 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs44168-023-00064-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Economists%20are%20not%20engaged%20enough%20with%20the%20IPCC&journal=npj%20Clim.%20Action&doi=10.1038%2Fs44168-023-00064-3&volume=2&publication_year=2023&author=Noy%2CI"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Cohen, A. M., Hersh, W. R., Peterson, K. & Yen, P.-Y. Reducing workload in systematic review preparation using automated citation classification. J. Am. Med. Informat. Assoc. 13, 206–219 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1197%2Fjamia.M1929",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Reducing%20workload%20in%20systematic%20review%20preparation%20using%20automated%20citation%20classification&journal=J.%20Am.%20Med.%20Informat.%20Assoc.&doi=10.1197%2Fjamia.M1929&volume=13&pages=206-219&publication_year=2006&author=Cohen%2CAM&author=Hersh%2CWR&author=Peterson%2CK&author=Yen%2CP-Y"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Roy, M. Planning for sustainable urbanisation in fast growing cities: mitigation and adaptation issues addressed in dhaka, bangladesh. Habitat Int. 33, 276–286 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.habitatint.2008.10.022",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Planning%20for%20sustainable%20urbanisation%20in%20fast%20growing%20cities%3A%20mitigation%20and%20adaptation%20issues%20addressed%20in%20dhaka%2C%20bangladesh&journal=Habitat%20Int.&doi=10.1016%2Fj.habitatint.2008.10.022&volume=33&pages=276-286&publication_year=2009&author=Roy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Seto, K. C. et al. Carbon lock-in: types, causes, and policy implications. Annu. Rev. Environ. Resour. 41, 425–452 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-environ-110615-085934",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Carbon%20lock-in%3A%20types%2C%20causes%2C%20and%20policy%20implications&journal=Annu.%20Rev.%20Environ.%20Resour.&doi=10.1146%2Fannurev-environ-110615-085934&volume=41&pages=425-452&publication_year=2016&author=Seto%2CKC"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Simarmata, H. A., Dimastanto, A., Santoso, S. I. & Kalsuma, D. et al. Institutional barriers of low carbon development planning in indonesian small cities. Low Carbon Econ. 5, 105 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.4236%2Flce.2014.53011",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Institutional%20barriers%20of%20low%20carbon%20development%20planning%20in%20indonesian%20small%20cities&journal=Low%20Carbon%20Econ.&doi=10.4236%2Flce.2014.53011&volume=5&publication_year=2014&author=Simarmata%2CHA&author=Dimastanto%2CA&author=Santoso%2CSI&author=Kalsuma%2CD"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Howarth, C. & Painter, J. Exploring the science–policy interface on climate change: the role of the IPCC in informing local decision-making in the UK. Palgrave Commun. 2, 16058 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1057%2Fpalcomms.2016.58",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20the%20science%E2%80%93policy%20interface%20on%20climate%20change%3A%20the%20role%20of%20the%20IPCC%20in%20informing%20local%20decision-making%20in%20the%20UK&journal=Palgrave%20Commun.&doi=10.1057%2Fpalcomms.2016.58&volume=2&publication_year=2016&author=Howarth%2CC&author=Painter%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Creutzig, F. et al. Scoping gaps in current assessments of cities and climate change. Working Paper (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Slovic, A. D., de Oliveira, M. A., Biehl, J. & Ribeiro, H. How can urban policies improve air quality and help mitigate global climate change: a systematic mapping review. J. Urban Health 93, 73–95 (2016).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11524-015-0007-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20can%20urban%20policies%20improve%20air%20quality%20and%20help%20mitigate%20global%20climate%20change%3A%20a%20systematic%20mapping%20review&journal=J.%20Urban%20Health&doi=10.1007%2Fs11524-015-0007-8&volume=93&pages=73-95&publication_year=2016&author=Slovic%2CAD&author=Oliveira%2CMA&author=Biehl%2CJ&author=Ribeiro%2CH"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Araos, M. et al. Climate change adaptation planning in large cities: a systematic global assessment. Environ. Sci. Pol. 66, 375–382 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envsci.2016.06.009",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20adaptation%20planning%20in%20large%20cities%3A%20a%20systematic%20global%20assessment&journal=Environ.%20Sci.%20Pol.&doi=10.1016%2Fj.envsci.2016.06.009&volume=66&pages=375-382&publication_year=2016&author=Araos%2CM"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Marshall, R. E. & Farahbakhsh, K. Systems approaches to integrated solid waste management in developing countries. Waste Manag. 33, 988–1003 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.wasman.2012.12.023",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Systems%20approaches%20to%20integrated%20solid%20waste%20management%20in%20developing%20countries&journal=Waste%20Manag.&doi=10.1016%2Fj.wasman.2012.12.023&volume=33&pages=988-1003&publication_year=2013&author=Marshall%2CRE&author=Farahbakhsh%2CK"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Norton, B. A. et al. Planning for cooler cities: a framework to prioritise green infrastructure to mitigate high temperatures in urban landscapes. Landsc. Urban Plan. 134, 127–138 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landurbplan.2014.10.018",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Planning%20for%20cooler%20cities%3A%20a%20framework%20to%20prioritise%20green%20infrastructure%20to%20mitigate%20high%20temperatures%20in%20urban%20landscapes&journal=Landsc.%20Urban%20Plan.&doi=10.1016%2Fj.landurbplan.2014.10.018&volume=134&pages=127-138&publication_year=2015&author=Norton%2CBA"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Matthews, T., Lo, A. Y. & Byrne, J. A. Reconceptualizing green infrastructure for climate change adaptation: barriers to adoption and drivers for uptake by spatial planners. Landsc. Urban Plan. 138, 155–163 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landurbplan.2015.02.010",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Reconceptualizing%20green%20infrastructure%20for%20climate%20change%20adaptation%3A%20barriers%20to%20adoption%20and%20drivers%20for%20uptake%20by%20spatial%20planners&journal=Landsc.%20Urban%20Plan.&doi=10.1016%2Fj.landurbplan.2015.02.010&volume=138&pages=155-163&publication_year=2015&author=Matthews%2CT&author=Lo%2CAY&author=Byrne%2CJA"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Nowak, D. J., Hirabayashi, S., Doyle, M., McGovern, M. & Pasher, J. Air pollution removal by urban forests in canada and its effect on air quality and human health. Urban For. Urban Green. 29, 40–48 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ufug.2017.10.019",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20pollution%20removal%20by%20urban%20forests%20in%20canada%20and%20its%20effect%20on%20air%20quality%20and%20human%20health&journal=Urban%20For.%20Urban%20Green.&doi=10.1016%2Fj.ufug.2017.10.019&volume=29&pages=40-48&publication_year=2018&author=Nowak%2CDJ&author=Hirabayashi%2CS&author=Doyle%2CM&author=McGovern%2CM&author=Pasher%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Shafique, M., Kim, R. & Rafiq, M. Green roof benefits, opportunities and challenges—a review. Renew. Sustain. Energy Rev. 90, 757–773 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2018.04.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Green%20roof%20benefits%2C%20opportunities%20and%20challenges%E2%80%94a%20review&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2018.04.006&volume=90&pages=757-773&publication_year=2018&author=Shafique%2CM&author=Kim%2CR&author=Rafiq%2CM"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Zhao, D. et al. Radiative sky cooling: fundamental principles, materials, and applications. Appl. Phys. Rev. 6 (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Connolly, D., Lund, H. & Mathiesen, B. V. Smart energy europe: the technical and economic impact of one potential 100% renewable energy scenario for the european union. Renew. Sustain. Energy Rev. 60, 1634–1653 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2016.02.025",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Smart%20energy%20europe%3A%20the%20technical%20and%20economic%20impact%20of%20one%20potential%20100%25%20renewable%20energy%20scenario%20for%20the%20european%20union&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2016.02.025&volume=60&pages=1634-1653&publication_year=2016&author=Connolly%2CD&author=Lund%2CH&author=Mathiesen%2CBV"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Tuballa, M. L. & Abundo, M. L. A review of the development of smart grid technologies. Renew. Sustain. Energy Rev. 59, 710–725 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2016.01.011",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20review%20of%20the%20development%20of%20smart%20grid%20technologies&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2016.01.011&volume=59&pages=710-725&publication_year=2016&author=Tuballa%2CML&author=Abundo%2CML"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "IPCC Sixth Assessment Report Climate Change 2022: Mitigation of Climate Change (eds Lwasa, S. et al.) (Cambridge Univ. Press, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Holmberg, K., Andersson, P., Nylund, N.-O., Mäkelä, K. & Erdemir, A. Global energy consumption due to friction in trucks and buses. Tribol. Int. 78, 94–114 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.triboint.2014.05.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20energy%20consumption%20due%20to%20friction%20in%20trucks%20and%20buses&journal=Tribol.%20Int.&doi=10.1016%2Fj.triboint.2014.05.004&volume=78&pages=94-114&publication_year=2014&author=Holmberg%2CK&author=Andersson%2CP&author=Nylund%2CN-O&author=M%C3%A4kel%C3%A4%2CK&author=Erdemir%2CA"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "González-Gil, A., Palacin, R. & Batty, P. Sustainable urban rail systems: strategies and technologies for optimal management of regenerative braking energy. Energy Convers. Manag. 75, 374–388 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enconman.2013.06.039",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sustainable%20urban%20rail%20systems%3A%20strategies%20and%20technologies%20for%20optimal%20management%20of%20regenerative%20braking%20energy&journal=Energy%20Convers.%20Manag.&doi=10.1016%2Fj.enconman.2013.06.039&volume=75&pages=374-388&publication_year=2013&author=Gonz%C3%A1lez-Gil%2CA&author=Palacin%2CR&author=Batty%2CP"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Xu, L., Fan, M., Yang, L. & Shao, S. Heterogeneous green innovations and carbon emission performance: evidence at China’s city level. Energy Econ. 99, 105269 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.eneco.2021.105269",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Heterogeneous%20green%20innovations%20and%20carbon%20emission%20performance%3A%20evidence%20at%20China%E2%80%99s%20city%20level&journal=Energy%20Econ.&doi=10.1016%2Fj.eneco.2021.105269&volume=99&publication_year=2021&author=Xu%2CL&author=Fan%2CM&author=Yang%2CL&author=Shao%2CS"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Liu, X. & Bae, J. Urbanization and industrialization impact of CO2 emissions in China. J. Clean. Prod. 172, 178–186 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2017.10.156",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanization%20and%20industrialization%20impact%20of%20CO2%20emissions%20in%20China&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2017.10.156&volume=172&pages=178-186&publication_year=2018&author=Liu%2CX&author=Bae%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Liew, F. et al. Gas fermentation-a flexible platform for commercial scale production of low-carbon-fuels and chemicals from waste and renewable feedstocks. Front. Microbiol. 7, 694 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.3389%2Ffmicb.2016.00694",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Gas%20fermentation-a%20flexible%20platform%20for%20commercial%20scale%20production%20of%20low-carbon-fuels%20and%20chemicals%20from%20waste%20and%20renewable%20feedstocks&journal=Front.%20Microbiol.&doi=10.3389%2Ffmicb.2016.00694&volume=7&publication_year=2016&author=Liew%2CF"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "IPCC Sixth Assessment Report Climate Change 2022: Mitigation of Climate Change. (eds Jaramillo, P. S. et al.) (Cambridge Univ. Press, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR59",
+            "content": "IPCC Fifth Assessment Report Mitigation of Climate Change (eds Shukla, P. R. & Skea, J.) (Cambridge Univ. Press, 2022).",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The database are also available via Harvard Dataverse at https://doi.org/10.7910/DVN/RSJF0Y (ref. 26) and in the online web tool (https://cc-cities.adibilis.ch).",
+            "links": {
+                "https://doi.org/10.7910/DVN/RSJF0Y": "https://doi.org/10.7910/DVN/RSJF0Y",
+                "26": "/articles/s44284-025-00260-8#ref-CR26",
+                "https://cc-cities.adibilis.ch": "https://cc-cities.adibilis.ch"
+            }
+        },
+        "Code availability": {
+            "content": "All replication materials and data are available via GitLab at https://gitlab.com/SimonMontfort/cities-update.",
+            "links": {
+                "https://gitlab.com/SimonMontfort/cities-update": "https://gitlab.com/SimonMontfort/cities-update"
+            }
+        },
+        "Acknowledgments": {
+            "content": "We acknowledge valuable feedback from the participants of the What Works Climate Solution Summit, the Urban Typologies workshop, the Meta-Analysis of Economics Research Network and three excellent anonymous reviewers. S.M. acknowledges Doc.CH funding from the Swiss National Science Foundation (grant number 207269) and mobility funding (grant number 207269 / 2).",
+            "links": {}
+        },
+        "Funding": {
+            "content": "Open access funding provided by EPFL Lausanne.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsSimon MontfortView author publicationsSearch author on:PubMed Google ScholarMax CallaghanView author publicationsSearch author on:PubMed Google ScholarFelix CreutzigView author publicationsSearch author on:PubMed Google ScholarWilliam F. LambView author publicationsSearch author on:PubMed Google ScholarChenxi LuView author publicationsSearch author on:PubMed Google ScholarTim RepkeView author publicationsSearch author on:PubMed Google ScholarKe GeView author publicationsSearch author on:PubMed Google ScholarJan MinxView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nS.M., J.M., M.C., F.C. and W.L. designed the research. S.M. implemented the topic model, the city name word match and conducted the quantitative analysis with advice from M.C., T.R. and all the other authors. M.C. implemented the spatial classifier and provided the bibliographic data. T.R. performed the comparison of IPCC references with references in our database. S.M., J.M., T.R., C.L. and K.G. annotated articles for the supervized M.L. classifier. S.M. labeled and categorized the topics. M.C., T.R., J.M., C.L. and K.G. double-checked all topic labels and categories. S.M. performed the qualitative analysis of influential articles covered and left out in the IPCC reports with advice from F.C. S.M. visualized the results. S.M. wrote the paper with contributions from F.C., J.M., W.L. and all the other coauthors. S.M. performed the revisions with contributions from T.R., F.C., M.C. and all the other authors.\n### Corresponding author\nCorrespondence to\n                Simon Montfort.",
+            "links": {
+                "View author publications": "/search?author=Jan%20Minx",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jan%20Minx",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Jan%20Minx%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Simon Montfort": "mailto:simon.montfort@epfl.ch"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Cities thanks the anonymous reviewers for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data": {
+            "content": "Extended Data Fig. 1 Tuning of the XGBoost classifier using nested cross-validation with five inner and five outer folds.The horizontal axis shows the probability threshold of the model for articles to be considered relevant. The vertical axis shows the model performance scores. a, Performance of the machine learning classifier on the inner validation set for the different hyperparameter combinations. The lines show the minima and the maxima of the model performance scores. b, Average out-of-sample performance on the test set of the five outer folds.Extended Data Fig. 2 Population-normalized evidence biases.a, The log ratio of the research share relative to the population share in the entire city case study literature. The inset figure displays the population-normalized research share for small (< 0.3 mio inhabitants), medium (0.3-1 mio inhabitants), large (1-10 mio inhabitants), and megacities (> 10 mio inhabitants) for the city case study literature (triangle) and the case studies covered in the IPCC (circle). Dots below (above) the dashed bar indicates that the city type is under-researched (over-researched). b, small, medium, large, and mega cities. The color distinguishes whether any of these studies have been covered in the recent IPCC AR6 report. Cities with larger points have more city-specific case studies.Extended Data Fig. 3 Yearly mean population growth rates and population size by cities with varying coverage per continent.Mean population growth rates (in Panel a) and population size (in b) are indicated by the colored bars with 95% confidence intervals indicated by the error bars in black. The horizontal axis distinguishes the number of publications per hexagon (Fig. 2), normalized by the number of cities in that hexagon (< 1, 1 − 5, and > 5). To facilitate the interpretation of significant and non-significant differences of the mean population statistics for hexagons with different numbers of studies, the results from a two-sided t-test with < 1 as the reference group are indicated as follows: ns indicates that p > 0.05, *: p < = 0.05, **: p < = 0.01, ***: p < = 0.001, ****: p < = 0.0001. For instance, for the South American population shown on the bottom left in panel a, the mean population of hexagons with 0-1 study per city is 0.2 million, while for hexagons with more than 5 studies, it is 0.75 million. As the difference is statistically significant, this indicates that, in South America, small cities are underresearched on average, as hexagons with fewer studies are home to fewer people. However, the difference in population growth for South America is statistically insignificant, meaning that fast-growing cities are not underresearched in this region. This is the case only in Africa, Oceania, and Asia while, in Europe, shrinking cities are underresearched (negative growth for hexagons with < 1 study per city).Extended Data Fig. 4 Research on cities and human settlements in space.Of the 53,295 studies in our database, 19,733 are city-specific case studies, and 27,980 studies are generic studies neither focusing on specific cities nor a continent. Additionally, 5,582 generic studies cover specific continents while not addressing specific cities.Extended Data Fig. 5 Selected topic proportions normalized by the aggregate population for cities of varying size.The figure shows topic share per city size for small (< 0.3 mio inhabitants), medium (0.3-1 mio inhabitants), large (1-10 mio inhabitants), and megacities (> 10 mio inhabitants). Symbols above (below) the dashed line indicate that the topic share is larger (smaller) than the population share. Displayed on a binary log scale, meaning a one-unit increase (decrease) indicates a doubling (halving) of the size of the topic for Vulnerability and impacts (a), Planning processes (b), Policy adoption and implementation (c), and Outcomes (d).Extended Data Fig. 6 Research topics in spatially specific city case studies and other non-place-specific studies.Topics are grouped by impacts, adaptation, mitigation, and cross-cutting themes and ordered by size. To provide fast access to the relevant evidence, the research topics, and their size, we normalize each topic against the mean topic size. Topics for which the bars point inwards are smaller than the mean topic size and vice-versa for bars that point outwards. Displayed on a binary log scale, meaning a one-unit increase (decrease) indicates a doubling (halving) of the size of the topic. Topics unrelated to impacts, adaptation, mitigation, and cross-cutting issues, were excluded, for instance, topics on geographic places or research methods. For an overview of aggregated impacts, adaptation, mitigation and cross-cutting topics across continents, see Supplementary Materials, Fig. 2.Extended Data Fig. 7 Validation of the computational identification of city case studies.Performance metrics F1, precision, and recall across the world and in individual continents (in Panel a) based on 600 manually annotated studies selected through random sampling and the underlying confusion matrices (b).",
+            "links": {
+                "Extended Data Fig. 1 Tuning of the XGBoost classifier using nested cross-validation with five inner and five outer folds.": "/articles/s44284-025-00260-8/figures/6",
+                "Extended Data Fig. 2 Population-normalized evidence biases.": "/articles/s44284-025-00260-8/figures/7",
+                "Extended Data Fig. 3 Yearly mean population growth rates and population size by cities with varying coverage per continent.": "/articles/s44284-025-00260-8/figures/8",
+                "2": "/articles/s44284-025-00260-8#Fig2",
+                "Extended Data Fig. 4 Research on cities and human settlements in space.": "/articles/s44284-025-00260-8/figures/9",
+                "Extended Data Fig. 5 Selected topic proportions normalized by the aggregate population for cities of varying size.": "/articles/s44284-025-00260-8/figures/10",
+                "Extended Data Fig. 6 Research topics in spatially specific city case studies and other non-place-specific studies.": "/articles/s44284-025-00260-8/figures/11",
+                "Extended Data Fig. 7 Validation of the computational identification of city case studies.": "/articles/s44284-025-00260-8/figures/12"
+            }
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Figs. 1 and 2 and Tables 1 and 2.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00260-8/MediaObjects/44284_2025_260_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00260-8/MediaObjects/44284_2025_260_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Systematic%20global%20stocktake%20of%20over%2050%2C000%20urban%20climate%20change%20studies&author=Simon%20Montfort%20et%20al&contentID=10.1038%2Fs44284-025-00260-8&copyright=The%20Author%28s%29&publication=2731-9997&publicationDate=2025-06-24&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleMontfort, S., Callaghan, M., Creutzig, F. et al. Systematic global stocktake of over 50,000 urban climate change studies.\n                    Nat Cities 2, 613–625 (2025). https://doi.org/10.1038/s44284-025-00260-8Download citationReceived: 05 June 2024Accepted: 11 May 2025Published: 24 June 2025Issue date: July 2025DOI: https://doi.org/10.1038/s44284-025-00260-8Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s44284-025-00260-8?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Systematic global stocktake of over 50,000 urban climate change studies",
+                "description": "Taking stock of climate change evidence is essential to helping cities address climate change. However, such efforts face challenges in appraising the growing scholarship in this fast-moving area. Here we use supervised and unsupervised machine learning to identify and classify over 53,000 urban climate studies, creating a dynamic, interactive and searchable evidence database for researchers and policymakers. Nearly 20,000 are city-specific case studies, revealing a rapidly growing yet unevenly distributed knowledge base. Notably, small and fast-growing cities, particularly in Africa and Asia, remain substantially underrepresented, contributing to topical, geographic and disciplinary biases in previous Intergovernmental Panel on Climate Change (IPCC) assessments. We propose three strategies to address this: (1) synthesizing case studies to support IPCC uptake, (2) identifying cross-city learning opportunities and (3) closing evidence gaps in the Global South. Thereby, our systematic stocktake helps inform adaptation and mitigation efforts in cities, guides future research and strengthens the IPCC’s ability to deliver robust, policy-relevant evidence. This study provides an evidence database on climate change in cities, highlighting that small and fast-growing cities, especially in Asia and Africa, are underresearched, which has contributed to biases and validity issues in past Intergovernmental Panel on Climate Change climate change assessments.",
+                "datePublished": "2025-06-24T00:00:00Z",
+                "dateModified": "2025-06-24T00:00:00Z",
+                "pageStart": "613",
+                "pageEnd": "625",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s44284-025-00260-8",
+                "keywords": [
+                    "Climate change",
+                    "Science, technology and society",
+                    "Cities",
+                    "Countries",
+                    "Regions",
+                    "Sustainable Architecture/Green Buildings",
+                    "Civil Engineering",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urban Studies/Sociology",
+                    "Urban Economics"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00260-8/MediaObjects/44284_2025_260_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00260-8/MediaObjects/44284_2025_260_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00260-8/MediaObjects/44284_2025_260_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00260-8/MediaObjects/44284_2025_260_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00260-8/MediaObjects/44284_2025_260_Fig5_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Cities",
+                    "issn": [
+                        "2731-9997"
+                    ],
+                    "volumeNumber": "2",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Simon Montfort",
+                        "url": "http://orcid.org/0000-0003-2072-7226",
+                        "affiliation": [
+                            {
+                                "name": "École polytechnique fédérale de Lausanne",
+                                "address": {
+                                    "name": "Human–Environment Relations in Urban Systems, École polytechnique fédérale de Lausanne, Lausanne, Switzerland",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Bern",
+                                "address": {
+                                    "name": "Oeschger Centre for Climate Change Research, University of Bern, Bern, Switzerland",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Bern",
+                                "address": {
+                                    "name": "Institute of Political Science, University of Bern, Bern, Switzerland",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "simon.montfort@epfl.ch",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Max Callaghan",
+                        "affiliation": [
+                            {
+                                "name": "Member of the Leibniz Association",
+                                "address": {
+                                    "name": "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Felix Creutzig",
+                        "url": "http://orcid.org/0000-0002-5710-3348",
+                        "affiliation": [
+                            {
+                                "name": "Member of the Leibniz Association",
+                                "address": {
+                                    "name": "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Sussex",
+                                "address": {
+                                    "name": "Bennett Institute for Innovation and Policy Acceleration, Science Policy Research Unit, University of Sussex, Brighton, UK",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "William F. Lamb",
+                        "url": "http://orcid.org/0000-0003-3273-7878",
+                        "affiliation": [
+                            {
+                                "name": "Member of the Leibniz Association",
+                                "address": {
+                                    "name": "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Leeds",
+                                "address": {
+                                    "name": "School of Earth and Environment, University of Leeds, Leeds, UK",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Chenxi Lu",
+                        "affiliation": [
+                            {
+                                "name": "Member of the Leibniz Association",
+                                "address": {
+                                    "name": "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Technische Universität Berlin",
+                                "address": {
+                                    "name": "Sustainability Economics of Human Settlements, Technische Universität Berlin, Berlin, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Tim Repke",
+                        "url": "http://orcid.org/0000-0001-9661-6325",
+                        "affiliation": [
+                            {
+                                "name": "Member of the Leibniz Association",
+                                "address": {
+                                    "name": "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Ke Ge",
+                        "affiliation": [
+                            {
+                                "name": "Technische Universität Berlin",
+                                "address": {
+                                    "name": "Sustainability Economics of Human Settlements, Technische Universität Berlin, Berlin, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jan Minx",
+                        "affiliation": [
+                            {
+                                "name": "Member of the Leibniz Association",
+                                "address": {
+                                    "name": "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Leeds",
+                                "address": {
+                                    "name": "School of Earth and Environment, University of Leeds, Leeds, UK",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "climate-change;science-technology-and-society",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "Cities and climate change",
+                            "webtrendsContentGroup": "Nature Cities",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s44284-025-00260-8"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Simon Montfort",
+                            "Max Callaghan",
+                            "Felix Creutzig",
+                            "William F. Lamb",
+                            "Chenxi Lu",
+                            "Tim Repke",
+                            "Ke Ge",
+                            "Jan Minx"
+                        ],
+                        "publishedAt": 1750723200,
+                        "publishedAtString": "2025-06-24",
+                        "title": "Systematic global stocktake of over 50,000 urban climate change studies",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Climate change,Science, technology and society"
+                    },
+                    "journal": {
+                        "pcode": "natcities",
+                        "title": "nature cities",
+                        "volume": "2",
+                        "issue": "7",
+                        "id": 44284,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "cghcedcihj"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "BR",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Systematic global stocktake of over 50,000 urban climate change studies",
+            "dc.source": "Nature Cities 2025 2:7",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-06-24",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Taking stock of climate change evidence is essential to helping cities address climate change. However, such efforts face challenges in appraising the growing scholarship in this fast-moving area. Here we use supervised and unsupervised machine learning to identify and classify over 53,000 urban climate studies, creating a dynamic, interactive and searchable evidence database for researchers and policymakers. Nearly 20,000 are city-specific case studies, revealing a rapidly growing yet unevenly distributed knowledge base. Notably, small and fast-growing cities, particularly in Africa and Asia, remain substantially underrepresented, contributing to topical, geographic and disciplinary biases in previous Intergovernmental Panel on Climate Change (IPCC) assessments. We propose three strategies to address this: (1) synthesizing case studies to support IPCC uptake, (2) identifying cross-city learning opportunities and (3) closing evidence gaps in the Global South. Thereby, our systematic stocktake helps inform adaptation and mitigation efforts in cities, guides future research and strengthens the IPCC’s ability to deliver robust, policy-relevant evidence. This study provides an evidence database on climate change in cities, highlighting that small and fast-growing cities, especially in Asia and Africa, are underresearched, which has contributed to biases and validity issues in past Intergovernmental Panel on Climate Change climate change assessments.",
+            "dc.identifier": "doi:10.1038/s44284-025-00260-8",
+            "dc.creator": "Minx, Jan",
+            "dc.subject": "Science, technology and society",
+            "prism.issn": "2731-9997",
+            "prism.publicationName": "Nature Cities",
+            "prism.publicationDate": "2025-06-24",
+            "prism.volume": "2",
+            "prism.number": "7",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "613",
+            "prism.endingPage": "625",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s44284-025-00260-8",
+            "prism.doi": "doi:10.1038/s44284-025-00260-8",
+            "citation_pdf_url": "https://www.nature.com/articles/s44284-025-00260-8.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s44284-025-00260-8",
+            "citation_journal_title": "Nature Cities",
+            "citation_journal_abbrev": "Nat Cities",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2731-9997",
+            "citation_title": "Systematic global stocktake of over 50,000 urban climate change studies",
+            "citation_volume": "2",
+            "citation_issue": "7",
+            "citation_publication_date": "2025/07",
+            "citation_online_date": "2025/06/24",
+            "citation_firstpage": "613",
+            "citation_lastpage": "625",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s44284-025-00260-8",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s44284-025-00260-8&api_key=",
+            "citation_reference": "IPCC Fifth Assessment Report Mitigation of Climate Change (eds Shukla, P. R. & Skea, J.) (Cambridge Univ. Press, 2022).",
+            "citation_author": "Minx, Jan",
+            "citation_author_institution": "School of Earth and Environment, University of Leeds, Leeds, UK",
+            "description": "Taking stock of climate change evidence is essential to helping cities address climate change. However, such efforts face challenges in appraising the growing scholarship in this fast-moving area. Here we use supervised and unsupervised machine learning to identify and classify over 53,000 urban climate studies, creating a dynamic, interactive and searchable evidence database for researchers and policymakers. Nearly 20,000 are city-specific case studies, revealing a rapidly growing yet unevenly distributed knowledge base. Notably, small and fast-growing cities, particularly in Africa and Asia, remain substantially underrepresented, contributing to topical, geographic and disciplinary biases in previous Intergovernmental Panel on Climate Change (IPCC) assessments. We propose three strategies to address this: (1) synthesizing case studies to support IPCC uptake, (2) identifying cross-city learning opportunities and (3) closing evidence gaps in the Global South. Thereby, our systematic stocktake helps inform adaptation and mitigation efforts in cities, guides future research and strengthens the IPCC’s ability to deliver robust, policy-relevant evidence. This study provides an evidence database on climate change in cities, highlighting that small and fast-growing cities, especially in Asia and Africa, are underresearched, which has contributed to biases and validity issues in past Intergovernmental Panel on Climate Change climate change assessments.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Systematic global stocktake of over 50,000 urban climate change studies",
+            "twitter:description": "Nature Cities - This study provides an evidence database on climate change in cities, highlighting that small and fast-growing cities, especially in Asia and Africa, are underresearched, which has...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44284-025-00260-8/MediaObjects/44284_2025_260_Fig1_HTML.png",
+            "DOI": "10.1038/s44284-025-00260-8",
+            "size": "183536",
+            "journal_id": "44284"
+        },
+        "canonical_url": "https://www.nature.com/articles/s44284-025-00260-8",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

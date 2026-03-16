@@ -1,0 +1,998 @@
+{
+    "id": "s42949-024-00142-3",
+    "journal": "npj Urban Sustainability",
+    "type": "article",
+    "title": "The emergence of urban heat traps and human mobility in 20 US cities",
+    "legal_title": "The emergence of urban heat traps and human mobility in 20 US cities",
+    "publish_time": "2024-02-01",
+    "pdf_link": "https://www.nature.com/articles/s42949-024-00142-3",
+    "storage_path": "./Articles/npj Urban Sustainability/2024-article/s42949-024-00142-3/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Understanding the relationship between spatial structures of cities and environmental hazard exposures is essential for urban health and sustainability planning. However, a critical knowledge gap exists in terms of the extent to which socio-spatial networks shaped by human mobility exacerbate or alleviate urban heat exposures of populations in cities. In this study, we utilize location-based data to construct human mobility networks in twenty metropolitan areas in the U.S. The human mobility networks are analyzed in conjunction with the urban heat characteristics of spatial areas. We identify areas with high and low urban heat exposure and evaluate visitation patterns of populations residing in high and low urban heat areas to other spatial areas with similar and dissimilar urban heat exposure. The results reveal the presence of urban heat traps in the majority of the studied metropolitan areas, wherein populations residing in high-heat exposure areas primarily visited other high-heat exposure zones. Specifically, cities such as Los Angeles, Boston, and Chicago were particularly pronounced as urban heat traps. The results also show a small percentage of human mobility to produce urban heat escalation and heat escapes. The findings from this study provide a better understanding of urban heat exposure in cities based on patterns of human mobility. These findings contribute to a broader understanding of the intersection of human network dynamics and environmental hazard exposures in cities to inform more integrated urban design and planning to promote health and sustainability.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "The characterization of the spatial environmental hazards in cities is essential for urban sustainability and health plans and policies1,2,3. Among all the environmental hazards, heat is one of the major hazards4,5,6. Damages of heat include increased mortality and morbidity due to extremely high air temperatures7, stronger heat-related health threats in urban areas8, and increased energy consumption9. However, comparing to other environmental hazards, such as air pollution, urban heat did not draw enough attention in the existing literature10,11,12. Within the studies of urban heat, limited attentions were paid to human network dynamics that could expand the reach of environmental hazard exposures4,13. Current heat-related studies mostly focused on index-based, which is an isolated measurement of individual locations14,15,16. Research gap exists in terms of how to understand the spatial distribution of urban heat and people’s response to the heat from a network-based perspective. In particular, human mobility shapes the spatial structures of cities and could extend the reach of environmental hazards beyond hazard hotspots. In a recent study, Fan et al. examined the intersection of human mobility and air pollution exposure and found that human mobility expands the reach of air pollution exposure17. This study highlights the significance of characterizing environmental hazard exposures based on considering human mobility networks in cities17. In the context of urban heat exposure, Yin et al. proposed a dynamic urban thermal exposure index to account for human mobility in specifying urban heat exposure18. While the index-based approach proposed by Yin et al. captures mobility-based heat exposure, it does not capture fundamental properties arising at the intersection of human mobility and spatial heat exposure that extend or alleviate heat exposure18. Recognizing this gap, in this paper, we define and examine three properties at the intersection of urban heat and human mobility (Fig. 1): (1) heat traps: in which populations residing in high-heat areas visit other high-heat areas; (2) heat escapes: in which populations residing in high heat areas visit low heat areas; and (3) heat escalates: in which populations residing in low heat areas visit high heat areas. In fact, these properties are emergent properties arising from the intersection of human mobility networks and the spatial distribution of heat hazards in cities. Accordingly, the study aims to address the following research questions: to what extent human mobility would exacerbate urban heat exposure (prominence of heat traps), alleviate heat exposure (heat escapes), or expand the reach of heat exposure (heat escalates)? To address these questions, we utilize aggregated and anonymized location-based data to construct the human mobility network (origin-destination network in which origin is the home census tracts of trips and destination is the visitation census tract of trips) for twenty metropolitan areas in the U.S. to examine the proportion of trips from high heat areas to other high heat areas and low heat areas. Accordingly, we analyze the prominence of heat traps, escapes, and escalates across different cities to evaluate cross-city similarities and differences.\nUrban heat (UH), or the urban heat island effect, refers to the phenomenon where urban areas have higher temperatures than surrounding rural areas due to the heat generated by human activity and the lack of vegetation to absorb that heat. UH has been recognized as a global problem, which has drawn attention from multiple countries19,20,21,22. To understand and mitigate UH effect, researchers have identified multiple factors. For example, some studies found that tree density is correlated with UH23,24,25, that high tree density potentially decreases urban heat phenomenon. Transportation is another factor, less movement of transportation can reduce the extent of changes in temperatures in urban areas26,27,28. Moreover, population density also contributes to the urban heat effect; population loss can have a mitigating effect on the UH effect29,30,31. However, those studies focused on examining a single factor with UH, and they ignored the ability of humans to adjust to the living environment by moving to different locations.\nHuman mobility datasets have been widely used in multiple hazards, including hurricane32,33,34,35, flooding36,37,38,39,40,41, and infectious diseases42,43,44,45. These studies have found human mobility data was useful in understanding people’s reaction to hazards46,47. During the COVID-19 pandemic, the confirmed cases were found to be highly correlated with human mobility places with higher activities had more COVID-19 cases48,49. These studies have recognized that people can successfully change the level of hazard exposure by moving to a different location.\nThe majority of human mobility and hazard studies have focused on the relationship between human mobility patterns and the likelihood of exposure to natural hazards, infectious diseases, and environmental pollutants. However, the current literature does not adequately investigate the relationship between human mobility and urban heat50,51. In this context, mobility can play a significant role in determining the likelihood of exposure to urban heat. Therefore, understanding the relationship between human mobility and UH can be useful in developing strategies to reduce the impact of urban heat on individuals and communities, which is the focus of this study.\nIn our analysis, we utilized the Surface Urban Heat Island (SUHI) values, which are derived from the difference between urban Land Surface Temperature (LST) and a common rural reference. While SUHI is indicative of the radiative surface temperature and offers valuable insights into the spatial patterns of urban heat, it is important to understand its limitations. Specifically, SUHI and LST are measures of surface warmth and do not always correlate directly with ambient air temperature, which has a more immediate impact on human comfort and health. Particularly during the daytime, the relationship between air temperature and surface temperature can be weak due to the influence of various atmospheric conditions, such as wind and humidity, as well as the thermal characteristics of the surface materials. Thus, caution should be exercised when using LST or SUHI to quantitatively estimate actual heat exposure for individuals. It’s important to note that while the spatial patterns observed in terms of heat traps, escalates, and escapes are based on SUHI, a direct analysis using LST might yield consistent patterns due to the inherent relationship between LST and SUHI. LST offers a direct measure of urban temperature, whereas SUHI provides a relative measure by contrasting urban temperatures with a rural baseline. Both metrics can offer valuable insights into urban heat dynamics52,53. For the scope of this study, we specifically used the annual mean SUHI values for the entire urbanized area. This ensures a comprehensive representation of the urban heat dynamics across the region, allowing us to investigate its relationship with human mobility patterns effectively.",
+            "cites": [
+                "ref-CR43",
+                "ref-CR22",
+                "ref-CR2",
+                "ref-CR52",
+                "ref-CR18",
+                "ref-CR37",
+                "ref-CR9",
+                "ref-CR42",
+                "ref-CR53",
+                "ref-CR41",
+                "ref-CR20",
+                "ref-CR35",
+                "ref-CR45",
+                "ref-CR6",
+                "ref-CR16",
+                "ref-CR27",
+                "ref-CR24",
+                "ref-CR23",
+                "ref-CR5",
+                "ref-CR40",
+                "ref-CR47",
+                "ref-CR39",
+                "ref-CR19",
+                "ref-CR8",
+                "ref-CR26",
+                "ref-CR44",
+                "ref-CR33",
+                "ref-CR21",
+                "ref-CR10",
+                "ref-CR36",
+                "ref-CR31",
+                "ref-CR13",
+                "ref-CR1",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR4",
+                "ref-CR29",
+                "ref-CR34",
+                "ref-CR50",
+                "ref-CR48",
+                "ref-CR46",
+                "ref-CR28",
+                "ref-CR11",
+                "ref-CR14",
+                "ref-CR12",
+                "ref-CR49",
+                "ref-CR7",
+                "ref-CR3",
+                "ref-CR25",
+                "ref-CR17",
+                "ref-CR32",
+                "ref-CR38",
+                "ref-CR51"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Results",
+            "text": "### Patterns across cities\nTable 1 presents the list of metropolitan areas and the percentage of trips in each category (i.e., high to high, low to high, and high to low). The high UH and low UH percentages are calculated by dividing the number of census tracts in high UH and low UH areas, respectively, by the total number of census tracts. It was observed that the total number of census tracts with trips originating from high UH areas and traveling to either low UH areas or other high UH areas were numerically equivalent. This consistency arises because both types of trips—those going from high UH to low UH and those traveling between high UH tract—originate from the same set of high UH census tracts. What differentiates these trips is their destination: one set travels to low UH tracts, while the other remains within high UH tracts. It’s important to understand that while the origins are the same, the nature of the outbound trips varies based on the urban heat conditions of the destination tracts. (Eqs. (2) and (3)). The metropolitan classifications are based on the percentage of low-to-high trips, high-to-low trips, and high-to-high trips, as stated in the Methods section.\nFor visual clarity and differentiation in our figures, we employed the quantile breaks method to categorize the colors representing various levels of Urban Heat (UH). All of the results maps are created using Python library Matplotlib.\n### Cities with high urban heat traps\nThe Los Angeles metropolitan area shows significant urban heat traps. Fig. 2A maps the UH in Los Angeles. Three orange shades represent three levels of UH. The darker the shade is, the more severe UH was observed. The metropolitan area has 13 percent of the tracts in low UH areas, mainly located on the north and east, while 52 percent of the metropolitan area is in high UH areas (dark orange). Figs. 2B–D shows the ratio of trips between low UH tracts and high UH tracts, which are broken into four categories for better visualization. Light blue shows a low ratio of trips, and dark blue shows a high ratio of trips. All the following figures are presented in the same plot format as Figs. 2A, B–D.\nFigure 2B shows the ratio of trips visiting from low UH tracts to high UH tracts. A high ratio of low-to-high trips from 0.22 to 0.35 occurs in the north, which means that a significant number of people living in low UH areas are visiting high UH areas in the north. Fig. 2D shows the ratio of trips from high UH tracts to low UH tracts with a higher ratio of trips, 0.05 to 0.11, occurring in the northwest and southwest. This means that a relatively high number of people living in high UH areas are visiting low UH areas in the northwest and southwest. Fig. 2C shows the ratio of trips visiting from high UH tracts to high UH tracts. 81 percent of all the tracts in high UH areas have trips trapped inside high UH areas with the ratio of trips from 0.30 to 0.92, meaning lots of people suffering UH did not move to relieve their UH exposure. These urban heat traps are in the northwest and central of Los Angeles, with an especially high ratio from 0.76 to 0.92 in the central. Fig. 2D shows the ratio of trips visiting from high UH areas to low UH areas with a ratio of trips from 0 to 0.11.\nSimilarly, the Chicago metropolitan area shows strong urban heat traps as well. Fig. 3A maps the UH in Chicago. Chicago has 16 percent of its tracts in low UH areas, while 49 percent of its tracts are in high UH areas. Fig. 3B shows the ratio of trips visiting from low UH tracts to high UH tracts. A higher ratio of trips 0.17 to 0.24 occurs on the coast of Lake Michigan, meaning that a significant number of people living in low UH areas are visiting high UH areas on the coast of Lake Michigan. Fig. 3D shows trips from high UH tracts to low UH tracts with a ratio as high as 0.08 to 0.13 occurring in the east. Fig. 3C shows the ratio of trips visiting from high UH tracts to high UH tracts, with the ratio of trips from 0.44 to 0.91, which means that a large number of people living in high UH areas are visiting other high UH areas within the Chicago metropolitan area. About 78 percent of Chicago tracts in high UH areas have trips trapped inside high UH areas. Most of the UH traps are in the west of Chicago. At the same time, central Chicago presents an exceptionally high heat trap ratio, ranging from 0.79 to 0.91. Fig. 3D. shows the ratio of trips visiting from high UH tracts to low UH tracts, with the ratio of trips from 0 to 0.13. This means that a relatively low number of people living in high UH areas are visiting low UH areas within the Chicago metropolitan area.\nComparing the UH traps between Chicago and Los Angeles, we can see that the traps in Chicago are clustered in one place, while in Los Angeles are distributed into multiple clusters.\nFigures 2 and 3 show that the Los Angeles and Chicago metropolitan areas both have significant urban heat traps. In Los Angeles, 52 percent of all the tracts are in high UH areas, while in Chicago, 49 percent are in high UH areas. The figures also show that trips from low UH areas to high UH areas are more frequent in the north of both cities, while trips from high UH areas to low UH areas are more common in the northwest and southwest of Los Angeles, and the east of Chicago. Additionally, the figures show that both cities present high heat trap trips, with around 80 percent of tracts having heat trap trips. This indicates that people in the high UH areas are likely not visiting the low UH areas to escape the heat, but instead are staying in other high UH areas.\n### Cities with low urban heat traps\nBoston Metropolitan shows low urban heat traps. Fig. 4A maps the UH in Boston. About 28 percent of tracts in Boston are in low UH areas, while 36 percent of tracts have high UH. Most of these high UH tracts are clustered in central Boston. Fig. 4B shows the ratio of trips visiting from low UH tracts to high UH tracts. The ratio of such trips is from 0.04 to 0.19 and only occurs in 4 percent of all the tracts with low UH. Fig. 4C shows the ratio of trips visiting from high UH tracts to high UH tracts. This ratio ranges from 0.30 to 0.90. About 37 percent of tracts with high UH have trips trapped inside high UH areas. This percentage is relatively small when compared to Los Angeles (81 percent) and Chicago (78 percent). Fig. 4D shows the trips from high UH areas to low UH areas with a ratio from 0 to 0.02. These results indicate that people living in low UH areas in the Boston metropolitan area are not frequently visiting high UH areas, which could be an indication of a fewer heat traps.\nSimilarly, the Atlanta Metropolitan also shows low UH traps. Fig. 5A maps the UH in Atlanta. Atlanta has 32 percent of the tracts in low UH areas, while 21 percent are in high UH areas. Fig. 5B shows the ratio of trips visiting from low UH tracts to high UH tracts. The ratio of such trips is from 0.01 to 0.16 and only occurred in 13 percent of all the low UH tracts. Fig. 5C shows the ratio of trips visiting from high UH tracts to high UH tracts with ratios from 0.37 to 0.87. About 40 percent of high UH tracts have heat trap trips. This number is similar to Boston and is relatively small compared to Los Angeles and Chicago. Fig. 5D shows the trips from high UH areas to low UH areas, ranging from 0.01 to 0.12. This ratio is small but more significant than that of Boston, which means that comparing to Boston, more heat escape trips exist in Atlanta.\nFigures 4 and 5 show that both Boston and Atlanta have relatively low UH comparing to Los Angeles and Chicago. In Boston, only 36 percent of tracts are in high UH, while in Atlanta, only 21 percent of the tracts are in high UH. The figures also show that trips from low UH areas to high UH areas are relatively rare in both cities, only 4 percent and 13 percent in low UH tracts in Boston and Atlanta, respectively. In both cities, the percentages of tracts with trips trapped inside high UH areas are lower than in Los Angeles and Chicago.\n### Cities with high urban heat escapes\nThe Minneapolis Metropolitan Area shows high UH escapes. Fig. 6A maps the UH in Minneapolis. The metropolitan area has 18 percent of its tracts in low UH areas, while 45 percent are in high UH areas. Fig. 6B shows the ratio of trips from low UH tracts to high UH tracts. This ratio ranges from 0.03 to 0.34, occurring in 26 percent of low UH tracts. Fig. 6C shows the ratio of trips from high UH tracts to high UH tracts with ratios from 0.41 to 0.86. Fig. 6D shows the ratio of trips from high UH tracts to low UH tracts. This ratio is between 0.01 and 0.13, occurring in 56 percent of high UH tracts. Comparing this high UH to low UH ratio with other cities, Minneapolis shows strong UH escape, indicating that a significant number of people living in high UH areas are visiting low UH areas in the Minneapolis metropolitan area.\nSimilarly, the Dallas Metropolitan Area also shows high heat escapes. Fig. 7A maps the UH in Dallas. Dallas has 10 percent of its tracts in low UH areas, while 50 percent of its tracts are in high UH areas. Fig. 7A shows that the high UH tracts form multiple clusters across the city. Fig. 7B shows the ratio of trips from low UH tracts to high UH tracts. This ratio is between 0.07 and 0.28, occurring in 38 percent of the low UH tracts. Fig. 7C shows the ratio of trips from high UH tracts to high UH tracts with ratios from 0.39 to 0.82. Fig. 7D shows the ratio of trips from high UH tracts to low UH tracts. The ratio of trips from high UH tracts to low UH tracts is notable, ranging from 0.00 to 0.16, in 49 percent of high UH tracts. This indicates that Dallas has strong urban heat escapes trips.\nFigures 6 and 7 show that both Minneapolis and Dallas have significant urban heat escapes, with a higher ratio of trips from high UH tracts to low UH tracts when compared to other metropolitan areas, such as Boston (37 percent) and Atlanta (24 percent). This indicates that people in the high UH areas travel to the low UH areas to escape the heat.\nAdditionally, this study offered important insights by examining the factors of distinctive characteristics underlining spatial structures54, facility distribution55, income, and racial segregation, as in Supplementary Tables. However, no statistical significance was found between heat traps and attributes of demographic segregation. This interpolates that an urban heat trap is an emergent property56 that cannot be attributed to the centrality of city facilities and demographics. Therefore, we observe that human mobility leads to the creation of traps, not escapes or escalates. Maybe people are more likely to go to places where they are more familiar.",
+            "cites": [
+                "ref-CR54",
+                "ref-CR56",
+                "ref-CR55"
+            ],
+            "figures": [
+                "figure-7",
+                "figure-3",
+                "figure-4",
+                "figure-5",
+                "figure-2",
+                "figure-6"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "This study utilized large-scale, high-resolution location intelligence data to identify and quantify urban heat (UH) exposure and people’s responses based on human mobility networks in urban areas. This study analyzed the intersection of UH and human mobility by examining the UH dataset and trips between tracts in February 2020 in twenty metropolitan areas. Our primary findings indicate that while cities such as Minneapolis exhibited heat escape patterns, cities like Los Angeles showed heat-escalating trends. This differential pattern suggests that urban heat dynamics are influenced by a combination of inherent city characteristics and human mobility patterns. The study identified and analyzed three properties: heat traps, heat escapes, and heat escalate by quantifying the trips between tracts in high UH areas and low UH areas. This study uniquely bridges the gap between human mobility data and urban heat exposure, offering a novel perspective on how people’s movement patterns influence their heat exposure. The introduction of terms such as heat traps, heat escalates, and heat escapes not only enriches the urban heat literature but also provides city planners with tangible metrics to assess and address urban heat challenges. While heat traps and heat escapes have been frequently discussed, the heat-escalated areas, characterized by low UH exposure populations visiting high UH areas, emerged as a significant pattern. This group represents areas where populations, despite originating from cooler regions, escalate their heat exposure by visiting hotter zones. This suggests that even residents from cooler areas might face escalated heat risks due to their mobility patterns. Such insights are important for targeted interventions, especially in cities with pronounced mobility-induced heat risks. A detailed breakdown of the trips between tracts in high UH areas and low UH areas reveals unique patterns and implications for each group. This study found that not many cities have heat escapes or heat escalates trips. Heat escapes were found in Minneapolis, and heat escalates were found in Los Angeles. A potential reason might be that people are more likely to stay in their resident areas.\nResearchers and professionals are well aware of the diverse effects that UH can have heat-related diseases, such as respiratory difficulties among urban populations57. However, there is little knowledge about the extent to which human mobility exacerbates UH. This study offers an innovative, data-driven method and metrics for using large-scale location intelligence data to assess UH exposure. This study evaluates the intersection of human mobility and the spatial distribution of urban heat. In addition, this study defines three important characteristics of people’s potential response to UH based on trip destinations. Specifically, heat traps refer to the population residing in high UH areas visiting other high UH areas; heat escalates refer to population residing in low UH areas visiting high UH areas and thus escalate their heat exposure; and heat escapes refer to the population residing in high UH areas visit low UH areas and thus escape from their local heat. Defining these three different responses to UH can help researchers understand the different characteristics of the urban areas.\nThere are several limitations of this study. First, this study is based on smartphone data. Smartphone users who allowed such location data collection is a biased sample. Visitors who do not own smartphones, such as children, teenagers, the elderly, and those with lower income, were less likely to be included in the data, which may create biases58,59. Additionally, efforts could be made to ensure that the sample of smartphone users is representative of the population as a whole, such as by using stratified sampling or weighting the data to account for any biases. We partially address this limitation by utilizing Spectus data, which has been demonstrated to contain a representative sample of users35. Second, the mobility data does not include the visiting time for the destinations, which may cause mis-labeling of trip purposes. Future researchers could leverage other sources of data, such as surveys or observational studies, to validate traveling information further.\nWhile this study advances the understanding of urban heat disparities by considering mobility patterns, it’s important to recognize a potential limitation related to indoor conditions. The transition of residents from one census tract to another does not necessarily equate to direct outdoor exposure. Many individuals might move from cooler to hotter census tracts but reside or work within air-conditioned buildings. The availability and penetration rate of air conditioning can vary significantly across census tracts, as highlighted by Romitti et al.60.\nIt’s pertinent to consider the potential nuances of interpreting SUHI during winter days in our findings. Cities like Chicago might view higher temperatures as preferable during winter months. While our primary focus was on mean SUHI values across the urbanized area, given our mobility data is from February, an in-depth analysis of winter daytime values wasn’t within this study’s scope. Nonetheless, understanding the significance of winter daytime SUHI values, especially in colder cities, adds depth to the broader discourse on urban heat dynamics.\nAnother limitation is related to the scope of the mobility data. As mentioned earlier, our dataset does not include cross-country trips, which might influence the comprehensive understanding of human mobility in relation to urban heat exposure. While our study offers insights into intra-county mobility patterns and their intersection with urban heat, future studies could consider datasets that encompass broader mobility trends across counties.\nThis study offers important insights to city designers and city planners. The three important characteristics of traps, escalates, and escapes are likely related to how heat exposure can affect people in different parts of a city. Each classification not only reflects the prevailing heat conditions but also the behavioral responses of city dwellers. These patterns, when understood in conjunction, offer city designers and planners a comprehensive roadmap to tackle urban heat challenges. The main message from our research is the intertwined nature of urban heat exposure and human mobility. Recognizing these patterns and understanding their implications is paramount for designing future urban spaces that are both comfortable and adaptive to changing climatic conditions. Specifically, the heat-escalated areas present unique challenges and opportunities. Given that these areas experience increased heat exposure primarily due to mobility patterns, interventions might include improving public transportation in cooler zones or enhancing urban greenery in frequently visited hotspots. Recognizing the unique characteristics of heat-escalated regions can guide targeted strategies to mitigate heat exposure risks. These characteristics may include factors such as the availability of shade and other forms of shelter, the accessibility of air conditioning and other cooling mechanisms, and the presence of social networks and support systems that can help people cope with heat waves and other extreme weather events. By understanding these characteristics, it may be possible to develop strategies and interventions that can help reduce the risks associated with heat exposure in urban environments.",
+            "cites": [
+                "ref-CR57",
+                "ref-CR35",
+                "ref-CR59",
+                "ref-CR60",
+                "ref-CR58"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Study context\nWe collected mobility data in February 2020 in 20 metropolitan areas (Table 2) in the United States. to construct human mobility networks. The rationale for selecting February 2020 is that it was just before the start of the COVID-19 pandemic, and the patterns of human mobility would represent the standard patterns of mobility.\n### Data sources\nThe heat exposure data were obtained from the United States Surface Urban Heat Island database61. For all census tracts in the U.S. urbanized regions, this dataset includes yearly, summer, and winter daytime and nighttime Land Surface Temperature (LST), Digital Elevation Model (DEM), and Normalized Difference Vegetation Index (NDVI) data, as well as the mean values for the whole urbanized area61,62,63. The UHI dataset in the urbanized areas was determined by remote sensing data, such as Moderate Resolution Imaging Spectroradiometer (MODIS) and Global Multi-Resolution Terrain Elevation Data (GMTED), including 55,871 census tracts organized into 497 urbanized areas, covering roughly 78 percent of the population of the United States62. Our study used the annual mean values for SUHI as the measurement of UH for the chosen metropolitan areas. We used quantile breaks to split the UHI data into three clusters and defined them as low UHI area, median UHI area, and high UHI area, respectively. We opted to utilize the surface UHI (SUHI) as a proxy for the perceived heat experienced by individuals in their daily lives. Given that this data is accessible from satellite observations at the census tract level, SUHI became our chosen metric for heat-related analysis.\nThe location-based data is provided by Spectus (formerly known as Cuebiq), a platform for mobility data. Spectus provides privacy-protected and anonymized location datasets by collecting data from smart devices whose owners have authorized location data collection. Spectus constructs its geo-location dataset by collaborating with application developers to collect high-resolution datasets using Bluetooth, GPS, WiFi, and IoT signals. Each day, more than one hundred data points are gathered for each anonymous user, allowing a more accurate understanding of human movement and visitation patterns. Spectus collects data on around 15 million daily active users in the U.S. High privacy policy standards are set to enable data collection and use of data responsibly and ethically. Users are allowed to opt out of location sharing at any stage, and all information is obtained transparently with consent. All data provided by Spectus is de-identified to ensure anonymity and endures further privacy improvements, such as removing sensitive points of interest and obscuring dwelling locations at the census block group level. In addition to delivering location-based data at the device level, Spectus aggregates data using artificial intelligence and machine learning algorithms. By offering access to an auditable and on-premise sandbox environment, Spectus’ platform for responsible data sharing allows us to query anonymized, aggregated, and privacy-enhanced data64. In this study, we used one of the aggregated datasets from Spectus, the Device Location database, to determine the Census tracts of devices’ home locations. The Device Location table includes a timestamp, a privacy-compliant device ID, and geoinformation at the device level. To evaluate UH exposure, we used population activity in February 2020, which reflects a steady-state period with no events that could affect population activity and movement.\nIt is important to note that the location-based data from Spectus used in this study does not capture cross-county trips. This means that the movements of individuals from one county to another are not represented in our dataset. Our analysis, therefore, focuses on intra-county human mobility patterns in the selected metropolitan areas.\n### Mobility network from the home census tract to the visitation census tract\nData processing consisted of utilizing Spectus data to construct the human mobility network models. Specifically, it involves two steps. The first step is to identify each device’s home tract. The second step is to construct the mobility networks. A device’s home tract was determined based on its dwell times, as Spectus provides dwell time at each location.\nBy using unique identifiers for each device, Spectus can collect each visitor’s destination tract and aggregate the number of visits from one tract to another tract. Accordingly, we construct the monthly mobility network model of each city, which captures the number of visits from home tracts to visitation tracts. In this network, each node is a tract, and the links are the number of trips observed between each pair of tracts.\n### The ratio of urban heat traps, escalates, and escapes\nIn each metropolitan area, we used quantile breaks dividing Census tracts into low UH areas, median UH areas, and high UH areas. In this study, we only considered low and high UH areas. We aggregated the human mobility dataset to summarize the number of trips between low and high UH areas. As noted earlier, we define heat traps as high UH areas whose populations visit places in other high UH areas. Similarly, heat escalates in low UH exposure areas whose populations visit places in high UH areas. Heat escapes are high UH exposure areas whose populations visit places in low UH areas. This new classification not only provides a more granular understanding of urban heat dynamics but also emphasizes the significant role of human mobility in shaping these patterns, a factor that has been largely overlooked in previous studies. The ratio of UH traps, escalates, and escapes of each tract are calculated by summing the trips in each category (high to high, low to high, and high to low, respectively) and dividing by the total trips associated with each home tract. The ratio of heat escalates, representing trips originating from low UH tracts and visiting high UH tracts, is computed using Eq. 1:\nwhere, \\({RLo}{w}_{i,j}\\) refers to the ratio of trips visiting from low UH tract i to high UH j, \\({Census\\; Tract}{D}_{{hig}{h}_{{L}_{i},{j}}}\\) refers to the total number of trips from low UH tract i to high UH tract j, and \\({TO}{T}_{{L}_{i}}\\) refers to the total number of trips starting from origin tract i. Similarly, the ratio of trips visiting from high UH tract to low UH tract, representing trips originating from high UH tracts and visiting low UH tracts, and the ratio of trips visiting from high UH tract to high UH tracts, representing trips originating from high UH tracts and visiting other high UH tracts are computed using Eqs. 2 and 3, respectively:\n### Classifying cities\nFor each metropolitan area, we first calculated the total number of tracts in high and low UH exposures based on the UH dataset. Then, we classified cities as heat traps, heat escalates, and heat escapes based on the percentage of trips in each category. If more than half of trips in the city were heat trap type, we classified these cities as urban heat traps. Similarly, if the city has more than half of heat escalate trips or heat escape trips, the city is classified as a heat escalate city or heat escape city, respectively.\n### Reporting summary\nFurther information on research design is available in the Nature Research Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR61",
+                "ref-CR64",
+                "ref-CR63",
+                "ref-CR62"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Heat level for the area.",
+            "figure-caption": "Conceptual representation of urban heat traps, escalates, and escapes arising from the intersection of human mobility and heat exposure.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00142-3/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Urban heat traps and trips in Los Angeles metropolitan area.",
+            "figure-caption": "A Distribution of SUHI shows that 52 percent of tracts are in high UH areas across Los Angeles. B The ratio of trips from low UH to high UH. C The ratio of trips from high UH to high UH shows that 81 percent of tracts in high UH areas have trips to other high UH tracts, representing that Los Angeles is a metropolitan area with urban heat traps. D The ratio of trips from high UH to low UH. (The left-side squared bracket means the value is included, while the right-side rounded bracket means the value is not included).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00142-3/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Urban heat traps and trips in the Chicago metropolitan area.",
+            "figure-caption": "A Distribution of SUHI shows that 16 percent of tracts are in low UH areas and 49 percent of tracts are in high UH areas across Chicago. B The ratio of trips from low UH to high UH. C The ratio of trips from high UH to high UH shows that 78 percent of tracts in high UH areas have trips to high UH tracts, representing that Chicago is a metropolitan area with urban heat traps. D The ratio of trips from high UH to low UH. (The left-side squared bracket means the value is included, while the right-side rounded bracket means the value is not included).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00142-3/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Urban heat traps and trips in Boston metropolitan area.",
+            "figure-caption": "A Distribution of SUHI shows that 28 percent of tracts are low UH areas, and 38 percent are in high UH areas across Boston. B The ratio of trips from low UH to high UH. C The ratio of trips from high UH to high UH shows that 37 percent of tracts in high UH areas have trips to high UH tracts, representing that Boston is a metropolitan area with low urban heat traps. D The ratio of trips from high UH to low UH. (The left-side squared bracket means the value is included, while the right-side rounded bracket means the value is not included).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00142-3/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Urban heat traps and trips in Atlanta metropolitan area.",
+            "figure-caption": "A Distribution of SUHI shows that 32 percent of tracts are low UH and 21 percent are high UH across Atlanta. B The ratio of trips from low UH to high UH. C The ratio of trips from high UH to high UH shows that 40 percent of tracts in high UH areas have trips to high UH tracts, representing that Atlanta is a metropolitan area with low UH traps. D The ratio of trips from high UH to low UH. (The left-side squared bracket means the value is included, while the right-side rounded bracket means the value is not included).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00142-3/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: Urban heat traps and trips in Minneapolis metropolitan area.",
+            "figure-caption": "A Distribution of SUHI shows that 18% of tracts are low UH areas, and 45 percent are in high UH areas across Minneapolis. B The ratio of trips from low UH to high UH. C The ratio of trips from high UH to high UH. D The ratio of trips from high UH to low UH shows that 56% of tracts in high UH areas have trips to low UH tracts, representing that Minneapolis has high heat escape trips. (The left-side squared bracket means the value is included, while the right-side rounded bracket means the value is not included).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00142-3/figures/6"
+        },
+        {
+            "id": "figure-7",
+            "figure-title": "Fig. 7: Urban heat traps and trips in the Dallas metropolitan area.",
+            "figure-caption": "A Distribution of SUHI shows that 10 percent of tracts are low UH areas, and 51 percent are in high UH areas across Dallas. B The ratio of trips from low UH to high UH. C The ratio of trips from high UH to high UH. D The ratio of trips from high UH to low UH shows that 49 percent of high UH tracts have trips to low UH tracts, representing that Dallas is a metropolitan area with high urban heat escapes. (The left-side squared bracket means the value is included, while the right-side rounded bracket means the value is not included).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00142-3/figures/7"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Shen, L.-Y., Ochoa, J. J., Shah, M. N. & Zhang, X. The application of urban sustainability indicators–a comparison between various practices. Habitat int. 35, 17–29 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.habitatint.2010.03.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20application%20of%20urban%20sustainability%20indicators%E2%80%93a%20comparison%20between%20various%20practices&journal=Habitat%20int.&doi=10.1016%2Fj.habitatint.2010.03.006&volume=35&pages=17-29&publication_year=2011&author=Shen%2CL-Y&author=Ochoa%2CJJ&author=Shah%2CMN&author=Zhang%2CX"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Seo, S., Choi, S., Kim, K., Kim, S. M. & Park, S. M. Association between urban green space and the risk of cardiovascular disease: A longitudinal study in seven Korean metropolitan areas. Environ. Int. 125, 51–57 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envint.2019.01.038",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Association%20between%20urban%20green%20space%20and%20the%20risk%20of%20cardiovascular%20disease%3A%20A%20longitudinal%20study%20in%20seven%20Korean%20metropolitan%20areas&journal=Environ.%20Int.&doi=10.1016%2Fj.envint.2019.01.038&volume=125&pages=51-57&publication_year=2019&author=Seo%2CS&author=Choi%2CS&author=Kim%2CK&author=Kim%2CSM&author=Park%2CSM"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Hunter, R. F. et al. Environmental, health, wellbeing, social and equity effects of urban green space interventions: a meta-narrative evidence synthesis. Environ. Int. 130, 104923 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envint.2019.104923",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BB3M3ps12qsg%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%2C%20health%2C%20wellbeing%2C%20social%20and%20equity%20effects%20of%20urban%20green%20space%20interventions%3A%20a%20meta-narrative%20evidence%20synthesis&journal=Environ.%20Int.&doi=10.1016%2Fj.envint.2019.104923&volume=130&publication_year=2019&author=Hunter%2CRF"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Mirzaei, P. A. Recent challenges in modeling of urban heat island. Sustain. Cities Soc. 19, 200–206 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2015.04.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Recent%20challenges%20in%20modeling%20of%20urban%20heat%20island&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2015.04.001&volume=19&pages=200-206&publication_year=2015&author=Mirzaei%2CPA"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Nwakaire, C. M., Onn, C. C., Yap, S. P., Yuen, C. W. & Onodagu, P. D. Urban Heat Island Studies with emphasis on urban pavements: a review. Sustain. Cities Soc. 63, 102476 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2020.102476",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20Heat%20Island%20Studies%20with%20emphasis%20on%20urban%20pavements%3A%20a%20review&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2020.102476&volume=63&publication_year=2020&author=Nwakaire%2CCM&author=Onn%2CCC&author=Yap%2CSP&author=Yuen%2CCW&author=Onodagu%2CPD"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Giridharan, R. & Emmanuel, R. The impact of urban compactness, comfort strategies and energy consumption on tropical urban heat island intensity: a review. Sustain. Cities Soc. 40, 677–687 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2018.01.024",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20urban%20compactness%2C%20comfort%20strategies%20and%20energy%20consumption%20on%20tropical%20urban%20heat%20island%20intensity%3A%20a%20review&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2018.01.024&volume=40&pages=677-687&publication_year=2018&author=Giridharan%2CR&author=Emmanuel%2CR"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Kim, S. W. & Brown, R. D. Urban heat island (UHI) intensity and magnitude estimations: a systematic literature review. Sci. Total Environ. 779, 146389 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2021.146389",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXntVyju7c%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20heat%20island%20%28UHI%29%20intensity%20and%20magnitude%20estimations%3A%20a%20systematic%20literature%20review&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2021.146389&volume=779&publication_year=2021&author=Kim%2CSW&author=Brown%2CRD"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Li, D., Sun, T., Liu, M., Wang, L. & Gao, Z. Changes in wind speed under heat waves enhance urban heat islands in the Beijing metropolitan area. J. Appl. Meteorol. Climatol. 55, 2369–2375 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1175%2FJAMC-D-16-0102.1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changes%20in%20wind%20speed%20under%20heat%20waves%20enhance%20urban%20heat%20islands%20in%20the%20Beijing%20metropolitan%20area&journal=J.%20Appl.%20Meteorol.%20Climatol.&doi=10.1175%2FJAMC-D-16-0102.1&volume=55&pages=2369-2375&publication_year=2016&author=Li%2CD&author=Sun%2CT&author=Liu%2CM&author=Wang%2CL&author=Gao%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Xie, N., Li, H., Abdelhady, A. & Harvey, J. Laboratorial investigation on optical and thermal properties of cool pavement nano-coatings for urban heat island mitigation. Build. Environ. 147, 231–240 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.buildenv.2018.10.017",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Laboratorial%20investigation%20on%20optical%20and%20thermal%20properties%20of%20cool%20pavement%20nano-coatings%20for%20urban%20heat%20island%20mitigation&journal=Build.%20Environ.&doi=10.1016%2Fj.buildenv.2018.10.017&volume=147&pages=231-240&publication_year=2019&author=Xie%2CN&author=Li%2CH&author=Abdelhady%2CA&author=Harvey%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Bao, R. & Zhang, A. Does lockdown reduce air pollution? Evidence from 44 cities in northern China. Sci. Total Environ. 731, 139052 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.139052",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXpt12isr4%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20lockdown%20reduce%20air%20pollution%3F%20Evidence%20from%2044%20cities%20in%20northern%20China&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.139052&volume=731&publication_year=2020&author=Bao%2CR&author=Zhang%2CA"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Glencross, D. A., Ho, T.-R., Camina, N., Hawrylowicz, C. M. & Pfeffer, P. E. Air pollution and its effects on the immune system. Free Radic. Biol. Med. 151, 56–68 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.freeradbiomed.2020.01.179",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXjsVOlu78%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20pollution%20and%20its%20effects%20on%20the%20immune%20system&journal=Free%20Radic.%20Biol.%20Med.&doi=10.1016%2Fj.freeradbiomed.2020.01.179&volume=151&pages=56-68&publication_year=2020&author=Glencross%2CDA&author=Ho%2CT-R&author=Camina%2CN&author=Hawrylowicz%2CCM&author=Pfeffer%2CPE"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Venter, Z. S., Aunan, K., Chowdhury, S. & Lelieveld, J. COVID-19 lockdowns cause global air pollution declines. Proc. Natl. Acad. Sci. 117, 18984–18990 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2006853117",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhs1GltLbL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=COVID-19%20lockdowns%20cause%20global%20air%20pollution%20declines&journal=Proc.%20Natl.%20Acad.%20Sci.&doi=10.1073%2Fpnas.2006853117&volume=117&pages=18984-18990&publication_year=2020&author=Venter%2CZS&author=Aunan%2CK&author=Chowdhury%2CS&author=Lelieveld%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Coccia, M. An index to quantify environmental risk of exposure to future epidemics of the COVID-19 and similar viral agents: theory and practice. Environ. Res. 191, 110155 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envres.2020.110155",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhvVymur3P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20index%20to%20quantify%20environmental%20risk%20of%20exposure%20to%20future%20epidemics%20of%20the%20COVID-19%20and%20similar%20viral%20agents%3A%20theory%20and%20practice&journal=Environ.%20Res.&doi=10.1016%2Fj.envres.2020.110155&volume=191&publication_year=2020&author=Coccia%2CM"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "de Andrade, M. M. N. & Szlafsztein, C. F. Vulnerability assessment including tangible and intangible components in the index composition: An Amazon case study of flooding and flash flooding. Sci. Total Environ. 630, 903–912 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2018.02.271",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Vulnerability%20assessment%20including%20tangible%20and%20intangible%20components%20in%20the%20index%20composition%3A%20An%20Amazon%20case%20study%20of%20flooding%20and%20flash%20flooding&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2018.02.271&volume=630&pages=903-912&publication_year=2018&author=Andrade%2CMMN&author=Szlafsztein%2CCF"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Jha, R. K. & Gundimeda, H. An integrated assessment of vulnerability to floods using composite index–a district level analysis for Bihar, India. Int. J. Disaster Risk Reduct. 35, 101074 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ijdrr.2019.101074",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20integrated%20assessment%20of%20vulnerability%20to%20floods%20using%20composite%20index%E2%80%93a%20district%20level%20analysis%20for%20Bihar%2C%20India&journal=Int.%20J.%20Disaster%20Risk%20Reduct.&doi=10.1016%2Fj.ijdrr.2019.101074&volume=35&publication_year=2019&author=Jha%2CRK&author=Gundimeda%2CH"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Orioli, R. et al. Exposure to residential greenness as a predictor of cause-specific mortality and stroke incidence in the Rome longitudinal study. Environ. Health Perspect. 127, 027002 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1289%2FEHP2854",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exposure%20to%20residential%20greenness%20as%20a%20predictor%20of%20cause-specific%20mortality%20and%20stroke%20incidence%20in%20the%20Rome%20longitudinal%20study&journal=Environ.%20Health%20Perspect.&doi=10.1289%2FEHP2854&volume=127&publication_year=2019&author=Orioli%2CR"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Fan, C., Chien, Y.-H. & Mostafavi, A. Human mobility disproportionately extends PM2. 5 emission exposure for low income populations. arXiv https://arxiv.org/abs/2205.15381 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Yin, Y. et al. DTEx: a dynamic urban thermal exposure index based on human mobility patterns. Environ. Int. 155, 106573 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envint.2021.106573",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=DTEx%3A%20a%20dynamic%20urban%20thermal%20exposure%20index%20based%20on%20human%20mobility%20patterns&journal=Environ.%20Int.&doi=10.1016%2Fj.envint.2021.106573&volume=155&publication_year=2021&author=Yin%2CY"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Guo, A. et al. Influences of urban spatial form on urban heat island effects at the community level in China. Sustain. Cities Soc. 53, 101972 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2019.101972",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Influences%20of%20urban%20spatial%20form%20on%20urban%20heat%20island%20effects%20at%20the%20community%20level%20in%20China&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2019.101972&volume=53&publication_year=2020&author=Guo%2CA"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Zhang, X., Estoque, R. C. & Murayama, Y. An urban heat island study in Nanchang City, China based on land surface temperature and social-ecological variables. Sustain. Cities Soc. 32, 557–568 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2017.05.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20urban%20heat%20island%20study%20in%20Nanchang%20City%2C%20China%20based%20on%20land%20surface%20temperature%20and%20social-ecological%20variables&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2017.05.005&volume=32&pages=557-568&publication_year=2017&author=Zhang%2CX&author=Estoque%2CRC&author=Murayama%2CY"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Wang, Y. & Akbari, H. Analysis of urban heat island phenomenon and mitigation solutions evaluation for Montreal. Sustain. Cities Soc. 26, 438–446 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2016.04.015",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Analysis%20of%20urban%20heat%20island%20phenomenon%20and%20mitigation%20solutions%20evaluation%20for%20Montreal&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2016.04.015&volume=26&pages=438-446&publication_year=2016&author=Wang%2CY&author=Akbari%2CH"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Jato-Espino, D. Spatiotemporal statistical analysis of the Urban Heat Island effect in a Mediterranean region. Sustain. Cities Soc. 46, 101427 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2019.101427",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatiotemporal%20statistical%20analysis%20of%20the%20Urban%20Heat%20Island%20effect%20in%20a%20Mediterranean%20region&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2019.101427&volume=46&publication_year=2019&author=Jato-Espino%2CD"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Ziter, C. D., Pedersen, E. J., Kucharik, C. J. & Turner, M. G. Scale-dependent interactions between tree canopy cover and impervious surfaces reduce daytime urban heat during summer. Proc. Natl. Acad. Sci. 116, 7575–7580 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1817561116",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXmvFeqtbc%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scale-dependent%20interactions%20between%20tree%20canopy%20cover%20and%20impervious%20surfaces%20reduce%20daytime%20urban%20heat%20during%20summer&journal=Proc.%20Natl.%20Acad.%20Sci.&doi=10.1073%2Fpnas.1817561116&volume=116&pages=7575-7580&publication_year=2019&author=Ziter%2CCD&author=Pedersen%2CEJ&author=Kucharik%2CCJ&author=Turner%2CMG"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Rahman, M. A. et al. Traits of trees for cooling urban heat islands: a meta-analysis. Build. Environ. 170, 106606 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.buildenv.2019.106606",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Traits%20of%20trees%20for%20cooling%20urban%20heat%20islands%3A%20a%20meta-analysis&journal=Build.%20Environ.&doi=10.1016%2Fj.buildenv.2019.106606&volume=170&publication_year=2020&author=Rahman%2CMA"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Morabito, M. et al. Surface urban heat islands in Italian metropolitan cities: tree cover and impervious surface influences. Sci. Total Environ. 751, 142334 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.142334",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhvVKgt7fN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Surface%20urban%20heat%20islands%20in%20Italian%20metropolitan%20cities%3A%20tree%20cover%20and%20impervious%20surface%20influences&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.142334&volume=751&publication_year=2021&author=Morabito%2CM"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Hu, Y. et al. Comparison of surface and canopy urban heat islands within megacities of eastern China. ISPRS J. Photogramm. Remote Sens. 156, 160–168 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.isprsjprs.2019.08.012",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Comparison%20of%20surface%20and%20canopy%20urban%20heat%20islands%20within%20megacities%20of%20eastern%20China&journal=ISPRS%20J.%20Photogramm.%20Remote%20Sens.&doi=10.1016%2Fj.isprsjprs.2019.08.012&volume=156&pages=160-168&publication_year=2019&author=Hu%2CY"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Ali, G. et al. Environmental impacts of shifts in energy, emissions, and urban heat island during the COVID-19 lockdown across Pakistan. J. Clean. Prod. 291, 125806 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2021.125806",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXit1yqsr0%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20impacts%20of%20shifts%20in%20energy%2C%20emissions%2C%20and%20urban%20heat%20island%20during%20the%20COVID-19%20lockdown%20across%20Pakistan&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2021.125806&volume=291&publication_year=2021&author=Ali%2CG"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Angelevska, B., Atanasova, V. & Andreevski, I. Urban air quality guidance based on measures categorization in road transport. Civil Eng. J. 7, 253–267 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.28991%2Fcej-2021-03091651",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20air%20quality%20guidance%20based%20on%20measures%20categorization%20in%20road%20transport&journal=Civil%20Eng.%20J.&doi=10.28991%2Fcej-2021-03091651&volume=7&pages=253-267&publication_year=2021&author=Angelevska%2CB&author=Atanasova%2CV&author=Andreevski%2CI"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Zhou, D., Bonafoni, S., Zhang, L. & Wang, R. Remote sensing of the urban heat island effect in a highly populated urban agglomeration area in East China. Sci. Total Environ. 628, 415–429 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2018.02.074",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Remote%20sensing%20of%20the%20urban%20heat%20island%20effect%20in%20a%20highly%20populated%20urban%20agglomeration%20area%20in%20East%20China&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2018.02.074&volume=628&pages=415-429&publication_year=2018&author=Zhou%2CD&author=Bonafoni%2CS&author=Zhang%2CL&author=Wang%2CR"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Manoli, G. et al. Magnitude of urban heat islands largely explained by climate and population. Nature 573, 55–60 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-019-1512-9",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXhslWntrjF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Magnitude%20of%20urban%20heat%20islands%20largely%20explained%20by%20climate%20and%20population&journal=Nature&doi=10.1038%2Fs41586-019-1512-9&volume=573&pages=55-60&publication_year=2019&author=Manoli%2CG"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Peng, X., Zhou, Y., Fu, X. & Xu, J. Study on the spatial-temporal pattern and evolution of surface urban heat island in 180 shrinking cities in China. Sustain. Cities Soc. 84, 104018 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2022.104018",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Study%20on%20the%20spatial-temporal%20pattern%20and%20evolution%20of%20surface%20urban%20heat%20island%20in%20180%20shrinking%20cities%20in%20China&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2022.104018&volume=84&publication_year=2022&author=Peng%2CX&author=Zhou%2CY&author=Fu%2CX&author=Xu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Li, Q. et al. Examining of the actor collaboration networks around hazard mitigation: a hurricane harvey study. Nat. Hazards 103, 3541–3562 (2020).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11069-020-04142-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Examining%20of%20the%20actor%20collaboration%20networks%20around%20hazard%20mitigation%3A%20a%20hurricane%20harvey%20study&journal=Nat.%20Hazards&doi=10.1007%2Fs11069-020-04142-1&volume=103&pages=3541-3562&publication_year=2020&author=Li%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Rajput, A. A., Li, Q., Zhang, C. & Mostafavi, A. Temporal network analysis of inter-organizational communications on social media during disasters: a study of Hurricane Harvey in Houston. Int. J. Disaster Risk Reduct. 46, 101622 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ijdrr.2020.101622",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Temporal%20network%20analysis%20of%20inter-organizational%20communications%20on%20social%20media%20during%20disasters%3A%20a%20study%20of%20Hurricane%20Harvey%20in%20Houston&journal=Int.%20J.%20Disaster%20Risk%20Reduct.&doi=10.1016%2Fj.ijdrr.2020.101622&volume=46&publication_year=2020&author=Rajput%2CAA&author=Li%2CQ&author=Zhang%2CC&author=Mostafavi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Dargin, J. S., Fan, C. & Mostafavi, A. Vulnerable populations and social media use in disasters: uncovering the digital divide in three major US hurricanes. Int. J. Disaster Risk Reduct. 54, 102043 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ijdrr.2021.102043",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Vulnerable%20populations%20and%20social%20media%20use%20in%20disasters%3A%20uncovering%20the%20digital%20divide%20in%20three%20major%20US%20hurricanes&journal=Int.%20J.%20Disaster%20Risk%20Reduct.&doi=10.1016%2Fj.ijdrr.2021.102043&volume=54&publication_year=2021&author=Dargin%2CJS&author=Fan%2CC&author=Mostafavi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Li, B. & Mostafavi, A. Location intelligence reveals the extent, timing, and spatial variation of hurricane preparedness. Sci. Rep. 12, 16121 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-022-20571-3",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XisFaqtb%2FP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Location%20intelligence%20reveals%20the%20extent%2C%20timing%2C%20and%20spatial%20variation%20of%20hurricane%20preparedness&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-022-20571-3&volume=12&publication_year=2022&author=Li%2CB&author=Mostafavi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Esparza, M., Farahmand, H., Brody, S. & Mostafavi, A. Examining data imbalance in crowdsourced reports for improving flash flood situational awareness. arXiv 95, 103825 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Farahmand, H., Wang, W., Mostafavi, A. & Maron, M. Anomalous human activity fluctuations from digital trace data signal flood inundation status. Environ. Plann. B: Urban Anal. City Sci. 49, 1893–1911 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Anomalous%20human%20activity%20fluctuations%20from%20digital%20trace%20data%20signal%20flood%20inundation%20status&journal=Environ.%20Plann.%20B%3A%20Urban%20Anal.%20City%20Sci.&volume=49&pages=1893-1911&publication_year=2022&author=Farahmand%2CH&author=Wang%2CW&author=Mostafavi%2CA&author=Maron%2CM"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Farahmand, H., Liu, X., Dong, S., Mostafavi, A. & Gao, J. A network observability framework for sensor placement in flood control networks to improve flood situational awareness and risk management. Reliab. Eng. Syst. Saf. 221, 108366 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ress.2022.108366",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20network%20observability%20framework%20for%20sensor%20placement%20in%20flood%20control%20networks%20to%20improve%20flood%20situational%20awareness%20and%20risk%20management&journal=Reliab.%20Eng.%20Syst.%20Saf.&doi=10.1016%2Fj.ress.2022.108366&volume=221&publication_year=2022&author=Farahmand%2CH&author=Liu%2CX&author=Dong%2CS&author=Mostafavi%2CA&author=Gao%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Yuan, F. et al. Smart flood resilience: harnessing community-scale big data for predictive flood risk monitoring, rapid impact assessment, and situational awareness. Environ. Res.: Infrastruct. Sustain. 2, 025006 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Smart%20flood%20resilience%3A%20harnessing%20community-scale%20big%20data%20for%20predictive%20flood%20risk%20monitoring%2C%20rapid%20impact%20assessment%2C%20and%20situational%20awareness&journal=Environ.%20Res.%3A%20Infrastruct.%20Sustain.&volume=2&publication_year=2022&author=Yuan%2CF"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Ridha, T., Ross, A. D. & Mostafavi, A. Climate change impacts on infrastructure: Flood risk perceptions and evaluations of water systems in coastal urban areas. Int. J. Disaster Risk Reduct. 73, 102883 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ijdrr.2022.102883",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20impacts%20on%20infrastructure%3A%20Flood%20risk%20perceptions%20and%20evaluations%20of%20water%20systems%20in%20coastal%20urban%20areas&journal=Int.%20J.%20Disaster%20Risk%20Reduct.&doi=10.1016%2Fj.ijdrr.2022.102883&volume=73&publication_year=2022&author=Ridha%2CT&author=Ross%2CAD&author=Mostafavi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Yuan, F., Xu, Y., Li, Q. & Mostafavi, A. Spatio-temporal graph convolutional networks for road network inundation status prediction during urban flooding. Comput. Environ. Urban Syst. 97, 101870 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.compenvurbsys.2022.101870",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatio-temporal%20graph%20convolutional%20networks%20for%20road%20network%20inundation%20status%20prediction%20during%20urban%20flooding&journal=Comput.%20Environ.%20Urban%20Syst.&doi=10.1016%2Fj.compenvurbsys.2022.101870&volume=97&publication_year=2022&author=Yuan%2CF&author=Xu%2CY&author=Li%2CQ&author=Mostafavi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Fan, C., Lee, R., Yang, Y. & Mostafavi, A. Fine-grained data reveal segregated mobility networks and opportunities for local containment of COVID-19. Sci. Rep. 11, 16895 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-021-95894-8",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXhvVCls73L",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fine-grained%20data%20reveal%20segregated%20mobility%20networks%20and%20opportunities%20for%20local%20containment%20of%20COVID-19&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-021-95894-8&volume=11&publication_year=2021&author=Fan%2CC&author=Lee%2CR&author=Yang%2CY&author=Mostafavi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Ma, J., Li, B., Li, Q., Fan, C. & Mostafavi, A. Attributed network embedding model for exposing COVID-19 spread trajectory archetypes. arXiv https://arxiv.org/abs/2209.09448 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Li, Q. et al. Unraveling the dynamic importance of county-level features in trajectory of COVID-19. Sci. Rep. 11, 1–11 (2021).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Unraveling%20the%20dynamic%20importance%20of%20county-level%20features%20in%20trajectory%20of%20COVID-19&journal=Sci.%20Rep.&volume=11&pages=1-11&publication_year=2021&author=Li%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Rajput, A. A., Li, Q., Gao, X. & Mostafavi, A. Revealing critical characteristics of mobility patterns in New York City during the onset of COVID-19 pandemic. Front. Built Environ. 7, 180 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.3389%2Ffbuil.2021.654409",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Revealing%20critical%20characteristics%20of%20mobility%20patterns%20in%20New%20York%20City%20during%20the%20onset%20of%20COVID-19%20pandemic&journal=Front.%20Built%20Environ.&doi=10.3389%2Ffbuil.2021.654409&volume=7&publication_year=2022&author=Rajput%2CAA&author=Li%2CQ&author=Gao%2CX&author=Mostafavi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Lai, S., Farnham, A., Ruktanonchai, N. W. & Tatem, A. J. Measuring mobility, disease connectivity and individual risk: a review of using mobile phone data and mHealth for travel medicine. J. Travel Med. 26, taz019 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fjtm%2Ftaz019",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20mobility%2C%20disease%20connectivity%20and%20individual%20risk%3A%20a%20review%20of%20using%20mobile%20phone%20data%20and%20mHealth%20for%20travel%20medicine&journal=J.%20Travel%20Med.&doi=10.1093%2Fjtm%2Ftaz019&volume=26&publication_year=2019&author=Lai%2CS&author=Farnham%2CA&author=Ruktanonchai%2CNW&author=Tatem%2CAJ"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Jiang, Y., Li, Z. & Cutter, S. L. Social network, activity space, sentiment, and evacuation: what can social media tell us? Ann. Am. Assoc. Geogr. 109, 1795–1810 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20network%2C%20activity%20space%2C%20sentiment%2C%20and%20evacuation%3A%20what%20can%20social%20media%20tell%20us%3F&journal=Ann.%20Am.%20Assoc.%20Geogr.&volume=109&pages=1795-1810&publication_year=2019&author=Jiang%2CY&author=Li%2CZ&author=Cutter%2CSL"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Coleman, N., Gao, X., DeLeon, J. & Mostafavi, A. Human activity and mobility data reveal disparities in exposure risk reduction indicators among socially vulnerable populations during COVID-19 for five US metropolitan cities. Sci. Rep. 12, 15814 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-022-18857-7",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XisFSku7rE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Human%20activity%20and%20mobility%20data%20reveal%20disparities%20in%20exposure%20risk%20reduction%20indicators%20among%20socially%20vulnerable%20populations%20during%20COVID-19%20for%20five%20US%20metropolitan%20cities&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-022-18857-7&volume=12&publication_year=2022&author=Coleman%2CN&author=Gao%2CX&author=DeLeon%2CJ&author=Mostafavi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Huang, X., Li, Z., Jiang, Y., Li, X. & Porter, D. Twitter reveals human mobility dynamics during the COVID-19 pandemic. PloS One 15, e0241957 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0241957",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXitlGgu7fF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Twitter%20reveals%20human%20mobility%20dynamics%20during%20the%20COVID-19%20pandemic&journal=PloS%20One&doi=10.1371%2Fjournal.pone.0241957&volume=15&publication_year=2020&author=Huang%2CX&author=Li%2CZ&author=Jiang%2CY&author=Li%2CX&author=Porter%2CD"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Smith, A. et al. New estimates of flood exposure in developing countries using high-resolution population data. Nat. Commun.10, 1814 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-019-09282-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=New%20estimates%20of%20flood%20exposure%20in%20developing%20countries%20using%20high-resolution%20population%20data&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-019-09282-y&volume=10&publication_year=2019&author=Smith%2CA"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Kim, Y., Yeo, H. & Kim, Y. Estimating urban spatial temperatures considering anthropogenic heat release factors focusing on the mobility characteristics. Sustain. Cities Soc. 85, 104073 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2022.104073",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20urban%20spatial%20temperatures%20considering%20anthropogenic%20heat%20release%20factors%20focusing%20on%20the%20mobility%20characteristics&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2022.104073&volume=85&publication_year=2022&author=Kim%2CY&author=Yeo%2CH&author=Kim%2CY"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Zhou, D. et al. Satellite remote sensing of surface urban heat islands: progress, challenges, and perspectives. Remote Sens. 11, 48 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Frs11010048",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Satellite%20remote%20sensing%20of%20surface%20urban%20heat%20islands%3A%20progress%2C%20challenges%2C%20and%20perspectives&journal=Remote%20Sens.&doi=10.3390%2Frs11010048&volume=11&publication_year=2018&author=Zhou%2CD"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Rasul, A. et al. A review on remote sensing of urban heat and cool islands. Land 6, 38 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fland6020038",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20review%20on%20remote%20sensing%20of%20urban%20heat%20and%20cool%20islands&journal=Land&doi=10.3390%2Fland6020038&volume=6&publication_year=2017&author=Rasul%2CA"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Angel, S. & Blei, A. M. The spatial structure of American cities: the great majority of workplaces are no longer in CBDs, employment sub-centers, or live-work communities. Cities 51, 21–35 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cities.2015.11.031",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20spatial%20structure%20of%20American%20cities%3A%20the%20great%20majority%20of%20workplaces%20are%20no%20longer%20in%20CBDs%2C%20employment%20sub-centers%2C%20or%20live-work%20communities&journal=Cities&doi=10.1016%2Fj.cities.2015.11.031&volume=51&pages=21-35&publication_year=2016&author=Angel%2CS&author=Blei%2CAM"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Pereira, F. et al. The future mobility survey: overview and preliminary evaluation. 9, 1–13 (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Georgiou, I. The idea of emergent property. J. Oper. Res. Soc. 54, 239–247 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.1057%2Fpalgrave.jors.2601520",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20idea%20of%20emergent%20property&journal=J.%20Oper.%20Res.%20Soc.&doi=10.1057%2Fpalgrave.jors.2601520&volume=54&pages=239-247&publication_year=2003&author=Georgiou%2CI"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Huang, H. et al. Influencing mechanisms of urban heat island on respiratory diseases. Iran. J. Public Health 48, 1636 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Influencing%20mechanisms%20of%20urban%20heat%20island%20on%20respiratory%20diseases&journal=Iran.%20J.%20Public%20Health&volume=48&publication_year=2019&author=Huang%2CH"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Esmalian, A., Dong, S., Coleman, N. & Mostafavi, A. Determinants of risk disparity due to infrastructure service losses in disasters: a household service gap model. Risk Analysis 41, 2336–2355 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Frisa.13738",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Determinants%20of%20risk%20disparity%20due%20to%20infrastructure%20service%20losses%20in%20disasters%3A%20a%20household%20service%20gap%20model&journal=Risk%20Analysis&doi=10.1111%2Frisa.13738&volume=41&pages=2336-2355&publication_year=2021&author=Esmalian%2CA&author=Dong%2CS&author=Coleman%2CN&author=Mostafavi%2CA"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Song, Y., Newman, G., Huang, X. & Ye, X. Factors influencing long-term city park visitations for mid-sized US cities: a big data study using smartphone user mobility. Sustainable Cities Soc. 80, 103815 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2022.103815",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Factors%20influencing%20long-term%20city%20park%20visitations%20for%20mid-sized%20US%20cities%3A%20a%20big%20data%20study%20using%20smartphone%20user%20mobility&journal=Sustainable%20Cities%20Soc.&doi=10.1016%2Fj.scs.2022.103815&volume=80&publication_year=2022&author=Song%2CY&author=Newman%2CG&author=Huang%2CX&author=Ye%2CX"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Romitti, Y., Sue Wing, I., Spangler, K. R. & Wellenius, G. A. Inequality in the availability of residential air conditioning across 115 US metropolitan areas. PNAS nexus 1, pgac210 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fpnasnexus%2Fpgac210",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inequality%20in%20the%20availability%20of%20residential%20air%20conditioning%20across%20115%20US%20metropolitan%20areas&journal=PNAS%20nexus&doi=10.1093%2Fpnasnexus%2Fpgac210&volume=1&publication_year=2022&author=Romitti%2CY&author=Sue%20Wing%2CI&author=Spangler%2CKR&author=Wellenius%2CGA"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Chakraborty, T., Hsu, A., Sheriff, G. & Manya, D. United States surface urban heat Island database. Mendeley Data 2, 10–17632 (2020).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=United%20States%20surface%20urban%20heat%20Island%20database&journal=Mendeley%20Data&volume=2&pages=10-17632&publication_year=2020&author=Chakraborty%2CT&author=Hsu%2CA&author=Sheriff%2CG&author=Manya%2CD"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Chakraborty, T., Hsu, A., Manya, D. & Sheriff, G. A spatially explicit surface urban heat island database for the United States: Characterization, uncertainties, and possible applications. ISPRS J. Photogramm. Remote Sens. 168, 74–88 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.isprsjprs.2020.07.021",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20spatially%20explicit%20surface%20urban%20heat%20island%20database%20for%20the%20United%20States%3A%20Characterization%2C%20uncertainties%2C%20and%20possible%20applications&journal=ISPRS%20J.%20Photogramm.%20Remote%20Sens.&doi=10.1016%2Fj.isprsjprs.2020.07.021&volume=168&pages=74-88&publication_year=2020&author=Chakraborty%2CT&author=Hsu%2CA&author=Manya%2CD&author=Sheriff%2CG"
+            }
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Chakraborty, T. C., Newman, A. J., Qian, Y., Hsu, A. & Sheriff, G. Residential segregation and outdoor urban moist heat stress disparities in the United States. One Earth 6, 738–750 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.oneear.2023.05.016",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Residential%20segregation%20and%20outdoor%20urban%20moist%20heat%20stress%20disparities%20in%20the%20United%20States&journal=One%20Earth&doi=10.1016%2Fj.oneear.2023.05.016&volume=6&pages=738-750&publication_year=2023&author=Chakraborty%2CTC&author=Newman%2CAJ&author=Qian%2CY&author=Hsu%2CA&author=Sheriff%2CG"
+            }
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Wang, F., Wang, J., Cao, J., Chen, C. & Ban, X. J. Extracting trips from multi-sourced data for mobility pattern analysis: an app-based data example. Transp. Res. Part C: Emerg. Technol. 105, 183–202 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trc.2019.05.028",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Extracting%20trips%20from%20multi-sourced%20data%20for%20mobility%20pattern%20analysis%3A%20an%20app-based%20data%20example&journal=Transp.%20Res.%20Part%20C%3A%20Emerg.%20Technol.&doi=10.1016%2Fj.trc.2019.05.028&volume=105&pages=183-202&publication_year=2019&author=Wang%2CF&author=Wang%2CJ&author=Cao%2CJ&author=Chen%2CC&author=Ban%2CXJ"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "All data were collected through a CCPA- and GDPR-compliant framework and utilized for research purposes. The data that support the findings of this study are available from Spectus, but restrictions apply to the availability of these data, which were used under license for the current study. The data can be accessed upon request submitted on spectus.ai. Other data we use in this study are all publicly available.",
+            "links": {}
+        },
+        "Code availability": {
+            "content": "The code that supports the findings of this study is available from the corresponding author upon request.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "This material is based in part upon work supported by the National Science Foundation under Grant CMMI-1846069 (CAREER), Texas A&M University X-Grant 699, and the Microsoft Azure AI for Public Health grant. The authors also would like to acknowledge the data support from Spectus. Any opinions, findings, conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation, Texas A&M University, Microsoft Azure, or Spectus.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsXinke HuangView author publicationsSearch author on:PubMed Google ScholarYuqin JiangView author publicationsSearch author on:PubMed Google ScholarAli MostafaviView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nConceptualization: X.H. & A.M.; methodology: X.H., Y.J., & A.M.; results analysis: X.H. & Y.J.; paper preparation: X.H., Y.J. & A.M.; supervision: A.M.\n### Corresponding author\nCorrespondence to\n                Yuqin Jiang.",
+            "links": {
+                "View author publications": "/search?author=Ali%20Mostafavi",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Ali%20Mostafavi",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Ali%20Mostafavi%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Yuqin Jiang": "mailto:yuqinjiang@txstate.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary MaterialReporting summary",
+            "links": {
+                "Supplementary Material": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_MOESM1_ESM.pdf",
+                "Reporting summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=The%20emergence%20of%20urban%20heat%20traps%20and%20human%20mobility%20in%2020%20US%20cities&author=Xinke%20Huang%20et%20al&contentID=10.1038%2Fs42949-024-00142-3&copyright=The%20Author%28s%29&publication=2661-8001&publicationDate=2024-02-01&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleHuang, X., Jiang, Y. & Mostafavi, A. The emergence of urban heat traps and human mobility in 20 US cities.\n                    npj Urban Sustain 4, 6 (2024). https://doi.org/10.1038/s42949-024-00142-3Download citationReceived: 01 June 2023Accepted: 16 January 2024Published: 01 February 2024Version of record: 01 February 2024DOI: https://doi.org/10.1038/s42949-024-00142-3Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42949-024-00142-3?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "The emergence of urban heat traps and human mobility in 20 US cities",
+                "description": "Understanding the relationship between spatial structures of cities and environmental hazard exposures is essential for urban health and sustainability planning. However, a critical knowledge gap exists in terms of the extent to which socio-spatial networks shaped by human mobility exacerbate or alleviate urban heat exposures of populations in cities. In this study, we utilize location-based data to construct human mobility networks in twenty metropolitan areas in the U.S. The human mobility networks are analyzed in conjunction with the urban heat characteristics of spatial areas. We identify areas with high and low urban heat exposure and evaluate visitation patterns of populations residing in high and low urban heat areas to other spatial areas with similar and dissimilar urban heat exposure. The results reveal the presence of urban heat traps in the majority of the studied metropolitan areas, wherein populations residing in high-heat exposure areas primarily visited other high-heat exposure zones. Specifically, cities such as Los Angeles, Boston, and Chicago were particularly pronounced as urban heat traps. The results also show a small percentage of human mobility to produce urban heat escalation and heat escapes. The findings from this study provide a better understanding of urban heat exposure in cities based on patterns of human mobility. These findings contribute to a broader understanding of the intersection of human network dynamics and environmental hazard exposures in cities to inform more integrated urban design and planning to promote health and sustainability.",
+                "datePublished": "2024-02-01T00:00:00Z",
+                "dateModified": "2024-02-01T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "13",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s42949-024-00142-3",
+                "keywords": [
+                    "Climate-change adaptation",
+                    "Environmental impact",
+                    "Natural hazards",
+                    "Environment",
+                    "general",
+                    "Sustainable Development",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urbanism",
+                    "Urban Ecology"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_Fig6_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_Fig7_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "npj Urban Sustainability",
+                    "issn": [
+                        "2661-8001"
+                    ],
+                    "volumeNumber": "4",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Xinke Huang",
+                        "affiliation": [
+                            {
+                                "name": "Texas A&M University",
+                                "address": {
+                                    "name": "Zachry Department of Civil & Environmental Engineering, Texas A&M University, College Station, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yuqin Jiang",
+                        "url": "http://orcid.org/0000-0003-0632-624X",
+                        "affiliation": [
+                            {
+                                "name": "Texas A&M University",
+                                "address": {
+                                    "name": "Zachry Department of Civil & Environmental Engineering, Texas A&M University, College Station, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "yuqinjiang@txstate.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Ali Mostafavi",
+                        "affiliation": [
+                            {
+                                "name": "Texas A&M University",
+                                "address": {
+                                    "name": "Zachry Department of Civil & Environmental Engineering, Texas A&M University, College Station, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "climate-change-adaptation;environmental-impact;natural-hazards",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "npj Urban Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42949-024-00142-3"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Xinke Huang",
+                            "Yuqin Jiang",
+                            "Ali Mostafavi"
+                        ],
+                        "publishedAt": 1706745600,
+                        "publishedAtString": "2024-02-01",
+                        "title": "The emergence of urban heat traps and human mobility in 20 US cities",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Climate-change adaptation,Environmental impact,Natural hazards"
+                    },
+                    "journal": {
+                        "pcode": "npjurbansustain",
+                        "title": "npj urban sustainability",
+                        "volume": "4",
+                        "issue": "1",
+                        "id": 42949,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "The emergence of urban heat traps and human mobility in 20 US cities",
+            "dc.source": "npj Urban Sustainability 2024 4:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2024-02-01",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2024 The Author(s)",
+            "dc.rights": "2024 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Understanding the relationship between spatial structures of cities and environmental hazard exposures is essential for urban health and sustainability planning. However, a critical knowledge gap exists in terms of the extent to which socio-spatial networks shaped by human mobility exacerbate or alleviate urban heat exposures of populations in cities. In this study, we utilize location-based data to construct human mobility networks in twenty metropolitan areas in the U.S. The human mobility networks are analyzed in conjunction with the urban heat characteristics of spatial areas. We identify areas with high and low urban heat exposure and evaluate visitation patterns of populations residing in high and low urban heat areas to other spatial areas with similar and dissimilar urban heat exposure. The results reveal the presence of urban heat traps in the majority of the studied metropolitan areas, wherein populations residing in high-heat exposure areas primarily visited other high-heat exposure zones. Specifically, cities such as Los Angeles, Boston, and Chicago were particularly pronounced as urban heat traps. The results also show a small percentage of human mobility to produce urban heat escalation and heat escapes. The findings from this study provide a better understanding of urban heat exposure in cities based on patterns of human mobility. These findings contribute to a broader understanding of the intersection of human network dynamics and environmental hazard exposures in cities to inform more integrated urban design and planning to promote health and sustainability.",
+            "dc.identifier": "doi:10.1038/s42949-024-00142-3",
+            "dc.creator": "Mostafavi, Ali",
+            "dc.subject": "Natural hazards",
+            "prism.issn": "2661-8001",
+            "prism.publicationName": "npj Urban Sustainability",
+            "prism.publicationDate": "2024-02-01",
+            "prism.volume": "4",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "13",
+            "prism.copyright": "2024 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42949-024-00142-3",
+            "prism.doi": "doi:10.1038/s42949-024-00142-3",
+            "citation_pdf_url": "https://www.nature.com/articles/s42949-024-00142-3.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42949-024-00142-3",
+            "citation_journal_title": "npj Urban Sustainability",
+            "citation_journal_abbrev": "npj Urban Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2661-8001",
+            "citation_title": "The emergence of urban heat traps and human mobility in 20 US cities",
+            "citation_volume": "4",
+            "citation_issue": "1",
+            "citation_online_date": "2024/02/01",
+            "citation_firstpage": "1",
+            "citation_lastpage": "13",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42949-024-00142-3",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42949-024-00142-3&api_key=",
+            "citation_reference": "citation_journal_title=Transp. Res. Part C: Emerg. Technol.; citation_title=Extracting trips from multi-sourced data for mobility pattern analysis: an app-based data example; citation_author=F Wang, J Wang, J Cao, C Chen, XJ Ban; citation_volume=105; citation_publication_date=2019; citation_pages=183-202; citation_doi=10.1016/j.trc.2019.05.028; citation_id=CR64",
+            "citation_author": "Mostafavi, Ali",
+            "citation_author_institution": "Zachry Department of Civil & Environmental Engineering, Texas A&M University, College Station, USA",
+            "description": "Understanding the relationship between spatial structures of cities and environmental hazard exposures is essential for urban health and sustainability planning. However, a critical knowledge gap exists in terms of the extent to which socio-spatial networks shaped by human mobility exacerbate or alleviate urban heat exposures of populations in cities. In this study, we utilize location-based data to construct human mobility networks in twenty metropolitan areas in the U.S. The human mobility networks are analyzed in conjunction with the urban heat characteristics of spatial areas. We identify areas with high and low urban heat exposure and evaluate visitation patterns of populations residing in high and low urban heat areas to other spatial areas with similar and dissimilar urban heat exposure. The results reveal the presence of urban heat traps in the majority of the studied metropolitan areas, wherein populations residing in high-heat exposure areas primarily visited other high-heat exposure zones. Specifically, cities such as Los Angeles, Boston, and Chicago were particularly pronounced as urban heat traps. The results also show a small percentage of human mobility to produce urban heat escalation and heat escapes. The findings from this study provide a better understanding of urban heat exposure in cities based on patterns of human mobility. These findings contribute to a broader understanding of the intersection of human network dynamics and environmental hazard exposures in cities to inform more integrated urban design and planning to promote health and sustainability.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "The emergence of urban heat traps and human mobility in 20 US cities",
+            "twitter:description": "npj Urban Sustainability - The emergence of urban heat traps and human mobility in 20 US cities",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42949-024-00142-3/MediaObjects/42949_2024_142_Fig1_HTML.png",
+            "DOI": "10.1038/s42949-024-00142-3",
+            "size": "221688",
+            "journal_id": "42949"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42949-024-00142-3",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

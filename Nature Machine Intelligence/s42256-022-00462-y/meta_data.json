@@ -1,0 +1,89 @@
+{
+    "id": "s42256-022-00462-y",
+    "title": "Quantifying the spatial homogeneity of urban road networks via graph neural networks",
+    "journal": "Nature Machine Intelligence",
+    "pdf_link": "https://www.nature.com/articles/s42256-022-00462-y",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "OpenStreetMap road network data accessed via OSMnx",
+            "Data_summary": "Street network graph data representing drivable road segments and intersections used to construct urban road networks as graphs for link prediction and spatial homogeneity estimation across grid cells within 30 cities.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                94
+            ],
+            "Other_Information": "Evidence: We utilized OSMnx94 to download the road network data from OpenStreetMap OSM; Location: Methods Datasets; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global > 30 cities in the United States Europe and Asia",
+            "URL": "https://www.openstreetmap.org/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Google Maps imagery",
+            "Data_summary": "Online map imagery used for visual validation of the node merging preprocessing step applied to the extracted road network graphs.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We also used images from Google Maps https://www.google.com/maps to validate the node merging results; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global > example checks in New York and London",
+            "URL": "https://www.google.com/maps",
+            "ref": []
+        },
+        {
+            "Data_Name": "World Population Review city population time series sourced from United Nations open datasets",
+            "Data_summary": "City population figures used to compute population growth indicators for 30 cities and relate them to the spatial homogeneity metric.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The population data we used comes from https://worldpopulationreview.com which is a visualization platform for the open datasets owned by the United Nations; Location: Data availability; Confidence: medium",
+            "Time_Coverage": "1950-2020",
+            "Geographic_Coverage": "Global > 30 cities in the United States Europe and Asia",
+            "URL": "https://worldpopulationreview.com/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Airport flow data from 2019 Annual Airport Traffic Report Port Authority of New York and New Jersey",
+            "Data_summary": "Airport traffic flow statistics used as a socioeconomic or connectivity indicator in association analyses for a subset of cities.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The airport flow data for 21 cities are from the 2019 Annual Airport Traffic Report at https://www.panynj.gov/airports/en/statistics-general-info.html; Location: Data availability; Confidence: high",
+            "Time_Coverage": "2019",
+            "Geographic_Coverage": "Global > 21 cities",
+            "URL": "https://www.panynj.gov/airports/en/statistics-general-info.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "Airport flow data for nine additional cities from external links in Supplementary Section 4",
+            "Data_summary": "Airport traffic flow statistics for the remaining cities not covered by the Port Authority report used as an additional city-level indicator in association analyses.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The airport flow data for the other nine cities can be accessed from links that are listed in Supplementary Section 4; Location: Data availability; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global > nine cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit (from Data Availability)",
+            "Data_summary": "Authors packaged road network extracts and socioeconomic indicator data used in the study and released them together for reuse.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Both the road network data and socioeconomic data are available at the online data warehouse https://github.com/jiang719/road-network-predictability.git; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global > 30 cities in the United States Europe and Asia",
+            "URL": "https://doi.org/10.5281/zenodo.5866593",
+            "ref": [
+                "ref-CR109"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:48.247140"
+    }
+}

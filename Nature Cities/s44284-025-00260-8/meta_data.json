@@ -1,0 +1,121 @@
+{
+    "id": "s44284-025-00260-8",
+    "title": "Systematic global stocktake of over 50,000 urban climate change studies",
+    "journal": "Nature Cities",
+    "pdf_link": "https://www.nature.com/articles/s44284-025-00260-8",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "OpenAlex bibliographic corpus",
+            "Data_summary": "A large open bibliographic database of scholarly works and metadata including publications, titles, abstracts, identifiers such as DOI, and citation links between papers. In this study it is queried with keywords to assemble the candidate literature set, used to train and apply a supervised relevance classifier, and used to retrieve citation networks for review-coverage analyses and matching against IPCC references.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We use OpenAlex23 the largest open-source literature database containing more than 248 million publications, Location: Methods Search query and identification of relevant articles for the literature database, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR23"
+            ]
+        },
+        {
+            "Data_Name": "Mordecai geoparser location database and outputs",
+            "Data_summary": "A pretrained geoparsing system that recognizes place names in unstructured text and resolves them to a geographic database of locations with centroid coordinates and administrative mappings. In this study it is applied to article titles and abstracts to derive geographic coordinates for identifying spatially explicit city case studies.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we use Mordecai24 a pretrained named-entity recognition geoparser able to identify geographic locations mentioned in unstructured text and match it to the correct entity, Location: Methods Identification of spatially specific city case studies, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR24"
+            ]
+        },
+        {
+            "Data_Name": "Global Human Settlement Layer Urban Centers Database GHSL-UCDB",
+            "Data_summary": "A global spatial database of urban center polygons and attributes used to represent cities and define urban centers above a population threshold. In this study it provides the city boundaries for spatial intersection with geoparsed coordinates and supplies a list of city names used for keyword-based city detection in abstracts and titles.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: These coordinates were then intersected with city polygons from the Global Human Settlement Layer Urban Centers Database GHSL-UCDB, Location: Main, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR25"
+            ]
+        },
+        {
+            "Data_Name": "IPCC Sixth Assessment Report AR6 reference lists",
+            "Data_summary": "Bibliographic reference lists used in the IPCC Sixth Assessment Report across Working Groups and specific chapters. In this study they are used as an external reference corpus to fuzzy-match against the authors literature database to estimate which urban studies were included in AR6 and to analyze inclusion and second-order coverage via cited reviews.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we match the references of the city literature in our database against the references used in the entire AR6 and the specific chapters on cities, Location: Methods Mixed-method evaluation of IPCC coverage against the city literature, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR52"
+            ]
+        },
+        {
+            "Data_Name": "Manually annotated training set for relevance classifier",
+            "Data_summary": "Author-created labels for a random sample of research article abstracts and titles indicating whether articles are relevant to climate change and human settlements. In this study these annotations are used as supervised training and validation data to build an XGBoost classifier that filters irrelevant articles from the OpenAlex-derived candidate set.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we trained an XGBoost classifier with a random sample of 1,020 research article abstracts that we annotated manually, Location: Methods Search query and identification of relevant articles for the literature database, Confidence: high",
+            "Time_Coverage": "2023-02",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Manually annotated ground-truth set for city case study identification validation",
+            "Data_summary": "Author-created ground-truth annotations of city names present in a random sample of articles, including manual lookup of place names that imply cities. In this study it is used to validate and compare geoparsing and keyword-based methods for identifying spatially specific city case studies, enabling computation of precision, recall and F1 metrics.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We randomly sampled 600 articles, which we then read and manually annotated by recording the city names mentioned, Location: Methods Identification of spatially specific city case studies, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Urban climate change evidence database created in this study",
+            "Data_summary": "A compiled database of urban climate change studies identified from OpenAlex and processed through machine-learning relevance screening, geoparsing for spatial attribution to cities, and topic modeling. It contains records for spatially specific city case studies and non-spatially specific urban studies and is used as the central input for all analyses including topic coverage, geographic distribution, review identification, and IPCC inclusion matching.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Our resulting global database26 contains 19,733 spatially specific city case studies and 33,562 generic studies, Location: Main, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR26"
+            ]
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data availability",
+            "Data_summary": "A public deposit of the study database and supporting data products enabling replication and reuse. In this study it serves as the distribution point for the constructed evidence database and related outputs used in analyses.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The database are also available via Harvard Dataverse at https://doi.org/10.7910/DVN/RSJF0Y ref. 26, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://doi.org/10.7910/DVN/RSJF0Y",
+            "ref": [
+                "ref-CR26"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:03.642917"
+    }
+}

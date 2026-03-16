@@ -1,0 +1,1090 @@
+{
+    "id": "s44284-025-00279-x",
+    "journal": "Nature Cities",
+    "type": "article",
+    "title": "Individual and city-level variations in heat-related road traffic deaths in Latin America",
+    "legal_title": "Individual and city-level variations in heat-related road traffic deaths in Latin America",
+    "publish_time": "2025-09-15",
+    "pdf_link": "https://www.nature.com/articles/s44284-025-00279-x",
+    "storage_path": "./Articles/Nature Cities/2025-article/s44284-025-00279-x/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Latin America experiences both high road traffic mortality and extreme heat, which have been shown elsewhere to be interrelated. However, few studies have examined this association in Latin America—one of the world’s most urbanized, fastest-motorizing regions, with a high share of vulnerable road users—and even fewer have analyzed multiple cities across diverse climates and urban settings. Leveraging ambient temperature and road traffic mortality data (2000–2019) from 272 cities in six Latin American countries, we conducted a time-stratified case-crossover study. On the basis of over 1.9 million city-days of data, we found that road traffic mortality risk generally increased with temperature in a monotonic pattern, with significantly elevated risk on extremely hot days, defined at the 95th and 99th temperature percentiles. Risks were particularly high among younger individuals (≤19 years), males, motorcyclists and bicyclists and in cities with hotter climates, longer commutes and more extended street segments. Cities in the tropical Global South should prioritize protecting vulnerable road users, particularly those in peripheral areas, where many endure long, heat-exposed commutes in informal, non-climate-controlled transport.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "The data supporting the findings of this study are available upon reasonable request to the corresponding author or to SALURBAL. Access to restricted data requires a data use agreement and approval of a study proposal by the SALURBAL proposal and publications committee. Some data may be subject to confidentiality restrictions. Publicly available datasets used in this study include ERA5-Land (temperature), WorldPop (population) and Global Urban Footprint (urban form), available via GitHub at https://github.com/Drexel-UHC/salurbal_heat. Map data are available via OpenStreetMap at https://www.openstreetmap.org. Country-level mortality data were obtained from national statistical agencies, with some publicly available and others available via Drexel University at https://drexel.edu/lac/data-evidence/data-acknowledgements/ upon request. To learn more about SALURBAL’s dataset, visit the SALURBAL project website (https://drexel.edu/lac/salurbal/overview/) or contact the project at salurbal@drexel.edu.",
+            "links": {
+                "https://github.com/Drexel-UHC/salurbal_heat": "https://github.com/Drexel-UHC/salurbal_heat",
+                "https://www.openstreetmap.org": "https://www.openstreetmap.org",
+                "https://drexel.edu/lac/data-evidence/data-acknowledgements/": "https://drexel.edu/lac/data-evidence/data-acknowledgements/",
+                "https://drexel.edu/lac/salurbal/overview/": "https://drexel.edu/lac/salurbal/overview/"
+            }
+        },
+        "Code availability": {
+            "content": "The code is available at https://github.com/Drexel-UHC/MS252/tree/Submission_NatCities. The repository includes the complete modeling pipeline for the research reported in this paper. All scripts are organized in a modular structure covering data processing, modeling, pooling procedures, prediction reconstruction, EDF calculation and plotting. The repository is publicly available without restrictions.",
+            "links": {
+                "https://github.com/Drexel-UHC/MS252/tree/Submission_NatCities": "https://github.com/Drexel-UHC/MS252/tree/Submission_NatCities"
+            }
+        },
+        "Change history": {
+            "content": "",
+            "links": {
+                "https://doi.org/10.1038/s44284-025-00339-2": "https://doi.org/10.1038/s44284-025-00339-2"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This project was supported by the Wellcome Trust initiative Our Planet, Our Health (grant no. 205177/Z/16/Z). We also acknowledge partial support from NIH grant P20MD019221 to C.-K.H., B.N.S., J.L.K., U.B., N.G., W.T.C., A.A.d.L.F. and D.A.R.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsCheng-Kai HsuView author publicationsSearch author on:PubMed Google ScholarD. Alex QuistbergView author publicationsSearch author on:PubMed Google ScholarBrisa N. SánchezView author publicationsSearch author on:PubMed Google ScholarJosiah L. KephartView author publicationsSearch author on:PubMed Google ScholarUsama BilalView author publicationsSearch author on:PubMed Google ScholarNelson GouveiaView author publicationsSearch author on:PubMed Google ScholarCarolina Pérez FerrerView author publicationsSearch author on:PubMed Google ScholarWaleska T. CaiaffaView author publicationsSearch author on:PubMed Google ScholarAmélia Augusta de Lima FricheView author publicationsSearch author on:PubMed Google ScholarIgnacio YannoneView author publicationsSearch author on:PubMed Google ScholarDaniel A. RodríguezView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nC.-K.H., D.A.Q. and D.A.R. conceptualized the analysis. D.A.Q., J.L.K., U.B., N.G. and D.A.R. led data curation. B.N.S. provided statistical support. C.-K.H. conducted the formal analysis and drafted the original manuscript. D.A.R. secured funding and provided supervision. All authors contributed to the revision and editing of the manuscript.\n### Corresponding author\nCorrespondence to\n                Cheng-Kai Hsu.",
+            "links": {
+                "View author publications": "/search?author=Daniel%20A.%20Rodr%C3%ADguez",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Daniel%20A.%20Rodr%C3%ADguez",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Daniel%20A.%20Rodr%C3%ADguez%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Cheng-Kai Hsu": "mailto:ckhsu@berkeley.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Cities thanks the anonymous reviewers for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data": {
+            "content": "Extended Data Fig. 1 Annual median temperature and road traffic mortality rate by city.a, Annual median temperature. b, Annual median road traffic mortality rate. Values were calculated over each city’s observation period.Extended Data Fig. 2 Effect modification by summaries of city-level temperature profiles.a, Mean temperature. b, Standard deviation of temperature. “Higher” and “Lower” indicate cities at the 90th percentile (higher values) or 10th percentile (lower values) of respective temperature summary. Dashed vertical lines indicate temperature percentiles: 1st, 25th, 50th, 75th, and 99th from left to right. Each association curve shows the estimated relative risk (central estimate), and the shading represents the 95% confidence interval.Extended Data Table 1 Population, road traffic mortality and temperature characteristics of 272 Latin American citiesFull size tableExtended Data Table 2 Percentile distributions of daily mean temperatures (in °C) across six temperature clustersFull size table",
+            "links": {
+                "Extended Data Fig. 1 Annual median temperature and road traffic mortality rate by city.": "/articles/s44284-025-00279-x/figures/5",
+                "Extended Data Fig. 2 Effect modification by summaries of city-level temperature profiles.": "/articles/s44284-025-00279-x/figures/6",
+                "Full size table": "/articles/s44284-025-00279-x/tables/4"
+            }
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Fig. 1.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00279-x/MediaObjects/44284_2025_279_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00279-x/MediaObjects/44284_2025_279_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Individual%20and%20city-level%20variations%20in%20heat-related%20road%20traffic%20deaths%20in%20Latin%20America&author=Cheng-Kai%20Hsu%20et%20al&contentID=10.1038%2Fs44284-025-00279-x&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20America%2C%20Inc.&publication=2731-9997&publicationDate=2025-09-15&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleHsu, CK., Quistberg, D.A., Sánchez, B.N. et al. Individual and city-level variations in heat-related road traffic deaths in Latin America.\n                    Nat Cities 2, 897–906 (2025). https://doi.org/10.1038/s44284-025-00279-xDownload citationReceived: 06 March 2025Accepted: 11 June 2025Published: 15 September 2025Version of record: 15 September 2025Issue date: September 2025DOI: https://doi.org/10.1038/s44284-025-00279-xShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s44284-025-00279-x?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Individual and city-level variations in heat-related road traffic deaths in Latin America",
+                "description": "Latin America experiences both high road traffic mortality and extreme heat, which have been shown elsewhere to be interrelated. However, few studies have examined this association in Latin America—one of the world’s most urbanized, fastest-motorizing regions, with a high share of vulnerable road users—and even fewer have analyzed multiple cities across diverse climates and urban settings. Leveraging ambient temperature and road traffic mortality data (2000–2019) from 272 cities in six Latin American countries, we conducted a time-stratified case-crossover study. On the basis of over 1.9 million city-days of data, we found that road traffic mortality risk generally increased with temperature in a monotonic pattern, with significantly elevated risk on extremely hot days, defined at the 95th and 99th temperature percentiles. Risks were particularly high among younger individuals (≤19 years), males, motorcyclists and bicyclists and in cities with hotter climates, longer commutes and more extended street segments. Cities in the tropical Global South should prioritize protecting vulnerable road users, particularly those in peripheral areas, where many endure long, heat-exposed commutes in informal, non-climate-controlled transport. Extreme heat in Latin America increases road traffic mortality risks, with motorcyclists and bicyclists facing a 27% higher risk on the hottest days. Urban protection measures for vulnerable commuters in cities in the Global South are critical as climate change intensifies heat exposure.",
+                "datePublished": "2025-09-15T00:00:00Z",
+                "dateModified": "2025-10-09T00:00:00Z",
+                "pageStart": "897",
+                "pageEnd": "906",
+                "sameAs": "https://doi.org/10.1038/s44284-025-00279-x",
+                "keywords": [
+                    "Environmental studies",
+                    "Outcomes research",
+                    "Cities",
+                    "Countries",
+                    "Regions",
+                    "Sustainable Architecture/Green Buildings",
+                    "Civil Engineering",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urban Studies/Sociology",
+                    "Urban Economics"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00279-x/MediaObjects/44284_2025_279_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00279-x/MediaObjects/44284_2025_279_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00279-x/MediaObjects/44284_2025_279_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00279-x/MediaObjects/44284_2025_279_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Cities",
+                    "issn": [
+                        "2731-9997"
+                    ],
+                    "volumeNumber": "2",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Cheng-Kai Hsu",
+                        "url": "http://orcid.org/0000-0001-7254-0602",
+                        "affiliation": [
+                            {
+                                "name": "University of California",
+                                "address": {
+                                    "name": "Department of City and Regional Planning and Institute of Transportation Studies, University of California, Berkeley, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "ckhsu@berkeley.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "D. Alex Quistberg",
+                        "affiliation": [
+                            {
+                                "name": "Drexel University",
+                                "address": {
+                                    "name": "Dornsife School of Public Health, Drexel University, Philadelphia, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Brisa N. Sánchez",
+                        "affiliation": [
+                            {
+                                "name": "Drexel University",
+                                "address": {
+                                    "name": "Dornsife School of Public Health, Drexel University, Philadelphia, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Josiah L. Kephart",
+                        "url": "http://orcid.org/0000-0003-2556-4892",
+                        "affiliation": [
+                            {
+                                "name": "Drexel University",
+                                "address": {
+                                    "name": "Dornsife School of Public Health, Drexel University, Philadelphia, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Usama Bilal",
+                        "url": "http://orcid.org/0000-0002-9868-7773",
+                        "affiliation": [
+                            {
+                                "name": "Drexel University",
+                                "address": {
+                                    "name": "Dornsife School of Public Health, Drexel University, Philadelphia, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Nelson Gouveia",
+                        "url": "http://orcid.org/0000-0003-0625-0265",
+                        "affiliation": [
+                            {
+                                "name": "University of Sao Paulo Medical School",
+                                "address": {
+                                    "name": "Department of Preventive Medicine, University of Sao Paulo Medical School, Sao Paulo, Brazil",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Carolina Pérez Ferrer",
+                        "affiliation": [
+                            {
+                                "name": "National Institute of Public Health",
+                                "address": {
+                                    "name": "Center for Research in Population Health, National Institute of Public Health, Cuernavaca, Mexico",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Waleska T. Caiaffa",
+                        "affiliation": [
+                            {
+                                "name": "Federal University of Minas Gerais",
+                                "address": {
+                                    "name": "Observatory for Urban Health in Belo Horizonte, School of Medicine, Federal University of Minas Gerais, Belo Horizonte, Brazil",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Amélia Augusta de Lima Friche",
+                        "affiliation": [
+                            {
+                                "name": "Federal University of Minas Gerais",
+                                "address": {
+                                    "name": "Observatory for Urban Health in Belo Horizonte, School of Medicine, Federal University of Minas Gerais, Belo Horizonte, Brazil",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Ignacio Yannone",
+                        "url": "http://orcid.org/0009-0009-9707-1764",
+                        "affiliation": [
+                            {
+                                "name": "National University of Lanús (ISCo-UNLa)",
+                                "address": {
+                                    "name": "Institute of Collective Health, National University of Lanús (ISCo-UNLa), Remedios de Escalada, Argentina",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Daniel A. Rodríguez",
+                        "url": "http://orcid.org/0000-0001-6550-5518",
+                        "affiliation": [
+                            {
+                                "name": "University of California",
+                                "address": {
+                                    "name": "Department of City and Regional Planning and Institute of Transportation Studies, University of California, Berkeley, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "environmental-studies;outcomes-research",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Cities",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s44284-025-00279-x"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Cheng-Kai Hsu",
+                            "D. Alex Quistberg",
+                            "Brisa N. Sánchez",
+                            "Josiah L. Kephart",
+                            "Usama Bilal",
+                            "Nelson Gouveia",
+                            "Carolina Pérez Ferrer",
+                            "Waleska T. Caiaffa",
+                            "Amélia Augusta de Lima Friche",
+                            "Ignacio Yannone",
+                            "Daniel A. Rodríguez"
+                        ],
+                        "publishedAt": 1757894400,
+                        "publishedAtString": "2025-09-15",
+                        "title": "Individual and city-level variations in heat-related road traffic deaths in Latin America",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Environmental studies,Outcomes research"
+                    },
+                    "journal": {
+                        "pcode": "natcities",
+                        "title": "nature cities",
+                        "volume": "2",
+                        "issue": "9",
+                        "id": 44284,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Individual and city-level variations in heat-related road traffic deaths in Latin America",
+            "dc.source": "Nature Cities 2025 2:9",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-09-15",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rights": "2025 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Latin America experiences both high road traffic mortality and extreme heat, which have been shown elsewhere to be interrelated. However, few studies have examined this association in Latin America—one of the world’s most urbanized, fastest-motorizing regions, with a high share of vulnerable road users—and even fewer have analyzed multiple cities across diverse climates and urban settings. Leveraging ambient temperature and road traffic mortality data (2000–2019) from 272 cities in six Latin American countries, we conducted a time-stratified case-crossover study. On the basis of over 1.9 million city-days of data, we found that road traffic mortality risk generally increased with temperature in a monotonic pattern, with significantly elevated risk on extremely hot days, defined at the 95th and 99th temperature percentiles. Risks were particularly high among younger individuals (≤19 years), males, motorcyclists and bicyclists and in cities with hotter climates, longer commutes and more extended street segments. Cities in the tropical Global South should prioritize protecting vulnerable road users, particularly those in peripheral areas, where many endure long, heat-exposed commutes in informal, non-climate-controlled transport. Extreme heat in Latin America increases road traffic mortality risks, with motorcyclists and bicyclists facing a 27% higher risk on the hottest days. Urban protection measures for vulnerable commuters in cities in the Global South are critical as climate change intensifies heat exposure.",
+            "dc.identifier": "doi:10.1038/s44284-025-00279-x",
+            "dc.creator": "Rodríguez, Daniel A.",
+            "dc.subject": "Outcomes research",
+            "prism.issn": "2731-9997",
+            "prism.publicationName": "Nature Cities",
+            "prism.publicationDate": "2025-09-15",
+            "prism.volume": "2",
+            "prism.number": "9",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "897",
+            "prism.endingPage": "906",
+            "prism.copyright": "2025 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s44284-025-00279-x",
+            "prism.doi": "doi:10.1038/s44284-025-00279-x",
+            "citation_pdf_url": "https://www.nature.com/articles/s44284-025-00279-x.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s44284-025-00279-x",
+            "citation_journal_title": "Nature Cities",
+            "citation_journal_abbrev": "Nat Cities",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2731-9997",
+            "citation_title": "Individual and city-level variations in heat-related road traffic deaths in Latin America",
+            "citation_volume": "2",
+            "citation_issue": "9",
+            "citation_publication_date": "2025/09",
+            "citation_online_date": "2025/09/15",
+            "citation_firstpage": "897",
+            "citation_lastpage": "906",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s44284-025-00279-x",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s44284-025-00279-x&api_key=",
+            "citation_reference": "citation_journal_title=BMC Med. Res. Methodol.; citation_title=Attributable risk from distributed lag models; citation_author=A Gasparrini, M Leone; citation_volume=14; citation_publication_date=2014; citation_pages=55; citation_doi=10.1186/1471-2288-14-55; citation_id=CR60",
+            "citation_author": "Rodríguez, Daniel A.",
+            "citation_author_institution": "Department of City and Regional Planning and Institute of Transportation Studies, University of California, Berkeley, USA",
+            "description": "Latin America experiences both high road traffic mortality and extreme heat, which have been shown elsewhere to be interrelated. However, few studies have examined this association in Latin America—one of the world’s most urbanized, fastest-motorizing regions, with a high share of vulnerable road users—and even fewer have analyzed multiple cities across diverse climates and urban settings. Leveraging ambient temperature and road traffic mortality data (2000–2019) from 272 cities in six Latin American countries, we conducted a time-stratified case-crossover study. On the basis of over 1.9 million city-days of data, we found that road traffic mortality risk generally increased with temperature in a monotonic pattern, with significantly elevated risk on extremely hot days, defined at the 95th and 99th temperature percentiles. Risks were particularly high among younger individuals (≤19 years), males, motorcyclists and bicyclists and in cities with hotter climates, longer commutes and more extended street segments. Cities in the tropical Global South should prioritize protecting vulnerable road users, particularly those in peripheral areas, where many endure long, heat-exposed commutes in informal, non-climate-controlled transport. Extreme heat in Latin America increases road traffic mortality risks, with motorcyclists and bicyclists facing a 27% higher risk on the hottest days. Urban protection measures for vulnerable commuters in cities in the Global South are critical as climate change intensifies heat exposure.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Individual and city-level variations in heat-related road traffic deaths in Latin America",
+            "twitter:description": "Nature Cities - Extreme heat in Latin America increases road traffic mortality risks, with motorcyclists and bicyclists facing a 27% higher risk on the hottest days. Urban protection measures for...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44284-025-00279-x/MediaObjects/44284_2025_279_Fig1_HTML.png",
+            "DOI": "10.1038/s44284-025-00279-x",
+            "size": "190180",
+            "journal_id": "44284"
+        },
+        "canonical_url": "https://www.nature.com/articles/s44284-025-00279-x",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "The adverse impacts of ambient heat on human health are increasingly documented and expected to intensify given global warming, especially in urban areas. Through the urban heat island effect, global rapid urbanization has amplified human exposure to extreme heat1,2, leading to increased mortality risks across different regions3,4, including unintentional injuries5. Recently, studies have linked road traffic injuries—responsible for 1.25 million deaths worldwide annually6—to high temperatures7, potentially driven by a combination of factors: prolonged heat exposure on roadways, vehicle malfunctions8, deteriorating road conditions such as softened asphalt9, increased traffic volume10, strained emergency medical services due to higher call volumes with delayed response times11 and safety-related behavioral changes, such as impaired focus and riskier driving12,13,14,15. This phenomenon is critical as its impact may intensify in densely urbanized areas, where there is increased exposure to heat owing to the urban heat island effect, along with increased vulnerability to its effects due to the high concentration and diverse mix of vulnerable road users, such as motorcyclists, bicyclists and pedestrians, who are susceptible to immediate heat exposure and physical injuries owing to a lack of protective enclosures.\nHowever, evidence on temperature-related road traffic mortality in Latin America is lacking. Most existing studies have focused on single cities in colder regions, including North America, Europe and the Western Pacific7. This narrow focus presents several issues. First, temperature-related road traffic mortality remains understudied in regions with diverse climates and urban conditions, despite their importance in understanding how climate impacts human health, including road safety, across different geographic contexts. Second, while global warming has improved winter road conditions and safety in colder regions16, prolonged heat exposure in warmer climates may heighten risks; evidence from the Global Burden of Disease study 2019 underscores this concern, showing that heat-related road traffic mortality is high in tropical regions, especially low- and middle-income countries (LMICs)17. Third, unlike high-income countries where motor vehicles may dominate the road, countries in regions such as Latin America have a more diverse travel mode mix, with a greater reliance on motorcycles, bicycles, walking and public transit, a distinct transportation landscape that may alter the associations observed in other settings.\nIf applicable, these impacts would be particularly concerning for Latin America, one of the world’s most urbanized regions with over 80% of the population living in cities18. The region’s dense urbanization has intensified heat exposure through the urban heat island effect, with projections indicating rising temperatures and more frequent extreme heat events19. In South America’s major cities, the number of extremely hot days (defined by the 95th percentile daily mean temperature from 1961 to 1990) is projected to increase five to ten fold from the late twentieth century to the mid-twenty-first century under the mid-level representative concentration pathway 4.5 climate scenario20. Meanwhile, road traffic mortality has become the leading cause of death for children (5–14 years) and the second leading cause for people aged 15–44 years21, probably driven by urban expansion and rapid motorization. The region’s motorcycle-oriented motorization has furthered these safety concerns22,23, manifesting in a sharp rise in motorcycle mortality rates from 0.8 per 100,000 in 1998 to 3.5 per 100,000 in 201024.\nThis study fills existing research gaps by examining the temperature effects on road traffic mortality across Latin America. We leverage a valuably large dataset spanning two decades and 272 Latin American cities in six countries from Mexico to the Southern Cone. To our knowledge, this study is the first to examine these effects across multiple cities, offering two major strengths: first, it evaluates ambient temperature as a risk factor for road traffic mortality, a relatively rare outcome that requires pooling a large dataset for sufficient statistical power; second, it explores how these risks vary by demographic group, transportation mode and urban context with varying climatic patterns, transportation settings and urban design factors. These insights are essential for understanding temperature-related road traffic mortality, a growing global burden on human health, particularly in rapidly urbanizing regions that are warming, motorizing and increasingly vulnerable to climate change impacts.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR21",
+                "ref-CR15",
+                "ref-CR7",
+                "ref-CR19",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Data description\nWe examined 272 cities across 6 Latin American countries from 2000 to 2019, totaling 1,953,569 city-days. Our study covered Brazil (152 cities, 2000–2019), Mexico (92 cities, 2000–2019), Chile (21 cities, 2000–2019), El Salvador (3 cities, 2009–2019), Panama (3 cities, 2007–2019) and Costa Rica (1 city, 2000–2019). Extended Data Table 1 presents country-level summary statistics for population size, road traffic mortality and temperature condition. Extended Data Fig. 1 shows the geographic location of each city along with its annual median temperature and road traffic mortality rate, summarized over the city’s observation period.\nTable 1 presents summary statistics for road traffic mortality, stratified by age, binary sex and mode of transportation involved in the fatality. On average, there were 33.75 road traffic deaths per 100 days (s.d. 72.52, median 14.80, range 3.42–717.06). By mode, deaths per 100 days averaged 5.08 for motorcyclists, 0.90 for bicyclists, 13.87 for pedestrians and 7.50 for motorists. By sex, the average was 26.81 for males and 6.93 for females. Age-stratified averages were 1.11 (<9 years), 3.27 (10–19 years), 11.56 (20–34 years), 13.58 (35–64 years) and 4.22 (≥65 years).\n### Associations between temperature and road traffic mortality\nTable 2 presents the results of the main, stratified and subgroup analyses using two key metrics: (1) relative risk (RR), reflecting the risk of road traffic mortality at the 95th and 99th temperature percentiles compared to the minimum mortality temperature percentile (MMTP) and (2) extreme heat-related excess death fractions (EDFs), indicating the proportion of total road traffic deaths associated with extreme heat, defined as temperatures at or above the 95th percentile.\nFigure 1 presents the main effects analysis, showing the estimated association between temperature and road traffic mortality, derived by pooling data across all 272 cities. When based on temperature percentiles, the main effects model shows a monotonic increasing trend in the estimated association curve (Fig. 1a). We observed RRs of 1.16 (95% confidence interval (CI) 1.14 to 1.19) and 1.18 (95% CI 1.15 to 1.21) at the 95th and 99th percentiles compared to the MMTP, respectively (Table 2). The EDF for temperatures above the 95th percentile indicates that 0.74% (95% CI 0.64% to 0.84%) of road traffic mortality was attributable to extreme heat (Table 2). When based on absolute temperatures in degrees centigrade, the curve appears to taper off at the lowest and highest ends of the temperature (Fig. 1b), with wide CIs reflecting the relatively fewer observations in these ranges (Fig. 1d). While the curve in Fig. 1b shows some nonlinearity, it remains similar to that in Fig. 1a within the 1st and 99th percentiles (marked in red within the leftmost and rightmost dashed lines). In sensitivity analyses, varying knot specifications or using alternative outcomes (that is, nonimputed road traffic deaths or the median of imputed values) produced highly consistent results (Supplementary Fig. 1). Notably, analyses based on the median of imputed values yielded narrower CIs compared to those obtained using nonimputed road traffic deaths.\nFigure 2 displays the stratification analysis by temperature cluster, with each cluster characterized by distinct temperature profiles—defined by the 1st, 10th, 75th, 90th and 99th percentiles—and labeled according to the overall central tendency and spread of temperatures among the cities in the cluster (Fig. 2a). In total, six temperature clusters were identified: ‘cool’ (Fig. 2b), ‘mild’ (Fig. 2c), ‘warm and dispersed’ (Fig. 2d), ‘warm and concentrated’ (Fig. 2e), ‘hot and concentrated’ (Fig. 2f) and ‘hot and dispersed’ (Fig. 2g). Percentile distributions of temperature (°C) for each cluster are shown in Extended Data Table 2. The labels ‘cool’, ‘mild’, ‘warm’ and ‘hot’ refer to increasing levels of average ambient temperature, while ‘concentrated’ and ‘dispersed’ indicate narrower and broader temperature ranges, respectively. Figure 2b–g illustrates the estimated effects for each cluster. Of the six clusters, four—excluding the cool and mild clusters—showed generally notable associations. The hot and dispersed cluster exhibited the strongest effects, with estimated RRs of 1.34 (95% CI 1.21 to 1.49) and 1.42 (95% CI 1.26 to 1.60) at the 95th and 99th percentiles, respectively, and an extreme heat-related EDF of 1.46% (95% CI 1.00% to 1.85%). Full RR estimates for all clusters are provided in Table 2.\nWe conducted sensitivity analyses assessing whether city-level temperature characteristics—specifically, average temperature (°C) and temperature s.d. (°C)—modified the association. Tests of effect modification indicated significantly stronger temperature–mortality associations in cities with higher average temperatures and greater temperature variability (Extended Data Fig. 2). Specifically, Extended Data Fig. 2a shows that cities with higher average temperatures were generally more susceptible to heat-related road mortality risks compared to colder cities, as indicated by a chi-squared likelihood ratio test (χ²(12) = 26.9, P = 0.018). Similarly, Extended Data Fig. 2b shows that cities with more varied temperature distributions (higher s.d.) faced even greater susceptibility to heat-induced road mortality risks (χ²(12) = 57.7, P < 0.001), with risks increasing sharply around the 95th percentile. While pooling data across all cities merges temperature distributions with varying mean and s.d., potentially masking temperature cluster-specific patterns, the findings in Fig. 2 and Extended Data Fig. 2 consistently reveal an increased risk of road traffic mortality with rising temperature. The magnitude of this risk varied according to the temperature distribution, whether analyzed by temperature cluster or by mean and s.d., with the highest risks observed in the hottest cities and those experiencing greater temperature variability.\nFigure 3 presents the results of subgroup analyses by victim demographic and transportation mode used by the victim. We observed that males consistently had higher RRs than females (RRs at 99th percentile of 1.19 (95% CI 1.16 to 1.23) for males and 1.13 (95% CI 1.06 to 1.19) for females; Table 2), with a sharp increase beyond the 80th percentile (Fig. 3a). Children (<9 years) and adolescents (10–19 years) had higher vulnerability than other age groups, with adolescents being particularly vulnerable (steepest association curve, Fig. 3b). Young (20–34 years) and middle-aged adults (35–64 years) showed intermediate vulnerability, while older adults (≥65 years) exhibited the lowest vulnerability. Motorcyclists and bicyclists had higher RRs than motor vehicle users and pedestrians (Fig. 3c), with motorcycle mortality increasing sharply after the 80th percentile and reaching an RR of 1.27 (95% CI 1.19 to 1.35) at the 99th percentile (Table 2).\nFigure 4 shows the effect modification analysis by city characteristics. We found that residents of cities with longer average street segments (at the 90th percentile) appeared to exhibit greater vulnerability than those of cities with shorter segments (χ²(12) = 20.4, P = 0.099; Fig. 4a). Similarly, residents of cities with longer peak-hour travel times showed higher vulnerability than those of cities with shorter peak-hour travel times (χ²(12) = 23.3, P = 0.048; Fig. 4b).",
+            "cites": [],
+            "figures": [
+                "figure-4",
+                "figure-1",
+                "figure-2",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Analyzing 1,953,569 city-days across 272 cities over two decades, we identified a distinct association between temperature and road traffic mortality in Latin America, characterized by a monotonic increase. This contrasts with the U-shaped association observed in colder settings such as Northern China25 and South Korea26, and instead aligns with patterns reported in warmer regions such as Spain27 and Taiwan28. Notably, even in colder climates, the road traffic mortality burden tends to be higher at the heat exposure end of the U-shaped curve26, consistent with our own findings for cities in the mild and cool clusters (Fig. 2b,c). This is probably because cold-related road risks are typically associated with extreme conditions such as snow or icy roads—events that occur only at very low temperatures and often prompt more cautious driving and risk compensation29. Thus, road traffic mortality appears to be primarily heat driven (at least in our sample, where the coldest cluster of cities had a 1st percentile daily temperature of 1.6 °C during the study period; Extended Data Table 2). These findings highlight the distinct mechanisms through which temperature affects road traffic mortality, probably involving a combination of physiological, behavioral and infrastructural factors, contrasting with patterns seen in natural cause mortality that is largely due to extreme temperature-related biological stress responses. This distinction is supported by comparisons with associations reported for all-cause, cardiovascular and respiratory mortality in the region4 and elsewhere30,31, which often consistently show U-shaped relationships regardless of climate zone. Additionally, our estimated extreme heat-related EDF of 0.74% exceeds those reported for all-cause, cardiovascular and respiratory mortality in similar Latin American contexts using the same extreme heat definition in a Salud Urbana en América Latina (SALURBAL, Urban Health in Latin America) study4. This is alarming, since global warming may reduce certain mortality risks related to cold32, but heat-induced road traffic mortality may continue to rise without such compensatory effects, particularly in the region’s hotter cities, where we observed stronger effects.\nPrior research suggests several causal pathways through which heat may elevate the risk of road traffic collisions and subsequent fatalities. Heat exposure may impair driver performance owing to distraction, fatigue or diminished cognitive function14,15. Heat can also induce road aggression, impatience and risky driving such as red-light running and speeding12,13. This is supported by our finding of stronger effects in cities with longer street segments, which are often associated with higher-speed travel33. These heat-induced physiological and behavioral responses are probably compounded by additional challenges on hot days, including tire blowouts8, softened asphalt, increased traffic volume10 and strained emergency medical services with higher call volumes and delayed response times11.\nOur study identified particularly high vulnerability among younger individuals (0–19 years), consistent with prior research34. This may result from developmental factors, such as ongoing cognitive maturation, lower capacity for risk assessment and limited road experience, whether as a pedestrian, bicyclists or other mode user35,36, which can compound heat-related risks. The use of protective gear such as helmets is also often lower among younger individuals37, and may decline further in hot conditions owing to thermal discomfort38, increasing injury severity. This finding contrasts with most heat-related causes of mortality, such as cardiovascular and respiratory diseases, which predominantly affect older adults4. Unlike disease-related deaths, where heat typically worsens preexisting health conditions or physiological vulnerabilities (for example, greater demands of thermoregulation in older adults39), rather than initiating disease onset or progression, heat can impact road traffic mortality more directly, even affecting otherwise healthy individuals and leading to immediate fatalities, greater premature deaths and more years of life lost.\nThe stronger associations observed among bicyclists and motorcyclists, as well as among males—who constitute the majority of users for both modes24—align with prior work17,28, underscoring health equity concerns in the region. The heightened vulnerability among users of bicycles and motorcycles may stem from their open design, exposing users to direct heat, and greater physical and cognitive demands of riding, such as handgrip, balance and gait function. It is important to note that pedestrian and bicyclist deaths on roadways are mostly due to collisions with motor vehicles, such as motorcycles and passenger vehicles, though owing to the quality of the International Classification of Diseases, 10th revision (ICD-10) coding and the infeasibility of further subgroup analyses, it was not possible to examine the specific impact of different vehicle types on pedestrian and bicyclist deaths in relation to temperature. Driver errors exacerbated by heat exposure may contribute to the excess fatalities among these vulnerable road users on hotter days40. This risk is concerning from an equity standpoint, as lower-income urban populations are more reliant on nonmotorized or semi-open modes of transport, with limited access to climate-controlled options such as private vehicles. In Latin American cities, the majority of road users (>70%) depend on walking, biking or public transport, while only 10–15% of trips involve private motor vehicles. As a result, pedestrians and bicyclists face disproportionate exposure to both environmental heat and road traffic risks from motor vehicle use by other road users.\nBy showing stronger associations for residents of cities with longer commutes, our study further raises global health concerns for LMICs, where residents of peripheral, poor communities often face lengthy travel times, as seen in India, Brazil and Kenya41,42,43. In addition to the extended heat exposure due to long commutes, lower-income populations have limited alternatives for adjusting their travel, such as switching modes, modifying schedules or working remotely, especially for nondiscretionary work commutes that require travel at fixed times regardless of weather conditions. This concern can be further amplified in the tropical Global South, where informal transportation relies heavily on semi-enclosed, nonmotorized and non-air-conditioned modes, such as motorcycle taxis in Brazil and Colombia, cycle rickshaws in India and South Africa, keke (tricycles) in Nigeria and tuk-tuks in Kenya. While popular among the urban poor because these modes often act as gap fillers44, they offer minimal protection from external hazards such as heat. Given their prevalence and the challenging urban conditions in which they operate—including long, heat-exposed commutes—these factors underscore pressing global health inequities amid a changing climate.\nPolicy interventions should prioritize heat mitigation strategies tailored to informal transport contexts and those most vulnerable to extreme heat. For instance, governments can invest in shaded waiting areas and designated rest zones along major informal transit corridors and promote using heat-reflective or ventilated vehicle designs. Formalizing informal transport services (for example, mototaxistas) may also benefit both informal transport workers and riders, which may improve both occupational safety standards and social protection, such as access to healthcare and income support during climate-related disruptions. Additionally, the region’s rapid growth in male motorcyclists working in gig economy transport services (for example, Rappi and Uber Moto)45, many of whom come from lower-income backgrounds, underscores growing concerns about heat-related road safety risks. Recent studies show that food delivery demand surges during periods of extreme heat46, underscoring concerns about how heat risks are transferred and commodified through gig economy labor. Gig delivery workers face high heat exposure, often lacking flexibility to refuse shifts, regulate workloads, adjust schedules or access reliable water and rest during hot days47. Further, research has linked heat exposure to riskier driving behaviors among gig-based delivery motorcyclists48. In response, governments should consider heat safety standards for gig economy riders, such as required rest breaks and caps on working hours during extreme heat. Labor policies should protect workers’ right to reduce shifts in dangerous weather without penalty, and platforms should be mandated to adjust delivery expectations, such as deadlines, in response to forecasted heat events. More broadly, public authorities could also explore implementing temporary heat-related leave or remote work advisories on extremely hot days to reduce travel demand, thereby lowering heat exposure risks for both informal transport workers and road users at large.\nStrengths of our study include its multicountry, multicity scope, allowing us to explore variations across diverse climates and urban settings, yielding meaningful global health insights. The multicity approach using a large dataset across 272 diverse cities also offered robustness of our findings on the impact of heat on road traffic mortality, in contrast to prior research often limiting analysis to single cities7. Additionally, we provide regional insights currently lacking in the literature, which is critical as Latin America presents unique characteristics; unlike regions studied in existing research, Latin America generally has warmer climates, making it more vulnerable to global warming. The region also has a distinct mode mix, characterized by motorcycle-oriented motorization, where motorcyclists—who tend to come from lower-income backgrounds—may experience greater heat exposure. As our findings show, they also bear higher vulnerability to heat-related road traffic mortality, with an estimated 1.17% (95% CI 0.91% to 1.43%) of motorcycle deaths attributable to extreme heat (Table 2).\nSeveral limitations are noted. First, we used a relative temperature metric, limiting direct assessment of specific temperature thresholds in degrees centigrade on road traffic mortality; however, this approach might be necessary in our multicity study in a region with heterogeneous climatic patterns49. Second, we relied on daily mean temperature rather than maximum or minimum temperatures, which reflect daytime and nighttime exposures, respectively, each associated with different traffic patterns and injury risk profiles. Future research should explore these distinctions and incorporate other meteorological factors, such as humidity and atmospheric pressure, that may influence thermal stress. Third, our study assigned city-level ambient temperature to all individuals within a city on a given day, which may introduce exposure measurement error. Fourth, we lacked data on daily traffic volume, such as vehicle miles traveled, which is a common limitation in road safety studies. To partially address this, we adjusted for temporal trends using day-of-week indicators, an approach shown to yield results comparable to those incorporating traffic volume data50. However, this evidence is based on a temperate climate (that is, the Netherlands), and such adjustments may not fully capture exposure variability in regions where traffic patterns are more sensitive to temperature fluctuations. Future research with direct traffic volume measures would greatly help specify the causal mechanisms behind our observed patterns. Fifth, despite the broad geographical and temporal scope of our analysis, the CIs for some of our results were wide owing to low counts of road traffic mortality within subgroups. This may be further affected by potential misclassification of transportation mode due to ill-defined injury codes, which we addressed through a redistribution model. While subgroup analyses could introduce bias, the associations observed between temperature and road mortality are causally plausible and supported by prior evidence. Sixth, while our study covers diverse urban contexts, we did not incorporate city-level factors such as mode share or built environment features as effect modifiers. Future analyses could enhance external validity by including these factors. For example, cities with higher rates of walking, biking and public transit use may face lower heat-related risks owing to reduced motor traffic, while traffic-calming designs may mitigate risks by discouraging speeding during extreme heat.\nThe monotonic increase in road traffic mortality with higher temperature, along with higher vulnerability among motorcyclists, bicyclists and residents of cities with hotter climates and longer commute times, underscores notable public health concerns. These risks are particularly pronounced for lower-income urban populations who heavily rely on these travel modes and face greater exposure—both to severe injuries in the event of a crash and to higher temperatures in traffic. Our findings raise critical global health equity concerns, particularly in LMICs in the tropical Global South, where peripheral, low-income communities often endure long commutes and rely on semi-enclosed, non-climate-controlled informal transportation. Further research is needed to understand how climate dynamics impacts road safety in these settings. Cities should invest in built environments that promote sustainable transportation while also protecting users of these modes of transportation, particularly with increasing global temperatures putting them at higher risk of being road traffic collision victims.",
+            "cites": [
+                "ref-CR47",
+                "ref-CR17",
+                "ref-CR4",
+                "ref-CR36",
+                "ref-CR24",
+                "ref-CR38",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR39",
+                "ref-CR49",
+                "ref-CR45",
+                "ref-CR43",
+                "ref-CR11",
+                "ref-CR50",
+                "ref-CR25",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR14",
+                "ref-CR12",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR40",
+                "ref-CR28",
+                "ref-CR44",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR37",
+                "ref-CR26",
+                "ref-CR48",
+                "ref-CR41",
+                "ref-CR46",
+                "ref-CR7",
+                "ref-CR42",
+                "ref-CR33",
+                "ref-CR32"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Study setting\nThis study was conducted as part of the SALURBAL project, an international research initiative consolidating and harmonizing data on environmental, social and health data across 371 cities from 11 Latin American countries, with populations above 100,000 as of 201051. This is a valuably large public health dataset that permits us to have sufficient power to examine road traffic fatalities in relation to ambient temperature. In this study, we focused on a subset of 272 cities in six countries—Brazil, Mexico, Chile, El Salvador, Panama and Costa Rica—that have sufficiently detailed mortality records (that is, more detailed ICD-10 codes to specifically identify road traffic mortality). The years of analysis were determined by the availability of daily road traffic mortality data.\n### Outcome, exposure and effect modifiers\nThe outcome variable was the daily count of road traffic deaths, defined using ICD-10 codes V01–V8952. These codes classify deaths by the type of road user and specify the type of vehicle involved in the fatal event. For example, code V03 refers to pedestrians fatally injured in collisions with cars, pick-up trucks or vans. The codes used for pedestrian deaths excluded noncollision events, such as falls from tripping, which are classified under separate ICD-10 codes. Since 11% of deaths from external causes in countries in SALURBAL were coded with ill-defined or partially defined ICD-10 codes, for example, Y10–Y34 or X59, we imputed cause of death as either non-road-traffic deaths (excluded from this study) or road traffic deaths and its subcategories: pedestrian injuries (V01–V09), cyclist injuries (V10–V19), motorcyclist injuries (V20–V29) and motor vehicle occupant injuries (V30–V79), as previously described elsewhere52. Specifically, we fit a multinomial model with each subcategory or non-road-traffic deaths as the outcome, using age (grouped into 5-year age groups), sex, year and country as predictors. We then predicted probabilities of each death being in a road traffic death subcategory, and conducted multinomial draws from these probabilities to create 100 imputed datasets. For each imputed dataset, a daily time series of road traffic death counts was constructed, resulting in 100 separate time series for each city.\nThe exposure variable was the daily mean temperature, derived from hourly temperature data from the fifth generation European Centre for Medium-Range Weather Forecasts atmospheric reanalysis (ERA5)-Land at a native 9-km resolution, population-weighted53. Since ERA5-Land omits grid cells with more than 50% water coverage, 76 out of 272 cities (28%) had at least one grid cell within their boundaries lacking temperature estimates. Among the 76 cities with at least one missing pixel, the mean percentage of missing grid cells was 17%. These missing temperature values were imputed using a random forest regression model, integrating resampled ERA5 temperature data54 at a 31-km resolution, along with elevation and aspect (terrain orientation). Kriging spatial interpolation was then employed to model the residuals4. To enable data pooling across cities, we ensured complete overlap in exposure ranges by standardizing temperature data, that is, converting absolute values (°C) into city-specific temperature percentiles (ranging from 0 to 100) on the basis of each city’s observation period.\nData on city-level effect modifiers were compiled from previously published sources, specifically Quistberg and colleagues51 and Sarmiento and colleagues55. We included two variables: mean street segment length (km) and mean peak-hour travel time (minutes). These variables were selected to capture different dimensions of urban form and mobility landscape that might influence heat-related road traffic mortality. Mean street segment length measures the average length of segments between nodes (that is, intersections) within each city’s street network, with larger values reflecting longer segments or blocks. In the street network data, sourced from OpenStreetMap, each intersection (where two or more streets meet) was considered as a node and the link connecting each node as a street segment51. Mean peak-hour travel time captures typical commute duration during peak hours; larger values indicate longer commute times. The metric was derived from the Google Maps Distance Matrix application programming interface, using estimated delays for 30 randomly selected origin–destination pairs within the street network at seven different time points during peak hours on a typical weekday55. Both variables were operationalized as higher or lower than the median across all cities.\n### Statistical methods\nWe report summary statistics at three levels: overall, city level and country level. Overall statistics (mean, median, s.d., minimum and maximum) of road traffic mortality were calculated using the median values from the multiply imputed dataset. We first computed the daily average number of road traffic deaths per city (scaled to deaths per 100 days), then summarized these averages across 272 cities. At this level, we also present mortality stratified by age group, binary sex and mode of transportation involved in the fatality. City- and country-level summaries were based on annual aggregates of daily road traffic mortality (median across imputations), daily mean temperature and annual population size, calculated over each city’s observation period. For each city-year, we first computed the total number of road traffic deaths, the annual average of daily mean temperatures and the corresponding annual population. These annual values were subsequently summarized using the median at the city level, and the median and 10th and 90th percentiles across cities at the country level (with Costa Rica, El Salvador and Panama grouped into a single ‘Central America’ region). Road traffic mortality rates were calculated as the total annual deaths divided by the annual population and are expressed per 100,000 population.\nTo estimate temperature effects on road traffic mortality, we employed a time-stratified case-crossover (also known as case time series) design, pooling the data across cities in a single model56. While multicity analyses often use a two-step approach to pool results across multiple cities (that is, pooling city-specific estimates using metaregression56), the approach is not feasible in the context of road traffic mortality because city-specific models fail to converge when the total number of road traffic deaths within a city is low57. Thus, we used a single-step approach57, incorporating city into a four-way strata term (city-year-month-day of the week, for example, Monday), matching each case city-day to controls within the same city, day of the week, month and year (1:3 or 1:4 matching, depending on whether the month had four or five Mondays). In other words, the number of road traffic deaths in a Monday of July 2018 in Mexico City are compared to the number of road traffic deaths in all other four Mondays of July 2018 in Mexico City. This design strengthens the causal interpretation of the findings, enables robust multicity analysis and addresses the rarity of road traffic mortality events.\nWe operationalized the above approach using a distributed lag nonlinear model within a conditional quasi-Poisson modeling framework58. This model characterizes both exposure–response and lag–response relationships via a cross-basis term serving as a bidimensional parametrization. We placed three knots at the 10th, 75th and 90th temperature percentiles4,32. We specified a 2-day lag because road traffic deaths frequently occur within this timeframe following incidents59, which is a shorter lag time than heat-related deaths from other pathways. The RRs of road traffic mortality associated with various temperature levels were estimated with 95% CIs.\nGiven that our datasets are multiply imputed, we ran the models for each imputed time series separately and then applied Rubin’s rule to pool the coefficient and variance–covariance estimates from each model based on the 100 imputed datasets, allowing us to reconstruct the pooled estimates from 27,200 time series (100 per city). This step was applied to the main effects analysis and all other analyses discussed in ‘Stratification, subgroup and effect modification analyses’ section. In addition, when calculating the RRs, the association curves were consistently centered around the MMTP identified in the main effects analysis, corresponding to the temperature percentile with the lowest RR between the 1st and 99th percentiles, reflecting the lowest risks for overall road traffic mortality. The EDF was calculated for extreme heat (≥95th percentile), following the same approach used by Kephart and colleagues4 and described elsewhere60.\n### Stratification, subgroup and effect modification analyses\nFor stratification analysis, we stratified models by six clusters of cities characterized by distinct temperature profiles. This clustering, previously established by Kephart and colleagues4, applied hierarchical clustering using Ward’s minimum variance method on five selected temperature percentiles: the 1st, 10th, 75th, 90th and 99th. Unlike clustering based solely on summary statistics such as mean and variance, this clustering approach considered the entire temperature distribution. The use of the 1st and 99th percentiles instead of minimum and maximum values attenuated outlier influence. The 10th, 75th and 90th percentiles were included as they are commonly used in heat-related mortality studies4,32. Before clustering, the five temperature percentiles were standardized across cities, ensuring uniform impact and preventing those with higher variability from driving clustering outcomes. For each resulting cluster, we report seven temperature percentiles (the 1st, 5th, 25th, 50th, 75th, 95th and 99th) to summarize its temperature distribution. Data for cities within each temperature cluster then underwent similar modeling as in the main effects analysis.\nFor subgroup analyses, we stratified the outcome by binary sex, age group and mode of transportation involved in the fatality. The five age group categories were ≤9, 10–19, 20–34, 35–64 and ≥65 years, capturing various stages of life with different road traffic risk factors due to developmental, behavioral and mobility differences. Modal stratification included motor vehicle, motorcycle, bicycle and pedestrian, using the subcategories per the ICD-10 codes described above.\nTo analyze city-level effect modification, we incorporated linear interaction terms between daily temperature conditions and the two city-level transportation-related variables described above: mean street segment length (km) and mean peak-hour travel time (minutes). Interaction effects were assessed using two approaches57. First, chi-squared likelihood ratio tests, conducted as tests of effect modification and based on models reconstructed from the median values of road traffic mortality across the imputations, evaluated differences between the main effects and interaction models. Second, marginal effects for temperatures evaluated at the 10th and 90th percentiles of the respective city-level variables were plotted to compare how associations varied between cities at the higher and lower ends of each variable’s distribution.\n### Sensitivity analyses\nVarious sensitivity analyses were conducted to evaluate the robustness of our findings. For the main effects analysis, we first used absolute temperature measured in degrees centigrade as the exposure variable and compared the results to those obtained from a model using relative temperature percentiles. This comparison aimed to assess whether the choice of temperature scale influenced the observed associations, providing insights into the consistency of the exposure–response relationship. Additionally, we tested two alternative outcome specifications to assess the robustness of our findings: (1) nonimputed road traffic deaths and (2) the median value across 100 imputed datasets. We also evaluated six alternative knot placements commonly applied in heat mortality research to evaluate the impact of different spline configurations. These included one knot at the 50th percentile, two knots at percentiles such as the 33.3rd and 66.7th, 25th and 75th, and 10th and 90th, as well as three knots at percentiles such as 25th, 50th and 75th as well as 10th, 50th and 90th26. This ensured that our conclusions were not overly dependent on specific knot placements or outcome specifications. Lastly, to complement the stratification analysis by temperature cluster, we also explored effect modification by city-level temperature characteristics, including mean temperature (°C) and temperature s.d. (°C). These additional analyses aimed to identify whether the observed associations varied across cities with differing temperature profiles, providing deeper insights into how local temperature patterns may influence heat-related road traffic mortality risks.\nAll analyses were performed in R (version 4.3.1). Modeling was conducted using the dlnm (version 2.4.7), gnm (version 1.1.5) and splines (version 4.3.1) packages.\n### Inclusion and ethics statement\nAll co-authors are co-investigators and/or trainees in the SALURBAL Group, an international collaboration of researchers from institutions across the Americas. Several co-authors are based at institutions within the study region (that is, Latin American urban areas). All co-authors have contributed to every stage of the study, from its inception and design to implementation, manuscript development and the decision to submit for publication.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR52",
+                "ref-CR57",
+                "ref-CR51",
+                "ref-CR4",
+                "ref-CR55",
+                "ref-CR59",
+                "ref-CR26",
+                "ref-CR54",
+                "ref-CR53",
+                "ref-CR58",
+                "ref-CR60",
+                "ref-CR56",
+                "ref-CR32"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Association between ambient temperature and road traffic mortality (main effects model).",
+            "figure-caption": "a, Relative temperature measure (city-specific temperature percentiles). b, Absolute temperature measure (°C). c, Distribution of temperature percentiles. d, Distribution of absolute temperatures (°C). Dashed vertical lines indicate the 1st, 25th, 50th, 75th and 99th temperature percentiles, from left to right. Each association curve shows the estimated RR (central estimate), and the shading represents the 95% CI. Red portions of the curve indicate the temperature range between the 1st and 99th percentiles; grey portions represent more extreme temperatures outside this range.",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00279-x/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Temperature distributions and associations with road traffic mortality by temperature cluster.",
+            "figure-caption": "a, The temperature distribution (°C) for each cluster. b–g, Associations between temperature and road traffic mortality for each cluster: cool (b), mild (c), warm and dispersed (d), warm and concentrated (e), hot and concentrated (f) and hot and dispersed (g); the x axis shows temperature percentiles. Dashed lines mark the 1st, 25th, 50th, 75th and 99th percentiles. Each association curve in b–g shows the estimated RR (central estimate), and the shading represents the 95% CI. N denotes the number of cities in each cluster.",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00279-x/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Subgroup analysis results.",
+            "figure-caption": "a–c, The results of the subgroup analyses by sex (a), age (b) and mode of transportation involved in the fatality (c). Dashed vertical lines indicate the 1st, 25th, 50th, 75th and 99th temperature percentiles, from left to right. Each association curve shows the estimated RR (central estimate), and the shading represents the 95% CI.",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00279-x/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Effect modification by city characteristics.",
+            "figure-caption": "a,b, The effect modification by average street segment length (a) and average peak-hour travel time (b). The labels ‘Higher’ and ‘Lower’ indicate cities at the 90th percentile (higher values) or 10th percentile (lower values) of the respective variable values. Dashed vertical lines indicate the 1st, 25th, 50th, 75th and 99th temperature percentiles, from left to right. Each association curve shows the estimated RR (central estimate), and the shading represents the 95% CI.",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00279-x/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Tuholske, C. et al. Global urban population exposure to extreme heat. Proc. Natl Acad. Sci. USA 118, e2024792118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2024792118",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20urban%20population%20exposure%20to%20extreme%20heat&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2024792118&volume=118&publication_year=2021&author=Tuholske%2CC"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Zhao, L., Lee, X., Smith, R. B. & Oleson, K. Strong contributions of local background climate to urban heat islands. Nature 511, 216–219 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature13462",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Strong%20contributions%20of%20local%20background%20climate%20to%20urban%20heat%20islands&journal=Nature&doi=10.1038%2Fnature13462&volume=511&pages=216-219&publication_year=2014&author=Zhao%2CL&author=Lee%2CX&author=Smith%2CRB&author=Oleson%2CK"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Burkart, K. G. et al. Estimating the cause-specific relative risks of non-optimal temperature on daily mortality: a two-part modelling approach applied to the Global Burden of Disease Study. Lancet 398, 685–697 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2821%2901700-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20the%20cause-specific%20relative%20risks%20of%20non-optimal%20temperature%20on%20daily%20mortality%3A%20a%20two-part%20modelling%20approach%20applied%20to%20the%20Global%20Burden%20of%20Disease%20Study&journal=Lancet&doi=10.1016%2FS0140-6736%2821%2901700-1&volume=398&pages=685-697&publication_year=2021&author=Burkart%2CKG"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Kephart, J. L. et al. City-level impact of extreme temperatures and mortality in Latin America. Nat. Med. 28, 1700–1705 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41591-022-01872-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=City-level%20impact%20of%20extreme%20temperatures%20and%20mortality%20in%20Latin%20America&journal=Nat.%20Med.&doi=10.1038%2Fs41591-022-01872-6&volume=28&pages=1700-1705&publication_year=2022&author=Kephart%2CJL"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Parks, R. M. et al. Anomalously warm temperatures are associated with increased injury deaths. Nat. Med. 26, 65–70 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41591-019-0721-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Anomalously%20warm%20temperatures%20are%20associated%20with%20increased%20injury%20deaths&journal=Nat.%20Med.&doi=10.1038%2Fs41591-019-0721-y&volume=26&pages=65-70&publication_year=2020&author=Parks%2CRM"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Global Status Report on Road Safety 2023 (WHO, 2023); https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Liang, M. et al. The relationship between ambient temperatures and road traffic injuries: a systematic review and meta-analysis. Environ. Sci. Pollut. Res. 29, 50647–50660 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-022-19437-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20relationship%20between%20ambient%20temperatures%20and%20road%20traffic%20injuries%3A%20a%20systematic%20review%20and%20meta-analysis&journal=Environ.%20Sci.%20Pollut.%20Res.&doi=10.1007%2Fs11356-022-19437-y&volume=29&pages=50647-50660&publication_year=2022&author=Liang%2CM"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Dolez, P. I. et al. Exploring the chemical aspects of truck tire blowouts and explosions. Saf. Sci. 46, 1334–1344 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ssci.2007.10.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20the%20chemical%20aspects%20of%20truck%20tire%20blowouts%20and%20explosions&journal=Saf.%20Sci.&doi=10.1016%2Fj.ssci.2007.10.004&volume=46&pages=1334-1344&publication_year=2008&author=Dolez%2CPI"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Mills, B. & Andrey, J. in The Potential Impacts of Climate Change on Transportation 77 (US EPA, 2002).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Keay, K. & Simmonds, I. The association of rainfall and other weather variables with road traffic volume in Melbourne, Australia. Accid. Anal. Prev. 37, 109–124 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.aap.2004.07.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20association%20of%20rainfall%20and%20other%20weather%20variables%20with%20road%20traffic%20volume%20in%20Melbourne%2C%20Australia&journal=Accid.%20Anal.%20Prev.&doi=10.1016%2Fj.aap.2004.07.005&volume=37&pages=109-124&publication_year=2005&author=Keay%2CK&author=Simmonds%2CI"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Thornes, J. E., Fisher, P. A., Rayment-Bishop, T. & Smith, C. Ambulance call-outs and response times in Birmingham and the impact of extreme weather and climate change. Emerg. Med. J. 31, 220–228 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Femermed-2012-201817",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ambulance%20call-outs%20and%20response%20times%20in%20Birmingham%20and%20the%20impact%20of%20extreme%20weather%20and%20climate%20change&journal=Emerg.%20Med.%20J.&doi=10.1136%2Femermed-2012-201817&volume=31&pages=220-228&publication_year=2014&author=Thornes%2CJE&author=Fisher%2CPA&author=Rayment-Bishop%2CT&author=Smith%2CC"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Kenrick, D. T. & MacFarlane, S. W. Ambient temperature and horn honking: a field study of the heat/aggression relationship. Environ. Behav. 18, 179–191 (1986).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0013916586182002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ambient%20temperature%20and%20horn%20honking%3A%20a%20field%20study%20of%20the%20heat%2Faggression%20relationship&journal=Environ.%20Behav.&doi=10.1177%2F0013916586182002&volume=18&pages=179-191&publication_year=1986&author=Kenrick%2CDT&author=MacFarlane%2CSW"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Zhang, Y. & Wu, C. The effects of sunshields on red light running behavior of cyclists and electric bike riders. Accid. Anal. Prev. 52, 210–218 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.aap.2012.12.032",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effects%20of%20sunshields%20on%20red%20light%20running%20behavior%20of%20cyclists%20and%20electric%20bike%20riders&journal=Accid.%20Anal.%20Prev.&doi=10.1016%2Fj.aap.2012.12.032&volume=52&pages=210-218&publication_year=2013&author=Zhang%2CY&author=Wu%2CC"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Makowiec-Dąbrowska, T. et al. Climate conditions and work-related fatigue among professional drivers. Int. J. Biometeorol. 63, 121–128 (2019).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00484-018-1643-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20conditions%20and%20work-related%20fatigue%20among%20professional%20drivers&journal=Int.%20J.%20Biometeorol.&doi=10.1007%2Fs00484-018-1643-y&volume=63&pages=121-128&publication_year=2019&author=Makowiec-D%C4%85browska%2CT"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Watson, P., Whale, A., Mears, S. A., Reyner, L. A. & Maughan, R. J. Mild hypohydration increases the frequency of driver errors during a prolonged, monotonous driving task. Physiol. Behav. 147, 313–318 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.physbeh.2015.04.028",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mild%20hypohydration%20increases%20the%20frequency%20of%20driver%20errors%20during%20a%20prolonged%2C%20monotonous%20driving%20task&journal=Physiol.%20Behav.&doi=10.1016%2Fj.physbeh.2015.04.028&volume=147&pages=313-318&publication_year=2015&author=Watson%2CP&author=Whale%2CA&author=Mears%2CSA&author=Reyner%2CLA&author=Maughan%2CRJ"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Šidlauskaitė, L. & Kažys, J. Changing temperate climate conditions for winter roads in the twenty-first century (Lithuanian example). Theor. Appl. Climatol. 138, 1951–1960 (2019).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00704-019-02938-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changing%20temperate%20climate%20conditions%20for%20winter%20roads%20in%20the%20twenty-first%20century%20%28Lithuanian%20example%29&journal=Theor.%20Appl.%20Climatol.&doi=10.1007%2Fs00704-019-02938-1&volume=138&pages=1951-1960&publication_year=2019&author=%C5%A0idlauskait%C4%97%2CL&author=Ka%C5%BEys%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "He, L. et al. Impact of high temperature on road injury mortality in a changing climate, 1990–2019: a global analysis. Sci. Total Environ. 857, 159369 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2022.159369",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20high%20temperature%20on%20road%20injury%20mortality%20in%20a%20changing%20climate%2C%201990%E2%80%932019%3A%20a%20global%20analysis&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2022.159369&volume=857&publication_year=2023&author=He%2CL"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "World Urbanization Prospects: The 2018 Revision (United Nations, 2019); https://population.un.org/wup/assets/WUP2018-Report.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Ramarao, M. V. S. et al. Projected changes in heatwaves over Central and South America using high-resolution regional climate simulations. Sci. Rep. 14, 23145 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-024-73521-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Projected%20changes%20in%20heatwaves%20over%20Central%20and%20South%20America%20using%20high-resolution%20regional%20climate%20simulations&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-024-73521-6&volume=14&publication_year=2024&author=Ramarao%2CMVS"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Feron, S. et al. Observations and projections of heat waves in South America. Sci. Rep. 9, 8173 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-019-44614-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Observations%20and%20projections%20of%20heat%20waves%20in%20South%20America&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-019-44614-4&volume=9&publication_year=2019&author=Feron%2CS"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Road Safety Facts in the Region of the Americas, 2013 (Pan American Health Organization, 2013); https://www.paho.org/en/documents/road-safety-facts-region-americas-2013",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Powered Two- and Three-Wheeler Safety: a Road Safety Manual for Decision-Makers and Practitioners (WHO, 2017); https://apps.who.int/iris/handle/10665/254759",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Martinez, S., Sanchez, R. & Yañez-Pagans, P. Road safety: challenges and opportunities in Latin America and the Caribbean. Lat. Am. Econ. Rev. 28, 17 (2019).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s40503-019-0078-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Road%20safety%3A%20challenges%20and%20opportunities%20in%20Latin%20America%20and%20the%20Caribbean&journal=Lat.%20Am.%20Econ.%20Rev.&doi=10.1186%2Fs40503-019-0078-0&volume=28&publication_year=2019&author=Martinez%2CS&author=Sanchez%2CR&author=Ya%C3%B1ez-Pagans%2CP"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Rodrigues, E. M. S., Villaveces, A., Sanhueza, A. & Escamilla-Cejudo, J. A. Trends in fatal motorcycle injuries in the Americas, 1998–2010. Int. J. Inj. Contr. Saf. Promot. 21, 170–180 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F17457300.2013.792289",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Trends%20in%20fatal%20motorcycle%20injuries%20in%20the%20Americas%2C%201998%E2%80%932010&journal=Int.%20J.%20Inj.%20Contr.%20Saf.%20Promot.&doi=10.1080%2F17457300.2013.792289&volume=21&pages=170-180&publication_year=2014&author=Rodrigues%2CEMS&author=Villaveces%2CA&author=Sanhueza%2CA&author=Escamilla-Cejudo%2CJA"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Liang, M. et al. Short-term effects of ambient temperature and road traffic accident injuries in Dalian, Northern China: a distributed lag non-linear analysis. Accid. Anal. Prev. 153, 106057 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.aap.2021.106057",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Short-term%20effects%20of%20ambient%20temperature%20and%20road%20traffic%20accident%20injuries%20in%20Dalian%2C%20Northern%20China%3A%20a%20distributed%20lag%20non-linear%20analysis&journal=Accid.%20Anal.%20Prev.&doi=10.1016%2Fj.aap.2021.106057&volume=153&publication_year=2021&author=Liang%2CM"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Lee, H., Myung, W., Kim, H., Lee, E.-M. & Kim, H. Association between ambient temperature and injury by intentions and mechanisms: a case-crossover design with a distributed lag nonlinear model. Sci. Total Environ. 746, 141261 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.141261",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Association%20between%20ambient%20temperature%20and%20injury%20by%20intentions%20and%20mechanisms%3A%20a%20case-crossover%20design%20with%20a%20distributed%20lag%20nonlinear%20model&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.141261&volume=746&publication_year=2020&author=Lee%2CH&author=Myung%2CW&author=Kim%2CH&author=Lee%2CE-M&author=Kim%2CH"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Basagaña, X. & de la Peña-Ramirez, C. Ambient temperature and risk of motor vehicle crashes: a countrywide analysis in Spain. Environ. Res. 216, 114599 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envres.2022.114599",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ambient%20temperature%20and%20risk%20of%20motor%20vehicle%20crashes%3A%20a%20countrywide%20analysis%20in%20Spain&journal=Environ.%20Res.&doi=10.1016%2Fj.envres.2022.114599&volume=216&publication_year=2023&author=Basaga%C3%B1a%2CX&author=Pe%C3%B1a-Ramirez%2CC"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Hsu, C.-K. & Rodríguez, D. A. A comparison of heat effects on road injury frequency between active travelers and motorized transportation users in six tropical and subtropical cities in Taiwan. Soc. Sci. Med. 360, 117333 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.socscimed.2024.117333",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20comparison%20of%20heat%20effects%20on%20road%20injury%20frequency%20between%20active%20travelers%20and%20motorized%20transportation%20users%20in%20six%20tropical%20and%20subtropical%20cities%20in%20Taiwan&journal=Soc.%20Sci.%20Med.&doi=10.1016%2Fj.socscimed.2024.117333&volume=360&publication_year=2024&author=Hsu%2CC-K&author=Rodr%C3%ADguez%2CDA"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Fridstrøm, L., Ifver, J., Ingebrigtsen, S., Kulmala, R. & Thomsen, L. K. Measuring the contribution of randomness, exposure, weather, and daylight to the variation in road accident counts. Accid. Anal. Prev. 27, 1–20 (1995).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2F0001-4575%2894%29E0023-E",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20the%20contribution%20of%20randomness%2C%20exposure%2C%20weather%2C%20and%20daylight%20to%20the%20variation%20in%20road%20accident%20counts&journal=Accid.%20Anal.%20Prev.&doi=10.1016%2F0001-4575%2894%29E0023-E&volume=27&pages=1-20&publication_year=1995&author=Fridstr%C3%B8m%2CL&author=Ifver%2CJ&author=Ingebrigtsen%2CS&author=Kulmala%2CR&author=Thomsen%2CLK"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Lay, C. R. et al. City-level vulnerability to temperature-related mortality in the USA and future projections: a geographically clustered meta-regression. Lancet Planet. Heal. 5, e338–e346 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2821%2900058-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=City-level%20vulnerability%20to%20temperature-related%20mortality%20in%20the%20USA%20and%20future%20projections%3A%20a%20geographically%20clustered%20meta-regression&journal=Lancet%20Planet.%20Heal.&doi=10.1016%2FS2542-5196%2821%2900058-9&volume=5&pages=e338-e346&publication_year=2021&author=Lay%2CCR"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Martínez-Solanas, È. et al. Projections of temperature-attributable mortality in Europe: a time series analysis of 147 contiguous regions in 16 countries. Lancet Planet. Heal. 5, e446–e454 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2821%2900150-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Projections%20of%20temperature-attributable%20mortality%20in%20Europe%3A%20a%20time%20series%20analysis%20of%20147%20contiguous%20regions%20in%2016%20countries&journal=Lancet%20Planet.%20Heal.&doi=10.1016%2FS2542-5196%2821%2900150-9&volume=5&pages=e446-e454&publication_year=2021&author=Mart%C3%ADnez-Solanas%2C%C3%88"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "García-León, D. et al. Temperature-related mortality burden and projected change in 1368 European regions: a modelling study. Lancet Public Heal 9, e644–e653 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2468-2667%2824%2900179-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Temperature-related%20mortality%20burden%20and%20projected%20change%20in%201368%20European%20regions%3A%20a%20modelling%20study&journal=Lancet%20Public%20Heal&doi=10.1016%2FS2468-2667%2824%2900179-8&volume=9&pages=e644-e653&publication_year=2024&author=Garc%C3%ADa-Le%C3%B3n%2CD"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Moeinaddini, M., Asadi-Shekari, Z. & Shah, M. Z. The relationship between urban street networks and the number of transport fatalities at the city level. Saf. Sci. 62, 114–120 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ssci.2013.08.015",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20relationship%20between%20urban%20street%20networks%20and%20the%20number%20of%20transport%20fatalities%20at%20the%20city%20level&journal=Saf.%20Sci.&doi=10.1016%2Fj.ssci.2013.08.015&volume=62&pages=114-120&publication_year=2014&author=Moeinaddini%2CM&author=Asadi-Shekari%2CZ&author=Shah%2CMZ"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Zhan, Z.-Y., Yu, Y.-M., Chen, T.-T., Xu, L.-J. & Ou, C.-Q. Effects of hourly precipitation and temperature on road traffic casualties in Shenzhen, China (2010–2016): a time-stratified case-crossover study. Sci. Total Environ. 720, 137482 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.137482",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effects%20of%20hourly%20precipitation%20and%20temperature%20on%20road%20traffic%20casualties%20in%20Shenzhen%2C%20China%20%282010%E2%80%932016%29%3A%20a%20time-stratified%20case-crossover%20study&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.137482&volume=720&publication_year=2020&author=Zhan%2CZ-Y&author=Yu%2CY-M&author=Chen%2CT-T&author=Xu%2CL-J&author=Ou%2CC-Q"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Youth and Road Safety (WHO, 2007); https://iris.who.int/bitstream/handle/10665/43607/9241595116_eng.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Hatfield, J. & Fernandes, R. The role of risk-propensity in the risky driving of younger drivers. Accid. Anal. Prev. 41, 25–35 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.aap.2008.08.023",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20risk-propensity%20in%20the%20risky%20driving%20of%20younger%20drivers&journal=Accid.%20Anal.%20Prev.&doi=10.1016%2Fj.aap.2008.08.023&volume=41&pages=25-35&publication_year=2009&author=Hatfield%2CJ&author=Fernandes%2CR"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Tongklao, A., Jaruratanasirikul, S. & Sriplung, H. Risky behaviors and helmet use among young adolescent motorcyclists in southern Thailand. Traffic Inj. Prev. 17, 80–85 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F15389588.2015.1045062",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Risky%20behaviors%20and%20helmet%20use%20among%20young%20adolescent%20motorcyclists%20in%20southern%20Thailand&journal=Traffic%20Inj.%20Prev.&doi=10.1080%2F15389588.2015.1045062&volume=17&pages=80-85&publication_year=2016&author=Tongklao%2CA&author=Jaruratanasirikul%2CS&author=Sriplung%2CH"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Sinnappoo, K., Nayak, R., Thompson, L. & Padhye, R. Application of sustainable phase change materials in motorcycle helmet for heat-stress reduction. J. Text. Inst. 111, 1547–1555 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F00405000.2020.1715606",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Application%20of%20sustainable%20phase%20change%20materials%20in%20motorcycle%20helmet%20for%20heat-stress%20reduction&journal=J.%20Text.%20Inst.&doi=10.1080%2F00405000.2020.1715606&volume=111&pages=1547-1555&publication_year=2020&author=Sinnappoo%2CK&author=Nayak%2CR&author=Thompson%2CL&author=Padhye%2CR"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Ebi, K. L. et al. Hot weather and heat extremes: health risks. Lancet 398, 698–708 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2821%2901208-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hot%20weather%20and%20heat%20extremes%3A%20health%20risks&journal=Lancet&doi=10.1016%2FS0140-6736%2821%2901208-3&volume=398&pages=698-708&publication_year=2021&author=Ebi%2CKL"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Xavier, B. et al. High ambient temperatures and risk of motor vehicle crashes in Catalonia, Spain (2000–2011): a time-series analysis. Environ. Health Perspect. 123, 1309–1316 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1289%2Fehp.1409223",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=High%20ambient%20temperatures%20and%20risk%20of%20motor%20vehicle%20crashes%20in%20Catalonia%2C%20Spain%20%282000%E2%80%932011%29%3A%20a%20time-series%20analysis&journal=Environ.%20Health%20Perspect.&doi=10.1289%2Fehp.1409223&volume=123&pages=1309-1316&publication_year=2015&author=Xavier%2CB"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Sadhu, S. L. N. S. & Tiwari, G. An activity pattern–destination land use choice model of low income households of informal settlements–case study of Delhi. Transp. Res. A 85, 265–275 (2016).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20activity%20pattern%E2%80%93destination%20land%20use%20choice%20model%20of%20low%20income%20households%20of%20informal%20settlements%E2%80%93case%20study%20of%20Delhi&journal=Transp.%20Res.%20A&volume=85&pages=265-275&publication_year=2016&author=Sadhu%2CSLNS&author=Tiwari%2CG"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Vasconcellos, E. A. Urban transport policies in Brazil: the creation of a discriminatory mobility system. J. Transp. Geogr. 67, 85–91 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jtrangeo.2017.08.014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20transport%20policies%20in%20Brazil%3A%20the%20creation%20of%20a%20discriminatory%20mobility%20system&journal=J.%20Transp.%20Geogr.&doi=10.1016%2Fj.jtrangeo.2017.08.014&volume=67&pages=85-91&publication_year=2018&author=Vasconcellos%2CEA"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Salon, D. & Gulyani, S. Mobility, poverty, and gender: travel ‘choices’ of slum residents in Nairobi, Kenya. Transp. Rev. 30, 641–657 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01441640903298998",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mobility%2C%20poverty%2C%20and%20gender%3A%20travel%20%E2%80%98choices%E2%80%99%20of%20slum%20residents%20in%20Nairobi%2C%20Kenya&journal=Transp.%20Rev.&doi=10.1080%2F01441640903298998&volume=30&pages=641-657&publication_year=2010&author=Salon%2CD&author=Gulyani%2CS"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Cervero, R. & Golub, A. Informal transport: a global perspective. Transp. Policy 14, 445–457 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tranpol.2007.04.011",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Informal%20transport%3A%20a%20global%20perspective&journal=Transp.%20Policy&doi=10.1016%2Fj.tranpol.2007.04.011&volume=14&pages=445-457&publication_year=2007&author=Cervero%2CR&author=Golub%2CA"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Hagen, J. X., Pardo, C. & Valente, J. B. Motivations for motorcycle use for urban travel in Latin America: a qualitative study. Transp. Policy 49, 93–104 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tranpol.2016.04.010",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Motivations%20for%20motorcycle%20use%20for%20urban%20travel%20in%20Latin%20America%3A%20a%20qualitative%20study&journal=Transp.%20Policy&doi=10.1016%2Fj.tranpol.2016.04.010&volume=49&pages=93-104&publication_year=2016&author=Hagen%2CJX&author=Pardo%2CC&author=Valente%2CJB"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Zhang, Y. et al. Urban food delivery services as extreme heat adaptation. Nat. Cities 2, 170–179 (2025).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs44284-024-00172-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20food%20delivery%20services%20as%20extreme%20heat%20adaptation&journal=Nat.%20Cities&doi=10.1038%2Fs44284-024-00172-z&volume=2&pages=170-179&publication_year=2025&author=Zhang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Goodman, J., Humphrys, E. & Newman, F. Working in heat: contrasting heat management approaches among outdoor employees and contractors. Saf. Sci. 165, 106185 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ssci.2023.106185",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Working%20in%20heat%3A%20contrasting%20heat%20management%20approaches%20among%20outdoor%20employees%20and%20contractors&journal=Saf.%20Sci.&doi=10.1016%2Fj.ssci.2023.106185&volume=165&publication_year=2023&author=Goodman%2CJ&author=Humphrys%2CE&author=Newman%2CF"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Hsu, C.-K. Burning gig, rewarding risk: effects of dual exposure to incentive structure and heat condition on risky driving among on-demand food-delivery motorcyclists in Kaohsiung, Taiwan. Accid. Anal. Prev. 210, 107841 (2025).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.aap.2024.107841",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Burning%20gig%2C%20rewarding%20risk%3A%20effects%20of%20dual%20exposure%20to%20incentive%20structure%20and%20heat%20condition%20on%20risky%20driving%20among%20on-demand%20food-delivery%20motorcyclists%20in%20Kaohsiung%2C%20Taiwan&journal=Accid.%20Anal.%20Prev.&doi=10.1016%2Fj.aap.2024.107841&volume=210&publication_year=2025&author=Hsu%2CC-K"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Masselot, P. et al. Excess mortality attributed to heat and cold: a health impact assessment study in 854 cities in Europe. Lancet Planet. Heal. 7, e271–e281 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2823%2900023-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Excess%20mortality%20attributed%20to%20heat%20and%20cold%3A%20a%20health%20impact%20assessment%20study%20in%20854%20cities%20in%20Europe&journal=Lancet%20Planet.%20Heal.&doi=10.1016%2FS2542-5196%2823%2900023-2&volume=7&pages=e271-e281&publication_year=2023&author=Masselot%2CP"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Brijs, T., Karlis, D. & Wets, G. Studying the effect of weather conditions on daily crash counts using a discrete time-series model. Accid. Anal. Prev. 40, 1180–1190 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.aap.2008.01.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Studying%20the%20effect%20of%20weather%20conditions%20on%20daily%20crash%20counts%20using%20a%20discrete%20time-series%20model&journal=Accid.%20Anal.%20Prev.&doi=10.1016%2Fj.aap.2008.01.001&volume=40&pages=1180-1190&publication_year=2008&author=Brijs%2CT&author=Karlis%2CD&author=Wets%2CG"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Quistberg, D. A. et al. Building a data platform for cross-country urban health studies: the SALURBAL study. J. Urban Heal. 96, 311–337 (2019).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11524-018-00326-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Building%20a%20data%20platform%20for%20cross-country%20urban%20health%20studies%3A%20the%20SALURBAL%20study&journal=J.%20Urban%20Heal.&doi=10.1007%2Fs11524-018-00326-0&volume=96&pages=311-337&publication_year=2019&author=Quistberg%2CDA"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Quistberg, D. A. et al. Urban landscape and street-design factors associated with road-traffic mortality in Latin America between 2010 and 2016 (SALURBAL): an ecological study. Lancet Planet. Heal. 6, e122–e131 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2821%2900323-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20landscape%20and%20street-design%20factors%20associated%20with%20road-traffic%20mortality%20in%20Latin%20America%20between%202010%20and%202016%20%28SALURBAL%29%3A%20an%20ecological%20study&journal=Lancet%20Planet.%20Heal.&doi=10.1016%2FS2542-5196%2821%2900323-5&volume=6&pages=e122-e131&publication_year=2022&author=Quistberg%2CDA"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Muñoz-Sabater, J. et al. ERA5-Land: a state-of-the-art global reanalysis dataset for land applications. Earth Syst. Sci. Data 13, 4349–4383 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Fessd-13-4349-2021",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=ERA5-Land%3A%20a%20state-of-the-art%20global%20reanalysis%20dataset%20for%20land%20applications&journal=Earth%20Syst.%20Sci.%20Data&doi=10.5194%2Fessd-13-4349-2021&volume=13&pages=4349-4383&publication_year=2021&author=Mu%C3%B1oz-Sabater%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Hersbach, H. et al. ERA5 hourly data on single levels from 1979 to present. Climate Data Store https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Sarmiento, O. L. et al. Built environment profiles for Latin American urban settings: the SALURBAL study. PLoS ONE 16, e0257528 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0257528",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Built%20environment%20profiles%20for%20Latin%20American%20urban%20settings%3A%20the%20SALURBAL%20study&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0257528&volume=16&publication_year=2021&author=Sarmiento%2COL"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Armstrong, B. G., Gasparrini, A. & Tobias, A. Conditional Poisson models: a flexible alternative to conditional logistic case cross-over analysis. BMC Med. Res. Methodol. 14, 122 (2014).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/1471-2288-14-122",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Conditional%20Poisson%20models%3A%20a%20flexible%20alternative%20to%20conditional%20logistic%20case%20cross-over%20analysis&journal=BMC%20Med.%20Res.%20Methodol.&doi=10.1186%2F1471-2288-14-122&volume=14&publication_year=2014&author=Armstrong%2CBG&author=Gasparrini%2CA&author=Tobias%2CA"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Gasparrini, A. A tutorial on the case time series design for small-area analysis. BMC Med. Res. Methodol. 22, 129 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12874-022-01612-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20tutorial%20on%20the%20case%20time%20series%20design%20for%20small-area%20analysis&journal=BMC%20Med.%20Res.%20Methodol.&doi=10.1186%2Fs12874-022-01612-x&volume=22&publication_year=2022&author=Gasparrini%2CA"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Gasparrini, A., Armstrong, B. G. & Kenward, M. G. Distributed lag non-linear models. Stat. Med. 29, 2224–2234 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fsim.3940",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Distributed%20lag%20non-linear%20models&journal=Stat.%20Med.&doi=10.1002%2Fsim.3940&volume=29&pages=2224-2234&publication_year=2010&author=Gasparrini%2CA&author=Armstrong%2CBG&author=Kenward%2CMG"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Sahdev, P., Lacqua, M. J., Singh, B. & Dogra, T. D. Road traffic fatalities in Delhi: causes, injury patterns, and incidence of preventable deaths. Accid. Anal. Prev. 26, 377–384 (1994).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2F0001-4575%2894%2990011-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Road%20traffic%20fatalities%20in%20Delhi%3A%20causes%2C%20injury%20patterns%2C%20and%20incidence%20of%20preventable%20deaths&journal=Accid.%20Anal.%20Prev.&doi=10.1016%2F0001-4575%2894%2990011-6&volume=26&pages=377-384&publication_year=1994&author=Sahdev%2CP&author=Lacqua%2CMJ&author=Singh%2CB&author=Dogra%2CT"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Gasparrini, A. & Leone, M. Attributable risk from distributed lag models. BMC Med. Res. Methodol. 14, 55 (2014).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/1471-2288-14-55",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Attributable%20risk%20from%20distributed%20lag%20models&journal=BMC%20Med.%20Res.%20Methodol.&doi=10.1186%2F1471-2288-14-55&volume=14&publication_year=2014&author=Gasparrini%2CA&author=Leone%2CM"
+            }
+        }
+    ]
+}

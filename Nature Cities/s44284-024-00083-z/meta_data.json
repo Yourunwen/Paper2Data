@@ -1,0 +1,147 @@
+{
+    "id": "s44284-024-00083-z",
+    "title": "Worldwide delineation of multi-tier city–regions",
+    "journal": "Nature Cities",
+    "pdf_link": "https://www.nature.com/articles/s44284-024-00083-z",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Paper-level data deposit from City-Region System Toolbox on Zenodo",
+            "Data_summary": "A public repository providing the study outputs as a global spatial dataset of delineated city-regions for multiple travel-time cutoffs plus accompanying country-level summary tools. It is the main distribution point for the paper's reusable city-region data product and supporting files used to reproduce population distributions by city-region type.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The global spatial dataset of city regions for different travel time cutoffs is available on the City Region System Toolbox from Zenodo via https://doi.org/10.5281/zenodo.11187634 ref. 32, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://doi.org/10.5281/zenodo.11187634",
+            "ref": [
+                "ref-CR32"
+            ]
+        },
+        {
+            "Data_Name": "Global Human Settlement Layer Population GHS-POP R2022A",
+            "Data_summary": "A gridded global population dataset from the GHSL program used to allocate population to grid cells and to compute population totals and distributions for urban centers and delineated catchment areas and city-regions in the main results.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we then combine it with the Global Human Settlement Layer Population GHS POP to allocate population to individual pixels Methods, Location: Defining city regions, Confidence: high",
+            "Time_Coverage": "2020",
+            "Geographic_Coverage": "Global",
+            "URL": "https://doi.org/10.2905/D6D86A90-4351-4508-99C1-CB074B022C4A",
+            "ref": [
+                "ref-CR28"
+            ]
+        },
+        {
+            "Data_Name": "Global Human Settlement Layer GHSL Data Package 2022",
+            "Data_summary": "A global settlement and built-up related data package from GHSL used as the basis to derive locations and populations of urban centers which are then classified into tiers and used as destinations for travel-time catchments.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the locations and populations have been derived starting from the Global Human Settlement Layer, Location: Methods Identifying catchment areas Urban centers, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR27"
+            ]
+        },
+        {
+            "Data_Name": "Global travel time to cities map cost surface and travel time grid",
+            "Data_summary": "A global gridded travel-time accessibility product built from a travel cost surface that encodes speeds over roads railroads navigable rivers walking surfaces terrain land cover elevation slope and border delays. It is used to compute least-cost travel times from each grid cell to the nearest urban center in each activity tier and to delineate minimum-travel-time catchment areas worldwide at about 1 km resolution.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We use the most up to date global estimates of travel times available at a spatial resolution of about 1 km and build on earlier work, Location: Methods Travel time, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://doi.org/10.1038/nature25181",
+            "ref": [
+                "ref-CR22"
+            ]
+        },
+        {
+            "Data_Name": "Suite of global accessibility indicators dataset",
+            "Data_summary": "A published global accessibility dataset family providing indicators and supporting layers related to travel time and access, referenced as earlier work the study builds on for global accessibility estimation across settlement sizes and for the travel time surfaces used in catchment delineation.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We use the most up to date global estimates of travel times available at a spatial resolution of about 1 km and build on earlier work that applied the method across a spectrum of settlement sizes, Location: Methods Travel time, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://doi.org/10.1038/s41597-019-0265-5",
+            "ref": [
+                "ref-CR23"
+            ]
+        },
+        {
+            "Data_Name": "Global maps of travel time to healthcare facilities",
+            "Data_summary": "A global gridded travel time dataset to healthcare facilities cited as an established method for estimating travel time to destinations. It is used as methodological grounding for the travel-time computation approach employed to generate travel times to urban centers.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: This is achieved using an established method that estimates the time required to reach each grid cell of the world’s surface, Location: Defining city regions, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://doi.org/10.1038/s41591-020-1059-1",
+            "ref": [
+                "ref-CR21"
+            ]
+        },
+        {
+            "Data_Name": "Gridded Population of the World GPW",
+            "Data_summary": "A global gridded population dataset used as an alternative population surface to compute city-region and catchment populations and to test sensitivity of results to population data choices when classifying and summarizing urban centers and city-regions.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the population of each city region is calculated by using the GHS POP, Gridded Population of the World, LandScan and WorldPop population datasets, Location: Methods City regions, Confidence: high",
+            "Time_Coverage": "2020",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "LandScan global population distribution dataset",
+            "Data_summary": "A global gridded population distribution dataset used as an alternative population surface to compute populations for urban centers and delineated city-regions and to assess robustness of population distributions across city-region types.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the population of each city region is calculated by using the GHS POP, Gridded Population of the World, LandScan and WorldPop population datasets, Location: Methods City regions, Confidence: high",
+            "Time_Coverage": "2020",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "WorldPop gridded population dataset",
+            "Data_summary": "A global gridded population dataset used as an alternative population surface for computing urban center and city-region populations and for reducing bias in classifying urban centers by combining information from multiple population datasets.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: four different gridded global population datasets are utilized in this study, Location: Methods Identifying catchment areas Urban centers, Confidence: high",
+            "Time_Coverage": "2020",
+            "Geographic_Coverage": "Global",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Global Administrative Areas Database GADM version 4.1",
+            "Data_summary": "A global administrative boundary dataset used to assign each delineated city-region to a country and to split multi-country city-regions into country segments for country-level population statistics.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the country where the city region is located is identified by using the Global Administrative Areas Database, Location: Methods City regions, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "https://gadm.org/",
+            "ref": [
+                "ref-CR29"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:11.421766"
+    }
+}

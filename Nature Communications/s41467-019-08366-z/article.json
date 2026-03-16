@@ -1,0 +1,800 @@
+{
+    "id": "s41467-019-08366-z",
+    "journal": "Nature Communications",
+    "type": "article",
+    "title": "The evolution of human population distance to water in the USA from 1790 to 2010",
+    "legal_title": "The evolution of human population distance to water in the USA from 1790 to 2010",
+    "publish_time": "2019-01-25",
+    "pdf_link": "https://www.nature.com/articles/s41467-019-08366-z",
+    "storage_path": "./Articles/Nature Communications/2019-article/s41467-019-08366-z/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": true,
+    "review_link": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_MOESM3_ESM.pdf",
+    "Abstract": "Human societies evolved alongside rivers, but how has the relationship between human settlement locations and water resources evolved over time? We conducted a dynamic analysis in the conterminous US to assess the coevolution of humans and water resources from 1790 to 2010. Here we show that humans moved closer to major rivers in pre-industrial periods but have moved farther from major rivers after 1870, demonstrating the dynamics of human reliance on rivers for trade and transport. We show that humans were preferentially attracted to areas overlying major aquifers since industrialization due to the emergent accessibility of groundwater in the 20th century. Regional heterogeneity resulted in diverse trajectories of settlement proximity to major rivers, with the attractiveness of rivers increasing in arid regions and decreasing in humid areas. Our results reveal a historical coevolution of human-water systems, which could inform water management and contribute to societal adaptation to future climate change.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Water is an attractive factor when people choose where to live. Historically, humans have chosen to live close to rivers for domestic and agricultural water supply as well as for navigation purposes, which has led humans to follow the courses of rivers during migrations1,2,3 and locate in proximity to rivers when establishing settlements4,5. However, humans have been able to decrease their reliance on direct proximity to rivers by developing advanced measures to transport adequate water from other sources (for example, canals or pipelines, groundwater pumping, and desalination)6,7,8,9, and shifting from waterborne transport modes to land (railways and roads) and air transport10. Meanwhile, humans are more vulnerable to flood risk when settling adjacent to rivers and thus require development of flood protection measures to reduce flooding risks11. The importance of locating close to rivers has been increasingly reflected by the indirect environmental amenity value of water and the agglomeration economic effects of historical established settlements in proximity to rivers12,13,14. Furthermore, groundwater has gradually emerged as a critical water source, largely due to its convenience, availability, and quality15,16. Since the 1940s and 1950s, groundwater extraction in the US has increased remarkably as groundwater pumping became economical and efficient due to the development of technology and widespread access to electricity15,17.\nThe dynamic and complex human–water interactions embedded within heterogeneous landscapes present significant questions about where humans live in relation to water resources. The relationship between human settlement density and distance to rivers has been analyzed at high spatial resolution at a global scale5,18, finding denser human population with increased proximity to rivers, but with regional variability based on climate, degree of urbanization, and economic development history. However, these studies were conducted as a temporal snapshot (for 2007)5, or with a relatively narrow temporal window (between 1992 and 2013)18. Also, the spatial units of analysis at continental or country scale18 may not provide sufficient perspective for smaller areas, such as catchments. Therefore, the changing role of water resources in regulating where people live over longer timescales (e.g., centuries) remains to be examined, and an integrated approach in space and time is required to answer this question quantitatively.\nA significant obstacle is the availability of spatially explicit population data over long time periods. Spatially explicit population maps, including the Gridded Population of the World (GPW)19, the Global Rural Urban Mapping Project (GRUMP)20, LandScan21, and WorldPOP22, are of limited utility for long-term (e.g., multi-decadal) dynamic analyses since they only became available after the 1990s, while historical census data for the conterminous US, although available from 1790 to 2010, lack detailed information within counties23. However, a recent reconstruction of historical human population distribution in the conterminous US24 based on decennial census data has provided an opportunity to conduct a quantitative spatio-temporal analysis of the coevolution of human settlement locations and water.\nHere, we studied the spatio-temporal relationship between human populations and water resources in the conterminous US for the decades 1790–2010 (excluding 1960, for which population data are lacking)24. During this time, large migrations of primarily European settlers gradually expanded from the Atlantic coast to the Pacific coast3, and the United States transitioned from a pre-industrial, to industrial, then to post-industrial society. The Second Industrial Revolution, generally recognized as the period between 1870 and 1914, with some characteristic events dated to the 1850s, led to large expansions of railroad lines, increased use of machinery and steam power, and the onset of electrification25. We asked two major questions about how societal relationships with water resources (rivers and aquifers) evolved in correspondence with these technological transformations. First, are humans getting closer to or farther from major rivers? Second, how is the relationship between human settlement locations and groundwater availability changing over time? Additionally, we examined how hydroclimatic spatial heterogeneity has contributed to regionally distinct temporal trends of human distance to water.\nWe overlaid the reconstructed historical human population data24 with maps of both major rivers (Fig. 1a) and groundwater accessibility (Fig. 1b) (see Methods) in order to examine the temporal trends of human population distribution across different distance classes to major rivers and among distinct types of aquifers. We used the relationship between normalized population density (NPD) and distance to major rivers (DMR) to indicate the desirability of living in proximity to rivers, and applied the mean population density overlying corresponding aquifers to represent the attractiveness of each aquifer type. The USGS two-digit Hydrologic Unit Code (HUC, Fig. 1c) region boundary shapefile from the Watershed Boundary Dataset (http://nhd.usgs.gov/wbd.html) was adopted for analyses on regional heterogeneity. Additionally, we included geomorphological alteration of river courses over time by incorporating both river width data and the temporal evolution of reservoirs (Fig. 1d) (see Methods for details).\nWe illustrated our hypothesized dynamic geographic relationships between humans and hydrological systems (major rivers and aquifers) in Fig. 2. First, we hypothesize that during the pre-industrial period, as frontier human settlements grew to small cities, the desirability of locating adjacent to major rivers increased due to the strong reliance on waterborne transport and naturally available water resources provided by nearby rivers (Fig. 2a). Second, we hypothesize that following industrialization, the relative importance of major rivers for influencing human settlement locations has generally abated (Fig. 2b), while electrified pumping has made groundwater more accessible, resulting in greater population growth in regions overlying productive aquifers (Fig. 2c). Our results support both hypotheses. From 1790 to 1870, for the entire conterminous US, humans moved steadily closer to major rivers. Starting in 1870, and continuing through the period of record (until 2010), this trend reversed with humans moving progressively farther away from major rivers. The expansion of land-based transport networks from the late 1800s together with growing access to groundwater throughout the 20th century effectively unshackled humans from their historic requirements of proximity to major rivers.",
+            "cites": [
+                "ref-CR1",
+                "ref-CR6",
+                "ref-CR9",
+                "ref-CR13",
+                "ref-CR17",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR4",
+                "ref-CR3",
+                "ref-CR11",
+                "ref-CR7",
+                "ref-CR20",
+                "ref-CR15",
+                "ref-CR16",
+                "ref-CR22",
+                "ref-CR24",
+                "ref-CR18",
+                "ref-CR12",
+                "ref-CR10",
+                "ref-CR25",
+                "ref-CR19",
+                "ref-CR5",
+                "ref-CR21",
+                "ref-CR23",
+                "ref-CR8"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Results",
+            "text": "### Importance of major rivers\nIn the conterminous US, the calculated reference DMR (Fig. 1a) varied across regions, with a larger portion of land found within small DMR in the east humid region, due to the relatively denser river system, compared to the western arid region. To account for such natural hydrographic differences, the ratio of human distance (DH) to geographical distance (DG) was used to evaluate the relative human DMR among regions. Values of DH/DG < 1 indicate a human preference for settling closer to rivers than would be suggested by the land distance between rivers5. Based on the temporal snapshot analysis for 2010 for the 19 HUC regions of the conterminous US, DH/DG = 0.62 ± 0.24, with DH/DG ≤ 1 for all HUCs, indicating an overall pattern of human preference for proximity to rivers in 2010. The range in DH/DG found here, from 0.20 in HUC 14 to 1.00 in HUCs 3, 8, and 12 (Supplementary Fig. 1a and 1b), is different from the range of 0.8–1.3 reported for a snapshot from 2007 for 12 food producing units in the US5, possibly because of the differences in resolution of human population and stream network datasets between studies. Additionally, DH/DG was negatively related with mean annual precipitation (R2 = 0.30, p < 0.01, Supplementary Fig. 1a), indicating that the preference for settling near major rivers was greater in arid regions.\nTo examine dynamic changes in human settlement locations with respect to rivers, we computed the relationship between population density and distance to rivers at decadal intervals from 1790 to 2010. For the entire conterminous US, NPD decreased as DMR increased, and this relationship was consistently negative over time. However, the absolute value of the slope increased from 1790 to 1870 (Fig. 3a) and then decreased after 1870 (Fig. 3b). The turning point, 1870, is consistent with the beginning of the Second Industrial Revolution25. These dynamics of the slope of NPD vs. DMR (Fig. 3c), demonstrate that major rivers became more important for human settlement locations prior to 1870, with decreasing importance afterwards.\n### Importance of groundwater\nHigher population densities were found above aquifers with higher recharge rates (Fig. 3d). Major aquifers with high recharge rates (>100 mm per year, aquifer types 14 and 15), were the most attractive for humans in the 20th century. The major aquifers with the highest recharge rate (aquifer type 15) supported the highest population densities and experienced the fastest growth in population density (Fig. 3d and Supplementary Table 1). The differences in population density between aquifer type 15 and the other nine types of aquifers increased steadily, but with a turning point identified in the 1940s (p < 0.05), when groundwater pumping became more efficient and advanced15. Generally, mean population density increased with potential water supply from underlying aquifers. With similar recharge rates, population density tended to be higher over major aquifers, and lower over local and shallow aquifers.\nGroundwater supplemented surface water and thus alleviated the desirability of living close to major rivers. Across the US, areas with relatively low-yielding local and shallow aquifers (types 33 and 34) were associated with strong desirability of living close to rivers (NPD vs. DMR slope ≤ −0.03, Supplementary Fig. 2 and Supplementary Table 2), regardless of recharge rates. Conversely, complex and major aquifers with high recharge rates (aquifer types 24, 13, 14, and 15) had relatively lower desirability of living close to rivers (slope ≥ −0.02). Major aquifers with recharge rates of 100–300 mm per year (aquifer type 14) had the lowest desirability of living close to major rivers, with NPD positively related with DMR, indicating the role of high-recharge major aquifers in facilitating the decoupling of the historical proximity of human settlements to rivers.\n### Regional heterogeneity\nHuman distance to rivers exhibited regional heterogeneity at all temporal intervals examined, with distinct regional temporal trends (Supplementary Fig. 3). We identified three major typologies of temporal changes in NPD vs. DMR, and illustrated each using a typical HUC region (Fig. 4). The first type, with temporally constant desirability of settlement proximal to major rivers, was found for HUCs 1, 2, 11, 12 and is illustrated for HUC 1 from 1850 to 2010 in Fig. 4a, where the slopes between NPD and DMR were approximately steady (Fig. 4d). This relative stability may be indicative of an equilibrium state that follows the evolution from frontier to cities illustrated in Fig. 2a. For example, by 1850 the New England settlements of HUC 1 had already been long-established with relatively little structural change since then.\nThe second type, with the absolute value of negative slopes decreasing as the slopes approach zero, and even increasing to become positive slopes, is exemplified by HUC 3 (Fig. 4b, e) (also found in HUCs 7, 8, and 17, 18, Supplementary Fig. 3). This indicates decreasing desirability of proximity to rivers, with humans moving farther from rivers, which could be associated with relatively later settlement histories and thus continued evolution from towns to cities (Fig. 2a) during the study period. However, this pattern could also be influenced by the presence of abundant groundwater resources (Fig. 2c) as in HUC 3.\nThe third type, with slopes between NPD and DMR becoming increasingly steeper, indicating increased attractiveness of living close to major rivers, is illustrated by HUC 15 (Fig. 4c, f) (also found in HUCs 4, 6, 9, 13, 14, 16, 17A, Supplementary Fig. 3). This pattern is mostly associated with arid regions and highlights that under conditions of water scarcity, the general hypotheses described in Fig. 2 appear to be outweighed by the continued attractiveness of proximity to rivers. In addition to these major types, four HUCs showed combinations of these trends, with desirability of proximity to rivers in HUC 5 first increasing then decreasing, while HUC 10 and 18A regions showed the opposite since 1850.",
+            "cites": [
+                "ref-CR5",
+                "ref-CR15",
+                "ref-CR25"
+            ],
+            "figures": [
+                "figure-4",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Societal progress and technological development have greatly changed how people obtain water resources7. Are humans also changing where they live in relation to water? This study provided a quantitative analysis of human water coevolution over a timescale of centuries. For the conterminous US, our analysis demonstrated a persistent preference of living close to major rivers, with consistently negative relationships between population density and DMR from 1790 to 2010 (Fig. 3a, Fig. 3b). We also quantified the dynamic desirability of living adjacent to rivers using the linear slopes of NPD and DMR, which echoed changing societal reliance on adjacency to major rivers over time.\nIn pre-industrial society, humans were highly reliant on proximity to rivers for agriculture, water supply, and navigation5. With industrialization, human settlements transformed their transport modes from primarily water-borne to other means such as roads and railroads10. As human settlements have continued to grow, water demand in some cities has increased beyond the local supplies, as illustrated by cases such as Los Angeles, Phoenix, and Atlanta7. Thus, water supply in post-industrial societies has evolved from people moving to the water to people moving the water26. For example, in Los Angeles since 1900, as the population has grown, the water supply from the local Los Angeles River became limiting and the city began to import water from hundreds of kilometers away, including the Owens Valley in 1913, Mono Basin in 1940, the Colorado River in 1941, and the rivers of the Central Valley in 19717. Modern cities can bring adequate water from previously remote and inaccessible sources by building canals or by groundwater pumping8,9,27,28, increasing water availability and greatly reducing the portion of the total population considered at risk for water scarcity26. Around 80% of large cities globally would have to travel less than 22 km to reach a potential unstressed water source adequate for several million people9. Thus, water transfers have contributed to the increase in the distance of cities from water sources. Consequently, the desirability of living close to rivers gradually declined and people are no longer constrained to live only in water-­rich places, with burgeoning cities also existing in arid regions29,30. Thus, the increasing human distance to water in recent decades reflects a process of telecoupling31 in human–water interaction.\nWe identified three types of human–water coevolution (Fig. 4 and Supplementary Fig. 3) that were associated with regional differences in climate, water resource endowments, and settlement history. Regions (here based on HUCs) such as New England, with long settlement history and early industrialization, had stable distances from rivers with early evolution from frontier to cities (Fig. 2a). Regions with temporally increasing desirability of proximity to rivers were located in the arid west, while regions with decreasing desirability were mostly found in humid regions with less vulnerability to water scarcity. Additionally, the correlation between fast growth in population density and high-recharge major aquifers suggested an increasing attractiveness of places overlying productive aquifers. We found consistently high mean population density in areas overlying rapidly recharged major aquifers, even after controlling for mean annual temperature (Supplementary Table 3).\nOur analysis was conducted at a continental scale over a time period of hundreds of years and is thus subject to the limitation of currently available data. Our analysis did not evaluate water quantity (for example by differentiating by stream order) or quality, which could affect the attractiveness to human settlements. We compared published river course migration rates, and found overall migration rates to be much smaller than the 1-km resolution of our analyses (see Supplementary Note and Supplementary Tables 4 and 5 for details). Continental-scale information about aquifer structure and recharge rates have only relatively recently become available, however, these data are still at much lower spatial resolution than corresponding information about river networks32. The timescales for large-scale changes in whole-river network structures and aquifer boundary migration are geological rather than human in scale33,34. Thus, at this spatio-temporal scale the assumption of stationarity of river networks and groundwater seems reasonable. However, the importance of aquifer volume changes due to groundwater pumping has been growing in recent decades, and is expected to continue to grow in significance in coming decades35. The potential changes of aquifer boundaries and storage volumes due to groundwater withdrawal should be given consideration when projecting human distance to water in the future.\nFinally, we note that the dynamic human distance to water also implies changing anthropogenic impacts on water resources over time. Human settlements located adjacent to rivers exert direct pressure on local water quality, resulting in serious impacts to health and ecosystems36. Water redistribution9 has relieved the previous strong dependence on adjacent rivers, but with a high dependence on technology and infrastructure. Meanwhile, the rapid development of some aquifers has contributed to serious groundwater depletion issues, e.g., in the California central valley and High Plains aquifers16,27,37. The shifted human distance to water resources has thus been mainly achieved by co-evolution of infrastructure and water management institutions38,39. For example, a majority of US cities have achieved artificial- or super-abundance of water supply through substantial complexity of hydraulic infrastructure institutions38. Ensuring adequate infrastructure investment is therefore extraordinarily essential to sustain stable water supplies. However, further infrastructure development to extract water from farther away is becoming more expensive or even infeasible due to the physical, economic, and ecological limits30,39,40,41. Infrastructure projects such as large dams or water transfer projects have also often resulted in forced relocation of people18,42. Thus, as water resources become increasingly scarce in the future, whether people move closer to water, or water is moved to the people, feedbacks between these should be considered in future evaluations of the dynamic evolution of the human distance to water.",
+            "cites": [
+                "ref-CR40",
+                "ref-CR9",
+                "ref-CR27",
+                "ref-CR34",
+                "ref-CR41",
+                "ref-CR28",
+                "ref-CR29",
+                "ref-CR42",
+                "ref-CR7",
+                "ref-CR31",
+                "ref-CR39",
+                "ref-CR16",
+                "ref-CR38",
+                "ref-CR18",
+                "ref-CR32",
+                "ref-CR26",
+                "ref-CR30",
+                "ref-CR33",
+                "ref-CR10",
+                "ref-CR37",
+                "ref-CR36",
+                "ref-CR5",
+                "ref-CR35",
+                "ref-CR8"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Data\nFor human settlement data, we used the historical human population distribution previously reconstructed for the conterminous US24 based on the decennial census data, which has a spatial resolution of 1 km and a temporal span from 1790 to 2010 (except 1960) and thus provides a possibility to conduct a dynamic analysis in space and time. Note our analysis excluded 1960 because these data are still not available due to the unusually restrictive data suppression strategy employed by the 1960 Census (https://www.nhgis.org/user-resources/faq#1960_Data). This spatio-temporally explicit population data (model M5 in ref. 24) was generated by separating urban and rural areas and considering multiple factors including non-inhabitable regions, topological suitability, and economic desirability. Neither river networks nor groundwater was involved in population mapping, which allows an un-biased examination of human-water coevolution over time.\nFor hydrographical data, we used river networks data from 1:100 K National Hydrography Database (NHD) Plus dataset (http://www.horizon-systems.com/nhdplus/, Fig. 1a), USGS two-digit HUC (Fig. 1c) region boundary shapefile from Watershed Boundary Dataset (http://nhd.usgs.gov/wbd.html), and groundwater data from Groundwater Resources Map of North America developed in UNESCO’s World-wide Hydrogeological Mapping and Assessment Program (WHYMAP, http://www.whymap.org)32. Groundwater resources were divided by WHYMAP into three categories according to geologic structure: major groundwater basins, aquifers with complex hydrogeological structures, and areas with local and shallow aquifers. Among these, major aquifers provide the best conditions for groundwater exploitation. Each type of aquifer was further divided into sub-categories based on recharge rate (Fig. 1b). We used river width data from Global River Widths from Landsat (GRWL) Database43 to characterize the coverage of rivers and adopted Global Reservoir and Dam (GRanD) database from Socioeconomic Data and Applications Center (http://sedac.ciesin.columbia.edu/data/set/grand-v1-dams-rev01) to reflect the dynamic river coverage and update the distance to rivers over time. We also used the waterway data from U.S. Army Corps of Engineers Navigable Waterway Network (http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/2014/polyline) to help determine the threshold of stream order for major rivers, and applied a climate zone map based on the IPCC classification derived from European Soil Data Center (ESDAC, http://esdac.jrc.ec.europa.eu/projects/renewable-energy-directive) to test the effect of groundwater in influencing human settlements.\n### Major river definition and DMR calculation\nRivers of different orders hold varied roles in human society. We defined rivers with stream order ≥ 4 as major rivers, considering both the discharge required to satisfy water demand for settlements to develop into cities26 and navigation requirement (fourth order is the minimum in the Navigable Waterway Network). Due to the varied resolutions of NHD and GRWL river shapefiles, we used GRWL data to identify the rivers with mean width larger than 1 km (a total of 7524 km of rivers) and assigned their river width values to the NHD rivers within the width buffer zones of the GRWL wide rivers (Fig. 1c). Minor manual modification was necessary to determine the coverage of major rivers. We converted the coverage shapefile of major rivers to raster and calculated the Euclidean distance to the closest major rivers (DMR) for each grid cell in the conterminous US at a resolution of 1 km, which was used as the reference DMR under natural condition (Fig. 1a). The threshold of the maximum distance was set as 20 km, since about 95% of the total study area was within this limit (Supplementary Fig. 4). We discretized the distance into 21 classes using 1 km as the interval (DMR = 0, 1, 2, …, 20 km), with the distance of each class representing its maximum DMR.\nWe considered the changes of river courses over time from the construction of reservoirs (Fig. 1d, Supplementary Fig. 5) using the reservoir location and decade of construction from the GRanD database. This resulted in a maximum increase of about 2.6% in the areas with DMR of zero, compared to the reference DMR based on GRWL data.\n### Importance of major rivers and groundwater\nFor each DMR class, we summarized the total area (A) and total population (P), and identified the distances corresponding to 50% of accumulative area and 50% of accumulative population (as illustrated for HUCs 3 and 14 in Supplementary Fig. 1b) and denoted them as geographical distance (DG) and human distance (DH), respectively. The ratio (DH/DG) was used in a previous study5 and applied here to compare the relative DMR among regions. Additionally, we calculated the NPD by dividing population density (P/A) by its maximum value in the study region. Statistically significant (p < 0.05) linear regression slopes between NPD and DMR were used to indicate the desirability of living in proximity to major rivers.\nSimilarly, we summarized the total area (AGW) and total population (PGW) overlying with different categories of aquifers, and employed the associated mean population density (MPD = PGW/AGW) to represent the attractiveness of each aquifer type. We fit the time series of mean population density with a power function (\\({\\mathrm{MPD}} = r_0r^{t - t_0},\\,{\\mathrm{for}}\\,t_0 \\le t \\le 2010\\)) and calculated the growth rate (\\(r\\)) for each aquifer type. The initial year, \\(t_0\\), was based on the settlement history of each aquifer type. We used the Pettitt test to identify the turning point of the dynamic differences in mean population density between major aquifers with recharge rate >300 mm per year (aquifer type 15) and the remaining nine types of aquifers. We also examined the control of climate by comparing population density overlying distinct aquifer types for the whole conterminous US to that for different climate zones (tropical, warm temperate, and cool temperate zones, from ESDAC). In addition, considering the complex interaction between rivers and aquifers, we calculated the NPD values associated with DMR for each of the 10 aquifer types and analyzed their combined effect on population density using 2010 as a snapshot.\n### Analysis of spatio-temporal characteristics\nWe used HUC regions in the conterminous US to analyze spatial variability in human distance to water. Due to the high variability of precipitation in western coastal regions (Supplementary Fig. 6), HUCs 17 and 18 were further divided into two arid regions, designated as HUCs 17A and 18A, and one humid region, HUC 17-18 (Fig. 1c), according to differences in mean annual precipitation. We applied the approach above to explore the dynamic trends of human–water relationships for each HUC from 1790 to 2010 and classified HUCs into different categories based on the trend of their slopes between NPD and DMR. Only statistically significant slopes (p < 0.05) between NPD and DMR were used. Due to the westward migration of primarily European settlers, the settled portions of each HUC expanded gradually over time. The initial decade of analysis was determined for each HUC based on the decade when the settled area reached 90% of the total area (Supplementary Table 6 and Supplementary Fig. 7).\n### Code availability\nThe ArcGIS Model Builder and R code supporting this analysis are available upon request.",
+            "cites": [
+                "ref-CR43",
+                "ref-CR24",
+                "ref-CR5",
+                "ref-CR32",
+                "ref-CR26"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1",
+            "figure-caption": "Rivers, aquifer types, reservoirs, and regions in the conterminous US. a Calculated distance to major rivers (stream order ≥ 4) for each pixel (1 km × 1 km) considering river width. b Aquifer types based on geologic structure and groundwater recharge rate. c Selected major rivers (stream order ≥ 6) and the modified boundaries for Hydrologic Unit regions. Yellow indicates rivers wider than 1 km according to the GWRL database. d Large river reservoirs over time",
+            "figure-link": "https://www.nature.com/ncomms/articles/s41467-019-08366-z/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2",
+            "figure-caption": "The hypotheses tested in this study. a Hypothesized relationship between normalized population density (NPD) and distance to major rivers (DMR), and their temporal trends associated with the development of settlements from frontier, to towns, and to cities, in pre-industrial societies. The dynamics of the importance of b major rivers and c groundwater for human settlement locations after industrialization",
+            "figure-link": "https://www.nature.com/ncomms/articles/s41467-019-08366-z/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3",
+            "figure-caption": "The dynamic human population distance to water. The relationship between normalized population density (NPD) and distance to major rivers (DMR) in the conterminous US from a 1790 to 1870 and b 1870 to 2010. c The changing desirability of living close to major rivers, reflected in the slope of NPD vs. DMR. d Mean population density overlying each aquifer type from 1790 to 2010. Recharge rates, mm per year, are shown offset. We use the red-to-blue gradient to indicate the trend for the decades to 1870 in a and the gradient from blue to red for decades from 1870 in b. The data points for a, b are based on DMR classes while those for c and d are based on census year",
+            "figure-link": "https://www.nature.com/ncomms/articles/s41467-019-08366-z/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4",
+            "figure-caption": "Three major types of trajectories of human water coevolution. a HUC 1, 1850–2010, b HUC 3, 1850–2010, and c HUC 15, 1870–2010. d–f The dynamics of the slope of normalized population density (NPD) vs. distance to major rivers (DMR) for HUC 1, 3, and 15, 1790–2010. Only slopes with p < 0.05 during the settlement periods are shown. The data points for a–c are based on DMR classes while those for d–f are based on census year",
+            "figure-link": "https://www.nature.com/ncomms/articles/s41467-019-08366-z/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Bertuzzo, E., Maritan, A., Gatto, M., Rodriguez-Iturbe, I. & Rinaldo, A. River networks and ecological corridors: reactive transport on fractals, migration fronts, hydrochory. Water Resour. Res 43, W04419 (2007).",
+            "links": {
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007WRR....43.4419B",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=River%20networks%20and%20ecological%20corridors%3A%20reactive%20transport%20on%20fractals%2C%20migration%20fronts%2C%20hydrochory&journal=Water%20Resour.%20Res&volume=43&publication_year=2007&author=Bertuzzo%2CE&author=Maritan%2CA&author=Gatto%2CM&author=Rodriguez-Iturbe%2CI&author=Rinaldo%2CA"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Rodriguez-Iturbe, I., Muneepeerakul, R., Bertuzzo, E., Levin, S. A. & Rinaldo, A. River networks as ecological corridors: a complex systems perspective for integrating hydrologic, geomorphologic, and ecologic dynamics. Water Resour. Res. 45, W01413 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2008WR007124",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009WRR....45.1413R",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=River%20networks%20as%20ecological%20corridors%3A%20a%20complex%20systems%20perspective%20for%20integrating%20hydrologic%2C%20geomorphologic%2C%20and%20ecologic%20dynamics&journal=Water%20Resour.%20Res.&doi=10.1029%2F2008WR007124&volume=45&publication_year=2009&author=Rodriguez-Iturbe%2CI&author=Muneepeerakul%2CR&author=Bertuzzo%2CE&author=Levin%2CSA&author=Rinaldo%2CA"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Campos, D., Fort, J. & Méndez, V. Transport on fractal river networks: application to migration fronts. Theor. Popul. Biol. 69, 88–93 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tpb.2005.09.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Transport%20on%20fractal%20river%20networks%3A%20application%20to%20migration%20fronts&journal=Theor.%20Popul.%20Biol.&doi=10.1016%2Fj.tpb.2005.09.001&volume=69&pages=88-93&publication_year=2006&author=Campos%2CD&author=Fort%2CJ&author=M%C3%A9ndez%2CV"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Turrero, P., Dominguez-Cuesta, M. J., Jimenez-Sanchez, M. & Garcia-Vazquez, E. The spatial distribution of Palaeolithic human settlements and its influence on palaeoecological studies: a case from Northern Iberia. J. Archaeol. Sci. 40, 4127–4138 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jas.2013.06.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20spatial%20distribution%20of%20Palaeolithic%20human%20settlements%20and%20its%20influence%20on%20palaeoecological%20studies%3A%20a%20case%20from%20Northern%20Iberia&journal=J.%20Archaeol.%20Sci.&doi=10.1016%2Fj.jas.2013.06.003&volume=40&pages=4127-4138&publication_year=2013&author=Turrero%2CP&author=Dominguez-Cuesta%2CMJ&author=Jimenez-Sanchez%2CM&author=Garcia-Vazquez%2CE"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Kummu, M., de Moel, H., Ward, P. J. & Varis, O. How close do we live to water? A global analysis of population distance to freshwater bodies. PLoS ONE 6, e20578 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0020578",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PLoSO...620578K",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXns1yjtbg%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20close%20do%20we%20live%20to%20water%3F%20A%20global%20analysis%20of%20population%20distance%20to%20freshwater%20bodies&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0020578&volume=6&publication_year=2011&author=Kummu%2CM&author=Moel%2CH&author=Ward%2CPJ&author=Varis%2CO"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "MacDonald, G. M. Water, climate change, and sustainability in the southwest. Proc. Natl Acad. Sci. USA 107, 21256–21262 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0909651107",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010PNAS..10721256M",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXhs1Wis7nK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Water%2C%20climate%20change%2C%20and%20sustainability%20in%20the%20southwest&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0909651107&volume=107&pages=21256-21262&publication_year=2010&author=MacDonald%2CGM"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Fitzhugh, T. W. & Richter, B. D. Quenching urban thirst: growing cities and their impacts on freshwater ecosystems. Bioscience 54, 741–754 (2004).",
+            "links": {
+                "Article": "https://doi.org/10.1641%2F0006-3568%282004%29054%5B0741%3AQUTGCA%5D2.0.CO%3B2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quenching%20urban%20thirst%3A%20growing%20cities%20and%20their%20impacts%20on%20freshwater%20ecosystems&journal=Bioscience&doi=10.1641%2F0006-3568%282004%29054%5B0741%3AQUTGCA%5D2.0.CO%3B2&volume=54&pages=741-754&publication_year=2004&author=Fitzhugh%2CTW&author=Richter%2CBD"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Chowdhury, F., Lant, C. & Dziegielewski, B. A century of water supply expansion for ten U.S. cities. Appl. Geogr. 45, 58–76 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apgeog.2013.07.020",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20century%20of%20water%20supply%20expansion%20for%20ten%20U.S.%20cities&journal=Appl.%20Geogr.&doi=10.1016%2Fj.apgeog.2013.07.020&volume=45&pages=58-76&publication_year=2013&author=Chowdhury%2CF&author=Lant%2CC&author=Dziegielewski%2CB"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "McDonald, R. I. et al. Water on an urban planet: urbanization and the reach of urban water infrastructure. Glob. Environ. Change 27, 96–105 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.gloenvcha.2014.04.022",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Water%20on%20an%20urban%20planet%3A%20urbanization%20and%20the%20reach%20of%20urban%20water%20infrastructure&journal=Glob.%20Environ.%20Change&doi=10.1016%2Fj.gloenvcha.2014.04.022&volume=27&pages=96-105&publication_year=2014&author=McDonald%2CRI"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Grübler, A. The Rise and Fall of Infrastructures: Dynamics of Evolution and Technological Change in Transport (Physica-Verlag, Heidelberg, 1990).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Di Baldassarre, G., Kooy, M., Kemerink, J. S. & Brandimarte, L. Towards understanding the dynamic behaviour of floodplains as human-water systems. Hydrol. Earth Syst. Sci. 17, 3235–3244 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Fhess-17-3235-2013",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2013HESS...17.3235D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Towards%20understanding%20the%20dynamic%20behaviour%20of%20floodplains%20as%20human-water%20systems&journal=Hydrol.%20Earth%20Syst.%20Sci.&doi=10.5194%2Fhess-17-3235-2013&volume=17&pages=3235-3244&publication_year=2013&author=Baldassarre%2CG&author=Kooy%2CM&author=Kemerink%2CJS&author=Brandimarte%2CL"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Beeson, P. E., DeJong, D. N. & Troesken, W. Population growth in US counties, 1840–1990. Reg. Sci. Urban Econ. 31, 669–699 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0166-0462%2801%2900065-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Population%20growth%20in%20US%20counties%2C%201840%E2%80%931990&journal=Reg.%20Sci.%20Urban%20Econ.&doi=10.1016%2FS0166-0462%2801%2900065-5&volume=31&pages=669-699&publication_year=2001&author=Beeson%2CPE&author=DeJong%2CDN&author=Troesken%2CW"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Gude, P. H., Hansen, A. J., Rasker, R. & Maxwell, B. Rates and drivers of rural residential development in the Greater Yellowstone. Landsc. Urban Plann. 77, 131–151 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landurbplan.2005.02.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rates%20and%20drivers%20of%20rural%20residential%20development%20in%20the%20Greater%20Yellowstone&journal=Landsc.%20Urban%20Plann.&doi=10.1016%2Fj.landurbplan.2005.02.004&volume=77&pages=131-151&publication_year=2006&author=Gude%2CPH&author=Hansen%2CAJ&author=Rasker%2CR&author=Maxwell%2CB"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Larson, E. & Perrings, C. The value of water-related amenities in an arid city: The case of the Phoenix metropolitan area. Landsc. Urban Plann. 109, 45–55 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landurbplan.2012.10.008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20value%20of%20water-related%20amenities%20in%20an%20arid%20city%3A%20The%20case%20of%20the%20Phoenix%20metropolitan%20area&journal=Landsc.%20Urban%20Plann.&doi=10.1016%2Fj.landurbplan.2012.10.008&volume=109&pages=45-55&publication_year=2013&author=Larson%2CE&author=Perrings%2CC"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Glennon, R. J. Water Follies: Groundwater Pumping and the Fate of America’s Fresh Waters. (Island Press, Washington, D.C., 2004).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Scanlon, B. R. et al. Groundwater depletion and sustainability of irrigation in the US High Plains and Central Valley. Proc. Natl Acad. Sci. USA 109, 9320–9325 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1200311109",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012PNAS..109.9320S",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC38Xptlaitbc%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Groundwater%20depletion%20and%20sustainability%20of%20irrigation%20in%20the%20US%20High%20Plains%20and%20Central%20Valley&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1200311109&volume=109&pages=9320-9325&publication_year=2012&author=Scanlon%2CBR"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Alley, W. M., Reilly, T. E. & Franke, O. L. Sustainability of Ground-water Resources (US Department of the Interior, US Geological Survey, 1999).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Ceola, S., Laio, F. & Montanari, A. Human-impacted waters: new perspectives from global high-resolution monitoring. Water Resour. Res. 51, 7064–7079 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2F2015WR017482",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015WRR....51.7064C",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Human-impacted%20waters%3A%20new%20perspectives%20from%20global%20high-resolution%20monitoring&journal=Water%20Resour.%20Res.&doi=10.1002%2F2015WR017482&volume=51&pages=7064-7079&publication_year=2015&author=Ceola%2CS&author=Laio%2CF&author=Montanari%2CA"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Deichmann, U., Balk, D. & Yetman, G. Transforming Population Data for Interdisciplinary Usages: from Census to Grid (Center for International Earth Science Information Network, Washington, DC, 2001).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Balk, D. L. et al. Determining global population distribution: methods, applications and data. Adv. Parasitol. 62, 119–156 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0065-308X%2805%2962004-0",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD283jvFWqsA%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Determining%20global%20population%20distribution%3A%20methods%2C%20applications%20and%20data&journal=Adv.%20Parasitol.&doi=10.1016%2FS0065-308X%2805%2962004-0&volume=62&pages=119-156&publication_year=2006&author=Balk%2CDL"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Dobson, J. E., Bright, E. A., Coleman, P. R., Durfee, R. C. & Worley, B. A. LandScan: a global population database for estimating populations at risk. Photogramm. Eng. Remote Sens. 66, 849–857 (2000).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=LandScan%3A%20a%20global%20population%20database%20for%20estimating%20populations%20at%20risk&journal=Photogramm.%20Eng.%20Remote%20Sens.&volume=66&pages=849-857&publication_year=2000&author=Dobson%2CJE&author=Bright%2CEA&author=Coleman%2CPR&author=Durfee%2CRC&author=Worley%2CBA"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Tatem, A. J. WorldPop, open data for spatial demography. Sci. Data 4, 170004 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsdata.2017.4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=WorldPop%2C%20open%20data%20for%20spatial%20demography&journal=Sci.%20Data&doi=10.1038%2Fsdata.2017.4&volume=4&publication_year=2017&author=Tatem%2CAJ"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "U.S. Census Bureau. Decennial Census. https://www.census.gov/history/www/programs/demographic/decennial_census.html, U.S. Census Bureau (2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Fang, Y. & Jawitz, J. W. High-resolution reconstruction of the United States human population distribution, 1790–2010. Sci. Data 5, 180067 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsdata.2018.67",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=High-resolution%20reconstruction%20of%20the%20United%20States%20human%20population%20distribution%2C%201790%E2%80%932010&journal=Sci.%20Data&doi=10.1038%2Fsdata.2018.67&volume=5&publication_year=2018&author=Fang%2CY&author=Jawitz%2CJW"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Mokyr, J. in Storia Dell’Economia Mondiale (ed. Gastronono, V.) 219–245 (Laterza, Rome, 1998).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Padowski, J. C. & Jawitz, J. W. Water availability and vulnerability of 225 large cities in the United States. Water Resour. Res. 48, W12529 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2012WR012335",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012WRR....4812529P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Water%20availability%20and%20vulnerability%20of%20225%20large%20cities%20in%20the%20United%20States&journal=Water%20Resour.%20Res.&doi=10.1029%2F2012WR012335&volume=48&publication_year=2012&author=Padowski%2CJC&author=Jawitz%2CJW"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Gleeson, T., Wada, Y., Bierkens, M. F. P. & van Beek, L. P. H. Water balance of global aquifers revealed by groundwater footprint. Nature 488, 197–200 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature11295",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012Natur.488..197G",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC38XhtFKitL3N",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Water%20balance%20of%20global%20aquifers%20revealed%20by%20groundwater%20footprint&journal=Nature&doi=10.1038%2Fnature11295&volume=488&pages=197-200&publication_year=2012&author=Gleeson%2CT&author=Wada%2CY&author=Bierkens%2CMFP&author=Beek%2CLPH"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Vitousek, P. M., Mooney, H. A., Lubchenco, J. & Melillo, J. M. Human domination of Earth’s ecosystems. Science 277, 494–499 (1997).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.277.5325.494",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaK2sXkvVektLs%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Human%20domination%20of%20Earth%E2%80%99s%20ecosystems&journal=Science&doi=10.1126%2Fscience.277.5325.494&volume=277&pages=494-499&publication_year=1997&author=Vitousek%2CPM&author=Mooney%2CHA&author=Lubchenco%2CJ&author=Melillo%2CJM"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Liu, Y., Tian, F., Hu, H. & Sivapalan, M. Socio-hydrologic perspectives of the co-evolution of humans and water in the Tarim River basin, Western China: the Taiji-Tire model. Hydrol. Earth Syst. Sci. 18, 1289–1303 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Fhess-18-1289-2014",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014HESS...18.1289L",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Socio-hydrologic%20perspectives%20of%20the%20co-evolution%20of%20humans%20and%20water%20in%20the%20Tarim%20River%20basin%2C%20Western%20China%3A%20the%20Taiji-Tire%20model&journal=Hydrol.%20Earth%20Syst.%20Sci.&doi=10.5194%2Fhess-18-1289-2014&volume=18&pages=1289-1303&publication_year=2014&author=Liu%2CY&author=Tian%2CF&author=Hu%2CH&author=Sivapalan%2CM"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Gleick, P. H. Roadmap for sustainable water resources in southwestern North America. Proc. Natl Acad. Sci. USA 107, 21300–21305 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1005473107",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010PNAS..10721300G",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXhs1Wis7bJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Roadmap%20for%20sustainable%20water%20resources%20in%20southwestern%20North%20America&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1005473107&volume=107&pages=21300-21305&publication_year=2010&author=Gleick%2CPH"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Liu, J. et al. Framing sustainability in a telecoupled world. Ecol. Soc. 18, 26 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.5751%2FES-05873-180226",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXjtlKitLY%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Framing%20sustainability%20in%20a%20telecoupled%20world&journal=Ecol.%20Soc.&doi=10.5751%2FES-05873-180226&volume=18&publication_year=2013&author=Liu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "BGR/UNESCO. Groundwater Resources of the World 1: 25 000 000 (Hannover, Paris, 2008).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Mazurek, M. et al. Natural tracer profiles across argillaceous formations. Appl. Geochem. 26, 1035–1064 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apgeochem.2011.03.124",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXmsVWrtrc%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Natural%20tracer%20profiles%20across%20argillaceous%20formations&journal=Appl.%20Geochem.&doi=10.1016%2Fj.apgeochem.2011.03.124&volume=26&pages=1035-1064&publication_year=2011&author=Mazurek%2CM"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Beyerle, U. et al. Climate and groundwater recharge during the last glaciation in an ice-covered region. Science 282, 731–734 (1998).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.282.5389.731",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1998Sci...282..731B",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaK1cXmvFOqtrw%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20and%20groundwater%20recharge%20during%20the%20last%20glaciation%20in%20an%20ice-covered%20region&journal=Science&doi=10.1126%2Fscience.282.5389.731&volume=282&pages=731-734&publication_year=1998&author=Beyerle%2CU"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Wada, Y. et al. Global depletion of groundwater resources. Geophys. Res. Lett. 37, 114–122 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2010GL044571",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20depletion%20of%20groundwater%20resources&journal=Geophys.%20Res.%20Lett.&doi=10.1029%2F2010GL044571&volume=37&pages=114-122&publication_year=2010&author=Wada%2CY"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Schwarzenbach, R. P., Egli, T., Hofstetter, T. B., Gunten, U. v. & Wehrli, B. Global water pollution and human health. Annu. Rev. Environ. Resour. 35, 109–136 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-environ-100809-125342",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20water%20pollution%20and%20human%20health&journal=Annu.%20Rev.%20Environ.%20Resour.&doi=10.1146%2Fannurev-environ-100809-125342&volume=35&pages=109-136&publication_year=2010&author=Schwarzenbach%2CRP&author=Egli%2CT&author=Hofstetter%2CTB&author=Gunten%2CUv&author=Wehrli%2CB"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Steward, D. R. et al. Tapping unsustainable groundwater stores for agricultural production in the High Plains Aquifer of Kansas, projections to 2110. Proc. Natl Acad. Sci. USA 110, E3477–E3486 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1220351110",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXhsFWrs7rL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Tapping%20unsustainable%20groundwater%20stores%20for%20agricultural%20production%20in%20the%20High%20Plains%20Aquifer%20of%20Kansas%2C%20projections%20to%202110&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1220351110&volume=110&pages=E3477-E3486&publication_year=2013&author=Steward%2CDR"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Padowski, J. C., Carrera, L. & Jawitz, J. W. Overcoming urban water insecurity with infrastructure and institutions. Water Resour. Manag. 30, 4913–4926 (2016).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11269-016-1461-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Overcoming%20urban%20water%20insecurity%20with%20infrastructure%20and%20institutions&journal=Water%20Resour.%20Manag.&doi=10.1007%2Fs11269-016-1461-0&volume=30&pages=4913-4926&publication_year=2016&author=Padowski%2CJC&author=Carrera%2CL&author=Jawitz%2CJW"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Veldkamp, T. I. E. et al. Water scarcity hotspots travel downstream due to human interventions in the 20th and 21st century. Nat. Commun. 8, 15697 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fncomms15697",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatCo...815697V",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXhtVWjtL%2FF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Water%20scarcity%20hotspots%20travel%20downstream%20due%20to%20human%20interventions%20in%20the%2020th%20and%2021st%20century&journal=Nat.%20Commun.&doi=10.1038%2Fncomms15697&volume=8&publication_year=2017&author=Veldkamp%2CTIE"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Gleick, P. H. & Palaniappan, M. Peak water limits to freshwater withdrawal and use. Proc. Natl Acad. Sci. USA 107, 11155–11162 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1004812107",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010PNAS..10711155G",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXot1elu7g%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Peak%20water%20limits%20to%20freshwater%20withdrawal%20and%20use&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1004812107&volume=107&pages=11155-11162&publication_year=2010&author=Gleick%2CPH&author=Palaniappan%2CM"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Poff, N. L. et al. The ecological limits of hydrologic alteration (ELOHA): a new framework for developing regional environmental flow standards. Freshw. Biol. 55, 147–170 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1365-2427.2009.02204.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20ecological%20limits%20of%20hydrologic%20alteration%20%28ELOHA%29%3A%20a%20new%20framework%20for%20developing%20regional%20environmental%20flow%20standards&journal=Freshw.%20Biol.&doi=10.1111%2Fj.1365-2427.2009.02204.x&volume=55&pages=147-170&publication_year=2010&author=Poff%2CNL"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Heming, L., Waley, P. & Rees, P. Reservoir resettlement in China: past experience and the Three Gorges Dam. Geogr. J. 167, 195–212 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2F1475-4959.00018",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Reservoir%20resettlement%20in%20China%3A%20past%20experience%20and%20the%20Three%20Gorges%20Dam&journal=Geogr.%20J.&doi=10.1111%2F1475-4959.00018&volume=167&pages=195-212&publication_year=2001&author=Heming%2CL&author=Waley%2CP&author=Rees%2CP"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Allen, G. H. & Pavelsky, T. M. Global extent of rivers and streams. Science 361, 585–588 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aat0636",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=3822661",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXhsVGktLfL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20extent%20of%20rivers%20and%20streams&journal=Science&doi=10.1126%2Fscience.aat0636&volume=361&pages=585-588&publication_year=2018&author=Allen%2CGH&author=Pavelsky%2CTM"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The reconstructed historical human population data are available for download at https://doi.org/10.6084/m9.figshare.c.3890191.v1, as described in ref. 24. All other data, including river networks, river widths, regional boundaries, reservoir locations, and groundwater data are publicly available as described in the Methods. Source Data are provided for Fig. 3, Fig. 4 and Supplementary Figs. 1‒6 as a Source Data file.",
+            "links": {
+                "https://doi.org/10.6084/m9.figshare.c.3890191.v1": "https://doi.org/10.6084/m9.figshare.c.3890191.v1",
+                "24": "/articles/s41467-019-08366-z#ref-CR24",
+                "3": "/articles/s41467-019-08366-z#Fig3",
+                "4": "/articles/s41467-019-08366-z#Fig4",
+                "1": "/articles/s41467-019-08366-z#MOESM1",
+                "6": "/articles/s41467-019-08366-z#MOESM1"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This research was supported in part by USDA National Institute of Food and Agriculture Hatch project FLA-SWS-005461. Y.F. acknowledges support from National Natural Science Foundation of China (Grant No. 71461010701). We are grateful for the suggestions from Drs. Matthew J. Cohen, Xudong Fu, Yang Hong, Kyungrock Paik, P. Suresh C. Rao, and Andrew D. Wickert.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsYu FangView author publicationsSearch author on:PubMed Google ScholarJames W. JawitzView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nY.F. and J.W.J. conceived the ideas. Y.F. conducted the analyses. Y.F. and J.W.J. wrote the paper.\n### Corresponding author\nCorrespondence to\n                James W. Jawitz.",
+            "links": {
+                "View author publications": "/search?author=James%20W.%20Jawitz",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=James%20W.%20Jawitz",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22James%20W.%20Jawitz%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "James W. Jawitz": "mailto:jawitz@ufl.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Journal peer review information: Nature Communications thanks the anonymous reviewers for their contributions to the peer review of this work. Peer reviewer reports are available.\nPublisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.\nPublisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary Information": {
+            "content": "Supplementary InformationSource DataPeer Review File",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_MOESM1_ESM.docx",
+                "Source Data": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_MOESM2_ESM.xlsx",
+                "Peer Review File": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_MOESM3_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=The%20evolution%20of%20human%20population%20distance%20to%20water%20in%20the%20USA%20from%201790%20to%202010&author=Yu%20Fang%20et%20al&contentID=10.1038%2Fs41467-019-08366-z&copyright=The%20Author%28s%29&publication=2041-1723&publicationDate=2019-01-25&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleFang, Y., Jawitz, J.W. The evolution of human population distance to water in the USA from 1790 to 2010.\n                    Nat Commun 10, 430 (2019). https://doi.org/10.1038/s41467-019-08366-zDownload citationReceived: 29 June 2018Accepted: 02 January 2019Published: 25 January 2019DOI: https://doi.org/10.1038/s41467-019-08366-zShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41467-019-08366-z?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "The evolution of human population distance to water in the USA from 1790 to 2010",
+                "description": "Human societies evolved alongside rivers, but how has the relationship between human settlement locations and water resources evolved over time? We conducted a dynamic analysis in the conterminous US to assess the coevolution of humans and water resources from 1790 to 2010. Here we show that humans moved closer to major rivers in pre-industrial periods but have moved farther from major rivers after 1870, demonstrating the dynamics of human reliance on rivers for trade and transport. We show that humans were preferentially attracted to areas overlying major aquifers since industrialization due to the emergent accessibility of groundwater in the 20th century. Regional heterogeneity resulted in diverse trajectories of settlement proximity to major rivers, with the attractiveness of rivers increasing in arid regions and decreasing in humid areas. Our results reveal a historical coevolution of human-water systems, which could inform water management and contribute to societal adaptation to future climate change. There are dynamic and complex interactions between population and water resources. Here the authors studied the spatio-temporal relationship between human and water resources in conterminous US and found that dynamic human distance to water reflects the changing societal reliance on adjacency to major rivers.",
+                "datePublished": "2019-01-25T00:00:00Z",
+                "dateModified": "2019-01-25T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "8",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s41467-019-08366-z",
+                "keywords": [
+                    "Geography",
+                    "Water resources",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Communications",
+                    "issn": [
+                        "2041-1723"
+                    ],
+                    "volumeNumber": "10",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Yu Fang",
+                        "url": "http://orcid.org/0000-0002-1633-9936",
+                        "affiliation": [
+                            {
+                                "name": "University of Florida",
+                                "address": {
+                                    "name": "Soil and Water Sciences Department, University of Florida, Gainesville, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Tsinghua University",
+                                "address": {
+                                    "name": "State Key Laboratory of Hydro-science and Engineering, Department of Hydraulic Engineering, Tsinghua University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "James W. Jawitz",
+                        "url": "http://orcid.org/0000-0002-6745-0765",
+                        "affiliation": [
+                            {
+                                "name": "University of Florida",
+                                "address": {
+                                    "name": "Soil and Water Sciences Department, University of Florida, Gainesville, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "jawitz@ufl.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "geography;water-resources",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41467-019-08366-z"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Yu Fang",
+                            "James W. Jawitz"
+                        ],
+                        "publishedAt": 1548374400,
+                        "publishedAtString": "2019-01-25",
+                        "title": "The evolution of human population distance to water in the USA from 1790 to 2010",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Geography,Water resources"
+                    },
+                    "journal": {
+                        "pcode": "ncomms",
+                        "title": "nature communications",
+                        "volume": "10",
+                        "issue": "1",
+                        "id": 41467,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "The evolution of human population distance to water in the USA from 1790 to 2010",
+            "dc.source": "Nature Communications 2019 10:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2019-01-25",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2019 The Author(s)",
+            "dc.rights": "2019 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Human societies evolved alongside rivers, but how has the relationship between human settlement locations and water resources evolved over time? We conducted a dynamic analysis in the conterminous US to assess the coevolution of humans and water resources from 1790 to 2010. Here we show that humans moved closer to major rivers in pre-industrial periods but have moved farther from major rivers after 1870, demonstrating the dynamics of human reliance on rivers for trade and transport. We show that humans were preferentially attracted to areas overlying major aquifers since industrialization due to the emergent accessibility of groundwater in the 20th century. Regional heterogeneity resulted in diverse trajectories of settlement proximity to major rivers, with the attractiveness of rivers increasing in arid regions and decreasing in humid areas. Our results reveal a historical coevolution of human-water systems, which could inform water management and contribute to societal adaptation to future climate change. There are dynamic and complex interactions between population and water resources. Here the authors studied the spatio-temporal relationship between human and water resources in conterminous US and found that dynamic human distance to water reflects the changing societal reliance on adjacency to major rivers.",
+            "dc.identifier": "doi:10.1038/s41467-019-08366-z",
+            "dc.creator": "Jawitz, James W.",
+            "dc.subject": "Water resources",
+            "prism.issn": "2041-1723",
+            "prism.publicationName": "Nature Communications",
+            "prism.publicationDate": "2019-01-25",
+            "prism.volume": "10",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "8",
+            "prism.copyright": "2019 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41467-019-08366-z",
+            "prism.doi": "doi:10.1038/s41467-019-08366-z",
+            "citation_pdf_url": "https://www.nature.com/articles/s41467-019-08366-z.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41467-019-08366-z",
+            "citation_journal_title": "Nature Communications",
+            "citation_journal_abbrev": "Nat Commun",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2041-1723",
+            "citation_title": "The evolution of human population distance to water in the USA from 1790 to 2010",
+            "citation_volume": "10",
+            "citation_issue": "1",
+            "citation_online_date": "2019/01/25",
+            "citation_firstpage": "1",
+            "citation_lastpage": "8",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41467-019-08366-z",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41467-019-08366-z&api_key=",
+            "citation_reference": "citation_journal_title=Science; citation_title=Global extent of rivers and streams; citation_author=GH Allen, TM Pavelsky; citation_volume=361; citation_publication_date=2018; citation_pages=585-588; citation_doi=10.1126/science.aat0636; citation_id=CR43",
+            "citation_author": "Jawitz, James W.",
+            "citation_author_institution": "Soil and Water Sciences Department, University of Florida, Gainesville, USA",
+            "description": "Human societies evolved alongside rivers, but how has the relationship between human settlement locations and water resources evolved over time? We conducted a dynamic analysis in the conterminous US to assess the coevolution of humans and water resources from 1790 to 2010. Here we show that humans moved closer to major rivers in pre-industrial periods but have moved farther from major rivers after 1870, demonstrating the dynamics of human reliance on rivers for trade and transport. We show that humans were preferentially attracted to areas overlying major aquifers since industrialization due to the emergent accessibility of groundwater in the 20th century. Regional heterogeneity resulted in diverse trajectories of settlement proximity to major rivers, with the attractiveness of rivers increasing in arid regions and decreasing in humid areas. Our results reveal a historical coevolution of human-water systems, which could inform water management and contribute to societal adaptation to future climate change. There are dynamic and complex interactions between population and water resources. Here the authors studied the spatio-temporal relationship between human and water resources in conterminous US and found that dynamic human distance to water reflects the changing societal reliance on adjacency to major rivers.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "The evolution of human population distance to water in the USA from 1790 to 2010",
+            "twitter:description": "Nature Communications - There are dynamic and complex interactions between population and water resources. Here the authors studied the spatio-temporal relationship between human and water...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_Fig1_HTML.png",
+            "DOI": "10.1038/s41467-019-08366-z",
+            "size": "121751",
+            "journal_id": "41467"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41467-019-08366-z",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

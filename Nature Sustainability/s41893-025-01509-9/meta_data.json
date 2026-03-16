@@ -1,0 +1,121 @@
+{
+    "id": "s41893-025-01509-9",
+    "title": "Rising socio-economic costs of PM2.5 pollution and medical service mismatching",
+    "journal": "Nature Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s41893-025-01509-9",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "Atmospheric Composition Analysis Group ground level PM2.5 concentration dataset",
+            "Data_summary": "A gridded reanalysis product of average annual and monthly ground level PM2.5 concentrations estimated by combining satellite aerosol optical depth retrievals, GEOS Chem chemical transport modeling, and calibration to ground based observations. Used as the exposure surface to compute PM2.5 attributable mortality and downstream economic costs.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                51
+            ],
+            "Other_Information": "Evidence: We collected average annual PM2.5 concentration data for Japan from the Atmospheric Composition Analysis Group of Washington University in St Louis51.; Location: Methods, Grey exposure and mortality in Japan; Confidence: high",
+            "Time_Coverage": "1998-2021",
+            "Geographic_Coverage": "Global, used for Japan",
+            "URL": "https://sites.wustl.edu/acag/",
+            "ref": [
+                "ref-CR51"
+            ]
+        },
+        {
+            "Data_Name": "Gridded population datasets for Japan by Li and Managi",
+            "Data_summary": "A high resolution gridded population dataset for Japan providing total population counts on a regular grid. Used to supply population denominators for mortality estimation and then aggregated to match the PM2.5 grid for spatiotemporal calculations.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                52
+            ],
+            "Other_Information": "Evidence: annual Japanese population data was retrieved from the population gridded datasets of Japan52.; Location: Methods, Grey exposure and mortality in Japan; Confidence: high",
+            "Time_Coverage": "2001-2020",
+            "Geographic_Coverage": "Japan",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR52"
+            ]
+        },
+        {
+            "Data_Name": "Statistics Bureau of Japan prefecture age structure data",
+            "Data_summary": "Prefecture level population by age composition derived from census years and intercensal estimates produced by the national statistics authority. Used to create age segment proportions and rasterize them onto the PM2.5 grid to compute age specific exposure, risks, and economic valuations.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The age structure data of different prefectures were downloaded from the Statistics Bureau of Japan.; Location: Methods, Grey exposure and mortality in Japan; Confidence: high",
+            "Time_Coverage": "2001-2019",
+            "Geographic_Coverage": "Japan",
+            "URL": "https://www.stat.go.jp/english/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Global Burden of Disease Study 2019 results",
+            "Data_summary": "A global health metrics database providing cause specific baseline mortality rates by age as well as life expectancy and all cause mortality used to derive survival probabilities. Used to parameterize baseline mortality for five PM2.5 related causes and to compute survival probability and life expectancy inputs for AVSL calculations.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                53
+            ],
+            "Other_Information": "Evidence: Baseline mortality data for the five causes of death by age were obtained from the results of the Global Burden of Disease Study 2019 GBD 201953.; Location: Methods, Grey exposure and mortality in Japan; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global, used for Japan prefectures",
+            "URL": "https://ghdx.healthdata.org/gbd-2019",
+            "ref": [
+                "ref-CR53"
+            ]
+        },
+        {
+            "Data_Name": "Cabinet Office Government of Japan prefectural GDP statistics",
+            "Data_summary": "Annual economic accounts for Japanese prefectures including GDP and GDP per capita, with deflator information for rebasing to a consistent year. Used to adjust VSL for regional income levels and to compute relative economic costs as economic cost divided by GDP.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the annual GDP of prefectures from 2001 to 2019 was obtained from the Cabinet Office Government of Japan.; Location: Methods, AVSL and economic cost 2001 to 2019; Confidence: high",
+            "Time_Coverage": "2001-2019",
+            "Geographic_Coverage": "Japan",
+            "URL": "https://www.cao.go.jp/index-e.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "National Survey of Family Income Consumption and Wealth household assets by age Statistics Bureau of Japan",
+            "Data_summary": "Household balance sheet style micro or tabulated statistics reporting household total assets by household head age, including financial assets and estimated housing and land value. Used as an age specific proxy for individual wealth to parameterize AVSL and AVSLY calculations.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We retrieved the household asset dataset from the section of the National Survey of Family Income Consumption and Wealth in the Statistics Bureau of Japan.; Location: Methods, AVSL and economic cost 2001 to 2019; Confidence: high",
+            "Time_Coverage": "2019",
+            "Geographic_Coverage": "Japan",
+            "URL": "https://www.stat.go.jp/english/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Japan medical clinic and hospital department point records MLIT Geospatial Information Authority of Japan",
+            "Data_summary": "A nationwide geocoded point dataset of medical facilities including facility locations and listed clinical departments. Used to count availability of disease relevant departments within 5 km hexagonal grids and to quantify mismatch between PM2.5 related disease burden and medical service supply.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we acquired medical clinic data from the Japanese Ministry of Land Infrastructure Transport and Tourism which contains information on the location and departments of over 170000 hospitals in Japan for the year 2015.; Location: Methods, Disease burden from PM2.5 exposure on the medical system; Confidence: high",
+            "Time_Coverage": "2015",
+            "Geographic_Coverage": "Japan",
+            "URL": "https://nlftp.mlit.go.jp/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Source data",
+            "Data_summary": "Spreadsheets provided as supporting source data for figures, containing the numerical values underlying plotted results. Used to reproduce or validate reported figure values rather than as primary inputs.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Source data are provided with this paper.; Location: Data availability; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "/articles/s41893-025-01509-9#Sec13",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:05.752152"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": "s41599-022-01353-8",
+    "title": "Community-scale big data reveals disparate impacts of the Texas winter storm of 2021 and its managed power outage",
+    "journal": "Humanities and Social Sciences Communications",
+    "pdf_link": "https://www.nature.com/articles/s41599-022-01353-8",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Mapbox telemetry-based population activity data",
+            "Data_summary": "Anonymized and normalized cell phone location telemetry aggregated by Mapbox from apps using the Mapbox SDK, provided as a spatiotemporal activity index on a fine spatial grid. The study uses this activity index to compute census-tract-level activity density as a proxy measure for the extent and duration of power outages during the winter storm by comparing activity in February against a baseline period.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: This study assessed the impact of power outages during the winter storm by analyzing telemetry-based population activity provided by Mapbox. Location: Materials and methods Data sources Population activity Confidence: high",
+            "Time_Coverage": "2021-01 to 2021-02",
+            "Geographic_Coverage": "United States > Texas > Harris County",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "SafeGraph point-of-interest places and visits data",
+            "Data_summary": "Aggregated anonymized mobile-device-derived data from SafeGraph describing points of interest including place attributes and daily visit counts. The study filters POIs to grocery stores and restaurants using NAICS codes and aggregates daily visits to the census-tract level with a one-mile buffer to measure changes in access to food-related facilities during the winter storm.",
+            "Category": "Points of Interest (POIs)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: SafeGraph which partners with several mobile applications to obtain anonymous location data from mobile devices provided point-of-interest data used in this study. Location: Materials and methods Data sources Point-of-interest data Confidence: high",
+            "Time_Coverage": "2021-01 to 2021-02",
+            "Geographic_Coverage": "United States > Texas > Harris County",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "311 Houston Service Helpline call records",
+            "Data_summary": "Administrative service request records from the City of Houston 311 system containing request timestamps, geolocations, and service request types. The study filters to water-related requests indicative of burst pipes and aggregates daily counts to census tracts to assess spatial patterns and disparities in water infrastructure impacts during the storm.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The 311 Houston Service Helpline is a consolidated call center where city residents can report non-emergency concerns. Location: Materials and methods Data sources 311 Service Helpline Confidence: high",
+            "Time_Coverage": "2021-02",
+            "Geographic_Coverage": "United States > Texas > Houston",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "American Community Survey 2019 5-year estimates 2015-2019",
+            "Data_summary": "Census-tract-level demographic and household socioeconomic estimates from the US Census Bureau American Community Survey 5-year product. The study uses variables such as median household income and racial and Hispanic composition to define minority and nonminority tract groupings and to test disparities in storm impacts.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: All demographic and household socioeconomic data used in this study were retrieved from the 2019 American Community Survey 5-year estimates data 2015-2019. Location: Materials and methods Data sources Demography Confidence: high",
+            "Time_Coverage": "2015-2019",
+            "Geographic_Coverage": "United States > Texas > Harris County",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:35.004331"
+    }
+}

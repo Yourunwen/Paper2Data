@@ -1,0 +1,1400 @@
+{
+    "id": "s41599-025-05272-2",
+    "journal": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "title": "Impact of religious cultural similarity on internal migration: a regional perspective in contemporary China",
+    "legal_title": "Impact of religious cultural similarity on internal migration  a regional perspective in contemporary China",
+    "publish_time": "2025-07-10",
+    "pdf_link": "https://www.nature.com/articles/s41599-025-05272-2",
+    "storage_path": "./Articles/Humanities and Social Sciences Communications/2025-article/s41599-025-05272-2/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Although research has examined migrants’ attraction to religious environments in detail, the broader impact of loosely organized religions on migration patterns in highly secularized countries such as China has received relatively little attention. This study bridges this gap by developing a religious cultural similarity (RCS) index to quantify cultural similarities among 339 Chinese cities based on their distribution of religious sites. Analysis of 69,620 city pairs suggests that higher RCS between cities promotes migration in China. This effect varies according to regional religious setting: migrants from ancestor worship-dominated cities are least attracted by RCS. This study’s findings deepen our understanding of the cultural role of religion within secular contexts.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "In 2022, a United Nations International Organization for Migration (IOM) report found that most population movement occurs within national borders, whereas international migrants account for only 3.6% of the global population (IOM 2022). In China, rapid urbanization has caused unprecedented internal migration, which is expected to surpass the total number of international migrants worldwide (King and Skeldon 2010). In recent years, sociological researchers have focused extensively on the impact of noneconomic factors, including religious factors, on migration (Belot and Ederveen 2012; Fu et al., 2024; Hooghe et al. 2008; Massey et al. 1999, p. 41; Monin and Szczurek 2014). However, while scholars have thoroughly examined religious factors in international migration, their role in internal migration, particularly within secular societies, remains underexplored.\nIn China and other secular societies, religion often operates less as a formal belief system and more as a cultural phenomenon embedded in everyday life through rituals, festivals, and sacred spaces (Bell 1992; Yang 2011). Such cultural expression shapes shared values and fosters local identities, influencing not only adherents but also members of broader secular communities. Importantly, China’s religious landscape is characterized by significant regional diversity, encompassing traditions such as Buddhism, Daoism, Christianity, Islam, and ancestor worship, which create distinct cultural atmospheres across regions. These differences may shape the flow of migration by influencing migrants’ perceptions of cultural familiarity and belonging in specific areas. Given China’s unique social and cultural landscape, understanding how religious culture drives internal migration in secular societies is of significant academic importance.\nHowever, when measuring religious influence, studies have focused on clear religious affiliation boundaries, such as the number of adherents or the role of religious social networks (Lu and Gao 2018; Yang and Hu 2012; Zhang and Lu 2020), underestimating the broader effect of religious culture on migrants. Thus, this study aims to examine how religious culture affects internal migration decisions in China. A crucial first step involves quantifying the country’s religious cultural atmosphere at the city level, which presents three main challenges. First, China’s religious pluralism does not neatly align with Western religious concepts and classifications (Yang and McPhail 2023; Zhang and Lu 2020), evidenced by the often-blurred boundaries between different denominations and between religion and traditional practices (Minamiki 1987; Yang 1970). Second, because elements from multiple denominations frequently intermingle within cultural expressions, individuals who identify as nondenominational may still participate in various religious activities (Fan 2003; Weller 2014; Yang and McPhail 2023). These complexities emphasize the inadequacy of conventional surveys in capturing the true religious beliefs of Chinese people (Brenner et al. 2024; Yang and Hu 2012; Zhang and Lu 2020).\nThis study addresses these challenges and gaps by investigating the impact of religious cultural similarity (RCS) on internal migration decisions in China, particularly the effect of shared religious culture on migration. Using the distribution of religious sites in the country as a proxy for local religious cultural atmospheres, we calculate pairwise RCS among 339 Chinese cities and explore its impact on migrants’ destination choices, transcending the organizational indexes of religion to capture its cultural dimensions and offering new insights into the interplay between religion, culture, and migration in secular societies. After establishing a positive association between RCS and internal migration, we further examine the heterogeneity of RCS preferences among religious cultural backgrounds. Finally, we employ various methods for testing robustness to address potential endogeneity concerns.",
+            "cites": [
+                "ref-CR41",
+                "ref-CR65",
+                "ref-CR61",
+                "ref-CR101",
+                "ref-CR11",
+                "ref-CR6",
+                "ref-CR106",
+                "ref-CR77",
+                "ref-CR37",
+                "ref-CR85",
+                "ref-CR109",
+                "ref-CR110",
+                "ref-CR107",
+                "ref-CR7",
+                "ref-CR88",
+                "ref-CR113",
+                "ref-CR87",
+                "ref-CR57"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Literature review",
+            "text": "### Role of religion in migration studies\nTraditionally, migration studies have focused on the role played by institutionalized religion in migration, highlighting its ability to offer emotional support, economic opportunities, and social relationships (Connor 2009; Hagan and Ebaugh 2003). As key providers of social capital, religious institutions may minimize migration flow among believers, who often invest substantial time and effort in forming religious ties within specific locations. These ties are difficult to transfer and would be lost if the believers relocated (Myers 2000). Meanwhile, research has shown that religious communities are critical support systems offering housing, financial assistance, and social connections that allow migrants to navigate their new environments (Alanezi and Sherkat 2008; Hirschman 2004). This perspective considers religion as a formal, institutional force, particularly within organized religions such as Christianity or Islam, where congregational structures and hierarchical organizations play a significant role (Clarke et al. 2013; Iannaccone 1994).\nHowever, this conventional institutional perspective has its limitations. First, it frequently assumes a rigid dichotomy between religious and secular with a narrow focus on adherents while neglecting religion’s broader societal impacts. This view also tends to overlook loosely organized or informal religious practices, which are particularly widespread in China and other secularized contexts (Madsen 2023; Yang 1970) and even in Western societies, where a weakening of institutional religious authority has been observed, ushering in religiosity that takes more individualized and culturally embedded forms (e.g., “believing without belonging”) (Davie 1996; Edgell 2024). This shift underscores the need to consider religion not only institutionally but also as a cultural force that influences social norms, values, and collective identities, with significant implications for migration research.\n### Religion as a cultural force of migration\nWhile scholars have increasingly focused on religion’s role as a cultural influence of migration, its macro-level effects within secularized societies have remained underexplored. Early theorists underscored the role of religion in shaping human consciousness. Marx (1995) famously described it as 'the opium of people,' a psychological comfort in hardship, and Engels (1934) further characterized it as a 'fantastic reflection' of external realities within the human mind. Subsequent sociological work has expanded attention to religion's symbolic and cultural influences in social life. Durkheim’s (2016) theory on the sacred-profane distinction highlighted how religious symbols, rituals, and practices transcend formal belief systems and shape societal norms and cultural identities-mechanisms that persist despite secularization. Empirical studies have further demonstrated that rituals and sacred music reinforce collective belonging and cultural identity (Bebbington 2012), even among nonadherents (Gregersen and Afdal 2022).\nReligious landscapes have further described how religion operates as a cultural force in migration. Chivallon (2001) observed that sacred sites such as churches help preserve migrants’ cultural and religious identity while fostering solidarity among them. Similarly, Chidester and Linenthal (1995) argued that religious sites serve as cultural anchors that are deeply embedded in the social fabric, providing a sense of rootedness and continuity even for the nonreligious. While derived from broader contexts, these insights are particularly relevant for understanding how religion functions within China, which primarily features temple-based practices (Madsen 2010). By integrating religion into the cultural landscape, these sacred places shape societal dynamics and drive individual decisions, including internal migration patterns.\nBelot and Ederveen (2012), among others, incorporated religious culture as a dimension of cultural distance and examined its impact on migration, highlighting religious cultural distance as a key barrier to cross-border mobility. However, most studies have measured religious influence through devotee count or conversion rates, which do not reflect the broader cultural landscape formed by shared values, practices, and religious symbols (Zhang and Lu 2020). Moreover, the literature is largely dominated by micro-level analyses and case studies, with a few exceptions (e.g. Hill et al. 2020), thereby ignoring the broader, societal-level cultural influence of religion. Such a narrow focus cannot capture religious culture’s subtle yet pervasive role in shaping social behaviors, especially in secularized countries such as China, where religious influence is diffuse but culturally significant (Yang 1970). In this regard, a macro-level approach that explains the cultural manifestations of religion beyond formal affiliation, such as the spatial distribution of religious sites, offers deeper insights into the influence of RCS on perceptions of cultural familiarity, social cohesion, and migration patterns.\n### Effect of diverse religious culture on migration in secular China\nAlthough Chinese society is secularized, its social norms and behaviors continue to be influenced by religious culture, often integrating with secular traditions seamlessly. Events such as the Spring Festival and the Mid-Autumn Festival highlight the recontextualization of religious practices as cultural events, encouraging participation from religious and secular individuals (Bell 1992; Yang 2014). Moreover, as Yang and McPhail (2023) observed, while most Chinese identify as atheists, they nevertheless engage in religious activities such as temple fairs and ancestor worship, indicating that such practices lean toward cultural and social identity rather than personal faith. Transcending social class, religious activities foster community members’ religious cultural identities and social behaviors by blending traditional beliefs with modern religious practices.\nFurthermore, in China, religious culture has developed distinct regional characteristics driven by environmental conditions, economic activities, and historical influences (Liu and Faure 1996; Yang and Hu 2012). Coastal regions such as Guangdong and Fujian emphasize the worship of maritime deities rooted in Buddhist and Daoist traditions, whereas religious practices in northern China commonly reflect regional economic life, as observed in the veneration of the Silkworm Mother. These regional differences, while creating distinct cultural atmospheres that strengthen internal cohesion, may lead to cultural tensions that act as barriers to outsiders (Feuchtwang 2003).\nThis study argues that migrants may be drawn to regions with familiar religious traditions and cultural practices because one’s religious cultural background and identification with religious culture determine their sense of cultural familiarity and belonging or that of alienation and estrangement from particular cultures (Antonsich 2010). People with shared religious cultural backgrounds often form stronger bonds, fostering positive attitudes toward communities with familiar cultural markers (Edgell 2012). Moreover, alignment in religious culture can ease one’s transition into local norms and practices (Fontefrancesco et al. 2019).\nThus, this study proposes Hypothesis 1: In highly secularized China, RCS remains an influence on migration. RCS between regions significantly promotes migration.\n### Heterogeneous impact of religious cultures on migration\nAlthough cultural similarities among religions generally promote migration, the extent of this influence is inconsistent across different religions. Religious traditions have distinct ways of driving migrants’ cultural expectations, moral boundaries, and everyday practices, affecting how they perceive cultural familiarity and determining the importance of RCS in migration decisions. This study examines the cultural characteristics of four major religious systems in China-including their openness, symbolic boundaries, and rituals-to better understand the mechanisms through which RCS influences migration decisions.\nWith its missionary nature and universalist theology, Christianity has expanded spatially and culturally through active proselytization, church planting, and adaptation to local traditions (Kalmanson 2017). This inclusivity and adaptability is evident in some theological dialogues where Christian philosophers have integrated Asian spiritual elements into Christian discourse (Kļaviņš 2024). Christianity’s historical expansion across cultural boundaries further demonstrates Christian migrants’ role as mobile agents of cultural exchange in unfamiliar environments (Hanciles 2013). When choosing migration destinations, Christian-background migrants may be more open to differences and less reliant on cultural similarities and thus may not seek such settings.\nMeanwhile, the Confucian, Buddhist, and Daoist traditions-philosophical systems deeply embedded in East Asian societies-use social roles and rituals to emphasize collective harmony, ethical continuity, and moral cultivation (Cohen et al. 2016; Feuchtwang 2003). Central to these traditions, particularly Confucianism, is a strong collectivism that defines the self primarily through relational roles and one’s obligations to their family, elders, and the social order (King and Bond 1985). Moreover, these value systems are characterized by a deep cultural conservatism, emphasizing the upkeep of inherited norms, ethical continuity, and restraint from disruptive change (Zhang et al. 2005). This worldview may lead migrants who are shaped by these religious cultural traditions to display a stronger residential preference for culturally homogeneous, normatively stable communities where they can easily maintain and affirm their inherited values.\nAncestor worship, a core branch of Chinese folk religion, highlights one’s moral obligation to connect closely with their kin across space and generations (Lakos 2010). It clarifies collective identity and facilitates cultural continuity through patrilineal descent, ancestral rituals, and clan temples (Hu 2016). Kinship-based systems, besides serving as migration capital (Liu-Farrer 2008), can foster strong cultural ties that keep migrants spiritually connected to their native land despite physical distances (Tang 2017). Shaped by strong kinship networks and a deep sense of belonging linked to their ancestral practices, migrants from ancestor worship-dominated regions tend to prioritize RCS in their destination choices.\nFinally, Islam promotes a strong collective religious identity (Duderija 2007), and destinations with such religious norms and symbols heighten migrants’ sense of cultural familiarity and moral security (Levi 2024). Muslims’ highly regulated daily life-including dietary restrictions, prayer obligations, and gender norms-further increases the cultural adjustment cost of settling in unfamiliar environments (Falco and Rotondi 2016). These factors together create strong symbolic boundaries (Halawa 2018) that increase the appeal of culturally similar destinations among Muslim migrants.\nBuilding on the above analyses, this study identifies several cultural mechanisms through which RCS may exert a heterogeneous influence on migration decisions. Variations in cultural openness versus conservatism help clarify the effects of different religious systems on migrants’ sensitivity to cultural similarity. The religious cultures of Confucianism, Buddhism, Daoism, ancestor worship, and Islam emphasize ritual continuity, communal boundaries, and normative stability, which may increase migrants’ reliance on cultural familiarity in selecting destinations. Meanwhile, Christianity’s universalist theology, integrative orientation, and adaptive cultural strategy may reduce the salience of cultural similarity in shaping migration preferences.\nHence, this study proposes Hypothesis 2: The effect of RCS on migration is stronger in regions dominated by conservative religious cultures, such as Confucianism, Buddhism, Daoism, ancestor worship, and Islam, than in cities with a balanced distribution of religious culture. In contrast, this effect is weaker in Christian-dominated regions characterized by a more open and balanced worldview.",
+            "cites": [
+                "ref-CR22",
+                "ref-CR114",
+                "ref-CR68",
+                "ref-CR106",
+                "ref-CR32",
+                "ref-CR54",
+                "ref-CR107",
+                "ref-CR82",
+                "ref-CR63",
+                "ref-CR105",
+                "ref-CR39",
+                "ref-CR3",
+                "ref-CR89",
+                "ref-CR55",
+                "ref-CR6",
+                "ref-CR40",
+                "ref-CR46",
+                "ref-CR5",
+                "ref-CR58",
+                "ref-CR19",
+                "ref-CR20",
+                "ref-CR26",
+                "ref-CR74",
+                "ref-CR70",
+                "ref-CR109",
+                "ref-CR31",
+                "ref-CR1",
+                "ref-CR64",
+                "ref-CR80",
+                "ref-CR60",
+                "ref-CR36",
+                "ref-CR75",
+                "ref-CR7",
+                "ref-CR113",
+                "ref-CR96",
+                "ref-CR34",
+                "ref-CR33",
+                "ref-CR23",
+                "ref-CR49",
+                "ref-CR24",
+                "ref-CR66",
+                "ref-CR50",
+                "ref-CR52"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods and measures",
+            "text": "### Data\nReligious sites are deeply embedded in a community’s social and cultural life, shaping the lived experiences of both religious and secular individuals (Chidester and Linenthal 1995). Even in secularized societies, local sacred landmarks often have multiple functions, such as hosting periodic religious rituals and traditional festivals, which foster a sense of belonging and rootedness. Such connection to the community persists regardless of one’s religious affiliation (Chau 2008; Dean 2003; DeBernardi 1992; Tian et al. 2023). Therefore, this study uses the number of religious buildings in each city as a measure of its local religious culture.\nData on religious buildings-temples, ancestral halls, churches, and mosques-are retrieved from point-of-interest (POI) data provided by AMap (https://developer.amap.com/), a leading digital map platform in China. With more than 599 million monthly active users in 2021, AMap offers comprehensive digital map content, navigation, and location-based service solutions. This study selects POI data on religious buildings across 339 cities in mainland China, as well as in Hong Kong, Macao, and Taiwan, from 2019 to 2022.\nInternal migration in China has reached unprecedented levels, with 376 million internal migrants recorded in the 2020 Seventh National Population Census (Cheng and Duan 2021). However, as in many other countries, access to migration data with consistent spatial and temporal coverage in China remains highly limited (Cromley et al. 2010; Stillwell et al. 2017). To address this, researchers have widely adopted an alternative approach that uses population movements during the Spring Festival-the world’s largest annual human mobility event (Li et al. 2016)- as a proxy for long-term internal migration patterns. Although such flows are seasonal and festival-driven, they can reflect enduring city-to-hometown linkages and has been proven to mirror the spatial distribution of long-term migration networks (Dou and Miao 2017; Li et al. 2016; Liu et al. 2020). Accordingly, we adopt this approach in our analysis.\nThe cultural logic behind this measuring strategy lies in the centrality of family reunion during the Spring Festival-China’s most significant and widely celebrated traditional holiday, with cultural influence extending across geographic, ethnic, and socioeconomic boundaries (Xiao and Zhang 2025; Yang 2008). Migrants from diverse backgrounds engage in a predictable pattern of temporary return home, rooted in ritual obligation and identity maintenance (Bin 1998; Li 2018; Luan et al. 2024). As such, Spring Festival migration offers a meaningful proxy for estimating migrant stock patterns in the absence of direct data.\nBased on this rationale, this study constructs a Migration Index (MI) to proxy migration stock using Baidu migration indices (http://qianxi.baidu.com). We collect data during the the homebound phase of Spring Festival travel rush, covering a 15-day peak return migration period each year from 2020 to 2023.The Baidu migration index is derived from real-time location-based services (LBS), which track individual migration trajectories. A user’s origin city is defined as where they stay for over one day, and the destination is where they remain for more than four hours after departure. Aggregated daily flows between city pairs are standardized into a dimensionless index that is comparable across time and space.\nBaidu migration index offers key advantages over traditional transport-based migration data. As one of China’s largest LBS providers, Baidu Maps serves an extensive range of applications and processes billions of LBS requests on a daily basis (Zhao and Gao 2024). Its data, which comprehensively cover hundreds of millions of mobile phone users of all ages and levels, reflect more accurately the daily trajectory of individual travel and are better suited to migration flow analysis (You et al. 2023). The advantage of the Baidu migration index is its data accuracy at the individual level. It also avoids the selection bias of using single-mode transport data (e.g., road, rail, and air) and captures flows driven by nonpublic and composite transport modes. Such data are now widely used in geography, demography, and epidemiological research (e.g. Wei and Wang 2020; Zhao and Gao 2024).\nInter-city migration is affected by different factors, including economic level, demographic and geographic characteristics, and institutional policies. In the gravity model, for instance, distance and population are two of the most central variables. Early studies have consistently shown that migration flow between origins and destinations decreases with geographic distance (Greenwood 1975). In addition, migration volume depends on the population size of the sending and receiving areas (Greenwood and Hunt 2003). Further, Zipf (1946) argued that population size reflects the level of local economic activity, with larger populations promoting economic exchange and, consequently, stronger intercity migration links.\nEconomic factors remain vital in migration decisions. Per capita gross domestic product (GDP) is a crucial indicator of regional economic development, and destination GDP is consistently shown to exert a significant “pull” effect on migrants (Mayda 2010). In addition, according to neoclassical migration theory, wage differentials comprise a core explanatory variable influencing long-term relocation decisions (Greenwood 1975; Massey et al. 1993). Moreover, the tertiary sector’s share in the GDP is a proxy for regional employment structure, particularly in labor-intensive service sectors offering greater job availability and attracting prospective migrants.\nFurthermore, institutional factors influence long-term migration patterns. China’s hukou system-the country’s household registration policy-classifies individuals as rural or urban residents at birth and links access to public services to one’s place of registration (Song 2014). As a result, hukou has historically functioned as a structural constraint on labor mobility, limiting permanent migration across administrative boundaries (Wang et al. 2021). However, recent years have seen a loosening of these restrictions in many cities through hukou reforms. Nevertheless, a notable divergence has been observed: while mega and super-mega cities have maintained stricter hukou policies to restrict the entry of migrants, smaller cities have been encouraged to relax or even eliminate hukou-related restrictions to attract migrants (Wang et al. 2021).\nTo consider these determinants, this study includes the following control variables in its analysis: population (P), distance (D), GDP per capita (pGDP), proportion of the tertiary industry in GDP (TI), average wages of non-private sector urban employees (AW), and hukou policy strictness (hukou).\nFurther, this study measures distance using driving distances provided by the Baidu Maps API. Economic and demographic control variables are extracted from various cities’ statistical yearbooks and the China City Statistical Yearbook from 2019 to 2022. Following Wang et al. (2021), we use a binary variable to proxy the restrictiveness of hukou policies and code super/mega cities as 0 and all other cities as 1. Our robustness checks use province-level migrant stock data from China’s Seventh National Population Census, which is conducted once every 10 years.\n### Religious cultural similarity\nThis study’s core independent variable is the RCS between cities. In each city, temples represent Confucianism, Buddhism, and Daoism; ancestral halls represent ancestor worship; churches represent Christianity; and mosques represent Islam. We aggregate the number of these buildings into a four-dimensional vector to represent a city’s religious cultural atmosphere. By pairing the vectors of different cities, we generate a 339 × 339 symmetric matrix (Fig. 1).\nWe quantify the RCS between cities using the cosine similarity formula, which calculates the cosine value of the angles between vectors in the matrix:\n\n$${{RCS}}_{{ijt}}=\\frac{{v}_{{it}}\\cdot {v}_{{jt}}}{{\\rm{||}}{v}_{{it}}{\\rm{||}}\\times {\\rm{||}}{v}_{{jt}}{\\rm{||}}},$$\n                    (1)\nwhere \\(R{{CS}} _{{ijt}}\\) represents the RCS between cities i and j in year t and \\({\\nu } _{{it}}\\) is the four-dimensional vector for city i in year t.\nWe then normalize the results and rescale them to a 0-100 range, with higher values indicating greater RCS between cities.\n### Migration index\nWe use the MI to quantify migration stocks from city i to city j:\n\n$${{MI}}_{{ijt}}=\\frac{1}{N}{\\varSigma }_{d=1}^{N}{{mi}}_{{ijd}},$$\n                    (2)\nwhere \\({{MI}} _{{ijt}}\\) represents the stock of migrants from city i residing in city j in year t. N denotes the number of days during the homebound phase of the Spring Festival travel rush, which lasts for 15 days each year, and \\({{mi}} _{{ijd}}\\) is the Baidu migration index from city i to city j for day d.\nTable 1 shows comprehensive statistical descriptions of all variables.\n### Regression analytical procedure\nThis study builds on the gravity model framework. Notably, whereas classical gravity models typically use migration flows as the dependent variable (Anderson 2011), our main analysis instead focuses on migration stocks. For robustness checks, however, we also estimate a gravity model using constructed migration flows as the dependent variable.\n\n$$\\begin{array}{c}{\\mathrm{ln}}{{MI}}_{{ij}\\left(t+1\\right)}={\\beta }_{0}+{\\beta }_{1}{\\mathrm{ln}}{RC}{S}_{{ijt}}+{\\beta }_{2}{\\mathrm{ln}}{P}_{{it}}+{\\beta }_{3}{\\mathrm{ln}}{P}_{jt}+\\\\ {\\beta }_{4}{\\mathrm{ln}}{D}_{{ij}}+{\\beta }_{5}{\\mathrm{ln}}{E}_{{it}}+{\\beta }_{6}{\\mathrm{ln}}{E}_{{jt}}+{\\beta }_{7}{{hukou}}_{j}+{\\delta }_{i}{I}_{i}+{\\delta }_{j}{I}_{j}+{\\varepsilon }_{{ijt}},\\end{array}$$\n                    (3)\nwhere i is the origin city, j is the destination city, and t is the time. \\({{MI}} _{{ij}(t+1)}\\) denotes the migration index from i to j in year t + 1, covering the period from 2020 to 2023. \\({RC}{S} _{{ijt}}\\) represents the RCS between i and j in year t, spanning the years 2019 to 2022. \\({P} _{{it}}\\) is origin city i’s population in year t, \\({P} _{{jt}}\\) is destination city j’s population in year t. \\({D} _{{ij}}\\) is the driving distance between cities i and j. \\({E} _{{it}}\\) represents the origin city i’s economic control variables in year t, while \\({E} _{{jt}}\\) represents the destination city j’s economic control variables in year t. hukou_{j} is the hukou policy in the destination city j.\\(\\,{I} _{i}\\) and \\({I} _{j}\\) are the origin and destination cities’ fixed effects, respectively. \\({\\varepsilon } _{{ijt}}\\) denotes error terms. To reduce the risk of reverse causality in the model and consider the information on which potential migrants base their decision to move, we lag the independent and control variables by one year (Pedersen et al. 2008).\n### Religious cultural clustering\nFor each city, we construct a four-dimensional vector representing the proportion of the four types of religious buildings mentioned above, which is calculated using the Shannon entropy formula. This produces a “religious entropy (RE) of the city” index, which refers to the development status of the four religions in the city. The values range from 0 to 2, with higher values indicating a balanced development and lower values suggesting the dominance of a particular religion. Figure 2 illustrates the calculation process.\nNext, we use the K-means clustering algorithm to classify religious cultures into five categories: equilibrium type, Confucian-Buddhist-Daoist dominated, Christian dominated, ancestor worship dominated, and Islamic dominated. To reduce the impact of extremes, we include only cities with a total number of religious buildings above the national average. The initial step in this clustering process is the selection of centroids. Based on the highest RE value, we choose Tianjin as the centroid for a balanced religious culture. For the other categories, we select the following centroids based on the lowest RE and the highest proportion of a particular religious building: Wuzhong (Islamic), Hong Kong (Christian), Xinzhou (Confucian-Buddhist-Daoist), and Foshan (ancestor worship).",
+            "cites": [
+                "ref-CR71",
+                "ref-CR99",
+                "ref-CR2",
+                "ref-CR103",
+                "ref-CR98",
+                "ref-CR108",
+                "ref-CR116",
+                "ref-CR91",
+                "ref-CR25",
+                "ref-CR93",
+                "ref-CR30",
+                "ref-CR16",
+                "ref-CR19",
+                "ref-CR18",
+                "ref-CR79",
+                "ref-CR28",
+                "ref-CR9",
+                "ref-CR84",
+                "ref-CR86",
+                "ref-CR92",
+                "ref-CR27",
+                "ref-CR73",
+                "ref-CR115",
+                "ref-CR97",
+                "ref-CR44",
+                "ref-CR72",
+                "ref-CR112",
+                "ref-CR45"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Results",
+            "text": "### Reclassification of religious cultures and their distribution in China\nFirst, the descriptive analysis provides insights into China’s religious landscape. Due to historical variations in the dissemination of religions’ and rulers’ tendency to exploit traditional cultures and religions to legitimize their authority-often favoring certain religions (Lu and Gao 2018)-China is characterized by significant internal diversity in its religious culture, with an uneven distribution of religions across the country (Xie 2017). For instance, Confucianism, Buddhism, and Daoism (collectively known as “the three teachings”) are deeply entrenched in China, with the broadest distribution and the longest historical presence (Lopez 1996; Tang 2015). Meanwhile, Islam is predominant among local ethnic minorities in regions such as Xinjiang and Gansu (Gladney 2003; Israeli 2002); ancestor worship thrives in southern China (Faure 2007; Lakos 2010); and Christianity, although strictly regulated, maintains a presence in the eastern coastal cities (Cao 2008; Chen and Huang 2004). These religious cultures interweave, collectively shaping local behavioral norms and values.\nGiven this diversity, we propose five categories of Chinese religious cultures based on the predominance or nondominance of a single religion: equilibrium type (ET), where no single religion is dominant; three teachings type (TTT), where Confucianism, Buddhism, and Daoism are dominant; Christianity type (CT), where Christianity predominates; ancestor worship type (AWT), where ancestor worship is dominant; and Islam type (IT), where Islam dominates.\nTable 2 and Fig. 3a show the results of clustering and statistical analysis through which these five types were identified, as well as the proportions of the corresponding cities, average RCS, average MI, average RE, and key cities.\nTTT is the most prevalent religious culture as it is geographically widespread and accounts for 30.09% of cities. Although there are fewer ET cities than TTT cities, Beijing and Shanghai, China’s political center and economic hub, respectively, fall under this type. Meanwhile, AWT cities are observed to extend from central China to the southern coastal regions. Meanwhile, CT cities are clustered in three areas: northeastern China, the eastern coast, and the Hong Kong-Macau-Taiwan region. Finally, IT cities, the fewest in number, are primarily located in northwestern China.\nWe also count each religious building type from 2016 to 2022 to determine trends over time (Fig. 3b). Of the four types, temples were the most prevalent, with a rapid growth from 2019 to 2021. By 2022, the number of temples had increased by 41,699 compared to 2016, far outpacing the growth of other religious buildings. In contrast, ancestral halls and mosques grew in number but at a slower rate, increasing by 13,169 and 3544, respectively, by 2022. Only churches showed a downward trend. Until 2019, their numbers were just below those of temples; however, from 2017, the number of churches started to decline and became fewer than that of ancestral halls after 2020, representing a reduction of 1322 from 2016.\n### Impact of religious cultural similarity on migration\nWe adopt a panel model with origin and destination fixed effects to examine the impact of RCS on intercity migration. In Table 3, which presents the regression results, column (1) shows the estimation results for traditional factors, column (2) incorporates the RCS, and column (3) reports results using weighted least square regressions, where the weighting accounts for our use of an unbalanced panel and heteroskedasticity.\nOur analysis of the effects of classical factors shows that, as expected, greater geographic distance significantly inhibits migration, consistent with the gravity model of migration. The population sizes of the origin and destination are positively associated with migration, suggesting a “push” effect in populous origin cities and a “pull” effect in larger, more economically active ones.\nIn addition, per capita GDP at the origin facilitates migration rather than hindering it, as migrants must overcome fixed cost barriers to migration, and too low a GDP per capita prevents potential migrants from leaving because of poverty constraints (Mayda 2010). As economic conditions improve, however, migrants’ capacity to undertake long-distance relocation increases. In contrast, migration is reduced by higher average wages and a larger tertiary sector share at the origin, likely because of better local employment opportunities that diminish one’s incentive to leave.\nMeanwhile, at the destination, GDP per capita has a positive effect on attracting migrants, whereas higher average wages and tertiary sector share are negatively associated. This may be attributed to structural inflation in economically developed cities. While such inflation boosts average wages and the share of the tertiary sector in the GDP, these surges predominantly occur in the primary market, with little to no corresponding growth in secondary markets, where migrants are more likely to work in low-skill, low-status jobs. Consequently, the rise in wages and tertiary sector share in the GDP at the destination becomes less attractive for migrants.\nRCS-the core variable of interest-has a significant positive effect on intercity migration. As shown in column (2) of Table 3, 1% increase in RCS is associated with a 0.15% increase in the MI. This effect is roughly equivalent to a 0.12% increase in destination per capita GDP, highlighting the substantive role of cultural factors. In addition, the inclusion of RCS in the model results in reduced coefficients for population size, distance, and destination GDP per capita. This suggests that RCS captures part of the explanatory power previously attributed to demographic and economic factors, highlighting the importance of cultural proximity-specifically RCS-in shaping long-term internal migration.\n### Differences in the impact of religious cultural similarity among various types of religious cultures\nTo determine whether the impact of RCS on MI varies according to the type of religious culture, we estimate the coefficients of the interaction term between religious types and RCS (Table 4) using the same control variables as the main model. Columns (1)-(5) use different religious culture types as reference groups. A comparison of estimated coefficients shows that MI is least affected by RCS for origin AWT cities. This is followed by IT cities, where migrants continue to be affected by RCS but to a lesser extent. Specifically, when using ET as the reference group, for every unit increase in RCS, TTT cities see a 0.15% smaller increase in MI compared with ET cities. Meanwhile, AWT, IT, and CT cities have a 0.32%, 0.20%, and 0.15% smaller rise in MI per RCS unit, respectively.\n### Robustness check and endogeneity tests\nWe then conduct a series of robustness and endogeneity checks to verify our findings. Column (1) of Table 5 shows the results using an alternative RCS measurement based on the Herfindahl-style Similarity Index. Column (2) presents the results from an instrumental variable approach to address potential endogeneity concerns. To account for heteroskedasticity and the presence of zero migration-while properly controlling for time-varying origin and destination effects as well as time-invariant city-pair characteristics-we adopt a three-way fixed effects Poisson pseudo-maximum likelihood estimator (Weidner and Zylkin 2021; Yotov 2022). The results are shown in column (3) of Table 5 and are in line with Hypothesis 1, as all coefficients in the table are positive and statistically significant.\nTo explain potential disruptions to internal migration due to the COVID-19 pandemic, we calculate Pearson correlation coefficients for the annual MI, which includes periods unaffected (January 10-24, 2020, and January 7-21, 2023) and affected (January 28-February 11, 2021, and January 17-31, 2022) by the lockdown. The results indicate a strong correlation among MIs at the 0.001 confidence level regardless of the impact of COVID-19 (Supplementary Appendix Table 1). We also conduct cross-sectional Ordinary Least Squares estimates of MI and RCS by year for 2020-2023 (Supplementary Appendix Table 2) and use explanatory variables lagged by two years and spatial lag models for robustness testing (Supplementary Appendix Table 3). These estimates support the robustness of the primary conclusions.\nAs the construction time of religious buildings varies by religion, funding, and local policy, we classify origin cities into four groups based on GDP per capita quartiles and perform subgroup regressions (Supplementary Appendix Table 4). We also calculate the rate of annual change in different religious buildings at the origin and destination and add them to the model as control variables for fixed effects regression analysis (Supplementary Appendix Table 5). These results indirectly confirm that RCS continues to have a stable effect on MI despite differences in the financing and construction rates of religious buildings.\nAlthough we consider migration related to the Spring Festival as a proxy for migration stock, we recognize that the gravity model’s theoretical foundation is more conceptually aligned with migration flow (Beverelli and Orefice 2019). To account for this conceptual distinction and verify robustness, we calculate net flow as the change in migration stocks across years as an alternative dependent variable. Moreover, because migration networks can lower costs by offering subsequent migrants housing, job referrals, and other support (Palloni et al. 2001), we include lagged MI values as a control to account for potential network effects (Supplementary Appendix Table 6). The results when using migration flow rather than stocks further support Hypothesis 1.\nTo address the concern that the Baidu migration index during the Spring Festival may include nonmigrant mobility (e.g., tourism or temporary travel), we construct an alternative MI (MI_2) using the 2020 China Population Census, which contains province-level data on long-term migrant stocks. We then calculate a corresponding province-level RCS index and present the regression results using this alternative dataset in Supplementary Appendix Table 7. These results further support the robustness of our main conclusions.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR8",
+                "ref-CR68",
+                "ref-CR38",
+                "ref-CR90",
+                "ref-CR76",
+                "ref-CR43",
+                "ref-CR77",
+                "ref-CR111",
+                "ref-CR100",
+                "ref-CR17",
+                "ref-CR86",
+                "ref-CR95",
+                "ref-CR104",
+                "ref-CR62"
+            ],
+            "figures": [
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "### The effect of religious cultural similarity on migration\nChinese culture, as well as other societies worldwide, has a long-standing affinity for mysticism and supernatural beliefs. Despite China’s promotion of atheism for more than 70 years, religious elements have become deeply embedded in the secular system’s concepts, rituals, and structures, shaping how Chinese people assign values, define goals, and justify actions (Edgell 2012).\nThis study aims to examine how religion influences internal migration among Chinese cities. Its findings indicate that greater RCS between cities leads to higher migration levels. In other words, potential migrants prefer locations with more similar religious cultural backgrounds as destinations. This preference is not limited to individuals who identify as religious but extends to all migrants.\nThis finding substantiates the critical role of religion in secular society. Some may argue that the lack of an institutionalized form of religion in secular societies undermines its impact; however, this study highlights the significance of religious culture as a diffuse cultural force. In China, the power of religious culture lies in the fact that it does not compel people to actively believe or participate in it; rather, it may serve as an integral part of the society’s culture, subconsciously shaping local social norms, ethical frameworks, and public attitudes and broadly guiding the actions of members of the culture, including the nonreligious (Liu and Faure 1996, p. 2). Cultural activities at religious sites are an important expression of the vitality of Chinese religious culture. As pivotal nodes connecting community members, religious sites and religious cultural practices create shared historical memories, building local identity. They also foster a sense of communal belonging and cultural identity for those raised in this environment regardless of their religiosity (Astor and Mayrl 2020; Madsen 2014).\nThe influence of religious culture on migration stems from migrants’ attitudes toward their destination’s religious culture. Different religious cultures influence diverse values and social activities, and the barriers created by such differences are not easily overcome. As people generally hold more positive attitudes, such as trust and identification, toward groups or societies with similar religious cultural backgrounds, potential migrants’ positive identification with a destination motivates their decision to move there.\n### Differences in the impact of religious cultural similarity among various types of religious cultures\nHypothesis 2 posits that the effect of RCS on migration varies depending on the type of religious culture. The results indicate that this influence is stronger in cities with balanced religious distributions, followed by those dominated by the three teachings. Over the study period, this effect gradually diminishes in cities dominated by Christianity, Islam, and ancestor worship.\nConsistent with Hypothesis 2, a weaker preference for cultural similarity is observed among migrants from Christianity-dominated cities when selecting migration destinations. This pattern can be explained by the value orientations associated with Christianity, which emphasize a missionary role of adapting, integrating, and positively influencing new cultural contexts (Hanciles 2013, 2021). Christianity teaches believers to embrace cultural diversity, viewing migration not as an obstacle but as an opportunity to contribute to and engage with different communities (Halliday 2012). As a result, Christian migrants may feel less constrained by the need for religious or cultural similarity in their destination choices. Sudhiarsa (2023) empirically illustrated this dynamic by showing how Christian migrants in Indonesia have embraced their role in building fellowship and bridging cultural divides, highlighting their intercultural mindset and missionary purpose.\nMeanwhile, in ancestor worship-dominated cities, the relatively smaller impact of RCS on migration can be attributed to the strong kinship ties and social networks central to people’s religious values. Ancestor worship emphasizes lineage continuity across time and space (Lakos 2010), fostering tight-knit communities. Alongside cultural factors, such extensive kinship networks provide migrants with essential social capital, offering sufficient material and emotional support (Choldin 1973; Liu-Farrer 2008), particularly during the initial stages of migration (Cases 2025). Consequently, in-group networks help mitigate barriers resulting from cultural differences, alleviating migrants’ concerns about the degree of cultural similarity. A compelling example of this mechanism is the ancestor worship-dominated Fujian Province. The extensive kinship and geographic networks in the region provide significant and direct migration support, making Fujian one of the largest source provinces for international migration in China, accounting for nearly 18% of the country’s total international migrants (Lu et al. 2013).\nLikewise, in Islam-dominated cities, the historical practice of establishing cultural enclaves offers migrants a familiar sense of belonging and integration through internal community links (Bowen 2004; Grillo 2004). These enclaves provide migrants with religious, social, and material resources that help them thrive within their cultural and religious framework (Hack-Polay 2019). They also act as crucial buffers, enabling migrants to feel secure and integrated without requiring complete cultural alignment with the destination cities (Holmes and Marcelli 2020). Therefore, such contexts have a less pressing need for broader RCS across cities.\nCompared with cities where ancestor worship is prevalent, equilibrium and three teachings-dominated cities emphasize broader social norms and cultural consistency that is rooted in a collectivist orientation (Wong 2024). Members tend to distinguish in-group from out-group members more sharply, aspire to maintain strong social bonds and a sense of belonging to a similar cultural group, and display greater intergroup discrimination (Leong 2008), making RCS a relatively significant factor for migrants’ destination choices.\nNotably, we must be vigilant about the possibility of inequality associated with this phenomenon. Members influenced by a religious culture with a collectivist orientation are generally friendlier toward those with similar characteristics to the in-group while excluding and discriminating against cultural outsiders. This can lead to the unequal treatment of migrants from different religious cultural backgrounds. Moreover, such deep cultural differentiation is difficult to identify and eliminate.\nOverall, our findings align with and expand research that highlights the effect of cultural factors on migration (Castelli 2018; Hagan and Ebaugh 2003; Kontuly and Smith 1995; Massey et al. 1993). While the influence of religious culture on the masses in the study context may not be as overt as that of adherents’ religious beliefs in Western contexts, it subtly shapes migration decisions in a macro-cultural manner. Specifically, this study observes the dynamics of religion in China’s mainly secular and atheistic society, finding that it maintains its links with traditional forms on the one hand while removing denominational components to shape modern life with implicit orientations, value systems, knowledge structures, and modes of interaction on the other (Astor and Mayrl 2020; Demerath 2000). While a significant portion of the Chinese population identifies as atheists, religion’s cultural influence is deeply ingrained in the country’s societal fabric, affecting its residents’ behavior. Such culturally based inheritance and identity can help us understand religion’s wide-ranging influence in Eastern and Western societies. A similar phenomenon can be observed in Western societies, where many atheists continue to maintain religious traditions-not solely through active faith, but also through enduring ties to community life, ethnic heritage, and cultural practices. (Cohen et al. 2016).\nThis study has two main contributions to the literature. First, while previous studies have emphasized the role of church networks and religious identity in shaping migration through direct social capital mechanisms (Connor 2009; Hirschman 2004), our study proposes a distinct pathway. We show that in secular contexts, religion can influence migration not solely through institutional affiliation but through place-based cultural familiarity and symbolic belonging. This study offers a culturally grounded explanation of migration that moves beyond the believer/nonbeliever binary by examining how broader religious cultural atmospheres-rather than individual affiliation-may shape migration decisions. Drawing on China’s highly fluid internal migration and diverse religious landscape, we use a robust sample to explore this relatively underexamined dimension and open new avenues for cross-cultural and secular-religious comparative research. Furthermore, as international migration continues to transform the religious makeup of many countries, such as the United States and Canada (Connor 2009), this study’s approach offers valuable perspectives for capturing migration dynamics in these large and culturally diverse nations. Although this study focuses on internal migration, its analytical framework can be adapted to several contexts-including within predominantly religious nations, between religious and secular societies, and across countries characterized by diverse religious landscapes.\nSecond, by using geographic big data, such as POI data, our approach yields a comprehensive similarity matrix reflecting RCS, which has significant advantages. First, the extensive datasets and precise geographic locations in POI data provide a comprehensive representation of diverse religious situations, allowing us to capture cities’ authentic cultural atmosphere and enhancing the objectivity and accuracy of our findings. Furthermore, this method minimizes the effects of self-reported bias, which is prevalent in both Eastern and Western contexts (Davie 1996; Yang and McPhail 2023). As previously discussed, individuals in Eastern contexts may under-report their actual religious adherence, whereas those in Western contexts tend to overestimate their religiosity (Casanova and Zolberg 2002). Further, by using geographic big data, our approach is compatible with cross-country samples and avoids issues such as mistranslations and differing respondent interpretations, thereby offering an adaptable and comparable analysis framework for cultural phenomena.\n### Limitations\nThis study is not without its limitations. The use of religious sites as a proxy for RCS may not fully capture the complexity of religious practices. This proxy measurement method, which relies on the number of sacred sites, excludes family-level religious cultural activities. For instance, studies have shown that grassroots indigenous Christianity began to proliferate, particularly in regions where temples had been destroyed (Madsen 2014). While our analysis relies on panel data from 2020 to 2023 and confirms that RCS exhibits sufficient intertemporal variation to justify the fixed-effects estimation strategy, the temporal scope remains relatively short. Because architectural indicators may lag behind cultural change, longer-term longitudinal data and more dynamic cultural measures would enable future research to capture historical shifts in religious affiliation better and deepen the analysis of intercohort variation and generational replacement (Hu and Leamaster 2015).\nFurther, although the Baidu migration index during the Spring Festival primarily reflects homebound migrants, these data inevitably include some mixed mobility forms, such as tourism or business trips, resulting in a potential overlap that does not invalidate the general trends captured by the index but does highlight the need to exercise caution when interpreting results.\nLastly, while this study focuses on the Chinese context, its framework invites broader comparative inquiry. Due to data limitations and space constraints, we do not explore this aspect in detail here. However, future research could build on this culturally grounded pathway to examine the migration effects of religious cultural similarity in both secular (e.g., Switzerland, Germany) and religiously embedded societies (e.g., India, the United States), using cross-national data to assess the generalizability and context-dependence of our findings.",
+            "cites": [
+                "ref-CR56",
+                "ref-CR68",
+                "ref-CR15",
+                "ref-CR10",
+                "ref-CR81",
+                "ref-CR69",
+                "ref-CR107",
+                "ref-CR55",
+                "ref-CR74",
+                "ref-CR21",
+                "ref-CR26",
+                "ref-CR47",
+                "ref-CR84",
+                "ref-CR94",
+                "ref-CR102",
+                "ref-CR48",
+                "ref-CR4",
+                "ref-CR29",
+                "ref-CR51",
+                "ref-CR59",
+                "ref-CR75",
+                "ref-CR14",
+                "ref-CR33",
+                "ref-CR78",
+                "ref-CR49",
+                "ref-CR24",
+                "ref-CR53",
+                "ref-CR67",
+                "ref-CR13",
+                "ref-CR23",
+                "ref-CR52"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1",
+            "figure-caption": "City religious culture vectorization approach.",
+            "figure-link": "https://www.nature.com/articles/s41599-025-05272-2/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2",
+            "figure-caption": "Workflow for determining religious entropy.",
+            "figure-link": "https://www.nature.com/articles/s41599-025-05272-2/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Spatiotemporal distribution of the five religious cultures.",
+            "figure-caption": "a Geographical distribution of five religious cultures. b Temporal trends in the number of religious buildings.",
+            "figure-link": "https://www.nature.com/articles/s41599-025-05272-2/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Alanezi F, Sherkat DE (2008) The religious participation of US immigrants: exploring contextual and individual influences. Soc Sci Res 37(3):844-855",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ssresearch.2008.03.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20religious%20participation%20of%20US%20immigrants%3A%20exploring%20contextual%20and%20individual%20influences&journal=Soc%20Sci%20Res&doi=10.1016%2Fj.ssresearch.2008.03.005&volume=37&issue=3&pages=844-855&publication_year=2008&author=Alanezi%2CF&author=Sherkat%2CDE"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Anderson J (2011) The gravity model. Annu Rev Econ 3(1):133-160",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-economics-111809-125114",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20gravity%20model&journal=Annu%20Rev%20Econ&doi=10.1146%2Fannurev-economics-111809-125114&volume=3&issue=1&pages=133-160&publication_year=2011&author=Anderson%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Antonsich M (2010) Searching for belonging-an analytical framework. Geogr Compass 4(6):644-659",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1749-8198.2009.00317.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Searching%20for%20belonging%E2%80%93an%20analytical%20framework&journal=Geogr%20Compass&doi=10.1111%2Fj.1749-8198.2009.00317.x&volume=4&issue=6&pages=644-659&publication_year=2010&author=Antonsich%2CM"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Astor A, Mayrl D (2020) Culturalized religion: a synthetic review and agenda for research. J Sci Study Relig 59(2):209-226",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fjssr.12661",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Culturalized%20religion%3A%20a%20synthetic%20review%20and%20agenda%20for%20research&journal=J%20Sci%20Study%20Relig&doi=10.1111%2Fjssr.12661&volume=59&issue=2&pages=209-226&publication_year=2020&author=Astor%2CA&author=Mayrl%2CD"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Bebbington D (2012) Victorian religious revivals: culture and piety in local and global contexts. Oxford University Press, New York",
+            "links": {}
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Bell C (1992) Ritual theory, ritual practice. Oxford University Press, New York",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Belot M, Ederveen S (2012) Cultural barriers in migration between OECD countries. J Popul Econ 25:1077-1105",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00148-011-0356-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cultural%20barriers%20in%20migration%20between%20OECD%20countries&journal=J%20Popul%20Econ&doi=10.1007%2Fs00148-011-0356-x&volume=25&pages=1077-1105&publication_year=2012&author=Belot%2CM&author=Ederveen%2CS"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Beverelli C, Orefice G (2019) Migration deflection: the role of preferential trade agreements. Regional Sci Urban Econ 79:103469. https://doi.org/10.1016/j.regsciurbeco.2019.103469",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.regsciurbeco.2019.103469",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migration%20deflection%3A%20the%20role%20of%20preferential%20trade%20agreements&journal=Regional%20Sci%20Urban%20Econ&doi=10.1016%2Fj.regsciurbeco.2019.103469&volume=79&publication_year=2019&author=Beverelli%2CC&author=Orefice%2CG"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Bin Z (1998) Popular family television and party ideology: the Spring Festival Eve happy gathering. Media, Cult Soc 20(1):43-58",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F016344398020001004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Popular%20family%20television%20and%20party%20ideology%3A%20the%20Spring%20Festival%20Eve%20happy%20gathering&journal=Media%2C%20Cult%20Soc&doi=10.1177%2F016344398020001004&volume=20&issue=1&pages=43-58&publication_year=1998&author=Bin%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Bowen JR (2004) Beyond migration: Islam as a transnational public space. J Ethn Migr Stud 30(5):879-894",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F1369183042000245598",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Beyond%20migration%3A%20Islam%20as%20a%20transnational%20public%20space&journal=J%20Ethn%20Migr%20Stud&doi=10.1080%2F1369183042000245598&volume=30&issue=5&pages=879-894&publication_year=2004&author=Bowen%2CJR"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Brenner PS, LaPlante J, Reed TL (2024) Sources of inconsistency in the measurement of religious affiliation: evidence from a survey experiment and cognitive interviews. Sociol Relig 85(4):404-428",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fsocrel%2Fsrad048",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sources%20of%20inconsistency%20in%20the%20measurement%20of%20religious%20affiliation%3A%20evidence%20from%20a%20survey%20experiment%20and%20cognitive%20interviews&journal=Sociol%20Relig&doi=10.1093%2Fsocrel%2Fsrad048&volume=85&issue=4&pages=404-428&publication_year=2024&author=Brenner%2CPS&author=LaPlante%2CJ&author=Reed%2CTL"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Cao N (2008) Boss Christians: the business of religion in the” Wenzhou model” of Christian revival. China J 59:63-87",
+            "links": {
+                "Article": "https://doi.org/10.1086%2Ftcj.59.20066380",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Boss%20Christians%3A%20the%20business%20of%20religion%20in%20the%E2%80%9D%20Wenzhou%20model%E2%80%9D%20of%20Christian%20revival&journal=China%20J&doi=10.1086%2Ftcj.59.20066380&volume=59&pages=63-87&publication_year=2008&author=Cao%2CN"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Casanova J, Zolberg A (2002) Religion and immigrant incorporation in New York. In: Conference on immigrant incorporation in New York, The New School",
+            "links": {}
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Cases RKC (2025) Persistent ties, evolving networks: accounting for changes and stability in migrant support networks. Int Migr 63:e13286",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fimig.13286",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Persistent%20ties%2C%20evolving%20networks%3A%20accounting%20for%20changes%20and%20stability%20in%20migrant%20support%20networks&journal=Int%20Migr&doi=10.1111%2Fimig.13286&volume=63&publication_year=2025&author=Cases%2CRKC"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Castelli F (2018) Drivers of migration: why do people move? J travel Med 25(1):tay040",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fjtm%2Ftay040",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Drivers%20of%20migration%3A%20why%20do%20people%20move%3F&journal=J%20travel%20Med&doi=10.1093%2Fjtm%2Ftay040&volume=25&issue=1&publication_year=2018&author=Castelli%2CF"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Chau AY (2008) Miraculous response: doing popular religion in contemporary China. Stanford University Press, Stanford, CA",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Chen C, Huang T (2004) The emergence of a new type of Christians in China today. Rev Religious Res 46(2):183-200",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F3512232",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20emergence%20of%20a%20new%20type%20of%20Christians%20in%20China%20today&journal=Rev%20Religious%20Res&doi=10.2307%2F3512232&volume=46&issue=2&pages=183-200&publication_year=2004&author=Chen%2CC&author=Huang%2CT"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Cheng M, Duan C (2021) The changing trends of internal migration and urbanization in China: new evidence from the seventh National Population Census. China Popul Dev Stud 5(3):275-295",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s42379-021-00093-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20changing%20trends%20of%20internal%20migration%20and%20urbanization%20in%20China%3A%20new%20evidence%20from%20the%20seventh%20National%20Population%20Census&journal=China%20Popul%20Dev%20Stud&doi=10.1007%2Fs42379-021-00093-7&volume=5&issue=3&pages=275-295&publication_year=2021&author=Cheng%2CM&author=Duan%2CC"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Chidester D, Linenthal ET (1995) American sacred space. Indiana University Press, Bloomington, IN",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Chivallon C (2001) Religion as space for the expression of Caribbean identity in the United Kingdom. Environ Plan D Soc Space 19(4):461-483",
+            "links": {
+                "Article": "https://doi.org/10.1068%2Fd2341",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Religion%20as%20space%20for%20the%20expression%20of%20Caribbean%20identity%20in%20the%20United%20Kingdom&journal=Environ%20Plan%20D%20Soc%20Space&doi=10.1068%2Fd2341&volume=19&issue=4&pages=461-483&publication_year=2001&author=Chivallon%2CC"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Choldin HM (1973) Kinship networks in the migration process. Int Migr Rev 7(2):163-176",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F019791837300700203",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Kinship%20networks%20in%20the%20migration%20process&journal=Int%20Migr%20Rev&doi=10.1177%2F019791837300700203&volume=7&issue=2&pages=163-176&publication_year=1973&author=Choldin%2CHM"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Clarke S, Powell R, Savulescu J (2013) Religion, intolerance, and conflict: a scientific and conceptual investigation. Oxford University Press, New York",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Cohen AB, Wu MS, Miller J (2016) Religion and culture: individualism and collectivism in the East and West. J Cross Cultural Psychol 47(9):1236-1249",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0022022116667895",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Religion%20and%20culture%3A%20individualism%20and%20collectivism%20in%20the%20East%20and%20West&journal=J%20Cross%20Cultural%20Psychol&doi=10.1177%2F0022022116667895&volume=47&issue=9&pages=1236-1249&publication_year=2016&author=Cohen%2CAB&author=Wu%2CMS&author=Miller%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Connor P (2009) Immigrant religiosity in Canada: multiple trajectories. J Int Migr Integr 10(2):159-175. https://doi.org/10.1007/s12134-009-0097-9",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s12134-009-0097-9",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2576329",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Immigrant%20religiosity%20in%20Canada%3A%20multiple%20trajectories&journal=J%20Int%20Migr%20Integr&doi=10.1007%2Fs12134-009-0097-9&volume=10&issue=2&pages=159-175&publication_year=2009&author=Connor%2CP"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Cromley RG, Hanink DM, Ebenstein AY (2010) Estimating and mapping the intercensal internal Net migration of China, 1990-2000. Cartogr Geographic Inf Sci 37(3):229-238",
+            "links": {
+                "Article": "https://doi.org/10.1559%2F152304010792194912",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20and%20mapping%20the%20intercensal%20internal%20Net%20migration%20of%20China%2C%201990-2000&journal=Cartogr%20Geographic%20Inf%20Sci&doi=10.1559%2F152304010792194912&volume=37&issue=3&pages=229-238&publication_year=2010&author=Cromley%2CRG&author=Hanink%2CDM&author=Ebenstein%2CAY"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Davie G (1996) Religion in Britain since 1945: believing without belonging. Blackwell Publishig, Oxford",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Dean K (2003) Local communal religion in contemporary south-east China. China Q 174:338-358",
+            "links": {
+                "Article": "https://doi.org/10.1017%2FS0009443903000214",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local%20communal%20religion%20in%20contemporary%20south-east%20China&journal=China%20Q&doi=10.1017%2FS0009443903000214&volume=174&pages=338-358&publication_year=2003&author=Dean%2CK"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "DeBernardi J (1992) Space and time in Chinese religious culture. Hist Relig 31(3):247-268",
+            "links": {
+                "Article": "https://doi.org/10.1086%2F463284",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Space%20and%20time%20in%20Chinese%20religious%20culture&journal=Hist%20Relig&doi=10.1086%2F463284&volume=31&issue=3&pages=247-268&publication_year=1992&author=DeBernardi%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Demerath NJ (2000) The rise of “cultural religion” in European Christianity: learning from Poland, Northern Ireland, and Sweden. Soc Compass 47(1):127-139",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F003776800047001013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20rise%20of%20%E2%80%9Ccultural%20religion%E2%80%9D%20in%20European%20Christianity%3A%20learning%20from%20Poland%2C%20Northern%20Ireland%2C%20and%20Sweden&journal=Soc%20Compass&doi=10.1177%2F003776800047001013&volume=47&issue=1&pages=127-139&publication_year=2000&author=Demerath%2CNJ"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Dou J, Miao S (2017) Impact of mass human migration during Chinese New Year on Beijing urban heat island. Int J Climatol 37(11):4199-4210",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fjoc.5061",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20mass%20human%20migration%20during%20Chinese%20New%20Year%20on%20Beijing%20urban%20heat%20island&journal=Int%20J%20Climatol&doi=10.1002%2Fjoc.5061&volume=37&issue=11&pages=4199-4210&publication_year=2017&author=Dou%2CJ&author=Miao%2CS"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Duderija A (2007) Literature review: Identity construction in the context of being a minority immigrant religion: the case of western-born Muslims. Immigr Minorities 25(2):141-162",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F02619280802018132",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Literature%20review%3A%20Identity%20construction%20in%20the%20context%20of%20being%20a%20minority%20immigrant%20religion%3A%20the%20case%20of%20western-born%20Muslims&journal=Immigr%20Minorities&doi=10.1080%2F02619280802018132&volume=25&issue=2&pages=141-162&publication_year=2007&author=Duderija%2CA"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Durkheim E (2016) The elementary forms of religious life. In Social theory re-wired, pp. 52-67. Routledge, London",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Edgell P (2012) A cultural sociology of religion: new directions. Annu Rev Sociol 38(1):247-265",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-soc-071811-145424",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20cultural%20sociology%20of%20religion%3A%20new%20directions&journal=Annu%20Rev%20Sociol&doi=10.1146%2Fannurev-soc-071811-145424&volume=38&issue=1&pages=247-265&publication_year=2012&author=Edgell%2CP"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Edgell P (2024) After restructuring: understanding religion, nonreligion, and spirituality in the twenty-first century. Sociol Relig 85(4):381-403",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fsocrel%2Fsrad063",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=After%20restructuring%3A%20understanding%20religion%2C%20nonreligion%2C%20and%20spirituality%20in%20the%20twenty-first%20century&journal=Sociol%20Relig&doi=10.1093%2Fsocrel%2Fsrad063&volume=85&issue=4&pages=381-403&publication_year=2024&author=Edgell%2CP"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Engels F (1934) Herr Eugen Dühring's revolution in science, 208. Martin Lawrence, London",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Falco C, Rotondi V (2016) The less extreme, the more you leave: radical Islam and willingness to migrate. World Dev 88:122-133",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.worlddev.2016.07.017",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20less%20extreme%2C%20the%20more%20you%20leave%3A%20radical%20Islam%20and%20willingness%20to%20migrate&journal=World%20Dev&doi=10.1016%2Fj.worlddev.2016.07.017&volume=88&pages=122-133&publication_year=2016&author=Falco%2CC&author=Rotondi%2CV"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Fan L (2003) Popular religion in contemporary China. Soc Compass 50(4):449-457",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0037768603504004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Popular%20religion%20in%20contemporary%20China&journal=Soc%20Compass&doi=10.1177%2F0037768603504004&volume=50&issue=4&pages=449-457&publication_year=2003&author=Fan%2CL"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Faure D (2007) Emperor and ancestor: state and lineage in South China. Stanford University Press, Stanford, CA",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Feuchtwang S (2003) Popular religion in China: the imperial metaphor. Routledge, London",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Fontefrancesco M, Barstow C, Grazioli F et al. (2019) Keeping or changing? Two different cultural adaptation strategies in the domestic use of home country food plant and herbal ingredients among Albanian and Moroccan migrants in Northwestern Italy. J Ethnobiol Ethnomed 15:1-18",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s13002-019-0290-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Keeping%20or%20changing%3F%20Two%20different%20cultural%20adaptation%20strategies%20in%20the%20domestic%20use%20of%20home%20country%20food%20plant%20and%20herbal%20ingredients%20among%20Albanian%20and%20Moroccan%20migrants%20in%20Northwestern%20Italy&journal=J%20Ethnobiol%20Ethnomed&doi=10.1186%2Fs13002-019-0290-7&volume=15&pages=1-18&publication_year=2019&author=Fontefrancesco%2CM&author=Barstow%2CC&author=Grazioli%2CF"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Fu Z, Liu S, Ju G, Ma W, Chen Y (2024) Instrumental Guanxi Culture and Inbound Urban Migration in China: A Prefecture-level Analysis Using Online Search Data China Q 260:1040-1058",
+            "links": {
+                "Article": "https://doi.org/10.1017%2FS0305741024000316",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Instrumental%20Guanxi%20Culture%20and%20Inbound%20Urban%20Migration%20in%20China%3A%20A%20Prefecture-level%20Analysis%20Using%20Online%20Search%20Data&journal=China%20Q&doi=10.1017%2FS0305741024000316&volume=260&pages=1040-1058&publication_year=2024&author=Fu%2CZ&author=Liu%2CS&author=Ju%2CG&author=Ma%2CW&author=Chen%2CY"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Gladney DC (2003) Islam in China: accommodation or separatism? China Q 174:451-467",
+            "links": {
+                "Article": "https://doi.org/10.1017%2FS0009443903000275",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Islam%20in%20China%3A%20accommodation%20or%20separatism%3F&journal=China%20Q&doi=10.1017%2FS0009443903000275&volume=174&pages=451-467&publication_year=2003&author=Gladney%2CDC"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Greenwood MJ (1975) Research on internal migration in the United States: a survey. J Econ Lit 13(2):397-433",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Research%20on%20internal%20migration%20in%20the%20United%20States%3A%20a%20survey&journal=J%20Econ%20Lit&volume=13&issue=2&pages=397-433&publication_year=1975&author=Greenwood%2CMJ"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Greenwood MJ, Hunt GL (2003) The early history of migration research. Int Regional Sci Rev 26(1):3-37",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0160017602238983",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20early%20history%20of%20migration%20research&journal=Int%20Regional%20Sci%20Rev&doi=10.1177%2F0160017602238983&volume=26&issue=1&pages=3-37&publication_year=2003&author=Greenwood%2CMJ&author=Hunt%2CGL"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Gregersen AM, Afdal G (2022) An affective religious boundary tool. Poetics 93:101685",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.poetic.2022.101685",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20affective%20religious%20boundary%20tool&journal=Poetics&doi=10.1016%2Fj.poetic.2022.101685&volume=93&publication_year=2022&author=Gregersen%2CAM&author=Afdal%2CG"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Grillo R (2004) Islam and transnationalism. J Ethn Migr Stud 30(5):861-878",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F1369183042000245589",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Islam%20and%20transnationalism&journal=J%20Ethn%20Migr%20Stud&doi=10.1080%2F1369183042000245589&volume=30&issue=5&pages=861-878&publication_year=2004&author=Grillo%2CR"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Hack-Polay D (2019) Migrant enclaves: disempowering economic ghettos or sanctuaries of opportunities for migrants? A double lens dialectic analysis. J Enterprising Communities 13(4):418-437",
+            "links": {
+                "Article": "https://doi.org/10.1108%2FJEC-01-2019-0008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migrant%20enclaves%3A%20disempowering%20economic%20ghettos%20or%20sanctuaries%20of%20opportunities%20for%20migrants%3F%20A%20double%20lens%20dialectic%20analysis&journal=J%20Enterprising%20Communities&doi=10.1108%2FJEC-01-2019-0008&volume=13&issue=4&pages=418-437&publication_year=2019&author=Hack-Polay%2CD"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Hagan J, Ebaugh HR (2003) Calling upon the sacred: migrants’ use of religion in the migration process. Int Migr Rev 37(4):1145-1162",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1747-7379.2003.tb00173.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Calling%20upon%20the%20sacred%3A%20migrants%E2%80%99%20use%20of%20religion%20in%20the%20migration%20process&journal=Int%20Migr%20Rev&doi=10.1111%2Fj.1747-7379.2003.tb00173.x&volume=37&issue=4&pages=1145-1162&publication_year=2003&author=Hagan%2CJ&author=Ebaugh%2CHR"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Halawa A (2018) Acculturation of Halal food to the American food culture through immigration and globalization. J Ethn Cultural Stud 5(2):53-63",
+            "links": {
+                "Article": "https://doi.org/10.29333%2Fejecs%2F89",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Acculturation%20of%20Halal%20food%20to%20the%20American%20food%20culture%20through%20immigration%20and%20globalization&journal=J%20Ethn%20Cultural%20Stud&doi=10.29333%2Fejecs%2F89&volume=5&issue=2&pages=53-63&publication_year=2018&author=Halawa%2CA"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Halliday A (2012) Migration and multicultural ministries as mission. Int Rev Mission 101(2):407-414",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1758-6631.2012.00119.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migration%20and%20multicultural%20ministries%20as%20mission&journal=Int%20Rev%20Mission&doi=10.1111%2Fj.1758-6631.2012.00119.x&volume=101&issue=2&pages=407-414&publication_year=2012&author=Halliday%2CA"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Hanciles JJ (2013) Migrants as missionaries, missionaries as outsiders: reflections on African Christian presence in Western societies. Mission Stud 30(1):64-85",
+            "links": {
+                "Article": "https://doi.org/10.1163%2F15733831-12341258",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migrants%20as%20missionaries%2C%20missionaries%20as%20outsiders%3A%20reflections%20on%20African%20Christian%20presence%20in%20Western%20societies&journal=Mission%20Stud&doi=10.1163%2F15733831-12341258&volume=30&issue=1&pages=64-85&publication_year=2013&author=Hanciles%2CJJ"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Hanciles JJ (2021) Migration and the making of global Christianity. Wm. B. Eerdmans Publishing, Grand Rapids, MI",
+            "links": {}
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Hill TD, Gonzalez K, Burdette AM (2020) The blood of Christ compels them: state religiosity and state population mobility during the coronavirus (COVID-19) pandemic. J Relig Health 59:2229-2242",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10943-020-01058-9",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32596753",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7321650",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20blood%20of%20Christ%20compels%20them%3A%20state%20religiosity%20and%20state%20population%20mobility%20during%20the%20coronavirus%20%28COVID-19%29%20pandemic&journal=J%20Relig%20Health&doi=10.1007%2Fs10943-020-01058-9&volume=59&pages=2229-2242&publication_year=2020&author=Hill%2CTD&author=Gonzalez%2CK&author=Burdette%2CAM"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Hirschman C (2004) The role of religion in the origins and adaptation of immigrant groups in the United States 1. Int Migr Rev 38(3):1206-1233",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1747-7379.2004.tb00233.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20religion%20in%20the%20origins%20and%20adaptation%20of%20immigrant%20groups%20in%20the%20United%20States%201&journal=Int%20Migr%20Rev&doi=10.1111%2Fj.1747-7379.2004.tb00233.x&volume=38&issue=3&pages=1206-1233&publication_year=2004&author=Hirschman%2CC"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Holmes LM, Marcelli EA (2020) Neighborhood social cohesion and serious psychological distress among Brazilian immigrants in Boston. Community Ment health J 56(1):149-156",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10597-019-00468-8",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31535346",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighborhood%20social%20cohesion%20and%20serious%20psychological%20distress%20among%20Brazilian%20immigrants%20in%20Boston&journal=Community%20Ment%20health%20J&doi=10.1007%2Fs10597-019-00468-8&volume=56&issue=1&pages=149-156&publication_year=2020&author=Holmes%2CLM&author=Marcelli%2CEA"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Hooghe M, Trappers A, Meuleman B et al. (2008) Migration to European countries: a structural explanation of patterns, 1980-2004. Int Migr Rev 42(2):476-504",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1747-7379.2008.00132.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migration%20to%20European%20countries%3A%20a%20structural%20explanation%20of%20patterns%2C%201980%E2%80%932004&journal=Int%20Migr%20Rev&doi=10.1111%2Fj.1747-7379.2008.00132.x&volume=42&issue=2&pages=476-504&publication_year=2008&author=Hooghe%2CM&author=Trappers%2CA&author=Meuleman%2CB"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Hu A (2016) Ancestor worship in contemporary China: an empirical investigation. China Rev 16(1):169-186",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXhtFaisb3E",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ancestor%20worship%20in%20contemporary%20China%3A%20an%20empirical%20investigation&journal=China%20Rev&volume=16&issue=1&pages=169-186&publication_year=2016&author=Hu%2CA"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Hu A, Leamaster RJ (2015) Intergenerational religious mobility in contemporary China. J Sci Study Relig 54(1):79-99",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fjssr.12168",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Intergenerational%20religious%20mobility%20in%20contemporary%20China&journal=J%20Sci%20Study%20Relig&doi=10.1111%2Fjssr.12168&volume=54&issue=1&pages=79-99&publication_year=2015&author=Hu%2CA&author=Leamaster%2CRJ"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Iannaccone LR (1994) Why strict churches are strong. Am J Sociol 99(5):1180-1211",
+            "links": {
+                "Article": "https://doi.org/10.1086%2F230409",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Why%20strict%20churches%20are%20strong&journal=Am%20J%20Sociol&doi=10.1086%2F230409&volume=99&issue=5&pages=1180-1211&publication_year=1994&author=Iannaccone%2CLR"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "IOM (2022) International organization for migration-IOM. In: The Europa Directory of International Organizations 2022, pp. 360-365. Routledge, London",
+            "links": {}
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Israeli R (2002) Islam in China: Religion, ethnicity, culture, and politics. Lexington Books, Lanham, MD",
+            "links": {}
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Kalmanson LE (2017) Dharma and Dao: key terms in the comparative philosophy of religion. In: Maffie J, Stenmark M (eds) In effability: an exercise in comparative philosophy of religion, pp. 245-255. Springer, Cham, Switzerland",
+            "links": {}
+        },
+        {
+            "id": "ref-CR64",
+            "content": "King AY, Bond MH (1985) The Confucian paradigm of man: a sociological view. In Chinese culture and mental health, 29-45. Academic Press, London",
+            "links": {}
+        },
+        {
+            "id": "ref-CR65",
+            "content": "King R, Skeldon R (2010) Mind the gap!’Integrating approaches to internal and international migration. J Ethn Migr Stud 36(10):1619-1646",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F1369183X.2010.489380",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mind%20the%20gap%21%E2%80%99Integrating%20approaches%20to%20internal%20and%20international%20migration&journal=J%20Ethn%20Migr%20Stud&doi=10.1080%2F1369183X.2010.489380&volume=36&issue=10&pages=1619-1646&publication_year=2010&author=King%2CR&author=Skeldon%2CR"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "Kļaviņš K (2024) Emptiness/nothingness as explained by Ryu Yongmo (Tasŏk)(1890-1981) and Isaac Jacob Schmidt (1779-1847): a cross-cultural study of the integration of Asian intellectual heritage into the worldview of two protestant Christians. Religions 15(7):871",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Frel15070871",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emptiness%2Fnothingness%20as%20explained%20by%20Ryu%20Yongmo%20%28Tas%C5%8Fk%29%281890%E2%80%931981%29%20and%20Isaac%20Jacob%20Schmidt%20%281779%E2%80%931847%29%3A%20a%20cross-cultural%20study%20of%20the%20integration%20of%20Asian%20intellectual%20heritage%20into%20the%20worldview%20of%20two%20protestant%20Christians&journal=Religions&doi=10.3390%2Frel15070871&volume=15&issue=7&publication_year=2024&author=K%C4%BCavi%C5%86%C5%A1%2CK"
+            }
+        },
+        {
+            "id": "ref-CR67",
+            "content": "Kontuly T, Smith KR (1995) Culture as a determinant of reasons for migration. Soc Sci J 32(2):179-193",
+            "links": {
+                "Article": "https://doi.org/10.1016%2F0362-3319%2895%2990004-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Culture%20as%20a%20determinant%20of%20reasons%20for%20migration&journal=Soc%20Sci%20J&doi=10.1016%2F0362-3319%2895%2990004-7&volume=32&issue=2&pages=179-193&publication_year=1995&author=Kontuly%2CT&author=Smith%2CKR"
+            }
+        },
+        {
+            "id": "ref-CR68",
+            "content": "Lakos W (2010) Chinese ancestor worship: a practice and ritual oriented approach to understanding Chinese culture. Cambridge Scholars Publishing, Newcastle upon Tyne, UK",
+            "links": {}
+        },
+        {
+            "id": "ref-CR69",
+            "content": "Leong C-H (2008) A multilevel research framework for the analyses of attitudes toward immigrants. Int J Intercultural Relat 32(2):115-129",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ijintrel.2007.10.002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20multilevel%20research%20framework%20for%20the%20analyses%20of%20attitudes%20toward%20immigrants&journal=Int%20J%20Intercultural%20Relat&doi=10.1016%2Fj.ijintrel.2007.10.002&volume=32&issue=2&pages=115-129&publication_year=2008&author=Leong%2CC-H"
+            }
+        },
+        {
+            "id": "ref-CR70",
+            "content": "Levi JA (2024) Identity matters: culture and religion as key factors in the migration of muslims. Migr Diversity 3(1):29-50",
+            "links": {
+                "Article": "https://doi.org/10.33182%2Fmd.v3i1.3157",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Identity%20matters%3A%20culture%20and%20religion%20as%20key%20factors%20in%20the%20migration%20of%20muslims&journal=Migr%20Diversity&doi=10.33182%2Fmd.v3i1.3157&volume=3&issue=1&pages=29-50&publication_year=2024&author=Levi%2CJA"
+            }
+        },
+        {
+            "id": "ref-CR71",
+            "content": "Li J, Ye Q, Deng X et al. (2016) Spatial-temporal analysis on spring festival travel rush in China based on multisource big data. Sustainability 8(11):1184",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu8111184",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial-temporal%20analysis%20on%20spring%20festival%20travel%20rush%20in%20China%20based%20on%20multisource%20big%20data&journal=Sustainability&doi=10.3390%2Fsu8111184&volume=8&issue=11&publication_year=2016&author=Li%2CJ&author=Ye%2CQ&author=Deng%2CX"
+            }
+        },
+        {
+            "id": "ref-CR72",
+            "content": "Li M (2018) Staging a social drama: ritualized framing of the spring festival homecoming in Chinese state media. Journalism 19(9-10):1417-1434",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F1464884917704090",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Staging%20a%20social%20drama%3A%20ritualized%20framing%20of%20the%20spring%20festival%20homecoming%20in%20Chinese%20state%20media&journal=Journalism&doi=10.1177%2F1464884917704090&volume=19&issue=9-10&pages=1417-1434&publication_year=2018&author=Li%2CM"
+            }
+        },
+        {
+            "id": "ref-CR73",
+            "content": "Liu Z, Wang C, Yang J et al. (2020) Caspase-1 engages full-length gasdermin D through two distinct interfaces that mediate caspase recruitment and substrate cleavage. Immunity 53(1):106-114",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.immuni.2020.06.007",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhtFykt7%2FM",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32553275",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7382298",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Caspase-1%20engages%20full-length%20gasdermin%20D%20through%20two%20distinct%20interfaces%20that%20mediate%20caspase%20recruitment%20and%20substrate%20cleavage&journal=Immunity&doi=10.1016%2Fj.immuni.2020.06.007&volume=53&issue=1&pages=106-114&publication_year=2020&author=Liu%2CZ&author=Wang%2CC&author=Yang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR74",
+            "content": "Liu TT, Faure D (1996) Unity and diversity: local cultures and identities in China, 1. Hong Kong University Press, Hong Kong",
+            "links": {}
+        },
+        {
+            "id": "ref-CR75",
+            "content": "Liu-Farrer G (2008) The burden of social capital: visa overstaying among Fujian Chinese students in Japan. Soc Sci Jpn J 11(2):241-257",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fssjj%2Fjyn035",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008SSRv..136..241L",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20burden%20of%20social%20capital%3A%20visa%20overstaying%20among%20Fujian%20Chinese%20students%20in%20Japan&journal=Soc%20Sci%20Jpn%20J&doi=10.1093%2Fssjj%2Fjyn035&volume=11&issue=2&pages=241-257&publication_year=2008&author=Liu-Farrer%2CG"
+            }
+        },
+        {
+            "id": "ref-CR76",
+            "content": "Lopez DS (1996) Religions of China in practice. Princeton University Press, Princeton, NJ",
+            "links": {}
+        },
+        {
+            "id": "ref-CR77",
+            "content": "Lu J, Gao Q (2018) Contesting Chineseness: an examination of religion and national identity in mainland China. J Sci Study Relig 57(2):318-340",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fjssr.12519",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Contesting%20Chineseness%3A%20an%20examination%20of%20religion%20and%20national%20identity%20in%20mainland%20China&journal=J%20Sci%20Study%20Relig&doi=10.1111%2Fjssr.12519&volume=57&issue=2&pages=318-340&publication_year=2018&author=Lu%2CJ&author=Gao%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR78",
+            "content": "Lu Y, Liang Z, Chunyu MD (2013) Emigration from China in comparative perspective. Soc Forces 92(2):631-658",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fsf%2Fsot083",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26146414",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4486664",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emigration%20from%20China%20in%20comparative%20perspective&journal=Soc%20Forces&doi=10.1093%2Fsf%2Fsot083&volume=92&issue=2&pages=631-658&publication_year=2013&author=Lu%2CY&author=Liang%2CZ&author=Chunyu%2CMD"
+            }
+        },
+        {
+            "id": "ref-CR79",
+            "content": "Luan X, Paryzat H, Chu J et al. (2024) Different roads take me home: the nonlinear relationship between distance and flows during China’s Spring Festival. Humanities Soc Sci Commun 11(1):1-14",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Different%20roads%20take%20me%20home%3A%20the%20nonlinear%20relationship%20between%20distance%20and%20flows%20during%20China%E2%80%99s%20Spring%20Festival&journal=Humanities%20Soc%20Sci%20Commun&volume=11&issue=1&pages=1-14&publication_year=2024&author=Luan%2CX&author=Paryzat%2CH&author=Chu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR80",
+            "content": "Madsen R (2010) The upsurge of religion in China. J Democracy 21(4):58-71",
+            "links": {
+                "Article": "https://doi.org/10.1353%2Fjod.2010.0013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20upsurge%20of%20religion%20in%20China&journal=J%20Democracy&doi=10.1353%2Fjod.2010.0013&volume=21&issue=4&pages=58-71&publication_year=2010&author=Madsen%2CR"
+            }
+        },
+        {
+            "id": "ref-CR81",
+            "content": "Madsen R (2014) Secular belief, religious belonging in China. Rev Relig Chin Soc 1(1):13-28",
+            "links": {
+                "Article": "https://doi.org/10.1163%2F22143955-04102003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Secular%20belief%2C%20religious%20belonging%20in%20China&journal=Rev%20Relig%20Chin%20Soc&doi=10.1163%2F22143955-04102003&volume=1&issue=1&pages=13-28&publication_year=2014&author=Madsen%2CR"
+            }
+        },
+        {
+            "id": "ref-CR82",
+            "content": "Madsen R (2023) China’s Catholics: tragedy and hope in an emerging civil society, 12. University of California Press, Berkeley and Los Angeles, CA",
+            "links": {}
+        },
+        {
+            "id": "ref-CR83",
+            "content": "Marx K (1995) Contribution to the Critique of Hegel's Philosophy of Right. In Sociology and religion: A collection of readings, 3-4. HarperCollins College Publi, New York",
+            "links": {}
+        },
+        {
+            "id": "ref-CR84",
+            "content": "Massey DS, Arango J, Hugo G et al. (1993) Theories of international migration - a review and appraisal. Popul Dev Rev 19(3):431-466. https://doi.org/10.2307/2938462",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F2938462",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Theories%20of%20international%20migration%20-%20a%20review%20and%20appraisal&journal=Popul%20Dev%20Rev&doi=10.2307%2F2938462&volume=19&issue=3&pages=431-466&publication_year=1993&author=Massey%2CDS&author=Arango%2CJ&author=Hugo%2CG"
+            }
+        },
+        {
+            "id": "ref-CR85",
+            "content": "Massey DS, Arango J, Hugo G et al. (1999) Worlds in motion: understanding international migration at the end of the millennium: understanding international migration at the end of the millennium. Clarendon Press, Oxford",
+            "links": {}
+        },
+        {
+            "id": "ref-CR86",
+            "content": "Mayda AM (2010) International migration: a panel data analysis of the determinants of bilateral flows. J Popul Econ 23:1249-1274",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00148-009-0251-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=International%20migration%3A%20a%20panel%20data%20analysis%20of%20the%20determinants%20of%20bilateral%20flows&journal=J%20Popul%20Econ&doi=10.1007%2Fs00148-009-0251-x&volume=23&pages=1249-1274&publication_year=2010&author=Mayda%2CAM"
+            }
+        },
+        {
+            "id": "ref-CR87",
+            "content": "Minamiki G (1987) The Chinese rites controversy: from its beginnings to modern times. Philos East West 37(2):209-211",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F1398742",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20Chinese%20rites%20controversy%3A%20from%20its%20beginnings%20to%20modern%20times&journal=Philos%20East%20West&doi=10.2307%2F1398742&volume=37&issue=2&pages=209-211&publication_year=1987&author=Minamiki%2CG"
+            }
+        },
+        {
+            "id": "ref-CR88",
+            "content": "Monin B, Szczurek LM (2014) Food cultures. In Cohen’s A B (ed), Culture reexamined: Broadening our understanding of social and evolutionary influences, pp. 155-190. American Psychological Association, Washington, DC",
+            "links": {}
+        },
+        {
+            "id": "ref-CR89",
+            "content": "Myers SM (2000) The impact of religious involvement on migration. Soc Forces 79(2):755-783",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F2675516",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000epas.book.....M",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20religious%20involvement%20on%20migration&journal=Soc%20Forces&doi=10.2307%2F2675516&volume=79&issue=2&pages=755-783&publication_year=2000&author=Myers%2CSM"
+            }
+        },
+        {
+            "id": "ref-CR90",
+            "content": "Palloni A, Massey DS, Ceballos M et al. (2001) Social capital and international migration: a test using information on family networks. Am J Sociol 106(5):1262-1298",
+            "links": {
+                "Article": "https://doi.org/10.1086%2F320817",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20capital%20and%20international%20migration%3A%20a%20test%20using%20information%20on%20family%20networks&journal=Am%20J%20Sociol&doi=10.1086%2F320817&volume=106&issue=5&pages=1262-1298&publication_year=2001&author=Palloni%2CA&author=Massey%2CDS&author=Ceballos%2CM"
+            }
+        },
+        {
+            "id": "ref-CR91",
+            "content": "Pedersen PJ, Pytlikova M, Smith N (2008) Selection and network effects-migration flows into OECD countries 1990-2000. Eur Econ Rev 52(7):1160-1186",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.euroecorev.2007.12.002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Selection%20and%20network%20effects%E2%80%94migration%20flows%20into%20OECD%20countries%201990%E2%80%932000&journal=Eur%20Econ%20Rev&doi=10.1016%2Fj.euroecorev.2007.12.002&volume=52&issue=7&pages=1160-1186&publication_year=2008&author=Pedersen%2CPJ&author=Pytlikova%2CM&author=Smith%2CN"
+            }
+        },
+        {
+            "id": "ref-CR92",
+            "content": "Song Y (2014) What should economists know about the current Chinese hukou system? China Econ Rev 29:200-212",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.chieco.2014.04.012",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=What%20should%20economists%20know%20about%20the%20current%20Chinese%20hukou%20system%3F&journal=China%20Econ%20Rev&doi=10.1016%2Fj.chieco.2014.04.012&volume=29&pages=200-212&publication_year=2014&author=Song%2CY"
+            }
+        },
+        {
+            "id": "ref-CR93",
+            "content": "Stillwell J, Bell M, Ian S (2017) Studying internal migration in a cross-national context. In: Internal migration in the developed world, pp. 56-75. Routledge, London",
+            "links": {}
+        },
+        {
+            "id": "ref-CR94",
+            "content": "Sudhiarsa R (2023) Christian migrants and their living faith in mission: an Indonesian perspective. Transformation 40(2):119-130",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F02653788231151358",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Christian%20migrants%20and%20their%20living%20faith%20in%20mission%3A%20an%20Indonesian%20perspective&journal=Transformation&doi=10.1177%2F02653788231151358&volume=40&issue=2&pages=119-130&publication_year=2023&author=Sudhiarsa%2CR"
+            }
+        },
+        {
+            "id": "ref-CR95",
+            "content": "Tang Y (2015) Confucianism, Buddhism, Daoism, Christianity and Chinese Culture. Springer, Berlin and Heidelberg",
+            "links": {}
+        },
+        {
+            "id": "ref-CR96",
+            "content": "Tang Z (2017) Changes with Chinese characteristics: rural clan culture, clan communities, and Kinship relations during urbanization. In: China’s urbanization and socioeconomic impact, 161-198. Springer, Singapore",
+            "links": {}
+        },
+        {
+            "id": "ref-CR97",
+            "content": "Tian Q, Becker M, Hilton D (2023) Mind attribution to Gods and Christians in the Chinese Cultural Context. J Sci Study Relig 62(4):885-900",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fjssr.12874",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mind%20attribution%20to%20Gods%20and%20Christians%20in%20the%20Chinese%20Cultural%20Context&journal=J%20Sci%20Study%20Relig&doi=10.1111%2Fjssr.12874&volume=62&issue=4&pages=885-900&publication_year=2023&author=Tian%2CQ&author=Becker%2CM&author=Hilton%2CD"
+            }
+        },
+        {
+            "id": "ref-CR98",
+            "content": "Wang X, Zhang Y, Wang S et al. (2021) Migrant inflows and online expressions of regional prejudice in China. Public Opin Q 85(1):123-146",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fpoq%2Fnfab004",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=4202353",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Migrant%20inflows%20and%20online%20expressions%20of%20regional%20prejudice%20in%20China&journal=Public%20Opin%20Q&doi=10.1093%2Fpoq%2Fnfab004&volume=85&issue=1&pages=123-146&publication_year=2021&author=Wang%2CX&author=Zhang%2CY&author=Wang%2CS"
+            }
+        },
+        {
+            "id": "ref-CR99",
+            "content": "Wei S, Wang L (2020) Examining the population flow network in China and its implications for epidemic control based on Baidu migration data. Humanit Soc Sci Commun 7(1):145",
+            "links": {
+                "Article": "https://doi.org/10.1057%2Fs41599-020-00633-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Examining%20the%20population%20flow%20network%20in%20China%20and%20its%20implications%20for%20epidemic%20control%20based%20on%20Baidu%20migration%20data&journal=Humanit%20Soc%20Sci%20Commun&doi=10.1057%2Fs41599-020-00633-5&volume=7&issue=1&publication_year=2020&author=Wei%2CS&author=Wang%2CL"
+            }
+        },
+        {
+            "id": "ref-CR100",
+            "content": "Weidner M, Zylkin T (2021) Bias and consistency in three-way gravity models. J Int Econ 132:103513",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jinteco.2021.103513",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bias%20and%20consistency%20in%20three-way%20gravity%20models&journal=J%20Int%20Econ&doi=10.1016%2Fj.jinteco.2021.103513&volume=132&publication_year=2021&author=Weidner%2CM&author=Zylkin%2CT"
+            }
+        },
+        {
+            "id": "ref-CR101",
+            "content": "Weller RP (2014) The politics of increasing religious diversity in China. Daedalus 143(2):135-144",
+            "links": {
+                "Article": "https://doi.org/10.1162%2FDAED_a_00278",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20politics%20of%20increasing%20religious%20diversity%20in%20China&journal=Daedalus&doi=10.1162%2FDAED_a_00278&volume=143&issue=2&pages=135-144&publication_year=2014&author=Weller%2CRP"
+            }
+        },
+        {
+            "id": "ref-CR102",
+            "content": "Wong D (2024) Chinese ethics. In The Stanford Encyclopedia of Philosophy. Metaphysics Research Lab, Stanford University, Stanford, CA. https://plato.stanford.edu/archives/sum2024/entries/ethics-chinese/",
+            "links": {}
+        },
+        {
+            "id": "ref-CR103",
+            "content": "Xiao B, Zhang M (2025) Old customs and new practices: a century of research on Chinese Spring Festival and intangible heritage. J Hubei Minzu Univ 43(2):73-85. https://doi.org/10.13501/j.cnki.42-1328/c.20250121.002",
+            "links": {
+                "Article": "https://doi.org/10.13501%2Fj.cnki.42-1328%2Fc.20250121.002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Old%20customs%20and%20new%20practices%3A%20a%20century%20of%20research%20on%20Chinese%20Spring%20Festival%20and%20intangible%20heritage&journal=J%20Hubei%20Minzu%20Univ&doi=10.13501%2Fj.cnki.42-1328%2Fc.20250121.002&volume=43&issue=2&pages=73-85&publication_year=2025&author=Xiao%2CB&author=Zhang%2CM"
+            }
+        },
+        {
+            "id": "ref-CR104",
+            "content": "Xie Z (2017) Religious diversity and public religion in China. Routledge, London",
+            "links": {}
+        },
+        {
+            "id": "ref-CR105",
+            "content": "Yang F (2014) What about China? Religious vitality in the most secular and rapidly modernizing society. Sociol Relig 75(4):564-578",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fsocrel%2Fsru062",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=What%20about%20China%3F%20Religious%20vitality%20in%20the%20most%20secular%20and%20rapidly%20modernizing%20society&journal=Sociol%20Relig&doi=10.1093%2Fsocrel%2Fsru062&volume=75&issue=4&pages=564-578&publication_year=2014&author=Yang%2CF"
+            }
+        },
+        {
+            "id": "ref-CR106",
+            "content": "Yang F, Hu A (2012) Mapping Chinese folk religion in mainland China and Taiwan. J Sci Study Relig 51(3):505-521",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1468-5906.2012.01660.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mapping%20Chinese%20folk%20religion%20in%20mainland%20China%20and%20Taiwan&journal=J%20Sci%20Study%20Relig&doi=10.1111%2Fj.1468-5906.2012.01660.x&volume=51&issue=3&pages=505-521&publication_year=2012&author=Yang%2CF&author=Hu%2CA"
+            }
+        },
+        {
+            "id": "ref-CR107",
+            "content": "Yang F, McPhail BL (2023) Measuring religiosity of East Asians: multiple religious belonging, believing, and practicing. J Sci Study Relig 62(2):221-241",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fjssr.12827",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20religiosity%20of%20East%20Asians%3A%20multiple%20religious%20belonging%2C%20believing%2C%20and%20practicing&journal=J%20Sci%20Study%20Relig&doi=10.1111%2Fjssr.12827&volume=62&issue=2&pages=221-241&publication_year=2023&author=Yang%2CF&author=McPhail%2CBL"
+            }
+        },
+        {
+            "id": "ref-CR108",
+            "content": "Yang S (2008) Conceptions of the Spring Festival and Christmas of Shanghai’s young and middle-aged people: a qualitative study of similarities and differences. Intercultural Commun Stud 17(1):248-259",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Conceptions%20of%20the%20Spring%20Festival%20and%20Christmas%20of%20Shanghai%E2%80%99s%20young%20and%20middle-aged%20people%3A%20a%20qualitative%20study%20of%20similarities%20and%20differences&journal=Intercultural%20Commun%20Stud&volume=17&issue=1&pages=248-259&publication_year=2008&author=Yang%2CS"
+            }
+        },
+        {
+            "id": "ref-CR109",
+            "content": "Yang CK (1970) Religion in Chinese society: a study of contemporary social functions of religion and some of their historical factors. University of California Press, Berkeley and Los Angeles, CA",
+            "links": {}
+        },
+        {
+            "id": "ref-CR110",
+            "content": "Yang F (2011) Religion in China: survival and revival under communist rule. Oxford University Press, New York",
+            "links": {}
+        },
+        {
+            "id": "ref-CR111",
+            "content": "Yotov Y (2022) Gravity at sixty: the workhorse model of trade. CESifo Working Paper No. 9584. https://doi.org/10.2139/ssrn.4037001",
+            "links": {}
+        },
+        {
+            "id": "ref-CR112",
+            "content": "You S, Feng Z, You Z et al. (2023) Identification and structural characteristics of urban agglomerations in China based on Baidu migration data. Appl Geogr 156:102999",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apgeog.2023.102999",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Identification%20and%20structural%20characteristics%20of%20urban%20agglomerations%20in%20China%20based%20on%20Baidu%20migration%20data&journal=Appl%20Geogr&doi=10.1016%2Fj.apgeog.2023.102999&volume=156&publication_year=2023&author=You%2CS&author=Feng%2CZ&author=You%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR113",
+            "content": "Zhang C, Lu Y (2020) The measure of Chinese religions: denomination-based or deity-based? Chin J Sociol 6(3):410-426",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F2057150X20925312",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20measure%20of%20Chinese%20religions%3A%20denomination-based%20or%20deity-based%3F&journal=Chin%20J%20Sociol&doi=10.1177%2F2057150X20925312&volume=6&issue=3&pages=410-426&publication_year=2020&author=Zhang%2CC&author=Lu%2CY"
+            }
+        },
+        {
+            "id": "ref-CR114",
+            "content": "Zhang YB, Lin M-C, Nonaka A et al. (2005) Harmony, hierarchy and conservatism: a cross-cultural comparison of Confucian values in China, Korea, Japan, and Taiwan. Commun Res Rep 22(2):107-115",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F00036810500130539",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Harmony%2C%20hierarchy%20and%20conservatism%3A%20a%20cross-cultural%20comparison%20of%20Confucian%20values%20in%20China%2C%20Korea%2C%20Japan%2C%20and%20Taiwan&journal=Commun%20Res%20Rep&doi=10.1080%2F00036810500130539&volume=22&issue=2&pages=107-115&publication_year=2005&author=Zhang%2CYB&author=Lin%2CM-C&author=Nonaka%2CA"
+            }
+        },
+        {
+            "id": "ref-CR115",
+            "content": "Zhao Y, Gao Y (2024) Spatial patterns and trends of inter-city population mobility in China-based on Baidu migration big data. Cities 151:105124. https://doi.org/10.1016/j.cities.2024.105124",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cities.2024.105124",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20patterns%20and%20trends%20of%20inter-city%20population%20mobility%20in%20China%E2%80%94based%20on%20Baidu%20migration%20big%20data&journal=Cities&doi=10.1016%2Fj.cities.2024.105124&volume=151&publication_year=2024&author=Zhao%2CY&author=Gao%2CY"
+            }
+        },
+        {
+            "id": "ref-CR116",
+            "content": "Zipf GK (1946) The P 1 P 2/D hypothesis: on the intercity movement of persons. Am Sociological Rev 11(6):677-686",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F2087063",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20P%201%20P%202%2FD%20hypothesis%3A%20on%20the%20intercity%20movement%20of%20persons&journal=Am%20Sociological%20Rev&doi=10.2307%2F2087063&volume=11&issue=6&pages=677-686&publication_year=1946&author=Zipf%2CGK"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "Religious buildings data were accessed from AMap, under the Data License Agreement outlined at https://developer.amap.com. These data are not openly redistributable, and access is restricted to API-based retrieval under AMap’s authorized usage conditions. Migration indices were obtained from Baidu Qianxi (https://qianxi.baidu.com), which similarly provides real-time migration statistics via open API access but prohibits any form of unauthorized redistribution or republishing of retrieved content. Reproducibility Statement: A detailed explanation of the data scope, collection period, and data processing procedures is provided in the “Methods” section of the main manuscript. The API sources cited above enable independent retrieval of the datasets. In combination with the published methodology, this ensures transparency and reproducibility without requiring the raw dataset to be publicly shared.",
+            "links": {
+                "https://developer.amap.com": "https://developer.amap.com",
+                "https://qianxi.baidu.com": "https://qianxi.baidu.com"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This research was funded by the Major Project of the National Social Science Fund of China (No. 24&ZD168).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsShukai LiuView author publicationsSearch author on:PubMedGoogle ScholarZhe ChenView author publicationsSearch author on:PubMedGoogle ScholarWen MaView author publicationsSearch author on:PubMedGoogle ScholarZhuo ChenView author publicationsSearch author on:PubMedGoogle ScholarYunsong ChenView author publicationsSearch author on:PubMedGoogle Scholar\n### Contributions\nShukai Liu conceived, designed the research and analyzed the data. Zhe Chen wrote the first draft of the manuscript. Wen Ma, Zhuo Chen and Yunsong Chen revised the manuscript. All authors subsequently read, edited, and approved the manuscript.\n### Corresponding author\nCorrespondence to Zhe Chen.",
+            "links": {
+                "View author publications": "/search?author=Yunsong%20Chen",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Yunsong%20Chen",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Yunsong%20Chen%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Zhe Chen": "mailto:zhechen22@smail.nju.edu.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.\n### Ethical approval\nThis article does not contain any studies with human participants performed by any of the authors.\n### Informed consent\nThis article does not contain any studies with human participants performed by any of the authors.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Appendix",
+            "links": {
+                "Appendix": "https://static-content.springer.com/esm/art%3A10.1057%2Fs41599-025-05272-2/MediaObjects/41599_2025_5272_MOESM1_ESM.docx"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by-nc-nd/4.0/": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Impact%20of%20religious%20cultural%20similarity%20on%20internal%20migration%3A%20a%20regional%20perspective%20in%20contemporary%20China&author=Shukai%20Liu%20et%20al&contentID=10.1057%2Fs41599-025-05272-2&copyright=The%20Author%28s%29&publication=2662-9992&publicationDate=2025-07-10&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY-NC-ND"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleLiu, S., Chen, Z., Ma, W. et al. Impact of religious cultural similarity on internal migration: a regional perspective in contemporary China. Humanit Soc Sci Commun 12, 1067 (2025). https://doi.org/10.1057/s41599-025-05272-2Download citationReceived:01 August 2024Accepted:09 June 2025Published:10 July 2025DOI:https://doi.org/10.1057/s41599-025-05272-2Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1057/s41599-025-05272-2?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Impact of religious cultural similarity on internal migration: a regional perspective in contemporary China",
+                "description": "Although research has examined migrants’ attraction to religious environments in detail, the broader impact of loosely organized religions on migration patterns in highly secularized countries such as China has received relatively little attention. This study bridges this gap by developing a religious cultural similarity (RCS) index to quantify cultural similarities among 339 Chinese cities based on their distribution of religious sites. Analysis of 69,620 city pairs suggests that higher RCS between cities promotes migration in China. This effect varies according to regional religious setting: migrants from ancestor worship–dominated cities are least attracted by RCS. This study’s findings deepen our understanding of the cultural role of religion within secular contexts.",
+                "datePublished": "2025-07-10T00:00:00Z",
+                "dateModified": "2025-07-10T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "12",
+                "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "sameAs": "https://doi.org/10.1057/s41599-025-05272-2",
+                "keywords": [
+                    "Religion",
+                    "Sociology",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-025-05272-2/MediaObjects/41599_2025_5272_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-025-05272-2/MediaObjects/41599_2025_5272_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-025-05272-2/MediaObjects/41599_2025_5272_Fig3_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Humanities and Social Sciences Communications",
+                    "issn": [
+                        "2662-9992"
+                    ],
+                    "volumeNumber": "12",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Palgrave Macmillan UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Shukai Liu",
+                        "affiliation": [
+                            {
+                                "name": "Nanjing University",
+                                "address": {
+                                    "name": "School of Social and Behavioral Sciences, Nanjing University, Nanjing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Zhe Chen",
+                        "affiliation": [
+                            {
+                                "name": "Nanjing University",
+                                "address": {
+                                    "name": "School of Social and Behavioral Sciences, Nanjing University, Nanjing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "zhechen22@smail.nju.edu.cn",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Wen Ma",
+                        "affiliation": [
+                            {
+                                "name": "Nanjing University",
+                                "address": {
+                                    "name": "School of Journalism and Communication, Nanjing University, Nanjing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Zhuo Chen",
+                        "affiliation": [
+                            {
+                                "name": "Nanjing University",
+                                "address": {
+                                    "name": "School of Social and Behavioral Sciences, Nanjing University, Nanjing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yunsong Chen",
+                        "affiliation": [
+                            {
+                                "name": "Nanjing University",
+                                "address": {
+                                    "name": "School of Social and Behavioral Sciences, Nanjing University, Nanjing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Nanjing University",
+                                "address": {
+                                    "name": "Key Laboratory of Digital and AI Innovation for Chinese Civilization Studies, Nanjing University, Nanjing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "religion;sociology",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Humanities and Social Sciences Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1057/s41599-025-05272-2"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Shukai Liu",
+                            "Zhe Chen",
+                            "Wen Ma",
+                            "Zhuo Chen",
+                            "Yunsong Chen"
+                        ],
+                        "publishedAt": 1752105600,
+                        "publishedAtString": "2025-07-10",
+                        "title": "Impact of religious cultural similarity on internal migration: a regional perspective in contemporary China",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Religion,Sociology"
+                    },
+                    "journal": {
+                        "pcode": "palcomms",
+                        "title": "humanities and social sciences communications",
+                        "volume": "12",
+                        "issue": "1",
+                        "id": 41599,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Impact of religious cultural similarity on internal migration: a regional perspective in contemporary China",
+            "dc.source": "Humanities and Social Sciences Communications 2025 12:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Palgrave",
+            "dc.date": "2025-07-10",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Although research has examined migrants’ attraction to religious environments in detail, the broader impact of loosely organized religions on migration patterns in highly secularized countries such as China has received relatively little attention. This study bridges this gap by developing a religious cultural similarity (RCS) index to quantify cultural similarities among 339 Chinese cities based on their distribution of religious sites. Analysis of 69,620 city pairs suggests that higher RCS between cities promotes migration in China. This effect varies according to regional religious setting: migrants from ancestor worship–dominated cities are least attracted by RCS. This study’s findings deepen our understanding of the cultural role of religion within secular contexts.",
+            "dc.identifier": "doi:10.1057/s41599-025-05272-2",
+            "dc.creator": "Chen, Yunsong",
+            "dc.subject": "Sociology",
+            "prism.issn": "2662-9992",
+            "prism.publicationName": "Humanities and Social Sciences Communications",
+            "prism.publicationDate": "2025-07-10",
+            "prism.volume": "12",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "12",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41599-025-05272-2",
+            "prism.doi": "doi:10.1057/s41599-025-05272-2",
+            "citation_pdf_url": "https://www.nature.com/articles/s41599-025-05272-2.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41599-025-05272-2",
+            "citation_journal_title": "Humanities and Social Sciences Communications",
+            "citation_journal_abbrev": "Humanit Soc Sci Commun",
+            "citation_publisher": "Palgrave",
+            "citation_issn": "2662-9992",
+            "citation_title": "Impact of religious cultural similarity on internal migration: a regional perspective in contemporary China",
+            "citation_volume": "12",
+            "citation_issue": "1",
+            "citation_online_date": "2025/07/10",
+            "citation_firstpage": "1",
+            "citation_lastpage": "12",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1057/s41599-025-05272-2",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1057/s41599-025-05272-2&api_key=",
+            "citation_reference": "citation_journal_title=Am Sociological Rev; citation_title=The P 1 P 2/D hypothesis: on the intercity movement of persons; citation_author=GK Zipf; citation_volume=11; citation_issue=6; citation_publication_date=1946; citation_pages=677-686; citation_doi=10.2307/2087063; citation_id=CR116",
+            "citation_author": "Chen, Yunsong",
+            "citation_author_institution": "Key Laboratory of Digital and AI Innovation for Chinese Civilization Studies, Nanjing University, Nanjing, China",
+            "description": "Although research has examined migrants’ attraction to religious environments in detail, the broader impact of loosely organized religions on migration patterns in highly secularized countries such as China has received relatively little attention. This study bridges this gap by developing a religious cultural similarity (RCS) index to quantify cultural similarities among 339 Chinese cities based on their distribution of religious sites. Analysis of 69,620 city pairs suggests that higher RCS between cities promotes migration in China. This effect varies according to regional religious setting: migrants from ancestor worship–dominated cities are least attracted by RCS. This study’s findings deepen our understanding of the cultural role of religion within secular contexts.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Impact of religious cultural similarity on internal migration: a regional perspective in contemporary China",
+            "twitter:description": "Humanities and Social Sciences Communications - Impact of religious cultural similarity on internal migration: a regional perspective in contemporary China",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1057%2Fs41599-025-05272-2/MediaObjects/41599_2025_5272_Fig1_HTML.png",
+            "DOI": "10.1057/s41599-025-05272-2",
+            "size": "281186",
+            "journal_id": "41599"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41599-025-05272-2",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

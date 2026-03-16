@@ -1,0 +1,149 @@
+{
+    "id": "s41893-019-0224-3",
+    "title": "Health and climate impacts of future United States land freight modelled with global-to-urban models",
+    "journal": "Nature Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s41893-019-0224-3",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "Freight Analysis Framework 3 data and Freight Analysis Zones definitions",
+            "Data_summary": "Federal Highway Administration freight planning dataset providing domestic freight analysis zones and freight shipment/activity information used to define the 120 FAZ analysis regions and to structure interregional and intraregional freight modelling inputs.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                12
+            ],
+            "Other_Information": "Evidence: We use the 120 domestic FAZs defined by the Freight Analysis Framework as the analysis regions.; Location: Main; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://ops.fhwa.dot.gov/freight/freight_analysis/faf/faf3/userguide/",
+            "ref": [
+                "ref-CR12"
+            ]
+        },
+        {
+            "Data_Name": "EMFAC2014 Web Database v1.0.7",
+            "Data_summary": "California Air Resources Board emissions and activity database providing heavy duty truck mileage and fuel intensity values used to validate and calibrate the urban freight vehicle routing activity estimates and to parameterize baseline-year fuel intensity for short-haul delivery trucks.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                36
+            ],
+            "Other_Information": "Evidence: We compared the modelled urban freight truck mileages in this study with those by the EMFAC2014 database36 for California in the baseline year 2007.; Location: Methods Short-haul freight activity and fuel use; Confidence: high",
+            "Time_Coverage": "2007",
+            "Geographic_Coverage": "United States > California",
+            "URL": "https://www.arb.ca.gov/emfac/2014/",
+            "ref": [
+                "ref-CR36"
+            ]
+        },
+        {
+            "Data_Name": "Integrated Climate and Land Use Change Scenario by EPA",
+            "Data_summary": "Scenario dataset providing county level population projections and related land use scenario information used to allocate rural freight delivery emissions spatially across counties and to supply population projections through 2050 for health impact calculations.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                49
+            ],
+            "Other_Information": "Evidence: County-level population projection data through 2050 were obtained from the EPA49.; Location: Methods Health impact assessment; Confidence: high",
+            "Time_Coverage": "2010-2050",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR49"
+            ]
+        },
+        {
+            "Data_Name": "United States Census Bureau county population totals and components of change",
+            "Data_summary": "Official Census Bureau county population estimates used as the baseline 2010 population anchor for scaling census tract level population forward to 2050 within urban development scenarios used in exposure and mortality calculations.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                57
+            ],
+            "Other_Information": "Evidence: Census tract-level population was scaled from the baseline population in 201057 to 2050 based on the employment growth rates in the three urban development scenarios.; Location: Methods Health impact assessment; Confidence: high",
+            "Time_Coverage": "2010",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.census.gov/data/tables/2017/demo/popest/counties-total.html",
+            "ref": [
+                "ref-CR57"
+            ]
+        },
+        {
+            "Data_Name": "CDC Compressed Mortality File",
+            "Data_summary": "US Centers for Disease Control and Prevention mortality statistics dataset providing all-cause background mortality rates at county scale used as baseline mortality inputs in the health impact function.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                58
+            ],
+            "Other_Information": "Evidence: The 2014 all-cause background mortality data58 were used and the mortality rates were held constant in the future.; Location: Methods Health impact assessment; Confidence: high",
+            "Time_Coverage": "2014",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.cdc.gov/nchs/data_access/cmf.htm",
+            "ref": [
+                "ref-CR58"
+            ]
+        },
+        {
+            "Data_Name": "EPA National Emissions Inventory Air Pollutant Emissions Trends Data",
+            "Data_summary": "US EPA emissions inventory time series used to support assumptions about the small contribution of heavy duty diesel vehicles to national totals for certain pollutants and to contextualize fleet average emission factor choices in emissions modelling.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                43
+            ],
+            "Other_Information": "Evidence: Since heavy-duty diesel vehicles are not important sources for NH3 and SOx less than 0.2% of the total43,44, we used fleet-average emission factors.; Location: Methods Emission modelling; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei",
+            "ref": [
+                "ref-CR43"
+            ]
+        },
+        {
+            "Data_Name": "WRF-Chem annual average physical and chemical fields preprocessed for InMAP",
+            "Data_summary": "Preprocessed annual-average meteorology and atmospheric chemistry fields derived from a WRF-Chem model simulation, used by the reduced-form InMAP system to compute changes in PM2.5 concentrations from emissions scenarios.",
+            "Category": "City-wide camera networks and meteorological stations",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                53
+            ],
+            "Other_Information": "Evidence: InMAP leverages preprocessed annual average physical and chemical information derived from a WRF-Chem model run53.; Location: Methods Health impact assessment; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "North America",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR53"
+            ]
+        },
+        {
+            "Data_Name": "Phoenix model data",
+            "Data_summary": "Model input data from the Phoenix economic model provided by an author contributor and used to generate the macroeconomic scenario projections that drive freight demand and activity in the integrated modelling system.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: K.D. supplied the Phoenix model data.; Location: Extra_info Author information Contributions; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit (from Data Availability)",
+            "Data_summary": "A statement that the data supporting the findings are available from the corresponding author on request, indicating controlled access to the study supporting data products.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data that support the findings of this study are available from the corresponding author upon reasonable request.; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:01.517514"
+    }
+}

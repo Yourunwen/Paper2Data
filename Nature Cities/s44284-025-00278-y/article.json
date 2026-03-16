@@ -1,0 +1,877 @@
+{
+    "id": "s44284-025-00278-y",
+    "journal": "Nature Cities",
+    "type": "article",
+    "title": "Association between urban shrinkage and excess mortality during the COVID-19 pandemic",
+    "legal_title": "Association between urban shrinkage and excess mortality during the COVID-19 pandemic",
+    "publish_time": "2025-07-18",
+    "pdf_link": "https://www.nature.com/articles/s44284-025-00278-y",
+    "storage_path": "./Articles/Nature Cities/2025-article/s44284-025-00278-y/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "As the COVID-19 pandemic exposed and amplified structural vulnerabilities in cities, understanding how urban shrinkage exacerbates public health risks has become increasingly urgent. This study examines the relationship between urban shrinkage and excess mortality in 1,142 US counties during the COVID-19 pandemic (March 2020–February 2023). Using Kruskal–Wallis tests and mixed-effects models, we analyzed how different patterns and degrees of urban shrinkage influenced monthly excess deaths per 100,000 population and the frequency of mortality peaks. The results indicate that shrinking counties showed 165% higher excess deaths and 142% more mortality peaks than growing counties. Notably, counties experiencing simultaneous declines in both population and gross regional domestic product demonstrated worse outcomes than those with only one dimension of shrinkage. Furthermore, excess deaths increased proportionally with the severity of demographic and economic contraction. Socioeconomic disadvantages prevalent in shrinking counties—including lower income levels, higher proportions of older adults, lower educational attainment and higher unemployment rates—were also associated with elevated excess deaths. These findings underscore the need for place-based public health strategies tailored to address the structural vulnerabilities faced by shrinking and socioeconomically disadvantaged communities.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "Raw monthly mortality data for each county from January 2015 to March 2023 that are used for the calculation of excess death are available from the Centers for Disease Control and Prevention’s WONDER database (https://wonder.cdc.gov/). Raw GRDP data for each county from 2010 to 2020 that are used for the severity of urban shrinkage are available from the Bureau of Economic Analysis (https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas). Raw population data for each county (including age-specific population) from 2010 to 2020 are available from the US Census Bureau (https://www.census.gov/data/datasets/time-series/demo/popest/2020s-counties-total.html). Raw median household income, education and unemployment data for each county are available from the US Department of Agriculture (https://www.ers.usda.gov/data-products/county-level-data-sets/). Raw population ratio by race for each county is available from the US Census Bureau (https://data.census.gov/table/ACSDT5Y2020.B02001?q=United%20States&t=White&g=010XX00US,$0500000&y=2020). Raw area data for each county, required for calculating population density, are available from the US Census Bureau (https://data.census.gov/table?g=010XX00US$0500000&d=GEO+Geography+Information). Overall, the organized data, including each county’s monthly observed, expected and excess deaths, and the CAGR of GRDP, CAGR of population, median income, education, unemployment, ratio of older people and population by race, are available via GitHub at https://github.com/GukhwaJang/journal_shrinking_covid. Additional data and information that support the findings of this study are available from the corresponding author upon request.",
+            "links": {
+                "https://wonder.cdc.gov/": "https://wonder.cdc.gov/",
+                "https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas": "https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas",
+                "https://www.census.gov/data/datasets/time-series/demo/popest/2020s-counties-total.html": "https://www.census.gov/data/datasets/time-series/demo/popest/2020s-counties-total.html",
+                "https://www.ers.usda.gov/data-products/county-level-data-sets/": "https://www.ers.usda.gov/data-products/county-level-data-sets/",
+                "https://data.census.gov/table/ACSDT5Y2020.B02001?q=United%20States&t=White&g=010XX00US,$0500000&y=2020": "https://data.census.gov/table/ACSDT5Y2020.B02001?q=United%20States&t=White&g=010XX00US,$0500000&y=2020",
+                "https://data.census.gov/table?g=010XX00US$0500000&d=GEO+Geography+Information": "https://data.census.gov/table?g=010XX00US$0500000&d=GEO+Geography+Information",
+                "https://github.com/GukhwaJang/journal_shrinking_covid": "https://github.com/GukhwaJang/journal_shrinking_covid"
+            }
+        },
+        "Code availability": {
+            "content": "The R code for calculating excess deaths for each county and the Python code for calculating the number of peaks in monthly excess deaths and performing statistical analysis are available via GitHub at https://github.com/GukhwaJang/journal_shrinking_covid.",
+            "links": {
+                "https://github.com/GukhwaJang/journal_shrinking_covid": "https://github.com/GukhwaJang/journal_shrinking_covid"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (grant number RS-2024-00359695, S.K.).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsGukhwa JangView author publicationsSearch author on:PubMed Google ScholarSaehoon KimView author publicationsSearch author on:PubMed Google ScholarJae Seung LeeView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nG.J.: data curation, formal analysis, visualization, writing—original draft and writing—review and editing. S.K.: conceptualization, methodology, supervision and writing—review and editing. J.S.L.: formal analysis, validation and writing—review and editing.\n### Corresponding author\nCorrespondence to\n                Saehoon Kim.",
+            "links": {
+                "View author publications": "/search?author=Jae%20Seung%20Lee",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jae%20Seung%20Lee",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Jae%20Seung%20Lee%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Saehoon Kim": "mailto:skim5@snu.ac.kr"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Cities thanks ChengHe Guan, Maxwell Harttand the other, anonymous, reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data": {
+            "content": "Extended Data Fig. 1 Spatial distribution of four urban types, marked with counties showing the highest variation in population and GRDP.This graph shows a total of 691 growing counties (colored blue), 243 shrinking counties (colored red), 169 pop-growth, eco-decline counties (colored yellow), and 39 pop-decline, econ-growth counties (colored green). Additionally, two counties with the highest variation in population and GRDP for each type are marked. The county boundaries were based on public domain vector data from the United States Census Bureau (https://www.census.gov/en.html) and visualized using QGIS software.Extended Data Fig. 2 Box plot and post-hoc test results of a) average monthly excess deaths per 100,000 population by urban type and b) average number of peaks by urban type.Graphs a and b are box plots representing the average monthly excess deaths per 100,000 people (a) and the average number of peaks (b) by urban type, respectively, for counties within each urban type. Both graphs display the p-values from the Bonferroni test as a post hoc test of the Kruskal-Wallis test for each urban type. Only significant differences between urban types with a p-value less than 0.05 are indicated. An asterisk (*) denotes p < 0.05, double asterisks (**) denote p < 0.01, and triple asterisks (***) denote p < 0.001.",
+            "links": {
+                "Extended Data Fig. 1 Spatial distribution of four urban types, marked with counties showing the highest variation in population and GRDP.": "/articles/s44284-025-00278-y/figures/5",
+                "https://www.census.gov/en.html": "https://www.census.gov/en.html",
+                "Extended Data Fig. 2 Box plot and post-hoc test results of a) average monthly excess deaths per 100,000 population by urban type and b) average number of peaks by urban type.": "/articles/s44284-025-00278-y/figures/6"
+            }
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Tables 1–12 and Fig. 1.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00278-y/MediaObjects/44284_2025_278_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00278-y/MediaObjects/44284_2025_278_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Association%20between%20urban%20shrinkage%20and%20excess%20mortality%20during%20the%20COVID-19%20pandemic&author=Gukhwa%20Jang%20et%20al&contentID=10.1038%2Fs44284-025-00278-y&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20America%2C%20Inc.&publication=2731-9997&publicationDate=2025-07-18&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleJang, G., Kim, S. & Lee, J.S. Association between urban shrinkage and excess mortality during the COVID-19 pandemic.\n                    Nat Cities 2, 708–719 (2025). https://doi.org/10.1038/s44284-025-00278-yDownload citationReceived: 09 September 2024Accepted: 11 June 2025Published: 18 July 2025Version of record: 18 July 2025Issue date: August 2025DOI: https://doi.org/10.1038/s44284-025-00278-yShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s44284-025-00278-y?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Association between urban shrinkage and excess mortality during the COVID-19 pandemic",
+                "description": "As the COVID-19 pandemic exposed and amplified structural vulnerabilities in cities, understanding how urban shrinkage exacerbates public health risks has become increasingly urgent. This study examines the relationship between urban shrinkage and excess mortality in 1,142 US counties during the COVID-19 pandemic (March 2020–February 2023). Using Kruskal–Wallis tests and mixed-effects models, we analyzed how different patterns and degrees of urban shrinkage influenced monthly excess deaths per 100,000 population and the frequency of mortality peaks. The results indicate that shrinking counties showed 165% higher excess deaths and 142% more mortality peaks than growing counties. Notably, counties experiencing simultaneous declines in both population and gross regional domestic product demonstrated worse outcomes than those with only one dimension of shrinkage. Furthermore, excess deaths increased proportionally with the severity of demographic and economic contraction. Socioeconomic disadvantages prevalent in shrinking counties—including lower income levels, higher proportions of older adults, lower educational attainment and higher unemployment rates—were also associated with elevated excess deaths. These findings underscore the need for place-based public health strategies tailored to address the structural vulnerabilities faced by shrinking and socioeconomically disadvantaged communities. Shrinking US counties faced 165% higher COVID-19 excess mortality than growing areas, exacerbated by combined population and economic decline. Structural vulnerabilities in shrinking regions underscore the need for targeted health interventions addressing socioeconomic disparities.",
+                "datePublished": "2025-07-18T00:00:00Z",
+                "dateModified": "2025-07-18T00:00:00Z",
+                "pageStart": "708",
+                "pageEnd": "719",
+                "sameAs": "https://doi.org/10.1038/s44284-025-00278-y",
+                "keywords": [
+                    "Economics",
+                    "Geography",
+                    "Society",
+                    "Cities",
+                    "Countries",
+                    "Regions",
+                    "Sustainable Architecture/Green Buildings",
+                    "Civil Engineering",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urban Studies/Sociology",
+                    "Urban Economics"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00278-y/MediaObjects/44284_2025_278_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00278-y/MediaObjects/44284_2025_278_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00278-y/MediaObjects/44284_2025_278_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00278-y/MediaObjects/44284_2025_278_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Cities",
+                    "issn": [
+                        "2731-9997"
+                    ],
+                    "volumeNumber": "2",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Gukhwa Jang",
+                        "url": "http://orcid.org/0000-0001-6653-9285",
+                        "affiliation": [
+                            {
+                                "name": "Seoul National University",
+                                "address": {
+                                    "name": "Integrated Major in Smart City Global Convergence, Seoul National University, Seoul, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Saehoon Kim",
+                        "url": "http://orcid.org/0000-0002-8278-9935",
+                        "affiliation": [
+                            {
+                                "name": "Seoul National University",
+                                "address": {
+                                    "name": "Integrated Major in Smart City Global Convergence, Seoul National University, Seoul, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Seoul National University",
+                                "address": {
+                                    "name": "Department of Environmental Design, Urban Design Concentration, Graduate School of Environmental Studies and Environmental Planning Institute, Seoul National University, Seoul, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "skim5@snu.ac.kr",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jae Seung Lee",
+                        "url": "http://orcid.org/0000-0001-9087-5975",
+                        "affiliation": [
+                            {
+                                "name": "Seoul National University",
+                                "address": {
+                                    "name": "Integrated Major in Smart City Global Convergence, Seoul National University, Seoul, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Seoul National University",
+                                "address": {
+                                    "name": "Department of Environmental Design, Urban Design Concentration, Graduate School of Environmental Studies and Environmental Planning Institute, Seoul National University, Seoul, Republic of Korea",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "economics;geography;society",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Cities",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s44284-025-00278-y"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Gukhwa Jang",
+                            "Saehoon Kim",
+                            "Jae Seung Lee"
+                        ],
+                        "publishedAt": 1752796800,
+                        "publishedAtString": "2025-07-18",
+                        "title": "Association between urban shrinkage and excess mortality during the COVID-19 pandemic",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Economics,Geography,Society"
+                    },
+                    "journal": {
+                        "pcode": "natcities",
+                        "title": "nature cities",
+                        "volume": "2",
+                        "issue": "8",
+                        "id": 44284,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Association between urban shrinkage and excess mortality during the COVID-19 pandemic",
+            "dc.source": "Nature Cities 2025 2:8",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-07-18",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rights": "2025 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "As the COVID-19 pandemic exposed and amplified structural vulnerabilities in cities, understanding how urban shrinkage exacerbates public health risks has become increasingly urgent. This study examines the relationship between urban shrinkage and excess mortality in 1,142 US counties during the COVID-19 pandemic (March 2020–February 2023). Using Kruskal–Wallis tests and mixed-effects models, we analyzed how different patterns and degrees of urban shrinkage influenced monthly excess deaths per 100,000 population and the frequency of mortality peaks. The results indicate that shrinking counties showed 165% higher excess deaths and 142% more mortality peaks than growing counties. Notably, counties experiencing simultaneous declines in both population and gross regional domestic product demonstrated worse outcomes than those with only one dimension of shrinkage. Furthermore, excess deaths increased proportionally with the severity of demographic and economic contraction. Socioeconomic disadvantages prevalent in shrinking counties—including lower income levels, higher proportions of older adults, lower educational attainment and higher unemployment rates—were also associated with elevated excess deaths. These findings underscore the need for place-based public health strategies tailored to address the structural vulnerabilities faced by shrinking and socioeconomically disadvantaged communities. Shrinking US counties faced 165% higher COVID-19 excess mortality than growing areas, exacerbated by combined population and economic decline. Structural vulnerabilities in shrinking regions underscore the need for targeted health interventions addressing socioeconomic disparities.",
+            "dc.identifier": "doi:10.1038/s44284-025-00278-y",
+            "dc.creator": "Lee, Jae Seung",
+            "dc.subject": "Society",
+            "prism.issn": "2731-9997",
+            "prism.publicationName": "Nature Cities",
+            "prism.publicationDate": "2025-07-18",
+            "prism.volume": "2",
+            "prism.number": "8",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "708",
+            "prism.endingPage": "719",
+            "prism.copyright": "2025 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s44284-025-00278-y",
+            "prism.doi": "doi:10.1038/s44284-025-00278-y",
+            "citation_pdf_url": "https://www.nature.com/articles/s44284-025-00278-y.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s44284-025-00278-y",
+            "citation_journal_title": "Nature Cities",
+            "citation_journal_abbrev": "Nat Cities",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2731-9997",
+            "citation_title": "Association between urban shrinkage and excess mortality during the COVID-19 pandemic",
+            "citation_volume": "2",
+            "citation_issue": "8",
+            "citation_publication_date": "2025/08",
+            "citation_online_date": "2025/07/18",
+            "citation_firstpage": "708",
+            "citation_lastpage": "719",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s44284-025-00278-y",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s44284-025-00278-y&api_key=",
+            "citation_reference": "citation_journal_title=J. Asian Archit. Build. Eng.; citation_title=Spatial analysis of population density and its effects during the Covid-19 pandemic in Sanandaj, Iran; citation_author=K Irandoost, H Alizadeh, Z Yousefi, B Shahmoradi; citation_volume=22; citation_publication_date=2023; citation_pages=635-642; citation_doi=10.1080/13467581.2022.2047983; citation_id=CR49",
+            "citation_author": "Lee, Jae Seung",
+            "citation_author_institution": "Department of Environmental Design, Urban Design Concentration, Graduate School of Environmental Studies and Environmental Planning Institute, Seoul National University, Seoul, Republic of Korea",
+            "description": "As the COVID-19 pandemic exposed and amplified structural vulnerabilities in cities, understanding how urban shrinkage exacerbates public health risks has become increasingly urgent. This study examines the relationship between urban shrinkage and excess mortality in 1,142 US counties during the COVID-19 pandemic (March 2020–February 2023). Using Kruskal–Wallis tests and mixed-effects models, we analyzed how different patterns and degrees of urban shrinkage influenced monthly excess deaths per 100,000 population and the frequency of mortality peaks. The results indicate that shrinking counties showed 165% higher excess deaths and 142% more mortality peaks than growing counties. Notably, counties experiencing simultaneous declines in both population and gross regional domestic product demonstrated worse outcomes than those with only one dimension of shrinkage. Furthermore, excess deaths increased proportionally with the severity of demographic and economic contraction. Socioeconomic disadvantages prevalent in shrinking counties—including lower income levels, higher proportions of older adults, lower educational attainment and higher unemployment rates—were also associated with elevated excess deaths. These findings underscore the need for place-based public health strategies tailored to address the structural vulnerabilities faced by shrinking and socioeconomically disadvantaged communities. Shrinking US counties faced 165% higher COVID-19 excess mortality than growing areas, exacerbated by combined population and economic decline. Structural vulnerabilities in shrinking regions underscore the need for targeted health interventions addressing socioeconomic disparities.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Association between urban shrinkage and excess mortality during the COVID-19 pandemic",
+            "twitter:description": "Nature Cities - Shrinking US counties faced 165% higher COVID-19 excess mortality than growing areas, exacerbated by combined population and economic decline. Structural vulnerabilities in...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44284-025-00278-y/MediaObjects/44284_2025_278_Fig1_HTML.png",
+            "DOI": "10.1038/s44284-025-00278-y",
+            "size": "215303",
+            "journal_id": "44284"
+        },
+        "canonical_url": "https://www.nature.com/articles/s44284-025-00278-y",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "The global outbreak of COVID-19 has posed an unprecedented challenge to public health. Although the pandemic was officially declared over in May 2023, the risk of recurrent infections continues to persist. To identify vulnerable regions and develop effective response strategies, researchers have examined various determinants of pandemic impacts, emphasizing the role of urban characteristics—such as population density, socioeconomic conditions and industrial structure—in shaping public health outcomes1,2,3,4,5.\nIn particular, shrinking cities may be disproportionately vulnerable to such crises. Urban shrinkage, commonly defined as population and economic decline, has been recognized as a key issue in urban studies since the late twentieth century6. Urban shrinkage is not confined to specific countries or cities but is pervasive: between 2000 and 2019, over 5,000 cities worldwide experienced population decline7, and 37% of natural cities are projected to shrink8.\nThe causes and consequences of urban shrinkage vary by region. Generally, urban shrinkage results from a complex interplay of factors such as declining fertility, youth outmigration, suburbanization, environmental challenges and deindustrialization9,10,11. More specifically, in East Asia, including Japan, shrinkage is primarily driven by suburbanization, demographic aging and low fertility rates12. In contrast, post-socialist countries in Eastern Europe, such as Germany, experience shrinkage due to deindustrialization, post-socialist transformation and suburbanization12. In the United States, shrinkage occurs amid overall population growth and is largely associated with suburbanization, industrial restructuring and the decline of high-tech sectors—so-called ‘second-generation post-industrial transformations’13,14,15. Urban shrinkage and growth often coexist within metropolitan areas, creating dual spatial structures that challenge planning and governance16.\nThe phenomenon of urban shrinkage presents a complex and multifaceted challenge to public health, imposing considerable strain on affected cities and reducing their capacity to respond effectively to health crises17,18. Previous studies have identified urban shrinkage itself as a public health crisis, highlighting its association with elevated health risks, including increased rates of mental illness, cognitive health deterioration and non-communicable diseases19,20,21.\nPublic health vulnerability in shrinking cities is largely attributed to sociodemographic shifts—particularly the outmigration of young, educated and affluent populations. This process leaves behind older, low-income and less-educated residents who are more susceptible to health crises22,23. In addition to these demographic changes, the financial and institutional decline of shrinking regions compromises local public health systems. These cities often face reduced tax revenues and the burden of maintaining oversized infrastructure, which leads to reductions in essential services such as healthcare, emergency response and economic assistance. As a result, healthcare systems may downsize by reducing staff, available beds or the overall quality of services24,25.\nFurthermore, the pre-existing socioeconomic decline in shrinking cities was exacerbated by the COVID-19 pandemic26,27. The rapid spread of the virus overwhelmed already fragile healthcare systems and necessitated widespread lockdowns, further disrupting local economies. Already weakened by urban shrinkage, these cities experienced a further deterioration in health system resilience due to the economic consequences of the pandemic28. Prolonged lockdowns and strict mobility restrictions impeded economic activity, increased unemployment, reduced job opportunities and led to widespread business closures29,30,31. These economic shocks, layered upon existing vulnerabilities, diminished individuals’ adaptive capacities and increased fiscal stress on local governments.\nHowever, empirical investigations into the extent to which urban shrinkage exacerbates vulnerability to public health risks remain scarce, often overlooking the interaction between urban shrinkage and external shocks such as pandemics. Understanding these compounding effects is essential for enhancing urban resilience in shrinking areas. This study aims to empirically examine the public health risks associated with urban shrinkage during the COVID-19 pandemic by analyzing monthly excess deaths. Drawing on excess death data from 1,142 US counties between March 2020 and February 2023, this research provides insights into how urban shrinkage influences public health outcomes and seeks to inform the development of sustainable urban transition strategies. Specifically, the present study addresses the following research questions:",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR25",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR28",
+                "ref-CR21",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR26",
+                "ref-CR7",
+                "ref-CR19",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "On the basis of the analytical criteria described in the Methods section, a total of 1,142 counties were selected from among the 3,144 US counties, as defined by the 2022 Census Bureau classification, for the final analysis. Initially, monthly mortality data from March 2020 to February 2023 were collected to calculate excess deaths, which were available for 2,375 counties. These counties were then categorized into four urban types based on changes in population and GRDP from 2010 to 2020. Among the 2,375 counties, 1,233 that did not meet the criteria for urban classification were excluded, resulting in a final dataset of 1,142 counties for analysis.\nAccording to the 2023 National Center for Health Statistics (NCHS) Urban–Rural Classification Scheme for Counties, the selected counties were categorized into six groups based on their degree of urbanization and metropolitan status (Supplementary Table 1). Of the 1,142 counties included in the analysis, 649 (57%) were classified as metropolitan and 493 (43%) as non-metropolitan. In contrast, the majority of the 2,002 counties excluded from the analysis were concentrated in non-metropolitan areas, accounting for approximately 73% of all non-selected US counties. This suggests that although the final dataset included a diverse range of counties across both urban and rural contexts, most non-metropolitan counties were excluded from the analysis.\n### General spatiotemporal patterns of excess deaths\nFrom March 2020 to February 2023, the selected 1,142 counties in this study experienced a total of 929,377 excess deaths during the COVID-19 pandemic. On the basis of mortality trends from the preceding 5 years, 6,054,965 deaths were expected over the 3-year period, but 6,984,343 deaths were actually observed. These results indicate that the pandemic period was undoubtedly an unprecedented public health emergency that severely exacerbated health conditions in US counties.\nSpecifically, the number of monthly excess deaths is as follows (Supplementary Table 2). The average monthly excess deaths in the selected counties was 22.61 (standard error (SE) 1.63, 95% confidence interval (CI) 19.42 to 25.79). This was calculated as the average difference between the monthly expected deaths and observed deaths in each county. Considering the disparate population sizes among counties, the average monthly excess deaths per 100,000 population were calculated to be 14.00 (SE 0.25, 95% CI 13.51 to 14.50).\nThe number of excess deaths fluctuated throughout the pandemic (Fig. 1 and Supplementary Tables 3 and 4). The overall pattern of the coronavirus pandemic has been a series of COVID-19 waves driven by changing circumstances such as vaccines, seasonal effects and the emergence of new variants such as Delta and Omicron. According to the World Health Organization, the patterns of daily new confirmed COVID-19 cases per million people in the United States have paralleled excess deaths. As the spread of COVID-19 surged, excess deaths also spiked sharply, particularly during specific periods such as March 2020, July 2020, December 2020, September 2021, January 2022 and July 2022. This consistent pattern indicates that the calculated excess deaths reflect the impact of COVID-19.\nThe study found that most US counties experienced excess deaths, with monthly excess deaths per 100,000 population ranging from −16.14 to 60.49 (Fig. 2a). Among the 1,142 counties, 1,125 (98.5%)—including Choctaw County, Oklahoma, and Attala County, Mississippi—demonstrated positive excess deaths, indicating that their monthly excess mortality exceeded the expected baseline (Supplementary Table 5). In contrast, only 17 counties (1.5%)—such as Cherokee County, Kansas (−16.14), Wabash County, Indiana (−5.78), and Minidoka County, Idaho (−5.69)—showed negative excess deaths, with monthly averages falling below zero (Supplementary Table 6).\nWhen examining monthly excess deaths per 100,000 population as classified according to the NCHS Urban–Rural Classification, a clear pattern emerges: counties with lower levels of urbanization tend to exhibit higher rates of monthly excess deaths per 100,000 population (Supplementary Table 7). Among metropolitan counties, large central metro counties reported the lowest average excess death rate (9.91, SE 0.43, 95% CI 9.07 to 10.75). This was followed by large fringe metro counties (10.96, SE 0.39, 95% CI 10.19 to 11.74), medium metro counties (12.25, SE 0.44, 95% CI 11.39 to 13.11) and small metro counties (12.55, SE 0.60, 95% CI 11.38 to 13.72). In contrast, non-metropolitan counties demonstrated considerably higher excess death rates. Micropolitan counties recorded an average of 15.09 (SE 0.51, 95% CI 14.10 to 16.08), whereas non-core counties reported the highest average rate of 20.01 (SE 0.78, 95% CI 18.49 to 21.53). These results highlight a stark urban–rural gradient in excess deaths, indicating that more rural counties bore disproportionately greater health burdens during the COVID-19 pandemic.\nTo compare the frequency of peaks across counties, we calculated the number of peaks for each county by counting the months in which the monthly excess deaths per 100,000 population increased by more than 15 compared to the previous month. The number of peaks ranged from 0 to 13 across counties, with an average of 6.81 peaks (SE 0.08, 95% CI 6.66 to 6.96) among all selected counties (Fig. 2b).\nThe frequency of peaks also followed a similar pattern to monthly excess deaths per 100,000 population, with less urbanized counties tending to exhibit higher peak mortality levels (Supplementary Table 8). Among metropolitan counties, large central metro counties exhibited the lowest average number of peaks (2.84, SE 0.17, 95% CI 2.50 to 3.18), followed by large fringe metro counties (5.26, SE 0.17, 95% CI 4.93 to 5.58), medium metro counties (5.62, SE 0.17, 95% CI 5.28 to 5.96) and small metro counties (6.62, SE 0.15, 95% CI 6.32 to 6.91). In contrast, the number of peaks was substantially higher in non-metropolitan counties, with micropolitan counties averaging 8.12 (SE 0.09, 95% CI 7.93 to 8.30) and non-core counties recording the highest average number of peaks at 9.16 (SE 0.11, 95% CI 8.95 to 9.38).\n### Differences in excess deaths across urban types\nIn this study, a total of 1,142 counties were classified into four types based on changes in population and GRDP over the 10 years from 2010 to 2020 (Extended Data Fig. 1 and Supplementary Table 9). The first type includes 691 growing counties, with an average CAGR of +0.97% for population and +2.04% for GRDP. The second type consists of 243 shrinking counties, which experienced declines in both indicators (average CAGR of −0.62% for population and −1.71% for GRDP). The third type comprises 39 population-growth and economic-decline counties (hereafter referred to as Pop-Growth, Econ-Decline counties), characterized by population growth (average CAGR of +0.67%) alongside economic decline (average GRDP CAGR of −1.42%). Lastly, the fourth type includes 169 population-decline and economic-growth counties (hereafter referred to as Pop-Decline, Econ-Growth counties), which exhibited population loss (average CAGR of −0.44%) but economic growth (average GRDP CAGR of +1.79%).\nAs shown in Supplementary Table 9, in terms of socioeconomic status, growing counties exhibited the most favorable conditions, including higher income levels, greater educational attainment and higher population density, along with lower unemployment and aging rates. In contrast, shrinking counties displayed the most disadvantaged profiles—lower income and education levels, higher unemployment rates, older populations and a greater proportion of Black residents. Pop-Growth, Econ-Decline counties shared characteristics similar to growing counties, while Pop-Decline, Econ-Growth counties exhibited mixed patterns, combining economic vitality with demographic and social vulnerabilities. Overall, urban types characterized by population decline tended to have more pronounced socioeconomic disadvantages.\nThe distribution of NCHS urban–rural classifications across the four urban change types shows distinct spatial patterns (Supplementary Table 10). Shrinking and Pop-Decline, Econ-Growth counties—both characterized by population decline—were predominantly non-metropolitan, accounting for 73% (n = 178) and 72% (n = 122), respectively. In contrast, growing counties (74%, n = 691) and Pop-Growth, Econ-Decline counties (67%, n = 39), both characterized by population growth, were mostly metropolitan.\nFigure 3 presents the average and cumulative monthly excess deaths per 100,000 population for each urban type. During the pandemic, with the exception of a few months, shrinking counties consistently exhibited higher monthly excess deaths than other types, whereas growing counties tended to report lower levels (Fig. 3a). This difference is particularly evident in the cumulative trends of monthly excess deaths per 100,000 population over the 3-year period, as shown in Fig. 3b. Throughout the pandemic, shrinking counties recorded the highest cumulative excess deaths, reaching 687.92 per 100,000 population by the final month. This was followed by Pop-Decline, Econ-Growth counties (581.20), Pop-Growth, Econ-Decline counties (548.12) and growing counties (418.19).\nDuring the pandemic (March 2020–February 2023), the average monthly excess deaths per 100,000 population varied by urban types (Fig. 4a). Shrinking counties registered the highest rate (mean = 19.11, SE 0.64, 95% CI 17.86–20.35), followed by Pop-Decline, Econ-Growth counties (mean = 16.14, SE 0.74, 95% CI 14.70–17.59), Pop-Growth, Econ-Decline counties (mean = 15.23, SE 1.47, 95% CI 12.35–18.10) and growing counties (mean = 11.62, SE 0.25, 95% CI 11.13–12.10). A Kruskal–Wallis test confirmed statistically significant differences among the four types (H(3) = 23.28, P < 0.001) (Supplementary Table 11a). Post hoc Dunn’s test with Bonferroni correction revealed significant pairwise differences between growing and shrinking counties (P < 0.001), growing and Pop-Decline, Econ-Growth counties (P < 0.001), shrinking and Pop-Growth, Econ-Decline counties (P < 0.05) and shrinking and Pop-Decline, Econ-Growth counties (P < 0.05) (Extended Data Fig. 2a).\nThe average number of peaks, representing waves of excess deaths, showed clear differences across urban types (Fig. 4b). The study found that the frequency of excess death surges was highest in shrinking counties (mean = 8.39, SE = 0.11, 95% CI 8.17 to 8.61), followed by Pop-Decline, Econ-Growth counties (mean = 8.36, SE = 0.14, 95% CI 8.08 to 8.64), Pop-Growth, Econ-Decline counties (mean = 6.87, SE = 0.31, 95% CI 6.27 to 7.48) and growing counties (mean = 5.87, SE = 0.10, 95% CI 5.67 to 6.07). As shown in Extended Data Fig. 2b and Supplementary Table 11b, a Kruskal–Wallis test was conducted to evaluate differences in the average number of peaks among the four urban types, revealing statistically significant variation (H(3) = 30.47, P < 0.001). Post hoc analysis using Dunn’s test with Bonferroni correction identified significant differences between several groups: growing vs shrinking (P < 0.001), growing vs Pop-Decline, Econ-Growth (P < 0.001), shrinking vs Pop-Growth, Econ-Decline (P = 0.001) and Pop-Growth, Econ-Decline vs Pop-Decline, Econ-Growth (P = 0.002).\n### Key drivers of excess deaths and mortality peaks in US counties\nTo assess how urban shrinkage and socioeconomic factors influence excess deaths, this study employed a mixed-effects regression model using two outcome variables: monthly excess deaths per 100,000 population (Model 1) and the number of mortality peaks (Model 2). As shown in Table 1, the key predictors included CAGR of population and GRDP as indicators of urban shrinkage, along with socioeconomic variables such as median household income, the proportion of residents aged 65 and older, educational attainment (bachelor’s degree or higher), unemployment rate and racial/ethnic composition (white, Black or African American, Asian, Native Hawaiian and other Pacific islander). Average population size and population density were included as control variables.\nTable 2 presents the results of the two regression models. In Model 1, both population and GRDP growth were significantly associated with lower excess deaths. Specifically, a 1% increase in CAGR of population was associated with a reduction of 0.80 in monthly excess deaths per 100,000 population, and a 1% increase in CAGR of GRDP reduced it by 0.25. Among the socioeconomic variables, a higher proportion of older residents was associated with increased excess deaths (β = 0.342), whereas higher income and higher educational attainment were associated with reductions in excess deaths (β = −0.055 and −0.210, respectively). Most racial variables were not statistically significant, except for the proportion of Native Hawaiian and other Pacific islander populations, which showed a strong negative association (β = −3.177). The control variables, population size and population density, were not statistically significant in this model.\nIn Model 2, population shrinkage had a strong negative association with the number of peaks (β = −0.608), whereas GRDP decline showed only marginal significance (β = 0.048, P = 0.073). A larger proportion of older residents was associated with an increased number of peaks (β = 0.127), whereas higher income, education and unemployment rates were linked to fewer peaks (β = −0.017, −0.074 and −0.198, respectively). The racial composition variables showed mixed effects: the white population share was positively associated with the number of peaks (β = 0.026), the Black population share was marginally significant (β = 0.019) and the Asian population share was non-significant. The share of Native Hawaiian and other Pacific islander populations again showed a strong negative effect (β = −0.818). Among the control variables, population size had a significant negative association with the number of peaks, whereas population density remained non-significant.",
+            "cites": [],
+            "figures": [
+                "figure-4",
+                "figure-1",
+                "figure-2",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "This study demonstrates that urban shrinkage is associated with heightened public health risks during the COVID-19 pandemic. Shrinking counties consistently exhibited higher monthly excess deaths and more frequent mortality peaks than growing counties, indicating that population and economic decline undermine local resilience during health crises. The findings also reaffirm that well-known characteristics of shrinking cities—such as lower income levels, lower educational attainment and higher unemployment rates—are associated with increased excess mortality. These socioeconomic disadvantages probably function as structural mechanisms that exacerbate vulnerability to public health crises.\nImportantly, the results underscore that urban shrinkage is not a homogeneous phenomenon; rather, variations in the pattern and intensity of shrinkage yield different public health outcomes. Counties experiencing simultaneous declines in both population and GRDP faced the most severe mortality impacts, whereas counties with a decline in only one of the two indicators exhibited relatively lower health burdens. This suggests that continued population growth or sustained economic activity may serve as a mitigating factor, buffering the adverse effects of decline in the other dimension. Moreover, the regression analysis confirms that the severity of shrinkage plays a critical role in shaping public health outcomes. Sharper declines in population and GRDP were strongly correlated with elevated excess deaths, indicating that the degree of contraction itself is a meaningful predictor of health deterioration. As demographic and economic decline deepens and persists, its cumulative impact on community health is likely to intensify—regardless of urban typology or classification. Therefore, understanding the specific pattern and degree of urban shrinkage—rather than its mere presence—is essential for identifying and addressing health vulnerabilities. A one-size-fits-all approach is insufficient; tailored interventions are needed depending on whether shrinkage is driven primarily by demographic factors, economic factors or both.\nFurthermore, this study underscores the importance of spatial context in understanding the relationship between urban shrinkage and public health. Despite overall population growth in the United States, population decline has been disproportionately concentrated in rural counties32. Similarly, in this study, although population size and density were not statistically significant predictors in the regression models, descriptive analyses revealed that most shrinking counties were located in non-metropolitan, rural areas—where average excess deaths tended to be notably higher. For example, Choctaw County, Oklahoma, a rural county with a population of just 14,365, recorded one of the highest excess death rates during the pandemic.\nThis finding highlights the critical need for public health policies that go beyond a generalized urban shrinkage framework and instead reflect the specific vulnerabilities of rural shrinking regions. In particular, the rural characteristics of many shrinking counties appear to intensify health risks, indicating that tailored, place-based responses that explicitly incorporate rurality are essential. Thus, this study calls for more proactive and differentiated public health strategies that address not only the demographic and economic aspects of shrinkage but also the spatial and structural characteristics of rural settings where such shrinkage is most pronounced.\nFinally, this study acknowledges that excess deaths during the pandemic may not be solely attributable to COVID-19. Although the analysis centers on pandemic-related mortality, other external factors—such as the opioid crisis, economic shocks and chronic underinvestment in rural healthcare systems—may have also contributed to elevated death rates. Future research should incorporate these overlapping risk factors to better capture the multifaceted relationship between urban shrinkage and public health crises. Additionally, as this study analyzed only a subset of US counties due to data availability and classification criteria, further research is warranted to examine whether similar patterns persist across a broader range of counties. Lastly, this study highlights the need for future research to incorporate a wider range of urban shrinkage trajectories. Whereas this study classified shrinkage into three primary types, future work could benefit from considering more nuanced temporal patterns and dynamic shifts in urban decline. Such efforts would allow for a more comprehensive understanding of how different forms and evolutions of shrinkage affect public health vulnerabilities over time.",
+            "cites": [
+                "ref-CR32"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "The analysis was conducted in three phases. First, the number of excess deaths was calculated for the selected counties. This facilitated the computation and subsequent analysis of monthly excess death rates per 100,000 population and the number of peaks. In the context of mortality data, a peak is typically defined as a sudden surge in deaths. The peaks help understand the pandemic’s intensity and impact beyond just the average number of deaths, providing a more comprehensive picture of the pandemic’s real effects on urban areas. These peaks correspond to what is commonly referred to as waves, where there are increases in cases, hospitalizations and deaths over a specific period. By analyzing these peaks, we can better comprehend the pandemic’s fluctuating severity and broader impact on public health.\nIn the second step, US counties were classified into four categories based on urban growth and decline criteria, which were then subjected to further analysis. In this study, we focused on deaths in US counties because counties serve as the smallest administrative unit for which comprehensive mortality data are consistently available nationwide. The county-level data provide a standardized and reliable basis for comparing mortality trends across different regions, making it the most suitable spatial unit for analyzing excess deaths in a nationwide study. Additionally, county-level analysis allows for the examination of broader regional patterns of urban shrinkage, which may not be fully captured at the city level. Unlike cities, which vary in size and governance structures, counties encompass both urban and rural areas, making them a more suitable unit for analyzing how demographic and economic decline interacts with public health outcomes at a larger scale. Moreover, counties serve as key administrative units for public health policies and emergency responses in the United States. Many public health interventions, including COVID-19 mitigation measures, hospital resource allocation and emergency declarations, are implemented at the county level. Therefore, county-level analysis is particularly appropriate for examining the relationship between urban shrinkage and excess deaths during the pandemic.\nIn the final step, statistical methods were employed to analyze the relationship between the degree of urban shrinkage and excess deaths. The Kruskal–Wallis test was used to assess differences in monthly excess death rates per 100,000 population and the number of peaks across urban types. Subsequently, the impact of the degree of urban shrinkage the degree of urban shrinkage and socioeconomic status on monthly excess death rates per 100,000 population and the number of peaks was analyzed using a mixed-effects model. These calculations of excess deaths and statistical analyses were conducted using R Studio and Python programs. In particular, the Python code (version 3.11.3) for data analysis utilized the libraries pandas (version 1.5.3), math (a built-in Python library), scipy (version 1.10.1), statsmodels (version 0.13.5) and scikit-posthocs (version 0.7.0). Each step is further described as follows.\n### Calculation of monthly excess deaths and peaks\nThe study focused on the so-called ‘excess deaths’ associated with COVID-19 in urban areas. Excess deaths refer to the number of people who die in an area that exceeds what is normally expected during a specific period33. The concept compares the actual number of deaths from all causes to a ‘baseline’ death rate based on data from previous years. Official statistics on COVID-19 confirmed deaths often miss people who died from the pandemic but had not tested positive, especially in areas with limited testing participation. Additionally, the pandemic’s spread disrupted existing healthcare systems, making it harder to treat health issues indirectly related to COVID-19. This can lead to increased deaths from illnesses loosely related to the pandemic. Excess deaths capture these issues by looking at the total number of deaths from any cause. By comparing this to what is expected based on past data, it reveals a broader picture of mortality during the pandemic.\nSeveral methodologies for calculating excess deaths were proposed in previous studies34. The most straightforward approach is to utilize the average weekly or monthly mortality of preceding years without a pandemic as a baseline for deaths35. However, this method cannot consider seasonal variations in mortality, such as heat waves and seasonal influenza epidemics and yearly trends. In light of these limitations, several alternative approaches have been proposed, such as the Euro‐MOMO models36,37, the Farrington model38 and a linear regression model33.\nIn this study, we employed a model developed by Karlinsky and Kobak33 and The Economist (https://www.economist.com/graphic-detail/coronavirus-excess-deaths-tracker). In the initial phase of the analysis, the researchers utilized a distinct regression model for each county, drawing on 5 years of monthly mortality data from January 2015 to 2019. The equation is as follows:\nIn this equation, \\({D}_{t,{y}}\\) represents the number of deaths recorded on month t in year y, \\({\\alpha }_{t}\\) is an intercept (fixed effect) for each month and β is a linear slope across years. In the following step, the fitted model was employed to calculate each county’s anticipated monthly death toll between March 2020 and February 2023. Monthly excess deaths were extracted by subtracting the observed mortality from the expected value. To allow for comparisons considering the different population sizes of each county, the average monthly excess death per 100,000 population was computed for each county.\nThe rationale for using monthly data to calculate excess deaths in this study is based on two main factors. First, this study focuses on identifying long-term patterns and broad spatial trends of excess deaths across US counties over the course of the 3-year COVID-19 pandemic. Monthly data are more suitable for capturing these patterns, as they reduce the noise associated with short-term fluctuations in weekly data. Weekly data, while useful for short-term impact analysis, are more susceptible to reporting delays and sample size variations, particularly in smaller counties. Monthly aggregation provides a more stable and reliable dataset for long-term analysis. Second, the availability of data also determined this choice. The mortality data provided by the Centers for Disease Control and Prevention were available at the monthly level by county, whereas weekly mortality data for the same period and scope were either incomplete or unavailable for many counties. Thus, using monthly data ensured the consistency and reliability of the dataset across all counties included in the analysis.\nAdditionally, based on these data, the number of peaks was calculated. To identify peaks, the study used two main criteria. First, the Python function ‘find_peaks’ was employed to detect local maxima in the time series, based on parameters such as prominence and width to ensure that peaks were captured. Second, we filtered the detected peaks by selecting only those where the increase in excess deaths per 100,000 population between consecutive peaks exceeded 15. This threshold was chosen to reflect a meaningful surge in mortality, corresponding to severe crisis periods. The value of 15 was determined empirically, based on the fact that the average monthly excess deaths per 100,000 population across all counties was approximately 14. By setting this threshold slightly above the average, we aimed to capture statistically and epidemiologically meaningful surges while filtering out minor fluctuations that could otherwise distort the analysis.\n### Criteria for urban shrinkage and classification of urban types\nUrban shrinkage is a multifaceted phenomenon defined by key indicators such as population decline, economic downturn, falling birth rates, rising unemployment and the deterioration of urban infrastructure. Existing literature also classifies urban shrinkage according to different typologies, distinguishing between cyclic fluctuations and persistent decline and considering the duration of shrinkage. Whereas some studies examine short-term economic recessions, others focus on long-term demographic and structural transformations. Given this multidimensional nature, the present study defines urban shrinkage based on three core aspects: (1) the indicators used to measure shrinkage, (2) the time period over which shrinkage is observed and (3) the pattern of decline.\nFirst, this study uses demographic and economic contraction as the primary indicators to define urban shrinkage—specifically, changes in population and GRDP. Population decline is widely regarded as a key characteristic of urban shrinkage, reflecting processes such as outmigration, population aging and declining birth rates, all of which contribute to urban decline. Economic decline, measured by reductions in GRDP, represents stagnation in business activity, decreased local government revenues and diminished economic competitiveness, which further exacerbate shrinkage. By combining these two indicators, the study adopts a more comprehensive approach to assessing urban shrinkage, capturing both demographic and structural dimensions—unlike studies that focus solely on population trends. To quantify these changes, the CAGR was calculated for both population and GRDP. Counties with negative CAGR values for both population and GRDP were classified as experiencing demographic and economic decline, whereas positive values indicated growth.\nSecond, this study examines urban shrinkage over a recent 10-year period (2010–2020). The primary goal of this research is to analyze how the unprecedented public health crisis of the COVID-19 pandemic affected shrinking regions. Accordingly, it was essential to capture the most recent urban dynamics before the onset of the pandemic. The 2010–2020 period reflects the most up-to-date demographic and economic trends before COVID-19 emerged. Furthermore, because the analysis was conducted at the county level, a longer observation period could introduce inconsistencies in assessing uniform changes in population and GRDP across counties. Therefore, the study focuses on the most recent decade, allowing for a more coherent and reliable evaluation of urban shrinkage trends at the county scale.\nThird, in addition to assessing shrinkage through population and GRDP indicators, this study considers the pattern of decline by including only those counties that experienced a continuous decrease—defined as a negative annual growth rate in each year—over the 10-year period (2010–2020). In some regions, population or economic decline may be temporary and followed by periods of recovery, resulting in U-shaped, inverted U-shaped or cyclical patterns of change39. Such short-term fluctuations, even within a 10-year timeframe, may not reflect structural shrinkage, as they are often driven by temporary economic cycles, policy interventions or short-term migration flows, rather than by sustained demographic and economic contraction. Moreover, these intermittent changes may not be enough to induce fundamental socioeconomic transformation in a given region. Therefore, this study adopts a continuous decline over the 10-year period as a more robust indicator of structural, long-term urban shrinkage. This allows for a clearer distinction between persistently shrinking counties and those experiencing short-term downturns or temporary fluctuations.\nUsing the above criteria, this study classifies all counties into four categories based on changes in population and GRDP over the 10-year period16: (1) Growing, (2) Shrinking, (3) Pop-Growth, Econ-Decline and (4) Pop-Decline, Econ-Growth.\nIn line with the general definition of urban shrinkage, counties where both population and GRDP increased are classified as growing counties, whereas those with declines in both indicators are categorized as shrinking counties (Supplementary Fig. 1). Additionally, two intermediate categories are introduced to capture cases where demographic and economic trends diverge: counties experiencing population growth but GRDP decline are labeled Pop-Growth, Econ-Decline, whereas those with declining populations but growing GRDP are classified as Pop-Decline, Econ-Growth.\nWhereas growing counties are typically not associated with decline, the other three types exhibit varying symptoms of shrinkage or structural decline12. Among them, shrinking counties represent archetypal shrinking cities, characterized by simultaneous demographic and economic contraction. In contrast, the two intermediate types reflect more nuanced dynamics. Pop-Growth, Econ-Decline counties, for example, are often observed in parts of the developing world where economic stagnation coexists with high levels of immigration or natural population growth. On the other hand, Pop-Decline, Econ-Growth counties are characterized by economic recovery or structural transformation despite persistent population loss—examples include cities such as Dresden, Leipzig or Jena12. This phenomenon suggests that not all shrinking cities are economically declining; rather, prosperous shrinking cities, where population loss and economic vitality coexist, are increasingly recognized in the literature40,41.\nTherefore, this study employs this typology to distinguish between diverse trajectories of urban shrinkage and examines how these different patterns influence public health outcomes, particularly excess deaths during the COVID-19 pandemic.\n### Data and statistical modeling\nThe statistical analysis in this study was conducted in two stages. First, to test the primary research hypothesis—that counties experiencing urban shrinkage would exhibit higher levels of excess deaths during the pandemic compared to those that are not—we compared the means of monthly excess deaths per 100,000 population and the number of peaks across four urban types: (1) Growing, (2) Shrinking, (3) Pop-Growth, Econ-Decline, and (4) Pop-Decline, Econ-Growth. Given the non-normal distribution of the data, Kruskal–Wallis tests were employed as they are well-suited for analyzing data that do not meet the assumptions of normality or homogeneity of variance. The Shapiro–Wilk and Levene’s tests confirmed that the assumptions were violated for both monthly excess deaths per 100,000 population and the number of peaks (Supplementary Table 12). Therefore, Kruskal–Wallis tests were conducted as two-tailed tests. Post hoc pairwise comparisons were subsequently performed to identify specific differences between the urban typologies.\nIn the second stage of the statistical analysis, a mixed-effects model was employed to investigate the effects of urban decline (Hypothesis 2)—measured by changes in population and GRDP—and socioeconomic factors (Hypothesis 3) on two distinct dependent variables: monthly excess deaths per 100,000 population (Model 1) and the number of peaks (Model 2). Each model was estimated independently using data from 1,142 counties and analyzed using two-tailed tests. This approach enabled the assessment of how urban dynamics influence public health outcomes, independent of the effects captured in the alternative model.\nThe mixed-effects model was appropriate given the nested data structure, with counties grouped within states. The modeling approach enabled the control of intra-state variability, which could influence excess death rates and peak occurrences beyond the effects captured by the observed independent variables. The state variable was incorporated as a random effect (\\({\\mu }_{j}\\)) to account for random variations in excess death rates attributable to factors at the state level that are not captured by the fixed effects. The fixed effects in our model encompass a range of urban shrinkage and socioeconomic indicators, including: (1) CAGR of population, (2) CAGR of GRDP, (3) median household income, (4) percentage of residents aged 65 and over, (5) percentage of adults with a bachelor’s degree or higher, (6) unemployment rate, (7–10) racial composition (white, Black or African American, Asian, Native Hawaiian and other Pacific islander), and (11–12) control variables for total population and population density. The specified full model is expressed mathematically as follows:\nwhere \\({Y}_{{ij}}\\) represents the dependent variable for the ith county in the jth state, \\({\\beta }_{0}\\) is the intercept, \\({\\beta }_{1}\\) through \\({\\beta }_{12}\\) are the coefficients for the independent variables \\(({X}_{1}{to}{X}_{12})\\), \\({\\mu }_{j}\\) represents the random effect associated with each state and \\({\\epsilon }_{{ij}}\\) is the residual error for each observation. Both models were fitted using the restricted maximum likelihood approach. The fit statistics for the models included the −2 Log Likelihood (−2LL), Akaike Information Criterion (AIC) and Bayesian Information Criterion (BIC), which were employed to assess the goodness of fit.\nThe dependent variable is represented by the number of excess deaths per 100,000 population (in Model 1) and the number of peaks (in Model 2). This study incorporates variables related to the severity of urban shrinkage and socioeconomic status as independent variables, which address research questions 2 and 3, respectively.\nFirst, the severity of urban shrinkage variables utilizes CAGR of population and GRDP, calculated based on changes between 2010 and 2020. The CAGR is defined as the annual average rate of compound growth between the beginning and ending years. The formula for calculating the CAGR is as follows:\nThe CAGR is a key indicator for measuring the severity of urban shrinkage42. A negative CAGR indicates decline, whereas a positive value suggests growth in population or GRDP. In the context of this study, a negative CAGR denotes explicitly the extent of decline, with larger negative values indicating that the city is undergoing a more severe shrinking process.\nSecond, the socioeconomic status variables included in this study comprise median household income (Income), the percentage of the population aged 65 and older (Ratio of older people), the percentage of adults with a bachelor’s degree or higher from 2017 to 2021 (Education), the unemployment rate (Unemployment) and racial composition indicators, including the percentage of white individuals (Race_white), Black or African American individuals (Race_black), Asian individuals (Race_asian) and Native Hawaiian and other Pacific islander individuals (Race_NHPI) as of 2020.\nThese variables reflect the typical socioeconomic shifts observed in shrinking areas. In general, shrinking areas are characterized by higher rates of poverty, increasing proportions of older residents, lower levels of educational attainment, higher unemployment rates and a greater concentration of certain racial groups, such as Black or African American populations43,44,45,46. This study hypothesizes that such socioeconomic conditions in shrinking counties contribute to elevated levels of excess deaths and seeks to examine the relationship between these variables and excess deaths during the COVID-19 pandemic.\nFinally, to account for differences in county size, we included control variables for total population—measured as the average population between 2020 and 2022—and population density (people per km2). Previous studies have demonstrated that these variables were associated with both the spread of COVID-19 and excess deaths during the pandemic2,47,48,49. By accounting for these factors, the study seeks to ensure a more accurate assessment of the independent effects of urban shrinkage and socioeconomic conditions on public health outcomes.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR47",
+                "ref-CR36",
+                "ref-CR38",
+                "ref-CR39",
+                "ref-CR49",
+                "ref-CR45",
+                "ref-CR43",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR2",
+                "ref-CR12",
+                "ref-CR16",
+                "ref-CR40",
+                "ref-CR44",
+                "ref-CR37",
+                "ref-CR48",
+                "ref-CR41",
+                "ref-CR42",
+                "ref-CR33",
+                "ref-CR46"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Temporal trend of monthly observed, expected and excess deaths per 100,000 population in all counties.",
+            "figure-caption": "a, The average monthly observed and expected deaths across all 1,142 counties from March 2020 to February 2023. The red dashed line represents the average monthly observed deaths, while the blue dashed line represents the average monthly expected deaths. The shaded red and blue areas represent the 95% confidence intervals around the monthly mean deaths, respectively. b, The monthly excess deaths per 100,000 population. The value is presented with the mean (the red dashed line), 50% (the shaded red area) and 95% (the shaded light red area) confidence intervals.",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00278-y/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Spatial map of the number of monthly excess deaths per 100,000 population and number of peaks.",
+            "figure-caption": "a, The monthly excess deaths per 100,000 population in all counties. The counties shaded with the color bar represent the number of positive excess deaths, where the average monthly excess deaths per 100,000 population were greater than or equal to 0 from March 2020 to February 2023. Among the positive excess deaths, the darker the shade, the higher the number of excess deaths. Counties shaded in blue indicate negative excess deaths, where the average monthly excess deaths per 100,000 population were less than 0. Alaska was not included in this study, so the state’s counties are not shown on the map. b, The number of peaks in all counties. The blue color bar represents the number of peaks. Counties shaded in darker blue indicate a higher frequency of peaks from March 2020 to February 2023. The counties with the most frequent peaks were Wayne County, West Virginia; Fayette County, Illinois; Marion County, Kentucky; Pacific County, Washington; and Hempstead County, Arkansas, each experiencing 13 peaks in excess deaths. County boundaries shown in a and b were derived from public domain vector data provided by the United States Census Bureau (https://www.census.gov/en.html) and visualized using Quantum Geographic Information System (QGIS) software, an open-source geographic information system used for spatial data analysis and mapping.",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00278-y/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Temporal trends of monthly excess deaths per 100,000 population and cumulative monthly excess death per 100,000 population by urban types.",
+            "figure-caption": "a, The average monthly excess deaths per 100,000 population by urban types: the monthly average for 691 growing counties (blue line with 95% CI shaded area), 243 shrinking counties (red line with 95% CI shaded area), 169 Pop-Growth, Econ-Decline counties (yellow line with 95% CI shaded area) and 39 Pop-Decline, Econ-Growth counties (green line with 95% CI shaded area). The shaded areas represent 95% confidence intervals around the monthly mean excess deaths. b, The cumulative values of the monthly average excess deaths per 100,000 population from a by urban types.",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00278-y/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Plots of monthly excess deaths per 100,000 population and number of peaks in all counties.",
+            "figure-caption": "a, Monthly excess deaths per 100,000 population in all counties. Scatter plot with the x axis representing the CAGR of population and the y axis representing the CAGR of GRDP, showing each county’s average annual growth rates between 2010 and 2020. The color bar and size of the points represent the number of average monthly excess deaths per 100,000 population for each county, with darker red and larger points indicating higher excess deaths. Counties with negative excess deaths (where the number of average monthly excess deaths per 100,000 population is less than 0) are marked with a light blue X. The top ten counties with the highest number of average monthly excess deaths per 100,000 population are specifically marked: Choctaw County, OK (60.49), Attala County, MS (46.34), Apache County, AZ (46.09), Buchanan County, VA (45.33), Putnam County, GA (43.49), Marion County, MS (43.39), Summers County, WV (42.34), Curry County, OR (42.17), Dallas County, AL (41.00), Dodge County, GA (40.45). b, Number of peaks in all counties. On the basis of the same scatter plot as a, but the color and size of the points represent the number of peaks. Darker blue and larger points indicate a higher frequency of peaks. The top ten counties with the highest number of peaks are specifically marked: Wayne County, WV (13), Fayette County, IL (13), Marion County, KY (13), Pacific County, WA (13), Hempstead County, AR (13), Tillamook County, OR (12), Logan County, WV (12), Baxter County, AR (12), Hardeman County, TN (12), Hardin County, IA (12).",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00278-y/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Hong, S. & Choi, S. H. The urban characteristics of high economic resilient neighborhoods during the COVID-19 pandemic: a case of Suwon, South Korea. Sustainability 13, 4679 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu13094679",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20urban%20characteristics%20of%20high%20economic%20resilient%20neighborhoods%20during%20the%20COVID-19%20pandemic%3A%20a%20case%20of%20Suwon%2C%20South%20Korea&journal=Sustainability&doi=10.3390%2Fsu13094679&volume=13&publication_year=2021&author=Hong%2CS&author=Choi%2CSH"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Bhadra, A., Mukherjee, A. & Sarkar, K. Impact of population density on Covid-19 infected and mortality rate in India. Model. Earth Syst. Environ. 7, 623–629 (2021).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s40808-020-00984-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20population%20density%20on%20Covid-19%20infected%20and%20mortality%20rate%20in%20India&journal=Model.%20Earth%20Syst.%20Environ.&doi=10.1007%2Fs40808-020-00984-7&volume=7&pages=623-629&publication_year=2021&author=Bhadra%2CA&author=Mukherjee%2CA&author=Sarkar%2CK"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Chang, D., Chang, X., He, Y. & Tan, K. J. K. The determinants of COVID-19 morbidity and mortality across countries. Sci. Rep. 12, 5888 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-022-09783-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20determinants%20of%20COVID-19%20morbidity%20and%20mortality%20across%20countries&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-022-09783-9&volume=12&publication_year=2022&author=Chang%2CD&author=Chang%2CX&author=He%2CY&author=Tan%2CKJK"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Chu, Z., Cheng, M. & Song, M. What determines urban resilience against COVID-19: city size or governance capacity? Sustainable Cities Soc. 75, 103304 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2021.103304",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=What%20determines%20urban%20resilience%20against%20COVID-19%3A%20city%20size%20or%20governance%20capacity%3F&journal=Sustainable%20Cities%20Soc.&doi=10.1016%2Fj.scs.2021.103304&volume=75&publication_year=2021&author=Chu%2CZ&author=Cheng%2CM&author=Song%2CM"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Buja, A. et al. Demographic and socio-economic factors, and healthcare resource indicators associated with the rapid spread of COVID-19 in Northern Italy: an ecological study. PLoS ONE 15, e0244535 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0244535",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Demographic%20and%20socio-economic%20factors%2C%20and%20healthcare%20resource%20indicators%20associated%20with%20the%20rapid%20spread%20of%20COVID-19%20in%20Northern%20Italy%3A%20an%20ecological%20study&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0244535&volume=15&publication_year=2020&author=Buja%2CA"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Hospers, G. J. & Syssner, J. (eds) Dealing with Urban and Rural Shrinkage: Formal and Informal Strategies 5 (LIT Verlag, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Meng, X., Jiang, Z., Wang, X. & Long, Y. Shrinking cities on the globe: evidence from LandScan 2000–2019. Environ. Plann. A: Econ. Space 53, 1244–1248 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0308518X211006118",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Shrinking%20cities%20on%20the%20globe%3A%20evidence%20from%20LandScan%202000%E2%80%932019&journal=Environ.%20Plann.%20A%3A%20Econ.%20Space&doi=10.1177%2F0308518X211006118&volume=53&pages=1244-1248&publication_year=2021&author=Meng%2CX&author=Jiang%2CZ&author=Wang%2CX&author=Long%2CY"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Zhai, W. et al. Satellite monitoring of shrinking cities on the globe and containment solutions. iScience 25, 105020 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.isci.2022.104411",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Satellite%20monitoring%20of%20shrinking%20cities%20on%20the%20globe%20and%20containment%20solutions&journal=iScience&doi=10.1016%2Fj.isci.2022.104411&volume=25&publication_year=2022&author=Zhai%2CW"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Bănică, A., Istrate, M. & Muntele, I. Challenges for the resilience capacity of Romanian shrinking cities. Sustainability 9, 2289 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu9122289",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Challenges%20for%20the%20resilience%20capacity%20of%20Romanian%20shrinking%20cities&journal=Sustainability&doi=10.3390%2Fsu9122289&volume=9&publication_year=2017&author=B%C4%83nic%C4%83%2CA&author=Istrate%2CM&author=Muntele%2CI"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Wang, J., Yang, Z. & Qian, X. Driving factors of urban shrinkage: examining the role of local industrial diversity. Cities 99, 102646 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cities.2020.102646",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Driving%20factors%20of%20urban%20shrinkage%3A%20examining%20the%20role%20of%20local%20industrial%20diversity&journal=Cities&doi=10.1016%2Fj.cities.2020.102646&volume=99&publication_year=2020&author=Wang%2CJ&author=Yang%2CZ&author=Qian%2CX"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Ma, Z. et al. Urban shrinkage in the regional multiscale context: spatial divergence and interaction. Sustainable Cities Soc. 100, 105020 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2023.105020",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20shrinkage%20in%20the%20regional%20multiscale%20context%3A%20spatial%20divergence%20and%20interaction&journal=Sustainable%20Cities%20Soc.&doi=10.1016%2Fj.scs.2023.105020&volume=100&publication_year=2024&author=Ma%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Döringer, S., Uchiyama, Y., Penker, M. & Kohsaka, R. A meta-analysis of shrinking cities in Europe and Japan: towards an integrative research agenda. Eur. Plann. Stud. 28, 1693–1712 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F09654313.2019.1604635",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20meta-analysis%20of%20shrinking%20cities%20in%20Europe%20and%20Japan%3A%20towards%20an%20integrative%20research%20agenda&journal=Eur.%20Plann.%20Stud.&doi=10.1080%2F09654313.2019.1604635&volume=28&pages=1693-1712&publication_year=2020&author=D%C3%B6ringer%2CS&author=Uchiyama%2CY&author=Penker%2CM&author=Kohsaka%2CR"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Hollander, J. B., Pallagst, K., Schwarz, T. & Popper, F. Planning shrinking cities. Prog. Plann. 72, 223–232 (2009).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Planning%20shrinking%20cities&journal=Prog.%20Plann.&volume=72&pages=223-232&publication_year=2009&author=Hollander%2CJB&author=Pallagst%2CK&author=Schwarz%2CT&author=Popper%2CF"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Pallagst, K. et al. (eds) The Future of Shrinking Cities: Problems, Patterns and Strategies of Urban Transformation in a Global Context (IURD, Center for Global Metropolitan Studies and the Shrinking Cities International Research Network, 2009).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Ribant, M. & Chen, X. A typology of US shrinking cities. Prof. Geogr. 72, 152–164 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F00330124.2019.1633366",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20typology%20of%20US%20shrinking%20cities&journal=Prof.%20Geogr.&doi=10.1080%2F00330124.2019.1633366&volume=72&pages=152-164&publication_year=2020&author=Ribant%2CM&author=Chen%2CX"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Wiechmann, T. & Pallagst, K. M. Urban shrinkage in Germany and the USA: a comparison of transformation patterns and local strategies. Int. J. Urban Reg. Res. 36, 261–280 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1468-2427.2011.01095.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20shrinkage%20in%20Germany%20and%20the%20USA%3A%20a%20comparison%20of%20transformation%20patterns%20and%20local%20strategies&journal=Int.%20J.%20Urban%20Reg.%20Res.&doi=10.1111%2Fj.1468-2427.2011.01095.x&volume=36&pages=261-280&publication_year=2012&author=Wiechmann%2CT&author=Pallagst%2CKM"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Krzysztofik, R., Kantor-Pietraga, I. & Spórna, T. Spatial and functional dimensions of the COVID-19 epidemic in Poland. Eurasian Geogr. Econ. 61, 573–586 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F15387216.2020.1783337",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20and%20functional%20dimensions%20of%20the%20COVID-19%20epidemic%20in%20Poland&journal=Eurasian%20Geogr.%20Econ.&doi=10.1080%2F15387216.2020.1783337&volume=61&pages=573-586&publication_year=2020&author=Krzysztofik%2CR&author=Kantor-Pietraga%2CI&author=Sp%C3%B3rna%2CT"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Wang, H., Xu, K., Fang, H., Lin, H. & Zeng, H. Will urban scale affect health services inequity? The empirical evidence from cities in China. Front. Public Health 12, 1330921 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.3389%2Ffpubh.2024.1330921",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Will%20urban%20scale%20affect%20health%20services%20inequity%3F%20The%20empirical%20evidence%20from%20cities%20in%20China&journal=Front.%20Public%20Health&doi=10.3389%2Ffpubh.2024.1330921&volume=12&publication_year=2024&author=Wang%2CH&author=Xu%2CK&author=Fang%2CH&author=Lin%2CH&author=Zeng%2CH"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Sugawara, N., Yasui-Furukori, N. & Shimoda, K. Projections of psychiatrists’ distribution for patients in Japan: a utilization-based approach. Hum. Resour. Health 19, 49 (2021).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12960-021-00594-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Projections%20of%20psychiatrists%E2%80%99%20distribution%20for%20patients%20in%20Japan%3A%20a%20utilization-based%20approach&journal=Hum.%20Resour.%20Health&doi=10.1186%2Fs12960-021-00594-z&volume=19&publication_year=2021&author=Sugawara%2CN&author=Yasui-Furukori%2CN&author=Shimoda%2CK"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Glauber, R. Rural depopulation and the rural-urban gap in cognitive functioning among older adults. J. Rural Health 38, 696–704 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fjrh.12650",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rural%20depopulation%20and%20the%20rural-urban%20gap%20in%20cognitive%20functioning%20among%20older%20adults&journal=J.%20Rural%20Health&doi=10.1111%2Fjrh.12650&volume=38&pages=696-704&publication_year=2022&author=Glauber%2CR"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Zhu, R., Newman, G., Li, D., Song, Y. & Zou, L. Associations between vacant urban lands and public health outcomes in growing and shrinking cities. Urban For. Urban Green. 89, 128127 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ufug.2023.128127",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Associations%20between%20vacant%20urban%20lands%20and%20public%20health%20outcomes%20in%20growing%20and%20shrinking%20cities&journal=Urban%20For.%20Urban%20Green.&doi=10.1016%2Fj.ufug.2023.128127&volume=89&publication_year=2023&author=Zhu%2CR&author=Newman%2CG&author=Li%2CD&author=Song%2CY&author=Zou%2CL"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Kang, S. H., Lee, J. S. & Kim, S. Has South Korea’s policy of relocating public institutions been successful? A case study of 12 agglomeration areas under the Innovation City Policy. Urban Stud. 61, 900–922 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F00420980231193567",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Has%20South%20Korea%E2%80%99s%20policy%20of%20relocating%20public%20institutions%20been%20successful%3F%20A%20case%20study%20of%2012%20agglomeration%20areas%20under%20the%20Innovation%20City%20Policy&journal=Urban%20Stud.&doi=10.1177%2F00420980231193567&volume=61&pages=900-922&publication_year=2024&author=Kang%2CSH&author=Lee%2CJS&author=Kim%2CS"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Arceo-Gomez, E. O. et al. The income gradient in COVID-19 mortality and hospitalisation: an observational study with social security administrative records in Mexico. Lancet Reg. Health–Am. 6, 100055 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20income%20gradient%20in%20COVID-19%20mortality%20and%20hospitalisation%3A%20an%20observational%20study%20with%20social%20security%20administrative%20records%20in%20Mexico&journal=Lancet%20Reg.%20Health%E2%80%93Am.&volume=6&publication_year=2022&author=Arceo-Gomez%2CEO"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Haase, A. et al. Conceptualizing urban shrinkage. Environ. Plann. A: Econ. Space 46, 1519–1534 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1068%2Fa46269",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Conceptualizing%20urban%20shrinkage&journal=Environ.%20Plann.%20A%3A%20Econ.%20Space&doi=10.1068%2Fa46269&volume=46&pages=1519-1534&publication_year=2014&author=Haase%2CA"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Nakamura, A., Satoh, E., Suzuki, T., Koike, S. & Kotani, K. Future possible changes in medically underserved areas in Japan: a geographic information system-based simulation study. J. Mark. Access Health Policy 12, 118–127 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fjmahp12020010",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Future%20possible%20changes%20in%20medically%20underserved%20areas%20in%20Japan%3A%20a%20geographic%20information%20system-based%20simulation%20study&journal=J.%20Mark.%20Access%20Health%20Policy&doi=10.3390%2Fjmahp12020010&volume=12&pages=118-127&publication_year=2024&author=Nakamura%2CA&author=Satoh%2CE&author=Suzuki%2CT&author=Koike%2CS&author=Kotani%2CK"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Kato, H. & Takizawa, A. Impact of the urban exodus triggered by the COVID-19 pandemic on the shrinking cities of the Osaka Metropolitan Area. Sustainability 14, 1601 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu14031601",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20the%20urban%20exodus%20triggered%20by%20the%20COVID-19%20pandemic%20on%20the%20shrinking%20cities%20of%20the%20Osaka%20Metropolitan%20Area&journal=Sustainability&doi=10.3390%2Fsu14031601&volume=14&publication_year=2022&author=Kato%2CH&author=Takizawa%2CA"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Wolff, M. & Mykhnenko, V. COVID-19 as a game-changer? The impact of the pandemic on urban trajectories. Cities 134, 104162 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cities.2022.104162",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=COVID-19%20as%20a%20game-changer%3F%20The%20impact%20of%20the%20pandemic%20on%20urban%20trajectories&journal=Cities&doi=10.1016%2Fj.cities.2022.104162&volume=134&publication_year=2023&author=Wolff%2CM&author=Mykhnenko%2CV"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Pallagst, K. & Hammer, P. M. in Handbook on Shrinking Cities 1–7 (Edward Elgar Publishing, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Swagel, P. CBO’s Current Projections of Output, Employment, and Interest Rates and a Preliminary Look at Federal Deficits for 2020 and 2021 (Congressional Budget Office, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Wang, X. et al. Electricity-consumption data reveals the economic impact and industry recovery during the pandemic. Sci. Rep. 11, 19960 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-021-98259-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Electricity-consumption%20data%20reveals%20the%20economic%20impact%20and%20industry%20recovery%20during%20the%20pandemic&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-021-98259-3&volume=11&publication_year=2021&author=Wang%2CX"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Che, J., Lee, J. S. & Kim, S. How has COVID-19 impacted the economic resilience of retail clusters?: examining the difference between neighborhood-level and district-level retail clusters. Cities 140, 104457 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cities.2023.104457",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20has%20COVID-19%20impacted%20the%20economic%20resilience%20of%20retail%20clusters%3F%3A%20examining%20the%20difference%20between%20neighborhood-level%20and%20district-level%20retail%20clusters&journal=Cities&doi=10.1016%2Fj.cities.2023.104457&volume=140&publication_year=2023&author=Che%2CJ&author=Lee%2CJS&author=Kim%2CS"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Asquith, B. J. & Mast, E. The past, present, and future of long-run local population decline. Employ. Res. 32, 1 (2025).",
+            "links": {
+                "Article": "https://doi.org/10.17848%2F1075-8445.32%281%29-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20past%2C%20present%2C%20and%20future%20of%20long-run%20local%20population%20decline&journal=Employ.%20Res.&doi=10.17848%2F1075-8445.32%281%29-1&volume=32&publication_year=2025&author=Asquith%2CBJ&author=Mast%2CE"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Karlinsky, A. & Kobak, D. Tracking excess deaths across countries during the COVID-19 pandemic with the World Mortality Dataset. eLife 10, e69336 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.7554%2FeLife.69336",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Tracking%20excess%20deaths%20across%20countries%20during%20the%20COVID-19%20pandemic%20with%20the%20World%20Mortality%20Dataset&journal=eLife&doi=10.7554%2FeLife.69336&volume=10&publication_year=2021&author=Karlinsky%2CA&author=Kobak%2CD"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Verbeeck, J. et al. A linear mixed model to estimate COVID‐19‐induced excess deaths. Biometrics 77, 1437–1447 (2021).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20linear%20mixed%20model%20to%20estimate%20COVID%E2%80%9019%E2%80%90induced%20excess%20deaths&journal=Biometrics&volume=77&pages=1437-1447&publication_year=2021&author=Verbeeck%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Beaney, T. et al. Excess deaths: the gold standard in measuring the impact of COVID-19 worldwide? J. R. Soc. Med. 113, 329–334 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0141076820956802",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Excess%20deaths%3A%20the%20gold%20standard%20in%20measuring%20the%20impact%20of%20COVID-19%20worldwide%3F&journal=J.%20R.%20Soc.%20Med.&doi=10.1177%2F0141076820956802&volume=113&pages=329-334&publication_year=2020&author=Beaney%2CT"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Vestergaard, L. S. et al. Excess all-cause mortality during the COVID-19 pandemic in Europe–preliminary pooled estimates from the EuroMOMO network, March to April 2020. Euro Surveill. 25, 2001214 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.2807%2F1560-7917.ES.2020.25.26.2001214",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Excess%20all-cause%20mortality%20during%20the%20COVID-19%20pandemic%20in%20Europe%E2%80%93preliminary%20pooled%20estimates%20from%20the%20EuroMOMO%20network%2C%20March%20to%20April%202020&journal=Euro%20Surveill.&doi=10.2807%2F1560-7917.ES.2020.25.26.2001214&volume=25&publication_year=2020&author=Vestergaard%2CLS"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Fouillet, A., Pontais, I. & Caserio-Schönemann, C. Excess all-cause mortality during the first wave of the COVID-19 epidemic in France, March to May 2020. Euro Surveill. 25, 2001485 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.2807%2F1560-7917.ES.2020.25.34.2001485",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Excess%20all-cause%20mortality%20during%20the%20first%20wave%20of%20the%20COVID-19%20epidemic%20in%20France%2C%20March%20to%20May%202020&journal=Euro%20Surveill.&doi=10.2807%2F1560-7917.ES.2020.25.34.2001485&volume=25&publication_year=2020&author=Fouillet%2CA&author=Pontais%2CI&author=Caserio-Sch%C3%B6nemann%2CC"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Farrington, C. P., Andrews, N. J., Beale, A. D. & Catchpole, M. A. A statistical algorithm for the early detection of outbreaks of infectious disease. J. R. Stat. Soc. A 159, 547–563 (1996).",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F2983331",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20statistical%20algorithm%20for%20the%20early%20detection%20of%20outbreaks%20of%20infectious%20disease&journal=J.%20R.%20Stat.%20Soc.%20A&doi=10.2307%2F2983331&volume=159&pages=547-563&publication_year=1996&author=Farrington%2CCP&author=Andrews%2CNJ&author=Beale%2CAD&author=Catchpole%2CMA"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Wolff, M. & Wiechmann, T. Urban growth and decline: Europe’s shrinking cities in a comparative perspective 1990–2010. Eur. Urban Reg. Stud. 25, 122–139 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0969776417694680",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20growth%20and%20decline%3A%20Europe%E2%80%99s%20shrinking%20cities%20in%20a%20comparative%20perspective%201990%E2%80%932010&journal=Eur.%20Urban%20Reg.%20Stud.&doi=10.1177%2F0969776417694680&volume=25&pages=122-139&publication_year=2018&author=Wolff%2CM&author=Wiechmann%2CT"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Hartt, M. The diversity of North American shrinking cities. Urban Stud. 55, 2946–2959 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0042098017730013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20diversity%20of%20North%20American%20shrinking%20cities&journal=Urban%20Stud.&doi=10.1177%2F0042098017730013&volume=55&pages=2946-2959&publication_year=2018&author=Hartt%2CM"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Hartt, M. The prevalence of prosperous shrinking cities. Ann. Am. Assoc. Geogr. 109, 1651–1670 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20prevalence%20of%20prosperous%20shrinking%20cities&journal=Ann.%20Am.%20Assoc.%20Geogr.&volume=109&pages=1651-1670&publication_year=2019&author=Hartt%2CM"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Eva, M., Cehan, A. & Lazăr, A. Patterns of urban shrinkage: a systematic analysis of Romanian cities (1992–2020). Sustainability 13, 7514 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu13137514",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Patterns%20of%20urban%20shrinkage%3A%20a%20systematic%20analysis%20of%20Romanian%20cities%20%281992%E2%80%932020%29&journal=Sustainability&doi=10.3390%2Fsu13137514&volume=13&publication_year=2021&author=Eva%2CM&author=Cehan%2CA&author=Laz%C4%83r%2CA"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Bellman, B., Spielman, S. E. & Franklin, R. S. Local population change and variations in racial integration in the United States, 2000–2010. Int. Reg. Sci. Rev. 41, 233–255 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0160017616665669",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local%20population%20change%20and%20variations%20in%20racial%20integration%20in%20the%20United%20States%2C%202000%E2%80%932010&journal=Int.%20Reg.%20Sci.%20Rev.&doi=10.1177%2F0160017616665669&volume=41&pages=233-255&publication_year=2018&author=Bellman%2CB&author=Spielman%2CSE&author=Franklin%2CRS"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Hartt, M. The elasticity of shrinking cities: an analysis of indicators. Prof. Geogr. 73, 230–239 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F00330124.2021.1871764",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20elasticity%20of%20shrinking%20cities%3A%20an%20analysis%20of%20indicators&journal=Prof.%20Geogr.&doi=10.1080%2F00330124.2021.1871764&volume=73&pages=230-239&publication_year=2021&author=Hartt%2CM"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Franklin, R. S. The demographic burden of population loss in US cities, 2000–2010. J. Geogr. Syst. 23, 209–230 (2021).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10109-019-00303-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20demographic%20burden%20of%20population%20loss%20in%20US%20cities%2C%202000%E2%80%932010&journal=J.%20Geogr.%20Syst.&doi=10.1007%2Fs10109-019-00303-4&volume=23&pages=209-230&publication_year=2021&author=Franklin%2CRS"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Xie, Y., Gong, H., Lan, H. & Zeng, S. Examining shrinking city of Detroit in the context of socio-spatial inequalities. Landscape Urban Plann. 177, 350–361 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landurbplan.2018.03.002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Examining%20shrinking%20city%20of%20Detroit%20in%20the%20context%20of%20socio-spatial%20inequalities&journal=Landscape%20Urban%20Plann.&doi=10.1016%2Fj.landurbplan.2018.03.002&volume=177&pages=350-361&publication_year=2018&author=Xie%2CY&author=Gong%2CH&author=Lan%2CH&author=Zeng%2CS"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Hamidi, S., Sabouri, S. & Ewing, R. Does density aggravate the COVID-19 pandemic? Early findings and lessons for planners. J. Am. Plann. Assoc. 86, 495–509 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01944363.2020.1777891",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20density%20aggravate%20the%20COVID-19%20pandemic%3F%20Early%20findings%20and%20lessons%20for%20planners&journal=J.%20Am.%20Plann.%20Assoc.&doi=10.1080%2F01944363.2020.1777891&volume=86&pages=495-509&publication_year=2020&author=Hamidi%2CS&author=Sabouri%2CS&author=Ewing%2CR"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Carozzi, F., Provenzano, S. & Roth, S. Urban density and COVID-19: understanding the US experience. Ann. Reg. Sci. 72, 163–194 (2024).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00168-022-01193-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20density%20and%20COVID-19%3A%20understanding%20the%20US%20experience&journal=Ann.%20Reg.%20Sci.&doi=10.1007%2Fs00168-022-01193-z&volume=72&pages=163-194&publication_year=2024&author=Carozzi%2CF&author=Provenzano%2CS&author=Roth%2CS"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Irandoost, K., Alizadeh, H., Yousefi, Z. & Shahmoradi, B. Spatial analysis of population density and its effects during the Covid-19 pandemic in Sanandaj, Iran. J. Asian Archit. Build. Eng. 22, 635–642 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F13467581.2022.2047983",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20analysis%20of%20population%20density%20and%20its%20effects%20during%20the%20Covid-19%20pandemic%20in%20Sanandaj%2C%20Iran&journal=J.%20Asian%20Archit.%20Build.%20Eng.&doi=10.1080%2F13467581.2022.2047983&volume=22&pages=635-642&publication_year=2023&author=Irandoost%2CK&author=Alizadeh%2CH&author=Yousefi%2CZ&author=Shahmoradi%2CB"
+            }
+        }
+    ]
+}

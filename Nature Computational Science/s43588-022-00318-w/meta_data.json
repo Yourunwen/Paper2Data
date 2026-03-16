@@ -1,0 +1,79 @@
+{
+    "id": "s43588-022-00318-w",
+    "title": "Demand-driven design of bicycle infrastructure networks for improved urban bikeability",
+    "journal": "Nature Computational Science",
+    "pdf_link": "https://www.nature.com/articles/s43588-022-00318-w",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "OpenStreetMap street network data for Hamburg and Dresden",
+            "Data_summary": "Crowdsourced digital map data describing the physical street network geometry and attributes, used to build the cities street network graphs with nodes as intersections and edges as street segments with physical lengths and street-type classifications. The street-type hierarchy is also used as a proxy for expected traffic load to assign cycling penalty factors by road class, and the network is spatially restricted to the area covered by local bike sharing schemes.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                35,
+                40
+            ],
+            "Other_Information": "Evidence: We download physical street networks for Hamburg and Dresden from OSM35,40; Location: Methods Street networks; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Germany > Saxony > Dresden and Germany > Hamburg > Hamburg",
+            "URL": "https://www.openstreetmap.org/copyright/en",
+            "ref": [
+                "ref-CR35",
+                "ref-CR40"
+            ]
+        },
+        {
+            "Data_Name": "Dresden Universities bike sharing trip records",
+            "Data_summary": "Proprietary bike sharing trip-level records for a Dresden scheme used to estimate cycling demand. Records include trip origin and destination when station-based plus pickup and drop-off timestamps, and are aggregated into an origin destination demand matrix between mapped bike sharing stations for input to the network design algorithm.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [
+                44
+            ],
+            "Other_Information": "Evidence: We use a proprietary dataset of approximately 440000 bike-sharing trip records conducted by students of the local universities between November 2017 and March 2020; Location: Methods Bike-sharing demand data Dresden; Confidence: high",
+            "Time_Coverage": "2017-11 to 2020-03",
+            "Geographic_Coverage": "Germany > Saxony > Dresden",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR44"
+            ]
+        },
+        {
+            "Data_Name": "Hamburg Call a Bike trip records from Deutsche Bahn open data portal",
+            "Data_summary": "Public bike sharing trip-level records for Hamburg including origin and destination station identifiers and pickup and drop-off timestamps plus user or bike-related fields. The study aggregates these trips into station-to-station origin destination demand counts after filtering and mapping stations to street network nodes.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                45
+            ],
+            "Other_Information": "Evidence: Between January 2014 and May 2017 the service facilitated approximately 8.6 million rides for which detailed trip information is publicly available45; Location: Methods Bike-sharing demand data Hamburg; Confidence: high",
+            "Time_Coverage": "2014-01 to 2017-05",
+            "Geographic_Coverage": "Germany > Hamburg > Hamburg",
+            "URL": "https://data.deutschebahn.com/dataset/data-call-a-bike",
+            "ref": [
+                "ref-CR45"
+            ]
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data Availability",
+            "Data_summary": "A Zenodo deposit containing the specific Hamburg bike-sharing data used in the paper and the archived version of the project materials referenced for reproducing results, as pointed to in the data and code availability statements.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                46
+            ],
+            "Other_Information": "Evidence: The specific data used for Hamburg in this paper can be found at Zenodo with the code46; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Germany > Hamburg > Hamburg",
+            "URL": "https://doi.org/10.5281/zenodo.6975015",
+            "ref": [
+                "ref-CR46"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:28.519073"
+    }
+}

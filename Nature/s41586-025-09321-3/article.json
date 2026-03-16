@@ -1,0 +1,1345 @@
+{
+    "id": "s41586-025-09321-3",
+    "journal": "Nature",
+    "type": "article",
+    "title": "Countrywide natural experiment links built environment to physical activity",
+    "legal_title": "Countrywide natural experiment links built environment to physical activity",
+    "publish_time": "2025-08-13",
+    "pdf_link": "https://www.nature.com/articles/s41586-025-09321-3",
+    "storage_path": "./Articles/Nature/2025-article/s41586-025-09321-3/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "While physical activity is critical to human health, most people do not meet recommended guidelines1,2. Built environments that are more walkable have the potential to increase activity across the population3,4,5,6,7,8. However, previous studies on the built environment and physical activity have led to mixed findings, possibly due to methodological limitations such as small cohorts, over-reliance on self-reported measures and cross-sectional designs5,7,9,10,11. Here we address these limitations by leveraging a large US cohort of smartphone users (N = 2,112,288) to evaluate within-person longitudinal behaviour changes that occurred over 248,266 days of objectively measured physical activity across 7,447 relocations among 1,609 US cities. By analysing the results of this natural experiment, which exposed individuals to differing built environments, we find that increases (decreases) in walkability are associated with significant increases (decreases) in physical activity after relocation. For example, moving from a less walkable (25th percentile) city to a more walkable city (75th percentile) increased walking by 1,100 daily steps, on average. These changes hold across different genders, ages and body mass index values, and are sustained over 3 months. The added activity is predominantly composed of moderate-to-vigorous physical activity, which is linked to an array of associated health benefits1. Evidence against residential self-selection confounding is reported. Our findings provide robust evidence supporting the importance of the built environment in directly improving health-enhancing physical activity and offer potential guidance for public policy activities in this area.",
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "A substantial number of people worldwide are physically inactive4,12,13 and therefore at risk for common and deadly non-communicable diseases such as cardiovascular disease, cancer and diabetes13,14,15. Meanwhile, urban environments worldwide have grown rapidly, with current estimates predicting that 6.7 billion people will be living in cities by 2050 (ref. 16). While the evidence base on the impacts of the design of urban environments on physical activity levels has grown, further information is needed on the putative causal impacts of diverse urban environments on key health behaviours such as physical activity5,7,10,11,17,18 and interactions between environmental and individual factors19. Specifically, current evidence has not been able to determine whether physical activity levels are directly influenced by the built environment or are mainly a product of personal preferences10,20. Understanding these factors is critical for developing optimal public policy1,8,21, and for planning cities5,22 and designing behaviour change interventions23,24.\nPrevious studies on the effects of the built environment on physical activity have led to mixed or modest findings and have not been able to reliably distinguish between direct environmental impacts and individual preferences. Common methodological limitations include small cohorts, data from a single location or a limited number of locations, over-reliance on self-reported activity, with its attendant biases25, cross-sectional designs that constrain temporal understanding and causal inference, residential self-selection and other confounding factors5,7,9,20,26,27. Today’s mobile phones, including the now globally dominant smartphone, can capture physical activity and geolocation in a continuous fashion, making them a powerful tool for studying large-scale population dynamics and health23, the use of which can reveal the basic patterns of physical activity3, sleep28, human movement29 and mood rhythms30, along with the dynamics of the spread of diseases such as malaria31 and COVID-19 (ref. 32) and linkages with socioeconomic status in low- and middle-income countries33. In this study, we use a large-scale physical activity dataset to disentangle the influences of the built environment from personal proclivities through a natural experiment, and quantify the impact of walkability on changes in physical activity levels at the individual and population scale.",
+            "cites": [
+                "ref-CR9",
+                "ref-CR25",
+                "ref-CR23",
+                "ref-CR31",
+                "ref-CR8",
+                "ref-CR4",
+                "ref-CR28",
+                "ref-CR29",
+                "ref-CR30",
+                "ref-CR18",
+                "ref-CR7",
+                "ref-CR12",
+                "ref-CR33",
+                "ref-CR3",
+                "ref-CR5",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR16",
+                "ref-CR32",
+                "ref-CR27",
+                "ref-CR19",
+                "ref-CR20",
+                "ref-CR15",
+                "ref-CR26",
+                "ref-CR17",
+                "ref-CR13",
+                "ref-CR10",
+                "ref-CR24",
+                "ref-CR11",
+                "ref-CR21",
+                "ref-CR1"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Effect of walkability on daily steps",
+            "text": "We study 248,266 days of minute-by-minute step recordings from 5,424 users of the Azumio Argus smartphone application who relocated at least once within a 3-year observation period. Overall, these participants relocated a total of 7,447 times among 1,609 cities within the USA, forming a countrywide natural experiment (Fig. 1a). The dataset includes smartphone-derived accelerometry recordings of physical activity for free-living individuals that were exposed to different built environments, enabling us to compare their objectively measured, longitudinal physical activity for up to 90 days before and after relocation (Fig. 1b). The average participant recorded 5,574 steps per day (standard deviation σ = 3,055) over an average span of 14.2 hours. Research has demonstrated that smartphones provide accurate step counts34 and reliable activity estimates in both laboratory and free-living settings35. We ensured that our dataset included a broad range of relocating and non-relocating participants, including across age, gender and weight status (as measured by body mass index (BMI)) (Extended Data Table 1). Previous work further verified that data from the Argus smartphone application used in this study reproduced established relationships between age, gender, weight status and activity, as well as country-level variations in activity and obesity levels3. We also verified that our findings were robust to different relocation definitions, including those aimed at removing business and leisure travel and excluding time periods right before and right after relocation, which are probably impacted by the relocation process itself (Extended Data Fig. 6; Methods: ‘Identifying participant relocation’).\nOur large-scale activity measurements enable us to characterize the impact of built environments on physical activity. Consider the 178 participants relocating to New York City (a walkability score of 89 out of 100) coming from various less walkable US locations (Fig. 1c; a Walk Score of at least one standard deviation or 15.4 points lower; mean walkability 48). When exposed to the built environment of New York City after relocating, these participants increased their physical activity by 1,400 steps, their average daily steps increasing from 5,600 to 7,000 (Fig. 1e; P < 10−10; all statistical hypothesis tests throughout refer to two-sided Student’s t-tests unless indicated otherwise; Methods: ‘Statistical methods’). Participants relocating in the opposite direction, that is, from New York City to other less walkable US cities (Fig. 1d), exhibited an inverted, symmetric effect of decreasing their physical activity by 1,400 steps, going from 7,000 to 5,600 average daily steps (P < 10−10, Fig. 1f; more examples in Supplementary Fig. 1).\nTo investigate whether moving to more walkable environments generally leads to increased physical activity, we aggregate changes in physical activity across all relocations in the dataset (Fig. 2a; Methods: ‘Aggregating relocation-based quasi-experiments’). We find that relocations to more walkable cities (Walk Score increases of 49 and higher) are associated with increases of about 1,100 daily steps, equivalent to 11 minutes more walking activity every day36.",
+            "cites": [
+                "ref-CR36",
+                "ref-CR35",
+                "ref-CR34",
+                "ref-CR3"
+            ],
+            "figures": [
+                "figure-2",
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Evaluating potential selection effects",
+            "text": "Notably, we attempt to estimate the impact of substantial built environment changes in-place on physical activity through events of substantial built environment changes resulting from relocation. This approach provides unique advantages, as substantial in-place changes are exceedingly rare and costly, leading to recent calls for quasi-experimental study designs such as ours37. However, this approach could lead to biased estimates due to selection effects, such as participants moving to a new environment being particularly motivated to increase physical activity. Importantly, we find robust evidence that our estimates are unlikely to be significantly influenced by such selection effects. Critical to this argument are (1) that we find no evidence of increases in average physical activity of participants when they are relocating to environments with walkability scores similar to the environment from which they came (bootstrapped 95% confidence interval for walkability differences between −16 and 16 is [−76 to 122]) and (2) that the estimated relationship between walkability differences and physical activity is approximately point symmetric (Fig. 2a and Supplementary Fig. 2). If participants that moved were motivated to increase their physical activity after moving, we should have observed this increase also for relocations to environments of similar walkability, but we did not observe any difference. If participants that moved relocated to higher-walkability locations specifically for this quality, a form of residential self-selection, we should have observed higher physical increases relative to physical activity decreases when relocating to a lower-physical-activity location. Instead, we observed point symmetric changes.\nIn addition, we observe that these increases are sustained over 3 months after moving (Supplementary Fig. 3c and Extended Data Fig. 2). Furthermore, we find similar, consistent effects of walkability increases and decreases between cities in similar climates (for example, Ellicott City, MD to New York, NY in Fig. 2a), and more generally across relocations during all seasons (Supplementary Fig. 6), and after relocating to cities of higher, similar and lower median household income (Supplementary Fig. 7). In addition, census data suggest that between 77% and 98% of participants that move do not move for walkability reasons, but instead for family, job and housing-related reasons (Methods: ‘Selection effects in relocation and mobile app usage’). We also find that relocating and non-relocating app users are similar in age, gender and weight status, and that those relocating to higher-, similar- and lower-walkability locations were similar in age, weight status and previous physical activity levels (Extended Data Figs. 4 and 5; Methods: ‘Selection effects in relocation and mobile app usage’). Overall, these results suggest that physical activity levels are directly influenced by the built environment and not simply a product of personal preferences or other types of selection effects.",
+            "cites": [
+                "ref-CR37"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Walkability effects across demographic groups",
+            "text": "We find that higher walkability is associated with significantly more daily steps across all age, gender, BMI and baseline activity level groups, which is significant for all the subgroups except women over 50 years of age (Fig. 2b; all P < 0.05; women over 50 years of age, P = 0.14). Previous research has identified additional barriers to physical activity relevant to older women including cultural expectations, norms, societal messages discouraging physical activity, family priorities and safety38,39. The relationship between walkability and activity is strongest for highly active women (gaining 43.7 steps per walkability point increase). Importantly, we find that regardless of BMI status, individuals record more steps after moving to more walkable cities, and that these increases are also shared by individuals who were less active before moving (Fig. 2b). These findings suggest that compared with interventions targeting individuals and reaching small numbers of people, changes to the built environment can influence large populations. However, the relatively smaller effect for older women suggests that, for this group in particular, built environment changes may need to be accompanied by additional age- and gender-specific interventions aimed at their specific constraints. Previous work has described person-level factors that impede physical activity participation of older women, such as a greater number of functional impairments that discourage activity, more frequent caregiving demands that interfere with physical activity, more difficulties with outdoor wayfinding and lower driving rates, which can limit their ability to get to local parks to exercise40,41,42,43,44,45. In addition, older women are less well served by public transit in many US cities, which base their routes on commuter patterns46,47. Therefore, multilevel interventions that focus on social environmental factors in addition to built environment factors are recommended, such as encouraging walking groups and advising on how to overcome the above types of personal barriers41,48.",
+            "cites": [
+                "ref-CR45",
+                "ref-CR47",
+                "ref-CR41",
+                "ref-CR39",
+                "ref-CR46",
+                "ref-CR44",
+                "ref-CR48",
+                "ref-CR43",
+                "ref-CR42",
+                "ref-CR40",
+                "ref-CR38"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Changes in moderate-to-vigorous physical activity",
+            "text": "Next, we investigate whether the walkability-induced increase in steps reflected an increase in moderate-to-vigorous physical activity (MVPA), which has been shown to be beneficial for many health outcomes, including lower all-cause mortality risk14,15. Using minute-by-minute step data, we find that extra steps taken after moving to a more walkable location are predominantly composed of MVPA corresponding to brisk walks (Fig. 3a). We estimate that large increases in walkability (that is, 49–80 points) are associated with an increase in MVPA of about 1 hour per week (Fig. 3d). Further emphasizing the consistency and symmetry of built environment effects, we find that similar amounts of MVPA are lost when relocating to a less walkable location (Fig. 3b), and that the activity intensity distribution remains effectively unchanged when relocating to a similarly walkable location (Fig. 3c). US national physical activity guidelines recommend, similar to international guidelines, 150 minutes or more per week of MVPA to obtain optimal health benefits49. For a walkability increase of between 48 and 80 points, we find that the associated increases in MVPA would support 42.5% of participants meeting guidelines for MVPA versus 21.5% before relocation, a 98% relative increase (Fig. 3e; Methods: ‘Physical activity measure’ and ‘Simulating the impact of walkability improvements’). Our findings substantively expand on the findings of previous literature, indicating that improving the walkability of built environments can lead to better health outcomes across large populations.\nWe perform a simulation study to predict how improving walkability would support increasing the fraction of the US population that meets aerobic physical activity guidelines (Methods: ‘Simulating the impact of walkability improvements’). Our dataset covers 1,609 US cities, which are home to more than 41% of the country’s population (137 million), and we adjust for age differences between the smartphone user population and the US adult population. According to our smartphone-based objective measurements, about 18% or 58 million Americans met the guidelines for MVPA between 2013 and 2016. Our estimate of 18% meeting aerobic guidelines is within expectations, given well-established differences between accelerometer-derived and self-reported physical activity50,51. Our simulation (Fig. 3f) predicts that bringing all US locations to the level of Chicago or Philadelphia (a walkability score of 78) may lead to 11.2% or 36 million more Americans meeting aerobic physical activity guidelines. Bringing all US locations to the level of New York City (a walkability score of 89) may lead to 14.5% or 47 million more Americans meeting these guidelines.",
+            "cites": [
+                "ref-CR15",
+                "ref-CR50",
+                "ref-CR14",
+                "ref-CR51",
+                "ref-CR49"
+            ],
+            "figures": [
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "There are limitations to the device-based instrument (that is, people’s personal smartphones) we used to collect physical activity data in participants’ natural environments. For example, our sample may be biased towards individuals of higher socioeconomic status and people interested in their activity and health. However, we find that walkability improvements led to increased physical activity after relocating to cities of higher, similar and lower median household income (Supplementary Fig. 7). We further acknowledge that other city characteristics may affect walking and be correlated with the city’s walkability (for example, climate, availability of transit, or land use mix)52,53. However, we find that walkability differences are associated with physical activity differences in cities of similar climate (Supplementary Fig. 5) and across all seasons (Supplementary Fig. 6). While relocation uniquely enables the quasi-experimental study of behavioural changes in different environments, there may be selection effects driving relocation, referred to as residential self-selection20. However, as previously discussed, we report evidence against such selection effects.\nOver 90% of adults in the USA already own a smartphone54 and the number of mobile connections worldwide has risen to 8.5 billion55, exhibiting significant year-to-year increases. Therefore, we expect any biases related to smartphone ownership and usage to continue to diminish in the future. This study is restricted to a single country and results may not generalize to other countries. However, previous studies have found, in general, similar types of built environment relationships across countries diverse in climate, demographics, income, culture and activity supportiveness5,56,57,58. As these studies used walkability indices that were based on elements shared with the measure used here (Methods: ‘Walkability measure’), this suggests that our findings may generalize to other countries. We chose a simple, highly used and extensively validated measure of walkability at a city level59,60,61,62,63,64. However, this type of aggregated, non-divisible walkability score precludes the ability to identify which elements of walkability may confer the largest benefits. Location data to assess walkability on a neighbourhood or census tract level was not available, preventing the analysis of within-city variation in walkability. Further research is needed to identify key environmental features on a neighbourhood level and disentangle their individual contributions, building on past cross-sectional research and smaller-scale studies using self-reported physical activity measures, which currently constitute the majority of research in the field65. Future research is also needed to untangle how the built environment may differentially affect physical activity related to leisure, transportation and working. While walking is the most popular aerobic physical activity66, our dataset may fail to capture time spent in activities where it is impractical to carry a phone (for example, football) or for which steps are not a major component of the activity (for example, bicycling), and there may exist systematic differences in wear time because participants in the current dataset had to carry their phone for steps to be recorded. The increasing prevalence of wearable activity trackers in the form of smartwatches and similar devices will continue to enable more convenient methods of capturing daily movement and steps. Further, our smartphone dataset reproduces previously established relationships between activity across geographic locations, gender and age3. We also find that the span of time over which steps were recorded is uncorrelated with relocating to higher- or lower-walkability areas (Extended Data Fig. 7), and thus systematic wear time differences are unlikely to affect our analyses. Together, these findings increase confidence that our dataset is able to identify activity differences between built environments and groups based on gender, age and weight status.\nFurther research is needed to determine which policies, on topics such as land use mix, intersection design and access to public transit, are most effective in increasing city walkability for both new and existing urban areas53. While increasing walkability of all cities to the level of New York City is probably not possible, earlier research has shown promising connections between implemented changes to the built environment, walkability and physical activity67. The results of our analysis will provide researchers and policy-makers with the information to estimate the effects of targeted increases in walkability on physical activity and weigh the cost effectiveness of changes to the built environment against other public health interventions.\nThis countrywide natural experiment presents prospective evidence of built environments affecting physical activity across 7,447 relocations among 1,609 US cities over a 3-year timespan. It reveals the direct behavioural impacts of differing built environments on the physical activity levels of individuals and demonstrates the utility of such massive, digitally enabled, real-world datasets for evidence-based policy. Our findings suggest that designing built environments to be more activity-friendly could have significant effects on the physical activity of large populations, and serve as a powerful complement to interventions that focus on changing behaviour at the individual level. However, changes in built environments may need to be accompanied by additional age- and gender-specific interventions aimed at specific subgroups who could particularly benefit from physical activity increases (that is, women over 50 years old). The quality of the prospective device-collected evidence and consistency of findings across numerous cities, demographic groups and relocation-related walkability differentials highlight the fundamental importance of the urban built environment in improving physical activity and health.",
+            "cites": [
+                "ref-CR65",
+                "ref-CR52",
+                "ref-CR67",
+                "ref-CR59",
+                "ref-CR62",
+                "ref-CR64",
+                "ref-CR57",
+                "ref-CR55",
+                "ref-CR60",
+                "ref-CR61",
+                "ref-CR3",
+                "ref-CR5",
+                "ref-CR63",
+                "ref-CR58",
+                "ref-CR53",
+                "ref-CR54",
+                "ref-CR56",
+                "ref-CR66",
+                "ref-CR20"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Study design\nWe conducted a countrywide, prospective, longitudinal physical activity study of US residents that evaluated their physical activity levels within the context of the walkability of their built environments before and after relocation (‘participants’). We leveraged the naturally occurring physical activity data that was captured by a health app on participants’ phones to compare each person’s physical activity levels before and after they relocated to a different area within the USA. While similar relocation-based study designs have been used previously to estimate effects of place and built environments26,68,69, the vast majority have been limited by relatively small sample sizes, using only self-report physical activity measurement and the limited diversity with respect to the areas to which they relocated. Objective measures of both urban walkability and physical activity were used and are discussed in more detail throughout the Methods. We analysed anonymized, prospectively collected data from 2,112,288 US smartphone users using the Azumio Argus health app over 3 years (March 2013 to February 2016) to identify 5,424 participants that relocated 7,447 times among 1,609 US cities. These 1,609 cities are home to 137 million Americans, or more than 42% of the US population. We note that relocation is neither purely exogenous nor random, and discuss the important implications of this below. We follow established best practices for analysing large-scale health data from wearables and smartphone apps70.\nThe Azumio Argus app is a free smartphone application for tracking physical activity and other health behaviours. Participants were excluded from a particular analysis if necessary information was unreported (for example, participants with no reported age were excluded from the analysis of Fig. 2b). Extended Data Table 1 includes basic statistics on study population demographics and weight status (BMI). Anonymized Azumio Argus app data was obtained through a Data Use Agreement. Data handling and analysis was conducted in accordance with the guidelines of the Stanford University Institutional Review Board, which deemed this study exempt.\nFor population size statistics, refer to Extended Data Tables 1–3.\n### Statistical methods\nAll error bars throughout this paper correspond to bootstrapped 95% confidence intervals. When these bootstrapped 95% confidence intervals do not include the null value (typically 0), they indicate a statistically significant difference at the α = 0.05 level. All statistical hypothesis tests were two-sided Student’s t-tests unless indicated otherwise.\n### Identifying participant relocation\nWe defined participant relocation as the action of moving to a new place for a substantial amount of time. We identified participant relocation as follows. Participant location on a given day was assigned to a city based on the weather update in the participant’s app activity feed. Weather updates are automatically added to the feed of each participant according to the nearest cell phone tower. We searched for participants that stayed in one location within a 100-km radius for at least 14 days and then moved to a different location that was at least 100 km away. Participants were required to stay within a 100-km radius of this new location for at least another 14 days. The 14-day threshold was chosen to filter out short trips that may be related to business or leisure travel. Using this threshold, we find that most participants do not relocate again and spend a median of 81 days in the new location, effectively excluding the impact of short-term travel on our analyses. Most participants stopped tracking their activity at this time, rather than relocating again. In addition, we repeated our analyses with thresholds of 21 and 30 days and found highly consistent results (Extended Data Fig. 6). We required a substantial move distance (100 km or more) to ensure that relocating participants were exposed to a new built environment. We allowed for up to 5 days of intermediate travel between these two locations and ignored these days during analyses. We applied this method to 2,112,288 users of the Argus smartphone app and identified 31,034 relocations. Among these, we required participants to have used the app to track their physical activity for at least 10 days within the 30 days before and after their relocation (as in previous work3). We further required at least 1 day of tracked physical activity before and after relocation to ensure that, whenever we compare two participant populations, these populations are identical and therefore comparable (that is, we seek to identify within-participant changes in physical activity). We repeated our statistical analyses with alternative data inclusion criteria, such as the number of days with tracked physical activity, and found similar results.\n### Physical activity measure\nOur device-based (historically often called objective) measure of physical activity was the number of steps over time recorded by the participant’s smartphone. Steps were determined based on the smartphone accelerometers and the manufacturer’s proprietary algorithms for step counting. The Azumio Argus app records step measurements on a minute-by-minute basis. These measurements are collected passively without requiring the smartphone or Azumio Argus app to be in active use. Extended Data Table 2 includes basic statistics on physical activity and tracking in the study population.\nData from the Azumio Argus app have been used previously to study physical activity in large populations3,71,72, where the authors showed that this form of data follows well-established trends3. For example, they demonstrated that activity decreased with increasing age12,19,73,74 and BMI19,74,75, and is lower in female individuals than in male individuals12,19,73,74,76, trends that are consistent with national surveillance data in this area. Physical activity estimates were also reasonably well correlated with self-report-based population estimates on a country level3.\nSeveral studies have established significant differences between accelerometer-derived and self-reported physical activity50,51. Self-reports typically overestimate moderate and vigorous activity and underestimate sedentary activity50. In a US study using National Health and Nutrition Examination Survey 2005–2006 data, 59.6% of adults self-reported meeting MVPA guidelines for aerobic physical activity, whereas estimates using accelerometry were much lower at 9.6%51. For our observation period between 2013 and 2016, the US National Health Interview Survey reported that 49.6–52.6% of the US population met MVPA guidelines. Nationally representative accelerometer-based estimates for this time are not available. Our smartphone-accelerometry-based estimate of 18% meeting aerobic guidelines is within expectations, given well-established differences between accelerometer-derived and self-reported physical activity and earlier data (Methods)50,51. In addition, unlike many previous studies mailing accelerometers to study participants to wear for a week, our study focuses on real-world physical activity by free-living individuals that may not be equally affected by their awareness of being observed (that is, the Hawthorne effect).\nWe filtered out days as invalid when less than 500 or more than 50,000 steps had been recorded. We further ignored days immediately preceding and following the relocation itself (5 days before and 5 days after relocation), because the process of relocating, rather than the new built environment itself, could impact physical activity during these days. Physical activity was relatively stable outside this period (Supplementary Fig. 4). We considered physical activity within a window of 30 days before and 30 days after relocation (with the exception of Supplementary Fig. 3 and Extended Data Fig. 2 that use 90-day windows to illustrate long-term changes). In total, our dataset included 248,266 days of objectively measured minute-by-minute physical activity surrounding 7,447 relocations (595,803 days for the 180-day period).\nWe used the following measures as primary outcomes in this study: (1) Change in average daily steps following relocation (Figs. 1e,f and 2a,b). (2) Change in average weekly minutes spent in MVPA following relocation, where we considered all minutes spent at intensities greater than or equal to 100 steps per minute as MVPA36: \\(\\Delta {T}_{{\\rm{MVPA}}}={\\sum }_{I=100}^{\\infty }\\Delta T(I)\\), where ΔT(I) is defined as the change in weekly minutes of activity at intensity level I, in units of steps per minute, after moving. Figure 3a–c shows changes in average weekly minutes spent at different intensity levels. (3) Change in the fraction of the population that met aerobic physical activity guidelines following relocation, defined as spending at least 150 minutes per week in MVPA1 (Fig. 3e,f). All error bars correspond to bootstrapped 95% confidence intervals77.\n### Walkability measure\nWe considered relocations among 1,609 cities in the USA. Walkability scores for these cities were based on the publicly available and systematically developed Walk Score78. Scores are on a scale of 1 to 100 (where 100 is the most walkable) and are based on amenities (for example, grocery stores, schools, parks, restaurants and retail) within a 0.25-mile to 1.5-mile radius (a decay function penalizes more distant amenities) and measures of friendliness to pedestrians, such as city block length and intersection density. Extended Data Table 3 includes basic statistics on the cities included in our study and their walkability scores. Walk Scores at the city level are computed by weighting the Walk Score of each geographic unit within a city (typically about the size of a city block) by the population density of that unit79.\nThe Walk Score measure is a frequently used measure of walkability that is freely and widely available across the USA and other countries including Canada and Australia78. It is highly correlated62 with other walkability measures80,81,82, and was found to offer the best fit to walking trips in a study conducted in Montréal62. It is widely used in the literature and has been extensively validated59,60,61,62,63,64. Although other measures of walkability exist80,81,82, the Walk Score measure was chosen in light of the pragmatic focus of the investigation and its ease of use and accessibility. More comprehensive walkability indices could provide further granular information related to specific aspects of walkability that might be of prime importance.\nWe determined cut points for Walk Score differences of −16 to +16, 16 to 48 and 49 to 80, as we preferred cut points that were symmetric around 0 (no change in walkability score), equivalent in size (32 Walk Score points difference) and balanced granularity and statistical power, as large Walk Score differences are more rare. Among the 7,447 relocations, 2.4% (2.4%) were associated with 49+ walkability point increases (decreases), 20.7% (21.3%) were associated with 16–48 walkability point increases (decreases) and 53.1% of relocations were to locations of similar walkability (−16 to +16 point difference).\n### Aggregating relocation-based quasi-experiments\nWe aggregated changes in physical activity following relocation based on the difference in walkability scores between the origin and destination city, Δ. In Fig. 2a, each circle corresponds to a pair of cities sized by the number of participants moving between those cities. We fit a linear model mΔ + b to these data with slope m = 16.6 (Student’s t-test; P < 10−10) and intercept b = 25.0 (Student’s t-test; P = 0.462).\nWe considered potential confounders such as differences in climate (using Köppen climate type83) and median income between the origin and destination city. We found that the relationship between walkability and walking behaviour still holds within pairs of cities with similar climate, for instance, moving from Miami, FL to Jacksonville, FL, or from Amarillo, TX to Euless, TX (see annotations in Fig. 2a as well as more generally in Supplementary Fig. 5). Furthermore, we found similar effects across relocations in all seasons (Supplementary Fig. 6) and relocations to cities with higher, lower and similar median household income levels (Supplementary Fig. 7).\n### Impact of walkability across subgroups\nWe considered the effect of walkability differences on change in physical activity across subgroups based on demographics (ages 18–29, 30–49 and 50+ years), weight status (normal, overweight and obese levels of BMI), previous activity level (below 5,000, 5,000–8,500 and above 8,500 average daily steps before relocation) and gender (men and women). Owing to the approximately linear nature of the relationship between walkability changes and physical activity changes (Fig. 2a), we used a linear model for estimation. For each subgroup, we ran independent linear regressions of the difference in daily steps on differences in walkability between cities at the level of individual relocations. The models included an intercept coefficient: m ⋅ Δ + b. We determined the estimated coefficient of walkability (m; that is, the increase in daily steps for each one-point increase in walkability of a city) along with 95% confidence intervals (based on Student’s t-distribution) for each subgroup (Fig. 2b). We performed Student’s t-tests on the regression model coefficients, which establish that relocation to a city of higher walkability is associated with significantly more daily steps across all age, gender, BMI and activity level groups (Student’s t-test; all P < 0.05), with the exception of women over 50 years old, for which the positive difference was not statistically significant (Student’s t-test, P = 0.14). We found that the effect was diminished in overweight and obese women relative to normal-weight women. Thus, the non-significant effect on women over 50 years of age may be explained, in part, by the larger average BMI of this group (27.4) compared with other women (25.3; P < 10−10). In comparison, men over 50 years of age also had a larger BMI compared with other men, but the difference was smaller than in women (28.2 versus 27.0; P < 10−7).\n### Adjusting for seasonality\nPhysical activity is influenced by climate and weather84 and relocations are not equally distributed across seasons (Supplementary Fig. 3a). We found that differences in physical activity levels following relocations may be influenced by seasonal variation, especially when considering comparatively long observation periods of about 6 months (Supplementary Fig. 3b,c). For analyses of variation in activity over time (Fig. 1e,f, Extended Data Fig. 2 and Supplementary Figs. 1 and 3), we adjusted for these seasonal effects by weighting relocations in each calendar month equally. This was achieved by first estimating physical activity levels separately for each calendar month and then taking the average. This process is repeated 1,000 times in our bootstrap estimates.\n### Selection effects in relocation and mobile app usage\nWhile relocation uniquely enabled the quasi-experimental study of behavioural changes in different environments, there may be selection effects driving relocation, often referred to as residential self-selection. According to a 2013 US Census Bureau report, 98% of people moved primarily for reasons of housing, family and employment85. Less than 1% of people moved primarily for health reasons. There are some categories that might, in part, include people who want to reduce their dependence on cars. These include ‘health reasons’ (0.4%), ‘other housing-related’ (14.0%), ‘wanted better neighborhood/less crime’ (3.2%) and ‘to be closer to work/easier commute’ (5.4%), suggesting that at least 77% of participants moved for reasons completely unrelated to car dependence85. In addition, neighbourhood selection may be influenced by personal preferences such as exercise and walking activities20. With respect to this possibility, note that we found no indication of increases in physical activity after moving to a location of similar walkability (Figs. 2a and 3c). This suggests that those relocating participants are not simply more motivated to exercise, on average, but that changes in physical activity may be explained by the changing built environment. It is possible that selection effects were absent because participants may not have perceived themselves as being observed, in contrast to previous studies that featured explicit, short periods of monitoring (Hawthorne effect). We further acknowledge that other city characteristics may affect walking and be correlated with the city’s walkability (for example, length of work days). We investigated potential selection effects further by comparing the population of relocating mobile app users, first, to the overall US population, and, second, to the overall mobile app user population, including non-relocating app users. We found that the relocating participant population is similar in age (36 versus 37.7 years median age) and gender (49.8% versus 51.0% female, P = 0.132; Student’s t-test) to the US population (Extended Data Fig. 3). We adjusted for differences in age for the simulation estimates in Fig. 3f and Extended Data Fig. 1. Within the app user population, we found that movers and non-movers (that is, relocating and non-relocating participants) tend to be close in age (43.8 versus 37.9 and 38.5 versus 33.7 average age for men and women, respectively; Extended Data Fig. 4a,b), and weight status (68.1% versus 59.8% and 45.6% versus 44.3% overweight and obese for men and women, respectively; Extended Data Fig. 4c,d). However, movers were generally more physically active than non-movers (6,284 versus 5,825 and 5,279 versus 4,635 average daily steps for men and women, respectively; Extended Data Fig. 4e,f). Furthermore, we found that within movers, those that relocate to higher-, similar- and lower-walkability locations were similar in age, weight status and previous physical activity levels (Extended Data Fig. 5).\n### Simulating the impact of walkability improvements\nWe simulated the impact of US nationwide walkability improvements on US population physical activity levels. Concretely, we simulated the impact of increasing US city walkability scores to a constant target walkability score between 1 and 100. We also highlight the walkability scores of Chicago and Philadelphia (78) as well as New York City (89) to aid interpretation. As the relocation population was not explicitly drawn to be representative of the US population, we adjusted our estimates through ratio-based post-stratification weights across age-based strata86. We used civilian population estimates from the US Census Bureau for 2016 as the target population distribution. While there were no significant differences in the gender distribution (49.8% female versus 51.0% female, P = 0.132; Extended Data Fig. 3a), we found slight differences in age (36.0 versus 37.7 years median age; Extended Data Fig. 3b), which we corrected for through sampling weights. We acknowledge that other selection effects and heterogeneous treatment effects may exist. Using a bootstrap with 1,000 replications, we estimated the difference in the overall US population that would meet US national aerobic physical activity guidelines for MVPA1 after relocating based on the relocation-induced difference in walkability. We used a linear regression model and data from relocations associated with both walkability increases and decreases. We estimated the total fraction of US population meeting aerobic physical activity guidelines as the sum between the fraction of people already meeting these guidelines before relocating plus the estimated addition based on the regression model. Confidence intervals represent bootstrapped 95% confidence intervals. Final estimates are depicted in Fig. 3f and Extended Data Fig. 1.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR70",
+                "ref-CR74",
+                "ref-CR72",
+                "ref-CR81",
+                "ref-CR71",
+                "ref-CR50",
+                "ref-CR77",
+                "ref-CR73",
+                "ref-CR85",
+                "ref-CR79",
+                "ref-CR59",
+                "ref-CR62",
+                "ref-CR75",
+                "ref-CR64",
+                "ref-CR12",
+                "ref-CR68",
+                "ref-CR3",
+                "ref-CR60",
+                "ref-CR61",
+                "ref-CR63",
+                "ref-CR83",
+                "ref-CR69",
+                "ref-CR19",
+                "ref-CR36",
+                "ref-CR20",
+                "ref-CR26",
+                "ref-CR82",
+                "ref-CR78",
+                "ref-CR76",
+                "ref-CR51",
+                "ref-CR80",
+                "ref-CR86",
+                "ref-CR84",
+                "ref-CR1"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Physical activity levels undergo significant changes following relocation between US cities of different walkability levels.",
+            "figure-caption": "a, During the observation period, 5,424 participants relocated 7,447 times between 1,609 US cities. Circle area is proportional to the square root of the number of relocations to and from the city. b, The physical activity levels of participants were tracked through smartphone accelerometry over several months before and after relocation, creating a countrywide study of 7,447 quasi-experiments. c–f, Physical activity of participants moving from less walkable locations to New York City (c,e), in comparison to participants moving in the opposite direction (d,f) (Methods). Activity levels change significantly immediately after relocation and are symmetric but inverted for participants moving in the opposite direction (e,f). All error bars throughout figures correspond to bootstrapped 95% confidence intervals. Credits: a–d, maps reproduced from US Census Bureau (https://www.census.gov/geographies/mapping-files/2016/geo/carto-boundary-file.html); b, walking human silhouette reproduced from Wikimedia commons under a Creative Commons CC BY 1.0 license.",
+            "figure-link": "https://www.nature.com/nature/articles/s41586-025-09321-3/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Relocations with changes in walkability are associated with corresponding changes in physical activity across most demographics.",
+            "figure-caption": "a, Difference in average daily steps aggregated across all relocations. We find that significantly more walkable locations are associated with increases of about 1,100 daily steps, and significantly less walkable locations are associated with similar decreases (for 49–80 point Walk Score increase or decrease). Moving to locations of similar walkability is associated with unchanged physical activity levels. b, Higher walkability is associated with increased daily steps across age, gender, BMI and baseline activity level groups. Bars show the steps gained per day for each point increase in walkability score (assuming linear model; Methods). Positive values across all bars reveal that, with increasing walkability, more steps are taken by every subgroup, which is significant for all the subgroups except women over 50 years of age (Student’s t-tests, all P < 0.05; women over 50 years of age, P = 0.14).",
+            "figure-link": "https://www.nature.com/nature/articles/s41586-025-09321-3/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Improvements in walkability are associated with increases in MVPA and with twice as many participants meeting aerobic physical activity guidelines (49+ point increase).",
+            "figure-caption": "a–c, Changes in physical activity stratified by intensity of physical activity (steps per minute) following relocation to more (a; more than 16-point walkability increase), less (b; more than 16-point walkability decrease) and similarly (c; 16-point walkability difference or less) walkable environments. a, We find that walkability-induced additional physical activity (Fig. 2a) predominantly consists of MVPA, which has been shown to be beneficial for many health outcomes14,15. b, Moving to less walkable locations is associated with a symmetric loss of MVPA that is equivalent to the increase in more walkable locations (a). c, Further, moving to similarly walkable locations is associated with an unchanged distribution of intensity levels. This suggests that relocation, in and of itself, is not generally associated with increases in physical activity, for instance, owing to an individual’s motivation to increase physical activity. d, Change in MVPA (minutes per week) versus differences in walkability. ΔT(I) is defined as the change in weekly minutes (ΔT) of activity at intensity level I after relocation, in units of steps per minute. ΔTMVPA, that is, change in the time spent in MVPA, is computed by summing ΔT(I) for I ≥ 100 (inset). Large increases in walkability (that is, 49–80 points) are associated with an increase of about 1 hour per week in MVPA. e, The increases in time spent in MVPA lead to twice as many participants meeting national and international aerobic physical activity guidelines of 150 minutes per week or more in MVPA (before 21.5%, after 42.5%). f, A simulation based on these estimates predicts that if all US cities had the walkability of Chicago or Philadelphia (a walkability score of 78), then individuals would increase their average daily step activity by 443 steps and their MVPA per week by 24 minutes, which would mean that 11.2% or 36 million more Americans would then meet national physical activity guidelines for MVPA (Methods).",
+            "figure-link": "https://www.nature.com/nature/articles/s41586-025-09321-3/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "2018 Physical Activity Guidelines Advisory Committee. 2018 Physical Activity Guidelines Advisory Committee Scientific Report (US Department of Health and Human Services, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Bull, F. C. et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br. J. Sports Med. 54, 1451–1462 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Fbjsports-2020-102955",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33239350",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=World%20Health%20Organization%202020%20guidelines%20on%20physical%20activity%20and%20sedentary%20behaviour&journal=Br.%20J.%20Sports%20Med.&doi=10.1136%2Fbjsports-2020-102955&volume=54&pages=1451-1462&publication_year=2020&author=Bull%2CFC"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Althoff, T. et al. Large-scale physical activity data reveal worldwide activity inequality. Nature 547, 336 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature23018",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXhtFCrt73P",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28693034",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5774986",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017Natur.547..336A",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Large-scale%20physical%20activity%20data%20reveal%20worldwide%20activity%20inequality&journal=Nature&doi=10.1038%2Fnature23018&volume=547&publication_year=2017&author=Althoff%2CT"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Kohl, H. W. et al. The pandemic of physical inactivity: global action for public health. Lancet 380, 294–305 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2812%2960898-8",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22818941",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20pandemic%20of%20physical%20inactivity%3A%20global%20action%20for%20public%20health&journal=Lancet&doi=10.1016%2FS0140-6736%2812%2960898-8&volume=380&pages=294-305&publication_year=2012&author=Kohl%2CHW"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Sallis, J. F. et al. Physical activity in relation to urban environments in 14 cities worldwide: a cross-sectional study. Lancet 387, 2207–2217 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2815%2901284-2",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27045735",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10833440",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Physical%20activity%20in%20relation%20to%20urban%20environments%20in%2014%20cities%20worldwide%3A%20a%20cross-sectional%20study&journal=Lancet&doi=10.1016%2FS0140-6736%2815%2901284-2&volume=387&pages=2207-2217&publication_year=2016&author=Sallis%2CJF"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Giles-Corti, B. et al. City planning and population health: a global challenge. Lancet 388, 2912–2924 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2816%2930066-6",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27671668",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=City%20planning%20and%20population%20health%3A%20a%20global%20challenge&journal=Lancet&doi=10.1016%2FS0140-6736%2816%2930066-6&volume=388&pages=2912-2924&publication_year=2016&author=Giles-Corti%2CB"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Deweerdt, S. Mobility: the urban downshift. Nature 531, S52–S53 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2F531S52a",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XktlGjsbc%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26981727",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016Natur.531S..52D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mobility%3A%20the%20urban%20downshift&journal=Nature&doi=10.1038%2F531S52a&volume=531&pages=S52-S53&publication_year=2016&author=Deweerdt%2CS"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Graham-Rowe, D. Public planning: designs fit for purpose. Nature 493, S4 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2F493S4a",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3sXhs1Cms7k%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23364769",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2013Natur.493S...4G",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Public%20planning%3A%20designs%20fit%20for%20purpose&journal=Nature&doi=10.1038%2F493S4a&volume=493&publication_year=2013&author=Graham-Rowe%2CD"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Goenka, S. & Andersen, L. B. Our health is a function of where we live. Lancet 387, 2168–2170 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2816%2900348-2",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27045736",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Our%20health%20is%20a%20function%20of%20where%20we%20live&journal=Lancet&doi=10.1016%2FS0140-6736%2816%2900348-2&volume=387&pages=2168-2170&publication_year=2016&author=Goenka%2CS&author=Andersen%2CLB"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Ding, D. et al. Moving to an active lifestyle? A systematic review of the effects of residential relocation on walking, physical activity and travel behaviour. Br. J. Sports Med. 52, 789–799 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Fbjsports-2017-098833",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29858466",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Moving%20to%20an%20active%20lifestyle%3F%20A%20systematic%20review%20of%20the%20effects%20of%20residential%20relocation%20on%20walking%2C%20physical%20activity%20and%20travel%20behaviour&journal=Br.%20J.%20Sports%20Med.&doi=10.1136%2Fbjsports-2017-098833&volume=52&pages=789-799&publication_year=2018&author=Ding%2CD"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Prince, S. A. et al. Examining the state, quality and strength of the evidence in the research on built environments and physical activity among adults: an overview of reviews from high income countries. Health Place 77, 102874 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.healthplace.2022.102874",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=36055165",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Examining%20the%20state%2C%20quality%20and%20strength%20of%20the%20evidence%20in%20the%20research%20on%20built%20environments%20and%20physical%20activity%20among%20adults%3A%20an%20overview%20of%20reviews%20from%20high%20income%20countries&journal=Health%20Place&doi=10.1016%2Fj.healthplace.2022.102874&volume=77&publication_year=2022&author=Prince%2CSA"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Hallal, P. C. et al. Global physical activity levels: surveillance progress, pitfalls, and prospects. Lancet 380, 247–257 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2812%2960646-1",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22818937",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20physical%20activity%20levels%3A%20surveillance%20progress%2C%20pitfalls%2C%20and%20prospects&journal=Lancet&doi=10.1016%2FS0140-6736%2812%2960646-1&volume=380&pages=247-257&publication_year=2012&author=Hallal%2CPC"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Sallis, J. F. et al. Progress in physical activity over the olympic quadrennium. Lancet 388, 1325–1336 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2816%2930581-5",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27475270",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Progress%20in%20physical%20activity%20over%20the%20olympic%20quadrennium&journal=Lancet&doi=10.1016%2FS0140-6736%2816%2930581-5&volume=388&pages=1325-1336&publication_year=2016&author=Sallis%2CJF"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Global Recommendations on Physical Activity for Health (World Health Organization, 2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Lee, I.-M. et al. Effect of physical inactivity on major non-communicable diseases worldwide: an analysis of burden of disease and life expectancy. Lancet 380, 219–229 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2812%2961031-9",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22818936",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3645500",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effect%20of%20physical%20inactivity%20on%20major%20non-communicable%20diseases%20worldwide%3A%20an%20analysis%20of%20burden%20of%20disease%20and%20life%20expectancy&journal=Lancet&doi=10.1016%2FS0140-6736%2812%2961031-9&volume=380&pages=219-229&publication_year=2012&author=Lee%2CI-M"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "UN Department of Economic and Social Affairs. World Urbanization Prospects: The 2018 Revision (United Nations, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Stearns, J. A. et al. An umbrella review of the best and most up-to-date evidence on the built environment and physical activity in older adults ≥60 years. Public Health Rev. 44, 1605474 (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "McCormack, G. R. et al. A longitudinal residential relocation study of changes in street layout and physical activity. Sci. Rep. 11, 7691 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-021-86778-y",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXptFOhtb0%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33833261",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8032714",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021NatSR..11.7691M",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20longitudinal%20residential%20relocation%20study%20of%20changes%20in%20street%20layout%20and%20physical%20activity&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-021-86778-y&volume=11&publication_year=2021&author=McCormack%2CGR"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Bauman, A. E. et al. Correlates of physical activity: why are some people physically active and others not? Lancet 380, 258–271 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2812%2960735-1",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22818938",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Correlates%20of%20physical%20activity%3A%20why%20are%20some%20people%20physically%20active%20and%20others%20not%3F&journal=Lancet&doi=10.1016%2FS0140-6736%2812%2960735-1&volume=380&pages=258-271&publication_year=2012&author=Bauman%2CAE"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "McCormack, G. R. & Shiell, A. In search of causality: a systematic review of the relationship between the built environment and physical activity among adults. Int. J. Behav. Nutr. Phys. Act. 8, 125 (2011).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/1479-5868-8-125",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22077952",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306205",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=In%20search%20of%20causality%3A%20a%20systematic%20review%20of%20the%20relationship%20between%20the%20built%20environment%20and%20physical%20activity%20among%20adults&journal=Int.%20J.%20Behav.%20Nutr.%20Phys.%20Act.&doi=10.1186%2F1479-5868-8-125&volume=8&publication_year=2011&author=McCormack%2CGR&author=Shiell%2CA"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Chokshi, D. A. & Farley, T. A. Changing behaviors to prevent noncommunicable diseases. Science 345, 1243–1244 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1259809",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2cXhs1ajsrbL",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25214590",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014Sci...345.1243C",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changing%20behaviors%20to%20prevent%20noncommunicable%20diseases&journal=Science&doi=10.1126%2Fscience.1259809&volume=345&pages=1243-1244&publication_year=2014&author=Chokshi%2CDA&author=Farley%2CTA"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Bettencourt, L. & West, G. A unified theory of urban living. Nature 467, 912 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2F467912a",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXhtlWmu7fM",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20962823",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010Natur.467..912B",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20unified%20theory%20of%20urban%20living&journal=Nature&doi=10.1038%2F467912a&volume=467&publication_year=2010&author=Bettencourt%2CL&author=West%2CG"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Servick, K. Mind the phone. Science 350, 1306–1309 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.350.6266.1306",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXitVGqt7nM",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26659037",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015Sci...350.1306S",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mind%20the%20phone&journal=Science&doi=10.1126%2Fscience.350.6266.1306&volume=350&pages=1306-1309&publication_year=2015&author=Servick%2CK"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Reis, R. S. et al. Scaling up physical activity interventions worldwide: stepping up to larger and smarter approaches to get people moving. Lancet 388, 1337–1348 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2816%2930728-0",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27475273",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5193005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scaling%20up%20physical%20activity%20interventions%20worldwide%3A%20stepping%20up%20to%20larger%20and%20smarter%20approaches%20to%20get%20people%20moving&journal=Lancet&doi=10.1016%2FS0140-6736%2816%2930728-0&volume=388&pages=1337-1348&publication_year=2016&author=Reis%2CRS"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Prince, S. A. et al. A comparison of direct versus self-report measures for assessing physical activity in adults: a systematic review. Int. J. Behav. Phys. Act. 5, 56 (2008).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/1479-5868-5-56",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20comparison%20of%20direct%20versus%20self-report%20measures%20for%20assessing%20physical%20activity%20in%20adults%3A%20a%20systematic%20review&journal=Int.%20J.%20Behav.%20Phys.%20Act.&doi=10.1186%2F1479-5868-5-56&volume=5&publication_year=2008&author=Prince%2CSA"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Giles-Corti, B. et al. The influence of urban design on neighbourhood walking following residential relocation: longitudinal results from the reside study. Soc. Sci. Med. 77, 20–30 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.socscimed.2012.10.016",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23206559",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20influence%20of%20urban%20design%20on%20neighbourhood%20walking%20following%20residential%20relocation%3A%20longitudinal%20results%20from%20the%20reside%20study&journal=Soc.%20Sci.%20Med.&doi=10.1016%2Fj.socscimed.2012.10.016&volume=77&pages=20-30&publication_year=2013&author=Giles-Corti%2CB"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Ludwig, J. et al. Neighborhood effects on the long-term well-being of low-income adults. Science 337, 1505–1510 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1224648",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC38XhtlGrur7F",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22997331",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3491569",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012Sci...337.1505L",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighborhood%20effects%20on%20the%20long-term%20well-being%20of%20low-income%20adults&journal=Science&doi=10.1126%2Fscience.1224648&volume=337&pages=1505-1510&publication_year=2012&author=Ludwig%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Walch, O. J., Cochran, A. & Forger, D. B. A global quantification of “normal” sleep schedules using smartphone data. Sci. Adv. 2, e15017705 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fsciadv.1501705",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20global%20quantification%20of%20%E2%80%9Cnormal%E2%80%9D%20sleep%20schedules%20using%20smartphone%20data&journal=Sci.%20Adv.&doi=10.1126%2Fsciadv.1501705&volume=2&publication_year=2016&author=Walch%2COJ&author=Cochran%2CA&author=Forger%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "González, M. C., Hidalgo, C. A. & Barabási, A.-L. Understanding individual human mobility patterns. Nature 453, 779–782 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature06958",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18528393",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008Natur.453..779G",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20individual%20human%20mobility%20patterns&journal=Nature&doi=10.1038%2Fnature06958&volume=453&pages=779-782&publication_year=2008&author=Gonz%C3%A1lez%2CMC&author=Hidalgo%2CCA&author=Barab%C3%A1si%2CA-L"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Golder, S. A. & Macy, M. W. Diurnal and seasonal mood vary with work, sleep, and daylength across diverse cultures. Science 333, 1878–1881 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1202775",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXht1aitr7F",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21960633",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011Sci...333.1878G",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Diurnal%20and%20seasonal%20mood%20vary%20with%20work%2C%20sleep%2C%20and%20daylength%20across%20diverse%20cultures&journal=Science&doi=10.1126%2Fscience.1202775&volume=333&pages=1878-1881&publication_year=2011&author=Golder%2CSA&author=Macy%2CMW"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Wesolowski, A. et al. Quantifying the impact of human mobility on malaria. Science 338, 267–270 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1223467",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC38XhsVKrtrzF",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23066082",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3675794",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012Sci...338..267W",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20the%20impact%20of%20human%20mobility%20on%20malaria&journal=Science&doi=10.1126%2Fscience.1223467&volume=338&pages=267-270&publication_year=2012&author=Wesolowski%2CA"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Chang, S. et al. Mobility network models of COVID-19 explain inequities and inform reopening. Nature 589, 82–87 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-020-2923-3",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXisVOlu7nP",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33171481",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021Natur.589...82C",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mobility%20network%20models%20of%20COVID-19%20explain%20inequities%20and%20inform%20reopening&journal=Nature&doi=10.1038%2Fs41586-020-2923-3&volume=589&pages=82-87&publication_year=2021&author=Chang%2CS"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Blumenstock, J., Cadamuro, G. & On, R. Predicting poverty and wealth from mobile phone metadata. Science 350, 1073–1076 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aac4420",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXhvFamtL3P",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26612950",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015Sci...350.1073B",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Predicting%20poverty%20and%20wealth%20from%20mobile%20phone%20metadata&journal=Science&doi=10.1126%2Fscience.aac4420&volume=350&pages=1073-1076&publication_year=2015&author=Blumenstock%2CJ&author=Cadamuro%2CG&author=On%2CR"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Case, M. A., Burwick, H. A., Volpp, K. G. & Patel, M. S. Accuracy of smartphone applications and wearable devices for tracking physical activity data. JAMA 313, 625–626 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjama.2014.17841",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXjtFWhs7w%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25668268",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Accuracy%20of%20smartphone%20applications%20and%20wearable%20devices%20for%20tracking%20physical%20activity%20data&journal=JAMA&doi=10.1001%2Fjama.2014.17841&volume=313&pages=625-626&publication_year=2015&author=Case%2CMA&author=Burwick%2CHA&author=Volpp%2CKG&author=Patel%2CMS"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Hekler, E. B. et al. Validation of physical activity tracking via android smartphones compared to ActiGraph accelerometer: laboratory-based and free-living validation studies. JMIR mHealth uHealth 3, e36 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.2196%2Fmhealth.3505",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25881662",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4414958",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Validation%20of%20physical%20activity%20tracking%20via%20android%20smartphones%20compared%20to%20ActiGraph%20accelerometer%3A%20laboratory-based%20and%20free-living%20validation%20studies&journal=JMIR%20mHealth%20uHealth&doi=10.2196%2Fmhealth.3505&volume=3&publication_year=2015&author=Hekler%2CEB"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Marshall, S. J. et al. Translating physical activity recommendations into a pedometer-based step goal: 3000 steps in 30 minutes. Am. J. Prev. Med. 36, 410–415 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.amepre.2009.01.021",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19362695",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Translating%20physical%20activity%20recommendations%20into%20a%20pedometer-based%20step%20goal%3A%203000%20steps%20in%2030%20minutes&journal=Am.%20J.%20Prev.%20Med.&doi=10.1016%2Fj.amepre.2009.01.021&volume=36&pages=410-415&publication_year=2009&author=Marshall%2CSJ"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Peters, M. et al. Measuring the association of objective and perceived neighborhood environment with physical activity in older adults: challenges and implications from a systematic review. Int. J. Health Geogr. 19, 1–20 (2020).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12942-020-00243-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20the%20association%20of%20objective%20and%20perceived%20neighborhood%20environment%20with%20physical%20activity%20in%20older%20adults%3A%20challenges%20and%20implications%20from%20a%20systematic%20review&journal=Int.%20J.%20Health%20Geogr.&doi=10.1186%2Fs12942-020-00243-z&volume=19&pages=1-20&publication_year=2020&author=Peters%2CM"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Vrazel, J., Saunders, R. P. & Wilcox, S. An overview and proposed framework of social-environmental influences on the physical-activity behavior of women. Am. J. Health Promot. 23, 2–12 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.4278%2Fajhp.06070999",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18785368",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20overview%20and%20proposed%20framework%20of%20social-environmental%20influences%20on%20the%20physical-activity%20behavior%20of%20women&journal=Am.%20J.%20Health%20Promot.&doi=10.4278%2Fajhp.06070999&volume=23&pages=2-12&publication_year=2008&author=Vrazel%2CJ&author=Saunders%2CRP&author=Wilcox%2CS"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Eyler, A. A. et al. Environmental, policy, and cultural factors related to physical activity in a diverse sample of women: the women’s cardiovascular health network project–introduction and methodology. Women Health 36, 1–15 (2002).",
+            "links": {
+                "Article": "https://doi.org/10.1300%2FJ013v36n02_01",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12487137",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%2C%20policy%2C%20and%20cultural%20factors%20related%20to%20physical%20activity%20in%20a%20diverse%20sample%20of%20women%3A%20the%20women%E2%80%99s%20cardiovascular%20health%20network%20project%E2%80%93introduction%20and%20methodology&journal=Women%20Health&doi=10.1300%2FJ013v36n02_01&volume=36&pages=1-15&publication_year=2002&author=Eyler%2CAA"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Ulrich, S., Grill, E. & Flanagin, V. L. Who gets lost and why: a representative cross-sectional survey on sociodemographic and vestibular determinants of wayfinding strategies. PLoS ONE 14, e0204781 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0204781",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXmtFCltr0%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30699119",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6353538",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Who%20gets%20lost%20and%20why%3A%20a%20representative%20cross-sectional%20survey%20on%20sociodemographic%20and%20vestibular%20determinants%20of%20wayfinding%20strategies&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0204781&volume=14&publication_year=2019&author=Ulrich%2CS&author=Grill%2CE&author=Flanagin%2CVL"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "King, A. C. et al. Personal and environmental factors associated with physical inactivity among different racial–ethnic groups of US middle-aged and older-aged women. Health Psychol. 19, 354 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1037%2F0278-6133.19.4.354",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD3M%2FksFKrtA%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10907654",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Personal%20and%20environmental%20factors%20associated%20with%20physical%20inactivity%20among%20different%20racial%E2%80%93ethnic%20groups%20of%20US%20middle-aged%20and%20older-aged%20women&journal=Health%20Psychol.&doi=10.1037%2F0278-6133.19.4.354&volume=19&publication_year=2000&author=King%2CAC"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Liang, J. et al. Gender differences in functional status in middle and older age: are there any age variations? J. Gerontol. Ser. B 63, S282–S292 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fgeronb%2F63.5.S282",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Gender%20differences%20in%20functional%20status%20in%20middle%20and%20older%20age%3A%20are%20there%20any%20age%20variations%3F&journal=J.%20Gerontol.%20Ser.%20B&doi=10.1093%2Fgeronb%2F63.5.S282&volume=63&pages=S282-S292&publication_year=2008&author=Liang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Ahmed, T., Vafaei, A., Auais, M., Guralnik, J. & Zunzunegui, M. V. Gender roles and physical function in older adults: cross-sectional analysis of the international mobility in aging study (imias). PLoS ONE 11, e0156828 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0156828",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27258050",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4892474",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Gender%20roles%20and%20physical%20function%20in%20older%20adults%3A%20cross-sectional%20analysis%20of%20the%20international%20mobility%20in%20aging%20study%20%28imias%29&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0156828&volume=11&publication_year=2016&author=Ahmed%2CT&author=Vafaei%2CA&author=Auais%2CM&author=Guralnik%2CJ&author=Zunzunegui%2CMV"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Freedman, V. A., Wolf, D. A. & Spillman, B. C. Disability-free life expectancy over 30 years: a growing female disadvantage in the us population. Am. J. Public Health 106, 1079–1085 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.2105%2FAJPH.2016.303089",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26985619",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4860065",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Disability-free%20life%20expectancy%20over%2030%20years%3A%20a%20growing%20female%20disadvantage%20in%20the%20us%20population&journal=Am.%20J.%20Public%20Health&doi=10.2105%2FAJPH.2016.303089&volume=106&pages=1079-1085&publication_year=2016&author=Freedman%2CVA&author=Wolf%2CDA&author=Spillman%2CBC"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Pristavec, T. Social participation in later years: the role of driving mobility. J. Gerontol. Ser. B 73, 1457–1469 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20participation%20in%20later%20years%3A%20the%20role%20of%20driving%20mobility&journal=J.%20Gerontol.%20Ser.%20B&volume=73&pages=1457-1469&publication_year=2018&author=Pristavec%2CT"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Gauvin, L. et al. Gender gaps in urban mobility. Humanit. Soc. Sci. Commun. 7, 11 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1057%2Fs41599-020-0500-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Gender%20gaps%20in%20urban%20mobility&journal=Humanit.%20Soc.%20Sci.%20Commun.&doi=10.1057%2Fs41599-020-0500-x&volume=7&publication_year=2020&author=Gauvin%2CL"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Dabelko-Schoeny, H., Maleku, A., Cao, Q., White, K. & Ozbilen, B. “We want to go, but there are no options”: exploring barriers and facilitators of transportation among diverse older adults. J. Transp. Health 20, 100994 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jth.2020.100994",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=%E2%80%9CWe%20want%20to%20go%2C%20but%20there%20are%20no%20options%E2%80%9D%3A%20exploring%20barriers%20and%20facilitators%20of%20transportation%20among%20diverse%20older%20adults&journal=J.%20Transp.%20Health&doi=10.1016%2Fj.jth.2020.100994&volume=20&publication_year=2021&author=Dabelko-Schoeny%2CH&author=Maleku%2CA&author=Cao%2CQ&author=White%2CK&author=Ozbilen%2CB"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "King, A. C. et al. Perceived environments as physical activity correlates and moderators of intervention in five studies. Am. J. Health Promot. 21, 24–35 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F089011710602100106",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16977910",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Perceived%20environments%20as%20physical%20activity%20correlates%20and%20moderators%20of%20intervention%20in%20five%20studies&journal=Am.%20J.%20Health%20Promot.&doi=10.1177%2F089011710602100106&volume=21&pages=24-35&publication_year=2006&author=King%2CAC"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Physical Activity Guidelines for Americans 2nd edn (US Department of Health and Human Services, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Prince, S. A. et al. A comparison of self-reported and device measured sedentary behaviour in adults: a systematic review and meta-analysis. Int. J. Behav. Nutr. Phys. Act. 17, 31 (2020).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12966-020-00938-3",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32131845",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7055033",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020EPJD...74...31P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20comparison%20of%20self-reported%20and%20device%20measured%20sedentary%20behaviour%20in%20adults%3A%20a%20systematic%20review%20and%20meta-analysis&journal=Int.%20J.%20Behav.%20Nutr.%20Phys.%20Act.&doi=10.1186%2Fs12966-020-00938-3&volume=17&publication_year=2020&author=Prince%2CSA"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Tucker, J. M., Welk, G. J. & Beyler, N. K. Physical activity in us adults: compliance with the physical activity guidelines for americans. Am. J. Prev. Med. 40, 454–461 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.amepre.2010.12.016",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21406280",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Physical%20activity%20in%20us%20adults%3A%20compliance%20with%20the%20physical%20activity%20guidelines%20for%20americans&journal=Am.%20J.%20Prev.%20Med.&doi=10.1016%2Fj.amepre.2010.12.016&volume=40&pages=454-461&publication_year=2011&author=Tucker%2CJM&author=Welk%2CGJ&author=Beyler%2CNK"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Cervero, R. & Kockelman, K. Travel demand and the 3ds: density, diversity, and design. Transp. Res. D 2, 199–219 (1997).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS1361-9209%2897%2900009-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Travel%20demand%20and%20the%203ds%3A%20density%2C%20diversity%2C%20and%20design&journal=Transp.%20Res.%20D&doi=10.1016%2FS1361-9209%2897%2900009-6&volume=2&pages=199-219&publication_year=1997&author=Cervero%2CR&author=Kockelman%2CK"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Saelens, B. E. & Handy, S. L. Built environment correlates of walking: a review. Med. Sci. Sports Exerc. 40, S550 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1249%2FMSS.0b013e31817c67a4",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18562973",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2921187",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Built%20environment%20correlates%20of%20walking%3A%20a%20review&journal=Med.%20Sci.%20Sports%20Exerc.&doi=10.1249%2FMSS.0b013e31817c67a4&volume=40&publication_year=2008&author=Saelens%2CBE&author=Handy%2CSL"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Mobile fact sheet. Pew Research Center www.pewinternet.org/fact-sheet/mobile/ (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Ericsson Mobility Report, November 2023 (Ericsson, 2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Kerr, J. et al. Advancing science and policy through a coordinated international study of physical activity and built environments: IPEN adult methods. J. Phys. Act. Health 10, 581–601 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1123%2Fjpah.10.4.581",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22975776",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Advancing%20science%20and%20policy%20through%20a%20coordinated%20international%20study%20of%20physical%20activity%20and%20built%20environments%3A%20IPEN%20adult%20methods&journal=J.%20Phys.%20Act.%20Health&doi=10.1123%2Fjpah.10.4.581&volume=10&pages=581-601&publication_year=2013&author=Kerr%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Adams, M. A. et al. International variation in neighborhood walkability, transit, and recreation environments using geographic information systems: the IPEN adult study. Int. J. Health Geogr. 13, 43 (2014).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/1476-072X-13-43",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25343966",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4221715",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=International%20variation%20in%20neighborhood%20walkability%2C%20transit%2C%20and%20recreation%20environments%20using%20geographic%20information%20systems%3A%20the%20IPEN%20adult%20study&journal=Int.%20J.%20Health%20Geogr.&doi=10.1186%2F1476-072X-13-43&volume=13&publication_year=2014&author=Adams%2CMA"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Cerin, E. et al. Neighborhood environments and objectively measured physical activity in 11 countries. Med. Sci. Sports Exerc. 46, 2253 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1249%2FMSS.0000000000000367",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24781892",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4232984",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighborhood%20environments%20and%20objectively%20measured%20physical%20activity%20in%2011%20countries&journal=Med.%20Sci.%20Sports%20Exerc.&doi=10.1249%2FMSS.0000000000000367&volume=46&publication_year=2014&author=Cerin%2CE"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Duncan, D. T., Aldstadt, J., Whalen, J., Melly, S. J. & Gortmaker, S. L. Validation of Walk Score® for estimating neighborhood walkability: an analysis of four US metropolitan areas. Int. J. Environ. Res. Public Health 8, 4160–4179 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph8114160",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22163200",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3228564",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Validation%20of%20Walk%20Score%C2%AE%20for%20estimating%20neighborhood%20walkability%3A%20an%20analysis%20of%20four%20US%20metropolitan%20areas&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph8114160&volume=8&pages=4160-4179&publication_year=2011&author=Duncan%2CDT&author=Aldstadt%2CJ&author=Whalen%2CJ&author=Melly%2CSJ&author=Gortmaker%2CSL"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Carr, L. J., Dunsiger, S. I. & Marcus, B. H. Walk Score™ as a global estimate of neighborhood walkability. Am. J. Prev. Med. 39, 460–463 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.amepre.2010.07.007",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20965384",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4845902",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Walk%20Score%E2%84%A2%20as%20a%20global%20estimate%20of%20neighborhood%20walkability&journal=Am.%20J.%20Prev.%20Med.&doi=10.1016%2Fj.amepre.2010.07.007&volume=39&pages=460-463&publication_year=2010&author=Carr%2CLJ&author=Dunsiger%2CSI&author=Marcus%2CBH"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Carr, L. J., Dunsiger, S. I. & Marcus, B. H. Validation of walk score for estimating access to walkable amenities. Br. J. Sports Med. 45, 1144–1148 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Fbjsm.2009.069609",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20418525",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Validation%20of%20walk%20score%20for%20estimating%20access%20to%20walkable%20amenities&journal=Br.%20J.%20Sports%20Med.&doi=10.1136%2Fbjsm.2009.069609&volume=45&pages=1144-1148&publication_year=2011&author=Carr%2CLJ&author=Dunsiger%2CSI&author=Marcus%2CBH"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Manaugh, K. & El-Geneidy, A. Validating walkability indices: how do different households respond to the walkability of their neighborhood? Transp. Res. D 16, 309–315 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trd.2011.01.009",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Validating%20walkability%20indices%3A%20how%20do%20different%20households%20respond%20to%20the%20walkability%20of%20their%20neighborhood%3F&journal=Transp.%20Res.%20D&doi=10.1016%2Fj.trd.2011.01.009&volume=16&pages=309-315&publication_year=2011&author=Manaugh%2CK&author=El-Geneidy%2CA"
+            }
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Hirsch, J. A., Moore, K. A., Evenson, K. R., Rodriguez, D. A. & Roux, A. V. D. Walk Score® and Transit Score® and walking in the multi-ethnic study of atherosclerosis. Am. J. Prev. Med. 45, 158–166 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.amepre.2013.03.018",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23867022",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3769092",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Walk%20Score%C2%AE%20and%20Transit%20Score%C2%AE%20and%20walking%20in%20the%20multi-ethnic%20study%20of%20atherosclerosis&journal=Am.%20J.%20Prev.%20Med.&doi=10.1016%2Fj.amepre.2013.03.018&volume=45&pages=158-166&publication_year=2013&author=Hirsch%2CJA&author=Moore%2CKA&author=Evenson%2CKR&author=Rodriguez%2CDA&author=Roux%2CAVD"
+            }
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Brown, J. A., Curtin, K. D., Thomson, M., Kung, J. Y. & Nykiforuk, C. I. Contributions and limitations Walk Score® in the context of walkability: a scoping review. Environ. Behav. 55, 468–519 (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Smith, M. et al. Systematic literature review of built environment effects on physical activity and active transport–an update and new findings on health equity. Int. J. Behav. Nutr. Phys. Act. 14, 1–27 (2017).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12966-017-0613-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Systematic%20literature%20review%20of%20built%20environment%20effects%20on%20physical%20activity%20and%20active%20transport%E2%80%93an%20update%20and%20new%20findings%20on%20health%20equity&journal=Int.%20J.%20Behav.%20Nutr.%20Phys.%20Act.&doi=10.1186%2Fs12966-017-0613-9&volume=14&pages=1-27&publication_year=2017&author=Smith%2CM"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "CDC vital signs: more people walk to better health. Centers for Disease Control and Prevention https://archive.cdc.gov/#/details?url=https://www.cdc.gov/vitalsigns/walking/index.html (2012).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR67",
+            "content": "Kärmeniemi, M., Lankila, T., Ikäheimo, T., Koivumaa-Honkanen, H. & Korpelainen, R. The built environment as a determinant of physical activity: a systematic review of longitudinal studies and natural experiments. Ann. Behav. Med. 52, 239–251 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fabm%2Fkax043",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29538664",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20built%20environment%20as%20a%20determinant%20of%20physical%20activity%3A%20a%20systematic%20review%20of%20longitudinal%20studies%20and%20natural%20experiments&journal=Ann.%20Behav.%20Med.&doi=10.1093%2Fabm%2Fkax043&volume=52&pages=239-251&publication_year=2018&author=K%C3%A4rmeniemi%2CM&author=Lankila%2CT&author=Ik%C3%A4heimo%2CT&author=Koivumaa-Honkanen%2CH&author=Korpelainen%2CR"
+            }
+        },
+        {
+            "id": "ref-CR68",
+            "content": "Chetty, R. & Hendren, N. The impacts of neighborhoods on intergenerational mobility I: childhood exposure effects. Q. J. Econ. 133, 1107–1162 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fqje%2Fqjy007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impacts%20of%20neighborhoods%20on%20intergenerational%20mobility%20I%3A%20childhood%20exposure%20effects&journal=Q.%20J.%20Econ.&doi=10.1093%2Fqje%2Fqjy007&volume=133&pages=1107-1162&publication_year=2018&author=Chetty%2CR&author=Hendren%2CN"
+            }
+        },
+        {
+            "id": "ref-CR69",
+            "content": "Christie, C. D., Friedenreich, C. M., Vena, J. E., Turley, L. & McCormack, G. R. Cross-sectional and longitudinal associations between the built environment and walking: effect modification by socioeconomic status. BMC Public Health 22, 1233 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12889-022-13611-0",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=35729509",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC9210749",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cross-sectional%20and%20longitudinal%20associations%20between%20the%20built%20environment%20and%20walking%3A%20effect%20modification%20by%20socioeconomic%20status&journal=BMC%20Public%20Health&doi=10.1186%2Fs12889-022-13611-0&volume=22&publication_year=2022&author=Christie%2CCD&author=Friedenreich%2CCM&author=Vena%2CJE&author=Turley%2CL&author=McCormack%2CGR"
+            }
+        },
+        {
+            "id": "ref-CR70",
+            "content": "Hicks, J. L. et al. Best practices for analyzing large-scale health data from wearables and smartphone apps. npj Digit. Med. 2, 45 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41746-019-0121-1",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31304391",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6550237",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Best%20practices%20for%20analyzing%20large-scale%20health%20data%20from%20wearables%20and%20smartphone%20apps&journal=npj%20Digit.%20Med.&doi=10.1038%2Fs41746-019-0121-1&volume=2&publication_year=2019&author=Hicks%2CJL"
+            }
+        },
+        {
+            "id": "ref-CR71",
+            "content": "Althoff, T., Jindal, P. & Leskovec, J. Online actions with offline impact: how online social networks influence online and offline user behavior. In Proc. of the tenth ACM International Conference on Web Search and Data Mining 537–546 (Association for Computing Machinery, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR72",
+            "content": "Shameli, A., Althoff, T., Saberi, A. & Leskovec, J. How gamification affects physical activity: large-scale analysis of walking challenges in a mobile application. In Proc. of the 26th International Conference on World Wide Web 455–463 (International World Wide Web Conferences Steering Committee, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR73",
+            "content": "Bassett, D. R., Wyatt, H. R., Thompson, H., Peters, J. C. & Hill, J. O. Pedometer-measured physical activity and health behaviors in U.S. adults. Med. Sci. Sport. Exerc. 42, 1819–1825 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1249%2FMSS.0b013e3181dc2e54",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Pedometer-measured%20physical%20activity%20and%20health%20behaviors%20in%20U.S.%20adults&journal=Med.%20Sci.%20Sport.%20Exerc.&doi=10.1249%2FMSS.0b013e3181dc2e54&volume=42&pages=1819-1825&publication_year=2010&author=Bassett%2CDR&author=Wyatt%2CHR&author=Thompson%2CH&author=Peters%2CJC&author=Hill%2CJO"
+            }
+        },
+        {
+            "id": "ref-CR74",
+            "content": "Troiano, R. P. et al. Physical activity in the United States measured by accelerometer. Med. Sci. Sport. Exerc. 40, 181–188 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1249%2Fmss.0b013e31815a51b3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Physical%20activity%20in%20the%20United%20States%20measured%20by%20accelerometer&journal=Med.%20Sci.%20Sport.%20Exerc.&doi=10.1249%2Fmss.0b013e31815a51b3&volume=40&pages=181-188&publication_year=2008&author=Troiano%2CRP"
+            }
+        },
+        {
+            "id": "ref-CR75",
+            "content": "Van Dyck, D. et al. International study of objectively measured physical activity and sedentary time with body mass index and obesity: IPEN adult study. Int. J. Obes. 39, 199–207 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fijo.2014.115",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=International%20study%20of%20objectively%20measured%20physical%20activity%20and%20sedentary%20time%20with%20body%20mass%20index%20and%20obesity%3A%20IPEN%20adult%20study&journal=Int.%20J.%20Obes.&doi=10.1038%2Fijo.2014.115&volume=39&pages=199-207&publication_year=2015&author=Dyck%2CD"
+            }
+        },
+        {
+            "id": "ref-CR76",
+            "content": "Tudor-Locke, C., Johnson, W. D. & Katzmarzyk, P. T. Accelerometer-determined steps per day in US adults. Med. Sci. Sport. Exerc. 41, 1384–1391 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1249%2FMSS.0b013e318199885c",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Accelerometer-determined%20steps%20per%20day%20in%20US%20adults&journal=Med.%20Sci.%20Sport.%20Exerc.&doi=10.1249%2FMSS.0b013e318199885c&volume=41&pages=1384-1391&publication_year=2009&author=Tudor-Locke%2CC&author=Johnson%2CWD&author=Katzmarzyk%2CPT"
+            }
+        },
+        {
+            "id": "ref-CR77",
+            "content": "Efron, B. & Tibshirani, R. J. An Introduction to the Bootstrap (CRC, 1994).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR78",
+            "content": "Cities & Neighborhoods. Walk Score www.walkscore.com/cities-and-neighborhoods/ (accessed 17 June 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR79",
+            "content": "Walk Score Methodology. Walk Score www.walkscore.com/methodology.shtml (accessed 7 April 2025).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR80",
+            "content": "Frank, L. D., Schmid, T. L., Sallis, J. F., Chapman, J. & Saelens, B. E. Linking objectively measured physical activity with objectively measured urban form: findings from smartraq. Am. J. Prev. Med. 28, 117–125 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.amepre.2004.11.001",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15694519",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Linking%20objectively%20measured%20physical%20activity%20with%20objectively%20measured%20urban%20form%3A%20findings%20from%20smartraq&journal=Am.%20J.%20Prev.%20Med.&doi=10.1016%2Fj.amepre.2004.11.001&volume=28&pages=117-125&publication_year=2005&author=Frank%2CLD&author=Schmid%2CTL&author=Sallis%2CJF&author=Chapman%2CJ&author=Saelens%2CBE"
+            }
+        },
+        {
+            "id": "ref-CR81",
+            "content": "Kuzmyak, J., Baber, C. & Savory, D. Use of walk opportunities index to quantify local accessibility. Transp. Res. Rec. 1977, 145–153 (2006).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR82",
+            "content": "Porta, S. & Renne, J. L. Linking urban design to sustainability: formal indicators of social urban sustainability field research in Perth, Western Australia. Urban Des. Int. 10, 51–64 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1057%2Fpalgrave.udi.9000136",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Linking%20urban%20design%20to%20sustainability%3A%20formal%20indicators%20of%20social%20urban%20sustainability%20field%20research%20in%20Perth%2C%20Western%20Australia&journal=Urban%20Des.%20Int.&doi=10.1057%2Fpalgrave.udi.9000136&volume=10&pages=51-64&publication_year=2005&author=Porta%2CS&author=Renne%2CJL"
+            }
+        },
+        {
+            "id": "ref-CR83",
+            "content": "Köppen, W. et al. Das Geographische System der Klimate (Handbuch der Klimatologie, bd. 1, teil c) [The Geographical System of the Climate, Handbook of Climatology, Vol. 1 part C] (Gebrüder Borntraeger, 1936).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR84",
+            "content": "Tucker, P. & Gilliland, J. The effect of season and weather on physical activity: a systematic review. Public Health 121, 909–922 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.puhe.2007.04.009",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD2snosVSksw%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17920646",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20season%20and%20weather%20on%20physical%20activity%3A%20a%20systematic%20review&journal=Public%20Health&doi=10.1016%2Fj.puhe.2007.04.009&volume=121&pages=909-922&publication_year=2007&author=Tucker%2CP&author=Gilliland%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR85",
+            "content": "Current Population Survey. Table A-5. Reason for Move (Collapsed and Specific Categories): 1999–2023. US Census Bureau www.census.gov/data/tables/time-series/demo/geographic-mobility/historic.html (accessed 13 December 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR86",
+            "content": "Bethlehem, J. Applied Survey Methods: A Statistical Perspective Vol. 558 (Wiley, 2009).",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "Data are available at GitHub (https://github.com/behavioral-data/movers-public).",
+            "links": {
+                "https://github.com/behavioral-data/movers-public": "https://github.com/behavioral-data/movers-public"
+            }
+        },
+        "Code availability": {
+            "content": "Code is available at GitHub (https://github.com/behavioral-data/movers-public).",
+            "links": {
+                "https://github.com/behavioral-data/movers-public": "https://github.com/behavioral-data/movers-public"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We thank Azumio for donating the data for independent research and M. Zitnik, E. Pierson, R. Sosic, S. Kumar and D. Hallac for comments and discussions. T.A., B.I., J.L.H., S.L.D., A.C.K. and J.L. were supported by a National Institutes of Health (NIH) grant (U54 EB020405, Mobilize Center, NIH Big Data to Knowledge Center of Excellence). T.A. was supported in part by NSF IIS-1901386, NSF CAREER IIS-2142794 and Bill & Melinda Gates Foundation (INV-004841) grants. J.L.H. and S.L.D. were supported by NIH grants P41 EB027060, P2C CHD101913 and R01 GM124443, and the Wu Tsai Human Performance Alliance. A.C.K. was supported in part by US National Institutes of Health (NIH) National Institute on Aging grant 5R01AG07149002. Funders were not involved in planning or executing the study and they were not involved in preparing the manuscript. The authors had full access to all of the data in the study and had the final responsibility for the decision to submit for publication.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsTim AlthoffView author publicationsSearch author on:PubMed Google ScholarBoris IvanovicView author publicationsSearch author on:PubMed Google ScholarAbby C. KingView author publicationsSearch author on:PubMed Google ScholarJennifer L. HicksView author publicationsSearch author on:PubMed Google ScholarScott L. DelpView author publicationsSearch author on:PubMed Google ScholarJure LeskovecView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nT.A. and B.I. performed the statistical analysis. T.A., B.I., A.C.K., J.L.H., S.L.D. and J.L. jointly analysed the results and wrote the paper.\n### Corresponding author\nCorrespondence to\n                Tim Althoff.",
+            "links": {
+                "View author publications": "/search?author=Jure%20Leskovec",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jure%20Leskovec",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Jure%20Leskovec%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Tim Althoff": "mailto:althoff@cs.washington.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature thanks Elisa Conticelli and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data figures and tables": {
+            "content": "Extended Data Fig. 1 Simulating the impact of walkability improvements on United States physical activity levels.a, Estimated fraction of population with 150 minutes or MVPA or more per week following an increase in walkability across all represented U.S. locations. b, Average amount of MVPA added across population following an increase in walkability across all represented U.S. locations. c, Average amount of daily steps added across population following an increase in walkability across all represented U.S. locations. Shaded regions correspond to 95% confidence intervals.Extended Data Fig. 2 Changes in physical activity levels following relocation are still observed after three months.Examples show physical activity levels for participants moving from/to San Diego, CA (a,b), San Francisco, CA (c,d), and Baltimore, MD (e,f). The observation period is extended from 30 days to 90 days pre- and post-relocation. Observed changes in physical activity levels suggest that built environment influences persist over at least three months and may lead to sustained long-term behavior change.Extended Data Fig. 3 Demographics of relocating participants (Movers) in our dataset compared to U.S. Census estimates for movers.a, While there are no significant differences in the gender distribution (49.8% female vs. 50.4% female, P = 0.423, Z-test), b, We find a slightly lower age in our data for movers compared to the US Census reported movers (36.0 vs 37.7 median age), that we corrected for in the simulation experiment (Fig. 3f, Extended Data Fig. 1).Extended Data Fig. 4 Comparison of relocating participants (movers) to all participants in our dataset to understand potential selection effects.Within the study population, we find that movers and non-movers (i.e., relocating and non-relocating participants) tend to be a-b, close in age (43.8 vs 37.9 and 38.5 vs 33.7 average age for men and women, respectively), c-d, and weight status (68.1 vs 59.8 and 45.6 vs 44.3 percent overweight and obese for men and women, respectively). e-f, However, movers were generally more physically active than non-movers (6,284 vs 5,825 and 5,279 vs 4,635 average daily steps for men and women, respectively).Extended Data Fig. 5 Comparison of different groups of relocating participants (movers) to understand potential selection effects.Within the study population, we find that movers to higher (greater than 16 walkability points), similar (within 16 walkability points), and lower (less than -16 walkability points) walkability locations tend to be a-b, close in age (44.4 vs 43.7 vs 45.0 and 39.0 vs 38.3 vs 38.3 average age for men and women moving to higher, similar, and lower walkability locations, respectively), c-d, weight status (69.3 vs 67.3 vs 66.5 and 46.6 vs 44.9 vs 46.1 percent overweight and obese for men and women moving to higher, similar, and lower walkability locations, respectively), e-f, and baseline physical activity levels (6,257 vs 6,229 vs 6,301 and 5,422 vs 5,239 vs 5,405 average daily steps for men and women moving to higher, similar, and lower walkability locations, respectively).Extended Data Fig. 6 Different definitions of relocation lead to highly consistent results.After relocation, participants are required to stay in the new location for at least 14, 21, or 30 days. We find that all of these definitions lead to highly consistent results as most relocating participants stay for substantially longer periods of time (median 81 days). In the rest of the paper, we use the 14 day definition (purple).Extended Data Fig. 7 Higher physical activity in more walkability cities is not explained by differences in estimated wear time.Participants have an average span of 14.2h between the first and last recorded step, our proxy for daily wear time (Methods). a, Wear time estimates before and after relocation are 14.16 hours and 14.18 hours, respectively, with no significant difference (P = 0.807; t-test). b, We find no significant association between relocation-induced difference in walkability and wear time. The line shows the best linear fit using data from all relocations. Its slope is not significantly different from zero (slope 0.0014; P = 0.371; t-test). These results suggest that differences in recorded steps after relocation are due to actual differences in physical activity behavior and are not explained by differences in wear time.Extended Data Table 1 Summary of demographic statistics for the study participants (Methods)Full size tableExtended Data Table 2 Summary of physical activity statistics for the study participants (Methods)Full size tableExtended Data Table 3 Location and walkability statistics for all locations included in our study with at least 70 moving participants (sorted alphabetically)Full size table",
+            "links": {
+                "Extended Data Fig. 1 Simulating the impact of walkability improvements on United States physical activity levels.": "/articles/s41586-025-09321-3/figures/4",
+                "Extended Data Fig. 2 Changes in physical activity levels following relocation are still observed after three months.": "/articles/s41586-025-09321-3/figures/5",
+                "Extended Data Fig. 3 Demographics of relocating participants (Movers) in our dataset compared to U.S. Census estimates for movers.": "/articles/s41586-025-09321-3/figures/6",
+                "3f": "/articles/s41586-025-09321-3#Fig3",
+                "1": "/articles/s41586-025-09321-3#Fig4",
+                "Extended Data Fig. 4 Comparison of relocating participants (movers) to all participants in our dataset to understand potential selection effects.": "/articles/s41586-025-09321-3/figures/7",
+                "Extended Data Fig. 5 Comparison of different groups of relocating participants (movers) to understand potential selection effects.": "/articles/s41586-025-09321-3/figures/8",
+                "Extended Data Fig. 6 Different definitions of relocation lead to highly consistent results.": "/articles/s41586-025-09321-3/figures/9",
+                "Extended Data Fig. 7 Higher physical activity in more walkability cities is not explained by differences in estimated wear time.": "/articles/s41586-025-09321-3/figures/10",
+                "Methods": "/articles/s41586-025-09321-3#Sec7",
+                "Full size table": "/articles/s41586-025-09321-3/tables/3"
+            }
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationThis file contains Supplementary Figs. 1–7.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09321-3/MediaObjects/41586_2025_9321_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09321-3/MediaObjects/41586_2025_9321_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Countrywide%20natural%20experiment%20links%20built%20environment%20to%20physical%20activity&author=Tim%20Althoff%20et%20al&contentID=10.1038%2Fs41586-025-09321-3&copyright=The%20Author%28s%29&publication=0028-0836&publicationDate=2025-08-13&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleAlthoff, T., Ivanovic, B., King, A.C. et al. Countrywide natural experiment links built environment to physical activity.\n                    Nature 645, 407–413 (2025). https://doi.org/10.1038/s41586-025-09321-3Download citationReceived: 06 June 2024Accepted: 23 June 2025Published: 13 August 2025Issue date: 11 September 2025DOI: https://doi.org/10.1038/s41586-025-09321-3Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41586-025-09321-3?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Countrywide natural experiment links built environment to physical activity",
+                "description": "While physical activity is critical to human health, most people do not meet recommended guidelines1,2. Built environments that are more walkable have the potential to increase activity across the population3–8. However, previous studies on the built environment and physical activity have led to mixed findings, possibly due to methodological limitations such as small cohorts, over-reliance on self-reported measures and cross-sectional designs5,7,9–11. Here we address these limitations by leveraging a large US cohort of smartphone users (N = 2,112,288) to evaluate within-person longitudinal behaviour changes that occurred over 248,266 days of objectively measured physical activity across 7,447 relocations among 1,609 US cities. By analysing the results of this natural experiment, which exposed individuals to differing built environments, we find that increases (decreases) in walkability are associated with significant increases (decreases) in physical activity after relocation. For example, moving from a less walkable (25th percentile) city to a more walkable city (75th percentile) increased walking by 1,100 daily steps, on average. These changes hold across different genders, ages and body mass index values, and are sustained over 3 months. The added activity is predominantly composed of moderate-to-vigorous physical activity, which is linked to an array of associated health benefits1. Evidence against residential self-selection confounding is reported. Our findings provide robust evidence supporting the importance of the built environment in directly improving health-enhancing physical activity and offer potential guidance for public policy activities in this area. By analysing the smartphone data of 2,112,288 participants, in particular observing and comparing the activity of the same individual in two different environments, we find that increases in the walkability of environments result in increases in daily physical activity, providing evidence of the importance of the built environment on physical health.",
+                "datePublished": "2025-08-13T00:00:00Z",
+                "dateModified": "2025-08-13T00:00:00Z",
+                "pageStart": "407",
+                "pageEnd": "413",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s41586-025-09321-3",
+                "keywords": [
+                    "Epidemiology",
+                    "Risk factors",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41586-025-09321-3/MediaObjects/41586_2025_9321_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41586-025-09321-3/MediaObjects/41586_2025_9321_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41586-025-09321-3/MediaObjects/41586_2025_9321_Fig3_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature",
+                    "issn": [
+                        "1476-4687",
+                        "0028-0836"
+                    ],
+                    "volumeNumber": "645",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Tim Althoff",
+                        "url": "http://orcid.org/0000-0003-4793-2289",
+                        "affiliation": [
+                            {
+                                "name": "University of Washington",
+                                "address": {
+                                    "name": "Allen School of Computer Science & Engineering, University of Washington, Seattle, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "althoff@cs.washington.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Boris Ivanovic",
+                        "affiliation": [
+                            {
+                                "name": "NVIDIA Research",
+                                "address": {
+                                    "name": "NVIDIA Research, Santa Clara, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Abby C. King",
+                        "affiliation": [
+                            {
+                                "name": "Stanford University School of Medicine",
+                                "address": {
+                                    "name": "Department of Epidemiology & Population Health, Stanford University School of Medicine, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Stanford University School of Medicine",
+                                "address": {
+                                    "name": "Stanford Prevention Research Center, Department of Medicine, Stanford University School of Medicine, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jennifer L. Hicks",
+                        "affiliation": [
+                            {
+                                "name": "Stanford University",
+                                "address": {
+                                    "name": "Department of Bioengineering, Stanford University, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Scott L. Delp",
+                        "affiliation": [
+                            {
+                                "name": "Stanford University",
+                                "address": {
+                                    "name": "Department of Bioengineering, Stanford University, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Stanford University",
+                                "address": {
+                                    "name": "Department of Mechanical Engineering, Stanford University, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jure Leskovec",
+                        "url": "http://orcid.org/0000-0002-5411-923X",
+                        "affiliation": [
+                            {
+                                "name": "Stanford University",
+                                "address": {
+                                    "name": "Department of Computer Science, Stanford University, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Chan Zuckerberg Biohub",
+                                "address": {
+                                    "name": "Chan Zuckerberg Biohub, San Francisco, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "epidemiology;risk-factors",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41586-025-09321-3"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Tim Althoff",
+                            "Boris Ivanovic",
+                            "Abby C. King",
+                            "Jennifer L. Hicks",
+                            "Scott L. Delp",
+                            "Jure Leskovec"
+                        ],
+                        "publishedAt": 1755043200,
+                        "publishedAtString": "2025-08-13",
+                        "title": "Countrywide natural experiment links built environment to physical activity",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Epidemiology,Risk factors"
+                    },
+                    "journal": {
+                        "pcode": "nature",
+                        "title": "nature",
+                        "volume": "645",
+                        "issue": "8080",
+                        "id": 41586,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Countrywide natural experiment links built environment to physical activity",
+            "dc.source": "Nature 2025 645:8080",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-08-13",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "While physical activity is critical to human health, most people do not meet recommended guidelines1,2. Built environments that are more walkable have the potential to increase activity across the population3–8. However, previous studies on the built environment and physical activity have led to mixed findings, possibly due to methodological limitations such as small cohorts, over-reliance on self-reported measures and cross-sectional designs5,7,9–11. Here we address these limitations by leveraging a large US cohort of smartphone users (N = 2,112,288) to evaluate within-person longitudinal behaviour changes that occurred over 248,266 days of objectively measured physical activity across 7,447 relocations among 1,609 US cities. By analysing the results of this natural experiment, which exposed individuals to differing built environments, we find that increases (decreases) in walkability are associated with significant increases (decreases) in physical activity after relocation. For example, moving from a less walkable (25th percentile) city to a more walkable city (75th percentile) increased walking by 1,100 daily steps, on average. These changes hold across different genders, ages and body mass index values, and are sustained over 3 months. The added activity is predominantly composed of moderate-to-vigorous physical activity, which is linked to an array of associated health benefits1. Evidence against residential self-selection confounding is reported. Our findings provide robust evidence supporting the importance of the built environment in directly improving health-enhancing physical activity and offer potential guidance for public policy activities in this area. By analysing the smartphone data of 2,112,288 participants, in particular observing and comparing the activity of the same individual in two different environments, we find that increases in the walkability of environments result in increases in daily physical activity, providing evidence of the importance of the built environment on physical health.",
+            "dc.identifier": "doi:10.1038/s41586-025-09321-3",
+            "dc.creator": "Leskovec, Jure",
+            "dc.subject": "Risk factors",
+            "prism.issn": "1476-4687",
+            "prism.publicationName": "Nature",
+            "prism.publicationDate": "2025-08-13",
+            "prism.volume": "645",
+            "prism.number": "8080",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "407",
+            "prism.endingPage": "413",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41586-025-09321-3",
+            "prism.doi": "doi:10.1038/s41586-025-09321-3",
+            "citation_pdf_url": "https://www.nature.com/articles/s41586-025-09321-3.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41586-025-09321-3",
+            "citation_journal_title": "Nature",
+            "citation_journal_abbrev": "Nature",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "1476-4687",
+            "citation_title": "Countrywide natural experiment links built environment to physical activity",
+            "citation_volume": "645",
+            "citation_issue": "8080",
+            "citation_publication_date": "2025/09",
+            "citation_online_date": "2025/08/13",
+            "citation_firstpage": "407",
+            "citation_lastpage": "413",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41586-025-09321-3",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41586-025-09321-3&api_key=",
+            "citation_reference": "Bethlehem, J. Applied Survey Methods: A Statistical Perspective Vol. 558 (Wiley, 2009).",
+            "citation_author": "Leskovec, Jure",
+            "citation_author_institution": "Chan Zuckerberg Biohub, San Francisco, USA",
+            "description": "While physical activity is critical to human health, most people do not meet recommended guidelines1,2. Built environments that are more walkable have the potential to increase activity across the population3–8. However, previous studies on the built environment and physical activity have led to mixed findings, possibly due to methodological limitations such as small cohorts, over-reliance on self-reported measures and cross-sectional designs5,7,9–11. Here we address these limitations by leveraging a large US cohort of smartphone users (N = 2,112,288) to evaluate within-person longitudinal behaviour changes that occurred over 248,266 days of objectively measured physical activity across 7,447 relocations among 1,609 US cities. By analysing the results of this natural experiment, which exposed individuals to differing built environments, we find that increases (decreases) in walkability are associated with significant increases (decreases) in physical activity after relocation. For example, moving from a less walkable (25th percentile) city to a more walkable city (75th percentile) increased walking by 1,100 daily steps, on average. These changes hold across different genders, ages and body mass index values, and are sustained over 3 months. The added activity is predominantly composed of moderate-to-vigorous physical activity, which is linked to an array of associated health benefits1. Evidence against residential self-selection confounding is reported. Our findings provide robust evidence supporting the importance of the built environment in directly improving health-enhancing physical activity and offer potential guidance for public policy activities in this area. By analysing the smartphone data of 2,112,288 participants, in particular observing and comparing the activity of the same individual in two different environments, we find that increases in the walkability of environments result in increases in daily physical activity, providing evidence of the importance of the built environment on physical health.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Countrywide natural experiment links built environment to physical activity",
+            "twitter:description": "Nature - By analysing the smartphone data of 2,112,288 participants, in particular observing and comparing the activity of the same individual in two different environments, we find that increases...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-025-09321-3/MediaObjects/41586_2025_9321_Fig1_HTML.png",
+            "DOI": "10.1038/s41586-025-09321-3",
+            "size": "214900",
+            "journal_id": "41586"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41586-025-09321-3",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

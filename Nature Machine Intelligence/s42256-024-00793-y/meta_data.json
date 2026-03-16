@@ -1,0 +1,87 @@
+{
+    "id": "s42256-024-00793-y",
+    "title": "Mitigating allocative tradeoffs and harms in an environmental justice data tool",
+    "journal": "Nature Machine Intelligence",
+    "pdf_link": "https://www.nature.com/articles/s42256-024-00793-y",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Paper-level data deposit from Harvard Dataverse DOI 10.7910/DVN/EVWNC2",
+            "Data_summary": "An archived replication package containing the datasets used in the study workflow to reproduce and audit CalEnviroScreen and to run the funding impact and sensitivity analyses.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: All data used in this work are publicly available online and all datasets used are archived at https://doi.org/10.7910/DVN/EVWNC2 ref. 54. Location: Data availability Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://doi.org/10.7910/DVN/EVWNC2",
+            "ref": [
+                "ref-CR54"
+            ]
+        },
+        {
+            "Data_Name": "CalEnviroScreen 4.0 census-tract dataset",
+            "Data_summary": "Census tract-level environmental exposure and population vulnerability indicators used to compute CalEnviroScreen composite scores and disadvantaged-community designations, including pollution measures and health and socioeconomic variables used for sensitivity analyses and model reproduction.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we used census tract-level data obtained from the current version of CalEnviroScreen version 4.0 implemented in late 2021 consisting of 8,035 observations with 21 variables. Location: Methods Data Confidence: high",
+            "Time_Coverage": "late 2021",
+            "Geographic_Coverage": "United States > California > Census tracts statewide",
+            "URL": "https://oehha.ca.gov/calenviroscreen",
+            "ref": []
+        },
+        {
+            "Data_Name": "CalEnviroScreen 3.0 scores and percentile ranks",
+            "Data_summary": "Census tract-level CalEnviroScreen composite scores and percentile rankings from the earlier CalEnviroScreen version used as the forcing variable and treatment assignment for the regression discontinuity funding impact analysis.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we examined years 2017–2021 of the California Climate Investments funding dataset and used CalEnviroScreen 3.0 scores implemented in 2017. Location: Methods Data Confidence: high",
+            "Time_Coverage": "2017",
+            "Geographic_Coverage": "United States > California > Census tracts statewide",
+            "URL": "https://oehha.ca.gov/calenviroscreen",
+            "ref": []
+        },
+        {
+            "Data_Name": "CDC PLACES dataset",
+            "Data_summary": "Small-area modeled health survey estimates used to add tract-level prevalence variables for multiple conditions and to substitute survey-based respiratory and cardiovascular indicators into alternative CalEnviroScreen model specifications.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we used the PLACES dataset from the Centers for Disease Control and Prevention to include tract-level variables on estimated prevalence for asthma cancer chronic kidney disease and coronary heart disease. Location: Methods Data Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > California > Census tracts",
+            "URL": "https://www.cdc.gov/places/index.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "American Community Survey ACS tract-level demographic data",
+            "Data_summary": "Survey-based socioeconomic and demographic estimates at the census tract level used to measure race and ethnicity composition and poverty and as covariates in causal analyses and subgroup audits.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We obtained demographic information on tract-level race ethnicity from the American Community Survey. Location: Methods Data Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > California > Census tracts",
+            "URL": "https://www.census.gov/programs-surveys/acs/data.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "California Climate Investments CCI funding dataset",
+            "Data_summary": "Administrative records of California Climate Investments funded projects and awarded amounts used to compute total funding allocated per census tract and to estimate the causal effect of CalEnviroScreen disadvantaged-community designation on funding.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we examined years 2017–2021 of the California Climate Investments funding dataset and used CalEnviroScreen 3.0 scores implemented in 2017. Location: Methods Data Confidence: high",
+            "Time_Coverage": "2017-2021",
+            "Geographic_Coverage": "United States > California > Census tracts statewide",
+            "URL": "https://www.caclimateinvestments.ca.gov/cci-data-dashboard",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:57.949182"
+    }
+}

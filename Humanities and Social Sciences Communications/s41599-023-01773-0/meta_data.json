@@ -1,0 +1,85 @@
+{
+    "id": "s41599-023-01773-0",
+    "title": "Has the establishment of green finance reform and innovation pilot zones improved air quality? Evidence from China",
+    "journal": "Humanities and Social Sciences Communications",
+    "pdf_link": "https://www.nature.com/articles/s41599-023-01773-0",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "China City Statistical Yearbook 2015 to 2019",
+            "Data_summary": "Official city-level statistical yearbook tables used to build the panel of prefecture-level city socioeconomic and development indicators used as controls and inputs for derived measures such as industrial structure upgrading and green total factor productivity components.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data is sourced from the China City Statistical Yearbook (2015-2019) and the Database of China Economic Network; Location: Data and methodology > Sample and data sources; Confidence: high",
+            "Time_Coverage": "2015-2019",
+            "Geographic_Coverage": "China > 146 prefecture level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Database of China Economic Network",
+            "Data_summary": "Online economic statistics database used alongside yearbooks to assemble city-level panel data for socioeconomic indicators and other controls used in the DID and PSM-DID models.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data is sourced from the China City Statistical Yearbook (2015-2019) and the Database of China Economic Network; Location: Data and methodology > Sample and data sources; Confidence: high",
+            "Time_Coverage": "2015-2019",
+            "Geographic_Coverage": "China > 146 prefecture level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "China Air Quality Online Monitoring and Analysis Platform history data",
+            "Data_summary": "City-level historical air quality monitoring data used to construct the main outcome Air Quality Index and robustness outcomes including monthly average concentrations of PM2.5, PM10, SO2, CO, NO2 and O3 for each city-month in the panel.",
+            "Category": "Ground-based sensors (air quality, temperature, noise)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The air quality data are obtained through the China Air Quality Online Monitoring and Analysis Platform http://www.aqistudy.cn/historydata/; Location: Data and methodology > Sample and data sources; Confidence: high",
+            "Time_Coverage": "2015-01 to 2019-12",
+            "Geographic_Coverage": "China > 146 prefecture level cities",
+            "URL": "http://www.aqistudy.cn/historydata/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Provincial and city statistical yearbooks monthly average temperature series",
+            "Data_summary": "Monthly average temperature statistics published in various local statistical yearbooks, used as a city-month meteorological control variable in the DID and PSM-DID analyses.",
+            "Category": "City-wide camera networks and meteorological stations",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The monthly average temperatures are mainly from the statistical yearbooks of various provinces and cities; Location: Data and methodology > Sample and data sources; Confidence: high",
+            "Time_Coverage": "2015-01 to 2019-12",
+            "Geographic_Coverage": "China > multiple provinces and cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "rp5.ru World Weather",
+            "Data_summary": "Weather observations database used to supplement missing monthly average temperature values for cities without published monthly temperature statistics, providing the meteorological control variable.",
+            "Category": "City-wide camera networks and meteorological stations",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data of cities that have not published the monthly average temperatures are supplemented by consulting rp5.ru world weather https://rp5.ru/world_weather; Location: Data and methodology > Sample and data sources; Confidence: high",
+            "Time_Coverage": "2015-01 to 2019-12",
+            "Geographic_Coverage": "China > cities with missing temperature series",
+            "URL": "https://rp5.ru/%E4%B8%96%E7%95%8C%E5%A4%A9%E6%B0%94_",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit (from Data Availability)",
+            "Data_summary": "Author-held package of the datasets used and analyzed in the study, including the compiled city panel and associated variables, available upon reasonable request from the corresponding author.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The datasets used and analyzed during the current study are available from the corresponding author on reasonable request; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:38.226602"
+    }
+}

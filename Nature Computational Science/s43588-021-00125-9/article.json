@@ -1,0 +1,876 @@
+{
+    "id": "s43588-021-00125-9",
+    "journal": "Nature Computational Science",
+    "type": "article",
+    "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+    "legal_title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+    "publish_time": "2021-09-22",
+    "pdf_link": "https://www.nature.com/articles/s43588-021-00125-9",
+    "storage_path": "./Articles/Nature Computational Science/2021-article/s43588-021-00125-9/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Understanding the complex interplay between human behavior, disease transmission and non-pharmaceutical interventions during the COVID-19 pandemic could provide valuable insights with which to focus future public health efforts. Cell phone mobility data offer a modern measurement instrument to investigate human mobility and behavior at an unprecedented scale. We investigate aggregated and anonymized mobility data, which measure how populations at the census-block-group geographic scale stayed at home in California, Georgia, Texas and Washington from the beginning of the pandemic. Using manifold learning techniques, we show that a low-dimensional embedding enables the identification of patterns of mobility behavior that align with stay-at-home orders, correlate with socioeconomic factors, cluster geographically, reveal subpopulations that probably migrated out of urban areas and, importantly, link to COVID-19 case counts. The analysis and approach provide local epidemiologists a framework for interpreting mobility data and behavior to inform policy makers’ decision-making aimed at curbing the spread of COVID-19.",
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "The ongoing COVID-19 pandemic has had a devastating impact on mortality1, morbidity2 and economic activity3, leading to increased food insecurity, poverty and socioeconomic inequity2,4,5. During the first year of the pandemic, most public health interventions attempting to arrest or mitigate the spread of the disease caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) were non-pharmaceutical interventions aimed at decreasing transmission by changing people’s behavior. For example, every state in the United States issued mandatory or advisory stay-at-home orders between March and May of 20206. However, characterizing changes in behavior during the COVID-19 pandemic, whether due to adherence to stay-at-home orders, loss of employment or non-pandemic-related factors, is challenging. In this Article, we use smartphone mobility data aggregated by SafeGraph7 to identify the heterogeneous mobility behaviors from March to July of the pandemic in four states and reveal consistent motifs across states, within a state and even within urban centers. We compare these behaviors to the numbers of COVID-19 cases in subsequent months. We believe the approach and insights in the work could be leveraged by epidemiologists and integrated with other surveillance indicators to provide public health officials a holistic recommendation as they decide on interventions such as educational campaigns by geographic area and socioeconomic status.\nThe use of cell phone location data is a relatively new but promising way to quantify human movement. The locations of cell phones can be tracked by service providers or applications installed on smartphones by users, but data that are shared with scientists are typically anonymized and aggregated to protect the privacy of individuals8,9,10. Mobility data offer a unique measurement instrument to link public health statements and related legislative actions taken to reduce population mobility with an actual effect on population behavior. Cell phone mobility data have provided early evidence that these orders were indeed associated with reductions in movement11,12,13,14,15. Moreover, adherence was not uniform and may be associated with factors such as socioeconomic status and political leanings11,12,13,14,15. The keen interest in cell phone mobility data to help inform policy makers during the COVID-19 pandemic has been widely discussed16, with strong emphasis on the challenges facing data ascertainment bias, interpreting the link between mobility and behavior changes, and the lack of a single mathematical framework for analyzing the data8,9. So far, most investigations of mobility data during the COVID-19 pandemic have compared summary statistics from mobility data, such as average cell phone mobility within a region, between regions with different demographics. In this Article, we leverage the mobility data at full geographic and temporal resolution along with recently developed mathematical methods from dynamical systems and machine learning to identify patterns of behavior that are consistent across multiple geographic scales and provide insight into behavioral differences.\nAnalyzing and interpreting high-dimensional mobility time-series is a challenge. Model and dimensionality reduction has a rich history in the analysis of dynamical systems, with early theoretical work on bifurcation analyses enabling the categorization of qualitatively different dynamic regimes17 to the more recent data-driven, equation-free approaches18 enabled by advances in machine learning and pattern analysis19. The standard approach typically involves a linear dimensionality reduction technique, such as singular value decomposition (SVD)20, in conjunction with a statistical clustering model to identify similarities across time-series21. Despite the broad success of this approach, substantial limitations have been identified due to the underlying assumptions associated with SVD and the mismatch with characteristics of data collected from a complex, temporally evolving system. This discrepancy has motivated the development of a diverse set of nonlinear dimensionality reduction techniques for time-series data22. Methods such as diffusion maps and Laplacian eigenmaps, popular in statistical and computational analyses23,24 and contained in a class of machine learning methodologies called ‘manifold learning’, have been utilized by the dynamical systems community to identify nonlinear embeddings of the dynamics directly from observational data from the system22. Success has been demonstrated with these methods using data generated from simulation models25. Here, we leverage these methodologies to identify a lower-dimensional embedding of the mobility time-series data, providing a framework that highlights common mobility behaviors at the census-block-group (CBG) scale, identifies the geographic connectivity of behavior at different spatial scales, and reveals insights into epidemiologically relevant subpopulations.",
+            "cites": [
+                "ref-CR21",
+                "ref-CR19",
+                "ref-CR16",
+                "ref-CR20",
+                "ref-CR9",
+                "ref-CR18",
+                "ref-CR1",
+                "ref-CR24",
+                "ref-CR17",
+                "ref-CR2",
+                "ref-CR7",
+                "ref-CR23",
+                "ref-CR14",
+                "ref-CR11",
+                "ref-CR6",
+                "ref-CR12",
+                "ref-CR10",
+                "ref-CR25",
+                "ref-CR15",
+                "ref-CR8",
+                "ref-CR5",
+                "ref-CR13",
+                "ref-CR4",
+                "ref-CR3",
+                "ref-CR22"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Identifying patterns in CBG stay-at-home behavior\nThe SafeGraph stay-at-home data offer insights into the levels and trends of human mobility at the CBG geographic scale during the 2020 COVID-19 pandemic in the United States (Fig. 1). Nonlinear dimensionality reduction of the time-series data from Washington state revealed a low-dimensional embedding providing insight into the consistency of mobility behavior across CBGs (Fig. 1d). Moreover, the embedding and stay-at-home behaviors for Washington are qualitatively similar to those of Georgia, Texas and California (Fig. 2). The optimal embedding dimension was 14 for all four states, determined by the trustworthiness metric (section ‘Manifold learning and nonlinear dimensionality reduction’ and Supplementary Section 2). A similar low-dimensional structure in the time-series data can be found with a diversity of nonlinear dimensionality reduction methods, including diffusion maps with fixed- and variable-bandwidth kernels that have different underlying assumptions about the data distribution22,26,27 (Supplementary Section 2). By contrast, clustering in the linearly reduced space is highly uncertain (Supplementary Section 1).\nThe low-dimensional embedding provides insight into the similarity of stay-at-home behavior between CBGs. Figure 2 provides a visualization in three embedding dimensions of this coherent structure. Note that, for each state, certain CBG time-series are more similar to each other and the visualization indicates a large density of CBGs along a distinct, tubular data manifold. Fitting a Gaussian mixture model (GMM) to the stay-at-home time-series in the 14-dimensional (14D) embedding space identifies four clusters for California, Texas and Washington and five clusters for Georgia (based on knee-point detection in the Bayesian information criterion (BIC) described in section ‘GMM clustering and uncertainty quantification’). For subsequent analyses, we chose five as the number of clusters for every state due to the optimal clustering for Georgia, comparisons across the four states (Supplementary Table 3) and the geometric structure of the data (described in the next section). Figure 2 illustrates how the clustering model groups CBGs in the embedding space (Fig. 2a), and the average mobility time-series for each cluster (Fig. 2b) highlight the difference in stay-at-home behavior by cluster within a state and also the consistency across all four states. The cluster assignments were robust to model initialization (Supplementary Section 3) and had low associated uncertainty values (Supplementary Section 2). The number of clusters and cluster assignments were optimized according to a standard approach that balances model fit and parsimony (section ‘GMM clustering and uncertainty quantification’), but the number of clusters could be changed depending on a desired level of granularity, or a continuous colormap could be used (Supplementary Section 4).\nOne clear difference between the clusters is their average level of mobility. For example, in Washington, the average staying-at-home level increases from the CBGs in the dark blue cluster (cluster D) to the bright orange cluster (cluster A) (Fig. 1f; representative CBG time-series for each cluster are shown in Figs. 1b and 2). The order of the clusters along the dense data manifold in the embedding space is aligned with their mean staying-at-home fraction (Fig. 2). The average time-series for clusters D through A do not intersect and are aligned in increasing order on the y axis. However, the purple cluster, E, does not follow a similar trend with respect to the dense data manifold, nor the average time-series. For this cluster, we find that the fraction of the devices staying at home increases sharply in May 2020. A similar motif consistently occurs across each state (Fig. 2); cluster E primarily captures outliers from the primary bulk trends that are continuously distributed across clusters A, B, C and D. Those outliers are linked to a variety of important subpopulations, explored in more detail in the section ‘Identifying areas with likely population turnover’. We also find that the CBG clustering and average time-series by cluster also indicate that the change of behavior over time is different across clusters before April (Supplementary Section 6).\n### Geographic relationship of CBGs and mobility patterns\nThe CBGs within each mobility cluster (defined in the previous section) are geographically connected and have consistent patterns across all four states. The second column of Fig. 2 illustrates these broad trends, which are most visually evident in the distinction between urban, peri-urban and rural areas. We found that counties associated with large metropolitan areas had relatively high proportions of clusters A and B, while rural counties had the highest proportions of cluster D (Supplementary Fig. 16). For example, in Washington, the Seattle-area CBGs mostly belong to the bright orange and light orange most-staying-at-home clusters A and B, and the same is true for nearby Bellevue and Redmond. Similarly, in Texas, three large orange regions correspond to Dallas, Houston and Austin. In Georgia, the distinct orange area on the map corresponds to Atlanta, and in California we see orange colors around San Francisco, San Jose and Los Angeles areas. Similarly, blue colors—clusters C and D with lower stay-at-home levels—form continuous regions in rural areas on the state maps. CBGs that are close geographically tend to have similar mobility patterns.\nWithin each state, there is a stark contrast between urban and rural areas (Fig. 2). For example, in Washington, the large metropolitan areas around Seattle and Bellevue are colored orange (clusters A and B), as opposed to larger rural CBGs, which belong to blue clusters (C and D). Large cities like Spokane or Yakima also have dense orange coloring (Fig. 3), suggesting that changes in behavior within urban centers are similar, despite being geographically quite distant from each other. The time-series in Fig. 2c show that urban areas (orange clusters A and B) stay at home substantially more than rural areas (blue clusters C and D). This observation is consistent across all four states.\nThis analysis also identifies heterogeneity within the geographic scale of urban centers and rural areas. For example, in Dallas and Seattle there are urban CBGs that belong to blue clusters C and D, indicating that they stay at home less than the surrounding areas (Fig. 3). Moreover, populous cities such as Seattle, Atlanta, Austin and Dallas have distinct geographic groupings of CBGs for clusters A and B within the urban area (Fig. 3; Supplementary Section 5 describes clustering in Atlanta). Figure 2a clearly presents a smooth transition in the Laplacian eigenmap embedding space between the bright orange cluster A that stays at home the most to the dark blue cluster D that stays at home the least. Remarkably, we observe the same on the geographic map. For example, there is a rough radial pattern around Dallas and Austin: bright orange CBGs densely cover the city center and are replaced by light orange, then light blue and eventually dark blue as the distance from the city center increases (Fig. 3). That is, the transition is quite consistent—it covers the intermediate colors and the stay-at-home level gradually decreases as distance from the city increases, suggesting a more nuanced interpretation about the continuity of behavior across CBGs within urban centers supported by the geometric structure of the data manifold. In the greater Seattle area, the transition is substantially less pronounced, especially moving eastward from downtown. Note that both a large urban area (Bellevue) and suburb (Redmond, the home to Microsoft) exist to the east of Seattle, both with a higher-income population.\nDespite the optimal number of clusters being four or five for each state, relaxing this criterion and allowing for more clusters provides more granular information within and around urban areas while maintaining consistency with the optimal GMM. This also follows the intuition provided by the illustrations of the nonlinear embedding in three dimensions (Fig. 2a); namely, the embedding is broken into finer-grained clusters, enabling higher-resolution comparisons between CBGs. Supplementary Section 4 provides details on altering the number of clusters. Furthermore, a continuous mapping of the data along the dense tubular structure of the data manifold shows the smooth transition across urban, peri-urban, suburban and rural areas (Supplementary Section 4). By contrast, purple cluster E is not wholly on the tubular structure and does not exhibit the same geographically connected characteristics as the other clusters. More detail is provided on this cluster and the possible difference in its subpopulation structure in the section ‘Identifying areas with likely population turnover’.\n### Linking income, population density and behavioral data\nClusters A and B, which, on average, stayed home the most, included the most densely populated CBGs, while clusters C and D included the more sparsely populated ones (Extended Data Fig. 1). High population density is generally an indication of urban populations and low density an indication of rural areas (see the maps in Fig. 2). The CBGs in clusters A and B also had the highest median household incomes (Extended Data Fig. 1). In all states, the median stay-at-home fraction, population density and household income of CBGs had a consistently decreasing trend from clusters A to D, and the Jonckheere–Terpstra test rejects the null hypothesis that these four clusters come from the same distribution of values (P < 0.01). Cluster E did not follow these trends and appeared to cover a wider range of values (Extended Data Fig. 1).\nCluster E has a higher proportion of people who we expect to have high ‘geographic mobility’ (that is, change residences frequently). Using estimates from the 2018 American Community Survey (ACS), CBGs with a low proportion living in the same house in the previous year or a high proportion of renters, people enrolled in undergraduate or professional degree programs, or who are ‘young adults’ (18 to 29 years old) tended to be in cluster E (Fig. 4). In California, the proportion of people with high geographic mobility appears to be higher in cluster A than in cluster B.\nUpon closer investigation of the location of clusters in the city of Seattle, Washington, the spatial distribution of clusters D and E is consistent with the associations described above (Extended Data Fig. 2). The area surrounding the University of Washington, where a large number of undergraduate and graduate students live, is in cluster E, while the university itself is in cluster D (Extended Data Fig. 2, center of map). Cluster E also includes downtown and Lake Union, where a recent influx of young tech workers fueled the development of new apartments. Interestingly, in addition to students and young tech workers in Seattle, cluster E also indicates some very high median income populations on the waterfront of Bellevue and Kirkland that were also highly mobile during this period. Cluster D includes ‘SODO’, the industrial area southwest of downtown, which is less affluent than the populations to the west, east and north.\n### Identifying areas with likely population turnover\nThe available SafeGraph dataset does not allow one to track the movements of individuals, but there are trends consistent with high population turnover. One can track the number of mobile devices that are detected by SafeGraph each day but not in their ‘home’ CBG on a given day, which we call ‘never-near-home’ devices. These devices could be on a trip away from home or they could have moved away entirely.\nIn March, the fraction of never-near-home devices was highest in cluster E (Fig. 5 and Supplementary Fig. 17). On 1 April and again on 1 May, the number of devices never near home drops sharply in cluster E but not in the other clusters. This behavior is consistent with the owners of these devices moving to a new residence and SafeGraph reassigning these devices to the new residence on the first day of a subsequent month. These home locations were updated by SafeGraph at the start of each month until mid-May, when SafeGraph changed its procedure for assigning home locations to devices28. The high proportion who were never near their ‘homes’ in March and April and the sharp drops in these fractions on 1 April and 1 May in cluster E, and to a lesser extent in cluster D, are consistent with this population moving away. In California, cluster A also has a noticeable decline on 1 May (Supplementary Fig. 17), which could indicate a high-income group that is geographically mobile. If a large number of people in a region move away, the devices will appear to be ‘never near home’ because their home locations are out of date. These clusters will appear to be staying at home less than they really are. This batching artifact appears to be resolved in May 2020, and the stay-at-home fraction in cluster E rises relative to the other clusters.\n### Linking population mobility patterns to COVID-19 cases\nThe five mobility clusters had distinct epidemic trajectories in Washington state. COVID testing data for Washington state were available at the resolution of zip codes, which are usually but not always larger than CBGs. To map the CBG-level mobility cluster assignments to zip codes, we assigned each CBG to a zip code as described in Methods, and each zip code was assigned the cluster containing the largest share of its population. In general, the zip codes assigned to clusters A and B were near large cities, while rural zip codes were generally in clusters C and D (Fig. 6a). Cluster E appeared in a few urban zip codes (in Seattle and Spokane) and a handful of rural ones. We found that the clusters with the highest mobility from late February through mid-June, clusters C and D, later had the highest number of cases per capita in Washington state. Clusters A and B, which stayed home the most in the first months of the pandemic, had the fewest cases per capita in the summer and fall waves (Fig. 6b). Cluster E, which includes neighborhoods adjacent to the University of Washington’s main campus, had spikes in cases in late June and September, unlike the other clusters. We should note that we used static estimates from the 2018 ACS to compute the per capita number of COVID cases, which might not be appropriate for cluster E, which had a high proportion of enrolled college students (Fig. 4) and a high proportion who may have moved away early in the pandemic (Fig. 5).",
+            "cites": [
+                "ref-CR28",
+                "ref-CR22",
+                "ref-CR27",
+                "ref-CR26"
+            ],
+            "figures": [
+                "figure-4",
+                "figure-6",
+                "figure-5",
+                "figure-3",
+                "figure-2",
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Our results are consistent with other studies linking demographic characteristics to cell phone mobility data during the 2020 SARS-CoV-2 pandemic. Two recent studies using data from SafeGraph found that mobile devices from areas with higher median household incomes stayed home more than devices from lower-income areas13,15, and this trend occurs in other mobile device datasets11. These studies hypothesize that the relationship between income and mobility is due, in part, to the ability of people with high-paying jobs to work from home. A survey found that about half of adults in Seattle switched to telework because of COVID, with high-income households making the change far more than lower-income households (79.3% in households making more than US$150,000 per year and 23.5% among those making less than US$50,000)29. A recent study using another source of cell phone mobility data found that mobility was reduced more in urban than rural England14, indicating that these trends could generalize beyond the United States.\nSeveral related studies cluster mobility time-series by a single demographic characteristic selected a priori, such as income11,13,15, population density14 or party affiliation12, to demonstrate behavioral differences with respect to that characteristic. Alternately, one could reduce the time-series to a summary statistic, such as average proportion of smartphones that stay at home over a particular time window, and study the relationship between that metric and several demographic covariates. If we had clustered CBGs by average behavior over time, we would still have found that the number of cases was highest among those who stayed home the least, but we would have completely missed the population that migrated early in the pandemic and had distinct outbreaks (Supplementary Fig. 19). Identifying the population that moved early in the pandemic is a direct consequence of using a data-driven, equation-free approach.\nThe clusters of CBGs that stayed home the most during the first few months of the pandemic had the lowest number of cases per capita later in the following summer and fall waves. Broadly, the research community has found defining a consistent temporal relationship between mobility indicators and transmission challenging. For example, early in the pandemic, researchers found an association between mobility indicators and COVID-19 cases30,31, but this did not hold when including data from later in the pandemic32,33. In our approach, we identify populations with differences in mobility early in the pandemic that suggest differences in behavior that persist throughout the pandemic even in the face of changing restrictions and behavioral trends. It is likely, though, that mobility contributes to, but does not fully capture, SARS-CoV-2 risk. Mobility may be a proxy for potential exposure to outside the household, but also reflects demographic and socioeconomic factors that affect the persistence of risk for SARS-CoV-2 susceptibility and transmission. Supplementary Section 8 provides additional discussion on linking mobility to SARS-CoV-2 transmission.\nWe acknowledge several limitations of the mobility data and challenges in linking behavior to demographic variables. SafeGraph aggregates mobility data from many independent sources on the locations of millions of smartphones. These data are obtained from third parties that collect smartphone location and limited information about the devices and their users10. Users could opt out of location tracking, but this might not be practical when using smartphone apps that require this information. Children are particularly vulnerable and potentially unable to make informed decisions about tracking, so US federal law restricts online services from collecting information on children under 13 years old34. Therefore, conclusions drawn from mobility data are limited to older children and adults. The data used in this study are aggregated by CBG and filtered to preserve the privacy of the mobile device owners. It is difficult to ascertain how well a set of mobility data represents the general population8,9. It may also be hard to correct for the fact that different states and segments of the population may have different levels of coverage, including over the course of the pandemic35. This is further complicated by likely gaps in coverage for high-risk populations such as migrant agricultural workers. The sourcing of location data from an undisclosed and evolving set of third parties could introduce biases that would be difficult to detect. However, the trends of similar mobility metrics from the different sources—SafeGraph, PlaceIQ and Google data—are qualitatively similar11 (Supplementary Section 7 provides more detail). In addition, the associations we found between mobility and other factors are consistent with those found in other datasets and are quite plausible11,13.\nIn future work, we anticipate leveraging this framework to integrate similar data sources, such as Facebook and Google’s mobility data, across a much wider geographic scope to minimize the bias of any one source. We studied the fraction of mobile devices that stayed at home each day, but this is just one metric than can be derived from the mobility data. Other measures, such as the mean length of time spent outside the home, the distance traveled from the home, or even the number of trips to stores, could provide additional insight into the population’s response to the pandemic. The demographic data in this study was from the 2018 American Community Survey, which we believe generally reflects the population in 2020 but might not accurately characterize the demographics of the most rapidly changing areas. We cannot establish the direct cause of the differential reductions in mobility using these data. We use demographic and socioeconomic variables at the census block group level, which could lead us to ecological fallacies, and many of these variables are tightly linked, thus, disentangling their effects is not straightforward and could be counterproductive.\nDespite these challenges, population mobility data and connections to behavior can complement other surveillance data to inform public health policy makers. Population behavior is a key component to understanding disease transmission dynamics, and mobility data and the methods contained in this Article help quantify population behavior and the associated COVID-19 epidemic trajectories during the pandemic. State and local epidemiologists can use this tool to integrate mobility insights with other pandemic surveillance indicators to help assess the impacts of policy by geographic regions and distill these data and results into recommendations for policy makers. We have also demonstrated that the data, analyses and setting-specific information can provide epidemiologically relevant insights such as those uncovered around urban migration events. In addition, our framework could be useful beyond the current COVID-19 pandemic where understanding human mobility and behavior would help optimize interventions for natural disasters, seasonal movements or even a new pandemic. We believe the research in the Article will provide insights for epidemiologists and policy makers as they consider more modern, optimized and targeted intervention strategies in public health.",
+            "cites": [
+                "ref-CR14",
+                "ref-CR8",
+                "ref-CR35",
+                "ref-CR11",
+                "ref-CR33",
+                "ref-CR34",
+                "ref-CR30",
+                "ref-CR13",
+                "ref-CR32",
+                "ref-CR31",
+                "ref-CR12",
+                "ref-CR10",
+                "ref-CR15",
+                "ref-CR9",
+                "ref-CR29"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### SafeGraph mobility data\nWe obtained mobility data from SafeGraph. SafeGraph aggregates mobile device Global Positioning System data from various sources and produces anonymized datasets aggregated at the CBG level. In this study, we estimate the number of people who stay at home each day by dividing the number of mobile devices that do not leave their homes by the total number of devices in each CBG (that is, completely_home_device_count divided by the device_count) (Supplementary Fig. 20)7. We used data covering 117 days of mobility, starting from 23 February 2020. Figure 1b illustrates this daily stay-at-home fraction for five CBGs.\nSafeGraph defines a person’s ‘home’ to be the location where the mobile device is detected most at night (from 18:00 to 7:00) over a six-week period28. Location is defined at the Geohash-7 level (~153 m by 153 m). If a person spends enough time in a new location, that new location can become the device’s ‘home’. We use the most recently released versions of the SafeGraph social distancing data, which is version 2.0 (‘v2’) for dates before 10 May 2020 and version 2.1 (‘v2.1’) for later dates28. With v2.1, SafeGraph began using ‘rolling windows’ to assign the home census block group of devices instead of batch-updating only at the first of each month.\nWe define the daily proportion of devices seen near their homes to be the number of devices in each CBG detected in their home CBG (destination_cbg = origin_census_block_group) divided by the number of devices associated with the CBG (device_count). The proportion of devices that are only detected away from their homes each day is 1 minus this proportion; see Supplementary Fig. 18 for an example of this metric from the 2020 wildfires in Oregon.\n### Census and geographic data\nWe obtained US population data from the 2018 American Community Survey (ACS) product of the US Census Bureau, accessed using the R package tidycensus36. We used table B01001 for total population size and population by age estimates by CBG, table B19013 for median household income, table B14002 for the number currently enrolled in college, table B25008 for renter- versus owner-occupied housing units and tables B07201, B07202 and B07203 for ‘geographic mobility’ (living in the same house as last year). We computed a CBG’s population density by dividing the 2018 population estimate by the land area of the CBG as reported by the cartographic boundary files.\nThe US Census provides cartographic boundary files, which define simplified shapes of geographic entities designed for plotting. The detailed map of Seattle was generated using ESRI’s World Topographic Map37 obtained using R’s OpenStreetMap package38. To map CBGs to zip code tabulation area (ZCTA), we assigned each CBG to the ZCTA that contained the largest portion of its geographic area.\n### COVID-19 test and case data\nData on COVID tests in Washington state were provided by Washington state Department of Health through the Washington Disease Reporting System (WDRS). Data were aggregated by zip code and specimen collection date. We use the WDRS test data compiled on 16 December 2020.\n### Manifold learning and nonlinear dimensionality reduction\nLaplacian eigenmaps are a nonlinear manifold learning method that can identify a low-dimensional embedding that optimally preserves local structure of a high-dimensional data manifold24. Using the SafeGraph time-series data (section ‘SafeGraph mobility data’), we construct a mobility data matrix for each state. Each state’s data matrix has 117 columns (days of mobility data), but a different number of rows depending on the number of census block groups (Supplementary Table 3). Figure 1c illustrates the aggregation of mobility time-series into a data matrix for Washington state. To construct an m-dimensional embedding, the method uses m eigenvectors of the nearest-neighbors graph Laplacian corresponding to the smallest non-zero eigenvalues. The resulting embedding is optimal in the sense that ‘close’ data points on the original manifold are represented by points that are close in the m-dimensional Euclidean embedding space24. We also investigated a wide variety of other nonlinear dimensionality reduction techniques (Supplementary Section 2). Most notably, we also investigated diffusion maps, which are a generalization of Laplacian Eigenmaps that do not assume the underlying data distribution is uniform22; similarly, we also explored recently developed extensions with variable-bandwidth kernels, which do not rely on the underlying manifold being compact26,27 (Supplementary Section 2). The Laplacian Eigenmaps algorithm was implemented using the SpectralEmbedding function from the sklearn.manifold module of the scikit-learn package39 in Python 3. In this work, we used 50 neighbors for the n_neighbors parameter. Varying the number of neighbors between 20 and 50 did not notably change the Laplacian Eigenmap embedding for Washington state (Supplementary Section 2).\nThe optimal effective dimensionality of the embedding was identified using the trustworthiness metric40, which captures the extent to which a dimensionality reduction technique retains the local structure of the original data manifold from the higher-dimensional space. Trustworthiness was computed as a function of the Laplacian Eigenmap embedding dimensionality; a knee-point detection algorithm was then used to identify the optimal number of dimensions. Supplementary Section 2 provides a detailed description of this analysis for each state. To implement the trustworthiness metric, we used the function trustworthiness from sklearn.manifold of the scikit-learn package39 in Python 3 with default parameters (five neighbors, to capture the local structure). For the knee-point detection, we used the Kneedle algorithm implemented in the kneed package41. The computational codes to generate all results and figures in this Article are publicly available42.\n### GMM clustering and uncertainty quantification\nTo interpret the low-dimensional structure revealed by the manifold learning, we apply GMM clustering43. The GMM is a latent variable model that assumes that the data have subpopulations or clusters that follow Gaussian distributions with parameters governing the centroid location and covariance structure of each cluster. GMMs were implemented using the mclust44 package of R (v4.045). We leverage the probabilistic formulation of the GMM model as a natural way to quantify uncertainty of the cluster assignment. More specifically, the Gaussian mixture model assumes that the data have K subpopulations that follow Gaussian distributions with parameters μk and Σk, respectively and that a latent discrete variable zi ∈ {1, …, K} controls from which subpopulation a data point xi comes43. If π corresponds to the probability mass function of zi, then the GMM model has the form\nwhere θ stands for the set of all parameters of the model and \\({{{\\mathcal{N}}}}({x}_{i}| {\\mu }_{k},{{{\\varSigma }}}_{k})\\) is the probability density function of a normal distribution. We note that GMM could be seen as a generalization of the famous K-means clustering algorithm46.\nThe probabilistic formulation of the GMM model provides a natural way to quantify uncertainty of the cluster assignment. Using Bayes’ theorem, the posterior probability P(zi = k∣xi, θ) that point xi belongs to cluster k can be computed as follows:\nThen, the amount of uncertainty ϵi in the cluster assignment of point xi could be computed as\nWe note that the above formula assumes that the cluster assignment is computed as\nWe used BIC to identify the optimal number of GMM components44,47,48. BIC is based on a penalized form of the log-likelihood. As the likelihood increases with the addition of more components, a penalty term for the number of estimated parameters is subtracted from the log-likelihood44. To find the optimal number of GMM components, we applied knee-point detection to the BIC curve for each state (Supplementary Fig. 9). Note that in the mclust implementation, higher BIC values correspond to better models. The optimal number of clusters turned out to be four for Washington, Texas and California and five for Georgia. We used five clusters for every state in the main text for consistency across the states and to leverage optimal results for Georgia.\n### Statistical testing\nTo test the difference between clusters in the speed at which CBGs increased their stay-at-home behavior, we used the Kolmogorov–Smirnov49,50 test as implemented in the kstest function of the scipy.stats package in Python 3; here, we assume these speeds are drawn from a normal distribution. To determine the significance of trends of covariates associated with CBGs in clusters identified by the GMM, we used jonckheere.test from the clinfun package51 in R using 1,000 permutations and assuming decreasing trends from cluster A to cluster D (Extended Data Fig. 1). The Jonckheere–Terpstra test’s null hypothesis is that covariate values are from the same distribution across clusters and the alternate is that the median covariate values are in an a priori order (that is, are increasing or decreasing from cluster A to cluster D).",
+            "cites": [
+                "ref-CR37",
+                "ref-CR44",
+                "ref-CR43",
+                "ref-CR36",
+                "ref-CR24",
+                "ref-CR39",
+                "ref-CR48",
+                "ref-CR47",
+                "ref-CR51",
+                "ref-CR26",
+                "ref-CR40",
+                "ref-CR7",
+                "ref-CR28",
+                "ref-CR45",
+                "ref-CR49",
+                "ref-CR50",
+                "ref-CR42",
+                "ref-CR46",
+                "ref-CR27",
+                "ref-CR38",
+                "ref-CR22",
+                "ref-CR41"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Overview of the analysis workflow for mobility data.",
+            "figure-caption": "a, CBG borders shown on the map of Washington state. Five example CBGs are highlighted by five different colors on the map. b, The stay-at-home time-series from SafeGraph data are plotted for the five CBGs (the CBG Federal Information Processing codes are shown above each plot). c, All CBG SafeGraph time-series are aggregated in a matrix form. d, Diffusion maps are applied to the data matrix. All of the CBG time-series are represented as points in the first three dimensions of a 14D Laplacian eigenmaps embedding. The colors correspond to a five-cluster (A, B, C, D and E) GMM model applied to the data in the 14D embedding space. The larger dots represent the same example CBGs from a and b. e, Each GMM cluster of CBGs is plotted on the Washington map, with each color representing a different cluster. f, The average mobility time-series plotted for each cluster.Source data",
+            "figure-link": "https://www.nature.com/natcomputsci/articles/s43588-021-00125-9/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Clustering results are consistent across four states.",
+            "figure-caption": "a, 3D Laplacian eigenmap visualization of the data manifold for each state. b, Mobility clusters (A, B, C, D, E), by color, for each state. c, Average mobility time-series for each cluster. Clusters are highlighted by color. Clustering was done in a 14D (optimal) embedding space.Source data",
+            "figure-link": "https://www.nature.com/natcomputsci/articles/s43588-021-00125-9/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Mobility clusters in metropolitan areas.",
+            "figure-caption": "a, Clusters in Washington state and selected urban areas. b, Clusters in the state of Texas and selected urban areas.Source data",
+            "figure-link": "https://www.nature.com/natcomputsci/articles/s43588-021-00125-9/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Proportions of CBGs in each cluster by population characteristics associated with geographic mobility.",
+            "figure-caption": "The fraction of a CBG’s population associated with the characteristic is plotted on the x axis. CBGs are partitioned into 10 equally spaced bins, defined by the proportion of each CBG’s population having the characteristic in 10% increments. The numbers of CBGs belonging to each bin are printed along the top of each panel. The proportion of CBGs in each cluster is plotted as vertically stacked bars for each bin (with cluster A in dark orange on the bottom through cluster E in purple on the top). Note that some bins contain only a handful of CBGs, so specific proportions should be interpreted with caution.Source data",
+            "figure-link": "https://www.nature.com/natcomputsci/articles/s43588-021-00125-9/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: The fraction of devices that are only away from their homes each day.",
+            "figure-caption": "The black curves are medians and the shaded areas are interquartile ranges (the 25th to 75th percentile of ‘percent only away’ observed in CBGs on a given day) for the CBGs in each cluster in Washington state each day. The total number of points in each mobility cluster is provided in Supplementary Table 3.",
+            "figure-link": "https://www.nature.com/natcomputsci/articles/s43588-021-00125-9/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: COVID-19 cases by zip code and mobility cluster.",
+            "figure-caption": "a, Map of mobility clusters associated with the zip codes of Washington state. The zip codes were assigned to clusters based on the clusters of the CBGs that comprised them. b, The daily number of daily COVID-19 cases (that is, SARS-CoV-2 positive tests) per 100,000 population in 2020 smoothed using a seven-day rolling window. The gray region from late February through mid-June indicate the days of mobility data used for the analysis.",
+            "figure-link": "https://www.nature.com/natcomputsci/articles/s43588-021-00125-9/figures/6"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Weekly Operational Update on COVID-19—9 October 2020 (World Health Organization, 2020); https://www.who.int/publications/m/item/weekly-update-on-covid-19-9-october-2020",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Wang, M. L. et al. Addressing inequities in COVID-19 morbidity and mortality: research and policy recommendations. Transl. Behav. Med. 10, 516–519 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Ftbm%2Fibaa055",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Addressing%20inequities%20in%20COVID-19%20morbidity%20and%20mortality%3A%20research%20and%20policy%20recommendations&journal=Transl.%20Behav.%20Med.&doi=10.1093%2Ftbm%2Fibaa055&volume=10&pages=516-519&publication_year=2020&author=Wang%2CML"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Fernandes, N. Economic Effects of Coronavirus Outbreak (COVID-19) on the World Economy, working paper no. WP-1240-E (IESE Business School, 2020); https://ssrn.com/abstract=3557504",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Nicola, M. et al. The socio-economic implications of the coronavirus and COVID-19 pandemic: a review. Int. J. Surg. 78, 185–193 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ijsu.2020.04.018",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20socio-economic%20implications%20of%20the%20coronavirus%20and%20COVID-19%20pandemic%3A%20a%20review&journal=Int.%20J.%20Surg.&doi=10.1016%2Fj.ijsu.2020.04.018&volume=78&pages=185-193&publication_year=2020&author=Nicola%2CM"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Clouston, S. A., Natale, G. & Link, B. G. Socioeconomic inequalities in the spread of Coronavirus-19 in the United States: a examination of the emergence of social inequalities. Social Sci. Med. 268, 113554 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.socscimed.2020.113554",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Socioeconomic%20inequalities%20in%20the%20spread%20of%20Coronavirus-19%20in%20the%20United%20States%3A%20a%20examination%20of%20the%20emergence%20of%20social%20inequalities&journal=Social%20Sci.%20Med.&doi=10.1016%2Fj.socscimed.2020.113554&volume=268&publication_year=2021&author=Clouston%2CSA&author=Natale%2CG&author=Link%2CBG"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Moreland, A. et al. Timing of state and territorial COVID-19 stay-at-home orders and changes in population movement—United States, March 1–May 31, 2020. MMWR Morb. Mortal. Wkly Rep. 69, 1198–1203 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.15585%2Fmmwr.mm6935a2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Timing%20of%20state%20and%20territorial%20COVID-19%20stay-at-home%20orders%20and%20changes%20in%20population%20movement%E2%80%94United%20States%2C%20March%201%E2%80%93May%2031%2C%202020&journal=MMWR%20Morb.%20Mortal.%20Wkly%20Rep.&doi=10.15585%2Fmmwr.mm6935a2&volume=69&pages=1198-1203&publication_year=2020&author=Moreland%2CA"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Data Analysis Methodology for the SafeGraph Stay-at-Home Index (SafeGraph, 2020); https://docs.google.com/document/d/1k_9LGQn95P5gHsSeuBdzgtEWGGCmzXdcOkcphWi0Cas/edit?usp=sharing",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Kishore, N. et al. Measuring mobility to monitor travel and physical distancing interventions: a common framework for mobile phone data analysis. Lancet Digit. Health 2, e622–e628 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2589-7500%2820%2930193-X",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20mobility%20to%20monitor%20travel%20and%20physical%20distancing%20interventions%3A%20a%20common%20framework%20for%20mobile%20phone%20data%20analysis&journal=Lancet%20Digit.%20Health&doi=10.1016%2FS2589-7500%2820%2930193-X&volume=2&pages=e622-e628&publication_year=2020&author=Kishore%2CN"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Grantz, K. H. et al. The use of mobile phone data to inform analysis of COVID-19 pandemic epidemiology. Nat. Commun. 11, 4961 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-020-18190-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20use%20of%20mobile%20phone%20data%20to%20inform%20analysis%20of%20COVID-19%20pandemic%20epidemiology&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-020-18190-5&volume=11&publication_year=2020&author=Grantz%2CKH"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Privacy Policy (SafeGraph, accessed 18 May 2021); https://www.safegraph.com/privacy-policy",
+            "links": {}
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Weill, J. A., Stigler, M., Deschenes, O. & Springborn, M. R. Social distancing responses to COVID-19 emergency declarations strongly differentiated by income. Proc. Natl Acad. Sci. USA 117, 19658–19660 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2009412117",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20distancing%20responses%20to%20COVID-19%20emergency%20declarations%20strongly%20differentiated%20by%20income&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2009412117&volume=117&pages=19658-19660&publication_year=2020&author=Weill%2CJA&author=Stigler%2CM&author=Deschenes%2CO&author=Springborn%2CMR"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Allcott, H. et al. Polarization and public health: partisan differences in social distancing during the coronavirus pandemic. J. Public Econ. 191, 104254 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jpubeco.2020.104254",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Polarization%20and%20public%20health%3A%20partisan%20differences%20in%20social%20distancing%20during%20the%20coronavirus%20pandemic&journal=J.%20Public%20Econ.&doi=10.1016%2Fj.jpubeco.2020.104254&volume=191&publication_year=2020&author=Allcott%2CH"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Huang, X. et al. Time-series clustering for home dwell time during COVID-19: what can we learn from it? Int. J. Geo-Inf. 9, 675 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijgi9110675",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Time-series%20clustering%20for%20home%20dwell%20time%20during%20COVID-19%3A%20what%20can%20we%20learn%20from%20it%3F&journal=Int.%20J.%20Geo-Inf.&doi=10.3390%2Fijgi9110675&volume=9&publication_year=2020&author=Huang%2CX"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Jeffrey, B. et al. Anonymised and aggregated crowd level mobility data from mobile phones suggests that initial compliance with COVID-19 social distancing interventions was high and geographically consistent across the UK. Wellcome Open Res. 5, 170 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.12688%2Fwellcomeopenres.15997.1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Anonymised%20and%20aggregated%20crowd%20level%20mobility%20data%20from%20mobile%20phones%20suggests%20that%20initial%20compliance%20with%20COVID-19%20social%20distancing%20interventions%20was%20high%20and%20geographically%20consistent%20across%20the%20UK&journal=Wellcome%20Open%20Res.&doi=10.12688%2Fwellcomeopenres.15997.1&volume=5&publication_year=2020&author=Jeffrey%2CB"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Jay, J. et al. Neighbourhood income and physical distancing during the COVID-19 pandemic in the United States. Nat. Hum. Behav. 4, 1294–1302 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-020-00998-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighbourhood%20income%20and%20physical%20distancing%20during%20the%20COVID-19%20pandemic%20in%20the%20United%20States&journal=Nat.%20Hum.%20Behav.&doi=10.1038%2Fs41562-020-00998-2&volume=4&pages=1294-1302&publication_year=2020&author=Jay%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Buckee, C. O. et al. Aggregated mobility data could help fight COVID-19. Science 368, 145–146 (2020).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Aggregated%20mobility%20data%20could%20help%20fight%20COVID-19&journal=Science&volume=368&pages=145-146&publication_year=2020&author=Buckee%2CCO"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Guckenheimer, J. & Holmes, P. Nonlinear Oscillations, Dynamical Systems and Bifurcations of Vector Fields (Springer, 1983).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Proctor, J. L., Brunton, S. L., Brunton, B. W. & Kutz, J. Exploiting sparsity and equation-free architectures in complex systems. Eur. Phys. J. Special Topics 223, 2665–2684 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1140%2Fepjst%2Fe2014-02285-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploiting%20sparsity%20and%20equation-free%20architectures%20in%20complex%20systems&journal=Eur.%20Phys.%20J.%20Special%20Topics&doi=10.1140%2Fepjst%2Fe2014-02285-8&volume=223&pages=2665-2684&publication_year=2014&author=Proctor%2CJL&author=Brunton%2CSL&author=Brunton%2CBW&author=Kutz%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Brunton, S. L. & Kutz, J. N. Data-Driven Science and Engineering: Machine Learning, Dynamical Systems and Control (Cambridge Univ. Press, 2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Eckart, C. & Young, G. The approximation of one matrix by another of lower rank. Psychometrika 1, 211–218 (1936).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/BF02288367",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20approximation%20of%20one%20matrix%20by%20another%20of%20lower%20rank&journal=Psychometrika&doi=10.1007%2FBF02288367&volume=1&pages=211-218&publication_year=1936&author=Eckart%2CC&author=Young%2CG"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Kutz, J. N. Data-Driven Modeling and Scientific Computation: Methods for Complex Systems and Big Data (Oxford Univ. Press, 2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Coifman, R. R., Kevrekidis, I. G., Lafon, S., Maggioni, M. & Nadler, B. Diffusion maps, reduction coordinates and low dimensional representation of stochastic systems. Multiscale Model. Simulation 7, 842–864 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1137%2F070696325",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2443014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Diffusion%20maps%2C%20reduction%20coordinates%20and%20low%20dimensional%20representation%20of%20stochastic%20systems&journal=Multiscale%20Model.%20Simulation&doi=10.1137%2F070696325&volume=7&pages=842-864&publication_year=2008&author=Coifman%2CRR&author=Kevrekidis%2CIG&author=Lafon%2CS&author=Maggioni%2CM&author=Nadler%2CB"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Coifman, R. R. & Lafon, S. Diffusion maps. Appl. Comput. Harmonic Anal. 21, 5–30 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.acha.2006.04.006",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2238665",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Diffusion%20maps&journal=Appl.%20Comput.%20Harmonic%20Anal.&doi=10.1016%2Fj.acha.2006.04.006&volume=21&pages=5-30&publication_year=2006&author=Coifman%2CRR&author=Lafon%2CS"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Belkin, M. & Niyogi, P. Laplacian eigenmaps for dimensionality reduction and data representation. Neural Comput. 15, 1373–1396 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.1162%2F089976603321780317",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Laplacian%20eigenmaps%20for%20dimensionality%20reduction%20and%20data%20representation&journal=Neural%20Comput.&doi=10.1162%2F089976603321780317&volume=15&pages=1373-1396&publication_year=2003&author=Belkin%2CM&author=Niyogi%2CP"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Yair, O., Talmon, R., Coifman, R. R. & Kevrekidis, I. G. Reconstruction of normal forms by learning informed observation geometries from data. Proc. Natl Acad. Sci. USA 114, E7865–E7874 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1620045114",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=3708297",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Reconstruction%20of%20normal%20forms%20by%20learning%20informed%20observation%20geometries%20from%20data&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1620045114&volume=114&pages=E7865-E7874&publication_year=2017&author=Yair%2CO&author=Talmon%2CR&author=Coifman%2CRR&author=Kevrekidis%2CIG"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Berry, T. & Sauer, T. Local kernels and the geometric structure of data. Appl. Comput. Harmonic Anal. 40, 439–469 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.acha.2015.03.002",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=3473142",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local%20kernels%20and%20the%20geometric%20structure%20of%20data&journal=Appl.%20Comput.%20Harmonic%20Anal.&doi=10.1016%2Fj.acha.2015.03.002&volume=40&pages=439-469&publication_year=2016&author=Berry%2CT&author=Sauer%2CT"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Berry, T. & Harlim, J. Variable bandwidth diffusion kernels. Appl. Comput. Harmonic Anal. 40, 68–96 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.acha.2015.01.001",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=3431485",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Variable%20bandwidth%20diffusion%20kernels&journal=Appl.%20Comput.%20Harmonic%20Anal.&doi=10.1016%2Fj.acha.2015.01.001&volume=40&pages=68-96&publication_year=2016&author=Berry%2CT&author=Harlim%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "SafeGraph Common Nighttime Location Algorithm (SafeGraph, accessed 1 October 2020); https://docs.safegraph.com/docs/places-manual#section-safe-graph-common-nighttime-location-algorithm",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Balk, G. Nearly half of Seattle-area adults working from home because of COVID—here’s who is and isn’t hitting the road. The Seattle Times (4 October 2020); https://www.seattletimes.com/seattle-news/data/nearly-half-of-seattle-area-adults-working-from-home-because-of-pandemic/",
+            "links": {}
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Rubin, D. et al. Association of social distancing, population density and temperature with the instantaneous reproduction number of SARS-CoV-2 in counties across the United States. JAMA Netw. Open 3, e2016099 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjamanetworkopen.2020.16099",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Association%20of%20social%20distancing%2C%20population%20density%20and%20temperature%20with%20the%20instantaneous%20reproduction%20number%20of%20SARS-CoV-2%20in%20counties%20across%20the%20United%20States&journal=JAMA%20Netw.%20Open&doi=10.1001%2Fjamanetworkopen.2020.16099&volume=3&publication_year=2020&author=Rubin%2CD"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Badr, H. S. et al. Association between mobility patterns and COVID-19 transmission in the USA: a mathematical modelling study. Lancet Infect. Dis. 20, 1247–1254 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS1473-3099%2820%2930553-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Association%20between%20mobility%20patterns%20and%20COVID-19%20transmission%20in%20the%20USA%3A%20a%20mathematical%20modelling%20study&journal=Lancet%20Infect.%20Dis.&doi=10.1016%2FS1473-3099%2820%2930553-3&volume=20&pages=1247-1254&publication_year=2020&author=Badr%2CHS"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Gatalo, O., Tseng, K., Hamilton, A., Lin, G. & Klein, E. Associations between phone mobility data and COVID-19 cases. Lancet Infect. Dis. 21, e111 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS1473-3099%2820%2930725-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Associations%20between%20phone%20mobility%20data%20and%20COVID-19%20cases&journal=Lancet%20Infect.%20Dis.&doi=10.1016%2FS1473-3099%2820%2930725-8&volume=21&publication_year=2021&author=Gatalo%2CO&author=Tseng%2CK&author=Hamilton%2CA&author=Lin%2CG&author=Klein%2CE"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Badr, H. S. & Gardner, L. M. Limitations of using mobile phone data to model COVID-19 transmission in the USA. Lancet Infect. Dis. 21, e113 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS1473-3099%2820%2930861-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Limitations%20of%20using%20mobile%20phone%20data%20to%20model%20COVID-19%20transmission%20in%20the%20USA&journal=Lancet%20Infect.%20Dis.&doi=10.1016%2FS1473-3099%2820%2930861-6&volume=21&publication_year=2021&author=Badr%2CHS&author=Gardner%2CLM"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Children’s Online Privacy Protection Rule (‘COPPA’) (Federal Trade Commission, accessed 18 May 2021); https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule",
+            "links": {}
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Squire, R. F. What About Bias in the SafeGraph Dataset? (SafeGraph, 2019); https://www.safegraph.com/blog/what-about-bias-in-the-safegraph-dataset",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Walker, K. tidycensus: Load US Census Boundary and Attribute Data as ‘tidyverse’ and ‘sf’-Ready Data Frames, R package version 0.9.9.2 (CRAN, 2020); https://CRAN.R-project.org/package=tidycensus",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "World Topographic Map (Esri, accessed 9 October 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Fellows, I. OpenStreetMap: Access to Open Street Map Raster Images, R package version 0.3.4 (CRAN, 2019); https://CRAN.R-project.org/package=OpenStreetMap",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Pedregosa, F. et al. Scikit-learn: machine learning in Python. J. Mach. Learn. Res. 12, 2825–2830 (2011).",
+            "links": {
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2854348",
+                "MATH": "http://www.emis.de/MATH-item?1280.68189",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scikit-learn%3A%20machine%20learning%20in%20Python&journal=J.%20Mach.%20Learn.%20Res.&volume=12&pages=2825-2830&publication_year=2011&author=Pedregosa%2CF"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Venna, J. & Kaski, S. Neighborhood preservation in nonlinear projection methods: an experimental study. In International Conference on Artificial Neural Networks (eds Dorffner, G. et al.) 485–491 (Springer, 2001).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Satopaa, V., Albrecht, J., Irwin, D. & Raghavan, B. Finding a ‘kneedle’ in a haystack: detecting knee points in system behavior. In 2011 31st International Conference on Distributed Computing Systems Workshops 166–171 (IEEE, 2011).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Levin, R. Covid Mobility and Behavior (GitHub, 2020); https://github.com/InstituteforDiseaseModeling/covid-mobility-and-behavior",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Murphy, K. P. Machine Learning: a Probabilistic Perspective (MIT Press, 2012).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Scrucca, L., Fop, M., Murphy, T. B. & Raftery, A. E. mclust 5: clustering, classification and density estimation using Gaussian finite mixture models. R Journal 8, 289–317 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.32614%2FRJ-2016-021",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=mclust%205%3A%20clustering%2C%20classification%20and%20density%20estimation%20using%20Gaussian%20finite%20mixture%20models&journal=R%20Journal&doi=10.32614%2FRJ-2016-021&volume=8&pages=289-317&publication_year=2016&author=Scrucca%2CL&author=Fop%2CM&author=Murphy%2CTB&author=Raftery%2CAE"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "R Core Team. R: A Language and Environment for Statistical Computing(R Foundation for Statistical Computing, 2020); https://www.R-project.org",
+            "links": {}
+        },
+        {
+            "id": "ref-CR46",
+            "content": "MacQueen, J. et al. Some methods for classification and analysis of multivariate observations. In Proc. Fifth Berkeley Symposium on Mathematical Statistics and Probability Vol. 1, 281–297 (Univ. California Press, 1967).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Schwarz, G. et al. Estimating the dimension of a model. Ann. Stat. 6, 461–464 (1978).",
+            "links": {
+                "Article": "https://doi.org/10.1214%2Faos%2F1176344136",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=468014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20the%20dimension%20of%20a%20model&journal=Ann.%20Stat.&doi=10.1214%2Faos%2F1176344136&volume=6&pages=461-464&publication_year=1978&author=Schwarz%2CG"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Fraley, C. & Raftery, A. E. How many clusters? Which clustering method? Answers via model-based cluster analysis. Comput. J. 41, 578–588 (1998).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fcomjnl%2F41.8.578",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20many%20clusters%3F%20Which%20clustering%20method%3F%20Answers%20via%20model-based%20cluster%20analysis&journal=Comput.%20J.&doi=10.1093%2Fcomjnl%2F41.8.578&volume=41&pages=578-588&publication_year=1998&author=Fraley%2CC&author=Raftery%2CAE"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Kolmogorov, A. Sulla determinazione empirica di una legge di distribuzione. Inst. Ital. Attuari Giorn. 4, 83–91 (1933).",
+            "links": {
+                "MATH": "http://www.emis.de/MATH-item?59.1166.03",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sulla%20determinazione%20empirica%20di%20una%20legge%20di%20distribuzione&journal=Inst.%20Ital.%20Attuari%20Giorn.&volume=4&pages=83-91&publication_year=1933&author=Kolmogorov%2CA"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Smirnov, N. V. Estimate of deviation between empirical distribution functions in two independent samples. Bull. Moscow Univ. 2, 3–16 (1939).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimate%20of%20deviation%20between%20empirical%20distribution%20functions%20in%20two%20independent%20samples&journal=Bull.%20Moscow%20Univ.&volume=2&pages=3-16&publication_year=1939&author=Smirnov%2CNV"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Seshan, V. E. clinfun: Clinical Trial Design and Data Analysis Functions, R package version 1.0.15 (CRAN, 2018); https://CRAN.R-project.org/package=clinfun",
+            "links": {}
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Levin, R., Chao, D. L., Wenger, E. A. & Proctor, J. L. Insights into Population Behavior During the COVID-19 Pandemic from Cell Phone Mobility Data and Manifold Learning (Zenodo, 2021); https://doi.org/10.5281/zenodo.5154255",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The SafeGraph mobility data used in our analysis can be obtained free of charge for non-commercial use by joining their COVID-19 Data Consortium at https://www.safegraph.com/covid-19-data-consortium. US population data from the 2018 American Community Survey (ACS) product of the US Census Bureau are publicly available; we accessed the data using the R package for the 2018 data tidycensus36. The 2019 shapefiles for both CBGs and ZCTAs are publicly available and were downloaded from the US Census Bureau website https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html. COVID-19 testing data were collected as part of routine public health surveillance by the Washington State Department of Health through the Washington Disease Reporting System (WDRS; contact I. Corbridge (ian.corbridge@doh.wa.gov)), for researchers who meet the criteria for access to confidential data.",
+            "links": {
+                "https://www.safegraph.com/covid-19-data-consortium": "https://www.safegraph.com/covid-19-data-consortium",
+                "36": "/articles/s43588-021-00125-9#ref-CR36",
+                "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html": "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html"
+            }
+        },
+        "Code availability": {
+            "content": "All computer code required to generate these results is publicly available42,52.",
+            "links": {
+                "42": "/articles/s43588-021-00125-9#ref-CR42",
+                "52": "/articles/s43588-021-00125-9#ref-CR52"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We thank I. Painter and state and local public health staff who reported and provided the Washington state COVID-19 case data. We would also like to thank M. Zimmermann, R. Burstein and M. Famulare for helpful conversations around COVID-19 case data, correlations with socioeconomic data and mobile phone data.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsRoman LevinView author publicationsSearch author on:PubMed Google ScholarDennis L. ChaoView author publicationsSearch author on:PubMed Google ScholarEdward A. WengerView author publicationsSearch author on:PubMed Google ScholarJoshua L. ProctorView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nD.L.C., E.A.W. and J.L.P. conceived the study. D.L.C. and R.L. conducted the analyses. D.L.C., R.L., E.A.W. and J.L.P. wrote the manuscript. D.L.C., R.L. and J.L.P. wrote the Supplementary Information.\n### Corresponding author\nCorrespondence to\n                Joshua L. Proctor.",
+            "links": {
+                "View author publications": "/search?author=Joshua%20L.%20Proctor",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Joshua%20L.%20Proctor",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Joshua%20L.%20Proctor%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Joshua L. Proctor": "mailto:jproctor@idmod.org"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Peer review information Nature Computational Science thanks Felix Dietrich and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available. Handling editor: Fernando Chirigati, in collaboration with the Nature Computational Science team.\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data": {
+            "content": "Extended Data Fig. 1 Distribution of stay-at-home behavior and demographic covariates by cluster.The boxplots present the interquartile range (boxes) and median values (center horizontal lines) of the covariate values for CBGs in each of the five clusters. Whiskers span the 95% range. Points represent outliers outside of the 95% range. The total number of points in each mobility cluster can be found in Supplementary Table 3. The ‘mean stay at home’ fraction of a CBG is the mean of the daily percent of mobile devices that stayed completely at home during the time period analyzed.Extended Data Fig. 2 Clusters in the Seattle metropolitan area.Census block group boundaries are outlined. CBGs belonging to clusters D and E are highlighted in dark blue and purple, respectively.",
+            "links": {
+                "Extended Data Fig. 1 Distribution of stay-at-home behavior and demographic covariates by cluster.": "/articles/s43588-021-00125-9/figures/7",
+                "3": "/articles/s43588-021-00125-9#MOESM1",
+                "Extended Data Fig. 2 Clusters in the Seattle metropolitan area.": "/articles/s43588-021-00125-9/figures/8"
+            }
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Information, Figs. 1–21, Discussion and Tables 1–3.Peer Review Information",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_MOESM1_ESM.pdf",
+                "Peer Review Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_MOESM2_ESM.pdf"
+            }
+        },
+        "Source data": {
+            "content": "Source Data Fig. 1Source information and data to reproduce each panel for Fig. 1.Source Data Fig. 2Source information and data to reproduce each panel for Fig. 2.Source Data Fig. 3Source information and data to reproduce each panel for Fig. 3.Source Data Fig. 4Source information and data to reproduce each panel for Fig. 4.Source Data Extended Data Fig. 1Source information and data to reproduce each panel for Extended Data Fig. 1.",
+            "links": {
+                "Source Data Fig. 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_MOESM3_ESM.zip",
+                "Source Data Fig. 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_MOESM4_ESM.zip",
+                "Source Data Fig. 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_MOESM5_ESM.zip",
+                "Source Data Fig. 4": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_MOESM6_ESM.csv",
+                "Source Data Extended Data Fig. 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_MOESM7_ESM.csv"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Insights%20into%20population%20behavior%20during%20the%20COVID-19%20pandemic%20from%20cell%20phone%20mobility%20data%20and%20manifold%20learning&author=Roman%20Levin%20et%20al&contentID=10.1038%2Fs43588-021-00125-9&copyright=The%20Author%28s%29&publication=2662-8457&publicationDate=2021-09-22&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleLevin, R., Chao, D.L., Wenger, E.A. et al. Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning.\n                    Nat Comput Sci 1, 588–597 (2021). https://doi.org/10.1038/s43588-021-00125-9Download citationReceived: 02 March 2021Accepted: 09 August 2021Published: 22 September 2021Issue date: September 2021DOI: https://doi.org/10.1038/s43588-021-00125-9Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s43588-021-00125-9?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+                "description": "Understanding the complex interplay between human behavior, disease transmission and non-pharmaceutical interventions during the COVID-19 pandemic could provide valuable insights with which to focus future public health efforts. Cell phone mobility data offer a modern measurement instrument to investigate human mobility and behavior at an unprecedented scale. We investigate aggregated and anonymized mobility data, which measure how populations at the census-block-group geographic scale stayed at home in California, Georgia, Texas and Washington from the beginning of the pandemic. Using manifold learning techniques, we show that a low-dimensional embedding enables the identification of patterns of mobility behavior that align with stay-at-home orders, correlate with socioeconomic factors, cluster geographically, reveal subpopulations that probably migrated out of urban areas and, importantly, link to COVID-19 case counts. The analysis and approach provide local epidemiologists a framework for interpreting mobility data and behavior to inform policy makers’ decision-making aimed at curbing the spread of COVID-19. Combining human mobility data and nonlinear mathematical analysis techniques, this study offers insights into the interplay between human behavior, disease transmission and non-pharmaceutical interventions during the COVID-19 pandemic.",
+                "datePublished": "2021-09-22T00:00:00Z",
+                "dateModified": "2021-09-22T00:00:00Z",
+                "pageStart": "588",
+                "pageEnd": "597",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s43588-021-00125-9",
+                "keywords": [
+                    "Computational science",
+                    "Data mining",
+                    "Infectious diseases",
+                    "SARS-CoV-2",
+                    "Computer Science",
+                    "general"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_Fig6_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Computational Science",
+                    "issn": [
+                        "2662-8457"
+                    ],
+                    "volumeNumber": "1",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Roman Levin",
+                        "affiliation": [
+                            {
+                                "name": "Department of Applied Mathematics, University of Washington",
+                                "address": {
+                                    "name": "Department of Applied Mathematics, University of Washington, Seattle, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Dennis L. Chao",
+                        "url": "http://orcid.org/0000-0002-8253-6321",
+                        "affiliation": [
+                            {
+                                "name": "Institute for Disease Modeling, Bill and Melinda Gates Foundation",
+                                "address": {
+                                    "name": "Institute for Disease Modeling, Bill and Melinda Gates Foundation, Seattle, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Edward A. Wenger",
+                        "affiliation": [
+                            {
+                                "name": "Institute for Disease Modeling, Bill and Melinda Gates Foundation",
+                                "address": {
+                                    "name": "Institute for Disease Modeling, Bill and Melinda Gates Foundation, Seattle, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Joshua L. Proctor",
+                        "url": "http://orcid.org/0000-0002-1424-8504",
+                        "affiliation": [
+                            {
+                                "name": "Institute for Disease Modeling, Bill and Melinda Gates Foundation",
+                                "address": {
+                                    "name": "Institute for Disease Modeling, Bill and Melinda Gates Foundation, Seattle, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "jproctor@idmod.org",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "computational-science;data-mining;infectious-diseases;sars-cov-2",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "Computational social science",
+                            "webtrendsContentGroup": "Nature Computational Science",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s43588-021-00125-9"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Roman Levin",
+                            "Dennis L. Chao",
+                            "Edward A. Wenger",
+                            "Joshua L. Proctor"
+                        ],
+                        "publishedAt": 1632268800,
+                        "publishedAtString": "2021-09-22",
+                        "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Computational science,Data mining,Infectious diseases,SARS-CoV-2"
+                    },
+                    "journal": {
+                        "pcode": "natcomputsci",
+                        "title": "nature computational science",
+                        "volume": "1",
+                        "issue": "9",
+                        "id": 43588,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "fcaaefbjdj"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+            "dc.source": "Nature Computational Science 2021 1:9",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2021-09-22",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2021 The Author(s)",
+            "dc.rights": "2021 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Understanding the complex interplay between human behavior, disease transmission and non-pharmaceutical interventions during the COVID-19 pandemic could provide valuable insights with which to focus future public health efforts. Cell phone mobility data offer a modern measurement instrument to investigate human mobility and behavior at an unprecedented scale. We investigate aggregated and anonymized mobility data, which measure how populations at the census-block-group geographic scale stayed at home in California, Georgia, Texas and Washington from the beginning of the pandemic. Using manifold learning techniques, we show that a low-dimensional embedding enables the identification of patterns of mobility behavior that align with stay-at-home orders, correlate with socioeconomic factors, cluster geographically, reveal subpopulations that probably migrated out of urban areas and, importantly, link to COVID-19 case counts. The analysis and approach provide local epidemiologists a framework for interpreting mobility data and behavior to inform policy makers’ decision-making aimed at curbing the spread of COVID-19. Combining human mobility data and nonlinear mathematical analysis techniques, this study offers insights into the interplay between human behavior, disease transmission and non-pharmaceutical interventions during the COVID-19 pandemic.",
+            "dc.identifier": "doi:10.1038/s43588-021-00125-9",
+            "dc.creator": "Proctor, Joshua L.",
+            "dc.subject": "SARS-CoV-2",
+            "prism.issn": "2662-8457",
+            "prism.publicationName": "Nature Computational Science",
+            "prism.publicationDate": "2021-09-22",
+            "prism.volume": "1",
+            "prism.number": "9",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "588",
+            "prism.endingPage": "597",
+            "prism.copyright": "2021 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s43588-021-00125-9",
+            "prism.doi": "doi:10.1038/s43588-021-00125-9",
+            "citation_pdf_url": "https://www.nature.com/articles/s43588-021-00125-9.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s43588-021-00125-9",
+            "citation_journal_title": "Nature Computational Science",
+            "citation_journal_abbrev": "Nat Comput Sci",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2662-8457",
+            "citation_title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+            "citation_volume": "1",
+            "citation_issue": "9",
+            "citation_publication_date": "2021/09",
+            "citation_online_date": "2021/09/22",
+            "citation_firstpage": "588",
+            "citation_lastpage": "597",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s43588-021-00125-9",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s43588-021-00125-9&api_key=",
+            "citation_reference": "Levin, R., Chao, D. L., Wenger, E. A. & Proctor, J. L. Insights into Population Behavior During the COVID-19 Pandemic from Cell Phone Mobility Data and Manifold Learning (Zenodo, 2021); \n                  https://doi.org/10.5281/zenodo.5154255\n                  \n                ",
+            "citation_author": "Proctor, Joshua L.",
+            "citation_author_institution": "Institute for Disease Modeling, Bill and Melinda Gates Foundation, Seattle, USA",
+            "description": "Understanding the complex interplay between human behavior, disease transmission and non-pharmaceutical interventions during the COVID-19 pandemic could provide valuable insights with which to focus future public health efforts. Cell phone mobility data offer a modern measurement instrument to investigate human mobility and behavior at an unprecedented scale. We investigate aggregated and anonymized mobility data, which measure how populations at the census-block-group geographic scale stayed at home in California, Georgia, Texas and Washington from the beginning of the pandemic. Using manifold learning techniques, we show that a low-dimensional embedding enables the identification of patterns of mobility behavior that align with stay-at-home orders, correlate with socioeconomic factors, cluster geographically, reveal subpopulations that probably migrated out of urban areas and, importantly, link to COVID-19 case counts. The analysis and approach provide local epidemiologists a framework for interpreting mobility data and behavior to inform policy makers’ decision-making aimed at curbing the spread of COVID-19. Combining human mobility data and nonlinear mathematical analysis techniques, this study offers insights into the interplay between human behavior, disease transmission and non-pharmaceutical interventions during the COVID-19 pandemic.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+            "twitter:description": "Nature Computational Science - Combining human mobility data and nonlinear mathematical analysis techniques, this study offers insights into the interplay between human behavior, disease...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-021-00125-9/MediaObjects/43588_2021_125_Fig1_HTML.png",
+            "DOI": "10.1038/s43588-021-00125-9",
+            "size": "154946",
+            "journal_id": "43588"
+        },
+        "canonical_url": "https://www.nature.com/articles/s43588-021-00125-9",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "id": "s42256-020-00243-5",
+    "title": "Interpretable socioeconomic status inference from aerial imagery through urban patterns",
+    "journal": "Nature Machine Intelligence",
+    "pdf_link": "https://www.nature.com/articles/s42256-020-00243-5",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "IGN ORTHO HR aerial orthophotography of metropolitan France",
+            "Data_summary": "High-resolution georeferenced aerial orthophotos covering metropolitan France, distributed as 5 km by 5 km tiles. The imagery is used to extract 200 m by 200 m image patches aligned to socioeconomic census cells, serving as the primary visual input to train and evaluate the CNN and to compute guided Grad-CAM saliency maps.",
+            "Category": "Aerial and drone imagery",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                20
+            ],
+            "Other_Information": "Evidence: Throughout this study, we rely on high-resolution aerial imagery taken between 2013 and 2016 of the complete French metropolitan territory at 20 cm per pixel, issued by the National Geographical Information Institute IGN20. Location: Results Aerial socioeconomic and land use datasets and their combination, Confidence: high",
+            "Time_Coverage": "2013-2016",
+            "Geographic_Coverage": "France > Metropolitan France",
+            "URL": "https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#ortho-hr-sous-licence-ouverte",
+            "ref": [
+                "ref-CR20"
+            ]
+        },
+        {
+            "Data_Name": "INSEE Donnees carroyees household income grid",
+            "Data_summary": "A gridded socioeconomic dataset providing winsorized average household income per 200 m by 200 m census cell across France, derived from tax return-based income estimates. These income values are spatially matched to corresponding aerial image tiles and converted into within-city income quantile classes used as labels for CNN training and evaluation.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                21
+            ],
+            "Other_Information": "Evidence: This corpus describes the winsorized average household income estimated from 2015 tax returns in France for each four hectare 200 m by 200 m square patch a census cell across the whole French territory. Location: Results Aerial socioeconomic and land use datasets and their combination, Confidence: high",
+            "Time_Coverage": "2015",
+            "Geographic_Coverage": "France",
+            "URL": "https://www.insee.fr/fr/statistiques/4176290?sommaire=4176305",
+            "ref": [
+                "ref-CR21"
+            ]
+        },
+        {
+            "Data_Name": "Copernicus Urban Atlas 2012 land use polygons",
+            "Data_summary": "A high-resolution land use and land cover vector dataset that segments urban areas into detailed polygons labeled with standardized land use classes. The study uses these polygons to derive city boundaries, to overlay with guided Grad-CAM activation maps, and to compute activation and coactivation statistics by land use class.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                22
+            ],
+            "Other_Information": "Evidence: we gather land use data shared by the European Environment Agency through the 2012 European Union Urban Atlas project. Location: Results Aerial socioeconomic and land use datasets and their combination, Confidence: high",
+            "Time_Coverage": "2012",
+            "Geographic_Coverage": "Europe > EU28 and EFTA > France > Paris Lyon Marseille Nice Lille",
+            "URL": "https://land.copernicus.eu/local/urban-atlas/urban-atlas-2012",
+            "ref": [
+                "ref-CR22"
+            ]
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data Availability",
+            "Data_summary": "A paper-associated deposit providing the source data files for figures and tables used in the article. It is used to share the underlying data supporting visualizations and tabular materials presented in the paper.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: All figures and tables are provided as source data at https://doi.org/10.6084/m9.figshare.12595067.v2. Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://doi.org/10.6084/m9.figshare.12595067.v2",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:48.695092"
+    }
+}

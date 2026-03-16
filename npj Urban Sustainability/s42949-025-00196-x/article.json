@@ -1,0 +1,997 @@
+{
+    "id": "s42949-025-00196-x",
+    "journal": "npj Urban Sustainability",
+    "type": "article",
+    "title": "A systematic framework to reduce urban embodied carbon emissions using urban scale simulation",
+    "legal_title": "A systematic framework to reduce urban embodied carbon emissions using urban scale simulation",
+    "publish_time": "2025-03-15",
+    "pdf_link": "https://www.nature.com/articles/s42949-025-00196-x",
+    "storage_path": "./Articles/npj Urban Sustainability/2025-article/s42949-025-00196-x/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "The construction industry significantly contributes to carbon emissions. While individual buildings reduce emissions, city-wide policies can unintentionally increase urban emissions due to limited data and complex factors. This research presents a systematic framework for high-resolution urban building stock data and a simulation model to quantify embodied carbon impacts. Using the Chicago metropolitan area, over one million buildings and 350,000 iterations were simulated, providing insights into CO2 emissions under various urban planning scenarios. The study highlights that buildings with a 50-year lifespan emit three times more CO2 than those lasting 80 years, and a 20% change in building area can negate longevity benefits. Renovation strategies are recommended to extend lifespans, urging city planners to adopt regulations that promote renovations as buildings age. This research supports city planners, construction policymakers, and environmental engineers in mitigating urban carbon emissions effectively.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "The construction industry is a significant contributor to global carbon emissions. According to the United Nations’ report, Global Status Report for Buildings and Construction, the sector accounts for 37% of environmental emissions, with 10% directly from building construction1. Embodied carbon—emissions from material extraction, manufacturing, transport, installation, maintenance, and demolition2—is a crucial yet often overlooked factor3,4.\nWhile research and regulations have advanced operational energy efficiency5, achieving carbon-neutral cities requires a more comprehensive approach and despite extensive research and regulatory efforts, there remains a critical gap in understanding the whole lifecycle of embodied carbon in building stock at the urban level. Addressing the climate crisis and achieving carbon neutrality necessitates quantifying all carbon emissions from building stock and implementing reduction strategies. This gap is particularly evident in the lack of high-resolution, granular data and comprehensive frameworks to assess embodied carbon emissions across entire urban areas for building life cycles, specifically in developed countries6,7,8,9,10.\nDespite the emphasis of green building codes and regulations on operational carbon reduction, empirical studies on embodied carbon mitigation remain limited due to insufficient high-quality data11,12. As urban areas grow, detailed, high-resolution building data inventories are essential for studying and implementing embodied carbon reduction strategies13,14. Furthermore, urban carbon emissions are shaped by interconnected decisions across construction and maintenance5,12,15,16, yet current methodologies and datasets are inadequate for comprehensive assessment and mitigation.\nTo this extent, this research aims to bridge this gap by developing a comprehensive framework to assess the embodied carbon emissions of building stocks at an urban scale to (1) systematically create a high-resolution building lifecycle emission dataset for the urban areas, (2) evaluate the outcomes of various mitigation strategies and quantify their probability, and (3) identify the most influential factors affecting urban embodied carbon emissions and introduce the optimal parameters to mitigate the urban carbon emissions. To achieve these goals, a comprehensive simulation study has been designed, using the Chicago metropolitan area as a pilot case. This study focuses on the Cradle-to-Grave stages of the lifecycle (A–C phases), excluding the operational carbon from stage B to focus on embodied carbon emissions.\nVarious approaches exist for calculating and mapping urban building carbon emissions, depending on data type, models, emission sources, and analysis goals17. Two primary methods are top-down and bottom-up approaches14. The top-down method aggregates macroeconomic or statistical data within geographic boundaries (e.g., urban or national) and timeframes, then segments it by building type or location18. In contrast, bottom-up techniques analyze individual buildings, materials, or technologies before scaling up to a broader stock-level view. Mastrucci et al.19 pointed out that bottom-up methods provide a better resolution for identifying the distinctive characteristics of particular buildings, enabling a more precise assessment of embodied carbon emissions14.\nTop-down techniques can be categorized into statistical and computational models14,20. Statistical models derive correlations from macro-scale historical data and socioeconomic variables like economic growth and population dynamics to explain the link between carbon emissions and building activity18. Based on the model transparency, these models are also divided into white box and black box models in the previous literature21. Both models perform well when predicting the macroeconomic performance of the building stock and the influence of embodied carbon under various development scenarios. The National Energy System (NEMS), cited by the Energy Information Administration (2009), is a well-known statistical top-down model. Meanwhile, the rise of machine learning has increased interest in computational models, which leverage advanced computing resources22,23. The bottom-up approach utilizes three main model types: computational, statistical, and physics-based models14,24,25. The key difference between top-down and bottom-up models lies in data granularity—while top-down models use macro-level data, bottom-up models rely on site-specific information14. Physics-based models are further divided into two subcategories: the building-by-building approach, which analyzes individual structures26, and the archetypal method generalizes building attributes into standard models, also known as hybrid models21,27.\nAs a current gap, the majority of the current studies are using top-down methods and are mainly located in developing countries such as China. These studies mainly focus on urban agglomeration and mainly use multi-regional input-output methods28,29,30. Zheng et al.31 is one of the few studies that work with a bottom-up approach. However, this study does not provide a generalizable framework and is also limited to three types of buildings residential, industrial, and public to assess the material intensity31. Kayaçetin and Tanyer32 is another study with a bottom-up approach implemented in Turkey. Even though this research follows a more detailed framework for building emission calculation, the archetypes are not data-driven and are based on four main projects which limit the methodology generalizability and are more focused on neighborhood level32.\nFurthermore, The growing demand for accurate building attributes and spatial data has led to increased use of geographic information in bottom-up building stock quantifications. Tanikawa and Hashimoto, (2009) pioneered geo-localized assessments of building materials in infrastructure and buildings33. Urban-scale building life cycle carbon emissions are complex due to multiple interrelated factors shaping a city’s carbon footprint34,35. Therefore, as with other complex systems, simulation is a valuable tool for assessing decision impacts on real-world outcomes36,37,38.\nOver the past decade, simulations have been widely used to study and mitigate urban carbon emissions, primarily focusing on transportation39,40. Some studies also examine urban expansion; for example, Wang et al.41 analyzed carbon storage loss under different expansion scenarios in Wuhan, China, though without considering buildings’ operation and maintenance impacts41. Li and Deng42 developed an algorithm to simulate urban transportation emissions using a big data fusion machine learning model42.\nConstruction land expansion is another popular research concentration related to urban carbon emission. In 2022, a research in Guangzhou, China worked on the carbon emission related to the construction land demand between the years 2030–206043. This simulation model works based on a prediction model based on dual carbon goals, carbon peak, and neutrality, and not the actual ongoing scenario. Tian and Zhao44 were other researchers who worked on the construction land demand on the urban scale in Changsha, Zhuzhou, and Xiangtan cities44, while another 2024 study used multi-scenario simulations for land expansion in Beijing, Tianjin, and Hebei45.\nLi et al., (2023) applied the Plus and Grid model to predict Tianjin’s land use emissions for 2030 using 2000–2020 data46. In another urban carbon emission study, Hao and Ma47 concentrated on the demolition and construction waste through a system dynamics simulation47. Migoni Alejandre et al.48 developed a bottom-up approach model combined with Monte Carlo simulation to assess the cradle-to-grave phase in Amsterdam. However, this study mainly focuses on specific hybrid structural systems to examine bio-based materials vs. conventional materials in urban densification projects and lacks temporal variability in its simulation48.\nDespite these advances, no studies have simulated urban building stock carbon emissions across full life cycle assessments, particularly with dynamic models capturing urban planning scenarios, uncertainties, and probability distributions. Moreover, most research has focused on developing countries like China and urban expansion. This study addresses these gaps by developing a comprehensive simulation tool to quantify various scenarios and their occurrence probabilities.",
+            "cites": [
+                "ref-CR11",
+                "ref-CR36",
+                "ref-CR47",
+                "ref-CR10",
+                "ref-CR45",
+                "ref-CR4",
+                "ref-CR20",
+                "ref-CR17",
+                "ref-CR1",
+                "ref-CR19",
+                "ref-CR41",
+                "ref-CR39",
+                "ref-CR12",
+                "ref-CR34",
+                "ref-CR22",
+                "ref-CR24",
+                "ref-CR25",
+                "ref-CR48",
+                "ref-CR26",
+                "ref-CR23",
+                "ref-CR46",
+                "ref-CR35",
+                "ref-CR37",
+                "ref-CR27",
+                "ref-CR8",
+                "ref-CR42",
+                "ref-CR9",
+                "ref-CR2",
+                "ref-CR38",
+                "ref-CR44",
+                "ref-CR6",
+                "ref-CR31",
+                "ref-CR40",
+                "ref-CR28",
+                "ref-CR43",
+                "ref-CR13",
+                "ref-CR15",
+                "ref-CR33",
+                "ref-CR29",
+                "ref-CR18",
+                "ref-CR16",
+                "ref-CR32",
+                "ref-CR7",
+                "ref-CR30",
+                "ref-CR3",
+                "ref-CR21",
+                "ref-CR14",
+                "ref-CR5"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Descriptive statistics\nA total of 1,010,840 buildings were studied in this research. Among these buildings (shown in Fig. 1), the oldest was built in 1939, while the newest was built in 2017. Since the oldest buildings in this dataset from Chicago are no more than 85 years old, this led to the decision to choose a range of 50 to 80 years for the simulation analysis. Figure 1 represents the geographical distribution of the buildings with different land coverage, year built, number of floors, structure type, and envelope type. The land coverage is the ratio of the occupied land by the building construction. This category has a denser pattern in downtown Chicago as demonstrated in Fig. 1a. Year-built visualizations also show that most of the newer buildings are seen in areas away from downtown. The visual correlation between this information and the roof type shows that the newer buildings tend to use shingle and asphalt roofs while the older ones are towards tar and gravel. Wall material as the other envelope type shows a more diverse pattern. Regarding the structure type, there is also no significant pattern visible, while for the number of floors, the center areas of the city have a higher number of stories.\nThis dataset also included the emissions of each of these buildings. Table 1 demonstrates the mean, standard deviation, percentiles, minimum, and maximum amount of the environmental emissions of these buildings. Each of these categories is being measured in different units including GWP in kg CO2 eq/m2, acidification in kg SO2 eq/m2, eutrophication in Kg PO4eq/m2, human health (HH) particulate in PM2.5 eq/m2, ozone depletion in CFC eq/m2 and smog formation in kg O3eq/m2.\nAs shown in Table 1, the environmental impact of buildings in the Chicago Building Stock dataset varies significantly for each building, illustrating the diverse environmental footprints, likely due to differing construction materials, ages, and operational practices. This variability coupled with the frequency of the older buildings that need renovation and updates in the foreseeable future (see Fig. 1 for the proportion of older buildings to newer ones), suggests substantial opportunities for targeted interventions to reduce environmental impacts in the building sector. Consequently, this simulation study on different scenarios becomes highly beneficial for optimizing the city’s environmental impact.\n### Simulation results\nTo assess Chicago’s emission across various scenarios, 350,000 iterations were conducted. Table 2 provides the overall statistics for this simulation study, including each variable’s and emission sections’ mean value, standard variation, and range. The results demonstrate that the mean value of each variable is exactly in the middle of the chosen range, validating a uniform distribution of the simulation scenarios without any imbalance. For example, the four different age thresholds (50, 60, 70, and 80) yielded approximately 87,500 iterations each, resulting in a mean value of 65, thus validating the simulation’s distribution results accuracy (see Table 2 and Fig. 2)\nThe general statistics table offers insight into the expected GWP emissions and the turnover rate under different scenarios. The city’s total changed emission averaged 5.49 × 109 Kg CO2 with a value ranging from as low as 1.93 × 109 Kg CO2 to as high as 1.62 × 1010 Kg CO2. Total change emission refers to the emissions resulting from implementing different defined strategies in the city. This wide range, an 8.4-fold difference, underscores the critical need for thorough simulation studies and informed policymaking to mitigate environmental impacts in urban areas.\nFurthermore, the study showed that the impact of new construction in Chicago averages about 5.42 × 105 Kg CO2. Interestingly, the impact of replacement and renovation is about 4.09 × 109 Kg CO2. This means constructing new buildings emits 7,500 times more embodied than renovating and reusing existing buildings. The evidence clearly demonstrates that future urban development policies should prioritize the preservation and renovation of existing buildings over constructing new buildings, consequently reducing urban sprawl. It should also be noted that these values are based on a 50,000 buildings sample to reduce the computation cost and allow more iterations for more accurate results. That means the actual unit-based values in the city of Chicago are about 20 times larger than the stated numbers, which emphasizes more on the importance of different scenarios.\nGiven the significant differences in environmental impact between new construction and preserving existing buildings, we examined variables related to existing buildings. The building lifespan was identified as a key factor. Determining the optimal value for building lifespan has been a highly debated topic in recent urban planning studies. To compare the impact of different building lifespans, this study divided emission variables by age thresholds and plotted the results as histograms. These visualizations, shown in Fig. 3, reveal that the considered lifespan of buildings significantly affects urban-scale CO2 emissions. Specifically, scenarios assuming a 50-year lifespan resulted in approximately three times more emissions compared to those with an 80-year lifespan. This finding indicates that policies promoting the renovation and preservation of existing buildings to prolong their lifespan are more effective in reducing cities’ environmental impact.\nFurthermore, the results showed that prolonging the building’s lifespan is associated with reducing the risks related to expected emissions in urban planning scenarios. This is specifically evident in the standard deviation of the histograms in Fig. 3, where the blue curve demonstrates the 50-year lifespan results from total emission and the red one indicates the 80-year lifespan. As shown, longer building lifespans result in narrower histograms approaching a normal distribution, while shorter lifespans produce histograms with longer tails. This suggests that longer lifespans reduce the risk of unpredictable and uncontrollable emission scenarios. Additionally, the data revealed that renovation-related emissions are more sensitive to changes in building age thresholds than replacement scenarios. It is important to note that most buildings in Chicago are masonry-based, which naturally have longer lifespans and lower embodied energy compared to other construction materials49,50. This characteristic of Chicago’s building stock likely contributes to the trends observed in the histograms, underscoring the importance of considering local construction practices and materials in sustainability assessments. It also highlights the potential for mitigating urban emissions by extending building lifespans.\n### Sensitivity analysis\nAfter analyzing the simulation results, a sensitivity analysis was conducted on building lifespan and building area, as two main emission mitigation methods51. In the first analysis, the relationship between building lifespan, area change, and embodied carbon emission was examined (see Fig. 4). The results were aligned with the findings in Fig. 3 and indicated that the building’s lifespan has a significant potential impact on future building stock emissions in Chicago. This means that the longer the building can be used (i.e., a higher threshold of building age), the lower the life cycle embodied carbon emissions (LCA A–C phases.) In other words, techniques that extend buildings’ lifespan significantly reduce its environment’s emissions.\nInterestingly, the building floor area was a factor that greatly impacted the building’s lifespan change effectiveness on the building stock emissions. As demonstrated in Fig. 4, the scenario of buildings with a lifespan of 50 years but with a floor area of 0.8 (compared to baseline floor area) had almost the same emission rate as the 80-year lifespan and 1.2 buildings floor area (compared to baseline floor area). This means besides a 20% change in the building area can change the emissions significantly, it also influences the effectiveness of increasing the building lifespan. Based on this result, a hybrid mitigation approach, including both is necessary. This means that while policymakers should focus on extending the lifespan of existing buildings through renovation, both this aspect and the buildings’ area are crucially important to consider in new constructions. Therefore, in the new construction projects and replacement projects for the current buildings, the urban planners should consider both extending the lifespan from 50 to 80 (e.g., through choice of materials, maintenance management plan, etc.) and decreasing the area of the buildings through design strategies. This strategy can achieve the best possible outcomes for environmental preservation and promote smarter, more sustainable growth.\nAdditionally, these findings showed that the trend between these variables is not a linear relationship. As shown in Fig. 4, the impact of lifespan changes on the emission ratio follows an exponential trend. This means the reduction in emissions is greater when the lifespan changes from 60 to 50 years compared to a change from 80 to 70 years. Consequently, even if achieving an 80-year lifespan is impossible, increasing the lifespan by 10 years can still be highly beneficial. Furthermore, the slope becomes notably steeper for buildings with larger areas. This insight aids crucial urban planning decisions and suggests that policymakers can optimize between building lifespan and area based on city preferences for larger or newer houses, which can be a crucial choice based on many factors such as the climate zone and weather condition of the city.\nThe same analysis was applied to different demolition ranges to verify the generalizability of this result between different urban sprawl or urban shrinkage scenarios (see Fig. 5). The results showed that, despite some fluctuations, the same pattern persists. The only variations are the emission ratio ranges in different scenarios. This means that although urban sprawl scenarios generally result in higher emissions, the strategies for mitigating emissions remain consistent with those for deurbanization scenarios.\nTo provide a big picture of the variables’ impact, the effect of other variables including the renovation and replacement rate, renovation versus replacement proportion, and building lifespan on total emission and their confidence interval was examined (see Fig. 6). First, for the building lifespan, as demonstrated in Fig. 6, the line plot confirmed that the exponential trend between buildings’ ages exists and showed that by moving towards the shorter lifespans, the probability band gets wider. This means that lower lifespans have a higher risk for emission control strategies.\nThe renovation strategies, on the other hand, had the steadiest probability band. This means lower risk is associated with renovation-based strategies that emphasize the value of renovation for urban areas. Moreover, the level of their impact on the whole city emission even in its worst percentages was notably milder than the other scenarios. Replacement scenarios, on the other hand, had a much sharper trend. That means, with an increasing replacement rate in the replacement scenarios, the chance of emitting a significantly higher amount of CO2 to the environment is much higher compared to the renovation scenarios. Furthermore, the probability band gets wider in the higher values of replacement emission rate, which makes this method is also more prone to risk. According to the points mentioned, the proportion of renovated trends was also reasonable, suggesting higher renovations for lowering the emission and decreasing the unwanted emissions risk.\nOverall, the simulation and sensitivity analyses revealed that building lifespan and area significantly impact emissions in Chicago. In other words, higher building lifespan and smaller building areas reduce emissions significantly. Moreover, a 20% reduction in building area can match the emission reductions achieved by extending lifespans from 50 to 80 years. Accordingly, a hybrid approach, initially using shorter lifespans with smaller floor areas followed by lifespan extensions through renovations, is optimal for minimizing emissions. The results also indicated that renovation strategies pose the lowest risk for emission control, while replacement strategies have higher variability and risk. These findings emphasize the importance of strategic planning in urban development for sustainability.",
+            "cites": [
+                "ref-CR50",
+                "ref-CR49",
+                "ref-CR51"
+            ],
+            "figures": [
+                "figure-6",
+                "figure-4",
+                "figure-3",
+                "figure-5",
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "This research developed a systematic method for analyzing building stock emissions, with a specific focus on embodied carbon emissions in the United States. The methodology was implemented using the Chicago metropolitan area as a case study, demonstrating its applicability in quantifying urban embodied carbon emissions and providing valuable insights into the long-term CO2 emission influenced by various urban development scenarios. The objectives of this study can be summarized as (1) developing a robust and generalizable simulation method for assessing urban embodied carbon emissions across different scenarios, (2) evaluating the impact of diverse variables on carbon emissions, (3) identifying the optimum ranges and trade-offs among these variables to mitigate the environmental impacts effectively.\nThrough Python programming, a specialized simulation platform was designed, incorporating a series of visualizations to achieve its objectives. The findings underscore the crucial role of building lifespan in determining urban carbon emissions. Emissions from alternations were approximately three times higher in the scenarios with a 50-year building lifespan compared to those with an 80-year lifespan. This exponential effect of building lifespan changes on emissions highlights the urgent need for strategies that prioritize building longevity. Additionally, the area of newly constructed and replaced buildings significantly impacted the efficacy of age restriction policies. A 20% change in the total building area could negate the benefits of long-lifespan scenarios or alleviate the negative impacts of short-lifespan scenarios.\nThe study indicated that renovation strategies aimed at extending building lifespan are not only preferable but also predictable. The research indicates that currently, only about 1% of buildings undergo renovation annually52. Consequently, it is imperative for city planners to develop standards and regulations that facilitate building renovations, particularly as buildings age. The findings of this research can be used by city and urban planners, construction policymakers, environmental engineers, and the civil engineering community.\nThis study relies on several assumptions and data sources, including the National Structure Inventory and Cook County datasets, which may have limitations in resolution and completeness. The model incorporates probabilistic estimates, such as building lifespan, renovation rates, and emissions, introducing inherent uncertainties. While Monte Carlo simulations mitigate some risks, results should be interpreted within these assumptions. Future studies could enhance accuracy through higher-resolution datasets, real-world validations, and AI-based material extraction.\nFuture studies are suggested to expand the application of this model to other cities in different situations and climate zones, such as coastal cities. Methods such as Google Street View and computer vision combination to extract materials53,54,55 can be utilized to enable this expansion. Researchers can also work on embedding the proposed methodology into a standalone plugin tool to calculate city emission scenarios. Additionally, the study’s outcomes can be utilized in developing prediction models and Bayesian networks through a causal network56,57 to estimate building emissions under user-defined scenarios and variables. Future studies are also recommended to consider seeing the effect of other emission mitigation strategies such as lightweight material usage and assessing the cost of different scenarios.",
+            "cites": [
+                "ref-CR57",
+                "ref-CR56",
+                "ref-CR53",
+                "ref-CR55",
+                "ref-CR54",
+                "ref-CR52"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "As shown in Fig. 7, this study includes three major steps. Step one was designed to create a comprehensive dataset of the buildings’ data in the metropolitan area of Chicago as a baseline for creating buildings’ archetypes. The second step was designed to use the Athena life cycle assessment software to model and extract the environmental impact of each building archetype, specifically the embodied carbon emissions. Afterward, the third step of the study aimed to geo-assign each archetype to its location in the Chicago to build a comprehensive model of the Chicago built environment embodied carbon and run simulations of the effect of different mitigation policies. The following methodology sections explain the details for each of these steps.\n### Building stock dataset creation\nVarious sources were used to create a comprehensive database, with the National Structure Inventory (NSI) dataset serving as the primary source58. The United States Army Corps of Engineers initiated the NSI to enhance their levee and dam screening program. The latest version of this dataset has been made publicly available and integrated into the Federal Emergency Management Agency’s (FEMA) database. Information gathered for Chicago from NSI includes building structure type, foundation type, square footage, number of floors, and coordination of each building. However, this dataset does not include the building envelope materials, despite wall and roof materials being significant factors in environmental emissions14,59,60.\nTo gather the building envelope data, the Cook County Open Data was utilized, which included information on building wall and roof materials, the heating and air conditioning systems, building area, and geocoordinates. By matching the geocoordinates from the Cook County data with those in NSI dataset, information for over one million buildings in the Chicago metropolitan area was compiled. Table 3 demonstrates the selected variables from each of these two major datasets, creating an integrated building stock dataset for Chicago.\n### Archetypes creation\nDetailed calculations for each specific building can achieve the highest level of precision for a building’s life cycle environmental impact. Nevertheless, this solution is not possible in large-scale urban areas due to the enormous number of buildings. Consequently, the bottom-up approach provides one of the most accurate methods for building LCA assessment14.\nThe first step for the bottom-up LCA assessment on the urban scale is defining the building archetypes14. Archetype is defined as buildings that carry general similar characteristics such as material and structure14,61. To specify these features, this study used the variables in the dataset created in the previous part to represent the Chicago building stock. Table 4 shows the values existing in each variable for creating the archetypes.\nThe naming convention S-F-WW-RR was used to describe the archetypes. The first letter in this convention stands for structure type, and the next letter (F) is for foundation. WW represents the exterior wall materials while RR indicates roof construction types. The order of these values has been displayed in Table 4. Based on the main structural options, external wall materials, foundation kinds, and roof types, 157 archetypes representing more than a million buildings in Chicago were produced by this research. To elaborate on how the naming convention works, a building with a masonry structure (W), basement foundation (B), wall type 1 (W1), and roof type 2 (R2) is represented by the code “MBW1R2”. Having these 157 archetypes as the representatives of Chicago, the next step of a bottom-up approach, estimating the life cycle emissions of each archetype, could be executed. The authors’ previous study showed this method of archetype data creation as a suitable bottom-up approach for urban areas62.\n### Archetypes cradle-to-grave life cycle assessment\nThe environmental impact of the entire building stock in Chicago was assessed in two steps. In the first step, all the archetypes were modeled in Athena Impact Estimator version 5.5, generating a dataset that includes three Life Cycle Energy Consumption (LCEC) indicators, especially the total GWP in different lifecycle phases. Every archetype was built to be 1000 square feet (SQF, 92 square meters) with one floor. Embodied energy was also calculated for each archetype, quantified by their primary energy usage across their full life cycle. The life cycle assessment system boundary considered in this study included the cradle-to-grave stages (A–C) minus operational carbon throughout these phases in LCA stage B.\nIn the subsequent step, each building in the newly created Chicago dataset was assigned an archetype, noting the building’s year of construction, floor area, and number of stories. Given that the Athena models were based on a 1000 SQF, single-story building, the results can be scaled down per 1000 square feet to determine the environmental emissions for each archetype per square footage per floor. Using Eq. 1, emissions for each building were then calculated, taking into account the building’s area in square feet and the integer number of floors.\nIn this equation, EA represents the emission of each archetype, AB represents the area of the building, and NF is an indicator of the number of floors in the building. The result of this equation gives the amount of environmental emission or impact of each building, and EA can be replaced with any desired emission from the Athena model. By applying this equation to all emission types and buildings, the final dataset was created, including over one million buildings with all their environmental impact information, year built, area, and archetype code etc. This generated dataset provides the platform for designing a thorough urban scale simulation and sensitivity analysis to assess the urban planning decisions’ impact on the environment.\n### Urban scale simulation and visualization\nAfter creating the building stock dataset, a simulation analysis was developed and executed using Python to evaluate the effects of various urban policies on carbon emissions. From the life-cycle assessment (LCA) standpoint, a building’s age generates several scenarios that affect its emissions. For example, demolition, replacement, and renovation are typically considered when a structure approaches its end of service life. The common lifespan of the building ranges from 50 to 100 years63. Considering the age range of the buildings in Chicago, this study assumed a lifespan of 50 to 80 years with 10-year increments. This threshold helps categorize buildings into old and new ones for analysis. In addition to the scenarios for existing buildings, new constructions with varying floor areas can also occur within the city. The simulation aspect is crucial, as it accounts for the potential changes in these variables and how different scenarios might affect various buildings.\nPython programming was utilized to implement the simulation logic. To define the logic in a way that covers the real-world possible scenarios, a range of different likely values were considered in the programmed code. Table 5 demonstrates the range of these variables in this study.\nThe designed simulation is iteration-based, introducing novelty by randomly selecting variable values in each iteration. For instance, in the first iteration, the model might set a 50-year building age threshold, with renovation and replacement emission at 120% and 150%, respectively, with a 0.4 ratio between renovation and replacement and a 4% rate for new buildings with 110% of the current building area (the new building is built bigger than the older ones by 10%). The model randomly selects a percentage of the buildings older than 50 years for demolition (e.g., 50%) and then applies the defined ratio to determine renovation and replacement actions for the remaining buildings. The model considers the buildings younger than 20 years as new and uses their current archetype distribution to create the new buildings. In the subsequent iteration, these variables and selections change randomly. Such a method can count for the uncertainty of building stock change. Figure 8 demonstrates this iterative process for calculating the whole building stock emission.\nThis method not only covers all possible combinations of variable ranges but also considers different individual buildings among over one million existing buildings in each iteration, following their statistical distribution. This simulation, leveraging Monte Carlo logic64,65,66, produces a wide array of scenarios that conventional Monte Carlo simulators will not be able to achieve. To ensure comprehensive coverage, the simulation was run through 350,000 iterations. Results were analyzed using heatmaps, boxplots, histograms, line plots with confidence levels, and 3-dimensional plots, offering a thorough and visually informing representation of the data.\nAs the limitations of this methodology, this study assumes a similar interior material and quality for the buildings due to the unavailability of this data. Furthermore, the height information in the NSI data is not always accurate58, and therefore buildings with an abnormal number of floors were dropped from the dataset. Additionally, the simulation variables assumed in this study cover a slightly wider range than the common emission ranges to cover extreme cases and make the study more comprehensive.",
+            "cites": [
+                "ref-CR64",
+                "ref-CR14",
+                "ref-CR59",
+                "ref-CR62",
+                "ref-CR65",
+                "ref-CR63",
+                "ref-CR58",
+                "ref-CR61",
+                "ref-CR66",
+                "ref-CR60"
+            ],
+            "figures": [
+                "figure-7",
+                "figure-8"
+            ]
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Chicago metropolitan area building stock general status.",
+            "figure-caption": "a Land Cover, b Year Built, c Number of Floors, d Roof Type, e Wall Type, f Structure Type.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00196-x/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2",
+            "figure-caption": "Simulation variables general statistics.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00196-x/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3",
+            "figure-caption": "The simulation results for different building age thresholds.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00196-x/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4",
+            "figure-caption": "The average turnover change per lifespan and area change.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00196-x/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: The turnover average changes per lifespan, and the area changes for different demolition scenarios.",
+            "figure-caption": "The higher demolition is equal to deurbanization while the lower ones are urban sprawl scenarios.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00196-x/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6",
+            "figure-caption": "Sensitivity analysis results for replacement, renovation, renovation proportion, and buildings’ lifespan variables.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00196-x/figures/6"
+        },
+        {
+            "id": "figure-7",
+            "figure-title": "Fig. 7",
+            "figure-caption": "Research Flowchart.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00196-x/figures/7"
+        },
+        {
+            "id": "figure-8",
+            "figure-title": "Fig. 8",
+            "figure-caption": "Simulation process flowchart.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00196-x/figures/8"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "United Nations Environment Programme. Global Status Report 2021. https://www.unep.org/resources/report/2021-global-status-report-buildings-and-construction (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Chen, W., Yang, S., Zhang, X., Jordan, N. D. & Huang, J. Embodied energy and carbon emissions of building materials in China. Build. Environ. 207, 108434 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.buildenv.2021.108434",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Embodied%20energy%20and%20carbon%20emissions%20of%20building%20materials%20in%20China&journal=Build.%20Environ.&doi=10.1016%2Fj.buildenv.2021.108434&volume=207&publication_year=2022&author=Chen%2CW&author=Yang%2CS&author=Zhang%2CX&author=Jordan%2CND&author=Huang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Stephan, A. & Crawford, R. H. A comprehensive life cycle water analysis framework for residential buildings. Build. Res. Inf. 42, 685–695 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F09613218.2014.921764",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20comprehensive%20life%20cycle%20water%20analysis%20framework%20for%20residential%20buildings&journal=Build.%20Res.%20Inf.&doi=10.1080%2F09613218.2014.921764&volume=42&pages=685-695&publication_year=2014&author=Stephan%2CA&author=Crawford%2CRH"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Vilches, A., Garcia-Martinez, A. & Sanchez-Montañes, B. Life cycle assessment (LCA) of building refurbishment: a literature review. Energy Build 135, 286–301 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enbuild.2016.11.042",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Life%20cycle%20assessment%20%28LCA%29%20of%20building%20refurbishment%3A%20a%20literature%20review&journal=Energy%20Build&doi=10.1016%2Fj.enbuild.2016.11.042&volume=135&pages=286-301&publication_year=2017&author=Vilches%2CA&author=Garcia-Martinez%2CA&author=Sanchez-Monta%C3%B1es%2CB"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Hu, M. A building life-cycle embodied performance index—the relationship between embodied energy, embodied carbon and environmental impact. Energies 13, 1905 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fen13081905",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhvVegurjN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20building%20life-cycle%20embodied%20performance%20index%E2%80%94the%20relationship%20between%20embodied%20energy%2C%20embodied%20carbon%20and%20environmental%20impact&journal=Energies&doi=10.3390%2Fen13081905&volume=13&publication_year=2020&author=Hu%2CM"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Wang, J. et al. High-resolution temporal and spatial evolution of carbon emissions from building operations in Beijing. J. Clean. Prod. 376, 134272 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2022.134272",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xis1Gnu7nE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=High-resolution%20temporal%20and%20spatial%20evolution%20of%20carbon%20emissions%20from%20building%20operations%20in%20Beijing&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2022.134272&volume=376&publication_year=2022&author=Wang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Gately, C. K. & Hutyra, L. R. Large uncertainties in urban-scale carbon emissions. J. Geophys. Res. Atmos. 122, 11,242–11,260 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2F2017JD027359",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXhvVSksbnE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Large%20uncertainties%20in%20urban-scale%20carbon%20emissions&journal=J.%20Geophys.%20Res.%20Atmos.&doi=10.1002%2F2017JD027359&volume=122&pages=11%2C242-11%2C260&publication_year=2017&author=Gately%2CCK&author=Hutyra%2CLR"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Huang, C. et al. A fine spatial resolution modeling of urban carbon emissions: a case study of Shanghai. China Sci. Rep. 12, 9255 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-022-13487-5",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhsVOhu7vL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20fine%20spatial%20resolution%20modeling%20of%20urban%20carbon%20emissions%3A%20a%20case%20study%20of%20Shanghai&journal=China%20Sci.%20Rep.&doi=10.1038%2Fs41598-022-13487-5&volume=12&publication_year=2022&author=Huang%2CC"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Liu, Z. & Cai, B. High-resolution Carbon Emissions Data for Chinese Cities. Belfer Cent. Sci. Int. Aff. Cambridge, Mass Harvard Univ. (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Chuai, X. & Feng, J. High resolution carbon emissions simulation and spatial heterogeneity analysis based on big data in Nanjing City, China. Sci. Total Environ. 686, 828–837 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2019.05.138",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXht1ekt7rN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=High%20resolution%20carbon%20emissions%20simulation%20and%20spatial%20heterogeneity%20analysis%20based%20on%20big%20data%20in%20Nanjing%20City%2C%20China&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2019.05.138&volume=686&pages=828-837&publication_year=2019&author=Chuai%2CX&author=Feng%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Wu, P., Xia, B. & Zhao, X. The importance of use and end-of-life phases to the life cycle greenhouse gas (GHG) emissions of concrete – a review. Renew. Sustain. Energy Rev. 37, 360–369 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2014.04.070",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2cXhtFensbvO",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20importance%20of%20use%20and%20end-of-life%20phases%20to%20the%20life%20cycle%20greenhouse%20gas%20%28GHG%29%20emissions%20of%20concrete%20%E2%80%93%20a%20review&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2014.04.070&volume=37&pages=360-369&publication_year=2014&author=Wu%2CP&author=Xia%2CB&author=Zhao%2CX"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Kumari, L. M. T., Kulatunga, U., Madusanka, N. & Jayasena, N. Embodied carbon reduction strategies for buildings. in 295–308 https://doi.org/10.1007/978-981-13-9749-3_28 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Alaux, N., Ruschi Mendes Saade, M. & Passer, A. Inventory regionalization of background data: influence on building life cycle assessment and carbon reduction strategies. J. Clean. Prod. 459, 142434 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2024.142434",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2cXhtFegsrfJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inventory%20regionalization%20of%20background%20data%3A%20influence%20on%20building%20life%20cycle%20assessment%20and%20carbon%20reduction%20strategies&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2024.142434&volume=459&publication_year=2024&author=Alaux%2CN&author=Ruschi%20Mendes%20Saade%2CM&author=Passer%2CA"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Hu, M. & Ghorbany, S. Building stock models for embodied carbon emissions—a review of a nascent field. Sustain. 16, (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Hong, S., Hui, E. C. & Lin, Y. Relationship between urban spatial structure and carbon emissions: a literature review. Ecol. Indic. 144, 109456 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecolind.2022.109456",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XisFKhtrjP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Relationship%20between%20urban%20spatial%20structure%20and%20carbon%20emissions%3A%20a%20literature%20review&journal=Ecol.%20Indic.&doi=10.1016%2Fj.ecolind.2022.109456&volume=144&publication_year=2022&author=Hong%2CS&author=Hui%2CEC&author=Lin%2CY"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Lai, K. E. et al. Quantification process of carbon emissions in the construction industry. Energy Build 289, 113025 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enbuild.2023.113025",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantification%20process%20of%20carbon%20emissions%20in%20the%20construction%20industry&journal=Energy%20Build&doi=10.1016%2Fj.enbuild.2023.113025&volume=289&publication_year=2023&author=Lai%2CKE"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Zhang, N. et al. Towards low-carbon cities through building-stock-level carbon emission analysis: a calculating and mapping method. Sustain. Cities Soc. 78, 103633 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2021.103633",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Towards%20low-carbon%20cities%20through%20building-stock-level%20carbon%20emission%20analysis%3A%20a%20calculating%20and%20mapping%20method&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2021.103633&volume=78&publication_year=2022&author=Zhang%2CN"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Lim, H. & Zhai, Z. J. Review on stochastic modeling methods for building stock energy prediction. Build. Simul. 10, 607–624 (2017).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s12273-017-0383-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Review%20on%20stochastic%20modeling%20methods%20for%20building%20stock%20energy%20prediction&journal=Build.%20Simul.&doi=10.1007%2Fs12273-017-0383-y&volume=10&pages=607-624&publication_year=2017&author=Lim%2CH&author=Zhai%2CZJ"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Mastrucci, A., Marvuglia, A., Leopold, U. & Benetto, E. Life cycle assessment of building stocks from urban to transnational scales: a review. Renew. Sustain. Energy Rev. 74, 316–332 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2017.02.060",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXjs1Ohu7c%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Life%20cycle%20assessment%20of%20building%20stocks%20from%20urban%20to%20transnational%20scales%3A%20a%20review&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2017.02.060&volume=74&pages=316-332&publication_year=2017&author=Mastrucci%2CA&author=Marvuglia%2CA&author=Leopold%2CU&author=Benetto%2CE"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Arehart, J. H., Pomponi, F., D’Amico, B. & Srubar, W. V. Structural material demand and associated embodied carbon emissions of the United States building stock: 2020–2100. Resour. Conserv. Recycl. 186, 106583 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.resconrec.2022.106583",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xit1yitbjN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Structural%20material%20demand%20and%20associated%20embodied%20carbon%20emissions%20of%20the%20United%20States%20building%20stock%3A%202020%E2%80%932100&journal=Resour.%20Conserv.%20Recycl.&doi=10.1016%2Fj.resconrec.2022.106583&volume=186&publication_year=2022&author=Arehart%2CJH&author=Pomponi%2CF&author=D%E2%80%99Amico%2CB&author=Srubar%2CWV"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Langevin, J. et al. Developing a common approach for classifying building stock energy models. Renew. Sustain. Energy Rev. 133, 110276 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2020.110276",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Developing%20a%20common%20approach%20for%20classifying%20building%20stock%20energy%20models&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2020.110276&volume=133&publication_year=2020&author=Langevin%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Ghione, F., Mæland, S., Meslem, A. & Oye, V. Building stock classification using machine learning: a case study for Oslo, Norway. Front. Earth Sci. 10, (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Hu, M., Wang, C., Ghorbany, S., Yao, S. & Nouri, A. Machine learning integration in LCA: addressing data deficiencies in embodied carbon assessment. in 927–940 https://doi.org/10.1007/978-3-031-69626-8_78 (2025).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Nägeli, C., Jakob, M., Catenazzi, G. & Ostermeyer, Y. Towards agent-based building stock modeling: bottom-up modeling of long-term stock dynamics affecting the energy and climate impact of building stocks. Energy Build 211, 109763 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enbuild.2020.109763",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Towards%20agent-based%20building%20stock%20modeling%3A%20bottom-up%20modeling%20of%20long-term%20stock%20dynamics%20affecting%20the%20energy%20and%20climate%20impact%20of%20building%20stocks&journal=Energy%20Build&doi=10.1016%2Fj.enbuild.2020.109763&volume=211&publication_year=2020&author=N%C3%A4geli%2CC&author=Jakob%2CM&author=Catenazzi%2CG&author=Ostermeyer%2CY"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Yamaguchi, Y. et al. Building stock energy modeling considering building system composition and long-term change for climate change mitigation of commercial building stocks. Appl. Energy 306, 117907 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apenergy.2021.117907",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Building%20stock%20energy%20modeling%20considering%20building%20system%20composition%20and%20long-term%20change%20for%20climate%20change%20mitigation%20of%20commercial%20building%20stocks&journal=Appl.%20Energy&doi=10.1016%2Fj.apenergy.2021.117907&volume=306&publication_year=2022&author=Yamaguchi%2CY"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Österbring, M. et al. A differentiated description of building-stocks for a georeferenced urban bottom-up building-stock model. Energy Build 120, 78–84 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enbuild.2016.03.060",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20differentiated%20description%20of%20building-stocks%20for%20a%20georeferenced%20urban%20bottom-up%20building-stock%20model&journal=Energy%20Build&doi=10.1016%2Fj.enbuild.2016.03.060&volume=120&pages=78-84&publication_year=2016&author=%C3%96sterbring%2CM"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Lanau, M. & Liu, G. Developing an urban resource cadaster for circular economy: a case of Odense, Denmark. Environ. Sci. Technol. 54, 4675–4685 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.9b07749",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXkt1Kqt7g%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Developing%20an%20urban%20resource%20cadaster%20for%20circular%20economy%3A%20a%20case%20of%20Odense%2C%20Denmark&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.9b07749&volume=54&pages=4675-4685&publication_year=2020&author=Lanau%2CM&author=Liu%2CG"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Li, P., He, C., Qi, T. & Wang, Y. Embodied carbon flows in resource-based cities based on multiregional input–output model: a case study of Hohhot-Baotou-Ordos-Yulin urban agglomeration in China. Clean Technol. Environ. Policy https://doi.org/10.1007/s10098-024-02974-0 (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Xing, Z., Jiao, Z. & Wang, H. Carbon footprint and embodied carbon transfer at city level: a nested MRIO analysis of Central Plain urban agglomeration in China. Sustain. Cities Soc. 83, 103977 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2022.103977",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Carbon%20footprint%20and%20embodied%20carbon%20transfer%20at%20city%20level%3A%20a%20nested%20MRIO%20analysis%20of%20Central%20Plain%20urban%20agglomeration%20in%20China&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2022.103977&volume=83&publication_year=2022&author=Xing%2CZ&author=Jiao%2CZ&author=Wang%2CH"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Li, S. & Chen, W. Regional carbon inequality and its impact in China: A new perspective from urban agglomerations. J. Clean. Prod. 480, 144059 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2024.144059",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Regional%20carbon%20inequality%20and%20its%20impact%20in%20China%3A%20A%20new%20perspective%20from%20urban%20agglomerations&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2024.144059&volume=480&publication_year=2024&author=Li%2CS&author=Chen%2CW"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Zheng, X. et al. Mapping lifecycle building material embodied carbon emissions for Beijing-Tianjin-Hebei urban agglomeration. Sustain. Cities Soc. 119, 106058 (2025).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2024.106058",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mapping%20lifecycle%20building%20material%20embodied%20carbon%20emissions%20for%20Beijing-Tianjin-Hebei%20urban%20agglomeration&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2024.106058&volume=119&publication_year=2025&author=Zheng%2CX"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Kayaçetin, N. C. & Tanyer, A. M. Embodied carbon assessment of residential housing at urban scale. Renew. Sustain. Energy Rev. 117, 109470 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2019.109470",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Embodied%20carbon%20assessment%20of%20residential%20housing%20at%20urban%20scale&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2019.109470&volume=117&publication_year=2020&author=Kaya%C3%A7etin%2CNC&author=Tanyer%2CAM"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Tanikawa, H. & Hashimoto, S. Urban stock over time: spatial material stock analysis using 4d-GIS. Build. Res. Inf. 37, 483–502 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F09613210903169394",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20stock%20over%20time%3A%20spatial%20material%20stock%20analysis%20using%204d-GIS&journal=Build.%20Res.%20Inf.&doi=10.1080%2F09613210903169394&volume=37&pages=483-502&publication_year=2009&author=Tanikawa%2CH&author=Hashimoto%2CS"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Weigert, M., Melnyk, O., Winkler, L. & Raab, J. Carbon emissions of construction processes on urban construction sites. Sustainability 14, 12947 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu141912947",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XislGlu7nJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Carbon%20emissions%20of%20construction%20processes%20on%20urban%20construction%20sites&journal=Sustainability&doi=10.3390%2Fsu141912947&volume=14&publication_year=2022&author=Weigert%2CM&author=Melnyk%2CO&author=Winkler%2CL&author=Raab%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "You, F. et al. Carbon emissions in the life cycle of urban building system in China—a case study of residential buildings. Ecol. Complex. 8, 201–212 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecocom.2011.02.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Carbon%20emissions%20in%20the%20life%20cycle%20of%20urban%20building%20system%20in%20China%E2%80%94a%20case%20study%20of%20residential%20buildings&journal=Ecol.%20Complex.&doi=10.1016%2Fj.ecocom.2011.02.003&volume=8&pages=201-212&publication_year=2011&author=You%2CF"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Aumann, C. A. A methodology for developing simulation models of complex systems. Ecol. Modell. 202, 385–396 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecolmodel.2006.11.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20methodology%20for%20developing%20simulation%20models%20of%20complex%20systems&journal=Ecol.%20Modell.&doi=10.1016%2Fj.ecolmodel.2006.11.005&volume=202&pages=385-396&publication_year=2007&author=Aumann%2CCA"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "de Paula Ferreira, W., Armellini, F. & De Santa-Eulalia, L. A. Simulation in industry 4.0: a state-of-the-art review. Comput. Ind. Eng. 149, 106868 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cie.2020.106868",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Simulation%20in%20industry%204.0%3A%20a%20state-of-the-art%20review&journal=Comput.%20Ind.%20Eng.&doi=10.1016%2Fj.cie.2020.106868&volume=149&publication_year=2020&author=Paula%20Ferreira%2CW&author=Armellini%2CF&author=Santa-Eulalia%2CLA"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Faulin, J., Juan, A. A., Martorell, S. & Ramírez-Márquez, J.-E. Simulation methods for reliability and availability of complex systems. (Springer, 2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Gao, X. L., Hu, T. J. & Peng, P. Research on the simulation and realization approach of urban low-carbon transport. Adv. Mater. Res. 989–994, 1328–1332 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.4028%2Fwww.scientific.net%2FAMR.989-994.1328",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Research%20on%20the%20simulation%20and%20realization%20approach%20of%20urban%20low-carbon%20transport&journal=Adv.%20Mater.%20Res.&doi=10.4028%2Fwww.scientific.net%2FAMR.989-994.1328&volume=989%E2%80%93994&pages=1328-1332&publication_year=2014&author=Gao%2CXL&author=Hu%2CTJ&author=Peng%2CP"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Wu, H. & Zhao, X. Carbon emission early warning system modeling and simulation study of urban regional transportation. Int. J. Smart Home 10, 271–280 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.14257%2Fijsh.2016.10.8.26",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Carbon%20emission%20early%20warning%20system%20modeling%20and%20simulation%20study%20of%20urban%20regional%20transportation&journal=Int.%20J.%20Smart%20Home&doi=10.14257%2Fijsh.2016.10.8.26&volume=10&pages=271-280&publication_year=2016&author=Wu%2CH&author=Zhao%2CX"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Wang, Z., Zeng, J. & Chen, W. Impact of urban expansion on carbon storage under multi-scenario simulations in Wuhan, China. Environ. Sci. Pollut. Res. 29, 45507–45526 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-022-19146-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20urban%20expansion%20on%20carbon%20storage%20under%20multi-scenario%20simulations%20in%20Wuhan%2C%20China&journal=Environ.%20Sci.%20Pollut.%20Res.&doi=10.1007%2Fs11356-022-19146-6&volume=29&pages=45507-45526&publication_year=2022&author=Wang%2CZ&author=Zeng%2CJ&author=Chen%2CW"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Li, Z. & Deng, G.-Q. Simulation Of Urban Carbon Emission Model Based On Big Data Fusion Machine Learning Algorithm. in Proceedings of the 2023 4th International Conference on Computing, Networks and Internet of Things 235–239 https://doi.org/10.1145/3603781.3603821 (ACM, 2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Hu, X., Li, Z., Cai, Y. & Wu, F. Urban construction land demand prediction and spatial pattern simulation under carbon peak and neutrality goals: a case study of Guangzhou, China. J. Geogr. Sci. 32, 2251–2270 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11442-022-2046-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20construction%20land%20demand%20prediction%20and%20spatial%20pattern%20simulation%20under%20carbon%20peak%20and%20neutrality%20goals%3A%20a%20case%20study%20of%20Guangzhou%2C%20China&journal=J.%20Geogr.%20Sci.&doi=10.1007%2Fs11442-022-2046-x&volume=32&pages=2251-2270&publication_year=2022&author=Hu%2CX&author=Li%2CZ&author=Cai%2CY&author=Wu%2CF"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Tian, Y. & Zhao, X. Simulation of construction land expansion and carbon emission response analysis of Changsha⁃Zhuzhou⁃Xiangtan Urban Agglomeration based on Markov⁃PLUS model. Shengtai Xuebao 44, 129–142 (2024).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Simulation%20of%20construction%20land%20expansion%20and%20carbon%20emission%20response%20analysis%20of%20Changsha%E2%81%83Zhuzhou%E2%81%83Xiangtan%20Urban%20Agglomeration%20based%20on%20Markov%E2%81%83PLUS%20model&journal=Shengtai%20Xuebao&volume=44&pages=129-142&publication_year=2024&author=Tian%2CY&author=Zhao%2CX"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Wu, A.-B. et al. Multi-scenario simulation of construction land expansion and its impact on ecosystem carbon storage in Beijing-Tianjin-Hebei urban agglomeration. Huan jing ke xue= Huanjing kexue 45, 2828–2839 (2024).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multi-scenario%20simulation%20of%20construction%20land%20expansion%20and%20its%20impact%20on%20ecosystem%20carbon%20storage%20in%20Beijing-Tianjin-Hebei%20urban%20agglomeration&journal=Huan%20jing%20ke%20xue%3D%20Huanjing%20kexue&volume=45&pages=2828-2839&publication_year=2024&author=Wu%2CA-B"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Li, X., Liu, Z., Li, S., Li, Y. & Wang, W. Urban land carbon emission and carbon emission intensity prediction based on patch-generating land use simulation model and grid with multiple scenarios in Tianjin. Land 12, (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Hao, J. L. & Ma, W. Evaluating carbon emissions of construction and demolition waste in building energy retrofit projects. Energy 281, 128201 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.energy.2023.128201",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3sXhsVWjsr%2FF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Evaluating%20carbon%20emissions%20of%20construction%20and%20demolition%20waste%20in%20building%20energy%20retrofit%20projects&journal=Energy&doi=10.1016%2Fj.energy.2023.128201&volume=281&publication_year=2023&author=Hao%2CJL&author=Ma%2CW"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Migoni Alejandre, E., Koskamp, G., van de Leur, M., Wandl, A. & van Timmeren, A. Quantifying the life cycle emissions of hybrid structures with advanced bio- and conventional materialization for low-embodied carbon urban densification of the Amsterdam Metropolitan Area. J. Clean. Prod. 483, 144273 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2024.144273",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2cXis1ejtbrP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20the%20life%20cycle%20emissions%20of%20hybrid%20structures%20with%20advanced%20bio-%20and%20conventional%20materialization%20for%20low-embodied%20carbon%20urban%20densification%20of%20the%20Amsterdam%20Metropolitan%20Area&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2024.144273&volume=483&publication_year=2024&author=Migoni%20Alejandre%2CE&author=Koskamp%2CG&author=Leur%2CM&author=Wandl%2CA&author=Timmeren%2CA"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Kumanayake, R. & Luo, H. Life cycle carbon emission assessment of a multi-purpose university building: a case study of Sri Lanka. Front. Eng. Manag. https://doi.org/10.15302/J-FEM-2018055 (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Ramesh, T., Prakash, R. & Kumar Shukla, K. Life cycle energy analysis of a multifamily residential house: a case study in Indian context. Open J. Energy Effic. 02, 34–41 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.4236%2Fojee.2013.21006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Life%20cycle%20energy%20analysis%20of%20a%20multifamily%20residential%20house%3A%20a%20case%20study%20in%20Indian%20context&journal=Open%20J.%20Energy%20Effic.&doi=10.4236%2Fojee.2013.21006&volume=02&pages=34-41&publication_year=2013&author=Ramesh%2CT&author=Prakash%2CR&author=Kumar%20Shukla%2CK"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Hu, M. Embodied carbon emissions of the residential building stock in the united states and the effectiveness of mitigation strategies. Climate 10, 135 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fcli10100135",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Embodied%20carbon%20emissions%20of%20the%20residential%20building%20stock%20in%20the%20united%20states%20and%20the%20effectiveness%20of%20mitigation%20strategies&journal=Climate&doi=10.3390%2Fcli10100135&volume=10&publication_year=2022&author=Hu%2CM"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Gepts, B., Nuyts, E. & Verbeeck, G. Renovation rate as a tool towards achieving SDGs 11 and 13. IOP Conf. Ser. Earth Environ. Sci. 588, 042010 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1755-1315%2F588%2F4%2F042010",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Renovation%20rate%20as%20a%20tool%20towards%20achieving%20SDGs%2011%20and%2013&journal=IOP%20Conf.%20Ser.%20Earth%20Environ.%20Sci.&doi=10.1088%2F1755-1315%2F588%2F4%2F042010&volume=588&publication_year=2020&author=Gepts%2CB&author=Nuyts%2CE&author=Verbeeck%2CG"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Ghorbany, S., Hu, M., Sisk, M., Yao, S. & Wang, C. Passive over Active: How Low-Cost Strategies Influence Urban Energy Equity. Sustain. Cities Soc. 105723 https://doi.org/10.1016/j.scs.2024.105723 (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Ghorbany, S. et al. Examining the role of passive design indicators in energy burden reduction: Insights from a machine learning and deep learning approach. Build. Environ. 250, 111126 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.buildenv.2023.111126",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Examining%20the%20role%20of%20passive%20design%20indicators%20in%20energy%20burden%20reduction%3A%20Insights%20from%20a%20machine%20learning%20and%20deep%20learning%20approach&journal=Build.%20Environ.&doi=10.1016%2Fj.buildenv.2023.111126&volume=250&publication_year=2024&author=Ghorbany%2CS"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Yao, S., Ghorbany, S., Sisk, M., Hu, M. & Wang, C. Leveraging zero-shot learning on street-view imagery for built environment variable analysis. in 243–254 https://doi.org/10.1007/978-3-031-77389-1_19 (2025).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Ghorbany, S., Yousefi, S. & Noorzai, E. Evaluating and optimizing performance of public–private partnership projects using copula Bayesian network. Eng. Constr. Archit. Manag. https://doi.org/10.1108/ECAM-05-2022-0492 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Ghorbany, S., Noorzai, E. & Yousefi, S. BIM-based solution to enhance the performance of public-private partnership construction projects using copula bayesian network. Expert Syst. Appl. 216, 119501 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.eswa.2023.119501",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=BIM-based%20solution%20to%20enhance%20the%20performance%20of%20public-private%20partnership%20construction%20projects%20using%20copula%20bayesian%20network&journal=Expert%20Syst.%20Appl.&doi=10.1016%2Fj.eswa.2023.119501&volume=216&publication_year=2023&author=Ghorbany%2CS&author=Noorzai%2CE&author=Yousefi%2CS"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "NSI. NSI Technical References. https://www.hec.usace.army.mil/confluence/nsi/technicalreferences/latest (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Ayikoe Tettey, U. Y. & Gustavsson, L. Primary energy and CO 2 emissions implications of different insulation, cladding and frame materials for residential buildings. IOP Conf. Ser. Earth Environ. Sci. 297, 012020 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1755-1315%2F297%2F1%2F012020",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Primary%20energy%20and%20CO%202%20emissions%20implications%20of%20different%20insulation%2C%20cladding%20and%20frame%20materials%20for%20residential%20buildings&journal=IOP%20Conf.%20Ser.%20Earth%20Environ.%20Sci.&doi=10.1088%2F1755-1315%2F297%2F1%2F012020&volume=297&publication_year=2019&author=Ayikoe%20Tettey%2CUY&author=Gustavsson%2CL"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Gomez-Azpeitia, G., Arvizu, V. & Arena, P. CO2 emission by different building materials for walls: CASE: Housing in Colima, Mexico. in PLEA 2009 - Architecture Energy and the Occupant’s Perspective: Proceedings of the 26th International Conference on Passive and Low Energy Architecture (2009).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Ali, U., Shamsi, M. H., Hoare, C., Mangina, E. & O’Donnell, J. A data-driven approach for multi-scale building archetypes development. Energy Build 202, 109364 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enbuild.2019.109364",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20data-driven%20approach%20for%20multi-scale%20building%20archetypes%20development&journal=Energy%20Build&doi=10.1016%2Fj.enbuild.2019.109364&volume=202&publication_year=2019&author=Ali%2CU&author=Shamsi%2CMH&author=Hoare%2CC&author=Mangina%2CE&author=O%E2%80%99Donnell%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Ghorbany, S. & Hu, M. Urban embodied carbon assessment: methodology and insights from analyzing over a million buildings in Chicago. Carbon Manag. 15, (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Marsh, R. Building lifespan: effect on the environmental impact of building components in a Danish perspective. Archit. Eng. Des. Manag. 13, 80–100 (2017).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Building%20lifespan%3A%20effect%20on%20the%20environmental%20impact%20of%20building%20components%20in%20a%20Danish%20perspective&journal=Archit.%20Eng.%20Des.%20Manag.&volume=13&pages=80-100&publication_year=2017&author=Marsh%2CR"
+            }
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Harrison, R. L. Introduction to Monte Carlo simulation. in AIP conference proceedings vol. 1204 17 (NIH Public Access, 2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Ramezani Etedali, H., Adabi, V., Gorgin, F. & Azizian, A. The probabilistic behavior of AquaCrop parameters: a Monte-Carlo study. Stoch. Environ. Res. Risk Assess. 37, 717–734 (2023).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00477-022-02309-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20probabilistic%20behavior%20of%20AquaCrop%20parameters%3A%20a%20Monte-Carlo%20study&journal=Stoch.%20Environ.%20Res.%20Risk%20Assess.&doi=10.1007%2Fs00477-022-02309-9&volume=37&pages=717-734&publication_year=2023&author=Ramezani%20Etedali%2CH&author=Adabi%2CV&author=Gorgin%2CF&author=Azizian%2CA"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "Michiels, F. & Geeraerd, A. Two-dimensional Monte Carlo simulations in LCA: an innovative approach to guide the choice for the environmentally preferable option. Int. J. Life Cycle Assess. 27, 505–523 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11367-022-02041-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Two-dimensional%20Monte%20Carlo%20simulations%20in%20LCA%3A%20an%20innovative%20approach%20to%20guide%20the%20choice%20for%20the%20environmentally%20preferable%20option&journal=Int.%20J.%20Life%20Cycle%20Assess.&doi=10.1007%2Fs11367-022-02041-0&volume=27&pages=505-523&publication_year=2022&author=Michiels%2CF&author=Geeraerd%2CA"
+            }
+        },
+        {
+            "id": "ref-CR67",
+            "content": "Cook County Assessor’s Office. Assessor Residential Property Characteristics | Cook County Open Data. at https://datacatalog.cookcountyil.gov/Property-Taxation/Assessor-Archived-05-11-2022-Residential-Property-/bcnq-qi2z/about_data (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR68",
+            "content": "Dominguez, C., Kakkos, E., Gross, D., Hischier, R. & Orehounig, K. Renovated or replaced? Finding the optimal solution for an existing building considering cumulative CO2 emissions, energy consumption and costs—a case study. Energy Build 303, 113767 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enbuild.2023.113767",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Renovated%20or%20replaced%3F%20Finding%20the%20optimal%20solution%20for%20an%20existing%20building%20considering%20cumulative%20CO2%20emissions%2C%20energy%20consumption%20and%20costs%E2%80%94a%20case%20study&journal=Energy%20Build&doi=10.1016%2Fj.enbuild.2023.113767&volume=303&publication_year=2024&author=Dominguez%2CC&author=Kakkos%2CE&author=Gross%2CD&author=Hischier%2CR&author=Orehounig%2CK"
+            }
+        },
+        {
+            "id": "ref-CR69",
+            "content": "EEA. Building renovation: where circular economy and climate meet Key messages. Eur. Environ. Agency 1–13 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR70",
+            "content": "IEA. Renovation of near 20% of existing building stock to zero-carbon-ready by 2030 is ambitious but necessary. IEA at https://www.iea.org/reports/renovation-of-near-20-of-existing-building-stock-to-zero-carbon-ready-by-2030-is-ambitious-but-necessary (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR71",
+            "content": "Huang, Y., Wang, F., Hiscock, A. V., Satyarthi, J. & Smith, H. Including embodied carbon in assessing renovation options for industrial heritage buildings: a review and case studies. Sustain 17, 1–31 (2025).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Including%20embodied%20carbon%20in%20assessing%20renovation%20options%20for%20industrial%20heritage%20buildings%3A%20a%20review%20and%20case%20studies&journal=Sustain&volume=17&pages=1-31&publication_year=2025&author=Huang%2CY&author=Wang%2CF&author=Hiscock%2CAV&author=Satyarthi%2CJ&author=Smith%2CH"
+            }
+        },
+        {
+            "id": "ref-CR72",
+            "content": "Luo, X. et al. Life cycle assessment for carbon emission impact analysis for the renovation of old residential areas. J. Clean. Prod. 367, 132930 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2022.132930",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xit1CmsbbM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Life%20cycle%20assessment%20for%20carbon%20emission%20impact%20analysis%20for%20the%20renovation%20of%20old%20residential%20areas&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2022.132930&volume=367&publication_year=2022&author=Luo%2CX"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The data will be made available on request.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "We thank the institute staff for their support in data collection and sharing. We appreciate the faculty, staff, and students at the School of Architecture and the Department of Civil Engineering and Computer Science at the University of Notre Dame for their contributions. Special thanks to Siyuan Yao for the GIS visualizations. This study is funded by NSF (#2317971, #2430623), the University of Notre Dame’s Lucy Family Institute for Data & Society, and the Notre Dame–IBM Tech Ethics Lab.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsSiavash GhorbanyView author publicationsSearch author on:PubMed Google ScholarMing HuView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nConceptualization, M.H., and S.G.; methodology, M.H., and S.G.; software, S.G.; validation, M.H., and S.G.; formal analysis, S.G.; investigation, M.H., and S.G.; resources, M.H.; data curation, S.G.; writing—original draft preparation, S.G., and M.H.; writing—review and editing, M.H. and S.G.; visualization, S.G.; supervision, M.H.; project administration, M.H. and S.G.; funding acquisition, M.H.\n### Corresponding author\nCorrespondence to\n                Siavash Ghorbany.",
+            "links": {
+                "View author publications": "/search?author=Ming%20Hu",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Ming%20Hu",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Ming%20Hu%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Siavash Ghorbany": "mailto:sghorban@nd.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by-nc-nd/4.0/": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=A%20systematic%20framework%20to%20reduce%20urban%20embodied%20carbon%20emissions%20using%20urban%20scale%20simulation&author=Siavash%20Ghorbany%20et%20al&contentID=10.1038%2Fs42949-025-00196-x&copyright=The%20Author%28s%29&publication=2661-8001&publicationDate=2025-03-15&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY-NC-ND"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleGhorbany, S., Hu, M. A systematic framework to reduce urban embodied carbon emissions using urban scale simulation.\n                    npj Urban Sustain 5, 7 (2025). https://doi.org/10.1038/s42949-025-00196-xDownload citationReceived: 29 September 2024Accepted: 05 March 2025Published: 15 March 2025DOI: https://doi.org/10.1038/s42949-025-00196-xShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42949-025-00196-x?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "A systematic framework to reduce urban embodied carbon emissions using urban scale simulation",
+                "description": "The construction industry significantly contributes to carbon emissions. While individual buildings reduce emissions, city-wide policies can unintentionally increase urban emissions due to limited data and complex factors. This research presents a systematic framework for high-resolution urban building stock data and a simulation model to quantify embodied carbon impacts. Using the Chicago metropolitan area, over one million buildings and 350,000 iterations were simulated, providing insights into CO2 emissions under various urban planning scenarios. The study highlights that buildings with a 50-year lifespan emit three times more CO2 than those lasting 80 years, and a 20% change in building area can negate longevity benefits. Renovation strategies are recommended to extend lifespans, urging city planners to adopt regulations that promote renovations as buildings age. This research supports city planners, construction policymakers, and environmental engineers in mitigating urban carbon emissions effectively.",
+                "datePublished": "2025-03-15T00:00:00Z",
+                "dateModified": "2025-03-15T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "13",
+                "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "sameAs": "https://doi.org/10.1038/s42949-025-00196-x",
+                "keywords": [
+                    "Civil engineering",
+                    "Developing world",
+                    "Environmental impact",
+                    "Environment",
+                    "general",
+                    "Sustainable Development",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urbanism",
+                    "Urban Ecology"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00196-x/MediaObjects/42949_2025_196_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00196-x/MediaObjects/42949_2025_196_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00196-x/MediaObjects/42949_2025_196_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00196-x/MediaObjects/42949_2025_196_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00196-x/MediaObjects/42949_2025_196_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00196-x/MediaObjects/42949_2025_196_Fig6_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00196-x/MediaObjects/42949_2025_196_Fig7_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00196-x/MediaObjects/42949_2025_196_Fig8_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "npj Urban Sustainability",
+                    "issn": [
+                        "2661-8001"
+                    ],
+                    "volumeNumber": "5",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Siavash Ghorbany",
+                        "affiliation": [
+                            {
+                                "name": "University of Notre Dame",
+                                "address": {
+                                    "name": "Department of Civil and Environmental Engineering and Earth Sciences, College of Engineering, University of Notre Dame, Notre Dame, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "sghorban@nd.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Ming Hu",
+                        "affiliation": [
+                            {
+                                "name": "University of Notre Dame",
+                                "address": {
+                                    "name": "School of Architecture, Walsh Family Hall of Architecture, University of Notre Dame, Notre Dame, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "civil-engineering;developing-world;environmental-impact",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "npj Urban Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42949-025-00196-x"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Siavash Ghorbany",
+                            "Ming Hu"
+                        ],
+                        "publishedAt": 1741996800,
+                        "publishedAtString": "2025-03-15",
+                        "title": "A systematic framework to reduce urban embodied carbon emissions using urban scale simulation",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Civil engineering,Developing world,Environmental impact"
+                    },
+                    "journal": {
+                        "pcode": "npjurbansustain",
+                        "title": "npj urban sustainability",
+                        "volume": "5",
+                        "issue": "1",
+                        "id": 42949,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "A systematic framework to reduce urban embodied carbon emissions using urban scale simulation",
+            "dc.source": "npj Urban Sustainability 2025 5:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-03-15",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "The construction industry significantly contributes to carbon emissions. While individual buildings reduce emissions, city-wide policies can unintentionally increase urban emissions due to limited data and complex factors. This research presents a systematic framework for high-resolution urban building stock data and a simulation model to quantify embodied carbon impacts. Using the Chicago metropolitan area, over one million buildings and 350,000 iterations were simulated, providing insights into CO2 emissions under various urban planning scenarios. The study highlights that buildings with a 50-year lifespan emit three times more CO2 than those lasting 80 years, and a 20% change in building area can negate longevity benefits. Renovation strategies are recommended to extend lifespans, urging city planners to adopt regulations that promote renovations as buildings age. This research supports city planners, construction policymakers, and environmental engineers in mitigating urban carbon emissions effectively.",
+            "dc.identifier": "doi:10.1038/s42949-025-00196-x",
+            "dc.creator": "Hu, Ming",
+            "dc.subject": "Environmental impact",
+            "prism.issn": "2661-8001",
+            "prism.publicationName": "npj Urban Sustainability",
+            "prism.publicationDate": "2025-03-15",
+            "prism.volume": "5",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "13",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42949-025-00196-x",
+            "prism.doi": "doi:10.1038/s42949-025-00196-x",
+            "citation_pdf_url": "https://www.nature.com/articles/s42949-025-00196-x.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42949-025-00196-x",
+            "citation_journal_title": "npj Urban Sustainability",
+            "citation_journal_abbrev": "npj Urban Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2661-8001",
+            "citation_title": "A systematic framework to reduce urban embodied carbon emissions using urban scale simulation",
+            "citation_volume": "5",
+            "citation_issue": "1",
+            "citation_online_date": "2025/03/15",
+            "citation_firstpage": "1",
+            "citation_lastpage": "13",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42949-025-00196-x",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42949-025-00196-x&api_key=",
+            "citation_reference": "citation_journal_title=J. Clean. Prod.; citation_title=Life cycle assessment for carbon emission impact analysis for the renovation of old residential areas; citation_author=X Luo; citation_volume=367; citation_publication_date=2022; citation_pages=132930; citation_doi=10.1016/j.jclepro.2022.132930; citation_id=CR72",
+            "citation_author": "Hu, Ming",
+            "citation_author_institution": "School of Architecture, Walsh Family Hall of Architecture, University of Notre Dame, Notre Dame, USA",
+            "description": "The construction industry significantly contributes to carbon emissions. While individual buildings reduce emissions, city-wide policies can unintentionally increase urban emissions due to limited data and complex factors. This research presents a systematic framework for high-resolution urban building stock data and a simulation model to quantify embodied carbon impacts. Using the Chicago metropolitan area, over one million buildings and 350,000 iterations were simulated, providing insights into CO2 emissions under various urban planning scenarios. The study highlights that buildings with a 50-year lifespan emit three times more CO2 than those lasting 80 years, and a 20% change in building area can negate longevity benefits. Renovation strategies are recommended to extend lifespans, urging city planners to adopt regulations that promote renovations as buildings age. This research supports city planners, construction policymakers, and environmental engineers in mitigating urban carbon emissions effectively.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "A systematic framework to reduce urban embodied carbon emissions using urban scale simulation",
+            "twitter:description": "npj Urban Sustainability - A systematic framework to reduce urban embodied carbon emissions using urban scale simulation",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42949-025-00196-x/MediaObjects/42949_2025_196_Fig1_HTML.png",
+            "DOI": "10.1038/s42949-025-00196-x",
+            "size": "205036",
+            "journal_id": "42949"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42949-025-00196-x",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

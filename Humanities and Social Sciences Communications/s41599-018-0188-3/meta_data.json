@@ -1,0 +1,65 @@
+{
+    "id": "s41599-018-0188-3",
+    "title": "Comparing apples to apples: an environmental criminology analysis of the effects of heat and rain on violent crimes in Boston",
+    "journal": "Humanities and Social Sciences Communications",
+    "pdf_link": "https://www.nature.com/articles/s41599-018-0188-3",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "NOAA Climate Data Online weather observations for Boston Logan airport station",
+            "Data_summary": "Station-based meteorological observations from the Boston Logan airport monitoring station accessed via NOAA Climate Data Online, including air temperature, dew point temperature, precipitation occurrence and amount, windspeed, and snow indicators. The study uses these daily weather variables to compute heat index as an exposure metric and to define rainfall occurrence, and also uses wind and snow as background covariates in matching and outcome imputation models.",
+            "Category": "City-wide camera networks and meteorological stations",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Weather conditions from the Boston Logan airport monitoring station were obtained from the Climate Data Online provided by the National Oceanic and Atmospheric Administration NOAA2018, Location: Crime data analysis with the Rubin Causal Model Data description and analysis strategy, Confidence: high",
+            "Time_Coverage": "2012-07 to 2017-02",
+            "Geographic_Coverage": "United States > Massachusetts > Boston Logan Airport station",
+            "URL": "https://www.ncdc.noaa.gov/cdo-web",
+            "ref": [
+                "ref-CR33"
+            ]
+        },
+        {
+            "Data_Name": "Boston Police Department crime incident reports via City of Boston Data Portal",
+            "Data_summary": "Incident-level police crime reports collected by the Boston Police Department and published on the City of Boston open data portal, providing reported crime events with date and time and location details. The study aggregates incidents into daily counts for violent crime and specific offenses such as aggravated assault and larceny, and uses incident locations to discuss spatial heterogeneity by zip code areas.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the crime data come from crime incident reports between July 2012 and February 2017 collected by the Boston Police Department and made available on the City of Boston Data Portal 2018, Location: Crime data analysis with the Rubin Causal Model Data description and analysis strategy, Confidence: high",
+            "Time_Coverage": "2012-07 to 2017-02",
+            "Geographic_Coverage": "United States > Massachusetts > Boston",
+            "URL": "https://data.cityofboston.gov",
+            "ref": [
+                "ref-CR11"
+            ]
+        },
+        {
+            "Data_Name": "Los Angeles city crime data via data lacity org",
+            "Data_summary": "City open data from Los Angeles used to reproduce the same weather crime analysis strategy as a comparison case, producing daily crime counts for violent crimes to assess heat index and rainfall relationships in Los Angeles as described in the discussion and supplementary materials.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We applied the same analysis strategy to Los Angeles LA crime data a city with a smaller weather spectrum see Supplementary Material G, Location: Discussion, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > California > Los Angeles",
+            "URL": "https://data.lacity.org",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data Availability",
+            "Data_summary": "A Dataverse repository deposit containing the datasets analyzed in the study, derived from NOAA Climate Data Online and city open data portals for Boston and Los Angeles. It serves as the bundled access point for the specific data files used in the analyses.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The datasets analyzed during the current study are available in the Dataverse repository https doi org 10 7910 DVN 4UZ9D4, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://doi.org/10.7910/DVN/4UZ9D4",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:36.944649"
+    }
+}

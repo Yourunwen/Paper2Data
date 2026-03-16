@@ -1,0 +1,1075 @@
+{
+    "id": "s41558-025-02391-1",
+    "journal": "Nature Climate Change",
+    "type": "article",
+    "title": "Reduction of methane emissions through improved landfill management",
+    "legal_title": "Reduction of methane emissions through improved landfill management",
+    "publish_time": "2025-07-28",
+    "pdf_link": "https://www.nature.com/articles/s41558-025-02391-1",
+    "storage_path": "./Articles/Nature Climate Change/2025-article/s41558-025-02391-1/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Solid waste in landfills continuously emits methane, which has become the third-largest anthropogenic source of methane emissions globally. The methane emissions from landfills exhibit substantial variability due to factors such as waste management practices and climatic conditions. Here we assessed methane emissions from 102 high-emitting landfills worldwide under different management strategies and climate conditions using 5 years of satellite observations. We find that, for these sites, total methane emissions from open dumps are underestimated by a factor of 5.3 ± 0.3 in the EDGAR v8.0 inventory. Transforming open dumpsites worldwide into sanitary landfills, while diverting organic waste to composters and biodigesters, can decrease methane emissions by 80% (60–89%), offering a mitigation potential of 760 (570–850) Mt CO2e annually. These results highlight that prioritizing improved waste management in developing countries, supported by economic and technological measures, represents one of the most effective strategies for mitigating methane emissions from the solid waste sector.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "The plume images detected in this study are available via Figshare at https://doi.org/10.6084/m9.figshare.29247518.v2 (ref. 59). Meteorological reanalysis data, including 10-m wind speed, temperature, humidity and atmospheric pressure, can be obtained from the Copernicus Climate Change Service (C3S) (2017): ERA5, the fifth-generation ECMWF global climate atmospheric reanalysis, available through the Copernicus Climate Data Store (CDS) at https://cds.climate.copernicus.eu. Information on organic waste addition in landfills across 330 cities globally can be found in the ‘What a Waste Global Database’ at https://datacatalog.worldbank.org/search/dataset/0039597. TROPOMI data (S5P L2 CH4 OFFLINE) are available daily via the Copernicus Open Access Hub at https://scihub.copernicus.eu. EDGAR v8.0 data are available at https://edgar.jrc.ec.europa.eu/dataset_ghg80. The US Environmental Protection Agency’s GHGRP inventory is available at https://ghgdata.epa.gov. US airborne measurement data are available via the Carbon Mapper website at https://data.carbonmapper.org. Source data are provided with this paper.",
+            "links": {
+                "https://doi.org/10.6084/m9.figshare.29247518.v2": "https://doi.org/10.6084/m9.figshare.29247518.v2",
+                "59": "/articles/s41558-025-02391-1#ref-CR59",
+                "https://cds.climate.copernicus.eu": "https://cds.climate.copernicus.eu/cdsapp#!/home",
+                "https://datacatalog.worldbank.org/search/dataset/0039597": "https://datacatalog.worldbank.org/search/dataset/0039597",
+                "https://scihub.copernicus.eu": "https://scihub.copernicus.eu/",
+                "https://edgar.jrc.ec.europa.eu/dataset_ghg80": "https://edgar.jrc.ec.europa.eu/dataset_ghg80",
+                "https://ghgdata.epa.gov": "https://ghgdata.epa.gov/",
+                "https://data.carbonmapper.org": "https://data.carbonmapper.org/",
+                "Source data": "/articles/s41558-025-02391-1#Sec12"
+            }
+        },
+        "Code availability": {
+            "content": "The detailed programming codes used in this study arre available via CodeOcean at https://codeocean.com/capsule/5716215/tree/v4 (ref. 60).",
+            "links": {
+                "https://codeocean.com/capsule/5716215/tree/v4": "https://codeocean.com/capsule/5716215/tree/v4",
+                "60": "/articles/s41558-025-02391-1#ref-CR60"
+            }
+        },
+        "Acknowledgements": {
+            "content": "T.C. acknowledges support from the National Key Research and Development Program of China (grant no. 2022YFB3904801). We thank the Italian Space Agency for the free PRISMA data used in this study.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsHaoran TongView author publicationsSearch author on:PubMed Google ScholarTianhai ChengView author publicationsSearch author on:PubMed Google ScholarXingyu LiView author publicationsSearch author on:PubMed Google ScholarHao ZhuView author publicationsSearch author on:PubMed Google ScholarXiaotong YeView author publicationsSearch author on:PubMed Google ScholarDonghao FanView author publicationsSearch author on:PubMed Google ScholarTao TangView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nH.T. performed most of the data analysis, made figures and wrote the first draft with support from T.C. and others. T.C. designed, managed and obtained funding for the project. X.L. and X.Y. helped calculate methane emissions and drafted some of the Methods section. T.C. H.Z., X.Y., D.F. and T.T. assisted in collecting, analysing and illustrating the data. T.C. drafted the introduction and performed some of the literature review. All authors edited the paper and approved its submission.\n### Corresponding author\nCorrespondence to\n                Tianhai Cheng.",
+            "links": {
+                "View author publications": "/search?author=Tao%20Tang",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Tao%20Tang",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Tao%20Tang%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Methods": "/articles/s41558-025-02391-1#Sec4",
+                "Tianhai Cheng": "mailto:chength@aircas.ac.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Climate Change thanks Rona Thompson, Ke Yin and the other, anonymous, reviewer for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data": {
+            "content": "Extended Data Fig. 1 Typical Landfill True Color Satellite Images.a, Algeria, b, Mexico, c, Iran, d, Brazil, e, United States, f, China. a–c are open dumpsites, while d–f are sanitary landfills. Credit: background satellite images, Google Earth Imagery © 2024 Maxar Technologies.Extended Data Fig. 2 Distribution of methane emissions from the U.S. solid waste sector.Quantified by the Next-Generation Airborne Visible/Infrared Imaging Spectrometer (AVIRIS-NG) and the Global Airborne Observatory (GAO) airborne campaigns between September 2016 and June 2024(10 kg h−1 detection limit). To derive emission rates per overpass from airborne data, individual plumes detected within the same landfill were spatially clustered to represent a single emission event. Data were provided by Carbon Mapper. Figure adapted with permission from ref. 13, AAAS.Source dataExtended Data Fig. 3 Relationship Between Average Methane Emission Flux and Food Organic Content in Landfills.Box plots show the median (solid line), the 25th and 75th percentiles (box edges), and whiskers extend to the most extreme data points within 1.5× the interquartile range.Source dataExtended Data Fig. 4 Comparison of Total Annual Methane Emissions from Landfills Detected by PRISMA with the EDGAR v8.0 Global Inventory (Classified by Country).Blue bars represent sanitary landfills, while orange bars represent open landfills. The shaded area indicates the total annual average methane emissions recorded by EDGAR v8.0 from 2019 to 2022 for these landfills. The numbers inside the bars represent the count of each landfill type in the statistics, and the numbers above the bars indicate the total number of both landfill types. Black error bars represent ±1 SD around the mean emission estimate, calculated across all landfills within each country.Source dataExtended Data Fig. 5 Example Methane Emission Rates from US Landfills.The first three bars on the left represent estimates from different inventories—BAAQMD (blue), EDGAR (orange), and US EPA (green). The bar on the right represents PRISMA measurements (red). The numbers within the red bars indicate the number of effective measurements for each landfill. Black error bars represent ±1 SD around the mean (or estimated measurement uncertainty for single-retrieval cases). EDGAR data from ref. 34, BAAQMD data from ref. 36 and GHGRP data from ref. 37.Source data",
+            "links": {
+                "Extended Data Fig. 1 Typical Landfill True Color Satellite Images.": "/articles/s41558-025-02391-1/figures/5",
+                "Extended Data Fig. 2 Distribution of methane emissions from the U.S. solid waste sector.": "/articles/s41558-025-02391-1/figures/6",
+                "13": "/articles/s41558-025-02391-1#ref-CR13",
+                "Source data": "/articles/s41558-025-02391-1#MOESM9",
+                "Extended Data Fig. 3 Relationship Between Average Methane Emission Flux and Food Organic Content in Landfills.": "/articles/s41558-025-02391-1/figures/7",
+                "Extended Data Fig. 4 Comparison of Total Annual Methane Emissions from Landfills Detected by PRISMA with the EDGAR v8.0 Global Inventory (Classified by Country).": "/articles/s41558-025-02391-1/figures/8",
+                "Extended Data Fig. 5 Example Methane Emission Rates from US Landfills.": "/articles/s41558-025-02391-1/figures/9",
+                "34": "/articles/s41558-025-02391-1#ref-CR34",
+                "36": "/articles/s41558-025-02391-1#ref-CR36",
+                "37": "/articles/s41558-025-02391-1#ref-CR37"
+            }
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Figs. 1–6.",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_MOESM1_ESM.pdf"
+            }
+        },
+        "Source data": {
+            "content": "Source Data Fig. 1Information on 102 landfills.Source Data Fig. 2Methane plume data in TIFF format. The files contain spatial distributions of methane enhancements retrieved from hyperspectral remote sensing observations.Source Data Fig. 3Information on plumes.Source Data Fig. 4Methane emissions from surveyed landfills in developing and developed countries.Source Data Extended Data Fig. 2Plume.Source Data Extended Data Fig. 3Food organic waste percentage (%) and methane emission flux for each landfill site.Source Data Extended Data Fig. 4Annual methane emissions from landfills monitored by PRISMA across various countries.Source Data Extended Data Fig. 5Comparison of methane emissions from four US landfills: PRISMA observations versus inventory reports.",
+            "links": {
+                "Source Data Fig. 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_MOESM2_ESM.tif",
+                "Source Data Fig. 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_MOESM3_ESM.xlsx",
+                "Source Data Fig. 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_MOESM4_ESM.xlsx",
+                "Source Data Fig. 4": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_MOESM5_ESM.xlsx",
+                "Source Data Extended Data Fig. 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_MOESM6_ESM.xlsx",
+                "Source Data Extended Data Fig. 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_MOESM7_ESM.xlsx",
+                "Source Data Extended Data Fig. 4": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_MOESM8_ESM.xlsx",
+                "Source Data Extended Data Fig. 5": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_MOESM9_ESM.xlsx"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Reduction%20of%20methane%20emissions%20through%20improved%20landfill%20management&author=Haoran%20Tong%20et%20al&contentID=10.1038%2Fs41558-025-02391-1&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20Limited&publication=1758-678X&publicationDate=2025-07-28&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleTong, H., Cheng, T., Li, X. et al. Reduction of methane emissions through improved landfill management.\n                    Nat. Clim. Chang. 15, 866–872 (2025). https://doi.org/10.1038/s41558-025-02391-1Download citationReceived: 13 November 2024Accepted: 26 June 2025Published: 28 July 2025Version of record: 28 July 2025Issue date: August 2025DOI: https://doi.org/10.1038/s41558-025-02391-1Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41558-025-02391-1?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Reduction of methane emissions through improved landfill management",
+                "description": "Solid waste in landfills continuously emits methane, which has become the third-largest anthropogenic source of methane emissions globally. The methane emissions from landfills exhibit substantial variability due to factors such as waste management practices and climatic conditions. Here we assessed methane emissions from 102 high-emitting landfills worldwide under different management strategies and climate conditions using 5 years of satellite observations. We find that, for these sites, total methane emissions from open dumps are underestimated by a factor of 5.3 ± 0.3 in the EDGAR v8.0 inventory. Transforming open dumpsites worldwide into sanitary landfills, while diverting organic waste to composters and biodigesters, can decrease methane emissions by 80% (60–89%), offering a mitigation potential of 760 (570–850) Mt CO2e annually. These results highlight that prioritizing improved waste management in developing countries, supported by economic and technological measures, represents one of the most effective strategies for mitigating methane emissions from the solid waste sector. Solid waste disposal is a major source of anthropogenic methane, yet estimating these emissions is difficult. Here the authors use satellite data to assess emissions from high-emitting landfills and find that transforming open sites to sanitary landfills could offer a large mitigation potential.",
+                "datePublished": "2025-07-28T00:00:00Z",
+                "dateModified": "2025-07-28T00:00:00Z",
+                "pageStart": "866",
+                "pageEnd": "872",
+                "sameAs": "https://doi.org/10.1038/s41558-025-02391-1",
+                "keywords": [
+                    "Atmospheric science",
+                    "Environmental sciences",
+                    "Environment",
+                    "general",
+                    "Climate Change",
+                    "Climate Change/Climate Change Impacts",
+                    "Environmental Law/Policy/Ecojustice"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Climate Change",
+                    "issn": [
+                        "1758-6798",
+                        "1758-678X"
+                    ],
+                    "volumeNumber": "15",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Haoran Tong",
+                        "url": "http://orcid.org/0009-0000-6625-0596",
+                        "affiliation": [
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "National Engineering Research Center for Remote Sensing Satellite Application, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Tianhai Cheng",
+                        "url": "http://orcid.org/0000-0001-7889-9579",
+                        "affiliation": [
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "National Engineering Research Center for Remote Sensing Satellite Application, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "chength@aircas.ac.cn",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Xingyu Li",
+                        "affiliation": [
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "National Engineering Research Center for Remote Sensing Satellite Application, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Hao Zhu",
+                        "url": "http://orcid.org/0000-0001-5079-9429",
+                        "affiliation": [
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "National Engineering Research Center for Remote Sensing Satellite Application, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Xiaotong Ye",
+                        "url": "http://orcid.org/0000-0003-2934-4256",
+                        "affiliation": [
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "National Engineering Research Center for Remote Sensing Satellite Application, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Donghao Fan",
+                        "url": "http://orcid.org/0000-0003-2147-0530",
+                        "affiliation": [
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "National Engineering Research Center for Remote Sensing Satellite Application, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Tao Tang",
+                        "url": "http://orcid.org/0009-0007-6735-8479",
+                        "affiliation": [
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "National Engineering Research Center for Remote Sensing Satellite Application, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "atmospheric-science;environmental-sciences",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Climate Change",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41558-025-02391-1"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Haoran Tong",
+                            "Tianhai Cheng",
+                            "Xingyu Li",
+                            "Hao Zhu",
+                            "Xiaotong Ye",
+                            "Donghao Fan",
+                            "Tao Tang"
+                        ],
+                        "publishedAt": 1753660800,
+                        "publishedAtString": "2025-07-28",
+                        "title": "Reduction of methane emissions through improved landfill management",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Atmospheric science,Environmental sciences"
+                    },
+                    "journal": {
+                        "pcode": "nclimate",
+                        "title": "nature climate change",
+                        "volume": "15",
+                        "issue": "8",
+                        "id": 41558,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Reduction of methane emissions through improved landfill management",
+            "dc.source": "Nature Climate Change 2025 15:8",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-07-28",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rights": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Solid waste in landfills continuously emits methane, which has become the third-largest anthropogenic source of methane emissions globally. The methane emissions from landfills exhibit substantial variability due to factors such as waste management practices and climatic conditions. Here we assessed methane emissions from 102 high-emitting landfills worldwide under different management strategies and climate conditions using 5 years of satellite observations. We find that, for these sites, total methane emissions from open dumps are underestimated by a factor of 5.3 ± 0.3 in the EDGAR v8.0 inventory. Transforming open dumpsites worldwide into sanitary landfills, while diverting organic waste to composters and biodigesters, can decrease methane emissions by 80% (60–89%), offering a mitigation potential of 760 (570–850) Mt CO2e annually. These results highlight that prioritizing improved waste management in developing countries, supported by economic and technological measures, represents one of the most effective strategies for mitigating methane emissions from the solid waste sector. Solid waste disposal is a major source of anthropogenic methane, yet estimating these emissions is difficult. Here the authors use satellite data to assess emissions from high-emitting landfills and find that transforming open sites to sanitary landfills could offer a large mitigation potential.",
+            "dc.identifier": "doi:10.1038/s41558-025-02391-1",
+            "dc.creator": "Tang, Tao",
+            "dc.subject": "Environmental sciences",
+            "prism.issn": "1758-6798",
+            "prism.publicationName": "Nature Climate Change",
+            "prism.publicationDate": "2025-07-28",
+            "prism.volume": "15",
+            "prism.number": "8",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "866",
+            "prism.endingPage": "872",
+            "prism.copyright": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41558-025-02391-1",
+            "prism.doi": "doi:10.1038/s41558-025-02391-1",
+            "citation_pdf_url": "https://www.nature.com/articles/s41558-025-02391-1.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41558-025-02391-1",
+            "citation_journal_title": "Nature Climate Change",
+            "citation_journal_abbrev": "Nat. Clim. Chang.",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "1758-6798",
+            "citation_title": "Reduction of methane emissions through improved landfill management",
+            "citation_volume": "15",
+            "citation_issue": "8",
+            "citation_publication_date": "2025/08",
+            "citation_online_date": "2025/07/28",
+            "citation_firstpage": "866",
+            "citation_lastpage": "872",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41558-025-02391-1",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41558-025-02391-1&api_key=",
+            "citation_reference": "Tong, H. Significant reduction of methane emissions through improved landfill management [source code]. CodeOcean \n                  https://doi.org/10.24433/CO.8032459.v4\n                  \n                 (2025).",
+            "citation_author": "Tang, Tao",
+            "citation_author_institution": "University of Chinese Academy of Sciences, Beijing, China",
+            "description": "Solid waste in landfills continuously emits methane, which has become the third-largest anthropogenic source of methane emissions globally. The methane emissions from landfills exhibit substantial variability due to factors such as waste management practices and climatic conditions. Here we assessed methane emissions from 102 high-emitting landfills worldwide under different management strategies and climate conditions using 5 years of satellite observations. We find that, for these sites, total methane emissions from open dumps are underestimated by a factor of 5.3 ± 0.3 in the EDGAR v8.0 inventory. Transforming open dumpsites worldwide into sanitary landfills, while diverting organic waste to composters and biodigesters, can decrease methane emissions by 80% (60–89%), offering a mitigation potential of 760 (570–850) Mt CO2e annually. These results highlight that prioritizing improved waste management in developing countries, supported by economic and technological measures, represents one of the most effective strategies for mitigating methane emissions from the solid waste sector. Solid waste disposal is a major source of anthropogenic methane, yet estimating these emissions is difficult. Here the authors use satellite data to assess emissions from high-emitting landfills and find that transforming open sites to sanitary landfills could offer a large mitigation potential.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Reduction of methane emissions through improved landfill management",
+            "twitter:description": "Nature Climate Change - Solid waste disposal is a major source of anthropogenic methane, yet estimating these emissions is difficult. Here the authors use satellite data to assess emissions from...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41558-025-02391-1/MediaObjects/41558_2025_2391_Fig1_HTML.png",
+            "DOI": "10.1038/s41558-025-02391-1",
+            "size": "154927",
+            "journal_id": "41558"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41558-025-02391-1",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "With population growth, the amount of solid waste generated annually reached 2.1 billion tonnes in 20231. The solid waste sector is the third-largest anthropogenic source of methane (CH4), accounting for approximately 11% of global methane emissions2. Methane is the second most important greenhouse gas globally, following carbon dioxide, with a global warming potential over 100 years that is 28 times greater than that of carbon dioxide3. Without mitigation measures, it is projected that, by 2050, greenhouse gas emissions from solid waste will reach 2.6 billion metric tonnes of CO2 equivalent (CO2e) annually, approaching the current non-CO2 greenhouse emissions from the global energy sector (3.4 billion metric tonnes)4,5. This increase would severely hinder the achievement of the 1.5 °C climate target by the end of the twenty-first century3. Therefore, methane mitigation in the solid waste sector is critical, requiring a comprehensive understanding of the underlying emission mechanisms.\nThe primary basis for government methane emissions reporting and mitigation policies are ‘bottom-up’ inventories, which rely on compilations of ground-based observations, model simulations and emission factors applied to data on waste production6. Current bottom-up inventories rely on first-order decay (FOD) landfill gas (LFG) generation models, such as those from the Intergovernmental Panel on Climate Change (IPCC) and the Landfill Gas Emissions Model (LandGEM)6,7. However, these models do not account for factors such as landfill cover types, local meteorological conditions, terrain, infrastructure or methane leakage due to accidental events7,8. As a result, physical models exhibit substantial uncertainty in estimating methane emissions from landfills, making it difficult to accurately characterize methane emission trends in the solid waste sector. This limitation hinders a more comprehensive understanding of global-scale methane emissions from solid waste9.\nField measurements have been effectively used to quantify methane emissions from landfills, providing a means to calibrate inventories10. These measurements have revealed that the LandGEM may underestimate LFG emissions by as much as 80% (ref. 11). However, most studies have focused on developed countries, where sanitary landfills equipped with covers and gas collection systems are widespread4,12. By contrast, open landfills, common in developing countries, allow waste to directly interact with air, leading to the uncontrolled release of methane into the atmosphere. It is estimated that approximately 92% of landfill waste in developing countries is managed in open dumps4. Due to a lack of political and economic incentives, as well as the high technical costs, field measurements in open landfills in developing countries remain challenging. Aerial observations are widely recognized as an effective complement to ground-based measurements7,13,14. However, airborne in situ measurements require frequent repetition to monitor emissions and are constrained by cost and air traffic regulations, making large-scale global application difficult13.\nWith advances in satellite technology, it has become feasible to monitor high-emitting facility-level methane emissions globally using high-resolution satellite instruments15,16,17. Recent studies have successfully designed and implemented a method that leverages TROPOMI and GHGSat as complementary satellite data sources to jointly detect, identify and quantify methane emissions from landfills18. Here, we aim to quantify the impact of various landfill management practices and climatic conditions on methane emissions on a global scale using satellite data. The PRISMA satellite, with its spatial resolution of 30 × 30 m2, provides hypespectral imagery sensitive to plumes from sources emitting at rates above 500 kg h−1 (ref. 16). This study utilizes PRISMA satellite imagery from 2019 onwards, applying a methane retrieval algorithm known as the matched filter16,19. We detect and identify methane point sources at 102 landfills across 24 developing and 4 developed countries. We use the integrated mass enhancement (IME) method to quantify methane emission rates, investigating the effects of different waste management practices and climatic conditions on methane emissions in the solid waste sector20,21. The global mitigation benefits of replacing open dumpsites with sanitary landfills are also examined.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR12",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR21",
+                "ref-CR15",
+                "ref-CR7",
+                "ref-CR19"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "Using PRISMA data from 2019 to 2024, methane column mole fractions are derived through the matched filter algorithm to detect landfill methane emissions globally16,19 (500 kg h−1 detection limit; Methods). A total of 367 valid plumes from 102 landfills are identified (Fig. 1a), covering nearly all regions where landfilling is the primary solid waste management method4. Approximately two-thirds of the detected plumes originate from developing countries (Fig. 1c). The number of plumes detected at individual landfills depends on the satellite overpass frequency and weather conditions. More than 80% of landfills have more than two observations, with ten landfills have plumes detected more than nine times (Fig. 1b), the highest being the Potrero Hills Landfill in San Francisco, USA, with 38 detections. To classify landfills as open or sanitary, high-resolution satellite imagery is used to assess the extent of exposed waste and the presence of leachate collection pools4,12,22,23. Of the total, 82 landfills are verified using publicly available information (Supplementary Data 1). Typical examples of open dumps and sanitary landfills show clear differences in exposed dumping and coverage layers (Extended Data Fig. 1).\nAfter excluding cloud-covered scenes, methane emission rates from detected plumes were quantified using the IME method15,16,18,19 (Methods). To avoid sampling bias due to PRISMA’s detection threshold, emission persistence (number of detections/number of effective overpasses) was used to estimate the average emission rate for each landfill13,18,24 (Methods and Supplementary Fig. 2). Analysis of the airborne measurements confirmed that landfill methane emissions were predominantly driven by large events, consistent with findings from previous studies14,25 (Extended Data Fig. 2). To validate the IME method for satellite-based observations, the average emission rates from 14 US landfills, based on airborne measurements, and the emissions reported to the Greenhouse Gas Reporting Program (GHGRP) were used as reference data13. A comparison between PRISMA-derived average emission rates and the validation data indicates a high correlation (R = 0.77, P < 0.001), with a minor bias (y = 0.75x + 337), despite the sparse and discrete sampling conditions of both airborne and PRISMA measurements (Figs. 1d and 2).\nMethane emission fluxes (rate per unit area), normalized by landfill size, vary substantially with waste management practices. The median emission flux for sanitary landfills is 2.0 (95% confidence interval (CI) 1.3–3.0) t h−1 km−2, which is significantly lower than that of open landfills (9.6 (95% CI 6.0–14.8) t h−1 km−2, P < 0.001). Among the high-emitting landfills with detectable plumes, sanitary landfills exhibit an 80% (60%–89%) lower median methane flux per unit area compared with open dumps (Fig. 3a). This highlights the effectiveness of impermeable covers and LFG collection systems in sanitary landfills, which substantially reduce net methane emissions. By contrast, open dumpsites, where waste is simply piled on open ground, provide more opportunities for methane to be directly released into the atmosphere4,18.\nIn contrast to the stable emissions observed in the oil and gas industry, extensive studies show that variations in meteorological parameters are sufficient to cause fluctuations in methane emissions from landfills6,26,27,28. To investigate this relationship, we analyse the dependence of methane fluxes on temperature and absolute humidity for two types of landfill (Fig. 3b,c). To isolate the effects of each variable, only plumes detected under absolute humidity conditions of 5–11 g kg−1 are considered when examining the impact of temperature, while only plumes observed at surface temperatures between 19 °C and 30 °C are included when assessing the influence of absolute humidity. Regarding atmospheric pressure, excessive repeat data from the same landfill in a given sample box could introduce sampling bias. Therefore, we limit the comparison to the emission flux from the Sana’a Province landfill in Yemen, in relation to atmospheric pressure29 (Supplementary Fig. 3), and the results are consistent with previous studies.\nIn open dumps, significantly lower methane emission fluxes are observed in the group with the highest surface temperature compared with other groups (P < 0.001). This is attributed to the enhanced activity of methane-oxidizing bacteria at higher temperatures, which increases the oxidation of CH4 to CO2, leading to a loss of methane through the oxidation process26. Humidity analysis further reveals that landfills in conditions of higher ambient humidity tended to exhibit greater methane fluxes than those in drier conditions. This is attributed to the increased moisture content in the landfill body, which facilitates the hydrolysis of organic matter by anaerobic microorganisms, leading to higher production of LFG, primarily composed of CH4 (ref. 30). Furthermore, a comparison of the average emission flux across various landfills with the amount of organic waste added (Extended Data Fig. 3) reveals a strong increase in methane production as the biodegradable content in landfills increases.\nThe Emissions Database for Global Atmospheric Research (EDGAR) provides greenhouse gas emissions on a 0.1° × 0.1° grid, with methane emissions from landfills calculated using the IPCC Tier 1 FOD model, which does not account for landfill management types31,32,33. To evaluate consistency with satellite-based observations, emission estimates from PRISMA are compared against those from the nearest EDGAR v8.0 grid cell for each landfill34 (Fig. 4a and Methods). The findings indicate that the annual methane emissions from 102 landfills quantified by PRISMA (2.7 (95% CI 2.6–2.8) Tg yr−1) are 3.5 (95% CI 3.3–3.7) times higher than the estimates from EDGAR v8.0 (0.77 Tg yr−1) globally. The uncertainty reflects cumulative error propagation35. The discrepancy in developed countries (1.7 (95% CI 1.5–1.9) times higher) is lower than in developing countries (4.7 (95% CI 4.4–5.0) times higher). This difference is attributed to varying landfill management practices, with developed countries predominantly using sanitary landfills, while up to 98% of open dumping occurs in developing countries, leading to different biases in EDGAR v8.0 inventory estimates4. The clay and vegetation cover layers of sanitary landfills effectively isolate waste from the surrounding environment, creating a more stable and controlled bioreactor environment for organic decomposition. As a result, methane emissions from these sites are more accurately estimated by the FOD model adopted in EDGAR. By contrast, the uncontrolled emissions and frequent leakages from open landfills are difficult to predict using such models. Statistical analysis of the dataset reveals that, among landfills where methane plumes are observed, the annual emissions from sanitary landfills are 2.2 times (95% CI 2.0–2.4) those reported by EDGAR v8.0, while for open landfills, the emissions are underestimated by a factor of 5.3 (95% CI 5.0–5.6). This discrepancy underscores the lack of consideration for regional differences in waste management practices the FOD model, which may be a key factor in the substantial underestimation of methane emissions from the solid waste sector in developing countries. Across 16 countries (Extended Data Fig. 4), the ratio of PRISMA-derived emissions to EDGAR v8.0 estimates ranges from 1.1 (95% CI 0.9–1.3, Mexico) to 19.4 (95% CI 17.9–20.9, India) in countries with more than three observed landfill sites. Although EDGAR v8.0 generally underestimates emissions compared with PRISMA observations, some landfills exhibit agreement with PRISMA measurements, particularly in countries with highly regulated landfill operations. For example, across 22 sanitary landfills in the USA, the total emissions estimated by EDGAR v8.0 differ from PRISMA-derived values by less than 15%. In addition, for four landfills in the San Francisco Bay Area of California, emissions reported by the Bay Area Air Quality Management District (BAAQMD) and the GHGRP are also compared5,36,37 (Extended Data Fig. 5). Both inventories provide facility-level estimates. Unlike the general underestimation observed at most landfills, the emissions from Newby Island Sanitary Landfill are overestimated, probably due to its advanced LFG collection system38. Although such facility-level inventories offer more accurate representations of greenhouse gas emissions, enabling satellites to better inform targeted regulatory actions and assess policy effectiveness, they remain rare globally.\nIn addition to underestimating emissions from most high-emitting landfills, the EDGAR v8.0 inventory assumes that methane emissions from the solid waste sector remain constant throughout the year. The conventional approach of uniform temporal distribution, based on annual statistical data39, fails to capture seasonal trends, episodic high-emission events or other atmospheric processes. Monthly methane emission profiles for 85 landfills in the Northern Hemisphere reveal distinct monthly and seasonal variations (Fig. 4b). For the landfills studied in the Northern Hemisphere, methane emissions are higher in winter than in other seasons, consistent with continuous ground-based monitoring of landfills40,41.",
+            "cites": [
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR36",
+                "ref-CR38",
+                "ref-CR39",
+                "ref-CR25",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR22",
+                "ref-CR14",
+                "ref-CR12",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR16",
+                "ref-CR40",
+                "ref-CR18",
+                "ref-CR28",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR37",
+                "ref-CR26",
+                "ref-CR41",
+                "ref-CR33",
+                "ref-CR19",
+                "ref-CR32",
+                "ref-CR23"
+            ],
+            "figures": [
+                "figure-4",
+                "figure-1",
+                "figure-2",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "If all open dumpsites were to be converted to sanitary landfills by 2030, global methane emissions from these sites could be reduced by 80% (95% CI 60–89%) and would lend confidence to achieving the COP26 commitment of a 30% reduction in global methane emissions by 2030. It is estimated that, by 2030, landfill emissions will reach 1,173 Mt CO2e, and converting all open dumpsites worldwide to sanitary landfills could yield an annual reduction potential of 760 (95% CI 570–850) Mt CO2e (refs. 2,5), accounting for 29% (95% CI 22–32%) of the global CH4 emissions reduction potential (2,640 Mt CO2e). This finding is crucial for methane reduction policy formulation, especially in developing countries. Strategically upgrading high-emitting open dumpsites to sanitary landfills can lead to substantial methane reductions, even under material and cost constraints. Furthermore, collecting methane from sanitary landfills for power generation can save 47% of the total landfill operating costs42,43,44,45. Despite the budgetary challenges faced by waste management, which competes with education, healthcare and other public services, the economic benefits of sanitary landfills provide a compelling argument for prioritizing such investments. According to estimates by the US Environmental Protection Agency, 31% of the mitigation potential for non-CO2 greenhouse gas emissions from landfills by 2030 is cost-effective (below US$0 per tonne of CO2e), compared with only 3% in the coal sector and 12% in oil and gas5. When considering mitigation options above US$0 per tonne of CO2e, the marginal abatement cost in the energy sector exceeds that in the waste sector by US$10–100 per tonne of CO2e, increasing with higher reduction levels. For the same reduction of 760 (95% CI 570–850) Mt CO2e yr−1, improving landfill practices could save billions to tens of billions of dollars in mitigation costs each year, offering a more cost-effective pathway than equivalent reductions in the energy sector5,6.\nSatellite remote sensing proves to be an effective tool for detecting methane emissions from high-emitting landfills under varying management practices and climatic conditions. It was found that EDGAR v8.0 inventory substantially underestimates methane emissions from most open landfills (by a factor of 5.3 (95% CI 5.0–5.6)). Direct satellite observations can be used to validate methane emission inventories in the solid waste sector and improve existing models, particularly for open landfills, enhancing the accuracy of emission estimates. This provides crucial data for policy development in developing countries. Furthermore, satellites highlight the considerable potential for optimizing inventory accuracy over time. Although the temporal distribution in this study was limited to monthly intervals, future efforts could leverage multisource satellite data fusion for large-scale, continuous monitoring of global landfills. This would create a comprehensive sampling database to improve LFG emission models under diverse climate conditions and provide an observational benchmark for constructing daily or hourly emission time series inventories.\nNavigating the complexities of global landfill methane emission models and discrete measurements, satellite remote sensing offers a new perspective, providing a clearer and more comprehensive view. While this study is preliminary in terms of completeness and temporal coverage, the results suggest a shift in modelling approaches. This approach has the potential to move landfill monitoring from isolated, sporadic measurements to large-scale, continuous surveillance, much like the role meteorological satellites play in weather forecasting.\nWith advances in satellite technology towards higher spatial and spectral resolution, a globally applicable method for accurately quantifying facility-level methane emissions from the solid waste sector may become feasible in the future. However, substantial challenges remain. Technically, due to limitations in detection capability, current satellites can detect only relatively large emission sources (for example, ~5 t h−1 for TROPOMI, ~500 kg h−1 for PRISMA and as low as ~100 kg h−1 for GHGSat)16,18. In addition, due to cloud cover and revisit frequency, satellite observations are intermittent, potentially missing a large fraction of global methane emissions. Expanding satellite networks with higher detection capacity would enhance coverage and improve quantification accuracy. Simultaneously, improvements in emission inventories are needed, particularly by increasing temporal resolution to daily or hourly scales and spatial resolution to the facility level. In this context, satellite observations could serve as valuable reference data. Nonetheless, the high cost of satellite monitoring remains a critical barrier, especially for low- and middle-income countries, where the majority of landfills and dumpsites are located. Currently, several satellites, including TROPOMI and PRISMA, have made their methane products or high-resolution spectral data publicly available16,46. To fully harness the benefits of satellite-based methane monitoring, it is essential to integrate ground-based methane monitoring network data, which will enhance both the accuracy and the timeliness of satellite observations. We advocate for global data sharing of ground-based monitoring results. Given that climate change is a global issue, it is imperative that countries establish data-sharing mechanisms. For accessibility and cost-effectiveness, a public platform for the global collection and release of methane emissions data should be created, providing open access to data on global solid waste methane emissions monitoring. This would foster regional cooperation, potentially promoting knowledge transfer and data sharing, which could accelerate the adoption of satellite monitoring technologies. Satellites such as EMIT, PRISMA, GHGSat and TROPOMI have already conducted small-scale sampling of point-source emissions from landfills17,47. The MethaneSAT, launched in March 2024, is set to release free data in 2025. With a 200-km scan width and high revisit frequency, it can cover a much broader area than PRISMA48. Combining facility-level top-down methods with traditional bottom-up approaches would substantially enhance understanding of methane emissions in the solid waste sector.",
+            "cites": [
+                "ref-CR47",
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR2",
+                "ref-CR18",
+                "ref-CR48",
+                "ref-CR45",
+                "ref-CR6",
+                "ref-CR42",
+                "ref-CR43",
+                "ref-CR16",
+                "ref-CR44",
+                "ref-CR46"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Matched-filter-based methane retrieval method\nThe PRISMA satellite’s hyperspectral data were processed using a physics-based and data-driven matched-filter approach to detect elevated methane concentrations16. Launched on 22 March 2019, PRISMA is equipped with an advanced visible to near-infrared and short-wave infrared (VNIR-SWIR) imaging spectrometer and a high-resolution panchromatic camera51. The SWIR detector covers 174 spectral bands from 920 to 2,500 nm, with a spatial resolution of 30 m × 30 m and an image size of 30 km × 30 km (ref. 51).\nMatched-filter has been widely used in satellite-based quantification of methane point sources in the oil and gas industry. The fundamental concept of matched-filter involves representing the input spectrum of each pixel as the background radiance unaffected by methane, plus radiance disturbances caused by variations in methane column concentrations. The target parameter for inversion is the column concentration enhancement ΔXCH4 relative to the background value of each pixel, calculated using the formula52,53\nwhere \\({L}_{i}\\) is the input sensor radiance spectrum, while µ and C represent the mean and covariance of the background radiance, respectively, representing the mean and covariance of background radiation, respectively. The target spectrum t was derived by multiplying the methane absorption spectrum k with the mean background radiation. t signifies the disturbance relative to background radiation caused by enhanced methane concentrations. The methane absorption spectrum k was obtained from atmospheric radiative transfer simulations using refs. 16,53.\nDue to non-uniformity in the sensor-received signals, vertical stripes in satellite imaging spectral data can degrade retrieval quality. To mitigate this, µ and C were computed column-wise to address issues related to instrument radiance and spectral response variations across tracks.\nIn selecting spectral windows, while 1,700 nm is also an absorption window for methane, negative influences from H2O and CO2 led us to focus solely on the 2,110–2,450 nm range for matched-filter retrieval16.\n### Plume identification and methane emission quantification\nUnfortunately, the matched-filter method tends to misidentify pixels from artificial structures such as solar panels, roads and buildings as high methane values16,54. Moreover, it does not account for terrain variations that introduce disturbances, resulting in artefacts that affect our assessment of plume extents. To isolate genuine methane plumes, we initially applied Gaussian median filtering to smooth and denoise the ΔCH4 image, using a threshold of 200 ppm m to separate background interference15. Subsequently, these results were overlaid onto high-resolution true-colour remote sensing imagery (Google Earth), where each high-value area exhibiting plume morphology was visually inspected. Manual polygon masks were delineated to separate plumes from artificial structures, thereby eliminating false positives caused by artefacts15.\nFinally, using the ERA5 10-m wind field data, we excluded potential high-value areas that did not conform to the wind direction. This allowed us to attribute the sources of methane to the infrastructure at the origin of the plumes, considering the resulting plumes to be genuine methane plumes rather than false positives. To minimize human intervention and subjective analysis, a sensitivity analysis of the plume extent was conducted (Supplementary Fig. 5). This analysis confirmed that such interventions do not have a significant impact on the results.\nFor each plume, the IME model was used to calculate the emission rate. The calculation formula is as follows:\nHere, the parameter Q (kg s−1) represents the emission flux rate, IME (kg) denotes the total mass enhancement within the polygon mask and \\(L\\) (m) is the square root of the plume area, representing its size. Ueff (m s−1) denotes the effective wind speed, which linearly depends on the surface 10-m wind speed (U10) simulated in large-eddy simulation18.\nThe emission source was treated as an area source, more appropriate for landfills, rather than a point source18. Some studies suggest that the relationship between Ueff and U10 is logarithmic rather than linear, which may be due to different meteorological conditions set during simulations. Within the simulated wind speed range, the absolute deviation between these two dependency relationships is less than 6%, which is overshadowed by the 52% average wind speed error7,55,56.\nConsidering the potential variability of methane emission sources, for sources with at least three overpasses, persistence weighting is applied to each detected landfill source25,57. The persistence factor (f) is defined as\nwhere M represents the number of valid plume detections during the observation period, and N denotes the number of effective PRISMA overpasses during the active period. Only PRISMA images with less than 10% cloud cover were selected. In addition, scenes with visible cloud presence over the landfill area were excluded using RGB imagery from PRISMA. Each image was required to fully encompass a 1-km radius around the landfill centre to ensure complete plume coverage. Overpasses that met all these conditions were defined as effective overpasses. If there exist sources with less than three effective overpasses, we sample the distribution of f values for that landfill type for that survey and assign it to that under-flown source before aggregating13,25,57.\nThe persistence-weighted mean emission rate (Qeff) for each source is calculated as\nwhere \\(\\overline{Q}\\) represents the mean emission rate of all detected plumes from the source.\n### Source rate retrieval error analysis\nIn this study, uncertainty in quantifying source emission rates was assessed by categorizing error into four components: wind speed error, noise error (methane enhancement retrieval error), IME model error and source shape uncertainty error. Through error propagation, all sources of error were combined to generate the final random uncertainty7,15,18,52,55,58. The relative uncertainty for plume quantification using PRISMA ranged from 17% to 45%.\n### Bottom-up emission estimates\nEDGAR v8.0 provides global methane emissions from the solid waste sector at a 0.1° × 0.1° grid resolution, allowing comparison with PRISMA estimates32,33. Emissions from the grid cell closest to the landfill location were selected to represent each site, while data from grid cells with excessive spatial discrepancies from landfill locations were excluded32. In addition, cases where multiple landfills fell within the same grid cell were omitted, as EDGAR v8.0 does not specify how emissions are distributed within a given cell. For emission estimates from the BAAQMD and the GHGRP, which provide facility-level data, the comparison with PRISMA was conducted on a landfill-by-landfill basis36,37 (Extended Data Fig. 5).",
+            "cites": [
+                "ref-CR25",
+                "ref-CR52",
+                "ref-CR15",
+                "ref-CR51",
+                "ref-CR55",
+                "ref-CR56",
+                "ref-CR57",
+                "ref-CR36",
+                "ref-CR37",
+                "ref-CR54",
+                "ref-CR18",
+                "ref-CR53",
+                "ref-CR58",
+                "ref-CR13",
+                "ref-CR7",
+                "ref-CR33",
+                "ref-CR16",
+                "ref-CR32"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Observations of global landfill emissions (2019–2024).",
+            "figure-caption": "a, The spatial distribution of methane emissions detected from open dumpsites (orange circles, N = 51) and sanitary landfills (blue circles, N = 51). The size of the circles indicates the number of valid plumes, with the background showing the global average methane column (XCH4) in 2022 as retrieved by TROPOMI46. ppb, parts per billion. b, The distribution of the number of valid plumes from landfills, with the numbers in the bars representing the count of each type of landfill. c, The number of valid plumes from developing countries (red) versus developed countries (blue). d, A comparison of the mean estimated emission values from 14 landfills in the USA, observed by the PRISMA satellite, with airborne measurements and the GHGRP inventory. The dashed grey line represents a 1:1 relationship. Error bars represent the 95% CI around the mean values. The uncertainty for the GHGRP is set at 50%, and the correlation coefficient and P value are annotated on the figure. Airborne data in d from ref. 13. Basemap in a from Natural Earth49.Source data",
+            "figure-link": "https://www.nature.com/articles/s41558-025-02391-1/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Methane plumes observed by PRISMA.",
+            "figure-caption": "a, Algeria, b, Egypt, c, Iran, d, Brazil, e, San Francisco, USA, f, Houston, USA. a–c represent open dumps, whereas d–f represent sanitary landfills. White arrows indicate ERA5 10-m wind fields. Grey lines indicate the landfill boundaries. Credit: background satellite images, Google Earth50 Imagery © 2024 Maxar Technologies.Source data",
+            "figure-link": "https://www.nature.com/articles/s41558-025-02391-1/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Methane emission fluxes.",
+            "figure-caption": "a, The distribution of methane emission fluxes for two landfill types. b,c, Variations in emission fluxes as a function of temperature (b) and absolute humidity (c). In all box plots, the centre line denotes the median; the lower and upper edges of the box represent the 25th and 75th percentiles, respectively. Whiskers extend to the most extreme data points within 1.5 times the interquartile range from the box bounds. In b and c, data are grouped into five equal-sized bins based on ascending temperature or humidity values from PRISMA observations, with each bin containing one-fifth of the total sample (n/5). The x-axis position of each box reflects the median temperature or humidity within the corresponding bin.Source data",
+            "figure-link": "https://www.nature.com/articles/s41558-025-02391-1/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Emission magnitude and seasonal variation in landfill methane emissions.",
+            "figure-caption": "a, Annual methane emissions from 102 landfills. The solid-coloured bars represent the estimated annual methane emissions from open dumpsites (orange) and sanitary landfills (blue) detected by PRISMA. Error bars represent the 95% CI of the total emissions. The shaded bars indicate the average annual emissions for these landfills based on the global EDGAR v8.0 inventory (2019–2022). The numbers within the bars correspond to the count of landfills of each type included in the analysis. b, Monthly methane flux profiles from landfills in the Northern Hemisphere (n = 339 observations). The shaded area indicates the 95% CI. EDGAR data in a from ref. 34.Source data",
+            "figure-link": "https://www.nature.com/articles/s41558-025-02391-1/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Global Waste Management Outlook 2024: Beyond an Age of Waste, Turning Rubbish into a Resource (International Solid Waste Association, 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Saunois, M. et al. The global methane budget 2000–2017. Earth Syst. Sci. Data 12, 1561–1623 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Fessd-12-1561-2020",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20global%20methane%20budget%202000%E2%80%932017&journal=Earth%20Syst.%20Sci.%20Data&doi=10.5194%2Fessd-12-1561-2020&volume=12&pages=1561-1623&publication_year=2020&author=Saunois%2CM"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Ruane, A. C. Synthesis Report of the IPCC Sixth Assessment Report (AR6) (Intergovernmental Panel on Climate Change, 2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Kaza, S., Yao, L., Bhada-Tata, P. & Van Woerden, F. What a Waste 2.0: A Global Snapshot of Solid Waste Management to 2050 (World Bank Publications, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Global Non-CO2 Greenhouse Gas Emission Projections & Mitigation 2015–2050 67–71 (Environmental Protection Agency, Office of Atmospheric Programs (6207A), 2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Wang, Y. et al. Methane emissions from landfills differentially underestimated worldwide. Nat. Sustain. 7, 496–507 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-024-01307-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Methane%20emissions%20from%20landfills%20differentially%20underestimated%20worldwide&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-024-01307-9&volume=7&pages=496-507&publication_year=2024&author=Wang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Cusworth, D. H. et al. Using remote sensing to detect, validate, and quantify methane emissions from California solid waste operations. Environ. Res. Lett. https://doi.org/10.1088/1748-9326/ab7b99 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Bogner, J. E., Spokas, K. A. & Chanton, J. P. Seasonal greenhouse gas emissions (methane, carbon dioxide, nitrous oxide) from engineered landfills: daily, intermediate, and final California cover soils. J. Environ. Qual. 40, 1010–1020 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.2134%2Fjeq2010.0407",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3MXmt1OqtL0%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Seasonal%20greenhouse%20gas%20emissions%20%28methane%2C%20carbon%20dioxide%2C%20nitrous%20oxide%29%20from%20engineered%20landfills%3A%20daily%2C%20intermediate%2C%20and%20final%20California%20cover%20soils&journal=J.%20Environ.%20Qual.&doi=10.2134%2Fjeq2010.0407&volume=40&pages=1010-1020&publication_year=2011&author=Bogner%2CJE&author=Spokas%2CKA&author=Chanton%2CJP"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Spokas, K. et al. From California dreaming to California data: Challenging historic models for landfill CH4 emissions. Elementa Sci. Anthrop. https://doi.org/10.12952/journal.elementa.000051 (2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Mønster, J., Kjeldsen, P. & Scheutz, C. Methodologies for measuring fugitive methane emissions from landfills—a review. Waste Manag. 87, 835–859 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.wasman.2018.12.047",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Methodologies%20for%20measuring%20fugitive%20methane%20emissions%20from%20landfills%E2%80%94a%20review&journal=Waste%20Manag.&doi=10.1016%2Fj.wasman.2018.12.047&volume=87&pages=835-859&publication_year=2019&author=M%C3%B8nster%2CJ&author=Kjeldsen%2CP&author=Scheutz%2CC"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Thompson, S., Sawyer, J., Bonam, R. & Valdivia, J. Building a better methane generation model: validating models with methane recovery rates from 35 Canadian landfills. Waste Manag. 29, 2085–2091 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.wasman.2009.02.004",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1MXlsVajtr4%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Building%20a%20better%20methane%20generation%20model%3A%20validating%20models%20with%20methane%20recovery%20rates%20from%2035%20Canadian%20landfills&journal=Waste%20Manag.&doi=10.1016%2Fj.wasman.2009.02.004&volume=29&pages=2085-2091&publication_year=2009&author=Thompson%2CS&author=Sawyer%2CJ&author=Bonam%2CR&author=Valdivia%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Yousuf, T. B. & Rahman, M. M. Transforming an open dump into a sanitary landfill: a development effort in waste management. J. Mater. Cycles Waste Manag. 11, 277–283 (2009).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10163-009-0242-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Transforming%20an%20open%20dump%20into%20a%20sanitary%20landfill%3A%20a%20development%20effort%20in%20waste%20management&journal=J.%20Mater.%20Cycles%20Waste%20Manag.&doi=10.1007%2Fs10163-009-0242-8&volume=11&pages=277-283&publication_year=2009&author=Yousuf%2CTB&author=Rahman%2CMM"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Cusworth, D. H. et al. Quantifying methane emissions from United States landfills. Science 383, 1499–1504 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.adi7735",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2cXns12ksrc%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20methane%20emissions%20from%20United%20States%20landfills&journal=Science&doi=10.1126%2Fscience.adi7735&volume=383&pages=1499-1504&publication_year=2024&author=Cusworth%2CDH"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Duren, R. M. et al. California’s methane super-emitters. Nature 575, 180–184 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-019-1720-3",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXitFWnurvK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=California%E2%80%99s%20methane%20super-emitters&journal=Nature&doi=10.1038%2Fs41586-019-1720-3&volume=575&pages=180-184&publication_year=2019&author=Duren%2CRM"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Irakulis-Loitxate, I. et al. Satellite-based survey of extreme methane emissions in the Permian basin. Sci. Adv. https://doi.org/10.1126/sciadv.abf4507 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Guanter, L. et al. Mapping methane point emissions with the PRISMA spaceborne imaging spectrometer. Remote Sens. Environ. https://doi.org/10.1016/j.rse.2021.112671 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Jacob, D. J. et al. Quantifying methane emissions from the global scale down to point sources using satellite observations of atmospheric methane. Atmos. Chem. Phys. 22, 9617–9646 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Facp-22-9617-2022",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XitFSqtL%2FO",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20methane%20emissions%20from%20the%20global%20scale%20down%20to%20point%20sources%20using%20satellite%20observations%20of%20atmospheric%20methane&journal=Atmos.%20Chem.%20Phys.&doi=10.5194%2Facp-22-9617-2022&volume=22&pages=9617-9646&publication_year=2022&author=Jacob%2CDJ"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Maasakkers, J. D. et al. Using satellites to uncover large methane emissions from landfills. Sci. Adv. https://doi.org/10.1126/sciadv.abn9683 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Funk, C. C., Theiler, J., Roberts, D. A. & Borel, C. C. Clustering to improve matched filter detection of weak gas plumes in hyperspectral thermal imagery. IEEE Trans. Geosci. Remote Sens. 39, 1410–1420 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1109%2F36.934073",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Clustering%20to%20improve%20matched%20filter%20detection%20of%20weak%20gas%20plumes%20in%20hyperspectral%20thermal%20imagery&journal=IEEE%20Trans.%20Geosci.%20Remote%20Sens.&doi=10.1109%2F36.934073&volume=39&pages=1410-1420&publication_year=2001&author=Funk%2CCC&author=Theiler%2CJ&author=Roberts%2CDA&author=Borel%2CCC"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Varon, D. J. et al. Quantifying methane point sources from fine-scale satellite observations of atmospheric methane plumes. Atmos. Meas. Tech. 11, 5673–5686 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Famt-11-5673-2018",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXntVOrsLo%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20methane%20point%20sources%20from%20fine-scale%20satellite%20observations%20of%20atmospheric%20methane%20plumes&journal=Atmos.%20Meas.%20Tech.&doi=10.5194%2Famt-11-5673-2018&volume=11&pages=5673-5686&publication_year=2018&author=Varon%2CDJ"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Frankenberg, C. et al. Airborne methane remote measurements reveal heavy-tail flux distribution in Four Corners region. Proc. Natl Acad. Sci. USA 113, 9734–9739 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1605617113",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XhtlChsLjF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Airborne%20methane%20remote%20measurements%20reveal%20heavy-tail%20flux%20distribution%20in%20Four%20Corners%20region&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1605617113&volume=113&pages=9734-9739&publication_year=2016&author=Frankenberg%2CC"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Prakash, O. et al. Culture-based and culture-independent approach for the study of the methanogens and obligate anaerobes from different landfill sites. Front. Microbiol. https://doi.org/10.3389/fmicb.2023.1273037 (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Nayahi, N. T., Ou, B. L., Liu, Y. Y. & Janjaroen, D. Municipal solid waste sanitary and open landfills: contrasting sources of microplastics and its fate in their respective treatment systems. J. Clean. Prod. https://doi.org/10.1016/j.jclepro.2022.135095 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Cusworth, D. H. et al. Intermittency of large methane emitters in the Permian Basin. Environ. Sci. Technol. Lett. 8, 567–573 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.estlett.1c00173",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXhtF2ksbbE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Intermittency%20of%20large%20methane%20emitters%20in%20the%20Permian%20Basin&journal=Environ.%20Sci.%20Technol.%20Lett.&doi=10.1021%2Facs.estlett.1c00173&volume=8&pages=567-573&publication_year=2021&author=Cusworth%2CDH"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Cusworth, D. H. et al. Strong methane point sources contribute a disproportionate fraction of total emissions across multiple basins in the United States. Proc. Natl Acad. Sci. USA https://doi.org/10.1073/pnas.2202338119 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Aghdam, E. F., Scheutz, C. & Kjeldsen, P. Impact of meteorological parameters on extracted landfill gas composition and flow. Waste Manag. 87, 905–914 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.wasman.2018.01.045",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXivVCgtr8%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20meteorological%20parameters%20on%20extracted%20landfill%20gas%20composition%20and%20flow&journal=Waste%20Manag.&doi=10.1016%2Fj.wasman.2018.01.045&volume=87&pages=905-914&publication_year=2019&author=Aghdam%2CEF&author=Scheutz%2CC&author=Kjeldsen%2CP"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Herath, P. L., Buddhima, S., Gunathilake, B. M., Jayawardana, D. T. & Bandara, N. Annual fluctuation of gas concentration within the landfill surface layer in a tropical climate: a case study of a municipal wasteyard. Environ. Qual. Manag. 33, 321–330 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Ftqem.22127",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Annual%20fluctuation%20of%20gas%20concentration%20within%20the%20landfill%20surface%20layer%20in%20a%20tropical%20climate%3A%20a%20case%20study%20of%20a%20municipal%20wasteyard&journal=Environ.%20Qual.%20Manag.&doi=10.1002%2Ftqem.22127&volume=33&pages=321-330&publication_year=2023&author=Herath%2CPL&author=Buddhima%2CS&author=Gunathilake%2CBM&author=Jayawardana%2CDT&author=Bandara%2CN"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Kissas, K., Ibrom, A., Kjeldsen, P. & Scheutz, C. Methane emission dynamics from a Danish landfill: the effect of changes in barometric pressure. Waste Manag. 138, 234–242 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.wasman.2021.11.043",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhtlKntrY%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Methane%20emission%20dynamics%20from%20a%20Danish%20landfill%3A%20the%20effect%20of%20changes%20in%20barometric%20pressure&journal=Waste%20Manag.&doi=10.1016%2Fj.wasman.2021.11.043&volume=138&pages=234-242&publication_year=2022&author=Kissas%2CK&author=Ibrom%2CA&author=Kjeldsen%2CP&author=Scheutz%2CC"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Czepiel, P. M. et al. The influence of atmospheric pressure on landfill methane emissions. Waste Manag. 23, 593–598 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0956-053X%2803%2900103-X",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD3sXmvV2mtbg%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20influence%20of%20atmospheric%20pressure%20on%20landfill%20methane%20emissions&journal=Waste%20Manag.&doi=10.1016%2FS0956-053X%2803%2900103-X&volume=23&pages=593-598&publication_year=2003&author=Czepiel%2CPM"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Czepiel, P., Mosher, B., Crill, P. & Harriss, R. Quantifying the effect of oxidation on landfill methane emissions. J. Geophys. Res. Atmos. 101, 16721–16729 (1996).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F96JD00222",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaK28XkvFCrs7o%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20the%20effect%20of%20oxidation%20on%20landfill%20methane%20emissions&journal=J.%20Geophys.%20Res.%20Atmos.&doi=10.1029%2F96JD00222&volume=101&pages=16721-16729&publication_year=1996&author=Czepiel%2CP&author=Mosher%2CB&author=Crill%2CP&author=Harriss%2CR"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Eggleston, H., Buendia, L., Miwa, K., Ngara, T. & Tanabe, K. 2006 IPCC Guidelines for National Greenhouse Gas Inventories (IGES, 2006).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Sadavarte, P. et al. Methane emissions from superemitting coal mines in Australia quantified using TROPOMI satellite observations. Environ. Sci. Technol. 55, 16573–16580 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.1c03976",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXisFKqtLrK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Methane%20emissions%20from%20superemitting%20coal%20mines%20in%20Australia%20quantified%20using%20TROPOMI%20satellite%20observations&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.1c03976&volume=55&pages=16573-16580&publication_year=2021&author=Sadavarte%2CP"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Crippa, M. et al. GHG Emissions of All World Countries (Publications Office of the European Union, Luxembourg, 2024); https://doi.org/10.2760/4002897",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Crippa, M. et al. Insights into the spatial distribution of global, national, and subnational greenhouse gas emissions in the Emissions Database for Global Atmospheric Research (EDGAR v8. 0). Earth Syst. Sci. Data 16, 2811–2830 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Fessd-16-2811-2024",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Insights%20into%20the%20spatial%20distribution%20of%20global%2C%20national%2C%20and%20subnational%20greenhouse%20gas%20emissions%20in%20the%20Emissions%20Database%20for%20Global%20Atmospheric%20Research%20%28EDGAR%20v8.%200%29&journal=Earth%20Syst.%20Sci.%20Data&doi=10.5194%2Fessd-16-2811-2024&volume=16&pages=2811-2830&publication_year=2024&author=Crippa%2CM"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Tellinghuisen, J. Statistical error propagation. J. Phys. Chem. A 105, 3917–3921 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fjp003484u",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD3MXhvFGruro%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Statistical%20error%20propagation&journal=J.%20Phys.%20Chem.%20A&doi=10.1021%2Fjp003484u&volume=105&pages=3917-3921&publication_year=2001&author=Tellinghuisen%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Guha, A. et al. Assessment of regional methane emission inventories through airborne quantification in the San Francisco Bay Area. Environ. Sci. Technol. 54, 9254–9264 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.0c01212",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhtlegsrvP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assessment%20of%20regional%20methane%20emission%20inventories%20through%20airborne%20quantification%20in%20the%20San%20Francisco%20Bay%20Area&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.0c01212&volume=54&pages=9254-9264&publication_year=2020&author=Guha%2CA"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Facility Level Information on Greenhouse Gases Tool (FLIGHT). US Environmental Protection Agency https://ghgdata.epa.gov/ghgp/main.do (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Nordahl, S. L. Comparative life-cycle assessment of anaerobic digestion of municipal solid waste at zero waste energy development company in San Jose, California. Master’s thesis (Univ. of California, Berkeley, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Crippa, M. et al. High resolution temporal profiles in the Emissions Database for Global Atmospheric Research. Sci. Data 7, 121 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41597-020-0462-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=High%20resolution%20temporal%20profiles%20in%20the%20Emissions%20Database%20for%20Global%20Atmospheric%20Research&journal=Sci.%20Data&doi=10.1038%2Fs41597-020-0462-2&volume=7&publication_year=2020&author=Crippa%2CM"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Li, H. et al. Seasonal CH4 and CO2 effluxes in a final covered landfill site in Beijing, China. Sci. Total Environ. 725, 138355 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.138355",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXosVWnsLc%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Seasonal%20CH4%20and%20CO2%20effluxes%20in%20a%20final%20covered%20landfill%20site%20in%20Beijing%2C%20China&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.138355&volume=725&publication_year=2020&author=Li%2CH"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Asadi, M., Yuen, S. T., Bogner, J., Chen, D. & Lightbody, P. Seasonal variation of methane emissions from two landfills in Australia. In 7th International Congress on Environmental Geotechnics: iceg2014 1355–1360 (Engineers Australia, 2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Chai, X., Tonjes, D. J. & Mahajan, D. Methane emissions as energy reservoir: context, scope, causes and mitigation strategies. Prog. Energy Combust. Sci. 56, 33–70 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.pecs.2016.05.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Methane%20emissions%20as%20energy%20reservoir%3A%20context%2C%20scope%2C%20causes%20and%20mitigation%20strategies&journal=Prog.%20Energy%20Combust.%20Sci.&doi=10.1016%2Fj.pecs.2016.05.001&volume=56&pages=33-70&publication_year=2016&author=Chai%2CX&author=Tonjes%2CDJ&author=Mahajan%2CD"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Wang, Y., Yan, Y., Chen, G., Zuo, J. & Du, H. Effective approaches to reduce greenhouse gas emissions from waste to energy process: a China study. Resour. Conserv. Recycl. 104, 103–108 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.resconrec.2015.09.002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effective%20approaches%20to%20reduce%20greenhouse%20gas%20emissions%20from%20waste%20to%20energy%20process%3A%20a%20China%20study&journal=Resour.%20Conserv.%20Recycl.&doi=10.1016%2Fj.resconrec.2015.09.002&volume=104&pages=103-108&publication_year=2015&author=Wang%2CY&author=Yan%2CY&author=Chen%2CG&author=Zuo%2CJ&author=Du%2CH"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Mukherjee, C., Denney, J., Mbonimpa, E. G., Slagley, J. & Bhowmik, R. A review on municipal solid waste-to-energy trends in the USA. Renew. Sustain. Energy Rev. 119, 109512 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2019.109512",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXitFeqs7bF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20review%20on%20municipal%20solid%20waste-to-energy%20trends%20in%20the%20USA&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2019.109512&volume=119&publication_year=2020&author=Mukherjee%2CC&author=Denney%2CJ&author=Mbonimpa%2CEG&author=Slagley%2CJ&author=Bhowmik%2CR"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Tadesse, A. & Lee, J. Utilization of methane from municipal solid waste landfills. Environ. Eng. Res. 29, 230166-230160 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.4491%2Feer.2023.166",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Utilization%20of%20methane%20from%20municipal%20solid%20waste%20landfills&journal=Environ.%20Eng.%20Res.&doi=10.4491%2Feer.2023.166&volume=29&publication_year=2023&author=Tadesse%2CA&author=Lee%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Veefkind, J. P. et al. TROPOMI on the ESA Sentinel-5 Precursor: a GMES mission for global observations of the atmospheric composition for climate, air quality and ozone layer applications. Remote Sens. Environ. 120, 70–83 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rse.2011.09.027",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=TROPOMI%20on%20the%20ESA%20Sentinel-5%20Precursor%3A%20a%20GMES%20mission%20for%20global%20observations%20of%20the%20atmospheric%20composition%20for%20climate%2C%20air%20quality%20and%20ozone%20layer%20applications&journal=Remote%20Sens.%20Environ.&doi=10.1016%2Fj.rse.2011.09.027&volume=120&pages=70-83&publication_year=2012&author=Veefkind%2CJP"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Zhang, Y. et al. Quantifying methane emissions from the largest oil-producing basin in the United States from space. Sci. Adv. 6, eaaz5120 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fsciadv.aaz5120",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXitFGnsrvM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20methane%20emissions%20from%20the%20largest%20oil-producing%20basin%20in%20the%20United%20States%20from%20space&journal=Sci.%20Adv.&doi=10.1126%2Fsciadv.aaz5120&volume=6&publication_year=2020&author=Zhang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Rohrschneider, R. R. et al. The MethaneSAT mission. In 35th Annual Small Satellite Conference Proceedings 1–7 (Utah State University, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Free vector and raster map data. Natural Earth http://www.naturalearthdata.com (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Google Earth. Imagery © 2024 Maxar Technologies. Google Earth https://earth.google.com/web/ (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Cogliati, S. et al. The PRISMA imaging spectroscopy mission: overview and first performance analysis. Remote Sens. Environ. 262, 112499 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rse.2021.112499",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20PRISMA%20imaging%20spectroscopy%20mission%3A%20overview%20and%20first%20performance%20analysis&journal=Remote%20Sens.%20Environ.&doi=10.1016%2Fj.rse.2021.112499&volume=262&publication_year=2021&author=Cogliati%2CS"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Thompson, D. et al. Space‐based remote imaging spectroscopy of the Aliso Canyon CH4 superemitter. Geophys. Res. Lett. 43, 6571–6578 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2F2016GL069079",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XhtFKksbzP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Space%E2%80%90based%20remote%20imaging%20spectroscopy%20of%20the%20Aliso%20Canyon%20CH4%20superemitter&journal=Geophys.%20Res.%20Lett.&doi=10.1002%2F2016GL069079&volume=43&pages=6571-6578&publication_year=2016&author=Thompson%2CD"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Berk, A. et al. MODTRAN® 6: A major upgrade of the MODTRAN® radiative transfer code. In 2014 6th Workshop on Hyperspectral Image and Signal Processing: Evolution in Remote Sensing (WHISPERS) 1–4 (IEEE, 2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Ayasse, A. K. et al. Evaluating the effects of surface properties on methane retrievals using a synthetic airborne visible/infrared imaging spectrometer next generation (AVIRIS-NG) image. Remote Sens. Environ. 215, 386–397 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rse.2018.06.018",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Evaluating%20the%20effects%20of%20surface%20properties%20on%20methane%20retrievals%20using%20a%20synthetic%20airborne%20visible%2Finfrared%20imaging%20spectrometer%20next%20generation%20%28AVIRIS-NG%29%20image&journal=Remote%20Sens.%20Environ.&doi=10.1016%2Fj.rse.2018.06.018&volume=215&pages=386-397&publication_year=2018&author=Ayasse%2CAK"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Varon, D. J. et al. Satellite discovery of anomalously large methane point sources from oil/gas production. Geophys. Res. Lett. 46, 13507–13516 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2019GL083798",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXisVGjsrbM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Satellite%20discovery%20of%20anomalously%20large%20methane%20point%20sources%20from%20oil%2Fgas%20production&journal=Geophys.%20Res.%20Lett.&doi=10.1029%2F2019GL083798&volume=46&pages=13507-13516&publication_year=2019&author=Varon%2CDJ"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Cusworth, D. H. et al. Detecting high-emitting methane sources in oil/gas fields using satellite observations. Atmos. Chem. Phys. 18, 16885–16896 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Facp-18-16885-2018",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXisV2nu7fE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Detecting%20high-emitting%20methane%20sources%20in%20oil%2Fgas%20fields%20using%20satellite%20observations&journal=Atmos.%20Chem.%20Phys.&doi=10.5194%2Facp-18-16885-2018&volume=18&pages=16885-16896&publication_year=2018&author=Cusworth%2CDH"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Ayasse, A. K. et al. Methane remote sensing and emission quantification of offshore shallow water oil and gas platforms in the Gulf of Mexico. Environ. Res. Lett. https://doi.org/10.1088/1748-9326/ac8566 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Varon, D. J., Jacob, D. J., Jervis, D. & McKeever, J. Quantifying time-averaged methane emissions from individual coal mine vents with GHGSat-D satellite observations. Environ. Sci. Technol. 54, 10246–10253 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.0c01213",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhtl2jtb%2FP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20time-averaged%20methane%20emissions%20from%20individual%20coal%20mine%20vents%20with%20GHGSat-D%20satellite%20observations&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.0c01213&volume=54&pages=10246-10253&publication_year=2020&author=Varon%2CDJ&author=Jacob%2CDJ&author=Jervis%2CD&author=McKeever%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Tong, H. Figures_NCLIM-24113152C.zip. Figshare https://doi.org/10.6084/m9.figshare.29247518 (2025).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Tong, H. Significant reduction of methane emissions through improved landfill management [source code]. CodeOcean https://doi.org/10.24433/CO.8032459.v4 (2025).",
+            "links": {}
+        }
+    ]
+}

@@ -1,0 +1,861 @@
+{
+    "id": "s43588-022-00318-w",
+    "journal": "Nature Computational Science",
+    "type": "article",
+    "title": "Demand-driven design of bicycle infrastructure networks for improved urban bikeability",
+    "legal_title": "Demand-driven design of bicycle infrastructure networks for improved urban bikeability",
+    "publish_time": "2022-10-03",
+    "pdf_link": "https://www.nature.com/articles/s43588-022-00318-w",
+    "storage_path": "./Articles/Nature Computational Science/2022-article/s43588-022-00318-w/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": true,
+    "review_link": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM2_ESM.pdf",
+    "Abstract": "Cycling is crucial for sustainable urban transportation. Promoting cycling critically relies on sufficiently developed infrastructure; however, designing efficient bike path networks constitutes a complex problem that requires balancing multiple constraints. Here we propose a framework for generating efficient bike path networks, explicitly taking into account cyclists’ demand distribution and route choices based on safety preferences. By reversing the network formation, we iteratively remove bike paths from an initially complete bike path network and continually update cyclists’ route choices to create a sequence of networks adapted to the cycling demand. We illustrate the applicability of this demand-driven approach for two cities. A comparison of the resulting bike path networks with those created for homogenized demand enables us to quantify the importance of the demand distribution for network planning. The proposed framework may thus enable quantitative evaluation of the structure of current and planned cycling networks, and support the demand-driven design of efficient infrastructures.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "The bike-sharing trip records used to estimate the cycling demand in Hamburg are publicly available from ref. 45. The specific data used for Hamburg in this paper can be found at Zenodo with the code46. The bike-sharing trip records for Dresden are a proprietary asset of the Studierendenrat of the Technische Universität Dresden and nextbike GmbH, and cannot be made accessible by the authors. Source Data are provided with this paper.",
+            "links": {
+                "45": "/articles/s43588-022-00318-w#ref-CR45",
+                "46": "/articles/s43588-022-00318-w#ref-CR46",
+                "Source Data": "/articles/s43588-022-00318-w#Sec17"
+            }
+        },
+        "Code availability": {
+            "content": "The code for our algorithm and a guide to reproducing the results is available through GitHub (https://github.com/PhysicsOfMobility/BikePathNet) under AGPL-3.0 license. The specific version of the package used to produce the results for this manuscript is available from Zenodo (ref. 46).",
+            "links": {
+                "https://github.com/PhysicsOfMobility/BikePathNet": "https://github.com/PhysicsOfMobility/BikePathNet",
+                "46": "/articles/s43588-022-00318-w#ref-CR46"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We thank S. Huber, S. Lißner and R. Gerike for stimulating discussions. The authors are grateful to the Centre for Information Services and High Performance Computing (ZIH) TU Dresden for providing facilities for high-throughput calculations. C.S. acknowledges support from the Deutsche Bundesstiftung Umwelt (DBU, German Federal Environmental Foundation). D.S. acknowledges support from the Studienstiftung des Deutschen Volkes. M.T. acknowledges support from the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) through the Center for Advancing Electronics Dresden (cfaed). The project was partially funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation; project no. 493613373 to M.S). The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsChristoph SteinackerView author publicationsSearch author on:PubMed Google ScholarDavid-Maximilian StorchView author publicationsSearch author on:PubMed Google ScholarMarc TimmeView author publicationsSearch author on:PubMed Google ScholarMalte SchröderView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nD.-M.S. and M.S. initiated the research supported by M.T. All of the authors conceived and planned the research. C.S. collected and analyzed the empirical data supported by D.-M.S. C.S. and M.S. designed the algorithm. C.S. wrote the code, performed and analyzed the simulations, supported by M.S. All of the authors contributed to interpreting the results and writing the manuscript.\n### Corresponding authors\nCorrespondence to\n                Christoph Steinacker or Malte Schröder.",
+            "links": {
+                "View author publications": "/search?author=Malte%20Schr%C3%B6der",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Malte%20Schr%C3%B6der",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Malte%20Schr%C3%B6der%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Christoph Steinacker": "mailto:christoph.steinacker@tu-dresden.de",
+                "Malte Schröder": "mailto:malte.schroeder@tu-dresden.de"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Computational Science thanks Nuno Araújo and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Handling editor: Jie Pan, in collaboration with the Nature Computational Science team. Peer reviewer reports are available.",
+            "links": {
+                "Peer reviewer reports": "/articles/s43588-022-00318-w#MOESM2"
+            }
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationNotes 1–6, including Figs. 1–3.Peer Review FileSupplementary Data 1Statistical source data for Supplementary Fig. 1Supplementary Data 2Statistical source data for Supplementary Fig. 2Supplementary Data 3Statistical source data for Supplementary Fig. 3",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM1_ESM.pdf",
+                "Peer Review File": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM2_ESM.pdf",
+                "Supplementary Data 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM3_ESM.xlsx",
+                "Supplementary Data 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM4_ESM.xlsx",
+                "Supplementary Data 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM5_ESM.xlsx"
+            }
+        },
+        "Source data": {
+            "content": "Source Data Fig. 3Statistical source dataSource Data Fig. 4Statistical source dataSource Data Fig. 5Statistical source dataSource Data Fig. 6Statistical source data",
+            "links": {
+                "Source Data Fig. 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM6_ESM.zip",
+                "Source Data Fig. 4": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM7_ESM.zip",
+                "Source Data Fig. 5": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM8_ESM.xlsx",
+                "Source Data Fig. 6": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_MOESM9_ESM.zip"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Demand-driven%20design%20of%20bicycle%20infrastructure%20networks%20for%20improved%20urban%20bikeability&author=Christoph%20Steinacker%20et%20al&contentID=10.1038%2Fs43588-022-00318-w&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20America%2C%20Inc.&publication=2662-8457&publicationDate=2022-10-03&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleSteinacker, C., Storch, DM., Timme, M. et al. Demand-driven design of bicycle infrastructure networks for improved urban bikeability.\n                    Nat Comput Sci 2, 655–664 (2022). https://doi.org/10.1038/s43588-022-00318-wDownload citationReceived: 13 January 2022Accepted: 12 August 2022Published: 03 October 2022Version of record: 03 October 2022Issue date: October 2022DOI: https://doi.org/10.1038/s43588-022-00318-wShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s43588-022-00318-w?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Demand-driven design of bicycle infrastructure networks for improved urban bikeability",
+                "description": "Cycling is crucial for sustainable urban transportation. Promoting cycling critically relies on sufficiently developed infrastructure; however, designing efficient bike path networks constitutes a complex problem that requires balancing multiple constraints. Here we propose a framework for generating efficient bike path networks, explicitly taking into account cyclists’ demand distribution and route choices based on safety preferences. By reversing the network formation, we iteratively remove bike paths from an initially complete bike path network and continually update cyclists’ route choices to create a sequence of networks adapted to the cycling demand. We illustrate the applicability of this demand-driven approach for two cities. A comparison of the resulting bike path networks with those created for homogenized demand enables us to quantify the importance of the demand distribution for network planning. The proposed framework may thus enable quantitative evaluation of the structure of current and planned cycling networks, and support the demand-driven design of efficient infrastructures. Designing efficient bike path networks requires balancing multiple constraints. In this study, a demand-driven inverse percolation approach is proposed to generate families of efficient bike path networks taking into account cyclist demand and safety preferences.",
+                "datePublished": "2022-10-03T00:00:00Z",
+                "dateModified": "2022-10-03T00:00:00Z",
+                "pageStart": "655",
+                "pageEnd": "664",
+                "sameAs": "https://doi.org/10.1038/s43588-022-00318-w",
+                "keywords": [
+                    "Civil engineering",
+                    "Complex networks",
+                    "Scientific data",
+                    "Computer Science",
+                    "general"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_Fig6_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Computational Science",
+                    "issn": [
+                        "2662-8457"
+                    ],
+                    "volumeNumber": "2",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Christoph Steinacker",
+                        "url": "http://orcid.org/0000-0003-0487-3223",
+                        "affiliation": [
+                            {
+                                "name": "Chair for Network Dynamics, Center for Advancing Electronics Dresden (cfaed) and Institute for Theoretical Physics, Technische Universität Dresden",
+                                "address": {
+                                    "name": "Chair for Network Dynamics, Center for Advancing Electronics Dresden (cfaed) and Institute for Theoretical Physics, Technische Universität Dresden, Dresden, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "christoph.steinacker@tu-dresden.de",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "David-Maximilian Storch",
+                        "affiliation": [
+                            {
+                                "name": "Chair for Network Dynamics, Center for Advancing Electronics Dresden (cfaed) and Institute for Theoretical Physics, Technische Universität Dresden",
+                                "address": {
+                                    "name": "Chair for Network Dynamics, Center for Advancing Electronics Dresden (cfaed) and Institute for Theoretical Physics, Technische Universität Dresden, Dresden, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Marc Timme",
+                        "url": "http://orcid.org/0000-0002-5956-3137",
+                        "affiliation": [
+                            {
+                                "name": "Chair for Network Dynamics, Center for Advancing Electronics Dresden (cfaed) and Institute for Theoretical Physics, Technische Universität Dresden",
+                                "address": {
+                                    "name": "Chair for Network Dynamics, Center for Advancing Electronics Dresden (cfaed) and Institute for Theoretical Physics, Technische Universität Dresden, Dresden, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Lakeside Labs",
+                                "address": {
+                                    "name": "Lakeside Labs, 9020 Klagenfurt, Austria",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Malte Schröder",
+                        "url": "http://orcid.org/0000-0001-8756-9918",
+                        "affiliation": [
+                            {
+                                "name": "Chair for Network Dynamics, Center for Advancing Electronics Dresden (cfaed) and Institute for Theoretical Physics, Technische Universität Dresden",
+                                "address": {
+                                    "name": "Chair for Network Dynamics, Center for Advancing Electronics Dresden (cfaed) and Institute for Theoretical Physics, Technische Universität Dresden, Dresden, Germany",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "malte.schroeder@tu-dresden.de",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "civil-engineering;complex-networks;scientific-data",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Computational Science",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s43588-022-00318-w"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Christoph Steinacker",
+                            "David-Maximilian Storch",
+                            "Marc Timme",
+                            "Malte Schröder"
+                        ],
+                        "publishedAt": 1664755200,
+                        "publishedAtString": "2022-10-03",
+                        "title": "Demand-driven design of bicycle infrastructure networks for improved urban bikeability",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Civil engineering,Complex networks,Scientific data"
+                    },
+                    "journal": {
+                        "pcode": "natcomputsci",
+                        "title": "nature computational science",
+                        "volume": "2",
+                        "issue": "10",
+                        "id": 43588,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "download-issue-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Demand-driven design of bicycle infrastructure networks for improved urban bikeability",
+            "dc.source": "Nature Computational Science 2022 2:10",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2022-10-03",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2022 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rights": "2022 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Cycling is crucial for sustainable urban transportation. Promoting cycling critically relies on sufficiently developed infrastructure; however, designing efficient bike path networks constitutes a complex problem that requires balancing multiple constraints. Here we propose a framework for generating efficient bike path networks, explicitly taking into account cyclists’ demand distribution and route choices based on safety preferences. By reversing the network formation, we iteratively remove bike paths from an initially complete bike path network and continually update cyclists’ route choices to create a sequence of networks adapted to the cycling demand. We illustrate the applicability of this demand-driven approach for two cities. A comparison of the resulting bike path networks with those created for homogenized demand enables us to quantify the importance of the demand distribution for network planning. The proposed framework may thus enable quantitative evaluation of the structure of current and planned cycling networks, and support the demand-driven design of efficient infrastructures. Designing efficient bike path networks requires balancing multiple constraints. In this study, a demand-driven inverse percolation approach is proposed to generate families of efficient bike path networks taking into account cyclist demand and safety preferences.",
+            "dc.identifier": "doi:10.1038/s43588-022-00318-w",
+            "dc.creator": "Schröder, Malte",
+            "dc.subject": "Scientific data",
+            "prism.issn": "2662-8457",
+            "prism.publicationName": "Nature Computational Science",
+            "prism.publicationDate": "2022-10-03",
+            "prism.volume": "2",
+            "prism.number": "10",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "655",
+            "prism.endingPage": "664",
+            "prism.copyright": "2022 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s43588-022-00318-w",
+            "prism.doi": "doi:10.1038/s43588-022-00318-w",
+            "citation_pdf_url": "https://www.nature.com/articles/s43588-022-00318-w.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s43588-022-00318-w",
+            "citation_journal_title": "Nature Computational Science",
+            "citation_journal_abbrev": "Nat Comput Sci",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2662-8457",
+            "citation_title": "Demand-driven design of bicycle infrastructure networks for improved urban bikeability",
+            "citation_volume": "2",
+            "citation_issue": "10",
+            "citation_publication_date": "2022/10",
+            "citation_online_date": "2022/10/03",
+            "citation_firstpage": "655",
+            "citation_lastpage": "664",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s43588-022-00318-w",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s43588-022-00318-w&api_key=",
+            "citation_reference": "Steinacker, C. PhysicsOfMobility/BikePathNet: Update for Supplementary Material for \"Demand-driven Design of Bicycle Infrastructure Networks for Improved Urban Bikeability\" (Zenodo, 2022); \n                  https://doi.org/10.5281/zenodo.6975015\n                  \n                ",
+            "citation_author": "Schröder, Malte",
+            "citation_author_institution": "Chair for Network Dynamics, Center for Advancing Electronics Dresden (cfaed) and Institute for Theoretical Physics, Technische Universität Dresden, Dresden, Germany",
+            "description": "Cycling is crucial for sustainable urban transportation. Promoting cycling critically relies on sufficiently developed infrastructure; however, designing efficient bike path networks constitutes a complex problem that requires balancing multiple constraints. Here we propose a framework for generating efficient bike path networks, explicitly taking into account cyclists’ demand distribution and route choices based on safety preferences. By reversing the network formation, we iteratively remove bike paths from an initially complete bike path network and continually update cyclists’ route choices to create a sequence of networks adapted to the cycling demand. We illustrate the applicability of this demand-driven approach for two cities. A comparison of the resulting bike path networks with those created for homogenized demand enables us to quantify the importance of the demand distribution for network planning. The proposed framework may thus enable quantitative evaluation of the structure of current and planned cycling networks, and support the demand-driven design of efficient infrastructures. Designing efficient bike path networks requires balancing multiple constraints. In this study, a demand-driven inverse percolation approach is proposed to generate families of efficient bike path networks taking into account cyclist demand and safety preferences.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Demand-driven design of bicycle infrastructure networks for improved urban bikeability",
+            "twitter:description": "Nature Computational Science - Designing efficient bike path networks requires balancing multiple constraints. In this study, a demand-driven inverse percolation approach is proposed to generate...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-022-00318-w/MediaObjects/43588_2022_318_Fig1_HTML.png",
+            "DOI": "10.1038/s43588-022-00318-w",
+            "size": "206379",
+            "journal_id": "43588"
+        },
+        "canonical_url": "https://www.nature.com/articles/s43588-022-00318-w",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Human mobility critically depends on the existing infrastructure underlying it1,2. The transition to more sustainable mobility in particular requires a sufficiently developed infrastructure to promote, for example, cycling over motorized mobility for short and medium-distance intra-urban trips3,4. During the COVID-19 pandemic, a number of cities such as Paris, New York and Bogotá pushed to open more street space to cyclists, expanded the size of side-walks, or blocked car traffic to enable social distancing5. Similarly, many cities have vouched to invest into cycling infrastructure6,7 and are gaining increasing support among the population for these investments.\nIn general, designing suitable and efficient infrastructure networks constitutes an intricate problem as the networks are subject to multiple, often opposing technical, economic and social constraints8,9,10. Examples for efficient network structures can be found in various biological11,12 and social networks13,14, balancing resource and energy costs with efficient physical or information transport and robustness to failures. For mobility and infrastructure networks, examples of efficient topologies include the core–periphery structure of air travel networks, balancing the cost of direct flights with the inconvenience of transfers11,15,16,17, and the emergent backbone structure in street networks of cities18,19.\nFor the design of bike path networks, three major constraints include: (1) budget constraints, which limit the total length of bike paths due to, for example, construction or maintenance cost15,20; (2) bike path networks have to support the mobility demand and enable fast travel between frequented locations without large detours15,16,18; (3) bike path networks should also enable safe travel of cyclists along highly frequented routes21. Different implementations of bike path infrastructure weigh these constraints differently. For example, colored bike lanes on the street do not cost much but only slightly protect cyclists, whereas physically separated bike lanes greatly improve cyclists’ safety but require more space and investment22,23. From a network structure perspective, each of these aspects is simple to understand individually. For example, a connected bike path network in a city that minimizes the required budget is simply given by the minimum spanning tree of the underlying street network17,19. More sophisticated approaches to find connected network structures have recently been proposed. Such approaches, based on percolation processes24,25,26, optimize the connectivity of the bike path network; however, connectivity alone is not sufficient to support demand, as routes along streets equipped with bike paths would likely be indirect and require large detours. Shortest path trees would optimally support the demand only from and to a single location. By contrast, direct routes between other locations would require cycling along streets without dedicated bike infrastructure and would not be as safe27,28. Finally, the safest and most convenient network for cyclists—in which a bike path exists along every street—would naturally exceed any reasonable budget constraints20,29. However, efficient bike path networks have to simultaneously adhere to all three constraints to enable both convenient and safe travel with feasible investment30,31.\nIn this article we propose a framework for constructing a family of efficient bike path networks, all adapted to the given street network and demand distribution. The algorithm realizes inverted network growth: based on a simplified cyclist routing model and starting from a network fully equipped with bike paths, the algorithm generates a sequence of bike path networks by successively removing bike paths from the street segments with the least impact given the usage patterns in the current network. We observe that both convenience and safety of cycling in the network remain high, even if only a small part of the street network remains equipped with bike paths. Application of the algorithm to synthetic, homogeneous demand conditions enables us to quantify the importance of the cycling demand for the structure of the resulting bike path networks. The proposed framework is extendable to include different routing models and its applicability to different street networks and demand distributions may support planning of bike path networks that promote a desired cycling demand.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR31",
+                "ref-CR18",
+                "ref-CR23",
+                "ref-CR27",
+                "ref-CR29",
+                "ref-CR7",
+                "ref-CR19",
+                "ref-CR17",
+                "ref-CR24",
+                "ref-CR28",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR13",
+                "ref-CR16",
+                "ref-CR21",
+                "ref-CR2",
+                "ref-CR15",
+                "ref-CR14",
+                "ref-CR3",
+                "ref-CR4",
+                "ref-CR6",
+                "ref-CR12",
+                "ref-CR11",
+                "ref-CR20",
+                "ref-CR10",
+                "ref-CR22",
+                "ref-CR26",
+                "ref-CR30",
+                "ref-CR8",
+                "ref-CR5"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Cyclist route choice model\nThe benefit of bike paths fundamentally depends on their usage and in turn on the routes of cyclists. We map cyclists’ route choices to a shortest-path problem on a preference graph G = (V, E) with N = ∣V∣ number of nodes (intersections) and M = ∣E∣ number of edges (street segments). We derive the preference graph G from the physical street network Gstreet. Both graphs share the same set of nodes V. Each edge eij ∈ E in the cyclist preference graph represents a street segment that connects intersections i, j ∈ V and is assigned a perceived distance\nHere, \\({l}_{ij}^{{{{\\rm{street}}}}}\\) denotes the physical length of the corresponding street segment \\({e}_{ij}^{{{{\\rm{street}}}}}\\) in the street network and \\({p}_{ij}\\in \\{{p}_{ij}^{B},{p}_{ij}^{0}\\}\\) is a penalty factor summarizing cyclists preferences against riding along the street segment eij. The set of street segments equipped with bike paths EB ⊆ E contains street segments eij ∈ EB without distance penalty \\({p}_{ij}^{B}=1\\). Street segments that are not in this set eij ∉ EB have penalty factors \\({p}_{ij}^{0} > 1\\). The value of these penalty factors \\({p}_{ij}^{0}\\) may depend on different characteristics of the individual street segments, representing the perceived safety or convenience for cycling.\nAdopting this perspective of a cyclist preference graph, we take cyclists to choose their route based on the shortest path \\({{{\\Pi }}}_{i\\to j}^{* }={{{\\rm{argmin}}}}\\left[{L}_{i\\to j}({{{\\Pi }}}_{i\\to j})\\right]\\) between their origin i and destination j, minimizing the perceived trip distance\nover their potential paths Πi→j. Effectively, cyclists choose the most direct path to keep the physical distance of their trip as short as possible but accept detours to avoid busy streets and use bike paths or low-traffic residential streets as alternative routes (Fig. 1).\nThis simplified route choice model enables efficient calculation of route choice decisions, particularly compared with more complex stochastic models32,33. To illustrate the concept, we focus here on the effect of the street type and take the penalties \\({p}_{ij}^{0}\\) of a street segment to depend on the volume of car traffic on the respective segment, where higher penalties correspond with larger car traffic volumes (that is, a lower perceived safety or convenience; see Methods for details). In principle, the approach can be extended to include additional factors (see Supplementary Note 1 for a brief discussion) such as slopes, (left) turns or crossings by appropriately modifying the cyclist preference graph (for example, adding more edges with a penalty for left turns) as well as more complex route choice models or heterogeneous preferences among cyclists27,28.\n### Network generation\nWe describe the bike path network of a city as a subgraph GB = (V, EB) ⊆ Gstreet of the city’s street network, in which each street segment eij ∈ E may (eij ∈ EB) or may not (eij ∉ EB) be equpped with a bike path. Even in this simple binary model, the number of possible bike path networks GB scales exponentially with the number M of edges in the street network, as each street segment may or may not be equipped with a bike path (there are thus 2M possible subgraphs). Testing all of these networks is impossible for real-world cities in reasonable time (see Supplementary Note 2 for a more detailed description of the underlying optimization problem). Recent approaches utilize forward network percolation models to construct bike path networks24,26 or apply percolation models to a fixed cyclist flow25 to find efficient networks.\nHere we employ a complementary approach that follows the idea of pruning links from a network—as previously employed in network community-detection algorithms34 and to study the structure of aviation networks16. Specifically, we create a sequence \\({\\{{G}_{B}(M^{\\prime} )\\}}_{M^{\\prime} }\\) of bike path networks where \\(M^{\\prime} \\in \\{0,1,\\ldots ,M\\}\\) street segments are outfitted with a bike path (see Fig. 2): we start from an optimal bike path network in which every street segment is equipped with a bike path (EB(M) = E) such that there is no penalty for any street segment (\\({p}_{ij}={p}_{ij}^{B}=1\\) for all edges). We then compute the route choice decisions of the cyclists in their preference graph G (as described above) on the basis of their demand distribution ni→j, which denotes the number of cyclists traveling from nodes i to j. To construct the family of bike path networks, one by one we remove the least important bike path \\({e}_{ij}^{* }(M^{\\prime} )\\) from the network, \\({E}_{B}(M^{\\prime} -1)={E}_{B}(M^{\\prime} )\\setminus \\{{e}_{ij}^{* }(M^{\\prime} )\\}\\), adjusting the penalty of that street segment from \\({p}_{ij}={p}_{ij}^{B}=1\\) to \\({p}_{ij}={p}_{ij}^{0} > 1\\) in the cyclist preference graph G. We quantify the importance of a bike path \\({e}_{ij}\\in {E}_{B}(M^{\\prime} )\\) in the current state of the bike path network (with \\(M^{\\prime}\\) remaining bike paths) as the product \\({p}_{ij}^{0}\\,{n}_{ij}(M^{\\prime} )\\) of the penalty \\({p}_{ij}^{0}\\) (if the street had no bike path) and the number of cyclists that using that street segment \\({n}_{ij}(M^{\\prime} )\\). The product represents the graph-theoretical weighted betweenness centrality of the edge in the cyclist preference graph. This approach minimizes the negative impact of each removed bike path on the perceived distance of the cyclists in the current bike path network. After each change to the cyclist preference graph G, we update the route choice decisions of the cyclists, ensuring that the algorithm continually adapts to the cycling demand given the currently available set of bike paths \\({E}_{B}(M^{\\prime} )\\). The process terminates with an empty bike path network \\({G}_{B}(0)=(V,{{\\emptyset}})\\) once all of the bike paths have been removed.\nSee Supplementary Note 3 for a discussion on the computational runtime of the network generation.\nIn contrast to iteratively adding bike paths to an initially empty graph and building on the suboptimal cycling routes in networks with few bike paths, this procedure creates bike path networks adjusted to ideal cycling conditions; for example, it keeps bike paths that may not be important in the perfect network if the cyclists start to use them more heavily as the other bike paths are removed (see Supplementary Note 4 for details).\nInputs to our algorithm are: (1) the street network Gstreet, (2) the penalty factors \\({p}_{ij}^{0}\\) for each street segment not equipped with a bike path, (3) the demand distribution ni→j and (4) the cyclists’ route choice model. These parameters may either be as-is empirical values, or planned/desired ideal values (for example, describing the desired or predicted demand for cycling in a city). The latter application might be particularly relevant for planning bike path network extensions if urban quarters develop or are repurposed.\n### Application\nWe test the proposed algorithm using data from two German cities: Dresden and Hamburg (see Fig. 3). We take the street networks of both cities from OpenStreetMap (OSM)35—using the street classification as a proxy for their expected traffic load—as input data; we also take data from local bike-sharing services to model the cycling demand. We fix the penalty factors against those of physically protected bike path infrastructure based on the street type classification decoded in OSM (see the Methods for a detailed description of the data).\nThe two cities are representatives of two archetypes of local demand constellations: spatially homogeneous all-to-all demand and confined few-to-few demand. Bike-sharing usage patterns in Hamburg indicate a local demand structure that refers to the first archetype (see Fig. 3c,d), whereas corresponding data for Dresden hint at the latter archetype, which is reflected by the dominance of trips between the university and main train station (see Fig. 3a,b).\n#### Algorithmic generation of bike path networks\nWe generate families of bike path networks \\({\\{{G}_{B}(M^{\\prime} )\\}}_{M^{\\prime} }\\) for both cities. We chose a network in which all primary and secondary (P + S) street segments (as per their classification in OSM) are equipped with bike paths and compare this network to our generated network with the same total length \\({{\\Lambda }}(M^{\\prime} )={\\sum }_{e\\in {E}_{B}(M^{\\prime} )}{l}_{e}^{{{{\\rm{street}}}}}\\) of bike paths such that \\({{\\Lambda }}(M^{\\prime} )={{{\\Lambda }}}_{{{{\\rm{P+S}}}}}\\). Taking the installation and maintenance cost of the bike path network proportional to its length, we thus compare networks with the same budget. Due to some antiparallel one-way streets, our algorithm may place slightly more bike paths along other streets than effectively exist in the P + S network. As we assume bidirectional paths, our algorithm may equip only one of the antiparallel streets with a bike path, instead of both as in the P + S network.\nFigure 4 illustrates both types of networks for Dresden and Hamburg. The network generated by our algorithm largely coincides with the primary and secondary roads due to the high penalty if bike paths are removed; however, we observe strong differences in the density of the bike path coverage. Especially in Dresden, the resulting bike path network is much denser along the central north–south axis of high station density and bike-sharing usage, indicating that our algorithm correctly adapts the network to the input demand conditions (Fig. 4c). The differences for Hamburg are smaller due to the comparatively homogeneous demand across the city, although our algorithm introduces bike path shortcuts through residential areas in cases of high demand or to connect stations to the bike path network.\nTo quantitatively compare the bike path families for both cities, we normalize the length of bike paths \\(\\lambda ={{\\Lambda }}(M^{\\prime} )/{{\\Lambda }}({M}_{0})\\) with respect to the length Λ(M0) after removing all of the unused bike paths (see Fig. 2b). We define the total perceived distance of all trips in the cyclist preference graph as\nwhere Li→j(Π, λ) = ∑e∈Πle(λ) (compare with equation (2)). Here, le(λ) denotes the effective length of the street segment e in the cyclist preference graph G, given a set of bike paths \\({E}_{B}(M^{\\prime} )\\) with normalized length λ (that is, including penalties only for those streets from which we have removed the bike path); \\({{{\\Pi }}}_{i\\to j}^{* }(\\lambda )\\) denotes the shortest path in this cyclist preference graph and thus the route chosen by cyclists going from i to j. To compare the total perceived distance across both cities, we measure the overall performance b(λ) of the resulting network as the bikeability\nwhere we again normalize the absolute values to the best- (λ = 1) and worst-case (λ = 0) scenarios; b(0) = 0 describes the network with no bike paths, whereas b(1) = 1 is the optimal network with bike paths along all of the shortest paths. We remark that our definition of bikeability differs from past measures36 in that it quantifies the efficiency of the bike path network with respect to a specific demand distribution. The total difference between the physical trip length of cyclists and the direct shortest paths is only on the order of 10%, consistent with the empirical observations of cyclists’ route choice behavior27,28.\nFigure 5 illustrates the bikeability across the generated sequence of bike path networks. Interestingly, a small fraction of bike paths with a small relative length of λ > 0.1 is sufficient to achieve more than 50% of the maximal bikeability in both cities. The larger area under the bikeability curve for Dresden compared with Hamburg is consistent with the differences in the demand structure between the two cities: we achieve a faster improvement in Dresden due to the more concentrated demand distribution, whereas we have to cover most of the city of Hamburg due to the more homogeneous demand. See Supplementary Fig. 3 for a brief overview of the bikeability of a further twelve cities.\nA comparison with the bikeability of the primary–secondary bike path network with the same relative length λP+S of bike paths highlights the better adaptation to the demand structure in our algorithm. The bikeability is already high when all large roads are equipped with bike paths (about 0.87 for Dresden and 0.82 for Hamburg). Yet our algorithm manages to further increase this value to about 0.97 for Dresden and 0.95 for Hamburg (capturing more than 70% of the remaining potential of an optimal network b(1) = 1). Moreover, by adjusting the network to the route choice behavior, cyclists keep to streets equipped with bike paths for more than 89% of their total trip distance, compared with only about 60% in the primary–secondary network (see Fig. 5b,d). A negligible but non-zero fraction of the distance is cycled on tertiary and secondary streets without a bike path. See Supplementary Notes 5 and 4 for a comparison with static and dynamic forwards percolation approaches, respectively.\n#### Impact of demand structure\nWe attribute the difference between the two cities in the above analysis to the structure of the bike-sharing demand distributions. To quantify the impact of the demand structure on our bike path network families and their bikeability curves, we compare the above results to synthetic bike path networks with homogenized demand. We create these homogeneous demand settings by first distributing demand equally between all stations and then distributing the stations as equidistantly as possible in the street network (see Fig. 6a and Methods).\nComparing the bikeability curves b(λ) and bhom(λ) in the empirical and the homogeneous demand settings, respectively, we find a comparatively large difference for Dresden and a much smaller difference for Hamburg (Fig. 6b,c). We quantify these differences by the area\nbetween the two bikeability curves, which describes the impact of the patterns—as well as the structure of the station and demand distribution—on the bikeability (βhom ≈ 0.015 for Dresden, βhom ≈ 0.007 for Hamburg; compare with Fig. 6). This confirms our above analysis that the heterogeneous, centralized demand and station distribution in Dresden enhances the bikeability as fewer streets have to be equipped with bike paths to cover a large fraction of the total demand, whereas there is a much smaller effect in Hamburg. A similar approach may be used to quantitatively compare the impact that different street networks, or different types of cycling or desired demand distributions may have on the resulting bike path networks.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR34",
+                "ref-CR26",
+                "ref-CR35",
+                "ref-CR28",
+                "ref-CR33",
+                "ref-CR24",
+                "ref-CR36",
+                "ref-CR32",
+                "ref-CR16",
+                "ref-CR27"
+            ],
+            "figures": [
+                "figure-4",
+                "figure-3",
+                "figure-6",
+                "figure-5",
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Promoting cycling as a way to improve the sustainability of urban mobility is a complex problem. The attractiveness of cycling depends on the available infrastructure and safety of the trips, alternative mobility options, other mode choice decisions that influence the amount of car traffic, as well as aspects such as topography and weather21.\nExisting approaches to study bike path networks rely on various types of input data and focus on different properties; for example, improving connectivity of existing bike paths24, purely structural network growth models26 or standard forward percolation models based on static route choice data25. Compared with these more abstract percolation models, our adaptive inverse percolation framework trades computational speed for the explicit inclusion of cyclist demand. Compared with more detailed infrastructure models, we trade accuracy of the route choice model for the ability to adaptively adjust route choices as the network evolves.\nSimilar network pruning or inverse percolation techniques—as used in cascading failure models37,38—have previously been applied to understand the structure of transportation networks and their robustness16,18. The approach may therefore also find applications in designing and analyzing infrastructure and transportation networks beyond cycling. Combining the suggested approach with additional optimization steps, for example, by using successive addition and removal of individual bike paths or simulated annealing techniques15 to explore the vicinity of networks constructed by our greedy approach, may further improve the quality of the resulting networks.\nThe proposed framework relies on several types of input, all with potential limitations in terms of data quality, modelling accuracy and interpretability of the results; however, the framework is highly adaptive and can easily be extended to overcome these challenges provided more detailed input data are available.\nFirst, the quality and type of input data is critical for the resulting networks and their interpretation. Available street network data are mostly of high quality (see Methods) and even existing bicycle infrastructure may be included in the framework by preventing the removal of bike paths from specific street segments in the network; however, the resulting bike path networks have to be interpreted in the context of the demand input (compare our results for Dresden). For example, the empirical bike-sharing demand used to illustrate the framework may be strongly influenced by the currently (non-)existing infrastructure and the type of users of the service, thus skewing the generated networks to further improve already efficient parts of the network. At the same time, the framework is not limited to empirical demand data. Constructing efficient networks for desired and predicted demand may help guide extensions of bicycle infrastructure networks by suggesting efficient network structures4,25. Combining full mobility demand with a suitable mode choice model may even enable us to capture effects of induced additional demand when sufficient infrastructure is provided.\nSecond, the framework relies on a simplified route choice model to enable fast computation by mapping the route choice of cyclists to an effective shortest-path problem. We illustrated the framework with an effective network capturing only the effect of car traffic volume on cyclists route choice. A more detailed definition of the penalties, including additional deterrents such as slopes and (left) turns, may improve the accuracy of the route choice model. Furthermore, explicit safety considerations such as accident risk may be included in the penalties as proposed in ref. 39, enabling more accurate quantification of the actual safety in addition to the perceived safety. A more accurate representation of cyclist route choice behavior and heterogeneous preferences among cyclists, as assumed in common probabilistic route choice models, may be indirectly possible by considering multiple types of cyclists and creating a cyclist preference graph with appropriate penalties for each user type.\nAll of these potential extensions naturally require more details in the input data, such as information on traffic signals, street quality or expected driving behavior for car traffic across the street network. Recent contributions to the data-driven analysis and planning of cycling infrastructure and route choice as well as data collection methods are essential to establish a foundation of input data and ensure reliable results and predictions24,25,26. Although, eventually, first-hand on-site experience and detailed case-by-case modelling must determine the sensibility and feasibility of the suggested networks, with sufficiently accurate input data our framework may provide scenarios for efficient bicycle infrastructure networks, helping to guide planned extensions of existing infrastructure networks4,25. Our framework may thus complement current urban planning approaches22 by helping to develop a more detailed understanding of the theoretical properties of efficient bike network structures across cities and offering a baseline of an efficient network to develop a more detailed long-term strategy to expand bicycle infrastructure.\nOverall, the framework presented in this article may enable quantitative analysis of bike path networks with a large range of tools from network science by providing a way to quickly generate and compare families of efficient bike path networks in different settings and under different conditions.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR26",
+                "ref-CR15",
+                "ref-CR24",
+                "ref-CR18",
+                "ref-CR4",
+                "ref-CR37",
+                "ref-CR16",
+                "ref-CR21",
+                "ref-CR39",
+                "ref-CR22",
+                "ref-CR38"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Street networks\nWe download physical street networks for Hamburg and Dresden from OSM35,40. Although OSM data are crowdsourced, it is of high quality in developed countries, especially in Western Europe41. For other regions of the world, OSM is sometimes the only feasible source of data42.\nFor both cities, we restrict ourselves to the area covered by the local bike-sharing schemes. We exclude city peripheries that are either sparsely populated with a low density of bike-sharing stations or a long distance from the city center. This results in a reasonably bikeable area of approximately 65 km2 (Dresden) and 49 km2 for Hamburg (Fig. 3).\nWe simplify these raw street networks by merging nodes within a radius of less than 35 m (for example, simplifying the detailed structure of intersections) and placing the resulting aggregated node at the centroid of their former positions40. Finally, we discard bike-inaccessible roads based on the OSM street classification hierarchy43, in particular, edges labeled as: motorway, motorway_link, trunk, or trunk_link, which describe highways or high-speed motorways where cycling is not possible.\nBased on the remaining nodes and edges (see Fig. 3), we create the physical street network Gstreet by assigning each street segment a length \\({l}_{ij}^{{{{\\rm{street}}}}}\\) corresponding to its physical length in the OSM data.\n### Penalty factors\nTo fix the penalty factors in these networks without detailed information on traffic volume, we rely on the street type classification decoded in OSM as a proxy for the traffic load. Within the OSM category of car-accessible streets, we use OSM’s classification hierarchy of: primary, secondary, tertiary or residential streets, replacing link street types with their corresponding normal street types, for example, primary_link with primary. Street segments not labeled with one of the four aforementioned classifications are assigned the residential status, as most other OSM classifications are reserved for small streets, for example, living_street. In case of ambiguity on the street segment length or street type, we always choose the first value in the list of the OSM data.\nWe assume that the expected traffic load and thus the corresponding penalty factor \\({p}_{ij}^{0}\\) monotonically increases from residential to primary roads. Based on this input, we construct the cyclist preference graph G with the perceived edge lengths \\({l}_{ij}={p}_{ij}\\,{l}_{ij}^{{{{\\rm{street}}}}}\\) (equation (1)).\nThe penalty factors \\({p}_{ij}^{0}\\) quantify the trade-off between the distance a cyclist is willing to ride along a street with a bike path to avoid a specific street segment a without bike path. To illustrate our framework, we take penalty values representing the perceived distance compared with physically protected bike paths as they are the safest option for cyclists; however, the penalties can be adapted to represent other types of bike path implementations. We employ penalty factors as estimated in ref. 28; the authors associated different penalties with different properties of the route and street segment by contrasting actually chosen bike routes with possible alternatives in a logit route choice model. We take the penalty factors representing accepted detours for streets with more than 30,000 vehicles per day, 20,000 to 30,000 vehicles per day, and 10,000 to 20,000 vehicles per day. Due to lack of detailed information on traffic volume, we directly match these penalties to the OSM street types: primary street segments are assigned a penalty \\({p}_{ij}^{0}=7.0\\), secondary \\({p}_{ij}^{0}=2.4\\), and tertiary \\({p}_{ij}^{0}=1.4\\). We add a smaller penalty factor \\({p}_{ij}^{0}=1.1\\) for residential street segments. These values serve as illustrative examples of the influence of car traffic and may vary depending on the location, trip purpose, bicycle infrastructure or for individual cyclists.\n### Bike-sharing demand data\nWe take demand data from local bike-sharing services in Dresden and Hamburg as demand input for the algorithm (Fig. 3). For both cities, we map the bike-sharing stations to their respective nearest node in the street network and obtain the origin–destination-resolved demand statistics by counting the overall number of trips ni→j made throughout the entire observation period per pair (i, j) of stations. To quantify the total usage of each station, we compute the sum of bike rentals and returns at the station (see Fig. 3b,d). The two datasets represent two archetypes of local demand constellations: confined few-to-few demand in Dresden (Fig. 3a,b) and spatially homogeneous all-to-all demand in Hamburg (Fig. 3c,d).\n#### Dresden\nDresden’s local bike-sharing scheme operated on a combined station-based and free-floating mode during the observation period. Although bikes could be rented or returned on an as-needed basis within a pre-defined area in the inner city center, they needed to be rented from, and returned to, one of 159 stations outside of the free-floating zone44.\nTo estimate the local bike demand, we use a proprietary dataset of approximately 440,000 bike-sharing trip records conducted by students of the local universities between November 2017 and March 2020 (except February and September 2018), which accounts for about 80% of all trips of the service44. The dataset contains, among other things, information on the trip origin and destination if the trip started or ended at a station, as well as the pickup and drop-off timestamps. The dataset does not contain positional information on trips conducted in free-floating mode.\nTo be able to fix the demand distribution to nodes in the street network, we exclude trips for which no origin or destination information is available (for example, trips starting or ending in the free-floating zones). Furthermore, we exclude nine stations that are distant from the city center and are thus not included in the core polygon illustrated in Fig. 3a, leaving approximately 163,000 trip records for the demand analysis. The remaining 150 stations are mapped to 142 nodes of the street network G (eight stations are mapped to the same node as another station, for example, two stations on two sides of a large street crossing).\n#### Hamburg\nIn 2017, Hamburg’s station-based bike-sharing scheme operated 206 stations, of which 129 were distributed in the core city (see Fig. 3b). Between January 2014 and May 2017 the service facilitated approximately 8.6 million rides for which detailed trip information is publicly available45. The data contains, among others, information on trip origin and destination station, pickup and drop-off timestamps, as well as user or bike-related information.\nWe again exclude trips where no origin or destination information is available as well as trips which start and end at the same station, leaving about 6.4 million trips in our region of interest (approximately 74% of all trips). After mapping the 129 stations to the street network G, we keep 127 unique locations (two stations are mapped to the same node as another station).\n### Homogenized demand\nTo quantify the impact of the demand distribution on the bikeability, we compare our results for the empirical demand distribution with results for homogenized demand distributions. We generate these randomized comparisons in three steps: (1) create approximately homogeneous demand and station distribution; (2) generate bike path ensembles for ten realizations of the demand and station distribution; (3) average the bikeability results from the different realizations.\nWe create these homogeneous demand settings by first distributing demand equally between all stations, setting \\({n}_{i\\to j}^{(\\hom )}=1\\) for all bike-sharing-station pairs i and j, where i ≠ j. Second, we distribute the stations as equidistantly as possible in the street network. To achieve this station distribution, we create a triangular lattice in the polygon of the physical street network with a slightly higher total number of lattice points. We then map each lattice point to the closest node in the underlying street network G and delete excess points starting with those lattice points whose position in the triangular lattice is furthest from its corresponding node in G until we are left with the same number of nodes as station in our original data (Fig. 6a).\nWe create bike path networks as described above, compute the resulting bikeability and other measures, and average them over ten realizations of random homogeneous station distributions.",
+            "cites": [
+                "ref-CR43",
+                "ref-CR35",
+                "ref-CR41",
+                "ref-CR44",
+                "ref-CR28",
+                "ref-CR45",
+                "ref-CR42",
+                "ref-CR40"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Cyclists’ route choices balance speed and safety.",
+            "figure-caption": "a, If all major streets (thick edges) are outfitted with dedicated bike paths (thick blue lines), cyclists choose the most direct route (1, solid black arrow) from their origin (pin) to a destination (flag) over alternative paths (dashed arrows). b, If only some major streets are equipped with a bike path, cyclists avoid busy roads without a bike path (thick gray lines) and may prefer a short detour (2, solid black arrow). c, If none of the streets have dedicated bike infrastructure, cyclists balance the distance and safety of their route choices and may prefer long detours (3, solid black arrow) via low-traffic residential streets (thin gray lines) to more direct routes with high car traffic.",
+            "figure-link": "https://www.nature.com/articles/s43588-022-00318-w/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Constructing a sequence of efficient bike path networks.",
+            "figure-caption": "a, Block diagram of the algorithm. b, Illustration of bike path networks \\({G}_{B}(M^{\\prime} )\\) with different numbers \\(M^{\\prime}\\) of street segments equipped with bike paths. Edges represent major busy streets (thick lines) or minor residential streets (thin lines), and whether the street is equipped with a bike path (blue) or not (gray). The black dotted lines indicate cyclists' route choices. (i) We start from a full bike path network GB(M) = G, in which all M street segments of the network G are equipped with a bike path (\\(M^{\\prime} =M\\)). (ii) We first remove all of the bike paths that are not used by any cyclists, nij = 0, leaving us with the smallest subgraph GB(M0) that still optimally serves the given demand. (iii, iv) We then remove the least important edges one by one, defined by the smallest product \\({p}_{ij}^{0}\\,{n}_{ij}\\) of the penalty factor and the number of cyclists using the bike path, updating the cyclists' route choice and recording one network \\({G}_{B}(M^{\\prime} )\\) for each number \\(M^{\\prime}\\) of bike paths. (v) The algorithm terminates with an empty bike path network GB(0) once all of the bike paths have been removed.",
+            "figure-link": "https://www.nature.com/articles/s43588-022-00318-w/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Street networks and bike-sharing demand in Dresden and Hamburg.",
+            "figure-caption": "a, Street network (gray lines), bike-sharing-station locations and station activity (colored circles) in Dresden between November 2017 and March 202044. b, Distribution of station usage, measuring the combined number of in- and outgoing trips per station in Dresden. Bike-sharing usage is strongly heterogeneous and is dominated by two heavily used stations (pink) along the north–south axis between the central train station (center) and university campus (south). Station density reflects this usage pattern and is highest in the central city (north/center) and near the university campus (south). c, Street network, bike-sharing-station locations and station activity in Hamburg between January 2014 and May 201745. d, Distribution of station usage, measuring the combined number of in- and outgoing trips per station in Hamburg. The station activity distribution is homogeneous across a broad spectrum of total number of trips. This homogeneous usage is also reflected in a more homogeneous distribution of bike-sharing stations, which is slightly denser only in the inner city (south).Source data",
+            "figure-link": "https://www.nature.com/articles/s43588-022-00318-w/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Demand-efficient bike path networks.",
+            "figure-caption": "a–f, Networks for Dresden (a–c) and Hamburg (d–f) with bike-sharing-station locations (purple, compare with Fig. 3). a,d, Bike path networks generated by the algorithm (blue) with the same total length as all of the primary and secondary streets, \\({{\\Lambda }}(M^{\\prime} )={{{\\Lambda }}}_{{{{\\rm{P+S}}}}}\\). b,e,Networks for the scenario in which only the primary and secondary streets (as per their OSM classification) are equipped with bike paths (black). c,f, Comparisons between both networks. The networks generated by the proposed algorithm largely coincide with the primary–secondary networks (orange edges in c and f) but more accurately reflect the input demand structure by also keeping highly used tertiary or residential streets equipped with bike paths and exhibiting a higher density of bike paths in high-demand areas.Source data",
+            "figure-link": "https://www.nature.com/articles/s43588-022-00318-w/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Demand-driven design of bike path networks improves bikeability.",
+            "figure-caption": "a,c, The resulting bikeability b(λ) (blue, equation (4)) and relative cost of the network (gray) for Dresden (a) and Hamburg (c) as a function of the normalized length of the bike path network λ. b,d, Corresponding fraction of total distance traveled on streets with and without bike paths, in networks with bike paths with the same relative length λP+S, and the primary–secondary (P + S) comparison network. Adapting the network to the demand structure achieves over 89% of the distance traveled on bike paths (blue), also reducing the distance traveled on residential streets (light gray). For our algorithm, a negligible fraction of the total distance is cycled on tertiary (dark gray) and secondary (black) roads without a bike path (not visible in the bar chart).Source data",
+            "figure-link": "https://www.nature.com/articles/s43588-022-00318-w/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: Bikeability differences quantify the importance of demand structures.",
+            "figure-caption": "a, Illustration of the demand homogenization for Hamburg. Starting from the empirical demand (i), we create uniform demand between all stations (ii) and then distribute the stations approximately equidistantly across the city (iii). b,c, Comparison of the bikeability b(λ) (equation (4)) from the empirical (compare with Fig. 5) and homogenized demand data for Dresden (b) and Hamburg (c). The comparatively smaller area between the curves (shaded gray, equation (5)) for Hamburg suggests a more homogenous empirical demand, in line with our observations in Fig. 4.Source data",
+            "figure-link": "https://www.nature.com/articles/s43588-022-00318-w/figures/6"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Banister, D. The sustainable mobility paradigm. Transp. Policy 15, 73–80 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tranpol.2007.10.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20sustainable%20mobility%20paradigm&journal=Transp.%20Policy&doi=10.1016%2Fj.tranpol.2007.10.005&volume=15&publication_year=2008&author=Banister%2CD"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Mazzoncini, R., Somaschini, C. & Longo, M. in Green Planning for Cities and Communities: Novel Incisive Approaches to Sustainability (ed. Dall’O’, G.) 255–277 (Springer, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Buehler, R. & Pucher, J. Cycling to work in 90 large american cities: new evidence on the role of bike paths and lanes. Transportation 39, 409–432 (2011).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cycling%20to%20work%20in%2090%20large%20american%20cities%3A%20new%20evidence%20on%20the%20role%20of%20bike%20paths%20and%20lanes&journal=Transportation&volume=39&publication_year=2011&author=Buehler%2CR&author=Pucher%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Creutzig, F. et al. Urban infrastructure choices structure climate solutions. Nat. Clim. Change 6, 1054–1056(2016).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnclimate3169",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20infrastructure%20choices%20structure%20climate%20solutions&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fnclimate3169&volume=6&publication_year=2016&author=Creutzig%2CF"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Rhoads, D., Solé-Ribalta, A., González, M. C. & Borge-Holthoefer, J. A sustainable strategy for open streets in (post)pandemic cities. Commun. Phys. 4, 183 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs42005-021-00688-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20sustainable%20strategy%20for%20open%20streets%20in%20%28post%29pandemic%20cities&journal=Commun.%20Phys.&doi=10.1038%2Fs42005-021-00688-z&volume=4&publication_year=2021&author=Rhoads%2CD&author=Sol%C3%A9-Ribalta%2CA&author=Gonz%C3%A1lez%2CMC&author=Borge-Holthoefer%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Schwedhelm, A., Li, W., Harms, L. & Adriazola-Steil, C. Cycling During COVID-19 (World Resources Institute, 2020); https://www.wri.org/blog/2020/04/coronavirus-biking-critical-in-cities",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Goetsch, H. & Quiros, T. P. COVID-19 Creates New Momentum for Cycling and Walking. We Can’t Let it Go to Waste! (World Bank, 2020); https://blogs.worldbank.org/transport/covid-19-creates-new-momentum-cycling-and-walking-we-cant-let-it-go-waste",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Jackson, M. O. Social and Economic Networks (Princeton Univ. Press, 2010).",
+            "links": {
+                "Book": "https://doi.org/10.2307%2Fj.ctvcm4gh1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20and%20Economic%20Networks&doi=10.2307%2Fj.ctvcm4gh1&publication_year=2010&author=Jackson%2CMO"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Schröder, M., Nagler, J., Timme, M. & Witthaut, D. Hysteretic percolation from locally optimal individual decisions. Phys. Rev. Lett. 120, 248302 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevLett.120.248302",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hysteretic%20percolation%20from%20locally%20optimal%20individual%20decisions&journal=Phys.%20Rev.%20Lett.&doi=10.1103%2FPhysRevLett.120.248302&volume=120&publication_year=2018&author=Schr%C3%B6der%2CM&author=Nagler%2CJ&author=Timme%2CM&author=Witthaut%2CD"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Aldous, D. & Barthelemy, M. Optimal geometry of transportation networks. Phys. Rev. E 99, 052303 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.99.052303",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Optimal%20geometry%20of%20transportation%20networks&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.99.052303&volume=99&publication_year=2019&author=Aldous%2CD&author=Barthelemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Tero, A. et al. Rules for biologically inspired adaptive network design. Science 327, 439–442 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.1177894",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2599697",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rules%20for%20biologically%20inspired%20adaptive%20network%20design&journal=Science&doi=10.1126%2Fscience.1177894&volume=327&publication_year=2010&author=Tero%2CA"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Karschau, J. et al. Resilience of three-dimensional sinusoidal networks in liver tissue. PLoS Comput. Biol. 16, (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Kleinberg, J. M. Navigation in a small world. Nature 406, 845 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2F35022643",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Navigation%20in%20a%20small%20world&journal=Nature&doi=10.1038%2F35022643&volume=406&publication_year=2000&author=Kleinberg%2CJM"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Molkenthin, N., Schröder, M. & Timme, M. Adhesion-induced discontinuous transitions and classifying social networks. Phys. Rev. Lett. 121, 138301 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevLett.121.138301",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Adhesion-induced%20discontinuous%20transitions%20and%20classifying%20social%20networks&journal=Phys.%20Rev.%20Lett.&doi=10.1103%2FPhysRevLett.121.138301&volume=121&publication_year=2018&author=Molkenthin%2CN&author=Schr%C3%B6der%2CM&author=Timme%2CM"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Gastner, M. T. & Newman, M. E. J. Optimal design of spatial distribution networks. Phys. Rev. E 74, 016117 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.74.016117",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Optimal%20design%20of%20spatial%20distribution%20networks&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.74.016117&volume=74&publication_year=2006&author=Gastner%2CMT&author=Newman%2CMEJ"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Verma, T., Russmann, F., Araújo, N. A., Nagler, J. & Herrmann, H. J. Emergence of core–peripheries in networks. Nat. Commun. 7, 10441 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fncomms10441",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emergence%20of%20core%E2%80%93peripheries%20in%20networks&journal=Nat.%20Commun.&doi=10.1038%2Fncomms10441&volume=7&publication_year=2016&author=Verma%2CT&author=Russmann%2CF&author=Ara%C3%BAjo%2CNA&author=Nagler%2CJ&author=Herrmann%2CHJ"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Barthélemy, M. & Flammini, A. Optimal traffic networks. J. Stat. Mech. Theory Exp. 2006, L07002 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1742-5468%2F2006%2F07%2FL07002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Optimal%20traffic%20networks&journal=J.%20Stat.%20Mech.%20Theory%20Exp.&doi=10.1088%2F1742-5468%2F2006%2F07%2FL07002&volume=2006&publication_year=2006&author=Barth%C3%A9lemy%2CM&author=Flammini%2CA"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Barthélemy, M. Spatial networks. Phys. Rep. 499, 1–101 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.physrep.2010.11.002",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2770962",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20networks&journal=Phys.%20Rep.&doi=10.1016%2Fj.physrep.2010.11.002&volume=499&publication_year=2011&author=Barth%C3%A9lemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Scellato, S., Cardillo, A., Latora, V. & Porta, S. The backbone of a city. Eur. Phys. J. B 50, 221–225 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1140%2Fepjb%2Fe2006-00066-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20backbone%20of%20a%20city&journal=Eur.%20Phys.%20J.%20B&doi=10.1140%2Fepjb%2Fe2006-00066-4&volume=50&publication_year=2006&author=Scellato%2CS&author=Cardillo%2CA&author=Latora%2CV&author=Porta%2CS"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Duthie, J. & Unnikrishnan, A. Optimization framework for bicycle network design. J. Transp. Eng. A 140, 04014028 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1061%2F%28ASCE%29TE.1943-5436.0000690",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Optimization%20framework%20for%20bicycle%20network%20design&journal=J.%20Transp.%20Eng.%20A&doi=10.1061%2F%28ASCE%29TE.1943-5436.0000690&volume=140&publication_year=2014&author=Duthie%2CJ&author=Unnikrishnan%2CA"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Muñoz, B., Monzon, A. & Lois, D. Cycling habits and other psychological variables affecting commuting by bicycle in Madrid, Spain. Transp. Res. Record https://doi.org/10.3141/2382-01 (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Rik de Groot, H. (ed) Design Manual for Bicycle Traffic Record no. 28 (Crow, 2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Bushell, M. A., Poole, B. W., Zegeer, C. V. & Rodriguez, D. A. Costs for Pedestrian and Bicyclist Infrastructure Improvements Techical Report (UNC Highway Safety Research Center, University of North Carolina, 2013); https://www.pedbikeinfo.org/cms/downloads/CountermeasureCosts_Report_Nov20131.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Natera Orozco, L. G., Battiston, F., Iñiguez, G. & Szell, M. Data-driven strategies for optimal bicycle network growth. R. Soc. Open Sci. 7, 201130 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsos.201130",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Data-driven%20strategies%20for%20optimal%20bicycle%20network%20growth&journal=R.%20Soc.%20Open%20Sci.&doi=10.1098%2Frsos.201130&volume=7&publication_year=2020&author=Natera%20Orozco%2CLG&author=Battiston%2CF&author=I%C3%B1iguez%2CG&author=Szell%2CM"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Olmos, L. E. et al. A data science framework for planning the growth of bicycle infrastructures. Transp. Res. C 115, 102640 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trc.2020.102640",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20data%20science%20framework%20for%20planning%20the%20growth%20of%20bicycle%20infrastructures&journal=Transp.%20Res.%20C&doi=10.1016%2Fj.trc.2020.102640&volume=115&publication_year=2020&author=Olmos%2CLE"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Szell, M., Mimar, S., Perlman, T., Ghoshal, G. & Sinatra, R. Growing urban bicycle networks. Sci. Rep. 12, 6765 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-022-10783-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Growing%20urban%20bicycle%20networks&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-022-10783-y&volume=12&publication_year=2022&author=Szell%2CM&author=Mimar%2CS&author=Perlman%2CT&author=Ghoshal%2CG&author=Sinatra%2CR"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Menghini, G., Carrasco, N., Schüssler, N. & Axhausen, K. Route choice of cyclists in Zurich. Transp. Res. A 44, 754–765 (2010).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Route%20choice%20of%20cyclists%20in%20Zurich&journal=Transp.%20Res.%20A&volume=44&publication_year=2010&author=Menghini%2CG&author=Carrasco%2CN&author=Sch%C3%BCssler%2CN&author=Axhausen%2CK"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Broach, J., Dill, J. & Gliebe, J. Where do cyclists ride? A route choice model developed with revealed preference GPS data. Transp. Res. A 46, 1730–1740 (2012).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Where%20do%20cyclists%20ride%3F%20A%20route%20choice%20model%20developed%20with%20revealed%20preference%20GPS%20data&journal=Transp.%20Res.%20A&volume=46&publication_year=2012&author=Broach%2CJ&author=Dill%2CJ&author=Gliebe%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Guerreiro, Td. C. M., Kirner Providelo, J., Pitombo, C. S., Antonio Rodrigues Ramos, R. & Rodrigues da Silva, A. N. Data-mining, GIS and multicriteria analysis in a comprehensive method for bicycle network planning and design. Int. J. Sustain. Transp. 12, 179–191 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F15568318.2017.1342156",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Data-mining%2C%20GIS%20and%20multicriteria%20analysis%20in%20a%20comprehensive%20method%20for%20bicycle%20network%20planning%20and%20design&journal=Int.%20J.%20Sustain.%20Transp.&doi=10.1080%2F15568318.2017.1342156&volume=12&publication_year=2018&author=Guerreiro%2CTdCM&author=Kirner%20Providelo%2CJ&author=Pitombo%2CCS&author=Antonio%20Rodrigues%20Ramos%2CR&author=Rodrigues%20da%20Silva%2CAN"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Banister, D. & Berechman, Y. Transport investment and the promotion of economic growth. J. Transp. Geogr. 9, 209–218 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0966-6923%2801%2900013-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Transport%20investment%20and%20the%20promotion%20of%20economic%20growth&journal=J.%20Transp.%20Geogr.&doi=10.1016%2FS0966-6923%2801%2900013-8&volume=9&publication_year=2001&author=Banister%2CD&author=Berechman%2CY"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Buehler, R. & Dill, J. Bikeway networks: a review of effects on cycling. Transp. Rev. 36, 9–27 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01441647.2015.1069908",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bikeway%20networks%3A%20a%20review%20of%20effects%20on%20cycling&journal=Transp.%20Rev.&doi=10.1080%2F01441647.2015.1069908&volume=36&publication_year=2016&author=Buehler%2CR&author=Dill%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Daganzo, C. F. & Sheffi, Y. On stochastic models of traffic assignment. Transp. Sci. 11, 253 (1977).",
+            "links": {
+                "Article": "https://doi.org/10.1287%2Ftrsc.11.3.253",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=On%20stochastic%20models%20of%20traffic%20assignment&journal=Transp.%20Sci.&doi=10.1287%2Ftrsc.11.3.253&volume=11&publication_year=1977&author=Daganzo%2CCF&author=Sheffi%2CY"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Storch, D.-M., Schröder, M. & Timme, M. Traffic flow splitting from crowdsourced digital route choice support. J. Phys. Complexity 1, 035004 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F2632-072X%2Faba83e",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Traffic%20flow%20splitting%20from%20crowdsourced%20digital%20route%20choice%20support&journal=J.%20Phys.%20Complexity&doi=10.1088%2F2632-072X%2Faba83e&volume=1&publication_year=2020&author=Storch%2CD-M&author=Schr%C3%B6der%2CM&author=Timme%2CM"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Newman, M. E. J. & Girvan, M. Finding and evaluating community structure in networks. Phys. Rev. E 69, 026113 (2004).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.69.026113",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Finding%20and%20evaluating%20community%20structure%20in%20networks&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.69.026113&volume=69&publication_year=2004&author=Newman%2CMEJ&author=Girvan%2CM"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "OpenStreetMap contributors. Street Networks Retrieved From openstreetmap.org (OpenStreetMap, 2021); www.openstreetmap.org/copyright/en",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Kellstedt, D. K. et al. A scoping review of bikeability assessment methods. J. Commun. Health 46, 211–224 (2021).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10900-020-00846-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20scoping%20review%20of%20bikeability%20assessment%20methods&journal=J.%20Commun.%20Health&doi=10.1007%2Fs10900-020-00846-4&volume=46&publication_year=2021&author=Kellstedt%2CDK"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Carmona, H. A., de Noronha, A. W. T., Moreira, A. A., Araújo, N. A. M. & Andrade, J. S. Cracking urban mobility. Phys. Rev. Res. 2, 043132 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevResearch.2.043132",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cracking%20urban%20mobility&journal=Phys.%20Rev.%20Res.&doi=10.1103%2FPhysRevResearch.2.043132&volume=2&publication_year=2020&author=Carmona%2CHA&author=Noronha%2CAWT&author=Moreira%2CAA&author=Ara%C3%BAjo%2CNAM&author=Andrade%2CJS"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Schäfer, B., Witthaut, D., Timme, M. & Latora, V. Dynamically induced cascading failures in power grids. Nat. Commun. 9, 1975 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-018-04287-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dynamically%20induced%20cascading%20failures%20in%20power%20grids&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-018-04287-5&volume=9&publication_year=2018&author=Sch%C3%A4fer%2CB&author=Witthaut%2CD&author=Timme%2CM&author=Latora%2CV"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Folco, P., Gauvin, L., Tizzoni, M. & Szell, M. Data-driven bicycle network planning for demand and safety. Preprint at https://arxiv.org/abs/2203.14619 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Boeing, G. OSMnx: new methods for acquiring, constructing, analyzing, and visualizing complex street networks. Comput. Environ. Urban Syst. 65, 126–139 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.compenvurbsys.2017.05.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=OSMnx%3A%20new%20methods%20for%20acquiring%2C%20constructing%2C%20analyzing%2C%20and%20visualizing%20complex%20street%20networks&journal=Comput.%20Environ.%20Urban%20Syst.&doi=10.1016%2Fj.compenvurbsys.2017.05.004&volume=65&publication_year=2017&author=Boeing%2CG"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Graser, A., Straub, M. & Dragaschnig, M. Towards an open source analysis toolbox for street network comparison: indicators, tools and results of a comparison of OSM and the official Austrian reference graph. Trans. GIS 18, 510–526 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Ftgis.12061",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Towards%20an%20open%20source%20analysis%20toolbox%20for%20street%20network%20comparison%3A%20indicators%2C%20tools%20and%20results%20of%20a%20comparison%20of%20OSM%20and%20the%20official%20Austrian%20reference%20graph&journal=Trans.%20GIS&doi=10.1111%2Ftgis.12061&volume=18&publication_year=2014&author=Graser%2CA&author=Straub%2CM&author=Dragaschnig%2CM"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Quinn, S. & Bull, F. Geospatial Information System Use in Public Organizations 80–96 (Routledge, 2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "OpenStreetMap contributors. Key:Highway—OSM Wiki (Wikipedia, 2022); https://wiki.openstreetmap.org/wiki/Key:highway",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Trip Data Dresden Universities (NextBike GmbH, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Buchungen Call a Bike (Stand 05/2017) (CC BY 4.0) (Deutsche Bahn, accessed 14 April 2020); https://data.deutschebahn.com/dataset/data-call-a-bike",
+            "links": {}
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Steinacker, C. PhysicsOfMobility/BikePathNet: Update for Supplementary Material for \"Demand-driven Design of Bicycle Infrastructure Networks for Improved Urban Bikeability\" (Zenodo, 2022); https://doi.org/10.5281/zenodo.6975015",
+            "links": {}
+        }
+    ]
+}

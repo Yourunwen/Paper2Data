@@ -1,0 +1,896 @@
+{
+    "id": "s41893-025-01658-x",
+    "journal": "Nature Sustainability",
+    "type": "article",
+    "title": "Housing exchange framework to reduce carbon emissions from commuting",
+    "legal_title": "Housing exchange framework to reduce carbon emissions from commuting",
+    "publish_time": "2025-10-16",
+    "pdf_link": "https://www.nature.com/articles/s41893-025-01658-x",
+    "storage_path": "./Articles/Nature Sustainability/2025-article/s41893-025-01658-x/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Prevailing strategies for commuting efficiency focus predominantly on land-use and transportation policies, whereas research on the environmental benefits of housing reallocation strategies to mitigate excess commuting remains critically underexplored. Here this study proposes an information-enabled housing exchange framework and quantifies the potential reduction of commuting-related carbon emissions it can achieve. Leveraging housing and travel survey data from Beijing (n = 2,032), Munich (n = 3,131) and Singapore (n = 7,418), at the household level, our analysis reveals that commuting distances could be reduced by approximately 10.49%–12.70%, corresponding to CO2 emissions reductions of 11.33%, 12.09% and 13.42%, respectively. Crucially, strategic relocation of the households with the 5% highest carbon reduction potential could yield more than 50% of total achievable emissions reduction. These results demonstrate that enhancing housing market efficiency through information transparency can generate substantial environmental co-benefits. The integration of conventional policies with this approach would enable a viable pathway to sustainable urban development.",
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Excess commuting, defined as unnecessary travel resulting from the mismatch between housing and job locations1, remains a persistent challenge in urban areas worldwide2,3. This phenomenon not only exacerbates transportation costs and increases travel times but also contributes substantially to environmental degradation through elevated carbon emissions4,5. According to the US Environmental Protection Agency, reducing commuting distance by just 1 mile can cut annual carbon emissions by approximately 200 kg per car commuter. Hence, addressing excessive commuting patterns supports sustainable urban development and advances climate objectives6,7.\nTraditional explanations for excess commuting often highlight policy-induced inefficiencies, such as sprawl-inducing land-use regulations and transport subsidies8,9. Various interventions have been proposed to enhance commuting efficiency10, such as advocating for compact urban development and implementing cordon pricing in monocentric cities9,11. In polycentric cities, more complex commuting patterns arise12, but differentiated road pricing and robust public transportation systems can still improve commuting efficiency13,14,15,16. Whereas these ‘top-down’ approaches have proven effective in certain contexts17, the evolving complexity of urban economies calls for a more comprehensive exploration of the factors influencing commuting patterns.\nBeyond policy-induced factors, housing market inefficiencies also play a critical role in excessive commuting18,19. These inefficiencies primarily stem from information imperfections20,21, which hinder the optimal matching of workers to housing that is closer to their workplaces22. A major information imperfection within the housing market is the invisibility of unlisted occupied housing, which comprises a substantial portion of the total housing stock, contributing to suboptimal housing allocations and commuting inefficiencies23. However, research on the potential benefits of incorporating unlisted occupied housing information into housing reallocation strategies to reduce commuting-related carbon emissions remains sparse.\nThis article seeks to fill this gap by proposing a household housing exchange framework that incorporates better information on unlisted occupied housing and assessing its potential environmental benefits. We make two key assumptions: (1) driven by emerging digital technologies (for example, artificial intelligence, big data and blockchain), timely and transparent access to information—such as neighbourhood amenities and prices—ensures that all households can obtain relevant details about unlisted occupied housing. That is, each household can access good information pertaining to other households’ housing conditions and (2) households base their relocation decisions on utility maximization principles24. The central research question guiding this paper is: what are the potential benefits of housing reallocation, facilitated by better information availability, in reducing commuting-related carbon emissions?\nOur proposed housing exchange framework reallocates households to higher-utility housing options while minimizing overall commuting distances and emissions (Fig. 1). Housing utility includes the willingness to pay (WTP) for residential amenities, generalized commuting costs25 and expected capital gains. We employ a modified price regression model26 to estimate the willingness to pay for residential amenities (Supplementary Information 5). We adopt a discrete choice model (DCM) to estimate people’s choice of commuting modes27 after the relocation and value of commuting time (Supplementary Information 6). The DCM is used to capture people’s commuting mode change and calculate the generalized commuting costs. Expected capital gains are estimated based on housing location (Supplementary Information 4.2). Specifically, we assume a rational household would consider relocating if (1) the relocation increases overall utility, even accounting for relocation costs; (2) the associated costs (relocation cost plus price difference) remain within budget (assumed to be 2 yearsʼ after-tax discretionary income; details in Supplementary Information 4.2); and (3) the new residence meets acceptable size and amenity standards (that is, same number of rooms and dwelling type, and at most 10% worse WTP). Utility and cost are measured over a 5-year time horizon (representing typical job tenure) and discounted to present value. For all viable relocation pairs of individuals/households that satisfy these conditions, we solve a minimum-weight-matching problem to minimize total commuting distance after relocation. We then estimate potential reductions in emissions (for example, CO2, fine particulate matter (PM2.5)) based on resulting mode-specific commuting distances for each hypothetical scenario. Detailed formulations are shown in the Methods section.\nWe investigate our central research question from three perspectives:\nUsing household housing and travel survey data from Beijing (n = 2,032), Munich (n = 3,131) and Singapore (n = 7,418), we find robust reductions in average commuting-related carbon emissions: 11.33% in Beijing, 12.09% in Munich and 13.42% in Singapore. These reductions correspond to annual CO2 savings of 64.47 kg, 42.59 kg and 124.97 kg per capita, respectively. Furthermore, we identify an efficient participation rate for voluntary housing exchange across the three cities: targeting only the top 5% of households, those with the highest carbon reduction potential, could yield more than 50% of total achievable emissions reductions. This strategy could reduce commuting distances by an average of over 14 kilometres per relocated individual, resulting in an annual reduction of more than 1.30 tons of per capita carbon emissions.\nOur study demonstrates how enhancing housing market efficiency through better information of unlisted occupied houses can lead to significant environmental benefits, particularly by reducing commuting-related carbon emissions. By expanding the focus beyond traditional policy interventions, our research explores how better housing reallocation in the market can shape sustainable urban mobility patterns and reduce global carbon emissions.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR26",
+                "ref-CR27",
+                "ref-CR14",
+                "ref-CR20",
+                "ref-CR7",
+                "ref-CR6",
+                "ref-CR9",
+                "ref-CR4",
+                "ref-CR2",
+                "ref-CR22",
+                "ref-CR5",
+                "ref-CR13",
+                "ref-CR1",
+                "ref-CR15",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR24",
+                "ref-CR23",
+                "ref-CR16",
+                "ref-CR11",
+                "ref-CR3",
+                "ref-CR17",
+                "ref-CR18",
+                "ref-CR25",
+                "ref-CR19",
+                "ref-CR21"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Results",
+            "text": "### Commuting distance and emissions reduction\nThere is a notable spatial mismatch between individual jobs and residences in Beijing, Munich and Singapore, as evidenced by the widespread cross commuting between sampled individuals (Fig. 2a–c). The average commuting distances are 10.99 km in Beijing, 8.59 km in Munich and 12.97 km in Singapore (Fig. 2g–i). Notably, despite Singapore’s smaller spatial scale, it exhibits the longest average commuting distance, partly due to its higher concentration of jobs in the city centre and relatively homogeneous dwelling type.\nIn the optimal consumption–investment scenario, we assume households are willing to exchange their housing if the new one offers a higher overall utility (composed of WTP for residential amenities, generalized commuting costs and expected capital gains) and satisfies the three conditions defined in the ‘Main’ section. The share of cross commuters between each sub-districts has limited to 71.7%, 53.1% and 88.4% in Beijing, Munich and Singapore, respectively (Fig. 2d–f). The average commuting distance decreases by 10.49% in Beijing (from 10.99 km to 9.84 km), 12.70% in Munich (from 8.59 km to 7.50 km) and 12.46% in Singapore (from 12.97 km to 11.35 km). These reductions correspond to approximate CO2 emissions reductions of 11.33% (0.14 kg), 12.09% (0.11 kg) and 13.42% (0.27 kg) per one-way commute trip in Beijing, Munich and Singapore, respectively (Fig. 3a–h). Assuming individuals make two commute trips per weekday, this translates to annual per capita emissions reductions of 138.17 kg (Beijing), 71.47 kg (Munich) and 54.77 kg (Singapore). Additionally, the housing exchange framework leads to notable reductions in other pollutants, as illustrated in Fig. 3i–t. For carbon monoxide (CO), individual annual reductions range from 62.88 g to 550.01 g, for nitrogen oxides (NOx) from 124.30 g to 224.37 g and for fine particulate matter (PM2.5) from 1.37 g to 2.22 g across three cities.\nCompared to the optimal consumption–investment scenario, our near-optimal consumption-focused scenario differs solely by omitting expected housing capital gains from the utility maximization framework. Our analysis shows no significant difference between these two scenarios. This suggests that present residential amenity values, rather than expected capital gains, are the primary determinants in household location choice. This phenomenon may be attributed to the combined effect of large housing costs and low property appreciation rates in the market.\nWe also consider a scenario where the housing exchange decision is made jointly by both earners in double-income households. This exchange considers the utilities and constraints of both earners in the exchange model (as opposed to only considering the household head). It has an additional requirement that both earners must relocate to the same house. Under this scenario, the average reduction in commuting-related CO2 emissions is lower. Specifically, in Singapore, the reduction drops from 13.42% to 6.25% when both earners participate in the decision-making process.\n### Sensitivity test for commute emissions reductions\nWe conduct several sensitivity tests from different aspects (the summary of all tests is provided in Supplementary Information 2). First, for the near-optimal consumption-focused scenario, we test the sensitivity to estimated WTP for the residential amenity and value of time. We also test different levels of amenity deterioration standard (condition 3 in the ‘Main’ section). Furthermore, for the optimal consumption–investment scenario, we test the sensitivity of carbon reduction to alternative expected capital gains, varying time spans and stricter amenity constraints.\nIn reference to near-optimal consumption-focused scenario, when individuals show larger willingness to pay for the overall residential amenities, there would be fewer households (approximately 7.63%–8.57%) exchanging their housing (Supplementary Information 7). The average commuting distance increases by approximately 0.59 km to 0.78 km across three cities, which corresponds to an approximately 4.56%–9.10% decrease in the overall commute reduction (Fig. 4a–c). In contrast, when individuals place a higher value on their time, approximately 4.07%–4.95% additional households would exchange their housing, contributing to 1.47%–3.99% additional commuting-related emissions reductions. Our analysis reveals that commuting distance and emissions reductions are more sensitive to household willingness to pay for amenities than to the value of time. Furthermore, when the amenity standard is relaxed—from being at most 10% worse than the current housing to 20% or 30% worse—no further reductions in commuting distances are observed. These findings can be attributed to the relatively higher housing prices compared to the generalized commuting costs.\nIn the optimal consumption–investment scenario, we assume the property appreciation rates of houses vary by their distances to the central business district (CBD), and core locations increase faster. In an alternative scenario where core locations increase slower, the average commuting distance decreases by 11.06% in Munich (Fig. 4a–c), because some households are willing to compromise the current housing amenity (with higher expected capital gains) for shorter commutes. This corresponds to an additional reduction of 0.10 kg CO2 emissions per commuting trip (Fig. 4d–f). Beijing and Singapore show limited change in commuting distance or carbon emissions, which is expected given the city’s monocentric structure, where property value is predominantly driven by proximity to the CBD. Second, we also test time span of 3 years and 8 years. Whereas a longer time span expects a larger commuting-related carbon reduction (an increase of 6.91% in Beijing, 10.98% in Munich and 3.92% in Singapore), a shorter time span corresponds to a smaller reduction (a decrease of 6.71% in Beijing, 9.23% in Munich and 5.98% in Singapore). Overall, the optimal reduction in commuting carbon emissions is most sensitive to the time span in Munich. This may be attributed to the smaller disparity between the income growth rate (2.6%) and housing price growth rate (4.5%) in Munich, where the trade-off between commuting costs and housing costs relaxes over a longer time horizon. Last, rather than only regarding the overall willingness to pay for amenity as the exchange feasibility, we further constraining the revealed preferences28 for each residential amenity, that is, requiring similar (at most ± 30% difference) community income level, distance to CBD and number of nearby points of interest. The additional constraint yields a notable compromise in CO2 emissions reduction (almost 10% in Beijing and Munich, 5.61% in Singapore).\n### Emission reductions by random versus targeted relocation\nEven if relocation offers potential benefits, some households may not have access to such housing information. Hence, in reality, we may see fewer households participating in the housing exchange framework. To capture this effect, we incrementally include a proportion of households who decide to participate (from 1% to 100%). When households are randomly selected for the exchange, both total and average reductions in commuting distance increases (Fig. 5a–c). This implies a ‘network effect’ where more participants could increase the efficiency of the housing exchange and benefit everyone.\nOn the other hand, to identify the efficient participation rate among relocated households, we focus on selecting targeted households whose relocation contributes the most to overall commute reduction. As shown in Fig. 5d–f, just relocating the top 5% of individuals accounts for more than half of the total commute reduction potential in these three cities (61.08% in Beijing, 73.23% in Munich and 56.12% in Singapore). Moreover, the average commuting distance reduction among the relocated individuals is respectively 14.17 km, 16.04 km and 18.23 km. Their commuting patterns are significantly optimized, with the share of trips bypassing the city centre markedly reduced (Fig. 5g–i). This substantial improvement in commuting conditions may serve as a strong incentive for these individuals to relocate. Nevertheless, if more ‘targeted selected’ individuals are included in the exchange scheme, though the total commute reduction increase, the average commute reduction will decrease rapidly, implying a decreased exchange efficiency.",
+            "cites": [
+                "ref-CR28"
+            ],
+            "figures": [
+                "figure-4",
+                "figure-3",
+                "figure-5",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "For a long time, researchers have viewed long-distance commuting as a necessary compromise for better jobs and affordable housing29,30. In the context of booming technological innovations reducing the information frictions, we proposed a household housing exchange framework, enabled by better information on unlisted occupied housing, to reduce excess commuting-related carbon emissions31. Our study demonstrates how enhancing housing market efficiency through better information can lead to significant environmental benefits. By integrating housing reallocation into the broader discourse on sustainable urban mobility, we offer a valuable complementary strategy to traditional policy interventions.\nOur findings reveal that an information-enabled housing reallocation can lead to substantial reductions in commuting distances and, consequently, CO2 emissions. Despite variations in spatial scales, population densities and transportation infrastructure across the cities studied, we observe consistent reductions in commuting-related CO2 emissions: 11.33% in Beijing, 12.09% in Munich and 13.42% in Singapore. This consistency highlights the robustness of the housing exchange framework. Our results align with previous studies, such as White’s (1988)32 research on 25 US cities and Merriman et al. (1995)33 on Tokyo. Furthermore, our findings are comparable to the impact of policy interventions such as road pricing (13%) (ref. 34,35) and even larger than the effects of density regulations36. Another important contribution of our study is the identification of an efficient participation rate. We show that focusing on a relatively small proportion of the population—just 5%—can achieve at least 50% of the total emissions reductions. Households participating in the housing exchange experience an average reduction of more than 14 km in commuting distances, resulting in an annual reduction of greater than 1.30 tons of CO2 per car commuter.\n### Policy implication\nThe decentralized housing market is characterized by heterogeneous assets trading infrequently with high transaction costs, rendering it vulnerable to much larger information costs and frictions compared to the labour market20,37. It manifests through two critical dimensions: first, information asymmetry enables better-informed parties to strategically exploit informational advantages38,39. For example, potential buyers might lack information regarding the occupancy status of the school admission entitlement linked to the property. Second, households only have access to area-specific housing pools and lack the comprehensive property data40, such as complete transaction histories or high-resolution environment risk exposure. These information gaps, combined with heterogeneity in housing and households result in inefficient, multi-stage search and matching that relies on both off-site research and on-site verification. The process is further strained by idiosyncratic preferences, subjective neighbourhood perceptions and search congestion externalities. Despite technology diminishing certain search and match frictions41,42,43,44, imperfect information persists due to inherent institutional barriers, particularly confidentiality protections and data fragmentation.\nEven when search and matching efficiency improves, additional transaction costs might still prohibit many households from engaging in such housing exchanges. In Beijing, for instance, short-term property holders are subject to value-added and income tax surcharges, whereas non-citizen households in Singapore must pay an additional buyer’s stamp duty (60% of the property value). Other barriers includes Germany’s mandatory notarial requirements, which add approximately 1%–2% to property values. Because most households’ current housing is leveraged with mortgage debt, the associated financing costs also constrain their residential mobility45. Additionally, declining commuting benefits due to increased job mobility and behavioural factors such as status-quo bias further suppress such housing exchange. These frictions collectively discourage optimal housing allocation and may contribute to higher carbon emissions.\nTo address the aforementioned barriers for the proposed housing exchange framework, targeted policy interventions should be designed to enhance the housing market efficiency via the proposed environmentally friendly housing exchange. First, reducing information and search frictions should be prioritized46. This could involve mandating the disclosure of standardized property conditions in quantity and quality, especially regarding aspects with inherent information asymmetry. Enforcing industry-led housing certifications and inspections (for example, Energy Performance Certificates) and developing a public Geographic Information System (GIS) platform to provide automatically synchronized, scalable data on neighbourhood amenities and disamenities (for example, school quality, pollution sources) would further enhance transparency. Moreover, governments should drive core housing platform integration while enabling industry innovation via controlled application programming interface (API) access and data sharing, which also enhances the matching efficiency. Second, reducing the additional transaction costs is crucial. Policymakers should consider removing or loosening restrictive measures, such as differential taxation based on citizenship or holding periods, and simplifying legal procedures or introducing tax incentives to facilitate such ‘low-carbon’ housing exchanges. In addition, public–private partnerships could also streamline mortgage transitions to reduce liquidity constraints. These interventions could yield substantial carbon reduction benefits, as illustrated by our analysis showing a 30% decrease in relocation costs would elevate CO2 emissions reductions from current levels (11% in Beijing, 12% in Munich and 13% Singapore) to 16%, 17% and 16%, respectively (Fig. 6a–c). More aggressive measures that halve the relocation costs could achieve even greater reductions (18% in Beijing, 23% in Munich, and 18% in Singapore), demonstrating the substantial policy leverage to simultaneously improve housing market efficiency and environmental outcomes. Third, behavioural nudges and operational improvements could also facilitate such housing exchange. Reframing the exchange as climate action may help counteract households’ status-quo bias, while enhanced government regulation would strengthen public trust in property transactions. Leveraging existing brokerage networks and incentivizing temporary ‘buffer’ housing arrangements could also ease matching difficulties. Last, as shown in Fig. 6d–f, when value of time range from ~30% to ~70% of the income, utility gains could increase by roughly 2–3 times. To maximize emissions reduction, efficiency-oriented policies should incentivize especially high-value-of-time households to optimize location choices through measures such as transit-oriented development incentives or green mortgages.\n### Limitations\nThere are several limitations to this study. First, our utility estimate is based on a fixed five-year period for job tenure, which may not fully account for varying job mobility across different sectors47, potentially skewing our results. Second, the price regression model used in this analysis does not include factors such as building age or subjective neighbourhood attachment, both of which could introduce estimation bias. Furthermore, future research should explore more nuanced dimensions of housing decision-making. Whereas our analysis assumes economically incentivized residential relocation, it would be valuable to fully capture household idiosyncratic preferences in housing choices48,49. Last, this study does not fully account for the shift in work patterns. Therefore, more accurate estimations of carbon mitigation potential in the future must integrate the prevailing trend of working from home in the post-COVID-19-pandemic era50.",
+            "cites": [
+                "ref-CR20",
+                "ref-CR43",
+                "ref-CR36",
+                "ref-CR30",
+                "ref-CR33",
+                "ref-CR49",
+                "ref-CR42",
+                "ref-CR32",
+                "ref-CR29",
+                "ref-CR41",
+                "ref-CR31",
+                "ref-CR47",
+                "ref-CR38",
+                "ref-CR34",
+                "ref-CR40",
+                "ref-CR48",
+                "ref-CR37",
+                "ref-CR45",
+                "ref-CR46",
+                "ref-CR39",
+                "ref-CR50",
+                "ref-CR44",
+                "ref-CR35"
+            ],
+            "figures": [
+                "figure-6"
+            ]
+        },
+        {
+            "title": "Methods",
+            "text": "### Study area and data\nThe three study areas—Beijing, Munich and Singapore—are characterized by various spatial scales, populations and densities. Urban Beijing exemplifies cities with larger spatial scales and higher population densities, whereas Singapore represents small, densely populated city-states. Munich serves as a typical example of cities with medium spatial scales and lower population density.\nThe sample of Beijing was drawn from a household housing and travel survey conducted by the authors’ research team in Beijing between 9 October 2020 and 16 March 2021. All participants provided written informed consent before the survey. The study protocol was approved by the Ethics Review Committee of Capital Normal University (approval number CNU-IRB-2020-1812). Both on-street surveys and web surveys are applied. On-street surveys were conducted at main subway stations and large industrial/cultural parks, whereas web surveys were distributed via major social media (that is, WeChat). Using the convenience sampling, the survey gathered 3,369 responses and filtered out 2,032 valid questionnaires. Whereas the sample aligns closely with the population in the gender composition, we recognize that the samples are relatively more educated and younger compared to those of the general population (Supplementary Table 3 in Supplementary Information 3). In addition, because the coordinates collected through the platform of ‘wenjuanwang’ are encoded, they were first projected to the World Geodetic System (WGS) coordinates to proceed with further spatial analysis in ArcGIS 10.8.\nThe sample of Munich was drawn from a household housing and travel survey (named ‘Wohnen–Arbeiten–Mobilität Survey’) jointly conducted by the chair of urban development and chair of land use and transport at the Technical University of Munich between 27 November 2014 and 19 April 2015 in Munich. All participants provided written informed consent before the survey. The study protocol was approved by the Ethics Committee of TUM School of Social Sciences and Technology (approval code EK-SSWT-2017-1317). Both web surveys and post surveys are applied. The web survey was posted on a public portal site (www.wam.tum.de) and promoted through newsletters, press conferences and social media, whereas postcards with quick response (QR) codes were sent to residential communities with the help of partner municipalities. This survey uses snowball sampling. Our web survey mainly consists of four sections: individual current residential location (with geographical coordinates), travel attitudes, travel modes and individual socio-economic profile. The housing and travel costs are also included. Out of 9,623 participants, 7,302 individuals from the European Munich Metropolitan region filled out the survey, and the response rate was 76%; only 3,131 of those were samples whose residence and workplace are both located within Munich region. Whereas the sample aligns closely with the population in the proportion of gender and household type, we recognize that the samples are relatively more educated, richer and younger compared to those of the general population (Supplementary Table 4 in Supplementary Information 3). Nevertheless, the spatial representativeness is acceptable (Supplementary Fig. 1).\nThe Singapore sample was drawn from a Household Interview Travel Survey (HITS) conducted by Singapore Land Transport Authority between 1 October 2012 and 30 September 2013. Its data collection activities strictly comply with the Singapore Personal Data Protection Act and other relevant national regulations. The secondary analysis of this data was approved by the Capital Normal University (approval number CNU-IRB-2020-1812). The survey uses a stratified random sampling method to ensure that the survey captures a diverse range of households. The sample is stratified based on key demographic factors such as: geographical locations (includes households from across all of Singapore’s planning regions), housing type, income levels and household size and structure. The HITS collects information on housing location and various aspects of travel, including how respondents commute to work, school and town centres. Among 5.31 million of the population in 2012, 9,635 households (35,714 individuals) participated in the HITS survey. Among which, 7,418 households include full-time workers. Both statistical and spatial representativeness of the sample is relatively good (Supplementary Table 5 in Supplementary Information 3).\nThe housing transaction price of each individual household’s house is provided only in the Munich survey. In contrast, we estimate the transaction price of the sample’s house by spatially matching them in ArcGIS 10.8 with other adjacent similar housing (within 1-km distance from the sample’s housing) and calculate the mean of their transaction records (‘Realis’ database in Singapore and ‘Fang tianxia’ real estate information platform in Beijing). The commuting distance (along the road network) between workers and each housing are crawled from ‘OpenStreetMap’ using Python 3.6 and Java 1.8. The commuting cost for public transport is estimated using tiered public transport fares in each city. The commuting time for public transport is estimated using linear regression on commuting distance along the road network.\n### Matching algorithm for housing exchange framework\nGiven two individuals i, j who are household heads, define the utility of individual i living in the house of individual j as\nwhere vi,j is the individual i’s willingness to pay for the house of j. It is estimated using a linear regression model with house trading price as a dependent variable and social-demographics and house amenities as independent variables (Supplementary Information 5). vi,j captured people’s utility of residential neighbourhood amenities. ci,j and ti,j are the commuting cost and time per trip if living in house j, respectively. They are calculated based on the location of houses and offices. It also captures the impact of people’s travel mode switch after relocation, which are captured using a discrete choice model (DCM). The DCM is calibrated using travel surveys of the same group of people (Supplementary Information 6). βi(τ) is the value of time for commuting, which will grow with time τ based people’s income growth and be discounted to today’s value based on the city’s discount factor. βi(τ) is calculated based on the estimated parameters of travel time and travel cost in the DCM (Supplementary Information 6). \\({\\mathcal{T}}\\) is the time span for evaluating the commuting cost. It is assumed to be 5 years for all scenarios except for the sensitivity testing cases. \\({e}_{j}({\\mathcal{T}})\\) is the total expected capital gain during the time span \\({\\mathcal{T}}\\) discounted to present. The capital growth rates are proportional to the proximity to CBD (Supplementary Information 4.2), except for the alternative capital gain scenario in the ‘Sensitivity test for commute emissions reductions’ section. Oi represents all other factors, which will be cancelled out when deciding housing relocation.\nWe assume an individual i is willing to switch to the house of j if (1) relocation gives them better utility: ui,j − ui,i ≥ ri,j, where ri,j is the relocation cost. (2) The associated costs (transaction cost plus price difference) remain within budget: vi,j − vi,i + ri,j ≤ bi. bi is the budget of individual i, setting as 2 yearsʼ after-tax income minus the essential living cost (Supplementary Information 4.2). (3) The new residence meets acceptable size and amenity standards. Mathematically, si = sj and vi,j − vi,i ≥ α × vi,i, where si is the build type and floor plan category of house i, α is the tolerance parameter. It is set to be 0.9 for all scenarios except for the sensitivity testing cases, meaning that we assume people only wish to accept at most 10% worse residential amenities (measured by wiliness to pay). For all pairs of (i, j) that satisfy these conditions, we solve a minimum-weight-matching problem to minimize the total commuting distance after relocation. The specific formulations are:\nwhere xi,j is the binary decision variable on whether individual i is relocated to the house of j. \\({\\mathcal{N}}\\) is the set of all individuals. di,j is the commuting distance if individual i live in the house of j. The matching problem is solved with the Google OR-tools package implemented in python 3.8.\nAfter relocation, we calculate the new mode choice probabilities and evaluate how the emissions (for example, CO2, PM2.5) will change. For example, the emissions of CO2 for an individual i living in house j over a 5-year period is calculated as:\nwhere Pi,j,k is the probability of individual i choosing mode k when living in house j, estimated from the DCM elaborated in Supplementary Information 6. CO2 Emission ratek is the emissions of CO2 for travel mode k (per km). Suppose j* is the allocated new house of individual i. The CO2 emissions reduction is simply \\({E}_\\mathrm{C{O}_{2}^{(i,{j}^{* })}}-{E}_\\mathrm{C{O}_{2}^{(i,i)}}\\). Details can be found in Supplementary Information 4.1.\nFor a double-earner housing exchange, we require the two earners to switch to the same house. This can be done by first eliminating all houses that do not meet the three conditions for both of them. Then, we aggregate the calculation of utility at the household level. Specifically, vi,j will be the average willingness to pay of both earners in household i living in the house of household j. The generalized commuting cost (defined as \\(\\mathrm{G{C}}_{i,j}({\\mathcal{T}}):= {\\int}_{\\tau \\in {\\mathcal{T}}}({c}_{i,j}+{\\beta }_{i}(\\tau )\\times {t}_{i,j})\\ {d}\\tau\\)), commuting distance di,j and budget bi are calculated for both earners in household i and summed together. Note that ri,j and \\({e}_{i}({\\mathcal{T}})\\) are calculated at house level, and their values are the same as the individual-based house exchange.\nFor the ‘targeted relocation’, we define a new decision variable yi indicating whether individual i switches houses (yi = 1 means switching). For top K ‘purposely target’ individuals, we solve the following matching problem with an additional constraint to limit the maximum relocated individuals:\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Illustration of the impact of household housing exchange on commuting distance reduction.",
+            "figure-caption": "a, Current commuting pattern. b, Utility-maximizing households/individuals housing exchange among similar housing type that minimize the aggregate commuting distance. Housing type consists of macro (for example, CBD distance), meso (neighbourhood amenities) and micro level (dwelling size) attributes. c, Optimal commuting pattern.",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-025-01658-x/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Commuting patterns and distance distribution in Beijing, Munich and Singapore before and after the housing exchange.",
+            "figure-caption": "a–c, Current commuting pattern between sub-districts. d–f, Optimal commuting pattern after housing exchange. Line width represents the number of commuters. g–i, Comparison between current and optimal distribution (Avg, average) of commuting distance. The Kolmogorov–Smirnov test indicates a significant difference between the two commuting distance distributions. *** implies P < 0.001 and ** implies P < 0.01. Map data in a–f from OpenStreetMap (https://openstreetmap.org/copyright).Source data",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-025-01658-x/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Average commuting distance and emissions under current, near-optimal consumption-focused and optimal consumption–investment scenarios in Beijing, Munich and Singapore for individuals and households.",
+            "figure-caption": "Scenario 1 is current. Near-optimal consumption-focused scenario (2): people are willing to relocate given the three conditions defined in the ‘Main’ section. The utility consists of the willingness to pay and generalized commuting cost. Optimal consumption–investment scenario (3): the utility further includes expected capital gains of housing. We use a paired-wise two-sided t-test to evaluate whether the average commuting distance and corresponding emissions in scenarios 2 and 3 are significantly different from scenario 1. *** implies P < 0.001. a–d, Average commuting distance (the grey background indicates that relevant emissions are derived from it). e–h, Average CO2 emissions per trip. i–l, Average CO emissions per trip. m–p, Average NOx emissions per trip. q–t, Average PM2.5 emissions per trip.Source data",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-025-01658-x/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Sensitivity test of average commuting distance and CO2 emissions reduction in reference to the near-optimal consumption-focused and optimal consumption–investment scenarios in Beijing, Munich and Singapore.",
+            "figure-caption": "a–f, The percentage change in average commuting distance (a–c) and CO2 emissions (d–f). In the grey background, near-optimal consumption-focused scenario is the benchmark (diamond mark) for sensitivity analyses on parameters including ‘wtp for amenity’, ‘amenity standard’ and ‘value of time’. The length of red lines above (below) the diamond mark represent the increase (decrease) of commuting distance and CO2 reduction in response to 30% smaller (larger) willingness to pay for residential amenity. When varying the ‘amenity standard’ from ‘being 10% worse than current amenity value’ to ‘being 20% and 30% worse’, there is no change of the commuting distance and CO2 emissions reduction. The blue lines above (below) the diamond mark represent the sensitivity test of higher or lower value of time (30.3%−68.2%). In the yellow background, optimal consumption–investment scenario is the benchmark (circle mark) for sensitivity analyses on parameters including ‘expected capital gain’, ‘time span’ and ‘similarity constraint’. The length of the red lines shows the decrease in commuting distance and CO2 emissions resulting from slower, as opposed to faster, expected capital gains of housing in core locations. The length of the grey lines above (below) the circle mark represents the sensitivity test for changing the time span from 5 years to 8 years (3 years), respectively. The length of blue lines represents the decrease of commuting and carbon reduction when exposing stricter similarity constraint on each residential amenity (for example, regional income, CBD distance and neighbourhood points of interest) for housing exchange.Source data",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-025-01658-x/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: CO2 emissions reduction between randomly and targeted selected individuals for housing exchange and current vs optimal commuting patterns among targeted 5% of households.",
+            "figure-caption": "a–c, Red bars represent the percentage of total reduction in commuting-related carbon emissions when individuals are randomly selected for exchange. Red lines show the average commuting-related carbon emissions reduction among the random participants. d–f, Total (blue bars) and average (blue line) reduction in commuting-related carbon emissions among targeted participants. g–i, Commuting paths of the top 5% of targeted households with the highest carbon emissions reductions potential before (blue lines) and after (red lines) housing exchange. Map data in g–i from OpenStreetMap (https://openstreetmap.org/copyright).Source data",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-025-01658-x/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: Commuting reduction and utility gains under different constraints.",
+            "figure-caption": "a–c, Red and blue lines represent change of commuting distance and CO2 emissions in response to relocation cost under the near-optimal consumption-focused scenario. Red and blue dotted lines represent change of commuting distance and CO2 emissions under optimal consumption–investment scenario. d–f, Grey lines represent the change of utilities per person (in their respective currencies across the three cities) in response to the value of time.Source data",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-025-01658-x/figures/6"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Hamilton, B. W. & Röell, A. Wasteful commuting. J. Polit. Econ. 90, 1035–1053 (1982).",
+            "links": {
+                "Article": "https://doi.org/10.1086%2F261107",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Wasteful%20commuting&journal=J.%20Polit.%20Econ.&doi=10.1086%2F261107&volume=90&pages=1035-1053&publication_year=1982&author=Hamilton%2CBW&author=R%C3%B6ell%2CA"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Ma, K.-R. & Banister, D. Excess commuting: a critical review. Transp. Rev. 26, 749–767 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01441640600782609",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Excess%20commuting%3A%20a%20critical%20review&journal=Transp.%20Rev.&doi=10.1080%2F01441640600782609&volume=26&pages=749-767&publication_year=2006&author=Ma%2CK-R&author=Banister%2CD"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Barr, S., Fraszczyk, A. & Mulley, C. Excess travelling-what does it mean? New definition and a case study of excess commuters in Tyne and Wear, UK. Eur. Transp. Res. Rev. 2, 69–83 (2010).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s12544-010-0029-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Excess%20travelling-what%20does%20it%20mean%3F%20New%20definition%20and%20a%20case%20study%20of%20excess%20commuters%20in%20Tyne%20and%20Wear%2C%20UK&journal=Eur.%20Transp.%20Res.%20Rev.&doi=10.1007%2Fs12544-010-0029-y&volume=2&pages=69-83&publication_year=2010&author=Barr%2CS&author=Fraszczyk%2CA&author=Mulley%2CC"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Creutzig, F. et al. Transport: a roadblock to climate change mitigation? Science 350, 911–912 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aac8033",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXhvFKrtLnI",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Transport%3A%20a%20roadblock%20to%20climate%20change%20mitigation%3F&journal=Science&doi=10.1126%2Fscience.aac8033&volume=350&pages=911-912&publication_year=2015&author=Creutzig%2CF"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Wadud, Z., Adeel, M. & Anable, J. Understanding the large role of long-distance travel in carbon emissions from passenger travel. Nat. Energy https://doi.org/10.1038/s41560-024-01561-3 (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Clark, B., Chatterjee, K. & Melia, S. Changes to commute mode: the role of life events, spatial context and environmental attitude. Transp. Res. Part A 89, 89–105 (2016).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changes%20to%20commute%20mode%3A%20the%20role%20of%20life%20events%2C%20spatial%20context%20and%20environmental%20attitude&journal=Transp.%20Res.%20Part%20A&volume=89&pages=89-105&publication_year=2016&author=Clark%2CB&author=Chatterjee%2CK&author=Melia%2CS"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Wardman, M., Tight, M. & Page, M. Factors influencing the propensity to cycle to work. Transp. Res. Part A 41, 339–350 (2007).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Factors%20influencing%20the%20propensity%20to%20cycle%20to%20work&journal=Transp.%20Res.%20Part%20A&volume=41&pages=339-350&publication_year=2007&author=Wardman%2CM&author=Tight%2CM&author=Page%2CM"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Bertaud, A. & Brueckner, J. K. Analyzing building-height restrictions: predicted impacts and welfare costs. Reg. Sci. Urban Econ. 35, 109–125 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.regsciurbeco.2004.02.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Analyzing%20building-height%20restrictions%3A%20predicted%20impacts%20and%20welfare%20costs&journal=Reg.%20Sci.%20Urban%20Econ.&doi=10.1016%2Fj.regsciurbeco.2004.02.004&volume=35&pages=109-125&publication_year=2005&author=Bertaud%2CA&author=Brueckner%2CJK"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Tikoudis, I., Verhoef, E. T. & van Ommeren, J. N. Second-best urban tolls in a monocentric city with housing market regulations. Transp. Res. Part B 117, 342–359 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trb.2018.08.014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Second-best%20urban%20tolls%20in%20a%20monocentric%20city%20with%20housing%20market%20regulations&journal=Transp.%20Res.%20Part%20B&doi=10.1016%2Fj.trb.2018.08.014&volume=117&pages=342-359&publication_year=2018&author=Tikoudis%2CI&author=Verhoef%2CET&author=Ommeren%2CJN"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Anas, A. & Hiramatsu, T. The economics of cordon tolling: general equilibrium and welfare analysis. Econ. Transp. 2, 18–37 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecotra.2012.08.002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20economics%20of%20cordon%20tolling%3A%20general%20equilibrium%20and%20welfare%20analysis&journal=Econ.%20Transp.&doi=10.1016%2Fj.ecotra.2012.08.002&volume=2&pages=18-37&publication_year=2013&author=Anas%2CA&author=Hiramatsu%2CT"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Anas, A. & Rhee, H.-J. Curbing excess sprawl with congestion tolls and urban boundaries. Reg. Sci. Urban Econ. 36, 510–541 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.regsciurbeco.2006.03.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Curbing%20excess%20sprawl%20with%20congestion%20tolls%20and%20urban%20boundaries&journal=Reg.%20Sci.%20Urban%20Econ.&doi=10.1016%2Fj.regsciurbeco.2006.03.003&volume=36&pages=510-541&publication_year=2006&author=Anas%2CA&author=Rhee%2CH-J"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Ha, J., Lee, S. & Kwon, S. M. Revisiting the relationship between urban form and excess commuting in US metropolitan areas. J. Plann. Educ. Res. 41, 294–311 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0739456X18787886",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Revisiting%20the%20relationship%20between%20urban%20form%20and%20excess%20commuting%20in%20US%20metropolitan%20areas&journal=J.%20Plann.%20Educ.%20Res.&doi=10.1177%2F0739456X18787886&volume=41&pages=294-311&publication_year=2021&author=Ha%2CJ&author=Lee%2CS&author=Kwon%2CSM"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Tikoudis, I. Second-best road taxes in polycentric networks with distorted labor markets. Scand. J. Econ. 122, 391–428 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fsjoe.12322",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Second-best%20road%20taxes%20in%20polycentric%20networks%20with%20distorted%20labor%20markets&journal=Scand.%20J.%20Econ.&doi=10.1111%2Fsjoe.12322&volume=122&pages=391-428&publication_year=2020&author=Tikoudis%2CI"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Tikoudis, I. Revisiting the Pigouvian tax in urban roads: housing supply restrictions, leaking profits and spatial inequality. Econ. Transp. 35, 100324 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecotra.2023.100324",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Revisiting%20the%20Pigouvian%20tax%20in%20urban%20roads%3A%20housing%20supply%20restrictions%2C%20leaking%20profits%20and%20spatial%20inequality&journal=Econ.%20Transp.&doi=10.1016%2Fj.ecotra.2023.100324&volume=35&publication_year=2023&author=Tikoudis%2CI"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Anas, A. & Xu, R. Congestion, land use, and job dispersion: a general equilibrium model. J. Urban Econ. 45, 451–473 (1999).",
+            "links": {
+                "Article": "https://doi.org/10.1006%2Fjuec.1998.2104",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Congestion%2C%20land%20use%2C%20and%20job%20dispersion%3A%20a%20general%20equilibrium%20model&journal=J.%20Urban%20Econ.&doi=10.1006%2Fjuec.1998.2104&volume=45&pages=451-473&publication_year=1999&author=Anas%2CA&author=Xu%2CR"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Anas, A. The cost of congestion and the benefits of congestion pricing: a general equilibrium analysis. Transp. Res. Part B 136, 110–137 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trb.2020.03.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20cost%20of%20congestion%20and%20the%20benefits%20of%20congestion%20pricing%3A%20a%20general%20equilibrium%20analysis&journal=Transp.%20Res.%20Part%20B&doi=10.1016%2Fj.trb.2020.03.003&volume=136&pages=110-137&publication_year=2020&author=Anas%2CA"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Suzuki, T. & Lee, S. Jobs–housing imbalance, spatial correlation, and excess commuting. Transp. Res. Part A 46, 322–336 (2012).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Jobs%E2%80%93housing%20imbalance%2C%20spatial%20correlation%2C%20and%20excess%20commuting&journal=Transp.%20Res.%20Part%20A&volume=46&pages=322-336&publication_year=2012&author=Suzuki%2CT&author=Lee%2CS"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Deschacht, N. & De Bruyne, K. Excess commuting and frictions in the labor market. J. Appl. Econ. 23, 600–617 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F15140326.2020.1812476",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Excess%20commuting%20and%20frictions%20in%20the%20labor%20market&journal=J.%20Appl.%20Econ.&doi=10.1080%2F15140326.2020.1812476&volume=23&pages=600-617&publication_year=2020&author=Deschacht%2CN&author=Bruyne%2CK"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Ewing, R. Is Los Angeles-style sprawl desirable? J. Am. Plann. Assoc. 63, 107–126 (1997).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01944369708975728",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Is%20Los%20Angeles-style%20sprawl%20desirable%3F&journal=J.%20Am.%20Plann.%20Assoc.&doi=10.1080%2F01944369708975728&volume=63&pages=107-126&publication_year=1997&author=Ewing%2CR"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Broxterman, D. & Zhou, T. Information frictions in real estate markets: recent evidence and issues. J. Real Estate Finance Econ. 66, 203–298 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11146-022-09918-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Information%20frictions%20in%20real%20estate%20markets%3A%20recent%20evidence%20and%20issues&journal=J.%20Real%20Estate%20Finance%20Econ.&doi=10.1007%2Fs11146-022-09918-9&volume=66&pages=203-298&publication_year=2022&author=Broxterman%2CD&author=Zhou%2CT"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Anenberg, E. Information frictions and housing market dynamics. Int. Econ. Rev. 57, 1449–1479 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fiere.12204",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Information%20frictions%20and%20housing%20market%20dynamics&journal=Int.%20Econ.%20Rev.&doi=10.1111%2Fiere.12204&volume=57&pages=1449-1479&publication_year=2016&author=Anenberg%2CE"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Rots, E. Imperfect information and the house price in a general-equilibrium model. J. Econ. Dyn. Control 83, 215–231 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jedc.2017.08.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Imperfect%20information%20and%20the%20house%20price%20in%20a%20general-equilibrium%20model&journal=J.%20Econ.%20Dyn.%20Control&doi=10.1016%2Fj.jedc.2017.08.006&volume=83&pages=215-231&publication_year=2017&author=Rots%2CE"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Gong, C. M., Lizieri, C. & Bao, H. X. H. ‘Smarter information, smarter consumers’? Insights into the housing market. J. Bus. Res. 97, 51–64 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jbusres.2018.12.036",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=%E2%80%98Smarter%20information%2C%20smarter%20consumers%E2%80%99%3F%20Insights%20into%20the%20housing%20market&journal=J.%20Bus.%20Res.&doi=10.1016%2Fj.jbusres.2018.12.036&volume=97&pages=51-64&publication_year=2019&author=Gong%2CCM&author=Lizieri%2CC&author=Bao%2CHXH"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Debele, E. T. & Negussie, T. Housing logic: rationalities behind housing choice behavior in coping housing market dynamics among urban residents in Sebeta Town, Ethiopia. Res. Globalization 5, 100099 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.resglo.2022.100099",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Housing%20logic%3A%20rationalities%20behind%20housing%20choice%20behavior%20in%20coping%20housing%20market%20dynamics%20among%20urban%20residents%20in%20Sebeta%20Town%2C%20Ethiopia&journal=Res.%20Globalization&doi=10.1016%2Fj.resglo.2022.100099&volume=5&publication_year=2022&author=Debele%2CET&author=Negussie%2CT"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Smitizsky, G., Liu, W. & Gneezy, U. On the value (s) of time: workers’ value of their time depends on mode of valuation. Proc. Natl Acad. Sci. USA 118, e2105710118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2105710118",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXhvVOqu7vJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=On%20the%20value%20%28s%29%20of%20time%3A%20workers%E2%80%99%20value%20of%20their%20time%20depends%20on%20mode%20of%20valuation&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2105710118&volume=118&publication_year=2021&author=Smitizsky%2CG&author=Liu%2CW&author=Gneezy%2CU"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Owusu-Ansah, A. A review of hedonic pricing models in housing research. J. Int. Real Estate Constr. Stud. 1, 17–38 (2011).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20review%20of%20hedonic%20pricing%20models%20in%20housing%20research&journal=J.%20Int.%20Real%20Estate%20Constr.%20Stud.&volume=1&pages=17-38&publication_year=2011&author=Owusu-Ansah%2CA"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Shoman, M. & Moreno, A. T. Exploring preferences for transportation modes in the city of munich after the recent incorporation of ride-hailing companies. Transp. Res. Rec. 2675, 329–338 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0361198121989726",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20preferences%20for%20transportation%20modes%20in%20the%20city%20of%20munich%20after%20the%20recent%20incorporation%20of%20ride-hailing%20companies&journal=Transp.%20Res.%20Rec.&doi=10.1177%2F0361198121989726&volume=2675&pages=329-338&publication_year=2021&author=Shoman%2CM&author=Moreno%2CAT"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Timmermans, H., Molin, E. & Van Noortwijk, L. Housing choice processes: stated versus revealed modelling approaches. Neth. J. Hous. Built Environ. https://doi.org/10.1007/BF02496997 (1994).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Levinson, D. & Wu, Y. The rational locator reexamined: are travel times still stable? Transportation 32, 187–202 (2005).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11116-004-5507-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20rational%20locator%20reexamined%3A%20are%20travel%20times%20still%20stable%3F&journal=Transportation&doi=10.1007%2Fs11116-004-5507-4&volume=32&pages=187-202&publication_year=2005&author=Levinson%2CD&author=Wu%2CY"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Scheiner, J. Housing mobility and travel behaviour: a process-oriented approach to spatial mobility: evidence from a new research field in Germany. J. Transp. Geogr. 14, 287–298 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jtrangeo.2005.06.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Housing%20mobility%20and%20travel%20behaviour%3A%20a%20process-oriented%20approach%20to%20spatial%20mobility%3A%20evidence%20from%20a%20new%20research%20field%20in%20Germany&journal=J.%20Transp.%20Geogr.&doi=10.1016%2Fj.jtrangeo.2005.06.007&volume=14&pages=287-298&publication_year=2006&author=Scheiner%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Quigley, J. M. Transactions costs and housing markets. Hous. Econ. Public Policy (2002).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "White, M. J. Urban commuting journeys are not’ wasteful’. J. Polit. Econ. 96, 1097–1110 (1988).",
+            "links": {
+                "Article": "https://doi.org/10.1086%2F261579",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20commuting%20journeys%20are%20not%E2%80%99%20wasteful%E2%80%99&journal=J.%20Polit.%20Econ.&doi=10.1086%2F261579&volume=96&pages=1097-1110&publication_year=1988&author=White%2CMJ"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Merriman, D., Ohkawara, T. & Suzuki, T. Excess commuting in the Tokyo metropolitan area: measurement and policy simulations. Urban Stud. 32, 69–85 (1995).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F00420989550013220",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Excess%20commuting%20in%20the%20Tokyo%20metropolitan%20area%3A%20measurement%20and%20policy%20simulations&journal=Urban%20Stud.&doi=10.1080%2F00420989550013220&volume=32&pages=69-85&publication_year=1995&author=Merriman%2CD&author=Ohkawara%2CT&author=Suzuki%2CT"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Anas, A. ‘Downs’s law’ under the lens of theory: roads lower congestion and increase distance traveled. J. Urban Econ. 139, 103607 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jue.2023.103607",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=%E2%80%98Downs%E2%80%99s%20law%E2%80%99%20under%20the%20lens%20of%20theory%3A%20roads%20lower%20congestion%20and%20increase%20distance%20traveled&journal=J.%20Urban%20Econ.&doi=10.1016%2Fj.jue.2023.103607&volume=139&publication_year=2024&author=Anas%2CA"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Anas, A. & Pines, D. Anti-sprawl policies in a system of congested cities. Reg. Sci. Urban Econ. 38, 408–423 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.regsciurbeco.2008.05.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Anti-sprawl%20policies%20in%20a%20system%20of%20congested%20cities&journal=Reg.%20Sci.%20Urban%20Econ.&doi=10.1016%2Fj.regsciurbeco.2008.05.001&volume=38&pages=408-423&publication_year=2008&author=Anas%2CA&author=Pines%2CD"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Heres-Del-Valle, D. & Niemeier, D. CO2 emissions: are land-use changes enough for California to reduce vmt? Specification of a two-part model with instrumental variables. Transp. Res. Part B 45, 150–161 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trb.2010.04.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=CO2%20emissions%3A%20are%20land-use%20changes%20enough%20for%20California%20to%20reduce%20vmt%3F%20Specification%20of%20a%20two-part%20model%20with%20instrumental%20variables&journal=Transp.%20Res.%20Part%20B&doi=10.1016%2Fj.trb.2010.04.001&volume=45&pages=150-161&publication_year=2011&author=Heres-Del-Valle%2CD&author=Niemeier%2CD"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Wong, S. K., Yiu, C. Y. & Chau, K. W. Liquidity and information asymmetry in the real estate market. J. Real Estate Finance Econ. 45, 49–62 (2012).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11146-011-9326-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Liquidity%20and%20information%20asymmetry%20in%20the%20real%20estate%20market&journal=J.%20Real%20Estate%20Finance%20Econ.&doi=10.1007%2Fs11146-011-9326-z&volume=45&pages=49-62&publication_year=2012&author=Wong%2CSK&author=Yiu%2CCY&author=Chau%2CKW"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Van Nieuwerburgh, S. & Veldkamp, L. Information immobility and the home bias puzzle. J. Finance 64, 1187–1215 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1540-6261.2009.01462.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Information%20immobility%20and%20the%20home%20bias%20puzzle&journal=J.%20Finance&doi=10.1111%2Fj.1540-6261.2009.01462.x&volume=64&pages=1187-1215&publication_year=2009&author=Nieuwerburgh%2CS&author=Veldkamp%2CL"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Akerlof, G. A. The market for 'lemons': quality uncertainty and the market mechanism. in Uncertainty in Economics (eds Diamond, P. & Rothschild, M.) 235–251 (Academic Press, 1978).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Ben-Shahar, D. & Golan, R. Improved information shock and price dispersion: a natural experiment in the housing market. J. Urban Econ. 112, 70–84 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jue.2019.05.008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Improved%20information%20shock%20and%20price%20dispersion%3A%20a%20natural%20experiment%20in%20the%20housing%20market&journal=J.%20Urban%20Econ.&doi=10.1016%2Fj.jue.2019.05.008&volume=112&pages=70-84&publication_year=2019&author=Ben-Shahar%2CD&author=Golan%2CR"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Diamond, P. A. Wage determination and efficiency in search equilibrium. Rev. Econ. Stud. 49, 217–227 (1982).",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F2297271",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Wage%20determination%20and%20efficiency%20in%20search%20equilibrium&journal=Rev.%20Econ.%20Stud.&doi=10.2307%2F2297271&volume=49&pages=217-227&publication_year=1982&author=Diamond%2CPA"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Pissarides, C. A. Equilibrium in the labor market with search frictions. Amer. Econ. Rev. 101, 1092–1105 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Faer.101.4.1092",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Equilibrium%20in%20the%20labor%20market%20with%20search%20frictions&journal=Amer.%20Econ.%20Rev.&doi=10.1257%2Faer.101.4.1092&volume=101&pages=1092-1105&publication_year=2011&author=Pissarides%2CCA"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Mortensen, D. T. Markets with search friction and the dmp model. Amer. Econ. Rev. 101, 1073–1091 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Faer.101.4.1073",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Markets%20with%20search%20friction%20and%20the%20dmp%20model&journal=Amer.%20Econ.%20Rev.&doi=10.1257%2Faer.101.4.1073&volume=101&pages=1073-1091&publication_year=2011&author=Mortensen%2CDT"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Gordon, B. L. & Winkler, D. T. New house premiums, market conditions, and the decision to purchase a new versus existing house. J. Real Estate Res. 41, 379–410 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.22300%2F0896-5803.41.3.379",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=New%20house%20premiums%2C%20market%20conditions%2C%20and%20the%20decision%20to%20purchase%20a%20new%20versus%20existing%20house&journal=J.%20Real%20Estate%20Res.&doi=10.22300%2F0896-5803.41.3.379&volume=41&pages=379-410&publication_year=2019&author=Gordon%2CBL&author=Winkler%2CDT"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Gabrovski, M. & Ortego-Marti, V. Search and credit frictions in the housing market. Eur. Econ. Rev. 134, 103699 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.euroecorev.2021.103699",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Search%20and%20credit%20frictions%20in%20the%20housing%20market&journal=Eur.%20Econ.%20Rev.&doi=10.1016%2Fj.euroecorev.2021.103699&volume=134&publication_year=2021&author=Gabrovski%2CM&author=Ortego-Marti%2CV"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Stiglitz, J. E. The contributions of the economics of information to twentieth century economics. Q. J. Econ. 115, 1441–1478 (2000).",
+            "links": {
+                "Article": "https://doi.org/10.1162%2F003355300555015",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20contributions%20of%20the%20economics%20of%20information%20to%20twentieth%20century%20economics&journal=Q.%20J.%20Econ.&doi=10.1162%2F003355300555015&volume=115&pages=1441-1478&publication_year=2000&author=Stiglitz%2CJE"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Yue, L. & O’Kelly, M. Commuting performance in shanghai: efficiency and orderliness. Travel Behav. Soc. 31, 223–231 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tbs.2022.12.008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Commuting%20performance%20in%20shanghai%3A%20efficiency%20and%20orderliness&journal=Travel%20Behav.%20Soc.&doi=10.1016%2Fj.tbs.2022.12.008&volume=31&pages=223-231&publication_year=2023&author=Yue%2CL&author=O%E2%80%99Kelly%2CM"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Anas, A. & Arnott, R. J. Dynamic housing market equilibrium with taste heterogeneity, idiosyncratic perfect foresight, and stock conversions. J. Hous. Econ. 1, 2–32 (1991).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS1051-1377%2805%2980023-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dynamic%20housing%20market%20equilibrium%20with%20taste%20heterogeneity%2C%20idiosyncratic%20perfect%20foresight%2C%20and%20stock%20conversions&journal=J.%20Hous.%20Econ.&doi=10.1016%2FS1051-1377%2805%2980023-3&volume=1&pages=2-32&publication_year=1991&author=Anas%2CA&author=Arnott%2CRJ"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Tan, C. A study of boundedly rational behaviour in housing choice: evidence from malaysia. Int. J. Hous. Mark. Anal. 15, 1259–1274 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1108%2FIJHMA-08-2021-0094",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20study%20of%20boundedly%20rational%20behaviour%20in%20housing%20choice%3A%20evidence%20from%20malaysia&journal=Int.%20J.%20Hous.%20Mark.%20Anal.&doi=10.1108%2FIJHMA-08-2021-0094&volume=15&pages=1259-1274&publication_year=2022&author=Tan%2CC"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Ramani, A., Alcedo, J. & Bloom, N. How working from home reshapes cities. Proc. Natl Acad. Sci. USA 121, e2408930121 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2408930121",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB2cXisFKksbfK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20working%20from%20home%20reshapes%20cities&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2408930121&volume=121&publication_year=2024&author=Ramani%2CA&author=Alcedo%2CJ&author=Bloom%2CN"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Zhao, J., Mo, B., Caros, N. & Zhao, J. Housing exchange framework to reduce carbon emissions from commuting. Code Ocean https://doi.org/10.24433/CO.4363875.v1 (2025).",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "Household travel surveys—including work location, home location and key socio-demographic variables—for Beijing and Munich, along with the corresponding network-based commuting matrices, are available via Code Ocean at https://doi.org/10.24433/CO.4363875.v1 (ref. 51). The Household Interview Travel Survey (HITS) data for Singapore were provided by the Land Transport Authority (LTA) of Singapore under license. Researchers interested in using these data must submit a formal application to the LTA specifying the intended research purpose and use. The LTA will provide information on response timelines and any applicable data use restrictions through a formal data agreement. Raw transaction data for Singapore can be accessed from the Urban Redevelopment Authority (URA) of Singapore via their subscription-based service available at https://eservice.ura.gov.sg/reis/index. Raw housing transaction data for Beijing are available through a subscription to the ‘Fang tianxia’ Real Estate Information Platform at https://www1.fang.com/. Source data are provided with this paper.",
+            "links": {
+                "https://doi.org/10.24433/CO.4363875.v1": "https://doi.org/10.24433/CO.4363875.v1",
+                "51": "/articles/s41893-025-01658-x#ref-CR51",
+                "https://eservice.ura.gov.sg/reis/index": "https://eservice.ura.gov.sg/reis/index",
+                "https://www1.fang.com/": "https://www1.fang.com/",
+                "Source data": "/articles/s41893-025-01658-x#Sec14"
+            }
+        },
+        "Code availability": {
+            "content": "The code used for the analyses is available via Code Ocean at https://doi.org/10.24433/CO.4363875.v1 (ref. 51.).",
+            "links": {
+                "https://doi.org/10.24433/CO.4363875.v1": "https://doi.org/10.24433/CO.4363875.v1",
+                "51": "/articles/s41893-025-01658-x#ref-CR51"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This work was partly supported by the National Research Foundation (NRF) Singapore under its Campus for Research Excellence and Technological Enterprise (CREATE) programme, and Mens, Manus and Machina (M3S), an Interdisciplinary Research Group (IRG) within the Singapore-MIT Alliance for Research and Technology (SMART) centre. Additional support was provided by the National Natural Science Foundation of China (grant number 41901188 to Juanjuan Zhao). We would like to express our sincere gratitude to J. Liang, A. Thierstein, T. Dai, L. You, H. Zhang, X. Liu, T. Zhu and D. Cui for their insightful comments upon the revision. In addition, we also appreciate the research team members of ‘Wohnen–Arbeiten–Mobilität’ project (especially A. Thierstein, G. Wulfhorst, M. Bentlage, F. Wenner, B. Büttner and J. Kinigadner) at Technical University of Munich for designing and collecting the Munich survey. We are also deeply grateful to X. Wang, H. Zhao, L. Xu, M. Tang, K. Chen and K. Guan for their contributions to cartography and formatting.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsJuanjuan ZhaoView author publicationsSearch author on:PubMed Google ScholarBaichuan MoView author publicationsSearch author on:PubMed Google ScholarNicholas S. CarosView author publicationsSearch author on:PubMed Google ScholarJinhua ZhaoView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nJuanjuan Zhao, B.M., N.S.C. and Jinhua Zhao conceived and designed the study theme and analytical framework. Juanjuan Zhao and B.M. conducted all statistical analyses and data visualization. The first draft of the manuscript was prepared by Juanjuan Zhao and B.M. All authors contributed to subsequent revisions and approved the final version.\n### Corresponding author\nCorrespondence to\n                Baichuan Mo.",
+            "links": {
+                "View author publications": "/search?author=Jinhua%20Zhao",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jinhua%20Zhao",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Jinhua%20Zhao%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Baichuan Mo": "mailto:baichuan@mit.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Sustainability thanks the anonymous reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Sections 1–7, Fig. 1 and Tables 1–16.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_MOESM2_ESM.pdf"
+            }
+        },
+        "Source data": {
+            "content": "Source Data Fig. 2Statistical source data.Source Data Fig. 3Statistical source data.Source Data Fig. 4Statistical source data.Source Data Fig. 5Statistical source data.Source Data Fig. 6Statistical source data.",
+            "links": {
+                "Source Data Fig. 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_MOESM3_ESM.xlsx",
+                "Source Data Fig. 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_MOESM4_ESM.xlsx",
+                "Source Data Fig. 4": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_MOESM5_ESM.xlsx",
+                "Source Data Fig. 5": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_MOESM6_ESM.xlsx",
+                "Source Data Fig. 6": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_MOESM7_ESM.xlsx"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by-nc-nd/4.0/": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Housing%20exchange%20framework%20to%20reduce%20carbon%20emissions%20from%20commuting&author=Juanjuan%20Zhao%20et%20al&contentID=10.1038%2Fs41893-025-01658-x&copyright=The%20Author%28s%29&publication=2398-9629&publicationDate=2025-10-16&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY-NC-ND"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleZhao, J., Mo, B., Caros, N.S. et al. Housing exchange framework to reduce carbon emissions from commuting.\n                    Nat Sustain  (2025). https://doi.org/10.1038/s41893-025-01658-xDownload citationReceived: 06 October 2024Accepted: 12 September 2025Published: 16 October 2025DOI: https://doi.org/10.1038/s41893-025-01658-xShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41893-025-01658-x?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Housing exchange framework to reduce carbon emissions from commuting",
+                "description": "Prevailing strategies for commuting efficiency focus predominantly on land-use and transportation policies, whereas research on the environmental benefits of housing reallocation strategies to mitigate excess commuting remains critically underexplored. Here this study proposes an information-enabled housing exchange framework and quantifies the potential reduction of commuting-related carbon emissions it can achieve. Leveraging housing and travel survey data from Beijing (n = 2,032), Munich (n = 3,131) and Singapore (n = 7,418), at the household level, our analysis reveals that commuting distances could be reduced by approximately 10.49%–12.70%, corresponding to CO2 emissions reductions of 11.33%, 12.09% and 13.42%, respectively. Crucially, strategic relocation of the households with the 5% highest carbon reduction potential could yield more than 50% of total achievable emissions reduction. These results demonstrate that enhancing housing market efficiency through information transparency can generate substantial environmental co-benefits. The integration of conventional policies with this approach would enable a viable pathway to sustainable urban development. Little is known about the environmental benefits of housing reallocation. This study fills the gap, presenting an information-enabled housing exchange framework that, in the case of Beijing, Munich and Singapore, could substantially reduce the carbon emissions from commuting.",
+                "datePublished": "2025-10-16T00:00:00Z",
+                "dateModified": "2025-10-16T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "11",
+                "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "sameAs": "https://doi.org/10.1038/s41893-025-01658-x",
+                "keywords": [
+                    "Decision making",
+                    "Geography",
+                    "Sustainability",
+                    "Sustainable Development"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_Fig6_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Sustainability",
+                    "issn": [
+                        "2398-9629"
+                    ],
+                    "@type": [
+                        "Periodical"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Juanjuan Zhao",
+                        "url": "http://orcid.org/0000-0003-1623-0487",
+                        "affiliation": [
+                            {
+                                "name": "Capital Normal University",
+                                "address": {
+                                    "name": "College of Resource Environment and Tourism, Capital Normal University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Baichuan Mo",
+                        "url": "http://orcid.org/0000-0003-0323-0066",
+                        "affiliation": [
+                            {
+                                "name": "Tsinghua University",
+                                "address": {
+                                    "name": "Department of Civil Engineering, Tsinghua University, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "baichuan@mit.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Nicholas S. Caros",
+                        "url": "http://orcid.org/0000-0002-1060-6781",
+                        "affiliation": [
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jinhua Zhao",
+                        "url": "http://orcid.org/0000-0002-1929-7583",
+                        "affiliation": [
+                            {
+                                "name": "Massachusetts Institute of Technology",
+                                "address": {
+                                    "name": "Department of Urban Studies and Planning, Massachusetts Institute of Technology, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "decision-making;geography;sustainability",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41893-025-01658-x"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Juanjuan Zhao",
+                            "Baichuan Mo",
+                            "Nicholas S. Caros",
+                            "Jinhua Zhao"
+                        ],
+                        "publishedAt": 1760572800,
+                        "publishedAtString": "2025-10-16",
+                        "title": "Housing exchange framework to reduce carbon emissions from commuting",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Decision making,Geography,Sustainability"
+                    },
+                    "journal": {
+                        "pcode": "natsustain",
+                        "title": "nature sustainability",
+                        "volume": null,
+                        "issue": null,
+                        "id": 41893,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "SG",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Housing exchange framework to reduce carbon emissions from commuting",
+            "dc.source": "Nature Sustainability 2025",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-10-16",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Prevailing strategies for commuting efficiency focus predominantly on land-use and transportation policies, whereas research on the environmental benefits of housing reallocation strategies to mitigate excess commuting remains critically underexplored. Here this study proposes an information-enabled housing exchange framework and quantifies the potential reduction of commuting-related carbon emissions it can achieve. Leveraging housing and travel survey data from Beijing (n = 2,032), Munich (n = 3,131) and Singapore (n = 7,418), at the household level, our analysis reveals that commuting distances could be reduced by approximately 10.49%–12.70%, corresponding to CO2 emissions reductions of 11.33%, 12.09% and 13.42%, respectively. Crucially, strategic relocation of the households with the 5% highest carbon reduction potential could yield more than 50% of total achievable emissions reduction. These results demonstrate that enhancing housing market efficiency through information transparency can generate substantial environmental co-benefits. The integration of conventional policies with this approach would enable a viable pathway to sustainable urban development. Little is known about the environmental benefits of housing reallocation. This study fills the gap, presenting an information-enabled housing exchange framework that, in the case of Beijing, Munich and Singapore, could substantially reduce the carbon emissions from commuting.",
+            "dc.identifier": "doi:10.1038/s41893-025-01658-x",
+            "dc.creator": "Zhao, Jinhua",
+            "dc.subject": "Sustainability",
+            "prism.issn": "2398-9629",
+            "prism.publicationName": "Nature Sustainability",
+            "prism.publicationDate": "2025-10-16",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "11",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41893-025-01658-x",
+            "prism.doi": "doi:10.1038/s41893-025-01658-x",
+            "citation_pdf_url": "https://www.nature.com/articles/s41893-025-01658-x.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41893-025-01658-x",
+            "citation_journal_title": "Nature Sustainability",
+            "citation_journal_abbrev": "Nat Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2398-9629",
+            "citation_title": "Housing exchange framework to reduce carbon emissions from commuting",
+            "citation_online_date": "2025/10/16",
+            "citation_firstpage": "1",
+            "citation_lastpage": "11",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41893-025-01658-x",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41893-025-01658-x&api_key=",
+            "citation_reference": "Zhao, J., Mo, B., Caros, N. & Zhao, J. Housing exchange framework to reduce carbon emissions from commuting. Code Ocean \n                https://doi.org/10.24433/CO.4363875.v1\n                \n               (2025).",
+            "citation_author": "Zhao, Jinhua",
+            "citation_author_institution": "Department of Urban Studies and Planning, Massachusetts Institute of Technology, Cambridge, USA",
+            "description": "Prevailing strategies for commuting efficiency focus predominantly on land-use and transportation policies, whereas research on the environmental benefits of housing reallocation strategies to mitigate excess commuting remains critically underexplored. Here this study proposes an information-enabled housing exchange framework and quantifies the potential reduction of commuting-related carbon emissions it can achieve. Leveraging housing and travel survey data from Beijing (n = 2,032), Munich (n = 3,131) and Singapore (n = 7,418), at the household level, our analysis reveals that commuting distances could be reduced by approximately 10.49%–12.70%, corresponding to CO2 emissions reductions of 11.33%, 12.09% and 13.42%, respectively. Crucially, strategic relocation of the households with the 5% highest carbon reduction potential could yield more than 50% of total achievable emissions reduction. These results demonstrate that enhancing housing market efficiency through information transparency can generate substantial environmental co-benefits. The integration of conventional policies with this approach would enable a viable pathway to sustainable urban development. Little is known about the environmental benefits of housing reallocation. This study fills the gap, presenting an information-enabled housing exchange framework that, in the case of Beijing, Munich and Singapore, could substantially reduce the carbon emissions from commuting.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Housing exchange framework to reduce carbon emissions from commuting",
+            "twitter:description": "Nature Sustainability - Little is known about the environmental benefits of housing reallocation. This study fills the gap, presenting an information-enabled housing exchange framework that, in the...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41893-025-01658-x/MediaObjects/41893_2025_1658_Fig1_HTML.png",
+            "DOI": "10.1038/s41893-025-01658-x",
+            "size": "190264",
+            "journal_id": "41893"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41893-025-01658-x",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

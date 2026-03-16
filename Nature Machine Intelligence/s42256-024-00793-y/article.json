@@ -1,0 +1,1020 @@
+{
+    "id": "s42256-024-00793-y",
+    "journal": "Nature Machine Intelligence",
+    "type": "article",
+    "title": "Mitigating allocative tradeoffs and harms in an environmental justice data tool",
+    "legal_title": "Mitigating allocative tradeoffs and harms in an environmental justice data tool",
+    "publish_time": "2024-02-16",
+    "pdf_link": "https://www.nature.com/articles/s42256-024-00793-y",
+    "storage_path": "./Articles/Nature Machine Intelligence/2024-article/s42256-024-00793-y/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Neighbourhood-level screening algorithms are increasingly being deployed to inform policy decisions. However, their potential for harm remains unclear: algorithmic decision-making has broadly fallen under scrutiny for disproportionate harm to marginalized groups, yet opaque methodology and proprietary data limit the generalizability of algorithmic audits. Here we leverage publicly available data to fully reproduce and audit a large-scale algorithm known as CalEnviroScreen, designed to promote environmental justice and guide public funding by identifying disadvantaged neighbourhoods. We observe the model to be both highly sensitive to subjective model specifications and financially consequential, estimating the effect of its positive designations as a 104% (62–145%) increase in funding, equivalent to US$2.08 billion (US$1.56–2.41 billion) over four years. We further observe allocative tradeoffs and susceptibility to manipulation, raising ethical concerns. We recommend incorporating technical strategies to mitigate allocative harm and accountability mechanisms to prevent misuse.",
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "As decision-making algorithms continue to be adopted for a variety of high-impact applications, many of them have been found to disproportionately harm marginalized populations, as evidenced by algorithmic audits1,2,3,4,5,6. In particular, area-based measures to identify disadvantaged neighbourhoods have recently become widespread for tasks such as allocating vaccines, assessing social vulnerability, and healthcare cost adjustment, intended to optimize an equitable distribution of resources7,8,9,10. However, their potential for allocative harm—the withholding of resources from specific subpopulations11—is not well understood, and it remains unclear how different subpopulations may be disproportionately impacted by the design of such area-based models.\nThe California Community Environmental Health Screening Tool (CalEnviroScreen) is a data tool that designates neighbourhoods as eligible for capital projects and social services funding, and is intended to promote environmental justice. CalEnviroScreen’s model output is used to designate ‘disadvantaged communities’, for which 25% of proceeds from California’s cap-and-trade programme are earmarked. CalEnviroScreen also directly influences funding from a variety of public and private sources, and is reported to have directed an estimated US$12.7 billion in funding12. The funding targets of the tool are varied, including programmes for affordable housing, land-use strategies, agricultural subsidies, wildfire risk reduction, public transit and renewable energy. Similar data tools are in use or development at the federal and state levels across the United States13.\nCalEnviroScreen ranks each census tract in the state according to its level of marginalization in terms of environmental conditions and population characteristics. The algorithm does so by aggregating publicly available tract-level data into a single score, based on variables from four categories: environmental exposures, environmental effects, sensitive populations and socioeconomic factors. Tracts in the top 25% of scores are designated as disadvantaged communities, representing ~10 million residents for whom earmarked funding is made available.\nScreening tools like CalEnviroScreen have been criticized for being in tension with the principles of environmental justice, defined broadly as a movement to address systemic environmental harms faced by marginalized populations through mechanisms such as equitable resource allocation and inclusive decision-making14. On the one hand, such tools may distributively advance environmental justice by allocating resources to marginalized communities, but on the other, critics contend that subjective, state-run decision-making lacks accountability for affected communities, particularly as the state itself bears responsibility for perpetuating environmental injustices14,15,16. Consequently, such screening tools may present their algorithmic output as objective truth and place marginalized communities in competition for limited funds16,17. Algorithmic audits are therefore necessary to identify the extent to which the design of tools like CalEnviroScreen can impact different communities.\nAudits of large-scale algorithms are often limited to observing ‘black box’ outputs, as individual-level data privacy requirements and proprietary pipelines prevent comprehensive audits of algorithmic systems1,2,18. By contrast, we are able to fully reproduce and test changes to CalEnviroScreen’s model due to its population-level usage of publicly available data, potentially enabling generalization of our findings to similar large-scale algorithms. In this Article we investigate the inner workings of CalEnviroScreen, characterizing model sensitivity, funding impact, ethical concerns and avenues for harm-reduction (Extended Data Fig. 1).",
+            "cites": [
+                "ref-CR4",
+                "ref-CR10",
+                "ref-CR9",
+                "ref-CR12",
+                "ref-CR6",
+                "ref-CR13",
+                "ref-CR16",
+                "ref-CR18",
+                "ref-CR15",
+                "ref-CR17",
+                "ref-CR1",
+                "ref-CR8",
+                "ref-CR7",
+                "ref-CR11",
+                "ref-CR3",
+                "ref-CR14",
+                "ref-CR5",
+                "ref-CR2"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Model sensitivity and funding impact",
+            "text": "The CalEnviroScreen model is highly sensitive to change. We found that 16.1% of all tracts could change designation based on small alterations to the model. This represents high designation variation given that only 25% of all tracts receive designation (Fig. 1 and Extended Data Table 1). These large fluctuations in designation are solely due to varying subjective model specifications such as health metrics, pre-processing methods and aggregation methods19. For example, changing pre-processing methods—switching from a percentile ranking to a more commonly used method like z-score standardization—led to a 5.3% change in designated tracts.\nIn the absence of a ground-truth variable or validation metric (that is, a concrete ability to quantify the true value of environmental harm in California), model sensitivity represents the ambiguity across alternative specifications, enabling an uncertainty assessment of the model outputs19,20,21,22. For example, we observe high levels of model sensitivity at the designation threshold (75th percentile), where the predicted tract ranking could vary across models by 44 percentile ranks (Fig. 1). Even tracts ranked as low as the bottom 5th percentile could be eligible under slightly different models. We observe lower, yet still substantial, model sensitivity at the 95th percentile, where the predicted range is 18 percentile ranks. Given this variability in ranking certainty, dichotomizing designation may present a false sense of precision, leading to funding decisions based on unstable information.\nReceiving algorithmic designation is financially consequential. We estimated through a causal analysis that the effect of receiving designation from the algorithm is a 104% (95% confidence interval, 62–145%) increase in funding, equivalent to US$2.08 billion (US$1.56–2.41 billion) in additional funding over a four-year period for 2,007 tracts (Fig. 2 and Extended Data Table 2). Similarly, among the 400 tracts that would be eligible for designation under an alternative model (described below), we estimated they would have received equivalent to US$632 million ($377–881 million) in additional funding over the same time period.",
+            "cites": [
+                "ref-CR21",
+                "ref-CR22",
+                "ref-CR19",
+                "ref-CR20"
+            ],
+            "figures": [
+                "figure-2",
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Allocative tradeoffs and harms",
+            "text": "Under such a model with high uncertainty, every subjective model decision is implicitly a value judgement: any variation of a model could favour one subpopulation or disfavour another. Both the model in its current form and plausible alternative forms can exhibit bias among different subpopulations, illustrating the zero-sum nature of delegating funding allocation to a single model.\nTo exemplify these challenging tradeoffs, we constructed an alternative model for designation assignment. CalEnviroScreen does not include race in its algorithm, but we are able to assess its impact on race by examining the racial composition of designated tracts. We first changed the pre-processing and aggregation methods to avoid penalizing tracts with extreme levels in variables such as air pollution indicators, and then incorporated a number of additional population health metrics for a more broad definition of vulnerability to environmental exposures. On average, incorporating these changes led to increased designation to tracts with higher levels of racially minoritized people in poverty, but decreased designation among racially minoritized populations overall (Fig. 3 and Extended Data Fig. 2).\nIn particular, expanding the ‘sensitive populations’ category of the algorithm presents ethical concerns. The category is represented by three variables: respiratory health, cardiovascular health and low birthweight. It would be sensible to include additional health indicators relevant to environmental exposures, such as chronic kidney disease or cancer23,24. The inclusion of such variables, however, would result in the loss of designation for tracts with high Black populations. Because low birthweight disproportionately affects Black infants, the introduction of other variables such as cancer—which also disproportionately affects Black populations albeit to a lesser extent—would reduce the impact of low birthweight on the algorithm’s output.\nMoreover, we found the existing model to potentially underrepresent foreign-born populations. The model measures respiratory health in terms of emergency-room visits for asthma attacks, which underrepresents groups who use the emergency room less or come from countries where asthma is less prevalent, yet still have other respiratory issues25,26. Consequently, using survey data of chronic obstructive pulmonary disease (COPD) to represent respiratory health increases the designation of tracts with foreign-born populations of 30% or higher (Extended Data Figs. 3 and 4).\nCritically, the zero-sum nature and high sensitivity of the model are conducive to model manipulability. It is feasible for a politically motivated internal actor, whether subconsciously or intentionally, to prefer model specifications that designate tracts according to a specific demographic, such as political affiliation or race. Through adversarial optimization—optimizing over pre-processing and aggregation methods, health metrics and variable weights—we find that the maximum increase or decrease a model can be manipulated to favour a specific US political party is 39% and 34%, respectively (Fig. 4 and Extended Data Fig. 5). Any efforts to mitigate the harms of allocative algorithms such as CalEnviroScreen thus need to consider both model sensitivity and manipulability.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR23",
+                "ref-CR24",
+                "ref-CR26"
+            ],
+            "figures": [
+                "figure-3",
+                "figure-4"
+            ]
+        },
+        {
+            "title": "Mitigation strategies",
+            "text": "Because there is no singular ‘best’ model, we propose assessing robustness via sensitivity analysis and incorporating additional models accordingly. For example, the California Environmental Protection Agency recently decided to honour designations from both the current and previous versions of CalEnviroScreen, effectively taking the union of two different models. This approach reduces model sensitivity by 40.7%, and a three-model approach additionally incorporating designations from our alternative model reduces the model sensitivity by 71.0%. Using multiple models also mitigates allocative harm—by broadening the category of who is considered disadvantaged, different populations are less likely to be in competition with each other for designation.\nA potential concern is that increasing the number of designated tracts may dilute earmarked funds for disadvantaged groups. However, incorporating an additional model per our example would only increase the number of tracts by 10%, yet reduce model sensitivity by 51.1%. Doing so would also reduce equity concerns and more accurately represent the uncertainty inherent to designating tracts (consideration should be given as to whether these benefits outweigh the downsides). Furthermore, adding models is only one possible solution. There are many other ways to equitably address decision-making under uncertainty, such as randomizing assignment for tracts near the decision threshold (similar to lottery admissions for educational institutes), aggregating outputs from multiple models into a singular ensemble model, scoring tracts based on both the model output and its respective uncertainty measurement, or funding tracts on a tiered or sliding-scale system weighted by uncertainty measurements instead of using a single hard threshold27,28,29,30.\nHowever, reducing model sensitivity is not a complete solution—transparency and accountability are necessary to reduce harm. The agency developing CalEnviroScreen is active in offering methodological transparency and soliciting feedback, which enables critiques such as ours and promotes public discourse. Agencies developing similar tools to identify disadvantaged neighbourhoods should follow suit. A safeguard like an external advisory committee comprising domain experts and leaders of local community groups could also help reduce harm by identifying ethical concerns that may have been missed internally. It would also promote equitable representation and involvement from the public, aligning with the tool’s goal of advancing environmental justice.",
+            "cites": [
+                "ref-CR27",
+                "ref-CR30",
+                "ref-CR28",
+                "ref-CR29"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Discussion",
+            "text": "Our findings are threefold: (1) CalEnviroScreen’s model is both sensitive to change and financially consequential; (2) subjective model decisions lead to allocative tradeoffs, and models can be manipulated accordingly; and (3) model sensitivity can be mitigated by accounting for uncertainty in designations, thereby reducing the need for tradeoffs. Concretely, we recommend accounting for uncertainty by incorporating sensitivity analyses and potentially including additional models to increase robustness, and urge for community-based independent oversight.\nOur analysis is not a comprehensive audit of CalEnviroScreen. We do not identify every potential flaw or ethical concern of the model, but instead highlight illustrative examples of how model choices can facilitate allocative harm. Only members of a given community can fully know how their respective tracts are represented and affected by the algorithm. We do not advocate for any particular model over another. Such decisions are inherently subjective and should be made in consultation with affected communities and relevant experts. Our estimates of model sensitivity are probably underestimates, as we do not exhaustively specify alternative models. Furthermore, our estimate of the funding impact of algorithmic designation is probably an underestimate, as detailed data on relevant private funding sources are not publicly available. Our estimate of model bias for foreign-born populations may be inaccurate because undocumented immigrants are often underrepresented in census data31. We are unable to fully assess model sensitivity to the modifiable areal unit problem32—a phenomenon where varying the geographical unit of observation can alter model output—because we only had data to convert a fraction of the variables to a smaller geographical scale (Supplementary Information).\nOther limitations of our analysis include the limitations besetting the data tool itself: missingness in data and a lack of random measurement error metrics. For example, indoor air quality or regulatory compliance may be important determinants of environmental risk, but are not included in CalEnviroScreen33,34. Similarly, CalEnviroScreen measures outdoor air quality using sensors and interpolation algorithms used to infer air quality for areas between sensors, which may result in noisier estimates for marginalized communities farther from sensors. The degree to which such algorithms can cause allocative harm should be examined35. Overall, missingness in environmental data is more pronounced in marginalized communities36. As CalEnviroScreen’s data sources lack random measurement error metrics, our uncertainty estimates only reflect a specific type of uncertainty: model sensitivity, or ambiguity between models21,22. Incorporating random measurement error would increase the uncertainty of CalEnviroScreen scores.\nOur work draws upon previous literature from a variety of disciplines. Previous studies related to decision science and composite indicator construction recognize model sensitivity, or ambiguity, as a measure of uncertainty, and demonstrate how diversity in modelling assumptions, or worldviews, can improve robustness19,21,22,37,38. In the algorithmic fairness literature, uncertainty has been formulated as a driver of algorithmic bias for ranking algorithms, and race has been found to be inferred from models that do not include it as a variable5,20,39. Environmental justice theorists have critiqued environmental screening algorithms for extractive data practices, the exclusion of affected communities from decision-making, the subjectivity of outside expertise in allocating community resources, and not including race as a variable7,16,17,36,40. Our analysis also draws from frameworks of ‘distributive justice’, examining how to fairly allocate resources within a society41,42,43,44. A recent environmental health study has examined how environmental screening tools can be improved to mitigate disparities in air quality45. Our analysis contributes to the literature by identifying technical mechanisms by which subjectivity in the model design of environmental screening algorithms contributes to uncertainty in the model output and the potential for allocative harm.\nMore broadly, our findings illustrate how allocative algorithms can encode unintentional bias into their outputs. Questions of how to allocate scarce resources have always been challenging and subjective, yet delegating allocation to algorithms may erroneously give the appearance of objectivity by obscuring the design choices behind the algorithms15,17,46. Any such notion that algorithms are intrinsically objective should be rejected. With increasingly high-dimensional and high-resolution data, unintentional bias will become both more common and more difficult to detect. Both algorithm developers and policymakers should acknowledge the subjective process of algorithm development and work to minimize harm accordingly.\nTechnical and regulatory solutions will be necessary to address the concerns of allocative harm as algorithms continue to be adopted for policy use. Although the misuse of such tools could exacerbate existing inequities, a careful and community-minded approach can lead to the broad realization of CalEnviroScreen’s intended goal—furthering environmental justice and mitigating the harms done to structurally marginalized populations.",
+            "cites": [
+                "ref-CR35",
+                "ref-CR19",
+                "ref-CR21",
+                "ref-CR22",
+                "ref-CR43",
+                "ref-CR44",
+                "ref-CR34",
+                "ref-CR20",
+                "ref-CR31",
+                "ref-CR46",
+                "ref-CR32",
+                "ref-CR39",
+                "ref-CR45",
+                "ref-CR33",
+                "ref-CR5",
+                "ref-CR37",
+                "ref-CR15",
+                "ref-CR7",
+                "ref-CR36",
+                "ref-CR40",
+                "ref-CR38",
+                "ref-CR42",
+                "ref-CR17",
+                "ref-CR41",
+                "ref-CR16"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Data\nFor our sensitivity analyses, we used census tract-level data obtained from the current version of CalEnviroScreen (version 4.0, implemented in late 2021), consisting of 8,035 observations with 21 variables measuring different aspects of environmental exposures and population characteristics. The variables measure ozone levels, fine particulate matter, diesel particulate matter, drinking water contaminants, lead exposure, pesticide use, toxic release from facilities, traffic impacts, cleanup sites, groundwater threats, hazardous waste, impaired waters, solid waste sites, asthma, cardiovascular disease, low birthweight, education, housing burden, linguistic isolation, poverty and unemployment.\nFor our additional variable analyses, we used the PLACES dataset from the Centers for Disease Control and Prevention to include tract-level variables on estimated prevalence for asthma, cancer, chronic kidney disease and coronary heart disease. We obtained demographic information on tract-level race/ethnicity from the American Community Survey.\nFor the causal analysis specifically, we examined years 2017–2021 of the California Climate Investments funding dataset, and used CalEnviroScreen 3.0 scores (implemented in 2017), as there are not yet sufficient data for funded projects guided by CalEnviroScreen 4.0. We calculated the amount of funding allocated to each census tract by summing the amount of funding received from different programmes for each tract. For funding projects that were attributed to assembly districts but not specific census tracts, we made conservative assumptions that prioritized non-earmarked funding towards non-priority population tracts. We attributed assembly district-level funding to tracts using the following steps: (1) funds earmarked for ‘priority populations’ such as disadvantaged tracts were exclusively attributed to their respective tracts within that district; (2) the remaining funds were attributed to non-priority population tracts within the district up to the amount attributed to priority population tracts; (3) any remaining funds after that were distributed equally (more details are provided in the Supplementary Information). To attribute districts to tracts spanning multiple districts, we followed the methodology listed in the California Climate Investments funding dataset—we solely considered them to belong to whichever district contained the largest population. For tracts that were missing relevant block-level population metrics, we assigned them to districts based on whichever district contained more blocks from the given tract. For a single tract that had missing population metrics and the same number of blocks for two districts, we assigned its district based on geographical area.\n### Algorithmic audit\nWe first reproduced the original CalEnviroScreen model based on its documentation47, then validated our reproduction on existing data. We next identified potential issues in the data tool and conceived plausible alternative models. As a general approach, we built alternative models (implementing various small changes to the current CalEnviroScreen model) and evaluated how they differed from the original model to assess the sensitivity of the CalEnviroScreen algorithm to model decisions. Variation was measured in terms of percent change in tracts changing designation, that is, the number of tracts changing designation divided by the total number of tracts multiplied by 100. Details of each step of this approach are given in the following.\nWe assessed changes to (1) the pre-processing method, (2) the aggregation method and (3) health metrics, all subjective areas for constructing composite indicators. We assessed pre-processing methods by changing the existing pre-processing method—percentile-ranking—to z-score standardization. We assessed the aggregation methods by changing the existing aggregation method—multiplication—to arithmetic mean.\nWe assessed health metrics based on our concerns of public health biases perpetuated by the algorithm. First, we noted that the existing method of measuring health indicators strictly by emergency-room visits may be skewed towards populations who use the ER disproportionately often, and so we tested including tract-level survey indicators of health in the model, namely asthma and cardiovascular health26. Second, we noted that only using asthma as a measure of environmental vulnerability with respect to respiratory health may not be fully reflective of those with respiratory health issues, so we tested including survey indicators for COPD. The inclusion of survey indicators of health were weighted such that categories of respiratory health, cardiovascular health and low birthweight were equally weighted. Finally, we noted that low birthweight, cardiovascular and respiratory issues are not the only health-related ways in which populations may be vulnerable to environmental exposures, and so we tested including other indicators, such as chronic kidney disease and cancer.\nOur alternative models were pre-specified and designed based on the changes listed above: changing pre-processing to standardization, changing aggregation to averaging, and including survey indicators of health for cardiovascular health, asthma, COPD, chronic kidney disease and cancer. We evaluated the overall model sensitivity by assessing the different combinations of model specifications by varying pre-processing (z-score standardization versus percentile ranking), aggregation (multiplication versus averaging) and health variables (including versus excluding the additional health variables we specified)—calculating the number of distinct tracts that change designation across all models. We trained a smooth nonparametric additive quantile regression model on the range (that is, minimum and maximum values across models) for each tract to obtain prediction intervals48.\n### Empirical strategy\nWe used a sharp regression discontinuity design with local linear regression as the functional form to estimate the effect of algorithm designation on total funding received49. We selected the bandwidth using the Imbens–Kalyanaraman algorithm50. The treatment variable was a binary indicator for each tract denoting whether it was designated as disadvantaged by the algorithm. The outcome variable was the log of total funding received per tract. The forcing variable was the CalEnviroScreen percentile rank for each tract. Covariates included the aggregate pollution burden and population characteristics indicators from CalEnviroScreen, and tract-level race and poverty estimates from the American Community Survey. As robustness checks, we estimated the treatment effect with varying bandwidths, functional forms, covariate adjustments and dataset configurations. We also estimated the treatment effect with a propensity score matching approach51, and a linear model causal forest (Supplementary Information)52. All parenthetical values reported in the main text are 95% confidence intervals, and were calculated by multiplying standard errors by the 97.5th percentile point of the standard normal distribution.\n### Adversarial optimization\nWe formulated our optimization strategy as follows:\nwhere f is the CalEnviroScreen algorithm designating tracts as disadvantaged, ϕd is a function totalling the number of tracts belonging to a chosen demographic d (for example, political affiliation, race), W = {w1, …, wn} is a vector of weights for each variable in the CalEnviroScreen algorithm, p is an indicator variable denoting pre-processing options (percentile-ranking versus z-score standardization), and a is an indicator variable denoting the aggregation methods (multiplication versus averaging). Weight variables were restricted to be between 0.1 and 0.9 to prevent extreme individual weight values. We used the Hooke–Jeeves method to solve the optimization problem53.\nPolitical affiliation at the tract level was determined by party affiliation in terms of assembly district. For tracts that spanned multiple assembly districts, we attributed those tracts to the districts in which most of their population belonged, in line with how the Climate Change Investments fund attributes tract-level funding to tracts spanning multiple districts. Race was determined by percentage of the population for each tract being of a given race. We calculated the percent change in designated tracts for the party with fewer tracts.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this Article.",
+            "cites": [
+                "ref-CR49",
+                "ref-CR52",
+                "ref-CR51",
+                "ref-CR50",
+                "ref-CR53",
+                "ref-CR48",
+                "ref-CR47",
+                "ref-CR26"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: CalEnviroScreen’s sensitivity to input parameters.",
+            "figure-caption": "The axes denote model scores in terms of percentiles. Grey bars indicate maximum and minimum values from alternative plausible model specifications with varying health metrics, pre-processing methods and aggregation methods. The dashed red line indicates the 75th percentile cutoff score for funding designation. Dots indicate the median predicted amount of model sensitivity at a given percentile, in terms of by how many percentile-ranks a tract can vary. Light shaded portions and error bars indicate 95% prediction intervals. Dark shaded portions indicate 75% prediction intervals (for example, in 95% of predictions, tracts at the 75th percentile can vary their score by 44 percentile-ranks).",
+            "figure-link": "https://www.nature.com/natmachintell/articles/s42256-024-00793-y/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Total cumulative funding by California Climate Investments implemented in census tracts by CalEnviroScreen percentile from 2017 to 2021.",
+            "figure-caption": "Dark blue bars indicate funding earmarked specifically for disadvantaged communities (DAC), as determined by the CalEnviroScreen model. Lighter blue bars indicate other earmarked funding (buffer and low income). Grey bars indicate all other funding. Buffer funding is earmarked for low-income communities and households that are not designated as disadvantaged communities, but are within half a mile of a disadvantaged communities census tract. Low-income funding is earmarked for low-income communities and households statewide.",
+            "figure-link": "https://www.nature.com/natmachintell/articles/s42256-024-00793-y/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Allocative tradeoffs between racially minoritized populations in poverty and racially minoritized populations overall.",
+            "figure-caption": "Comparison of how algorithmically designated tracts are distributed by race and poverty across the current CalEnviroScreen model and an alternative model, among tracts that would change designation status under the alternative model. The alternative model uses a different pre-processing technique, a different aggregation technique, and it incorporates additional population health variables. Red densities indicate tracts that receive designation under the current model but are not designated under the alternative model. Blue densities indicate tracts gaining designation under the alternative model. Contours are calculated as the smallest regions that bound a given proportion of the data.",
+            "figure-link": "https://www.nature.com/natmachintell/articles/s42256-024-00793-y/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Adversarially optimized distribution of algorithmically designated tracts by political party.",
+            "figure-caption": "Columns and flow denote the distribution of tracts designated as disadvantaged by political affiliation, determined by affiliations of district assembly members. The leftmost and rightmost columns are adversarially optimized to increase Democratic and Republican tracts, respectively. The centre column represents the original model. Flows between columns represent changes in binned percentile ranking of census tracts between the original and adversarial models.",
+            "figure-link": "https://www.nature.com/natmachintell/articles/s42256-024-00793-y/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Mitchell, S., Potash, E., Barocas, S., D’Amour, A. & Lum, K. Algorithmic fairness: choices, assumptions and definitions. Annu. Rev. Stat. Appl. 8, 141–163 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-statistics-042720-125902",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=4243544",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Algorithmic%20fairness%3A%20choices%2C%20assumptions%20and%20definitions&journal=Annu.%20Rev.%20Stat.%20Appl.&doi=10.1146%2Fannurev-statistics-042720-125902&volume=8&pages=141-163&publication_year=2021&author=Mitchell%2CS&author=Potash%2CE&author=Barocas%2CS&author=D%E2%80%99Amour%2CA&author=Lum%2CK"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Chen, I. Y. et al. Ethical machine learning in healthcare. Annu. Rev. Biomed. Data Sci. 4, 123–144 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-biodatasci-092820-114757",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34396058",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8362902",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ethical%20machine%20learning%20in%20healthcare&journal=Annu.%20Rev.%20Biomed.%20Data%20Sci.&doi=10.1146%2Fannurev-biodatasci-092820-114757&volume=4&pages=123-144&publication_year=2021&author=Chen%2CIY"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Crawford, K. The Trouble with Bias https://nips.cc/virtual/2017/invited-talk/8742#details (2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Buolamwini, J. & Gebru, T. Gender shades: intersectional accuracy disparities in commercial gender classification. In Proc. 1st Conference on Fairness, Accountability and Transparency (eds. Friedler, S. A. & Wilson, C.) 77–91 (PMLR, 2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Obermeyer, Z., Powers, B., Vogeli, C. & Mullainathan, S. Dissecting racial bias in an algorithm used to manage the health of populations. Science 366, 447–453 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aax2342",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019Sci...366..447O",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXitVemtrjF",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31649194",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dissecting%20racial%20bias%20in%20an%20algorithm%20used%20to%20manage%20the%20health%20of%20populations&journal=Science&doi=10.1126%2Fscience.aax2342&volume=366&pages=447-453&publication_year=2019&author=Obermeyer%2CZ&author=Powers%2CB&author=Vogeli%2CC&author=Mullainathan%2CS"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Koenecke, A., Giannella, E., Willer, R. & Goel, S. Popular support for balancing equity and efficiency in resource allocation: a case study in online advertising to increase welfare program awareness. Proc. International AAAI Conference on Web and Social Media 17, 494–506 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1609%2Ficwsm.v17i1.22163",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Popular%20support%20for%20balancing%20equity%20and%20efficiency%20in%20resource%20allocation%3A%20a%20case%20study%20in%20online%20advertising%20to%20increase%20welfare%20program%20awareness&journal=Proc.%20International%20AAAI%20Conference%20on%20Web%20and%20Social%20Media&doi=10.1609%2Ficwsm.v17i1.22163&volume=17&pages=494-506&publication_year=2023&author=Koenecke%2CA&author=Giannella%2CE&author=Willer%2CR&author=Goel%2CS"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Liévanos, R. S. Retooling CalEnviroScreen: cumulative pollution burden and race-based environmental health vulnerabilities in California. Int. J. Environ. Res. Public Health 15, 762 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph15040762",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29659481",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5923804",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Retooling%20CalEnviroScreen%3A%20cumulative%20pollution%20burden%20and%20race-based%20environmental%20health%20vulnerabilities%20in%20California&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph15040762&volume=15&publication_year=2018&author=Li%C3%A9vanos%2CRS"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Flanagan, B. E., Hallisey, E. J., Adams, E. & Lavery, A. Measuring community vulnerability to natural and anthropogenic hazards: the centers for disease control and prevention’s social vulnerability index. J. Environ. Health 80, 34–36 (2018).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32327766",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7179070",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20community%20vulnerability%20to%20natural%20and%20anthropogenic%20hazards%3A%20the%20centers%20for%20disease%20control%20and%20prevention%E2%80%99s%20social%20vulnerability%20index&journal=J.%20Environ.%20Health&volume=80&pages=34-36&publication_year=2018&author=Flanagan%2CBE&author=Hallisey%2CEJ&author=Adams%2CE&author=Lavery%2CA"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Srivastava, T., Schmidt, H., Sadecki, E. & Kornides, M. L. Disadvantage indices deployed to promote equitable allocation of COVID-19 vaccines in the US. JAMA Health Forum 3, e214501 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjamahealthforum.2021.4501",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=35977227",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8903102",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Disadvantage%20indices%20deployed%20to%20promote%20equitable%20allocation%20of%20COVID-19%20vaccines%20in%20the%20US&journal=JAMA%20Health%20Forum&doi=10.1001%2Fjamahealthforum.2021.4501&volume=3&publication_year=2022&author=Srivastava%2CT&author=Schmidt%2CH&author=Sadecki%2CE&author=Kornides%2CML"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Smith, P. C. Formula Funding of Health Services: Learning from Experience in Some Developed Countries. Report No. HSS/HSF/DP. 08.1 (World Health Organization, 2008).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Suresh, H. & Guttag, J. V. A framework for understanding sources of harm throughout the machine learning life cycle. In Proc. 1st ACM Conference on Equity and Access in Algorithms, Mechanisms and Optimization 17 (ACM, 2021); https://doi.org/10.1145/3465416.3483305",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Kost, R. & Jung, Y. How a tool that tracks California’s ‘disadvantaged communities’ is costing S.F. millions in state funding. San Francisco Chronicle (14 December 2021); https://www.sfchronicle.com/bayarea/article/California-has-a-tool-to-fund-its-most-vulnerable-16643115.php",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Kuruppuarachchi, L. N., Kumar, A. & Franchetti, M. A comparison of major environmental justice screening and mapping tools. Environ. Manag. Sustain. Dev. 6, 59 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.5296%2Femsd.v6i1.10914",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20comparison%20of%20major%20environmental%20justice%20screening%20and%20mapping%20tools&journal=Environ.%20Manag.%20Sustain.%20Dev.&doi=10.5296%2Femsd.v6i1.10914&volume=6&publication_year=2017&author=Kuruppuarachchi%2CLN&author=Kumar%2CA&author=Franchetti%2CM"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Pellow, D. N. Toward a critical environmental justice studies: black lives matter as an environmental justice challenge. Bois Rev. Soc. Sci. Res. Race. 13, 221–236 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1017%2FS1742058X1600014X",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Toward%20a%20critical%20environmental%20justice%20studies%3A%20black%20lives%20matter%20as%20an%20environmental%20justice%20challenge&journal=Bois%20Rev.%20Soc.%20Sci.%20Res.%20Race.&doi=10.1017%2FS1742058X1600014X&volume=13&pages=221-236&publication_year=2016&author=Pellow%2CDN"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Balakrishnan, C., Su, Y., Axelrod, J. & Fu, S. Screening for Environmental Justice: A Framework for Comparing National, State and Local Data Tools (Urban Institute, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Mullen, H., Whyte, K. & Holifield, R. Indigenous peoples and the Justice40 screening tool: lessons from EJSCREEN. Environ. Justice 16, 360–369 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1089%2Fenv.2022.0045",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Indigenous%20peoples%20and%20the%20Justice40%20screening%20tool%3A%20lessons%20from%20EJSCREEN&journal=Environ.%20Justice&doi=10.1089%2Fenv.2022.0045&volume=16&pages=360-369&publication_year=2023&author=Mullen%2CH&author=Whyte%2CK&author=Holifield%2CR"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Horgan, L. et al. What does Chelsea Creek do for you? A relational approach to environmental justice communication. Environ. Justice https://doi.org/10.1089/env.2022.0081 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1089%2Fenv.2022.0081",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=What%20does%20Chelsea%20Creek%20do%20for%20you%3F%20A%20relational%20approach%20to%20environmental%20justice%20communication&journal=Environ.%20Justice&doi=10.1089%2Fenv.2022.0081&publication_year=2023&author=Horgan%2CL"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Dressel, J. & Farid, H. The accuracy, fairness and limits of predicting recidivism. Sci. Adv. 4, eaao5580 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fsciadv.aao5580",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018SciA....4.5580D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29376122",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5777393",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20accuracy%2C%20fairness%20and%20limits%20of%20predicting%20recidivism&journal=Sci.%20Adv.&doi=10.1126%2Fsciadv.aao5580&volume=4&publication_year=2018&author=Dressel%2CJ&author=Farid%2CH"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Saisana, M., Saltelli, A. & Tarantola, S. Uncertainty and sensitivity analysis techniques as tools for the quality assessment of composite indicators. J. R. Stat. Soc. Ser. A Stat. Soc. 168, 307–323 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1467-985X.2005.00350.x",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2119403",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Uncertainty%20and%20sensitivity%20analysis%20techniques%20as%20tools%20for%20the%20quality%20assessment%20of%20composite%20indicators&journal=J.%20R.%20Stat.%20Soc.%20Ser.%20A%20Stat.%20Soc.&doi=10.1111%2Fj.1467-985X.2005.00350.x&volume=168&pages=307-323&publication_year=2005&author=Saisana%2CM&author=Saltelli%2CA&author=Tarantola%2CS"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Singh, A., Kempe, D. & Joachims, T. Fairness in ranking under uncertainty. In Advances in Neural Information Processing Systems Vol 34 (eds Ranzato, M. et al.) 11896–11908 (Curran Associates, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Kwakkel, J. H., Walker, W. E. & Marchau, V. A. W. J. Classifying and communicating uncertainties in model-based policy analysis. Int. J. Technol. Policy Manag. 10, 299–315 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1504%2FIJTPM.2010.036918",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Classifying%20and%20communicating%20uncertainties%20in%20model-based%20policy%20analysis&journal=Int.%20J.%20Technol.%20Policy%20Manag.&doi=10.1504%2FIJTPM.2010.036918&volume=10&pages=299-315&publication_year=2010&author=Kwakkel%2CJH&author=Walker%2CWE&author=Marchau%2CVAWJ"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Walker, W. et al. Comment on ‘From data to decisions: processing information, biases and beliefs for improved management of natural resources and environments’ by Glynn et al. Earths Future 6, 757–761 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2F2017EF000750",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018EaFut...6..757W",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Comment%20on%20%E2%80%98From%20data%20to%20decisions%3A%20processing%20information%2C%20biases%20and%20beliefs%20for%20improved%20management%20of%20natural%20resources%20and%20environments%E2%80%99%20by%20Glynn%20et%20al&journal=Earths%20Future&doi=10.1002%2F2017EF000750&volume=6&pages=757-761&publication_year=2018&author=Walker%2CW"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Tsai, H.-J., Wu, P.-Y., Huang, J.-C. & Chen, S.-C. Environmental pollution and chronic kidney disease. Int. J. Med. Sci. 18, 1121–1129 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.7150%2Fijms.51594",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXosV2murs%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33526971",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7847614",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20pollution%20and%20chronic%20kidney%20disease&journal=Int.%20J.%20Med.%20Sci.&doi=10.7150%2Fijms.51594&volume=18&pages=1121-1129&publication_year=2021&author=Tsai%2CH-J&author=Wu%2CP-Y&author=Huang%2CJ-C&author=Chen%2CS-C"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Boffetta, P. & Nyberg, F. Contribution of environmental factors to cancer risk. Br. Med. Bull. 68, 71–94 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fbmp%2Fldg023",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD2cXhtVKru7g%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14757710",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Contribution%20of%20environmental%20factors%20to%20cancer%20risk&journal=Br.%20Med.%20Bull.&doi=10.1093%2Fbmp%2Fldg023&volume=68&pages=71-94&publication_year=2003&author=Boffetta%2CP&author=Nyberg%2CF"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Iqbal, S., Oraka, E., Chew, G. L. & Flanders, W. D. Association between birthplace and current asthma: the role of environment and acculturation. Am. J. Public Health 104, S175–S182 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.2105%2FAJPH.2013.301509",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24354818",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4011106",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Association%20between%20birthplace%20and%20current%20asthma%3A%20the%20role%20of%20environment%20and%20acculturation&journal=Am.%20J.%20Public%20Health&doi=10.2105%2FAJPH.2013.301509&volume=104&pages=S175-S182&publication_year=2014&author=Iqbal%2CS&author=Oraka%2CE&author=Chew%2CGL&author=Flanders%2CWD"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Tarraf, W., Vega, W. & González, H. M. Emergency department services use among immigrant and non-immigrant groups in the United States. J. Immigr. Minor. Health 16, 595–606 (2014).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10903-013-9802-z",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23447058",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3779496",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emergency%20department%20services%20use%20among%20immigrant%20and%20non-immigrant%20groups%20in%20the%20United%20States&journal=J.%20Immigr.%20Minor.%20Health&doi=10.1007%2Fs10903-013-9802-z&volume=16&pages=595-606&publication_year=2014&author=Tarraf%2CW&author=Vega%2CW&author=Gonz%C3%A1lez%2CHM"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Angrist, J. D. Lifetime earnings and the Vietnam Era draft lottery: evidence from social security administrative records. Am. Econ. Rev. 80, 313–336 (1990).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Lifetime%20earnings%20and%20the%20Vietnam%20Era%20draft%20lottery%3A%20evidence%20from%20social%20security%20administrative%20records&journal=Am.%20Econ.%20Rev.&volume=80&pages=313-336&publication_year=1990&author=Angrist%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Stasz, C. & Van Stolk, C. The Use of Lottery Systems in School Admissions (Rand Corporation, 2007); https://www.rand.org/pubs/working_papers/WR460.html",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Yu, B. & Kumbier, K. Veridical data science. Proc. Natl Acad. Sci. USA 117, 3920–3929 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1901326117",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020PNAS..117.3920Y",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=4075122",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXjvFGksr0%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32054788",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7049126",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Veridical%20data%20science&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1901326117&volume=117&pages=3920-3929&publication_year=2020&author=Yu%2CB&author=Kumbier%2CK"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Jeong, Y. & Rothenhäusler, D. Calibrated inference: statistical inference that accounts for both sampling uncertainty and distributional uncertainty. Preprint at https://arxiv.org/pdf/2202.11886.pdf (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Vekloff, V. & Abowd, J. Estimating the Undocumented Population by State for Use in Apportionment (US Government, 2020); https://www2.census.gov/about/policies/foia/records/2020-census-and-acs/20200327-memo-on-undocumented.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Fotheringham, A. S. & Wong, D. W. S. The modifiable areal unit problem in multivariate statistical analysis. Environ. Plan. Econ. Space 23, 933–1086 (1991).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20modifiable%20areal%20unit%20problem%20in%20multivariate%20statistical%20analysis&journal=Environ.%20Plan.%20Econ.%20Space&volume=23&pages=933-1086&publication_year=1991&author=Fotheringham%2CAS&author=Wong%2CDWS"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Jones, A. P. Indoor air quality and health. Atmos. Environ. 33, 4535–4564 (1999).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS1352-2310%2899%2900272-1",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999AtmEn..33.4535J",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaK1MXntVSku7g%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Indoor%20air%20quality%20and%20health&journal=Atmos.%20Environ.&doi=10.1016%2FS1352-2310%2899%2900272-1&volume=33&pages=4535-4564&publication_year=1999&author=Jones%2CAP"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Nost, E., Horgan, L. & Wylie, S. Refining CEJST by Including Compliance and Inspection Data and Analysis by Industrial Sector (Environmental Data & Governance Initiative, 2022); https://envirodatagov.org/wp-content/uploads/2022/04/CEQ-CEJST-Public-Comment-by-EDGI.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Kelp, M. M. et al. Data-driven placement of PM2.5 air quality sensors in the United States: an approach to target urban environmental injustice. GeoHealth 7, e2023GH000834 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2023GH000834",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=37711364",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10499371",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Data-driven%20placement%20of%20PM2.5%20air%20quality%20sensors%20in%20the%20United%20States%3A%20an%20approach%20to%20target%20urban%20environmental%20injustice&journal=GeoHealth&doi=10.1029%2F2023GH000834&volume=7&publication_year=2023&author=Kelp%2CMM"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Nost, E. et al. How gaps and disparities in EPA data undermine climate and environmental justice screening tools (Environmental Data & Governance Initiative, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Lempert, R. J. & Turner, S. Engaging multiple worldviews with quantitative decision support: a robust decision-making demonstration using the lake model. Risk Anal. 41, 845–865 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Frisa.13579",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32827199",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Engaging%20multiple%20worldviews%20with%20quantitative%20decision%20support%3A%20a%20robust%20decision-making%20demonstration%20using%20the%20lake%20model&journal=Risk%20Anal.&doi=10.1111%2Frisa.13579&volume=41&pages=845-865&publication_year=2021&author=Lempert%2CRJ&author=Turner%2CS"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Walker, W. E. et al. Defining uncertainty: a conceptual basis for uncertainty management in model-based decision support. Integr. Assess. 4, 5–17 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.1076%2Fiaij.4.1.5.16466",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Defining%20uncertainty%3A%20a%20conceptual%20basis%20for%20uncertainty%20management%20in%20model-based%20decision%20support&journal=Integr.%20Assess.&doi=10.1076%2Fiaij.4.1.5.16466&volume=4&pages=5-17&publication_year=2003&author=Walker%2CWE"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Hanna, A., Denton, E., Smart, A. & Smith-Loud, J. Towards a critical race methodology in algorithmic fairness. In Proc. 2020 Conference on Fairness, Accountability and Transparency 501–512 (ACM, 2020); https://doi.org/10.1145/3351095.3372826",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Vera, L. A. et al. When data justice and environmental justice meet: formulating a response to extractive logic through environmental data justice. Inf. Commun. Soc. 22, 1012–1028 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F1369118X.2019.1596293",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31787840",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6884364",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=When%20data%20justice%20and%20environmental%20justice%20meet%3A%20formulating%20a%20response%20to%20extractive%20logic%20through%20environmental%20data%20justice&journal=Inf.%20Commun.%20Soc.&doi=10.1080%2F1369118X.2019.1596293&volume=22&pages=1012-1028&publication_year=2019&author=Vera%2CLA"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Nozick, R. Distributive justice. Philos. Public Aff. 3, 45–126 (1973).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Distributive%20justice&journal=Philos.%20Public%20Aff.&volume=3&pages=45-126&publication_year=1973&author=Nozick%2CR"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Lamont, J. Distributive Justice (Routledge, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Kaswan, A. Distributive justice and the environment. N. C. Law Rev. 81, 1031 (2002).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Distributive%20justice%20and%20the%20environment&journal=N.%20C.%20Law%20Rev.&volume=81&publication_year=2002&author=Kaswan%2CA"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Johansson-Stenman, O. & Konow, J. Fair air: distributive justice and environmental economics. Environ. Resour. Econ. 46, 147–166 (2010).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10640-010-9356-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fair%20air%3A%20distributive%20justice%20and%20environmental%20economics&journal=Environ.%20Resour.%20Econ.&doi=10.1007%2Fs10640-010-9356-7&volume=46&pages=147-166&publication_year=2010&author=Johansson-Stenman%2CO&author=Konow%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Wang, Y. et al. Air quality policy should quantify effects on disparities. Science 381, 272–274 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.adg9931",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2023Sci...381..272W",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3sXhsFWmt7rK",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=37471550",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20quality%20policy%20should%20quantify%20effects%20on%20disparities&journal=Science&doi=10.1126%2Fscience.adg9931&volume=381&pages=272-274&publication_year=2023&author=Wang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Hooker, S. Moving beyond ‘algorithmic bias is a data problem’. Patterns 2, 100241 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.patter.2021.100241",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33982031",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8085589",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Moving%20beyond%20%E2%80%98algorithmic%20bias%20is%20a%20data%20problem%E2%80%99&journal=Patterns&doi=10.1016%2Fj.patter.2021.100241&volume=2&publication_year=2021&author=Hooker%2CS"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "August, L. et al. CalEnviroScreen 4.0 (OEHHA, 2021); https://oehha.ca.gov/media/downloads/calenviroscreen/report/calenviroscreen40reportf2021.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Fasiolo, M., Wood, S. N., Zaffran, M., Nedellec, R. & Goude, Y. Fast calibrated additive quantile regression. J. Am. Stat. Assoc. 116, 1402–1412 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01621459.2020.1725521",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=4309281",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXkslars70%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fast%20calibrated%20additive%20quantile%20regression&journal=J.%20Am.%20Stat.%20Assoc.&doi=10.1080%2F01621459.2020.1725521&volume=116&pages=1402-1412&publication_year=2021&author=Fasiolo%2CM&author=Wood%2CSN&author=Zaffran%2CM&author=Nedellec%2CR&author=Goude%2CY"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Imbens, G. & Lemieux, T. Regression discontinuity designs: A guide to practice. J. Econ. 142, 615–635 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jeconom.2007.05.001",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2416821",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Regression%20discontinuity%20designs%3A%20A%20guide%20to%20practice&journal=J.%20Econ.&doi=10.1016%2Fj.jeconom.2007.05.001&volume=142&pages=615-635&publication_year=2008&author=Imbens%2CG&author=Lemieux%2CT"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Imbens, G. & Kalyanaraman, K. Optimal bandwidth choice for the regression discontinuity estimator. Rev. Econ. Stud. 79, 933–959 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Frestud%2Frdr043",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2986387",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Optimal%20bandwidth%20choice%20for%20the%20regression%20discontinuity%20estimator&journal=Rev.%20Econ.%20Stud.&doi=10.1093%2Frestud%2Frdr043&volume=79&pages=933-959&publication_year=2012&author=Imbens%2CG&author=Kalyanaraman%2CK"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Ho, D. E., Imai, K., King, G. & Stuart, E. A. Matching as nonparametric preprocessing for reducing model dependence in parametric causal inference. Polit. Anal. 15, 199–236 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fpan%2Fmpl013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Matching%20as%20nonparametric%20preprocessing%20for%20reducing%20model%20dependence%20in%20parametric%20causal%20inference&journal=Polit.%20Anal.&doi=10.1093%2Fpan%2Fmpl013&volume=15&pages=199-236&publication_year=2007&author=Ho%2CDE&author=Imai%2CK&author=King%2CG&author=Stuart%2CEA"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Athey, S., Tibshirani, J. & Wager, S. Generalized random forests. Ann. Stat. 47, 1148–1178 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1214%2F18-AOS1709",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=3909963",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Generalized%20random%20forests&journal=Ann.%20Stat.&doi=10.1214%2F18-AOS1709&volume=47&pages=1148-1178&publication_year=2019&author=Athey%2CS&author=Tibshirani%2CJ&author=Wager%2CS"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Hooke, R. & Jeeves, T. A. ‘Direct Search’ solution of numerical and statistical problems. J. ACM 8, 212–229 (1961).",
+            "links": {
+                "Article": "https://doi.org/10.1145%2F321062.321069",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=%E2%80%98Direct%20Search%E2%80%99%20solution%20of%20numerical%20and%20statistical%20problems&journal=J.%20ACM&doi=10.1145%2F321062.321069&volume=8&pages=212-229&publication_year=1961&author=Hooke%2CR&author=Jeeves%2CTA"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Huynh, B. & Chin, E. Replication data for: mitigating allocative tradeoffs and harms in an environmental justice data tool. Harvard Dataverse https://doi.org/10.7910/DVN/EVWNC2 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.7910%2FDVN%2FEVWNC2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Replication%20data%20for%3A%20mitigating%20allocative%20tradeoffs%20and%20harms%20in%20an%20environmental%20justice%20data%20tool&journal=Harvard%20Dataverse&doi=10.7910%2FDVN%2FEVWNC2&publication_year=2024&author=Huynh%2CB&author=Chin%2CE"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Chin, E. etchin/allocativeharm: Final. Zenodo. https://doi.org/10.5281/zenodo.10457118 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.5281%2Fzenodo.10457118",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=etchin%2Fallocativeharm%3A%20Final&journal=Zenodo.&doi=10.5281%2Fzenodo.10457118&publication_year=2024&author=Chin%2CE"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "All data used in this work are publicly available online, and all datasets used are archived at https://doi.org/10.7910/DVN/EVWNC2 (ref. 54). The CalEnviroScreen data are available at https://oehha.ca.gov/calenviroscreen. The CDC PLACES data are available at https://www.cdc.gov/places/index.html. The Climate Change Investments funding dataset is available at https://www.caclimateinvestments.ca.gov/cci-data-dashboard. American Community Survey data are available at https://www.census.gov/programs-surveys/acs/data.html.",
+            "links": {
+                "https://doi.org/10.7910/DVN/EVWNC2": "https://doi.org/10.7910/DVN/EVWNC2",
+                "54": "/articles/s42256-024-00793-y#ref-CR54",
+                "https://oehha.ca.gov/calenviroscreen": "https://oehha.ca.gov/calenviroscreen",
+                "https://www.cdc.gov/places/index.html": "https://www.cdc.gov/places/index.html",
+                "https://www.caclimateinvestments.ca.gov/cci-data-dashboard": "https://www.caclimateinvestments.ca.gov/cci-data-dashboard",
+                "https://www.census.gov/programs-surveys/acs/data.html": "https://www.census.gov/programs-surveys/acs/data.html"
+            }
+        },
+        "Code availability": {
+            "content": "All code written for this work and a list of packages used are available at https://github.com/etchin/allocativeharm (ref. 55). All analyses were conducted using R (version 4.2.3).",
+            "links": {
+                "https://github.com/etchin/allocativeharm": "https://github.com/etchin/allocativeharm",
+                "55": "/articles/s42256-024-00793-y#ref-CR55"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We thank A. Yip and E. Knox for helpful discussions. We thank Q. Lin, K. Jen Li and F. Dong for research assistance with the census block group analysis. B.Q.H. acknowledges support by the National Science Foundation Graduate Research Fellowship under grant no. DGE 1656518. The contents of this Article are solely the responsibility of the authors and do not necessarily represent the official views of any agency. Funding sources had no role in the writing of this manuscript or the decision to submit for publication.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsBenjamin Q. HuynhView author publicationsSearch author on:PubMed Google ScholarElizabeth T. ChinView author publicationsSearch author on:PubMed Google ScholarAllison KoeneckeView author publicationsSearch author on:PubMed Google ScholarDerek OuyangView author publicationsSearch author on:PubMed Google ScholarDaniel E. HoView author publicationsSearch author on:PubMed Google ScholarMathew V. KiangView author publicationsSearch author on:PubMed Google ScholarDavid H. RehkopfView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nB.Q.H. and E.T.C. conceived of the research idea and designed and conducted the primary analyses. B.Q.H. drafted the initial manuscript. E.T.C. created the final figures. A.K. provided technical guidance regarding algorithmic fairness. D.O. performed the census block group analysis. D.E.H. provided technical guidance regarding policy considerations. All authors approved and contributed to the final version of the manuscript.\n### Corresponding author\nCorrespondence to\n                Benjamin Q. Huynh.",
+            "links": {
+                "View author publications": "/search?author=David%20H.%20Rehkopf",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=David%20H.%20Rehkopf",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22David%20H.%20Rehkopf%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Benjamin Q. Huynh": "mailto:bhuynh@jhu.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Machine Intelligence thanks Lourdes Vera and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Extended data": {
+            "content": "Extended Data Fig. 1 Analysis pipeline.CES denotes CalEnviroScreen, and RDD denotes regression discontinuity design. Supplementary sensitivity analyses are not depicted (see Supplement).Extended Data Fig. 2 Allocative tradeoffs between populations in poverty and racially minoritized populations.Comparison of how algorithmically designated tracts are distributed by race and poverty across the current CalEnviroScreen model and an alternative model, among tracts that would change designation status under the alternative model. The alternative model uses a different pre-processing technique, different aggregation technique, and incorporates additional population health variables. Red densities indicate tracts that receive designation under the current model but are not designated under the alternative model. Blue densities indicate tracts gaining designation under the alternative model. Contours are calculated as the smallest regions that bound a given proportion of the data (highest density region). Dots indicate individual tracts. Similar to Fig. 3, except includes data of individual tracts (dots) and varies the y-axis on poverty within racial group and poverty overall.Extended Data Fig. 3 Low correlations between health indicators used by CalEnviroScreen and an alternative data source.CalEnviroScreen uses tract-level emergency room visits for asthma and heart attacks as health metrics. Comparison data are indicators provided by CDC PLACES: tract-level survey data on history of asthma and coronary heart disease. Contours are calculated as the smallest regions that bound a given proportion of the data (highest density region).Extended Data Fig. 4 Pairwise discordance between CalEnviroScreen and an alternative model, across tracts with varying levels of foreign-born populations.The alternative model (YCOPD) uses survey data of chronic obstructive pulmonary disease (COPD) as a measure of respiratory health compared to the current CalEnviroScreen model (YAsthma), which uses emergency room visits for asthma. Higher levels indicate YCOPD designating more tracts as disadvantaged for a given foreign born population percentage. Shaded bars indicate 95% confidence intervals, and black line indicates a smoothing spline from pointwise mean estimates of pairwise discordance. The models are comparable for tracts with fewer than a 30% foreign-born population, suggesting model bias against tracts with high immigrant populations.Extended Data Fig. 5 Adversarially optimized distribution of algorithmically designated tracts by race.Blue densities represent designated tracts by the existing CalEnviroScreen model and red densities represent designated tracts by adversarially optimized models, among all algorithmically designated tracts for each model. Plot on the left compares with a model adversarially optimized to increase white populations designated for funding; plot on the right compares with a model adversarially optimized to increase racially minoritized populations designated for funding.Extended Data Table 1 Model sensitivity measured as percentage of total tracts that change designation under different model specificationsFull size tableExtended Data Table 2 Table of effect size estimates from a sharp regression discontinuity approach with varying functional forms, bandwidths, and covariate adjustmentsFull size table",
+            "links": {
+                "Extended Data Fig. 1 Analysis pipeline.": "/articles/s42256-024-00793-y/figures/5",
+                "Extended Data Fig. 2 Allocative tradeoffs between populations in poverty and racially minoritized populations.": "/articles/s42256-024-00793-y/figures/6",
+                "3": "/articles/s42256-024-00793-y#Fig3",
+                "Extended Data Fig. 3 Low correlations between health indicators used by CalEnviroScreen and an alternative data source.": "/articles/s42256-024-00793-y/figures/7",
+                "Extended Data Fig. 4 Pairwise discordance between CalEnviroScreen and an alternative model, across tracts with varying levels of foreign-born populations.": "/articles/s42256-024-00793-y/figures/8",
+                "Extended Data Fig. 5 Adversarially optimized distribution of algorithmically designated tracts by race.": "/articles/s42256-024-00793-y/figures/9",
+                "Full size table": "/articles/s42256-024-00793-y/tables/2"
+            }
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Discussion, Tables 1–5 and Figs. 1–5.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-024-00793-y/MediaObjects/42256_2024_793_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-024-00793-y/MediaObjects/42256_2024_793_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Mitigating%20allocative%20tradeoffs%20and%20harms%20in%20an%20environmental%20justice%20data%20tool&author=Benjamin%20Q.%20Huynh%20et%20al&contentID=10.1038%2Fs42256-024-00793-y&copyright=The%20Author%28s%29&publication=2522-5839&publicationDate=2024-02-16&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleHuynh, B.Q., Chin, E.T., Koenecke, A. et al. Mitigating allocative tradeoffs and harms in an environmental justice data tool.\n                    Nat Mach Intell 6, 187–194 (2024). https://doi.org/10.1038/s42256-024-00793-yDownload citationReceived: 25 May 2023Accepted: 09 January 2024Published: 16 February 2024Issue date: February 2024DOI: https://doi.org/10.1038/s42256-024-00793-yShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42256-024-00793-y?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Mitigating allocative tradeoffs and harms in an environmental justice data tool",
+                "description": "Neighbourhood-level screening algorithms are increasingly being deployed to inform policy decisions. However, their potential for harm remains unclear: algorithmic decision-making has broadly fallen under scrutiny for disproportionate harm to marginalized groups, yet opaque methodology and proprietary data limit the generalizability of algorithmic audits. Here we leverage publicly available data to fully reproduce and audit a large-scale algorithm known as CalEnviroScreen, designed to promote environmental justice and guide public funding by identifying disadvantaged neighbourhoods. We observe the model to be both highly sensitive to subjective model specifications and financially consequential, estimating the effect of its positive designations as a 104% (62–145%) increase in funding, equivalent to US$2.08 billion (US$1.56–2.41 billion) over four years. We further observe allocative tradeoffs and susceptibility to manipulation, raising ethical concerns. We recommend incorporating technical strategies to mitigate allocative harm and accountability mechanisms to prevent misuse. Algorithmic decisions have a history of harming already marginalized populations. In an effort to combat these discriminative patterns, data-driven methods are used to comprehend these patterns, and recently also to identify disadvantaged communities to allocate resources. Huynh et al. analyse one of these tools and show a concerning sensitivity to input parameters that can lead to unintentional biases with substantial financial consequences.",
+                "datePublished": "2024-02-16T00:00:00Z",
+                "dateModified": "2024-02-16T00:00:00Z",
+                "pageStart": "187",
+                "pageEnd": "194",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s42256-024-00793-y",
+                "keywords": [
+                    "Climate-change policy",
+                    "Computational science",
+                    "Decision making",
+                    "Interdisciplinary studies",
+                    "Science, technology and society",
+                    "Engineering",
+                    "general"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-024-00793-y/MediaObjects/42256_2024_793_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-024-00793-y/MediaObjects/42256_2024_793_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-024-00793-y/MediaObjects/42256_2024_793_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42256-024-00793-y/MediaObjects/42256_2024_793_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Machine Intelligence",
+                    "issn": [
+                        "2522-5839"
+                    ],
+                    "volumeNumber": "6",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Benjamin Q. Huynh",
+                        "url": "http://orcid.org/0000-0002-1372-7992",
+                        "affiliation": [
+                            {
+                                "name": "Johns Hopkins Bloomberg School of Public Health",
+                                "address": {
+                                    "name": "Department of Environmental Health and Engineering, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "bhuynh@jhu.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Elizabeth T. Chin",
+                        "affiliation": [
+                            {
+                                "name": "Johns Hopkins Bloomberg School of Public Health",
+                                "address": {
+                                    "name": "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Allison Koenecke",
+                        "url": "http://orcid.org/0000-0002-6233-8256",
+                        "affiliation": [
+                            {
+                                "name": "Cornell University",
+                                "address": {
+                                    "name": "Department of Information Science, Cornell University, Ithaca, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Derek Ouyang",
+                        "url": "http://orcid.org/0000-0001-7823-0752",
+                        "affiliation": [
+                            {
+                                "name": "Stanford University",
+                                "address": {
+                                    "name": "RegLab, Stanford University, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Daniel E. Ho",
+                        "url": "http://orcid.org/0000-0002-2195-5469",
+                        "affiliation": [
+                            {
+                                "name": "Stanford University",
+                                "address": {
+                                    "name": "RegLab, Stanford University, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Stanford Law School",
+                                "address": {
+                                    "name": "Stanford Law School, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Stanford University",
+                                "address": {
+                                    "name": "Department of Political Science, Stanford University, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Mathew V. Kiang",
+                        "url": "http://orcid.org/0000-0001-9198-150X",
+                        "affiliation": [
+                            {
+                                "name": "Stanford University School of Medicine",
+                                "address": {
+                                    "name": "Department of Epidemiology & Population Health, Stanford University School of Medicine, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "David H. Rehkopf",
+                        "url": "http://orcid.org/0000-0002-7597-6513",
+                        "affiliation": [
+                            {
+                                "name": "Stanford University School of Medicine",
+                                "address": {
+                                    "name": "Department of Epidemiology & Population Health, Stanford University School of Medicine, Stanford, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "climate-change-policy;computational-science;decision-making;interdisciplinary-studies;science-technology-and-society",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Machine Intelligence",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42256-024-00793-y"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Benjamin Q. Huynh",
+                            "Elizabeth T. Chin",
+                            "Allison Koenecke",
+                            "Derek Ouyang",
+                            "Daniel E. Ho",
+                            "Mathew V. Kiang",
+                            "David H. Rehkopf"
+                        ],
+                        "publishedAt": 1708041600,
+                        "publishedAtString": "2024-02-16",
+                        "title": "Mitigating allocative tradeoffs and harms in an environmental justice data tool",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Climate-change policy,Computational science,Decision making,Interdisciplinary studies,Science, technology and society"
+                    },
+                    "journal": {
+                        "pcode": "natmachintell",
+                        "title": "nature machine intelligence",
+                        "volume": "6",
+                        "issue": "2",
+                        "id": 42256,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "SG",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Mitigating allocative tradeoffs and harms in an environmental justice data tool",
+            "dc.source": "Nature Machine Intelligence 2024 6:2",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2024-02-16",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2024 The Author(s)",
+            "dc.rights": "2024 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Neighbourhood-level screening algorithms are increasingly being deployed to inform policy decisions. However, their potential for harm remains unclear: algorithmic decision-making has broadly fallen under scrutiny for disproportionate harm to marginalized groups, yet opaque methodology and proprietary data limit the generalizability of algorithmic audits. Here we leverage publicly available data to fully reproduce and audit a large-scale algorithm known as CalEnviroScreen, designed to promote environmental justice and guide public funding by identifying disadvantaged neighbourhoods. We observe the model to be both highly sensitive to subjective model specifications and financially consequential, estimating the effect of its positive designations as a 104% (62–145%) increase in funding, equivalent to US$2.08 billion (US$1.56–2.41 billion) over four years. We further observe allocative tradeoffs and susceptibility to manipulation, raising ethical concerns. We recommend incorporating technical strategies to mitigate allocative harm and accountability mechanisms to prevent misuse. Algorithmic decisions have a history of harming already marginalized populations. In an effort to combat these discriminative patterns, data-driven methods are used to comprehend these patterns, and recently also to identify disadvantaged communities to allocate resources. Huynh et al. analyse one of these tools and show a concerning sensitivity to input parameters that can lead to unintentional biases with substantial financial consequences.",
+            "dc.identifier": "doi:10.1038/s42256-024-00793-y",
+            "dc.creator": "Rehkopf, David H.",
+            "dc.subject": "Science, technology and society",
+            "prism.issn": "2522-5839",
+            "prism.publicationName": "Nature Machine Intelligence",
+            "prism.publicationDate": "2024-02-16",
+            "prism.volume": "6",
+            "prism.number": "2",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "187",
+            "prism.endingPage": "194",
+            "prism.copyright": "2024 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42256-024-00793-y",
+            "prism.doi": "doi:10.1038/s42256-024-00793-y",
+            "citation_pdf_url": "https://www.nature.com/articles/s42256-024-00793-y.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42256-024-00793-y",
+            "citation_journal_title": "Nature Machine Intelligence",
+            "citation_journal_abbrev": "Nat Mach Intell",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2522-5839",
+            "citation_title": "Mitigating allocative tradeoffs and harms in an environmental justice data tool",
+            "citation_volume": "6",
+            "citation_issue": "2",
+            "citation_publication_date": "2024/02",
+            "citation_online_date": "2024/02/16",
+            "citation_firstpage": "187",
+            "citation_lastpage": "194",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42256-024-00793-y",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42256-024-00793-y&api_key=",
+            "citation_reference": "citation_journal_title=Zenodo.; citation_title=etchin/allocativeharm: Final; citation_author=E Chin; citation_publication_date=2024; citation_doi=10.5281/zenodo.10457118; citation_id=CR55",
+            "citation_author": "Rehkopf, David H.",
+            "citation_author_institution": "Department of Epidemiology & Population Health, Stanford University School of Medicine, Stanford, USA",
+            "description": "Neighbourhood-level screening algorithms are increasingly being deployed to inform policy decisions. However, their potential for harm remains unclear: algorithmic decision-making has broadly fallen under scrutiny for disproportionate harm to marginalized groups, yet opaque methodology and proprietary data limit the generalizability of algorithmic audits. Here we leverage publicly available data to fully reproduce and audit a large-scale algorithm known as CalEnviroScreen, designed to promote environmental justice and guide public funding by identifying disadvantaged neighbourhoods. We observe the model to be both highly sensitive to subjective model specifications and financially consequential, estimating the effect of its positive designations as a 104% (62–145%) increase in funding, equivalent to US$2.08 billion (US$1.56–2.41 billion) over four years. We further observe allocative tradeoffs and susceptibility to manipulation, raising ethical concerns. We recommend incorporating technical strategies to mitigate allocative harm and accountability mechanisms to prevent misuse. Algorithmic decisions have a history of harming already marginalized populations. In an effort to combat these discriminative patterns, data-driven methods are used to comprehend these patterns, and recently also to identify disadvantaged communities to allocate resources. Huynh et al. analyse one of these tools and show a concerning sensitivity to input parameters that can lead to unintentional biases with substantial financial consequences.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Mitigating allocative tradeoffs and harms in an environmental justice data tool",
+            "twitter:description": "Nature Machine Intelligence - Algorithmic decisions have a history of harming already marginalized populations. In an effort to combat these discriminative patterns, data-driven methods are used to...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-024-00793-y/MediaObjects/42256_2024_793_Fig1_HTML.png",
+            "DOI": "10.1038/s42256-024-00793-y",
+            "size": "145176",
+            "journal_id": "42256"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42256-024-00793-y",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

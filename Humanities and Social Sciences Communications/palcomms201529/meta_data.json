@@ -1,0 +1,41 @@
+{
+    "id": "palcomms201529",
+    "title": "Food safety incidents in Beijing: occurrence patterns, causes and wider social implications",
+    "journal": "Humanities and Social Sciences Communications",
+    "pdf_link": "https://www.nature.com/articles/palcomms201529",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "ZCCW.info Food Safety Incidents in China database",
+            "Data_summary": "A volunteer-created database compiling publicly available reports of food contamination and food safety incidents in mainland China. It provides incident records used by the authors to extract Beijing-specific incidents and construct incident timing series including occurrence dates and media report dates for inter-event-interval analysis.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Our research data are taken from ZCCW.info http://www.zccw.info/index which is a database of food safety incidents in China created by volunteers Wu 2012; Location: Data and methods; Confidence: high",
+            "Time_Coverage": "2001-2013",
+            "Geographic_Coverage": "China > Mainland China > Beijing subset used",
+            "URL": "http://www.zccw.info/index",
+            "ref": [
+                "ref-CR63"
+            ]
+        },
+        {
+            "Data_Name": "Replication data for Food safety incidents in Beijing hosted on Dataverse",
+            "Data_summary": "A publicly released dataset deposit containing the processed incident records and derived inter-event-interval series used in the study analyses of food safety incident timing in Beijing.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The dataset analysed in this study is available in the Dataverse repository Liu FY Liu Y Gao JB and Zhang JF 2015a http://dx.doi.org/10.7910/DVN/Q8DDM9; Location: Data Availability; Confidence: high",
+            "Time_Coverage": "2004-01 to 2013-08",
+            "Geographic_Coverage": "China > Beijing",
+            "URL": "http://dx.doi.org/10.7910/DVN/Q8DDM9",
+            "ref": [
+                "ref-CR35"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:26.085746"
+    }
+}

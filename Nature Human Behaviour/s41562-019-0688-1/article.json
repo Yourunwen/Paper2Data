@@ -1,0 +1,883 @@
+{
+    "id": "s41562-019-0688-1",
+    "journal": "Nature Human Behaviour",
+    "type": "article",
+    "title": "Reducing gunshot victimization in high-risk social networks through direct and spillover effects",
+    "legal_title": "Reducing gunshot victimization in high-risk social networks through direct and spillover effects",
+    "publish_time": "2019-08-19",
+    "pdf_link": "https://www.nature.com/articles/s41562-019-0688-1",
+    "storage_path": "./Articles/Nature Human Behaviour/2019-article/s41562-019-0688-1/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "More than 60,000 people are victimized by gun violence each year in the United States. A large share of victims cluster in bounded and identifiable social networks. Despite a growing number of violence reduction programmes that leverage networks to broaden programmatic effects, there is little evidence that reductions in victimization are achieved through spillover effects on the peers of participants. This study estimates the direct and spillover effects of a gun violence field intervention in Chicago. Using a quasi-experimental design, we test whether a desistance-based programme reduced gunshot victimization among 2,349 participants. The study uses co-arrest network data to further test spillover effects on 6,132 non-participants. Direct effects were associated with a 3.2-percentage point reduction in victimization among seeds over two years, while potential spillover was associated with a 1.5-percentage point reduction among peers. Findings suggest that peer influence and the structure of networks might be leveraged to amplify gun violence reduction efforts.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "The original data used in this study were provided to the corresponding author as part of a data-sharing agreement with the City of Chicago and the Chicago Police Department, and are prohibited from being shared directly. De-identified replication data generated and analysed in this study are available from the corresponding author upon request.",
+            "links": {}
+        },
+        "Code availability": {
+            "content": "All analyses were carried out in R. Code for reproducing the results of this study is available from the corresponding author upon request.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "This research was supported by a CAREER award (No. SES-1151449) from the Sociology and Law and Social Science Programs at the National Science Foundation. We thank Y. Charette and D. Kirk for providing valuable feedback. The funder had no role in the conceptualization, design, data collection, analysis, decision to publish or preparation of the manuscript.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsGeorge WoodView author publicationsSearch author on:PubMed Google ScholarAndrew V. PapachristosView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nG.W. and A.V.P. designed research. A.V.P. obtained data. G.W. performed research and analysed data. G.W. and A.V.P. wrote the paper.\n### Corresponding author\nCorrespondence to\n                Andrew V. Papachristos.",
+            "links": {
+                "View author publications": "/search?author=Andrew%20V.%20Papachristos",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Andrew%20V.%20Papachristos",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Andrew%20V.%20Papachristos%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Andrew V. Papachristos": "mailto:avp@northwestern.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Peer review information: Primary Handling Editor: Aisha Bradshaw.\nPublisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "41562_2019_688_MOESM1_ESM.pdfSupplementary Notes, Supplementary Methods, Supplementary Results, Supplementary Figures 1–8, Supplementary Tables 1 and 2, and Supplementary References.Reporting Summary",
+            "links": {
+                "41562_2019_688_MOESM1_ESM.pdf": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41562-019-0688-1/MediaObjects/41562_2019_688_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41562-019-0688-1/MediaObjects/41562_2019_688_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Reprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Reducing%20gunshot%20victimization%20in%20high-risk%20social%20networks%20through%20direct%20and%20spillover%20effects&author=George%20Wood%20et%20al&contentID=10.1038%2Fs41562-019-0688-1&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20Limited&publication=2397-3374&publicationDate=2019-08-19&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleWood, G., Papachristos, A.V. Reducing gunshot victimization in high-risk social networks through direct and spillover effects.\n                    Nat Hum Behav 3, 1164–1170 (2019). https://doi.org/10.1038/s41562-019-0688-1Download citationReceived: 19 October 2018Accepted: 12 July 2019Published: 19 August 2019Version of record: 19 August 2019Issue date: November 2019DOI: https://doi.org/10.1038/s41562-019-0688-1Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41562-019-0688-1?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Reducing gunshot victimization in high-risk social networks through direct and spillover effects",
+                "description": "More than 60,000 people are victimized by gun violence each year in the United States. A large share of victims cluster in bounded and identifiable social networks. Despite a growing number of violence reduction programmes that leverage networks to broaden programmatic effects, there is little evidence that reductions in victimization are achieved through spillover effects on the peers of participants. This study estimates the direct and spillover effects of a gun violence field intervention in Chicago. Using a quasi-experimental design, we test whether a desistance-based programme reduced gunshot victimization among 2,349 participants. The study uses co-arrest network data to further test spillover effects on 6,132 non-participants. Direct effects were associated with a 3.2-percentage point reduction in victimization among seeds over two years, while potential spillover was associated with a 1.5-percentage point reduction among peers. Findings suggest that peer influence and the structure of networks might be leveraged to amplify gun violence reduction efforts. Wood and Papachristos show that a gun violence field intervention reduced the two-year incidence of gunshot victimization among participants and their network peers.",
+                "datePublished": "2019-08-19T00:00:00Z",
+                "dateModified": "2019-08-19T00:00:00Z",
+                "pageStart": "1164",
+                "pageEnd": "1170",
+                "sameAs": "https://doi.org/10.1038/s41562-019-0688-1",
+                "keywords": [
+                    "Complex networks",
+                    "Criminology",
+                    "Social policy",
+                    "Sociology",
+                    "Life Sciences",
+                    "general",
+                    "Behavioral Sciences",
+                    "Neurosciences",
+                    "Microeconomics",
+                    "Personality and Social Psychology",
+                    "Experimental Psychology"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41562-019-0688-1/MediaObjects/41562_2019_688_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41562-019-0688-1/MediaObjects/41562_2019_688_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41562-019-0688-1/MediaObjects/41562_2019_688_Fig3_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Human Behaviour",
+                    "issn": [
+                        "2397-3374"
+                    ],
+                    "volumeNumber": "3",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "George Wood",
+                        "url": "http://orcid.org/0000-0003-0046-4465",
+                        "affiliation": [
+                            {
+                                "name": "Yale University",
+                                "address": {
+                                    "name": "Department of Internal Medicine, Yale University, New Haven, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Institute for Policy Research, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Andrew V. Papachristos",
+                        "url": "http://orcid.org/0000-0003-0975-8320",
+                        "affiliation": [
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Institute for Policy Research, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Department of Sociology, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "avp@northwestern.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "complex-networks;criminology;social-policy;sociology",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Human Behaviour",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41562-019-0688-1"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "George Wood",
+                            "Andrew V. Papachristos"
+                        ],
+                        "publishedAt": 1566172800,
+                        "publishedAtString": "2019-08-19",
+                        "title": "Reducing gunshot victimization in high-risk social networks through direct and spillover effects",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Complex networks,Criminology,Social policy,Sociology"
+                    },
+                    "journal": {
+                        "pcode": "nathumbehav",
+                        "title": "nature human behaviour",
+                        "volume": "3",
+                        "issue": "11",
+                        "id": 41562,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Reducing gunshot victimization in high-risk social networks through direct and spillover effects",
+            "dc.source": "Nature Human Behaviour 2019 3:11",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2019-08-19",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2019 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rights": "2019 The Author(s), under exclusive licence to Springer Nature Limited",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "More than 60,000 people are victimized by gun violence each year in the United States. A large share of victims cluster in bounded and identifiable social networks. Despite a growing number of violence reduction programmes that leverage networks to broaden programmatic effects, there is little evidence that reductions in victimization are achieved through spillover effects on the peers of participants. This study estimates the direct and spillover effects of a gun violence field intervention in Chicago. Using a quasi-experimental design, we test whether a desistance-based programme reduced gunshot victimization among 2,349 participants. The study uses co-arrest network data to further test spillover effects on 6,132 non-participants. Direct effects were associated with a 3.2-percentage point reduction in victimization among seeds over two years, while potential spillover was associated with a 1.5-percentage point reduction among peers. Findings suggest that peer influence and the structure of networks might be leveraged to amplify gun violence reduction efforts. Wood and Papachristos show that a gun violence field intervention reduced the two-year incidence of gunshot victimization among participants and their network peers.",
+            "dc.identifier": "doi:10.1038/s41562-019-0688-1",
+            "dc.creator": "Papachristos, Andrew V.",
+            "dc.subject": "Sociology",
+            "prism.issn": "2397-3374",
+            "prism.publicationName": "Nature Human Behaviour",
+            "prism.publicationDate": "2019-08-19",
+            "prism.volume": "3",
+            "prism.number": "11",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1164",
+            "prism.endingPage": "1170",
+            "prism.copyright": "2019 The Author(s), under exclusive licence to Springer Nature Limited",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41562-019-0688-1",
+            "prism.doi": "doi:10.1038/s41562-019-0688-1",
+            "citation_pdf_url": "https://www.nature.com/articles/s41562-019-0688-1.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41562-019-0688-1",
+            "citation_journal_title": "Nature Human Behaviour",
+            "citation_journal_abbrev": "Nat Hum Behav",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2397-3374",
+            "citation_title": "Reducing gunshot victimization in high-risk social networks through direct and spillover effects",
+            "citation_volume": "3",
+            "citation_issue": "11",
+            "citation_publication_date": "2019/11",
+            "citation_online_date": "2019/08/19",
+            "citation_firstpage": "1164",
+            "citation_lastpage": "1170",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41562-019-0688-1",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41562-019-0688-1&api_key=",
+            "citation_reference": "citation_journal_title=Ann. Epidemiol.; citation_title=Sensitivity analysis for the effects of multiple unmeasured confounders; citation_author=RHH Groenwold; citation_volume=26; citation_publication_date=2016; citation_pages=601-605; citation_id=CR56",
+            "citation_author": "Papachristos, Andrew V.",
+            "citation_author_institution": "Department of Sociology, Northwestern University, Evanston, USA",
+            "description": "More than 60,000 people are victimized by gun violence each year in the United States. A large share of victims cluster in bounded and identifiable social networks. Despite a growing number of violence reduction programmes that leverage networks to broaden programmatic effects, there is little evidence that reductions in victimization are achieved through spillover effects on the peers of participants. This study estimates the direct and spillover effects of a gun violence field intervention in Chicago. Using a quasi-experimental design, we test whether a desistance-based programme reduced gunshot victimization among 2,349 participants. The study uses co-arrest network data to further test spillover effects on 6,132 non-participants. Direct effects were associated with a 3.2-percentage point reduction in victimization among seeds over two years, while potential spillover was associated with a 1.5-percentage point reduction among peers. Findings suggest that peer influence and the structure of networks might be leveraged to amplify gun violence reduction efforts. Wood and Papachristos show that a gun violence field intervention reduced the two-year incidence of gunshot victimization among participants and their network peers.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Reducing gunshot victimization in high-risk social networks through direct and spillover effects",
+            "twitter:description": "Nature Human Behaviour - Wood and Papachristos show that a gun violence field intervention reduced the two-year incidence of gunshot victimization among participants and their network peers.",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41562-019-0688-1/MediaObjects/41562_2019_688_Fig1_HTML.png",
+            "DOI": "10.1038/s41562-019-0688-1",
+            "size": "142497",
+            "journal_id": "41562"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41562-019-0688-1",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "In 2016, more than 14,000 people in the United States were shot and killed by another person, while another 70,000 were wounded by guns in assaults1,2. Gun violence and its effects are not evenly distributed across the population, however. The trauma and consequences associated with gun violence disproportionately affect young minority men in socially and economically disadvantaged neighbourhoods1,3,4,5. Recent research demonstrates that gunshot victimization further concentrates in small, circumscribed social networks within high-risk populations6,7,8. For example, 70% of all victims of non-fatal gunshot injuries in Chicago could be located in a co-arrest network comprising less than 5% of the city’s population7. A study of a high-crime Boston community found that nearly 85% of all victims of fatal and non-fatal gunshot injuries could be located in a network comprising 763 connected individuals8. Importantly, the structure of such social networks and individuals’ placement within them can severely elevate the risk of victimization and contribute to the diffusion of violence. Cascades of gun violence within high-risk networks starting with one victim whose associate is subsequently victimized, and so on, accounted for 63% of victimizations over an eight-year period in Chicago9.\nThe concentration of gun violence in social networks has implications for gun violence reduction efforts to the extent that identifying and leveraging such networks might enhance violence prevention and reduction practices. Many violence reduction efforts already implicitly or explicitly rely on this sort of networked logic, by concentrating efforts on high-risk individuals and groups within small geographic areas. The central premise of such programmes is that gun violence might be reduced by dissuading specific individuals or groups from involvement in violence, by providing information, resources, mediation or other services directly to those at the highest levels of involvement in gun crime and violence10,11. Furthermore, some programmes implicitly seek to engender spillover effects on unassigned individuals by placing outreach workers and mediators into the networks of individuals involved in violent disputes12,13, or else by encouraging individuals who are part of interventions to propagate a programme’s message within their personal networks14.\nWhile mounting evidence suggests that gun violence reduction programmes focusing on small geographic areas or a small number of groups are effective in reducing aggregate levels of gunshot violence15,16, we know little about the magnitude of programme effects on treated individuals and even less about whether victimization can be reduced through network spillover effects. To date, most evaluations have analysed aggregate levels of gun violence either in geographic regions or among specific groups or gangs in which a programme has been implemented, comparing the frequency of victimization before and after implementation17. Such aggregated approaches are limited in estimating the magnitude of the effect on treated individuals because they capture victimization outcomes among individuals unaffected by the programme while being affected by shifts in the incidence of gunshot violence caused by exogenous, non-programme-related factors18,19. In addition, it has been difficult to test whether programmes reduce victimization among untreated but potentially affected individuals through spillover effects, largely because it has been infeasible to identify such individuals and difficult to establish a causal framework for estimating spillover20. As such, a central question of precisely how violence reduction programmes reduce the incidence of gunshot victimization remains open.\nThe intervention we report attempted to reduce gunshot victimization among high-risk participants, as well as among their unassigned peers, through spillover effects. The programme is an ‘induction intervention’21,22 that attempted to activate peer-to-peer diffusion of a desistance message by encouraging intervention participants to spread a behavioural stimulus.\nFor the intervention, a group comprising law enforcement, community members and social service agencies carried out an exercise to map violent conflicts, disputes and episodes of gun violence to identify individuals at high risk of involvement in group-involved gun violence23. These individuals were subsequently invited to attend a one-hour meeting24,25. At these meetings, which were held in-person at a public location such as a local park district, school or community centre, participants engaged in a four-stage process. First, law enforcement officers delivered a message that the individual is at acute risk of victimization and that further involvement in gun violence would be met with coordinated enforcement action and criminal justice sanctions. Second, community representatives emphasized that the participant is valued by their community and extended an invitation for the participant to become involved in positive community activities to avoid victimization. Third, in a process akin to perspective-taking26, victims or relatives of victims of gunshot violence recounted the effects and trauma associated with gun victimization. Lastly, participants were offered direct links to local social service provision. Throughout the meeting, participants were encouraged to spread the desistance and community message, perspective-taking and service provision information to their peers27,28,29. See Supplementary Notes for further programme information. Invited individuals may or may not attend the meeting, and are designated compliant or non-compliant accordingly. There are no punitive consequences for non-compliance.\nTo estimate the effects of these meetings, we conducted a quasi-experimental evaluation using participation data and administrative data. We first identified those individuals who were invited to, and attended, a meeting (n = 1,642) and those who were invited, but not did not attend, a meeting (n = 707), whom we call compliant and non-compliant seeds, respectively. We then constructed a co-arrest network30 around each compliant and non-compliant seed, where each seed is connected to all non-invited individuals alongside whom they were arrested in the three years before the meeting. We define an exposure mapping31,32 in which unassigned individuals are designated as either compliant peers (n = 3,034) if they are connected to a compliant seed—and therefore potentially exposed to the intervention message—or non-compliant peers (n = 3,098) if they are connected to a non-compliant seed (see Supplementary Table 1 for a summary of seed and peer units’ covariate profiles). To estimate the main effect of the meeting, we compared victimization outcomes in the two years following invitation to the programme for the compliant seeds against the non-compliant seeds. To estimate the spillover effect, we compared victimization outcomes in the two years after potential exposure to the intervention message for the compliant peers against the non-compliant peers. Figure 1 shows the identification of peer units and the comparisons for the main effect and spillover effect. For each peer, potential exposure to spillover begins on the day that the seed to whom that peer is connected was invited to attend a meeting. Finally, to test the spillover effect under additional exposure to programme participants, we compared victimization outcomes for peers with connections to two or more compliant seeds and those connected to two or more non-compliant seeds.\nBy linking programme assignment data with administrative data on the networks of participants and their associates, we are able to map potential pathways of diffusion and thereby determine whether gunshot victimization is reduced among individuals assigned to the programme, and among individuals indirectly exposed to treatment through their network connections. One research design feature warrants further exposition. The programme uses non-random assignment and selects individuals deemed to be at high risk of victimization. As such, we could not compare those assigned to attend a meeting against a random selection from the wider Chicago population (see Supplementary Results for details). Exploiting non-compliance with the programme permits a comparison among units deemed to be similarly high-risk ex ante. However, we cannot be certain that the choice to comply or not comply with the intervention is unconfounded with the risk of victimization. In estimating the effects of the intervention on compliant seeds, we must therefore account for the probability of selection into the compliant or non-compliant condition. Moreover, because the risk of victimization among connected peers and seeds is plausibly associated, we must also account for the probability of being connected to a compliant or non-compliant seed.\nTo address this problem of confounding, we estimate the effect of compliance on victimization outcomes conditional on observed covariates using Bayesian additive regression trees (BART). BART has been shown to be more accurate than propensity score-based estimators in estimating treatment effects under confounding, particularly when the parametric relationship between the outcome, treatment and confounders is unknown33. This is in part because BART naturally allows for possible interaction effects and nonlinearities in this relationship33,34,35. We then compare the BART estimate to a simple difference-in-means (DIM). We use this comparison to assess the proportion of the observed difference in victimization outcomes that is attributed to the compliance and spillover effects after adjusting for confounding due to selection into compliance. Finally, as an extension, we use the flexible BART approach to estimate the heterogeneity of the compliance effect. In Supplementary Results, we show further estimates of the compliance and spillover effects using a more conventional logistic regression model with unit re-weighting based on entropy balancing (EBAL)36. See Methods for further design and estimation details.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR36",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR25",
+                "ref-CR9",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR28",
+                "ref-CR21",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR26",
+                "ref-CR7",
+                "ref-CR33",
+                "ref-CR19",
+                "ref-CR32",
+                "ref-CR23"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Results",
+            "text": "### Compliance effect on victimization\nCompliance reduced the probability of gunshot victimization in the two years after attending an intervention meeting. The share of non-compliant individuals who were victimized in the two years following non-attendance was 18.1%; for compliant individuals, the corresponding share was 10.6%. From the BART model, we estimate that compliance caused a median reduction in the chance of victimization of −3.2 percentage points (Fig. 2; mean estimate, −3.2, credible interval, −4.9 to −1.4). The magnitude of this reduction is substantially larger in the DIM model (estimate, −7.5, confidence interval, −10.7 to −4.3, P < 0.001), which does not adjust for selection into compliance and simply reflects the 7.5-percentage point difference between compliant and non-compliant units in post-intervention victimization outcomes. The reduced effect size estimate in the BART model shows that adjusting for selection into compliance accounts for part of this difference in observed victimization outcomes. The BART estimate attributes 42.6% of the difference in victimization outcomes to the effect of compliance. The estimated reduction in victimization caused by compliance is supported in the EBAL model (see Supplementary Results).\n### Spillover effect on victimization\nAnalysis of peer outcomes showed that units with a social connection to a compliant seed had a lower rate of victimization than those with a connection to a non-compliant seed. In the two years following potential exposure to programme spillover effects, the share of non-compliant peers victimized was 9.7% compared to 7.5% among compliant peers. From the BART model, we estimate that compliance spillover caused a median reduction in the probability of victimization of 1.5 percentage points (Fig. 2; mean estimate, −1.4, credible interval, −2.5 to −0.2). The magnitude of the spillover effect is approximately 0.47 as large as the primary compliance effect. The effect size in the unadjusted DIM model (estimate, −2.2, confidence interval, −3.6 to −0.8, P = 0.0024) reflects the raw 2.2-percentage points difference in victimization outcomes. The effect size is tempered in the BART model, which attributed 69% of the difference in outcomes to the effects of intervention spillover. The attribution of some of the difference in victimization to pre-intervention differences between compliant and non-compliant peers, rather than to spillover effects, implies that differential selection into compliance among seeds is informative for characterizing the risk of peer victimization. That is, both non-compliant seeds and the peers of non-compliant seeds appear to have a higher baseline risk of victimization than their compliant counterparts. Notably, although similar in magnitude to the BART estimate, there is considerably greater uncertainty around the spillover effect estimates (estimate, −1.2, confidence interval, −2.7 to 0.3, P = 0.1178) in the EBAL model (see Supplementary Results).\n### Heterogeneity of compliance and spillover effects\nTo assess the extent to which the compliance and spillovers effect resulted in similar reductions in the risk of victimization among all compliant seeds and compliant peers, we used the BART models to estimate the effect for each seed and peer as a function of their baseline covariate profile. This is a natural extension of BART, which allows for variation in the treatment effect across covariates33,35. The primary effect of compliance on the probability of victimization ranges from −5.8 to −1.0 percentage points, at the extremes (Fig. 3a). Overall, however, our analysis shows little heterogeneity in the compliance effect, with 46.1% of units falling within ±0.5 percentage points of the median estimated compliance effect and 74.9% of units falling within ±1 percentage point. Similarly, the spillover effect of compliance is largely homogenous (Fig. 3b), ranging from −3.6 to −0.0 with 61.7 and 87.0% falling within ±0.5 and ±1 percentage points of the median spillover effect, respectively. Thus, there is little evidence to suggest that the primary compliance and spillover effects are moderated by the covariate profile of compliant seeds or peers to a degree that would warrant restructuring of the intervention for particular subgroups of assigned individuals.\n### Spillover effect of multiple exposures\nOur results so far show that compliance reduces the probability of victimization among seeds and that compliance spillover effects reduce the probability of victimization among peers. As a further test of the spillover effects of compliance, we compared victimization outcomes among the subset of peers with exposure to either two compliant seeds (n = 200) or two non-compliant seeds (n = 350). In the two years following exposure, 12% of peers with connections to two compliant seeds and 10.6% of peers connected to two non-compliant seeds were victimized (see Supplementary Results). Thus, the victimization rate was higher among peers with a double exposure to compliant seeds than among those with a double exposure to non-compliant seeds. Additionally, the incidence of victimization was higher among peers with exposure to two seeds than among those with a single exposure (Supplementary Fig. 3). Peers with two or more exposures exhibit a different pre-intervention covariate profile in terms of age, gender and gang membership, as well as having a higher incidence of victimization and arrest among their co-arrestees than peers with a single exposure. From BART Model 1, we estimate that peers with a double-compliant exposure had a median −0.1 percentage points lower probability of victimization (mean, 0.0, credible interval, −0.6 to 1.8). However, the credible interval for the estimated effect includes zero with considerable posterior mass at both positive and negative values (Supplementary Fig. 4). We therefore have insufficient information to ascertain whether double exposure to compliant seeds increases, reduces or does not affect the probability of victimization relative to double exposure to non-compliant seeds.\n### Expected victimizations under the counterfactual\nThe parameter estimates support the idea that the violence reduction programme reduced the probability of victimization among both seeds and peers. However, the magnitude of the reduction among peers that is attributable to spillover effects is small in absolute terms: a median reduction in the probability of victimization of 1.5 percentage points (Fig. 2), with 25.7% of peers experiencing a spillover effect that is smaller in magnitude (that is, closer to zero) than one percentage point (Fig. 2). Moreover, the P value for the spillover effect estimate is >0.05 in the EBAL model, which imposes a stronger parametric form on the relationship between victimization, compliance and the observed covariates than the BART model (see Supplementary Results). To put the magnitude of this effect into context, 174 of the 1,642 seeds who complied with the intervention were victimized in the two years after compliance. In the counterfactual condition in which these seeds did not comply, our BART effect estimate implies that 227 (lower bound, 196, upper bound, 255) might have been victimized. For the compliance spillover effect, 228 of the 3,034 peers of compliant seeds were victimized in the two years after potential exposure to the programme. In the counterfactual condition in which those peers were connected to non-compliant seeds, our BART effect estimate implies that 273 (lower bound, 234, upper bound, 304) might have been victimized by gunshot violence. Our estimates therefore indicate that 53 victimizations were averted as a product of the primary effect and a further 45 through spillover effects, albeit with considerable uncertainty around these estimates. In summary, these findings imply that, by holding call-in meetings with 1,642 individuals in high-risk social networks for whom we could identify 3,034 peers, the programme contributed to approximately 98 fewer gunshot victimizations.",
+            "cites": [
+                "ref-CR33",
+                "ref-CR35"
+            ],
+            "figures": [
+                "figure-3",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Gun violence prevention, intervention and treatment programmes are increasingly directing their efforts toward the small networks and geographical areas disproportionately impacted by gunshot victimization and associated trauma. Although a networked logic drives many such programmes, most evaluations to date have analysed changes in aggregate rates of victimization or crime before and after programme implementation, paying little attention to the direct effects on individuals who are assigned to such programmes let alone the spillover effects that are theoretically deemed to be responsible for reductions in gun violence.\nThis study analysed a field intervention in Chicago that focused on high-risk individuals who were actively involved in ongoing disputes. Using a quasi-experimental design and data on co-arrest network ties, we evaluated the direct effect on those participating in the intervention as well as the spillover effect on their unassigned co-arrest associates. Our findings show that participation in the intervention reduced gunshot victimization by 3.2 percentage points over two years. At the same time, potential spillover reduced victimization by 1.5 percentage points among the unassigned associates of intervention participants. However, we did not detect a spillover effect among the subset of peers who were connected to two or more compliant intervention participants. While the absence of a detectable effect may be due to the relatively small number of peers in this subset, it could also be due to a difference between individuals with exposure to two or more seeds and those with a single exposure. For example, individuals with greater seed exposure may be involved in higher-risk networks, as indicated by the greater incidence of victimization among peers with two exposures compared to those with one, and they may be less amenable to a behavioural shift in response to the intervention (see Supplementary Results).\nUnlike many public health interventions37, gun violence reduction programmes seldom utilize formal network metrics for the selection of participants. Consistent with several recent evaluations of networked interventions31,38,39,40, our findings suggest that engaging the social networks of intervention participants can yield strong direct effects as well as a potential amplification of programme effects via treatment spillover. While the intervention directly treated 1,642 individuals, the structure of the co-arrest network expanded the potential reach of the programme to an additional 3,034 indirectly treated individuals—a 1.8-fold expansion of the affected population. In total, our findings imply that direct and spillover effects resulted in approximately 98 fewer gunshot victimizations over two years. However, it is worth noting that co-arrests are unlikely to capture all peers of programme participants, which could result in the total reduction being underestimated. Moreover, because it is not possible to test whether the observed covariates fully account for selection into non-compliance, we cannot rule out the possibility that observed differences in victimization between compliant and non-compliant seeds could be due to factors outside of the programme effects. Such factors could extend to the difference in victimization between compliant and non-compliant peers if peers are more likely to associate with seeds who have a similar latent risk of victimization41. Our findings nevertheless imply that further resources should be allocated to non-compliant individuals who exhibit considerably higher rates of victimization.\nProgrammes like the one studied here are not a panacea for gun violence. Based on the mean two-year incidence of gunshot victimization in Chicago during the period 2010–2016, the programme effects equate to a reduction of roughly 1.5% in city-wide gun victimization. However, the results suggest that violence reduction programmes can have a substantial impact on the incidence of victimization among targeted high-risk individuals and their peers. The programme is scalable and, importantly, it minimizes traditional law enforcement responses that can have a negative impact on communities42, especially incarceration. Our evidence suggests that gun violence interventions might amplify programmatic effects if designed more explicitly around maximizing network diffusion21,43,44. For example, street outreach13 or hospital intervention programmes11 might use formal network analytics to guide their efforts and place workers into those parts of a network or neighbourhood experiencing acute rates of gun violence.\nField interventions aimed at high-risk social networks have become a key policy tool for reducing gunshot violence. Studying peer effects provides an avenue for enhancing the efficacy of these interventions and improving our understanding of the role of social influence in the emergence and perpetuation of gun violence and violent conflict.",
+            "cites": [
+                "ref-CR37",
+                "ref-CR38",
+                "ref-CR44",
+                "ref-CR41",
+                "ref-CR39",
+                "ref-CR13",
+                "ref-CR31",
+                "ref-CR42",
+                "ref-CR43",
+                "ref-CR21",
+                "ref-CR40",
+                "ref-CR11"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Network exposure mapping\nTo measure exposure to the programme through social ties, we used data on 868,607 arrests in the jurisdiction of the Chicago Police Department from the period 2007–2017. We created a co-arrest network in which an edge is present between two individuals if they had been arrested together. We located each programme seed in the network and classified adjacent units as peers if those units were arrested alongside the seed at least once in the three-year period before the date that the seed was assigned to an intervention meeting. We define the exposure mapping f(z, g), where zi = {0, 1} indicates whether a unit was assigned to the programme, and gi = {0, 1} indicates whether a unit has a tie to a seed32,45. For units with zi = 1—that is, the seeds—we denote a compliance indicator Ci that is 1 if the unit was compliant and 0 if the unit was non-compliant. For units with zi = 0, gi = 1—that is, the peers—we denote a compliance indicator Cj, that is 1 if the seed to whom the peer is connected was compliant and 0 if the seed was non-compliant.\nFor the estimate of the effect of additional spillover exposure on victimization, we performed a subset analysis in which we identified 550 peers with exposure to two seeds, zi = 0, gi ≥ 2. For units connected to three or more seeds, we considered only the first two exposures to maintain a suitably large n for estimation. We denote the compliance indicator Cj, which is 1 if the peer was connected to two compliant seeds and 0 if the peer was connected to two non-compliant seeds.\n### Identification strategy\nIdentifying the effect of the intervention is challenging, due to the non-randomized assignment protocol. As a strategy for overcoming this challenge, we exploited compliance and non-compliance with the programme (a recent study found that non-compliers and control units assigned by randomization had nearly identical post-assignment outcomes in a similar deterrence-based intervention in St. Louis46) to identify the effect of compliance with the programme among assigned seeds who, by virtue of their assignment, were deemed by the administrators of the programme to have a similar baseline risk of victimization ex ante47. To identify the effect of compliance with the programme, we compared two-year victimization outcomes among seeds zi = 1 with Ci = 1 and Ci = 0. To identify the effect of compliance spillover, we compared two-year victimization outcomes among peers zi = 0, gi = 1 with Cj = 1 and Cj = 0. We denote the potential outcome Yi(1), which is the outcome that would be observed if unit i was in the compliant condition Ci = 1, and Yi(0) if unit i was in the non-compliant condition Ci = 0.\nTo estimate the compliance effect, we rely on the conditional ignorability assumption Yi(0), Yi(1)⊥Ci|Xi (ref. 48). That is, we assume independence between the potential outcomes and compliance status conditional on observed covariates Xi. We define the effect of compliance, τc, as the average of the conditional expectation,\nFor the spillover effect, we made the analogous assumption Yi(0), Yi(1)⊥Cj|Xi, that is independence between the potential outcomes and the compliance status of the seed j to whom the peer unit i is connected conditional on the peer’s observed covariates Xi. We defined the spillover effect of compliance, τs = 1, as the average of the conditional expectation,\nFinally, we defined the spillover effect of double exposure to compliance τs = 2 as in equation (2), substituting Zi = 0, gi ≥ 2 to restrict analysis to the subset of peers with connections to at least two seeds.\n### Suitability of the observed covariates\nThe identification strategy is valid if the observed covariates Xi provide an admissible back-door adjustment from the victimization outcome to compliance status49. The back-door adjustment is admissible if there are no unmeasured confounders of victimization and compliance. In practice, it is not possible to demonstrate this admissibility. As our outcome is gunshot victimization, we included several covariates related to gunshot violence50 and violence more generally, all measured pre-intervention. These include gunshot victimizations; arrests on violence-related charges, including first- and second-degree assault; and arrests on weapons-related charges, including carrying weapons without a permit and ownership of illegal firearms. To account for the risk level in the co-arrest network surrounding each unit, we included counts of victimizations, arrests, arrests on violence-related charges and arrests on weapons-related charges among adjacent units. To account for the connectivity of each unit, we also included degree (that is, the number of co-arrestees). Finally, we included age, race, gender and gang status, which are related to the incidence of gunshot victimization51,52,53,54. We assumed that this broad array of covariates adequately accounts for confounding due to selection into the compliant or non-compliant conditions. However, we cannot rule out unobserved factors that could bias the estimates, although our adjustment may partly reduce bias due to any unmeasured confounders that are correlated with the observed covariates55,56.\n### Estimation strategy\nTo estimate the compliance effect τc and spillover effect of compliance τs = 1 we used both BART and DIM.\nBART is a sum-of-trees model that allows a flexible relationship between the victimization outcome Yi, compliance indicator Ci (or Cj in the case of spillover) and observed covariates Xi. We use this non-parametric approach to avoid imposing a structural form on the relationship between the compliance indicator and the observed covariates, avoiding researcher-imposed choices regarding the ways in which the covariates might be associated with selection into compliance and, instead, allowing automatic detection of interactions and nonlinearities in this relationship35. We fit the BART model using the dbarts R package34 with the default settings (ntrees = 200, α = 0.95, β = 2), 1,000 burn-in Markov chain Monte Carlo iterations and 5,000 posterior samples.\nWe contrast this approach with a simple DIM,\nwhere α is an intercept and Ci is the compliance indicator. Similarly, for the spillover effect we estimate,\nwhere Cj is the indicator for the compliance status of the seed to whom the peer is connected. This model simply compares the average probability of victimization within the compliant and non-compliant conditions without adjustment for confounding. By contrasting the results between BART and the DIM model, we are able to gauge the extent to which the relationship between the victimization outcomes Yi and compliance status Ci (Cj for spillover) is moderated by the covariates Xi. Reported P values for the compliance and spillover DIM estimates are based on two-tailed tests.\nTo further assess the effect estimates, we compared the results from BART to those of a model that weights units based on covariate balancing propensity scores. See Supplementary Information for further details.\n### Estimating heterogenous effects\nThe BART model naturally detects interactions between the compliance indicator and observed covariates33. To estimate the heterogeneity of the compliance and spillover effects, we used the fitted BART model to estimate the conditional average treatment effect (CATE) of compliance on each unit as a function of that unit’s covariate profile. For the main effect we duplicated the seed covariate data into two N × K matrices, where N is the number of seeds and K is the number of covariates. We set the compliance indicator to 1 in the first matrix and 0 in the second. We then took 1,000 posterior draws for each matrix from the fitted model and subtracted the second matrix from the first. The CATE is calculated by taking the mean of the rows, while the 95% uncertainty bounds are calculated by taking the 0.025 and 0.975 quantiles35. We repeated this process for the spillover effect, substituting in the peer covariate data and the fitted spillover BART model.\n### Reporting Summary\nFurther information on research design is available in the Nature Research Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR47",
+                "ref-CR52",
+                "ref-CR51",
+                "ref-CR55",
+                "ref-CR35",
+                "ref-CR34",
+                "ref-CR54",
+                "ref-CR48",
+                "ref-CR53",
+                "ref-CR49",
+                "ref-CR45",
+                "ref-CR32",
+                "ref-CR33",
+                "ref-CR56",
+                "ref-CR46",
+                "ref-CR50"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Design of the intervention evaluation.",
+            "figure-caption": "a, Individuals at high risk of gunshot victimization (seeds) are assigned to the programme and classified as either compliant or non-compliant. b, Each seed is identified in the Chicago co-arrest network. We apply our exposure mapping, classifying individuals adjacent to a compliant seed as compliant peers and those adjacent to a non-compliant seed as non-compliant peers. c, The compliance effect is based on a comparison of victimization outcomes in the two years after assignment for seeds in the compliant and non-compliant conditions. The spillover effect is based on the equivalent comparison among peers.",
+            "figure-link": "https://www.nature.com/articles/s41562-019-0688-1/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: The estimated effect of compliance on programme seeds (n = 2,349) and the estimated effect of compliance spillover on programme peers (n = 6,132).",
+            "figure-caption": "DIM is the mean difference in the two-year probability of victimization for individuals in the compliant versus non-compliant condition. The BART model is a non-parametric estimate of the conditional average treatment effect of compliance, accounting for observed covariates. A 95% confidence interval is shown for the DIM estimate, and a 95% credible interval for the BART estimate.",
+            "figure-link": "https://www.nature.com/articles/s41562-019-0688-1/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3",
+            "figure-caption": "a,b, The CATE of compliance on the probability of victimization for programme seeds (n = 2,349) (a) and compliance spillover on the probability of victimization for peers (n = 6,132) (b) . For each individual, the CATE is estimated as a function of their covariate profile using the fitted BART models for the compliance and spillover effects; 95% credible intervals (CI) are shown for each CATE, and the median CATE and associated 95% CI are also shown.",
+            "figure-link": "https://www.nature.com/articles/s41562-019-0688-1/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Wintemute, G. J. The epidemiology of firearm violence in the twenty-first century United States. Annu. Rev. Public Health 36, 5–19 (2015).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25533263",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20epidemiology%20of%20firearm%20violence%20in%20the%20twenty-first%20century%20United%20States&journal=Annu.%20Rev.%20Public%20Health&volume=36&pages=5-19&publication_year=2015&author=Wintemute%2CGJ"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Web-based injury statistics query and reporting system. National Center for Injury Prevention and Control http://www.cdc.gov/injury/wisqars/index.html (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Peterson, R. D. & Krivo, L. J. Divergent Social Worlds: Neighborhood Crime and the Racial-Spatial Divide (Russell Sage, 2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Harper, S., Lynch, J., Burris, S. & Davey Smith, G. Trends in the black-white life expectancy gap in the United States, 1983–2003. JAMA 297, 1224–1232 (2007).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD2sXlvVWltb0%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17369405",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Trends%20in%20the%20black-white%20life%20expectancy%20gap%20in%20the%20United%20States%2C%201983%E2%80%932003&journal=JAMA&volume=297&pages=1224-1232&publication_year=2007&author=Harper%2CS&author=Lynch%2CJ&author=Burris%2CS&author=Davey%20Smith%2CG"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Sharkey, P. The acute effect of local homicides on children’s cognitive performance. Proc. Natl Acad. Sci. USA 107, 11733–11738 (2010).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXovVGkurc%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20547862",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20acute%20effect%20of%20local%20homicides%20on%20children%E2%80%99s%20cognitive%20performance&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&volume=107&pages=11733-11738&publication_year=2010&author=Sharkey%2CP"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Tracy, M., Braga, A. A. & Papachristos, A. V. The transmission of gun and other weapon-involved violence within social networks. Epidemiol. Rev. 38, 70–86 (2016).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26733492",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4762247",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20transmission%20of%20gun%20and%20other%20weapon-involved%20violence%20within%20social%20networks&journal=Epidemiol.%20Rev.&volume=38&pages=70-86&publication_year=2016&author=Tracy%2CM&author=Braga%2CAA&author=Papachristos%2CAV"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Papachristos, A. V., Wildeman, C. & Roberto, E. Tragic, but not random: the social contagion of nonfatal gunshot injuries. Soc. Sci. Med. 125, 139–150 (2015).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24560101",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Tragic%2C%20but%20not%20random%3A%20the%20social%20contagion%20of%20nonfatal%20gunshot%20injuries&journal=Soc.%20Sci.%20Med.&volume=125&pages=139-150&publication_year=2015&author=Papachristos%2CAV&author=Wildeman%2CC&author=Roberto%2CE"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Papachristos, A. V., Braga, A. A. & Hureau, D. Social networks and the risk of gunshot injury. J. Urban Health 89, 992–1003 (2012).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22714704",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531351",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20networks%20and%20the%20risk%20of%20gunshot%20injury&journal=J.%20Urban%20Health&volume=89&pages=992-1003&publication_year=2012&author=Papachristos%2CAV&author=Braga%2CAA&author=Hureau%2CD"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Green, B., Thibaut, H. & Papachristos, A. V. Modeling contagion through social networks to explain and predict gunshot violence in Chicago, 2006 to 2014. JAMA Intern. Med. 177, 326–333 (2017).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28055070",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Modeling%20contagion%20through%20social%20networks%20to%20explain%20and%20predict%20gunshot%20violence%20in%20Chicago%2C%202006%20to%202014&journal=JAMA%20Intern.%20Med.&volume=177&pages=326-333&publication_year=2017&author=Green%2CB&author=Thibaut%2CH&author=Papachristos%2CAV"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Cooper, C., Eslinger, D. M. & Stolley, P. D. Hospital-based violence intervention programs work. J. Trauma Acute Care Surg. 61, 534–540 (2006).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hospital-based%20violence%20intervention%20programs%20work&journal=J.%20Trauma%20Acute%20Care%20Surg.&volume=61&pages=534-540&publication_year=2006&author=Cooper%2CC&author=Eslinger%2CDM&author=Stolley%2CPD"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Purtle, J., Rich, J. A., Fein, J. A., James, T. & Corbin, T. J. Hospital-based violence prevention: progress and opportunities. Ann. Intern. Med. 163, 715–717 (2015).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26301734",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hospital-based%20violence%20prevention%3A%20progress%20and%20opportunities&journal=Ann.%20Intern.%20Med.&volume=163&pages=715-717&publication_year=2015&author=Purtle%2CJ&author=Rich%2CJA&author=Fein%2CJA&author=James%2CT&author=Corbin%2CTJ"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Butts, J. A., Roman, C. G., Bostwick, L. & Porter, J. R. Cure violence: a public health model to reduce gun violence. Annu. Rev. Public Health 36, 39–53 (2015).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25581151",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cure%20violence%3A%20a%20public%20health%20model%20to%20reduce%20gun%20violence&journal=Annu.%20Rev.%20Public%20Health&volume=36&pages=39-53&publication_year=2015&author=Butts%2CJA&author=Roman%2CCG&author=Bostwick%2CL&author=Porter%2CJR"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Whitehill, J. M., Webster, D. W., Frattaroli, S. & Parker, E. M. Interrupting violence: how the ceasefire program prevents imminent gun violence through conflict mediation. J. Urban Health 91, 84–95 (1994).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Interrupting%20violence%3A%20how%20the%20ceasefire%20program%20prevents%20imminent%20gun%20violence%20through%20conflict%20mediation&journal=J.%20Urban%20Health&volume=91&pages=84-95&publication_year=1994&author=Whitehill%2CJM&author=Webster%2CDW&author=Frattaroli%2CS&author=Parker%2CEM"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Crandall, V. & Wong, S. L. Group Violence Reduction Strategy: Call-in Preparation and Execution (The Office of Community Oriented Policing Strategies, 2012).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Braga, A. A. & Weisburd, D. The effects of focused deterrence strategies on crime: a systematic review and meta-analysis of the empirical evidence. J. Res. Crime Delinq. 49, 323–358 (2012).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effects%20of%20focused%20deterrence%20strategies%20on%20crime%3A%20a%20systematic%20review%20and%20meta-analysis%20of%20the%20empirical%20evidence&journal=J.%20Res.%20Crime%20Delinq.&volume=49&pages=323-358&publication_year=2012&author=Braga%2CAA&author=Weisburd%2CD"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Braga, A. A., Papachristos, A. V. & Hureau, D. The effects of hot spots policing on crime: an updated systematic review and meta-analysis. Justice Q. 31, 633–663 (2014).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effects%20of%20hot%20spots%20policing%20on%20crime%3A%20an%20updated%20systematic%20review%20and%20meta-analysis&journal=Justice%20Q.&volume=31&pages=633-663&publication_year=2014&author=Braga%2CAA&author=Papachristos%2CAV&author=Hureau%2CD"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Braga, A. A., Weisburd, D. & Turchan, B. Focused deterrence strategies and crime control: an updated systematic review and meta-analysis of the empirical evidence. Criminol. Public Policy 17, 205–250 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Focused%20deterrence%20strategies%20and%20crime%20control%3A%20an%20updated%20systematic%20review%20and%20meta-analysis%20of%20the%20empirical%20evidence&journal=Criminol.%20Public%20Policy&volume=17&pages=205-250&publication_year=2018&author=Braga%2CAA&author=Weisburd%2CD&author=Turchan%2CB"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Heckman, J. J. The scientific model of causality. Sociol. Methodol. 35, 1–97 (2006).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20scientific%20model%20of%20causality&journal=Sociol.%20Methodol.&volume=35&pages=1-97&publication_year=2006&author=Heckman%2CJJ"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Durlauf, S. N., Navarro, S. & Rivers, D. A. Understanding aggregate crime regressions. J. Econ. 158, 306–317 (2010).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20aggregate%20crime%20regressions&journal=J.%20Econ.&volume=158&pages=306-317&publication_year=2010&author=Durlauf%2CSN&author=Navarro%2CS&author=Rivers%2CDA"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Gravel, J. & Tita, G. E. With great methods comes great responsibilities. Criminol. Public Policy 14, 559–572 (2015).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=With%20great%20methods%20comes%20great%20responsibilities&journal=Criminol.%20Public%20Policy&volume=14&pages=559-572&publication_year=2015&author=Gravel%2CJ&author=Tita%2CGE"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Valente, T. W. Network interventions. Science 337, 49–53 (2012).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC38XpsFKks78%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22767921",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Network%20interventions&journal=Science&volume=337&pages=49-53&publication_year=2012&author=Valente%2CTW"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Proestakis, A. et al. Network interventions for changing physical activity behaviour in preadolescents. Nat. Hum. Behav. 2, 778–787 (2018).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30886902",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6420114",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Network%20interventions%20for%20changing%20physical%20activity%20behaviour%20in%20preadolescents&journal=Nat.%20Hum.%20Behav.&volume=2&pages=778-787&publication_year=2018&author=Proestakis%2CA"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Kennedy, D. M., Braga, A. A. & Piehl, A. M. The (un)known yniverse: mapping gangs and gang violence in Boston. in Crime Mapping and Crime Prevention (ed. Weisburd, D. & McEwan, T.) 219–262 (Criminal Justice Press, 1997).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Papachristos, A. V. & Kirk, D. S. Changing the street dynamic: evaluating Chicago’s group violence reduction strategy. Criminol. Public Policy 14, 525–558 (2015).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changing%20the%20street%20dynamic%3A%20evaluating%20Chicago%E2%80%99s%20group%20violence%20reduction%20strategy&journal=Criminol.%20Public%20Policy&volume=14&pages=525-558&publication_year=2015&author=Papachristos%2CAV&author=Kirk%2CDS"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "National Network for Safe Communities. Group Violence Intervention: An Implementation Guide (US Department of Justice, Office of Community Oriented Policing Services, 2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Broockman, D. & Kalla, J. Durably reducing transphobia: a field experiment on door-to-door canvassing. Science 352, 220–224 (2016).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XlsFSmur4%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27124458",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Durably%20reducing%20transphobia%3A%20a%20field%20experiment%20on%20door-to-door%20canvassing&journal=Science&volume=352&pages=220-224&publication_year=2016&author=Broockman%2CD&author=Kalla%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Clarke, R. V. & Weisburd, D. Diffusion of crime control benefits: observations on the reverse of displacement. Crime Prev. Stud. 2, 165–184 (1994).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Diffusion%20of%20crime%20control%20benefits%3A%20observations%20on%20the%20reverse%20of%20displacement&journal=Crime%20Prev.%20Stud.&volume=2&pages=165-184&publication_year=1994&author=Clarke%2CRV&author=Weisburd%2CD"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Kennedy, D. M., Piehl, A. M. & Braga, A. A. Youth violence in Boston: gun markets, serious youth offenders, and a use-reduction strategy. Law Contemp. Probl. 59, 147–196 (1996).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Youth%20violence%20in%20Boston%3A%20gun%20markets%2C%20serious%20youth%20offenders%2C%20and%20a%20use-reduction%20strategy&journal=Law%20Contemp.%20Probl.&volume=59&pages=147-196&publication_year=1996&author=Kennedy%2CDM&author=Piehl%2CAM&author=Braga%2CAA"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Braga, A. A. & Weisburd, D. Focused deterrence and the prevention of violent gun injuries: practice, theoretical principles, and scientific evidence. Annu. Rev. Public Health 36, 55–68 (2015).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25494051",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Focused%20deterrence%20and%20the%20prevention%20of%20violent%20gun%20injuries%3A%20practice%2C%20theoretical%20principles%2C%20and%20scientific%20evidence&journal=Annu.%20Rev.%20Public%20Health&volume=36&pages=55-68&publication_year=2015&author=Braga%2CAA&author=Weisburd%2CD"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Charette, Y. & Papachristos, A. V. The network dynamics of co-offending careers. Soc. Netw. 51, 3–13 (2017).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20network%20dynamics%20of%20co-offending%20careers&journal=Soc.%20Netw.&volume=51&pages=3-13&publication_year=2017&author=Charette%2CY&author=Papachristos%2CAV"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Paluck, E. L., Shepherd, H. & Aronow, P. M. Changing climates of conflict: a social network experiment in 56 schools. Proc. Natl Acad. Sci. USA 113, 566–571 (2016).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XhvFCisA%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26729884",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changing%20climates%20of%20conflict%3A%20a%20social%20network%20experiment%20in%2056%20schools&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&volume=113&pages=566-571&publication_year=2016&author=Paluck%2CEL&author=Shepherd%2CH&author=Aronow%2CPM"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Aronow, P. M. & Samii, C. Estimating average causal effects under general interference, with application to a social network experiment. Ann. Appl. Stat. 11, 1912–1947 (2017).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20average%20causal%20effects%20under%20general%20interference%2C%20with%20application%20to%20a%20social%20network%20experiment&journal=Ann.%20Appl.%20Stat.&volume=11&pages=1912-1947&publication_year=2017&author=Aronow%2CPM&author=Samii%2CC"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Hill, J. L. Bayesian nonparametric modeling for causal inference. J. Comput. Graph. Stat. 20, 217–240 (2011).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bayesian%20nonparametric%20modeling%20for%20causal%20inference&journal=J.%20Comput.%20Graph.%20Stat.&volume=20&pages=217-240&publication_year=2011&author=Hill%2CJL"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Chipman, H. A., George, E. I. & McCulloch, R. E. Bart: Bayesian additive regression trees. Ann. Appl. Stat. 4, 266–298 (2010).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bart%3A%20Bayesian%20additive%20regression%20trees&journal=Ann.%20Appl.%20Stat.&volume=4&pages=266-298&publication_year=2010&author=Chipman%2CHA&author=George%2CEI&author=McCulloch%2CRE"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Green, D. P. & Kern, H. L. Modeling heterogenous treatment effects in survey experiments with Bayesian additive regression trees. Public Opin. Q. 76, 491–511 (2012).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Modeling%20heterogenous%20treatment%20effects%20in%20survey%20experiments%20with%20Bayesian%20additive%20regression%20trees&journal=Public%20Opin.%20Q.&volume=76&pages=491-511&publication_year=2012&author=Green%2CDP&author=Kern%2CHL"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Hainmueller, J. Entropy balancing for causal effects: a multivariate reweighting method to produce balanced samples in observational studies. Polit. Anal. 20, 25–46 (2012).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Entropy%20balancing%20for%20causal%20effects%3A%20a%20multivariate%20reweighting%20method%20to%20produce%20balanced%20samples%20in%20observational%20studies&journal=Polit.%20Anal.&volume=20&pages=25-46&publication_year=2012&author=Hainmueller%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Palinkas, L. A. et al. Influence network linkages across implementation strategy conditions in a randomized controlled trial of two strategies for scaling up evidence-based practices in public youth-serving systems. Implement. Sci. 8, 133 (2013).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24229373",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3930152",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Influence%20network%20linkages%20across%20implementation%20strategy%20conditions%20in%20a%20randomized%20controlled%20trial%20of%20two%20strategies%20for%20scaling%20up%20evidence-based%20practices%20in%20public%20youth-serving%20systems&journal=Implement.%20Sci.&volume=8&publication_year=2013&author=Palinkas%2CLA"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Christakis, N. A. & Fowler, J. H. Social network sensors for early detection of contagious outbreaks. PLoS One 5, e12948 (2010).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20856792",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2939797",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20network%20sensors%20for%20early%20detection%20of%20contagious%20outbreaks&journal=PLoS%20One&volume=5&publication_year=2010&author=Christakis%2CNA&author=Fowler%2CJH"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Centola, D. The spread of behavior in an online social network experiment. Science 329, 1194–1197 (2010).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXhtV2hsr7E",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20813952",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20spread%20of%20behavior%20in%20an%20online%20social%20network%20experiment&journal=Science&volume=329&pages=1194-1197&publication_year=2010&author=Centola%2CD"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Kim, D. A. et al. Social network targeting to maximise population behavior change: a cluster randomised controlled trial. Lancet 386, 145–153 (2015).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25952354",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4638320",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20network%20targeting%20to%20maximise%20population%20behavior%20change%3A%20a%20cluster%20randomised%20controlled%20trial&journal=Lancet&volume=386&pages=145-153&publication_year=2015&author=Kim%2CDA"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Shalizi, C. R. & Thomas, A. C. Homophily and contagion are generically confounded in observational social network studies. Sociol. Methods Res. 40, 211–239 (2011).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22523436",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328971",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Homophily%20and%20contagion%20are%20generically%20confounded%20in%20observational%20social%20network%20studies&journal=Sociol.%20Methods%20Res.&volume=40&pages=211-239&publication_year=2011&author=Shalizi%2CCR&author=Thomas%2CAC"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Legewie, J. & Fagan, J. Aggressive policing and the educational performance of minority youth. Am. Sociol. Rev. 84, 220–247 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Aggressive%20policing%20and%20the%20educational%20performance%20of%20minority%20youth&journal=Am.%20Sociol.%20Rev.&volume=84&pages=220-247&publication_year=2019&author=Legewie%2CJ&author=Fagan%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Valente, T. W. Social network thresholds in the diffusion of innovations. Soc. Netw. 18, 69–89 (1996).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20network%20thresholds%20in%20the%20diffusion%20of%20innovations&journal=Soc.%20Netw.&volume=18&pages=69-89&publication_year=1996&author=Valente%2CTW"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Rogers, E. M. Diffusion of preventative innovations. Addict. Behav. 27, 989–993 (2002).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12369480",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Diffusion%20of%20preventative%20innovations&journal=Addict.%20Behav.&volume=27&pages=989-993&publication_year=2002&author=Rogers%2CEM"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Forastiere, L., Airoldi, E. M. & Mealli, F. Identification and estimation of treatment and interference effects in observational studies on networks. Preprint at arXiv https://arxiv.org/abs/1609.06245 (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Hamilton, B., Rosenfeld, R. & Levin, A. Opting out of treatment: self-selection bias in a randomized controlled study of a focused deterrence notification meeting. J. Exp. Criminol. 14, 1–17 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Opting%20out%20of%20treatment%3A%20self-selection%20bias%20in%20a%20randomized%20controlled%20study%20of%20a%20focused%20deterrence%20notification%20meeting&journal=J.%20Exp.%20Criminol.&volume=14&pages=1-17&publication_year=2018&author=Hamilton%2CB&author=Rosenfeld%2CR&author=Levin%2CA"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Rosenbaum, P. R. Choice as an alternative to control in observational studies. Stat. Sci. 14, 259–304 (1999).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Choice%20as%20an%20alternative%20to%20control%20in%20observational%20studies&journal=Stat.%20Sci.&volume=14&pages=259-304&publication_year=1999&author=Rosenbaum%2CPR"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Rubin, D. B. Bayesian inference for causal effects: the role of randomization. Ann. Stat. 6, 34–58 (1978).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bayesian%20inference%20for%20causal%20effects%3A%20the%20role%20of%20randomization&journal=Ann.%20Stat.&volume=6&pages=34-58&publication_year=1978&author=Rubin%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Pearl, J. Causal inference in statistics: an overview. Stat. Surv. 3, 96–146 (2009).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Causal%20inference%20in%20statistics%3A%20an%20overview&journal=Stat.%20Surv.&volume=3&pages=96-146&publication_year=2009&author=Pearl%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Steinman, K. J. & Zimmerman, M. A. Episodic and persistent gun-carrying among urban African-American adolescents. J. Adolesc. Health 35, 356–364 (2003).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Episodic%20and%20persistent%20gun-carrying%20among%20urban%20African-American%20adolescents&journal=J.%20Adolesc.%20Health&volume=35&pages=356-364&publication_year=2003&author=Steinman%2CKJ&author=Zimmerman%2CMA"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Cook, P. J. & Laub, J. H. After the epidemic: recent trends in youth violence in the united states. Crime Justice 29, 1–37 (2002).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=After%20the%20epidemic%3A%20recent%20trends%20in%20youth%20violence%20in%20the%20united%20states&journal=Crime%20Justice&volume=29&pages=1-37&publication_year=2002&author=Cook%2CPJ&author=Laub%2CJH"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Peterson, R. D. & Krivo, L. J. Macrostructural analyses of race, ethnicity, and violent crime: recent lessons and new directions for research. Annu. Rev. Sociol. 31, 331–356 (2005).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Macrostructural%20analyses%20of%20race%2C%20ethnicity%2C%20and%20violent%20crime%3A%20recent%20lessons%20and%20new%20directions%20for%20research&journal=Annu.%20Rev.%20Sociol.&volume=31&pages=331-356&publication_year=2005&author=Peterson%2CRD&author=Krivo%2CLJ"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Jones-Webb, R. & Wall, M. Neighborhood racial/ethnic concentration, social disadvantage, and homicide risk: an ecological analysis of 10 U.S. cities. J. Urban Health 8, 662–676 (2008).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighborhood%20racial%2Fethnic%20concentration%2C%20social%20disadvantage%2C%20and%20homicide%20risk%3A%20an%20ecological%20analysis%20of%2010%20U.S.%20cities&journal=J.%20Urban%20Health&volume=8&pages=662-676&publication_year=2008&author=Jones-Webb%2CR&author=Wall%2CM"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Papachristos, A. V., Braga, A. A., Piza, E. & Grossman, L. S. The company you keep? The spillover effects of gang membership on individual gunshot victimization in a co-offending network. Criminology 53, 624–649 (2015).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20company%20you%20keep%3F%20The%20spillover%20effects%20of%20gang%20membership%20on%20individual%20gunshot%20victimization%20in%20a%20co-offending%20network&journal=Criminology&volume=53&pages=624-649&publication_year=2015&author=Papachristos%2CAV&author=Braga%2CAA&author=Piza%2CE&author=Grossman%2CLS"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Fewell, Z., Davey Smith, G. & Sterne, J. A. C. The impact of residual and unmeasured confounding in epidemiologic studies: a simulation study. Am. J. Epidemiol. 166, 646–655 (2007).",
+            "links": {
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17615092",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20residual%20and%20unmeasured%20confounding%20in%20epidemiologic%20studies%3A%20a%20simulation%20study&journal=Am.%20J.%20Epidemiol.&volume=166&pages=646-655&publication_year=2007&author=Fewell%2CZ&author=Davey%20Smith%2CG&author=Sterne%2CJAC"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Groenwold, R. H. H. et al. Sensitivity analysis for the effects of multiple unmeasured confounders. Ann. Epidemiol. 26, 601–605 (2016).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sensitivity%20analysis%20for%20the%20effects%20of%20multiple%20unmeasured%20confounders&journal=Ann.%20Epidemiol.&volume=26&pages=601-605&publication_year=2016&author=Groenwold%2CRHH"
+            }
+        }
+    ]
+}

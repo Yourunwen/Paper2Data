@@ -1,0 +1,145 @@
+{
+    "id": "s41558-025-02396-w",
+    "title": "Measuring flood underinsurance in the USA",
+    "journal": "Nature Climate Change",
+    "pdf_link": "https://www.nature.com/articles/s41558-025-02396-w",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "First Street Foundation property level flood damage estimates and projections v3",
+            "Data_summary": "Parcel or property level estimates of flood damage in US dollars including average annual loss metrics and expected repair cost damages for multiple flood return period events with distribution percentiles and climate scenario projections used to compute protection gaps and underinsurance by comparing expected damages to insurance coverage.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The property level flood damage estimates and projections that support the findings of this study are available from the FSF and used under licence and are not publicly available, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2022 and 30-year projections",
+            "Geographic_Coverage": "United States > Contiguous USA",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "NFIP redacted policies data v1",
+            "Data_summary": "Administrative microdata on National Flood Insurance Program policies including building coverage limits premiums deductibles and policy effective dates used to measure existing flood insurance coverage and premiums and to assign policies to properties for estimating protection gaps and underinsurance.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The study was conducted using v.1 of the publicly available National Flood Insurance Program redacted policies data, Location: Data availability, Confidence: high",
+            "Time_Coverage": "2021Q2-2022Q1",
+            "Geographic_Coverage": "United States > Contiguous USA",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "NFIP redacted policies data v2 OpenFEMA",
+            "Data_summary": "Updated public version of the NFIP redacted policies dataset with additional fields referenced as the current access point for the NFIP policy microdata used in the analysis.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: An updated version of the data with additional fields is available at www.fema.gov/openfema-data-page/fima-nfip-redacted-policies-v2, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.fema.gov/openfema-data-page/fima-nfip-redacted-policies-v2",
+            "ref": []
+        },
+        {
+            "Data_Name": "CoreLogic property data",
+            "Data_summary": "Property characteristics dataset used to identify single family residences and to link FSF parcel records to a nearest neighbor property record and to obtain attributes such as construction year for matching to NFIP policies.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The property characteristics used to define the sample are available from CoreLogic, used under licence and are not publicly available, Location: Data availability, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Contiguous USA",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "American Community Survey 2015-2019 5-year estimates via NHGIS",
+            "Data_summary": "Tract level socioeconomic and demographic data including median household income race and ethnicity composition education home value housing units and mortgage share used for distributional analysis and as regression controls for underinsurance and climate belief correlations.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Tract characteristics such as median household income and minority share were collected from the 2015-2019 five-year American Community Survey, Location: Methods Sample construction, Confidence: high",
+            "Time_Coverage": "2015-2019",
+            "Geographic_Coverage": "United States > Census tract",
+            "URL": "https://www.nhgis.org",
+            "ref": []
+        },
+        {
+            "Data_Name": "2010 census tract delineation and census shapefiles TIGER GENZ2019",
+            "Data_summary": "Geographic boundary shapefiles for US census tracts used to map properties and policies to census tracts using 2010 delineations and to support spatial aggregation and tract level analyses.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We then map all these properties to census tracts using 2010 map delineations, Location: Methods Sample construction, Confidence: high",
+            "Time_Coverage": "2010 and 2019",
+            "Geographic_Coverage": "United States > Census tract",
+            "URL": "https://www2.census.gov/geo/tiger/GENZ2019/shp/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Yale Climate Opinion Maps 2023 YPCCC",
+            "Data_summary": "Survey based small area estimates of climate change opinions including county level share of respondents who say global warming will cause moderate or great personal harm used as a proxy for climate beliefs in regressions explaining tract level underinsurance.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We calculate the share of residents in the county who respond to the question how much do you think global warming will harm you personally in the Yale Climate Opinion Maps from 2023, Location: Methods Climate beliefs and underinsurance, Confidence: high",
+            "Time_Coverage": "2023",
+            "Geographic_Coverage": "United States > County",
+            "URL": "https://climatecommunication.yale.edu/visualizations-data/ycom-us/",
+            "ref": []
+        },
+        {
+            "Data_Name": "L2 voter registration data 2021 block level aggregated to tract",
+            "Data_summary": "Voter file data with party registration used to compute census tract share of registered Republican voters as a proxy for climate risk beliefs and expectations of government support in underinsurance regressions.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We obtain the share of voters in the census tract who are registered Republican from the 2021 census block aggregated L2 voter file, Location: Methods Climate beliefs and underinsurance, Confidence: high",
+            "Time_Coverage": "2021",
+            "Geographic_Coverage": "United States > Census tract",
+            "URL": "https://redistrictingdatahub.org/",
+            "ref": []
+        },
+        {
+            "Data_Name": "FEMA Risk Rating 2.0 proposed pricing premium increase data",
+            "Data_summary": "Public tabulation of zip code level average NFIP premium increases under Risk Rating 2.0 relative to September 2022 used to scale observed policy premiums to construct counterfactual premiums for cost benefit calculations of insurance gains.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data provide zip-code-level average premium increases under Risk Rating 2.0 relative to premiums from September 2022, Location: Methods Financial gains of insurance under various prices, Confidence: high",
+            "Time_Coverage": "2022-09 to 2023",
+            "Geographic_Coverage": "United States > ZIP code",
+            "URL": "https://www.fema.gov/flood-insurance/work-with-nfip/risk-rating/single-family-home",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Bureau of Labor Statistics Consumer Price Index January series",
+            "Data_summary": "Price index values used to inflate adjust tract median household income measures for comparability across years in the tract level analysis.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We use each year’s January Consumer Price Index from the US Bureau of Labor Statistics to adjust for inflation, Location: Methods Sample construction, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "FHFA House Price Index",
+            "Data_summary": "House price index series used to adjust American Community Survey median home value measures to 2022 dollars for regression controls.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Median home value from the American Community Survey adjusted to 2022 dollars by the FHFA house price index which is available at www.fhfa.gov/data/hpi, Location: Methods Climate beliefs and underinsurance, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.fhfa.gov/data/hpi",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:22.999505"
+    }
+}

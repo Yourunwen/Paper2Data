@@ -1,0 +1,920 @@
+{
+    "id": "s44284-024-00108-7",
+    "journal": "Nature Cities",
+    "type": "article",
+    "title": "A typology of activities over a century of urban growth",
+    "legal_title": "A typology of activities over a century of urban growth",
+    "publish_time": "2024-08-09",
+    "pdf_link": "https://www.nature.com/articles/s44284-024-00108-7",
+    "storage_path": "./Articles/Nature Cities/2024-article/s44284-024-00108-7/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Contemporary literature on the dynamics of economic activities in growing cities has mainly focused on time frames of a few years or decades. Using a new geohistorical database constructed from historical directories with about 1 million entries, we present a comprehensive analysis of the dynamics of activities in a major city, Paris, over almost a century (1829–1907). Our analysis suggests that activities that accompany city growth can be classified in different categories according to their dynamics and their scaling with population: (1) linear for everyday needs of residents (food stores, clothing retailers, health care practitioners), (2) sublinear for public services (legal, administrative, educational) and (3) superlinear for the city’s specific features (passing fads, specialization, timely needs). The dynamics of these activities is in addition very sensitive to historical perturbations such as large-scale public works or political conflicts. These results shed light on the evolution of activities, a crucial component of growing cities.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "The dataset of the population censuses of Paris at the scale of districts between 1801 and 1911 is openly accessible with the documentation on the Nakala platform of the CNRS Research Infrastructure Huma-Num at https://doi.org/10.34847/nkl.e173c93p. The dataset of Paris directories entries with NAICS-inspired categories between 1829 and 1907 specifically constructed and used for this paper is openly accessible on the Zenodo platform https://doi.org/10.5281/zenodo.8388101 (ref. 68).",
+            "links": {
+                "https://doi.org/10.34847/nkl.e173c93p": "https://doi.org/10.34847/nkl.e173c93p",
+                "https://doi.org/10.5281/zenodo.8388101": "https://doi.org/10.5281/zenodo.8388101",
+                "68": "/articles/s44284-024-00108-7#ref-CR68"
+            }
+        },
+        "Code availability": {
+            "content": "The open repository https://doi.org/10.5281/zenodo.8388101 (ref. 68) contains the code to create the figures and tables of both the main text and the Supplementary Information.",
+            "links": {
+                "https://doi.org/10.5281/zenodo.8388101": "https://doi.org/10.5281/zenodo.8388101",
+                "68": "/articles/s44284-024-00108-7#ref-CR68",
+                "Supplementary Information": "/articles/s44284-024-00108-7#MOESM1"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We thank N. Abadie, S. Baciocchi, P. Cristofoli, B. Duménieu, E. Carlinet, J. Chazalon and J. Perret, who set up the processing chain enabling the extraction and enrichment of Paris directories, and without whom this work would not have been possible. This research was funded by ANR SoDUCo Program, grant number ANR-18-CE38-0013 (J.G. and M.B.).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsJulie GravierView author publicationsSearch author on:PubMed Google ScholarMarc BarthelemyView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nJ.G. and M.B. designed the study. J.G. worked on the data and analyzed it. J.G. and M.B. wrote the paper.\n### Corresponding author\nCorrespondence to\n                Marc Barthelemy.",
+            "links": {
+                "View author publications": "/search?author=Marc%20Barthelemy",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Marc%20Barthelemy",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Marc%20Barthelemy%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Marc Barthelemy": "mailto:marc.barthelemy@ipht.fr"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Cities thanks Cécile Tannier and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationFigs. 1–10 and Tables 1–4.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-024-00108-7/MediaObjects/44284_2024_108_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-024-00108-7/MediaObjects/44284_2024_108_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=A%20typology%20of%20activities%20over%20a%20century%20of%20urban%20growth&author=Julie%20Gravier%20et%20al&contentID=10.1038%2Fs44284-024-00108-7&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20America%2C%20Inc.&publication=2731-9997&publicationDate=2024-08-09&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleGravier, J., Barthelemy, M. A typology of activities over a century of urban growth.\n                    Nat Cities 1, 567–575 (2024). https://doi.org/10.1038/s44284-024-00108-7Download citationReceived: 22 November 2023Accepted: 15 July 2024Published: 09 August 2024Version of record: 09 August 2024Issue date: September 2024DOI: https://doi.org/10.1038/s44284-024-00108-7Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s44284-024-00108-7?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "A typology of activities over a century of urban growth",
+                "description": "Contemporary literature on the dynamics of economic activities in growing cities has mainly focused on time frames of a few years or decades. Using a new geohistorical database constructed from historical directories with about 1 million entries, we present a comprehensive analysis of the dynamics of activities in a major city, Paris, over almost a century (1829–1907). Our analysis suggests that activities that accompany city growth can be classified in different categories according to their dynamics and their scaling with population: (1) linear for everyday needs of residents (food stores, clothing retailers, health care practitioners), (2) sublinear for public services (legal, administrative, educational) and (3) superlinear for the city’s specific features (passing fads, specialization, timely needs). The dynamics of these activities is in addition very sensitive to historical perturbations such as large-scale public works or political conflicts. These results shed light on the evolution of activities, a crucial component of growing cities. Relationships among variables such as innovation and crime and the population sizes of cities are a cornerstone of urban science. This study creatively looks over time at how economic activities evolved as a single, iconic city, Paris, grew between 1829 and 1907.",
+                "datePublished": "2024-08-09T00:00:00Z",
+                "dateModified": "2024-08-09T00:00:00Z",
+                "pageStart": "567",
+                "pageEnd": "575",
+                "sameAs": "https://doi.org/10.1038/s44284-024-00108-7",
+                "keywords": [
+                    "Geography",
+                    "History",
+                    "Cities",
+                    "Countries",
+                    "Regions",
+                    "Sustainable Architecture/Green Buildings",
+                    "Civil Engineering",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urban Studies/Sociology",
+                    "Urban Economics"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-024-00108-7/MediaObjects/44284_2024_108_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-024-00108-7/MediaObjects/44284_2024_108_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-024-00108-7/MediaObjects/44284_2024_108_Fig3_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Cities",
+                    "issn": [
+                        "2731-9997"
+                    ],
+                    "volumeNumber": "1",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Julie Gravier",
+                        "url": "http://orcid.org/0000-0003-0449-6499",
+                        "affiliation": [
+                            {
+                                "name": "EHESS (CNRS/EHESS)",
+                                "address": {
+                                    "name": "Centre de Recherches Historiques, EHESS (CNRS/EHESS), Paris, France",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Centre d’Analyse et de Mathématique Sociales (CNRS/EHESS)",
+                                "address": {
+                                    "name": "Centre d’Analyse et de Mathématique Sociales (CNRS/EHESS), Paris, France",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Marc Barthelemy",
+                        "url": "http://orcid.org/0000-0003-0890-9713",
+                        "affiliation": [
+                            {
+                                "name": "Centre d’Analyse et de Mathématique Sociales (CNRS/EHESS)",
+                                "address": {
+                                    "name": "Centre d’Analyse et de Mathématique Sociales (CNRS/EHESS), Paris, France",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Institut de Physique Théorique",
+                                "address": {
+                                    "name": "Université Paris-Saclay, CNRS, CEA, Institut de Physique Théorique, Gif-sur-Yvette, France",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "marc.barthelemy@ipht.fr",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "geography;history",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Cities",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s44284-024-00108-7"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Julie Gravier",
+                            "Marc Barthelemy"
+                        ],
+                        "publishedAt": 1723161600,
+                        "publishedAtString": "2024-08-09",
+                        "title": "A typology of activities over a century of urban growth",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Geography,History"
+                    },
+                    "journal": {
+                        "pcode": "natcities",
+                        "title": "nature cities",
+                        "volume": "1",
+                        "issue": "9",
+                        "id": 44284,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "A typology of activities over a century of urban growth",
+            "dc.source": "Nature Cities 2024 1:9",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2024-08-09",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2024 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rights": "2024 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Contemporary literature on the dynamics of economic activities in growing cities has mainly focused on time frames of a few years or decades. Using a new geohistorical database constructed from historical directories with about 1 million entries, we present a comprehensive analysis of the dynamics of activities in a major city, Paris, over almost a century (1829–1907). Our analysis suggests that activities that accompany city growth can be classified in different categories according to their dynamics and their scaling with population: (1) linear for everyday needs of residents (food stores, clothing retailers, health care practitioners), (2) sublinear for public services (legal, administrative, educational) and (3) superlinear for the city’s specific features (passing fads, specialization, timely needs). The dynamics of these activities is in addition very sensitive to historical perturbations such as large-scale public works or political conflicts. These results shed light on the evolution of activities, a crucial component of growing cities. Relationships among variables such as innovation and crime and the population sizes of cities are a cornerstone of urban science. This study creatively looks over time at how economic activities evolved as a single, iconic city, Paris, grew between 1829 and 1907.",
+            "dc.identifier": "doi:10.1038/s44284-024-00108-7",
+            "dc.creator": "Barthelemy, Marc",
+            "dc.subject": "History",
+            "prism.issn": "2731-9997",
+            "prism.publicationName": "Nature Cities",
+            "prism.publicationDate": "2024-08-09",
+            "prism.volume": "1",
+            "prism.number": "9",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "567",
+            "prism.endingPage": "575",
+            "prism.copyright": "2024 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s44284-024-00108-7",
+            "prism.doi": "doi:10.1038/s44284-024-00108-7",
+            "citation_pdf_url": "https://www.nature.com/articles/s44284-024-00108-7.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s44284-024-00108-7",
+            "citation_journal_title": "Nature Cities",
+            "citation_journal_abbrev": "Nat Cities",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2731-9997",
+            "citation_title": "A typology of activities over a century of urban growth",
+            "citation_volume": "1",
+            "citation_issue": "9",
+            "citation_publication_date": "2024/09",
+            "citation_online_date": "2024/08/09",
+            "citation_firstpage": "567",
+            "citation_lastpage": "575",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s44284-024-00108-7",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s44284-024-00108-7&api_key=",
+            "citation_reference": "Gravier, J. Dataset and data analysis of activities of Paris between 1829 and 1907. Zenodo \n                  https://doi.org/10.5281/zenodo.8388101\n                  \n                 (2023).",
+            "citation_author": "Barthelemy, Marc",
+            "citation_author_institution": "Université Paris-Saclay, CNRS, CEA, Institut de Physique Théorique, Gif-sur-Yvette, France",
+            "description": "Contemporary literature on the dynamics of economic activities in growing cities has mainly focused on time frames of a few years or decades. Using a new geohistorical database constructed from historical directories with about 1 million entries, we present a comprehensive analysis of the dynamics of activities in a major city, Paris, over almost a century (1829–1907). Our analysis suggests that activities that accompany city growth can be classified in different categories according to their dynamics and their scaling with population: (1) linear for everyday needs of residents (food stores, clothing retailers, health care practitioners), (2) sublinear for public services (legal, administrative, educational) and (3) superlinear for the city’s specific features (passing fads, specialization, timely needs). The dynamics of these activities is in addition very sensitive to historical perturbations such as large-scale public works or political conflicts. These results shed light on the evolution of activities, a crucial component of growing cities. Relationships among variables such as innovation and crime and the population sizes of cities are a cornerstone of urban science. This study creatively looks over time at how economic activities evolved as a single, iconic city, Paris, grew between 1829 and 1907.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "A typology of activities over a century of urban growth",
+            "twitter:description": "Nature Cities - Relationships among variables such as innovation and crime and the population sizes of cities are a cornerstone of urban science. This study creatively looks over time at how...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44284-024-00108-7/MediaObjects/44284_2024_108_Fig1_HTML.png",
+            "DOI": "10.1038/s44284-024-00108-7",
+            "size": "180951",
+            "journal_id": "44284"
+        },
+        "canonical_url": "https://www.nature.com/articles/s44284-024-00108-7",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "The science of cities benefited in recent years from the recent availability of a massive amount of data about various aspects of these systems1,2,3 such as mobility, segregation, CO2 emissions and so on. Growth dynamics is one of the most important aspects as it results from the evolution of infrastructures, the population distribution and economic activity. A large number of studies discussed the growth of cities and their main drivers4, highlighting the importance of innovation5, amenities, agglomeration economies and human capital. Political institutions, the degree of democratization and technological advances also naturally play key roles6. Shocks are also very important and determine the fate of cities. These shocks can be structural changes or related to new industries, and affect the urban landscape, eventually having a large impact on interurban migration7.\nMost of the available datasets for this type of study have, however, a very limited time frame—typically a few years or decades—and mainly concern the contemporary period1,2,3. Other studies that consider historical periods, such as US counties between 1840 and 1990 (ref. 8), focus on the simpler quantity that is population, and other aspects such as the location and number of different activities are rarely considered on a historical scale. The construction of a science of cities, however, needs a long time span, and a quantitative approach to the historical evolution of urban systems is key to our understanding of these systems. Cross-sectional studies are available, such as in refs. 9,10,11, but an analysis on individual cities over a long time is very demanding in terms of dataset construction. This might, however, change as we witness a spectacular increase of the digitalization of historical sources, which opens the way to a broader view on the evolution of urban systems.\nExisting studies consist essentially of the digitalization of old maps allowing scientists to characterize the evolution of the road system12,13, a critical component in cities. Very few other aspects have been considered, with the exception of urban forms such as in refs. 14,15. However, it is usually advocated that economic activities lie at the heart of a city allowing for its specialization and diversification through time16. An important question is then how to understand and to identify economic activities that go along the growth of a large city. Such data are, however, extremely difficult to get for historical periods and here we take advantage of a new dataset that has been recently released17, constructed from the city directories that consist of large lists of individuals, merchants or prominent inhabitants, businesses, organizations and institutions. We report the analysis of such a dataset obtained for the city of Paris in the period 1829–1907, which gives access to a total of about 1 million entries of economic activities with their address, regularly updated in this period (see details about the dataset construction in Methods). This 79 year period allows us to have a historical perspective on city growth and activity evolution, but also to question the impact of large perturbations that took place in this period, such as Haussmann’s works that happened between 1853 and 1870 and modified in-depth the structure of the city18, or political conflicts such as the Franco–Prussian war and the Commune ‘revolution’ (1870–1871).\nDuring the evolution of a city, we observe the emergence of different activities and their variation as the city grows. The idea here is then to characterize the different activities and to exhibit the existence of categories of activities that have different functions. A natural tool for the analysis of the evolution of activities in a city is scaling19,20. It has indeed been observed that a total quantity Y measured for a city of population P varies as Y ∝ Pβ, with β > 0. In other words, the quantity per capita Y/P varies as Pβ−1 that allows us to identify three different categories. First, for β = 1, the quantity per capita is constant. This typically corresponds to quantities that are relative to human needs (such as water consumption). In the other cases, the quantity per capita depends on the city size. For β > 1, there is a ‘positive’ impact of the city: the larger it is, the larger the quantity Y/P. By contrast, the case β < 1 usually corresponds to an economy of scale. These scalings are usually measured ‘cross-sectionally’ at a given time for different cities with different values of their population. The number of studies considering history and evolution through time is increasing (Table 1), but most concern cross-sectional scaling analyzes for a given period, and we identified two historical studies of cross-sectional scaling over time only: one focusing on election results in the United States between 1948 and 2016 (ref. 21), the other one on the morphological structure of US cities between 1900 and 2015 (ref. 15). For contemporary cities, studies are mainly based on cross-sectional scaling over time (computed over various cities at a given time and also for different dates), and it is not yet clear how this relates to temporal scaling (computed over time for a given city)22,23,24. Indeed, analyzing cross-sectional data differs from studying the temporal scaling of individual cities. The former primarily reflects spatial dynamics, enabling insights into the characteristics of different cities at specific time points, while the latter, focusing on the temporal dynamics, offers a view into how individual cities evolve over time. Here, we will not address this general problem, but will focus on the measured value of β as a way to categorize a wide range of urban activities and to characterize the evolution of a city. The objective is then to analyze how the number of a given activity grows when the population varies.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR9",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR21",
+                "ref-CR15",
+                "ref-CR7",
+                "ref-CR19",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Overview of Paris activities\nThe dataset studied here encompasses about 1 million entries documenting the primary activities within Paris. Each entry corresponds to an individual having an activity (and less frequently to an organization), together with an address. These entries display a consistent growth pattern, expanding from 23,000 in 1829 to 88,000 in 1907. To compare historical activities of Paris during the nineteenth century with contemporary cities, we have used 21 contemporary groups, drawing inspiration from the North American Industry Classification System (NAICS) developed by the US Census Bureau (see more details in Methods).\nWe show the evolution in time of a selection of activity categories in Fig. 1. We observe that there is an overall increase in activity categories, with the exception of the decline in the public administration sector at the end of the period, resulting from a bias in the dataset (see details in Methods). The two most important sectors correspond to food stores and clothing related activities. The number of food stores increased from 4,000 in 1829 to 20,000 in 1907, and for clothing from approximately 3,000 entries in 1829 to 10,000 in 1907. Manufacturing appears to be the third most important section with over 10,000 entries by 1907. The Gini coefficient—that characterizes the heterogeneity—computed on the number of entries Na for a given activity ‘a’ for 21 categories is relatively stable and fluctuates between 0.44 and 0.52 showing that the global inequality of activity sizes is stable over time (Supplementary Fig. 2). Despite this stability, the increase rate of Na differs largely between categories. Notably, there is a tenfold increase in the number of trade agents and brokers between 1829 and 1907, along with an eightfold increase in engineering and more than fivefold for finance and insurance individuals. Additionally, administrative and legal individuals, along with educational ones, show modest increases of 1.75 and three times, respectively.\n### Scaling of activities and population over time\nThe population of Paris increased strongly from 785,000 in 1831 to more than 2.75 million in 1907 (ref. 25), questioning how activities in the city correspondingly grew. The very sharp growth in the population of the municipality of Paris is closely linked to the process of urban sprawl that led to the redrawing of the city’s administrative boundaries in 1860 (Methods). A natural tool22 to investigate this question is to analyze how the number of entries Na(t) for a given activity ‘a’ scales with the population P(t) for all times in our dataset. We expect in general a power-law of the form\nwhere the exponent β characterizes the growth rate of the activity a. We measure this exponent for different categories of activities and obtain the result showed in Fig. 2. We observe that these scaling exponents are highly variable, ranging from β ≈ 0.21 for administrative and legal category to β ≈ 2.52 for activities related to agriculture. A value of β ≈ 1 indicates that an activity grows linearly with population during the period. We observe such a linear relation for building and car rental categories (β ≈ 1.03 ± 0.15) and non-food retailers (except for clothing and home furniture sales). Other activities display a value of β slightly below 1, such as clothing and home supplies manufacturers and retailers (respectively, β ≈ 0.84 and 0.85), or health practitioners (β ≈ 0.83) indicating a growth rate slightly lower than the population. We also observe β values slightly larger than one for food stores (β ≈ 1.17 ± 0.11), although a linear behavior cannot be excluded. We note that food stores described in the directories display highly variable values of β depending on the type of food (Supplementary Figs. 4 and 5). Grocers grow linearly with population (β ≈ 0.95 ± 0.05), whereas we observe for seed or cheese retailers an almost constant behavior (β ≈ 0.04 and 0.07, respectively).\nBesides these activities that scale approximately with the population, we observe activities with scaling exponents very different from 1. For example, confectioners (β ≈ 0.59), wine retailers (β ≈ 1.48) and creamers (β ≈ 2.38). Furthermore, activity categories relative to politico-institutional services, such as administrative and legal individuals, public administration or educational individuals, grew sublinearly to the population, with 0.21 < β < 0.51. By contrast, engineering individuals (β ≈ 1.36), trade agents and brokers (β ≈ 1.53), and full-service restaurants (β ≈ 2.15) experienced more rapid growth rates than Paris’ population during the period.\nA wide range of empirical studies on urban scaling analyze data about systems of cities by comparing different cities at a given time. Among these studies, Pumain et al.5 compare β values for various economic and social activities within contemporary city systems in both the United States and France (in 2000 and 1999). Certain exponents identified in their study, such as finance and insurance, and trade wholesalers, exhibit similarities to the scaling observed here for Paris during the nineteenth century (Table 2). It seems that in these cases, the value for β is governed by principles independent from the period. Moreover, compared to the Brazilian system of cities in 2000, the wholesale trade sector had a β value of 1.18 (ref. 26). For other activities, the β values differ significantly. This is particularly true for the cases of education, art, construction and restaurants, where values can be larger or smaller than 1 depending on the measure, and whose evolution depends strongly on the period considered. It should be noted that β values can vary in space and time, as in the case of educational services; indeed, we observe both a variation in space (β for the French case is very different from that of the United States) and in time (β for Paris in the nineteenth century is very different from that of France today). This suggests that the total number of workers in education services depends strongly on other considerations such as political decisions. In addition, while some values are similar between US and French systems, as in the construction sector, they may be different in other emerging economies. Indeed, the β values of this sector were about 1.08 in China (2000) and 0.98 10 years later27, while they were 1.13 (2000) and 1.32 (2010) in Brazil (due to the housing boom and population concentration in larger cities26).\nDespite these fluctuations in time and from a country to another, these values allow us to distinguish the role of different activities during the growth of a city. We thus propose the following typology of activities for the dynamics of urban activities. For β < 1, we find all institutional services whose number is in general dictated by optimization principles based on accessibility28,29,30,31. Typically, minimizing the total time expenditure for public facility leads to a power-law behavior with β < 1. The underlying assumption being that social structures evolve in such a way to minimize the time spent in their operation (see Methods for an analytical discussion). It is important to note that entries in directories relating to institutional services are not limited to establishments (for example, schools for educational services), but also to individuals (for example, teachers), as presented in Supplementary Table 1. In this respect, optimization is also driven by other factors in addition to accessibility. Urban activities with β ≈ 1 are intrinsically linked to population and to a fixed number per capita. The number of these activities is mainly driven by the population needs (typically as is the case for grocers). These two activity types (β < 1 and β ≈ 1) correspond essentially to basic needs and can be expected for other growing modern cities. This is in contrast with the last types of activity that display β > 1 whose number is mainly dictated by specific needs, which in general will vary according to the period considered. Some activities depend on transformations in the economic production system, such as engineering services during the industrial revolution, while others depend on transformations in consumption habits. This is typically the case here for wine retailers (owing to the increasing popularity of wine consumption in the nineteenth century32) or creamers (milk consumption increased during this period33). These large β values reveal a specific phase of development of the city: urban sprawl (for example, the number of individuals in charge of feeding cows for milk production and trade increase because the proximity to consumers is vital before pasteurization methods were invented), or a specialization (such as restaurants in Paris).\n### Dynamics of activities\nIn addition to the scaling, we also investigate the dynamics of activities. An interesting visualization tool is the rank clock34 for activity categories that we show in Fig. 3 for the period 1829–1907, in which we observe different types of dynamic. First (Fig. 3a), there are activities—such as food stores or others such as cosmetics, beauty supplies or perfume—that maintain their rank over 79 years. More generally, all activities connected to everyday needs of residents (food stores, clothing manufacturers and/or retailers or health practitioners and so on) have a rank that remained stable during the period under study. Second, there are activities whose rank decreased (that is, became more important) such as wholesalers trade, trade agents and brokers, restaurants and engineering individuals (Fig. 3b,c). The last rank had an important sharp increase, moving from the 15th position in 1829 to the sixth position in 1907. Finally, there are activities whose rank increased, such as administrative and legal, educational, public administration, construction and public works, and publishing industries. Their number (Fig. 1), however, remained stable over time, which is consistent with the fact that it is governed by optimal considerations.\n### Effect of large perturbations\nParis during the nineteenth century experienced large perturbations. One of the most important happened under the guidance of Baron Haussmann18,35,36. The social, political and urbanistic importance and impact of Haussmann’s renovation is particularly significant. Essentially, until the middle of the nineteenth century, central Paris had a medieval structure composed of many small and crowded streets, creating congestion and, according to some contemporaries, probably health problems. In 1852, Napoleon III commissioned Haussmann to modernize Paris by building safer streets, large avenues connected to the new train stations, central or symbolic squares (such as the famous place de l’Étoile, place de la Nation and place du Panthéon), improving the traffic flow and, last but not least, the circulation of army troops. Haussmann also built modern housing with uniform building heights, new water supply and sewer systems, new bridges and so on. These works lasted between 1853 and 1870.\nThe second important historic event is called the Paris Commune, which was a revolutionary government that seized power in Paris in 1871. It emerged after the defeat of France during the Franco–Prussian war in 1870–1871 (with the siege of Paris by Prussian since September until the capitulation of Paris), and in opposition to the new government formed by the monarchist-majority National Assembly in 1871. The Paris Commune government lasted from March to May, while the regular government troops once again surrounded Paris, until the ‘Communards’ were defeated in a severe crackdown.\nAn interesting question is then whether we can observe these two different types of event in the statistics of activities. Indeed, Haussmann’s project was an extensive urban planning operation lasting 17 years, while the Paris Commune was a political event lasting just a few months. We thus compute the average slope for a given activity (computed over the period 1829–1907), and the average relative deviation Da around this slope computed over the Haussmann period (1855–1875), during the Paris Commune (1864–1871), and after the Paris Commune (1871–1875). More precisely, if we denote \\({S}_{a}^{\\mathrm{loc}}\\) to be the local slope for the activity ‘a’ (equal to (Na(1875) − Na(1855))/20 for the Haussman period for example), and by \\({\\overline{S}}_{a}\\) the average slope for activity a, the quantity Da is given by\nThe results for different activities are shown in the Table 3 and display large impacts on some activities (Supplementary Figs. 6 and 7).\nDuring the Haussmann period, most activities were positively affected with an increase of their numbers. In particular, construction works and building rental are affected, as could be expected for such a large-scale restructuring of the city and its infrastructures. Indeed, during the beginning of Haussmann’s renovation we observe the growth of new companies in the construction sector (Da ≈ 3.34 in 1855–1864 and −0.21 in 1864–1875), while furnished hotels (building rental) used as transitional housing for new immigrants to Paris were mainly affected during the 1860s (Da ≈ 0.83 in 1855–1860; 2.87 in 1860–1864), probably as a consequence of the housing price inflation of over 50% in the 1850s in the city center37. From this perspective, the global impact of this large-scale planning operation was positive. It is very different in the case of the Paris Commune that had a globally negative impact on most activities, as we could expect for such a troubled period. The impact is not notable when looking at the total number of entries in city directories (N = 93,700 in 1864, 101,800 in 1871 and 107,500 in 1875), but it is important on the most-frequent activities in the city analyzed here (respectively, N = 67,900, 56,000 and 80,800). The period after this event witnessed a large-scale reorganization with many activities whose number exploded. From this point of view, three main factors probably explain this evolution: (1) temporary closures of companies; (2) temporary transformations in the types of activity carried out by companies listed before, during and after 1871 and (3) changes in the ways in which individuals in 1871, especially elites, presented themselves in the directory (for example, administrative and legal individuals, or by people living off their income as owners or annuitants). Despite the political and social shock of the two sieges of Paris in 1870–1871, the transformations of activities are likely to be short lived rather than long lasting. A return to regular activity can be observed from 1875, in terms of the number of activities by category (Supplementary Fig. 6).",
+            "cites": [
+                "ref-CR30",
+                "ref-CR25",
+                "ref-CR5",
+                "ref-CR37",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR36",
+                "ref-CR26",
+                "ref-CR22",
+                "ref-CR18",
+                "ref-CR27",
+                "ref-CR28",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR33",
+                "ref-CR32"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "We showed in the case of Paris during the nineteenth century that not all activities are equivalent and that they can be grouped in categories with different dynamics and scaling. In particular, it seems that some activities naturally accompany the growth of the city and can be considered as intrinsic to its development. These activities essentially answer to basic needs of the residents, and the type of scaling with population of the number of these activities depends essentially on their underlying logic: it seems intuitive that the number of food stores scales more or less linearly with population while the number of administrative or educational needs follow an optimization logic (and scale sublinearly). All these activities constitute the core of the city, while other activities determine its specific features. These quickly developing activities usually respond to some passing fad or to a need of the specific period and the phase of the city’s development.\nThe dynamics of activities in the city over time should also be considered from the perspective that Paris is a city within a system of cities38 and is also the largest city in the French urban system. From this perspective, the evolutionary theory for interpreting urban scaling laws5 can shed some light on our results. Apart from human-related needs that are always characterized by β ≈ 1, we can discuss the typology in terms of innovation cycles. When the exponents are larger than 1, the corresponding activities are in a first adoption stage of innovations in the urban systems, and are usually concentrated in the largest cities, while exponents below 1 correspond to more mature activities39. We thus expect the typology of these activities to be valid for all growing cities, with differences being essentially in the second group of activities (β > 1) that characterize the city’s specific features in an innovation phase or specialization. These results shed a new light on the development of large cities by highlighting the existence of a typology of activities showing their different roles that they play in the development of a large city.",
+            "cites": [
+                "ref-CR38",
+                "ref-CR5",
+                "ref-CR39"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Paris directories between 1799 and 1914\nCity directories became an international publishing phenomenon during the nineteenth century in Europe and the United States. They consist of large lists of individuals, merchants or prominent inhabitants, businesses, organizations and institutions, each with descriptions and addresses. Published at a fast pace, often yearly, they provide massive, fine-grained and highly valuable geohistorical information for in-depth interdisciplinary studies of social and spatial aspects of cities. Analyzing the content of these directories over time and with a high temporal frequency requires a considerable amount of manual transcription, structuring, geolocation and data linking work. To overcome this difficulty, the SoDUCo ANR (the French National Science Foundation) Program has proposed an automatic pipeline to extract, semantically annotate, geocode and analyze the contents of 141 directories of Paris published between 1799 and 1914. First, each page is processed using image segmentation to extract its layout and detect directory entries: that is, regions containing a triple composed of a person (physical or moral), an activity and an address. Optical character recognition (OCR) is applied on each entry to get its textual content, which is then semantically enriched using a deep-learning-based named-entity recognition approach40. Finally, each address is assigned a geographic position in the city using a geocoding process. Spatial enrichment leverages historical maps of Paris, so the geocoding takes into account the changes in the numbering and streets over the century, including Haussmann’s renovation41. More than 10 million entries currently compose the 141 digitally transcribed and enriched directories (ref. 17, v.3, alphabetical lists).\nParis directories are commercial editions, involving competition between publishers, buy-outs over time and periods of editorial monopoly. Five main phases have been revealed through a systematic chronological inventory of directories. The years 1780–1793 are those of the origins. It was followed by the advent of the Almanach du commerce (1798–1815). Competition was fierce, and publications abounded until 1856, when the Firmin Didot brothers bought the Bottin publishing company. The period 1857–1890 was thus marked by the hegemony of the Didot–Bottin collection. A new period of competition began in 1891.\nThe city of Paris is conceived by the editors in terms of its socio-economic functioning. The main issue is to list individuals so that others can learn about their activities and addresses, and thus potentially interact with them (through visits or epistolary exchanges). The aim is to connect individuals in the city and from the city with others who are part of wider networks by establishing these lists; even including, if necessary but very rarely, individuals who live or perform their activities outside the administrative limits of the city, but belong to socio-economic networks of Paris (as in the case of Batignolles before 1860, Supplementary Information Section 6 and Supplementary Fig. 10). In this sense, directories are homogenous across space. Moreover, activities listed in the directories are limited to those associated with specific addresses, implying a focus on activities linked to the physical structure of the city. Consequently, informal activities are not listed in the directories, and the data captured therein mirrors the evolution of the city’s urban fabric. In this sense, the coverage of the city’s outskirts can be less extensive than that of the center, since it is also on some of these fringes that informal activities are more numerous.\nThe lists in directories follow three main organizations: by name, by profession and by street, to simplify research for readers of the time. Payment is not required for listing in the directories. However, the differentiated length of activity descriptions in the professional lists, and the integration of promotional vignettes toward the end of the nineteenth century, testify to the payment of advertising by companies. By contrast, the alphabetical lists studied in this paper are made up of much shorter, standardized activity descriptions.\n### Selection of directories and main activities between 1829 and 1907\nThe fierce competition between editors from the mid-1810s onward led them to enrich the listings by extending their social and economic coverage, and to continually update their editions. Indeed, until 1817, alphabetical lists of Paris directories exclusively documented prominent inhabitants. Subsequently, a diverse range of individuals was incorporated into the alphabetical lists, enabling the study of the dynamics of diversified urban activities. However, the statistical distributions of the number of entries per page in alphabetical lists show significant variations for each of the directories published before 1829, resulting from noise in the segmentation phase of the digitized directory images. Hence, we took into account the data from 1829 onward.\nKnowing that the directories capture activities related to the urban physical space, we accordingly selected directories with a time step of around 5 years. Indeed, changes in urban structure do not occur at an annual rate. The choice of a particular year over another was determined through an evaluation of the extraction and enrichment quality of the digital transcriptions of the directories.\nThe character strings of the activities in the data are rather noisy, due to OCR errors, and to the activity description in the sources (use of abbreviations and/or information add-on). We thus applied the soundex phonetic index to smooth out the noise and group together similar activities. Over 7,000 different activities are listed in the directories studied. The rank-size distributions of the activities show that a few activities group together a large number of people, such as wine retailers in 1885 counting 10,000 entries, while a large number of activities group together a small number of people (Supplementary Figs. 8 and 9). We selected the 175 most-frequent activities from the slightly fewer than 1.4 million entries in the 16 directories studied, which account for 71% of all entries: that is, over 990,000 entries.\n### Activity categories inspired by the US Census Bureau’s NAICS\nThe 175 most-frequent activities are grouped in categories inspired of the 2022 NAICS. The latter is a standard and facilitates comparisons with present-day cities. The social and economic organization of cities during the nineteenth century and nowadays is not strictly equivalent, so we could not systematically apply NAICS categories on past activities described in directories. As an example, places of manufacturing and retail are regularly not distinct, requiring their association in some of the categories proposed (Supplementary Table 1). We studied the definitions of each activity description with four editions of the dictionary of the French Academy (Dictionnaire de l’Académie française from 1798 to 1935) to better understand what covers each of them and to evaluate semantic stability or instability of the words used in directories. This method step was necessary to relate with accuracy the activity descriptions in directories with NAICS-inspired category typology.\nSoundex index is not always efficient when OCR errors in the data are very important at the begin of character strings of the activities, and sometimes groups very different activities that sound alike. We thus performed manual editing of data to reduce noise of bad automatic attribution between activities in Paris directories and activity categories. Some variations in the number of entries are significant, as in the case of food stores, where total entries were 250,000 before the manual revision and 175,000 after (Supplementary Fig. 9).\n### The specific cases of ‘No activity, living off income’ and ‘Public administration’\nThe category ‘No activity, living off income’ displays a highly exceptional pattern, characterized by a significant decline of Na in both 1839 and 1907 (Supplementary Fig. 1). It reflects editorial choices made by the companies that published directories. Indeed, this category encompasses individuals who, in 1839, were classified not as owners by publisher Lamy, but rather as electors or eligible individuals, within the context of a tax-based voting system—paid by approximately 1.2% of Parisians at that time and about 0.65% of French population in 1842 (ref. 42). Furthermore, starting from 1903, the publishers Didot–Bottin undertook the creation of a distinct directory dedicated to prominent inhabitants (the Bottin mondain). As a result, all 2,780 individuals listed as owners or annuitants in the 1901 directory are absent in the 1907 edition. This editorial shift also explained the decrease of Na in public administration category (Fig. 1). Specifically, 1,240 individuals were removed from 1901 to 1907 directories, highlighting that 78% of individuals listed in this category were prominent inhabitants in Paris (for example, deputies, ministers, advisors at the Court of cassation). By contrast, certain other activities, such as finance and insurance individuals or health practitioners, demonstrated a consistent presence over time, suggesting that bankers, placement agents, doctors and so on were not part of the highest social strata of society according to the publishers of the time.\n### Relationships between administrative and urban activities delineations of Paris\nThe question of Paris’ delineation is an important one, as it generally affects scaling results43. Paris directories are not based on the municipality’s administrative boundaries, but reflect the economic activities of the urban area. In this sense, the spatial spread of geolocalized entries over the century reflects urban sprawl, mainly from the 1870s. Population censuses, on the other hand, are carried out within the districts of the municipality of Paris. In this sense, the delineation is administrative. In addition, the political and fiscal law of 16 June 1859 indicated the enlargement of the municipality of Paris by merging and redrawing the boundaries of other neighboring municipalities44. The areas covered by the activities contained in the directories are, however, overwhelmingly included within the city’s administrative boundaries over time (Supplementary Information Section 6 and Supplementary Fig. 10).\n### Optimal number of public facilities\nElaborating on an argument proposed by Stephan28, Um et al.31 minimize the total time expenditure to explain the scaling with population. We assume that the city has a surface area A and contains N facilities. The total time expenditure can be written as\nwhere \\(d=\\sqrt{A/N}\\). In the first term of the right-hand side, the quantity h represents the number of person hours per establishment, and hN is then the total person hour expenditure for the N facilities. The second term corresponds to the time needed for the population P to reach the facility of the form d/v, where v is the average velocity. The dependence on distance could, however, be more complex and we generalize this expression and write dγ, where γ is an unknown exponent.\nMinimizing T with respect to N then gives\nleading to an exponent \\(\\beta =\\frac{2}{\\gamma +2}\\). The usual assumption γ = 1 leads to the standard β = 2/3 as discussed in refs. 29,30.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR30",
+                "ref-CR17",
+                "ref-CR41",
+                "ref-CR28",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR42",
+                "ref-CR43",
+                "ref-CR44",
+                "ref-CR40"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Number of city directory entries for different activity categories (Na) over time.",
+            "figure-caption": "These activities all grow on average but at different rates. We show here a sample of activity categories and the results for all of them can be found in Supplementary Fig. 1.",
+            "figure-link": "https://www.nature.com/articles/s44284-024-00108-7/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Exponent β for different activity categories.",
+            "figure-caption": "The power-law fits in log–log representations are shown in the Supplementary Information (Supplementary Fig. 3 and the values of β and standard errors are shown in Supplementary Table 3. Fifteen points in time were computed for each category since population censuses were carried out approximately every 5 years). The quantity Ft is the fluctuation measurement of the slope for Na relative to the average slope (\\({\\bar{S}}_{a}\\)), and given in Supplementary Table 4 for all categories.",
+            "figure-link": "https://www.nature.com/articles/s44284-024-00108-7/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Rank clocks for activity categories.",
+            "figure-caption": "The rank r of the number Na of directory entries related to a given category is calculated at each time step. The radius increases with the rank, and the most important categories (small ranks) are then represented by small circles (the scale of ranks, starting from the center, is represented by a bar on the left side of the figures). We represent here activities in three panels according to the temporal behavior of their rank. a, We show categories with minor rank changes (that have gained or lost at most three ranks between 1829 and 1907). b, Categories that have gained or lost from four to seven ranks. c, Categories that experienced major rank changes (more than seven ranks during the period considered here).",
+            "figure-link": "https://www.nature.com/articles/s44284-024-00108-7/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Batty, M. The New Science of Cities (MIT Press, 2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Barthelemy, M. The Structure and Dynamics of Cities (Cambridge Univ. Press, 2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Bettencourt, L. M. A. Introduction to Urban Science: Evidence and Theory of Cities as Complex Systems (MIT Press, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Duranton, G. & Puga, D. in Handbook of Economic Growth Vol. 2 (eds Aghion, P. & Durlauf, S. N.) 781–853 (Elsevier, 2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Pumain, D., Paulus, F., Vacchiani-Marcuzzo, C. & Lobo, J. An evolutionary theory for interpreting urban scaling laws. CyberGeo: Eur. J. Geogr. https://doi.org/10.4000/cybergeo.2519 (2006).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Henderson, J. V. & Wang, H.-G. Urbanization and city growth: the role of institutions. Reg. Sci. Urban Econ. 37, 283–313 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.regsciurbeco.2006.11.008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanization%20and%20city%20growth%3A%20the%20role%20of%20institutions&journal=Reg.%20Sci.%20Urban%20Econ.&doi=10.1016%2Fj.regsciurbeco.2006.11.008&volume=37&pages=283-313&publication_year=2007&author=Henderson%2CJV&author=Wang%2CH-G"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Verbavatz, V. & Barthelemy, M. The growth equation of cities. Nature 587, 397–401 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-020-2900-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20growth%20equation%20of%20cities&journal=Nature&doi=10.1038%2Fs41586-020-2900-x&volume=587&pages=397-401&publication_year=2020&author=Verbavatz%2CV&author=Barthelemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Beeson, P. E., DeJong, D. N. & Troesken, W. Population growth in U.S. counties, 1840-1990. Reg. Sci. Urban Econ. 31, 669–699 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0166-0462%2801%2900065-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Population%20growth%20in%20U.S.%20counties%2C%201840-1990&journal=Reg.%20Sci.%20Urban%20Econ.&doi=10.1016%2FS0166-0462%2801%2900065-5&volume=31&pages=669-699&publication_year=2001&author=Beeson%2CPE&author=DeJong%2CDN&author=Troesken%2CW"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Ortman, S. G., Cabaniss, A. H. F., Sturm, J. O. & Bettencourt, L. M. A. The pre-history of urban scaling. PLoS ONE https://doi.org/10.1371/journal.pone.00879 (2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Ortman, S. G., Lobo, J. & Smith, M. E. Cities: complexity, theory and history. PLoS ONE https://doi.org/10.1371/journal.pone.0243621 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Lobo, J., Bettencourt, L. M. A., Smith, M. E. & Ortman, S. Settlement scaling theory: bridging the study of ancient and contemporary urban systems. Urban Stud. 57, 731–747 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0042098019873796",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Settlement%20scaling%20theory%3A%20bridging%20the%20study%20of%20ancient%20and%20contemporary%20urban%20systems&journal=Urban%20Stud.&doi=10.1177%2F0042098019873796&volume=57&pages=731-747&publication_year=2020&author=Lobo%2CJ&author=Bettencourt%2CLMA&author=Smith%2CME&author=Ortman%2CS"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Perret, J., Gribaudi, M. & Barthelemy, M. Roads and cities of 18th century france. Sci. Data 2, 150048 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsdata.2015.48",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Roads%20and%20cities%20of%2018th%20century%20france&journal=Sci.%20Data&doi=10.1038%2Fsdata.2015.48&volume=2&publication_year=2015&author=Perret%2CJ&author=Gribaudi%2CM&author=Barthelemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "El Gouj, H., Rincón-Acosta, C. & Lagesse, C. Urban morphogenesis analysis based on geohistorical road data. Appl. Netw. Sci. 7, 6 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s41109-021-00440-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20morphogenesis%20analysis%20based%20on%20geohistorical%20road%20data&journal=Appl.%20Netw.%20Sci.&doi=10.1007%2Fs41109-021-00440-0&volume=7&publication_year=2022&author=El%20Gouj%2CH&author=Rinc%C3%B3n-Acosta%2CC&author=Lagesse%2CC"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Bretagnolle, A., Delisle, F., Mathian, H. & Vatin, G. Urbanization of the United States over two centuries: an approach based on a long-term database (1790–2010). Int. J. Geogr. Inf. Sci. 29, 850–867 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F13658816.2014.999681",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanization%20of%20the%20United%20States%20over%20two%20centuries%3A%20an%20approach%20based%20on%20a%20long-term%20database%20%281790%E2%80%932010%29&journal=Int.%20J.%20Geogr.%20Inf.%20Sci.&doi=10.1080%2F13658816.2014.999681&volume=29&pages=850-867&publication_year=2015&author=Bretagnolle%2CA&author=Delisle%2CF&author=Mathian%2CH&author=Vatin%2CG"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Burghardt, K., Uhl, J. H., Lerman, K. & Leyk, S. Analyzing urban scaling laws in the United States over 115 years. Environ. Plan. B: Urban Anal. City Sci. https://doi.org/10.1177/23998083241240 (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Rodriguez, N. P. & Feagin, J. R. Urban specialization in the world-system: an investigation of historical cases. Urban Aff. Q. 22, 187–220 (1986).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F004208168602200201",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20specialization%20in%20the%20world-system%3A%20an%20investigation%20of%20historical%20cases&journal=Urban%20Aff.%20Q.&doi=10.1177%2F004208168602200201&volume=22&pages=187-220&publication_year=1986&author=Rodriguez%2CNP&author=Feagin%2CJR"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "GeoHistoricalData. Annuaires historiques parisiens, 1798–1914. Extraction structurée et géolocalisée à l’adresse des listes nominatives par ordre alphabétique et par activité dans les volumes numérisés. NAKALA https://doi.org/10.34847/nkl.98eem49t (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Barthelemy, M., Bordin, P., Berestycki, H. & Gribaudi, M. Self-organization versus top-down planning in the evolution of a city. Sci. Rep. 3, 2153 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fsrep02153",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Self-organization%20versus%20top-down%20planning%20in%20the%20evolution%20of%20a%20city&journal=Sci.%20Rep.&doi=10.1038%2Fsrep02153&volume=3&publication_year=2013&author=Barthelemy%2CM&author=Bordin%2CP&author=Berestycki%2CH&author=Gribaudi%2CM"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Pumain, D. Scaling Laws and Urban Systems. Working Paper 002 (Santa Fe Institute, 2004).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Bettencourt, L. M. A., Lobo, J., Helbing, D., Kühnert, C. & West, G. B. Growth, innovation, scaling, and the pace of life in cities. Proc. Natl Acad. Sci. USA 104, 7301–7306 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0610172104",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Growth%2C%20innovation%2C%20scaling%2C%20and%20the%20pace%20of%20life%20in%20cities&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0610172104&volume=104&pages=7301-7306&publication_year=2007&author=Bettencourt%2CLMA&author=Lobo%2CJ&author=Helbing%2CD&author=K%C3%BChnert%2CC&author=West%2CGB"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Bokányi, E., Szállási, Z. & Vattay, G. Universal scaling laws in metro area election results. PLoS ONE https://doi.org/10.1371/journal.pone.0192913 (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Depersin, J. & Barthelemy, M. From global scaling to the dynamics of individual cities. Proc. Natl Acad. Sci. USA 115, 2317–2322 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1718690115",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=From%20global%20scaling%20to%20the%20dynamics%20of%20individual%20cities&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1718690115&volume=115&pages=2317-2322&publication_year=2018&author=Depersin%2CJ&author=Barthelemy%2CM"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Keuschnigg, M. Scaling trajectories of cities. Proc. Natl Acad. Sci. USA 116, 13759–13761 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1906258116",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scaling%20trajectories%20of%20cities&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1906258116&volume=116&pages=13759-13761&publication_year=2019&author=Keuschnigg%2CM"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Bettencourt, L. M. A. et al. The interpretation of urban scaling analysis in time. J. R. Soc. Interface 17, 20190846 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2019.0846",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20interpretation%20of%20urban%20scaling%20analysis%20in%20time&journal=J.%20R.%20Soc.%20Interface&doi=10.1098%2Frsif.2019.0846&volume=17&publication_year=2020&author=Bettencourt%2CLMA"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Cristofoli, P. & Gravier, J. Populations of Paris districts (1801–1911). NAKALA https://doi.org/10.34847/nkl.e173c93p (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Ignazzi, C. A. Coevolution in the Brazilian System of Cities. PhD thesis, Paris 1 Panthéon-Sorbonne University, Paris (2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Finance, O. & Swerts, E. in Theories and Models of Urbanization: Geography, Economics and Computing Sciences Lecture Notes in Morphogenesis (ed. Pumain, D.) 67–96 (Springer International Publishing, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Stephan, G. E. Territorial division: the least-time constraint behind the formation of subnational boundaries. Science 196, 523–524 (1977).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.196.4289.523",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Territorial%20division%3A%20the%20least-time%20constraint%20behind%20the%20formation%20of%20subnational%20boundaries&journal=Science&doi=10.1126%2Fscience.196.4289.523&volume=196&pages=523-524&publication_year=1977&author=Stephan%2CGE"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Gusein-Zade, S. M. Bunge’s problem in central place theory and its generalizations. Geogr. Anal. 14, 246–252 (1982).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1538-4632.1982.tb00072.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Bunge%E2%80%99s%20problem%20in%20central%20place%20theory%20and%20its%20generalizations&journal=Geogr.%20Anal.&doi=10.1111%2Fj.1538-4632.1982.tb00072.x&volume=14&pages=246-252&publication_year=1982&author=Gusein-Zade%2CSM"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Gastner, M. T. & Newman, M. E. J. Optimal design of spatial distribution networks. Phys. Rev. E 74, 016117 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1103%2FPhysRevE.74.016117",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Optimal%20design%20of%20spatial%20distribution%20networks&journal=Phys.%20Rev.%20E&doi=10.1103%2FPhysRevE.74.016117&volume=74&publication_year=2006&author=Gastner%2CMT&author=Newman%2CMEJ"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Um, J., Son, S.-W., Lee, S.-I., Jeong, H. & Kim, B.-J, Scaling laws between population and facility densities. Proc. Natl Acad. Sci. USA 106, 14236–14240 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0901898106",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scaling%20laws%20between%20population%20and%20facility%20densities&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.0901898106&volume=106&pages=14236-14240&publication_year=2009&author=Um%2CJ&author=Son%2CS-W&author=Lee%2CS-I&author=Jeong%2CH&author=Kim%2CB-J%2C"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Nourrisson, D. Sociabilités du vin. in Une histoire du vin (ed. Nourrisson, D.) 197–240 (Perrin, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Husson, A. La consommation du lait à Paris. J. Soc. Stat. Paris 16, 17–23 (1875).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=La%20consommation%20du%20lait%20%C3%A0%20Paris&journal=J.%20Soc.%20Stat.%20Paris&volume=16&pages=17-23&publication_year=1875&author=Husson%2CA"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Batty, M. Rank clocks. Nature 444, 592–596 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature05302",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rank%20clocks&journal=Nature&doi=10.1038%2Fnature05302&volume=444&pages=592-596&publication_year=2006&author=Batty%2CM"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Jordan, D. P. Transforming Paris: The Life and Labors of Baron Haussmann (Univ. Chicago Press, 1995).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Panerai, P., Castex, J., Depaule, J.-C. Urban Forms: The Death and Life of the Urban Block (ed. Samuels, I., trans. Vitale Samuels, O.) (Architectural Press, 2004).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Faure, A. Spéculation et société: les grands travaux à Paris au XIXe siècle. Hist. Econ. Soc. 23, 433–448 (2004).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sp%C3%A9culation%20et%20soci%C3%A9t%C3%A9%3A%20les%20grands%20travaux%20%C3%A0%20Paris%20au%20XIXe%20si%C3%A8cle&journal=Hist.%20Econ.%20Soc.&volume=23&pages=433-448&publication_year=2004&author=Faure%2CA"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Berry, B. J. L. Cities as systems within systems of cities. Pap. Reg. Sci. Assoc. 13, 146–163 (1964).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/BF01942566",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cities%20as%20systems%20within%20systems%20of%20cities&journal=Pap.%20Reg.%20Sci.%20Assoc.&doi=10.1007%2FBF01942566&volume=13&pages=146-163&publication_year=1964&author=Berry%2CBJL"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Pumain, D. From networks of cities to systems of cities. in Handbook of Cities and Networks (eds. Neal, Z. P. & Rozenblat C.) 16–40 (Edward Elgar Publishing, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Abadie, N., Carlinet, E., Chazalon, J. & Duménieu, B. A in Document Analysis Systems Lecture Notes in Computer Science (eds Uchida, S. et al.) 445–460 (Springer International Publishing, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Cura, R. et al. Historical collaborative geocoding. ISPRS Int. J. Geo-Inf. 7, 1–29 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijgi7070262",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Historical%20collaborative%20geocoding&journal=ISPRS%20Int.%20J.%20Geo-Inf.&doi=10.3390%2Fijgi7070262&volume=7&pages=1-29&publication_year=2018&author=Cura%2CR"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Tudesq, A.-J. Sur l'histoire sociale du XIXe siècle : Les listes électorales de la Monarchie censitaire. Annales. Hist. Sci. Soc. 13, 277–288 (1958).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sur%20l%27histoire%20sociale%20du%20XIXe%20si%C3%A8cle%20%3A%20Les%20listes%20%C3%A9lectorales%20de%20la%20Monarchie%20censitaire&journal=Annales.%20Hist.%20Sci.%20Soc.&volume=13&pages=277-288&publication_year=1958&author=Tudesq%2CA-J"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Cottineau, C., Hatna, E., Arcaute, E. & Batty, M. Diverse cities or the systematic paradox of Urban Scaling Laws. Comput. Environ. Urban Syst. 63, 80–94 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.compenvurbsys.2016.04.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Diverse%20cities%20or%20the%20systematic%20paradox%20of%20Urban%20Scaling%20Laws&journal=Comput.%20Environ.%20Urban%20Syst.&doi=10.1016%2Fj.compenvurbsys.2016.04.006&volume=63&pages=80-94&publication_year=2016&author=Cottineau%2CC&author=Hatna%2CE&author=Arcaute%2CE&author=Batty%2CM"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Montel, N. in Agrandir Paris (1860–1970), Histoire Contemporaine (eds. Bourillon, F. & Fourcaut, A.) 99–111 (Éditions de la Sorbonne, 2012)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Ignazzi, C. A. Scaling laws, economic growth, education and crime: evidence from Brazil. Espace Géogr. 43, 324–337 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.3917%2Feg.434.0324",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scaling%20laws%2C%20economic%20growth%2C%20education%20and%20crime%3A%20evidence%20from%20Brazil&journal=Espace%20G%C3%A9ogr.&doi=10.3917%2Feg.434.0324&volume=43&pages=324-337&publication_year=2014&author=Ignazzi%2CCA"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Condé, G. Mutations du système de villes belges. Cybergeo: Eur. J. Geog. https://doi.org/10.4000/cybergeo.26691 (2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Paulus, F. & Vacchiani-Marcuzzo, C. in Knowledge-Creating Milieus in Europe: Firms, Cities, Territories (eds Cusinato, A. & Philippopoulos-Mihalopoulos, A.) 157–170 (Springer, 2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Meirelles, J. et al. Evolution of urban scaling: evidence from Brazil. PLoS ONE https://doi.org/10.1371/journal.pone.0204574 (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Goncalves, A. & Domingos, T. Scaling laws and electricity consumption in cities: a sectoral view. Int. J. Sustain. Energy Plan. Manag. 2, 19–32 (2014).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scaling%20laws%20and%20electricity%20consumption%20in%20cities%3A%20a%20sectoral%20view&journal=Int.%20J.%20Sustain.%20Energy%20Plan.%20Manag.&volume=2&pages=19-32&publication_year=2014&author=Goncalves%2CA&author=Domingos%2CT"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Xu, G., Zhou, Z., Jiao, L., Dong, T. & Ruiqi, L. Cross-sectional urban scaling fails in predicting temporal growth of cities. Preprint at https://arxiv.org/abs/1910.06732 (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Hong, I., Frank, M. R., Rahwan, I., Jung, W.-S. & Youn, H. The universal pathway to innovative urban economies. Sci. Adv. https://doi.org/10.1126/sciadv.aba4934 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Ribeiro, F. L., Meirelles, J., Netto, V. M., Neto, C. R. & Baronchelli, A. On the relation between transversal and longitudinal scaling in cities. PLoS ONE 15, e0233003 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0233003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=On%20the%20relation%20between%20transversal%20and%20longitudinal%20scaling%20in%20cities&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0233003&volume=15&publication_year=2020&author=Ribeiro%2CFL&author=Meirelles%2CJ&author=Netto%2CVM&author=Neto%2CCR&author=Baronchelli%2CA"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Xu, G. et al. Scaling laws in intra-urban systems and over time at the district level in Shanghai, China. Phys. A: Stat. Mech. Appl. 560, 125162 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.physa.2020.125162",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scaling%20laws%20in%20intra-urban%20systems%20and%20over%20time%20at%20the%20district%20level%20in%20Shanghai%2C%20China&journal=Phys.%20A%3A%20Stat.%20Mech.%20Appl.&doi=10.1016%2Fj.physa.2020.125162&volume=560&publication_year=2020&author=Xu%2CG"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Maisonobe, M. in Handbook Bibliometrics (ed. Ball, R.) 377–396 (De Gruyter Saur, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Andersson, D. E., Andersson, A. E., Harsman, Björn & Yang, X. The geography of science in 12 European countries: a NUTS2-level analysis. Scientometrics 124, 1099–1125 (2020).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11192-020-03510-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20geography%20of%20science%20in%2012%20European%20countries%3A%20a%20NUTS2-level%20analysis&journal=Scientometrics&doi=10.1007%2Fs11192-020-03510-9&volume=124&pages=1099-1125&publication_year=2020&author=Andersson%2CDE&author=Andersson%2CAE&author=Harsman%2CBj%C3%B6rn&author=Yang%2CX"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Arvidsson, M., Lovsjö, N. & Keuschnigg, M. Urban scaling laws arise from within-city inequalities. Nat. Hum. Behav. 7, 365–374 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-022-01509-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20scaling%20laws%20arise%20from%20within-city%20inequalities&journal=Nat.%20Hum.%20Behav.&doi=10.1038%2Fs41562-022-01509-1&volume=7&pages=365-374&publication_year=2023&author=Arvidsson%2CM&author=Lovsj%C3%B6%2CN&author=Keuschnigg%2CM"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Lei, W., Jiao, L., Xu, G. & Zhou, Z. Urban scaling in rapidly urbanising China. Urban Stud. 59, 1889–1908 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F00420980211017817",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20scaling%20in%20rapidly%20urbanising%20China&journal=Urban%20Stud.&doi=10.1177%2F00420980211017817&volume=59&pages=1889-1908&publication_year=2022&author=Lei%2CW&author=Jiao%2CL&author=Xu%2CG&author=Zhou%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Curado, A., Damásio, B., Encarnação, S., Candia, C. & Pinheiro, F. L. Scaling behavior of public procurement activity. PLoS ONE https://doi.org/10.1371/journal.pone.0260806 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Strumsky, D., Lobo, J. & Mellander, C. As different as night and day: scaling analysis of Swedish urban areas and regional labor markets. Environ. Plan. B: Urban Anal. City Sci. 48, 231–247 (2021).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=As%20different%20as%20night%20and%20day%3A%20scaling%20analysis%20of%20Swedish%20urban%20areas%20and%20regional%20labor%20markets&journal=Environ.%20Plan.%20B%3A%20Urban%20Anal.%20City%20Sci.&volume=48&pages=231-247&publication_year=2021&author=Strumsky%2CD&author=Lobo%2CJ&author=Mellander%2CC"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Ortman, S. G. et al. Settlement scaling and economic change in the Central Andes. J. Archaeol. Sci. 73, 94–106 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jas.2016.07.012",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Settlement%20scaling%20and%20economic%20change%20in%20the%20Central%20Andes&journal=J.%20Archaeol.%20Sci.&doi=10.1016%2Fj.jas.2016.07.012&volume=73&pages=94-106&publication_year=2016&author=Ortman%2CSG"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Cesaretti, R., Lobo, J., Bettencourt, L. M. A., Ortman, S. G. & Smith, M. E. Population-area relationship for Medieval European cities. PLoS ONE https://doi.org/10.1371/journal.pone.0162678 (2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Ortman, S. G., Smith, M. E., Lobo, J. & Bettencourt, L. M. A. Why archaeology is necessary for a theory of urbanization. J. Urban Archaeol. 1, 151–167 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1484%2FJ.JUA.5.120914",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Why%20archaeology%20is%20necessary%20for%20a%20theory%20of%20urbanization&journal=J.%20Urban%20Archaeol.&doi=10.1484%2FJ.JUA.5.120914&volume=1&pages=151-167&publication_year=2020&author=Ortman%2CSG&author=Smith%2CME&author=Lobo%2CJ&author=Bettencourt%2CLMA"
+            }
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Hanson, J. W., Ortman, S. G. & Lobo, J. Urbanism and the division of labour in the Roman Empire. J. R. Soc. Interface 14, 20170367 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1098%2Frsif.2017.0367",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanism%20and%20the%20division%20of%20labour%20in%20the%20Roman%20Empire&journal=J.%20R.%20Soc.%20Interface&doi=10.1098%2Frsif.2017.0367&volume=14&publication_year=2017&author=Hanson%2CJW&author=Ortman%2CSG&author=Lobo%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Hanson, J. W., Ortman, S. G., Bettencourt, L. M. A. & Mazur, L. C. Urban form, infrastructure and spatial organisation in the Roman Empire. Antiquity 93, 702–718 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.15184%2Faqy.2018.192",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20form%2C%20infrastructure%20and%20spatial%20organisation%20in%20the%20Roman%20Empire&journal=Antiquity&doi=10.15184%2Faqy.2018.192&volume=93&pages=702-718&publication_year=2019&author=Hanson%2CJW&author=Ortman%2CSG&author=Bettencourt%2CLMA&author=Mazur%2CLC"
+            }
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Altaweel, M. & Palmisano, A. Urban and transport scaling: Northern Mesopotamia in the Late Chalcolithic and Bronze Age. J. Archaeol. Method Theory 26, 943–966 (2019).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10816-018-9400-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20and%20transport%20scaling%3A%20Northern%20Mesopotamia%20in%20the%20Late%20Chalcolithic%20and%20Bronze%20Age&journal=J.%20Archaeol.%20Method%20Theory&doi=10.1007%2Fs10816-018-9400-4&volume=26&pages=943-966&publication_year=2019&author=Altaweel%2CM&author=Palmisano%2CA"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "Cesaretti, R., Lobo, J., Bettencourt, L. M. A. & Smith, M. E. Increasing returns to scale in the towns of early Tudor England. Hist. Meth. A J. Quant. Interdiscip. Hist. 53, 147–165 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01615440.2020.1722775",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Increasing%20returns%20to%20scale%20in%20the%20towns%20of%20early%20Tudor%20England&journal=Hist.%20Meth.%20A%20J.%20Quant.%20Interdiscip.%20Hist.&doi=10.1080%2F01615440.2020.1722775&volume=53&pages=147-165&publication_year=2020&author=Cesaretti%2CR&author=Lobo%2CJ&author=Bettencourt%2CLMA&author=Smith%2CME"
+            }
+        },
+        {
+            "id": "ref-CR67",
+            "content": "Smith, M. E. et al. The low-density urban systems of the classic period Maya and Izapa: insights from settlement scaling theory. Lat. Am. Antiq. 32, 120–137 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1017%2Flaq.2020.80",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20low-density%20urban%20systems%20of%20the%20classic%20period%20Maya%20and%20Izapa%3A%20insights%20from%20settlement%20scaling%20theory&journal=Lat.%20Am.%20Antiq.&doi=10.1017%2Flaq.2020.80&volume=32&pages=120-137&publication_year=2021&author=Smith%2CME"
+            }
+        },
+        {
+            "id": "ref-CR68",
+            "content": "Gravier, J. Dataset and data analysis of activities of Paris between 1829 and 1907. Zenodo https://doi.org/10.5281/zenodo.8388101 (2023).",
+            "links": {}
+        }
+    ]
+}

@@ -1,0 +1,1069 @@
+{
+    "id": "s42949-024-00165-w",
+    "journal": "npj Urban Sustainability",
+    "type": "article",
+    "title": "Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City",
+    "legal_title": "Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City",
+    "publish_time": "2024-06-25",
+    "pdf_link": "https://www.nature.com/articles/s42949-024-00165-w",
+    "storage_path": "./Articles/npj Urban Sustainability/2024-article/s42949-024-00165-w/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Urban greening is becoming an important strategy in improving urban ecosystem services and sustainability. Identifying the response of vegetation to urbanization and urban landscape patterns can help in planning for urban greening. Urbanization may lead to both direct and indirect effects on vegetation, and the indirect effects of urbanization on vegetation growth (UIE-VG) have been paid much attention recently in large scale. In this study, we investigated the spatiotemporal evolution of UIE-VG and the effects of landscape patterns on UIE-VG using the boosted regression tree model and remotely sensed data. An increase in average UIE-VG from 4 to 56% was found during urbanization of Kunming, the case study area in southwest China. However, UIE-VG exhibited high variations due to landscape pattern changes at the local scale. Overall, area-related and aggregation-related landscape metrics had greater effects on UIE-VG than the other metrics. The increase and aggregation of built-up land enhanced UIE-VG by 3.1–81.3% while the increase and aggregation of unused land and waterbodies reduced UIE-VG by 0.7–20.6%. Moreover, we found that the large and aggregated vegetation areas may mitigate the negative UIE-VG in low urbanization areas. Our findings have important implications for integrating urban landscape planning into sustainable urban greening strategies.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Cities have become centers of human activity and fossil fuel consumption due to dramatic urbanization over the last 50 years1. Urbanization gives rise to a multitude of ecological and environmental problems, posing a threat to urban sustainability2,3. In light of these challenges, urban greenery has emerged as a nature-based solution to combat climate change and address urban issues by providing essential ecosystem services. These services include thermal environment regulation, CO2 emission and air pollution reduction, runoff retention and recreation4. Consequently, cities worldwide have implemented urban greening policies, such as China’s “national forest city construction” initiative5.\nVegetation growth plays a vital role in achieving sustainability goals amidst the implementation of urban greening policies. The effects of urbanization on vegetation growth can be categorized into direct and indirect effects6,7. Direct effects occur when urbanization transforms natural surfaces into built-up areas or involves tree planting initiatives8. Indirect effects are related to environmental factors, such as changes in air temperature, atmospheric CO2 concentration, water availability, air quality, and nightlight regimes9. Urbanization has both positive and negative indirect effects on vegetation growth. On one hand, urbanization can elevate temperature and CO2 concentration, potentially promoting vegetation growth by extending the photosynthetic seasons10. On the other hand, it can exacerbate climatic extremes and air pollution, which in turn negatively affect vegetation growth11. Therefore, cities must prioritize the urbanization-induced indirect effect on vegetation growth (UIE-VG) when implementing urban greening policies. A positive UIE-VG guarantees the long-term and stable provision of ecosystem services12.\nAlthough numerous ground-based studies have observed a positive UIE-VG, these studies have limitations in terms of spatial scope, making it challenging to infer general patterns6. To address this gap, ref. 6 proposed a comprehensive framework using satellite data to quantify the direct and indirect effects of urbanization on vegetation growth over large areas. Subsequent studies have validated this methodology and demonstrated that urbanization may indirectly promote vegetation growth, partially offsetting the carbon loss resulting from direct green land loss13,14. However, the direction and extent of the UIE-VG show great spatiotemporal heterogeneity6,14,15,16. Zhang et al.16 reported that urban development intensity, population density, and background climate collectively influence the UIE-VG at a global scale. However, integrating these findings into urban landscape planning remains challenging because these findings neglect the effects of landscape patterns on UIE-VG at the local scale.\nLandscape pattern refers to the compositions and configurations of landscape elements17. Previous studies have shown that urban environments affecting vegetation growth are largely dependent on urban landscape patterns. Several studies indicate that the expansion of built-up areas is related to the intensification of urban heat islands, urban dry islands, and urban pollution islands18,19,20, which in turn influence vegetation growth21. Conversely, increasing green land and waterbodies can mitigate these effects22. Furthermore, a complex nonlinear relationship exists between microclimate factors and landscape patterns, and this relationship can vary in urbanization23. However, the relationship between landscape patterns and UIE-VG has not yet studied.\nIn this study, the boosted regression tree (BRT) method was utilized to examine the contributions and the effects of landscape patterns on the UIE-VG in Kunming from 2001 to 2019. The objectives of this study are: (1) to analyze how the UIE-VG changed from 2001 to 2019; (2) to investigate whether the contributions of landscape patterns on vegetation growth varied in urbanization; and (3) to explore whether the responses of vegetation growth to landscape patterns have similar non-linear relationships in urbanization.",
+            "cites": [
+                "ref-CR22",
+                "ref-CR2",
+                "ref-CR18",
+                "ref-CR9",
+                "ref-CR20",
+                "ref-CR6",
+                "ref-CR16",
+                "ref-CR23",
+                "ref-CR5",
+                "ref-CR19",
+                "ref-CR8",
+                "ref-CR21",
+                "ref-CR10",
+                "ref-CR13",
+                "ref-CR1",
+                "ref-CR15",
+                "ref-CR4",
+                "ref-CR11",
+                "ref-CR14",
+                "ref-CR12",
+                "ref-CR7",
+                "ref-CR3",
+                "ref-CR17"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### The NDVI–UI relationship in urbanization\nTo evaluate the UIE-VG, the relationship between the NDVI (normalized difference vegetation index) and UI (urbanization intensity) was identified from 2001 to 2019. The results show that the UIE-VG shifted gradually from negative to positive as UI increased (Fig. 1). Specifically, in 2001, urbanization had a negative UIE-VG when UI was less than 0.56, but the UIE-VG became positive when UI exceeded 0.56. In 2010 and 2019, the threshold values were 0.62 and 0.25, respectively, where the UIE-VG changed from negative to positive. The cubic regression analysis revealed that the NDVI–UI curves were statistically significant (p < 0.05) for each year. Though the model is acceptable (Adjusted \\({r}^{2}\\) > 0.5), some scatter points still existed, especially in the areas with lower UIs. This finding highlighted that, even at the same urbanization density, the magnitude and direction of the UIE-VG varied at the local scale.\n### Spatial variations in the UIE-VG (\\({{\\boldsymbol{\\omega }}}_{{\\bf{i}}}\\)) from 2001 to 2019\nThe spatial distributions of the UIE-VG from 2001 to 2019 are illustrated in Fig. 2. Overall, the results indicated that negative UIE-VG gradually shifted to positive UIE-VG, which intensified over time. In 2001, the western and northern regions of the study area were primarily positively impacted by indirect effects, whereas a spatial combination of positive and negative indirect effects was observed in developing regions such as the eastern and southern parts. Between 2001 and 2010, the old urban areas (northern parts) and the newly developed areas (southeastern parts) demonstrated an increase in positive UIE-VG. Additionally, there were more areas with negative UIE-VG in the southeast. Between 2010 and 2019, most negative UIE-VG in the southeastern parts was transformed into positive UIE-VG.\nThe results of the Welch t test showed significant differences in the mean \\({\\omega }_{{\\rm{i}}}\\) across the years. Pairwise comparison of the average \\({\\omega }_{{\\rm{i}}}\\) values was then performed using the Games-Howell test, and the results revealed a significant increase in the average \\({\\omega }_{{\\rm{i}}}\\) in urbanization (Fig. 3). Specifically, the average \\({\\omega }_{{\\rm{i}}}\\) in 2001 was 4%, indicating a slight UIE-VG when the city size was small. The average \\({\\omega }_{{\\rm{i}}}\\) increased to 14% in 2010 and reached its highest value of 56% in 2019.\n### The variations on the contributions of landscape pattern to UIE-VG from 2001 to 2019\nThe contributions of landscape metrics at the class level were quantified based on the BRT model, and the contributions of landscape composition metrics and landscape configuration metrics were compared (Fig. 4). The results demonstrated that the built-up land metrics played important roles in influencing \\({\\omega }_{{\\rm{i}}}\\). The total contribution of built-up land metrics was larger in 2019 (86.4%) than in 2010 (71.9%) and 2001 (21.5%). Moreover, the dominant factors in 2001 were landscape metrics of waterbodies, with a total contribution of 37.2%. However, the total contribution of waterbody metrics was much lower in 2010 (2.6%) and 2019 (1.1%). The total contribution of unused land metrics was the highest (31.5%) in 2001, followed by 2010 (18.0%) and 2019 (9.1%). Generally, the landscape metrics linked to vegetated areas were the least influential. The total contribution of vegetated area metrics was highest in 2001 (9.9%), followed by 2010 (7.5%) and 2019 (3.5%). In addition, the total contribution of landscape composition metrics was higher than that of landscape configuration metrics in 2019, but the opposite result was shown in 2001 and 2010.\nThe contributions of the top ten landscape metrics are shown in Fig. 5. The results showed that the variations in \\({\\omega }_{{\\rm{i}}}\\) were explained by the combined landscape metrics of different land cover types in the early stage of urban development in Kunming. However, built-up land metrics became major factors affecting vegetation growth in urbanization. In 2001, COHESION of waterbodies was the most influential metric (16.1%), followed by PLAND of unused land (12.3%) and PLAND of waterbodies (8.7%). The CA and LPI of unused land were less important, with contributions of 5.6% and 5.0%, respectively. The contributions of the other landscape metrics were less than 5%. In 2010, the most important factors were PLAND and LPI of the built-up land, with contributions of 32.1% and 25.5%, respectively. The COHESION of built-up land and PLAND of unused land were much less important, with contributions of 7.2% and 5.1%, respectively. In 2019, the most influential landscape metrics were PLAND and LPI of the built-up land, with contributions of 60.8% and 20.8%, respectively. However, the contributions of the other landscape metrics were much lower than 4%. The contributions of vegetated area metrics were always less than 2% in urbanization.\n### The variations in the non-linear effects of landscape patterns on UIE-VG\nThe marginal effects and kernel distribution density of the three dominant landscape metrics for each land cover type are shown in Figs. 6–9. The marginal effects indicated the non-linear relationship between a single landscape metric and \\({\\omega }_{{\\rm{i}}}\\) by controlling all the other variables at their average values. In general, \\({\\omega }_{{\\rm{i}}}\\) was positively correlated with built-up land metrics. However, the unused land and waterbody metrics had a negative influence on \\({\\omega }_{{\\rm{i}}}\\). In addition, both built-up land and unused land patterns had similar effects on vegetation growth in urbanization. However, there were significant differences in the non-linear relationships between vegetated area and waterbody metrics and \\({\\omega }_{{\\rm{i}}}\\) from 2001 to 2019.\nAmong the dominant built-up land metrics (Fig. 6), the values of PLAND and LPI were mainly distributed in the range of 80–100%, and the COHESION peak values were 100. In addition, compared to 2001, there were larger aggregated built-up patches in 2010 and 2019. PLAND, LPI and COHESION showed a positive influence on \\({\\omega }_{{\\rm{i}}}\\), which indicated that large areas of aggregated built-up land enhanced the urbanization-induced indirect effects on vegetation growth. An exponential function relationship between built-up land metrics and \\({\\omega }_{{\\rm{i}}}\\) was observed across years. However, the \\({\\omega }_{{\\rm{i}}}\\) regulation amplitudes (\\({\\Delta \\omega }_{{\\rm{i}}}\\)) for all built-up land metrics, except COHESION, were much higher in 2019 than the \\({\\Delta \\omega }_{{\\rm{i}}}\\) in both 2010 and 2001. Moreover, the positive effects of increasing PLAND, LPI and COHESION on \\({\\omega }_{{\\rm{i}}}\\) increased significantly when PLAND > 20%, LPI > 20% and COHESION > 80.\nAmong the primary unused land metrics (Fig. 7), PLAND, LPI, and CA exhibited a negative exponential correlation with \\({\\omega }_{{\\rm{i}}}\\). Compared to 2001 and 2010, there were more sparse, small patches of unused land in 2019, according to the results of kernel density analysis. In addition, the regulation amplitudes of \\({\\omega }_{{\\rm{i}}}\\) (\\({\\Delta \\omega }_{{\\rm{i}}}\\)) for different unused land metrics varied across years. The \\({\\Delta \\omega }_{{\\rm{i}}}\\) for PLAND in 2001 and 2019 was ~20.4% and 17.5%, respectively, which was larger than the \\({\\Delta \\omega }_{{\\rm{i}}}\\) in 2010 (9.5%), whereas the opposite results were shown in the \\({\\Delta \\omega }_{{\\rm{i}}}\\) for LPI. The largest \\({\\Delta \\omega }_{{\\rm{i}}}\\) for CA was observed in 2001 (8.2%), followed by 2010 (5.5%) and 2019 (4.7%). Furthermore, the negative effects of increasing PLAND, LPI, and CA on \\({\\omega }_{{\\rm{i}}}\\) declined as the values of unused land metrics increased, especially when the values exceeded the threshold presented by the red dashed lines.\nThe non-linear relationships between vegetated area metrics and \\({\\omega }_{{\\rm{i}}}\\) varied from 2001 to 2019 (Fig. 8). According to the results of the kernel density analysis, the PLAND of the vegetated areas was larger in 2001 and 2010 than in 2019. Compared to 2001 and 2019, there were more clumped and complex-shaped patches of vegetated areas in 2010. In addition, the \\({\\Delta \\omega }_{{\\rm{i}}}\\) values for all dominant vegetated area metrics were less than 7.3% from 2001 to 2019. When AI was between 66.9 and 85.4, the increase in AI showed a negative impact on \\({\\omega }_{{\\rm{i}}}\\) in 2001. However, in 2010 and 2019, there was a positive relationship between AI and \\({\\omega }_{{\\rm{i}}}\\). \\({\\omega }_{{\\rm{i}}}\\) was positively impacted by PLAND across years, but the patterns of fitted curves changed. When SHAPE_MN > 1.0, SHAPE_MN was negatively correlated with \\({\\omega }_{{\\rm{i}}}\\) in 2001 and 2010. The same results were shown in 2019 when SHAPE_MN was between 1.0 and 1.5. However, the increase in SHAPE_MN had a positive impact on \\({\\omega }_{{\\rm{i}}}\\) in 2019, when SHAPE_MN was between 1.5 and 1.7.\nFor waterbody metrics, high values of COHESION, PLAND, and AREA_MN showed a low \\({\\omega }_{{\\rm{i}}}\\) (Fig. 9). The kernel density results indicated that the waterbody patches were larger and more clumped in 2001 than in both 2010 and 2019. In 2001, the \\({\\Delta \\omega }_{{\\rm{i}}}\\) for COHESION, PLAND, and AREA_MN were ~20.6%, 11.8%, and 6.4%, respectively. However, the \\({\\Delta \\omega }_{{\\rm{i}}}\\) values for all main waterbody metrics were less than 4.7% in 2010 and 2019. When COHESION > 31.5, a sharp decrease in \\({\\omega }_{{\\rm{i}}}\\) was observed in 2019. Similar patterns occurred when the COHESION values in 2001 and 2010 were higher than 67.9 and 74.4, respectively. In addition, when the PLAND values in 2001, 2010, and 2019 were larger than 58.3%, 54.5%, and 21.8%, respectively, the negative effects of PLAND on \\({\\omega }_{{\\rm{i}}}\\) were reduced. AREA_MN had almost no effect on \\({\\omega }_{{\\rm{i}}}\\) in 2010, when AREA_MN values ranged from 0.1 ha to 6.0 ha. The same results were observed when the AREA_MN values in 2001 and 2019 were greater than 4.6 ha and 1.2 ha, respectively.",
+            "cites": [],
+            "figures": [
+                "figure-6",
+                "figure-1",
+                "figure-8",
+                "figure-7",
+                "figure-9",
+                "figure-3",
+                "figure-4",
+                "figure-2",
+                "figure-5"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Urban greening is becoming an important strategy in improving living environment quality and urban sustainability5. Understanding how vegetation growth responds to urbanization can help in planning for urban greening aimed at providing sustainable ecosystem services. Although previous research has examined the inter-city factors driving UIE-VG, little investigation was conducted on the effects of urban landscape patterns on UIE-VG at the local scale. This study quantified the spatiotemporal evolution of UIE-VG and the relationships between landscape patterns and UIE-VG during the urbanization of Kunming City.\nTo better understand how urban environments affect vegetation growth, it is vital to distinguish the direct and indirect effects of urbanization on vegetation growth6. While negative UIE-VGs have been observed in some temperate and hot cities, several studies have reported extensive positive UIE-VGs13,16. The average UIE-VGs varied among cities and can range from −11.6% to 479.3%6,13,14,16,24,25,26. Our findings demonstrated that the average UIE-VG increased from 4 to 56% during the urbanization of Kunming City, which is consistent with most studies7,15,16. This indicated that enhancement on UIE-VG compensated for about 4%, 14 and 56% of the reduced productivity due to green land loss. However, some studies suggest that the trend of growth compensation will remain stable when the controlling factors of the UIE-VG reach the thresholds13,14.\nIn addition to quantifying the average UIE-VG, our study revealed significant variations in UIE-VG at the local scale, particularly in low urbanization areas. That is because a high landscape heterogeneity and fragmentation may exist in the low UI areas other than in the high UI areas, leading to more complex urban environments27. The uneven distribution of UIE-VG may lead to inequalities in the provision of ecosystem services and benefits by urban vegetation. This highlights the importance of considering not only spatial equity (vegetation coverage) but also quality equity (vegetation growth) in achieving urban green equity.\nAs hypothesized, the uneven UIE-VG at the local scale was mainly influenced by urban micro-environments, which are associated with landscape pattern28,29,30. The results of the BRT model indicated that landscape patterns provided better explanations for UIE-VG variations at the local scale. This suggests that rational urban landscape planning may enhance urban vegetation growth and help alleviate green inequity. In 2001, several types of landscape metrics, including built-up land metrics, waterbody metrics, and unused land metrics, jointly explained UIE-VG variations when the city size was small. However, built-up land metrics became the main cause of UIE-VG variations in 2010 and 2019, as evidenced by the increasing contributions and regulation amplitudes of built-up land metrics in urbanization (Figs. 4, 6). This indicated that the influence of landscape patterns on UIE-VG transitioned from joint control to the dominance of the built-up land landscape pattern as urbanization increased. First, the increasing influence of built-up land on thermal environments with the expansion of built-up lands has the potential to prolong the growing seasons of plants and increase the rate of plant physiological processes, leading to growth enhancement21. Second, the increase in anthropogenic heat flux and air pollution in urbanization is likely to have a beneficial impact on vegetation growth6,31,32,33 because higher concentrations of CO2 and N from pollutants can promote vegetation growth, which is referred to as fertilization effects34. Although high O3 concentrations may reduce plant growth26, some studies indicate that the spatial pattern of built-up lands has a negative correlation with O318, implying that growth enhancement might outweigh growth abatement regarding the effects of air pollution on vegetation growth26. Third, more large and aggregated built-up land patches were observed with urban expansion in Kunming (Fig. 6), which led to local warming in urban areas and could enhance vegetation growth. These findings suggest that urban planners should carefully consider the landscape patterns across multiple land cover types to enhance vegetation growth in the early stage of urbanization. However, the potential for enhancing vegetation growth through green infrastructure planning may be limited by urbanization.\nThe non-linear effect analysis revealed that landscape metrics related to area and aggregation for all land cover types were the main factors influencing UIE-VG. Furthermore, we observed a positive exponential response of vegetation growth to built-up land patterns, while an inverse exponential relationship was found for unused land patterns. For built-up land, previous studies have shown that large, aggregated built-up land can inhibit ventilation and absorb more solar radiation, exacerbating UHIs (urban heat islands) and air pollution18,19,35. Therefore, PLAND, LPI, and COHESION in built-up land had a positive effect on UIE-VG. For waterbodies, large waterbodies are generally believed to have a higher cooling effect than separate small waterbodies36. Additionally, artificial lakes can act as CO2 sinks due to autotrophic-based metabolism37. Consequently, large and aggregated waterbodies exhibited a negative correlation with UIE-VG. The unused land, typically covered with bare soil, had a negative correlation with UIE-VG primarily as a result of its high cooling efficiency through evapotranspiration and increased surface roughness38. It is notable that a complex nonlinear relationship between vegetated area metrics and UIE-VG was observed. This is because large areas of aggregated vegetation are resistant to anthropogenic disturbances and have been well managed in urban areas but also lower local temperatures and atmospheric CO2 concentrations22,39,40. Furthermore, based on the results of regulation amplitudes (\\({\\Delta \\omega }_{{\\rm{i}}}\\)), built-up land landscape patterns significantly enhanced UIE-VG, with a range from 3.5% to 81.3%. Conversely, the landscape patterns of unused land and water bodies led to a decrease in UIE-VG, ranging from 0.7% to 20.6%.\nIn our study, areas with low urban intensities showed negative UIE-VG, which raises concerns regarding the sustainability and equity of urban greening initiatives (Fig. 1). Specifically, the turning point from negative to positive effects was significantly lower in 2019 (UI = 0.25) than in 2001 (UI = 0.56) and 2010 (UI = 0.62). Zhang et al.16 suggested that cities in developing countries, such as Beijing, might invest small resources in urban greening at the early urbanization stage, leading to negative UIE-VG. However, turning points were not observed in developed countries such as Paris16. Paradoxically, a study conducted in 32 major Chinese cities suggested that some cities with lower development levels than Beijing did not experience the turning point6. These contradictory findings indicate that differences in investment in urban greening across cities may not be the sole reason for negative UIE-VG in low urbanization areas.\nTo define the causes of turning point occurrence, sample points with UI values ranging from 0.25 to 0.60 were chosen to investigate the non-linear relationship between landscape pattern and UIE-VG using the BRT model (Supplementary Fig. 1 and Supplementary Table 1). We observed that metrics related to vegetated areas exhibited a consistently positive logistical effects on UIE-VG and high UIE-VG regulation amplitudes in areas with low urbanization (Supplementary Fig. 1), which differed from the outcomes obtained at the overall urbanization gradient level (Figs. 4, 8). This may be due to the weak cooling effect of vegetated areas in low urbanization areas41. Furthermore, compared to urban areas, rural areas tend to have more natural vegetation42, and large and aggregated vegetated area patches have higher diversity on natural populations and species, ultimately leading to higher vegetation productivity43,44,45. As shown in Supplementary Fig. 2, vegetated area patches in peri-urban areas were larger and more aggregated in 2019 than in 2001 and 2010, which resulted in a lower value of the turning point. These findings indicate that large and aggregated vegetated areas may mitigate the negative UIE-VG in low urbanization areas.\nTo better predict the carbon and water cycles of the earth system under future climate change, it is imperative to disentangle the linkages between UIE-VG and complex urban environments9. According to ref. 16 Urban development intensity, population density, and background climate collectively regulate average UIE-VG at a global scale. However, previous studies using coarse city-level sampling grains failed to fully capture the spatial heterogeneity of urban environmental factors within cities, thereby hindering the identification of non-linear relationships between UIE-VG and urban macro-environments46. For example, negative relationships between average UIE-VG and the UHI effect, represented by the temperature difference between urban and rural areas, were observed in Kunming, which is classified as a temperate region according to the Köppen-Geiger climate classification16. In contrast, our study found that built-up land patterns, which are positively correlated with urban temperature17, influenced UIE-VG variations at the local scale. Previous researches suggest that the urban-rural landscape classification alone cannot fully explain thermal contrasts within different urban patterns, leading to significant uncertainties in UHI calculations47. Therefore, we speculate that biased results in urban macro-environments affecting UIE-VG may be induced by the coarse spatial solution46. Since the unavailability on fine-grained datasets for studying the mechanisms of the UIE-VG at the local scale48, examining urban landscape patterns becomes critical in understanding the relationship between UIE-VG and urban micro-environments.\nExploring the non-linear relationships between landscape patterns and UIE-VG can provide evidence-based guidance for urban landscape planning to promote vegetation growth. For example, our findings demonstrate that the UIE-VG will not be affected when the percentage of built-up land was below 20%. Moreover, it is preferable for the built-up land patches to be clustered to meet certain criteria (COHESION > 80 and LPI > 20%, Fig. 6). Additionally, small and fragmented unused land patches exerted negative effects on UIE-VG. However, these negative effects stabilized when the PLAND, LPI, and CA of unused land exceeded certain thresholds (PLAND > 52.5%, LPI > 65.7, and CA > 2.4 ha, Fig. 7). Especially, we found that the large and aggregated vegetation areas mitigated the negative UIE-VG in low-urbanization areas. However, this effect became stable when the CA, PLAND, and ED of vegetation areas were greater than 3.5 ha, 54.1%, and 154.2, respectively (Supplementary Fig. 1).\nOur results deepen understanding of the influence of landscape patterns on UIE-VG. These findings offer valuable insights to cities and policymakers on sustainable ecosystem services by urban greening. However, this study still has several limitations. First, given the lack of fine spatial images of controlling factors, a comprehensive influencing mechanism on how the interaction between landscape patterns and controlling factors affecting vegetation growth was not clarified. Second, the reasons for the higher value of the turning point in 2010 than in 2001 were unclear due to insufficient statistical samples with UI values ranging from 0.56 to 0.62. Third, further studies should consider the balance of multiple ecosystem services provided by vegetation, such as temperature regulation, in response to landscape pattern changes. Finally, differences in topographies and climate backgrounds may lead to diverse vegetation types that respond differently to a given set of environmental factors46,49,50. Therefore, future studies should focus on assessing how landscape patterns specifically influence UIE-VG across different topographies and climate backgrounds.",
+            "cites": [
+                "ref-CR43",
+                "ref-CR22",
+                "ref-CR18",
+                "ref-CR37",
+                "ref-CR42",
+                "ref-CR9",
+                "ref-CR41",
+                "ref-CR45",
+                "ref-CR35",
+                "ref-CR16",
+                "ref-CR6",
+                "ref-CR27",
+                "ref-CR24",
+                "ref-CR5",
+                "ref-CR40",
+                "ref-CR47",
+                "ref-CR39",
+                "ref-CR19",
+                "ref-CR26",
+                "ref-CR44",
+                "ref-CR33",
+                "ref-CR21",
+                "ref-CR36",
+                "ref-CR31",
+                "ref-CR13",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR29",
+                "ref-CR34",
+                "ref-CR50",
+                "ref-CR48",
+                "ref-CR46",
+                "ref-CR28",
+                "ref-CR14",
+                "ref-CR49",
+                "ref-CR7",
+                "ref-CR25",
+                "ref-CR32",
+                "ref-CR17",
+                "ref-CR38"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### The study area\nKunming (\\(102^{\\circ} 10^{\\prime}\\) E–\\(103^{\\circ} 40^{\\prime}\\) E, \\(24^{\\circ} 23^{\\prime}\\) N–\\(26^{\\circ} 33^{\\prime}\\) N) is the capital of Yunnan Province, located in Southwest China, with an average elevation of 1900 m and a subtropical monsoon climate (Fig. 10). Over the past two decades, Kunming has undergone rapid urbanization, and this study specifically focuses on seven districts that have experienced significant growth. Before 2001, urbanization was mainly occurred in Wuhua, Panlong, Xishan, and Guandu Districts (Supplementary Figs. 3, 4). From 2001 to 2010, Kunming underwent a dramatic expansion of built-up lands, especially in Anning, Jinning, Chenggong and Guandu Districts, while intensive utilization of built-up land happened in the old urban areas. From 2010 to 2019, urbanized areas experienced further intensification and expansion. Considering the changes in landscape patterns that occurred during the rapid urbanization process, Kunming provides an ideal location for studying the relationship between landscape pattern and vegetation growth.\n### Data sources\nThe land cover maps were generated using Landsat images with a supervisory classification to assess changes in urbanization density and landscape patterns from 2001 to 2019. For each year, cloud-free Landsat5/8 images were composited through the Google Earth Engine platform (GEE, https://developers.google.cn/earth-engine/). The classification identified five types of land cover: built-up land, cropland, unused land, vegetated areas, and waterbodies (Supplementary Table 2 and Supplementary Fig. 4). The training data were digitized in Google Earth according to the guidelines (https://www.wudapt.org/digitize-training-areas/). A random forest classifier was utilized for land cover mapping in ENVI 5.651. Accuracy was determined over 90% for each year, as evidenced by a confusion matrix (Supplementary Table 3).\nLandsat NDVI time-series data (8-day composite) in 30 m were reconstructed using Gap Filling and Savitzky–Golay filtering method proposed by ref. 52 in GEE. To assess the overall state of vegetation growth for each year, we determined the average annual NDVI for each pixel using the GDAL package in Python 3.8.\n### Estimation of the effects of urbanization on vegetation growth\nThe effects of urbanization on vegetation growth were divided into direct and indirect effects based on the conceptual framework6. This study focuses on the UIE-VG. First, a linear relationship between UI (\\(\\beta\\)) and NDVI, often called a zero-impact straight line, can be used to show the direct effect of vegetation loss in urbanization. It can be defined as follows:\nwhere \\({V}_{{\\rm{zi}}}\\) represents each statistical unit’s theoretical NDVI, \\(\\beta\\) is the percentage of built-up land in each statistical unit, \\({V}_{{\\rm{nv}}}\\) represents the NDVI value for nonvegetative surfaces, which was set to 0.05 because there is no vegetation activity below this threshold6, and \\({V}_{{\\rm{v}}}\\) is the theoretical NDVI for each statistical unit with full coverage of vegetation.\n\\({V}_{{\\rm{v}}}\\) can be defined as the intercept of the specific NDVI response curve to \\(\\beta\\) presented by a cubic polynomial model because high order (order > 3) can faithfully capture the relationship between UI and NDVI6,15:\nwhere \\({V}_{{\\rm{obs}}}\\) is the observed average annual NDVI.\nFinally, the UIE-VG (\\({\\omega }_{{\\rm{i}}}\\)) can be calculated as follows16:\n\\({\\omega }_{{\\rm{i}}} > 0\\) indicates a positive indirect impact of urbanization on vegetation growth, and \\({\\omega }_{{\\rm{i}}} < 0\\) represents a negative impact of urbanization on vegetation growth.\n### Calculation of landscape metrics\nBased on previous studies on the relationship between the urban environment and landscape pattern, we selected ten landscape metrics, including total core area (CA), percentage of landscape (PLAND), mean patch area distribution (AREA_MN), mean shape index (SHAPE_MN), mean Euclidean nearest neighbor distance (ENN_MN), aggregation index (AI), patch cohesion index (COHESION), large patch index (LPI), patch density (PD) and edge density (ED) (Supplementary Table 4). The first three metrics define landscape composition, while the others examine landscape configuration. We calculated landscape metrics at the class level using the open-source “landscapemetrics” package in R 4.2.253.\n### Statistical analysis\nFor the analytical scale, a 250 \\(\\times\\) 250 \\({{\\rm{m}}}^{2}\\) grid was chosen because it is of great relevancy for urban microclimate17,54. Farmland-covered statistical units were ignored due to the significant impact of agricultural activities. Moreover, based on ASTER GDEMV2 digital elevation model data (https://www.gscloud.cn/), statistical units with elevation sizes lower or higher than 50 m above the average elevation of the urban core were also excluded to prevent the effects of elevation differences on vegetation growth16. The “gbm” and “ggstatsplot” packages of R 4.2.2 were used for statistical analysis and graph creation.\nTo analyze the variations in UIE-VG, the distributions of UIE-VG between years were displayed in boxplots and violin plots. Welch’s t test was then applied to determine whether there was a significant difference among UIE-VG in different years. The Games-Howell test was used for pairwise comparisons of UIE-VG per year due to the rejection of the homogeneity test of variance and differences in sample size.\nThe BRT model, which combines the regression tree algorithm and the boosting method55, was utilized to calculate the contributions and the effects of landscape pattern on UIE-VG. The BRT model has been extensively utilized in studies of urban climate because it can capture complex relationships19,35. The parameters in the BRT model were n.trees (10,000), interaction.depth (9), shrinkage (0.001) and bag.fraction (0.5). The results of R-squared (\\({r}^{2}\\)), root-mean-square error and mean error (ME) were derived after conducting a 10-fold cross-validation with 50 runs. The results of 10-fold cross-validation are shown in Supplementary Table 1 The average of \\({r}^{2}\\) ranged from 0.5 to 0.7 (\\(p < 0.001\\)), giving good performance of the BRT model. Considering the sensitivity of landscape metrics to spatial scale, the performance of BRT model was estimated across multiple scales. The results showed that the BRT model showed better performance at the 250 m \\(\\times\\) 250 m scale compared to the other scales (Supplementary Fig. 5).\n### Reporting summary\nFurther information on research design is available in the Nature Research Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR35",
+                "ref-CR19",
+                "ref-CR55",
+                "ref-CR16",
+                "ref-CR6",
+                "ref-CR52",
+                "ref-CR17",
+                "ref-CR54",
+                "ref-CR53",
+                "ref-CR51",
+                "ref-CR15"
+            ],
+            "figures": [
+                "figure-10"
+            ]
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Relationship between NDVI and UI.",
+            "figure-caption": "Points are NDVI values for each sample point. The zero-impact (red) line indicates the direct effects of urbanization on vegetation growth. The actual fitted curves between NDVI and UI are represented by green lines. The UI values where the red and green lines overlap are represented by the black dashed lines. Negative effects (\\({\\omega }_{{\\rm{i}}} < 0\\)) would be presented by sample points or green lines shown below the red lines, and vice versa.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Spatial distributions of indirect effects (\\({\\omega }_{{\\rm{i}}} < 0\\)) in Kunming.",
+            "figure-caption": "Growth enhancement and growth abatement are illustrated by the colors red and blue, respectively. Scale bar (1 km).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Statistical description of indirect effects (\\({\\omega }_{{\\rm{i}}}\\)) and the results of the Games-Howell test.",
+            "figure-caption": "The results of the Welch t test are shown at the top. The results of the Games-Howell test are shown above the violin plot. The red points are the mean values of \\({\\omega }_{{\\rm{i}}}\\). The bottom and up of the box indicate the first quartile (25%) and the third quartile (75%), respectively. The line within the box indicates the median of \\({\\omega }_{{\\rm{i}}}\\).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Contributions of landscape composition and configuration to indirect effects (\\({\\omega }_{{\\rm{i}}}\\)).",
+            "figure-caption": "A, B, C, and D are built-up land, unused land, vegetated areas, and waterbodies, respectively. 1 and 2 represent configuration and composition metrics, respectively. The total contribution of all metrics is 100.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Contributions of landscape metrics to indirect effects (\\({\\omega }_{{\\rm{i}}}\\)).",
+            "figure-caption": "COH, PLA, and AM represent COHESION, PLAND, and AREA_MN, respectively.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: The relationships between three dominant landscape metrics of built-up land and the indirect effects of urbanization on vegetation growth.",
+            "figure-caption": "a The marginal effects of the three dominant landscape metrics of built-up land on ωi. ∆ωi represents the regulation amplitude of ωi. b The kernel distribution density of landscape metrics.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/6"
+        },
+        {
+            "id": "figure-7",
+            "figure-title": "Fig. 7: The relationships between three dominant landscape metrics of unused land and the indirect effects of urbanization on vegetation growth.",
+            "figure-caption": "a The marginal effects of the three dominant landscape metrics of unused land on ωi. ∆ωi represents the regulation amplitude of ωi. b The kernel distribution density of landscape metrics.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/7"
+        },
+        {
+            "id": "figure-8",
+            "figure-title": "Fig. 8: The relationships between three dominant landscape metrics of vegetated areas and the indirect effects of urbanization on vegetation growth.",
+            "figure-caption": "a The marginal effects of the three dominant landscape metrics of vegetated areas on ωi. ∆ωi represents the regulation amplitude of ωi. b The kernel distribution density of landscape metrics.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/8"
+        },
+        {
+            "id": "figure-9",
+            "figure-title": "Fig. 9: The relationships between three dominant landscape metrics of waterbodies and the indirect effects of urbanization on vegetation growth.",
+            "figure-caption": "a The marginal effects of the three dominant landscape metrics of waterbodies on ωi. ∆ωi represents the regulation amplitude of ωi. b The kernel distribution density of landscape metrics.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/9"
+        },
+        {
+            "id": "figure-10",
+            "figure-title": "Fig. 10: The location of the study area.",
+            "figure-caption": "Scale bar (1 km).",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-024-00165-w/figures/10"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Seto, K. C. et al. From low- to net-zero carbon cities: the next global agenda. Annu. Rev. Environ. Resour. 46, 377–415 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1146%2Fannurev-environ-050120-113117",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=From%20low-%20to%20net-zero%20carbon%20cities%3A%20the%20next%20global%20agenda&journal=Annu.%20Rev.%20Environ.%20Resour.&doi=10.1146%2Fannurev-environ-050120-113117&volume=46&pages=377-415&publication_year=2021&author=Seto%2CKC"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Li, W. et al. The local coupling and telecoupling of urbanization and ecological environment quality based on multisource remote sensing data. J. Environ. Manage. 327, 116921 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jenvman.2022.116921",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20local%20coupling%20and%20telecoupling%20of%20urbanization%20and%20ecological%20environment%20quality%20based%20on%20multisource%20remote%20sensing%20data&journal=J.%20Environ.%20Manage.&doi=10.1016%2Fj.jenvman.2022.116921&volume=327&publication_year=2023&author=Li%2CW"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Gong, P. et al. Urbanisation and health in China. The Lancet 379, 843–852 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2811%2961878-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanisation%20and%20health%20in%20China&journal=The%20Lancet&doi=10.1016%2FS0140-6736%2811%2961878-3&volume=379&pages=843-852&publication_year=2012&author=Gong%2CP"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Richards, D. R. et al. Global variation in contributions to human well-being from urban vegetation ecosystem services. One Earth 5, 522–533 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.oneear.2022.04.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20variation%20in%20contributions%20to%20human%20well-being%20from%20urban%20vegetation%20ecosystem%20services&journal=One%20Earth&doi=10.1016%2Fj.oneear.2022.04.006&volume=5&pages=522-533&publication_year=2022&author=Richards%2CDR"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Leng, S., Sun, R., Yang, X., Jin, M. & Chen, L. Diverse types of coupling trends in urban tree and nontree vegetation associated with urbanization levels. Npj Urban Sustain. 3, 33 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs42949-023-00111-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Diverse%20types%20of%20coupling%20trends%20in%20urban%20tree%20and%20nontree%20vegetation%20associated%20with%20urbanization%20levels&journal=Npj%20Urban%20Sustain.&doi=10.1038%2Fs42949-023-00111-2&volume=3&publication_year=2023&author=Leng%2CS&author=Sun%2CR&author=Yang%2CX&author=Jin%2CM&author=Chen%2CL"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Zhao, S., Liu, S. & Zhou, D. Prevalent vegetation growth enhancement in urban environment. Proc. Natl Acad. Sci. 113, 6313–6318 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1602312113",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XnvFeitrs%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Prevalent%20vegetation%20growth%20enhancement%20in%20urban%20environment&journal=Proc.%20Natl%20Acad.%20Sci.&doi=10.1073%2Fpnas.1602312113&volume=113&pages=6313-6318&publication_year=2016&author=Zhao%2CS&author=Liu%2CS&author=Zhou%2CD"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Lu, X.-Y., Chen, X., Zhao, X.-L., Lv, D.-J. & Zhang, Y. Assessing the impact of land surface temperature on urban net primary productivity increment based on geographically weighted regression model. Sci. Rep. 11, 22282 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41598-021-01757-7",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXisVyku7zM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assessing%20the%20impact%20of%20land%20surface%20temperature%20on%20urban%20net%20primary%20productivity%20increment%20based%20on%20geographically%20weighted%20regression%20model&journal=Sci.%20Rep.&doi=10.1038%2Fs41598-021-01757-7&volume=11&publication_year=2021&author=Lu%2CX-Y&author=Chen%2CX&author=Zhao%2CX-L&author=Lv%2CD-J&author=Zhang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Zhou, T., Liu, H., Gou, P. & Xu, N. Conflict or coordination? measuring the relationships between urbanization and vegetation cover in China. Ecol. Indic. 147, 109993 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecolind.2023.109993",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Conflict%20or%20coordination%3F%20measuring%20the%20relationships%20between%20urbanization%20and%20vegetation%20cover%20in%20China&journal=Ecol.%20Indic.&doi=10.1016%2Fj.ecolind.2023.109993&volume=147&publication_year=2023&author=Zhou%2CT&author=Liu%2CH&author=Gou%2CP&author=Xu%2CN"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Zhou, Y. Understanding urban plant phenology for sustainable cities and planet. Nat. Clim. Chang. 12, 302–304 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-022-01331-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20urban%20plant%20phenology%20for%20sustainable%20cities%20and%20planet&journal=Nat.%20Clim.%20Chang.&doi=10.1038%2Fs41558-022-01331-7&volume=12&pages=302-304&publication_year=2022&author=Zhou%2CY"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Wang, S. et al. Urban−rural gradients reveal joint control of elevated CO2 and temperature on extended photosynthetic seasons. Nat. Ecol. Evol. 3, 1076–1085 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41559-019-0931-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%E2%88%92rural%20gradients%20reveal%20joint%20control%20of%20elevated%20CO2%20and%20temperature%20on%20extended%20photosynthetic%20seasons&journal=Nat.%20Ecol.%20Evol.&doi=10.1038%2Fs41559-019-0931-1&volume=3&pages=1076-1085&publication_year=2019&author=Wang%2CS"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Huang, K. Urban forests facing climate risks. Nat. Clim. Chang. 12, 893–894 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-022-01481-8",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhvFyqtLfL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20forests%20facing%20climate%20risks&journal=Nat.%20Clim.%20Chang.&doi=10.1038%2Fs41558-022-01481-8&volume=12&pages=893-894&publication_year=2022&author=Huang%2CK"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Esperon-Rodriguez, M. et al. Climate change increases global risk to urban forests. Nat. Clim. Chang. 12, 950–955 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-022-01465-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20increases%20global%20risk%20to%20urban%20forests&journal=Nat.%20Clim.%20Chang.&doi=10.1038%2Fs41558-022-01465-8&volume=12&pages=950-955&publication_year=2022&author=Esperon-Rodriguez%2CM"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Chen, Y., Huang, B. & Zeng, H. How does urbanization affect vegetation productivity in the coastal cities of eastern China? Sci. Total Environ. 811, 152356 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2021.152356",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXivVansrrK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20does%20urbanization%20affect%20vegetation%20productivity%20in%20the%20coastal%20cities%20of%20eastern%20China%3F&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2021.152356&volume=811&publication_year=2022&author=Chen%2CY&author=Huang%2CB&author=Zeng%2CH"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Guan, X., Shen, H., Li, X., Gan, W. & Zhang, L. A long-term and comprehensive assessment of the urbanization-induced impacts on vegetation net primary productivity. Sci. Total Environ. 669, 342–352 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2019.02.361",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXltFOrtb8%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20long-term%20and%20comprehensive%20assessment%20of%20the%20urbanization-induced%20impacts%20on%20vegetation%20net%20primary%20productivity&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2019.02.361&volume=669&pages=342-352&publication_year=2019&author=Guan%2CX&author=Shen%2CH&author=Li%2CX&author=Gan%2CW&author=Zhang%2CL"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Jia, W., Zhao, S. & Liu, S. Vegetation growth enhancement in urban environments of the Conterminous United States. Glob. Chang. Biol. 24, 4084–4094 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fgcb.14317",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Vegetation%20growth%20enhancement%20in%20urban%20environments%20of%20the%20Conterminous%20United%20States&journal=Glob.%20Chang.%20Biol.&doi=10.1111%2Fgcb.14317&volume=24&pages=4084-4094&publication_year=2018&author=Jia%2CW&author=Zhao%2CS&author=Liu%2CS"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Zhang, L. et al. Direct and indirect impacts of urbanization on vegetation growth across the world’s cities. Sci. Adv. 8, eabo0095 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fsciadv.abo0095",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Direct%20and%20indirect%20impacts%20of%20urbanization%20on%20vegetation%20growth%20across%20the%20world%E2%80%99s%20cities&journal=Sci.%20Adv.&doi=10.1126%2Fsciadv.abo0095&volume=8&publication_year=2022&author=Zhang%2CL"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Chen, A., Yao, L., Sun, R. & Chen, L. How many metrics are required to identify the effects of the landscape pattern on land surface temperature? Ecol. Indic. 45, 424–433 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecolind.2014.05.002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20many%20metrics%20are%20required%20to%20identify%20the%20effects%20of%20the%20landscape%20pattern%20on%20land%20surface%20temperature%3F&journal=Ecol.%20Indic.&doi=10.1016%2Fj.ecolind.2014.05.002&volume=45&pages=424-433&publication_year=2014&author=Chen%2CA&author=Yao%2CL&author=Sun%2CR&author=Chen%2CL"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Gheshlaghpoor, S., Abedi, S. S. & Moghbel, M. The relationship between spatial patterns of urban land uses and air pollutants in the Tehran metropolis. Iran. Landsc. Ecol. 38, 553–565 (2023).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10980-022-01549-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20relationship%20between%20spatial%20patterns%20of%20urban%20land%20uses%20and%20air%20pollutants%20in%20the%20Tehran%20metropolis&journal=Iran.%20Landsc.%20Ecol.&doi=10.1007%2Fs10980-022-01549-y&volume=38&pages=553-565&publication_year=2023&author=Gheshlaghpoor%2CS&author=Abedi%2CSS&author=Moghbel%2CM"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Zeng, P. et al. The influence of the landscape pattern on the urban land surface temperature varies with the ratio of land components: Insights from 2D/3D building/vegetation metrics. Sustain. Cities Soc. 78, 103599 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2021.103599",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20influence%20of%20the%20landscape%20pattern%20on%20the%20urban%20land%20surface%20temperature%20varies%20with%20the%20ratio%20of%20land%20components%3A%20Insights%20from%202D%2F3D%20building%2Fvegetation%20metrics&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2021.103599&volume=78&publication_year=2022&author=Zeng%2CP"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Huang, X., Jin, K., Chen, D., Zheng, Q. & Hao, L. Urbanization altered atmospheric humidity diurnally and seasonally through ecohydrological processes in five urban agglomerations in China. Environ. Res. Lett. 17, 084032 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Fac849a",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanization%20altered%20atmospheric%20humidity%20diurnally%20and%20seasonally%20through%20ecohydrological%20processes%20in%20five%20urban%20agglomerations%20in%20China&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Fac849a&volume=17&publication_year=2022&author=Huang%2CX&author=Jin%2CK&author=Chen%2CD&author=Zheng%2CQ&author=Hao%2CL"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Calfapietra, C., Peñuelas, J. & Niinemets, Ü. Urban plant physiology: adaptation-mitigation strategies under permanent stress. Trends Plant Sci. 20, 72–75 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tplants.2014.11.001",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2cXhvFCntL7I",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20plant%20physiology%3A%20adaptation-mitigation%20strategies%20under%20permanent%20stress&journal=Trends%20Plant%20Sci.&doi=10.1016%2Fj.tplants.2014.11.001&volume=20&pages=72-75&publication_year=2015&author=Calfapietra%2CC&author=Pe%C3%B1uelas%2CJ&author=Niinemets%2C%C3%9C"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Ren, W., Zhao, J. & Ma, X. Analysis of spatial differentiation and air quality impact of green space landscape in Xi’an. China. Int. J. Environ. Sci. Technol. 20, 12449–12463 (2023).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s13762-023-04844-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Analysis%20of%20spatial%20differentiation%20and%20air%20quality%20impact%20of%20green%20space%20landscape%20in%20Xi%E2%80%99an.&journal=China.%20Int.%20J.%20Environ.%20Sci.%20Technol.&doi=10.1007%2Fs13762-023-04844-6&volume=20&pages=12449-12463&publication_year=2023&author=Ren%2CW&author=Zhao%2CJ&author=Ma%2CX"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Xu, H. et al. Quantifying the effects of 2D/3D urban landscape patterns on land surface temperature: a perspective from cities of different sizes. Build. Environ. 233, 110085 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.buildenv.2023.110085",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20the%20effects%20of%202D%2F3D%20urban%20landscape%20patterns%20on%20land%20surface%20temperature%3A%20a%20perspective%20from%20cities%20of%20different%20sizes&journal=Build.%20Environ.&doi=10.1016%2Fj.buildenv.2023.110085&volume=233&publication_year=2023&author=Xu%2CH"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Zhuang, Q. W. et al. Isolating the direct and indirect impacts of urbanization on vegetation carbon sequestration capacity in a large oasis city: evidence from Urumqi, China. Geo-Spat. Inf. Sci. 26, 379–391 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F10095020.2022.2118624",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Isolating%20the%20direct%20and%20indirect%20impacts%20of%20urbanization%20on%20vegetation%20carbon%20sequestration%20capacity%20in%20a%20large%20oasis%20city%3A%20evidence%20from%20Urumqi%2C%20China&journal=Geo-Spat.%20Inf.%20Sci.&doi=10.1080%2F10095020.2022.2118624&volume=26&pages=379-391&publication_year=2022&author=Zhuang%2CQW"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Ziska, L. H., Bunce, J. A. & Goins, E. W. Characterization of an urban-rural CO2/temperature gradient and associated changes in initial plant productivity during secondary succession. Oecologia 139, 454–458 (2004).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00442-004-1526-2",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD2MrltFKnsw%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Characterization%20of%20an%20urban-rural%20CO2%2Ftemperature%20gradient%20and%20associated%20changes%20in%20initial%20plant%20productivity%20during%20secondary%20succession&journal=Oecologia&doi=10.1007%2Fs00442-004-1526-2&volume=139&pages=454-458&publication_year=2004&author=Ziska%2CLH&author=Bunce%2CJA&author=Goins%2CEW"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Gregg, J. W., Jones, C. G. & Dawson, T. E. Urbanization effects on tree growth in the vicinity of New York City. Nature 424, 183–187 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature01728",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD3sXlt1Ckt70%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanization%20effects%20on%20tree%20growth%20in%20the%20vicinity%20of%20New%20York%20City&journal=Nature&doi=10.1038%2Fnature01728&volume=424&pages=183-187&publication_year=2003&author=Gregg%2CJW&author=Jones%2CCG&author=Dawson%2CTE"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Dadashpoor, H., Azizi, P. & Moghadasi, M. Land use change, urbanization, and change in landscape pattern in a metropolitan area. Sci. Total Environ. 655, 707–719 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2018.11.267",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXitlWntr%2FJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Land%20use%20change%2C%20urbanization%2C%20and%20change%20in%20landscape%20pattern%20in%20a%20metropolitan%20area&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2018.11.267&volume=655&pages=707-719&publication_year=2019&author=Dadashpoor%2CH&author=Azizi%2CP&author=Moghadasi%2CM"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Xiang, Y., Ye, Y., Peng, C., Teng, M. & Zhou, Z. Seasonal variations for combined effects of landscape metrics on land surface temperature (LST) and aerosol optical depth (AOD). Ecol. Indic. 138, 108810 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecolind.2022.108810",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xht1CmsLbF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Seasonal%20variations%20for%20combined%20effects%20of%20landscape%20metrics%20on%20land%20surface%20temperature%20%28LST%29%20and%20aerosol%20optical%20depth%20%28AOD%29&journal=Ecol.%20Indic.&doi=10.1016%2Fj.ecolind.2022.108810&volume=138&publication_year=2022&author=Xiang%2CY&author=Ye%2CY&author=Peng%2CC&author=Teng%2CM&author=Zhou%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Ke, B. et al. Three-dimensional building morphology impacts on PM2.5 distribution in urban landscape settings in Zhejiang. China. Sci. Total Environ. 826, 154094 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2022.154094",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XmtFOmsL0%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Three-dimensional%20building%20morphology%20impacts%20on%20PM2.5%20distribution%20in%20urban%20landscape%20settings%20in%20Zhejiang&journal=China.%20Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2022.154094&volume=826&publication_year=2022&author=Ke%2CB"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Weber, N., Haase, D. & Franck, U. Assessing modelled outdoor traffic-induced noise and air pollution around urban structures using the concept of landscape metrics. Landsc. Urban Plan. 125, 105–116 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landurbplan.2014.02.018",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assessing%20modelled%20outdoor%20traffic-induced%20noise%20and%20air%20pollution%20around%20urban%20structures%20using%20the%20concept%20of%20landscape%20metrics&journal=Landsc.%20Urban%20Plan.&doi=10.1016%2Fj.landurbplan.2014.02.018&volume=125&pages=105-116&publication_year=2014&author=Weber%2CN&author=Haase%2CD&author=Franck%2CU"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Hoesly, R. M. et al. Historical (1750–2014) anthropogenic emissions of reactive gases and aerosols from the Community Emissions Data System (CEDS). Geosci. Model Dev. 11, 369–408 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Fgmd-11-369-2018",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXhtV2qtL%2FJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Historical%20%281750%E2%80%932014%29%20anthropogenic%20emissions%20of%20reactive%20gases%20and%20aerosols%20from%20the%20Community%20Emissions%20Data%20System%20%28CEDS%29&journal=Geosci.%20Model%20Dev.&doi=10.5194%2Fgmd-11-369-2018&volume=11&pages=369-408&publication_year=2018&author=Hoesly%2CRM"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Chen, J. et al. County-level CO2 emissions and sequestration in China during 1997–2017. Sci. Data 7, 391 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41597-020-00736-3",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXisVCmu7rL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=County-level%20CO2%20emissions%20and%20sequestration%20in%20China%20during%201997%E2%80%932017&journal=Sci.%20Data&doi=10.1038%2Fs41597-020-00736-3&volume=7&publication_year=2020&author=Chen%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Wang, S., Hu, D., Yu, C., Chen, S. & Di, Y. Mapping China’s time-series anthropogenic heat flux with inventory method and multi-source remotely sensed data. Sci. Total Environ. 734, 139457 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.139457",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhtVSitrrO",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mapping%20China%E2%80%99s%20time-series%20anthropogenic%20heat%20flux%20with%20inventory%20method%20and%20multi-source%20remotely%20sensed%20data&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.139457&volume=734&publication_year=2020&author=Wang%2CS&author=Hu%2CD&author=Yu%2CC&author=Chen%2CS&author=Di%2CY"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Piao, S. et al. Characteristics, drivers and feedbacks of global greening. Nat. Rev. Earth Environ. 1, 14–27 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs43017-019-0001-x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Characteristics%2C%20drivers%20and%20feedbacks%20of%20global%20greening&journal=Nat.%20Rev.%20Earth%20Environ.&doi=10.1038%2Fs43017-019-0001-x&volume=1&pages=14-27&publication_year=2020&author=Piao%2CS"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Yuan, B. et al. Separate and combined effects of 3D building features and urban green space on land surface temperature. J. Environ. Manage. 295, 113116 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jenvman.2021.113116",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Separate%20and%20combined%20effects%20of%203D%20building%20features%20and%20urban%20green%20space%20on%20land%20surface%20temperature&journal=J.%20Environ.%20Manage.&doi=10.1016%2Fj.jenvman.2021.113116&volume=295&publication_year=2021&author=Yuan%2CB"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Yu, Z. et al. Critical review on the cooling effect of urban blue-green space: a threshold-size perspective. Urban For. Urban Green. 49, 126630 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ufug.2020.126630",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Critical%20review%20on%20the%20cooling%20effect%20of%20urban%20blue-green%20space%3A%20a%20threshold-size%20perspective&journal=Urban%20For.%20Urban%20Green.&doi=10.1016%2Fj.ufug.2020.126630&volume=49&publication_year=2020&author=Yu%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Colas, F. et al. Ecosystem maturity modulates greenhouse gases fluxes from artificial lakes. Sci. Total Environ. 760, 144046 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.144046",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXktV2ltg%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ecosystem%20maturity%20modulates%20greenhouse%20gases%20fluxes%20from%20artificial%20lakes&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.144046&volume=760&publication_year=2021&author=Colas%2CF"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Yao, X. et al. Linking maximum-impact and cumulative-impact indices to quantify the cooling effect of waterbodies in a subtropical city: a seasonal perspective. Sustain. Cities Soc. 82, 103902 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2022.103902",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Linking%20maximum-impact%20and%20cumulative-impact%20indices%20to%20quantify%20the%20cooling%20effect%20of%20waterbodies%20in%20a%20subtropical%20city%3A%20a%20seasonal%20perspective&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2022.103902&volume=82&publication_year=2022&author=Yao%2CX"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Das, M., Das, A. & Momin, S. Quantifying the cooling effect of urban green space: a case from urban parks in a tropical mega metropolitan area (India). Sustain. Cities Soc. 87, 104062 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2022.104062",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Quantifying%20the%20cooling%20effect%20of%20urban%20green%20space%3A%20a%20case%20from%20urban%20parks%20in%20a%20tropical%20mega%20metropolitan%20area%20%28India%29&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2022.104062&volume=87&publication_year=2022&author=Das%2CM&author=Das%2CA&author=Momin%2CS"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Yang, J. et al. Characterizing the thermal effects of vegetation on urban surface temperature. Urban Clim 44, 101204 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.uclim.2022.101204",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Characterizing%20the%20thermal%20effects%20of%20vegetation%20on%20urban%20surface%20temperature&journal=Urban%20Clim&doi=10.1016%2Fj.uclim.2022.101204&volume=44&publication_year=2022&author=Yang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Yan, L., Jia, W. & Zhao, S. The cooling effect of urban green spaces in metacities: a case study of Beijing, China’s capital. Remote Sens. 13, 4601 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Frs13224601",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20cooling%20effect%20of%20urban%20green%20spaces%20in%20metacities%3A%20a%20case%20study%20of%20Beijing%2C%20China%E2%80%99s%20capital&journal=Remote%20Sens.&doi=10.3390%2Frs13224601&volume=13&publication_year=2021&author=Yan%2CL&author=Jia%2CW&author=Zhao%2CS"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Cheng, X.-L., Padullés Cubino, J., Balfour, K., Zhu, Z.-X. & Wang, H.-F. Drivers of spontaneous and cultivated species diversity in the tropical city of Zhanjiang, China. Urban For. Urban Green 67, 127428 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ufug.2021.127428",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Drivers%20of%20spontaneous%20and%20cultivated%20species%20diversity%20in%20the%20tropical%20city%20of%20Zhanjiang%2C%20China&journal=Urban%20For.%20Urban%20Green&doi=10.1016%2Fj.ufug.2021.127428&volume=67&publication_year=2022&author=Cheng%2CX-L&author=Padull%C3%A9s%20Cubino%2CJ&author=Balfour%2CK&author=Zhu%2CZ-X&author=Wang%2CH-F"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Cheng, X.-L. et al. Using SPOT data and FRAGSTAS to analyze the relationship between plant diversity and green space landscape patterns in the tropical coastal city of Zhanjiang, China. Remote Sens. 12, 3477 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Frs12213477",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Using%20SPOT%20data%20and%20FRAGSTAS%20to%20analyze%20the%20relationship%20between%20plant%20diversity%20and%20green%20space%20landscape%20patterns%20in%20the%20tropical%20coastal%20city%20of%20Zhanjiang%2C%20China&journal=Remote%20Sens.&doi=10.3390%2Frs12213477&volume=12&publication_year=2020&author=Cheng%2CX-L"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Yurui, L., Yi, L., Pengcan, F. & Hualou, L. Impacts of land consolidation on rural human–environment system in typical watershed of the Loess Plateau and implications for rural development policy. Land Use Pol. 86, 339–350 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landusepol.2019.04.026",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impacts%20of%20land%20consolidation%20on%20rural%20human%E2%80%93environment%20system%20in%20typical%20watershed%20of%20the%20Loess%20Plateau%20and%20implications%20for%20rural%20development%20policy&journal=Land%20Use%20Pol.&doi=10.1016%2Fj.landusepol.2019.04.026&volume=86&pages=339-350&publication_year=2019&author=Yurui%2CL&author=Yi%2CL&author=Pengcan%2CF&author=Hualou%2CL"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Mori, A. S. et al. Biodiversity–productivity relationships are key to nature-based climate solutions. Nat. Clim. Chang. 11, 543–550 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-021-01062-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Biodiversity%E2%80%93productivity%20relationships%20are%20key%20to%20nature-based%20climate%20solutions&journal=Nat.%20Clim.%20Chang.&doi=10.1038%2Fs41558-021-01062-1&volume=11&pages=543-550&publication_year=2021&author=Mori%2CAS"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Park, D. S., Newman, E. A. & Breckheimer, I. K. Scale gaps in landscape phenology: challenges and opportunities. Trends Ecol. Evol. 36, 709–721 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tree.2021.04.008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scale%20gaps%20in%20landscape%20phenology%3A%20challenges%20and%20opportunities&journal=Trends%20Ecol.%20Evol.&doi=10.1016%2Fj.tree.2021.04.008&volume=36&pages=709-721&publication_year=2021&author=Park%2CDS&author=Newman%2CEA&author=Breckheimer%2CIK"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Stewart, I. D. & Oke, T. R. Local climate zones for urban temperature studies. Bull. Amer. Meteorol. Soc. 93, 1879–1900 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1175%2FBAMS-D-11-00019.1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local%20climate%20zones%20for%20urban%20temperature%20studies&journal=Bull.%20Amer.%20Meteorol.%20Soc.&doi=10.1175%2FBAMS-D-11-00019.1&volume=93&pages=1879-1900&publication_year=2012&author=Stewart%2CID&author=Oke%2CTR"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Chen, G. et al. Integrating weather observations and local-climate-zone-based landscape patterns for regional hourly air temperature mapping using machine learning. Sci. Total Environ. 841, 156737 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2022.156737",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhsFGqt7vJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Integrating%20weather%20observations%20and%20local-climate-zone-based%20landscape%20patterns%20for%20regional%20hourly%20air%20temperature%20mapping%20using%20machine%20learning&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2022.156737&volume=841&publication_year=2022&author=Chen%2CG"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Dawazhaxi, Zhou, W., Yu, W., Yao, Y. & Jing, C. Understanding the indirect impacts of urbanization on vegetation growth using the Continuum of Urbanity framework. Sci. Total Environ. 899, 165693 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2023.165693",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3sXhsFOlt7zI",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20the%20indirect%20impacts%20of%20urbanization%20on%20vegetation%20growth%20using%20the%20Continuum%20of%20Urbanity%20framework&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2023.165693&volume=899&publication_year=2023&author=Dawazhaxi%2C&author=Zhou%2CW&author=Yu%2CW&author=Yao%2CY&author=Jing%2CC"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Sage, R. F. & Kubien, D. S. The temperature response of C3 and C4 photosynthesis. Plant Cell Environ 30, 1086–1106 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1365-3040.2007.01682.x",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD2sXhtVeiurrP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20temperature%20response%20of%20C3%20and%20C4%20photosynthesis&journal=Plant%20Cell%20Environ&doi=10.1111%2Fj.1365-3040.2007.01682.x&volume=30&pages=1086-1106&publication_year=2007&author=Sage%2CRF&author=Kubien%2CDS"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Van der Linden, S. et al. The EnMAP-Box—a toolbox and application programming Interface for EnMAP data processing. Remote Sens 7, 11249–11266 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Frs70911249",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20EnMAP-Box%E2%80%94a%20toolbox%20and%20application%20programming%20Interface%20for%20EnMAP%20data%20processing&journal=Remote%20Sens&doi=10.3390%2Frs70911249&volume=7&pages=11249-11266&publication_year=2015&author=Linden%2CS"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Chen, Y., Cao, R., Chen, J., Liu, L. & Matsushita, B. A practical approach to reconstruct high-quality Landsat NDVI time-series data by gap filling and the Savitzky–Golay filter. ISPRS J. Photogramm. Remote Sens. 180, 174–190 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.isprsjprs.2021.08.015",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20practical%20approach%20to%20reconstruct%20high-quality%20Landsat%20NDVI%20time-series%20data%20by%20gap%20filling%20and%20the%20Savitzky%E2%80%93Golay%20filter&journal=ISPRS%20J.%20Photogramm.%20Remote%20Sens.&doi=10.1016%2Fj.isprsjprs.2021.08.015&volume=180&pages=174-190&publication_year=2021&author=Chen%2CY&author=Cao%2CR&author=Chen%2CJ&author=Liu%2CL&author=Matsushita%2CB"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Hesselbarth, M. H. K., Sciaini, M., With, K. A., Wiegand, K. & Nowosad, J. landscapemetrics: an open-source R tool to calculate landscape metrics. Ecography 42, 1648–1657 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fecog.04617",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=landscapemetrics%3A%20an%20open-source%20R%20tool%20to%20calculate%20landscape%20metrics&journal=Ecography&doi=10.1111%2Fecog.04617&volume=42&pages=1648-1657&publication_year=2019&author=Hesselbarth%2CMHK&author=Sciaini%2CM&author=With%2CKA&author=Wiegand%2CK&author=Nowosad%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Connors, J. P., Galletti, C. S. & Chow, W. T. L. Landscape configuration and urban heat island effects: assessing the relationship between landscape characteristics and land surface temperature in Phoenix. Arizona. Landsc. Ecol. 28, 271–283 (2013).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10980-012-9833-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Landscape%20configuration%20and%20urban%20heat%20island%20effects%3A%20assessing%20the%20relationship%20between%20landscape%20characteristics%20and%20land%20surface%20temperature%20in%20Phoenix&journal=Arizona.%20Landsc.%20Ecol.&doi=10.1007%2Fs10980-012-9833-1&volume=28&pages=271-283&publication_year=2013&author=Connors%2CJP&author=Galletti%2CCS&author=Chow%2CWTL"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Elith, J., Leathwick, J. R. & Hastie, T. A working guide to boosted regression trees. J. Anim. Ecol. 77, 802–813 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1365-2656.2008.01390.x",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD1cvgsFOqsQ%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20working%20guide%20to%20boosted%20regression%20trees&journal=J.%20Anim.%20Ecol.&doi=10.1111%2Fj.1365-2656.2008.01390.x&volume=77&pages=802-813&publication_year=2008&author=Elith%2CJ&author=Leathwick%2CJR&author=Hastie%2CT"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "We used the data from the following sources in our analysis. Landsat5/8 images were retrieved from the Google Earth Engine platform (https://developers.google.com/earth-engine/datasets/). Landsat NDVI time-series data are available at https://code.earthengine.google.com/3a883c9e84ad119045bcb88e4de77b47?noload=true/. ASTER GDEMV2 data are available at http://www.gscloud.cn/. The global urban boundary data are available at http://data.starcloud.pcl.ac.cn/zh/.",
+            "links": {
+                "https://developers.google.com/earth-engine/datasets/": "https://developers.google.com/earth-engine/datasets/",
+                "https://code.earthengine.google.com/3a883c9e84ad119045bcb88e4de77b47?noload=true/": "https://code.earthengine.google.com/3a883c9e84ad119045bcb88e4de77b47?noload=true/",
+                "http://www.gscloud.cn/": "http://www.gscloud.cn/",
+                "http://data.starcloud.pcl.ac.cn/zh/": "http://data.starcloud.pcl.ac.cn/zh/"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This work was supported by the Elite Talent Sponsorship Program of Yunnan University (grant number: CZ22623101), the Young Elite Scientists Sponsorship Program by the China Association for Science and Technology (grant number: 2021QNRC001), the Yunnan Provincial Science and Technology Project at Southwest United Graduate School (grant number: 202302AO370012), and the Postgraduate Research and Innovation Foundation of Yunnan University (grant number: KC-22223299).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsNinglv LiView author publicationsSearch author on:PubMed Google ScholarFangkai ZhaoView author publicationsSearch author on:PubMed Google ScholarShanshan ChenView author publicationsSearch author on:PubMed Google ScholarChun LiView author publicationsSearch author on:PubMed Google ScholarYiting WangView author publicationsSearch author on:PubMed Google ScholarYuxin MaView author publicationsSearch author on:PubMed Google ScholarLiding ChenView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nN.L. conceptualized this study, prepared the initial draft, performed data analysis, and acquired financial support. F.Z. reviewed and edited the manuscript, performed data analysis, and acquired financial support. S.C. reviewed and edited the manuscript and conducted data validation. C.L. reviewed the manuscript and contributed to the design of experimental procedures. Y.W. assisted in data scrubbing, and data analysis, and contributed to the scope and objectives of the study. Y.M. managed the research data and contributed to the initial drafting and subsequent critical revisions. L.C. provided oversight and leadership throughout the research process, formulated the research goals, reviewed and edited the manuscript, and acquired financial support. All authors gave their final approval for the version of the manuscript submitted for publication and shared accountability for all aspects of the work.\n### Corresponding author\nCorrespondence to\n                Liding Chen.",
+            "links": {
+                "View author publications": "/search?author=Liding%20Chen",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Liding%20Chen",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Liding%20Chen%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Liding Chen": "mailto:lininglv@mail.ynu.edu.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary materialReporting summary",
+            "links": {
+                "Supplementary material": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_MOESM1_ESM.pdf",
+                "Reporting summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Indirect%20non-linear%20effects%20of%20landscape%20patterns%20on%20vegetation%20growth%20in%20Kunming%20City&author=Ninglv%20Li%20et%20al&contentID=10.1038%2Fs42949-024-00165-w&copyright=The%20Author%28s%29&publication=2661-8001&publicationDate=2024-06-25&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleLi, N., Zhao, F., Chen, S. et al. Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City.\n                    npj Urban Sustain 4, 30 (2024). https://doi.org/10.1038/s42949-024-00165-wDownload citationReceived: 11 July 2023Accepted: 07 May 2024Published: 25 June 2024Version of record: 25 June 2024DOI: https://doi.org/10.1038/s42949-024-00165-wShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42949-024-00165-w?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City",
+                "description": "Urban greening is becoming an important strategy in improving urban ecosystem services and sustainability. Identifying the response of vegetation to urbanization and urban landscape patterns can help in planning for urban greening. Urbanization may lead to both direct and indirect effects on vegetation, and the indirect effects of urbanization on vegetation growth (UIE-VG) have been paid much attention recently in large scale. In this study, we investigated the spatiotemporal evolution of UIE-VG and the effects of landscape patterns on UIE-VG using the boosted regression tree model and remotely sensed data. An increase in average UIE-VG from 4 to 56% was found during urbanization of Kunming, the case study area in southwest China. However, UIE-VG exhibited high variations due to landscape pattern changes at the local scale. Overall, area-related and aggregation-related landscape metrics had greater effects on UIE-VG than the other metrics. The increase and aggregation of built-up land enhanced UIE-VG by 3.1–81.3% while the increase and aggregation of unused land and waterbodies reduced UIE-VG by 0.7–20.6%. Moreover, we found that the large and aggregated vegetation areas may mitigate the negative UIE-VG in low urbanization areas. Our findings have important implications for integrating urban landscape planning into sustainable urban greening strategies.",
+                "datePublished": "2024-06-25T00:00:00Z",
+                "dateModified": "2024-06-25T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "11",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s42949-024-00165-w",
+                "keywords": [
+                    "Environmental impact",
+                    "Urban ecology",
+                    "Environment",
+                    "general",
+                    "Sustainable Development",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urbanism",
+                    "Urban Ecology"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig6_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig7_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig8_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig9_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig10_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "npj Urban Sustainability",
+                    "issn": [
+                        "2661-8001"
+                    ],
+                    "volumeNumber": "4",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Ninglv Li",
+                        "url": "http://orcid.org/0000-0002-3984-6105",
+                        "affiliation": [
+                            {
+                                "name": "Yunnan University",
+                                "address": {
+                                    "name": "School of Ecology and Environmental Sciences, Yunnan University, Kunming, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Fangkai Zhao",
+                        "url": "http://orcid.org/0000-0002-5683-7868",
+                        "affiliation": [
+                            {
+                                "name": "Yunnan University",
+                                "address": {
+                                    "name": "School of Ecology and Environmental Sciences, Yunnan University, Kunming, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Shanshan Chen",
+                        "affiliation": [
+                            {
+                                "name": "Yunnan University",
+                                "address": {
+                                    "name": "School of Ecology and Environmental Sciences, Yunnan University, Kunming, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Chun Li",
+                        "affiliation": [
+                            {
+                                "name": "Yunnan University",
+                                "address": {
+                                    "name": "School of Ecology and Environmental Sciences, Yunnan University, Kunming, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yiting Wang",
+                        "affiliation": [
+                            {
+                                "name": "Yunnan University",
+                                "address": {
+                                    "name": "School of Ecology and Environmental Sciences, Yunnan University, Kunming, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yuxin Ma",
+                        "affiliation": [
+                            {
+                                "name": "Yunnan University",
+                                "address": {
+                                    "name": "School of Ecology and Environmental Sciences, Yunnan University, Kunming, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Liding Chen",
+                        "url": "http://orcid.org/0000-0001-8713-8552",
+                        "affiliation": [
+                            {
+                                "name": "Yunnan University",
+                                "address": {
+                                    "name": "School of Ecology and Environmental Sciences, Yunnan University, Kunming, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "State Key Laboratory of Urban and Regional Ecology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Southwest United Graduate School",
+                                "address": {
+                                    "name": "Southwest United Graduate School, Kunming, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "lininglv@mail.ynu.edu.cn",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "environmental-impact;urban-ecology",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "Leveraging Nature-based Solutions for climate resilient and biodiverse urban futures",
+                            "webtrendsContentGroup": "npj Urban Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42949-024-00165-w"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Ninglv Li",
+                            "Fangkai Zhao",
+                            "Shanshan Chen",
+                            "Chun Li",
+                            "Yiting Wang",
+                            "Yuxin Ma",
+                            "Liding Chen"
+                        ],
+                        "publishedAt": 1719273600,
+                        "publishedAtString": "2024-06-25",
+                        "title": "Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Environmental impact,Urban ecology"
+                    },
+                    "journal": {
+                        "pcode": "npjurbansustain",
+                        "title": "npj urban sustainability",
+                        "volume": "4",
+                        "issue": "1",
+                        "id": 42949,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "ciiajhciic"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City",
+            "dc.source": "npj Urban Sustainability 2024 4:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2024-06-25",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2024 The Author(s)",
+            "dc.rights": "2024 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Urban greening is becoming an important strategy in improving urban ecosystem services and sustainability. Identifying the response of vegetation to urbanization and urban landscape patterns can help in planning for urban greening. Urbanization may lead to both direct and indirect effects on vegetation, and the indirect effects of urbanization on vegetation growth (UIE-VG) have been paid much attention recently in large scale. In this study, we investigated the spatiotemporal evolution of UIE-VG and the effects of landscape patterns on UIE-VG using the boosted regression tree model and remotely sensed data. An increase in average UIE-VG from 4 to 56% was found during urbanization of Kunming, the case study area in southwest China. However, UIE-VG exhibited high variations due to landscape pattern changes at the local scale. Overall, area-related and aggregation-related landscape metrics had greater effects on UIE-VG than the other metrics. The increase and aggregation of built-up land enhanced UIE-VG by 3.1–81.3% while the increase and aggregation of unused land and waterbodies reduced UIE-VG by 0.7–20.6%. Moreover, we found that the large and aggregated vegetation areas may mitigate the negative UIE-VG in low urbanization areas. Our findings have important implications for integrating urban landscape planning into sustainable urban greening strategies.",
+            "dc.identifier": "doi:10.1038/s42949-024-00165-w",
+            "dc.creator": "Chen, Liding",
+            "dc.subject": "Urban ecology",
+            "prism.issn": "2661-8001",
+            "prism.publicationName": "npj Urban Sustainability",
+            "prism.publicationDate": "2024-06-25",
+            "prism.volume": "4",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "11",
+            "prism.copyright": "2024 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42949-024-00165-w",
+            "prism.doi": "doi:10.1038/s42949-024-00165-w",
+            "citation_pdf_url": "https://www.nature.com/articles/s42949-024-00165-w.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42949-024-00165-w",
+            "citation_journal_title": "npj Urban Sustainability",
+            "citation_journal_abbrev": "npj Urban Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2661-8001",
+            "citation_title": "Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City",
+            "citation_volume": "4",
+            "citation_issue": "1",
+            "citation_online_date": "2024/06/25",
+            "citation_firstpage": "1",
+            "citation_lastpage": "11",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42949-024-00165-w",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42949-024-00165-w&api_key=",
+            "citation_reference": "citation_journal_title=J. Anim. Ecol.; citation_title=A working guide to boosted regression trees; citation_author=J Elith, JR Leathwick, T Hastie; citation_volume=77; citation_publication_date=2008; citation_pages=802-813; citation_doi=10.1111/j.1365-2656.2008.01390.x; citation_id=CR55",
+            "citation_author": "Chen, Liding",
+            "citation_author_institution": "Southwest United Graduate School, Kunming, China",
+            "description": "Urban greening is becoming an important strategy in improving urban ecosystem services and sustainability. Identifying the response of vegetation to urbanization and urban landscape patterns can help in planning for urban greening. Urbanization may lead to both direct and indirect effects on vegetation, and the indirect effects of urbanization on vegetation growth (UIE-VG) have been paid much attention recently in large scale. In this study, we investigated the spatiotemporal evolution of UIE-VG and the effects of landscape patterns on UIE-VG using the boosted regression tree model and remotely sensed data. An increase in average UIE-VG from 4 to 56% was found during urbanization of Kunming, the case study area in southwest China. However, UIE-VG exhibited high variations due to landscape pattern changes at the local scale. Overall, area-related and aggregation-related landscape metrics had greater effects on UIE-VG than the other metrics. The increase and aggregation of built-up land enhanced UIE-VG by 3.1–81.3% while the increase and aggregation of unused land and waterbodies reduced UIE-VG by 0.7–20.6%. Moreover, we found that the large and aggregated vegetation areas may mitigate the negative UIE-VG in low urbanization areas. Our findings have important implications for integrating urban landscape planning into sustainable urban greening strategies.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City",
+            "twitter:description": "npj Urban Sustainability - Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42949-024-00165-w/MediaObjects/42949_2024_165_Fig1_HTML.png",
+            "DOI": "10.1038/s42949-024-00165-w",
+            "size": "218489",
+            "journal_id": "42949"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42949-024-00165-w",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

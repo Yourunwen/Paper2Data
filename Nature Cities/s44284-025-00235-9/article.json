@@ -1,0 +1,954 @@
+{
+    "id": "s44284-025-00235-9",
+    "journal": "Nature Cities",
+    "type": "article",
+    "title": "Disparities in access to sustainable dining options across the Tokyo Metropolis",
+    "legal_title": "Disparities in access to sustainable dining options across the Tokyo Metropolis",
+    "publish_time": "2025-05-02",
+    "pdf_link": "https://www.nature.com/articles/s44284-025-00235-9",
+    "storage_path": "./Articles/Nature Cities/2025-article/s44284-025-00235-9/",
+    "open_access": false,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Urbanization and fast-paced lifestyles have shaped diverse culinary landscapes in global cities. Yet, access to sustainable dining options remains highly uneven due to complex interactions between socioeconomic systems and individual behaviors. Here we introduce an integrated framework for evaluating sustainable dining accessibility, leveraging data from 3,649 menu items and 112,892 restaurants in Tokyo, Japan. Our findings highlight a pronounced clustering of restaurants around railway stations, underscoring the pivotal role of transit-oriented development in shaping urban dining patterns. Then, a sustainable dining choice was assessed through a multidimensional approach that incorporates economic preferences, environmental impacts along the supply chain and the nutritional quality of menu offerings. Further analysis uncovers severe inequalities in sustainable dining accessibility across station vicinities, railway lines and administrative wards, with up to 9 million daily passengers exposed to unsustainable dining environments. To address these disparities, we propose targeted interventions, including optimized restaurant spatial distribution, to enhance accessibility in underserved areas. By integrating these solutions, this study offers actionable insights for urban planners, policymakers and citizens, contributing to planetary health and advancing sustainability in urban dining systems.",
+    "Extra_info": {
+        "Data availability": {
+            "content": "Public transport data are obtained from Japan’s National Land Information Division (https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-v2_3.html), and dining out expenditures and frequencies for the year 2023 are derived from the FIES (https://www.stat.go.jp/english/data/kakei/index.html). Additionally, we utilized the 3EID database, which provides embodied energy and emission intensity values for Japan’s approximately 400 industrial sectors based on input–output tables (https://www.cger.nies.go.jp/publications/report/d031/jpn/page/what_is_3eid.htm). Aggregated or de-identified data supporting the findings of this study are available on GitHub at https://github.com/LiqiaoHuang/Sus-Din-Out.",
+            "links": {
+                "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-v2_3.html": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-v2_3.html",
+                "https://www.stat.go.jp/english/data/kakei/index.html": "https://www.stat.go.jp/english/data/kakei/index.html",
+                "https://www.cger.nies.go.jp/publications/report/d031/jpn/page/what_is_3eid.htm": "https://www.cger.nies.go.jp/publications/report/d031/jpn/page/what_is_3eid.htm",
+                "https://github.com/LiqiaoHuang/Sus-Din-Out": "https://github.com/LiqiaoHuang/Sus-Din-Out"
+            }
+        },
+        "Code availability": {
+            "content": "Methods for analyzing sustainable dining practices in Tokyo are available on GitHub at https://github.com/LiqiaoHuang/Sus-Din-Out.",
+            "links": {
+                "https://github.com/LiqiaoHuang/Sus-Din-Out": "https://github.com/LiqiaoHuang/Sus-Din-Out"
+            }
+        },
+        "Acknowledgements": {
+            "content": "This research is funded by the Japan Society for the Promotion of Science KAKENHI B (grant no. JP24K03146, Y.Y.) and KAKENHI C (grant no. JP23K11542, Y.L.). L.H. is supported by JSPS DC2 Program and the Leadership Development Program for Ph.D. (LDPP) of the Graduate School of Engineering, the University of Tokyo.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsLiqiao HuangView author publicationsSearch author on:PubMed Google ScholarYuyan HuangView author publicationsSearch author on:PubMed Google ScholarXuejie LvView author publicationsSearch author on:PubMed Google ScholarSebastian MontagnaView author publicationsSearch author on:PubMed Google ScholarYoshikuni YoshidaView author publicationsSearch author on:PubMed Google ScholarYin LongView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nConceptualization: L.H. and Y.L. Data curation: L.H., Y.H. and X.L. Formal analysis: L.H., Y.H. and S.M. Methodology: L.H. and S.M. Software: L.H., Y.H. and S.M. Visualization: L.H. and Y.H. Writing—original draft: L.H. and Y.L. Writing—review and editing: L.H., Y.H. and Y.L. Supervision: Y.L. and Y.Y.\n### Corresponding author\nCorrespondence to\n                Yin Long.",
+            "links": {
+                "View author publications": "/search?author=Yin%20Long",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Yin%20Long",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Yin%20Long%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Yin Long": "mailto:longyinutokyo@gmail.com"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Cities thanks Benigna Boza-Kiss, Huabo Duan and Ruichang Mao for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary Figs. 1–13, Notes 1–8, Tables 1–8, methods and references.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_MOESM2_ESM.pdf"
+            }
+        },
+        "Source data": {
+            "content": "Source Data Fig. 1Statistical source data.Source Data Fig. 2Statistical source data.Source Data Fig. 3Statistical source data.Source Data Fig. 4Statistical source data.Source Data Fig. 5Statistical source data.",
+            "links": {
+                "Source Data Fig. 1": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_MOESM3_ESM.xlsx",
+                "Source Data Fig. 2": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_MOESM4_ESM.xlsx",
+                "Source Data Fig. 3": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_MOESM5_ESM.xlsx",
+                "Source Data Fig. 4": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_MOESM6_ESM.xlsx",
+                "Source Data Fig. 5": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_MOESM7_ESM.xlsx"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.\nReprints and permissions",
+            "links": {
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Disparities%20in%20access%20to%20sustainable%20dining%20options%20across%20the%20Tokyo%20Metropolis&author=Liqiao%20Huang%20et%20al&contentID=10.1038%2Fs44284-025-00235-9&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Nature%20America%2C%20Inc.&publication=2731-9997&publicationDate=2025-05-02&publisherName=SpringerNature&orderBeanReset=true"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleHuang, L., Huang, Y., Lv, X. et al. Disparities in access to sustainable dining options across the Tokyo Metropolis.\n                    Nat Cities 2, 387–399 (2025). https://doi.org/10.1038/s44284-025-00235-9Download citationReceived: 04 July 2024Accepted: 01 April 2025Published: 02 May 2025Version of record: 02 May 2025Issue date: May 2025DOI: https://doi.org/10.1038/s44284-025-00235-9Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s44284-025-00235-9?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Disparities in access to sustainable dining options across the Tokyo Metropolis",
+                "description": "Urbanization and fast-paced lifestyles have shaped diverse culinary landscapes in global cities. Yet, access to sustainable dining options remains highly uneven due to complex interactions between socioeconomic systems and individual behaviors. Here we introduce an integrated framework for evaluating sustainable dining accessibility, leveraging data from 3,649 menu items and 112,892 restaurants in Tokyo, Japan. Our findings highlight a pronounced clustering of restaurants around railway stations, underscoring the pivotal role of transit-oriented development in shaping urban dining patterns. Then, a sustainable dining choice was assessed through a multidimensional approach that incorporates economic preferences, environmental impacts along the supply chain and the nutritional quality of menu offerings. Further analysis uncovers severe inequalities in sustainable dining accessibility across station vicinities, railway lines and administrative wards, with up to 9 million daily passengers exposed to unsustainable dining environments. To address these disparities, we propose targeted interventions, including optimized restaurant spatial distribution, to enhance accessibility in underserved areas. By integrating these solutions, this study offers actionable insights for urban planners, policymakers and citizens, contributing to planetary health and advancing sustainability in urban dining systems. Access to dining options is a key concern for urbanites as is, increasingly, sustainable options. This study finds dining options in the Tokyo Metropolis area clustered around railway stations and with millions of such passengers with no access to sustainable dining options.",
+                "datePublished": "2025-05-02T00:00:00Z",
+                "dateModified": "2025-05-02T00:00:00Z",
+                "pageStart": "387",
+                "pageEnd": "399",
+                "sameAs": "https://doi.org/10.1038/s44284-025-00235-9",
+                "keywords": [
+                    "Environmental studies",
+                    "Nutrition",
+                    "Quality of life",
+                    "Science, technology and society",
+                    "Society",
+                    "Cities",
+                    "Countries",
+                    "Regions",
+                    "Sustainable Architecture/Green Buildings",
+                    "Civil Engineering",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urban Studies/Sociology",
+                    "Urban Economics"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_Fig6_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Cities",
+                    "issn": [
+                        "2731-9997"
+                    ],
+                    "volumeNumber": "2",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group US",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Liqiao Huang",
+                        "affiliation": [
+                            {
+                                "name": "The University of Tokyo",
+                                "address": {
+                                    "name": "Department of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo, Bunkyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yuyan Huang",
+                        "affiliation": [
+                            {
+                                "name": "Tongji University",
+                                "address": {
+                                    "name": "Department of Urban Planning, College of Architecture and Urban Planning, Tongji University, Shanghai, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Xuejie Lv",
+                        "affiliation": [
+                            {
+                                "name": "The University of Tokyo",
+                                "address": {
+                                    "name": "Department of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo, Bunkyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Sebastian Montagna",
+                        "url": "http://orcid.org/0009-0002-9910-9067",
+                        "affiliation": [
+                            {
+                                "name": "The University of Tokyo",
+                                "address": {
+                                    "name": "Department of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo, Bunkyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yoshikuni Yoshida",
+                        "url": "http://orcid.org/0000-0002-8834-8671",
+                        "affiliation": [
+                            {
+                                "name": "The University of Tokyo",
+                                "address": {
+                                    "name": "Department of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo, Bunkyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yin Long",
+                        "url": "http://orcid.org/0000-0002-6761-9735",
+                        "affiliation": [
+                            {
+                                "name": "The University of Tokyo",
+                                "address": {
+                                    "name": "Department of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo, Bunkyo, Japan",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "longyinutokyo@gmail.com",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": false,
+                "hasPart": {
+                    "isAccessibleForFree": false,
+                    "cssSelector": ".main-content",
+                    "@type": "WebPageElement"
+                },
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "environmental-studies;nutrition;quality-of-life;science-technology-and-society;society",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "Progress towards the Sustainable Development Goals",
+                            "webtrendsContentGroup": "Nature Cities",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s44284-025-00235-9"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": false,
+                            "legacy": {
+                                "webtrendsLicenceType": null
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Liqiao Huang",
+                            "Yuyan Huang",
+                            "Xuejie Lv",
+                            "Sebastian Montagna",
+                            "Yoshikuni Yoshida",
+                            "Yin Long"
+                        ],
+                        "publishedAt": 1746144000,
+                        "publishedAtString": "2025-05-02",
+                        "title": "Disparities in access to sustainable dining options across the Tokyo Metropolis",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Environmental studies,Nutrition,Quality of life,Science, technology and society,Society"
+                    },
+                    "journal": {
+                        "pcode": "natcities",
+                        "title": "nature cities",
+                        "volume": "2",
+                        "issue": "5",
+                        "id": 44284,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "bhfffjiadc"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Disparities in access to sustainable dining options across the Tokyo Metropolis",
+            "dc.source": "Nature Cities 2025 2:5",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-05-02",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rights": "2025 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Urbanization and fast-paced lifestyles have shaped diverse culinary landscapes in global cities. Yet, access to sustainable dining options remains highly uneven due to complex interactions between socioeconomic systems and individual behaviors. Here we introduce an integrated framework for evaluating sustainable dining accessibility, leveraging data from 3,649 menu items and 112,892 restaurants in Tokyo, Japan. Our findings highlight a pronounced clustering of restaurants around railway stations, underscoring the pivotal role of transit-oriented development in shaping urban dining patterns. Then, a sustainable dining choice was assessed through a multidimensional approach that incorporates economic preferences, environmental impacts along the supply chain and the nutritional quality of menu offerings. Further analysis uncovers severe inequalities in sustainable dining accessibility across station vicinities, railway lines and administrative wards, with up to 9 million daily passengers exposed to unsustainable dining environments. To address these disparities, we propose targeted interventions, including optimized restaurant spatial distribution, to enhance accessibility in underserved areas. By integrating these solutions, this study offers actionable insights for urban planners, policymakers and citizens, contributing to planetary health and advancing sustainability in urban dining systems. Access to dining options is a key concern for urbanites as is, increasingly, sustainable options. This study finds dining options in the Tokyo Metropolis area clustered around railway stations and with millions of such passengers with no access to sustainable dining options.",
+            "dc.identifier": "doi:10.1038/s44284-025-00235-9",
+            "dc.creator": "Long, Yin",
+            "dc.subject": "Society",
+            "prism.issn": "2731-9997",
+            "prism.publicationName": "Nature Cities",
+            "prism.publicationDate": "2025-05-02",
+            "prism.volume": "2",
+            "prism.number": "5",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "387",
+            "prism.endingPage": "399",
+            "prism.copyright": "2025 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s44284-025-00235-9",
+            "prism.doi": "doi:10.1038/s44284-025-00235-9",
+            "citation_pdf_url": "https://www.nature.com/articles/s44284-025-00235-9.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s44284-025-00235-9",
+            "citation_journal_title": "Nature Cities",
+            "citation_journal_abbrev": "Nat Cities",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2731-9997",
+            "citation_title": "Disparities in access to sustainable dining options across the Tokyo Metropolis",
+            "citation_volume": "2",
+            "citation_issue": "5",
+            "citation_publication_date": "2025/05",
+            "citation_online_date": "2025/05/02",
+            "citation_firstpage": "387",
+            "citation_lastpage": "399",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s44284-025-00235-9",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s44284-025-00235-9&api_key=",
+            "citation_reference": "citation_journal_title=Int. J. Geogr. Inf. Sci.; citation_title=Measurements of POI-based mixed use and their relationships with neighbourhood vibrancy; citation_author=Y Yue; citation_volume=31; citation_publication_date=2017; citation_pages=658-675; citation_doi=10.1080/13658816.2016.1220561; citation_id=CR54",
+            "citation_author": "Long, Yin",
+            "citation_author_institution": "Department of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo, Bunkyo, Japan",
+            "description": "Urbanization and fast-paced lifestyles have shaped diverse culinary landscapes in global cities. Yet, access to sustainable dining options remains highly uneven due to complex interactions between socioeconomic systems and individual behaviors. Here we introduce an integrated framework for evaluating sustainable dining accessibility, leveraging data from 3,649 menu items and 112,892 restaurants in Tokyo, Japan. Our findings highlight a pronounced clustering of restaurants around railway stations, underscoring the pivotal role of transit-oriented development in shaping urban dining patterns. Then, a sustainable dining choice was assessed through a multidimensional approach that incorporates economic preferences, environmental impacts along the supply chain and the nutritional quality of menu offerings. Further analysis uncovers severe inequalities in sustainable dining accessibility across station vicinities, railway lines and administrative wards, with up to 9 million daily passengers exposed to unsustainable dining environments. To address these disparities, we propose targeted interventions, including optimized restaurant spatial distribution, to enhance accessibility in underserved areas. By integrating these solutions, this study offers actionable insights for urban planners, policymakers and citizens, contributing to planetary health and advancing sustainability in urban dining systems. Access to dining options is a key concern for urbanites as is, increasingly, sustainable options. This study finds dining options in the Tokyo Metropolis area clustered around railway stations and with millions of such passengers with no access to sustainable dining options.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Disparities in access to sustainable dining options across the Tokyo Metropolis",
+            "twitter:description": "Nature Cities - Access to dining options is a key concern for urbanites as is, increasingly, sustainable options. This study finds dining options in the Tokyo Metropolis area clustered around...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44284-025-00235-9/MediaObjects/44284_2025_235_Fig1_HTML.png",
+            "DOI": "10.1038/s44284-025-00235-9",
+            "size": "270007",
+            "journal_id": "44284"
+        },
+        "canonical_url": "https://www.nature.com/articles/s44284-025-00235-9",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    },
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Dietary patterns exert profound and multifaceted impacts on health, the economy and the environment1,2,3,4,5,6. Unhealthy diets rank among the leading global health risk factors, contributing to chronic diseases such as cardiovascular disease, diabetes and obesity, and causing an estimated 11 million deaths annually1,7. Beyond health consequences, improper dietary habits might impose economic burdens, including unnecessary expenses and increased healthcare costs2,3,4. Environmentally, dietary behaviors are closely intertwined with agricultural systems, driving the consumption of land and water resources and contributing to greenhouse gas emissions8,9,10. Given these impacts, the concept of sustainable diets, which seeks to balance nutritional needs with environmental footprints, has gained increasing attention11,12.\nDespite the fact that poverty and hunger persist in many parts of the world, dining out becomes affordable in urban contexts, with the potential to enable a broader spectrum of the population to access this option13. The rise of demanding work-life dynamics, including long working hours, dual-income households and extended commuting times, has profoundly altered dietary patterns14. These factors leave individuals with less time to cook at home, making dining out or ordering food delivery a convenient option for many urban residents15,16. For instance, over 50% of adults in the United States dine out more than three times a week17, whereas in China, the figure stands at 42.2% among urban dwellers18.\nSo far, the co-benefits, trade-offs and synergies between dietary environmental footprints and nutritional quality are explored, assessing the impacts of dietary changes on health and environmental footprints19,20,21. For instance, systems modeling, scenario analysis and visualization tools are integrated21 to effectively evaluate the nexus of multiple dimensions to address the interdependencies among food, energy and environmental systems. Dietary guidelines, such as those from the EAT–Lancet Commission, emphasize balanced diets that reduce high-impact foods like red meat and promote plant-based options, providing a foundation for sustainable dietary practices22. However, despite these advancements, current frameworks largely focus on broad food categories and overlook the context of urban dining out behaviors.\nPrevious investigations into sustainable dining out often focus on microlevel interventions, such as using menu design to ‘nudge’ consumers toward environmentally friendly choices or highlighting the higher caloric, fat and sodium content of restaurant meals compared with home-cooked foods6,16,23. In reality, out-of-home meals are not only influenced by personal preferences and nutritional considerations but also by city-level factors such as the distribution, diversity, density, affordability and environmental impacts of food outlets24,25,26. Moreover, promoting sustainable dining does not necessitate compromising on personal taste and dietary preferences. A diverse culinary landscape enhances a city’s cultural vibrancy and offers a wider array of dietary choices27,28,29. Yet, access to dining out is uneven, with some regions being “food deserts” that offer limited high-quality, affordable options30,31. Therefore, establishing a comprehensive framework to evaluate dining out sustainability is crucial for addressing these challenges and ensuring equitable access to sustainable dining options.\nIn this study, we focus on Tokyo, one of the world’s most populous cities where dining out is integral to both social and professional life. For example, 46.8% of residents in Tokyo dine out at least once a week, and 12.1% do so daily (n = 487)32. Moreover, Tokyo serves as an exemplary setting, with a high commuter and tourist ratio, for exploring transit-oriented development, a key strategy for sustainable urban growth33. Its railway system, integrating extensive subway networks with railway lines, responsible for 66.7% of Tokyo’s transportation mode share, promotes the clustering of commercial facilities around stations34,35. Although the extensive transit system enables residents to seek better dining options elsewhere, local constraints in affordability, diversity and environmental performance still pose inconveniences. These unique dynamics make Tokyo ideal for assessing citizens’ exposure to unsustainable dining options in a busy urban environment and identifying improvements through urban planning and behavioral changes.\nTherefore, this study first established an analytical framework that integrates key dimensions of dining out sustainability, including nutritional offerings, price competitiveness, crowdedness, diversity and environmental footprints. Applying this framework across railway station vicinities, lines and administrative wards in Tokyo, we evaluated dining out practices and identified the inequalities in sustainable dining out accessibilities. On the basis of these findings, we propose targeted strategies to enhance sustainability in underperforming areas, fostering broader sustainable development initiatives. In this manner, we seek to provide residents with choices that balance taste enjoyment with environmental responsibility and offering insights into sustainable eating practices in other cities.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR24",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR11",
+                "ref-CR25",
+                "ref-CR9",
+                "ref-CR34",
+                "ref-CR35",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR12",
+                "ref-CR27",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR31",
+                "ref-CR29",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR20",
+                "ref-CR18",
+                "ref-CR28",
+                "ref-CR21",
+                "ref-CR30",
+                "ref-CR15",
+                "ref-CR26",
+                "ref-CR7",
+                "ref-CR33",
+                "ref-CR19",
+                "ref-CR32",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Sustainable dining out patterns from 112,892 restaurants\nFirst, we analyzed the distribution of restaurants in Tokyo, focusing on their density, the average price of dishes, the nutritional value of menu offerings, and the greenhouse gas emissions (measured in CO2-eq, a unit of carbon footprint) associated with restaurant operations and food supply. The distribution and pricing data (Supplementary Fig. 1) indicate that central areas (such as in the Chiyoda, Minato and Chuo wards) alongside subcentral areas (including the Shinjuku, Bunkyo, Shibuya and Toshima wards) exhibit much higher restaurant densities compared with peripheral areas. In these areas, the restaurant density averages 306.5 establishments per square kilometer, markedly exceeding the 57.8 observed in outlying areas. Beyond the sheer number, the average prices of restaurants in these central and subcentral areas are also elevated (Supplementary Fig. 1b). In particular, 92.1% of restaurants categorized as “extremely expensive” are concentrated in these areas, reflecting elevated consumer spending levels and the higher commercial real estate values that drive operating costs.\nHere a spatial correlation between restaurant distribution and proximity to railway stations is also observed, particularly in central business districts with extensive railway networks. Similarly, higher-priced establishments tend to be in these conveniently accessible areas. As a major global tourist destination attracting approximately 19.54 million international visitors annually36, Tokyo’s dining out landscape is also influenced by visitor demand. Given the role of visitors in dining out behaviors, we incorporated city-wide hotel distribution and accommodation capacity into our analysis (Supplementary Fig. 2). The results reveal a clear spatial alignment between hotel density and restaurant concentration, particularly in central areas. This pattern mirrors how tourists, transportation networks and socioeconomic factors shape the dining out landscape. Further categorical analysis reveals regional variations in restaurant types (Supplementary Note 1).\nTo evaluate the relationship between dietary quality and expenditure, the analysis examined nutritional efficiency across different restaurant types by assessing the nutrient content per 100 Japanese yen spent (Fig. 1a). Results show that Chinese noodles and burger spots generally offer higher energy content per unit expenditure, at 115.81 and 108.26 kcal per 100 yen, respectively, along with higher protein (4.19 and 4.56 g per 100 yen) and lipid (4.41 and 5.87 g per 100 yen) contents. Such results might be attributed to their preference for low-cost, calorie-dense ingredients such as flour37. Chinese noodles also exhibit high salt content, attributed to their broths and sauces38, unlike cafés and sushi restaurants, which feature lower salt levels due to simpler, lighter dishes. Meanwhile, all noodle stores show higher carbohydrate density due to their noodle-based composition. Additionally, age-, gender- and physical-activity-specific recommended daily intakes (RDIs) were incorporated into the analysis (Supplementary Fig. 4) to account for demographic variability in dietary requirements.\nFor the environmental impact of various dining establishments (Fig. 1b), barbecue eateries and Japanese bars tend to leave a substantial carbon footprint, with barbecue meals reaching up to 11,784 g of CO2 per serving. By contrast, cafés (1,131–1,450 g of CO2 per serving) and burgers (1,600–2,055 g of CO2 per serving) typically have a smaller environmental impact. The carbon footprint map of Tokyo’s dining venues highlights disparities throughout areas. For instance, certain areas within the Chuo and Minato wards stand out with higher carbon footprints. This pattern is probably influenced by the concentration of upscale Western, sushi and barbecue dining options in these neighborhoods, which are characterized by resource-intensive menu items and higher operational demands.\n### Sustainable dining out index for Tokyo’s railway stations\nBuilding on the previous analysis, we examine sustainable dining practices in Tokyo’s railway stations’ vicinities, key hubs in the city’s transit-oriented development. These stations not only drive passenger flow but also shape local dining landscapes by attracting diverse culinary options. Given that, we use the sustainable dining out index (SDOI) to evaluate the dining environment from five perspectives (Fig. 2).\nFrom Fig. 2a, the distributions of the five subindexes are observed. Central transfer hubs with high pedestrian traffic tend to score well on the crowdedness index. This is largely due to the high density of restaurants in these areas, which effectively distributes demand and minimizes excessive congestion. Moreover, these high-traffic areas demonstrate greater diversity in dining options, resulting in a higher diversity index. By contrast, areas with lower pedestrian activity often have fewer restaurant facilities, leading to limited availability and reduced dining variety. On the other hand, the environment and nutritional indexes showcase a relatively even distribution.\nIn the next step, the SDOIs of stations are displayed in Fig. 2b. Central and subcentral areas showcase their potential and practices in sustainable dining. Specifically, the radar chart highlights the top-performing stations: Shinjuku, Ginza and Ueno-Hirokoji. Shinjuku station at 0.81 has the highest SDOI value among all the stations, denoting a high overall performance across all the SDOI dimensions. Although excelling in diversity, Ginza station scores slightly lower in price competitiveness and has an SDOI of 0.79. This pattern suggests that although the station offers varied and high-quality dining options, affordability may challenge certain consumer groups. Although the variety of restaurants is not as diverse as at the above stations, Ueno-Hirokoji station also showcases strong performance with an SDOI of 0.80, standing out with the higher crowdedness index, suggesting potentially less crowded dining experiences. Despite these high-performing stations, 142 stations have lower SDOIs (less than 0.55, belonging to the last two tiers). This suggests a prevalent exposure of a substantial daily passenger volume (nearly 9 million) to unsustainable dietary environments. For instance, Kotake-Mukaihara (SDOI, 0.31), Kita-Ayase (SDOI, 0.39) and Kosuge (SDOI, 0.39) display lower values. Although some of these stations gain in price competitiveness, they suffer from limited dining diversity, lower nutritional value and weaker environmental considerations, underscoring the need for targeted improvements in these areas.\n### Dining out inequalities across railway lines and wards\nExpanding beyond station-level evaluations, this study examines sustainable dining environments along Tokyo’s railway lines and across its administrative wards. In Fig. 3, the SDOIs of 55 railway lines are presented. Initial findings suggest that lines with more stations, such as the Oedo and Yamanote lines, boast higher overall SDOIs of 23.40 and 18.08, respectively. This pattern is probably attributable to their extensive coverage across multiple wards, the inclusion of major commercial hubs (for example, Shinjuku on the Oedo line, offering up to 1,661 restaurants) and high passenger volumes (for example, the Yamanote line serves 14.17 million daily passengers, accounting for 11.15% of Tokyo’s total ridership). These factors collectively foster diverse and convenient dining options, thereby elevating their SDOI performance.\nAdditionally, the Ginza and Marunouchi lines, despite having fewer stations than other major lines, show a consistently high average station-level SDOI of 0.70 and 0.64, respectively. In particular, 18 out of the 19 stations along the Ginza line scored above 0.63, demonstrating a uniformly strong performance across the line. As one of Tokyo’s oldest subway lines traversing central commercial zones, the Ginza line benefits from well-developed business districts. Its strong station-level performance highlights the importance of strategic station placement and robust commercial integration in driving sustainable dining outcomes. Conversely, some lines exhibit both lower overall and average SDOIs (for example, the Nippori-Toneri Liner, with all stations’ SDOIs below 0.63), facing challenges in attracting sufficient restaurant establishments. This limitation results in restricted dining variety and quantity, posing obstacles to achieve sustainable dining environments.\nFigure 4 presents three metrics of the SDOI across Tokyo’s 23 wards: ward-wide SDOI, station-level SDOI and area-normalized SDOI. Ward-wide SDOIs offer a perspective on ward-level performance. Central and larger wards such as Chiyoda, Minato and Setagaya generally outperform others due to their location at the convergence of multiple railway lines and greater station presence. Nevertheless, examining station-level SDOI (average value per station) reveals sustainability disparities within wards. For instance, although Minato shows high ward-wide SDOI, certain stations within it perform below the ward average. To account for ward-size variations, the study introduces area-normalized SDOI scores, which consider the geographical dimensions of wards. In particular, the Chiyoda ward also stands out as a top performer here, indicating sustainable dining practices within a condensed area. Despite its smaller population and size, this ward stands out for its extensive number of railway stations and lines, coupled with a hub of convenience in Tokyo’s commercial and cultural heart. By contrast, non-central wards suffer from limited transport links and dining options.\nTo analyze the characteristics of administrative wards, we clustered these wards into four distinct types: commercial and shopping centers, residential quarters, modern urban hubs and traditional residential-style wards (Supplementary Tables 1 and 2). In Fig. 4d, the results of a representative ward of each cluster are presented.\nChiyoda ward, for instance, classified as a commercial and shopping center, scored the highest across all indexes. By contrast, Minato ward, one of the modern urban hubs, displayed relatively low station-level and area-normalized SDOIs. This ward is characterized by a diverse array of restaurants serving international cuisine, including the frequent presence of upscale dining establishments. Within this ward, the proportion of Western restaurants stands out, accounting for 11% of its total dining options. Despite its abundance of stations (38 stations) and restaurants (7,217 restaurants), the Minato ward also faces challenges. Although many stations have a diversity index higher than 0.6, more than half have a price competitiveness index lower than 0.5.\nSetagaya ward is an example of the residential quarters type, with Tokyo’s largest population and a moderate population density. Although its ward-wide SDOI is high, the area-normalized SDOI is relatively low (0.70, ranked 20th out of the 23 wards). Additionally, 11% of restaurants in Setagaya ward are Western style, indicating a more modern culinary scene. By contrast, the Taito ward represents traditional residential-style wards. Despite its smaller population and area (10.11 km2), Taito ward ranks high in population density (3rd out of the 23 wards). Known for its historic landmarks and cultural heritage, Taito ward attracts many tourists. Japanese meals, which make up 38% of the restaurants, reflect its cultural heritage, and the dining costs are relatively low compared with the other ward types.\n### Pathways to improve the sustainable dining out landscape\nTo address the inequality in Tokyo’s dining out environment, we explore pathways to improve the quality and sustainability of dining options around high-foot-traffic stations. To improve these stations’ sustainability to match the top tiers (SDOI > 0.55) identified in Fig. 2, we developed three optimization scenarios. Focusing on these stations maximizes the impact of improvements, promoting sustainable dining environments and enhancing overall community well-being.\nOptimization results indicate that merely increasing the number of restaurants is insufficient. For stations like Shinagawa (Fig. 5c), under the restaurant type not considered (NT) scenario, over 802 additional restaurants are needed to impact sustainability. Thus, a multifaceted approach is necessary, considering diversity and price competitiveness. Under the price competitiveness optimization (PRC) scenario, reducing restaurant prices by 16.8% and adding 148 establishments enables Shinagawa station to surpass the SDOI threshold of 0.55. For the distribution of the number and restaurant types under different scenarios, see Supplementary Figs. 5–10. The original SDOI distribution is provided in Supplementary Fig. 11.\nKita-Senju and Kita-Ayase stations (Fig. 5b,d), situated in northeastern Tokyo, exhibit lower station-level SDOI mainly due to an insufficient variety of restaurants. However, their affordability levels are comparatively high. Solely increasing the number of restaurants under the NT scenario would require 427 new venues in Kita-Senju and 149 in Kita-Ayase to reach the target SDOI. Conversely, a TDO approach drastically curtails these numbers to only 21 at the Kita-Senju station and 69 at the Kita-Ayase station. Similar patterns are observed at the Kotake-Mukaihara station (Fig. 5e), which reports the lowest baseline SDOI among the studied locations, attributed to a scarcity of restaurants and relatively high average prices. In the optimal scenario (PRC), reducing prices by 9.59% alongside introducing 63 new eateries suffice to elevate this station into the sustainable category. These findings emphasize the need for tailored strategies to address specific deficits at each station, such as price, diversity or restaurant availability. Targeted improvements at key stations could reduce the exposure of approximately 2.2 million daily passengers to unsustainable dining environments, enhancing both quality and equity of Tokyo’s dining landscape.",
+            "cites": [
+                "ref-CR38",
+                "ref-CR37",
+                "ref-CR36"
+            ],
+            "figures": [
+                "figure-5",
+                "figure-3",
+                "figure-2",
+                "figure-4",
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Dining out is a growing trend in metropolitan areas, vital in shaping urban diets; yet, its sustainability remains underexplored. To address this, our study develops a multidimensional framework (see Fig. 6 for the complete workflow) to evaluate sustainable dining out practices in Tokyo using SDOIs across stations, railway lines and administrative wards. Through this approach, we identify inequalities in accessibilities and propose targeted solutions using an optimization model to enhance sustainability around underserved yet high-traffic stations, providing actionable insights for urban planners and policymakers.\nConsistent with prior studies, which utilize spatial methods to analyze urban food environments39,40, our findings first reveal the uneven distribution of restaurants and the inequalities in SDOIs across Tokyo. Central areas like the Chiyoda and Minato wards have higher restaurant densities and more diverse dining options than peripheral areas. Though their SDOI is superior, this comes with elevated costs, reducing their price competitiveness. Conversely, stations like Kita-Ayase in the peripheral areas offer more affordable meals but lack variety, nutritional quality and environmental considerations. This duality underscores the pressing need for a balanced approach to dining sustainability that considers both affordability and diversity.\nThis study further verified that public transportation shapes dining landscapes and access to sustainable diets, as prior studies suggested41. Previous research highlighted the role of transit networks in connecting underserved areas, such as urban food deserts, to grocery stores and nutritious food options, emphasizing the importance of maintaining public transit infrastructure to mitigate access inequalities. Building on this foundation, our research addresses the overlooked aspect of dining out sustainability. Specifically, we identified that nearly 9 million daily passengers are exposed to unsustainable dining environments. Using mathematical optimization, we proposed tailored strategies to improve the SDOI at stations with specific features, such as enhancing restaurant diversity or increasing price competitiveness. Although our findings are focused on Tokyo, the proposed framework and methodology have the potential to be adapted to other urban settings. By integrating these methods with local cultural, socioeconomic and policy contexts, more targeted guidance and tools can be facilitated to achieve sustainable dining practices even in smaller cities or urban areas where dining out is still developing.\nThis study on sustainable dining out advances academic discussions and provides implications for residents, restaurant owners, public utility operators and policymakers. Considering passengers can switch routes or dining locations throughout the day, our findings help them understand how the available facilities around stations may limit their dietary choices. This enriches the understanding of dining sustainability, addressing gaps left by previous research primarily focused on broad food suggestions for residents42,43,44. Besides, our research offers market insights for businesses. By identifying gaps in sustainable dining across stations and areas, businesses can strategically open restaurants in underserved locations, catering to high-traffic but underserved areas with diverse and eco-friendly options. This can enhance profitability and promote sustainable dining. Additionally, mismatches between dining facilities and passenger needs reveal opportunities for rail operators to collaborate with restaurateurs to enhance dining options.\nOur findings also offer implications for the government, highlighting the need to address spatial disparities in sustainable dining environments and promote equitable resource distribution. The results align with previous studies on the tertiary sector, showing that population density enhances scale efficiency to some extent45,46. However, this may lead to uneven commercial development, with less trafficked areas lagging, resulting in economic and social disparities and increasing urban imbalance. Hence, it encourages restaurant sustainability and ensures that economic development policies do not disproportionately favor high-density areas and include measures to support growth in underserved regions47.\nDespite filling a research gap in sustainable dining out, our study is limited by data availability. Though we acknowledge differences in dish nutrition and consumer choices, we could not precisely obtain detailed menu data for all 112,892 restaurants. Hence, this study relies on large chain menus and assumes similar nutritional profiles across restaurant types. Moreover, although our study identifies potential health risks from high-sodium, high-calorie dishes, further analysis is needed. Additionally, examining dining frequency and patterns could provide insights into the overall dietary habits and their implications for public health strategies. Broadening the scope of dining out to include the environmental impacts like waste management and water pollution48,49,50, along with extending the analysis to include comparative studies across cities, would also be beneficial.",
+            "cites": [
+                "ref-CR47",
+                "ref-CR48",
+                "ref-CR41",
+                "ref-CR46",
+                "ref-CR39",
+                "ref-CR49",
+                "ref-CR45",
+                "ref-CR42",
+                "ref-CR43",
+                "ref-CR44",
+                "ref-CR40",
+                "ref-CR50"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "To provide an overview of the methodological framework used in this study, we present a process flowchart (Fig. 6) summarizing the key stages of data collection, categorization, analysis and optimization.\n### Dining out menu dataset\nWe embarked on a data collection phase to gain insight into restaurant offerings’ nutritional and economic aspects. By scouring the official websites of renowned chain restaurants in Tokyo, we gathered publicly available menu information from chain stores (Supplementary Table 3). Each dish’s nutritional profile was recorded, focusing on five nutrients: calories, proteins, carbohydrates, fats and salt content. We also retrieved the pricing information for each dish as of November 2024. Hence, we established a dining out menu database encompassing 2,730 dishes from 35 chain restaurants.\nGiven the lack of menu data for all restaurants in Tokyo, we assumed that dishes within the same restaurant type share similar nutritional profiles. Monte Carlo simulation has been used to validate this assumption (Supplementary Note 5). This step confirmed the validity of aggregating dish-level data to represent the average nutritional profile of each restaurant type (Supplementary Fig. 12).\n### Restaurant information data\nGeographical and contextual restaurant information was obtained from points of interest (POI) data within the Tokyo metropolitan area. We used the places API from the Google Maps platform to retrieve the POI data, including essential details such as the restaurant name, address, latitude, longitude, identifier code and price level (Supplementary Table 4). To ensure complete coverage of Tokyo’s 23 administrative wards, we systematically defined a set of sampling circles within the area (Supplementary Fig. 13). Following a cleaning step, the ultimate database contains 112,892 restaurant POI entries.\n### Public transport open data and dining out sketch for households in Japan\nData on railway stations and their daily passenger traffic (averaged over 2020) were obtained from the National Land Information Division, Ministry of Land, Infrastructure, Transport and Tourism, Japan, which includes station locations, route details and operator types (see the ‘Data availability’ section). Furthermore, we applied the classification criteria delineated in the Family Income and Expenditure Survey (FIES) to classify dining out expenditures into 12 types. The FIES, a cornerstone of household income and expenditure surveys, provides information on Japan’s spending patterns and dining frequency of diverse income strata.\n### Menu and restaurant data categorization and validation\nDrawing on the standards set by the FIES, our collected menu data are categorized into 12 dining subtypes. Specifically, the distribution of dishes from the out-of-home dining menu database is noted in Supplementary Table 5. All entries sourced from Google Maps formed the initial dataset for the restaurant POI data. Each restaurant was assigned a ‘primary type’ label, comprising 100 specific categories such as ‘ramen’, ‘sushi’ or ‘café’ (Supplementary Table 6). These categories were mapped directly into 12 subtypes.\nHowever, 15,381 entries were ambiguously labeled with general terms such as ‘restaurant’, ‘food’, or ‘point_of_interest’, which could not be directly assigned to a specific category. To address this ambiguity, we integrated information from Tabelog, a Japanese dining review platform (Supplementary Note 7). Each restaurant was searched using its name, address and the keyword ‘Tabelog’ within the Japanese-language search engine. Tabelog’s system, which tags each restaurant with one to three labels in an arbitrary sequence, identified 210 unique labels and 3,649 combinations. The label combinations were then mapped to 12 FIES subtypes through a manual classification process. We primarily relied on the first label for classification. For restaurants with multiple labels, we determined the type based on label frequency; for example, if two labels (‘sushi’ and ‘seafood’) aligned with a specific type, the restaurant was accordingly classified as a sushi restaurant. This method organized 112,892 restaurant POIs into 12 FIES types.\n### Price, nutritional data and environmental landscape of dining out\nFor all collected POI data of restaurants, we calculated the mean price across Tokyo based on the price-level information provided by Google Maps. Each restaurant was assigned a price category (inexpensive = 1, moderate = 2, expensive = 3 and extremely expensive = 4).\nEach restaurant’s geographic location and the corresponding price level were used as input data points in our processing. Instead of imposing a predefined grid, we interpolated restaurant price levels using a nearest-neighbor approach, averaging prices within local neighborhoods. The mean price information is spatially displayed with these categories using ArcGIS v. 10.7.\nTo evaluate dish-level nutritional quality across diverse restaurant categories and price ranges, we calculated the ‘nutrient density’51,52 by quantifying calories and nutrients per 100 Japanese yen using equation (1).\nHere i denotes the restaurant type, u is the nutrient item, mi,u is the number of dishes in type i with nutrient u, Ni,u,d denotes the nutrient content of dish d and Pricei,d denotes the price value.\nMonte Carlo simulation was also used here to incorporate randomness into the sampling process and better capture the uncertainty in the nutrient density estimates. In each of the 1,000 iterations, dishes from each type of restaurant were sampled with equal probability, and the nutritional density for each nutrient was recalculated. The simulated mean nutritional density \\({{{\\rm{ND}}}}_{i,u}^{{{\\rm{simulated}}}}\\) was computed as\nwhere S represents the number of simulation iterations and \\({N}_{i,u,d}^{\\,(s)}\\) and \\({{{\\rm{Price}}}}_{i,d}^{(s)}\\) denote the nutrient content and price of dish d sampled during the sth iteration, respectively. Then, the 95% confidence interval for the nutritional density was calculated using the 2.5th and 97.5th percentiles of the \\({{{\\rm{ND}}}}_{i,u}^{{{\\rm{simulated}}}}\\) values obtained through 1,000 iterations.\nIn the next stage, our analysis extended to the environmental impact, specifically the carbon footprint of restaurants. Data from the FIES and input–output life cycle inventory (3EID) databases were incorporated. Here the emission intensities from the 3EID database were adopted to quantify the final carbon footprint using consumption data from the FIES, which encompasses data from 7,424 households representing diverse income brackets.\nFor the indirect emission intensities \\({e}_{t}^{{\\rm{indirect}}}\\), input–output analysis is applied as follows:\nwhere t denotes the item category, D is the direct emission intensity row vector, D = [di], I is the identity matrix, \\(\\bar{{\\bf{M}}}\\) represents the diagonal matrix of direct requirement coefficients for imports and A is an interindustry exchange matrix.\nThe carbon footprint of each meal offered by restaurants was calculated by integrating the emission intensity for the respective price ranges, with the meal information provided by the restaurants, classified into four price tiers according to Google Maps. The indirect carbon emissions \\({E}_{i,g}^{{\\,{\\rm{indirect}}}}\\) per person per meal for restaurant type i by income group g were computed using equation (4):\nwhere \\({y}_{i,g}^{{\\rm{FIES}}}\\) denotes the annual total expenditure of a household in income group g at restaurant type i, fi,g is the purchase frequency of restaurant type i, \\({e}_{{\\rm{dining}}\\,{\\rm{out}}}^{{{\\rm{indirect}}}}\\) signifies the emission factor associated with eating out and \\({h}_{g}^{{\\rm{FIES}}}\\) refers to the average number of people in income group g. To elucidate the geographical disparities in carbon emissions from dining out, we used an inverse distance weighting53 interpolation.\n### Sustainable dining out in the vicinity of train stations\nWe developed the SDOI to measure dining out sustainability near stations. The SDOI integrates five dimensions: (1) nutrition, (2) environmental impact, (3) restaurant diversity, (4) price competitiveness and (5) crowdedness.\n#### Nutritional index\nWe calculated the nutritional index by accounting for desirable nutrient Ud (protein), non-desirable nutrient to be limited Ul (salt) and basic nutrients Ub (lipid and carbohydrate). This approach captures both nutritional value and dietary risks associated with meals offered by different restaurant types, accounting for the specific dietary needs of various demographic groups defined by age and gender.\nThe contribution of beneficial nutrients was assessed through the desirable nutrient density score (DNDS), which measures the proportion of beneficial nutrient intake relative to its RDI values (RDI). For nutrient u in restaurant type c, gender g, age group a and body activity level l (detailed in Supplementary Note 2), DNDS is calculated as\nwhere wu,c is the actual weight of nutrient u per 100 kcal in the meal in a given type of restaurant, and RDIu,g,a,l is the daily recommended value for nutrient u adjusted per 100 kcal for gender g in age group a with a specific body activity level.\nTo account for nutrients that should be limited, a non-desirable nutrient density score (NNDS) is applied, formulated as equation (6).\nA lower NNDS indicates better compliance with the recommended limits for these nutrients.\nFor basic nutrients such as lipids and carbohydrates, which are essential for providing energy and maintaining macronutrient balance, the RDI score (RNDS) evaluates how closely the intake aligns with the RDI. This is calculated as\nHere a lower RNDS reflects a closer alignment with the recommended values, rewarding balanced macronutrient intake.\nTo enable comparability across nutrients and demographic groups, all subscores (DNDSu,c,g,a,l, NNDSu,c,g,a,l and RNDSu,c,g,a,l) were normalized using a min–max scaling approach:\nThe normalized subscores were then combined into an overall nutrient density score (NDS) for each demographic group as equation (9). Then, the NDS values were normalized using equation (10).\nAs one dimension of the SDOI index, the nutritional index Nj quantifies the nutritional adequacy of meals in station j’s nearby restaurants k ∈ Vj (within a 500-m radius) considering that the NDS value varies among genders and age groups, as noted in equation (11):\n#### Diversity index\nWe assessed the diversity of restaurants in railway station vicinities using an index based on the Shannon diversity index H (a form of Hill numbers, with the diversity order q = 1)54. It considers both variety and abundance of restaurant types within a 500-m radius of stations. The restaurants are categorized into s distinct types. Restaurants were categorized using Google Maps’ primary restaurant types, encompassing 100 types (Supplementary Table 6). For each station j, we denote the number of restaurants of type i as ni,j. The total number of restaurants, Numj, is the sum of all ni,j across restaurant categories: \\({{{\\rm{Num}}}}_{j}=\\mathop{\\sum }\\nolimits_{i=1}^{s}{n}_{i,j}\\). This method is suitable for comparing samples of different sizes, given the various numbers of restaurants around each station, expressed as equation (12):\nHere pi,j is the relative abundance of restaurants type i near station j, calculated by \\({p}_{i,j}=\\frac{{n}_{i,j}}{{{{\\rm{Num}}}}_{j}}\\).\nDue to the limitations of directly comparing Shannon indexes across samples of varying sizes, we normalized these indexes for each station as \\({H}_{j}^{{\\prime} }\\) (\\({H}_{j}^{{\\prime} }=\\frac{{H}_{j}}{{H}_{j,\\max }}\\)). This is then multiplied by the normalized number of restaurants \\({\\rm{Num}}_{j}^{{\\prime} }\\) (\\({\\rm{Num}}_{j}^{{\\prime} }=\\frac{{\\rm{Num}}_{j}}{{\\rm{Num}}_{j,\\max }}\\)) at that station to derive a composite restaurant diversity index Ij, as expressed in equation (13).\nThis composite index Ij effectively evaluates the diversity of restaurant choices in railway station vicinities, considering the number and variety of restaurant types available.\n#### Crowdedness and environment index\nThe crowdedness index (Cj) for each train station’s vicinity was calculated to assess the dining congestion levels, derived using equation (14):\nwhere PFj represents the daily foot traffic at station j.\nFor the environmental impact assessment, we considered the inverse of the average carbon footprint of all restaurants within a 500-m radius of a train station. This inverse value was then normalized, as equations (15) and (16).\nHere \\({E}_{j}^{{\\prime} }\\) represents the average carbon footprint for station j, Vj is the set of all restaurants within the 500-m radius range of station j, Numj equals to the cardinality of the set Vj, \\({E}_{k}^{r,{\\rm{indirect}}}\\) is the indirect carbon footprint of restaurant k (determined by the price level and restaurant type), Ej is the normalized environmental index using the maximum and minimum values of \\({E}_{j}^{{\\prime} }\\).\n#### Price competitiveness index\nWe assume that lower-priced options enhance economic sustainability. Price levels (1–4) from Google Maps were mapped to competitiveness scores (0.8 for inexpensive to 0.2 for highest priced). The overall price competitiveness index Pj for a station’s vicinity was computed as the average of the scores of all the included restaurants within station j’s 500-m radius, as equation (17).\nwhere Plk represents the price level of restaurant k in station j’s vicinity.\n#### SDOI index\nIn calculating the SDOI, we quantified various aspects of station performance across five dimensions, normalizing each to a 0 to 1 scale and giving them equal weight in the SDOI calculation. This approach ensures consistency and comparability, accounting for different statistical properties such as distribution shape and variability. In this study, we visualize the SDOIs for each station utilizing radar charts. The area of the pentagon formed by connecting the subindexes of each dimension represents the final SDOI of the station.\nThe area of the polygon is calculated using the Gauss area formula, which determines the size of the boundary area based on the Cartesian coordinates of the polygon vertices. Therefore, each subindex is first mapped to a point in a two-dimensional plane based on angles in a pentagon, as equation (18):\nwhere (Xφ0, Xφ1, Xφ2, Xφ3, Xφ4) = Perφ[P, E, I, N, C], denoting one possible permutation of five subindexes.\nThen, its area can be calculated as equation (19).\nSince the area of the polygon is related to the ordering of individual subindexes, the SDOI for each station is the average area across all permutations, as equation (20).\nin which Aφ is the area of the polygon for permutation φ. This average area calculation measures the sustainable dining environment at each station, with a larger area indicating a higher sustainability index.\n### Analytical approach for railway line and administrative ward\nTo analyze the SDOI along various railway lines, we used the average SDOI and overall SDOI for each line. The overall index was calculated by summing the individual SDOIs of all stations along a line, reflecting the line’s overall strength in sustainable dining. The average SDOI provided insights into the balanced development of sustainable dining along the line.\nSimilarly, we evaluated ward-wide SDOI by summing all stations’ SDOI within a ward, station-level SDOI as the mean station value in that ward and area-normalized SDOI (dividing by ward area) to mitigate size-related bias. Any methodological adjustments required for station overlaps or discrepancies in the population flow data are documented in Supplementary Note 8.\n### Optimization model for enhancing SDOI\nTo address the inequality in Tokyo’s dining out environment, we formulated a mixed-integer linear programming model that adjusts restaurant types and numbers and accounts for crowdedness and price competitiveness. Three scenarios were introduced to explore improvements at high-foot-traffic stations:\n#### Basic model for the NT and TDO scenarios\nThe objective function minimizes the sum of deviations from the original restaurant distribution:\nwhere Bij is the original number of restaurants of type i at station j.\nAs for the constraints, three aspects are taken into consideration. The first is the constraint on SDOI results. To improve the sustainability of stations with low SDOIs, we set the lower SDOI limit of the restaurant in the second tier in Fig. 3 as the optimization constraint. That is, by increasing the number of restaurants and enriching the restaurant types, the SDOI of the optimized station can be promoted into the second echelon. For each station j,\nThe area SDOIj is calculated using the shoelace formula as mentioned above, as denoted in equations (18)–(20).\nSecond, the total number of additional restaurants at each station is limited relative to its passenger traffic to avoid oversupply. Initially, we compute the ratio of restaurant count to foot traffic for all stations in Tokyo. For restaurants requiring improvement in their SDOIs, the maximum increase in restaurant numbers is set not to exceed what is proportionate to their respective passenger volumes, as equation (23):\nwhere R is the average of the traffic to all the station restaurants.\nThe third constraint focuses on the restaurant types. Therefore, we consider the current distribution of various restaurant types across all stations in Tokyo. Clearly, whether viewed from a commercial perspective or in terms of enhancing diversity in dining choices, the potential benefits of adding any type of restaurant without constraints are limited. Thus, we calculate the average proportion of different restaurant types around all stations.\nFor restaurants that require an increase in their SDOI, the maximum increase in the number of restaurants of each type is constrained by its proportion among all restaurants in that area (parameter set between zero and two times). This is expressed as\nwhere Rj is the original ratio of restaurants of type i, and T is the total number of restaurants.\nTo evaluate the impact of different strategies on improving the SDOI, the NT scenario focuses solely on increasing the number of existing restaurant types to reduce crowding. Although this approach affects the diversity index (since our diversity calculation includes the number of restaurants), it does not introduce a new restaurant type. On the other hand, the NT scenario aims to enhance restaurant diversity by introducing new types of dining option. The Shannon diversity index is recalculated to reflect the introduction of these new restaurant types, improving the overall diversity index. The updated diversity index \\({H}_{j}^{{\\rm{u}}}\\) is calculated as\nwhere s′ represents the updated total number of restaurant types, and \\({p}_{i,j}^{{\\rm{u}}}\\) is the updated relative abundance of restaurant type i near station j.\n### Optimization model for PRC scenario\nIn addition to the previous model, we developed another optimization model that follows the same objective (equation (21)) but introduces constraints based on the price of restaurants, in addition to constraints from equation (22) to equation (25). Specifically, for the second optimization model, we not only consider the variables xi,j (the number of restaurants of type j at station i), which influence the diversity and crowdedness subindexes, but also incorporate price levels into the model.\nTo incorporate the dynamic price levels into the model, we recalculate the new price index \\({P}_{j}^{{\\prime} }\\) by equation (18) using the new attributes of xi,j. Moreover, a constraint ensuring that the increased price will not exceed the average for all restaurants in Tokyo has been added as equation (26):\nwhere \\({P}_{j}^{{\\prime} }\\) is the updated price competitiveness index for station j, and Paverage is the average price competitiveness index for all stations in Tokyo.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR53",
+                "ref-CR52",
+                "ref-CR54",
+                "ref-CR51"
+            ],
+            "figures": [
+                "figure-6"
+            ]
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Nutritional values, carbon footprints across different restaurant types and spatial distribution across Tokyo.",
+            "figure-caption": "a, Distribution of 5 major nutrients (energy, protein, fat, carbohydrates and salt equivalent) that restaurant dishes provide per 100 Japanese yen (JPY). b, Carbon footprint distribution of restaurants: the spatial distribution of carbon footprint, colored from blue (low) to red (high), (i); the average carbon footprint embodied in dishes by 12 restaurant types in a single meal (ii).Source data",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00235-9/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: SDOI in railway station vicinities.",
+            "figure-caption": "a, Crowdedness of restaurants, the diversity of restaurant types, the environmental impact of dietary offerings, nutritional value assessments of food provided and price competitiveness levels. b, SDOI of railway stations in Tokyo. Radar charts denote the subindexes for both top-performing and lowest-performing stations. Higher values indicate less crowdedness, richer dining options, lesser environmental impact, more nutritional value and lower prices.Source data",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00235-9/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: SDOI across Tokyo’s railway lines.",
+            "figure-caption": "a, Overall SDOI per line (yellow) and average index per station (gray). b, Average SDOI for railway lines. c,d, Details of the top-performing lines: Oedo line (c) and Ginza line (d). The violin plots illustrate the nutrition, price competitiveness, diversity, environmental impact and station crowdedness index.Source data",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00235-9/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: SDOIs across Tokyo’s 23 wards.",
+            "figure-caption": "a–c, Ward-wide (a), station-level (b) and area-normalized (c) SDOIs for Tokyo’s 23 wards. d, Representatives for four clusters of wards, namely, Chiyoda, Setagaya, Minato and Taito wards, detailing the configurations of railway lines and stations, along with SDOI results reflected by the size and color of the circles. The pie charts depict the ratio of restaurant types.Source data",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00235-9/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Optimization scenarios for SDOI improvement around high-foot-traffic stations.",
+            "figure-caption": "a, Spatial distribution of targeted stations. b–e, Scenario analysis results for Kita-Senju (b), Shinagawa (c), Kita-Ayase (d) and Kotake-Mukaihara (e) stations under business as usual (BAU), type and diversity optimization (TDO), PRC and NT scenarios. Price, price competitiveness; Envir., environmental footprint; Nutri., nutritional offerings; Diver., diversity; Crowd., crowdedness.Source data",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00235-9/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: Framework for sustainable dining out analysis and optimization.",
+            "figure-caption": "The flowchart outlines data collection, processing and multidimensional evaluation of SDOI (nutrition, price, environment, crowdedness, diversity), followed by a mixed-integer linear programming model to optimize dining out sustainability in station vicinities. IDW, inverse distance weighting.",
+            "figure-link": "https://www.nature.com/articles/s44284-025-00235-9/figures/6"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Afshin, A. et al. Health effects of dietary risks in 195 countries, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017. Lancet 393, 1958–1972 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2819%2930041-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Health%20effects%20of%20dietary%20risks%20in%20195%20countries%2C%201990%E2%80%932017%3A%20a%20systematic%20analysis%20for%20the%20Global%20Burden%20of%20Disease%20Study%202017&journal=Lancet&doi=10.1016%2FS0140-6736%2819%2930041-8&volume=393&pages=1958-1972&publication_year=2019&author=Afshin%2CA"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Crippa, M. et al. Food systems are responsible for a third of global anthropogenic GHG emissions. Nat. Food 2, 198–209 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs43016-021-00225-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Food%20systems%20are%20responsible%20for%20a%20third%20of%20global%20anthropogenic%20GHG%20emissions&journal=Nat.%20Food&doi=10.1038%2Fs43016-021-00225-9&volume=2&pages=198-209&publication_year=2021&author=Crippa%2CM"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Xue, L. et al. China’s food loss and waste embodies increasing environmental impacts. Nat. Food 2, 519–528 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs43016-021-00317-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=China%E2%80%99s%20food%20loss%20and%20waste%20embodies%20increasing%20environmental%20impacts&journal=Nat.%20Food&doi=10.1038%2Fs43016-021-00317-6&volume=2&pages=519-528&publication_year=2021&author=Xue%2CL"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Gerten, D. et al. Feeding ten billion people is possible within four terrestrial planetary boundaries. Nat. Sustain. 3, 200–208 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-019-0465-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Feeding%20ten%20billion%20people%20is%20possible%20within%20four%20terrestrial%20planetary%20boundaries&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-019-0465-1&volume=3&pages=200-208&publication_year=2020&author=Gerten%2CD"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Long, Y. et al. Carbon footprint and embodied nutrition evaluation of 388 recipes. Sci. Data 10, 794 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41597-023-02702-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Carbon%20footprint%20and%20embodied%20nutrition%20evaluation%20of%20388%20recipes&journal=Sci.%20Data&doi=10.1038%2Fs41597-023-02702-1&volume=10&publication_year=2023&author=Long%2CY"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "An, R. Fast-food and full-service restaurant consumption and daily energy and nutrient intakes in US adults. Eur. J. Clin. Nutr. 70, 97–103 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fejcn.2015.104",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fast-food%20and%20full-service%20restaurant%20consumption%20and%20daily%20energy%20and%20nutrient%20intakes%20in%20US%20adults&journal=Eur.%20J.%20Clin.%20Nutr.&doi=10.1038%2Fejcn.2015.104&volume=70&pages=97-103&publication_year=2016&author=An%2CR"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Sinharay, R. et al. Respiratory and cardiovascular responses to walking down a traffic-polluted road compared with walking in a traffic-free area in participants aged 60 years and older with chronic lung or heart disease and age-matched healthy controls: a randomised, crossover study. Lancet 391, 339–349 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2817%2932643-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Respiratory%20and%20cardiovascular%20responses%20to%20walking%20down%20a%20traffic-polluted%20road%20compared%20with%20walking%20in%20a%20traffic-free%20area%20in%20participants%20aged%2060%E2%80%89years%20and%20older%20with%20chronic%20lung%20or%20heart%20disease%20and%20age-matched%20healthy%20controls%3A%20a%20randomised%2C%20crossover%20study&journal=Lancet&doi=10.1016%2FS0140-6736%2817%2932643-0&volume=391&pages=339-349&publication_year=2018&author=Sinharay%2CR"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Chen, C. X., Chaudhary, A. & Mathys, A. Dietary change and global sustainable development goals. Front. Sustain. Food Syst. 6, 771041 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Kenny, T. A., Woodside, J., Perry, I. J. & Harrington, J. M. Consumer attitudes and behaviors toward more sustainable diets: a scoping review. Nutr. Rev. 81, 1665–1679 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fnutrit%2Fnuad033",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Consumer%20attitudes%20and%20behaviors%20toward%20more%20sustainable%20diets%3A%20a%20scoping%20review&journal=Nutr.%20Rev.&doi=10.1093%2Fnutrit%2Fnuad033&volume=81&pages=1665-1679&publication_year=2023&author=Kenny%2CTA&author=Woodside%2CJ&author=Perry%2CIJ&author=Harrington%2CJM"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Chiu, M. C., Tu, Y. L. & Kao, M. C. Applying deep learning image recognition technology to promote environmentally sustainable behavior. Sustain. Prod. Consum. 31, 736–749 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.spc.2022.03.031",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Applying%20deep%20learning%20image%20recognition%20technology%20to%20promote%20environmentally%20sustainable%20behavior&journal=Sustain.%20Prod.%20Consum.&doi=10.1016%2Fj.spc.2022.03.031&volume=31&pages=736-749&publication_year=2022&author=Chiu%2CMC&author=Tu%2CYL&author=Kao%2CMC"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Ambikapathi, R. et al. Global food systems transitions have enabled affordable diets but had less favourable outcomes for nutrition, environmental health, inclusion and equity. Nat. Food 3, 764–779 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs43016-022-00588-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20food%20systems%20transitions%20have%20enabled%20affordable%20diets%20but%20had%20less%20favourable%20outcomes%20for%20nutrition%2C%20environmental%20health%2C%20inclusion%20and%20equity&journal=Nat.%20Food&doi=10.1038%2Fs43016-022-00588-7&volume=3&pages=764-779&publication_year=2022&author=Ambikapathi%2CR"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Long, Y. et al. Mixed diets can meet nutrient requirements with lower carbon footprints. Sci. Adv. 10, eadh1077 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fsciadv.adh1077",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mixed%20diets%20can%20meet%20nutrient%20requirements%20with%20lower%20carbon%20footprints&journal=Sci.%20Adv.&doi=10.1126%2Fsciadv.adh1077&volume=10&publication_year=2024&author=Long%2CY"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Rodríguez-López, M., Alcántara-Pilar, J., Del Barrio-García, S. & Muñoz-Leiva, F. A review of restaurant research in the last two decades: a bibliometric analysis. Int. J. Hosp. Manag. 87, 102387 (2020)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Oostenbach, L., Lamb, K., Crawford, D. & Thornton, L. Influence of work hours and commute time on food practices: a longitudinal analysis of the Household, Income and Labour Dynamics in Australia Survey. BMJ Open 12, e056212 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Fbmjopen-2021-056212",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Influence%20of%20work%20hours%20and%20commute%20time%20on%20food%20practices%3A%20a%20longitudinal%20analysis%20of%20the%20Household%2C%20Income%20and%20Labour%20Dynamics%20in%20Australia%20Survey&journal=BMJ%20Open&doi=10.1136%2Fbmjopen-2021-056212&volume=12&publication_year=2022&author=Oostenbach%2CL&author=Lamb%2CK&author=Crawford%2CD&author=Thornton%2CL"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Larson, N. I., Nelson, M. C., Neumark-Sztainer, D., Story, M. & Hannan, P. J. Making time for meals: meal structure and associations with dietary intake in young adults. J. Am. Diet. Assoc. 109, 72–79 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jada.2008.10.017",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Making%20time%20for%20meals%3A%20meal%20structure%20and%20associations%20with%20dietary%20intake%20in%20young%20adults&journal=J.%20Am.%20Diet.%20Assoc.&doi=10.1016%2Fj.jada.2008.10.017&volume=109&pages=72-79&publication_year=2009&author=Larson%2CNI&author=Nelson%2CMC&author=Neumark-Sztainer%2CD&author=Story%2CM&author=Hannan%2CPJ"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Lachat, C. et al. Eating out of home and its association with dietary intake: a systematic review of the evidence. Obes. Rev. 13, 329–346 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1467-789X.2011.00953.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Eating%20out%20of%20home%20and%20its%20association%20with%20dietary%20intake%3A%20a%20systematic%20review%20of%20the%20evidence&journal=Obes.%20Rev.&doi=10.1111%2Fj.1467-789X.2011.00953.x&volume=13&pages=329-346&publication_year=2012&author=Lachat%2CC"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Kant, A. K., Whitley, M. I. & Graubard, B. I. Away from home meals: associations with biomarkers of chronic disease and dietary intake in American adults, NHANES 2005-2010. Int. J. Obes. 39, 820–827 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fijo.2014.183",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Away%20from%20home%20meals%3A%20associations%20with%20biomarkers%20of%20chronic%20disease%20and%20dietary%20intake%20in%20American%20adults%2C%20NHANES%202005-2010&journal=Int.%20J.%20Obes.&doi=10.1038%2Fijo.2014.183&volume=39&pages=820-827&publication_year=2015&author=Kant%2CAK&author=Whitley%2CMI&author=Graubard%2CBI"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "National Health Commission of the People’s Republic of China Report on the Status of Chinese Residents’ Nutrition and Chronic Diseases (People’s Health Publishing House, 2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "He, P., Feng, K., Baiocchi, G., Sun, L. & Hubacek, K. Shifts towards healthy diets in the US can reduce environmental impacts but would be unaffordable for poorer minorities. Nat. Food 2, 664–672 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs43016-021-00350-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Shifts%20towards%20healthy%20diets%20in%20the%20US%20can%20reduce%20environmental%20impacts%20but%20would%20be%20unaffordable%20for%20poorer%20minorities&journal=Nat.%20Food&doi=10.1038%2Fs43016-021-00350-5&volume=2&pages=664-672&publication_year=2021&author=He%2CP&author=Feng%2CK&author=Baiocchi%2CG&author=Sun%2CL&author=Hubacek%2CK"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Laine, J. et al. Co-benefits from sustainable dietary shifts for population and environmental health: an assessment from a large European cohort study. Lancet Planet. Health 5, E786–E796 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2821%2900250-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Co-benefits%20from%20sustainable%20dietary%20shifts%20for%20population%20and%20environmental%20health%3A%20an%20assessment%20from%20a%20large%20European%20cohort%20study&journal=Lancet%20Planet.%20Health&doi=10.1016%2FS2542-5196%2821%2900250-3&volume=5&pages=E786-E796&publication_year=2021&author=Laine%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Van Vuuren, D. P. et al. Integrated scenarios to support analysis of the food–energy–water nexus. Nat. Sustain. 2, 1132–1141 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-019-0418-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Integrated%20scenarios%20to%20support%20analysis%20of%20the%20food%E2%80%93energy%E2%80%93water%20nexus&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-019-0418-8&volume=2&pages=1132-1141&publication_year=2019&author=Vuuren%2CDP"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Willett, W. et al. Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems. Lancet 393, 447–492 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2818%2931788-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Food%20in%20the%20Anthropocene%3A%20the%20EAT%E2%80%93Lancet%20Commission%20on%20healthy%20diets%20from%20sustainable%20food%20systems&journal=Lancet&doi=10.1016%2FS0140-6736%2818%2931788-4&volume=393&pages=447-492&publication_year=2019&author=Willett%2CW"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Stockli, S., Dorn, M. & Liechti, S. Normative prompts reduce consumer food waste in restaurants. Waste Manage. 77, 532–536 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.wasman.2018.04.047",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Normative%20prompts%20reduce%20consumer%20food%20waste%20in%20restaurants&journal=Waste%20Manage.&doi=10.1016%2Fj.wasman.2018.04.047&volume=77&pages=532-536&publication_year=2018&author=Stockli%2CS&author=Dorn%2CM&author=Liechti%2CS"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Zhang, F. Z. et al. Exploiting dining preference for restaurant recommendation. In Proc. 25th International Conference on World Wide Web 725–735 (International World Wide Web Conferences Steering Committee, 2016)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Haddad, A. J., Mondal, A. & Bhat, C. R. Eat-in or eat-out? A joint model to analyze the new landscape of dinner meal preferences. Transport. Res. C 147, 104016 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trc.2023.104016",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Eat-in%20or%20eat-out%3F%20A%20joint%20model%20to%20analyze%20the%20new%20landscape%20of%20dinner%20meal%20preferences&journal=Transport.%20Res.%20C&doi=10.1016%2Fj.trc.2023.104016&volume=147&publication_year=2023&author=Haddad%2CAJ&author=Mondal%2CA&author=Bhat%2CCR"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Iofrida, N. et al. Italians’ behavior when dining out: main drivers for restaurant selection and customers segmentation. Int. J. Gastron. Food Sci. 28, 100518 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Warde, A. Changing tastes? The evolution of dining out in England. Gastronomica 18, 1–12 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1525%2Fgfc.2018.18.4.1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changing%20tastes%3F%20The%20evolution%20of%20dining%20out%20in%20England&journal=Gastronomica&doi=10.1525%2Fgfc.2018.18.4.1&volume=18&pages=1-12&publication_year=2018&author=Warde%2CA"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Schiff, N. Cities and product variety: evidence from restaurants. J. Econ. Geogr. 15, 1085–1123 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fjeg%2Flbu040",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cities%20and%20product%20variety%3A%20evidence%20from%20restaurants&journal=J.%20Econ.%20Geogr.&doi=10.1093%2Fjeg%2Flbu040&volume=15&pages=1085-1123&publication_year=2014&author=Schiff%2CN"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Mazzolari, F. & Neumark, D. Immigration and product diversity. J. Popul. Econ. 25, 1107–1137 (2012).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s00148-011-0355-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Immigration%20and%20product%20diversity&journal=J.%20Popul.%20Econ.&doi=10.1007%2Fs00148-011-0355-y&volume=25&pages=1107-1137&publication_year=2012&author=Mazzolari%2CF&author=Neumark%2CD"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Joassart-Marcelli, P., Rossiter, J. & Bosco, F. Ethnic markets and community food security in an urban “food desert”. Environ. Plan. A 49, 1642–1663 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0308518X17700394",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ethnic%20markets%20and%20community%20food%20security%20in%20an%20urban%20%E2%80%9Cfood%20desert%E2%80%9D&journal=Environ.%20Plan.%20A&doi=10.1177%2F0308518X17700394&volume=49&pages=1642-1663&publication_year=2017&author=Joassart-Marcelli%2CP&author=Rossiter%2CJ&author=Bosco%2CF"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Emi Nakamura, Y. A. The food desert caused by the economic difficulty of access in Azabu and Takanawa district of Minato-ku, Tokyo (in Japanese). J. Archit. Plann. Environ. Eng. 84, 437–445 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.3130%2Faija.84.437",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20food%20desert%20caused%20by%20the%20economic%20difficulty%20of%20access%20in%20Azabu%20and%20Takanawa%20district%20of%20Minato-ku%2C%20Tokyo%20%28in%20Japanese%29&journal=J.%20Archit.%20Plann.%20Environ.%20Eng.&doi=10.3130%2Faija.84.437&volume=84&pages=437-445&publication_year=2019&author=Emi%20Nakamura%2CYA"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Tokyo Metropolitan Government Results of the 6th Internet Metropolitan Government Policy Monitor Survey on Residents’ Dietary Habits and Use of Eating Out and Fast Food (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Liotta, C., Viguié, V. & Creutzig, F. Environmental and welfare gains via urban transport policy portfolios across 120 cities. Nat. Sustain. 6, 1067–1076 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-023-01138-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20and%20welfare%20gains%20via%20urban%20transport%20policy%20portfolios%20across%20120%20cities&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-023-01138-0&volume=6&pages=1067-1076&publication_year=2023&author=Liotta%2CC&author=Vigui%C3%A9%2CV&author=Creutzig%2CF"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Calimente, J. Rail integrated communities in Tokyo. J. Transp. Land Use 5, 19–32 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.5198%2Fjtlu.v5i1.280",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Rail%20integrated%20communities%20in%20Tokyo&journal=J.%20Transp.%20Land%20Use&doi=10.5198%2Fjtlu.v5i1.280&volume=5&publication_year=2012&author=Calimente%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Ke, L., Furuya, K. & Luo, S. Case comparison of typical transit-oriented-development stations in Tokyo district in the context of sustainability: spatial visualization analysis based on FAHP and GIS. Sustain. Cities Soc. 68, 102788 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2021.102788",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Case%20comparison%20of%20typical%20transit-oriented-development%20stations%20in%20Tokyo%20district%20in%20the%20context%20of%20sustainability%3A%20spatial%20visualization%20analysis%20based%20on%20FAHP%20and%20GIS&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2021.102788&volume=68&publication_year=2021&author=Ke%2CL&author=Furuya%2CK&author=Luo%2CS"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Bertan, S. Impact of restaurants in the development of gastronomic tourism. Int. J. Gastron. Food Sci. 21, 100232 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ijgfs.2020.100232",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20restaurants%20in%20the%20development%20of%20gastronomic%20tourism&journal=Int.%20J.%20Gastron.%20Food%20Sci.&doi=10.1016%2Fj.ijgfs.2020.100232&volume=21&publication_year=2020&author=Bertan%2CS"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Lucan, S. & DiNicolantonio, J. How calorie-focused thinking about obesity and related diseases may mislead and harm public health. An alternative. Public Health Nutr. 18, 571–581 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1017%2FS1368980014002559",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20calorie-focused%20thinking%20about%20obesity%20and%20related%20diseases%20may%20mislead%20and%20harm%20public%20health.%20An%20alternative&journal=Public%20Health%20Nutr.&doi=10.1017%2FS1368980014002559&volume=18&pages=571-581&publication_year=2015&author=Lucan%2CS&author=DiNicolantonio%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Imamoto, M., Takada, T., Sasaki, S., Kato, K. & Onishi, Y. Salt intake per dish in the Japanese diet: a clue to help establish dietary goals at home. J. Nutr. Sci. 10, e107 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1017%2Fjns.2021.88",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Salt%20intake%20per%20dish%20in%20the%20Japanese%20diet%3A%20a%20clue%20to%20help%20establish%20dietary%20goals%20at%20home&journal=J.%20Nutr.%20Sci.&doi=10.1017%2Fjns.2021.88&volume=10&publication_year=2021&author=Imamoto%2CM&author=Takada%2CT&author=Sasaki%2CS&author=Kato%2CK&author=Onishi%2CY"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Shannon, J., Reese, A., Ghosh, D., Widener, M. & Block, D. More than mapping: improving methods for studying the geographies of food access. Am. J. Public Health 111, 1418–1422 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.2105%2FAJPH.2021.306339",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=More%20than%20mapping%3A%20improving%20methods%20for%20studying%20the%20geographies%20of%20food%20access&journal=Am.%20J.%20Public%20Health&doi=10.2105%2FAJPH.2021.306339&volume=111&pages=1418-1422&publication_year=2021&author=Shannon%2CJ&author=Reese%2CA&author=Ghosh%2CD&author=Widener%2CM&author=Block%2CD"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Vilar-Compte, M. et al. Urban poverty and nutrition challenges associated with accessibility to a healthy diet: a global systematic literature review. Int. J. Equity Health 20, 40 (2021).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12939-020-01330-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20poverty%20and%20nutrition%20challenges%20associated%20with%20accessibility%20to%20a%20healthy%20diet%3A%20a%20global%20systematic%20literature%20review&journal=Int.%20J.%20Equity%20Health&doi=10.1186%2Fs12939-020-01330-0&volume=20&publication_year=2021&author=Vilar-Compte%2CM"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Arnold, S. Public transportation access and food insecurity Kilts Center at Chicago Booth Marketing Data Center Paper Forthcoming.  https://doi.org/10.2139/ssrn.4994694 (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Clark, M. A., Springmann, M., Hill, J. & Tilman, D. Multiple health and environmental impacts of foods. Proc. Natl Acad. Sci. USA 116, 23357–23362 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1906908116",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multiple%20health%20and%20environmental%20impacts%20of%20foods&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1906908116&volume=116&publication_year=2019&author=Clark%2CMA&author=Springmann%2CM&author=Hill%2CJ&author=Tilman%2CD"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Bunge, A. C., Mazac, R., Clark, M., Wood, A. & Gordon, L. Sustainability benefits of transitioning from current diets to plant-based alternatives or whole-food diets in Sweden. Nat. Commun. 15, 951 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-024-45328-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sustainability%20benefits%20of%20transitioning%20from%20current%20diets%20to%20plant-based%20alternatives%20or%20whole-food%20diets%20in%20Sweden&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-024-45328-6&volume=15&publication_year=2024&author=Bunge%2CAC&author=Mazac%2CR&author=Clark%2CM&author=Wood%2CA&author=Gordon%2CL"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Aidoo, R., Abe-Inge, V., Kwofie, E., Baum, J. & Kubow, S. Sustainable healthy diet modeling for a plant-based dietary transitioning in the United States. npj Sci. Food 7, 61 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41538-023-00239-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Sustainable%20healthy%20diet%20modeling%20for%20a%20plant-based%20dietary%20transitioning%20in%20the%20United%20States&journal=npj%20Sci.%20Food&doi=10.1038%2Fs41538-023-00239-6&volume=7&publication_year=2023&author=Aidoo%2CR&author=Abe-Inge%2CV&author=Kwofie%2CE&author=Baum%2CJ&author=Kubow%2CS"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Jiang, H. et al. An assessment of urbanization sustainability in China between 1990 and 2015 using land use efficiency indicators. npj Urban Sustain. 1, 34 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Yang, Y., Zhang, J., Huang, J., Zhao, Y. & Zhao, Q. Urban density and spatial carbon emission performance of megacities in China. Sci. Rep. 14, 23862 (2024).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Tang, Y. & Zhang, R. in Fair Development in China 185–203 (Springer, 2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Long, Y., Yoshida, Y. & Kajikawa, Y. Extreme heat disproportionately exacerbates health issues by threatening fresh food supply. Nat. Clim. Change 14, 1109–1111 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-024-02172-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Extreme%20heat%20disproportionately%20exacerbates%20health%20issues%20by%20threatening%20fresh%20food%20supply&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-024-02172-2&volume=14&pages=1109-1111&publication_year=2024&author=Long%2CY&author=Yoshida%2CY&author=Kajikawa%2CY"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Lang, L. et al. Awareness of food waste recycling in restaurants: evidence from China. Resour. Conserv. Recycl. 161, 104949 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.resconrec.2020.104949",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Awareness%20of%20food%20waste%20recycling%20in%20restaurants%3A%20evidence%20from%20China&journal=Resour.%20Conserv.%20Recycl.&doi=10.1016%2Fj.resconrec.2020.104949&volume=161&publication_year=2020&author=Lang%2CL"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Makov, T., Shepon, A., Krones, J., Gupta, C. & Chertow, M. Social and environmental analysis of food waste abatement via the peer-to-peer sharing economy. Nat. Commun. 11, 1156 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-020-14899-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Social%20and%20environmental%20analysis%20of%20food%20waste%20abatement%20via%20the%20peer-to-peer%20sharing%20economy&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-020-14899-5&volume=11&publication_year=2020&author=Makov%2CT&author=Shepon%2CA&author=Krones%2CJ&author=Gupta%2CC&author=Chertow%2CM"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Long, Y. et al. Monthly direct and indirect greenhouse gases emissions from household consumption in the major Japanese cities. Sci. Data 8, 301 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41597-021-01086-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Monthly%20direct%20and%20indirect%20greenhouse%20gases%20emissions%20from%20household%20consumption%20in%20the%20major%20Japanese%20cities&journal=Sci.%20Data&doi=10.1038%2Fs41597-021-01086-4&volume=8&publication_year=2021&author=Long%2CY"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Hallström, E. et al. Combined climate and nutritional performance of seafoods. J. Clean. Prod. 230, 402–411 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2019.04.229",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Combined%20climate%20and%20nutritional%20performance%20of%20seafoods&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2019.04.229&volume=230&pages=402-411&publication_year=2019&author=Hallstr%C3%B6m%2CE"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Jasim, M. S. & Mashee, F. K. Monitoring and calculating the carbon dioxide emissions in Baghdad and its effect on increasing temperatures from 2003-2018 using remote sensing data. Per. Tchê Quim. 17, 357–371 (2020).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Monitoring%20and%20calculating%20the%20carbon%20dioxide%20emissions%20in%20Baghdad%20and%20its%20effect%20on%20increasing%20temperatures%20from%202003-2018%20using%20remote%20sensing%20data&journal=Per.%20Tch%C3%AA%20Quim.&volume=17&pages=357-371&publication_year=2020&author=Jasim%2CMS&author=Mashee%2CFK"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Yue, Y. et al. Measurements of POI-based mixed use and their relationships with neighbourhood vibrancy. Int. J. Geogr. Inf. Sci. 31, 658–675 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F13658816.2016.1220561",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measurements%20of%20POI-based%20mixed%20use%20and%20their%20relationships%20with%20neighbourhood%20vibrancy&journal=Int.%20J.%20Geogr.%20Inf.%20Sci.&doi=10.1080%2F13658816.2016.1220561&volume=31&pages=658-675&publication_year=2017&author=Yue%2CY"
+            }
+        }
+    ]
+}

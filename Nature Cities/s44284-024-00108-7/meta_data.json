@@ -1,0 +1,57 @@
+{
+    "id": "s44284-024-00108-7",
+    "title": "A typology of activities over a century of urban growth",
+    "journal": "Nature Cities",
+    "pdf_link": "https://www.nature.com/articles/s44284-024-00108-7",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "Populations of Paris districts 1801 to 1911",
+            "Data_summary": "District-level population census dataset for Paris used to provide the time series of Paris population against which directory-based activity counts are scaled and to contextualize population change alongside administrative boundary changes.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                25
+            ],
+            "Other_Information": "Evidence: The dataset of the population censuses of Paris at the scale of districts between 1801 and 1911 is openly accessible , Location: Data availability, Confidence: high",
+            "Time_Coverage": "1801-1911",
+            "Geographic_Coverage": "France > Ile-de-France > Paris district level",
+            "URL": "https://doi.org/10.34847/nkl.e173c93p",
+            "ref": [
+                "ref-CR25"
+            ]
+        },
+        {
+            "Data_Name": "Paris directories entries with NAICS inspired categories 1829 to 1907",
+            "Data_summary": "Geohistorical microdata derived from Paris city directories where each record represents a person or sometimes an organization linked to an economic activity and a street address, then cleaned and grouped into NAICS-inspired activity categories to analyze activity counts, ranks, and scaling over time.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The dataset of Paris directories entries with NAICS-inspired categories between 1829 and 1907 specifically constructed and used for this paper is openly accessible on the Zenodo platform https://doi.org/10.5281/zenodo.8388101 ref. 68 , Location: Data availability, Confidence: high",
+            "Time_Coverage": "1829-1907",
+            "Geographic_Coverage": "France > Ile-de-France > Paris",
+            "URL": "https://doi.org/10.5281/zenodo.8388101",
+            "ref": [
+                "ref-CR68"
+            ]
+        },
+        {
+            "Data_Name": "Annuaires historiques parisiens 1798 to 1914 structured geolocated directory entries",
+            "Data_summary": "Large-scale structured and geolocated digitization of Paris historical directories produced via an automated pipeline including OCR, named-entity recognition, semantic enrichment, and historical geocoding, serving as the upstream source from which the paper selects and analyzes entries for 1829–1907.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: More than 10 million entries currently compose the 141 digitally transcribed and enriched directories ref. 17 v.3 alphabetical lists , Location: Methods Paris directories between 1799 and 1914, Confidence: high",
+            "Time_Coverage": "1798-1914",
+            "Geographic_Coverage": "France > Ile-de-France > Paris",
+            "URL": "https://doi.org/10.34847/nkl.98eem49t",
+            "ref": [
+                "ref-CR17"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:49.014331"
+    }
+}

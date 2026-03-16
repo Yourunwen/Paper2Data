@@ -1,0 +1,109 @@
+{
+    "id": "s41599-025-05460-0",
+    "title": "The impact of weather patterns on increasing violent crime and social cost in South Africa",
+    "journal": "Humanities and Social Sciences Communications",
+    "pdf_link": "https://www.nature.com/articles/s41599-025-05460-0",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "South Africa Police Service crime statistics",
+            "Data_summary": "Official crime statistics published by the South Africa Police Service, reported as counts of recorded offences by crime category and by province. The study uses these crime counts to analyze temporal and seasonal patterns, to model relationships between crime and weather and pollution covariates, and to decompose crime trends into meteorological versus anthropogenic components.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Besides, the quarterly crime statistics 2017-2023 are taken from the South Africa Police Service SAPS Location: Materials and methods Data resources Confidence: high",
+            "Time_Coverage": "2017-2023",
+            "Geographic_Coverage": "South Africa > National and nine provinces",
+            "URL": "https://www.saps.gov.za/services/crimestats.php",
+            "ref": []
+        },
+        {
+            "Data_Name": "worldmet meteorological observations for Pretoria Airport",
+            "Data_summary": "Weather station observations accessed via the worldmet R package for Pretoria Airport, including hourly air temperature, wind direction, wind speed, precipitation, and relative humidity. These meteorological variables are aggregated and used as predictors in regression and machine learning models to quantify weather contributions to crime and homicide and to conduct climate driven decompositions.",
+            "Category": "City-wide camera networks and meteorological stations",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Hourly data for meteorological indexes including air temperature wind direction wind speed precipitation and relative humidity are taken from the Pretoria Airport Location: Materials and methods Data resources Confidence: high",
+            "Time_Coverage": "1994-2021",
+            "Geographic_Coverage": "South Africa > Gauteng > Pretoria Airport",
+            "URL": "https://github.com/openair-project/worldmet",
+            "ref": []
+        },
+        {
+            "Data_Name": "FRED quarterly GDP per capita for South Africa series ZAFGDPNQDSMEI",
+            "Data_summary": "Macroeconomic time series from the Federal Reserve Bank of St. Louis FRED providing quarterly per capita GDP values for South Africa. The study uses this socioeconomic indicator as an input feature in interpretable machine learning models to explain international homicide variation and to compare socioeconomic versus meteorological contributions.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The quarterly per capita GDP rands is taken from the Federal Reserve Bank of St. Louis Location: Materials and methods Data resources Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "South Africa",
+            "URL": "https://fred.stlouisfed.org/series/ZAFGDPNQDSMEI",
+            "ref": []
+        },
+        {
+            "Data_Name": "CEIC quarterly export data for South Africa",
+            "Data_summary": "Quarterly export statistics for South Africa obtained from CEIC. The study uses export values as a non meteorological socioeconomic predictor in machine learning models of international homicide to assess relative feature contributions alongside weather and other socioeconomic variables.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Quarterly export data USD can be collected from the China Entrepreneur Investment Club CEIC Location: Materials and methods Data resources Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "South Africa",
+            "URL": "https://www.ceicdata.com/en/country/south-africa",
+            "ref": []
+        },
+        {
+            "Data_Name": "World Bank World Development Indicators for South Africa IH population growth unemployment life expectancy",
+            "Data_summary": "Country level annual indicators from the World Bank including international homicide rate per 100000 population, population growth rate, unemployment rate, and life expectancy at birth for South Africa. The study uses these series as inputs for homicide modeling, cross region comparisons, and for computing life expectancy terms in the social cost valuation framework.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The yearly IH per 100000 people rate of population growth unemployment rate and life expectancy at birth in South Africa are collected from the World Bank Location: Materials and methods Data resources Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "South Africa",
+            "URL": "https://data.worldbank.org/country/south-africa",
+            "ref": []
+        },
+        {
+            "Data_Name": "ACAG Washington University surface PM2.5 dataset for South Africa",
+            "Data_summary": "Annual PM2.5 pollution estimates provided by the Atmospheric Components Analysis Group at Washington University in St. Louis. The study uses these PM2.5 values as an environmental predictor to test associations with crime and homicide and as a feature in interpretable machine learning models.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Yearly PM2.5 emissions for South Africa are taken from the Atmospheric Components Analysis Group of Washington University in St. Louis Location: Materials and methods Data resources Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "South Africa",
+            "URL": "https://sites.wustl.edu/acag/datasets/surface-pm2-5/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Chicago daily crime data 2014-2023",
+            "Data_summary": "Daily counts and spatially referenced records of crime incidents for Chicago used to validate and generalize the study findings in a data rich urban setting. The study uses these records for daily level Poisson regression with weather and PM2.5, and for spatial analysis including mapping incidents to a 160 meter grid and computing global and local Moran statistics.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the study verifies the results from an urban perspective using the data-rich case of Chicago Location: Results Robustness test Evidence from Chicago Confidence: medium",
+            "Time_Coverage": "2014-2023",
+            "Geographic_Coverage": "United States > Illinois > Chicago",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Mexico international homicide data 1994-2021",
+            "Data_summary": "Time series of international homicide values for Mexico used in robustness testing of the meteorological decomposition approach. The study uses these homicide figures to compare the fraction of homicide variability attributed to meteorological conditions across Mexico, Chicago, and South Africa.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We use IHs for Mexico and Chicago from 1994 to 2021 to verify the impact of climatic factors Location: Results Robustness test IHs in Mexico and Chicago Confidence: medium",
+            "Time_Coverage": "1994-2021",
+            "Geographic_Coverage": "Mexico",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:48.883658"
+    }
+}

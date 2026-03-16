@@ -1,0 +1,183 @@
+{
+    "id": "s41893-023-01219-0",
+    "title": "Air quality, health and equity implications of electrifying heavy-duty vehicles",
+    "journal": "Nature Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s41893-023-01219-0",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "EPA grid gross loss across the United States dataset",
+            "Data_summary": "A dataset providing electricity transmission and distribution losses at a national scale used to adjust the estimated electricity demand for charging electric heavy duty vehicles before assigning that demand to electricity generation units in the vehicle to EGU remapping algorithm.",
+            "Category": "Utility networks (electricity, water, communication)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                69
+            ],
+            "Other_Information": "Evidence: As inputs to our Vehicle-to-EGU Electricity Assignment and Emission Remapping Algorithm we use a grid gross loss across the United States from EPA 2021 refs. 69; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "eGRID 2016 database",
+            "Data_summary": "A facility level electricity generation unit dataset describing plant characteristics such as location, age and capacity used to represent and modify EGU emissions and to support the assignment of added EV charging electricity demand to specific generating units.",
+            "Category": "Utility networks (electricity, water, communication)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we use the eGRID-2016 database74 for EGU details related to location age and capacity; Location: Data availability; Confidence: high",
+            "Time_Coverage": "2016",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.epa.gov/egrid",
+            "ref": [
+                "ref-CR74"
+            ]
+        },
+        {
+            "Data_Name": "US Census Bureau cartographic boundary shapefiles",
+            "Data_summary": "National cartographic boundary GIS files used as geographic inputs for the vehicle to EGU electricity assignment and emissions remapping workflow, supporting spatial alignment and regional mapping of electricity system elements.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: eGRID-2016 database74 for EGU details related to location age and capacity with shapefiles from US Census Cartographic boundary shapefiles75 and NERC76; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html",
+            "ref": [
+                "ref-CR75"
+            ]
+        },
+        {
+            "Data_Name": "NERC regions dataset from EIA",
+            "Data_summary": "A geospatial dataset delineating North American Electric Reliability Corporation regions used alongside EGU information and boundary shapefiles to support the vehicle to EGU electricity assignment and emissions remapping steps.",
+            "Category": "Utility networks (electricity, water, communication)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: eGRID-2016 database74 for EGU details related to location age and capacity with shapefiles from US Census Cartographic boundary shapefiles75 and NERC76; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "https://atlas.eia.gov/datasets/eia::nerc-regions/about",
+            "ref": [
+                "ref-CR76"
+            ]
+        },
+        {
+            "Data_Name": "2016v7.2 National Emissions Inventory NEI county total emissions",
+            "Data_summary": "A county level emissions inventory providing total anthropogenic emissions by sector used as the core emissions input to SMOKE for creating gridded baseline and scenario emissions for the WRF CMAQ simulations.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                64
+            ],
+            "Other_Information": "Evidence: County total emissions from the 2016v7.2 National Emissions Inventory NEI64 were processed using the 2016 SMOKE Beta platform; Location: Methods Air quality model set-up and eHDV emission scenarios; Confidence: high",
+            "Time_Coverage": "2016",
+            "Geographic_Coverage": "United States > WI IL IN MI study domain counties",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR64"
+            ]
+        },
+        {
+            "Data_Name": "LADCO 1.3 km spatial surrogates for emissions allocation",
+            "Data_summary": "High resolution spatial surrogate layers used to allocate county level NEI emissions to 1.3 km model grid cells using locally specific land use proxies such as population industry and road locations within the study region.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: 1.3 km spatial surrogated provided by the Lake Michigan Air Directors Consortium LADCO and available on request; Location: Code availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Southern Lake Michigan Chicago region",
+            "URL": "https://www.ladco.org/",
+            "ref": [
+                "ref-CR67"
+            ]
+        },
+        {
+            "Data_Name": "MOVES emission factor data from EPA MOtor Vehicle Emission Simulator",
+            "Data_summary": "Vehicle emissions factor tables generated by the MOVES model for multiple heavy duty vehicle processes and factor types, used within SMOKE to compute hourly meteorology adjusted mobile source emissions for baseline and electrification scenarios.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                49
+            ],
+            "Other_Information": "Evidence: emission factors from the MOtor Vehicle Emission Simulator MOVES49; Location: Methods Air quality model set-up and eHDV emission scenarios; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > WI IL IN MI study domain counties",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR49"
+            ]
+        },
+        {
+            "Data_Name": "ACS 2015-2019 5-year census tract population and demographic data via IPUMS NHGIS",
+            "Data_summary": "Census tract level age stratified population counts and demographic attributes used to compute baseline deaths and to stratify equity analyses by racial and ethnic subgroups in the health impact calculations.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                71
+            ],
+            "Other_Information": "Evidence: Age-stratified census tract-level population and demographic data were obtained from the American Community Survey ACS 2015-2019 ref. 71; Location: Methods Health and equity impacts; Confidence: high",
+            "Time_Coverage": "2015-2019",
+            "Geographic_Coverage": "United States > WI IL IN MI study domain census tracts",
+            "URL": "https://doi.org/10.18128/D050.V17.0",
+            "ref": [
+                "ref-CR71"
+            ]
+        },
+        {
+            "Data_Name": "Industrial Economics Inc census tract age-specific all-cause baseline mortality incidence rates IEc 2010-2015",
+            "Data_summary": "Census tract level age specific baseline all cause mortality rates in 5 year age bands derived from USALEEP abridged life tables and adapted for national health benefits analysis, used as baseline mortality inputs for estimating attributable deaths.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [
+                72
+            ],
+            "Other_Information": "Evidence: baseline all-cause mortality incidence rates were obtained from Industrial Economic Incorporated IEc 2010-2015 ref. 72 and are available on request; Location: Data availability; Confidence: high",
+            "Time_Coverage": "2010-2015",
+            "Geographic_Coverage": "United States > WI IL IN MI study domain census tracts",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR72"
+            ]
+        },
+        {
+            "Data_Name": "USALEEP abridged life tables underlying IEc mortality rates",
+            "Data_summary": "Public health life table data product providing small area life expectancy and mortality information that serves as the base source from which the IEc census tract mortality incidence rates used in this study are derived.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: These mortality incidence rates are derived from USALEEP abridged life tables with modifications for broader use in national health benefits analyses; Location: Methods Health and equity impacts; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Chicago Data Portal city boundary shapefiles",
+            "Data_summary": "City of Chicago GIS boundary files used to subset or map results within Chicago city limits for the equity focused analyses and visualizations.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Chicago shapefiles are available from the Chicago Data Portal via https://data.cityofchicago.org/; Location: Code availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States > Illinois > Chicago",
+            "URL": "https://data.cityofchicago.org/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data availability model output hosted on Northwestern servers",
+            "Data_summary": "Model output files from the WRF-CMAQ baseline and electrification scenario simulations produced by the authors and stored on institutional servers, used as the primary inputs to concentration change, health impact, and equity analyses.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Model output is hosted on Northwestern’s servers Due to model output size limitation specific model output requests can be made to the corresponding author; Location: Data availability; Confidence: high",
+            "Time_Coverage": "2018-08 to 2019-04",
+            "Geographic_Coverage": "United States > WI IL IN MI Southern Lake Michigan Chicago region",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:21.623388"
+    }
+}

@@ -1,0 +1,1193 @@
+{
+    "id": "s42949-023-00118-9",
+    "journal": "npj Urban Sustainability",
+    "type": "article",
+    "title": "Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities",
+    "legal_title": "Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities",
+    "publish_time": "2023-06-24",
+    "pdf_link": "https://www.nature.com/articles/s42949-023-00118-9",
+    "storage_path": "./Articles/npj Urban Sustainability/2023-article/s42949-023-00118-9/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Continued warming trends lead to an increasing risk of exposure to extreme heatwaves, which threaten the health of urban residents, especially the ageing population. Here, we project the spatiotemporal trend of future exposure risk across 9188 global urban settlements between 2020 and 2100 under the shared socioeconomic pathway (SSP) 2-4.5 and SSP5-8.5 scenarios. Results show that urban heatwave exposure risk increases by 619% and 1740% for SSP2-4.5 and SSP5-8.5, respectively, and by 1642% to 5529% for the elderly. Notably, 69% of the elderly exposure risk comes from middle-income countries, where the increasing trend on the regional average is 1.2 times higher than that of high-income countries. There is an increasing trend towards greater concentration on large cities, especially in low- and lower-middle-income countries. In high-income countries, climate effects contribute 39% to 58% of increasing exposure for elderly individuals, whereas ageing effects play more prominent role in lower-income countries. This emphasizes the disproportionately higher heat-related burden for elderly individuals and inequitable trends in lower income countries. Understanding the vulnerable and priority regions in future heatwave exposure will inform adaptation strategies to support urban climate-resilient development.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "With unprecedented heatwaves sweeping the globe at higher frequencies and intensities1,2,3,4, global warming is increasing the levels of hazard that result in threats to human health5. One primary reason for this situation is thermal stress caused by heatwaves, which aggravates heart failure6,7. Due to the concentration of socioeconomic activities and population agglomeration, cities are considered the areas most affected by heatwaves. In summer 2022, while multiple extreme heatwaves plagued the world, some European and American countries announced a state of heat emergency8,9, and developing countries such as China, India and Pakistan encountered continuous extreme heatwave challenges10,11. The most extreme heatwave events ever recorded in duration and intensity have resulted in significant urban electricity shortages and power outages12,13. Globally, cities are unprepared to confront and respond to upcoming extreme heatwave exposure risks14,15.\nCurrent trends in urbanization and ageing are expected to continue rising well throughout the twenty-first century. The proportion of the world’s urban population is estimated to reach 68% by 2050, and 90% of these 2.5 billion people will be concentrated in the developing countries of Asia and Africa16. Furthermore, the share of people aged 65 or over worldwide is projected to increase to 16%, and nearly 80% of the ageing population will live in low- and middle-income countries17. The long-term challenges posed by the convergence of climate change, urbanization and ageing and their compounding effects have exacerbated the plight of cities in the foreseeable future18,19. Given the increasing risk of urban heatwave exposure, marginalized groups in cities, especially elderly individuals, who have a higher risk of cardiovascular and respiratory diseases and a lack of immediate care, may experience a continuous and serious health threat20,21.\nPrevious studies have shown that global inequalities are rising widely across countries due to extreme climatic events against the backdrop of climate change22,23,24,25,26. Cities in low- and middle-income countries with relatively poor infrastructure, including shelter, clean water, cooling open space, and sanitation assistance, do not have sufficient social resources to satisfy health security requirements in response to extreme heatwave events27,28,29. Climate change is unevenly increasing the intensity and duration of extreme heatwaves across the globe2,30. As the climate continues to warm, the inequitable risk from extreme heatwave exposure may be aggravated even further31. Existing studies have projected significant growth in extreme temperatures in different regions and countries, indicating that the risk of exposure to dangerous heat will increase unevenly across cities32,33,34. However, aggregated results from multiple cities cannot manifest the wide divergence globally in extreme heatwave exposure risks. Furthermore, it is insufficient to enumerate the overall exposure risk in cities35; especially for the most fragile social groups, the amplified compound risk’s negative effect of inequalities needs to be considered36,37. Recognizing the ageing population and analysing the principal drivers could be more conducive for policy-makers with regard to future urban governance priorities38.\nTo address these current knowledge gaps, we projected the spatiotemporal trend of the future extreme heatwave exposure risk for 9188 urban settlements from the 2020s to the 2090s based on high-resolution global climate models (GCMs)39 and employed two shared socioeconomic pathways (SSPs) under the representative concentration pathways (RCPs)40 followed by SSP2-4.5 and SSP5-8.541. We enumerated the differences between the total population and the elderly population, and to reveal the inequality in exposure risk to extreme heatwaves across global cities, we adopted the classification of urban settlements by income level and city size separately. We further identified the relative contribution of the driving factors underlying the changing patterns to exposure risk (see Methods and Supplementary Fig. 1). The results of this study aim to provide vulnerability and adaptation assessments for ageing-friendly disaster risk reduction in climate change adaptation strategies under diverse socioeconomic and climate scenarios.\nWe used two representative SSP-RCP scenarios and analysed the future multidecadal variation in global urban population exposure to extreme heatwave risk. Specifically, SSP2-4.5 is expressed as an intermediate emission scenario continuing historical trends and the status quo of development, while SSP5-8.5 is designed to assume high-intensity urban development and a severely fossil fuel-intensive world. With these scenarios, our study reveals the extent to which vulnerability may be affected by extreme heatwaves in global cities, including consideration of climate change and policy effects. Our results reveal that exposure risks to extreme heatwave events will face significant increases in duration and intensity globally, and future trends in urban exposure present strong spatial disparities. We consider the large and inequitable exposure risk trends in global cities and highlight that elderly populations are more likely to face strongly rising trends in exposure risks. In lower-middle income countries, the highest exposure growth trends on the regional average could cause a disproportionate climate burden for the urban elderly population. With extreme exposure risk concentrating on megacities, as highly integrated systems prone to heat hazards, decision-makers’ governance practices are particularly crucial in preventing public healthcare for vulnerable populations from being paralyzed. Even under SSP2-4.5, to continue along the development pathway, inequitable exposure risks and burdens are imposed on global cities that worsen under SSP5-8.5. These findings call for carbon emission reduction to mitigate global warming and emphasize a timely response to establish protective measures for vulnerable urban elderly individuals under the increasing impacts of extreme climate events42.",
+            "cites": [
+                "ref-CR34",
+                "ref-CR38",
+                "ref-CR29",
+                "ref-CR17",
+                "ref-CR20",
+                "ref-CR11",
+                "ref-CR40",
+                "ref-CR37",
+                "ref-CR42",
+                "ref-CR2",
+                "ref-CR1",
+                "ref-CR3",
+                "ref-CR27",
+                "ref-CR41",
+                "ref-CR5",
+                "ref-CR8",
+                "ref-CR7",
+                "ref-CR10",
+                "ref-CR9",
+                "ref-CR18",
+                "ref-CR28",
+                "ref-CR25",
+                "ref-CR26",
+                "ref-CR6",
+                "ref-CR23",
+                "ref-CR16",
+                "ref-CR35",
+                "ref-CR4",
+                "ref-CR33",
+                "ref-CR13",
+                "ref-CR15",
+                "ref-CR12",
+                "ref-CR36",
+                "ref-CR19",
+                "ref-CR32",
+                "ref-CR39",
+                "ref-CR14",
+                "ref-CR22",
+                "ref-CR31",
+                "ref-CR21",
+                "ref-CR30",
+                "ref-CR24"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Projections of heatwave exposure risks under scenarios\nIn concept, heatwave exposure risks include the spatial distribution of heatwave characteristics and populations as well as the effects of vulnerability for specific groups. Multi-model climate projection ensemble means were employed to predict future heatwave characteristics, including heatwave duration (HWD) and heatwave average intensity (HWI), from 2020 to 2099 under the SSP2-4.5 to SSP5-8.5 scenarios. The Mann-Kendall (MK) and Sen’s slope estimators were used to quantify the spatial long-term monotonic trends at the grid scale of 0.25-degree resolution. The results from our analysis revealed the significant spatial variability and distribution of the HWD and HWI and significant trends (p < 0.05) throughout most of the globe (see Supplementary Figure 2). Overall, under the moderate scenario (SSP2-4.5), the global average trend of HWD is projected to increase 8 days per decade, and the HWI will increase 0.18 °C per decade. Under the highest emissions scenario (SSP5-8.5), the characteristic increase will be more substantial, with the trend of HWD expected to be 15 days per decade and the HWI of 0.43 °C per decade. The SSP5-8.5 scenario would significantly increase extreme heatwaves worldwide. We found that the increasing trends of HWD and HWI showed significant differences in geographic distribution under the two scenarios. This indicates the highest increasing trends of HWD throughout the tropics of Cancer and Capricorn, especially in South America, Sub-Saharan Africa and Southeast Asia. The spatial pattern of HWI exhibits a persistent increase in northern mid-to-low latitudes with the major regions of global urban settlements.\nUnder our continuous simulations of the decennial heatwave exposure risk from the 2020s to the 2090s, we calculated all days exceeding the local threshold high temperature and its relative growth intensity and multiplied the population projection for each scenario (see Supplementary Fig. 3 and Fig. 4). The results reveal that the exposure risks are projected to increase dramatically until the 2040s under the SSP5-8.5. Over the 2020 s to the 2090s, the average global exposure risk could increase substantially by 609% and 1429%, respectively, under SSP2-4.5 and SSP5-8.5. Figure 1 shows Sen’s slope of the heatwave exposure risk under the two scenarios. Specifically, Sub-Saharan Africa, Southeast Asia and Central Asia would be the hardest-hit areas of extreme heatwave exposure, and under SSP5-8.5, Europe and North America would slide into widespread severe heat exposure insecurity as well. Furthermore, as preliminary estimates, the spatial distribution of exposure risk to extreme global heatwaves and increasing trends is highly uneven and will continue. The prevalent risk duration and intensity growth are expected to concentrate within Asia, which is a worrisome concern due to the potential for substantial urban growth and further ageing.\n### Spatiotemporal trends in urban heatwave exposure risks\nTo measure the spatiotemporal evolution of heatwave exposure risks at the city level, we calculated the scale and average intensity of exposure risk within 9188 global cities on a considerable urbanized scale. We found that urban heatwave exposure risk increases by more than 619% and 1740% under SSP2-4.5 and SSP5-8.5, respectively, both exceeding the global average trends. We evaluated the increasing trend of exposure risk by fitting ordinary least squares (OLS) linear regression for each city over the period of the 2020s to the 2090s. Every urban settlement with a positive increasing trend passed the 0.05 significance test. We found that Asia accounts for 46% of the growth in aggregate urban exposure risk under SSP2-4.5 and decreases to 43% under SSP5-8.5 globally, followed by Africa and South America. In contrast, North America and Europe exhibit growth rates in the proportion of global urban exposure risk trends under SSP5-8.5. The preliminary estimates indicate that from the 2020s to the 2090s, Asia is expected to experience approximately half of the global urban heatwave exposure risks, which raises questions as inequality and vulnerability challenge the sustainability of future urban settlements.\nBased on the combination of urban heatwave exposure risk tendencies with the projected population ageing under different scenarios, the possible consequences of compound risk to urban vulnerabilities in the future are emphasized. Significant analogous spatial patterns of increases are anticipated from heatwave risks and ageing trends. The expansion in ageing trends further leads to a tremendous growth risk of elderly populations’ exposure to extreme heatwaves in urban areas. We found that urban elderly exposure risks will increase by 1642% under SSP2-4.5 and 5529% under SSP5-8.5. The proportion of growth trends from Asian cities will account for 50% under SSP2-4.5. Compared with SSP5-8.5, global urban settlements will be exposed to a pervasive high thermal exposure risk for elderly individuals. We adopted the mean plus a standard deviation method to detect the deviation of cities in high-risk growth trends (Fig. 2, see Supplementary Table 6 and Table 7 for further cities’ information). With the unified threshold in SSP2-4.5, we found that 604 cities and 2455 cities in Asia (5250 cities altogether) are included and that 196 (596) cities in Africa (1549), 173 (443) cities in South America (928 cities), 106 (668) cities in Europe (1043 cities) and 39 (305) cities in North America (372 cities) are included under SSP2-4.5 (SSP5-8.5). The exposure risk of elderly population is similar to the overall exposure risk showing as the highest in Asia (Fig. 3). However, the growth rate of the exposure risk for elderly population in each city is higher compared with the exposure risk for total population based on the changes of slope, indicating that exposure risk faced by elderly could increase relatively faster.\n### Inequalities in compound exposure risk\nPrevious works have reviewed the intergenerational transmission of climate change inequities specifically under continued global warming43 and have indicated that extreme climate exposure risk could be more concentrated in areas that have been strongly affected by extremes. Based on the analysis of the linkage between the initial scale of heatwave exposure and its increasing trend, trendlines based on the logarithmic relationship can be fitted to them using stepwise regression (Fig. 4). A significant positive relationship exists in both the general population and the ageing group in cities. This trendline correspondence for the ageing group will be 2.1 times that of the total population under SSP2-4.5, and it will be extended to 2.4 times under SSP5-8.5. From an ageing perspective, this combined comparison between the growth trend and its initial risk scale highlights the even stronger disproportionate burden for the elderly population, which could further increase the perpetual climate vulnerabilities across cities at high levels of extreme heatwave exposure risk.\nThere are substantial spatial variations in future urban exposure risk to heatwaves. Socioeconomics is of great importance in amplifying or attenuating responses to risk events44. Due to a shortage of corresponding protection measures, low-income countries tend to have higher rates of exposure risk. We calculated the between-group difference in the rate of exposure growth in cities by income category (Fig. 5a, b). The total and elderly population risk growth trends vary by income group with statistically significant differences (Kruskal–Wallis tests, p < 0.05) for the SSP2-4.5 and SSP5-8.5 pathways. The urban elderly populations in lower-middle-income countries will experience the strongest increase in heatwave exposure trends in regional average strength, at 1.2 times that of high-income countries. In elderly population exposure risks between the 2020s and the 2090s, 38% of global growth is from lower-middle-income countries and 31% comes from upper-middle-income countries, whereas 28% is from high-income countries under SSP2-4.5, with a similar share under SSP5-8.5. For the two scenarios, this disproportionate burden of elderly exposure risk in urban areas is an ever-present inequality between different-income countries. Contrasting the two scenarios, the growth of elderly exposure in upper-income and lower-income countries under SSP5-8.5 will be 2.6 times relative to SSP2.4.5; moreover, the multiple of high-income countries could further increase to 4.1 times.\nWe further examined the relationship between exposure risk and city size in the inequality analysis considering whether urban size enhanced or diminished settlement exposure risks, which might be different between the city size and income category (Fig. 5c, d). Correlation analyses between the growth trends of average regional exposure risks and city sizes were performed and showed a positive correlation (p < 0.05). Notably, SSP5-8.5 could reinforce a higher value corresponding to the disparities between the city size groups. In the 2020s, 27% of all urban elderly population exposure risks are concentrated in megacities (over 10 million people), and this proportion might be extended to 29% under SSP2-4.5 and further to 31% under SSP5-8.5 in 2090s. However, the physical complexity of the built environment and socioeconomic effects in large cities could intensify the challenge for risk management. The proportion of the elderly population exposed to extreme heatwave risk is expected to increase with variation across these income and city size types (Fig. 6). For this classification, especially in lower-income countries’ large cities, gross exposure risks will increase more rapidly than high-income countries. In megacities with populations over 10 million (Supplementary Fig. 6), the vast majority of cities in low- and lower-middle-income countries may be forced into riskier areas of heatwave exposure. These exposure risk trends varying city size differ substantially among different income countries. There are relatively higher exposure risk trends probably faced by large cities in lower-income countries (Supplementary Fig. 7).\n### Decomposition of compound exposure risk factors\nTo understand how these compound factors affect urban exposure risk, including climate change, urban population size and population ageing, a decomposition method is introduced to calculate the respective contribution of different effects between different groups across cities36,45. We compare the drivers of exposure risk estimates at the two periods of 2030s to 2060s and 2060 to 2090s (Fig. 7). Our results combine the effect of heatwave characteristics and ageing population growth to consider compound risk, highlighting that exposure increases are primarily driven by the climate effect and ageing as well as their interaction effects globally. Climate change explains 39% of the increase in the 2030s to the 2060s and 53% in the 2060s to the 2090s under SSP2-4.5. With later-stage growth mainly caused by climate change, it could worsen to 58% under SSP5-8.5. We find that rising ageing greatly contributes to exposure growth, especially during the far future periods, which explains 31% and 19% under SSP2-4.5 and SSP5-8.5, respectively. The increasing contribution of the interaction effect leads to a decrease in the single factor of ageing, but the absolute amount might increase by 214% under SSP5-8.5. In high-income countries, the climate effect is the most important component explaining the increase in urban elderly exposure risks, accounting for 53% and 58% of the importance, respectively, during the 2030s to the 2060s and the 2060s to the 2090s. However, in contrast, the ageing effect is responsible for the relatively higher proportion of exposure risk in low-, lower-middle-, and upper-middle-income countries, with further growth expected to approach 38% of the exposure risk under SSP2-4.5 during the 2060s to the 2090s. Furthermore, under SSP5-8.5 forcing, the climate and ageing effects will lead to even more intense growth in the urban exposure risk for the elderly population. The decline in urban population size may not be sufficient to counteract the negative effects of increasing exposure risks in middle-income countries, which highlights that the imposed interaction according to various future scenario analyses will impose a cumulative exposure risk with the inequality challenge of global warming and that ageing is substantially increasing in lower-income countries.",
+            "cites": [
+                "ref-CR43",
+                "ref-CR36",
+                "ref-CR44",
+                "ref-CR45"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-7",
+                "figure-6",
+                "figure-2",
+                "figure-5",
+                "figure-4",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "This study projected spatiotemporal characteristics of global extreme heatwaves from the 2020s to the 2090s based on the multi-model ensemble mean from 27 GCM outputs combined with future global population projections for each SSP scenario to assess the increasing trend in exposure risks to the total population and elderly groups across 9188 urban settlements. This study further analysed the influential factors for the change patterns of exposure risks to advance policy-makers’ common understanding of and responses to future intertwined risks of climate change, urbanization and ageing. The results of our models indicated that the extreme heatwave exposure risk to the elderly population will increase significantly and continue along the current socioeconomic pathway of the SSP2-4.5 scenario, especially after the 2040s. The growth trend of exposure risks presents high spatial heterogeneity, which indicates that inequality exists between different income country categories and the city size. This discrepancy at a high-resolution gridded scale could provide a better understanding of the inequality across global cities in future scenarios, particularly in view of the exposure risk for vulnerable elderly individuals. We observed differences in the driving factors for increasing exposure risk between income categories, and climate and ageing effects were the primary contributors. The proportion of factors display similar precent contributions by city size, with the effect of population concentration being more significant in medium to large cities (see Supplementary Fig. 8).\nThe results from the study reveal crucial aspects of the future inequitable increase in extreme heatwave exposure faced by vulnerable elderly populations in urban areas, emphasizing the need to develop targeted climate adaptation strategies to mitigate the negative impacts of compounded factors. Based on data on population structure by the UN, although the ageing rate in developed countries and their cities currently remains high, the ageing rate in developing countries in the future will be faster and will catch up, and developing countries will become ageing societies. However, elderly populations are more vulnerable, which can lead to the occurrence of disease and even death because of frequent heatwave events. According to our prediction, the exposure growth rate for elderly individuals in lower-middle income countries will be 3352% under SSP2-4.5 and, even worse, 11448% under SSP5-8.5. The potential for intensifying thermal stress risks presents challenges to the urban population, public health, the built environment and infrastructure in developing countries. Our results indicate that cities in densely populated Southern Asia could experience even more pernicious health impacts during extremely intense exposure in the future, which is consistent with the findings of previous simulation research. There is an urgent need for vigilance to prevent the intergenerational transmission of extreme heat exposure, for which there is a lack of financial and technical assistance in most of the least-developed countries due to insufficient and poor residential care infrastructure against extreme heatwave stress.\nThe persistence of worldwide energy poverty is thought to pose formidable challenges to public health well-being and sustainable urban development46. The United Nations’ (UN) Sustainable Development Goal 7 (SDG 7) is “Ensure access to affordable, reliable, sustainable and modern energy for all”47. Energy poverty remains at an unacceptably high level for most developing countries, and the incidence and intensity will increase substantially. It is essential to ensure urban energy sustainability to guarantee climate adaptation to the future notable impact on the cooling demand with the increase in heatwaves. The analysis in this study ignored the popularity of air conditioning because of the lack of relevant data on cities. However, according to relevant energy data, 90% of U.S. households are equipped with air conditioning, 86% in South Korea, 60% in China, and 5% in India48, which could potentially result in an underestimation of the inequality of heatwave exposure risk. Intense extreme heatwave events lead to large increases in urban power outage risk, and disproportionately high electrical demands are reflected in rising power prices that could exacerbate energy poverty49,50. The high coverage of air conditioning remains a serious concern given the tense relationship between carbon emissions and the Paris Agreement’s long-term objective to achieve carbon neutrality51. Regarding low-carbon energy, it must be considered that the cost of renewable energy would impose potential additional costs on residents, probably contributing to deeper energy poverty.\nResearch at the urban scale is key to exploring global sustainable development in the future. We adopted the MME statistics from 27 sets of CMIP6 GCMs to reduce the uncertainty of a single GCM model52. We expect significant importance in the urban simulation of future compound exposure risks; therefore, more detailed data and processing are needed to support further urban-scale studies53,54,55. Due to insufficient data, the ageing rate in the country was adopted as a substitute for the ageing rate in cities and was therefore likely to be an overestimation of the actual exposure risk of urban elderly population56. To refine the research results, the predicted rate of ageing at the national scale can be adjusted to obtain the future proportion of ageing at the urban scale and thereby provide a uniform urban ageing rate.\nIn summary, we aimed to provide insights to cities and governments for early intervention and protection from the compound thermal risk, especially in the elderly population. Our findings show that with increased interactions of global warming and urbanization and ageing, low- and middle-income developing countries will be more vulnerable to negative effects, which could adversely affect their sustainable development28. In contrast to developed countries, which are in the mature stage of urbanization, developing countries are undergoing a rapid urbanization process that brings about a change in land use and a rapid increase and agglomeration of the population that affects the local climate57,58. However, when infrastructure, disaster prevention and mitigation facilities do not keep pace with economic development, the serious consequence is that cities and urban populations are less able to cope with risks. In addition, as regions with high density of populations and economic activities, urban agglomerations have profound social significance, and evaluating their future risk under climate change is necessary. Based on these analyses, it is most important to provide evidence for policy-makers to make decisions to improve the sustainability of cities and manage risks effectively, especially for developing countries.",
+            "cites": [
+                "ref-CR55",
+                "ref-CR49",
+                "ref-CR58",
+                "ref-CR46",
+                "ref-CR53",
+                "ref-CR47",
+                "ref-CR28",
+                "ref-CR57",
+                "ref-CR51",
+                "ref-CR50",
+                "ref-CR48",
+                "ref-CR56",
+                "ref-CR52",
+                "ref-CR54"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Climate data\nWe applied climate data based on a collection of 27 high-resolution GCMs to analyse future projections of extreme heatwaves derived from 0.25-degree grid and daily scale near-surface air maximum temperature (Tmax). The GCM outputs are from the most recent updated Coupled Model Intercomparison Project Phase 6 (CMIP6) simulations developed in different countries under different SSP scenarios for the historical period of 1950 to 2014 and the projection period of 2020–210039 (specific models’ selection in the Supplementary Table 2). The SSP-RCP scenarios for CMIP6 were used to explore possible changes under different aerosol emissions with corresponding policy- and socioeconomic-induced development impacts. Our analysis employed two SSP2-4.5 and SSP5-8.5 scenarios, of which SSP2-4.5 represents modest mitigation and SSP5-8.5 refers to fossil fuel-based development. The overall GCM results were generated by the multi-model ensemble (MME) mean for the composite projections52.\n### Urban settlement data\nThe urban settlement boundary data were obtained from the Global Urban Centre for Human Settlements Database (GHS-UCDB). The GHS-UCDB is currently the most comprehensive normative spatial dataset covering the economic and environmental attributes of global cities59. In addition, a consistent standard for identifying the global existing urban continuum is necessary to facilitate reasonable comparisons among cities. To calculate the population heatwave exposure within cities, we selected regions with areas >1 km2 and urban population size over 100,000 in 2015. Finally, 9,188 urban settlements were included in our study to estimate future exposure risk. The analysis used income group data and city size data in 2015 from the urban settlements’ attributes of GUS-UCDB statistics (classification of study region see Supplementary Figure 5).\n### Population and ageing structure projection data\nThe gridded population projections under the different SSP scenarios were obtained from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the SSPs60. The population projections were at a resolution of 0.125 degrees and ten-year intervals from 2010 to 2100. For population age structures corresponding to the SSP, we derived the ageing rate of each decade’s average over future time periods from 2020 to 2090 from the SSP database hosted by the IIASA61. The number of ageing populations over the age of 65 in cities was computed by the product of its urban population size and national ageing rate under corresponding scenarios36.\n### Heatwave definition\nA heatwave event was defined as a consecutive period of at least 3 days when the daily Tmax was above the 95th percentile of the reference32,62. We adopted the gridded percentage as the relative threshold rather than a fixed temperature (i.e., 35 °C) for regional analysis35. The percentage was generated based on a 5-day moving window of daily Tmax over the historical period of the summer season, from June to August in the Northern Hemisphere and December to February in the Southern Hemisphere, from 1950 to 2014. Here, we improved the thresholds and concentrated the month of high temperatures as extreme heatwaves63 compared to the criteria setting of the 90th percentile and warm season (i.e., May to September) in relevant research32,64. We further calculated the heatwave characteristics of heatwave duration (HWD) and heatwave average intensity (HWI) for each SSP scenario.\n### Quantification of heatwave exposure risk\nThe heatwave exposure risk was quantified by the product of heatwave characteristics and population distribution23. The annual heatwave characteristics were computed by multiplying the number of heatwave duration days and average intensity, highlighting the response of heatwave exposure processes to evident warming signals, particularly in tropical regions where the HWD tends towards the ceiling. Hence, the unit of heatwave exposure risk was defined as person-days-Δ°C. We remapped the decade-averaged heatwave characteristics to match the population projections’ temporal resolution. For each urban settlement, we extracted the total value and average of heatwave exposure within its continuum boundary. To address the compatible scale between simulation resolution and urban boundaries, all the simulations were resampled to 0.0125° by using nearest neighbour interpolation.\nwhere i is the grid, y is the year, the HWDi,y is the sum length of heatwave events of year y for grid i, the HWIi,y is the average daily maximum temperature throughout the heatwave events of year y for grid i, Thresholdi95 is the 95th percentile of the historical temperature threshold for the grid i. Populationi,ytotal is the number of population at year y for grid i within urban area, here vulnerable elderly population is defined as people over 65, the Ageing Rate65 + i,y is the proportion of over 65 at year y for grid i within each country.\n### Spatiotemporal analysis\nThe Mann–Kendall test and Theil-Sen’s slope estimator were used to evaluate the magnitude of the spatiotemporal monotonic trends in heatwave characteristics and exposure risks at a gridded scale65,66,67. The results in the zonal analysis were extracted with statistical significance above the 95% confidence interval. We calculated the spatiotemporal trend analysis for future projections from 2020 to 2099, and trends were quantified in decadal units. In addition, we adopted simple OLS regression to estimate the growth trend of exposure risk for each urban settlement under scenarios and retained only the urban settlements with statistically significant trends (P < 0.05)2.\n### Decomposing the compound exposure risk factors\nWe adopted the decomposition method to calculate the drivers of elderly population heatwave exposure from the climate effect, urban population and population ageing23,36,45 (see Supplementary Text and Supplementary Table 2). The climate effect referred to the combination of HWD and HWI; the urban population was the sum of the population within urban settlements; and population ageing was the local proportion of elderly population. For each scenario, the drivers’ contribution was estimated for the baseline (2020s), early (2030s–2060s) and late (2060s–2090s) future periods, and then the relative contribution of each driver in different income groups was sequentially calculated. The drivers of compound exposure risk were computed as follows:",
+            "cites": [
+                "ref-CR65",
+                "ref-CR64",
+                "ref-CR66",
+                "ref-CR36",
+                "ref-CR32",
+                "ref-CR39",
+                "ref-CR59",
+                "ref-CR67",
+                "ref-CR45",
+                "ref-CR2",
+                "ref-CR61",
+                "ref-CR62",
+                "ref-CR63",
+                "ref-CR23",
+                "ref-CR52",
+                "ref-CR60",
+                "ref-CR35"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Spatiotemporal variation in exposure risk trend projections.",
+            "figure-caption": "a, b Exposure risk trends estimated by Mann–Kendall test and Sen’s slope under (a) SSP2-4.5 and (b) SSP5-8.5 during 2020s to 2090s. For each pixel, the forecasting results with the Mann-Kendall test at the 95% significant level were considered.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-023-00118-9/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Projections of exposure risk trend for elderly.",
+            "figure-caption": "a, b Spatial distribution of exposure risk trend for elderly in cities under (a) SSP2-4.5 and (b) SSP5-8.5. An OLS liner regression of the exposure risk trend. The point estimates are statistically significant at p < 0.05.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-023-00118-9/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Comparative evolution for exposure risk of continents.",
+            "figure-caption": "a, b The increases of exposure risks for total population in urban on each continent, respectively, under (a) SSP2-4.5 and (b) SSP5-8.5. c-d, the comparison of exposure risk for urban elderly population under (c) SSP2-4.5 and (d) SSP5-8.5. Solid lines represent the change of aggregate exposure risk in cities area.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-023-00118-9/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: The relationship between initial scale and growth trend of exposure risk.",
+            "figure-caption": "a, b City-level measures of exposure risk and its growth trend during 2020s to 2090s under SSP2-4.5 (green points) and SSP5-8.5 (red points), for urban (a) total population and (b) elderly population. The solid lines were calculated using the stepwise regression on log scale, and the 95% confidence interval is specified by the shaded areas.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-023-00118-9/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Uneven distribution of heatwave exposure risk trend.",
+            "figure-caption": "a, b The different exposure risk trend between different income group under (a) SSP2-4.5 and (b) SSP5-8.5. c, d The different exposure risk trend between different city size under (c) SSP2-4.5 and (d) SSP5-8.5. The box indicates the lower (25%) and upper (75%) quantile and the horizontal line indicates the median (50%). P values were calculated by Kruskal–Wallis tests.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-023-00118-9/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6: Proportional patterns of exposure risk between different income group and city size.",
+            "figure-caption": "The gross exposure risk (vertical axis) for urban elderly population under (a) SSP2-4.5 and (b) SSP5-8.5. c, d The grow rate of heatwave exposure risk (vertical axis) for urban elderly population under (c) SSP2-4.5 and (d) SSP5-8.5 during 2020s to 2090s.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-023-00118-9/figures/6"
+        },
+        {
+            "id": "figure-7",
+            "figure-title": "Fig. 7: Decomposition of factors driving growth in heatwave exposure risks.",
+            "figure-caption": "a–c Contribution of factors under SSP2-4.5 over periods of 2030s to 2060s (a), 2060s to 2090s (b), 2020s to 2090s (c). d–f Contribution of factors under SSP5-8.5, period presenting as above. HIC high-income countries, UMIC upper middle-income countries, LMIC lower-middle-income countries, LIC low-income countries.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-023-00118-9/figures/7"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Witze, A. Extreme heatwaves: surprising lessons from the record warmth. Nature 608, 464–465 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fd41586-022-02114-y",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XitFGjsLzF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Extreme%20heatwaves%3A%20surprising%20lessons%20from%20the%20record%20warmth&journal=Nature&doi=10.1038%2Fd41586-022-02114-y&volume=608&pages=464-465&publication_year=2022&author=Witze%2CA"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Tuholske, C. et al. Global urban population exposure to extreme heat. Proc. Natl. Acad. Sci. USA 118, e2024792118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2024792118",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXitlSms7rF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20urban%20population%20exposure%20to%20extreme%20heat&journal=Proc.%20Natl.%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2024792118&volume=118&publication_year=2021&author=Tuholske%2CC"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Mora, C. et al. Global risk of deadly heat. Nat. Clim. Change 7, 501–506 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnclimate3322",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20risk%20of%20deadly%20heat&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fnclimate3322&volume=7&pages=501-506&publication_year=2017&author=Mora%2CC"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Perkins, S., Alexander, L. & Nairn, J. Increasing frequency, intensity and duration of observed global heatwaves and warm spells. Geophys. Res. Lett. 39, 20 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2012GL053361",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Increasing%20frequency%2C%20intensity%20and%20duration%20of%20observed%20global%20heatwaves%20and%20warm%20spells&journal=Geophys.%20Res.%20Lett.&doi=10.1029%2F2012GL053361&volume=39&publication_year=2012&author=Perkins%2CS&author=Alexander%2CL&author=Nairn%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Kephart, J. L. et al. City-level impact of extreme temperatures and mortality in Latin America. Nat. Med. 28, 1700–1705 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41591-022-01872-6",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xhs1Srt7%2FE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=City-level%20impact%20of%20extreme%20temperatures%20and%20mortality%20in%20Latin%20America&journal=Nat.%20Med.&doi=10.1038%2Fs41591-022-01872-6&volume=28&pages=1700-1705&publication_year=2022&author=Kephart%2CJL"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Ebi, K. L. et al. Hot weather and heat extremes: health risks. Lancet 398, 698–708 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2821%2901208-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Hot%20weather%20and%20heat%20extremes%3A%20health%20risks&journal=Lancet&doi=10.1016%2FS0140-6736%2821%2901208-3&volume=398&pages=698-708&publication_year=2021&author=Ebi%2CKL"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Ebi, K. L. Managing climate change risks is imperative for human health. Nat. Rev. Nephrol. 18, 74–75 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41581-021-00523-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Managing%20climate%20change%20risks%20is%20imperative%20for%20human%20health&journal=Nat.%20Rev.%20Nephrol.&doi=10.1038%2Fs41581-021-00523-2&volume=18&pages=74-75&publication_year=2022&author=Ebi%2CKL"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Kirby, P. Heatwave: Ferocious European heat heads north. BBC News (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Elamroussi, A. & Beech, S. More than 90 million in the US endure alarmingly high temperatures Sunday as heat wave persists from mid-South to Northeast. CNN News (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "China hit by longest and strongest heatwave on record. Climate Home News https://www.climatechangenews.com/2022/08/23/china-hit-by-longest-and-strongest-heatwave-on-record/ (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Climate Change made devastating early heat in India and Pakistan 30 times more likely – World Weather Attribution. https://www.worldweatherattribution.org/climate-change-made-devastating-early-heat-in-india-and-pakistan-30-times-more-likely/.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "He, B.-J., Wang, J., Zhu, J. & Qi, J. Beating the urban heat: Situation, background, impacts and the way forward in China. Renew. Sust. Energ. Rev. 161, 112350 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2022.112350",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Beating%20the%20urban%20heat%3A%20Situation%2C%20background%2C%20impacts%20and%20the%20way%20forward%20in%20China&journal=Renew.%20Sust.%20Energ.%20Rev.&doi=10.1016%2Fj.rser.2022.112350&volume=161&publication_year=2022&author=He%2CB-J&author=Wang%2CJ&author=Zhu%2CJ&author=Qi%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Flores, N. M. et al. The 2021 Texas Power Crisis: distribution, duration, and disparities. J. Expo. Sci. Environ. Epidemiol. 33, 21–31 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41370-022-00462-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%202021%20Texas%20Power%20Crisis%3A%20distribution%2C%20duration%2C%20and%20disparities&journal=J.%20Expo.%20Sci.%20Environ.%20Epidemiol.&doi=10.1038%2Fs41370-022-00462-5&volume=33&pages=21-31&publication_year=2023&author=Flores%2CNM"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Shen, C., Zhu, W. & Xu, L. Critical risk determination method of energy-flow network for urban electricity system under extreme heat wave impact. Environ. Res. 191, 110143 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envres.2020.110143",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhsl2hurrM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Critical%20risk%20determination%20method%20of%20energy-flow%20network%20for%20urban%20electricity%20system%20under%20extreme%20heat%20wave%20impact&journal=Environ.%20Res.&doi=10.1016%2Fj.envres.2020.110143&volume=191&publication_year=2020&author=Shen%2CC&author=Zhu%2CW&author=Xu%2CL"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Satterthwaite, D. et al. Building resilience to climate change in informal settlements. One Earth 2, 143–156 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.oneear.2020.02.002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Building%20resilience%20to%20climate%20change%20in%20informal%20settlements&journal=One%20Earth&doi=10.1016%2Fj.oneear.2020.02.002&volume=2&pages=143-156&publication_year=2020&author=Satterthwaite%2CD"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Nations, U. Around 2.5 billion more people will be living in cities by 2050, projects new UN report. United Nations https://www.un.org/en/desa/around-25-billion-more-people-will-be-living-cities-2050-projects-new-un-report",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Rudnicka, E. et al. The World Health Organization (WHO) approach to healthy ageing. Maturitas 139, 6–11 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.maturitas.2020.05.018",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20World%20Health%20Organization%20%28WHO%29%20approach%20to%20healthy%20ageing&journal=Maturitas&doi=10.1016%2Fj.maturitas.2020.05.018&volume=139&pages=6-11&publication_year=2020&author=Rudnicka%2CE"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Park, C.-E., Jeong, S., Harrington, L. J., Lee, M.-I. & Zheng, C. Population ageing determines changes in heat vulnerability to future warming. Environ. Res. Lett. 15, 114043 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Fabbd60",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Population%20ageing%20determines%20changes%20in%20heat%20vulnerability%20to%20future%20warming&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Fabbd60&volume=15&publication_year=2020&author=Park%2CC-E&author=Jeong%2CS&author=Harrington%2CLJ&author=Lee%2CM-I&author=Zheng%2CC"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Xing, Q. et al. Projections of future temperature-related cardiovascular mortality under climate change, urbanization and population aging in Beijing, China. Environ. Int. 163, 107231 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envint.2022.107231",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Projections%20of%20future%20temperature-related%20cardiovascular%20mortality%20under%20climate%20change%2C%20urbanization%20and%20population%20aging%20in%20Beijing%2C%20China&journal=Environ.%20Int.&doi=10.1016%2Fj.envint.2022.107231&volume=163&publication_year=2022&author=Xing%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Chakraborty, T., Hsu, A., Manya, D. & Sheriff, G. Disproportionately higher exposure to urban heat in lower-income neighborhoods: a multi-city perspective. Environ. Res. Lett. 14, 105003 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Fab3b99",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Disproportionately%20higher%20exposure%20to%20urban%20heat%20in%20lower-income%20neighborhoods%3A%20a%20multi-city%20perspective&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Fab3b99&volume=14&publication_year=2019&author=Chakraborty%2CT&author=Hsu%2CA&author=Manya%2CD&author=Sheriff%2CG"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Oliveira, A., Lopes, A. & Soares, A. Excess heat factor climatology, trends, and exposure across European functional urban areas. Weather. Clim. Extremes 36, 100455 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.wace.2022.100455",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Excess%20heat%20factor%20climatology%2C%20trends%2C%20and%20exposure%20across%20European%20functional%20urban%20areas&journal=Weather.%20Clim.%20Extremes&doi=10.1016%2Fj.wace.2022.100455&volume=36&publication_year=2022&author=Oliveira%2CA&author=Lopes%2CA&author=Soares%2CA"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Cappelli, F., Costantini, V. & Consoli, D. The trap of climate change-induced “natural” disasters and inequality. Glob. Environ. Change 70, 102329 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.gloenvcha.2021.102329",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20trap%20of%20climate%20change-induced%20%E2%80%9Cnatural%E2%80%9D%20disasters%20and%20inequality&journal=Glob.%20Environ.%20Change&doi=10.1016%2Fj.gloenvcha.2021.102329&volume=70&publication_year=2021&author=Cappelli%2CF&author=Costantini%2CV&author=Consoli%2CD"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Chambers, J. Global and cross-country analysis of exposure of vulnerable populations to heatwaves from 1980 to 2018. Clim. Change 163, 539–558 (2020).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10584-020-02884-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20and%20cross-country%20analysis%20of%20exposure%20of%20vulnerable%20populations%20to%20heatwaves%20from%201980%20to%202018&journal=Clim.%20Change&doi=10.1007%2Fs10584-020-02884-2&volume=163&pages=539-558&publication_year=2020&author=Chambers%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Ban, J., Lu, K., Wang, Q. & Li, T. Climate change will amplify the inequitable exposure to compound heatwave and ozone pollution. One Earth 5, 677–686 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.oneear.2022.05.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20will%20amplify%20the%20inequitable%20exposure%20to%20compound%20heatwave%20and%20ozone%20pollution&journal=One%20Earth&doi=10.1016%2Fj.oneear.2022.05.007&volume=5&pages=677-686&publication_year=2022&author=Ban%2CJ&author=Lu%2CK&author=Wang%2CQ&author=Li%2CT"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Kam, P. M. et al. Global warming and population change both heighten future risk of human displacement due to river floods. Environ. Res. Lett. 16, 044026 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Fabd26c",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20warming%20and%20population%20change%20both%20heighten%20future%20risk%20of%20human%20displacement%20due%20to%20river%20floods&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Fabd26c&volume=16&publication_year=2021&author=Kam%2CPM"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Mukherjee, S., Mishra, A. K., Zscheischler, J. & Entekhabi, D. Interaction between dry and hot extremes at a global scale using a cascade modeling framework. Nat. Commun. 14, 277 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-022-35748-7",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3sXhvFaqtLY%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Interaction%20between%20dry%20and%20hot%20extremes%20at%20a%20global%20scale%20using%20a%20cascade%20modeling%20framework&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-022-35748-7&volume=14&publication_year=2023&author=Mukherjee%2CS&author=Mishra%2CAK&author=Zscheischler%2CJ&author=Entekhabi%2CD"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "McElroy, S., Ilango, S., Dimitrova, A., Gershunov, A. & Benmarhnia, T. Extreme heat, preterm birth, and stillbirth: a global analysis across 14 lower-middle income countries. Environ. Int. 158, 106902 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envint.2021.106902",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Extreme%20heat%2C%20preterm%20birth%2C%20and%20stillbirth%3A%20a%20global%20analysis%20across%2014%20lower-middle%20income%20countries&journal=Environ.%20Int.&doi=10.1016%2Fj.envint.2021.106902&volume=158&publication_year=2022&author=McElroy%2CS&author=Ilango%2CS&author=Dimitrova%2CA&author=Gershunov%2CA&author=Benmarhnia%2CT"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Formetta, G. & Feyen, L. Empirical evidence of declining global vulnerability to climate-related hazards. Glob. Environ. Change 57, 101920 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.gloenvcha.2019.05.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Empirical%20evidence%20of%20declining%20global%20vulnerability%20to%20climate-related%20hazards&journal=Glob.%20Environ.%20Change&doi=10.1016%2Fj.gloenvcha.2019.05.004&volume=57&publication_year=2019&author=Formetta%2CG&author=Feyen%2CL"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Jay, O. et al. Reducing the health effects of hot weather and heat extremes: from personal cooling strategies to green cities. Lancet 398, 709–724 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2821%2901209-5",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Reducing%20the%20health%20effects%20of%20hot%20weather%20and%20heat%20extremes%3A%20from%20personal%20cooling%20strategies%20to%20green%20cities&journal=Lancet&doi=10.1016%2FS0140-6736%2821%2901209-5&volume=398&pages=709-724&publication_year=2021&author=Jay%2CO"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Perkins-Kirkpatrick, S. E. & Lewis, S. C. Increasing trends in regional heatwaves. Nat. Commun. 11, 3357 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-020-16970-7",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhtlGmsrbL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Increasing%20trends%20in%20regional%20heatwaves&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-020-16970-7&volume=11&publication_year=2020&author=Perkins-Kirkpatrick%2CSE&author=Lewis%2CSC"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Limaye, V. S. Reducing the inequitable health and financial burdens of climate change. One Earth 5, 320–323 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.oneear.2022.03.016",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Reducing%20the%20inequitable%20health%20and%20financial%20burdens%20of%20climate%20change&journal=One%20Earth&doi=10.1016%2Fj.oneear.2022.03.016&volume=5&pages=320-323&publication_year=2022&author=Limaye%2CVS"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Wang, J., Feng, J., Yan, Z. & Chen, Y. Future risks of unprecedented compound heat waves over three vast urban agglomerations in China. Earths Future 8, e2020EF001716 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2020EF001716",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Future%20risks%20of%20unprecedented%20compound%20heat%20waves%20over%20three%20vast%20urban%20agglomerations%20in%20China&journal=Earths%20Future&doi=10.1029%2F2020EF001716&volume=8&publication_year=2020&author=Wang%2CJ&author=Feng%2CJ&author=Yan%2CZ&author=Chen%2CY"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Marcotullio, P. J., Keßler, C. & Fekete, B. M. The future urban heat-wave challenge in Africa: Exploratory analysis. Glob. Environ. Change 66, 102190 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.gloenvcha.2020.102190",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20future%20urban%20heat-wave%20challenge%20in%20Africa%3A%20Exploratory%20analysis&journal=Glob.%20Environ.%20Change&doi=10.1016%2Fj.gloenvcha.2020.102190&volume=66&publication_year=2021&author=Marcotullio%2CPJ&author=Ke%C3%9Fler%2CC&author=Fekete%2CBM"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Rohat, G., Flacke, J., Dosio, A., Dao, H. & van Maarseveen, M. Projections of Human Exposure to Dangerous Heat in African Cities Under Multiple Socioeconomic and Climate Scenarios. Earths Future 7, 528–546 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2018EF001020",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Projections%20of%20Human%20Exposure%20to%20Dangerous%20Heat%20in%20African%20Cities%20Under%20Multiple%20Socioeconomic%20and%20Climate%20Scenarios&journal=Earths%20Future&doi=10.1029%2F2018EF001020&volume=7&pages=528-546&publication_year=2019&author=Rohat%2CG&author=Flacke%2CJ&author=Dosio%2CA&author=Dao%2CH&author=Maarseveen%2CM"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Klein, T. & Anderegg, W. R. L. A vast increase in heat exposure in the 21st century is driven by global warming and urban population growth. Sustain. Cities Soc. 73, 103098 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2021.103098",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20vast%20increase%20in%20heat%20exposure%20in%20the%2021st%20century%20is%20driven%20by%20global%20warming%20and%20urban%20population%20growth&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2021.103098&volume=73&publication_year=2021&author=Klein%2CT&author=Anderegg%2CWRL"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Chen, H. et al. Projections of heatwave-attributable mortality under climate change and future population scenarios in China. Lancet Regional Health Western Pacific 28, 100582 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.lanwpc.2022.100582",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Projections%20of%20heatwave-attributable%20mortality%20under%20climate%20change%20and%20future%20population%20scenarios%20in%20China&journal=Lancet%20Regional%20Health%20Western%20Pacific&doi=10.1016%2Fj.lanwpc.2022.100582&volume=28&publication_year=2022&author=Chen%2CH"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Lenzi, C. & Perucca, G. Economic inequalities and discontent in European cities. npj Urban Sustain. 3, 26 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs42949-023-00104-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Economic%20inequalities%20and%20discontent%20in%20European%20cities&journal=npj%20Urban%20Sustain.&doi=10.1038%2Fs42949-023-00104-1&volume=3&publication_year=2023&author=Lenzi%2CC&author=Perucca%2CG"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Jarzebski, M. P. et al. Ageing and population shrinking: implications for sustainability in the urban century. npj Urban Sustain. 1, 17 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs42949-021-00023-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ageing%20and%20population%20shrinking%3A%20implications%20for%20sustainability%20in%20the%20urban%20century&journal=npj%20Urban%20Sustain.&doi=10.1038%2Fs42949-021-00023-z&volume=1&publication_year=2021&author=Jarzebski%2CMP"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Thrasher, B. et al. NASA Global Daily Downscaled Projections, CMIP6. Sci. Data 9, 1–6 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41597-022-01393-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=NASA%20Global%20Daily%20Downscaled%20Projections%2C%20CMIP6&journal=Sci.%20Data&doi=10.1038%2Fs41597-022-01393-4&volume=9&pages=1-6&publication_year=2022&author=Thrasher%2CB"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "O’Neill, B. C. et al. A new scenario framework for climate change research: the concept of shared socioeconomic pathways. Clim. Change 122, 387–400 (2014).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10584-013-0905-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20new%20scenario%20framework%20for%20climate%20change%20research%3A%20the%20concept%20of%20shared%20socioeconomic%20pathways&journal=Clim.%20Change&doi=10.1007%2Fs10584-013-0905-2&volume=122&pages=387-400&publication_year=2014&author=O%E2%80%99Neill%2CBC"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Eyring, V. et al. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci. Model Dev. 9, 1937–1958 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Fgmd-9-1937-2016",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Overview%20of%20the%20Coupled%20Model%20Intercomparison%20Project%20Phase%206%20%28CMIP6%29%20experimental%20design%20and%20organization&journal=Geosci.%20Model%20Dev.&doi=10.5194%2Fgmd-9-1937-2016&volume=9&pages=1937-1958&publication_year=2016&author=Eyring%2CV"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Chen, M., Xian, Y., Wang, P. & Ding, Z. Climate change and multi-dimensional sustainable urbanization. J. Geogr. Sci. 31, 1328–1348 (2021).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11442-021-1895-z",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20and%20multi-dimensional%20sustainable%20urbanization&journal=J.%20Geogr.%20Sci.&doi=10.1007%2Fs11442-021-1895-z&volume=31&pages=1328-1348&publication_year=2021&author=Chen%2CM&author=Xian%2CY&author=Wang%2CP&author=Ding%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Thiery, W. et al. Intergenerational inequities in exposure to climate extremes. Science 374, 158–160 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.abi7339",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXit1eqsbjP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Intergenerational%20inequities%20in%20exposure%20to%20climate%20extremes&journal=Science&doi=10.1126%2Fscience.abi7339&volume=374&pages=158-160&publication_year=2021&author=Thiery%2CW"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Kasperson, R. E. et al. The social amplification of risk: a conceptual framework. Risk Anal. 8, 177–187 (1988).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1539-6924.1988.tb01168.x",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20social%20amplification%20of%20risk%3A%20a%20conceptual%20framework&journal=Risk%20Anal.&doi=10.1111%2Fj.1539-6924.1988.tb01168.x&volume=8&pages=177-187&publication_year=1988&author=Kasperson%2CRE"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Broadbent, A. M., Krayenhoff, E. S. & Georgescu, M. The motley drivers of heat and cold exposure in 21st century US cities. Proc. Natl. Acad. Sci. USA 117, 21108–21117 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2005492117",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhslWgur%2FL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20motley%20drivers%20of%20heat%20and%20cold%20exposure%20in%2021st%20century%20US%20cities&journal=Proc.%20Natl.%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2005492117&volume=117&pages=21108-21117&publication_year=2020&author=Broadbent%2CAM&author=Krayenhoff%2CES&author=Georgescu%2CM"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Che, X., Zhu, B. & Wang, P. Assessing global energy poverty: an integrated approach. Energ. Policy 149, 112099 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2020.112099",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assessing%20global%20energy%20poverty%3A%20an%20integrated%20approach&journal=Energ.%20Policy&doi=10.1016%2Fj.enpol.2020.112099&volume=149&publication_year=2021&author=Che%2CX&author=Zhu%2CB&author=Wang%2CP"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Liu, J. et al. The role of sustainable development goals to eradicate the multidimensional energy poverty and improve social Wellbeing’s. Energy Strategy Rev. 42, 100885 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.esr.2022.100885",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20sustainable%20development%20goals%20to%20eradicate%20the%20multidimensional%20energy%20poverty%20and%20improve%20social%20Wellbeing%E2%80%99s&journal=Energy%20Strategy%20Rev.&doi=10.1016%2Fj.esr.2022.100885&volume=42&publication_year=2022&author=Liu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Global AC penetration rate by country 2016. Statista https://www.statista.com/statistics/911064/worldwide-air-conditioning-penetration-rate-country/.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Thomson, H., Simcock, N., Bouzarovski, S. & Petrova, S. Energy poverty and indoor cooling: an overlooked issue in Europe. Energ. Buildings 196, 21–29 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enbuild.2019.05.014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Energy%20poverty%20and%20indoor%20cooling%3A%20an%20overlooked%20issue%20in%20Europe&journal=Energ.%20Buildings&doi=10.1016%2Fj.enbuild.2019.05.014&volume=196&pages=21-29&publication_year=2019&author=Thomson%2CH&author=Simcock%2CN&author=Bouzarovski%2CS&author=Petrova%2CS"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Cong, S., Nock, D., Qiu, Y. L. & Xing, B. Unveiling hidden energy poverty using the energy equity gap. Nat. Commun. 13, 2456 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-022-30146-5",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xht1ShtLjK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Unveiling%20hidden%20energy%20poverty%20using%20the%20energy%20equity%20gap&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-022-30146-5&volume=13&publication_year=2022&author=Cong%2CS&author=Nock%2CD&author=Qiu%2CYL&author=Xing%2CB"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Chakravarty, S. & Tavoni, M. Energy poverty alleviation and climate change mitigation: Is there a trade off? Energy Econ. 40, S67–S73 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.eneco.2013.09.022",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Energy%20poverty%20alleviation%20and%20climate%20change%20mitigation%3A%20Is%20there%20a%20trade%20off%3F&journal=Energy%20Econ.&doi=10.1016%2Fj.eneco.2013.09.022&volume=40&pages=S67-S73&publication_year=2013&author=Chakravarty%2CS&author=Tavoni%2CM"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Zhao, Y., Qian, C., Zhang, W., He, D. & Qi, Y. Extreme temperature indices in Eurasia in a CMIP6 multi-model ensemble: evaluation and projection. Int. J. Climatol. 41, 5368–5385 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fjoc.7134",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Extreme%20temperature%20indices%20in%20Eurasia%20in%20a%20CMIP6%20multi-model%20ensemble%3A%20evaluation%20and%20projection&journal=Int.%20J.%20Climatol.&doi=10.1002%2Fjoc.7134&volume=41&pages=5368-5385&publication_year=2021&author=Zhao%2CY&author=Qian%2CC&author=Zhang%2CW&author=He%2CD&author=Qi%2CY"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Solecki, W. et al. A conceptual framework for an urban areas typology to integrate climate change mitigation and adaptation. Urban Clim. 14, 116–137 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.uclim.2015.07.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20conceptual%20framework%20for%20an%20urban%20areas%20typology%20to%20integrate%20climate%20change%20mitigation%20and%20adaptation&journal=Urban%20Clim.&doi=10.1016%2Fj.uclim.2015.07.001&volume=14&pages=116-137&publication_year=2015&author=Solecki%2CW"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Lin, B. B. et al. Integrating solutions to adapt cities for climate change. Lancet Planet. Health 5, e479–e486 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2821%2900135-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Integrating%20solutions%20to%20adapt%20cities%20for%20climate%20change&journal=Lancet%20Planet.%20Health&doi=10.1016%2FS2542-5196%2821%2900135-2&volume=5&pages=e479-e486&publication_year=2021&author=Lin%2CBB"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Chen, M., Chen, L., Li, Y. & Xian, Y. Developing computable sustainable urbanization science: interdisciplinary perspective. Comput. Urban Sci. 2, 17 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s43762-022-00048-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Developing%20computable%20sustainable%20urbanization%20science%3A%20interdisciplinary%20perspective&journal=Comput.%20Urban%20Sci.&doi=10.1007%2Fs43762-022-00048-9&volume=2&publication_year=2022&author=Chen%2CM&author=Chen%2CL&author=Li%2CY&author=Xian%2CY"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Gong, P. et al. Urbanisation and health in China. Lancet 379, 843–852 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2811%2961878-3",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanisation%20and%20health%20in%20China&journal=Lancet&doi=10.1016%2FS0140-6736%2811%2961878-3&volume=379&pages=843-852&publication_year=2012&author=Gong%2CP"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Zhao, L. et al. Global multi-model projections of local urban climates. Nat. Clim. Change 11, 152–157 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-020-00958-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%20multi-model%20projections%20of%20local%20urban%20climates&journal=Nat.%20Clim.%20Change&doi=10.1038%2Fs41558-020-00958-8&volume=11&pages=152-157&publication_year=2021&author=Zhao%2CL"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Liang, L., Chen, M. & Huang, D. Spatiotemporal change and non-stationarity of air temperature in China from 1959 to 2018. Sustain. Cities Soc. 87, 104227 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scs.2022.104227",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatiotemporal%20change%20and%20non-stationarity%20of%20air%20temperature%20in%20China%20from%201959%20to%202018&journal=Sustain.%20Cities%20Soc.&doi=10.1016%2Fj.scs.2022.104227&volume=87&publication_year=2022&author=Liang%2CL&author=Chen%2CM&author=Huang%2CD"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Florczyk, A. et al. Description of the GHS urban centre database 2015. Public Release 1, 1–75 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Description%20of%20the%20GHS%20urban%20centre%20database%202015&journal=Public%20Release&volume=1&pages=1-75&publication_year=2019&author=Florczyk%2CA"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Jones, B. & O’Neill, B. C. Spatially explicit global population scenarios consistent with the shared socioeconomic pathways. Environ. Res. Lett. 11, 084003 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2F11%2F8%2F084003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatially%20explicit%20global%20population%20scenarios%20consistent%20with%20the%20shared%20socioeconomic%20pathways&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2F11%2F8%2F084003&volume=11&publication_year=2016&author=Jones%2CB&author=O%E2%80%99Neill%2CBC"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "KC, S. & Lutz, W. The human core of the shared socioeconomic pathways: population scenarios by age, sex and level of education for all countries to 2100. Glob. Environ. Change 42, 181–192 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.gloenvcha.2014.06.004",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20human%20core%20of%20the%20shared%20socioeconomic%20pathways%3A%20population%20scenarios%20by%20age%2C%20sex%20and%20level%20of%20education%20for%20all%20countries%20to%202100&journal=Glob.%20Environ.%20Change&doi=10.1016%2Fj.gloenvcha.2014.06.004&volume=42&pages=181-192&publication_year=2017&author=KC%2CS&author=Lutz%2CW"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Russo, S., Sillmann, J. & Fischer, E. M. Top ten European heatwaves since 1950 and their occurrence in the coming decades. Environ. Res. Lett. 10, 124003 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2F10%2F12%2F124003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Top%20ten%20European%20heatwaves%20since%201950%20and%20their%20occurrence%20in%20the%20coming%20decades&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2F10%2F12%2F124003&volume=10&publication_year=2015&author=Russo%2CS&author=Sillmann%2CJ&author=Fischer%2CEM"
+            }
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Thompson, V. et al. The 2021 western North America heat wave among the most extreme events ever recorded globally. Sci. Adv. 8, eabm6860 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fsciadv.abm6860",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%202021%20western%20North%20America%20heat%20wave%20among%20the%20most%20extreme%20events%20ever%20recorded%20globally&journal=Sci.%20Adv.&doi=10.1126%2Fsciadv.abm6860&volume=8&publication_year=2022&author=Thompson%2CV"
+            }
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Yin, C. et al. Changes in global heat waves and its socioeconomic exposure in a warmer future. Clim. Risk Manag. 38, 100459 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.crm.2022.100459",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changes%20in%20global%20heat%20waves%20and%20its%20socioeconomic%20exposure%20in%20a%20warmer%20future&journal=Clim.%20Risk%20Manag.&doi=10.1016%2Fj.crm.2022.100459&volume=38&publication_year=2022&author=Yin%2CC"
+            }
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Meque, A., Pinto, I., Maúre, G. & Beleza, A. Understanding the variability of heatwave characteristics in southern Africa. Weather. Clim. Extremes 38, 100498 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.wace.2022.100498",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20the%20variability%20of%20heatwave%20characteristics%20in%20southern%20Africa&journal=Weather.%20Clim.%20Extremes&doi=10.1016%2Fj.wace.2022.100498&volume=38&publication_year=2022&author=Meque%2CA&author=Pinto%2CI&author=Ma%C3%BAre%2CG&author=Beleza%2CA"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "Mann, H. B. Nonparametric tests against trend. Econometrica 13, 245–259 (1945).",
+            "links": {
+                "Article": "https://doi.org/10.2307%2F1907187",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Nonparametric%20tests%20against%20trend&journal=Econometrica&doi=10.2307%2F1907187&volume=13&pages=245-259&publication_year=1945&author=Mann%2CHB"
+            }
+        },
+        {
+            "id": "ref-CR67",
+            "content": "Kendall, M. G. Rank Correlation Methods. (Griffin, 1948).",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The CMIP6 climate projection data output for daily maximum temperatures is available from the NASA Earth Exchange Global Daily Downscaled Projections (https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6). The GHS-UCDB is available from the European Commission Joint Research Centre (https://ghsl.jrc.ec.europa.eu/datasets.php). The gridded population projections in SSP scenarios are available from the Socioeconomic Data and Applications Center (https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01), and age structure data for each country in the corresponding scenarios are available from the SSP database version 2.0 (https://tntcat.iiasa.ac.at/SspDb/). All data related to this article, as well as the codes used to process the data, are available from the corresponding authors upon request.",
+            "links": {
+                "https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6": "https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6",
+                "https://ghsl.jrc.ec.europa.eu/datasets.php": "https://ghsl.jrc.ec.europa.eu/datasets.php",
+                "https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01",
+                "https://tntcat.iiasa.ac.at/SspDb/": "https://tntcat.iiasa.ac.at/SspDb/"
+            }
+        },
+        "Code availability": {
+            "content": "The codes to make all figures and analysis in this study are available from the corresponding author upon reasonable request.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "This work is supported by Chinese Academy of Sciences Basic Frontier Science Research Program from 0 to 1 Original Innovation Project (No. ZDBS-LYDQC005); National Natural Science Foundation of China (Grant 42121001 and 42171204); and The Strategic Priority Research Program of the Chinese Academy of Sciences (No. XDA23100301).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsMingxing ChenView author publicationsSearch author on:PubMed Google ScholarLiangkan ChenView author publicationsSearch author on:PubMed Google ScholarYuan ZhouView author publicationsSearch author on:PubMed Google ScholarMaogui HuView author publicationsSearch author on:PubMed Google ScholarYanpeng JiangView author publicationsSearch author on:PubMed Google ScholarDapeng HuangView author publicationsSearch author on:PubMed Google ScholarYinghua GongView author publicationsSearch author on:PubMed Google ScholarYue XianView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nM.C. designed the reeserch framework and methodology. M.C., L.C. and Y.Z. conducted the analysis and led the writing of the manuscript. M.C., L.C., M.H. and Y.Z. performed the experiments modelling and data processing. Y.J., D.H., Y.G. and Y.X. were involved in code writing and the interpretation of the results. All authors contributed to the writing, revisions and editing.\n### Corresponding author\nCorrespondence to\n                Mingxing Chen.",
+            "links": {
+                "View author publications": "/search?author=Yue%20Xian",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Yue%20Xian",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Yue%20Xian%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Mingxing Chen": "mailto:chenmx@igsnrr.ac.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary Materials",
+            "links": {
+                "Supplementary Materials": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42949-023-00118-9/MediaObjects/42949_2023_118_MOESM1_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Rising%20vulnerability%20of%20compound%20risk%20inequality%20to%20ageing%20and%20extreme%20heatwave%20exposure%20in%20global%20cities&author=Mingxing%20Chen%20et%20al&contentID=10.1038%2Fs42949-023-00118-9&copyright=The%20Author%28s%29&publication=2661-8001&publicationDate=2023-06-24&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleChen, M., Chen, L., Zhou, Y. et al. Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities.\n                    npj Urban Sustain 3, 38 (2023). https://doi.org/10.1038/s42949-023-00118-9Download citationReceived: 05 December 2022Accepted: 12 June 2023Published: 24 June 2023DOI: https://doi.org/10.1038/s42949-023-00118-9Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42949-023-00118-9?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities",
+                "description": "Continued warming trends lead to an increasing risk of exposure to extreme heatwaves, which threaten the health of urban residents, especially the ageing population. Here, we project the spatiotemporal trend of future exposure risk across 9188 global urban settlements between 2020 and 2100 under the shared socioeconomic pathway (SSP) 2-4.5 and SSP5-8.5 scenarios. Results show that urban heatwave exposure risk increases by 619% and 1740% for SSP2-4.5 and SSP5-8.5, respectively, and by 1642% to 5529% for the elderly. Notably, 69% of the elderly exposure risk comes from middle-income countries, where the increasing trend on the regional average is 1.2 times higher than that of high-income countries. There is an increasing trend towards greater concentration on large cities, especially in low- and lower-middle-income countries. In high-income countries, climate effects contribute 39% to 58% of increasing exposure for elderly individuals, whereas ageing effects play more prominent role in lower-income countries. This emphasizes the disproportionately higher heat-related burden for elderly individuals and inequitable trends in lower income countries. Understanding the vulnerable and priority regions in future heatwave exposure will inform adaptation strategies to support urban climate-resilient development.",
+                "datePublished": "2023-06-24T00:00:00Z",
+                "dateModified": "2023-06-24T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "11",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s42949-023-00118-9",
+                "keywords": [
+                    "Geography",
+                    "Projection and prediction",
+                    "Environment",
+                    "general",
+                    "Sustainable Development",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urbanism",
+                    "Urban Ecology"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-023-00118-9/MediaObjects/42949_2023_118_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-023-00118-9/MediaObjects/42949_2023_118_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-023-00118-9/MediaObjects/42949_2023_118_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-023-00118-9/MediaObjects/42949_2023_118_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-023-00118-9/MediaObjects/42949_2023_118_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-023-00118-9/MediaObjects/42949_2023_118_Fig6_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-023-00118-9/MediaObjects/42949_2023_118_Fig7_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "npj Urban Sustainability",
+                    "issn": [
+                        "2661-8001"
+                    ],
+                    "volumeNumber": "3",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Mingxing Chen",
+                        "url": "http://orcid.org/0000-0001-5224-9762",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Geographic Sciences and Natural Resources Research, CAS",
+                                "address": {
+                                    "name": "Institute of Geographic Sciences and Natural Resources Research, CAS, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "Key Laboratory of Regional Sustainable Development Modeling, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "College of Resource and Environment, University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "chenmx@igsnrr.ac.cn",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Liangkan Chen",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Geographic Sciences and Natural Resources Research, CAS",
+                                "address": {
+                                    "name": "Institute of Geographic Sciences and Natural Resources Research, CAS, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "Key Laboratory of Regional Sustainable Development Modeling, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "College of Resource and Environment, University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yuan Zhou",
+                        "url": "http://orcid.org/0000-0002-5284-8113",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Geographic Sciences and Natural Resources Research, CAS",
+                                "address": {
+                                    "name": "Institute of Geographic Sciences and Natural Resources Research, CAS, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "Key Laboratory of Regional Sustainable Development Modeling, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "College of Resource and Environment, University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Maogui Hu",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Geographic Sciences and Natural Resources Research, CAS",
+                                "address": {
+                                    "name": "Institute of Geographic Sciences and Natural Resources Research, CAS, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "State Key Laboratory of Resources and Environmental Information System, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yanpeng Jiang",
+                        "affiliation": [
+                            {
+                                "name": "East China Normal University",
+                                "address": {
+                                    "name": "School of Urban and Regional Science, East China Normal University, Shanghai, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Dapeng Huang",
+                        "affiliation": [
+                            {
+                                "name": "China Meteorological Administration",
+                                "address": {
+                                    "name": "National Climate Center, China Meteorological Administration, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yinghua Gong",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Geographic Sciences and Natural Resources Research, CAS",
+                                "address": {
+                                    "name": "Institute of Geographic Sciences and Natural Resources Research, CAS, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "Key Laboratory of Regional Sustainable Development Modeling, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "College of Resource and Environment, University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yue Xian",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Geographic Sciences and Natural Resources Research, CAS",
+                                "address": {
+                                    "name": "Institute of Geographic Sciences and Natural Resources Research, CAS, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "Key Laboratory of Regional Sustainable Development Modeling, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "College of Resource and Environment, University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "geography;projection-and-prediction",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": "Urban inequalities and sustainability",
+                            "webtrendsContentGroup": "npj Urban Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42949-023-00118-9"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Mingxing Chen",
+                            "Liangkan Chen",
+                            "Yuan Zhou",
+                            "Maogui Hu",
+                            "Yanpeng Jiang",
+                            "Dapeng Huang",
+                            "Yinghua Gong",
+                            "Yue Xian"
+                        ],
+                        "publishedAt": 1687564800,
+                        "publishedAtString": "2023-06-24",
+                        "title": "Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Geography,Projection and prediction"
+                    },
+                    "journal": {
+                        "pcode": "npjurbansustain",
+                        "title": "npj urban sustainability",
+                        "volume": "3",
+                        "issue": "1",
+                        "id": 42949,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": {
+                        "id": "idcehacdfi"
+                    }
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities",
+            "dc.source": "npj Urban Sustainability 2023 3:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2023-06-24",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2023 The Author(s)",
+            "dc.rights": "2023 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Continued warming trends lead to an increasing risk of exposure to extreme heatwaves, which threaten the health of urban residents, especially the ageing population. Here, we project the spatiotemporal trend of future exposure risk across 9188 global urban settlements between 2020 and 2100 under the shared socioeconomic pathway (SSP) 2-4.5 and SSP5-8.5 scenarios. Results show that urban heatwave exposure risk increases by 619% and 1740% for SSP2-4.5 and SSP5-8.5, respectively, and by 1642% to 5529% for the elderly. Notably, 69% of the elderly exposure risk comes from middle-income countries, where the increasing trend on the regional average is 1.2 times higher than that of high-income countries. There is an increasing trend towards greater concentration on large cities, especially in low- and lower-middle-income countries. In high-income countries, climate effects contribute 39% to 58% of increasing exposure for elderly individuals, whereas ageing effects play more prominent role in lower-income countries. This emphasizes the disproportionately higher heat-related burden for elderly individuals and inequitable trends in lower income countries. Understanding the vulnerable and priority regions in future heatwave exposure will inform adaptation strategies to support urban climate-resilient development.",
+            "dc.identifier": "doi:10.1038/s42949-023-00118-9",
+            "dc.creator": "Xian, Yue",
+            "dc.subject": "Projection and prediction",
+            "prism.issn": "2661-8001",
+            "prism.publicationName": "npj Urban Sustainability",
+            "prism.publicationDate": "2023-06-24",
+            "prism.volume": "3",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "11",
+            "prism.copyright": "2023 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42949-023-00118-9",
+            "prism.doi": "doi:10.1038/s42949-023-00118-9",
+            "citation_pdf_url": "https://www.nature.com/articles/s42949-023-00118-9.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42949-023-00118-9",
+            "citation_journal_title": "npj Urban Sustainability",
+            "citation_journal_abbrev": "npj Urban Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2661-8001",
+            "citation_title": "Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities",
+            "citation_volume": "3",
+            "citation_issue": "1",
+            "citation_online_date": "2023/06/24",
+            "citation_firstpage": "1",
+            "citation_lastpage": "11",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42949-023-00118-9",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42949-023-00118-9&api_key=",
+            "citation_reference": "Kendall, M. G. Rank Correlation Methods. (Griffin, 1948).",
+            "citation_author": "Xian, Yue",
+            "citation_author_institution": "College of Resource and Environment, University of Chinese Academy of Sciences, Beijing, China",
+            "description": "Continued warming trends lead to an increasing risk of exposure to extreme heatwaves, which threaten the health of urban residents, especially the ageing population. Here, we project the spatiotemporal trend of future exposure risk across 9188 global urban settlements between 2020 and 2100 under the shared socioeconomic pathway (SSP) 2-4.5 and SSP5-8.5 scenarios. Results show that urban heatwave exposure risk increases by 619% and 1740% for SSP2-4.5 and SSP5-8.5, respectively, and by 1642% to 5529% for the elderly. Notably, 69% of the elderly exposure risk comes from middle-income countries, where the increasing trend on the regional average is 1.2 times higher than that of high-income countries. There is an increasing trend towards greater concentration on large cities, especially in low- and lower-middle-income countries. In high-income countries, climate effects contribute 39% to 58% of increasing exposure for elderly individuals, whereas ageing effects play more prominent role in lower-income countries. This emphasizes the disproportionately higher heat-related burden for elderly individuals and inequitable trends in lower income countries. Understanding the vulnerable and priority regions in future heatwave exposure will inform adaptation strategies to support urban climate-resilient development.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities",
+            "twitter:description": "npj Urban Sustainability - Rising vulnerability of compound risk inequality to ageing and extreme heatwave exposure in global cities",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42949-023-00118-9/MediaObjects/42949_2023_118_Fig1_HTML.png",
+            "DOI": "10.1038/s42949-023-00118-9",
+            "size": "196799",
+            "journal_id": "42949"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42949-023-00118-9",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

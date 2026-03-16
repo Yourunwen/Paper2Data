@@ -1,0 +1,85 @@
+{
+    "id": "s41599-025-05272-2",
+    "title": "Impact of religious cultural similarity on internal migration: a regional perspective in contemporary China",
+    "journal": "Humanities and Social Sciences Communications",
+    "pdf_link": "https://www.nature.com/articles/s41599-025-05272-2",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "AMap POI data on religious buildings",
+            "Data_summary": "Point of interest records from the AMap digital mapping platform describing religious buildings, including temples, ancestral halls, churches, and mosques, compiled at the city level and used to count religious sites by type to represent each city's religious cultural atmosphere and to construct the religious cultural similarity index between city pairs.",
+            "Category": "Points of Interest (POIs)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data on religious buildings temples, ancestral halls, churches, and mosques are retrieved from point-of-interest POI data provided by AMap https://developer.amap.com/ Location: Methods and measures Data, Confidence: high",
+            "Time_Coverage": "2019-2022",
+            "Geographic_Coverage": "China > Mainland plus Hong Kong Macao Taiwan",
+            "URL": "https://developer.amap.com/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Baidu Qianxi Baidu migration index",
+            "Data_summary": "Aggregated intercity mobility indices derived from Baidu Maps location based services that infer origin and destination cities from user device stay duration and publish daily standardized indices of flows between city pairs, used to build a Migration Index proxy for intercity migrant stocks during the Spring Festival travel rush period.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: this study constructs a Migration Index MI to proxy migration stock using Baidu migration indices http://qianxi.baidu.com Location: Methods and measures Data, Confidence: high",
+            "Time_Coverage": "2020-2023",
+            "Geographic_Coverage": "China > Mainland plus Hong Kong Macao Taiwan",
+            "URL": "https://qianxi.baidu.com",
+            "ref": []
+        },
+        {
+            "Data_Name": "Baidu Maps API driving distance data",
+            "Data_summary": "Route based driving distance measurements between city pairs obtained via the Baidu Maps API, used as the bilateral distance variable in the gravity style migration models.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: this study measures distance using driving distances provided by the Baidu Maps API Location: Methods and measures Data, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Mainland plus Hong Kong Macao Taiwan",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "China City Statistical Yearbook city level indicators",
+            "Data_summary": "City level official statistics compiled in the China City Statistical Yearbook providing demographic and economic indicators such as population, GDP per capita, tertiary industry share, and average wages, used as control variables in regression models.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Economic and demographic control variables are extracted from various cities statistical yearbooks and the China City Statistical Yearbook from 2019 to 2022 Location: Methods and measures Data, Confidence: high",
+            "Time_Coverage": "2019-2022",
+            "Geographic_Coverage": "China > City level nationwide",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "City statistical yearbooks of individual cities in China",
+            "Data_summary": "Locally published statistical yearbooks from individual cities containing city specific socioeconomic and demographic indicators, used alongside the national city yearbook to obtain control variables such as population, GDP per capita, industry structure, and wage measures.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Economic and demographic control variables are extracted from various cities statistical yearbooks and the China City Statistical Yearbook from 2019 to 2022 Location: Methods and measures Data, Confidence: medium",
+            "Time_Coverage": "2019-2022",
+            "Geographic_Coverage": "China > Multiple cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Seventh National Population Census of China 2020 province level migrant stock data",
+            "Data_summary": "Official population census data reporting long term migrant stocks at the province level, used in robustness checks to construct an alternative migration index and a corresponding province level religious cultural similarity measure.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Our robustness checks use province-level migrant stock data from China’s Seventh National Population Census which is conducted once every 10 years Location: Methods and measures Data, Confidence: high",
+            "Time_Coverage": "2020",
+            "Geographic_Coverage": "China > Province level nationwide",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:42.106174"
+    }
+}

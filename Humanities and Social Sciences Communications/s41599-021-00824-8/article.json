@@ -1,0 +1,772 @@
+{
+    "id": "s41599-021-00824-8",
+    "journal": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "title": "High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns",
+    "legal_title": "High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns",
+    "publish_time": "2021-06-15",
+    "pdf_link": "https://www.nature.com/articles/s41599-021-00824-8",
+    "storage_path": "./Articles/Humanities and Social Sciences Communications/2021-article/s41599-021-00824-8/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Major disasters such as extreme weather events can magnify and exacerbate pre-existing social disparities, with disadvantaged populations bearing disproportionate costs. Despite the implications for equity and emergency planning, we lack a quantitative understanding of how these social fault lines translate to different behaviours in large-scale emergency contexts. Here we investigate this problem in the context of Hurricane Harvey, using over 30 million anonymized GPS records from over 150,000 opted-in users in the Greater Houston Area to quantify patterns of disaster-inflicted relocation activities before, during, and after the shock. We show that evacuation distance is highly homogenous across individuals from different types of neighbourhoods classified by race and wealth, obeying a truncated power-law distribution. Yet here the similarities end: we find that both race and wealth strongly impact evacuation patterns, with disadvantaged minority populations less likely to evacuate than wealthier white residents. Finally, there are considerable discrepancies in terms of departure and return times by race and wealth, with strong social cohesion among evacuees from advantaged neighbourhoods in their destination choices. These empirical findings bring new insights into mobility and evacuations, providing policy recommendations for residents, decision-makers, and disaster managers alike.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Natural hazards continue to threaten lives and property around the world, killing nearly 12,000 people and causing $130 billion US damage in 2019 alone (EM-DAT, 2019). Societies have set up a variety of ways to mitigate extreme weather events such as flooding; the most effective involves removing residents from vulnerable areas in advance of the hazard. Evacuations are not without challenges, however: effective departure may be impeded by severe traffic, city-level dwindling resources (e.g., fuel shortage, etc.), and uninhabitable shelter conditions (Dow and Cutter, 2002; Wolshon et al., 2005; Wolshon and McArdle, 2009). Understanding the underlying patterns of collective, abrupt displacement is, therefore, crucial for emergency management agencies to execute comprehensive, well-ordered plans (Wang et al., 2013; W. Wang et al., 2019).\nThere has been an increasing interest in linking social vulnerability to disasters through frameworks such as equity and environmental justice (Adeola and Picou, 2017). Previous studies suggest that minority populations from disadvantaged neighbourhoods are more likely to be affected by disasters (Bolin and Kurtz, 2018). Examinations of Hurricane Katrina, for example, showed that black and poor residents of New Orleans suffered disproportionately severe impacts (Lovekamp, 2008). Further, race and class gaps are present from the preparation to response phases of shocks as well as through the recovery period (Laska and Morrow, 2006; Yabe and Ukkusuri, 2020). Much research has argued that White communities are better prepared for disasters than communities of colour and that White residents return at higher rates than Black or Hispanic residents (Aldrich and Meyer, 2015; Tierney, 1989). Another study using post-disaster survey data of residents affected by 2012 tornadoes shows that households with more advantaged characteristics such as social capital and social ties recover faster from the disaster (Sadri et al., 2018). Despite these critical findings, there is still a lack of large-scale quantitative research on the impact of wealth and racial difference on disaster evacuation and return. To this end, scholars have typically relied on retrospective surveys and interviews (Houston et al., 2015; Reinhardt, 2015) which face challenges such as sample bias, faulty retrospective recall, and low response rates (Fussell et al., 2010; Rufat et al., 2015).\nRecently, GPS-enabled devices which generate unprecedented amounts of mobility data have enabled more nuanced studies of behaviour (Alessandretti et al., 2018, 2017; González et al., 2008; Hasan et al., 2013), including in large-scale disasters and extreme events (Bagrow et al., 2011; Bengtsson et al., 2011), allowing the construction of probabilistic models (Song et al., 2014, 2013), and highlighting the importance of social networks (Finch et al., 2010; Metaxa-Kakavouli et al., 2018; Yabe et al., 2019) and socio-economic factors (Yabe and Ukkusuri, 2020). By comparing multiple disasters, certain typical behaviours have been established, including an exponential return rate (Yabe et al., 2020).\nHurricane Harvey made landfall on August 25, 2017, and to date is rivalled only by Hurricane Katrina as the costliest tropical cyclone on record. It was accompanied by wind speeds as high as 130 mph and more than 50 inches of rain, making it the wettest tropical cyclone in history and leaving no part of the city unscathed. Yet despite this hurricane’s magnitude, authorities did not order a mandatory evacuation in Houston, providing a rare example of widespread evacuation that occurred emergently through countless individual decisions without the intervention of the state.\nHere, we take Hurricane Harvey as a case study and use anonymized mobility data to identify detailed evacuation behaviour. We then link the observed behaviour with information on wealth and race at the level of the census block group-the smallest spatial unit of reporting of the US Census. This allows us to quantify the extent to which these socioeconomic factors impacted evacuation behaviour. We show how these disparities influenced not only who evacuated, but also where they evacuated to, when they evacuated and how long they remained evacuated. Houston itself is an ideal testbed to study the disparities of interest. The Houston Metropolitan Statistical Area (Greater Houston) spans an area of over 24,460 square kilometres. It has an approximately 7 million population according to the 2018 Census estimate, the fifth-largest among all MSAs in the US. The centre, the city of Houston (see Fig. S1), has more than 2.3 million population and is the largest economic hub of the Southern United States.\nWe use anonymized data generated by more than 2 million opted-in mobile devices between July 1, 2017 to October 1, 2017 to illuminate the class and race interactions with disaster evacuation and recovery. More details about the data can be found in SI Section 1, Data Description, Figs. S1-S5, and Table S1. We present a multi-scale study of disaster-induced evacuations of Hurricane Harvey, looking at who left, where they went, and how long they were gone. First, we infer residents’ evacuation status and destination using spatial data analysis. We then examine the socio-demographic differences across the Houston metropolitan statistical area and integrate the information with the distributions of spatial and temporal patterns at the individual level. Finally, we use residential home neighbourhood characteristics capturing both race and wealth to illuminate the differences in disaster responses across all affected regions.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR11",
+                "ref-CR35",
+                "ref-CR10",
+                "ref-CR39",
+                "ref-CR3",
+                "ref-CR40",
+                "ref-CR43",
+                "ref-CR6",
+                "ref-CR5",
+                "ref-CR16",
+                "ref-CR42",
+                "ref-CR20",
+                "ref-CR17",
+                "ref-CR18",
+                "ref-CR31",
+                "ref-CR28",
+                "ref-CR1",
+                "ref-CR9",
+                "ref-CR41",
+                "ref-CR27",
+                "ref-CR4",
+                "ref-CR7",
+                "ref-CR44",
+                "ref-CR8",
+                "ref-CR34",
+                "ref-CR33",
+                "ref-CR24",
+                "ref-CR37",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Data and preprocessing\nWe use mobility data provided by Cuebiq, a leading private sector firm that handles human mobility data with anonymized identifiers and guarantees user privacy. Prior studies have used these and similar data sets to understand commuting patterns (F. Wang et al., 2019), accessibility to public resources (Akhavan et al., 2018), neighbourhood connectedness (Wang et al., 2018), and social distancing during epidemics (Gao et al., 2020; Zhang et al., 2020). We confine the geographical bounds to the Houston Metropolitan Statistical Area (MSA) and collect the de-identified mobility data for a 3-month period overlapping with Hurricane Harvey (July 1-September 30, 2017), comprising over 3 billion geographical records from over 2.5 million unique anonymous users who opted-in to share their location data anonymously for research purposes. Due to differences in hardware/software among the devices in the dataset, the GPS coordinates therein possess different levels of spatial noise. We adopt a uniform minimum spatial granularity of 50 m by implementing an established stay-point algorithm (Jiang et al., 2016; Li et al., 2008) to extract meaningful stays and filter out transient locations. The algorithm works by processing a de-identified GPS trajectory (timestamped sequence of latitude/longitude pairs) into a series of geographic regions where the user has a stay duration surpassing a specified threshold. The effect is to compress trajectories, allowing efficient analysis of individual mobility patterns; each anonymized device’s trajectory becomes a series of stay points encoded as tuples of the form (latitude, longitude, start_time, end_time). Throughout this study, we use temporal and spatial thresholds of 5 min and 50 m, respectively. To minimize the impact of tourists and other non-residents, we retain only users who have at least data points from at least 60 unique days and at least 100 stay points. This filtering leaves roughly 30 million data points corresponding to roughly 150,000 unique, anonymous users. The detailed data specifications are shown in SI Table 1.\n### Sampling bias correction\nA potential challenge with crowdsourced large-scale mobility data is the inherent bias in sampling rates for different populations. To test how this may confound the results that follow, for each block group we compare the number of devices in the dataset with the total population reported in the 2018 American Community Survey (ACS 2018), as detailed in SI Section 1.4 Data Representativeness. We observe a strong correlation between the two datasets, although the distributions do not align perfectly.\nTo minimize potential bias, we employ two strategies: (i) a weighting procedure, in which we weight each block group according to the ratio of the number of actively reporting devices to the reported population based on ACS 2018. By comparing both the unweighted and weighted results, we can gauge the magnitude of deviation of the results caused by the sampling bias. However, in the case when the subgroup of evacuees was small or where evacuees from a small number of specific neighbourhoods predominate, the sampling bias from those neighbourhoods can appear to be more prominent than the neighbourhood disparity. Therefore, we also (ii) bootstrap the samples from each block group with a uniform sampling rate proportional to the population with 100 iterations.\n### Home census block group detection\nFor every anonymized device in the dataset, we first determine the home locations prior to the landfall of the disaster by identifying the weekly primary locations using stay points overlapping the weekday evenings (8 p.m. to 7 a.m.). We then apply an agglomerative clustering method using complete linkage (Murtagh and Contreras, 2012) (enforcing a maximum spatial diameter threshold of 50 m to each cluster) and assign the cluster region with the longest cumulative stay duration as the candidate home census block groups. In addition, a threshold of a minimum of two different days has been applied to mitigate the uncertainty of unbalanced usage across different evenings. After obtaining 5 consecutive weeks of potential home census block groups for each individual, we perform weekly cross-validation with a tolerance of only one week missing or mismatch, using 50 m as the maximum deviation Haversine distance that is consistent with the stay-point accuracy.\n### Evacuation detection\nTo determine each user’s evacuation status and identify the corresponding evacuation and return time, we use the cross-validated home location (above) for each user as the prime baseline location. The key challenges are the uncertainty for daily reported data as well as the uncertainty of mislabeling short trips as evacuations. We, therefore, introduce a sliding time window (testing both 5 and 7 days) to mitigate such risks and iteratively identify the primary home locations of each sliding time window, computing the deviation distance to the prime location. Within each rolling time window, we apply the same home detection technique and determine the primary location. If a departure of at least three consecutive calendar days from home is observed, we consider this user as a potential evacuee and label the new primary location as the evacuation destination. We used a 1 km distance threshold of evacuation for the maximal cluster diameter from 50 m to, in order to cope with the fact that the accuracy of signal and cellular service could be affected by Hurricane Harvey. The middle date of the time window is taken as the date of departure.\n### Net evacuation intensity estimation\nIn order to estimate the geographical patterns of intra-urban relocation, we use non-parametric kernel density estimation (KDE) to evaluate the net migration intensity for each urban grid s denoted as \\(\\widehat K_s^{{\\rm {net}}}\\). Specifically, we use the pre-disaster and post-disaster latitudinal and longitudinal information of all evacuees’ detected home locations as inputs for two KDE models that capture the probability density of home locations before and after evacuation, respectively. Each density function \\(\\widehat f\\) has the following form:\n\n$$\\widehat f\\left( s \\right) = \\mathop {\\sum}\\nolimits_{i = 1}^n {\\frac{1}{{nr^2}}} K\\left( {\\frac{{d_{i,s}}}{r}} \\right)$$\nwhere s represents a specific location of interest and r denotes the bandwidth of the KDE estimate, which relates to model resolution. In this study we and Gaussian kernel function K, with r = 100 m. Here, i runs over all n homestay points in the time period of interest, and d_{i,s} is the Haversine (geodesic) distance between home location i and the location of interest, s. We use the set of original detected home location data of all evacuees and construct the spatial density function \\(\\widehat K_s^{{\\rm {pre}}}\\). Similarly, we can obtain \\(\\widehat K_s^{{\\rm {post}}}\\) with the post-evacuation destination. We then compute the evacuation intensity of each area as \\(\\widehat K_s^{{\\rm {net}}} = \\widehat K_s^{{\\rm {post}}} - \\widehat K_s^{{\\rm {pre}}}\\). In order to facilitate the comparison of contour surfaces based on different subgroups with varying sample sizes, the final values of \\(\\widehat K_s^{{\\rm {net}}}\\) are normalized to have zero mean and lie in the range [−1, 1]. This allows us to easily depict influxes (outfluxes) of people above/below the baseline.",
+            "cites": [
+                "ref-CR25",
+                "ref-CR38",
+                "ref-CR45",
+                "ref-CR2",
+                "ref-CR19",
+                "ref-CR21",
+                "ref-CR36",
+                "ref-CR14"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Who evacuated?\nWhen Hurricane Harvey approached the Texas coastline, officials did not instruct the populace in Houston to evacuate. And yet, a significant percentage of the population chose to evacuate anyway. Without fine-grained data, it is difficult to determine to what extent there were patterns of evacuation based on location or socioeconomic features. Based on our analysis of the mobility data, we detected 10,179 unique evacuees and 141,828 non-evacuees, indicating that 6.7% of the total population evacuated, on par with the official reports. Examples of evacuation detections of three users are shown in Figs. S6-S8. However, as shown in Fig. 1, this baseline evacuation rate varied substantially across different locations and neighbourhood types. In addition to a higher evacuation rate closer to the coast, we also identify many inland areas with evacuation levels as high as the coastal areas, such as Fort Bend and East Houston areas (Fig. 1a). We further identify two distinct geographic patterns for long-distance (90th percentile, >41.25 km) and short-distance (10th percentile, <2.71 km) evacuations, respectively. Whereas long-distance evacuation was almost entirely directed from the coastline inland, short-distance evacuation occurred in distinct, concentrated pockets across the MSA.\nWe studied social disparity by classifying six types of neighbourhoods. A neighbourhood in this study is a census block group, a geographical unit used by the United States Census Bureau. Each block group contains between 600 and 3000 residents. We divided the census block groups in the Greater Houston area into six classes based on the wealth level (using a threshold of 25% of the residents below the federal poverty level) and the majority racial group (with a threshold of 50%): non-poor Black, non-poor Hispanic, non-poor White and poor Black, poor Hispanic, and poor White. We also conducted a sensitivity analysis by setting different thresholds on the poverty level and the majority racial group; the results can be found in SI Section 4 Sensitivity Analysis and Figs. S9-S11. The population baseline ratio of all neighbourhoods in Greater Houston can be found in Table 1. The total population is predominantly white (about 60%). There were increases of 39.8% and 24.3% for Asian and Hispanic populations, respectively, in the region between 2010 and 2018, making it more racially diverse than the overall population in the US.\nTo investigate both geographical and sociodemographic features of the evacuation mobility flow induced by Hurricane Harvey, we start with a multivariate kernel density estimate with Gaussian kernels on both origins and destinations (see the “Methods” section) to produce the contour plot of net flow density in each 100 m × 100 m grid. We then compare all evacuees’ residential block group characteristics (see Table 1) with the population breakdown to show the percentage difference as the relative evacuation rate.\nBased on the locations from which the individuals evacuated, we can examine whether socioeconomic factors impacted evacuation behaviour. After reweighting the mobility records to account for sampling bias (as described in the “Methods” section), we find that evacuees from non-poor majority White block groups are significantly overrepresented among evacuees, 19.8% more than we would expect based on their fraction of the total population (Fig. 1d). All other neighbourhood types evacuated less than the baseline, even though flooding was comparable across the neighbourhoods. On the opposite end of the spectrum, individuals from poor Hispanic communities showed the least tendency to evacuate with 12.2% below their baseline (Fig. 1d). The result aligns with observations from other natural disasters. For example, wealth has also been shown to correlate positively with evacuation following Hurricane Irma (Yabe and Ukkusuri, 2020).\nThrough Fig. 1b, c and e, f we compare the subgroup patterns based on the evacuation distances. Figure 1b and e show the individuals who had long-distance evacuations (>41.25 km), i.e., moved greater than the 90th percentile of the evacuation distance distribution. Figure 1b shows the spatial density flow corresponds to the evacuees who travelled long distances, where we can observe clear hotspots along the coast moving toward the inland areas. The patterns of evacuation rates from different neighbourhoods remain largely the same as the ones observed in overall evacuees. The only difference is that we observe a slight increase (4.2%) of the individuals from nonpoor White communities when comparing it to the overall relative evacuation rates (see Fig. 1e). Similarly, the evacuation discrepancy holds for those who relocated less than the 10th percentile (<2.71 km) even though the origins and destinations of evacuations are more spatially dispersed (Fig. 1c). However, nonpoor White neighbourhoods are the only groups that provide more evacuees than their baselines (Fig.1f).\n### Where did they go?\nIn addition to detecting who left vulnerable areas during shocks, it is important to understand the locations to which they evacuated. This understanding is vital for disaster managers seeking to efficiently pre-position shelters with food, water, and medical care and for police officials and first responders who seek to ameliorate transportation challenges, such as gridlock. Without fine-grained mobility data, these remain major policy challenges. Figure 1a-c shows the general distribution of evacuation sources and destinations, but the evacuation distance is not discernable. Figure 2 shows the spatial distribution of evacuation activities and the transition matrices considering the sociodemographic characteristics. We find that, despite the wide differences in evacuation rates for different neighbourhood types discussed above, the evacuation distance follows a scale-free distribution with an exponential cutoff (Fig. 2a), in line with findings from other disasters (Yabe et al., 2020). Specifically, the distribution P(Δd) = (Δd_{0} + Δd) ^{−} ^{β} exp(−Δd/K) ^{−β} fits for evacuees from different communities with exponent value β = 1.57, Δd_{0} = 2.19 km and cutoff value K = 38.29 km.\nBased on this apparent universality, we might expect that the evacuation process is spatially uniform, with evacuation destinations determined only by one’s distance from their origin. We find that this is not in fact the case; there is remarkable socioeconomic homophily in evacuation behaviour, with people from a given block group type tending to evacuate to the same block group type, even if it is far away. To assess this, we compute the transition matrix between block group types based on the origin-destination information for all evacuees. We normalize the matrix so that the values represent the evacuees’ fraction from a block group type who evacuated to a given block group type. In Fig. 2b and c we see strikingly different behaviour from the spatial pattern. The residents from White neighbourhoods have an 88.1% probability of evacuating to the same type of block group, while for Hispanic communities that ratio dropped to 56.8%. Evacuees from Black communities are the least likely to relocate to a neighbourhood that is consistent with their original home community type (16.7%). Similarly, individuals from non-poor communities have a 92.9% probability of relocating to a similar social background. In contrast, the rate drops to 35.4% for residents of poor neighbourhoods.\n### How long were they gone?\nEvacuation duration is a key factor in disaster recovery and resilience (Fussell et al., 2010; Gao et al., 2016; Gehlot et al., 2019; Liu et al., 2020; Sadri et al., 2017) (the definitions of resilience and other terms in this study can be found in the SI Section 2). Identifying the precise beginning and end of evacuation using the mobility data, we find that most evacuation departures occurred in the first few days following landfall, with 95.6% between 1 and 7 days following landfall (Fig. 3). Only a few people (4.3%) evacuated in advance of landfall (Fig. 3a). In contrast, returns began shortly after the peak of departures but spread out over a more skewed, heavier-tailed distribution; though most evacuees returned within two weeks, some took far longer. The exact dates of departure and return were determined via spatial clustering with a 5-day sliding window (see SI Section 3) to reflect whether an individual stabilized in a given location.\nAs with the distance distribution, it is tempting to think that the approximately exponential return time distribution indicates a homogeneous behavioural pattern. Yet when we incorporate the sociodemographic information of each evacuee, we uncover marked socio-economic disparities. We perform the bootstrapping on the overall samples iteratively for the different neighbourhood types compared to the baselines based on the cumulative evacuees and returners as a subgroup. From the violin plot of evacuation duration shown in Fig. 3b, we can see that, as with the spatial patterns, the basic statistics such as mean/median show little variation across different types of block groups. 90% of poor Black evacuees returned after 13 days, whereas at that point only 75% of poor White evacuees had returned, indicating huge variability in return times. Additionally, the vast majority of long-duration relocations (over 30 days) involve evacuees from higher social class neighbourhoods. Past research has suggested that poorer residents have greater challenges finding new, short-term housing while wealthier and better-positioned ones can do so more easily (SAMHSA, 2017).\nWe are further interested in discovering whether socio-demographic factors impact the time of evacuation day by day, for example, to determine whether certain groups are more likely to have evacuated immediately upon landfall or to have waited. A similar question regards return from evacuation: Which groups are over or underrepresented on a given day? To address these questions, we compute the disparity rate in departure and return times. Due to the limited number of data points in certain block group types, we calculate two disparity rates based on two aggregations of neighbourhoods into (i) nonpoor vs. poor; and (ii) white majority vs. non-white majority, as defined above. For each such division, we then find the relative difference in the cumulative number of prevalence of departures/returns on each day. The racial (wealth) disparity rate D_{i} for a given day i is thus calculated as (R_{i}−R)/R, where R is the total fraction of evacuees coming from white (nonpoor) neighbourhoods while R_{i} is the same fraction, but only including evacuations/departures up to day i. High values of D_{i} thus indicate that evacuations (or returns) from white or non-poor neighbourhoods were overrepresented up to time i in the process. The results can be found in Fig. 4.\nFigure 4a indicates that while most departures took place within a short period, the social disparities persist along the temporal dimension. In terms of poverty (or wealth), we see that for those who departed prior to the disaster, the percentage of residents from wealthy neighbourhoods is over 50% higher than that of all evacuees. Such variation presents a steady decrease as the hurricane strikes the city and falls below 50% after the first day of the landfall. We also observe that the standard deviation is notably larger in the early days which is due to the small number of early evacuees.\nOverall the disparity rates along the wealth dimension were positive over multiple days, suggesting that the people with higher income were more likely to evacuate ahead of those with lower wages. The trend based on race also shows that evacuees from neighbourhoods with higher White-population ratios were more likely to evacuate early, yet right after the landfall people from disadvantaged block groups comprised more of the evacuees (with about 10% higher than the baseline). Overall, both income and race disparity metrics indicate that majorities of early evacuees comprise people from potential higher social classes, yet this disparity decreases at a steady pace.\nWhen we project the disproportionate effect of return behaviour over the period between 28 August and 17 September which is shown in Fig. 4b, we observe that like the departure behaviour, the returners’ daily disparities show greater class than racial difference. We consider Day 5 after Harvey as the beginning of the return period based on local news and weather reports verifying rainfall had stopped and Day 23 as the end, based on the 95th quantile of the overall return time. We see that early returners, especially those who came back to their homes in less than 3 days, primarily came from wealthy communities. However, this class disparity effect continues to decline with a greater proportion of poor evacuees returning and reaches equity 2 weeks after the disaster. Such class differences increase monotonically, reaching the same proportion after 3 weeks, at which point most of the evacuees have returned to their homes in Houston.\nFinally, we estimate the extent to which the evacuation and recovery timing varied by race and class by computing the daily disparity rate. We find that a small percentage of the overall evacuees (4.3%) responded to Harvey and relocated before its landfall. The low rate of evacuation may be because urban residents collectively perceived a low level of risk in the absence of mandatory evacuation orders in Houston. Particularly among early evacuees there are marked disparities, suggesting that the ratio of the wealthy residents has a 50% jump compared to the evacuee baseline and 25% for the ratio of people residing in White majority neighbourhoods. As expected, the class and racial minority proportion of the evacuees increases steadily after Harvey’s arrival. This finding confirms that minorities are at higher risks of disruption and adverse impacts. This behavioural difference indicates that income level could be a contributing factor in early-evacuation decision-making. Further, disparities in terms of time away indicate that income plays an important role. We can see that the proportion of evacuees from disadvantaged communities started increasing as the storm ended, echoing previous studies (Fussell et al., 2010; Yabe and Ukkusuri, 2020) that class and housing ownership has a strong impact on return dates.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR22",
+                "ref-CR30",
+                "ref-CR43",
+                "ref-CR42",
+                "ref-CR15",
+                "ref-CR32",
+                "ref-CR13"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2",
+                "figure-3",
+                "figure-4"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Our analysis of three months of detailed human mobility data before, during, and after Hurricane Harvey reveals the complexity of disaster response patterns, exhibiting both universality and heterogeneity in different dimensions. We first quantify the wealth and racial disparity in terms of the overall evacuee composition as well as the intra-urban displacement patterns. By examining these hotspots, we find that three of the peaks correspond to areas with high fatalities while the other hotspots to the southwest of downtown Houston had no fatalities. We further observe that non-poor White populations were the most likely to evacuate for evacuations of all distances. There are several plausible reasons for such class and race differences, including uneven access to transportation, inequitable regional development, and perhaps even different levels of preparedness and perceived risks. In Harvey’s case, with no evacuation order declared for Houston, the evacuation decision process may have taken place with little prior planning, increasing the role of financial resources and social networks in making such decisions.\nFurthermore, we extract the spatial and temporal features of evacuation activities and investigate the heterogeneity among different residential groups for each metric. There is a high degree of universality in evacuation distance after comparing the evacuees’ distributions from different types of communities. This finding aligns with previous studies based on similar extreme disasters such as hurricanes and earthquakes, indicating that evacuation during Harvey followed the heavy-tailed human movement pattern of past crises. The overall temporal features demonstrate limited impact from differences in the socio-demographic features of communities. For most of the block groups, the evacuees’ displacement duration was less than one week while residents from more affluent communities were displaced for longer. It is also notable that displacements longer than 30 days are disproportionately residents of socio-economically advantaged neighbourhoods. The longer exodus is likely because only the wealthy possess the financial resources to afford a longer stay away; those with low incomes would struggle with limited resources and potentially higher burdens.\nEven with the high spatial and temporal resolution of our data, our analysis is not without limitations. First, we have focused only on mobility in Houston MSA during a three-month period between July and October 2017. Larger areas and longer observation windows would be required to detect larger (e.g., out of state) displacements and long-term impacts such as permanent relocations. A second limitation is the sampling bias amongst different communities owing to different penetration rates of smart devices. Though we have made efforts to quantify and mitigate this bias through resampling (see the “Methods” subsection “Sampling bias correction”), ensuring data balance remains a challenge. Specifically, we could not fully control the features related to evacuation behaviour such as home damage, infrastructure conditions, and strength of social ties when analysing the factors related to race and class due to the dearth of these data sets. Third and finally, our analysis of race and class has not fully controlled for other features known to impact evacuation behaviour, such as home damage, infrastructure conditions, and strength of social ties. We have tested a regression model incorporating data on flooded roads to capture infrastructure conditions and found the overall predictive power of that factor is not significant (see SI Section 5, Evacuation Rate Prediction and Figures S12 and S13). Nonetheless, additional information about the urban fabric-encompassing both physical and social infrastructure-is needed to fully understand the complex interplay between race, wealth, and disaster outcomes.\nThe significance of income levels in determining evacuation response, with wealthier residents evacuating earlier, longer, and at a higher overall rate, indicates that some residents may have preferred to evacuate but judged that the costs of evacuation were too high, and they, therefore, took on the risks of staying put. This impossible choice between physical harm and economic harm is a recurring theme, notably in the very different crisis of COVID-19. In the first wave of spring 2020, compliance with social distancing guidelines was significantly lower in low-income neighbourhoods across the United States (Oliver et al., 2020; Ruiz-Euler et al., 2020). This points to potential interventions in the form of temporary financial incentives, government messaging, and/or preferential allocation of resources aimed at ameliorating the unequal effects of major urban disruptions. The approaches and high-resolution data sets from this study can help us arrive at concrete conclusions on the disparities and devise effective strategies to mitigate human suffering.",
+            "cites": [
+                "ref-CR29",
+                "ref-CR26"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Geographical and socio-demographic information on evacuation from Hurricane Harvey.",
+            "figure-caption": "a-c Illustrate the net evacuation intensity of each 100 × 100 m grid, defined as the difference \\(\\widehat K_s^{{\\rm {net}}} = \\widehat K_s^{{\\rm {post}}} - \\widehat K_s^{{\\rm {pre}}}\\), where \\(\\widehat K_s^{{\\rm {post}}}\\,\\widehat K_s^{{\\rm {pre}}}\\) are KDE estimates of the probability density of home locations after (before) evacuation. These values are normalized to have zero mean and lie in the range [−1,1] (see the “Methods” section). As such, positive (blue) values correspond to an influx of resident above the baseline, with negative (red) values indicating an exodus. We compare the collective evacuation behaviour of all evacuees (a); evacuees who evacuated further than the 90% quantile (b); and evacuees who evacuated closer than the 10% quantile (c). The triangles in (a) represent reported fatalities and red dense cells indicate a greater rate of evacuation while the blue shaded cells reflect the likelihood as a relocation destination for the evacuees. The relative evacuation rates that compare the proportion difference for subgroups of populations are shown in (d)-(f) and an evident disparity in the evacuees’ economic and social compositions can be observed.",
+            "figure-link": "https://www.nature.com/articles/s41599-021-00824-8/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: Evacuation distance and destination choice.",
+            "figure-caption": "a The distribution of evacuation distance for residents from different block group categories. b The correspondence between evacuation origin and destination type (note: all rows sum to 1). There is apparent universality between different block group types when viewed from the probability of evacuating a given distance (a). But this apparent similarity breaks down upon examining destination choices, with residents of wealthier (b, right) and/or white neighbourhoods tending to evacuate to block groups of the same composition.",
+            "figure-link": "https://www.nature.com/articles/s41599-021-00824-8/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Race and wealth impacts on evacuation/return times.",
+            "figure-caption": "a The kernel density of both departure and return of relocation activities. b Distribution of individual evacuation durations group by income and race difference in communities. Though most departure dates are tightly clustered within the first week of Harvey’s landfall (a, red), we find a right-skewed distribution of return dates (a, blue), with some Houston residents taking far longer to return than others. The tail of this distribution is formed mostly from residents of wealthier neighbourhoods of all racial compositions (b), suggesting only those residents could afford long displacements.",
+            "figure-link": "https://www.nature.com/articles/s41599-021-00824-8/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Time progression of class and racial disparity in evacuation and return.",
+            "figure-caption": "The vertical axis shows the relative disparity in the cumulative numbers of departures (a) and returns (b) over time, between residents of poor vs. non-poor neighbourhoods (squares), and white vs. non-white neighbourhoods (circles). A positive value on a given day indicates a disproportionate number of people from white or non-poor neighbourhoods having evacuated (returned) up to that point.",
+            "figure-link": "https://www.nature.com/articles/s41599-021-00824-8/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Adeola FO, Picou JS (2017). Hurricane Katrina-linked environmental injustice: race, class, and place differentials in attitudes. Disasters. https://doi.org/10.1111/disa.12204",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Akhavan A, Phillips NE, Du J, Chen J, Sadeghinasr B, Wang Q (2018). Accessibility inequality in Houston. IEEE Sens Lett. https://doi.org/10.1109/lsens.2018.2882806",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Aldrich DP, Meyer MA (2015) Social capital and community resilience. Am Behav Sci. https://doi.org/10.1177/0002764214550299",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Alessandretti L, Sapiezynski P, Lehmann S, Baronchelli A (2017) Multi-scale spatio-temporal analysis of human mobility. PLoS ONE 12:e0171686. https://doi.org/10.1371/journal.pone.0171686",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0171686",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXhsFKmtLrO",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28199347",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310761",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multi-scale%20spatio-temporal%20analysis%20of%20human%20mobility&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0171686&volume=12&publication_year=2017&author=Alessandretti%2CL&author=Sapiezynski%2CP&author=Lehmann%2CS&author=Baronchelli%2CA"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Alessandretti L, Sapiezynski P, Sekara V, Lehmann S, Baronchelli A (2018) Evidence for a conserved quantity in human mobility. Nat Hum Behav 2:485-491. https://doi.org/10.1038/s41562-018-0364-x",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41562-018-0364-x",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31097800",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Evidence%20for%20a%20conserved%20quantity%20in%20human%20mobility&journal=Nat%20Hum%20Behav&doi=10.1038%2Fs41562-018-0364-x&volume=2&pages=485-491&publication_year=2018&author=Alessandretti%2CL&author=Sapiezynski%2CP&author=Sekara%2CV&author=Lehmann%2CS&author=Baronchelli%2CA"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Bagrow JP, Wang D, Barabási AL (2011) Collective response of human populations to large-scale emergencies. PLoS ONE. https://doi.org/10.1371/journal.pone.0017680",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Bengtsson L, Lu X, Thorson A, Garfield R, von Schreeb J (2011) Improved response to disasters and outbreaks by tracking population movements with mobile phone network data: a Post-Earthquake Geospatial Study in Haiti. PLoS Med. 8, e1001083. https://doi.org/10.1371/journal.pmed.1001083",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Bolin B, Kurtz LC (2018) Race, class, ethnicity, and disaster vulnerability. https://doi.org/10.1007/978-3-319-63254-4_10",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Dow K, Cutter SL (2002) Emerging hurricane evacuation issues: Hurricane Floyd and South Carolina. Nat Hazards Rev. https://doi.org/10.1061/(ASCE)1527-6988(2002)3:1(12)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "EM-DAT (2019) The International Disaster Database, Centre for Research on the Epidemiology of Disaster (CRED). https://www.emdat.be/index.php.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Finch C, Emrich CT, Cutter SL (2010) Disaster disparities and differential recovery in New Orleans. Popul Environ. https://doi.org/10.1007/s11111-009-0099-8",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Fussell E, Sastry N, Vanlandingham M (2010) Race, socioeconomic status, and return migration to New Orleans after Hurricane Katrina. Popul Environ. https://doi.org/10.1007/s11111-009-0092-2",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Gao J, Barzel B, Barabási AL (2016) Universal resilience patterns in complex networks. Nature 530:307-312. https://doi.org/10.1038/nature16948",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature16948",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28Xislylurs%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26887493",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016Natur.530..307G",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Universal%20resilience%20patterns%20in%20complex%20networks&journal=Nature&doi=10.1038%2Fnature16948&volume=530&pages=307-312&publication_year=2016&author=Gao%2CJ&author=Barzel%2CB&author=Barab%C3%A1si%2CAL"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Gao S, Rao J, Kang Y, Liang Y, Kruse J (2020) Mapping county-level mobility pattern changes in the United States in response to COVID-19. SIGSPATIAL Spec 12:16-26. https://doi.org/10.1145/3404111.3404115",
+            "links": {
+                "Article": "https://doi.org/10.1145%2F3404111.3404115",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Mapping%20county-level%20mobility%20pattern%20changes%20in%20the%20United%20States%20in%20response%20to%20COVID-19&journal=SIGSPATIAL%20Spec&doi=10.1145%2F3404111.3404115&volume=12&pages=16-26&publication_year=2020&author=Gao%2CS&author=Rao%2CJ&author=Kang%2CY&author=Liang%2CY&author=Kruse%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Gehlot H, Sadri AM, Ukkusuri SV (2019) Joint modeling of evacuation departure and travel times in hurricanes. Transportation 46:2419-2440. https://doi.org/10.1007/s11116-018-9958-4",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11116-018-9958-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Joint%20modeling%20of%20evacuation%20departure%20and%20travel%20times%20in%20hurricanes&journal=Transportation&doi=10.1007%2Fs11116-018-9958-4&volume=46&pages=2419-2440&publication_year=2019&author=Gehlot%2CH&author=Sadri%2CAM&author=Ukkusuri%2CSV"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "González MC, Hidalgo CA, Barabási AL (2008) Understanding individual human mobility patterns. Nature. https://doi.org/10.1038/nature06958",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Hasan S, Schneider CM, Ukkusuri SV, González MC (2013) Spatiotemporal patterns of urban human mobility. J Stat Phys. https://doi.org/10.1007/s10955-012-0645-0",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Houston JB, Hawthorne J, Perreault MF, Park EH, Goldstein Hode M, Halliwell MR, Turner Mcgowen SE, Davis R, Vaid S, Mcelderry JA, Griffith SA (2015) Social media and disasters: a functional framework for social media use in disaster planning, response, and research. Disasters. https://doi.org/10.1111/disa.12092",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Jiang S, Yang Y, Gupta S, Veneziano D, Athavale S, González MC (2016) The TimeGeo modeling framework for urban motility without travel surveys. Proc Natl Acad Sci USA https://doi.org/10.1073/pnas.1524261113",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Laska S, Morrow BH (2006) Social vulnerabilities and Hurricane katrina: an unnatural disaster in new Orleans. Mar Technol Soc J. https://doi.org/10.4031/002533206787353123",
+            "links": {}
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Li Q, Zheng Y, Xie X, Chen Y, Liu W, Ma WY (2008) Mining user similarity based on location history. In: GIS: Proceedings of the ACM international symposium on advances in geographic information systems, November 5-7, 2008, Irvine California. Edited by Aref WG, Mokbel MF, and Schneider M. pp. 298-307.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Liu X, Li D, Ma M, Szymanski BK, Stanley HE, Gao J (2020). Network resilience. arXiv preprint arXiv:2007.14464,2020.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Lovekamp WE (2008) The sociology of Katrina: perspectives on a modern catastrophe. Contemp Sociol. https://doi.org/10.1177/009430610803700336",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Metaxa-Kakavouli D, Maas P, Aldrich DP (2018) How social ties influence hurricane evacuation behavior. Proc ACM Hum-Comput Interact. https://doi.org/10.1145/3274391",
+            "links": {}
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Murtagh F, Contreras P (2012) Algorithms for hierarchical clustering: an overview. Wiley Interdiscip. Rev Data Min Knowl Discov 2:86-97. https://doi.org/10.1002/widm.53",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fwidm.53",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Algorithms%20for%20hierarchical%20clustering%3A%20an%20overview.%20Wiley%20Interdiscip&journal=Rev%20Data%20Min%20Knowl%20Discov&doi=10.1002%2Fwidm.53&volume=2&pages=86-97&publication_year=2012&author=Murtagh%2CF&author=Contreras%2CP"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Oliver N, Oliver N, Lepri B, Lepri B, Sterly H, Lambiotte R, Lambiotte R, Deletaille S, De Nadai M, Letouzé E, Letouzé E, Salah AA, Salah AA, Benjamins R, Benjamins R, Cattuto C, Cattuto C, Colizza V, de Cordes N, Fraiberger SP, Koebe T, Koebe T, Lehmann S, Murillo J, Pentland A, Pham PN, Pham PN, Pivetta F, Saramäki J, Scarpino SV, Tizzoni M, Verhulst S, Vinck P, Vinck P (2020). Mobile phone data for informing public health actions across the COVID-19 pandemic life cycle. Sci Adv. https://doi.org/10.1126/sciadv.abc0764",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Reinhardt GY (2015) Race, trust, and return migration. Political Res Q 68:350-362. https://doi.org/10.1177/1065912915575790",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F1065912915575790",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Race%2C%20trust%2C%20and%20return%20migration&journal=Political%20Res%20Q&doi=10.1177%2F1065912915575790&volume=68&pages=350-362&publication_year=2015&author=Reinhardt%2CGY"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Rufat S, Tate E, Burton CG, Maroof AS (2015) Social vulnerability to floods: review of case studies and implications for measurement. Int J Disaster Risk Reduct. https://doi.org/10.1016/j.ijdrr.2015.09.013",
+            "links": {}
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Ruiz-Euler A, Privitera F, Giuffrida D, Lake B, Zara I (2020) Mobility patterns and income distribution in times of crisis: U.S. Urban Centers during the COVID-19 pandemic. SSRN Electron J. https://doi.org/10.2139/ssrn.3572324",
+            "links": {}
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Sadri AM, Ukkusuri SV, Gladwin H (2017) The role of social networks and information sources on hurricane evacuation decision making. Nat Hazards Rev 18:04017005. https://doi.org/10.1061/(ASCE)NH.1527-6996.0000244",
+            "links": {
+                "Article": "https://doi.org/10.1061%2F%28ASCE%29NH.1527-6996.0000244",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20social%20networks%20and%20information%20sources%20on%20hurricane%20evacuation%20decision%20making&journal=Nat%20Hazards%20Rev&doi=10.1061%2F%28ASCE%29NH.1527-6996.0000244&volume=18&publication_year=2017&author=Sadri%2CAM&author=Ukkusuri%2CSV&author=Gladwin%2CH"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Sadri AM, Ukkusuri SV, Lee S, Clawson R, Aldrich D, Nelson MS, Seipel J, Kelly D (2018). The role of social capital, personal networks, and emergency responders in post-disaster recovery and resilience: a study of rural communities in Indiana. Nat Hazards 90, 1377-1406 https://doi.org/10.1007/s11069-017-3103-0",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "SAMHSA (2017) Disaster Technical Assistance Center Supplemental Research Bulletin Greater Impact: How Disasters Affect People of Low Socioeconomic Status. Phys. Health Health Probl. 2017. Available online: https://www.samhsa.gov/sites/default/files/programs_campaigns/dtac/srb-low-ses.pdf (Accessed on June 9 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Song X, Zhang Q, Sekimoto Y, Horanont T, Ueyama S, Shibasaki R (2013). Modeling and probabilistic reasoning of population evacuation during large-scale disaster. In: Proceedings of the ACM SIGKDD international conference on knowledge discovery and data mining, August 11-13, 2013, Chicago Illinois. Edited by Ghani R, et. al. pp. 1231-1239.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Song X, Zhang Q, Sekimoto Y, Shibasaki R (2014) Prediction of human emergency behavior and their mobility following large-scale disaster. In: Proceedings of the ACM SIGKDD international conference on knowledge discovery and data mining.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Tierney K (1989) The social and community contexts of disaster. In: Gist R, Lubin B (eds) Psychosocial aspects of disasters. John Wiley & Sons, pp. 11-39.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Wang F, Wang J, Cao J, Chen C, Ban X (Jeff)(2019) Extracting trips from multi-sourced data for mobility pattern analysis: an app-based data example Transp Res Part C 105:183-202. https://doi.org/10.1016/j.trc.2019.05.028",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trc.2019.05.028",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Extracting%20trips%20from%20multi-sourced%20data%20for%20mobility%20pattern%20analysis%3A%20an%20app-based%20data%20example&journal=Transp%20Res%20Part%20C&doi=10.1016%2Fj.trc.2019.05.028&volume=105&pages=183-202&publication_year=2019&author=Wang%2CF&author=Wang%2CJ&author=Cao%2CJ&author=Chen%2CC"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Wang JW, Wang HF, Zhang WJ, Ip WH, Furuta K (2013) Evacuation planning based on the contraflow technique with consideration of evacuation priorities and traffic setup time. IEEE Trans Intell Transp Syst. https://doi.org/10.1109/TITS.2012.2204402",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Wang Q, Phillips NE, Small ML, Sampson RJ (2018) Urban mobility and neighborhood isolation in America’s 50 largest cities. Proc Natl Acad Sci USA https://doi.org/10.1073/pnas.1802537115",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Wang W, Yang S, Stanley HE, Gao J (2019) Local floods induce large-scale abrupt failures of road networks. Nat Commun 10:1-11. https://doi.org/10.1038/s41467-019-10063-w",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41467-019-10063-w",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXps1Gjt74%3D",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019OptCo.450....1W",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local%20floods%20induce%20large-scale%20abrupt%20failures%20of%20road%20networks&journal=Nat%20Commun&doi=10.1038%2Fs41467-019-10063-w&volume=10&pages=1-11&publication_year=2019&author=Wang%2CW&author=Yang%2CS&author=Stanley%2CHE&author=Gao%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Wolshon B, Hamilton EU, Levitan M, Wilmot C (2005). Review of policies and practices for Hurricane evacuation. II: Traffic operations, management, and control. Nat Hazards Rev. https://doi.org/10.1061/(ASCE)1527-6988(2005)6:3(143)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Wolshon B, McArdle B (2009) Temporospatial analysis of Hurricane Katrina regional evacuation traffic patterns. J Infrastruct Syst. https://doi.org/10.1061/(ASCE)1076-0342(2009)15:1(12)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Yabe T, Tsubouchi K, Fujiwara N, Sekimoto Y, Ukkusuri SV (2020) Understanding post-disaster population recovery patterns. J R Soc Interface 17. https://doi.org/10.1098/rsif.2019.0532",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Yabe T, Ukkusuri SV (2020) Effects of income inequality on evacuation, reentry and segregation after disasters. Transp Res Part D. https://doi.org/10.1016/j.trd.2020.102260",
+            "links": {}
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Yabe T, Ukkusuri SV, C. Rao PS (2019) Mobile phone data reveals the importance of pre-disaster inter-city social ties for recovery after Hurricane Maria. Appl Netw Sci. https://doi.org/10.1007/s41109-019-0221-5",
+            "links": {}
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Zhang L, Ghader S, Pack ML, Xiong C, Darzi A, Yang M, Sun Q, Kabiri A, Hu S (2020) An interactive Covid-19 mobility impact and social distancing analysis platform. Medrxiv 1-14. https://doi.org/10.1101/2020.04.29.20085472",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "All data were collected through a CCPA and GDPR compliant framework and utilized for research purposes. Our usage agreement with Cuebiq does not allow us to make public or otherwise share the anonymized mobile phone data used in this study. Researchers interested in aggregated data and/or summary statistics, where permitted under said agreement, should contact the corresponding authors.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "The team acknowledges the support from the National Science Foundation (NSF 1735505 and 1761950). J.G. also acknowledges the support of National Science Foundation under Grant No. 2047488, and the Rensselaer-IBM AI Research Collaboration.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsHengfang DengView author publicationsSearch author on:PubMedGoogle ScholarDaniel P. AldrichView author publicationsSearch author on:PubMedGoogle ScholarMichael M. DanzigerView author publicationsSearch author on:PubMedGoogle ScholarJianxi GaoView author publicationsSearch author on:PubMedGoogle ScholarNolan E. PhillipsView author publicationsSearch author on:PubMedGoogle ScholarSean P. CorneliusView author publicationsSearch author on:PubMedGoogle ScholarQi Ryan WangView author publicationsSearch author on:PubMedGoogle Scholar\n### Corresponding authors\nCorrespondence to Sean P. Cornelius or Qi Ryan Wang.",
+            "links": {
+                "View author publications": "/search?author=Qi%20Ryan%20Wang",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Qi%20Ryan%20Wang",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Qi%20Ryan%20Wang%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Sean P. Cornelius": "mailto:cornelius@ryerson.ca",
+                "Qi Ryan Wang": "mailto:q.wang@northeastern.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary Information",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1057%2Fs41599-021-00824-8/MediaObjects/41599_2021_824_MOESM1_ESM.docx"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=High-resolution%20human%20mobility%20data%20reveal%20race%20and%20wealth%20disparities%20in%20disaster%20evacuation%20patterns&author=Hengfang%20Deng%20et%20al&contentID=10.1057%2Fs41599-021-00824-8&copyright=The%20Author%28s%29&publication=2662-9992&publicationDate=2021-06-15&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleDeng, H., Aldrich, D.P., Danziger, M.M. et al. High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns. Humanit Soc Sci Commun 8, 144 (2021). https://doi.org/10.1057/s41599-021-00824-8Download citationReceived:26 October 2020Accepted:01 June 2021Published:15 June 2021DOI:https://doi.org/10.1057/s41599-021-00824-8Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1057/s41599-021-00824-8?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns",
+                "description": "Major disasters such as extreme weather events can magnify and exacerbate pre-existing social disparities, with disadvantaged populations bearing disproportionate costs. Despite the implications for equity and emergency planning, we lack a quantitative understanding of how these social fault lines translate to different behaviours in large-scale emergency contexts. Here we investigate this problem in the context of Hurricane Harvey, using over 30 million anonymized GPS records from over 150,000 opted-in users in the Greater Houston Area to quantify patterns of disaster-inflicted relocation activities before, during, and after the shock. We show that evacuation distance is highly homogenous across individuals from different types of neighbourhoods classified by race and wealth, obeying a truncated power-law distribution. Yet here the similarities end: we find that both race and wealth strongly impact evacuation patterns, with disadvantaged minority populations less likely to evacuate than wealthier white residents. Finally, there are considerable discrepancies in terms of departure and return times by race and wealth, with strong social cohesion among evacuees from advantaged neighbourhoods in their destination choices. These empirical findings bring new insights into mobility and evacuations, providing policy recommendations for residents, decision-makers, and disaster managers alike.",
+                "datePublished": "2021-06-15T00:00:00Z",
+                "dateModified": "2021-06-15T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "8",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1057/s41599-021-00824-8",
+                "keywords": [
+                    "Complex networks",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-021-00824-8/MediaObjects/41599_2021_824_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-021-00824-8/MediaObjects/41599_2021_824_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-021-00824-8/MediaObjects/41599_2021_824_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-021-00824-8/MediaObjects/41599_2021_824_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Humanities and Social Sciences Communications",
+                    "issn": [
+                        "2662-9992"
+                    ],
+                    "volumeNumber": "8",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Palgrave Macmillan UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Hengfang Deng",
+                        "affiliation": [
+                            {
+                                "name": "Northeastern University",
+                                "address": {
+                                    "name": "Department of Civil & Environmental Engineering, Northeastern University, Boston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Daniel P. Aldrich",
+                        "url": "http://orcid.org/0000-0002-4150-995X",
+                        "affiliation": [
+                            {
+                                "name": "Northeastern University",
+                                "address": {
+                                    "name": "Department of Political Science, Northeastern University, Boston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Michael M. Danziger",
+                        "affiliation": [
+                            {
+                                "name": "Northeastern University",
+                                "address": {
+                                    "name": "Network Science Institute, Northeastern University, Boston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jianxi Gao",
+                        "url": "http://orcid.org/0000-0002-3952-208X",
+                        "affiliation": [
+                            {
+                                "name": "Rensselaer Polytechnic Institute",
+                                "address": {
+                                    "name": "Department of Computer Science, Rensselaer Polytechnic Institute, Troy, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Nolan E. Phillips",
+                        "affiliation": [
+                            {
+                                "name": "Harvard University",
+                                "address": {
+                                    "name": "Department of Sociology, Harvard University, Cambridge, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Accenture",
+                                "address": {
+                                    "name": "Accenture, Arlington, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Sean P. Cornelius",
+                        "affiliation": [
+                            {
+                                "name": "Ryerson University",
+                                "address": {
+                                    "name": "Department of Physics, Ryerson University, Toronto, Canada",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "cornelius@ryerson.ca",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Qi Ryan Wang",
+                        "url": "http://orcid.org/0000-0001-6804-1173",
+                        "affiliation": [
+                            {
+                                "name": "Northeastern University",
+                                "address": {
+                                    "name": "Department of Civil & Environmental Engineering, Northeastern University, Boston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "q.wang@northeastern.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "complex-networks",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Humanities and Social Sciences Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1057/s41599-021-00824-8"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Hengfang Deng",
+                            "Daniel P. Aldrich",
+                            "Michael M. Danziger",
+                            "Jianxi Gao",
+                            "Nolan E. Phillips",
+                            "Sean P. Cornelius",
+                            "Qi Ryan Wang"
+                        ],
+                        "publishedAt": 1623715200,
+                        "publishedAtString": "2021-06-15",
+                        "title": "High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Complex networks"
+                    },
+                    "journal": {
+                        "pcode": "palcomms",
+                        "title": "humanities and social sciences communications",
+                        "volume": "8",
+                        "issue": "1",
+                        "id": 41599,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns",
+            "dc.source": "Humanities and Social Sciences Communications 2021 8:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Palgrave",
+            "dc.date": "2021-06-15",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2021 The Author(s)",
+            "dc.rights": "2021 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Major disasters such as extreme weather events can magnify and exacerbate pre-existing social disparities, with disadvantaged populations bearing disproportionate costs. Despite the implications for equity and emergency planning, we lack a quantitative understanding of how these social fault lines translate to different behaviours in large-scale emergency contexts. Here we investigate this problem in the context of Hurricane Harvey, using over 30 million anonymized GPS records from over 150,000 opted-in users in the Greater Houston Area to quantify patterns of disaster-inflicted relocation activities before, during, and after the shock. We show that evacuation distance is highly homogenous across individuals from different types of neighbourhoods classified by race and wealth, obeying a truncated power-law distribution. Yet here the similarities end: we find that both race and wealth strongly impact evacuation patterns, with disadvantaged minority populations less likely to evacuate than wealthier white residents. Finally, there are considerable discrepancies in terms of departure and return times by race and wealth, with strong social cohesion among evacuees from advantaged neighbourhoods in their destination choices. These empirical findings bring new insights into mobility and evacuations, providing policy recommendations for residents, decision-makers, and disaster managers alike.",
+            "dc.identifier": "doi:10.1057/s41599-021-00824-8",
+            "dc.creator": "Wang, Qi Ryan",
+            "dc.subject": "Complex networks",
+            "prism.issn": "2662-9992",
+            "prism.publicationName": "Humanities and Social Sciences Communications",
+            "prism.publicationDate": "2021-06-15",
+            "prism.volume": "8",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "8",
+            "prism.copyright": "2021 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41599-021-00824-8",
+            "prism.doi": "doi:10.1057/s41599-021-00824-8",
+            "citation_pdf_url": "https://www.nature.com/articles/s41599-021-00824-8.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41599-021-00824-8",
+            "citation_journal_title": "Humanities and Social Sciences Communications",
+            "citation_journal_abbrev": "Humanit Soc Sci Commun",
+            "citation_publisher": "Palgrave",
+            "citation_issn": "2662-9992",
+            "citation_title": "High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns",
+            "citation_volume": "8",
+            "citation_issue": "1",
+            "citation_online_date": "2021/06/15",
+            "citation_firstpage": "1",
+            "citation_lastpage": "8",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1057/s41599-021-00824-8",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1057/s41599-021-00824-8&api_key=",
+            "citation_reference": "Zhang L, Ghader S, Pack ML, Xiong C, Darzi A, Yang M, Sun Q, Kabiri A, Hu S (2020) An interactive Covid-19 mobility impact and social distancing analysis platform. Medrxiv 1–14. \n                  https://doi.org/10.1101/2020.04.29.20085472\n                  \n                ",
+            "citation_author": "Wang, Qi Ryan",
+            "citation_author_institution": "Department of Civil & Environmental Engineering, Northeastern University, Boston, USA",
+            "description": "Major disasters such as extreme weather events can magnify and exacerbate pre-existing social disparities, with disadvantaged populations bearing disproportionate costs. Despite the implications for equity and emergency planning, we lack a quantitative understanding of how these social fault lines translate to different behaviours in large-scale emergency contexts. Here we investigate this problem in the context of Hurricane Harvey, using over 30 million anonymized GPS records from over 150,000 opted-in users in the Greater Houston Area to quantify patterns of disaster-inflicted relocation activities before, during, and after the shock. We show that evacuation distance is highly homogenous across individuals from different types of neighbourhoods classified by race and wealth, obeying a truncated power-law distribution. Yet here the similarities end: we find that both race and wealth strongly impact evacuation patterns, with disadvantaged minority populations less likely to evacuate than wealthier white residents. Finally, there are considerable discrepancies in terms of departure and return times by race and wealth, with strong social cohesion among evacuees from advantaged neighbourhoods in their destination choices. These empirical findings bring new insights into mobility and evacuations, providing policy recommendations for residents, decision-makers, and disaster managers alike.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns",
+            "twitter:description": "Humanities and Social Sciences Communications - High-resolution human mobility data reveal race and wealth disparities in disaster evacuation patterns",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1057%2Fs41599-021-00824-8/MediaObjects/41599_2021_824_Fig1_HTML.png",
+            "DOI": "10.1057/s41599-021-00824-8",
+            "size": "121701",
+            "journal_id": "41599"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41599-021-00824-8",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

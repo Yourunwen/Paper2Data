@@ -1,0 +1,570 @@
+{
+    "id": "s41599-017-0016-1",
+    "journal": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "title": "Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane impact level model",
+    "legal_title": "Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane impact level model",
+    "publish_time": "2017-10-31",
+    "pdf_link": "https://www.nature.com/articles/s41599-017-0016-1",
+    "storage_path": "./Articles/Humanities and Social Sciences Communications/2017-article/s41599-017-0016-1/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "The United States coastline, where over 50% the population lives, is vulnerable to hurricanes along the East and Gulf coasts. However, the question remains as to whether these two areas are equally resilient to a landfalling hurricane. In addition, while it is assumed that improvements in building codes, infrastructure protections, and changing policy over the past century have been effective in reducing the impacts to a community from historically extreme hurricane events, such an assumption is still to be validated. Here, a multi-hazard artificial neural network model is used to address these questions. The Hurricane Impact Level Model is the first prediction model to utilize machine-learning techniques (artificial neural networks) to established complex connections between all meteorological factors (wind, pressure, storm surge, and precipitation resulting in inland flooding) of a tropical cyclone and how those interact with the location of landfall to produce a certain level of economic damage. This model allows for a more all-encompassing assessment of how the impacts of tropical cyclones vary along the coastline. The Hurricane Impact Level Model was trained with historical tropical cyclone events from 1998 to present day, resulting in established locational associations to modern relevant building codes and mitigation practices. Simulating the meteorological factors from historical events allows for a new assessment of economic impact changes due to infrastructure improvements and policy adaptations over time. In essence, if Hurricane Sandy hit Florida instead of New York, it would have a lower economic impact due to lower population density and more stringent building codes, which the artificial neural network has associated with the latitudes and longitudes within the state of Florida. If the Galveston hurricane were to hit today, the seawall would not succeed in lowering the economic impact to the Texas coastline. Over the years, significant effort has been put in to improving the resiliency of the United States coastline, mainly in the southern states, but it has not been enough to counteract the effects of population growth within coastal counties.",
+    "Sections": [
+        {
+            "title": "Vulnerability of coastal communities",
+            "text": "Today more than 50% of the United States population currently resides in coastal counties, vulnerable to earthquakes on the West Coast and hurricanes on the Gulf and East Coast (Crossett et al., 2004). This percentage of the population residing in coastal cities continues to increase each year, putting more people and infrastructure in harm’s way, while simultaneously falling behind in maintenance, repair, and replacement of old existing infrastructure. Engineers and scientists continue to explore new ways to adapt to hazards and keep an ever-growing community informed and safe.\nHowever, different coastal communities have variations in natural protections and urbanization to consider. What would happen if a historical hurricane were to be shifted along the coastline, with meteorological parameters (hazards) kept the same to evaluate locational vulnerability as a means to determine comparative resilience? What if Hurricane Sandy was poised to hit central Florida instead of New York/New Jersey? Florida has less urbanization and more wetlands and high absorption soils, however it does have an extremely low average elevation. What if Hurricane Ike hit North Carolina’s Outer Banks instead? Is the seawall as good as a barrier island? What if the 1900 Galveston Hurricane struck today? The seawall was built as a result of the 1900 hurricane. The resilience of a community relates to its ability to “absorb” an event and “bounce back.” In the case of disasters, this translates to the ability of a locale to absorb a hazard without significant losses or damage while maintaining a certain level of productivity and quality of life for the community (Mileti, 1999). Since risk mitigation practices have become more common in hazard vulnerable areas, the topic of disasters has begun to shift from vulnerability and risk to the concept of resilience, to which mitigation practices can improve (Mileti, 1999; Godschalk, 2003; Bruneau et al., 2003; Burby et al., 2000). There is a relationship between vulnerability and resilience, which has been described as resilience being “nested” within vulnerability or possibly linked together with partial overlap (similar to a Venn Diagram) (Cutter et al., 2008; Manyena, 2006). Subsequently, a more vulnerable location, by definition, would take longer to “bounce back” than a less vulnerable one.\nResilience is often evaluated at the community level (specific location), such as with the Disaster Resilience of Place Model, which begins with the “antecedent” conditions, or the locational characteristics (Cutter et al., 2008). Such conditions include built, natural, and social systems that are specific to one place over a (long) period of time, and could also be viewed as a network of physical and human systems (Godschalk, 2003). These systems do not change quickly; the infrastructure and societal awareness of the Galveston, Texas region, for example, in 1900 would be inherently different than today; however, in the late 1990s/early 2000s, the overall infrastructure and awareness would not vary significantly. In keeping with this concept, the locational characteristics must be considered as interactive with hazard characteristics during an event in order to anticipate the resulting outcome or impact (Cutter et al., 2008; Pilkington and Mahmoud, 2016). For tropical cyclones (hurricanes), forecasting this impact (in terms of economic damage) can be especially difficult due to the multi-hazard nature of such events. The interaction between one hazard and one building type can be evaluated more simply, then subsequently combined for a whole building stock profile. However, evaluating an impact in terms of multiple hazards and locational systems becomes a more complex and, likely, nonlinear problem.\nExperts who work in the field of natural disasters (to include hurricanes) have an instinctual prediction of the outcome of oncoming events based on years of experience and knowledge. Advisories for storm events such as Hurricane Katrina and Sandy have strong wording that are associated with multiple factors including wind, storm surge, precipitation, size, and the location in which the storm makes landfall, which goes above and beyond the simplicity of the Saffir-Simpson Scale. In an effort to model the thought processes behind this instinct, along with the goal of creating a more all-encompassing, yet easy to communicate, ranking system an artificial neural network (ANN) model was developed in order to output a “bottom line” comparative impact (Pilkington and Mahmoud, 2016). The Hurricane Impact Level (HIL) Model uses machine learning (a branch of artificial intelligence) based on provided historical data to forecast a level of economic damage, termed Impact Level (IL), shown in Table 1, with a minimum 97% accuracy. This model takes the multiple hazards, forecast for upon landfall (maximum wind speed, minimum pressure, maximum storm surge, and total precipitation as would accrue from the storm’s precipitable water and translation speed), along with locational factors (population affected and landfall latitude and longitude for up to four possible landfalls) and forges relationships through the connection of multiple neurons to produce an IL as the output. The landfall location(s) by nature imply a level of preparedness, quality of infrastructure, and geographic land-hazard interactions. For example, a US citizen would inherently visualize a difference between New Jersey’s coastline and Florida’s. An ANN would also recognize a difference between locations by learning in a similar fashion to how that same US citizen once did. The use of multiple landfalls allows for a way to communicate track to the ANN. Hurricane Irene (2011) tracked along the east coast and technically had more than one landfall, therefore these four possible landfall locations are options to communicate similar tracks for future events. Since this model accounts for both landfall locational parameters and meteorological hazards, and has been verified for use with events of unknown outcomes (Pilkington and Mahmoud, 2017) it can be used to evaluate impact differences from moving historical hurricanes to a different, hypothetical, landfall location.",
+            "cites": [
+                "ref-CR3",
+                "ref-CR2",
+                "ref-CR24",
+                "ref-CR5",
+                "ref-CR16",
+                "ref-CR15",
+                "ref-CR4",
+                "ref-CR9",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Using artificial neural networks",
+            "text": "The application of ANNs to forecast the impact from a multi-hazard event, such as a hurricane, allows for the ability to establish complex non-linear relationships, which have not yet been established in this field, between hazards and characteristics of the locations where such hazards occur. Using the framework established for the original model, new networks are rebuilt each year as more events occur and new data are made available. The real-time use of the 2015 and 2016 HIL Models demonstrated accurate usability for events with forecasted (or hypothetical) inputs (Pilkington and Mahmoud, 2017). These models also introduced build adaptation from the original design, in which at least five ANNs are used within the model. This was done in order to allow for some discrepancies between networks, while the overall confidence for each IL was determined by averaging output from these multiple networks. Additionally, the networks chosen were to result in no more than a 3% error with no events falling in a false-positive classification. This approach was chosen to correct for overfitting issues that arise from using Bayesian methods to train the provided data (Pilkington and Mahmoud, 2017).\nSince the original model, six tropical cyclone events have been added to the data set: 2014 Hurricane Arthur, 2015 Tropical Storm Bill, 2015 Tropical Storm Ana, 2016 Hurricane Matthew, 2016 Hurricane Hermine, and 2016 Tropical Storm Colin. Within the historical events data set (1998-2017) there are only two IL 5 events and only four events to strike north of Washington, D.C., exposing a gap in historical data, and therefore the network’s knowledge, for extreme (outlier) events. However, ANNs address such potential limitations by interpolating between events within its training (and testing) data to arrive at an educated prediction. The use of multiple ANNs also addresses the limitation that can arise in forecasting such “outlier” type events. The 2017 HIL Model has 74 events in its final data set, with seven of those events used in the testing phase in building the ANNs (selected randomly and differently for each ANN). The 2017 HIL Model required the use of more hidden neurons (20) than the original design in order to produce networks matching the established criteria. Eleven ANNs (designated A through K) were chosen by the criteria of a maximum 3% error with no apparent false-positives from the data set. The percent error for each network is determined by how many events are misclassified during the training and testing phases. Typically, ANNs use hundreds to thousands of events to train, presenting another limitation for this ANN model since one network can only be trained with the 74 available events. However, the use of multiple networks partially addresses this by increasing the number of training sets. For the combination of all 2017 ANNs, 16 out of 814 events were misplaced. ANNs are only as useful as the data trained (and tested) with, but if the model error leads to an equally accurate prediction in an unknown event, this application can be considered viable. As the data set grows over time, so will the ANN’s ability to forecast a variety of possible events.\nThe concept of using ANNs is similar to that of having an expert in the field of hurricanes evaluating the same meteorological data and where the storm would strike. ANNs are modeled after how the human brain learns: synapses send either excitatory or inhibitory electrical activity to neurons. In ANNs, this process is modeled with artificial neurons and subsequent connections between them (Hinton, 1992). Similar to the differences between neuron connections of two people who may reach a similar conclusion, the connections between each network vary.\nAfter building (training and testing) a network, the connections between neurons are finalized. These connections may be excitatory (active-these establish the pathways) or inhibitory (inactive-do not establish pathways) as well as vary in intensity, as indicated by the weights associated with a connection between two neurons. Differing examples of this are shown through Hinton Diagrams in Fig. 1a, b for the 2017 HIL Model-Networks A and B. The network weights are what establish the pathway through the network and its corresponding strength, while the biases act as a mechanism to shift the logarithmic function on each neuron for a best fit. Green (light colored) neurons (shown as squares) indicate an excitatory reaction on the weighted neuron connections and red neurons (darker colored) indicate an inhibitory reaction. These same colors indicate whether the function shift on a neuron is positive or negative, respectively. While these networks may reach similar conclusions, or outputs, especially for more commonly occurring events, it can be seen that it is not necessarily by use of the same neural paths (shown in black lines by example for storm surge in Fig. 1). These neural pathways will differ for all A through K networks within the 2017 HIL Model, with these differences becoming mostly useful for more difficult to forecast events.\nWhen the data for a scenario are given to the network, each input will flow through according to the respective network connections. For example, in Fig. 1, the storm surge of a hurricane event in network A activates hidden neurons 2, 5, 8, 9, 10, 11, 15, 16, and 17 but network B activates hidden neurons 1, 5, 7, 8, 9, 12, 17, 20. However, in both networks, the pathways end up leading to all the output neurons, which correspond to an IL. These pathways are what allow for the complex relationship between each input variable of a landfalling tropical cyclone and the resulting model predication confidence (maximum of 1 and minimum of 0) in the designated outcome (IL).\nThe current model in popular use for determining loss from a hurricane event is the Federal Emergency Management Agency HAZUS Multi-Hazard GIS software (Federal Emergency Management Agency (FEMA), 2017). For hurricane assessment, the model uses namely wind speed and rainfall (Vickery et al., 2006a, b). The losses that could be estimated based on HAZUS are the building structure and content losses along with the cost of temporary housing stays (if necessary). Therefore, the exclusion of storm surge as a hazard as well as losses due to damage to other infrastructure within the community, precludes direct comparison of results between the output of the HIL model and HAZUS. The reason for HAZUS to be focused on building content is because building systems are the main focus of what insurance companies cover, which is also why “wind-driven” rain in the main consideration within the HAZUS model. However, the total economic damage comes from an accumulation of building damages and loss, transportation system disruptions, and overwhelmed or disrupted utilities (water and electricity). The total economic damages determined after the occurrence of a hurricane is a result of all of these sectors and meteorological factors and are typically discussed in the NHC tropical cyclone reports for each storm as applicable ((National Oceanic and Atmospheric Administration (NOAA) & National Hurricane Center (NHC), 2014). It is this interaction between all hazards and all sectors that has been difficult for the hazard field to combine into a concise outcome.\nCurrently, there is no model available that can be used to assess all hurricane hazards with the variations in location in which these effects occur. The use of ANNs in the HIL Model allows for correlation between hazards and location. Big data and machine learning are new techniques used in many fields to more readily tie together complex factors of one problem, such as stock market forecasting or predication of heart disease (Lu Dang Khoa et al., 2006; Hutson, 2017). Similarly, complicated are the many aspects of a hurricane. While ANNs have been used for part of weather modeling already, specifically for forecasting storm surge (Lee, 2006), using all hazards to forecast an outcome by way of ANNs was only previously introduced by Pilkington and Mahmoud (2016) and validated for real-time, or hypothetical, use by Pilkington and Mahmoud (2017). This development allows for a fresh look at how tropical storm impacts may vary along the coastline as well as any impact changes from historically severe hurricane events.",
+            "cites": [
+                "ref-CR12",
+                "ref-CR28",
+                "ref-CR11",
+                "ref-CR24",
+                "ref-CR20",
+                "ref-CR29",
+                "ref-CR14",
+                "ref-CR7",
+                "ref-CR13",
+                "ref-CR23"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Hypothetical scenarios",
+            "text": "In using this model, the meteorological parameters for Hurricane Sandy, Hurricane Ike, and Tropical Storm Andrea (2013) were kept consistent, but the landfall locations, and correspondingly the population affected, were altered. Where a hurricane makes landfall is dependent on where it forms and the subsequent atmospheric conditions at that time-meaning that the same meteorological hazards for Sandy could potentially occur in Florida as well as New Jersey. The population affected for each of these events was determined by simply taking the storm’s tropical storm force wind radius and moving it to the desired location to extract the current population from the counties that would fall within the relevant wind radius. Sandy and Ike were moved to Florida and North Carolina, respectively. Tropical Storm Andrea was moved to New York City.\nThe locational properties of a specific landfall can affect the probability of resulting in a certain IL. In Fig. 2, the results of moving the three specified storms from their original landfall location are shown (columns) along with the relative probability distribution for that location (overlapping curve). In pursuance of determining these distributions, the historical meteorological and IL data were fitted to a normal probabilistic distribution to run 400 hypothetical simulations at each landfall location with the meteorological inputs extracted randomly from within each relevant probabilistic distribution. This sample size was determined using an accepted estimation method for each IL and its probability of occurrence (within the historical data set) within a 5% bound (Guo et al., 2013). To derive the population affected for the statistical simulations at each landfall location, an average tropical storm force wind radius of 258 km was used. The hypothetical simulations provided a resulting IL using the 2017 HIL Model. As shown in Fig. 2, since the Northeast is sparser in historical data, the data distributions for locations, such as New York, reflect the distribution of the overall data set: skewing towards an IL 0 event, where most of the US historical data resides. This is a result of the ANNs resolving the sparse data for the region. However, in locations where more data is available, such as Florida and Texas, the probabilities shift to a more centered normal distribution.\nIf Hurricane Sandy were poised to strike Florida instead of New York, the IL would have dropped to a 4, with the model output having some additional confidence in an IL 3 for that location. However, moving Tropical Storm Andrea, with a storm surge of 1.4 versus 3.7 m for Sandy, to New York City did not necessarily increase its IL. This is because New York City’s tunnels and airports reside at 3 m or less above sea-level, indicating that while Hurricane Sandy resulted in significant inundation, Tropical Storm Andrea may not (US Army Corps of Engineers/FEMA/NWS, 1995). There was some additionally significant confidence from the model output for a higher IL, which could be attributed to the high rainfall total of 38.8 cm coupled with high urbanization. It is possible, in this region, that the landfall location’s tendency towards lower IL events by the probability distribution could have held back the output. Real-time uses of the HIL Model showed a preliminary correlation between nearly equal confidences and the model wavering between shifting responses (Pilkington and Mahmoud, 2017). In situations such as this, it might be worth considering that Tropical Storm Andrea could result in a higher IL, while maintaining a lower IL than Sandy, given its storm surge data.\nThe Galveston area has more landfalls within this historical data set, resulting in a more centered IL probability distribution, which also indicates a tendency towards higher impact events. Following the 1900 Galveston Hurricane, a seawall was built with the purpose of reducing flooding effects from storm surge, something barrier islands, such as the Outer Banks, already do. Moving Hurricane Ike to North Carolina should result in a similar IL then, correct? Actually, as shown in Fig. 2, the IL decreases indicating less economic damage had Ike hit North Carolina instead of the Galveston region. The Outer Banks do provide added protection to the region, but the North Carolina coast also does not have as high of a population (11 million people within the wind swath area in Texas versus slightly less than 4 million along the Carolina coast) or as much urbanization. Urbanization indicates not only increased infrastructure, but also larger communities with more complex dynamics, which are characteristics of the Galveston location and as such drive the resulting impact from a hurricane event. Therefore, the seawall does not correlate to the same reduced IL that would result from barrier island protections with less urbanization to disturb such features.\nIn general, tropical cyclones with the same meteorological factors but different landfall locations result in an increase in IL along the northern East Coast and, conversely, a decrease in IL when occurring along the Gulf Coast. Not only does population play a role in this outcome, but expectations for the occurrence of such events could also contribute to a reduced economic damage. Locations such as Texas and Florida are common landfall locations for hurricanes, therefore building codes are more stringent and residents are better prepared. The increased ILs along the East Coast are indicative of a vulnerability to such events and consequently a lower level of resiliency since higher economic damage links to a community’s capability to bounce back from an event.\nWhat if major historical events hit today? Have our cities improved their resiliency over time? Previous studies have evaluated the effects of inflation and population increase for historical hurricanes in terms of normalized economic damage in more modern times. One such study accounts for population movements and increase along with inflation and increased wealth (Pielke Jr. et al., 2008). However, there are other locational characteristics and societal changes that could influence how these historical events would actually impact a region. For example, the Galveston seawall was not constructed until after the Galveston Hurricane of 1900. Additionally, building codes were not originally introduced until the 1970s and the National Flood Insurance Program was not enacted until 1968 (FEMA, 2016).\nWith these considerations in mind, the HIL Model was used to simulate the 1900 Galveston Hurricane, the 1938 New England Hurricane, Hurricane Camille (1969), and Hurricane Andrew (1992) as if they were to hit today. Since the HIL model was trained with events occurring after 1998, this allows for a simulation of present day characteristics for comparison with characteristics at the time which these events occurred leading to the already known results. Before the simulations were conducted, the economic damage totals at the time of each hurricane were normalized to 2016 USD using construction price indices from US Census (US Census Bureau, 2016). However, these construction price indices did not track back past 1960, so linear interpolation from the available data was used to normalize damage from storms occurring prior to 1960. The timeline shown in Fig. 3 lists the relative IL for each storm event at the time it hit (economic damage only adjusted for inflation and no other factors) along with the new IL for if the same storm hit present day. The historical meteorological parameters, mainly taken from the National Weather Service, were used, along with an extrapolated population affected determined by overlapping historical weather maps with the relevant landfall location (National Hurricane Center, 2012; NOAA, 2000; Weather Underground, n.d.; US Census Bureau, 2014).\nOf these four hurricanes, not a single one is confidently forecasted to result in a reduced IL. Population increase along the coast corresponds with an increase infrastructure, increased wealth, and decreased natural protections. As urbanization increases, flooding hazards become more problematic due to stormwater runoff increase coupled with the deterioration of wetland areas and protective island barriers (Morton, 2007; Booth, 1991).\nWhen solely accounting for the increased population and wealth, as done in the previously mentioned study, Galveston would be an IL 5, New England an IL 4, Camille an IL 4, and Andrew right on the border between an IL 4 and 5 (Pielke Jr. et al., 2008). So why did the model used herein give Galveston as an IL 4? In short, the seawall. The meteorological parameters from Hurricane Ike (2008), which were part of the data used to build the HIL Model networks, were similar to that of the 1900 Galveston Hurricane; with Galveston having a slightly higher wind speed (113 versus 95 knots) and storm surge (4.6 versus 3.9 m). This mainly indicates that, while still forecasted as a very damaging storm, the seawall does mitigate some of potential damage. But is it enough?\nThe New England Hurricane is forecasted to be a highly damaging IL 5 event if it were to hit to today for almost the inverse reason of Galveston: decreased locational resilience. This region of the US, the I-95 Corridor, is arguably the most urbanized area in the country, especially along the East and Gulf Coasts. The 1938 New England Hurricane, while smaller in size compared to 2012 Hurricane Sandy, has the same storm surge (3.7 m), higher wind speeds at landfall (105 versus 70 knots), and roughly the same precipitation amount (30-32 cm) as Sandy.\nGiven the high economic damage from Hurricane Sandy, it is reasonable that the New England Hurricane, if it hit today, would have a similar impact. Since Pielke adjusted this storm’s economic damage for increased population and wealth to be equivalent to an IL 4 (instead of 5), this reveals that this region has not improved its resiliency to hurricanes over the past almost 80 years.\nHurricane Andrew is a more recently occurring event, with its IL seemingly oscillating between remaining consistent and dropping to an IL 4 if it were to strike today. When the economic damage is normalized with consideration of solely population and wealth increase, the IL just crosses over to a 5. The Florida Building Code did not become more stringent in terms of hurricane force wind loads until after Hurricane Andrew, attributing to the difference between an IL 4 and 5 and possibly why the HIL Model would want to lower the resulting IL (FEMA, 1992; Morgan, 2012). However, these building code enhancements are not seemingly enough to counteract the population increase (Florida’s being especially high) to result in a reduced the overall impact of such an event.",
+            "cites": [
+                "ref-CR27",
+                "ref-CR25",
+                "ref-CR22",
+                "ref-CR8",
+                "ref-CR30",
+                "ref-CR24",
+                "ref-CR6",
+                "ref-CR19",
+                "ref-CR21",
+                "ref-CR26",
+                "ref-CR17",
+                "ref-CR10",
+                "ref-CR18",
+                "ref-CR1"
+            ],
+            "figures": [
+                "figure-3",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "The application of ANNs used in the HIL Model to evaluate historical events allows for an examination of changes in outcome as result from location, maximum wind speed, minimum pressure, maximum storm surge, and total precipitation at landfall. Previously, such events have been analyzed either by solely looking at increase in population and wealth, while neglecting locational changes, or could potentially be evaluated for loss from wind and wind driven rain only. The simulations using the HIL Model highlight the increase in economic damage from storms further north along the East Coast and how improvements to various communities have been somewhat beneficial.\nThe I-95 corridor along the US East Coast has been notoriously know for high vulnerability and deteriorating infrastructure. In comparison to southern cities, there are older buildings and high population densities. This difference, as most individuals would observe if visited both, is what the HIL Model is recognizing when the same meteorological parameters are moved between a northern and southern location. The differing results for the same meteorological parameters between Galveston and North Carolina, calls attention to the prospect that nature’s built-in defenses are more suitable for protection than man-made solutions in more urbanized and crowded areas. Essentially, so far, no mitigation solution has done the same for a location as a lower population and de-urbanization would, as confirmed by the HIL Model simulations.\nOver time, better infrastructure quality, increased knowledge, and experience may have assisted in maintaining coastal communities’ resilience to hurricanes. However, the increased population, wealth, and inflation have had a counteracting effect by placing more population (and wealth) in harm’s way. Building codes continue to improve and become more stringent for coastal communities (mainly along the Gulf Coast), yet with an increase in capital in these counties, there is more to lose. Coastal communities north of North Carolina, however, have not made overall relevant locational improvements with concern to hurricanes over the past century. In comparison to their southern counterparts, northeastern counties are risking lower resiliency overall to potential hurricanes and tropical storms, especially due to larger populations that are more reliant on the local, deteriorated, infrastructure systems. The HIL Model simulation results show that even with the increased mitigation strategies over time, whether it be building codes or policy, has not been able to reduce the expected impact from severe events. Infrastructure improvements are fighting just to keep up with the surge in population, and are more commonly falling behind than succeeding in keeping pace. Coastal areas have reached a tipping point where their resilience is becoming more dependent on wealth and overall population quantity than infrastructure quality. If infrastructure improvements lack or slow down, however, this resilience can be expected to only deteriorate alongside the locale’s infrastructure.\n### Data availability\nThe data used for this paper were gathered from the NHC and United States Census. More detail on the methods in building the HIL Model ANNs are described in Pilkington and Mahmoud, 2016.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1",
+            "figure-caption": "Hinton Diagram of a HIL2017-A and b HIL2017-B networks. Activated (excitatory) neurons have a path showing connection. Magnitude is related to the size of each square (Hidden Neurons are denoted as HN and Impact Levels as IL)",
+            "figure-link": "https://www.nature.com/articles/s41599-017-0016-1/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2",
+            "figure-caption": "Comparison of hurricane events at the actual location versus a hypothetical scenario location",
+            "figure-link": "https://www.nature.com/articles/s41599-017-0016-1/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3",
+            "figure-caption": "Scenario showing if infamous historical events made landfall today",
+            "figure-link": "https://www.nature.com/articles/s41599-017-0016-1/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Booth DB (1991) Urbanization and the natural drainage system - impacts, solutions, and prognoses. Northwest Environ J 7(1):92-118",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urbanization%20and%20the%20natural%20drainage%20system%20-%20impacts%2C%20solutions%2C%20and%20prognoses&journal=Northwest%20Environ%20J&volume=7&issue=1&pages=92-118&publication_year=1991&author=Booth%2CDB"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Bruneau M et al. (2003) A framework to quantitatively assess and enhance the seismic relience of communities. Earthq Spectra 19(4):733-752",
+            "links": {
+                "Article": "https://doi.org/10.1193%2F1.1623497",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20framework%20to%20quantitatively%20assess%20and%20enhance%20the%20seismic%20relience%20of%20communities&journal=Earthq%20Spectra&doi=10.1193%2F1.1623497&volume=19&issue=4&pages=733-752&publication_year=2003&author=Bruneau%2CM"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Burby RJ et al. (2000) Creating hazard resilient communities through land-use planning. Nat Hazards Rev 2(1):99-106",
+            "links": {
+                "Article": "https://doi.org/10.1061%2F%28ASCE%291527-6988%282000%291%3A2%2899%29",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Creating%20hazard%20resilient%20communities%20through%20land-use%20planning&journal=Nat%20Hazards%20Rev&doi=10.1061%2F%28ASCE%291527-6988%282000%291%3A2%2899%29&volume=2&issue=1&pages=99-106&publication_year=2000&author=Burby%2CRJ"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Crossett KM et al. (2004) Population trends along the coastal United States: 1980-2008. In: NOAA/National Ocean Service. http://www.oceanservice.noaa.gov/programs/mb/supp_cstl_population.html",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Cutter SL et al. (2008) A place-based model for understanding community resilience to natural disasters. Glob Environ Change 18(4):598-606",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.gloenvcha.2008.07.013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20place-based%20model%20for%20understanding%20community%20resilience%20to%20natural%20disasters&journal=Glob%20Environ%20Change&doi=10.1016%2Fj.gloenvcha.2008.07.013&volume=18&issue=4&pages=598-606&publication_year=2008&author=Cutter%2CSL"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Federal Emergency Management Agency (FEMA) (1992) Building Performance: Hurricane Andrew in Florida. http://www.fema.gov/media-library-data/20130726-1611-20490-1856/fia22_complete.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Federal Emergency Management Agency (FEMA) (2017) Hazus",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "FEMA (2016) About the NFIP. Available at: https://www.floodsmart.gov/floodsmart/pages/about/nfip_overview.jsp. Accessed 11 April 2016",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Godschalk DR (2003) Urban hazard mitigation: Creating resilient cities. Nat Hazards Rev 4(3):136-143",
+            "links": {
+                "Article": "https://doi.org/10.1061%2F%28ASCE%291527-6988%282003%294%3A3%28136%29",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Urban%20hazard%20mitigation%3A%20Creating%20resilient%20cities&journal=Nat%20Hazards%20Rev&doi=10.1061%2F%28ASCE%291527-6988%282003%294%3A3%28136%29&volume=4&issue=3&pages=136-143&publication_year=2003&author=Godschalk%2CDR"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Guo H, Pohl E, Gerokostopoulos A (2013) Determining the Right Sample Size for Your Test: Theory and Application, Annual Reliability and Maintainability Symposium, Tutorial Presentation. Available at: http://www.reliasoft.com/pubs/2013_RAMS_determining_right_sample_size.pdf. Accessed 28 Mar 2016",
+            "links": {}
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Hinton GE (1992) How neural networks learn from experience. Sci Am 267(3):144-151",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fscientificamerican0992-144",
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaK38zms12mtA%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1502516",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20neural%20networks%20learn%20from%20experience&journal=Sci%20Am&doi=10.1038%2Fscientificamerican0992-144&volume=267&issue=3&pages=144-151&publication_year=1992&author=Hinton%2CGE"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Hutson (2017) Self-taught artificial Intelligence beats doctors at predicting heart attacks. Science. http://www.sciencemag.org/news/2017/04/self-taught-artificial-intelligence-beats-doctors-predicting-heart-attacks. Accessed 20 June 2017",
+            "links": {}
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Lee TL (2006) Neural network predication of a storm surge. Ocean Eng 33(3-4):483-494. https://doi.org/10.1016/j.oceaneng.2005.04.012",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.oceaneng.2005.04.012",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neural%20network%20predication%20of%20a%20storm%20surge&journal=Ocean%20Eng&doi=10.1016%2Fj.oceaneng.2005.04.012&volume=33&issue=3%E2%80%934&pages=483-494&publication_year=2006&author=Lee%2CTL"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Khoa NLD, Sakakibara K, Nishikawa I (2006) Stock price forecasting using back propagation neural networks with time and profit based adjusted weight factors. In: SICE-ICASE International Joint Conference, Institute of Electrical and Electronics Engineers (IEEE), Curran Associates, Inc. (Apr 2007), Bexco, Busan, Korea, pp 5484-5488",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Manyena SB (2006) The concept of resilience revisted. Disasters 30(4):433-450",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.0361-3666.2006.00331.x",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17100752",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20concept%20of%20resilience%20revisted&journal=Disasters&doi=10.1111%2Fj.0361-3666.2006.00331.x&volume=30&issue=4&pages=433-450&publication_year=2006&author=Manyena%2CSB"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Mileti D (1999) Disasters by deisgn: A reassessment of natural hazardss in the United States. Joseph Henry Press, National Academy of Sciences, U.S.A",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Morgan C (2012) Impact of Hurricane Andrew: better homes. In: Miami Herald. http://www.miamiherald.com/news/special-reports/hurricane-andrew/article1940341.html. Accessed 9 May 2016",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Morton RA (2007) Historical changes in the Mississippi-Alabama barrier islands and the roles of extreme storms, sea level, and human activites. U.S. Geological Survey, St. Petersburg, FL",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "National Oceanic and Atmospheric Administration (NOAA) (2000) National Weather Service Commemorates 1900 Galveston Hurricane. Available at: http://www.publicaffairs.noaa.gov/releases2000/sep00/noaa00r258.html",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "National Oceanic and Atmospheric Administration (NOAA) & National Hurricane Center (NHC) (2014) NHC data archive: Tropical cyclone reports. http://www.nhc.noaa.gov/data/#tcr",
+            "links": {}
+        },
+        {
+            "id": "ref-CR21",
+            "content": "National Hurricane Center (2012) Hurricanes in history. http://www.nhc.noaa.gov/outreach/history/",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Pielke Jr. RA et al. (2008) Normalized hurricane damage in the United States: 1900-2005. Nat Hazards Rev 9(1):29-42",
+            "links": {
+                "Article": "https://doi.org/10.1061%2F%28ASCE%291527-6988%282008%299%3A1%2829%29",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Normalized%20hurricane%20damage%20in%20the%20United%20States%3A%201900-2005&journal=Nat%20Hazards%20Rev&doi=10.1061%2F%28ASCE%291527-6988%282008%299%3A1%2829%29&volume=9&issue=1&pages=29-42&publication_year=2008&author=Pielke%2CRA"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Pilkington SF, Mahmoud HN (2016) Using artificial neural networks to forecast economic impact of multi-hazard hurricane-based events. Sustain Resilient Infrast 1(1):63-83",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Pilkington SF, Mahmoud HN (2017) Real-time application of the multi-hazard hurricane impact level model for the Atlantic Basin. Front Built Environ Wind Eng Sci. Available at: https://www.frontiersin.org/articles/10.3389/fbuil.2017.00067/abstract",
+            "links": {}
+        },
+        {
+            "id": "ref-CR25",
+            "content": "US Army Corps of Engineers/FEMA/NWS (1995) Metro New York Hurricane Trasportation Study. Intermin Technical Data Report, Wilmington and Philadelphia Districts and the New England Division, USACE",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "US Census Bureau (2016) Construction Prices Indecies",
+            "links": {}
+        },
+        {
+            "id": "ref-CR27",
+            "content": "US Census Bureau (2014) Geography-tiger products. https://www.census.gov/geo/maps-data/data/tiger.html",
+            "links": {}
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Vickery PJ, Lin J et al. (2006a) HAZUS-MH hurricane model methodology. I: Hurricane hazard, terrain, and wind load modeling. Nat Hazards Rev 7(2):82-93",
+            "links": {
+                "Article": "https://doi.org/10.1061%2F%28ASCE%291527-6988%282006%297%3A2%2882%29",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=HAZUS-MH%20hurricane%20model%20methodology.%20I%3A%20Hurricane%20hazard%2C%20terrain%2C%20and%20wind%20load%20modeling&journal=Nat%20Hazards%20Rev&doi=10.1061%2F%28ASCE%291527-6988%282006%297%3A2%2882%29&volume=7&issue=2&pages=82-93&publication_year=2006&author=Vickery%2CPJ&author=Lin%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Vickery PJ, Skerlj PF et al. (2006b) HAZUS-MH hurricane model methodology II: Damage and loss estimation. Nat Hazards Rev 7(2):94-103",
+            "links": {
+                "Article": "https://doi.org/10.1061%2F%28ASCE%291527-6988%282006%297%3A2%2894%29",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=HAZUS-MH%20hurricane%20model%20methodology%20II%3A%20Damage%20and%20loss%20estimation&journal=Nat%20Hazards%20Rev&doi=10.1061%2F%28ASCE%291527-6988%282006%297%3A2%2894%29&volume=7&issue=2&pages=94-103&publication_year=2006&author=Vickery%2CPJ&author=Skerlj%2CPF"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Weather Underground (1995) Hurricane and Tropical Cyclones Hurricane Archive. Available at: https://www.wunderground.com/hurricane/hurrarchive.asp. Accessed 10 October 2013",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsStephanie PilkingtonView author publicationsSearch author on:PubMedGoogle ScholarHussam MahmoudView author publicationsSearch author on:PubMedGoogle Scholar\n### Corresponding author\nCorrespondence to Hussam Mahmoud.",
+            "links": {
+                "View author publications": "/search?author=Hussam%20Mahmoud",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Hussam%20Mahmoud",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Hussam%20Mahmoud%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Hussam Mahmoud": "mailto:hussam.mahmoud@colostate.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing financial interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Rights and permissions": {
+            "content": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Spatial%20and%20temporal%20variations%20in%20resilience%20to%20tropical%20cyclones%20along%20the%20United%20States%20coastline%20as%20determined%20by%20the%20multi-hazard%20hurricane%20impact%20level%20model&author=Stephanie%20Pilkington%20et%20al&contentID=10.1057%2Fs41599-017-0016-1&copyright=The%20Author%28s%29&publication=2055-1045&publicationDate=2017-10-31&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articlePilkington, S., Mahmoud, H. Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane impact level model. Palgrave Commun 3, 14 (2017). https://doi.org/10.1057/s41599-017-0016-1Download citationReceived:16 February 2017Accepted:26 September 2017Published:31 October 2017DOI:https://doi.org/10.1057/s41599-017-0016-1Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1057/s41599-017-0016-1?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane impact level model",
+                "description": "The United States coastline, where over 50% the population lives, is vulnerable to hurricanes along the East and Gulf coasts. However, the question remains as to whether these two areas are equally resilient to a landfalling hurricane. In addition, while it is assumed that improvements in building codes, infrastructure protections, and changing policy over the past century have been effective in reducing the impacts to a community from historically extreme hurricane events, such an assumption is still to be validated. Here, a multi-hazard artificial neural network model is used to address these questions. The Hurricane Impact Level Model is the first prediction model to utilize machine-learning techniques (artificial neural networks) to established complex connections between all meteorological factors (wind, pressure, storm surge, and precipitation resulting in inland flooding) of a tropical cyclone and how those interact with the location of landfall to produce a certain level of economic damage. This model allows for a more all-encompassing assessment of how the impacts of tropical cyclones vary along the coastline. The Hurricane Impact Level Model was trained with historical tropical cyclone events from 1998 to present day, resulting in established locational associations to modern relevant building codes and mitigation practices. Simulating the meteorological factors from historical events allows for a new assessment of economic impact changes due to infrastructure improvements and policy adaptations over time. In essence, if Hurricane Sandy hit Florida instead of New York, it would have a lower economic impact due to lower population density and more stringent building codes, which the artificial neural network has associated with the latitudes and longitudes within the state of Florida. If the Galveston hurricane were to hit today, the seawall would not succeed in lowering the economic impact to the Texas coastline. Over the years, significant effort has been put in to improving the resiliency of the United States coastline, mainly in the southern states, but it has not been enough to counteract the effects of population growth within coastal counties.",
+                "datePublished": "2017-10-31T00:00:00Z",
+                "dateModified": "2017-10-31T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "8",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1057/s41599-017-0016-1",
+                "keywords": [
+                    "Complex networks",
+                    "Economics",
+                    "Geography",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-017-0016-1/MediaObjects/41599_2017_16_Fig1_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-017-0016-1/MediaObjects/41599_2017_16_Fig2_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1057%2Fs41599-017-0016-1/MediaObjects/41599_2017_16_Fig3_HTML.jpg"
+                ],
+                "isPartOf": {
+                    "name": "Palgrave Communications",
+                    "issn": [
+                        "2055-1045"
+                    ],
+                    "volumeNumber": "3",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Palgrave Macmillan UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Stephanie Pilkington",
+                        "affiliation": [
+                            {
+                                "name": "Colorado State University",
+                                "address": {
+                                    "name": "Colorado State University, Fort Collins, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Hussam Mahmoud",
+                        "affiliation": [
+                            {
+                                "name": "Colorado State University",
+                                "address": {
+                                    "name": "Colorado State University, Fort Collins, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "hussam.mahmoud@colostate.edu",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "complex-networks;economics;geography",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Palgrave Communications",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1057/s41599-017-0016-1"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Stephanie Pilkington",
+                            "Hussam Mahmoud"
+                        ],
+                        "publishedAt": 1509408000,
+                        "publishedAtString": "2017-10-31",
+                        "title": "Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane impact level model",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Complex networks,Economics,Geography"
+                    },
+                    "journal": {
+                        "pcode": "palcomms",
+                        "title": "palgrave communications",
+                        "volume": "3",
+                        "issue": "1",
+                        "id": 41599,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane impact level model",
+            "dc.source": "Palgrave Communications 2017 3:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Palgrave",
+            "dc.date": "2017-10-31",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2017 The Author(s)",
+            "dc.rights": "2017 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "The United States coastline, where over 50% the population lives, is vulnerable to hurricanes along the East and Gulf coasts. However, the question remains as to whether these two areas are equally resilient to a landfalling hurricane. In addition, while it is assumed that improvements in building codes, infrastructure protections, and changing policy over the past century have been&nbsp;effective in reducing the impacts to a community from historically extreme hurricane events, such an assumption is still to be validated. Here, a multi-hazard artificial neural network model is used to address these questions. The Hurricane Impact Level Model is the first prediction model to utilize machine-learning techniques (artificial neural networks) to established complex connections between all meteorological factors (wind, pressure, storm surge, and precipitation resulting in inland flooding) of a tropical cyclone and how those interact with the location of landfall to produce a certain level of economic damage. This model allows for a more all-encompassing assessment of how the impacts of tropical cyclones vary along the coastline. The Hurricane Impact Level Model was trained with historical tropical cyclone events from 1998 to present day, resulting in established locational associations to modern relevant building codes and mitigation practices. Simulating the meteorological factors from historical events allows for a new assessment of economic impact changes due to infrastructure improvements and policy adaptations over time. In essence, if Hurricane Sandy hit Florida instead of New York, it would have a lower economic impact due to lower population density and more stringent building codes, which the artificial neural network has associated with the latitudes and longitudes within the state of Florida. If the Galveston hurricane were to hit today, the seawall would not succeed in lowering the economic impact to the Texas coastline. Over the years, significant effort has been put in to improving the resiliency of the United States coastline, mainly in the southern states, but it has not been enough to counteract the effects of population growth within coastal counties.",
+            "dc.identifier": "doi:10.1057/s41599-017-0016-1",
+            "dc.creator": "Mahmoud, Hussam",
+            "dc.subject": "Geography",
+            "prism.issn": "2055-1045",
+            "prism.publicationName": "Palgrave Communications",
+            "prism.publicationDate": "2017-10-31",
+            "prism.volume": "3",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "8",
+            "prism.copyright": "2017 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41599-017-0016-1",
+            "prism.doi": "doi:10.1057/s41599-017-0016-1",
+            "citation_pdf_url": "https://www.nature.com/articles/s41599-017-0016-1.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41599-017-0016-1",
+            "citation_journal_title": "Palgrave Communications",
+            "citation_journal_abbrev": "Palgrave Commun",
+            "citation_publisher": "Palgrave",
+            "citation_issn": "2055-1045",
+            "citation_title": "Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane impact level model",
+            "citation_volume": "3",
+            "citation_issue": "1",
+            "citation_online_date": "2017/10/31",
+            "citation_firstpage": "1",
+            "citation_lastpage": "8",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1057/s41599-017-0016-1",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1057/s41599-017-0016-1&api_key=",
+            "citation_reference": "Weather Underground (1995) Hurricane and Tropical Cyclones Hurricane Archive. Available at: \n                    https://www.wunderground.com/hurricane/hurrarchive.asp\n                    \n                  . Accessed 10 October 2013",
+            "citation_author": "Mahmoud, Hussam",
+            "citation_author_institution": "Colorado State University, Fort Collins, USA",
+            "description": "The United States coastline, where over 50% the population lives, is vulnerable to hurricanes along the East and Gulf coasts. However, the question remains as to whether these two areas are equally resilient to a landfalling hurricane. In addition, while it is assumed that improvements in building codes, infrastructure protections, and changing policy over the past century have been&nbsp;effective in reducing the impacts to a community from historically extreme hurricane events, such an assumption is still to be validated. Here, a multi-hazard artificial neural network model is used to address these questions. The Hurricane Impact Level Model is the first prediction model to utilize machine-learning techniques (artificial neural networks) to established complex connections between all meteorological factors (wind, pressure, storm surge, and precipitation resulting in inland flooding) of a tropical cyclone and how those interact with the location of landfall to produce a certain level of economic damage. This model allows for a more all-encompassing assessment of how the impacts of tropical cyclones vary along the coastline. The Hurricane Impact Level Model was trained with historical tropical cyclone events from 1998 to present day, resulting in established locational associations to modern relevant building codes and mitigation practices. Simulating the meteorological factors from historical events allows for a new assessment of economic impact changes due to infrastructure improvements and policy adaptations over time. In essence, if Hurricane Sandy hit Florida instead of New York, it would have a lower economic impact due to lower population density and more stringent building codes, which the artificial neural network has associated with the latitudes and longitudes within the state of Florida. If the Galveston hurricane were to hit today, the seawall would not succeed in lowering the economic impact to the Texas coastline. Over the years, significant effort has been put in to improving the resiliency of the United States coastline, mainly in the southern states, but it has not been enough to counteract the effects of population growth within coastal counties.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane impact level model",
+            "twitter:description": "Humanities and Social Sciences Communications - Spatial and temporal variations in resilience to tropical cyclones along the United States coastline as determined by the multi-hazard hurricane...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1057%2Fs41599-017-0016-1/MediaObjects/41599_2017_16_Fig1_HTML.jpg",
+            "DOI": "10.1057/s41599-017-0016-1",
+            "size": "72355",
+            "journal_id": "41599"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41599-017-0016-1",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

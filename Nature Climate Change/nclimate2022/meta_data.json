@@ -1,0 +1,39 @@
+{
+    "id": "nclimate2022",
+    "title": "Attributing mortality from extreme temperatures to climate change in Stockholm, Sweden",
+    "journal": "Nature Climate Change",
+    "pdf_link": "https://www.nature.com/articles/nclimate2022",
+    "open_access": false,
+    "meta_data": [
+        {
+            "Data_Name": "Stockholm daily air temperature observations and homogenized series",
+            "Data_summary": "Station-based daily mean air temperature observations for Stockholm compiled into a long time series and used to compute moving averages and percentile-based thresholds for defining cold and heat extremes and counting their frequency across periods, including versions corrected for urbanization and urban heat island effects.",
+            "Category": "City-wide camera networks and meteorological stations",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We collected daily mortality during the period 1980–2009 and daily temperature data for the period 1900–2009 for Stockholm County Sweden; Location: Methods; Confidence: high",
+            "Time_Coverage": "1900-2009",
+            "Geographic_Coverage": "Sweden > Stockholm County",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR20"
+            ]
+        },
+        {
+            "Data_Name": "Stockholm County daily all cause mortality counts",
+            "Data_summary": "Daily counts of deaths for Stockholm County used as the health outcome time series to estimate relative risks of mortality during defined cold and heat extreme days and to compute baseline seasonal mortality for attributable-death calculations.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We collected daily mortality during the period 1980–2009 and daily temperature data for the period 1900–2009 for Stockholm County Sweden; Location: Methods; Confidence: high",
+            "Time_Coverage": "1980-2009",
+            "Geographic_Coverage": "Sweden > Stockholm County",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:18:56.297350"
+    }
+}

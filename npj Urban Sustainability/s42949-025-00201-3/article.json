@@ -1,0 +1,895 @@
+{
+    "id": "s42949-025-00201-3",
+    "journal": "npj Urban Sustainability",
+    "type": "article",
+    "title": "Green environments and cardiometabolic health: exploring incidence and progression through multi-state analysis",
+    "legal_title": "Green environments and cardiometabolic health  exploring incidence and progression through multi-state analysis",
+    "publish_time": "2025-04-17",
+    "pdf_link": "https://www.nature.com/articles/s42949-025-00201-3",
+    "storage_path": "./Articles/npj Urban Sustainability/2025-article/s42949-025-00201-3/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "It is unknown how greenness affects the development, progression and prognosis of cardiometabolic multimorbidity (CMM). We aimed to evaluate the role of greenness on trajectories of CMM, particularly the transitions from healthy to first cardiometabolic disease (FCMD), then to CMM and followed by death. We used Normalized difference vegetation index (NDVI) as the exposure indicator. CMM was defined as the presence of more than one cardiometabolic diseases, namely ischemic heart disease, type 2 diabetes, and stroke. As a result, among 454,777 participants, 5889 FCMD cases, 6607 CMM cases, and 25,666 death events were observed after a median follow-up of 12.1 years. We found greenness significantly associated with transitions from baseline to FCMD, baseline to death, FCMD to CMM, as well as FCMD to death. When further specifying FCMDs, the effect varied across disease-specific transitions. In conclusion, residential greenness may have an impact on the occurrence, progression and prognosis of CMM.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Urbanization has become a rapid trend in recent decades. Based on United Nations statistics, approximately 55% of the world’s inhabitants are urban dwellers, and 68% is predicted by 20501. This shift presents significant challenges for urban sustainability, particularly in ensuring equitable access to green spaces. Green spaces are widely recognized for their crucial role in enhancing urban resilience and sustainability by mitigating urban heat islands, improving air quality, and fostering social cohesion2,3,4. Interest in urban greening is increasing5, as it leverages the potential of nature to address various societal challenges. By offering sustainable strategies, urban greening can simultaneously respond to environmental, social, and economic issues, promoting more livable and resilient urban environments. These initiatives support sustainable urbanization processes and contribute significantly to improved public health and well-being for urban populations6,7,8. Research has consistently shown that exposure to greenspace is linked to a lower risk of adverse health outcomes related to the cardiovascular, respiratory, and mental health systems9,10, and is associated with beneficial changes in immunological, neuroendocrine, and metabolic biomarkers11,12. Despite extensive research being conducted, greenness remains a topic that merits further exploration. Frumkin et al. outlined some key issues to conquer, including deeper probe into the health benefits of greenness through novel study settings and enhanced analytical approaches13.\nCardiometabolic multimorbidity (CMM), defined as the co-occurrence of multiple cardiometabolic conditions such as type 2 diabetes (T2D), ischemic heart disease (IHD), and stroke, represents a growing public health concern14,15,16. It is one of the most common patterns of comorbidity17, with its prevalence rising rapidly as well18,19. In comparison to the occurrence of single cardiometabolic diseases (CMDs), Significantly shorter life expectancy and multiplicative mortality risk have been linked to CMM16. While the protective effects of greenness against single cardiometabolic conditions are well established9, its role in influencing the progression from initial cardiometabolic disease to CMM and subsequent mortality remains unclear. To date, no research has explored how greenness impacts the full trajectory of CMM development—from the onset of a single CMD to incident CMM and ultimately death.\nThis study aims to fill this gap by investigating the role of residential greenness in CMM trajectories, particularly the transitions from healthy to first CMD (FCMD), then to CMM and followed by death. Our research underscores the significance of urban greening in formulating comprehensive strategies for CMM prevention, emphasizing the need to recognize greenness as a key asset for promoting health and resilience in urban environments.",
+            "cites": [
+                "ref-CR11",
+                "ref-CR10",
+                "ref-CR4",
+                "ref-CR17",
+                "ref-CR1",
+                "ref-CR19",
+                "ref-CR12",
+                "ref-CR8",
+                "ref-CR9",
+                "ref-CR2",
+                "ref-CR6",
+                "ref-CR13",
+                "ref-CR15",
+                "ref-CR18",
+                "ref-CR16",
+                "ref-CR7",
+                "ref-CR3",
+                "ref-CR14",
+                "ref-CR5"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Descriptive results\nAfter 12.1 years of median follow-up, 55,889 FCMD cases, 6607 CMM cases, and 25,666 death events were identified. There were 16,949 deaths without CMDs, 7232 deaths after FCMD, and 1485 deaths after CMM (Fig. 1). Based on additional divisions of FCMD to particular CMDs, 21,361 of FCMDs were T2D, while 25,661 and 6810 were IHD and stroke, respectively. T2D patients were more likely to develop CMM (2950 transferred to CMM), while those diagnosed with stroke suffered more deaths afterwards (1398 deaths) (Fig. 2).\nStratified by CMM status, table S1 provides summary statistics regarding demographics of study participants. Participants averaged 56.1 (8.1) years of age, with 43.8% of them being males and 90.3% being White. As compared to those free of CMDs, those with at least one CMD were older and more likely to be males. They tended to live in urban areas, be less educated, retired and had lower income. Additionally, they had a higher likelihood of having smoked in the past or now, and scored lower on healthy diet. Presented in Table S2 is the summary statistics of greenness indicators. The medians (interquartile ranges) for NDVI300m, NDVI500m, NDVI1000m, and NDVI1500m were 0.57 (0.13), 0.58 (0.13), 0.58 (0.12), 0.58 (0.11) respectively.\n### Cox regression results\nAs shown in Table S3, in conventional Cox proportional hazard models, after full adjustment, we found greenness inversely correlated to incidence of FCMD, CMM, and death. In contrast to FCMD and death, CMM exhibited greater correlations with greenness, with HRs (95% CI) being 0.88 (0.85, 0.91), 0.87 (0.84, 0.89), 0.86 (0.83, 0.88), and 0.86 (0.83, 0.88) respectively for every IQR increase in NDVI300m, NDVI500m, NDVI1000m, and NDVI1500m.\n### Multi-state analyses\nThe multi-state analyses examining the correlation between residential greenness and CMM trajectories are depicted in Table 1. Greenness indicators were significantly associated with transitions from baseline to FCMD, baseline to death, FCMD to CMM, as well as FCMD to death. The effect of greenness tended to be stronger in transitions from FCMD to CMM, and baseline to death, for which HRs (95% CIs) for every IQR increment in NDVI300m were 0.93 (0.90, 0.96) and 0.93 (0.91, 0.94), compared to 0.94 (0.93, 0.95) and 0.96 (0.94, 0.99) for the other two transitions. Monotonic exposure-response associations of greenness with diverse transitions were confirmed in RCS models (Fig. 3). The subgroup analyses revealed a stronger association between greenness and transitions from baseline to FCMD among females as well as urban residents (Table S4). Results of the sensitivity analysis did not differ significantly from those of the current analysis (Table S5–10).\nTable 2 and Fig. 4 display the association of residential greenness with disease-specific transitions. Greenness exhibited significant associations with transition from baseline to all CMDs and death, with baseline to T2D being the strongest (for NDVI300m, HR 0.88, 95% CI: 0.87, 0.90). For transitions afterwards, we found strongest effect of greenness on transitions to CMM or death in IHD patients (for NDVI300m, IHD to CMM: HR 0.88, 95% CI: 0.82, 0.94; IHD to death: HR 0.92, 95% CI: 0.88, 0.96), while among T2D patients greenness was inversely associated with transition to CMM only in NDVI within larger buffers (for NDVI500m, HR 0.96, 95 CI: 0.92, 1.00; for NDVI1000m, HR 0.95, 95% CI: 0.91, 0.99; for NDVI1500m, HR 0.94, 95% CI: 0.90, 0.99). No substantial association between greenness and transitions from T2D to death, stroke to CMM/death, or CMM to death was observed.",
+            "cites": [],
+            "figures": [
+                "figure-1",
+                "figure-2",
+                "figure-4",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "The current study marks the first attempt to delineate the influence of residential greenness on the occurrence, progression, and prognosis of CMM, based on a prospective study of over 450,000 individuals in the UK. Greenness exhibited an inverse relationship with transitions from baseline to FCMD, baseline to death, FCMD to CMM, and FCMD to death. When further specifying FCMDs, we found that the effect of residential greenness varied across disease-specific transitions.\nThe current study indicated that greenness is protective against CMD incidence, which is in accord with previous studies. For instance, Yu and colleagues carried out an observational study in China and reported that exposure to the 4th quartile of NDVI250m contributed to 57% lower risk of diabetes compared to the lowest quartile20. The results of another cohort study indicated that NDVI within 250 m buffer exhibited an inverse relationship with incident IHD21. Results appeared similar in terms of stroke prevalence, as Brown et al. found that in comparison with the lowest tertile, the second and third tertiles of greenness exposure showed a 20% lower risk of TIA (transient ischemic attack) and stroke22. Particularly, in the current study we found that greenness showed stronger association with transitions to T2D as compared to IHD and stroke. This is reasonable, since greenness is well known to encourage physical activity8, which is especially beneficial in reducing T2D risk23. In light of these results, we suggest that exposure to greenness is protective against a number of cardiometabolic diseases. Furthermore, it may be particularly beneficial for those at high risk of developing T2D. Further investigation is required for validation.\nIn recent years, CMM has emerged as an important threat to global health. However, there remains limited understanding regarding the role of greenness on CMM development. This is the first direct evidence supporting the benefits of greenness exposure on preventing transitions from FCMD to CMM. Moreover, we found the strength to be even stronger than the effect for preventing FCMD onset, indicating that greenness may provide stronger protection to those who have already been diagnosed with basic diseases than general populations. In disease-specific transitions, we found the strongest effect of greenness on transitions to CMM in IHD patients. Accordingly, IHD patients may benefit more from greenness exposure in preventing CMM development. Moreover, our analyses revealed that for T2D patients, greenness was inversely associated with transition to CMM only in NDVI within larger buffers. This could be explained by prior literature indicating that various buffer sizes might potentially convey diverse paths contributing to the influence of greenness on people’s wellness. A larger buffer could potentially offer a more comprehensive reflection of the impact of greenness on physical activity8, potentially decreasing CMM risk in T2D patients. In addition, we did not observe any profound relationship between greenness and CMM incidence in stroke patients. Possibly, this is due to strokes being more likely to cause disability24, which leads to reduced interaction with greenspace, resulting in possible underestimated effects. The use of small samples might hinder the detection of associations as well. A more in-depth examination regarding the role of greenness in CMM development is necessary.\nIn terms of transitions to death, our study findings corroborate prior research indicating inverse associations between greenness and mortality. According to a health impact assessment study in Europe, implementing WHO recommendations for greenness exposure could avoid 42,968 deaths each year, amounting to 2.3% of the total natural-cause mortality25. Our study adds to the current body of knowledge that greenness may also play a role in preventing death in individuals with CMDs. In disease-specific transitions, we found this resulted largely in protection for IHD patients. It is an issue of great public health significance, since IHD is the world’s leading cause of death26, constituting 16% of all worldwide fatalities. Notably, we failed to find a link between greenness and death in CMM patients and those with T2D or stroke. This could be the result of small sample size. Alternatively, CMM or stroke patients might have difficulty accessing greenness due to their disabilities, resulting in insufficient protection. Nevertheless, there is currently no study evaluating how greenness impacts mortality risk in CMD patients, preventing us from comparing the results with existing evidence. Whether greenness can improve the prognosis of CMDs and CMM still has yet to be investigated.\nIn the subgroup analyses, we identified that females could benefit more from greenness in preventing FCMD onset. Previous research indicated that the association between greenness and CMDs varies by gender. According to a study conducted in Australia, green space could potentially lower the risk of overweight and obesity among females instead of males27. Similarly, Prince and colleagues observed that exposure to greenness increased odds of overweight/obesity among males, yet with reduced odds among females28. However, a research conducted in the UK found that mortality rates associated with cardiovascular disease dropped with an increase in greenspace for men, but not for women29. The heterogeneity may be due to a combination of reasons. On the one hand, researchers proposed that residential greenness has a greater impact on women’s health, as they are more exposed to or more vulnerable to the surrounding environment30. Meanwhile, women are less likely to participate in vigorous exercise outdoors than men31, contributing to their underrepresentation in public parks. Gender differences in experience, usage, and dependence on surrounding greenery could ultimately lead to inconsistency across studies, taking into account different greenness indicators with different focus, as well as different patterns of gender differences among regions. Subsequent research should delve into the pivotal factors influencing how green spaces affect the health of specific population subsets, particularly for vulnerable populations such as females, and explore ways of improving urban greening to benefit diverse populations.\nA variety of mechanisms involving several levels may explain the observed protective effects of greenness on CMM development. A number of psychosocial pathways have been reported in literature, including reducing pollutants, boosting physical activity, and facilitating stress management8. These factors have been linked to CMDs onset32,33,34 and thus may contribute to the association under study. Moreover, researchers have uncovered evidence regarding the effect of greenness on biomarkers associated with the immune system, neuroendocrine function, and metabolism, which were also closely related to CMM development11. Additionally, there have been reports linking greenness to cardiovascular disease through a series of cardiometabolic disorders, including high low-density lipoprotein cholesterol levels, hypertriglyceridemia, hypercholesterolemia, and overweight/obese. Together, these pieces of evidence can provide insight into how greenness may impact psychological conditions, alter crucial biomarkers, hinder cardiometabolic disorders onset, and eventually reduce the risk of CMM development.\nThe findings of this study have significant implications for health policy and urban sustainability. Notably, our research reported the stronger protective effects of greenness for individuals already diagnosed with cardiometabolic conditions, extending the role of greenspaces beyond primary prevention to encompass secondary and tertiary strategies. Policymakers should consider these benefits when designing urban landscapes and health initiatives, ensuring that green infrastructure is prioritized to support both environmental and public health goals. Current EU policies, such as Green Infrastructure Strategy35 and Urban Agenda for the EU36, underscore the importance of enhancing urban green spaces to promote health and well-being. Our study reinforces the value of these initiatives, emphasizing the need to integrate greenspaces as a fundamental component of public health strategies. Furthermore, we highlight the necessity for ongoing research across various regions and populations to ensure that greening strategies are both effective and inclusive. Variations in urban design, social cohesion, and greenspace accessibility can lead to different health outcomes, urging the need for locally tailored policies that enhance the equity and effectiveness of urban sustainability efforts.\nIntegrating more green spaces into urban environments can enhance cardiovascular health, reducing healthcare costs and improving overall public health. This supports urban sustainability by promoting healthier communities and potentially decreasing environmental impact due to reduced pollution and increased community engagement. Policymakers should consider these benefits when designing urban landscapes and health initiatives, ensuring that green infrastructure is prioritized to support both environmental and public health goals in the EU.\nOne of the key strengths of our research lies in its prospective design. More importantly, employing multi-state models allows for examining the impact of greenness on CMM trajectories and to exclude competing risk of death. By leveraging UK Biobank data, we attained sufficient statistical power, enabling us to identify subgroups that may derive greater benefits from greenness exposure (i.e. healthy individuals at high risk of T2D, IHD patients, and females). Moreover, the UK Biobank offered an abundance of data on demographics along with lifestyle elements that enabled robust adjustments for confounders. It is important to acknowledge several limitations in this study. First, the calculation of NDVI was based on participants’ residential addresses, potentially leading to either overestimation or underestimation of the actual exposure levels. Also, NDVI provides no insights into the accessibility or quality of greenness, which may be relevant to the impact of greenness on health. Second, considering the definition of CMDs, there may be other diseases not included in the current study, for instance, hyperlipidemia and hypertension. Future studies are warranted to investigate the effect of greenness on more comprehensive comorbidity models. Third, in our research most participants were from European backgrounds. Caution should be exercised when extrapolating our findings. Research targeting different regions and ethnicities should be considered in the future. Fourth, the presence of unmeasured or unknown factors may persist after a thorough adjustment for covariates.\nIn conclusion, our study suggested inverse association of greenness with transitions from baseline to FCMD, baseline to death, FCMD to CMM, and FCMD to death, offering insights into how greenness affects the development, progression and prognosis of cardiometabolic multimorbidity. Our research underscores the significance of urban greening on formulating comprehensive strategies for CMM prevention, emphasizing the need to recognize greenness as a key asset for promoting health and resilience in urban environments.",
+            "cites": [
+                "ref-CR11",
+                "ref-CR36",
+                "ref-CR20",
+                "ref-CR34",
+                "ref-CR22",
+                "ref-CR24",
+                "ref-CR25",
+                "ref-CR26",
+                "ref-CR23",
+                "ref-CR35",
+                "ref-CR27",
+                "ref-CR8",
+                "ref-CR31",
+                "ref-CR28",
+                "ref-CR33",
+                "ref-CR29",
+                "ref-CR32",
+                "ref-CR30",
+                "ref-CR21"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Study population\nThe UK Biobank is a nationwide longitudinal study. It enrolled over 500,000 individuals aged 40–69 during baseline (2006–2010) across the United Kingdom. Participants completed comprehensive questionnaires covering demographic information, socioeconomic status, and lifestyle choices. They also underwent thorough health assessments, and consented to ongoing follow-up via linkage with UK national medical database. This research received approval from the North West Multicenter Research Ethical Committee (REC ref.16:/NW/0274). Detailed procedures and protocols can be found at https://www.ukbiobank.ac.uk. The present analyses were conducted under UK Biobank application number 69741.\nFrom the original cohort of 502,480 individuals, we excluded those with incomplete data on greenspace indicators (n = 5152), and further excluded participants with prevalent CMDs at baseline (T2D: n = 13,417; IHD: n = 23,402; stroke: n = 5732). Accordingly, our study included 454,777 participants (Fig. S1).\n### Exposure assessment\nThe Normalized Difference Vegetation Index (NDVI) served as a gauge for greenspace exposure37. It is a dimensionless metric that captures the variation in spectral reflectance between visible spectrum and near-infrared spectrum, divided by their sum, as represented by the formula: NDVI = (Near infrared - Red) / (Near infrared + Red). The indicator spans from −1 to +1, where higher values signify greater vegetation density.\nThe MODIS satellite (https://modis.gsfc.nasa.gov/data/) provided 16-day, 250 m resolution composite remote sensing product. In order to address seasonal discrepancies and temporal misalignment, images of the UK during 2006–2010 were specifically captured in the summer months and then processed to eliminate cloud cover and snow. NDVI values were restricted to those greater than 0 to account for the effects of water bodies. Finally, the measurements were averaged within buffer zones extending 300, 500, 1000, and 1500 meters around registered addresses. This approach maintains consistency with both national guidelines (300 m)38 and previous studies39,40.\n### Cardiometabolic multimorbidity\nOccurrences of FCMD, CMM, and death were confirmed based on self-reports and medical records covering hospital inpatient, primary care, and death registry data. We identified CMD cases using the Tenth Revisions of the International Classification of Diseases (IHD: I20-I25; T2D: E11; stroke: I60-I64). CMM was characterized by the presence of multiple CMDs. Dates of second CMD occurrence were used as the dates of CMM incidence. Follow-up duration extended from registration at recruitment to either death or end of the available follow-up (March 31, 2021).\n### Covariates\nWe considered several factors as potential covariates, including age, gender, ethnicity, employment status, education level, annual household income, residence, healthy diet score, alcohol consumption, and smoking status, drawing from prior studies15,40. To address geographical confounding, participants’ residency status was classified as urban or rural, obtained through cross-referencing their postal codes with data from the Office of National Statistics. All the remaining data of covariates were self-reported through baseline questionnaire. Ethnicity was categorized into six groups: White, mixed, Asian or Asian British, Black or Black British, Chinese, or other. Socioeconomic indicators, including employment status, education level, annual household income, were categorized into were classified into different brackets. Employment status was categorized as unemployed, retired, or employed. Education level was categorized into seven groups: college or university degree, A/AS levels, O levels/ General Certificate of Secondary Education, Certificate of Secondary Education, National Vocational Qualification or Higher National Diploma or Higher National Certificate, other qualifications, or none. Annual household income was divided into five groups: over £100,000, £52,000 to 100,000, £31,000 to 51,999, £18,000 to 30,999, below £18,000. Regarding lifestyle factors, alcohol consumption and smoking status were classified as never, former, or current drinker/smoker. Formulation of healthy diet score took into account recommendations for cardiometabolic health41, including the following factors: whole grains: ≥ 3 servings daily; refined grains: ≤ 1.5 servings daily; vegetables: ≥ 3 servings daily; fruits: ≥ 3 servings daily; unprocessed red meat: ≤ 1.5 servings weekly; processed meat: ≤ 1 servings weekly; fish: ≥ 2 servings weekly. For every healthy factor, one point was added, and the score ranged from 0 to 7.\nDirected acyclic graph was applied to discerning confounders necessitating adjustment in the multivariable models, using DAGitty tools (https://www.dagitty.net/). We retained a set of adjustments deemed minimally sufficient, encompassing age, gender, ethnicity, employment status, education level, annual household income, and residence (Figure S2).\n### Statistical analysis\nAll statistical analyses were conducted using SAS (9.4) and R (4.2.1). P < 0.05 was the threshold for statistical significance, and two-sided P-values were employed throughout. Demographic characteristics were presented as counts (percentages) for categorical variables and means ± standard deviations for continuous variables, stratified by CMM status. Missing variables (all categorical) were replaced with missing indicators.\nIn the initial analysis, conventional Cox proportional hazard models were used for the evaluation of relationships between residential greenness and FCMD, CMM, as well as all-cause mortality. Schoenfeld residuals were used to verify the proportional hazards assumption. To investigate the association of greenness with CMM transitions, we employed multi-state models with Markov proportional hazards42,43. In accordance with previous research15,44, we established the following transition patterns: (a) baseline to FCMD, (b) FCMD to CMM, (c) baseline to death, (d) FCMD to death, and (e) CMM to death (Fig. 1). As for concurrent entry of multiple states, the former’s theoretically entry date was defined as 0.5 day before from the latter status15,32,44. We verified non-linearity by employing restricted cubic spline models (RCS). Additionally, we performed subgroup analyses, stratifying by age, gender, and residence, to explore potential effect modifications. To determine the significance of interactions, we used partial likelihood ratio tests via contrasting models with and without the interaction term. A further transition model was developed by specifying FCMD (i.e., T2D, IHD, and stroke), yielding 11 possible transitions (Fig. 2). In this model, individuals with diagnosis of more than one CMDs simultaneously were excluded (n = 2056) as we were unable to determine which disease occured prior to the other. Age, gender, ethnicity, employment status, education level, annual household income, and residence were adjusted in all models.\nOur research was tested for robustness using several sensitivity analyses: (1) defining the entry of prior states with minus of other intervals (0.5, 1, 3, and 5 years) instead of 0.5-day for those with concurrent entry of multiple states32; (2) excluding those with concurrent entry of multiple states; the first two analyses were to test the influence of participants who entered more than one stages at the same day; (3) excluding those who self-reported cancer at baseline, in line with previous research examining environmental effects on CMD incidence15; (4) excluding participants with events happened during first-2 years of follow up; (5) limiting analyses to those with complete data on covariates; (6) extending the adjustment set to include healthy diet score, smoking status, and alcohol consumption.",
+            "cites": [
+                "ref-CR41",
+                "ref-CR39",
+                "ref-CR40",
+                "ref-CR43",
+                "ref-CR15",
+                "ref-CR44",
+                "ref-CR37",
+                "ref-CR42",
+                "ref-CR32",
+                "ref-CR38"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1",
+            "figure-caption": "Numbers (percentages) of participants in transition pattern A. FCMD first cardiometabolic disease, CMM cardiometabolic multimorbidity, Cardiometabolic diseases included type 2 diabetes, ischemic heart disease, and stroke; cardiometabolic multimorbidity was defined as the presence of at least two cardiometabolic diseases. Transition pattern A was defined as transition from baseline to FCMD, then to CMM, and subsequently to death.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00201-3/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2",
+            "figure-caption": "Numbers (percentages) of participants in transition pattern B. T2D type 2 diabetes, IHD ischemic heart disease, CMM cardiometabolic multimorbidity. Cardiometabolic diseases included type 2 diabetes, ischemic heart disease, and stroke; cardiometabolic multimorbidity was defined as the presence of at least two cardiometabolic diseases. Transition pattern B was defined as transition from baseline to one of specific cardiometabolic diseases, then to CMM, and subsequently to death.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00201-3/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: Exposure-response curves between residential greenness and diverse transitions.",
+            "figure-caption": "FCMD first cardiometabolic disease, CMM cardiometabolic multimorbidity, HR hazards ratio, CI confidence interval, IQR interquartile range, NDVI300m normalized difference vegetation index within 300m buffer, NDVI500m, normalized difference vegetation index within 500m buffer, NDVI1000m, normalized difference vegetation index within 1000m buffer, NDVI1500m, normalized difference vegetation index within 1500m buffer. Models were adjusted for age, gender, ethnicity, employment status, education level, annual household income, and residence. Cardiometabolic diseases included type 2 diabetes, ischemic heart disease, and stroke; cardiometabolic multimorbidity was defined as the occurrence of at least two cardiometabolic diseases. All P for non-linearity > 0.05.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00201-3/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: Associations of residential greenness with transitions from baseline to single CMD, CMM, and all-cause death.",
+            "figure-caption": "T0 baseline, T2D type 2 diabetes, IHD ischemic heart disease, CMM cardiometabolic multimorbidity, HR hazards ratio, CI confidence interval, IQR interquartile range, NDVI300m normalized difference vegetation index within 300 m buffer, NDVI500m normalized difference vegetation index within 500 m buffer; NDVI1000m, normalized difference vegetation index within 1000 m buffer; NDVI1500m, normalized difference vegetation index within 1500 m buffer. Models were adjusted for age, gender, ethnicity, annual household income, education level, employment status, and residence. Cardiometabolic diseases included type 2 diabetes, ischemic heart disease, and stroke; cardiometabolic multimorbidity was defined as the occurrence of at least two cardiometabolic diseases.",
+            "figure-link": "https://www.nature.com/npjurbansustain/articles/s42949-025-00201-3/figures/4"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "United Nations Department of Economic and Social Affairs. World Urbanization Prospects: The 2018 Revision [Internet]. UN; 2019 [cited 2023 May 31]. Available from: https://www.un-ilibrary.org/content/books/9789210043144.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "A systematic review of urban green space research over the last 30 years: A bibliometric analysis. Heliyon. Feb 1;9:e13406. (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Urban greening to cool towns and cities: A systematic review of the empirical evidence. Landscape and Urban Planning. Sep 15;97:147–155. (2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Green infrastructures for urban sustainability: Issues, implications, and solutions for underdeveloped areas. Urban Forestry & Urban Greening. Apr 1;59:127028. (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "European Commission. Directorate General for Research and Innovation. Towards an EU research and innovation policy agenda for nature-based solutions and re-naturing cities:final report of the Horizon 2020 expert group on ’Nature based solutions and re naturing cities’: (full version). [Internet]. LU: Publications Office; 2015 [cited 2024 Aug 22]. Available from: https://data.europa.eu/doi/10.2777/479582.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Cox, D. T. C., Shanahan, D. F., Hudson, H. L., Fuller, R. A. & Gaston, K. J. The impact of urbanisation on nature dose and the implications for human health. Landscape and Urban Planning 179, 72–80 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.landurbplan.2018.07.013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20urbanisation%20on%20nature%20dose%20and%20the%20implications%20for%20human%20health&journal=Landscape%20and%20Urban%20Planning&doi=10.1016%2Fj.landurbplan.2018.07.013&volume=179&pages=72-80&publication_year=2018&author=Cox%2CDTC&author=Shanahan%2CDF&author=Hudson%2CHL&author=Fuller%2CRA&author=Gaston%2CKJ"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Nieuwenhuijsen, M. J., Khreis, H., Triguero-Mas, M., Gascon, M. & Dadvand, P. Fifty Shades of Green: Pathway to Healthy Urban Living. Epidemiology 28, 63–71 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1097%2FEDE.0000000000000549",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fifty%20Shades%20of%20Green%3A%20Pathway%20to%20Healthy%20Urban%20Living&journal=Epidemiology&doi=10.1097%2FEDE.0000000000000549&volume=28&pages=63-71&publication_year=2017&author=Nieuwenhuijsen%2CMJ&author=Khreis%2CH&author=Triguero-Mas%2CM&author=Gascon%2CM&author=Dadvand%2CP"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Markevych, I. et al. Exploring pathways linking greenspace to health: Theoretical and methodological guidance. Environ Res. 158, 301–317 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envres.2017.06.028",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXhtFSmtLfN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20pathways%20linking%20greenspace%20to%20health%3A%20Theoretical%20and%20methodological%20guidance&journal=Environ%20Res&doi=10.1016%2Fj.envres.2017.06.028&volume=158&pages=301-317&publication_year=2017&author=Markevych%2CI"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Yang, B. Y. et al. Greenspace and human health: An umbrella review. The Innovation 2, 100164 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.xinn.2021.100164",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Greenspace%20and%20human%20health%3A%20An%20umbrella%20review&journal=The%20Innovation&doi=10.1016%2Fj.xinn.2021.100164&volume=2&publication_year=2021&author=Yang%2CBY"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "James, P., Banay, R. F., Hart, J. E. & Laden, F. A Review of the Health Benefits of Greenness. Curr Epidemiol Rep. 2, 131–142 (2015).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s40471-015-0043-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20Review%20of%20the%20Health%20Benefits%20of%20Greenness&journal=Curr%20Epidemiol%20Rep&doi=10.1007%2Fs40471-015-0043-7&volume=2&pages=131-142&publication_year=2015&author=James%2CP&author=Banay%2CRF&author=Hart%2CJE&author=Laden%2CF"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Egorov, A. I. et al. Vegetated land cover near residence is associated with reduced allostatic load and improved biomarkers of neuroendocrine, metabolic and immune functions. Environ Res. 158, 508–521 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envres.2017.07.009",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXhtFKmtr%2FO",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Vegetated%20land%20cover%20near%20residence%20is%20associated%20with%20reduced%20allostatic%20load%20and%20improved%20biomarkers%20of%20neuroendocrine%2C%20metabolic%20and%20immune%20functions&journal=Environ%20Res&doi=10.1016%2Fj.envres.2017.07.009&volume=158&pages=508-521&publication_year=2017&author=Egorov%2CAI"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Iyer, H. S. et al. Impact of neighborhood socioeconomic status, income segregation, and greenness on blood biomarkers of inflammation. Environ Int. 162, 107164 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envint.2022.107164",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XovF2kt7Y%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20neighborhood%20socioeconomic%20status%2C%20income%20segregation%2C%20and%20greenness%20on%20blood%20biomarkers%20of%20inflammation&journal=Environ%20Int&doi=10.1016%2Fj.envint.2022.107164&volume=162&publication_year=2022&author=Iyer%2CHS"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Frumkin, H. et al. Nature Contact and Human Health: A Research Agenda. Environ Health Perspect 125, 075001 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1289%2FEHP1663",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Nature%20Contact%20and%20Human%20Health%3A%20A%20Research%20Agenda&journal=Environ%20Health%20Perspect&doi=10.1289%2FEHP1663&volume=125&publication_year=2017&author=Frumkin%2CH"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Singh-Manoux, A., et al. Clinical, socioeconomic, and behavioural factors at age 50 years and risk of cardiometabolic multimorbidity and mortality: A cohort study. Rahimi K., editor. PLoS Med. 21;15:e1002571 (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Han, Y. et al. Lifestyle, cardiometabolic disease, and multimorbidity in a prospective Chinese study. Eur Heart J 42, 3374–3384 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Feurheartj%2Fehab413",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Lifestyle%2C%20cardiometabolic%20disease%2C%20and%20multimorbidity%20in%20a%20prospective%20Chinese%20study&journal=Eur%20Heart%20J&doi=10.1093%2Feurheartj%2Fehab413&volume=42&pages=3374-3384&publication_year=2021&author=Han%2CY"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Di Angelantonio, E. et al. Association of Cardiometabolic Multimorbidity With Mortality. JAMA 314, 52 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjama.2015.7008",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Association%20of%20Cardiometabolic%20Multimorbidity%20With%20Mortality&journal=JAMA&doi=10.1001%2Fjama.2015.7008&volume=314&publication_year=2015&author=Angelantonio%2CE"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Prados-Torres, A., Calderón-Larrañaga, A., Hancco-Saavedra, J., Poblador-Plou, B. & Van Den Akker, M. Multimorbidity patterns: a systematic review. Journal of Clinical Epidemiology 67, 254–266 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclinepi.2013.09.021",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multimorbidity%20patterns%3A%20a%20systematic%20review&journal=Journal%20of%20Clinical%20Epidemiology&doi=10.1016%2Fj.jclinepi.2013.09.021&volume=67&pages=254-266&publication_year=2014&author=Prados-Torres%2CA&author=Calder%C3%B3n-Larra%C3%B1aga%2CA&author=Hancco-Saavedra%2CJ&author=Poblador-Plou%2CB&author=Akker%2CM"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Salive, M. E. Multimorbidity in older adults. Epidemiol Rev 35, 75–83 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1093%2Fepirev%2Fmxs009",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multimorbidity%20in%20older%20adults&journal=Epidemiol%20Rev&doi=10.1093%2Fepirev%2Fmxs009&volume=35&pages=75-83&publication_year=2013&author=Salive%2CME"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Glynn, L. G. Multimorbidity: another key issue for cardiovascular medicine. The Lancet 374, 1421–1422 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2809%2961863-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Multimorbidity%3A%20another%20key%20issue%20for%20cardiovascular%20medicine&journal=The%20Lancet&doi=10.1016%2FS0140-6736%2809%2961863-8&volume=374&pages=1421-1422&publication_year=2009&author=Glynn%2CLG"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Yu, L. et al. Long-term exposure to residential surrounding greenness and incidence of diabetes: A prospective cohort study. Environ Pollut 310, 119821 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envpol.2022.119821",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XitVKntrnF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Long-term%20exposure%20to%20residential%20surrounding%20greenness%20and%20incidence%20of%20diabetes%3A%20A%20prospective%20cohort%20study&journal=Environ%20Pollut&doi=10.1016%2Fj.envpol.2022.119821&volume=310&publication_year=2022&author=Yu%2CL"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Li, T. et al. Residential greenness, air pollution, and incident ischemic heart disease: A prospective cohort study in China. Science of The Total Environment 838, 155881 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2022.155881",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhtlCqs7bN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Residential%20greenness%2C%20air%20pollution%2C%20and%20incident%20ischemic%20heart%20disease%3A%20A%20prospective%20cohort%20study%20in%20China&journal=Science%20of%20The%20Total%20Environment&doi=10.1016%2Fj.scitotenv.2022.155881&volume=838&publication_year=2022&author=Li%2CT"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Brown, S. C. et al. Precision Greenness and Stroke/Transient Ischemic Attack in 249,405 US Medicare Beneficiaries. J. Stroke 25, 173–176 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.5853%2Fjos.2022.02922",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Precision%20Greenness%20and%20Stroke%2FTransient%20Ischemic%20Attack%20in%20249%2C405%20US%20Medicare%20Beneficiaries&journal=J.%20Stroke&doi=10.5853%2Fjos.2022.02922&volume=25&pages=173-176&publication_year=2023&author=Brown%2CSC"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Sigal, R. J., Kenny, G. P., Wasserman, D. H., Castaneda-Sceppa, C. & White, R. D. Physical activity/exercise and type 2 diabetes: a consensus statement from the American Diabetes Association. Diabetes Care 29, 1433–1438 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.2337%2Fdc06-9910",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Physical%20activity%2Fexercise%20and%20type%202%20diabetes%3A%20a%20consensus%20statement%20from%20the%20American%20Diabetes%20Association&journal=Diabetes%20Care&doi=10.2337%2Fdc06-9910&volume=29&pages=1433-1438&publication_year=2006&author=Sigal%2CRJ&author=Kenny%2CGP&author=Wasserman%2CDH&author=Castaneda-Sceppa%2CC&author=White%2CRD"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Cucchiara, B. et al. Disability after minor stroke and TIA: A secondary analysis of the SOCRATES trial. Neurology 93, e708–e716 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1212%2FWNL.0000000000007936",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Disability%20after%20minor%20stroke%20and%20TIA%3A%20A%20secondary%20analysis%20of%20the%20SOCRATES%20trial&journal=Neurology&doi=10.1212%2FWNL.0000000000007936&volume=93&pages=e708-e716&publication_year=2019&author=Cucchiara%2CB"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Barboza, E. P. et al. Green space and mortality in European cities: a health impact assessment study. Lancet Planet Health 5, e718–e730 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2821%2900229-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Green%20space%20and%20mortality%20in%20European%20cities%3A%20a%20health%20impact%20assessment%20study&journal=Lancet%20Planet%20Health&doi=10.1016%2FS2542-5196%2821%2900229-1&volume=5&pages=e718-e730&publication_year=2021&author=Barboza%2CEP"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "GBD 2017 Causes of Death Collaborators. Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980-2017: a systematic analysis for the Global Burden of Disease Study 2017. Lancet 392, 1736–1788 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2818%2932203-7",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%2C%20regional%2C%20and%20national%20age-sex-specific%20mortality%20for%20282%20causes%20of%20death%20in%20195%20countries%20and%20territories%2C%201980-2017%3A%20a%20systematic%20analysis%20for%20the%20Global%20Burden%20of%20Disease%20Study%202017&journal=Lancet&doi=10.1016%2FS0140-6736%2818%2932203-7&volume=392&pages=1736-1788&publication_year=2018"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Astell-Burt, T., Feng, X. & Kolt, G. S. Greener neighborhoods, slimmer people? Evidence from 246,920 Australians. Int J Obes (Lond) 38, 156–159 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fijo.2013.64",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BC3snptFWntQ%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Greener%20neighborhoods%2C%20slimmer%20people%3F%20Evidence%20from%20246%2C920%20Australians&journal=Int%20J%20Obes%20%28Lond%29&doi=10.1038%2Fijo.2013.64&volume=38&pages=156-159&publication_year=2014&author=Astell-Burt%2CT&author=Feng%2CX&author=Kolt%2CGS"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Prince, S. A. et al. A Multilevel Analysis of Neighbourhood Built and Social Environments and Adult Self-Reported Physical Activity and Body Mass Index in Ottawa, Canada. Int. J. Environ. Res. Public Health 8, 3953–3978 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph8103953",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20Multilevel%20Analysis%20of%20Neighbourhood%20Built%20and%20Social%20Environments%20and%20Adult%20Self-Reported%20Physical%20Activity%20and%20Body%20Mass%20Index%20in%20Ottawa%2C%20Canada&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph8103953&volume=8&pages=3953-3978&publication_year=2011&author=Prince%2CSA"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Richardson, E. A. & Mitchell, R. Gender differences in relationships between urban green space and health in the United Kingdom. Social Science Medicine 71, 568–575 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.socscimed.2010.04.015",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Gender%20differences%20in%20relationships%20between%20urban%20green%20space%20and%20health%20in%20the%20United%20Kingdom&journal=Social%20Science%20Medicine&doi=10.1016%2Fj.socscimed.2010.04.015&volume=71&pages=568-575&publication_year=2010&author=Richardson%2CEA&author=Mitchell%2CR"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Stafford, M., Cummins, S., Macintyre, S., Ellaway, A. & Marmot, M. Gender differences in the associations between health and neighbourhood environment. Social Science Medicine 60, 1681–1692 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.socscimed.2004.08.028",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD2M%2FlvFGlsg%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Gender%20differences%20in%20the%20associations%20between%20health%20and%20neighbourhood%20environment&journal=Social%20Science%20Medicine&doi=10.1016%2Fj.socscimed.2004.08.028&volume=60&pages=1681-1692&publication_year=2005&author=Stafford%2CM&author=Cummins%2CS&author=Macintyre%2CS&author=Ellaway%2CA&author=Marmot%2CM"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Cohen, D. A. et al. Contribution of Public Parks to Physical Activity. Am J. Public Health 97, 509–514 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.2105%2FAJPH.2005.072447",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Contribution%20of%20Public%20Parks%20to%20Physical%20Activity&journal=Am%20J.%20Public%20Health&doi=10.2105%2FAJPH.2005.072447&volume=97&pages=509-514&publication_year=2007&author=Cohen%2CDA"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Luo, H, et al. Long-term exposure to ambient air pollution is a risk factor for trajectory of cardiometabolic multimorbidity: A prospective study in the UK Biobank. EBioMedicine 84, 104282 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ebiom.2022.104282",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xis1ajsbjP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Long-term%20exposure%20to%20ambient%20air%20pollution%20is%20a%20risk%20factor%20for%20trajectory%20of%20cardiometabolic%20multimorbidity%3A%20A%20prospective%20study%20in%20the%20UK%20Biobank&journal=EBioMedicine&doi=10.1016%2Fj.ebiom.2022.104282&volume=84&publication_year=2022&author=Luo%2CH"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "US Preventive Services Task Force, Krist, A. H. et al. Behavioral Counseling Interventions to Promote a Healthy Diet and Physical Activity for Cardiovascular Disease Prevention in Adults With Cardiovascular Risk Factors: US Preventive Services Task Force Recommendation Statement. JAMA. 324, 2069–2075 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjama.2020.21749",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Behavioral%20Counseling%20Interventions%20to%20Promote%20a%20Healthy%20Diet%20and%20Physical%20Activity%20for%20Cardiovascular%20Disease%20Prevention%20in%20Adults%20With%20Cardiovascular%20Risk%20Factors%3A%20US%20Preventive%20Services%20Task%20Force%20Recommendation%20Statement&journal=JAMA.&doi=10.1001%2Fjama.2020.21749&volume=324&pages=2069-2075&publication_year=2020&author=Krist%2CAH"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Rajan, S. et al. Association of Symptoms of Depression With Cardiovascular Disease and Mortality in Low-, Middle-, and High-Income Countries. JAMA Psychiatry 77, 1052–1063 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjamapsychiatry.2020.1351",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Association%20of%20Symptoms%20of%20Depression%20With%20Cardiovascular%20Disease%20and%20Mortality%20in%20Low-%2C%20Middle-%2C%20and%20High-Income%20Countries&journal=JAMA%20Psychiatry&doi=10.1001%2Fjamapsychiatry.2020.1351&volume=77&pages=1052-1063&publication_year=2020&author=Rajan%2CS"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Green infrastructure - European Commission [Internet]. 2024 [cited 2024 Aug 22]. Available from: https://environment.ec.europa.eu/topics/nature-and-biodiversity/green-infrastructure_en.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Urban Agenda for the EU | EUI [Internet]. [cited 2024 Aug 22]. Available from: https://www.urbanagenda.urban-initiative.eu/.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Vilcins, D., Sly, P. D., Scarth, P. & Mavoa, S. Green space in health research: an overview of common indicators of greenness. Rev. Environ. Health 39, 221–231 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.1515%2Freveh-2022-0083",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Green%20space%20in%20health%20research%3A%20an%20overview%20of%20common%20indicators%20of%20greenness&journal=Rev.%20Environ.%20Health&doi=10.1515%2Freveh-2022-0083&volume=39&pages=221-231&publication_year=2024&author=Vilcins%2CD&author=Sly%2CPD&author=Scarth%2CP&author=Mavoa%2CS"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Improving access to greenspace: A new review for 2020. [Internet]. Public Health England; 2020 [cited 2023 May 31]. Available from: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/904439/Improving_access_to_greenspace_2020_review.pdf.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Yang, B. Y. et al. Association Between Residential Greenness, Cardiometabolic Disorders, and Cardiovascular Disease Among Adults in China. JAMA Netw Open 3, e2017507 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1001%2Fjamanetworkopen.2020.17507",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Association%20Between%20Residential%20Greenness%2C%20Cardiometabolic%20Disorders%2C%20and%20Cardiovascular%20Disease%20Among%20Adults%20in%20China&journal=JAMA%20Netw%20Open&doi=10.1001%2Fjamanetworkopen.2020.17507&volume=3&publication_year=2020&author=Yang%2CBY"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Roscoe, C. et al. Associations of private residential gardens versus other greenspace types with cardiovascular and respiratory disease mortality: Observational evidence from UK Biobank. Environ Int 167, 107427 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envint.2022.107427",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XitVeiu7zI",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Associations%20of%20private%20residential%20gardens%20versus%20other%20greenspace%20types%20with%20cardiovascular%20and%20respiratory%20disease%20mortality%3A%20Observational%20evidence%20from%20UK%20Biobank&journal=Environ%20Int&doi=10.1016%2Fj.envint.2022.107427&volume=167&publication_year=2022&author=Roscoe%2CC"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Mozaffarian, D. Dietary and Policy Priorities for Cardiovascular Disease, Diabetes, and Obesity: A Comprehensive Review. Circulation 133, 187–225 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1161%2FCIRCULATIONAHA.115.018585",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28Xosl2msg%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Dietary%20and%20Policy%20Priorities%20for%20Cardiovascular%20Disease%2C%20Diabetes%2C%20and%20Obesity%3A%20A%20Comprehensive%20Review&journal=Circulation&doi=10.1161%2FCIRCULATIONAHA.115.018585&volume=133&pages=187-225&publication_year=2016&author=Mozaffarian%2CD"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "de Wreede, L. C., Fiocco, M. & Putter, H. The mstate package for estimation and prediction in non- and semi-parametric multi-state and competing risks models. Comput Methods Programs Biomed 99, 261–274 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cmpb.2010.01.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20mstate%20package%20for%20estimation%20and%20prediction%20in%20non-%20and%20semi-parametric%20multi-state%20and%20competing%20risks%20models&journal=Comput%20Methods%20Programs%20Biomed&doi=10.1016%2Fj.cmpb.2010.01.001&volume=99&pages=261-274&publication_year=2010&author=Wreede%2CLC&author=Fiocco%2CM&author=Putter%2CH"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Putter, H., Fiocco, M. & Geskus, R. B. Tutorial in biostatistics: competing risks and multi-state models. Statist Med 26, 2389–2430 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fsim.2712",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD2s3hs1agsA%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Tutorial%20in%20biostatistics%3A%20competing%20risks%20and%20multi-state%20models&journal=Statist%20Med&doi=10.1002%2Fsim.2712&volume=26&pages=2389-2430&publication_year=2007&author=Putter%2CH&author=Fiocco%2CM&author=Geskus%2CRB"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Zou, H. et al. Ambient air pollution associated with incidence and progression trajectory of cardiometabolic diseases: A multi-state analysis of a prospective cohort. Science of The Total Environment 862, 160803 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2022.160803",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XjtFSqurnF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Ambient%20air%20pollution%20associated%20with%20incidence%20and%20progression%20trajectory%20of%20cardiometabolic%20diseases%3A%20A%20multi-state%20analysis%20of%20a%20prospective%20cohort&journal=Science%20of%20The%20Total%20Environment&doi=10.1016%2Fj.scitotenv.2022.160803&volume=862&publication_year=2023&author=Zou%2CH"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The data used in this current study are available from the UK Biobank data resources. Permissions are required in order to gain access to the UK Biobank data resources, subject to successful registration and application process. Further information can be found on the UK Biobank website https://www.ukbiobank.ac.uk/.",
+            "links": {
+                "https://www.ukbiobank.ac.uk/": "https://www.ukbiobank.ac.uk/"
+            }
+        },
+        "Acknowledgements": {
+            "content": "We are grateful to all the staff and participants in the UK Biobank for their contributions to this study. This research has been conducted using the UK Biobank resource under application number 69741.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsLinxi TangView author publicationsSearch author on:PubMed Google ScholarDankang LiView author publicationsSearch author on:PubMed Google ScholarYudiyang MaView author publicationsSearch author on:PubMed Google ScholarFeipeng CuiView author publicationsSearch author on:PubMed Google ScholarJianing WangView author publicationsSearch author on:PubMed Google ScholarRun LiuView author publicationsSearch author on:PubMed Google ScholarYaohua TianView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nL.X.T. and Y.H.T. designed the study. D.K.L. and Y.D.Y.M. prepared the data. L.X.T. and Y.H.T. conducted the data analysis. L.X.T. drafted the manuscript. D.K.L., Y.D.Y.M., F.P.C., J.N.W. critically revised the manuscript for important intellectual content. All authors approved the final version of the manuscript. Y.H.T. is guarantor. The corresponding author attests that all the listed authors meet authorship criteria and that no others meeting the criteria have been omitted.\n### Corresponding author\nCorrespondence to\n                Yaohua Tian.",
+            "links": {
+                "View author publications": "/search?author=Yaohua%20Tian",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Yaohua%20Tian",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Yaohua%20Tian%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Yaohua Tian": "mailto:yaohua_tian@hust.edu.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplemental materials",
+            "links": {
+                "Supplemental materials": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42949-025-00201-3/MediaObjects/42949_2025_201_MOESM1_ESM.docx"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by-nc-nd/4.0/": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Green%20environments%20and%20cardiometabolic%20health%3A%20exploring%20incidence%20and%20progression%20through%20multi-state%20analysis&author=Linxi%20Tang%20et%20al&contentID=10.1038%2Fs42949-025-00201-3&copyright=The%20Author%28s%29&publication=2661-8001&publicationDate=2025-04-17&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY-NC-ND"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleTang, L., Li, D., Ma, Y. et al. Green environments and cardiometabolic health: exploring incidence and progression through multi-state analysis.\n                    npj Urban Sustain 5, 13 (2025). https://doi.org/10.1038/s42949-025-00201-3Download citationReceived: 29 June 2024Accepted: 21 February 2025Published: 17 April 2025DOI: https://doi.org/10.1038/s42949-025-00201-3Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s42949-025-00201-3?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Green environments and cardiometabolic health: exploring incidence and progression through multi-state analysis",
+                "description": "It is unknown how greenness affects the development, progression and prognosis of cardiometabolic multimorbidity (CMM). We aimed to evaluate the role of greenness on trajectories of CMM, particularly the transitions from healthy to first cardiometabolic disease (FCMD), then to CMM and followed by death. We used Normalized difference vegetation index (NDVI) as the exposure indicator. CMM was defined as the presence of more than one cardiometabolic diseases, namely ischemic heart disease, type 2 diabetes, and stroke. As a result, among 454,777 participants, 5889 FCMD cases, 6607 CMM cases, and 25,666 death events were observed after a median follow-up of 12.1 years. We found greenness significantly associated with transitions from baseline to FCMD, baseline to death, FCMD to CMM, as well as FCMD to death. When further specifying FCMDs, the effect varied across disease-specific transitions. In conclusion, residential greenness may have an impact on the occurrence, progression and prognosis of CMM.",
+                "datePublished": "2025-04-17T00:00:00Z",
+                "dateModified": "2025-04-17T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "8",
+                "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "sameAs": "https://doi.org/10.1038/s42949-025-00201-3",
+                "keywords": [
+                    "Environmental impact",
+                    "Epidemiology",
+                    "Environment",
+                    "general",
+                    "Sustainable Development",
+                    "Urban Geography / Urbanism (inc. megacities",
+                    "cities",
+                    "towns)",
+                    "Urbanism",
+                    "Urban Ecology"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00201-3/MediaObjects/42949_2025_201_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00201-3/MediaObjects/42949_2025_201_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00201-3/MediaObjects/42949_2025_201_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs42949-025-00201-3/MediaObjects/42949_2025_201_Fig4_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "npj Urban Sustainability",
+                    "issn": [
+                        "2661-8001"
+                    ],
+                    "volumeNumber": "5",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Linxi Tang",
+                        "affiliation": [
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Ministry of Education Key Laboratory of Environment and Health, and State Key Laboratory of Environmental Health (Incubating), School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Department of Maternal and Child Health, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Dankang Li",
+                        "affiliation": [
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Ministry of Education Key Laboratory of Environment and Health, and State Key Laboratory of Environmental Health (Incubating), School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Department of Maternal and Child Health, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yudiyang Ma",
+                        "affiliation": [
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Ministry of Education Key Laboratory of Environment and Health, and State Key Laboratory of Environmental Health (Incubating), School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Department of Maternal and Child Health, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Feipeng Cui",
+                        "affiliation": [
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Ministry of Education Key Laboratory of Environment and Health, and State Key Laboratory of Environmental Health (Incubating), School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Department of Maternal and Child Health, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jianing Wang",
+                        "affiliation": [
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Ministry of Education Key Laboratory of Environment and Health, and State Key Laboratory of Environmental Health (Incubating), School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Department of Maternal and Child Health, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Run Liu",
+                        "affiliation": [
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Ministry of Education Key Laboratory of Environment and Health, and State Key Laboratory of Environmental Health (Incubating), School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Department of Maternal and Child Health, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yaohua Tian",
+                        "affiliation": [
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Ministry of Education Key Laboratory of Environment and Health, and State Key Laboratory of Environmental Health (Incubating), School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Huazhong University of Science and Technology",
+                                "address": {
+                                    "name": "Department of Maternal and Child Health, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "yaohua_tian@hust.edu.cn",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "environmental-impact;epidemiology",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "npj Urban Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s42949-025-00201-3"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Linxi Tang",
+                            "Dankang Li",
+                            "Yudiyang Ma",
+                            "Feipeng Cui",
+                            "Jianing Wang",
+                            "Run Liu",
+                            "Yaohua Tian"
+                        ],
+                        "publishedAt": 1744848000,
+                        "publishedAtString": "2025-04-17",
+                        "title": "Green environments and cardiometabolic health: exploring incidence and progression through multi-state analysis",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Environmental impact,Epidemiology"
+                    },
+                    "journal": {
+                        "pcode": "npjurbansustain",
+                        "title": "npj urban sustainability",
+                        "volume": "5",
+                        "issue": "1",
+                        "id": 42949,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Green environments and cardiometabolic health: exploring incidence and progression through multi-state analysis",
+            "dc.source": "npj Urban Sustainability 2025 5:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-04-17",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "It is unknown how greenness affects the development, progression and prognosis of cardiometabolic multimorbidity (CMM). We aimed to evaluate the role of greenness on trajectories of CMM, particularly the transitions from healthy to first cardiometabolic disease (FCMD), then to CMM and followed by death. We used Normalized difference vegetation index (NDVI) as the exposure indicator. CMM was defined as the presence of more than one cardiometabolic diseases, namely ischemic heart disease, type 2 diabetes, and stroke. As a result, among 454,777 participants, 5889 FCMD cases, 6607 CMM cases, and 25,666 death events were observed after a median follow-up of 12.1 years. We found greenness significantly associated with transitions from baseline to FCMD, baseline to death, FCMD to CMM, as well as FCMD to death. When further specifying FCMDs, the effect varied across disease-specific transitions. In conclusion, residential greenness may have an impact on the occurrence, progression and prognosis of CMM.",
+            "dc.identifier": "doi:10.1038/s42949-025-00201-3",
+            "dc.creator": "Tian, Yaohua",
+            "dc.subject": "Epidemiology",
+            "prism.issn": "2661-8001",
+            "prism.publicationName": "npj Urban Sustainability",
+            "prism.publicationDate": "2025-04-17",
+            "prism.volume": "5",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "8",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s42949-025-00201-3",
+            "prism.doi": "doi:10.1038/s42949-025-00201-3",
+            "citation_pdf_url": "https://www.nature.com/articles/s42949-025-00201-3.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s42949-025-00201-3",
+            "citation_journal_title": "npj Urban Sustainability",
+            "citation_journal_abbrev": "npj Urban Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2661-8001",
+            "citation_title": "Green environments and cardiometabolic health: exploring incidence and progression through multi-state analysis",
+            "citation_volume": "5",
+            "citation_issue": "1",
+            "citation_online_date": "2025/04/17",
+            "citation_firstpage": "1",
+            "citation_lastpage": "8",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s42949-025-00201-3",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s42949-025-00201-3&api_key=",
+            "citation_reference": "citation_journal_title=Science of The Total Environment; citation_title=Ambient air pollution associated with incidence and progression trajectory of cardiometabolic diseases: A multi-state analysis of a prospective cohort; citation_author=H Zou; citation_volume=862; citation_publication_date=2023; citation_doi=10.1016/j.scitotenv.2022.160803; citation_id=CR44",
+            "citation_author": "Tian, Yaohua",
+            "citation_author_institution": "Department of Maternal and Child Health, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China",
+            "description": "It is unknown how greenness affects the development, progression and prognosis of cardiometabolic multimorbidity (CMM). We aimed to evaluate the role of greenness on trajectories of CMM, particularly the transitions from healthy to first cardiometabolic disease (FCMD), then to CMM and followed by death. We used Normalized difference vegetation index (NDVI) as the exposure indicator. CMM was defined as the presence of more than one cardiometabolic diseases, namely ischemic heart disease, type 2 diabetes, and stroke. As a result, among 454,777 participants, 5889 FCMD cases, 6607 CMM cases, and 25,666 death events were observed after a median follow-up of 12.1 years. We found greenness significantly associated with transitions from baseline to FCMD, baseline to death, FCMD to CMM, as well as FCMD to death. When further specifying FCMDs, the effect varied across disease-specific transitions. In conclusion, residential greenness may have an impact on the occurrence, progression and prognosis of CMM.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Green environments and cardiometabolic health: exploring incidence and progression through multi-state analysis",
+            "twitter:description": "npj Urban Sustainability - Green environments and cardiometabolic health: exploring incidence and progression through multi-state analysis",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42949-025-00201-3/MediaObjects/42949_2025_201_Fig1_HTML.png",
+            "DOI": "10.1038/s42949-025-00201-3",
+            "size": "141101",
+            "journal_id": "42949"
+        },
+        "canonical_url": "https://www.nature.com/articles/s42949-025-00201-3",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

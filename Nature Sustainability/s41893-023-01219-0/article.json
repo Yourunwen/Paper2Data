@@ -1,0 +1,1176 @@
+{
+    "id": "s41893-023-01219-0",
+    "journal": "Nature Sustainability",
+    "type": "article",
+    "title": "Air quality, health and equity implications of electrifying heavy-duty vehicles",
+    "legal_title": "Air quality, health and equity implications of electrifying heavy-duty vehicles",
+    "publish_time": "2023-09-05",
+    "pdf_link": "https://www.nature.com/articles/s41893-023-01219-0",
+    "storage_path": "./Articles/Nature Sustainability/2023-article/s41893-023-01219-0/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Heavy-duty vehicles (HDVs) disproportionately contribute to the creation of air pollutants and emission of greenhouse gases—with marginalized populations unequally burdened by the impacts of each. Shifting to non-emitting technologies, such as electric HDVs (eHDVs), is underway; however, the associated air quality and health implications have not been resolved at equity-relevant scales. Here we use a neighbourhood-scale (~1 km) air quality model to evaluate air pollution, public health and equity implications of a 30% transition of predominantly diesel HDVs to eHDVs over the region surrounding North America’s largest freight hub, Chicago, IL. We find decreases in nitrogen dioxide (NO2) and fine particulate matter (PM2.5) concentrations but ozone (O3) increases, particularly in urban settings. Over our simulation domain NO2 and PM2.5 reductions translate to ~590 (95% confidence interval (CI) 150–900) and ~70 (95% CI 20–110) avoided premature deaths per year, respectively, while O3 increases add ~50 (95% CI 30–110) deaths per year. The largest pollutant and health benefits simulated are within communities with higher proportions of Black and Hispanic/Latino residents, highlighting the potential for eHDVs to reduce disproportionate and unjust air pollution and associated air-pollution attributable health burdens within historically marginalized populations.",
+    "Sections": [
+        {
+            "title": "Main",
+            "text": "Electrifying the transportation sector is an ongoing and accelerating climate change mitigation action that will bring a range of co-benefits that could potentially reduce long-standing environmental injustices associated with air pollutant exposure1,2. Despite representing only 6% of total on-road vehicles in the United States3, medium-to-heavy-duty trucks and buses are the second largest source of transportation CO2 emissions (~27% (ref. 4)), the largest contributors to on-road NOX (~32% (ref. 2))—an Environmental Protection Agency (EPA) criteria pollutant and key precursor in ozone (O3) formation—and a substantial on-road source of particulate matter (PM) 5. In the United States, traffic-related pollution contributes to yearly PM2.5- and O3-related premature deaths of between 12,000 and 31,000 (ref. 6) and 43% of traffic-related PM2.5 and O3 mortality has been linked to on-road diesel pollution7. Traffic-related air pollution has also been linked to paediatric asthma incidence8 and circulatory and ischaemic heart disease mortality9. Air pollution hotspots from heavy-duty vehicles (HDVs) typically occur in urban settings, areas close to interstate highways, and along truck routes10,11,12, and with more than 45 million people living within 300 feet of major road networks in the United States13—the majority of whom are people of colour14—HDV-related emissions disproportionately impact minoritized populations15,16,17,18,19.\nTransitioning from traditional internal combustion HDVs to electric HDVs (eHDVs) is one commonly espoused climate mitigation strategy3; however, the associated air-quality and public health implications of such a transition have not yet been widely assessed at the fine (~1 km) spatial resolutions needed to determine differential exposure between population subgroups in urban settings20; a critical need for environmental justice objectives such as the US Federal Government’s Justice40 Initiative21. While changes in GHG emissions brought about by eHDV adoption (for example, CO2), can be directly related to global atmospheric abundances, determining overall changes in air pollutant concentrations is more challenging due to non-linear chemistry, the formation of secondary pollutants, the effects of dynamic meteorology, and other nuances associated with a region’s chemical regime.\nEstimating the air quality and health implications from emission changes can be done at high spatial resolutions using reduced-complexity models (RCMs22)—tools that are ideal for testing a multitude of policies when computational resources are limited23,24. However, the advantages of an RCM come at the expense of higher uncertainties25, coarser temporal resolution, and the inability to assess changes in secondary pollutants such as O3 (ref. 24)—a pollutant associated with adverse traffic-related health impacts. Chemical transport models (CTMs) on the other hand, are more computationally expensive but include the complex atmospheric chemistry and meteorological feedbacks necessary for representing changes in secondary pollutants while also allowing for simulations at short temporal scales, in line with regulatory air quality standards. General agreement on the potential of electric vehicles (EVs) to reduce GHGs as well as NOx and PM2.5 concentrations exists among CTM studies26,27,28,29,30,31; however, the spatial distribution of these differences at neighbourhood scales is not fully captured when coarse resolution CTMs are used29,30,31. Unlike NO2 and PM2.5, evidence documenting O3 changes that result from EV adoption is inconsistent, with national studies suggesting widespread O3 reductions29,31 but finer-scale studies, of which only two are United States based, identifying isolated increases26,27,28,32. Few CTM studies have estimated the air pollution-related health impacts due to EVs30 particularly at equity-relevant scales26, with no study thus far estimating the associated environmental justice implications of eHDV adoption.\nIn this Article, we use a regulatory-grade two-way coupled CTM framework (WRF-CMAQ) to characterize neighbourhood-scale (1.3 km) changes in primary and secondary pollutant concentrations (that is, NO2, O3 and PM2.5) when a portion of the on-road HDV fleet is instantaneously converted to eHDVs. We focus our analysis on the region surrounding North America’s largest freight hub, Chicago, IL33, and leverage the most recent census tract-level health data to estimate census tract-level variability in eHDV-driven health impacts that account for the underlying susceptibilities of exposed populations. Additionally, we assess equity outcomes by characterizing how eHDV adoption could alter air pollution and health impact disparities among racial/ethnic subgroups. Our approach accounts for on-road and refuelling infrastructure emission changes as well as altered emissions from electricity generation units (EGUs) due to eHDV battery charging demands.",
+            "cites": [
+                "ref-CR33",
+                "ref-CR13",
+                "ref-CR16",
+                "ref-CR24",
+                "ref-CR31",
+                "ref-CR1",
+                "ref-CR4",
+                "ref-CR20",
+                "ref-CR3",
+                "ref-CR21",
+                "ref-CR22",
+                "ref-CR19",
+                "ref-CR12",
+                "ref-CR10",
+                "ref-CR27",
+                "ref-CR9",
+                "ref-CR17",
+                "ref-CR11",
+                "ref-CR18",
+                "ref-CR5",
+                "ref-CR29",
+                "ref-CR30",
+                "ref-CR14",
+                "ref-CR25",
+                "ref-CR26",
+                "ref-CR7",
+                "ref-CR23",
+                "ref-CR15",
+                "ref-CR32",
+                "ref-CR2",
+                "ref-CR28",
+                "ref-CR6",
+                "ref-CR8"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Changes in emissions\nFor most chemical species, an instantaneous transition to 30% eHDVs results in on-road emission reductions that more than offset emission increases from EGUs (Fig. 1 and Supplementary Table 3). The highest-magnitude emission reductions occur along major road networks and within densely populated areas (Supplementary Fig. 9). Emission increases are limited to point sources within grid cells where EGUs reside (Fig. 1 and Supplementary Fig. 1) which are predominately gas-fired within our CTM domain (Fig. 1b). Despite an increase of ~4.9 M tonnes of CO2 per year at EGUs following an increase in electricity demand, we estimate net CO2 emission reductions of ~2.5 M tonnes per year. NOx emissions also exhibit net reductions (~7%; Supplementary Table 3) compared with our baseline simulations in which HDVs are predominantly diesel powered—with the largest decreases along major traffic routes (Fig. 1a). Elemental carbon emissions show the second largest decrease following NOx, with a net decrease of ~6% (Supplementary Table 3). In contrast, SO2 emissions, mostly emitted from coal combustion at EGUs4, increase by ~3%. We note that the emission changes reported here are probably worst-case estimates as EGU emissions are projected to decrease as the grid continues to modernize and decarbonize34.\n### Changes in NO2 and O3 concentrations\nWe find that the shift of 30% of HDVs to eHDVs results in domain-wide population-weighted NO2 reductions of 0.5 ppb (~6%), with maximum reductions reaching 4.9 ppb (Fig. 2b). Reductions are particularly pronounced along highway corridors, at transportation hubs, and within urban centres that also exhibit high baseline NO2 concentrations (Fig. 2a and Supplementary Fig. 2) and NOx emission reductions (Fig. 1a). In fact, NO2 reductions in urban areas are ~3.5 times greater than reductions in rural regions (Fig. 2b and Supplementary Table 5). Even in grid cells containing EGUs, our simulations show net NO2 reductions driven by on-road decreases, despite increased electricity demand and increased EGU NOx emissions (Supplementary Table 4). Differences in NO2 concentrations for individual simulated months are largely consistent with annual differences; however, larger-magnitude reductions are simulated in our summer and autumn months (Supplementary Fig. 3).\nIn contrast to NO2 changes, annual mean daily maximum 8 h running mean O3 concentrations (MDA8O3)—a widely used regulatory and health-relevant O3 metric—exhibit regionally mixed increases and decreases following eHDV adoption. We find increases in simulated MDA8O3 concentrations of up to 1.45 ppb occurring adjacent to major highways and within urban areas (Fig. 2d and Supplementary Table 5) but decreases of up to 0.18 ppb in non-urban regions (Fig. 2d). However, domain average MDA8O3 changes are positive (0.11 ppb; rural and 0.45 ppb; urban) with a population-weighted domain mean increase of 0.19 ppb (~+0.4%). Areas exhibiting increases in simulated MDA8O3 concentrations correspond to locations in the baseline with low MDA8O3 but high NO2 (Fig. 2a,c). On a seasonal basis, MDA8O3 concentration changes are spatiotemporally heterogeneous (Supplementary Discussion and Supplementary Fig. 3).\nSimulated patterns of heterogeneous change in MDA8O3 concentrations can be explained by spatiotemporal variations in the O3 regime, that is, the VOC-to-NOx ratio. In highly polluted urban areas and along road networks we simulate low baseline surface VOC/NOx ratios (4.9 ppbC/ppb; Supplementary Table 6 and Supplementary Fig. 4), indicating a VOC-limited environment. Conversely, in rural and suburban areas, we simulate VOC/NOx concentration ratios that are about twice those in urban areas, indicating NOx-limited regimes (9.0 ppbC/ppb). Consequently, following eHDV adoption, NOx reductions in urban and heavily trafficked areas lead to O3 increases due to less titration of O3 by NO (ref. 35). In addition, more OH radicals are available to react with VOCs, which in turn results in additional O3 formation36 (Supplementary Fig. 5). In rural and NOx-limited areas, NOx reductions have a marginal impact on the overall MDA8O3 changes (~0.01 ppb; Fig. 2d). Our simulation of urban areas as NOx-limited-to-transitional is consistent with previous studies33,37,38. Prior work has suggested that the surface VOC/NOx O3 regime typically transitions around 8 ppbC/ppb; however, this threshold varies spatially and temporally and depends on factors such as local meteorology and VOC composition36,39. In a nationwide study of O3 regime surface VOC/NOx ratios, Ashok and Barrett37 estimate different ratios across the United States with ~7 ppbC/ppb estimated for the Chicago Metropolitan Area, suggesting that ratios of less/more than 7 ppbC/ppb represent VOC-limited/NOx-limited regimes. The seasonality of simulated MDA8O3 changes can also be partially explained by VOC/NOx ratios (Supplementary Discussion and Supplementary Table 6).\nFrom a concentration threshold exceedance standpoint, electrification of 30% of on-road HDVs results in two to six additional grid cell days with MDA8O3 levels higher than the World Health Organization’s MDA8O3 threshold exceedance guideline of 50 ppb (ref. 40) in urban areas such as Cook County, IL (home to Chicago; Fig. 3a) and Milwaukee, WI (Fig. 3b) as well as in isolated rural areas such as Noble County, IN (Fig. 3d). However, less of a clear signal is observed for counties in Michigan as we note both decreases and increases in the number of grid cell exceedance days (for example, Grand Rapids, MI; Fig. 3c). Applying the less stringent 70 ppb MDA8O3 US EPA National Ambient Air Quality Standard results in 1–2 additional grid cell exceedance days mostly in north-western and southern Cook County (Supplementary Fig. 6).\n### Changes in PM2.5 concentrations\nThirty per cent adoption of eHDVs reduces annual mean population-weighted PM2.5 concentrations by an average of 0.09 µg m−3 across the study domain and by a maximum of 0.49 µg m−3 at hotspots within densely populated metropolitan areas—areas that generally have high simulated baseline PM2.5 concentrations (Fig. 4 and Supplementary Table 4). Although we note domain-wide decreases in PM2.5 concentrations (even in grid cells with EGUs), simulated sulfate (SO4) concentrations increase in rural regions (Supplementary Fig. 7c). Sulfate and nitrate compete for ammonia41; therefore, as NOx emissions decrease (−6.65%; Supplementary Table 3) and ammonia (NH3) emissions remain largely unchanged (−0.02%; Supplementary Table 3), increases in SO2 emissions (3.10%; Supplementary Table 3) result in decreases in NO3 aerosols but increases in SO4 aerosols (Supplementary Fig. 7). This PM chemical interplay highlights the utility of high-resolution CTMs to simulate the complex formation of air pollution not only at emission source locations such as EGUs but also in areas where secondary pollutants form, and exposure may occur.\n### Health benefits and trade-offs\nTo leverage the high spatial resolution of our simulated air quality changes, we utilize similarly high-resolution health data. When computed with census tract-level USALEEP baseline all-cause mortality data, domain-wide reductions in simulated annual mean NO2 and PM2.5 concentrations for 30% eHDV adoption translate to 590 (95% confidence interval (CI) 150–900) and 70 (95% CI 20–110) annual avoided premature deaths compared with the baseline (Supplementary Table 7). We note that health benefits in urban areas such as Chicago do not occur at the expense of health damages in rural areas; even rural census tracts that contain EGUs experience health benefits. However, it should be noted that ~20% of the electricity demand is met by EGUs outside our CTM domain, where pollutant impacts cannot be assessed. In contrast to NO2 and PM2.5, the overall health impact associated with MDA8O3 exposure across the domain adds up to 50 (95% CI 30–110) additional deaths per year. To exclude the influence of baseline mortality data, we also calculate the attributable fraction (equation (1)) and estimate that 0.42% and 0.05% decreases of all-cause baseline mortality are associated with reductions in NO2 and PM2.5, respectively, while a 0.04% increase of all-cause baseline mortality is associated with increases in annual mean MDA8O3.\nThe spatial distribution of differences in attributable mortality rate (per 100,000) for each pollutant following eHDV adoption reflects both differences in simulated pollutant concentrations and underlying susceptibilities (Supplementary Fig. 8). We find that the highest differences in attributable mortality rates for all three pollutants occur in Cook County and along census tracts close to Interstate-90, which enters our domain on its eastern margin, passes just south of Lake Michigan, turns north-west across Cook County and exits the domain on its western margin (Supplementary Figs. 8 and 9). We note that the magnitude of air pollution changes does not scale linearly to the magnitude of estimated health impacts as pollutant exposure impacts depend on pollutant-specific β values as well as the spatial distribution of baseline mortality data. In fact, discrepancies between the spatial distribution of attributable mortality rate differences and air pollution concentrations, such as high mortality differences west of Cook County (Supplementary Fig. 8), are linked to the spatial variability of the baseline mortality data (Supplementary Fig. 10). That is, when census tracts with high baseline mortality rates coincide with moderate differences in pollutant concentrations, health impacts can be amplified as more susceptible people are exposed. Despite increases in estimated MDA8O3-related attributable deaths, our results show that electrifying HDVs leads to health benefits largely resulting from substantial reductions in simulated NO2 concentrations. The health estimates for related pollutants such as PM2.5 and NO2 should be considered in isolation, as a summation of these health impacts could result in overestimated impacts9.\n### Equity implications\nResolving neighbourhood-scale pollutants not only allows us to distinguish differences in air pollution concentrations and their associated health impacts, but also facilitates an equity-focused analysis that characterizes racial/ethnic disparities in the air quality and public health benefits and trade-offs of eHDV adoption. Given its prodigious impact, we focus our eHDV equity analysis on NO2, but provide PM2.5 and MDA8O3 analyses in Supplementary Figs. 11 and 12. We assess the racial/ethnic composition of each NO2 concentration change decile over the full model domain and within Chicago city limits (Fig. 5a,c). We also perform a similar analysis on changes in attributable mortality rate deciles (Fig. 5b,d). At the domain level, the largest NO2 reductions (that is, highest magnitude pollutant decreases in the highest (10th) decile) occur where Black (24%), Asian (9%) and Hispanic or Latino (18%) populations represent a relatively high proportion of the total population within that decile (Fig. 5a), while the smallest reductions (that is, lowest magnitude decreases in the lowest (1st) decile) occur where non-Hispanic white populations predominate (90% of the population within the 1st decile Fig. 5a). Health benefits, in the form of reduced mortality rates, largely mirror NO2 concentration declines; however, the Black population is overrepresented in the highest decile, indicating an outsized health benefit for this community (46%; Fig. 5b), largely driven by higher underlying baseline mortality rates and susceptibilities (Supplementary Fig. 10).\nWithin Chicago city limits, our equity findings are more nuanced. People of colour constitute the majority of the racial/ethnic composition for all Chicago NO2 concentration change deciles (>50%; Fig. 5c). However, in contrast to our domain-level findings, NO2 reductions are distributed more equally across population subgroups (Fig. 5c). This difference is reflective of the racial/ethnic make-up of the city and the proximity of non-Hispanic white populations to the northern branch of Interstate-90, where large reductions in NO2 concentrations are simulated (Fig. 5e and Supplementary Fig. 13a). Despite relatively equitably distributed NO2 reductions across population subgroups, we note disproportionately large NO2-health benefits for Chicago’s Black population, particularly in the higher (9th and 10th) deciles (43–68%; Fig. 5d). To help explain these outsized health impacts, we investigate the bivariate distribution of baseline mortality rates and simulated NO2 changes across Chicago (Fig. 5e–g). Areas where NO2 health benefits are greatest (Fig. 5f) correspond to census tracts with high baseline mortality rates and high NO2 reductions (dark green; Fig. 5g), whereas areas with high NO2 reductions and low baseline mortality rates (dark blue; Fig. 5g) experience lower health benefits (light green; Fig. 5f). Our results demonstrate that even low-to-moderate reductions in pollutant concentrations can lead to substantial health benefits (yellow; Fig. 5g); an outcome that is particularly true for Chicago’s Black population whose spatial distribution (Supplementary Fig. 13b) only partially overlaps with high magnitude NO2 reductions (Fig. 5f), but whose baseline mortality rates are relatively high. Indeed, we find that the spatial correlation of the City’s Black population with the footprint of our simulated NO2 reductions is relatively weak and negative (Pearson’s r = −0.20), whereas the Black population’s correlations with NO2 health benefits and baseline mortality rates are both higher and positive (Pearson’s r = 0.43 and 0.54). This finding is consistent with previous studies that have demonstrated the outsized role of socio-demographic factors in determining health impacts as compared to pollutant exposure levels42.",
+            "cites": [
+                "ref-CR4",
+                "ref-CR35",
+                "ref-CR9",
+                "ref-CR33",
+                "ref-CR37",
+                "ref-CR38",
+                "ref-CR41",
+                "ref-CR39",
+                "ref-CR40",
+                "ref-CR36",
+                "ref-CR42",
+                "ref-CR34"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2",
+                "figure-4",
+                "figure-3",
+                "figure-5"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "Using a regulatory-grade neighbourhood-resolving two-way coupled CTM, we demonstrate that net emissions decrease across our study domain (despite SO2 emission increases at EGUs), leading to annual mean NO2 and PM2.5 decreases of up to 4.91 ppb and 0.50 µg m−3, respectively. We highlight large decreases along dense road networks and in urban areas where on-road HDV emissions are highest. Reductions in on-road emissions outweigh increases in EGU emissions such that decreases in NO2 and PM2.5 concentrations (and their associated health impacts) are simulated even in grid cells that contain EGUs. In contrast, we note increases in annual mean simulated MDA8O3 concentrations in areas of high NOx reductions and decreases in non-urban areas. Increases in MDA8O3 concentrations are linked to a reduction in O3 titration by NO as well as an increase in available OH radicals. Our results indicate that, in our domain, shifting to eHDVs increases VOC/NOx ratios, which, if the shift is of a sufficient magnitude, could lead to a change in the O3 regime of some areas, for example, areas in transition from VOC- to NOx-limited, and could result in decreased O3 formation following NOx emission reductions of sufficient magnitude.\nThe overall impact of shifting emissions from on-road tailpipes and refuelling infrastructure to EGUs largely depends on the electricity generation mix of the region as well as the distribution of electricity from EGUs to sources of demand43,44. The predominant electricity generation mix in our domain is natural gas. As such, results presented in this study, particularly results pertinent to emission changes at EGUs and changes in PM2.5 concentrations, might differ when looking at regions with a different electricity generation mix, when incorporating a decarbonizing electric grid45, or when using Earth System simplifying RCMs46. Nonetheless, results presented in this study are largely consistent with previous studies that have focused on changes in air pollutant concentrations following the adoption of various EVs scenarios. Previous CTM-based studies suggest that transitioning to EVs leads to reductions in net NOx emissions despite projected increases in electricity demand26,29. Similarly, previous United States-focused studies employing different EV adoption scenarios have shown reductions in PM2.5 concentrations both nationwide29,31 and regionally26. Using 12 km CTM United States-wide simulations and shifting 17% of light-duty vehicles and 8% of HDVs to electric, Nopmongcol et al.29 found PM2.5 reductions of less than 0.5 µg m−3 for most of the eastern United States despite a projected 5% increase in electricity demand, met mostly by natural gas. In contrast, Schnell et al.31, using a 50 km CTM, found somewhat mixed results for the United States, that is, with 25% electric light-duty vehicle adoption PM2.5 benefits/disbenefits were strongly dependent on the region and season, with a high sensitivity to a region’s electricity generation mix. Lastly, when comprehensive fleet turnover to EVs was assessed using a CTM with 1 km resolution over the Greater Houston area, Pan et al.26 found PM2.5 reductions ranging between 0.5 and 2 µg m−3 with large reductions near highways.\nChanges in O3 concentrations driven by the adoption of different classes of EVs have also been reported; however, results are varied. Nationwide studies using CTMs at medium-to-coarse resolutions report widespread reductions in O3 (refs. 29,31) largely driven by on-road NOx emission reductions31. However, Schnell et al.31. observed O3 increases in some grid cells, for example, in southern California and north-eastern Illinois. More regionally focused CTM studies at finer scales26,32 also found increases in O3 concentrations, particularly along highways and in NOx-saturated environments. Consistent with results presented in this study, increases in O3 in these more regionally focused studies are generally linked to smaller reductions in VOC emissions as compared with NOx emission reductions in NOx-saturated environments leading to reduced O3 titration by NO (refs. 26,32). The differences in O3 responses to EV adoption summarized here may be related to differences in study design, simulated domain and/or model configuration and complexity, although it is notable that increases in spatial resolution tend to demonstrate pockets of increasing O3 concentrations with EV adoption, suggesting that resolving fine-scale features is critical to resolving non-linear chemistry and the formation of secondary pollutants over tight spatial gradients (for example, near roadways or in urban environments), and is particularly critical for studies focused on public health impacts and/or environmental justice outcomes.\nAccurately representing the environmental impacts of EV adoption scenarios is limited by our ability to forecast EV market share as well as the future evolution of the US electric grid. Projections for EV sales continue to increase from a 2018 estimate of 21% of new car sales to a recent estimate of 52% by 2030 (ref. 47). Our 30% eHDV instantaneous adoption estimate should not be considered a forecast with a specific time horizon. Indeed, our use of 2016 grid infrastructure with 30% eHDV adoption is temporally inconsistent, and the air quality benefits and trade-offs tied to grid infrastructure reported here should be considered conservative, given the on-going transition of current grid infrastructure to emission-free EGUs48. To quantify the sensitivity of our results to a future grid, we run sensitivity simulations assuming all added grid demand from 30% eHDV adoption is met by emission-free EGUs. We find that over our domain, average NO2, PM2.5 and MDA8O3 concentrations decrease further when the additional electricity demand needed for charging is supplied by emission-free sources (−0.17%, −0.09% and −0.004%, respectively). These relatively small magnitude changes highlight the marginal impact of EGU emissions on air quality as compared with on-road emissions when transitioning to EVs. While we account for emissions related to hotelling hours, which represent the hours truck drivers spend in their long-haul trucks during mandated rest periods49, the emissions modelling scheme used in this study does not include HDV idling emissions during loading/unloading or queueing at warehouses. Future eHDV studies should incorporate these emission processes as they might amplify the net effect of eHDVs, particularly for communities living near such facilities. Here we present changes in eHDV on-road tailpipe and refuelling emissions; however, we do not consider any increased contributions to on-road non-exhaust emissions such as brake wear, tyre wear, road wear and road dust resuspension that contribute to on-road PM and that might increase in the future as heavy batteries in EVs weigh more compared with internal combustion engines, particularly for vehicles with a larger driving range50. Lastly, here we choose to electrify only HDVs to isolate and characterize eHDV adoption impacts. However, the transition to electrified transport will not occur in isolation, but rather will co-occur with other vehicle classes, different alternative fuel transportation technologies (for example, hydrogen), changes in fuel refining infrastructure, scale-up of battery manufacturing, and changes in other forms of emitting infrastructure (for example, heating, ventilation and air conditioning systems (HVACs), cooking stoves, urban greening and so on).\nDespite the above caveats, our results demonstrate that transitioning 30% of HDVs to eHDVs has robust air quality and health benefits, including reduced NO2 and PM2.5 concentrations and associated health benefits, reduced air pollution disparities among population subgroups, and reduced CO2 emissions. To contextualize the CO2 changes in terms of their economic damages and/or benefits we use a state-of-the-science social cost of carbon estimate of $185 per tonne of CO2 ($44–413 per t-CO2: 5–95% range, 2020 US dollars51), in line with an EPA-proposed estimate currently under review52. Multiplying the 30% eHDV net CO2 reduction (~2.5 Mt per year) by the social cost of carbon, we estimate net savings of $456M per year within our domain. However, this estimate is based on the 2016 grid and therefore should be considered conservative. Assuming a best-case scenario whereby all the additional electricity demand needed for charging eHDVs is met by renewable resources, the avoided CO2-related damage costs following 30% eHDV adoption would increase to $1.4B per year. For ease of comparison, we also estimate monetized health impacts, by multiplying the widely used estimate of value of a statistical life of $9.6M (ref. 53) by the estimated traffic-related avoided or additional attributable deaths from eHDV adoption. With current grid infrastructure and 30% eHDV adoption, we estimate $5.7B and $0.6B in avoided annual health damages related to NO2 and PM2.5 reductions and an additional cost of $0.5B yearly related to MDA8O3 increases. Supplying the additional electricity demand to charge 30% of HDVs from emission-free electricity sources could result in additional savings associated with NO2 and PM2.5 avoided health damages (~$97M (NO2) and $67M (PM2.5)) while health damages associated with MDA8O3 remain unaltered. Our results show higher monetized savings associated with mortality co-benefits as compared with savings associated solely with CO2 reductions. This finding agrees with studies suggesting air quality co-benefits of similar magnitude to abatement cost estimates54,55 and emerging literature showing that health co-benefits not only offset the cost of climate action but exceed it56.\nIn this study, use of a neighbourhood-resolving CTM has allowed us to simulate changes in both primary and secondary pollutants and characterize air quality and public health benefits and trade-offs at equity-relevant scales. The methods used here demonstrate the ability of Earth-system-science tools to assess the benefits, trade-offs and equity implications of proposed climate solutions at the scales envisioned by recent aspirational policy proposals. While computational expense limits our domain of focus, our work has global implications, and demonstrates that policies aimed at reducing transportation emissions could have unintended consequences, such as increases in secondary pollutants like O3. Regulatory consequences hinging on single pollutants can mask overall air quality benefits which are better addressed by holistic air quality measures. Consequently, here we show that a shift to greener HDVs has the potential to improve overall air quality and reduce health burdens, especially in marginalized communities.",
+            "cites": [
+                "ref-CR56",
+                "ref-CR48",
+                "ref-CR54",
+                "ref-CR26",
+                "ref-CR51",
+                "ref-CR32",
+                "ref-CR50",
+                "ref-CR45",
+                "ref-CR43",
+                "ref-CR29",
+                "ref-CR47",
+                "ref-CR53",
+                "ref-CR55",
+                "ref-CR31",
+                "ref-CR52",
+                "ref-CR49",
+                "ref-CR46",
+                "ref-CR44"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Air quality model set-up and eHDV emission scenarios\nTo simulate changes in air pollution that result from eHDV adoption, we use the two-way coupled Community Multi-scale Air Quality (CMAQ, v5.2 (ref. 57)) and Weather Research and Forecasting (WRF, v3.8 (ref. 58)) modelling system (WRF-CMAQ59). Our analysis domain has a 1.3 km horizontal resolution, is centred on southern Lake Michigan (Fig. 1a), encompasses parts of WI, IL, IN and MI, and includes the urban centres of Chicago, IL, Milwaukee, WI, and Grand Rapids, MI. One month baseline, that is, no-eHDVs and no EGU changes, WRF-CMAQ simulations were performed and validated for each meteorological season (August and October 2018, and January and April 2019). Details of these baseline simulations together with WRF-CMAQ performance metrics can be found in Supplementary Table 1 and Discussion, and in Montgomery et al.60. We note that pollutant concentrations are highly dependent on meteorological conditions and given the temporally limited scope of our simulations, interpretation of results should bear this in mind61. Annual means presented in this study represent the average of the four simulated months, similar to previous resource-intensive CTM studies (for example, Peng et al.62).\nMeteorologically informed 1.3 km emissions for the baseline and eHDV scenario simulations were created using the Sparse Matrix Operator Kernal Emissions (SMOKE) processing system63 with the EPA’s Beta platform64 in conjunction with emission factors from the MOtor Vehicle Emission Simulator (MOVES)49. HDV processes captured in MOVES include: running and start exhaust, brake wear and tyre wear, evaporative emissions, crankcase exhaust, refuelling emissions and extended idling (that is, hotelling) emissions. MOVES generates four types of emissions factors: rate-per-distance, rate-per-vehicle, rate-per-profile and rate-per-hour. Emissions factors take into consideration vehicle type (for example, passenger car, heavy-duty truck and so on; Supplementary Table 3), age distribution of vehicle type fleet, road type and vehicle type usage (that is, class of roadway), and ambient meteorology65. The SMOKE emissions model then combines activity data (for example, vehicle miles travelled (VMT) and vehicle population), meteorological data, MOVES emission factors and other ancillary data, such as speed distributions, to generate hourly, meteorologically adjusted mobile emissions66. County total emissions from the 2016v7.2 National Emissions Inventory (NEI)64 were processed using the 2016 SMOKE Beta platform in conjunction with 1.3 km spatial surrogates provided by the Lake Michigan Air Directors Consortium67. Spatial surrogates allocate NEI county-level emission estimates to model grid cells (1.3 km) using spatially resolved land use information specific to the study domain (for example, population, industry, location of roadways and so on). The fractional composition of spatial surrogates within each grid cell is used as a proxy to refine county-level emissions to finer scales65 (refer also to Supplementary Discussion). Using SMOKE, we calculate anthropogenic on-road, point, and area emissions, while biogenic (BEIS), lightning NOx and windblown dust emissions were calculated interactively within CMAQ.\nIn our eHDV scenario, we instantaneously transition 30% of internal combustion engine HDVs to eHDVs (that is, unaccompanied by any decarbonization shifts in the power sector and a 1-to-1 on-road fleet replacement with no shift from on-road freight to, for example, rail). This 30% target falls within the decarbonization mid-transition, a period in which our reliance on fossil-fuelled EGUs remains critical68. For the eHDV scenario we scale down the annual county-level VMTs for each HDV type, that is, intercity, transit and school buses; refuse, single-unit short-haul and single-unit long-haul trucks, motor homes, combination short-haul and long-haul trucks by 30% (Supplementary Table 2). HDV emissions for all MOVES processes are reduced by 30% through modification of emissions factor tables (EFTABLES) in SMOKE. The increase in EGU electricity demand was estimated at the county level as a function of VMTs that are now electric, vehicle type charging efficiency, and a grid gross loss of 5.1% (ref. 69) (supplementary equation 1). We estimate the increase in electricity demand at EGUs using an augmented version of the vehicle-to-EGU electricity assignment algorithm employed by Schnell et al.31,45. Emission changes at EGUs are computed at the CONUS level from which the changes occurring at EGUs within our CTM domain are selected. As such this study does not consider changes in air quality and associated health and equity impacts at EGUs outside our CTM domain. Presuming an instantaneous increase in demand, the augmented version of the emission remapping algorithm uses 2016 grid infrastructure and is described in detail in Supplementary Discussion, although we also discuss simulations whereby the increase in electricity demand is sourced from emission-free electricity generation in the discussion. We run month-long eHDV simulations and compare results with simulations in which HDVs are predominantly diesel powered (baseline). Throughout this study, differences between the baseline and the eHDV simulations are presented as eHDV—baseline such that negative changes represent lower values for the eHDV scenario as compared with the baseline simulations and vice versa.\n### Health and equity impacts\nChanges in all-cause mortality associated with differences in annual mean NO2 and PM2.5 and daily maximum 8 h running mean O3 (MDA8O3) between the baseline and eHDV scenarios were estimated at the census tract level using the following equations:\nThe attributable fraction (\\({{{\\mathrm{AF}}}}_{{{\\mathrm{CT}}}}\\)) is estimated following equation (1) where \\({\\Delta x}_{{{\\mathrm{CT}}}}\\) represents the simulated changes in annual mean air pollution concentrations between the baseline and eHDV scenario at the census tract level (\\({{\\mathrm{CT}}}\\)). We note that annual mean air pollution levels are an average of the four simulation months from each meteorological season. Census tract-level air pollution concentrations were determined by calculating the area average of the intersection between grid cell-level simulated pollutant concentrations and census tract polygons (using the GeoPandas package70). \\(\\beta\\) is a coefficient derived from epidemiological studies describing the relationship between the specific air pollutant and the associated health outcome. For each census tract, the all-cause mortality is then estimated by multiplying the \\({{\\mathrm{AF}}}\\) by the baseline mortality (equation (2)). The baseline mortality for each census tract is calculated by multiplying the population within each census tract (\\({{{\\mathrm{POP}}}}_{{{\\mathrm{CT}}}}\\)) by the corresponding baseline mortality rate (\\({{{\\mathrm{BMR}}}}_{{{\\mathrm{CT}}}}\\)). Age-stratified census tract-level population and demographic data were obtained from the American Community Survey (ACS 2015–2019) (ref. 71). We have specifically used 5 year estimates from 2015–2019 as these include a larger sample size thereby reducing the margin of error as compared with datasets spanning a shorter time period. To maintain a high level of detail through our health estimates, we also use recent census tract-level age-specific all-cause baseline mortality rates obtained from Industrial Economic, Incorporated with different rates for each 5 year age group (IEc 2010–2015) (ref. 72). These mortality incidence rates are derived from USALEEP abridged life tables with modifications for broader use in national health benefits analyses.\nFor our NO2 and PM2.5 health estimates we use \\(\\beta\\) values derived from the latest Health Effects Institute systematic review and meta-analysis report assessing long-term traffic-related health effects9 and for O3 we use \\(\\beta\\) values derived from an extended analysis of the Cancer Prevention Study II by Turner et al.73. All-cause mortality associated with long-term exposure to NO2 is estimated using a relative risk (RR) of 1.04 (95% CI 1.01–1.06 (ref. 9)) per 10 µg m−3 converted to ppb equivalent using our model simulated annualized mean temperature of 9.4 °C (ref. 60) (that is, 10 µg m−3 = 5.04 ppb NO2 translating to a \\(\\beta\\) value of ~0.008). An RR of 1.02 (95% CI 1.01–1.04 (ref. 73)) per 10 ppb is then used to estimate the all-cause mortality associated with long-term exposure to MDA8O3. Finally, to estimate the PM2.5-related health impacts we use an RR of 1.03 (95% CI 1.01–1.04 (ref. 9)) per 5 µg m−3. The exposure estimates presented in this study hold for the population 30 years and older. Given the different sources used for each RR, and the underlying differences in methodologies, we do not present summed health estimates of the three pollutants as a combined estimate could lead to a misrepresentation of the true effect.\n### Reporting summary\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+            "cites": [
+                "ref-CR69",
+                "ref-CR61",
+                "ref-CR59",
+                "ref-CR60",
+                "ref-CR31",
+                "ref-CR49",
+                "ref-CR71",
+                "ref-CR64",
+                "ref-CR73",
+                "ref-CR9",
+                "ref-CR67",
+                "ref-CR72",
+                "ref-CR58",
+                "ref-CR57",
+                "ref-CR70",
+                "ref-CR65",
+                "ref-CR66",
+                "ref-CR45",
+                "ref-CR63",
+                "ref-CR62",
+                "ref-CR68"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1: Emission changes.",
+            "figure-caption": "a,b, On-road and EGU NOx emission changes compared with the baseline scenario in mol s−1 (a) and EGU percentage generation increase by fuel type following 30% electrification of HDVs (b). Numbers at the tails of colour bar in a indicate minimum and maximum differences in emissions within the domain. Note that increases in emissions are depicted in a; however, they are restricted to grid cells that contain EGUs. While accounting for clean electricity generation from emission-free renewable EGUs (other than nuclear), the increase in electricity demand depicted in b represents only the portion of electricity sourced from non-renewable powered EGUs and nuclear EGUs. OFSL and OTHF fuel types refer to other fossil fuel types and fuel derived from waste heat, unknown or purchased sources, respectively.",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-023-01219-0/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2: NO2 and MDA8O3 changes.",
+            "figure-caption": "a–d, Simulated annual mean (a) NO2 and (c) MDA8O3 baseline concentrations and differences in (b) NO2 and (d) MDA8O3 annual mean concentrations between the eHDV and baseline simulations.",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-023-01219-0/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3: MDA8O3 exceedances.",
+            "figure-caption": "a–d, Differences in number of grid cell days with MDA8O3 levels greater than 50 ppb across the study domain and in Cook County, IL (a), Milwaukee, WI (b), Grand Rapids, MI (c) and Noble County, IN (d).",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-023-01219-0/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4: PM2.5 changes.",
+            "figure-caption": "a,b, Simulated annual mean PM2.5 baseline concentrations (a) and differences between the eHDV and baseline simulation (b).",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-023-01219-0/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5: Equity Implications of eHDV adoption.",
+            "figure-caption": "a–d, Fractional race and ethnicity of populations for deciles of NO2 concentration changes (a and c) and NO2 attributable mortality rate changes (b and d) for the full model domain (a and b) and the city of Chicago (c and d) with 30% eHDV adoption. Decile ranks indicated on a. e–g, Highlight of city of Chicago NO2 concentration changes (e), NO2 attributable mortality rate changes (f) and bivariate depiction of the relationship of baseline USALEEP mortality rates with NO2 changes (g). All race groups except Hispanic or Latino, include only those identifying as non-Hispanic.",
+            "figure-link": "https://www.nature.com/natsustain/articles/s41893-023-01219-0/figures/5"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Clean Trucks, Clean Air, American Jobs (EDF, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Clean Truck Plans—Regulatory Update (EPA-420-F-21-057) (EPA, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Delivering clean air: health benefits of zero-emission trucks. American Lung Association https://www.lung.org/getmedia/e1ff935b-a935-4f49-91e5-151f1e643124/zero-emission-truck-report.pdf (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2020, EPA 430-R-22-003. EPA https://www.epa.gov/ghgemissions/draft-inventory-us-greenhouse-gas-emissions- (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Shah, R. U. et al. High-spatial-resolution mapping and source apportionment of aerosol composition in Oakland, California, using mobile aerosol mass spectrometry. Atmos. Chem. Phys. 18, 16325–16344 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Facp-18-16325-2018",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXisVehs7rP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=High-spatial-resolution%20mapping%20and%20source%20apportionment%20of%20aerosol%20composition%20in%20Oakland%2C%20California%2C%20using%20mobile%20aerosol%20mass%20spectrometry&journal=Atmos.%20Chem.%20Phys.&doi=10.5194%2Facp-18-16325-2018&volume=18&pages=16325-16344&publication_year=2018&author=Shah%2CRU"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Davidson, K., Fann, N., Zawacki, M., Fulcher, C. & Baker, K. R. The recent and future health burden of the U.S. mobile sector apportioned by source. Environ. Res. Lett. 15, 075009 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Fab83a8",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXit1SqsLfN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20recent%20and%20future%20health%20burden%20of%20the%20U.S.%20mobile%20sector%20apportioned%20by%20source&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Fab83a8&volume=15&publication_year=2020&author=Davidson%2CK&author=Fann%2CN&author=Zawacki%2CM&author=Fulcher%2CC&author=Baker%2CKR"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Anenberg, S. C., Miller, J., Henze, D. K., Minjares, R. & Achakulwisut, P. The global burden of transportation tailpipe emissions on air pollution-related mortality in 2010 and 2015. Environ. Res. Lett. https://doi.org/10.1088/1748-9326/ab35fc (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Anenberg, S. C. et al. Long-term trends in urban NO2 concentrations and associated paediatric asthma incidence: estimates from global datasets. Lancet Planet. Health 6, e49–58 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS2542-5196%2821%2900255-2",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Long-term%20trends%20in%20urban%20NO2%20concentrations%20and%20associated%20paediatric%20asthma%20incidence%3A%20estimates%20from%20global%20datasets&journal=Lancet%20Planet.%20Health&doi=10.1016%2FS2542-5196%2821%2900255-2&volume=6&pages=e49-58&publication_year=2022&author=Anenberg%2CSC"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Systematic Review and Meta-analysis of Selected Health Effects of Long-Term Exposure to Traffic-Related Air Pollution. Special Report 23 (HEI, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Chang, S. Y. et al. A modeling framework for characterizing near-road air pollutant concentration at community scales. Sci. Total Environ. 538, 905–921 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2015.06.139",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXhsVyjur3P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20modeling%20framework%20for%20characterizing%20near-road%20air%20pollutant%20concentration%20at%20community%20scales&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2015.06.139&volume=538&pages=905-921&publication_year=2015&author=Chang%2CSY"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Apte, J. S. et al. High-resolution air pollution mapping with google street view cars: exploiting big data. Environ. Sci. Technol. 51, 6999–7008 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.7b00891",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXptVCku78%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=High-resolution%20air%20pollution%20mapping%20with%20google%20street%20view%20cars%3A%20exploiting%20big%20data&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.7b00891&volume=51&pages=6999-7008&publication_year=2017&author=Apte%2CJS"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Caubel, J. J., Cados, T. E., Preble, C. V. & Kirchstetter, T. W. A distributed network of 100 black carbon sensors for 100 days of air quality monitoring in West Oakland, California. Environ. Sci. Technol. 53, 7564–7573 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.9b00282",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXhtFylsbrM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20distributed%20network%20of%20100%20black%20carbon%20sensors%20for%20100%20days%20of%20air%20quality%20monitoring%20in%20West%20Oakland%2C%20California&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.9b00282&volume=53&pages=7564-7573&publication_year=2019&author=Caubel%2CJJ&author=Cados%2CTE&author=Preble%2CCV&author=Kirchstetter%2CTW"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Research on near roadway and other near source air pollution. EPA https://www.epa.gov/air-research/research-near-roadway-and-other-near-source-air-pollution (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Rowangould, G. M. A census of the US near-roadway population: public health and environmental justice considerations. Transp. Res. D 25, 59–67 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trd.2013.08.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20census%20of%20the%20US%20near-roadway%20population%3A%20public%20health%20and%20environmental%20justice%20considerations&journal=Transp.%20Res.%20D&doi=10.1016%2Fj.trd.2013.08.003&volume=25&pages=59-67&publication_year=2013&author=Rowangould%2CGM"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Colmer, J., Hardman, I., Shimshack, J. & Voorheis, J. Disparities in PM 2.5 air pollution in the United States. Science 369, 575–578 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.aaz9353",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhsFWgsbrJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Disparities%20in%20PM%202.5%20air%20pollution%20in%20the%20United%20States&journal=Science&doi=10.1126%2Fscience.aaz9353&volume=369&pages=575-578&publication_year=2020&author=Colmer%2CJ&author=Hardman%2CI&author=Shimshack%2CJ&author=Voorheis%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Castillo, M. D. et al. Estimating intra-urban inequities in PM2.5-attributable health impacts: a case study for Washington, DC. Geohealth 5, e2021GH000431 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2021GH000431",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimating%20intra-urban%20inequities%20in%20PM2.5-attributable%20health%20impacts%3A%20a%20case%20study%20for%20Washington%2C%20DC&journal=Geohealth&doi=10.1029%2F2021GH000431&volume=5&publication_year=2021&author=Castillo%2CMD"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Kerr, G. H., Goldberg, D. L. & Anenberg, S. C. COVID-19 pandemic reveals persistent disparities in nitrogen dioxide pollution. Proc. Natl Acad. Sci. USA 118, e2022409118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2022409118",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXhs1KmsbvL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=COVID-19%20pandemic%20reveals%20persistent%20disparities%20in%20nitrogen%20dioxide%20pollution&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2022409118&volume=118&publication_year=2021&author=Kerr%2CGH&author=Goldberg%2CDL&author=Anenberg%2CSC"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Chambliss, S. E. et al. Local- and regional-scale racial and ethnic disparities in air pollution determined by long-term mobile monitoring. Proc. Natl Acad. Sci. USA 118, e2109249118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2109249118",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXitVCnu7vN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local-%20and%20regional-scale%20racial%20and%20ethnic%20disparities%20in%20air%20pollution%20determined%20by%20long-term%20mobile%20monitoring&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2109249118&volume=118&publication_year=2021&author=Chambliss%2CSE"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Fuller, C. H. & Brugge, D. in Traffic-Related Air Pollution (eds Khreis, H. et al.) 495–510 (Elsevier, 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Clark, L. P., Harris, M. H., Apte, J. S. & Marshall, J. D. National and intraurban air pollution exposure disparity estimates in the United States: impact of data-aggregation spatial scale. Environ. Sci. Technol. Lett. https://doi.org/10.1021/acs.estlett.2c00403 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.estlett.2c00403",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=National%20and%20intraurban%20air%20pollution%20exposure%20disparity%20estimates%20in%20the%20United%20States%3A%20impact%20of%20data-aggregation%20spatial%20scale&journal=Environ.%20Sci.%20Technol.%20Lett.&doi=10.1021%2Facs.estlett.2c00403&publication_year=2022&author=Clark%2CLP&author=Harris%2CMH&author=Apte%2CJS&author=Marshall%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "JUSTICE40 a whole-of-government initiative. The White House https://www.whitehouse.gov/environmentaljustice/justice40/ (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Choma, E. F., Evans, J. S., Hammitt, J. K., Gómez-Ibáñez, J. A. & Spengler, J. D. Assessing the health impacts of electric vehicles through air pollution in the United States. Environ. Int. 144, 106015 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envint.2020.106015",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhslSmur7F",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assessing%20the%20health%20impacts%20of%20electric%20vehicles%20through%20air%20pollution%20in%20the%20United%20States&journal=Environ.%20Int.&doi=10.1016%2Fj.envint.2020.106015&volume=144&publication_year=2020&author=Choma%2CEF&author=Evans%2CJS&author=Hammitt%2CJK&author=G%C3%B3mez-Ib%C3%A1%C3%B1ez%2CJA&author=Spengler%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Goodkind, A. L., Tessum, C. W., Coggins, J. S., Hill, J. D. & Marshall, J. D. Fine-scale damage estimates of particulate matter air pollution reveal opportunities for location-specific mitigation of emissions. Proc. Natl Acad. Sci. USA 116, 8775–8780 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.1816102116",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXos1ShtrY%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fine-scale%20damage%20estimates%20of%20particulate%20matter%20air%20pollution%20reveal%20opportunities%20for%20location-specific%20mitigation%20of%20emissions&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.1816102116&volume=116&pages=8775-8780&publication_year=2019&author=Goodkind%2CAL&author=Tessum%2CCW&author=Coggins%2CJS&author=Hill%2CJD&author=Marshall%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Tessum, C. W., Hill, J. D. & Marshall, J. D. InMAP: a model for air pollution interventions. PLoS ONE 12, e0176131 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0176131",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=InMAP%3A%20a%20model%20for%20air%20pollution%20interventions&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0176131&volume=12&publication_year=2017&author=Tessum%2CCW&author=Hill%2CJD&author=Marshall%2CJD"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Thakrar, S. K. et al. Global, high-resolution, reduced-complexity air quality modeling for PM2.5 using InMAP (Intervention Model for Air Pollution). PLoS ONE 17, e0268714 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0268714",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhvFGhsb3P",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Global%2C%20high-resolution%2C%20reduced-complexity%20air%20quality%20modeling%20for%20PM2.5%20using%20InMAP%20%28Intervention%20Model%20for%20Air%20Pollution%29&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0268714&volume=17&publication_year=2022&author=Thakrar%2CSK"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Pan, S. et al. Potential impacts of electric vehicles on air quality and health endpoints in the Greater Houston Area in 2040. Atmos. Environ. 207, 38–51 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2019.03.022",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXmtVGltbg%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Potential%20impacts%20of%20electric%20vehicles%20on%20air%20quality%20and%20health%20endpoints%20in%20the%20Greater%20Houston%20Area%20in%202040&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2019.03.022&volume=207&pages=38-51&publication_year=2019&author=Pan%2CS"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Li, N. et al. Potential impacts of electric vehicles on air quality in Taiwan. Sci. Total Environ. 566–567, 919–928 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2016.05.105",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Potential%20impacts%20of%20electric%20vehicles%20on%20air%20quality%20in%20Taiwan&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2016.05.105&volume=566%E2%80%93567&pages=919-928&publication_year=2016&author=Li%2CN"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Gai, Y. et al. Health and climate benefits of electric vehicle deployment in the greater Toronto and Hamilton area. Environ. Pollut. 265, 114983 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.envpol.2020.114983",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXht1CisLbP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Health%20and%20climate%20benefits%20of%20electric%20vehicle%20deployment%20in%20the%20greater%20Toronto%20and%20Hamilton%20area&journal=Environ.%20Pollut.&doi=10.1016%2Fj.envpol.2020.114983&volume=265&publication_year=2020&author=Gai%2CY"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Nopmongcol, U. et al. Air quality impacts of electrifying vehicles and equipment across the United States. Environ. Sci. Technol. 51, 2830–2837 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.6b04868",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXivFeqtr0%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20quality%20impacts%20of%20electrifying%20vehicles%20and%20equipment%20across%20the%20United%20States&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.6b04868&volume=51&pages=2830-2837&publication_year=2017&author=Nopmongcol%2CU"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Peters, D. R., Schnell, J. L., Kinney, P. L., Naik, V. & Horton, D. E. Public health and climate benefits and trade-Offs of U.S. vehicle electrification. Geohealth 4, e2020GH000275 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2020GH000275",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BB3s7lt1WhsA%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Public%20health%20and%20climate%20benefits%20and%20trade-Offs%20of%20U.S.%20vehicle%20electrification&journal=Geohealth&doi=10.1029%2F2020GH000275&volume=4&publication_year=2020&author=Peters%2CDR&author=Schnell%2CJL&author=Kinney%2CPL&author=Naik%2CV&author=Horton%2CDE"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Schnell, J. L. et al. Air quality impacts from the electrification of light-duty passenger vehicles in the United States. Atmos. Environ. 208, 95–102 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2019.04.003",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXntVSqtbg%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20quality%20impacts%20from%20the%20electrification%20of%20light-duty%20passenger%20vehicles%20in%20the%20United%20States&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2019.04.003&volume=208&pages=95-102&publication_year=2019&author=Schnell%2CJL"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Brinkman, G. L., Denholm, P., Hannigan, M. P. & Milford, J. B. Effects of plug-in hybrid electric vehicles on ozone concentrations in Colorado. Environ. Sci. Technol. 44, 6256–6262 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes101076c",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXovVKqsbs%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effects%20of%20plug-in%20hybrid%20electric%20vehicles%20on%20ozone%20concentrations%20in%20Colorado&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Fes101076c&volume=44&pages=6256-6262&publication_year=2010&author=Brinkman%2CGL&author=Denholm%2CP&author=Hannigan%2CMP&author=Milford%2CJB"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Koplitz, S. et al. Changes in ozone chemical sensitivity in the United States from 2007 to 2016. ACS Environ. Au https://doi.org/10.1021/acsenvironau.1c00029 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facsenvironau.1c00029",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Changes%20in%20ozone%20chemical%20sensitivity%20in%20the%20United%20States%20from%202007%20to%202016&journal=ACS%20Environ.%20Au&doi=10.1021%2Facsenvironau.1c00029&publication_year=2021&author=Koplitz%2CS"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Grubert, E. Fossil electricity retirement deadlines for a just transition. Science 370, 1171–1173 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.abe0375",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXisFSiur%2FO",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Fossil%20electricity%20retirement%20deadlines%20for%20a%20just%20transition&journal=Science&doi=10.1126%2Fscience.abe0375&volume=370&pages=1171-1173&publication_year=2020&author=Grubert%2CE"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Monks, P. S. et al. Atmospheric composition change—global and regional air quality. Atmos. Environ. 43, 5268–5350 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2009.08.021",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1MXht1Cgt7zM",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Atmospheric%20composition%20change%E2%80%94global%20and%20regional%20air%20quality&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2009.08.021&volume=43&pages=5268-5350&publication_year=2009&author=Monks%2CPS"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "National Research Council. Rethinking the Ozone Problem in Urban and Regional Air Pollution. Rethinking the Ozone Problem in Urban and Regional Air Pollution (National Academies Press, 1991).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Ashok, A. & Barrett, S. R. H. Adjoint-based computation of U.S. nationwide ozone exposure isopleths. Atmos. Environ. 133, 68–80 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2016.03.025",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XksFOgtLc%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Adjoint-based%20computation%20of%20U.S.%20nationwide%20ozone%20exposure%20isopleths&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2016.03.025&volume=133&pages=68-80&publication_year=2016&author=Ashok%2CA&author=Barrett%2CSRH"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Jin, X. et al. Inferring changes in summertime surface ozone-NOx-VOC chemistry over U.S. urban areas from two decades of satellite and ground-based observations. Environ. Sci. Technol. 54, 6518–6529 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Facs.est.9b07785",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXotVehtbc%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inferring%20changes%20in%20summertime%20surface%20ozone-NOx-VOC%20chemistry%20over%20U.S.%20urban%20areas%20from%20two%20decades%20of%20satellite%20and%20ground-based%20observations&journal=Environ.%20Sci.%20Technol.&doi=10.1021%2Facs.est.9b07785&volume=54&pages=6518-6529&publication_year=2020&author=Jin%2CX"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Seinfeld, J. H. & Pandis, S. N. Atmospheric Chemistry and Physics from Air Pollution to Climate Change (John Wiley & Sons, 2006).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR40",
+            "content": "WHO Global Air Quality Guidelines. Particulate Matter (PM2.5 and PM10), Ozone, Nitrogen Dioxide, Sulfur Dioxide and Carbon Monoxide (WHO, 2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Pye, H. O. T. et al. Effect of changes in climate and emissions on future sulfate-nitrate-ammonium aerosol levels in the United States. J. Geophys. Res. Atmos. 114, 138385 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2008JD010701",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effect%20of%20changes%20in%20climate%20and%20emissions%20on%20future%20sulfate-nitrate-ammonium%20aerosol%20levels%20in%20the%20United%20States&journal=J.%20Geophys.%20Res.%20Atmos.&doi=10.1029%2F2008JD010701&volume=114&publication_year=2009&author=Pye%2CHOT"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Yang, H., Huang, X., Westervelt, D. M., Horowitz, L. & Peng, W. Socio-demographic factors shaping the future global health burden from air pollution. Nat. Sustain. https://doi.org/10.1038/s41893-022-00976-8 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41893-022-00976-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Socio-demographic%20factors%20shaping%20the%20future%20global%20health%20burden%20from%20air%20pollution&journal=Nat.%20Sustain.&doi=10.1038%2Fs41893-022-00976-8&publication_year=2022&author=Yang%2CH&author=Huang%2CX&author=Westervelt%2CDM&author=Horowitz%2CL&author=Peng%2CW"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Huo, H., Cai, H., Zhang, Q., Liu, F. & He, K. Life-cycle assessment of greenhouse gas and air emissions of electric vehicles: a comparison between China and the U.S. Atmos. Environ. 108, 107–116 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.atmosenv.2015.02.073",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXjs1Sjsbg%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Life-cycle%20assessment%20of%20greenhouse%20gas%20and%20air%20emissions%20of%20electric%20vehicles%3A%20a%20comparison%20between%20China%20and%20the%20U.S&journal=Atmos.%20Environ.&doi=10.1016%2Fj.atmosenv.2015.02.073&volume=108&pages=107-116&publication_year=2015&author=Huo%2CH&author=Cai%2CH&author=Zhang%2CQ&author=Liu%2CF&author=He%2CK"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Lin, W. Y. et al. Analysis of air quality and health co-benefits regarding electric vehicle promotion coupled with power plant emissions. J. Clean Prod. 247, 119152 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2019.119152",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXitFCjsbrK",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Analysis%20of%20air%20quality%20and%20health%20co-benefits%20regarding%20electric%20vehicle%20promotion%20coupled%20with%20power%20plant%20emissions&journal=J.%20Clean%20Prod.&doi=10.1016%2Fj.jclepro.2019.119152&volume=247&publication_year=2020&author=Lin%2CWY"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Schnell, J. L. et al. Potential for electric vehicle adoption to mitigate extreme air quality events in China. Earths Future 9, e2020EF001788 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2020EF001788",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Potential%20for%20electric%20vehicle%20adoption%20to%20mitigate%20extreme%20air%20quality%20events%20in%20China&journal=Earths%20Future&doi=10.1029%2F2020EF001788&volume=9&publication_year=2020&author=Schnell%2CJL"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Holland, S. P., Mansur, E. T., Muller, N. Z. & Yates, A. J. Are there environmental benefits from driving electric vehicles? The importance of local factors. Am. Econ. Rev. 106, 3700–3729 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1257%2Faer.20150897",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Are%20there%20environmental%20benefits%20from%20driving%20electric%20vehicles%3F%20The%20importance%20of%20local%20factors&journal=Am.%20Econ.%20Rev.&doi=10.1257%2Faer.20150897&volume=106&pages=3700-3729&publication_year=2016&author=Holland%2CSP&author=Mansur%2CET&author=Muller%2CNZ&author=Yates%2CAJ"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Najman, L. EV adoption in US is happening faster than predicted. RECURRENT https://www.recurrentauto.com/research/ev-adoption-us (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Grubert, E. Emissions projections for US utilities through 2050. Environ. Res. Lett. 16, 084049 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2Fac1628",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXitFWrt73O",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emissions%20projections%20for%20US%20utilities%20through%202050&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2Fac1628&volume=16&publication_year=2021&author=Grubert%2CE"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Motor Vehicle Emission Simulator (MOVES): User Guide for MOVES2014 (EPA-420-B-14-055) (EPA, 2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Non-exhaust particulate emissions from road transport: an ignored environmental policy challenge. OECD https://www.oecd-ilibrary.org/sites/4a4dc6ca-en/index.html?itemId=/content/publication/4a4dc6ca-en#execsumm-d1e285, https://doi.org/10.1787/4a4dc6ca-en (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Rennert, K. et al. Comprehensive evidence implies a higher social cost of CO2. Nature https://doi.org/10.1038/s41586-022-05224-9 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41586-022-05224-9",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Comprehensive%20evidence%20implies%20a%20higher%20social%20cost%20of%20CO2&journal=Nature&doi=10.1038%2Fs41586-022-05224-9&publication_year=2022&author=Rennert%2CK"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Report on the Social Cost of Greenhouse Gases: Estimates Incorporating Recent Scientific Advances (Draft) (EPA, 2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Anenberg, S. C., Miller, J., Henze, D. & Minjares, R. A global snapshot of the air pollution-related health impacts of transportation sector emissions in 2010 and 2015. ICCT www.theicct.org (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Nemet, G. F., Holloway, T. & Meier, P. Implications of incorporating air-quality co-benefits into climate change policymaking. Environ. Res. Lett. 5, 014007 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1748-9326%2F5%2F1%2F014007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Implications%20of%20incorporating%20air-quality%20co-benefits%20into%20climate%20change%20policymaking&journal=Environ.%20Res.%20Lett.&doi=10.1088%2F1748-9326%2F5%2F1%2F014007&volume=5&publication_year=2010&author=Nemet%2CGF&author=Holloway%2CT&author=Meier%2CP"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Li, M. et al. Air quality co-benefits of carbon pricing in China. Nat. Clim. Chang 8, 398–403 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41558-018-0139-4",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Air%20quality%20co-benefits%20of%20carbon%20pricing%20in%20China&journal=Nat.%20Clim.%20Chang&doi=10.1038%2Fs41558-018-0139-4&volume=8&pages=398-403&publication_year=2018&author=Li%2CM"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Shindell, D. et al. Temporal and spatial distribution of health, labor, and crop benefits of climate change mitigation in the United States. Proc. Natl Acad. Sci. USA 118, e2104061118 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.2104061118",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhtVGgt7g%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Temporal%20and%20spatial%20distribution%20of%20health%2C%20labor%2C%20and%20crop%20benefits%20of%20climate%20change%20mitigation%20in%20the%20United%20States&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.2104061118&volume=118&publication_year=2021&author=Shindell%2CD"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Byun, D. & Schere, K. L. Review of the governing equations, computational algorithms, and other components of the models-3 Community Multiscale Air Quality (CMAQ) modeling system. Appl. Mech. Rev. https://doi.org/10.1115/1.2128636 (2006).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Skamarock, W. C. et al. A description of the advanced research WRF version 3 (no. NCAR/TN-475+STR). Opensky https://doi.org/10.5065/D68S4MVH (2008).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Wong, D. C. et al. WRF-CMAQ two-way coupled system with aerosol feedback: software development and preliminary results. Geosci. Model Dev. 5, 299–312 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.5194%2Fgmd-5-299-2012",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=WRF-CMAQ%20two-way%20coupled%20system%20with%20aerosol%20feedback%3A%20software%20development%20and%20preliminary%20results&journal=Geosci.%20Model%20Dev.&doi=10.5194%2Fgmd-5-299-2012&volume=5&pages=299-312&publication_year=2012&author=Wong%2CDC"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Montgomery, A., Schnell, J. L., Adelman, Z., Janssen, M. & Horton, D. E. Simulation of neighborhood‐scale air quality with two‐way coupled WRF‐CMAQ over Southern Lake Michigan‐Chicago Region. J. Geophys. Res. Atmos. https://doi.org/10.1029/2022JD037942 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1029%2F2022JD037942",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Simulation%20of%20neighborhood%E2%80%90scale%20air%20quality%20with%20two%E2%80%90way%20coupled%20WRF%E2%80%90CMAQ%20over%20Southern%20Lake%20Michigan%E2%80%90Chicago%20Region&journal=J.%20Geophys.%20Res.%20Atmos.&doi=10.1029%2F2022JD037942&publication_year=2023&author=Montgomery%2CA&author=Schnell%2CJL&author=Adelman%2CZ&author=Janssen%2CM&author=Horton%2CDE"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Garcia-Menendez, F., Monier, E. & Selin, N. E. The role of natural variability in projections of climate change impacts on U.S. ozone pollution. Geophys. Res. Lett. 44, 2911–2921 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2F2016GL071565",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXmt1Grur8%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20natural%20variability%20in%20projections%20of%20climate%20change%20impacts%20on%20U.S.%20ozone%20pollution&journal=Geophys.%20Res.%20Lett.&doi=10.1002%2F2016GL071565&volume=44&pages=2911-2921&publication_year=2017&author=Garcia-Menendez%2CF&author=Monier%2CE&author=Selin%2CNE"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Peng, L. et al. Alternative-energy-vehicles deployment delivers climate, air quality, and health co-benefits when coupled with decarbonizing power generation in China. One Earth 4, 1127–1140 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.oneear.2021.07.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Alternative-energy-vehicles%20deployment%20delivers%20climate%2C%20air%20quality%2C%20and%20health%20co-benefits%20when%20coupled%20with%20decarbonizing%20power%20generation%20in%20China&journal=One%20Earth&doi=10.1016%2Fj.oneear.2021.07.007&volume=4&pages=1127-1140&publication_year=2021&author=Peng%2CL"
+            }
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Baek, B. H. & Seppanen, C. bokhaeng/SMOKE: SMOKE v4.5 Public Release (April 2017) (SMKOEv45_Apr2017). Zenodo https://zenodo.org/record/1321280#.YulGK-xBx44 (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Eyth, A., Vukovich, J., Farkas, C. & Strum, M. Technical Support Document (TSD): preparation of emissions inventories for the version 7.2 - 2016 North American Emissions Modeling Platform. EPA https://www.epa.gov/sites/default/files/2019-09/documents/2016v7.2_regionalhaze_emismod_tsd_508.pdf (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR65",
+            "content": "SMOKE-MOVES and the Emissions Modeling Framework. CMAS https://www.cmascenter.org/emf/internal/smoke_moves/ (2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR66",
+            "content": "SMOKE v4.5 User’s Manual (UNC-Chapel Hill, 2017); https://www.cmascenter.org/smoke/documentation/4.5/manual_smokev45.pdf",
+            "links": {}
+        },
+        {
+            "id": "ref-CR67",
+            "content": "LADCO Ozone TSD—2015 O3 NAAQS Moderate Area Attainment Demonstration. LADCO https://www.ladco.org/ (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR68",
+            "content": "Grubert, E. & Hastings-Simon, S. Designing the mid‐transition: a review of medium‐term challenges for coordinated decarbonization in the United States. WIREs Climate Change 13, e768 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1002%2Fwcc.768",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Designing%20the%20mid%E2%80%90transition%3A%20a%20review%20of%20medium%E2%80%90term%20challenges%20for%20coordinated%20decarbonization%20in%20the%20United%20States&journal=WIREs%20Climate%20Change&doi=10.1002%2Fwcc.768&volume=13&publication_year=2022&author=Grubert%2CE&author=Hastings-Simon%2CS"
+            }
+        },
+        {
+            "id": "ref-CR69",
+            "content": "The Emissions & Generation Resource Integrated Database. Technical Guide, eGrid2019. EPA https://www.epa.gov/sites/default/files/2021-02/documents/egrid2019_technical_guide.pdf (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR70",
+            "content": "Jordahl, K. et al. GeoPandas Version 0.9.0. Zenodo https://doi.org/10.5281/zenodo.4569086 (2021).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR71",
+            "content": "Manson, S., Schroeder, J., Van Riper, D., Kugler, T. & Ruggles, S. IPUMS National Historical Geographic Information System: Version 17.0 [5-Year Data [2015–2019, Block Groups & Larger Areas]]. IPUMS https://doi.org/10.18128/D050.V17.0 (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR72",
+            "content": "Raich, W., Fant, C., Jackson, M. & Roman, H. Memorandum Supporting Near-Source Health Benefits Analyses Using Fine-Scale Incidence Rates (Industrial Economics, Inc., 2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR73",
+            "content": "Turner, M. C. et al. Long-term ozone exposure and mortality in a large prospective study. Am. J. Respir. Crit. Care Med 193, 1134–1142 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1164%2Frccm.201508-1633OC",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXmvVWiu7s%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Long-term%20ozone%20exposure%20and%20mortality%20in%20a%20large%20prospective%20study&journal=Am.%20J.%20Respir.%20Crit.%20Care%20Med&doi=10.1164%2Frccm.201508-1633OC&volume=193&pages=1134-1142&publication_year=2016&author=Turner%2CMC"
+            }
+        },
+        {
+            "id": "ref-CR74",
+            "content": "Emissions & Generation Resource Integrated Database (eGRID). EPA https://www.epa.gov/egrid (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR75",
+            "content": "Cartographic boundary files. US Census Bureau https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html (2022).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR76",
+            "content": "NERC regions. EIA https://atlas.eia.gov/datasets/eia::nerc-regions/about (2020).",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "As inputs to our Vehicle-to-EGU Electricity Assignment and Emission Remapping Algorithm we use: a grid gross loss across the United States from EPA (2021) (refs. 69), the eGRID-2016 database74 for EGU details related to location, age and capacity with shapefiles from US Census Cartographic boundary shapefiles75 and NERC76. Model output is hosted on Northwestern’s servers. Due to model output size limitation, specific model output requests can be made to the corresponding author. For our health and equity impacts, population and demographic data was obtained from the American Community Survey (ACS 2015–2019 (ref. 71)) and can be downloaded from https://doi.org/10.18128/D050.V17.0, baseline all-cause mortality incidence rates were obtained from Industrial Economic, Incorporated (IEc 2010–2015) (ref. 72) and are available on request, β values are obtained from latest Health Effects Institute systematic review and meta-analysis report9 and for O3 β values are from an extended analysis of the Cancer Prevention Study II by Turner et al.73.",
+            "links": {
+                "69": "/articles/s41893-023-01219-0#ref-CR69",
+                "74": "/articles/s41893-023-01219-0#ref-CR74",
+                "75": "/articles/s41893-023-01219-0#ref-CR75",
+                "76": "/articles/s41893-023-01219-0#ref-CR76",
+                "71": "/articles/s41893-023-01219-0#ref-CR71",
+                "https://doi.org/10.18128/D050.V17.0": "https://doi.org/10.18128/D050.V17.0",
+                "72": "/articles/s41893-023-01219-0#ref-CR72",
+                "9": "/articles/s41893-023-01219-0#ref-CR9",
+                "73": "/articles/s41893-023-01219-0#ref-CR73"
+            }
+        },
+        "Code availability": {
+            "content": "The WRF-CMAQ two-way model source code used for this numerical model study can be downloaded for WRF at https://www2.mmm.ucar.edu/wrf/users/download/get_sources.html and for CMAQ at https://github.com/USEPA/CMAQ. Simulations were conducted using WRF-CMAQ v5.2 and WRF v3.8. The 2016 SMOKE Beta platform was used for allocating emissions to a 1.3 km grid with county total emissions from the 2016v7.2 NEI and 1.3 km spatial surrogated provided by the Lake Michigan Air Directors Consortium (LADCO) and available on request. The code used for our Vehicle-to-EGU Electricity Assignment and Emission Remapping Algorithm can be found at https://github.com/NU-CCRG/Camilleri-et-al-2022_WRFCMAQ-eHDVstudy. All analysis was conducted using R Version 4.2.2, Python Version 3.8.12 with the GeoPandas package for determining census tract-level air pollution concentrations Version 0.9.0 and Microsoft Excel Version 16.66.1. State boundaries are obtained using Cartopy v0.18.0 (https://doi.org/10.5281/zenodo.8216315), while Chicago shapefiles are available from the Chicago Data Portal via https://data.cityofchicago.org/. All data analysis scripts including those used for estimating health and equity implication are available at https://doi.org/10.5281/zenodo.8234544.",
+            "links": {
+                "https://www2.mmm.ucar.edu/wrf/users/download/get_sources.html": "https://www2.mmm.ucar.edu/wrf/users/download/get_sources.html",
+                "https://github.com/USEPA/CMAQ": "https://github.com/USEPA/CMAQ",
+                "https://github.com/NU-CCRG/Camilleri-et-al-2022_WRFCMAQ-eHDVstudy": "https://github.com/NU-CCRG/Camilleri-et-al-2022_WRFCMAQ-eHDVstudy",
+                "https://doi.org/10.5281/zenodo.8216315": "https://doi.org/10.5281/zenodo.8216315",
+                "https://data.cityofchicago.org/": "https://data.cityofchicago.org/",
+                "https://doi.org/10.5281/zenodo.8234544": "https://doi.org/10.5281/zenodo.8234544"
+            }
+        },
+        "Acknowledgements": {
+            "content": "Research reported in the publication was supported by US National Science Foundation awards CBET-1848683 and CAREER:CAS-Climate-2239834 to DEH, an Environmental Defense Fund (EDF) grant to D.E.H., a McCormick Center for Engineering Sustainability and Resilience seed grant to D.E.H., the Ubben Program for Carbon and Climate Science postdoctoral fellowship to J.L.S., The Data Science fellowship from the National Science Foundation Research Traineeship and Northwestern Integrated Data-Driven Discovery in Earth and Astrophysical Sciences to A.M., and an undergraduate research grant from Northwestern University to M.A.V. We thank W. Raich, H. Roman and M. Jackson from Industrial Economic and N. Fann, E. Chan and A. Kamal from the US EPA for deriving and providing the census tract-level all-cause mortality rates used in this study, as well as EDF experts for valuable equity framing feedback.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsSara F. CamilleriView author publicationsSearch author on:PubMed Google ScholarAnastasia MontgomeryView author publicationsSearch author on:PubMed Google ScholarMaxime A. VisaView author publicationsSearch author on:PubMed Google ScholarJordan L. SchnellView author publicationsSearch author on:PubMed Google ScholarZachariah E. AdelmanView author publicationsSearch author on:PubMed Google ScholarMark JanssenView author publicationsSearch author on:PubMed Google ScholarEmily A. GrubertView author publicationsSearch author on:PubMed Google ScholarSusan C. AnenbergView author publicationsSearch author on:PubMed Google ScholarDaniel E. HortonView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nS.F.C., A.M., M.A.V., J.L.S., Z.E.A., M.J., E.A.G., S.C.A. and D.E.H. designed research, S.F.C., A.M. and M.A.V. performed research, S.F.C., A.M. and M.A.V. analysed data, S.F.C. wrote the original manuscript draft, and S.F.C., A.M., M.A.V., J.L.S., E.A.G., S.C.A. and D.E.H. provided edits.\n### Corresponding author\nCorrespondence to\n                Sara F. Camilleri.",
+            "links": {
+                "View author publications": "/search?author=Daniel%20E.%20Horton",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Daniel%20E.%20Horton",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Daniel%20E.%20Horton%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Sara F. Camilleri": "mailto:sara.camilleri@northwestern.edu"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Peer review": {
+            "content": "### Peer review information\nNature Sustainability thanks Dena Montague and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary information": {
+            "content": "Supplementary InformationSupplementary discussion, Figs. 1–13, Tables 1–7 and references.Reporting Summary",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-023-01219-0/MediaObjects/41893_2023_1219_MOESM1_ESM.pdf",
+                "Reporting Summary": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41893-023-01219-0/MediaObjects/41893_2023_1219_MOESM2_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Air%20quality%2C%20health%20and%20equity%20implications%20of%20electrifying%20heavy-duty%20vehicles&author=Sara%20F.%20Camilleri%20et%20al&contentID=10.1038%2Fs41893-023-01219-0&copyright=The%20Author%28s%29&publication=2398-9629&publicationDate=2023-09-05&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleCamilleri, S.F., Montgomery, A., Visa, M.A. et al. Air quality, health and equity implications of electrifying heavy-duty vehicles.\n                    Nat Sustain 6, 1643–1653 (2023). https://doi.org/10.1038/s41893-023-01219-0Download citationReceived: 20 December 2022Accepted: 21 August 2023Published: 05 September 2023Issue date: December 2023DOI: https://doi.org/10.1038/s41893-023-01219-0Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41893-023-01219-0?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Air quality, health and equity implications of electrifying heavy-duty vehicles",
+                "description": "Heavy-duty vehicles (HDVs) disproportionately contribute to the creation of air pollutants and emission of greenhouse gases—with marginalized populations unequally burdened by the impacts of each. Shifting to non-emitting technologies, such as electric HDVs (eHDVs), is underway; however, the associated air quality and health implications have not been resolved at equity-relevant scales. Here we use a neighbourhood-scale (~1 km) air quality model to evaluate air pollution, public health and equity implications of a 30% transition of predominantly diesel HDVs to eHDVs over the region surrounding North America’s largest freight hub, Chicago, IL. We find decreases in nitrogen dioxide (NO2) and fine particulate matter (PM2.5) concentrations but ozone (O3) increases, particularly in urban settings. Over our simulation domain NO2 and PM2.5 reductions translate to ~590 (95% confidence interval (CI) 150–900) and ~70 (95% CI 20–110) avoided premature deaths per year, respectively, while O3 increases add ~50 (95% CI 30–110) deaths per year. The largest pollutant and health benefits simulated are within communities with higher proportions of Black and Hispanic/Latino residents, highlighting the potential for eHDVs to reduce disproportionate and unjust air pollution and associated air-pollution attributable health burdens within historically marginalized populations. Heavy-duty vehicles are responsible for a substantial portion of road emissions from fossil-fuelled vehicles and cause harmful air pollution. Transitioning to electric heavy-duty vehicles would provide substantial health benefits, especially in Black and Hispanic/Latino urban neighbourhoods.",
+                "datePublished": "2023-09-05T00:00:00Z",
+                "dateModified": "2023-09-05T00:00:00Z",
+                "pageStart": "1643",
+                "pageEnd": "1653",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s41893-023-01219-0",
+                "keywords": [
+                    "Atmospheric chemistry",
+                    "Climate-change mitigation",
+                    "Environmental impact",
+                    "Sustainable Development"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-023-01219-0/MediaObjects/41893_2023_1219_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-023-01219-0/MediaObjects/41893_2023_1219_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-023-01219-0/MediaObjects/41893_2023_1219_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-023-01219-0/MediaObjects/41893_2023_1219_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41893-023-01219-0/MediaObjects/41893_2023_1219_Fig5_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Nature Sustainability",
+                    "issn": [
+                        "2398-9629"
+                    ],
+                    "volumeNumber": "6",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Sara F. Camilleri",
+                        "url": "http://orcid.org/0000-0002-4299-8644",
+                        "affiliation": [
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Department of Earth and Planetary Sciences, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "sara.camilleri@northwestern.edu",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Anastasia Montgomery",
+                        "url": "http://orcid.org/0000-0001-7742-9102",
+                        "affiliation": [
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Department of Earth and Planetary Sciences, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Maxime A. Visa",
+                        "url": "http://orcid.org/0000-0001-6437-8043",
+                        "affiliation": [
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Department of Earth and Planetary Sciences, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jordan L. Schnell",
+                        "url": "http://orcid.org/0000-0002-4072-4033",
+                        "affiliation": [
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Department of Earth and Planetary Sciences, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Trienens Institute for Sustainability and Energy, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Colorado",
+                                "address": {
+                                    "name": "Cooperative Institute for Research in Environmental Sciences, University of Colorado, Boulder, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "NOAA/Global Systems Laboratory",
+                                "address": {
+                                    "name": "NOAA/Global Systems Laboratory, Boulder, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Zachariah E. Adelman",
+                        "affiliation": [
+                            {
+                                "name": "Lake Michigan Air Directors Consortium",
+                                "address": {
+                                    "name": "Lake Michigan Air Directors Consortium, Rosemont, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Mark Janssen",
+                        "affiliation": [
+                            {
+                                "name": "Lake Michigan Air Directors Consortium",
+                                "address": {
+                                    "name": "Lake Michigan Air Directors Consortium, Rosemont, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Emily A. Grubert",
+                        "url": "http://orcid.org/0000-0003-2196-7571",
+                        "affiliation": [
+                            {
+                                "name": "University of Notre Dame",
+                                "address": {
+                                    "name": "Keough School of Global Affairs, University of Notre Dame, Notre Dame, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Susan C. Anenberg",
+                        "affiliation": [
+                            {
+                                "name": "George Washington University",
+                                "address": {
+                                    "name": "Department of Environmental and Occupational Health, Milken School of Public Health, George Washington University, Washington, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Daniel E. Horton",
+                        "url": "http://orcid.org/0000-0002-2065-4517",
+                        "affiliation": [
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Department of Earth and Planetary Sciences, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Northwestern University",
+                                "address": {
+                                    "name": "Trienens Institute for Sustainability and Energy, Northwestern University, Evanston, USA",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "atmospheric-chemistry;climate-change-mitigation;environmental-impact",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Nature Sustainability",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41893-023-01219-0"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Sara F. Camilleri",
+                            "Anastasia Montgomery",
+                            "Maxime A. Visa",
+                            "Jordan L. Schnell",
+                            "Zachariah E. Adelman",
+                            "Mark Janssen",
+                            "Emily A. Grubert",
+                            "Susan C. Anenberg",
+                            "Daniel E. Horton"
+                        ],
+                        "publishedAt": 1693872000,
+                        "publishedAtString": "2023-09-05",
+                        "title": "Air quality, health and equity implications of electrifying heavy-duty vehicles",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Atmospheric chemistry,Climate-change mitigation,Environmental impact"
+                    },
+                    "journal": {
+                        "pcode": "natsustain",
+                        "title": "nature sustainability",
+                        "volume": "6",
+                        "issue": "12",
+                        "id": 41893,
+                        "publishingModel": "Hybrid Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "SG",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Air quality, health and equity implications of electrifying heavy-duty vehicles",
+            "dc.source": "Nature Sustainability 2023 6:12",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2023-09-05",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2023 The Author(s)",
+            "dc.rights": "2023 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Heavy-duty vehicles (HDVs) disproportionately contribute to the creation of air pollutants and emission of greenhouse gases—with marginalized populations unequally burdened by the impacts of each. Shifting to non-emitting technologies, such as electric HDVs (eHDVs), is underway; however, the associated air quality and health implications have not been resolved at equity-relevant scales. Here we use a neighbourhood-scale (~1 km) air quality model to evaluate air pollution, public health and equity implications of a 30% transition of predominantly diesel HDVs to eHDVs over the region surrounding North America’s largest freight hub, Chicago, IL. We find decreases in nitrogen dioxide (NO2) and fine particulate matter (PM2.5) concentrations but ozone (O3) increases, particularly in urban settings. Over our simulation domain NO2 and PM2.5 reductions translate to ~590 (95% confidence interval (CI) 150–900) and ~70 (95% CI 20–110) avoided premature deaths per year, respectively, while O3 increases add ~50 (95% CI 30–110) deaths per year. The largest pollutant and health benefits simulated are within communities with higher proportions of Black and Hispanic/Latino residents, highlighting the potential for eHDVs to reduce disproportionate and unjust air pollution and associated air-pollution attributable health burdens within historically marginalized populations. Heavy-duty vehicles are responsible for a substantial portion of road emissions from fossil-fuelled vehicles and cause harmful air pollution. Transitioning to electric heavy-duty vehicles would provide substantial health benefits, especially in Black and Hispanic/Latino urban neighbourhoods.",
+            "dc.identifier": "doi:10.1038/s41893-023-01219-0",
+            "dc.creator": "Horton, Daniel E.",
+            "dc.subject": "Environmental impact",
+            "prism.issn": "2398-9629",
+            "prism.publicationName": "Nature Sustainability",
+            "prism.publicationDate": "2023-09-05",
+            "prism.volume": "6",
+            "prism.number": "12",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1643",
+            "prism.endingPage": "1653",
+            "prism.copyright": "2023 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41893-023-01219-0",
+            "prism.doi": "doi:10.1038/s41893-023-01219-0",
+            "citation_pdf_url": "https://www.nature.com/articles/s41893-023-01219-0.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41893-023-01219-0",
+            "citation_journal_title": "Nature Sustainability",
+            "citation_journal_abbrev": "Nat Sustain",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2398-9629",
+            "citation_title": "Air quality, health and equity implications of electrifying heavy-duty vehicles",
+            "citation_volume": "6",
+            "citation_issue": "12",
+            "citation_publication_date": "2023/12",
+            "citation_online_date": "2023/09/05",
+            "citation_firstpage": "1643",
+            "citation_lastpage": "1653",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41893-023-01219-0",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41893-023-01219-0&api_key=",
+            "citation_reference": "NERC regions. EIA \n                  https://atlas.eia.gov/datasets/eia::nerc-regions/about\n                  \n                 (2020).",
+            "citation_author": "Horton, Daniel E.",
+            "citation_author_institution": "Trienens Institute for Sustainability and Energy, Northwestern University, Evanston, USA",
+            "description": "Heavy-duty vehicles (HDVs) disproportionately contribute to the creation of air pollutants and emission of greenhouse gases—with marginalized populations unequally burdened by the impacts of each. Shifting to non-emitting technologies, such as electric HDVs (eHDVs), is underway; however, the associated air quality and health implications have not been resolved at equity-relevant scales. Here we use a neighbourhood-scale (~1 km) air quality model to evaluate air pollution, public health and equity implications of a 30% transition of predominantly diesel HDVs to eHDVs over the region surrounding North America’s largest freight hub, Chicago, IL. We find decreases in nitrogen dioxide (NO2) and fine particulate matter (PM2.5) concentrations but ozone (O3) increases, particularly in urban settings. Over our simulation domain NO2 and PM2.5 reductions translate to ~590 (95% confidence interval (CI) 150–900) and ~70 (95% CI 20–110) avoided premature deaths per year, respectively, while O3 increases add ~50 (95% CI 30–110) deaths per year. The largest pollutant and health benefits simulated are within communities with higher proportions of Black and Hispanic/Latino residents, highlighting the potential for eHDVs to reduce disproportionate and unjust air pollution and associated air-pollution attributable health burdens within historically marginalized populations. Heavy-duty vehicles are responsible for a substantial portion of road emissions from fossil-fuelled vehicles and cause harmful air pollution. Transitioning to electric heavy-duty vehicles would provide substantial health benefits, especially in Black and Hispanic/Latino urban neighbourhoods.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Air quality, health and equity implications of electrifying heavy-duty vehicles",
+            "twitter:description": "Nature Sustainability - Heavy-duty vehicles are responsible for a substantial portion of road emissions from fossil-fuelled vehicles and cause harmful air pollution. Transitioning to electric...",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41893-023-01219-0/MediaObjects/41893_2023_1219_Fig1_HTML.png",
+            "DOI": "10.1038/s41893-023-01219-0",
+            "size": "181527",
+            "journal_id": "41893"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41893-023-01219-0",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

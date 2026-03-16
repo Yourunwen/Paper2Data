@@ -1,0 +1,87 @@
+{
+    "id": "s42949-024-00165-w",
+    "title": "Indirect non-linear effects of landscape patterns on vegetation growth in Kunming City",
+    "journal": "npj Urban Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s42949-024-00165-w",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Landsat 5 and Landsat 8 surface reflectance imagery accessed via Google Earth Engine",
+            "Data_summary": "Multispectral Landsat satellite imagery used to create cloud free annual composites and to derive land cover classifications distinguishing built up land cropland unused land vegetated areas and waterbodies which then support urbanization intensity estimation and landscape pattern analysis.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: For each year cloud free Landsat5 or 8 images were composited through the Google Earth Engine platform GEE https developers google cn earth engine; Location: Methods Data sources; Confidence: high",
+            "Time_Coverage": "2001-2019",
+            "Geographic_Coverage": "China > Yunnan Province > Kunming",
+            "URL": "https://developers.google.com/earth-engine/datasets/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Author generated land cover maps for Kunming from Landsat classification",
+            "Data_summary": "Land cover raster maps produced by the authors from Landsat composites using supervised classification and a random forest classifier with five classes built up land cropland unused land vegetated areas and waterbodies used to compute urbanization intensity as built up fraction and to calculate class level landscape metrics.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The land cover maps were generated using Landsat images with a supervisory classification to assess changes in urbanization density and landscape patterns from 2001 to 2019; Location: Methods Data sources; Confidence: high",
+            "Time_Coverage": "2001-2019",
+            "Geographic_Coverage": "China > Yunnan Province > Kunming",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Google Earth digitized training samples for land cover classification",
+            "Data_summary": "Manually digitized training polygons in Google Earth following WUDAPT style guidance used as labeled reference data to train the random forest land cover classifier for mapping the five land cover classes.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The training data were digitized in Google Earth according to the guidelines https www wudapt org digitize training areas; Location: Methods Data sources; Confidence: high",
+            "Time_Coverage": "2001-2019",
+            "Geographic_Coverage": "China > Yunnan Province > Kunming",
+            "URL": "https://www.wudapt.org/digitize-training-areas/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Reconstructed Landsat NDVI 8 day time series dataset used in this study",
+            "Data_summary": "Per pixel NDVI time series at Landsat resolution reconstructed from Landsat observations using gap filling and Savitzky Golay filtering and then aggregated to annual mean NDVI per pixel to quantify vegetation growth and compute the NDVI UI relationship and urbanization induced indirect effects.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Landsat NDVI time series data 8 day composite in 30 m were reconstructed using Gap Filling and Savitzky Golay filtering method proposed by ref. 52 in GEE; Location: Methods Data sources; Confidence: high",
+            "Time_Coverage": "2001-2019",
+            "Geographic_Coverage": "China > Yunnan Province > Kunming",
+            "URL": "https://code.earthengine.google.com/3a883c9e84ad119045bcb88e4de77b47?noload=true/",
+            "ref": [
+                "ref-CR52"
+            ]
+        },
+        {
+            "Data_Name": "ASTER GDEMV2 digital elevation model",
+            "Data_summary": "Gridded digital elevation model used to filter out analysis grid cells with elevations far from the urban core average to reduce elevation driven differences in vegetation growth when modeling urbanization induced indirect effects.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: based on ASTER GDEMV2 digital elevation model data https www gscloud cn statistical units with elevation sizes lower or higher than 50 m above the average elevation of the urban core were excluded; Location: Methods Statistical analysis; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Yunnan Province > Kunming",
+            "URL": "http://www.gscloud.cn/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Global urban boundary data from PCL StarCloud",
+            "Data_summary": "Global urban boundary spatial dataset used to support identification or delineation of urban extent context for the study area and urbanization related analyses.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The global urban boundary data are available at http data starcloud pcl ac cn zh; Location: Data availability; Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global",
+            "URL": "http://data.starcloud.pcl.ac.cn/zh/",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:50.939704"
+    }
+}

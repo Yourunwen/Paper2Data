@@ -1,0 +1,41 @@
+{
+    "id": "s42949-024-00142-3",
+    "title": "The emergence of urban heat traps and human mobility in 20 US cities",
+    "journal": "npj Urban Sustainability",
+    "pdf_link": "https://www.nature.com/articles/s42949-024-00142-3",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "United States Surface Urban Heat Island database",
+            "Data_summary": "A spatially explicit census-tract-level dataset of surface urban heat indicators for US urbanized areas, providing Land Surface Temperature and derived Surface Urban Heat Island measures along with related environmental covariates such as elevation and vegetation indices. In this study it is used to assign each census tract an annual mean SUHI value, classify tracts into low and high urban heat exposure groups using quantile breaks, and support mapping and computation of heat trap, heat escape, and heat escalate trip ratios between tract groups.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [
+                61
+            ],
+            "Other_Information": "Evidence: The heat exposure data were obtained from the United States Surface Urban Heat Island database61; Location: Methods Data sources; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United States urbanized areas",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR61"
+            ]
+        },
+        {
+            "Data_Name": "Spectus formerly Cuebiq Device Location database",
+            "Data_summary": "An anonymized location intelligence dataset derived from opted-in smart devices and collected via multiple positioning signals, provided in an auditable environment and used here in aggregated form. In this study it supplies device-level location records used to infer each device home census tract from dwell times and to aggregate origin destination visit counts between home tracts and visitation tracts, forming monthly tract-to-tract mobility networks and trip totals used to calculate heat trap, escape, and escalate ratios.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data that support the findings of this study are available from Spectus but restrictions apply to the availability of these data which were used under license; Location: Extra_info Data availability; Confidence: high",
+            "Time_Coverage": "2020-02",
+            "Geographic_Coverage": "United States 20 metropolitan areas",
+            "URL": "https://spectus.ai",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:33.187239"
+    }
+}

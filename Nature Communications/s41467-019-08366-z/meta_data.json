@@ -1,0 +1,141 @@
+{
+    "id": "s41467-019-08366-z",
+    "title": "The evolution of human population distance to water in the USA from 1790 to 2010",
+    "journal": "Nature Communications",
+    "pdf_link": "https://www.nature.com/articles/s41467-019-08366-z",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Reconstructed historical human population distribution for the conterminous US model M5",
+            "Data_summary": "High spatial resolution gridded population distribution surfaces reconstructed from US decennial census information, providing estimated population counts or densities on a 1 km grid. The study overlays these gridded population maps with river, reservoir, aquifer, climate-zone, and basin-boundary layers to compute population density as a function of distance to major rivers and by aquifer type through time.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: For human settlement data we used the historical human population distribution previously reconstructed for the conterminous US24 based on the decennial census data; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "1790-2010",
+            "Geographic_Coverage": "USA > Conterminous United States",
+            "URL": "https://doi.org/10.6084/m9.figshare.c.3890191.v1",
+            "ref": [
+                "ref-CR24"
+            ]
+        },
+        {
+            "Data_Name": "US Census Bureau Decennial Census data",
+            "Data_summary": "Official US decennial census tabulations used as the underlying demographic source for the reconstructed historical gridded population product applied in this study.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we used the historical human population distribution previously reconstructed for the conterminous US24 based on the decennial census data; Location: Methods Data; Confidence: medium",
+            "Time_Coverage": "1790-2010",
+            "Geographic_Coverage": "USA > Conterminous United States",
+            "URL": "https://www.census.gov/history/www/programs/demographic/decennial_census.html",
+            "ref": [
+                "ref-CR23"
+            ]
+        },
+        {
+            "Data_Name": "National Hydrography Database Plus 1 to 100K",
+            "Data_summary": "Vector hydrography dataset of the US stream and river network at approximately 1 to 100K scale. The study uses it to represent river network geometry and stream order and to rasterize major-river coverage for Euclidean distance to major rivers computations.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we used river networks data from 1:100 K National Hydrography Database NHD Plus dataset http://www.horizon-systems.com/nhdplus/; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "USA > Conterminous United States",
+            "URL": "http://www.horizon-systems.com/nhdplus/",
+            "ref": []
+        },
+        {
+            "Data_Name": "Watershed Boundary Dataset two digit Hydrologic Unit Code region boundaries",
+            "Data_summary": "Administrative style hydrologic boundary polygons delineating major US drainage regions using the two digit HUC scheme. The study uses these boundaries to aggregate and compare human distance to rivers and related metrics across regions and to define analysis units for regional heterogeneity.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: USGS two-digit HUC Fig. 1c region boundary shapefile from Watershed Boundary Dataset http://nhd.usgs.gov/wbd.html; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "USA > Conterminous United States",
+            "URL": "http://nhd.usgs.gov/wbd.html",
+            "ref": []
+        },
+        {
+            "Data_Name": "Groundwater Resources Map of North America from WHYMAP",
+            "Data_summary": "Continental scale hydrogeologic map product characterizing groundwater resources including aquifer category and subcategories by recharge rate. The study overlays population grids on these aquifer polygons to compute mean population density by aquifer type and to analyze temporal changes in settlement attractiveness of groundwater resources.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: groundwater data from Groundwater Resources Map of North America developed in UNESCOs World-wide Hydrogeological Mapping and Assessment Program WHYMAP http://www.whymap.org; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "North America with analysis focused on USA > Conterminous United States",
+            "URL": "http://www.whymap.org",
+            "ref": [
+                "ref-CR32"
+            ]
+        },
+        {
+            "Data_Name": "Global River Widths from Landsat GRWL Database",
+            "Data_summary": "River width measurements derived from Landsat imagery for global rivers and streams. The study uses these widths to identify very wide rivers and to assign width values to corresponding NHD river segments within buffer zones, supporting major river coverage characterization.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We used river width data from Global River Widths from Landsat GRWL Database43 to characterize the coverage of rivers; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global with analysis focused on USA > Conterminous United States",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR43"
+            ]
+        },
+        {
+            "Data_Name": "Global Reservoir and Dam GRanD database version 1",
+            "Data_summary": "Geospatial inventory of reservoirs and dams including reservoir locations and associated attributes such as decade of construction. The study uses reservoir locations and build decades to update river proximity by accounting for reservoir driven changes in river coverage through time.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: adopted Global Reservoir and Dam GRanD database from Socioeconomic Data and Applications Center to reflect the dynamic river coverage and update the distance to rivers over time; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global with analysis focused on USA > Conterminous United States",
+            "URL": "http://sedac.ciesin.columbia.edu/data/set/grand-v1-dams-rev01",
+            "ref": []
+        },
+        {
+            "Data_Name": "US Army Corps of Engineers Navigable Waterway Network",
+            "Data_summary": "Geospatial polyline network of navigable waterways in the United States. The study uses it to support selection of the stream order threshold for defining major rivers based on navigation requirements.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We also used the waterway data from U.S. Army Corps of Engineers Navigable Waterway Network to help determine the threshold of stream order for major rivers; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "USA",
+            "URL": "http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/2014/polyline",
+            "ref": []
+        },
+        {
+            "Data_Name": "IPCC climate zone map derived from European Soil Data Center ESDAC",
+            "Data_summary": "Spatial climate classification map based on IPCC climate zones. The study uses this layer to stratify analyses by climate zone when testing how groundwater availability relates to population distribution.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: applied a climate zone map based on the IPCC classification derived from European Soil Data Center ESDAC to test the effect of groundwater in influencing human settlements; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "http://esdac.jrc.ec.europa.eu/projects/renewable-energy-directive",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Source Data file",
+            "Data_summary": "Tabular source data supporting the plotted values in the main and supplementary figures, provided as a downloadable file alongside the article. It is used to reproduce figure data rather than as a primary input to the spatial analysis.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Source Data are provided for Fig. 3 Fig. 4 and Supplementary Figs. 1 6 as a Source Data file; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "USA > Conterminous United States",
+            "URL": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-08366-z/MediaObjects/41467_2019_8366_MOESM2_ESM.xlsx",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:19:35.122914"
+    }
+}
