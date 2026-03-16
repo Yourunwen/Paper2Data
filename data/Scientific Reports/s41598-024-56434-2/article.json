@@ -1,0 +1,1166 @@
+{
+    "id": "s41598-024-56434-2",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "title": "Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China",
+    "legal_title": "Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China",
+    "publish_time": "2024-03-11",
+    "pdf_link": "https://www.nature.com/articles/s41598-024-56434-2",
+    "storage_path": "./Articles/Scientific Reports/2024-article/s41598-024-56434-2/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Global climate change associated with increased carbon emissions has become a global concern. Resource-based cities, by estimations, have emerged as major contributors to carbon emissions, accounting for approximately one-third of the national total. This underscores their pivotal role in the pursuit of carbon neutrality goals. Despite this, resource-based cities have long been neglected in current climate change mitigation policy discussions. Accordingly, using exploratory spatial data analysis and Geographical Weighted Regression method, this study investigates the determinants of carbon emissions and their spatial pattern in 113 resource-based cities in China. It can be concluded that: (1) The proportion of carbon emissions from resource-based cities in the national total has shown a marginal increase between 2003 and 2017, and the emissions from these cities have not yet reached their peak. (2) A relatively stable spatial pattern of “northeast high, southwest low” characterizes carbon emissions in resource-based cities, displaying significant spatial autocorrelation. (3) Population size, economic development level, carbon abatement technology, and the proportion of resource-based industries all contribute to the increase in carbon emissions in these cities, with carbon abatement technology playing a predominant role. (4) There is a spatial variation in the strength of the effects of the various influences.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Climate change, stemming from heightened carbon emissions, presents substantial implications for economic growth and social development, making it a global concern1. China's energy consumption has generally exhibited a high-rise trend due to the steady progress of urbanization and industrialization, which has provoked considerable international attention2,3. As stated by the International Energy Agency, surpassing the United States in 2007, China has become the top emitter in the world, responsible for about one-third of the world's total carbon emissions. Faced with escalating international pressure for carbon emissions reduction, China is confronted with significant challenges to reduce its carbon footprint. In response to this, China has pledged to peaking its carbon emissions by 2030 and reaching carbon neutrality by 2060.\nResource-based cities (RBCs) are cities whose primary economic activity is the extraction and processing of local natural resources4,5. Endowed with abundant natural resources, these cities have long played the role of resource and energy supply base for the region and even the country6,7,8. However, according to the \"Carbon Curse\" theory, fossil fuel endowment is highly related to high carbon emissions9. Under comparable conditions, carbon-intensive development is more likely to occur in regions with abundant fossil fuel resources. Estimations indicate that RBCs have become the region with the largest carbon emissions10, emitting around one-third of the total national carbon emissions. In this context, the low-carbon transformation of RBCs is of critical significance in terms of achieving the “30/60” dual carbon goal. Despite their crucial role, current discussions on climate change policies have consistently overlooked resource-rich regions9. While a great deal of attention has been paid to the differences between established and emerging economies, the differences between resource-rich regions and resource-poor regions have been neglected. Further, the distinctive social and economic circumstances of resource-rich regions, such as RBCs, pose challenges for the effective implementation of carbon reduction policies designed for more conventional regions. Therefore, resource-rich regions, such as RBCs, require special attention. Studying the factors that affect carbon emissions in RBCs can help better understand resource-rich regions and the barriers they must overcome in carbon reduction work. By taking these steps, we will be able to direct the climate debate in a more constructive direction and better appreciate the challenges inherent in global carbon reduction.\nPopulation, economy, technology, and industry all contribute to urban carbon emissions. In the 1990s, Engelman11 observed a parallel growth rate between global population and carbon emissions, sparking the hypothesis that population growth is a key factor driving the increase in global carbon emissions. Since then, increasing numbers of scholars have examined the relationship between population and carbon emissions12,13, finding that the expansion of population size results in an increase in carbon emissions by expanding production and consumption activities14. The discourse on the relationship between economic development and environmental protection has persisted for years. Because economic entities around the world rely heavily on fossil fuels to promote economic growth and meet the increasing demand for population growth15, economic growth has become one of the contributing factors to the rise in carbon emissions16,17. However, the relationship will revert once economic development arrives at a certain level, due to advancements in technology and industrial structure18,19. Technological innovation is considered paramount in reducing carbon emissions20,21,22. The innovation of related new energy, materials and processes can effectively reduce the carbon emissions of the energy industry in the production process23,24,25,26. However, the impact of technology on carbon emissions has both a direct and scale effect27. The enhancement of energy utilization efficiency enables innovative technologies to negatively influence carbon emissions28. This is referred to as the “direct effect”. Meanwhile, technological innovation can also promote the growth of economic scale and output level, increasing energy consumption and finally causing the rise of carbon emissions29, which is the “scale effect”. Industrial development stands as another factor influencing carbon emissions30. Multiple studies have explored the significance of various industrial sectors, such as the transport sector31, the garment sector32, and the building sector 33, on carbon emissions. Although several studies have explored the impact of mining on carbon emissions, most have focused on the influence of coal obtained from mining as an energy source rather than the coal mining processes themselves. Furthermore, even less attention has been paid to the impact of the dependence of urban economic development on the mining industry on urban carbon emissions.\nFollowing the above analysis, we propose to address the following three questions: (1) What constitutes the spatial pattern of carbon emissions in RBCs, and does this pattern exhibit temporal variations? (2) In what manner do population, economy, technology, and industry affect the carbon emissions of RBCs? (3) What spatial pattern characterizes the impacts of these factors, and does this pattern undergo alterations over time?\nBased on these questions, this study aims to have the following four objectives and contributions: (1) This paper supplements the research gap in the existing study by including resource-rich regions in the field of carbon emissions for the first time. (2) Incorporating spatial heterogeneity and spatial dependence into the classical linear model, this study deeply explores how various factors affect Chinese RBCs’ carbon emissions, what spatial patterns their intensity exhibit and what are the reasons for formation. (3) By including the proportion of resource-based industries variables as potential drivers of carbon emissions, we examine the impact of the dependence of urban economic development on the mining industry on urban carbon emissions for the first time. Even though several studies have revealed that industrial structure can have a direct or indirect effect on carbon emissions, few studies have incorporated resource-based industries into their analyses. It is the first time that the dependence of urban economic development on resource-based industries is taken as an influencing factor.\nThe remaining part of this paper is organized as follows. Section “Literature review” is a literature review. The methodology and data are presented in Section “Methodology”. Section “Empirical analysis” provides a detailed analysis of the spatial and temporal patterns of carbon emissions from China’s RBCs as well as their influencing factors. Section “Conclusions” offers conclusions of the research and proposes possible extensions for future research.",
+            "cites": [
+                "ref-CR15",
+                "ref-CR24",
+                "ref-CR4",
+                "ref-CR10",
+                "ref-CR13",
+                "ref-CR18",
+                "ref-CR30",
+                "ref-CR19",
+                "ref-CR12",
+                "ref-CR29",
+                "ref-CR31",
+                "ref-CR16",
+                "ref-CR32",
+                "ref-CR6",
+                "ref-CR11",
+                "ref-CR9",
+                "ref-CR8",
+                "ref-CR27",
+                "ref-CR17",
+                "ref-CR20",
+                "ref-CR2",
+                "ref-CR26",
+                "ref-CR5",
+                "ref-CR28",
+                "ref-CR33",
+                "ref-CR22",
+                "ref-CR25",
+                "ref-CR21",
+                "ref-CR1",
+                "ref-CR14",
+                "ref-CR7",
+                "ref-CR3",
+                "ref-CR23"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Literature review",
+            "text": "With the introduction of the carbon emission reduction target, carbon emissions have become a hot topic in research. Current studies cover various aspects, including the calculation of total amount34, footprint35, intensity36,37, and carbon efficiency performance38,39, as well as the investigation of factors affecting them40,41 and the spatial and temporal patterns of change42,43.\nOver the past several years, increasing attention has been drawn to the issue of carbon emissions and the influence they exert on the environment. This has led to a surge in research efforts aimed at understanding the spatial distribution of carbon emissions across different regions and countries. Overall, researchers have primarily focused on studying the spatial difference in carbon emissions by using administrative units such as countries, regions, provinces, cities, and counties. Studies at the country level have revealed that the Asia–Pacific Rim region exhibits dense carbon emissions44. Furthermore, the difference between national groups has been identified as the main reason for the formation of the differences in the intensity of carbon emissions across countries45. At the regional level, studies have demonstrated noteworthy spatial disparities in China's carbon emissions46,47. However, the source of these differences, whether they arise within or between the four major regions, remains undefined48,49,50. Similar findings have been reported at the provincial level51,52,53. China's carbon emissions show a pattern of \"lower in the south and east and higher in the north and west\"52, with high-value regions located in the eastern and southern provinces54. However, the difference in carbon emissions between provinces appears to be decreasing51,52. This conclusion has also been confirmed in research at the municipal scale37,41,42,55. As township-level data becomes crucial for understanding China's economic growth, recent research priorities have shifted towards this level. Some studies have observed a substantial spatial polarization effect of per-capita carbon emissions at the township level, together with significant spatial autocorrelation and a spatial distribution characterized by \"high in the north and low in the south\"56. In mainstream academic research, various methods are commonly used, including standard deviation ellipse, Theil indices, Gini coefficient, Atkinson index, variance, variance coefficient, convergence theory, and spatial autocorrelation model.\nThe factors affecting carbon emissions are diverse and complex. Researchers have engaged in the investigation of these factors using various methodologies, including the IPAT model, STIRPAT model, input–output analysis, structural decomposition analysis, LMDI factor decomposition analysis, and geographical detector.\nAt the national scale, Xv et al.57 examined factors influencing China's carbon emissions using the LMDI method. Their research revealed that carbon emissions are negatively impacted by energy structure and energy efficiency while being positively influenced by economic growth. However, while improvements in energy efficiency and energy structure can reduce carbon emissions, they cannot counterbalance the rise in carbon emissions resulting from economic development57. Sadorsky et al.58 discovered that urbanization can both positively and negatively impact carbon emissions, which often complement one another. Accordingly, urbanization barely affects carbon emissions on a statistical basis58. Taking countries in the Association of Southeast Asian Nations (ASEAN) as examples, Chontanawat et al.59 utilized the extended IPAT model to decompose carbon emissions and discovered that population and economic growth are the key players in the surge of carbon emissions observed in these countries, while improvements in energy efficiency and reduced carbon intensity serve as a restraint on carbon emissions growth59. Cheng et al.60 researched 35 OECD countries using a panel data quantile regression model. The results suggested that technological innovation can significantly mitigate the rise of carbon emissions associated with economic growth, confirming the Environmental Kuznets Curve (EKC) hypothesis60.\nAt the provincial scale, Lantz et al.61 selected five Canadian regions as case sites. Through analyzing data from 1970 to 2000, they confirmed an inverted U-shaped relationship between population size and carbon emissions61. In a related study by Cheng et al.62, the spatiotemporal patterns of China's energy consumption and carbon emissions intensity are found to be influenced by several factors, including energy intensity, energy structure, industrial structure, and urbanization rate. To examine how social and economic factors affect carbon emissions at the provincial level in China, Li et al.63 utilized the Geographically Weighted Regression (GWR) model in their research, finding that carbon emissions intensity, per capita GDP, and per capita total social investment are all contributors to per capita carbon emissions. A related study by Zhang et al.64 found that urbanization impacts carbon emissions either positively or negatively based on the region, which is further confirmed in the research conducted by Wang et al.65. The complexity of the relationship between urbanization and carbon emissions can be attributed to the fact that the type of energy used in industry and housing has a great effect on urbanization's impact on carbon emissions64,65.\nAt the municipal scale, a geographical detector was used by Wang et al.10 to examine the driving factors of carbon emissions in China and determined that energy intensity is the dominant factor that contributes to spatial heterogeneity in carbon emissions among RBCs and northern cities. The urban economic size of non-resource-based cities and southern cities plays a substantial role in the spatial heterogeneity of carbon emissions10. A study conducted by Wang et al.42 demonstrated that economic growth, population expansion, industrial structure, and capital investment all positively influence per capita carbon emissions in Chinese cities and that per capita carbon emissions are correlated with economic development in an inverted U-shape.\nIn recent years, academic research has gradually shifted its focus to the municipal scale. Wang et al.56 expanded the STIRPAT theoretical framework and introduced the EKC hypothesis into their research, using a panel quantile regression model to explore how social and economic factors, such as population density, government public expenditure, and the size of the second industry output, influence per capita carbon emissions at the municipal scale. They confirmed that population density and government public expenditure have a suppressive effect on per capita carbon emissions, while the size of the second industry output has a promoting effect56. Overall, carbon emissions are profoundly impacted by population size, the level of economic development, energy consumption, industrial structure, and urbanization level. However, these factors interact in a complicated manner, and their impacts on carbon emissions vary across scales, geographic regions, and time.\nGenerally speaking, researchers have contributed significantly to the field of carbon emissions, laying the groundwork for this article. However, existing studies generally focus on the investigation of geographic units at various scales, including national, regional, provincial, city, and town levels, but have not yet addressed special types of cities, such as resource-rich regions.",
+            "cites": [
+                "ref-CR38",
+                "ref-CR56",
+                "ref-CR57",
+                "ref-CR10",
+                "ref-CR48",
+                "ref-CR60",
+                "ref-CR64",
+                "ref-CR44",
+                "ref-CR41",
+                "ref-CR42",
+                "ref-CR45",
+                "ref-CR55",
+                "ref-CR59",
+                "ref-CR39",
+                "ref-CR40",
+                "ref-CR36",
+                "ref-CR62",
+                "ref-CR65",
+                "ref-CR34",
+                "ref-CR49",
+                "ref-CR54",
+                "ref-CR61",
+                "ref-CR58",
+                "ref-CR37",
+                "ref-CR52",
+                "ref-CR43",
+                "ref-CR63",
+                "ref-CR46",
+                "ref-CR50",
+                "ref-CR51",
+                "ref-CR47",
+                "ref-CR35",
+                "ref-CR53"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methodology",
+            "text": "### Research area\nResource-based cities, which take natural resources mining and processing as leading industries, play a critical role in securing China's strategic energy supply. As stated by the National Sustainable Development Plan for Resource-based Cities (2013–2020), China has 262 RBCs. These include 126 prefectures of the People's Republic of China (prefecture-level cities, regions, autonomous prefectures, and unions), 62 county-level cities, 58 counties (autonomous counties, forest regions, etc.), and 16 municipal districts (development zones, management zones). Following the study purpose and data availability, 113 prefecture-level cities were chosen for the study (the remaining cities have severe data deficiencies). The following is an overview map of the research area (see Fig. 1).\n### Research methods\n#### Exploratory spatial data analysis\nSpatial data autocorrelation characteristics can be analyzed by exploratory spatial data analysis, which incorporates adjacent variables and associates specific variables with their location. In this study, we adopted Moran’s I index to examine the spatial autocorrelation of carbon emissions in China’s RBCs. Equation (1) shows the formula:\nwhere \\(I\\) denotes global Moran’s \\(I\\); \\({x}_{i}\\) and \\({x}_{j}\\) denote observed carbon emissions in city \\(i\\) and city \\(j\\), respectively; \\({w}_{ij}\\) represents the spatial weight matrix; \\(n\\) is defined as the number of samples. The range of Moran’s \\(I\\) value is -1 to 1. If the value of Moran’s \\(I\\) exceeds 0, there is a positive spatial correlation. In this context, spatial clustering is more significant at higher values. When the value of Moran’s \\(I\\) is smaller than 0, there is a negative spatial autocorrelation, and a smaller value indicates a greater degree of spatial dispersion. Otherwise, the spatial correlation effect does not exist when the value is 0.\nHowever, the global Moran’s \\(I\\) index only takes into account the overall characteristics of clustering, ignoring the spatial relationships between neighboring regions on a local scale. Therefore, Moran’s \\(I\\) index and Moran scatter plot were used to reveal the spatial clustering characteristics of carbon emissions in local areas. The formula is shown in Eq. (2):\nwhere  \\({I}_{i}\\) denotes local Moran’s \\(I\\); \\({x}_{i}\\) and \\({x}_{j}\\) denote observed carbon emissions in city \\(i\\) and city \\(j\\), respectively; \\({w}_{ij}\\) represents the spatial weight matrix; \\(n\\) is the number of samples.\n#### Geographically weighted regression (GWR) model\nGiven that the geographical coordinates of the data are integrated into the regression parameters of a GWR model, it is particularly suitable for analyzing spatial phenomena with spatial non-stationarity. A variation of the parameters of the model is facilitated when local geographical coordinates are changed, which allows the spatial relationship between observations of carbon dioxide emissions and the factors influencing them to be revealed. The GWR model can be shown in Eq. (3):\nwhere  \\({I}_{i}\\) denotes local Moran’s \\(I\\); \\({x}_{i}\\) and \\({x}_{j}\\) denote observed carbon emissions in city \\(i\\) and city \\(j\\), respectively; \\({w}_{ij}\\) represents the spatial weight matrix; \\(n\\) represents the number of samples.\n### Data resource\nThe prefecture-level carbon emissions data spanning from 1997 to 2017 were compiled by consolidating county-level data extracted from the CEADs database34, which calculates emissions based on the consumption principle. Data on the permanent population, per capita gross domestic product, the number of miners, and the number of workers in the first, second, and third industries were compiled from China's Urban Statistical Yearbook. In addition, Statistical Bulletins on National Economic and Social Development from various cities were adopted to supplement the missing data. Further, to eliminate the effect of price factors, the normal per-capita GDP data were converted into constant prices in 2003 using the GDP deflator index.",
+            "cites": [
+                "ref-CR34"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Empirical analysis",
+            "text": "### An analysis of Chinese RBCs’ spatial and temporal characteristics of carbon emissions\n#### Time evolution characteristics\nFrom 2003 to 2017, the total carbon emissions from RBCs increased from 1223.49 × 106t to 2889.81 × 106t, with their proportion in total carbon emissions slightly rising from 32.66% to 33.87%. There has been a fluctuating upward trend in total carbon emissions of RBCs, with a total growth rate of 136.19% and an annual growth rate of 6.53%. Specifically, the growth rate of carbon emissions of RBCs showed a characteristic shift from high levels before 2011 to lower levels thereafter (see Fig. 2). From 2003 to 2011, RBCs’ carbon emissions increased rapidly, expanding at an average annual rate of 11.16 percent. However, since 2011, there has been a noticeable deceleration in carbon emissions, with an average growth rate of merely 0.34% annually. The year 2011 marked the introduction of the Twelfth Five-Year Plan on Energy Conservation and Emission Reduction was issued. This plan, aimed at reducing greenhouse gas emissions, established pilot projects for carbon emissions trading and implemented mechanisms for voluntary carbon reduction. These initiatives likely contributed to the significant slowdown in the rise of carbon emissions from RBCs since 2011.\nIn comparison with non-resource-based cities, RBCs experienced higher growth from 2003 to 2013, but a lower growth rate from 2014 to 2017 (see Fig. 3). This suggests that, after 2013, within the national framework for reducing carbon emissions, RBCs have exhibited a greater decrease in their carbon emissions and garnered superior carbon reduction outcomes than non-resource-based cities. In the Sustainable Development Plan for National Resource-Based Cities (2013–2020), the State Council classifies RBCs into four types based on their resource availability and sustainable development capabilities. According to the plan, each type of city has a specific development direction and important tasks, and various cities will be guided to explore unique development models that reflect their particular strengths. This marked the official launch of the transformation of RBCs in China. The transformation of economic development models in RBCs is a possible explanation for the greater reduction in their carbon emissions after 2013 compared to non-resource-based cities.\nAs illustrated in Fig. 2, RBCs’ carbon emissions entered a plateau in 2011 and peaked in 2014. To test whether RBCs have achieved “Peak Carbon Dioxide Emissions”, a Mann–Kendall trend test was utilized to estimate the tendency of carbon emissions over time. The results are presented in Table 1. The Z value is significantly greater than 0, whereas the P value is 3.23 × 10–5. In light of this, we can conclude that the carbon emissions of RBCs in China have not yet peaked and that further increases are still possible.\nRBCs in Central China were the largest emitters, comprising a substantial proportion of overall carbon emissions from RBCs (see Fig. 4). Despite this, carbon emissions from these cities have decreased slightly in recent years, from 35% in 2003 to 32% in 2017. RBCs in Northeast China accounted for the lowest share of carbon emissions, and this share has decreased over time, from 19% in 2003 to 17% in 2017. This may be related to the decline in traditional industries in Northeast China30. Moreover, RBCs in Eastern China produced relatively stable carbon emissions during the period 2003–2017. Nevertheless, the share of carbon emissions from RBCs in Western China increased from 21 to 26%. As a whole, RBCs in Central and Western China emitted significantly more carbon dioxide than RBCs in Eastern and Northeast China combined, with their contribution to total RBCs’ carbon emissions in China increasing over time.\nOver the period 2003 to 2017, mature RBCs accounted for the majority of carbon emissions, exceeding 50% (see Fig. 5). However, recently, the share of carbon emissions from mature RBCs has decreased, from 56% in 2003 to 52% in 2017. The share of carbon emissions generated by growing RBCs was the lowest, but it has shown a gradually increasing trend in recent years and has surpassed declining RBCs in 2007 to become the third leading source of carbon emissions among RBCs. The combined proportion of carbon emissions in regenerative RBCs and declining RBCs were relatively stable, ranging from 20 to 22% and 12% to 14%, respectively.\n#### Spatial association characteristics\nWe utilized Theil indices to investigate the spatial disparities in carbon emissions across RBCs. Results demonstrate (see Fig. 6) that the Theil indices of carbon emissions among RBCs were significantly below the national average and also below those of non-resource-based cities. However, contrary to the trend of non-resource-based cities, there has been a gradual increase in the differences in carbon emissions among RBCs from 2003 to 2017.\nA spatial characteristic of \"high emissions in the northeast and low emissions in the southwest\" was observed in China's RBCs, with the highest values concentrated in Inner Mongolia, Shaanxi, Shanxi, and the northeast region of the country (see Fig. 7). All RBCs have exhibited a rise in carbon emissions over time, with inner Mongolia, Shaanxi, Shanxi, and the three northeastern provinces displaying a particularly prominent trend. This is related to the increasing activities of extraction and processing of coal, oil, and gas in these resource-rich regions.\nUsing local Moran’s \\(I\\) index and Moran scatter plots, this paper tested for spatial correlation of carbon emissions among RBCs to examine further clustering characteristics and trends (see Fig. 8).\nDuring the sample period, a clear spatial autocorrelation existed among RBCs in China, as evident from the global Moran's I index of carbon emissions from RBCs. This index exceeded zero between the years 2003 and 2017, indicating high statistical significance. It should be noted that as time progressed, the global Moran's I index decreased, from 0.409 in 2003 to 0.389 in 2017, which implies a slight reduction in spatial autocorrelation.\nAs the global Moran's I index can only investigate the presence of spatial autocorrelation from a global perspective and ignores the potential instability of spatial processes, further examination of local autocorrelation is required. We adopted the LISA agglomeration figure and Moran scatter plot to analyze the local autocorrelation characteristics of carbon emissions from RBCs (see Fig. 8). From 2003 to 2017, \"low-low\" and \"high-high\" clustering were the most common type of local spatial autocorrelation among RBCs in China. High-value cluster zones were found in the northern part of Shanxi Province, the central and southern parts of Shaanxi and Inner Mongolia Provinces, while low-value cluster zones were scattered in provinces such as Gansu, Sichuan, Jiangxi, and Anhui (see Fig. 8). According to the classification of RBCs based on resource type66, it can be found that high-value cluster zones are areas where RBCs with abundant fossil energy resources are concentrated, while low-value cluster zones tend to occur in areas adjacent to RBCs with abundant resources of ferrous and nonferrous metals. Therefore, the dominant resource type and the type of adjacent cities may have a close relationship with the city's carbon emissions, which is one of the main reasons for the occurrence of high-value and low-value cluster zones.\nDuring the period under review, the spatial autocorrelation of carbon emissions from RBCs did not change significantly. Overall, only the number of high-value cluster zones experienced significant changes. High-value cluster zones were concentrated in the vicinity of the three provinces of Shaanxi, Shanxi, and Inner Mongolia, and their number increased over time. This region is the largest energy production base in China. Since 2006, the State Energy Administration of China has approved the construction of multiple large coal production and development bases there. Consequently, coal production in Shaanxi, Shanxi, and Inner Mongolia increased by 121.28% from 2006 to 2017, and total coal production contributed 71.38% of total national output in 2020. Coal production, power generation, and chemical fertilizer production have all increased total carbon emissions in RBCs located in these provinces, creating an expanding area of spatial autocorrelation that is \"high-high\".\n### Analysis of the contributors of carbon emissions in Chinese RBCs\n#### Comparative analysis of fitting results\nBased on existing research, this article examines the factors influencing carbon emissions in Chinese RBCs from four perspectives: population, economy, industry, and technology (see Table 2). One of the major contributors to the rise of carbon emissions is population growth. By increasing production and consumption, population growth contributes to carbon emissions. It was therefore decided to adopt the permanent population at the end of a year as a representative of the population size14. Improvement in socio-economic development level can affect regional carbon emissions by promoting changes in production patterns, technical levels, and consumption concepts. To evaluate the influence of economic factors on carbon emissions, per capita GDP was employed. Industrial development is the main source of carbon emissions due to energy consumption30. For RBCs, as resource-based industries are the key support industry for urban development, they are the most outstanding characteristic of RBCs, compared to other cities. Therefore, the proportion of resource-based industries was used to represent the industrial factor. To determine the proportion of resource-based industries, the ratio of mining workers to the total number of workers in the first, second, and third industries was used. Further, enhancing energy efficiency can effectively reduce carbon emissions67. Limited by data acquisition at the municipal level, this article referred to existing research56,68,69 and selected carbon intensity as the characteristic indicator of carbon abatement technology. In the city with a smaller value, there is a higher level of carbon abatement technology.\nAs indicated by the spatial autocorrelation analysis discussed earlier, RBCs’ carbon emissions exhibit a distinct spatial clustering pattern, which indicates that the relationship between carbon emissions from RBCs and multiple contributors does not satisfy the requirement for independence between regions outlined in Ordinary Least Squares (OLS). Furthermore, RBCs in China display significant differences in resource endowment, development stage, terrain conditions, and spatial positioning. The degree to which various factors affect carbon emissions may vary greatly among resource-based industries, development stages, and spatial locations in RBCs. Therefore, it is necessary to introduce spatial diversity and spatial dependence to modify the classical linear model. The expression can be obtained as follows:\nwhere \\({\\left({CO}_{2}\\right)}_{i}\\) is the carbon emissions in city \\(i\\); \\({x}_{ik}\\) is the independent variable \\(x_{k}\\) in city \\(i\\); \\(\\left( {\\mu_{i} ,v_{i} } \\right)\\) denotes the location of city \\(i\\); \\(\\beta_{k} \\left( {\\mu_{i} ,v_{i} } \\right)\\) represents the estimated parameter for independent variable \\(x_{k}\\) at city \\(i\\); \\(\\varepsilon_{i}\\) is the random error.\nAdaptive spatial kernel regression was used as the basis for this study. The AICc method was used to select a Gaussian model to calculate the optimal bandwidth of the GWR model. A comparison study was conducted on data from different years of RBCs to establish models. Lower AICc values and higher adjusted R2 values indicate better performance and accuracy for a model. The results for 2003, 2007, 2012, and 2017 are presented in Table 3. As shown in Table 3, the AICc values and adjusted R2 values of the OLS models and the GWR models are relatively high (see Table 3), indicating that various factors provide high explanation power for the carbon emissions of RBCs. Compared to OLS, the GWR model exhibits lower AICc values and higher adjusted R2 values, indicating superior fit quality and model performance, attributed to its consideration of spatial heterogeneity.\n#### Analysis of the relationship between population size and carbon emissions\nSignificant spatial differences are evident in the effects of population size on carbon emissions in RBCs (see Fig. 9). The positive correlation between population size and carbon emissions, as depicted in Fig. 9, suggests that an increase in population size is associated with a rise in carbon emissions. During the study period, RBCs exhibited a pattern where the magnitude of the population size regression coefficient initially increased and then decreased, suggesting that the sensitivity of carbon emissions to changes in population size increased and then decreased over time. Concerning spatial distribution, population size regression coefficients showed a trend toward an increase in spatial distribution from south to north. Moreover, population size impact coefficients in RBCs displayed more rapid variations in northern regions over time, indicating heightened sensitivity to population changes in these cities.\n#### Analysis of the relationship between the level of economic development and carbon emissions\nEconomic development has significantly increased carbon emissions in RBCs, with a spatially differentiated impact degree (see Fig. 10). Except for RBCs in the northeast region, the regression coefficient values for the economic development level in each RBC decreased gradually over time. This trend indicates that while economic growth in RBCs continued to be associated with an increase in carbon emissions, the amount of carbon dioxide produced per unit of GDP per capita has decreased in recent years. There was a gradual shift away from energy-intensive or highly polluting production patterns in RBCs. Since 2012, the influence of economic development on carbon emissions has increased in RBCs situated in the northeast region. It can be concluded that the carbon emissions generated by each unit of per capita GDP increased, suggesting that RBCs in this region did not have a favorable transformation effect.\nIn 2003, the regression coefficient for economic development levels followed a latitudinal pattern, increasing from north to south. By 2007, this pattern shifted to 'higher along the coast and lower inland,' and further evolved to 'lower along the coast and higher inland' by 2012 (see Fig. 10). This transformation can be attributed to the declining impact of economic growth on carbon emissions in the east coastal regions, contrasting with a slower reduction observed in central China compared to other areas. It suggests that RBCs in central China have more rapidly shifted away from the growth model that prioritizes profit over the environment. Additionally, studies indicate regional variations in China's circular economy development, showing a gradual decline in the East, Central, and West regions. As anticipated, the development level of the circular economy in the East was higher70,71, providing further confirmation of the above hypothesis. China's industrial transfer policy, initiated in 2010 with the 'Guiding Opinions of the State Council on Undertaking Industrial Transfer in the Central and Western Regions,' accelerated the shift of industries from the eastern coastal regions to the central and western regions. Leveraging abundant resources, low factor costs, and substantial market potential, the central and western regions actively embraced industrial transfers. Research suggests that outward industrial transfer negatively impacts carbon emissions in the transferring regions72. Conversely, recipient regions experience an increase in provincial carbon emissions. While acknowledging potential carbon reduction in the eastern regions due to technological advancements and enhanced environmental awareness accompanying industrial transfers, a comparative analysis of carbon emissions in different geographic and industrial transfer zones reveals an overall increase in carbon emissions in recipient areas72. Therefore, China's industrial transfer policy may be another key factor contributing to the significant reduction in the impact of the economic development level on carbon emissions in the eastern coastal regions in 2012.\n#### Analysis of the relationship between carbon abatement technology and carbon emissions\nCarbon abatement technology emerges as the predominant factor influencing carbon emissions in RBCs, exhibiting a negative impact on emissions (see Fig. 11). The absolute values of the regression coefficients of carbon abatement technology proficiency in each RBC are much higher than those of other factors, showcasing a growing trend over time. This underscores the increasing significance of carbon abatement technology in shaping RBCs' carbon emissions, with its impact intensifying over the years. In addition, it should be noted that the influence of carbon abatement technology on carbon emissions in RBCs is spatially heterogeneous, exhibiting a stable spatial pattern, with carbon emissions being \"high in coastal areas and low in inland areas\". The emergence of such a spatial pattern is predominantly a result of the unbalanced and inadequate development of carbon abatement technology capabilities in different regions of China. Especially in high-tech areas where advanced carbon abatement technology is used, technology plays a more significant role in carbon reduction. Research confirms that China's coastal provinces, driven by higher economic development, greater openness, and substantial investment in research and development, have matured their carbon abatement technology more effectively73. Consequently, the development of technology in coastal RBCs has proven more effective at reducing carbon than those in inland RBCs.\nSpecifically, from 2003 to 2017, the significance of carbon abatement technology in RBCs in the southeastern and northeastern regions of China increased rapidly, and even more rapidly than other RBCs. This means that during this period, the advancement of carbon abatement technology in these regions increased more rapidly. Environmental regulations are of great significance in promoting environment-biased and energy-biased technological progress74. Since the dawn of the twenty-first century, environmental regulations in the Northeastern region have entered an optimization stage. Strategic initiatives, such as the Strategy to Revitalize the Old Industrial Bases in China's Northeast, revitalized the old industrial base and provided a new historical mission to the region. During this stage, there has been continuous improvement in environmental regulations in the Northeastern region, with a significant increase in the number of regulations and comprehensive coverage of various fields related to environmental pollution and ecological destruction. According to statistics, from 2000 to 2018, the number of environmental regulations and policies adopted by the Heilongjiang, Jilin, and Liaoning provinces respectively accounted for 96.0%, 92.0%, and 95.3% of the total number of environmental regulations and policies adopted since 197275. The optimization of environmental regulations was driving rapid progress in carbon abatement technology in RBCs in the northeast region, allowing these technologies to play a more important role.\n#### Analysis of the relationship between the proportion of resource-based industries and carbon emissions\nIn comparison with other factors, the proportion of resource-based industries have the second greatest impact on carbon emissions. There is spatial heterogeneity in the effects of the proportion of resource-based industries on carbon emissions in RBCs (see Fig. 12). During the period 2003 to 2007, the proportion of resource-based industries impacted carbon emissions with a spatial pattern of \"low in the coastland and high in the hinterland\", which is in general aligned with the spatial characteristic of economic development in China. Over the last few decades, the eastern coast of China has been a leading force in reform and opening up, fostering strong connections with other nations, and experiencing relatively high economic development. As a result, the spatial distribution in the extent of the impact of resource-based industries, shown in Fig. 12, is primarily a result of the more diverse industrial structure of RBCs along the eastern coast, which has a lower proportion of resource-based industries compared to regions inland. Thus, in the eastern coastal RBCs, the share of resource-based industries had a lesser effect on carbon emissions. Moreover, since 2012, the effect of the proportion of resource-based industries on carbon emissions in RBCs has shifted to a spatial characteristic with \"low in the northeast and high in the southwest\". The reason for the occurrence of this transition is the slower growth rate of resource-based industries in RBCs in southeastern coastal areas than in other RBCs. As previously mentioned, renewable energy technologies, energy-saving technology in energy-intensive industries, and residential energy technologies in the southeastern coastal areas of China are more advanced and rapidly developing72. Therefore, despite the expansion of resource-based industries in southeastern coastal RBCs, the impact of these industries on carbon emissions was slowing down due to the progress of energy technologies.\n#### Summary\nIn summary, the factors of population size, economic development level, technical capabilities for carbon reduction, and the proportion of resource-based industries all interact and synergistically affect carbon emissions in RBCs. Among these factors, technical capability for carbon reduction is the dominant factor affecting carbon emissions in RBCs, followed by the proportion of resource-based industries. The economic development level has the weakest impact on carbon emissions. This illustrates how energy and carbon abatement technologies are becoming increasingly important in the reduction of carbon emissions. Despite their limited impact, there is a gradual shift away from energy-intensive or highly polluting production patterns in RBCs.\nSpatially, a significant spatial difference was observed in the degree to which each factor affected carbon emissions, during the study period. The impact of population size increased from south to north, while the impact of technical capabilities for carbon reduction showed a stable \"coastal high—inland low\" spatial pattern. Influenced by the development of RBCs in the southeastern coastal region, there were changes in the spatial pattern of the effect of the level of economic development, the proportion of resource-based industries, and energy consumption on carbon emissions: the effect of the level of economic development on carbon emissions has shifted spatially from the \"south high—north low\" pattern to the \"west high—east low\" and \"northwest high—southeast low\" pattern; the effect of the proportion of resource-based industries shifted from \"coastal low—inland high\" to \"northeast low—southwestern high\". Therefore, over the study period, the alternations in the spatial differentiation of the effect of each factor on carbon emissions can be predominantly attributable to the development of RBCs in the southern coastal region. In summary, during the study period, RBCs located in the southeastern coastal region of China made more significant advances in the innovation of energy and carbon abatement technologies and were able to overcome the growth model that sacrifices the environment for profit more quickly, but the effectiveness of these technologies remained limited and needs to be further improved.",
+            "cites": [
+                "ref-CR14",
+                "ref-CR56",
+                "ref-CR71",
+                "ref-CR67",
+                "ref-CR73",
+                "ref-CR66",
+                "ref-CR68",
+                "ref-CR69",
+                "ref-CR72",
+                "ref-CR30",
+                "ref-CR75",
+                "ref-CR70",
+                "ref-CR74"
+            ],
+            "figures": [
+                "figure-9",
+                "figure-11",
+                "figure-8",
+                "figure-2",
+                "figure-7",
+                "figure-4",
+                "figure-6",
+                "figure-12",
+                "figure-3",
+                "figure-10",
+                "figure-5"
+            ]
+        },
+        {
+            "title": "Conclusions",
+            "text": "### Main findings\nIn this article, we first examined the spatial pattern of carbon emissions in RBCs along with their evolving characteristics over time. Spatial heterogeneity and spatial dependence were then introduced as a moderator of the classic linear model to explore the contributors of carbon emissions in RBCs based on four perspectives, namely population, economy, industry, and technology. Here are the primary findings.\nIn the current debates on climate change mitigation policies, resource-rich regions have long been ignored. In terms of the scope of current research on carbon emissions and its contributors, it primarily focuses on the global, an economic and political community, a certain country, a certain province, or a city cluster, with research units ranging from countries and regions to provinces, cities, and counties. However, there has been a notable gap in addressing the distinctions between resource-rich and resource-poor regions. In this article, we take RBCs, which have a special socio-economic structure, as the research area, and explore the sensitivity of carbon emissions of different RBCs to different influencing factors and their causes. This can help to better understand resource-rich regions and the obstacles they must overcome in reducing carbon emissions and can support a comprehensive understanding of the basic challenges they face when striving to reduce carbon emissions.\n### Policy implications\nBased on the aforementioned conclusions, this paper suggests the following measures for reducing carbon emissions in RBCs.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Figure 1",
+            "figure-caption": "Study area map (source: GS(2019)1822).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Figure 2",
+            "figure-caption": "China RBCs' carbon emissions and carbon emission ratio from 2003 to 2017.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Figure 3",
+            "figure-caption": "Trends in the growth rate of average carbon emissions from China’s resource-based and non-resource-based cities from 2003 to 2017.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Figure 4",
+            "figure-caption": "Carbon emissions from RBCs in the four economic regions of China between 2003 and 2017.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Figure 5",
+            "figure-caption": "Trends of carbon emissions ratio in growing, mature, declining and regenerative RBCs from 2003 to 2017.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Figure 6",
+            "figure-caption": "Inter-city differences of carbon emissions among resource-based and non-resource-based cities from 2003 to 2017.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/6"
+        },
+        {
+            "id": "figure-7",
+            "figure-title": "Figure 7",
+            "figure-caption": "Characteristics of the spatial and temporal distribution of carbon emissions in Chinese RBCs from 2003 to 2017: (a) Result in 2003; (b) Result in 2007; (c) Result in 2012; (d) Result in 2017 (source: GS(2019)1822).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/7"
+        },
+        {
+            "id": "figure-8",
+            "figure-title": "Figure 8",
+            "figure-caption": "The LISA agglomeration figure and Moran scatter plot of total carbon emissions in Chinese RBCs from 2003 to 2017; (a) Result in 2003; (b) Result in 2010; (c) Result in 2017 (source: GS(2019)1822).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/8"
+        },
+        {
+            "id": "figure-9",
+            "figure-title": "Figure 9",
+            "figure-caption": "Regression coefficients of population size in RBCs: (a) Result in 2003; (b) Result in 2007; (c) Result in 2012; (d) Result in 2017 (source: GS(2019)1822).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/9"
+        },
+        {
+            "id": "figure-10",
+            "figure-title": "Figure 10",
+            "figure-caption": "Regression coefficients of economic development level in RBCs: (a) Result in 2003; (b) Result in 2007; (c) Result in 2012; (d) Result in 2017 (source: GS(2019)1822).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/10"
+        },
+        {
+            "id": "figure-11",
+            "figure-title": "Figure 11",
+            "figure-caption": "Regression coefficients of carbon abatement technology in RBCs: (a) Result in 2003; (b) Result in 2007; (c) Result in 2012; (d) Result in 2017 (source: GS(2019)1822).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/11"
+        },
+        {
+            "id": "figure-12",
+            "figure-title": "Figure 12",
+            "figure-caption": "Regression coefficients of resource-based industry proportion in RBCs: (a) Result in 2003; (b) Result in 2007; (c) Result in 2012; (d) Result in 2017 (source: GS(2019)1822).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-024-56434-2/figures/12"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Leal Filho, W. et al. Climate change and extremes: Implications on city livability and associated health risks across the globe. Int. J. Clim. Change Strateg. Manag. 15(1), 1–19. https://doi.org/10.1108/IJCCSM-07-2021-0078 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.1108%2FIJCCSM-07-2021-0078",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20change%20and%20extremes%3A%20Implications%20on%20city%20livability%20and%20associated%20health%20risks%20across%20the%20globe&journal=Int.%20J.%20Clim.%20Change%20Strateg.%20Manag.&doi=10.1108%2FIJCCSM-07-2021-0078&volume=15&issue=1&pages=1-19&publication_year=2023&author=Leal%20Filho%2CW&author=Tuladhar%2CL&author=Li%2CC&author=Balogun%2CA-LB&author=Kovaleva%2CM&author=Abubakar%2CIR&author=Azadi%2CH&author=Donkor%2CFKK"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Liu, Z. et al. Challenges and opportunities for carbon neutrality in China. Nat. Rev. Earth Environ. 3(2), 141–155. https://doi.org/10.1038/s43017-021-00244-x (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs43017-021-00244-x",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2022NRvEE...3..141L",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Challenges%20and%20opportunities%20for%20carbon%20neutrality%20in%20China&journal=Nat.%20Rev.%20Earth%20Environ.&doi=10.1038%2Fs43017-021-00244-x&volume=3&issue=2&pages=141-155&publication_year=2021&author=Liu%2CZ&author=Deng%2CZ&author=He%2CG&author=Wang%2CH&author=Zhang%2CX&author=Lin%2CJ&author=Qi%2CY&author=Liang%2CX"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Xiao, R., Tan, G., Huang, B., Li, J. & Luo, Y. Pathways to sustainable development: Regional integration and carbon emissions in China. Energy Rep. 8, 5137–5145. https://doi.org/10.1016/j.egyr.2022.03.206 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.egyr.2022.03.206",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Pathways%20to%20sustainable%20development%3A%20Regional%20integration%20and%20carbon%20emissions%20in%20China&journal=Energy%20Rep.&doi=10.1016%2Fj.egyr.2022.03.206&volume=8&pages=5137-5145&publication_year=2022&author=Xiao%2CR&author=Tan%2CG&author=Huang%2CB&author=Li%2CJ&author=Luo%2CY"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Yu, J., Li, J. & Zhang, W. Identification and classification of resource-based cities in China. J. Geog. Sci. 29(8), 1300–1314 (2019).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11442-019-1660-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Identification%20and%20classification%20of%20resource-based%20cities%20in%20China&journal=J.%20Geog.%20Sci.&doi=10.1007%2Fs11442-019-1660-8&volume=29&issue=8&pages=1300-1314&publication_year=2019&author=Yu%2CJ&author=Li%2CJ&author=Zhang%2CW"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Lu, S. & Zhang, W. The identification of spatial evolution stage of resource-based cities and its development characteristics. Acta Geographica Sinica 75(10), 2180–2191 (2020).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20identification%20of%20spatial%20evolution%20stage%20of%20resource-based%20cities%20and%20its%20development%20characteristics&journal=Acta%20Geographica%20Sinica&volume=75&issue=10&pages=2180-2191&publication_year=2020&author=Lu%2CS&author=Zhang%2CW"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Li, H., Long, R. & Chen, H. Economic transition policies in Chinese resource-based cities: An overview of government efforts. Energy Policy 55, 251–260. https://doi.org/10.1016/j.enpol.2012.12.007 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2012.12.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Economic%20transition%20policies%20in%20Chinese%20resource-based%20cities%3A%20An%20overview%20of%20government%20efforts&journal=Energy%20Policy&doi=10.1016%2Fj.enpol.2012.12.007&volume=55&pages=251-260&publication_year=2013&author=Li%2CH&author=Long%2CR&author=Chen%2CH"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Liu, S., Jiang, G., Chang, L. & Huang, C. Construction and simulation of high-quality development of China’s resource-based cities driven by innovation based on system dynamics. Int. J. Environ. Res. Public Health https://doi.org/10.3390/ijerph20064812 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph20064812",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=37998273",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10671539",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Construction%20and%20simulation%20of%20high-quality%20development%20of%20China%E2%80%99s%20resource-based%20cities%20driven%20by%20innovation%20based%20on%20system%20dynamics&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph20064812&publication_year=2023&author=Liu%2CS&author=Jiang%2CG&author=Chang%2CL&author=Huang%2CC"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Xie, W., Chapman, A. & Yan, T. Do environmental regulations facilitate a low-carbon transformation in China’s resource-based cities?. Int. J. Environ. Res. Public Health https://doi.org/10.3390/ijerph20054502 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph20054502",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=37047969",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10094574",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Do%20environmental%20regulations%20facilitate%20a%20low-carbon%20transformation%20in%20China%E2%80%99s%20resource-based%20cities%3F&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph20054502&publication_year=2023&author=Xie%2CW&author=Chapman%2CA&author=Yan%2CT"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Friedrichs, J. & Inderwildi, O. R. The carbon curse: Are fuel rich countries doomed to high CO2 intensities?. Energy Policy 62, 1356–1365. https://doi.org/10.1016/j.enpol.2013.07.076 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2013.07.076",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20carbon%20curse%3A%20Are%20fuel%20rich%20countries%20doomed%20to%20high%20CO2%20intensities%3F&journal=Energy%20Policy&doi=10.1016%2Fj.enpol.2013.07.076&volume=62&pages=1356-1365&publication_year=2013&author=Friedrichs%2CJ&author=Inderwildi%2COR"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Wang, X., Wu, Ji., Bai, B. & Wang, Z. Spatial differentiation and driving factors of CO2 emissions: Analysis based on 198 cities at prefecture level and above in China. Econom. Geogr. 40(11), 29–38 (2020).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20differentiation%20and%20driving%20factors%20of%20CO2%20emissions%3A%20Analysis%20based%20on%20198%20cities%20at%20prefecture%20level%20and%20above%20in%20China&journal=Econom.%20Geogr.&volume=40&issue=11&pages=29-38&publication_year=2020&author=Wang%2CX&author=Wu%2CJi&author=Bai%2CB&author=Wang%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Engelman, R. Stabilizing the Atmosphere: Population, Consumption and Greenhouse Gases (1994). https://doi.org/10.13140/RG.2.2.26843.31522",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Lawal, I. M. Impact of population growth on Carbon Dioxide (CO2) emission: Empirical evidence from Nigeria. Jurnal Perspektif Pembiayaan Dan Pembangunan Daerah 6(6), 701–708 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.22437%2Fppd.v6i6.6730",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20population%20growth%20on%20Carbon%20Dioxide%20%28CO2%29%20emission%3A%20Empirical%20evidence%20from%20Nigeria&journal=Jurnal%20Perspektif%20Pembiayaan%20Dan%20Pembangunan%20Daerah&doi=10.22437%2Fppd.v6i6.6730&volume=6&issue=6&pages=701-708&publication_year=2019&author=Lawal%2CIM"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Xiang, H., Zeng, X., Han, H. & An, X. Impact of population aging on carbon emissions in China: An empirical study based on a kaya model. Int. J. Environ. Res. Public Health https://doi.org/10.3390/ijerph20031716 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph20031716",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=37444120",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10341207",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20population%20aging%20on%20carbon%20emissions%20in%20China%3A%20An%20empirical%20study%20based%20on%20a%20kaya%20model&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph20031716&publication_year=2023&author=Xiang%2CH&author=Zeng%2CX&author=Han%2CH&author=An%2CX"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Satterthwaite, D. The implications of population growth and urbanization for climate change. Environ. Urban. 21, 545–567. https://doi.org/10.1177/0956247809344361 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0956247809344361",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20implications%20of%20population%20growth%20and%20urbanization%20for%20climate%20change&journal=Environ.%20Urban.&doi=10.1177%2F0956247809344361&volume=21&pages=545-567&publication_year=2009&author=Satterthwaite%2CD"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Li, X. & Ullah, S. Caring for the environment: How CO2 emissions respond to human capital in BRICS economies?. Environ. Sci. Pollut. Res. 29(12), 18036–18046. https://doi.org/10.1007/s11356-021-17025-0 (2022).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-021-17025-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Caring%20for%20the%20environment%3A%20How%20CO2%20emissions%20respond%20to%20human%20capital%20in%20BRICS%20economies%3F&journal=Environ.%20Sci.%20Pollut.%20Res.&doi=10.1007%2Fs11356-021-17025-0&volume=29&issue=12&pages=18036-18046&publication_year=2022&author=Li%2CX&author=Ullah%2CS"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Yin, Y., Xiong, X., Ullah, S. & Sohail, S. Examining the asymmetric socioeconomic determinants of CO2 emissions in China: Challenges and policy implications. Environ. Sci. Pollut. Res. 28(40), 57115–57125. https://doi.org/10.1007/s11356-021-14608-9 (2021).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11356-021-14608-9",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXhvFers7rF",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Examining%20the%20asymmetric%20socioeconomic%20determinants%20of%20CO2%20emissions%20in%20China%3A%20Challenges%20and%20policy%20implications&journal=Environ.%20Sci.%20Pollut.%20Res.&doi=10.1007%2Fs11356-021-14608-9&volume=28&issue=40&pages=57115-57125&publication_year=2021&author=Yin%2CY&author=Xiong%2CX&author=Ullah%2CS&author=Sohail%2CS"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Li, X., Ozturk, I., Majeed, M. T., Hafeez, M. & Ullah, S. Considering the asymmetric effect of financial deepening on environmental quality in BRICS economies: Policy options for the green economy. J. Clean. Prod. 331, 129909. https://doi.org/10.1016/j.jclepro.2021.129909 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2021.129909",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Considering%20the%20asymmetric%20effect%20of%20financial%20deepening%20on%20environmental%20quality%20in%20BRICS%20economies%3A%20Policy%20options%20for%20the%20green%20economy&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2021.129909&volume=331&publication_year=2022&author=Li%2CX&author=Ozturk%2CI&author=Majeed%2CMT&author=Hafeez%2CM&author=Ullah%2CS"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Grossman, G. M., & Krueger, A. B. Environmental Impacts of a North American Free Trade Agreement (Working Paper No. 3914). National Bureau of Economic Research (1991). https://doi.org/10.3386/w3914",
+            "links": {}
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Panayotou, T. Empirical tests and policy analysis of environmental degradation at different stages of economic development. ILO Working Papers, Article 992927783402676 (1993). https://ideas.repec.org//p/ilo/ilowps/992927783402676.html",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Albino, V., Ardito, L., Dangelico, R. M. & Messeni Petruzzelli, A. Understanding the development trends of low-carbon energy technologies: A patent analysis. Appl. Energy 135, 836–854. https://doi.org/10.1016/j.apenergy.2014.08.012 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apenergy.2014.08.012",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014ApEn..135..836A",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20the%20development%20trends%20of%20low-carbon%20energy%20technologies%3A%20A%20patent%20analysis&journal=Appl.%20Energy&doi=10.1016%2Fj.apenergy.2014.08.012&volume=135&pages=836-854&publication_year=2014&author=Albino%2CV&author=Ardito%2CL&author=Dangelico%2CRM&author=Messeni%20Petruzzelli%2CA"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Cheng, Z., Li, L. & Liu, J. Industrial structure, technical progress and carbon intensity in China’s provinces. Renew. Sustain. Energy Rev. 81, 2935–2946. https://doi.org/10.1016/j.rser.2017.06.103 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2017.06.103",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Industrial%20structure%2C%20technical%20progress%20and%20carbon%20intensity%20in%20China%E2%80%99s%20provinces&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2017.06.103&volume=81&pages=2935-2946&publication_year=2018&author=Cheng%2CZ&author=Li%2CL&author=Liu%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Shao, X., Zhong, Y., Li, Y. & Altuntaş, M. Does environmental and renewable energy R&D help to achieve carbon neutrality target? A case of the US economy. J. Environ. Manage. 296, 113229. https://doi.org/10.1016/j.jenvman.2021.113229 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jenvman.2021.113229",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3MXhsFGltrvL",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34271359",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20environmental%20and%20renewable%20energy%20R%26D%20help%20to%20achieve%20carbon%20neutrality%20target%3F%20A%20case%20of%20the%20US%20economy&journal=J.%20Environ.%20Manage.&doi=10.1016%2Fj.jenvman.2021.113229&volume=296&publication_year=2021&author=Shao%2CX&author=Zhong%2CY&author=Li%2CY&author=Altunta%C5%9F%2CM"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Elsheikh, A. H. et al. Low-cost bilayered structure for improving the performance of solar stills: Performance/cost analysis and water yield prediction using machine learning. Sustain. Energy Technol. Assess. 49, 101783. https://doi.org/10.1016/j.seta.2021.101783 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.seta.2021.101783",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Low-cost%20bilayered%20structure%20for%20improving%20the%20performance%20of%20solar%20stills%3A%20Performance%2Fcost%20analysis%20and%20water%20yield%20prediction%20using%20machine%20learning&journal=Sustain.%20Energy%20Technol.%20Assess.&doi=10.1016%2Fj.seta.2021.101783&volume=49&publication_year=2022&author=Elsheikh%2CAH&author=Shanmugan%2CS&author=Sathyamurthy%2CR&author=Thakur%2CAK&author=Issa%2CM&author=Panchal%2CH&author=Muthuramalingam%2CT&author=Kumar%2CR&author=Sharifpur%2CM"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Elsheikh, A. H. et al. Recent progress in wood-plastic composites: Pre-processing treatments, manufacturing techniques, recyclability and eco-friendly assessment. Clean. Eng. Technol. 8, 100450. https://doi.org/10.1016/j.clet.2022.100450 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.clet.2022.100450",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Recent%20progress%20in%20wood-plastic%20composites%3A%20Pre-processing%20treatments%2C%20manufacturing%20techniques%2C%20recyclability%20and%20eco-friendly%20assessment&journal=Clean.%20Eng.%20Technol.&doi=10.1016%2Fj.clet.2022.100450&volume=8&publication_year=2022&author=Elsheikh%2CAH&author=Panchal%2CH&author=Shanmugan%2CS&author=Muthuramalingam%2CT&author=El-Kassas%2CA&author=M.%2C%20Ramesh%2C%20B.%2C"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Shirong, G., Jingli, F., Shuqin, L., Mei, S., Yujiao, X., Bing, W., Teng, T. Low carbon modern coal-based energy technology system and development strategy. Journal of China Coal Society, 1–26 (2023). https://doi.org/10.13225/j.cnki.jccs.2023.1773.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Na, Z., Qianyu, M., Jiawei, D. & Xiaojun, Z. Impact of the rise of new energy on China’s new energy industry strategy. China Soft Sci. 02, 1–8 (2024).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20the%20rise%20of%20new%20energy%20on%20China%27s%20new%20energy%20industry%20strategy&journal=China%20Soft%20Sci.&volume=02&pages=1-8&publication_year=2024&author=Na%2CZ&author=Qianyu%2CM&author=Jiawei%2CD&author=Xiaojun%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Braungardt, S., Elsland, R. & Eichhammer, W. The environmental impact of eco-innovations: The case of EU residential electricity use. Environ. Econ. Policy Stud. 18(2), 213–228. https://doi.org/10.1007/s10018-015-0129-y (2016).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10018-015-0129-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20environmental%20impact%20of%20eco-innovations%3A%20The%20case%20of%20EU%20residential%20electricity%20use&journal=Environ.%20Econ.%20Policy%20Stud.&doi=10.1007%2Fs10018-015-0129-y&volume=18&issue=2&pages=213-228&publication_year=2016&author=Braungardt%2CS&author=Elsland%2CR&author=Eichhammer%2CW"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Cai, A., Zheng, S., Cai, L., Yang, H. & Comite, U. How does green technology innovation affect carbon emissions? A spatial econometric analysis of China’s provincial panel data. Front. Environ. Sci. https://doi.org/10.3389/fenvs.2021.813811 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.3389%2Ffenvs.2021.813811",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20does%20green%20technology%20innovation%20affect%20carbon%20emissions%3F%20A%20spatial%20econometric%20analysis%20of%20China%E2%80%99s%20provincial%20panel%20data&journal=Front.%20Environ.%20Sci.&doi=10.3389%2Ffenvs.2021.813811&publication_year=2021&author=Cai%2CA&author=Zheng%2CS&author=Cai%2CL&author=Yang%2CH&author=Comite%2CU"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Abdouli, M. & Hammami, S. The impact of FDI inflows and environmental quality on economic growth: An empirical study for the MENA countries. J. Knowl. Econ. 8(1), 254–278 (2017).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s13132-015-0323-y",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20FDI%20inflows%20and%20environmental%20quality%20on%20economic%20growth%3A%20An%20empirical%20study%20for%20the%20MENA%20countries&journal=J.%20Knowl.%20Econ.&doi=10.1007%2Fs13132-015-0323-y&volume=8&issue=1&pages=254-278&publication_year=2017&author=Abdouli%2CM&author=Hammami%2CS"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Naminse, E. & Zhuang, J. Economic growth, energy intensity, and carbon dioxide emissions in China. Polish J. Environ. Stud. 27(5), 2193–2201 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.15244%2Fpjoes%2F78619",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXivFalt7c%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Economic%20growth%2C%20energy%20intensity%2C%20and%20carbon%20dioxide%20emissions%20in%20China&journal=Polish%20J.%20Environ.%20Stud.&doi=10.15244%2Fpjoes%2F78619&volume=27&issue=5&pages=2193-2201&publication_year=2018&author=Naminse%2CE&author=Zhuang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Solaymani, S. CO2 emissions and the transport sector in Malaysia. Front. Environ. Sci. https://doi.org/10.3389/fenvs.2021.774164 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.3389%2Ffenvs.2021.774164",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=CO2%20emissions%20and%20the%20transport%20sector%20in%20Malaysia&journal=Front.%20Environ.%20Sci.&doi=10.3389%2Ffenvs.2021.774164&publication_year=2022&author=Solaymani%2CS"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Kozlowski, A., Bardecki, M., & Searcy, C. Environmental impacts in the fashion industry: A life-cycle and stakeholder framework. Journal of Corporate Citizenship, 15–34 (2012).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Lu, K. & Wang, H. Estimation of building’s life cycle carbon emissions based on life cycle assessment and building information modeling: A case study of a hospital building in China. J. Geosci. Environ. Protect. https://doi.org/10.4236/gep.2019.76013 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.4236%2Fgep.2019.76013",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Estimation%20of%20building%E2%80%99s%20life%20cycle%20carbon%20emissions%20based%20on%20life%20cycle%20assessment%20and%20building%20information%20modeling%3A%20A%20case%20study%20of%20a%20hospital%20building%20in%20China&journal=J.%20Geosci.%20Environ.%20Protect.&doi=10.4236%2Fgep.2019.76013&publication_year=2019&author=Lu%2CK&author=Wang%2CH"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Chen, J. et al. County-level CO2 emissions and sequestration in China during 1997–2017. Sci. Data https://doi.org/10.1038/s41597-020-00736-3 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fs41597-020-00736-3",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33184289",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7665019",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=County-level%20CO2%20emissions%20and%20sequestration%20in%20China%20during%201997%E2%80%932017&journal=Sci.%20Data&doi=10.1038%2Fs41597-020-00736-3&publication_year=2020&author=Chen%2CJ&author=Gao%2CM&author=Cheng%2CS&author=Hou%2CW&author=Song%2CM&author=Liu%2CX&author=Liu%2CY&author=Shan%2CY"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Batmunkh, A. Carbon footprint of the most popular social media platforms. Sustainability https://doi.org/10.3390/su14042195 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu14042195",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Carbon%20footprint%20of%20the%20most%20popular%20social%20media%20platforms&journal=Sustainability&doi=10.3390%2Fsu14042195&publication_year=2022&author=Batmunkh%2CA"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Shi, M., Wang, Y., Zhang, Z. & Zhou, X. Regional carbon footprint and interregional transfer of carbon emissions in China. Acta Geogr. Sin. 67(10), 1327–1338 (2012).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Regional%20carbon%20footprint%20and%20interregional%20transfer%20of%20carbon%20emissions%20in%20China&journal=Acta%20Geogr.%20Sin.&volume=67&issue=10&pages=1327-1338&publication_year=2012&author=Shi%2CM&author=Wang%2CY&author=Zhang%2CZ&author=Zhou%2CX"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Wang, S., Huang, Y. & Zhou, Y. Spatial spillover effect and driving forces of carbon emission intensity at the city level in China. Acta Geogr. Sin. 29(2), 231–252 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20spillover%20effect%20and%20driving%20forces%20of%20carbon%20emission%20intensity%20at%20the%20city%20level%20in%20China&journal=Acta%20Geogr.%20Sin.&volume=29&issue=2&pages=231-252&publication_year=2019&author=Wang%2CS&author=Huang%2CY&author=Zhou%2CY"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "She, X. et al. Evaluation of carbon emission performance and estimation of CO2 abatement costs for provinces of China: A non-parametric distance function approach. Open J. Soc. Sci. https://doi.org/10.4236/jss.2019.710038 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.4236%2Fjss.2019.710038",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Evaluation%20of%20carbon%20emission%20performance%20and%20estimation%20of%20CO2%20abatement%20costs%20for%20provinces%20of%20China%3A%20A%20non-parametric%20distance%20function%20approach&journal=Open%20J.%20Soc.%20Sci.&doi=10.4236%2Fjss.2019.710038&publication_year=2019&author=She%2CX&author=He%2CQ&author=Yang%2CX&author=Sun%2CJ&author=Yuan%2CF&author=Wang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Zhang, W., Liu, X., Wang, D. & Zhou, J. Digital economy and carbon emission performance: Evidence at China’s city level. Energy Policy 165, 112927. https://doi.org/10.1016/j.enpol.2022.112927 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2022.112927",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38XhtFWju7nL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Digital%20economy%20and%20carbon%20emission%20performance%3A%20Evidence%20at%20China%E2%80%99s%20city%20level&journal=Energy%20Policy&doi=10.1016%2Fj.enpol.2022.112927&volume=165&publication_year=2022&author=Zhang%2CW&author=Liu%2CX&author=Wang%2CD&author=Zhou%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Kim, J., Lim, H. & Jo, H.-H. Do aging and low fertility reduce carbon emissions in Korea? Evidence from IPAT augmented EKC analysis. Int. J. Environ. Res. Public Health https://doi.org/10.3390/ijerph17082972 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph17082972",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33419347",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7796329",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Do%20aging%20and%20low%20fertility%20reduce%20carbon%20emissions%20in%20Korea%3F%20Evidence%20from%20IPAT%20augmented%20EKC%20analysis&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph17082972&publication_year=2020&author=Kim%2CJ&author=Lim%2CH&author=Jo%2CH-H"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Liu, Q., Wu, S., Lei, Y., Li, S. & Li, L. Exploring spatial characteristics of city-level CO2 emissions in China and their influencing factors from global and local perspectives. Sci. Total Environ. 754, 142206. https://doi.org/10.1016/j.scitotenv.2020.142206 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.scitotenv.2020.142206",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021ScTEn.754n2206L",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhvV2rsbvF",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32920414",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20spatial%20characteristics%20of%20city-level%20CO2%20emissions%20in%20China%20and%20their%20influencing%20factors%20from%20global%20and%20local%20perspectives&journal=Sci.%20Total%20Environ.&doi=10.1016%2Fj.scitotenv.2020.142206&volume=754&publication_year=2021&author=Liu%2CQ&author=Wu%2CS&author=Lei%2CY&author=Li%2CS&author=Li%2CL"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Wang, S. & Liu, X. China’s city-level energy-related CO2 emissions: Spatiotemporal patterns and driving forces. Appl. Energy 200, 204–214. https://doi.org/10.1016/j.apenergy.2017.05.085 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apenergy.2017.05.085",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017ApEn..200..204W",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=China%E2%80%99s%20city-level%20energy-related%20CO2%20emissions%3A%20Spatiotemporal%20patterns%20and%20driving%20forces&journal=Appl.%20Energy&doi=10.1016%2Fj.apenergy.2017.05.085&volume=200&pages=204-214&publication_year=2017&author=Wang%2CS&author=Liu%2CX"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Gu, H. et al. Spatiotemporal dynamic evolution and its driving mechanism of carbon emissions in hunan province in the last 20 years. Int. J. Environ. Res. Public Health https://doi.org/10.3390/ijerph20043062 (2023).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph20043062",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=37569079",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10418741",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatiotemporal%20dynamic%20evolution%20and%20its%20driving%20mechanism%20of%20carbon%20emissions%20in%20hunan%20province%20in%20the%20last%2020%20years&journal=Int.%20J.%20Environ.%20Res.%20Public%20Health&doi=10.3390%2Fijerph20043062&publication_year=2023&author=Gu%2CH&author=Liu%2CY&author=Xia%2CH&author=Tan%2CX&author=Zeng%2CY&author=Zhao%2CX"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Akimoto, H. & Narita, H. Distribution of SO2, NOx and CO2 emissions from fuel combustion and industrial activities in Asia with 1° × 1° resolution. Atmos. Environ. 28(2), 213–225. https://doi.org/10.1016/1352-2310(94)90096-5 (1994).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2F1352-2310%2894%2990096-5",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1994AtmEn..28..213A",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DyaK2cXisFajs7o%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Distribution%20of%20SO2%2C%20NOx%20and%20CO2%20emissions%20from%20fuel%20combustion%20and%20industrial%20activities%20in%20Asia%20with%201%C2%B0%20%C3%97%201%C2%B0%20resolution&journal=Atmos.%20Environ.&doi=10.1016%2F1352-2310%2894%2990096-5&volume=28&issue=2&pages=213-225&publication_year=1994&author=Akimoto%2CH&author=Narita%2CH"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Duro, J. A., Teixidó-Figueras, J. & Padilla, E. Empirics of the international inequality in CO2 emissions intensity: Explanatory factors according to complementary decomposition methodologies. Environ. Resource Econ. 63(1), 57–77. https://doi.org/10.1007/s10640-014-9840-6 (2016).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10640-014-9840-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Empirics%20of%20the%20international%20inequality%20in%20CO2%20emissions%20intensity%3A%20Explanatory%20factors%20according%20to%20complementary%20decomposition%20methodologies&journal=Environ.%20Resource%20Econ.&doi=10.1007%2Fs10640-014-9840-6&volume=63&issue=1&pages=57-77&publication_year=2016&author=Duro%2CJA&author=Teixid%C3%B3-Figueras%2CJ&author=Padilla%2CE"
+            }
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Zhang, L., Huang, Y., Li, Y. & Cheng, X. An investigation on spatial changing pattern of CO2 emissions in China. Resources Science 32(02), 211–217 (2010).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=An%20investigation%20on%20spatial%20changing%20pattern%20of%20CO2%20emissions%20in%20China&journal=Resources%20Science&volume=32&issue=02&pages=211-217&publication_year=2010&author=Zhang%2CL&author=Huang%2CY&author=Li%2CY&author=Cheng%2CX"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Zhao, Y., Huang, X., Zhong, T. & Peng, J. Spatial pattern evolution of carbon emission intensity from energy consumption in China. Environ. Sci. (CNKI) 32(11), 3145–3152 (2011).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20pattern%20evolution%20of%20carbon%20emission%20intensity%20from%20energy%20consumption%20in%20China&journal=Environ.%20Sci.%20%28CNKI%29&volume=32&issue=11&pages=3145-3152&publication_year=2011&author=Zhao%2CY&author=Huang%2CX&author=Zhong%2CT&author=Peng%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Yue, C. et al. Provincial carbon emissions and carbon intensity in China from 1995 to 2007 (Carbon Emissions and Social Development, III). Acta Scientiarum Naturalium Universitatis Pekinensis (CNKI) 46(04), 510–516 (2010).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Provincial%20carbon%20emissions%20and%20carbon%20intensity%20in%20China%20from%201995%20to%202007%20%28Carbon%20Emissions%20and%20Social%20Development%2C%20III%29&journal=Acta%20Scientiarum%20Naturalium%20Universitatis%20Pekinensis%20%28CNKI%29&volume=46&issue=04&pages=510-516&publication_year=2010&author=Yue%2CC&author=Hu%2CX&author=He%2CC&author=Zhu%2CJ&author=Wang%2CS&author=Fang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Clarke-Sather, A., Qu, J., Wang, Q., Zeng, J. & Li, Y. Carbon inequality at the sub-national scale: A case study of provincial-level inequality in CO2 emissions in China 1997–2007. Energy Policy 39(9), 5420–5428. https://doi.org/10.1016/j.enpol.2011.05.021 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2011.05.021",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Carbon%20inequality%20at%20the%20sub-national%20scale%3A%20A%20case%20study%20of%20provincial-level%20inequality%20in%20CO2%20emissions%20in%20China%201997%E2%80%932007&journal=Energy%20Policy&doi=10.1016%2Fj.enpol.2011.05.021&volume=39&issue=9&pages=5420-5428&publication_year=2011&author=Clarke-Sather%2CA&author=Qu%2CJ&author=Wang%2CQ&author=Zeng%2CJ&author=Li%2CY"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Jiang, W., Liu, W., Liu, Z. & Han, M. Inequality and driving forces of energy-related CO2 emissions intensity in China. Prog. Geogr. 39(09), 1425–1435 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.18306%2Fdlkxjz.2020.09.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Inequality%20and%20driving%20forces%20of%20energy-related%20CO2%20emissions%20intensity%20in%20China&journal=Prog.%20Geogr.&doi=10.18306%2Fdlkxjz.2020.09.001&volume=39&issue=09&pages=1425-1435&publication_year=2020&author=Jiang%2CW&author=Liu%2CW&author=Liu%2CZ&author=Han%2CM"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Wang, S., Fang, C. & Wang, Y. Spatiotemporal variations of energy-related CO2 emissions in China and its influencing factors: An empirical analysis based on provincial panel data. Renew. Sustain. Energy Rev. 55, 505–515. https://doi.org/10.1016/j.rser.2015.10.140 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2015.10.140",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatiotemporal%20variations%20of%20energy-related%20CO2%20emissions%20in%20China%20and%20its%20influencing%20factors%3A%20An%20empirical%20analysis%20based%20on%20provincial%20panel%20data&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2015.10.140&volume=55&pages=505-515&publication_year=2016&author=Wang%2CS&author=Fang%2CC&author=Wang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Yan, Y., Wang, Z., Wu, L. & Liu, C. Analysis of the determinants of carbon emission intensity on regional differences. Acta Scientiae Circumstantiae 36(9), 3436–3444 (2016).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XhsFKms7nL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Analysis%20of%20the%20determinants%20of%20carbon%20emission%20intensity%20on%20regional%20differences&journal=Acta%20Scientiae%20Circumstantiae&volume=36&issue=9&pages=3436-3444&publication_year=2016&author=Yan%2CY&author=Wang%2CZ&author=Wu%2CL&author=Liu%2CC"
+            }
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Zeng, X. et al. Spatio-temporal heterogeneity of transportation carbon emissions and its influencing factors in China. China Environ. Sci. 40(10), 4304–4313 (2020).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3sXlt1Wl",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatio-temporal%20heterogeneity%20of%20transportation%20carbon%20emissions%20and%20its%20influencing%20factors%20in%20China&journal=China%20Environ.%20Sci.&volume=40&issue=10&pages=4304-4313&publication_year=2020&author=Zeng%2CX&author=Qiu%2CR&author=Lin%2CD&author=Hou%2CX&author=Zhang%2CL&author=Hu%2CX"
+            }
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Gao, C. et al. Spatiotemporal dynamics of carbon emissions by energy consumption in China From 1995 to 2014. Prog. Geogr. 35(6), 747–757 (2016).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatiotemporal%20dynamics%20of%20carbon%20emissions%20by%20energy%20consumption%20in%20China%20From%201995%20to%202014&journal=Prog.%20Geogr.&volume=35&issue=6&pages=747-757&publication_year=2016&author=Gao%2CC&author=Liu%2CX&author=Li%2CZ&author=Zhang%2CY&author=Yu%2CG&author=Su%2CQ&author=Tian%2CY"
+            }
+        },
+        {
+            "id": "ref-CR55",
+            "content": "Wang, S., Su, Y. & Zhao, Y. Regional inequality, spatial spillover effects, and the factors influencing city-level energy-related carbon emissions in China. Acta Geogr. Sin. 73(3), 414–428 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Regional%20inequality%2C%20spatial%20spillover%20effects%2C%20and%20the%20factors%20influencing%20city-level%20energy-related%20carbon%20emissions%20in%20China&journal=Acta%20Geogr.%20Sin.&volume=73&issue=3&pages=414-428&publication_year=2018&author=Wang%2CS&author=Su%2CY&author=Zhao%2CY"
+            }
+        },
+        {
+            "id": "ref-CR56",
+            "content": "Wang, S., Xie, Z. & Wang, Z. The spatiotemporal pattern evolution and influencing factors of CO2 emissions at the county level of China. Acta Geogr. Sin. 76(12), 3103–3118 (2021).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20spatiotemporal%20pattern%20evolution%20and%20influencing%20factors%20of%20CO2%20emissions%20at%20the%20county%20level%20of%20China&journal=Acta%20Geogr.%20Sin.&volume=76&issue=12&pages=3103-3118&publication_year=2021&author=Wang%2CS&author=Xie%2CZ&author=Wang%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR57",
+            "content": "Xv, G., Liu, Z. & Jiang, Z. Decomposition model and empirical study of carbon emissions for China, 1995–2000. China Popul. Resour. Environ. 6, 158–161 (2006).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Decomposition%20model%20and%20empirical%20study%20of%20carbon%20emissions%20for%20China%2C%201995%E2%80%932000&journal=China%20Popul.%20Resour.%20Environ.&volume=6&pages=158-161&publication_year=2006&author=Xv%2CG&author=Liu%2CZ&author=Jiang%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR58",
+            "content": "Sadorsky, P. The effect of urbanization on CO2 emissions in emerging economies. Energy Econom. 41, 147–153. https://doi.org/10.1016/j.eneco.2013.11.007 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.eneco.2013.11.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20effect%20of%20urbanization%20on%20CO2%20emissions%20in%20emerging%20economies&journal=Energy%20Econom.&doi=10.1016%2Fj.eneco.2013.11.007&volume=41&pages=147-153&publication_year=2014&author=Sadorsky%2CP"
+            }
+        },
+        {
+            "id": "ref-CR59",
+            "content": "Chontanawat, J. Driving forces of energy-related CO2 emissions based on expanded IPAT decomposition analysis: Evidence from ASEAN and four selected countries. Energies 12, 764. https://doi.org/10.3390/en12040764 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fen12040764",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1MXhtlSkurjP",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Driving%20forces%20of%20energy-related%20CO2%20emissions%20based%20on%20expanded%20IPAT%20decomposition%20analysis%3A%20Evidence%20from%20ASEAN%20and%20four%20selected%20countries&journal=Energies&doi=10.3390%2Fen12040764&volume=12&publication_year=2019&author=Chontanawat%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR60",
+            "content": "Cheng, C., Ren, X., Dong, K., Dong, X. & Zhen, W. How does technological innovation mitigate CO2 emissions in OECD countries? Heterogeneous analysis using panel quantile regression. J. Environ. Manage. 280, 111818. https://doi.org/10.1016/j.jenvman.2020.111818 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jenvman.2020.111818",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXis12hs7rK",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33360390",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=How%20does%20technological%20innovation%20mitigate%20CO2%20emissions%20in%20OECD%20countries%3F%20Heterogeneous%20analysis%20using%20panel%20quantile%20regression&journal=J.%20Environ.%20Manage.&doi=10.1016%2Fj.jenvman.2020.111818&volume=280&publication_year=2020&author=Cheng%2CC&author=Ren%2CX&author=Dong%2CK&author=Dong%2CX&author=Zhen%2CW"
+            }
+        },
+        {
+            "id": "ref-CR61",
+            "content": "Lantz, V. & Feng, Q. Assessing income, population, and technology impacts on CO2 emissions in Canada: Where’s the EKC?. Ecol. Econ. 57(2), 229–238. https://doi.org/10.1016/j.ecolecon.2005.04.006 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.ecolecon.2005.04.006",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assessing%20income%2C%20population%2C%20and%20technology%20impacts%20on%20CO2%20emissions%20in%20Canada%3A%20Where%E2%80%99s%20the%20EKC%3F&journal=Ecol.%20Econ.&doi=10.1016%2Fj.ecolecon.2005.04.006&volume=57&issue=2&pages=229-238&publication_year=2006&author=Lantz%2CV&author=Feng%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR62",
+            "content": "Cheng, Y., Wang, Z., Zhang, S., Ye, X. & Jiang, H. Spatial econometric analysis of carbon emission intensity and its driving factors from energy consumption in China. Acta Geogr. Sin. 68(10), 1418–1431 (2013) ((in Chinese)).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Spatial%20econometric%20analysis%20of%20carbon%20emission%20intensity%20and%20its%20driving%20factors%20from%20energy%20consumption%20in%20China&journal=Acta%20Geogr.%20Sin.&volume=68&issue=10&pages=1418-1431&publication_year=2013&author=Cheng%2CY&author=Wang%2CZ&author=Zhang%2CS&author=Ye%2CX&author=Jiang%2CH"
+            }
+        },
+        {
+            "id": "ref-CR63",
+            "content": "Li, J., Huang, X., Wu, C., Zhou, Y. & Xv, G. Analysis of spatial heterogeneity impact factors on carbon emissions in China. Econom. Geogr. (CNKI) 35(11), 21–28 (2015).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Analysis%20of%20spatial%20heterogeneity%20impact%20factors%20on%20carbon%20emissions%20in%20China&journal=Econom.%20Geogr.%20%28CNKI%29&volume=35&issue=11&pages=21-28&publication_year=2015&author=Li%2CJ&author=Huang%2CX&author=Wu%2CC&author=Zhou%2CY&author=Xv%2CG"
+            }
+        },
+        {
+            "id": "ref-CR64",
+            "content": "Zhang, C. & Lin, Y. Panel estimation for urbanization, energy consumption and CO2 emissions: A regional analysis in China. Energy Policy 49, 488–498. https://doi.org/10.1016/j.enpol.2012.06.048 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2012.06.048",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Panel%20estimation%20for%20urbanization%2C%20energy%20consumption%20and%20CO2%20emissions%3A%20A%20regional%20analysis%20in%20China&journal=Energy%20Policy&doi=10.1016%2Fj.enpol.2012.06.048&volume=49&pages=488-498&publication_year=2012&author=Zhang%2CC&author=Lin%2CY"
+            }
+        },
+        {
+            "id": "ref-CR65",
+            "content": "Wang, Q., Wu, S., Zeng, Y. & Wu, B. Exploring the relationship between urbanization, energy consumption, and CO2 emissions in different provinces of China. Renew. Sustain. Energy Rev. 54, 1563–1579. https://doi.org/10.1016/j.rser.2015.10.090 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.rser.2015.10.090",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXhslyrsLzN",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20the%20relationship%20between%20urbanization%2C%20energy%20consumption%2C%20and%20CO2%20emissions%20in%20different%20provinces%20of%20China&journal=Renew.%20Sustain.%20Energy%20Rev.&doi=10.1016%2Fj.rser.2015.10.090&volume=54&pages=1563-1579&publication_year=2016&author=Wang%2CQ&author=Wu%2CS&author=Zeng%2CY&author=Wu%2CB"
+            }
+        },
+        {
+            "id": "ref-CR66",
+            "content": "Li, B. & Zhang, W. A study on total factor energy efficiency and its difference in resource-based cities in china with consideration of environmental constraints. J. Natl. Res. 31(3), 377–389 (2016).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXmtVarsLk%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20study%20on%20total%20factor%20energy%20efficiency%20and%20its%20difference%20in%20resource-based%20cities%20in%20china%20with%20consideration%20of%20environmental%20constraints&journal=J.%20Natl.%20Res.&volume=31&issue=3&pages=377-389&publication_year=2016&author=Li%2CB&author=Zhang%2CW"
+            }
+        },
+        {
+            "id": "ref-CR67",
+            "content": "Huang, R., Wang, Z., Ding, G., Gong, Y. & Liu, C. Trend prediction and analysis of influencing factors of carbon emissions from energy consumption in Jiangsu province based on STIRPAT model. Geogr. Res. 35(4), 781–789 (2016).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Trend%20prediction%20and%20analysis%20of%20influencing%20factors%20of%20carbon%20emissions%20from%20energy%20consumption%20in%20Jiangsu%20province%20based%20on%20STIRPAT%20model&journal=Geogr.%20Res.&volume=35&issue=4&pages=781-789&publication_year=2016&author=Huang%2CR&author=Wang%2CZ&author=Ding%2CG&author=Gong%2CY&author=Liu%2CC"
+            }
+        },
+        {
+            "id": "ref-CR68",
+            "content": "Liu, Q., Li, Q. & Zheng, X. The prediction of carbon dioxide emissions in Chongqing based on fossil fuel combustion. Acta Scientiae Circumstantiae 37(4), 1582–1593 (2017).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2sXms12gsL0%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20prediction%20of%20carbon%20dioxide%20emissions%20in%20Chongqing%20based%20on%20fossil%20fuel%20combustion&journal=Acta%20Scientiae%20Circumstantiae&volume=37&issue=4&pages=1582-1593&publication_year=2017&author=Liu%2CQ&author=Li%2CQ&author=Zheng%2CX"
+            }
+        },
+        {
+            "id": "ref-CR69",
+            "content": "Wang, Y., Bi, Y. & Wang, E. Scene prediction of carbon emission peak and emission reduction potential estimation in Chinese industry. China Popul. Resour. Environ. 27(10), 131–140 (2017).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scene%20prediction%20of%20carbon%20emission%20peak%20and%20emission%20reduction%20potential%20estimation%20in%20Chinese%20industry&journal=China%20Popul.%20Resour.%20Environ.&volume=27&issue=10&pages=131-140&publication_year=2017&author=Wang%2CY&author=Bi%2CY&author=Wang%2CE"
+            }
+        },
+        {
+            "id": "ref-CR70",
+            "content": "Bai, L., Bai, Y., Xue, Y. & Chen, F. Circular economy beforehand evaluation of provinces and regional diversity. Scientia Geographica Sinica 2, 149–155 (2007).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Circular%20economy%20beforehand%20evaluation%20of%20provinces%20and%20regional%20diversity&journal=Scientia%20Geographica%20Sinica&volume=2&pages=149-155&publication_year=2007&author=Bai%2CL&author=Bai%2CY&author=Xue%2CY&author=Chen%2CF"
+            }
+        },
+        {
+            "id": "ref-CR71",
+            "content": "Sun, J., Li, G. & Wang, Z. Technology heterogeneity and efficiency of China’s circular economic systems: A game meta-frontier DEA approach. Resour. Conserv. Recycl. 146, 337–347. https://doi.org/10.1016/j.resconrec.2019.03.046 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.resconrec.2019.03.046",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Technology%20heterogeneity%20and%20efficiency%20of%20China%E2%80%99s%20circular%20economic%20systems%3A%20A%20game%20meta-frontier%20DEA%20approach&journal=Resour.%20Conserv.%20Recycl.&doi=10.1016%2Fj.resconrec.2019.03.046&volume=146&pages=337-347&publication_year=2019&author=Sun%2CJ&author=Li%2CG&author=Wang%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR72",
+            "content": "Wang, Y. Effects of Industrial Transfer on Provincial Carbon Emission from the Perspective of Spatial Correlation Network (Unpublished doctoral dissertation) (China University of Mining and Technology, 2022) ((in Chinese)).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effects%20of%20Industrial%20Transfer%20on%20Provincial%20Carbon%20Emission%20from%20the%20Perspective%20of%20Spatial%20Correlation%20Network%20%28Unpublished%20doctoral%20dissertation%29&publication_year=2022&author=Wang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR73",
+            "content": "Wang, B. & Wang, Z. Heterogeneity evaluation of China’s provincial energy technology based on large-scale technical text data mining. J. Clean. Prod. 202, 946–958. https://doi.org/10.1016/j.jclepro.2018.07.301 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jclepro.2018.07.301",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Heterogeneity%20evaluation%20of%20China%E2%80%99s%20provincial%20energy%20technology%20based%20on%20large-scale%20technical%20text%20data%20mining&journal=J.%20Clean.%20Prod.&doi=10.1016%2Fj.jclepro.2018.07.301&volume=202&pages=946-958&publication_year=2018&author=Wang%2CB&author=Wang%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR74",
+            "content": "Zhou, X., Xia, M., Zhang, T. & Du, J. Energy- and environment-biased technological progress induced by different types of environmental regulations in China. Sustainability https://doi.org/10.3390/su12187486 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fsu12187486",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Energy-%20and%20environment-biased%20technological%20progress%20induced%20by%20different%20types%20of%20environmental%20regulations%20in%20China&journal=Sustainability&doi=10.3390%2Fsu12187486&publication_year=2020&author=Zhou%2CX&author=Xia%2CM&author=Zhang%2CT&author=Du%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR75",
+            "content": "Xia, X. Study on the Influence of Environmental Regulation on Economic Growth in Northeast China [Doctor, Jilin University] (2019). https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C447WN1SO36whLpCgh0R0Z-iDdIt-WSAdV5IJ_Uy2HKRAf1CKACrB0aqy-Q5AcwnhplVD4HbIBoVKs8F-va-IhOi&uniplatform=NZKPT",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "The datasets generated during and/or analysed during the current study are available from the corresponding author on reasonable request.",
+            "links": {}
+        },
+        "Change history": {
+            "content": "",
+            "links": {
+                "https://doi.org/10.1038/s41598-024-60552-2": "https://doi.org/10.1038/s41598-024-60552-2"
+            }
+        },
+        "Acknowledgements": {
+            "content": "Our research received support from the National Science Foundation of China [grant numbers 42171290].",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsChenchen GuoView author publicationsSearch author on:PubMed Google ScholarJianhui YuView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nC.G.: Conceptualization; Data curation; Formal analysis; Methodology; Visualization; Writing—original draft; Writing—review & editing. J.Y.: Conceptualization; Funding acquisition; Project administration; Supervision; Validation; Writing—review & editing.\n### Corresponding author\nCorrespondence to\n                Jianhui Yu.",
+            "links": {
+                "View author publications": "/search?author=Jianhui%20Yu",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jianhui%20Yu",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Jianhui%20Yu%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Jianhui Yu": "mailto:yujh@igsnrr.ac.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "### Publisher's note\nSpringer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.\nThe original online version of this Article was revised: The original version of this Article contained an error in Affiliation 2, which was incorrectly given as ‘University of Chinese Academy of Sciences, Beijing, 100049, China. The correct affiliation is listed here: College of Resources and Environment, University of Chinese Academy of Sciences, Beijing, 100049, China. Additionally, the Acknowledgments section was omitted. The Acknowledgments section now reads: “Our research received support from the National Science Foundation of China [grant numbers 42171290].”",
+            "links": {}
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Determinants%20and%20their%20spatial%20heterogeneity%20of%20carbon%20emissions%20in%20resource-based%20cities%2C%20China&author=Chenchen%20Guo%20et%20al&contentID=10.1038%2Fs41598-024-56434-2&copyright=The%20Author%28s%29&publication=2045-2322&publicationDate=2024-03-11&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleGuo, C., Yu, J. Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China.\n                    Sci Rep 14, 5894 (2024). https://doi.org/10.1038/s41598-024-56434-2Download citationReceived: 19 November 2023Accepted: 06 March 2024Published: 11 March 2024DOI: https://doi.org/10.1038/s41598-024-56434-2Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative\n                        KeywordsCarbon emissionsSpatial heterogeneityDriving factorsGeographically weighted regression modelResource-based city",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41598-024-56434-2?format=refman&flavour=citation",
+                "Carbon emissions": "/search?query=Carbon%20emissions&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Spatial heterogeneity": "/search?query=Spatial%20heterogeneity&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Driving factors": "/search?query=Driving%20factors&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Geographically weighted regression model": "/search?query=Geographically%20weighted%20regression%20model&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Resource-based city": "/search?query=Resource-based%20city&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\""
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China",
+                "description": "Global climate change associated with increased carbon emissions has become a global concern. Resource-based cities, by estimations, have emerged as major contributors to carbon emissions, accounting for approximately one-third of the national total. This underscores their pivotal role in the pursuit of carbon neutrality goals. Despite this, resource-based cities have long been neglected in current climate change mitigation policy discussions. Accordingly, using exploratory spatial data analysis and Geographical Weighted Regression method, this study investigates the determinants of carbon emissions and their spatial pattern in 113 resource-based cities in China. It can be concluded that: (1) The proportion of carbon emissions from resource-based cities in the national total has shown a marginal increase between 2003 and 2017, and the emissions from these cities have not yet reached their peak. (2) A relatively stable spatial pattern of “northeast high, southwest low” characterizes carbon emissions in resource-based cities, displaying significant spatial autocorrelation. (3) Population size, economic development level, carbon abatement technology, and the proportion of resource-based industries all contribute to the increase in carbon emissions in these cities, with carbon abatement technology playing a predominant role. (4) There is a spatial variation in the strength of the effects of the various influences.",
+                "datePublished": "2024-03-11T00:00:00Z",
+                "dateModified": "2024-04-29T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "18",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s41598-024-56434-2",
+                "keywords": [
+                    "Climate-change adaptation",
+                    "Climate-change impacts",
+                    "Climate-change mitigation",
+                    "Climate-change policy",
+                    "Energy and society",
+                    "Environmental economics",
+                    "Environmental impact",
+                    "Socioeconomic scenarios",
+                    "Sustainability",
+                    "Carbon emissions",
+                    "Spatial heterogeneity",
+                    "Driving factors",
+                    "Geographically weighted regression model",
+                    "Resource-based city",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig6_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig7_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig8_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig9_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig10_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig11_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig12_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Scientific Reports",
+                    "issn": [
+                        "2045-2322"
+                    ],
+                    "volumeNumber": "14",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Chenchen Guo",
+                        "affiliation": [
+                            {
+                                "name": "CAS",
+                                "address": {
+                                    "name": "Institute of Geographic Sciences and Natural Resources Research, CAS, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "College of Resources and Environment, University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "CAS Key Laboratory of Regional Sustainable Development Modeling",
+                                "address": {
+                                    "name": "CAS Key Laboratory of Regional Sustainable Development Modeling, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jianhui Yu",
+                        "affiliation": [
+                            {
+                                "name": "CAS",
+                                "address": {
+                                    "name": "Institute of Geographic Sciences and Natural Resources Research, CAS, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "College of Resources and Environment, University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "CAS Key Laboratory of Regional Sustainable Development Modeling",
+                                "address": {
+                                    "name": "CAS Key Laboratory of Regional Sustainable Development Modeling, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "yujh@igsnrr.ac.cn",
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "climate-change-adaptation;climate-change-impacts;climate-change-mitigation;climate-change-policy;energy-and-society;environmental-economics;environmental-impact;socioeconomic-scenarios;sustainability",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Scientific Reports",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41598-024-56434-2"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Chenchen Guo",
+                            "Jianhui Yu"
+                        ],
+                        "publishedAt": 1710115200,
+                        "publishedAtString": "2024-03-11",
+                        "title": "Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Climate-change adaptation,Climate-change impacts,Climate-change mitigation,Climate-change policy,Energy and society,Environmental economics,Environmental impact,Socioeconomic scenarios,Sustainability"
+                    },
+                    "journal": {
+                        "pcode": "srep",
+                        "title": "scientific reports",
+                        "volume": "14",
+                        "issue": "1",
+                        "id": 41598,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "BR",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China",
+            "dc.source": "Scientific Reports 2024 14:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2024-03-11",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2024 The Author(s)",
+            "dc.rights": "2024 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Global climate change associated with increased carbon emissions has become a global concern. Resource-based cities, by estimations, have emerged as major contributors to carbon emissions, accounting for approximately one-third of the national total. This underscores their pivotal role in the pursuit of carbon neutrality goals. Despite this, resource-based cities have long been neglected in current climate change mitigation policy discussions. Accordingly, using exploratory spatial data analysis and Geographical Weighted Regression method, this study investigates the determinants of carbon emissions and their spatial pattern in 113 resource-based cities in China. It can be concluded that: (1) The proportion of carbon emissions from resource-based cities in the national total has shown a marginal increase between 2003 and 2017, and the emissions from these cities have not yet reached their peak. (2) A relatively stable spatial pattern of “northeast high, southwest low” characterizes carbon emissions in resource-based cities, displaying significant spatial autocorrelation. (3) Population size, economic development level, carbon abatement technology, and the proportion of resource-based industries all contribute to the increase in carbon emissions in these cities, with carbon abatement technology playing a predominant role. (4) There is a spatial variation in the strength of the effects of the various influences.",
+            "dc.identifier": "doi:10.1038/s41598-024-56434-2",
+            "dc.creator": "Yu, Jianhui",
+            "dc.subject": "Sustainability",
+            "prism.issn": "2045-2322",
+            "prism.publicationName": "Scientific Reports",
+            "prism.publicationDate": "2024-03-11",
+            "prism.volume": "14",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "18",
+            "prism.copyright": "2024 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41598-024-56434-2",
+            "prism.doi": "doi:10.1038/s41598-024-56434-2",
+            "citation_pdf_url": "https://www.nature.com/articles/s41598-024-56434-2.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41598-024-56434-2",
+            "citation_journal_title": "Scientific Reports",
+            "citation_journal_abbrev": "Sci Rep",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2045-2322",
+            "citation_title": "Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China",
+            "citation_volume": "14",
+            "citation_issue": "1",
+            "citation_online_date": "2024/03/11",
+            "citation_firstpage": "1",
+            "citation_lastpage": "18",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41598-024-56434-2",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41598-024-56434-2&api_key=",
+            "citation_reference": "Xia, X. Study on the Influence of Environmental Regulation on Economic Growth in Northeast China [Doctor, Jilin University] (2019). \n                  https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C447WN1SO36whLpCgh0R0Z-iDdIt-WSAdV5IJ_Uy2HKRAf1CKACrB0aqy-Q5AcwnhplVD4HbIBoVKs8F-va-IhOi&uniplatform=NZKPT\n                  \n                ",
+            "citation_author": "Yu, Jianhui",
+            "citation_author_institution": "CAS Key Laboratory of Regional Sustainable Development Modeling, Beijing, China",
+            "description": "Global climate change associated with increased carbon emissions has become a global concern. Resource-based cities, by estimations, have emerged as major contributors to carbon emissions, accounting for approximately one-third of the national total. This underscores their pivotal role in the pursuit of carbon neutrality goals. Despite this, resource-based cities have long been neglected in current climate change mitigation policy discussions. Accordingly, using exploratory spatial data analysis and Geographical Weighted Regression method, this study investigates the determinants of carbon emissions and their spatial pattern in 113 resource-based cities in China. It can be concluded that: (1) The proportion of carbon emissions from resource-based cities in the national total has shown a marginal increase between 2003 and 2017, and the emissions from these cities have not yet reached their peak. (2) A relatively stable spatial pattern of “northeast high, southwest low” characterizes carbon emissions in resource-based cities, displaying significant spatial autocorrelation. (3) Population size, economic development level, carbon abatement technology, and the proportion of resource-based industries all contribute to the increase in carbon emissions in these cities, with carbon abatement technology playing a predominant role. (4) There is a spatial variation in the strength of the effects of the various influences.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China",
+            "twitter:description": "Scientific Reports - Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-024-56434-2/MediaObjects/41598_2024_56434_Fig1_HTML.png",
+            "DOI": "10.1038/s41598-024-56434-2",
+            "size": "290550",
+            "journal_id": "41598"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41598-024-56434-2",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

@@ -1,0 +1,432 @@
+{
+    "id": "srep00830",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "title": "High temperatures-related elderly mortality varied greatly from year to year: important information for heat-warning systems",
+    "legal_title": "High temperatures-related elderly mortality varied greatly from year to year  important information for heat-warning systems",
+    "publish_time": "2012-11-09",
+    "pdf_link": "https://www.nature.com/articles/srep00830",
+    "storage_path": "./Articles/Scientific Reports/2012-article/srep00830/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "We examined the variation in association between high temperatures and elderly mortality (age ≥ 75 years) from year to year in 83 US cities between 1987 and 2000. We used a Poisson regression model and decomposed the mortality risk for high temperatures into: a “main effect” due to high temperatures using lagged non-linear function and an “added effect” due to consecutive high temperature days. We pooled yearly effects across both regional and national levels. The high temperature effects (both main and added effects) on elderly mortality varied greatly from year to year. In every city there was at least one year where higher temperatures were associated with lower mortality. Years with relatively high heat-related mortality were often followed by years with relatively low mortality. These year to year changes have important consequences for heat-warning systems and for predictions of heat-related mortality due to climate change.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "There is increasing public health concern for heat-related mortality worldwide as the global climate is changing1. The Intergovernmental Panel on Climate Change (IPCC) has concluded that without increased investments in countermeasures heat waves will cause increased adverse health impacts, including heat-related mortality2. Urban areas may be particularly vulnerable to heat waves because of high concentrations of susceptible population groups and urban heat islands3,4.\nMany studies have shown that high temperatures are related to non-accidental deaths5,6 and cause-specific deaths7,8,9,10,11 and other studies have specifically examined the impacts of heat waves12,13,14. Gasparrini and Armstrong (2011) decomposed the effects of heat into two parts: a “main effect” related to the independent effects of high temperatures and an “added effect” due to heat waves. Results showed that the “main effect” contributed the most to the excess risk of mortality, while a smaller added effect appeared during heat waves. Rocklöv et al. (2010) found an added effect of heat waves with two or more days above the 98th percentile of temperature. Anderson and Bell (2011) examined the modification of heat wave characteristics (e.g., intensity, duration and timing in summer) on mortality. They found higher risks for heat waves that were more intense, longer, or occurred in early summer.\nEpidemiological studies of heat-related mortality could be used by decision makers to design an early warning system for high temperatures, by establishing a heat threshold and the expected increase in deaths above the threshold. Epidemiological studies are also useful for providing a baseline from which to estimate the potential health effects of climate change. However, these previous epidemiological studies gave estimates for the whole study period and ignored the potential variability in risks from year to year. Risks may vary from year to year because of differences in the at-risk population (e.g., more elderly people), or because of increased adaptation over time15,16.\nTemperature-related deaths are more pronounced in the elderly as they are more sensitive to temperature8,17. The thermal regulation system weakens with age; skin sensory perception may diminish and thermal homeostasis may decline18. This means the elderly are not as physiologically able to get relief from cold and hot temperatures. A higher incidence of pre-existing cardiovascular and respiratory disease in the elderly is another reason why they are vulnerable to temperature extremes19. We therefore restricted our analysis to the elderly as they are a high risk group who will have strong associations between high temperatures and death, which gave us the opportunity to examine how these associations vary over time and space.",
+            "cites": [
+                "ref-CR5",
+                "ref-CR2",
+                "ref-CR7",
+                "ref-CR10",
+                "ref-CR12",
+                "ref-CR8",
+                "ref-CR3",
+                "ref-CR19",
+                "ref-CR9",
+                "ref-CR16",
+                "ref-CR4",
+                "ref-CR11",
+                "ref-CR18",
+                "ref-CR17",
+                "ref-CR13",
+                "ref-CR1",
+                "ref-CR6",
+                "ref-CR15",
+                "ref-CR14"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "The yearly variability for both the main effect of high temperatures and the added effect is shown for each city in Figure 1. In most cities there was an extremely wide variation in the yearly estimates and in almost every city both the main and added yearly effects were sometimes negative. The range in the main effects was greatest in Lexington, where the percentage change in yearly elderly mortality ranged from −80% to 150%. The smallest range was in San Diego, where the percentage change in the added effect ranged from −57% to 29%.\nWe found a similarly large variation in the associations at the regional level (Table 1). In every region both the ranges in the main and added effects included zero, meaning that in some years high temperatures increased mortality, but in other years high temperatures decreased mortality. The range in estimates at a national level also included zero.\nThe estimated percent increase in elderly mortality over time by region is in Figure 2. There was a great variation from year to year in both the main and added effects of high temperatures. In general, years with relatively high increases in mortality were often followed by years with relatively low increases and vice versa.\nAccording to the Deviance Information Criteria, the Bayesian hierarchical model fit was not improved by using a non-linear trend over time, so the combined estimates were based on a linear time trend. These linear trends by region are in Figure 3. The main effect declined over time in all of the regions. The added effects moved closer to zero over time in most of the regions.",
+            "cites": [],
+            "figures": [
+                "figure-2",
+                "figure-1",
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "This study estimated the yearly risks of elderly mortality associated with high temperatures. Both the main and added effects varied greatly from year to year in every city and region. In every city and region there were years where high temperatures were associated with increases in mortality and other years where high temperatures were associated with decreases in mortality.\nSuch strong year-to-year variations have important consequences for heat-warning systems, which give advanced warning of dangerous temperatures20,21,22. These systems are designed based on historical observations between temperature and death in a city and aim to find a temperature threshold above which spikes in deaths occur. They are based on average risks over multiple years and do not account for the year to year variations in risk shown here. This means that these systems are likely to suffer false positives, as in some years the anticipated spike in deaths will not occur. They may also suffer false negatives, as the spike in deaths could be greater than expected or occur at a lower temperature threshold. False positives have financial implications, as much of the preventive actions planned under the current system (such as freeing-up hospital beds) are wasted. False positives may also undermine confidence in the system if the warnings are perceived to be too frequent and without any real need23. We suggest that people who run heat-health warning systems should consider the yearly variability on elderly mortality and update their systems by each summer.\nThe great variation in temperature effects shown here also has implications for estimating the future health effects of high temperatures due to climate change24. These projections have been based on associations between temperature and health that ignore the year to year variability in risks. Although the estimated averages from these projections are still valid, any confidence intervals will be too narrow as they missed the uncertainty demonstrated here.\nThere was some visual evidence that years with relatively high heat-related mortality were followed by years with relatively low mortality (Figure 2). This could be because of changes over time in the susceptible pool (or mortality displacement)15,25,26. A summer with a relatively high level of mortality means less people susceptible to heat-related mortality in the following summer. Studies have also shown that high winter mortality leads to lower mortality (mortality displacement) in the following summer15,25,26, as well as high summer mortality leading to lower winter mortality27.\nThe main high temperature effect was generally greater than added heat wave effect (Figure 3). The main effect was higher in the Northwest and South California, while the added effect was higher in Northeast and Upper Midwest. These findings are con-sistent with other studies of heat waves and high temperatures28,29. For example, Anderson and Bell (2011) found that heat waves had smaller effects on mortality in the South.\nThere was a decline in the main effect of high temperature-related death from 1987 to 2000 in all regions (Figure 3). This is consistent with previous US studies7,30. An increased use of air conditioning may be an underlying reason for this reduction in heat-related mortality7,30,31. US studies have shown that associations between high temperatures and mortality were related to the level of air conditioning use28,32,33 and that the use of air conditioning steadily increased in all areas of the United States during 1980 and 20007.\nWe defined high temperature days as two or more consecutive days with temperatures above the 90th percentile during each warm season (May 1 to September 30). Using a stricter definition (e.g., 2 or more consecutive days with temperatures above the 95th percentile), there were often no high temperature days in some cities. However, the results of our study are consistent with a previous study34, which showed that the main effect of high temperatures is greater than the added heat wave effect.\nWe did not consider the variability in the effect of temperature according to either cumulative effects or by the timing or intensity of the high temperatures. Previous studies have shown that individual days of extreme heat increased the risk of mortality35,36 and that the added effect of high temperature on mortality was greater for consecutive high temperature days compared with non-consecutive high temperature days34,37. Anderson and Bell (2011) found that a heat wave's effect on mortality varied by its intensity, duration and timing in the season37.\nWe did not control for air pollution as a previous study found that the association between heat and mortality in the United States was independent of air pollution29. Other studies have also not controlled for air pollution when assessing the impact of temperature on mortality25,34,37. Exposure to air pollution has very different biological effects compared with exposure to high temperature and therefore we would expect them to have independent effects.\nThe model was fitted well for the data as judged by residuals (see Supplementary Fig. S1 online). We changed the degrees of freedom for smoothing for time and the degrees of freedom of the splines for temperature and lagged temperature. The results were broadly similar (not shown).\nWe examined the main and added effects using different high temperature definitions (95th with 2 consecutive days of duration). Both the main and added effects of high temperature increased if the 95th percentile was used compared with the 90th percentile (see Supplementary Fig. S2 online).\nThis study has some strength. The effects of high temperatures on elderly mortality are highly variable from year to year throughout the US. This finding is important from a public health perspective, because it has implications for heat-warning systems and projections of the impact of climate change. We used a flexible non-linear model to capture the main effects of high temperatures and consider lagged effects up to 10 days. We used a large sample of 83 cities with a wide geographic spread across the United States.\nThis study has some limitations. We only used 14 years of data. A longer period would be able to better examine the changes over time in temperature-related mortality. To accurately estimate the autocorrelation in the estimates shown in Figure 2 (which we suspect would be negative) would require at least 50 years of data38. We did not have individual exposure data and so assumed a common exposure to temperature for people in the same city. However, a study reported that temperatures from one monitoring site or averaged temperature from a network of sites are the same as spatial temperatures for assessing city-wide temperature effects on mortality39.\nIn conclusion, both the effects of high temperatures on elderly mortality varied greatly from year to year, making it difficult to predict the health effects of heat in any one year. There was a gradual reduction in high temperature-related elderly mortality. Cities using heat warning systems need to be aware of both the long-term trends in heat-related mortality and the year to year variations. We recommend that cities evaluate the performance of their warning systems at the end of every summer. Specifically they should check for false positives and false negatives and verify that the temperature threshold estimated from historical data remains valid.",
+            "cites": [
+                "ref-CR33",
+                "ref-CR26",
+                "ref-CR7",
+                "ref-CR22",
+                "ref-CR21",
+                "ref-CR38",
+                "ref-CR31",
+                "ref-CR34",
+                "ref-CR28",
+                "ref-CR30",
+                "ref-CR25",
+                "ref-CR20",
+                "ref-CR23",
+                "ref-CR27",
+                "ref-CR29",
+                "ref-CR32",
+                "ref-CR35",
+                "ref-CR39",
+                "ref-CR24",
+                "ref-CR15",
+                "ref-CR36",
+                "ref-CR37"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Data\nWe used the data from the publicly available National Morbidity and Mortality Air Pollution Study (NMMAPS) study40,41. This data comprises daily weather, air pollution and mortality for 108 cities in the United States from 1987 to 2000. Data on maximum and minimum temperatures were from the National Climatic Data Center and daily mortality counts were from the National Center for Health Statistics. Daily non-external deaths counts were for residents, excluding injuries and external causes. More information is available from the NMMAPS web site (http://www.ihapss.jhsph.edu).\nWe excluded small cities (population under 200,000) and cities with more than 0.5% missing data for air or dew point temperature, which left 83 cities. We stratified the cities into seven regions (Industrial Midwest, North East, North West, South East, South West, Southern California and Upper Midwest) (see Supplementary Table S1 online). We limited analyses to elderly morality (age ≥ 75 years) in the warm season (1 May–30 September) as we were interested in the effects of heat on a susceptible population. Mean daily temperature, calculated as the average of daily maximum and minimum temperatures, was used as the main exposure variable.\n### Data analysis\nA city-specific Poisson regression model was used to examine each year's high temperature effect on elderly mortality. In the city-specific model, the heat effects were divided into a “main effect” and an “added effect” according to a previous study34. These two estimates were then combined across cities using a univariate meta-analysis to create yearly estimates for each region and for the entire US. The city-level estimates were also combined using a Bayesian meta-analysis in order to estimate trends over time.\nTo examine the city-specific main effect and added heat wave effect in the warm season, we used the following Poisson regression model in each city and year:\nYt ~ Poisson(μt),\nwhere Yt is the observed daily death count on day t; α is the intercept; Tt,l is a matrix obtained by applying the distributed lag non-linear model (DLNM) to mean temperature, β is vector of coefficients for Tt,l and l is the lag days; S(t, 3) is natural cubic spline of time, with 3 degrees of freedom for time (1 May–30 September) used to control for trends and seasonal patterns in mortality; HTt is a categorical variable for high temperature days on day t, HTt = 0 if day t was a non-high temperature day, HTt = 1 if day t was a high temperature day (defined below); DOWt is a categorical variable for day of the week and λ is vector of coefficients.\nWe modelled the main effect of high temperatures on day t using the term βTt,l which is fitted using a DLNM. A DLNM is a two-dimensional spline which models the main effect of heat along dimensions of temperature and lags. DLNMs overcome the fact that temperatures within a couple of days are strongly correlated by constraining the lagged (delayed) effects of temperatures using a spline42. A cubic spline with 5 degrees of freedom was used to model the lagged (delayed) effect of temperature on mortality up to 10 days34. A cubic spline with 3 degrees of freedom was used to model a non-linear association between temperature and mortality. We used the DLNM to give an estimate of the overall temperature effect by summing over lag days43. This overall estimate was the percent change in mortality between the median temperature among high temperature days against the 75th percentile of temperature in the warm season.\nThe added effect of high temperatures was modelled by υHTt. We defined high temperatures as two or more than two consecutive days with temperature above the 90th percentile for each city during each warm season in each city (May 1 to September 30).\nTo examine the variation in the high temperature effects on mortality from year to year, we pooled the yearly national and regional high temperature effects (main effect and added effect separately) across cities using a univariate meta-analysis with a random effect for each city. We plotted the pooled yearly national and regional main effects and added effects from 1987 to 2000.\nWe used a Bayesian hierarchical model to estimate trends over time for each region and nationally by combin-ing the yearly estimated effects of high temperatures within each city and incorporating the estimates' variance44. Each city was given a random intercept to model its mean heat effect and a random linear effect of time to model linear trends over time. A sensitivity analysis was conducted to examine random non-linear effects of time. Model fit was assessed using the Deviance Information Criteria45. Bayesian hierarchical models have been used to com-bine estimated effects across communities in air pollution and temperature studies7,37.\nSensitivity analyses were carried out on the parameters for the city-specific model to test the robustness of the results to our assumptions concerning the temperature-mortality relationship. We modified the degrees of freedom for smoothing time from 4 to 8 and the degrees of freedom for the splines for temperature from 4 to 8 and for the lag from 3 to 8.\nTo test the sensitivity of our results to the definition of high temperatures, an alternative high temperature definition was used: 95th percentile for at least two consecutive days.\nThe residuals were examined to evaluate the adequacy of the city-specific models. The R software (version 2.11.0, R Development Core Team 2009) was used to fit city specific models. The “dlnm” package of R software was used to create DLNM. The “metafor” package of R software was used to fit univariate meta-analyses. WinBUGS software (version 1.4) was used to fit the Bayesian hierarchical model.",
+            "cites": [
+                "ref-CR45",
+                "ref-CR42",
+                "ref-CR44",
+                "ref-CR34",
+                "ref-CR43",
+                "ref-CR7",
+                "ref-CR41",
+                "ref-CR40",
+                "ref-CR37"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Figure 1",
+            "figure-caption": "Boxplots of the yearly associations between high temperatures and elderly mortality by city between 1987 and 2000.The main effect is the percent change in mortality for an increase in temperature from 75th percentile to the median of high temperature days. The added effect is the percent change in mortality on high temperature days. There are 14 estimates per city. City abbreviations are explained in Supplementary Table S1.",
+            "figure-link": "https://www.nature.com/srep/articles/srep00830/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Figure 2",
+            "figure-caption": "Mean associations between high temperatures and elderly mortality by region between 1987 and 2000 using a univariate meta-analysis.The main effect is the percent change in mortality for an increase in temperature from 75th percentile to the median of high temperature days. The added effect is the percent change in mortality on high temperature days.",
+            "figure-link": "https://www.nature.com/srep/articles/srep00830/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Figure 3",
+            "figure-caption": "Trends over time in the associations between high temperatures and elderly mortality by region using a Bayesian hierarchical model.The main effect is the percent change in mortality for an increase in temperature from 75th percentile to the median of high temperature days. The added effect is the percent change in mortality on high temperature days.",
+            "figure-link": "https://www.nature.com/srep/articles/srep00830/figures/3"
+        }
+    ],
+    "References": [],
+    "Extra_info": {
+        "Acknowledgements": {
+            "content": "The authors thank the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health and the Health Effects Institute for making the National Morbidity and Mortality Air Pollution Study data publicly available. YG is supported by the QUT Postgraduate Research Award (QUTPRA); ST is supported by a NHMRC Research Fellowship (#553043).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsYuming GuoView author publicationsSearch author on:PubMed Google ScholarAdrian G. BarnettView author publicationsSearch author on:PubMed Google ScholarShilu TongView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nYG designed the study and directed its implementation, including data analysis, writing the paper and quality assurance and control. AB helped supervise the study's data analysis and methods, review and edit the paper. ST helped conduct the quality assurance and control, review and edit the paper.",
+            "links": {
+                "View author publications": "/search?author=Shilu%20Tong",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Shilu%20Tong",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Shilu%20Tong%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing financial interests.",
+            "links": {}
+        },
+        "Electronic supplementary material": {
+            "content": "Supplementary InformationSupplementary Information",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fsrep00830/MediaObjects/41598_2012_BFsrep00830_MOESM1_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareALike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by-nc-sa/3.0/": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=High%20temperatures-related%20elderly%20mortality%20varied%20greatly%20from%20year%20to%20year%3A%20important%20information%20for%20heat-warning%20systems&author=Yuming%20Guo%20et%20al&contentID=10.1038%2Fsrep00830&copyright=The%20Author%28s%29&publication=2045-2322&publicationDate=2012-11-09&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY-NC-SA"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleGuo, Y., Barnett, A. & Tong, S. High temperatures-related elderly mortality varied greatly from year to year: important information for heat-warning systems.\n                    Sci Rep 2, 830 (2012). https://doi.org/10.1038/srep00830Download citationReceived: 12 July 2012Accepted: 15 October 2012Published: 09 November 2012DOI: https://doi.org/10.1038/srep00830Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/srep00830?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "High temperatures-related elderly mortality varied greatly from year to year: important information for heat-warning systems",
+                "description": "We examined the variation in association between high temperatures and elderly mortality (age ≥ 75 years) from year to year in 83 US cities between 1987 and 2000. We used a Poisson regression model and decomposed the mortality risk for high temperatures into: a “main effect” due to high temperatures using lagged non-linear function and an “added effect” due to consecutive high temperature days. We pooled yearly effects across both regional and national levels. The high temperature effects (both main and added effects) on elderly mortality varied greatly from year to year. In every city there was at least one year where higher temperatures were associated with lower mortality. Years with relatively high heat-related mortality were often followed by years with relatively low mortality. These year to year changes have important consequences for heat-warning systems and for predictions of heat-related mortality due to climate change.",
+                "datePublished": "2012-11-09T00:00:00Z",
+                "dateModified": "2012-11-09T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "7",
+                "license": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+                "sameAs": "https://doi.org/10.1038/srep00830",
+                "keywords": [
+                    "Climate sciences",
+                    "Earth and environmental sciences",
+                    "Environmental sciences",
+                    "Scientific data",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep00830/MediaObjects/41598_2012_Article_BFsrep00830_Fig1_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep00830/MediaObjects/41598_2012_Article_BFsrep00830_Fig2_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep00830/MediaObjects/41598_2012_Article_BFsrep00830_Fig3_HTML.jpg"
+                ],
+                "isPartOf": {
+                    "name": "Scientific Reports",
+                    "issn": [
+                        "2045-2322"
+                    ],
+                    "volumeNumber": "2",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Yuming Guo",
+                        "affiliation": [
+                            {
+                                "name": "School of Public Health and Social Work, Institute of Health and Biomedical Innovation, Queensland University of Technology",
+                                "address": {
+                                    "name": "School of Public Health and Social Work, Institute of Health and Biomedical Innovation, Queensland University of Technology, Brisbane, Australia",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "School of Medicine, The University of Queensland",
+                                "address": {
+                                    "name": "School of Medicine, The University of Queensland, Brisbane, Australia",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Adrian G. Barnett",
+                        "affiliation": [
+                            {
+                                "name": "School of Public Health and Social Work, Institute of Health and Biomedical Innovation, Queensland University of Technology",
+                                "address": {
+                                    "name": "School of Public Health and Social Work, Institute of Health and Biomedical Innovation, Queensland University of Technology, Brisbane, Australia",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Shilu Tong",
+                        "affiliation": [
+                            {
+                                "name": "School of Public Health and Social Work, Institute of Health and Biomedical Innovation, Queensland University of Technology",
+                                "address": {
+                                    "name": "School of Public Health and Social Work, Institute of Health and Biomedical Innovation, Queensland University of Technology, Brisbane, Australia",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "climate-sciences;earth-and-environmental-sciences;environmental-sciences;scientific-data",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Scientific Reports",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/srep00830"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Yuming Guo",
+                            "Adrian G. Barnett",
+                            "Shilu Tong"
+                        ],
+                        "publishedAt": 1352419200,
+                        "publishedAtString": "2012-11-09",
+                        "title": "High temperatures-related elderly mortality varied greatly from year to year: important information for heat-warning systems",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Climate sciences,Earth and environmental sciences,Environmental sciences,Scientific data"
+                    },
+                    "journal": {
+                        "pcode": "srep",
+                        "title": "scientific reports",
+                        "volume": "2",
+                        "issue": "1",
+                        "id": 41598,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "BR",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "High temperatures-related elderly mortality varied greatly from year to year: important information for heat-warning systems",
+            "dc.source": "Scientific Reports 2012 2:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2012-11-09",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2012 The Author(s)",
+            "dc.rights": "2012 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "We examined the variation in association between high temperatures and elderly mortality (age ≥ 75 years) from year to year in 83 US cities between 1987 and 2000. We used a Poisson regression model and decomposed the mortality risk for high temperatures into: a “main effect” due to high temperatures using lagged non-linear function and an “added effect” due to consecutive high temperature days. We pooled yearly effects across both regional and national levels. The high temperature effects (both main and added effects) on elderly mortality varied greatly from year to year. In every city there was at least one year where higher temperatures were associated with lower mortality. Years with relatively high heat-related mortality were often followed by years with relatively low mortality. These year to year changes have important consequences for heat-warning systems and for predictions of heat-related mortality due to climate change.",
+            "dc.identifier": "doi:10.1038/srep00830",
+            "dc.creator": "Tong, Shilu",
+            "dc.subject": "Scientific data",
+            "prism.issn": "2045-2322",
+            "prism.publicationName": "Scientific Reports",
+            "prism.publicationDate": "2012-11-09",
+            "prism.volume": "2",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "7",
+            "prism.copyright": "2012 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/srep00830",
+            "prism.doi": "doi:10.1038/srep00830",
+            "citation_pdf_url": "https://www.nature.com/articles/srep00830.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/srep00830",
+            "citation_journal_title": "Scientific Reports",
+            "citation_journal_abbrev": "Sci Rep",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2045-2322",
+            "citation_title": "High temperatures-related elderly mortality varied greatly from year to year: important information for heat-warning systems",
+            "citation_volume": "2",
+            "citation_issue": "1",
+            "citation_online_date": "2012/11/09",
+            "citation_firstpage": "1",
+            "citation_lastpage": "7",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/srep00830",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/srep00830&api_key=",
+            "citation_reference": "citation_journal_title=Journal of the Royal Statistical Society: Series B (Statistical Methodology); citation_title=Bayesian measures of model complexity and fit; citation_author=DJ Spiegelhalter, NG Best, BP Carlin, A Van Der Linde; citation_volume=64; citation_publication_date=2002; citation_pages=583-639; citation_doi=10.1111/1467-9868.00353; citation_id=CR45",
+            "citation_author": "Tong, Shilu",
+            "citation_author_institution": "School of Public Health and Social Work, Institute of Health and Biomedical Innovation, Queensland University of Technology, Brisbane, Australia",
+            "description": "We examined the variation in association between high temperatures and elderly mortality (age ≥ 75 years) from year to year in 83 US cities between 1987 and 2000. We used a Poisson regression model and decomposed the mortality risk for high temperatures into: a “main effect” due to high temperatures using lagged non-linear function and an “added effect” due to consecutive high temperature days. We pooled yearly effects across both regional and national levels. The high temperature effects (both main and added effects) on elderly mortality varied greatly from year to year. In every city there was at least one year where higher temperatures were associated with lower mortality. Years with relatively high heat-related mortality were often followed by years with relatively low mortality. These year to year changes have important consequences for heat-warning systems and for predictions of heat-related mortality due to climate change.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "High temperatures-related elderly mortality varied greatly from year to year: important information for heat-warning systems",
+            "twitter:description": "Scientific Reports - High temperatures-related elderly mortality varied greatly from year to year: important information for heat-warning systems",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep00830/MediaObjects/41598_2012_Article_BFsrep00830_Fig1_HTML.jpg",
+            "DOI": "10.1038/srep00830",
+            "size": "109744",
+            "journal_id": "41598"
+        },
+        "canonical_url": "https://www.nature.com/articles/srep00830",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

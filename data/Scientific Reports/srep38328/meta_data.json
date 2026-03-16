@@ -1,0 +1,97 @@
+{
+    "id": "srep38328",
+    "title": "Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors",
+    "journal": "Scientific Reports",
+    "pdf_link": "https://www.nature.com/articles/srep38328",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Beijing Cause of Death Registry System mortality records China CDC",
+            "Data_summary": "Daily death records for Beijing with causes coded using ICD-10, aggregated to daily counts for cardiovascular disease, cerebrovascular disease, and ischemic heart disease. Used as the outcome time series in time stratified case crossover models to estimate acute associations with air pollutants at citywide and district levels.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Daily counts of all causes death in Beijing were obtained for the study period from the Cause of Death Registry System of Chinese Centre for Disease Control and Prevention China CDC Location: Methods Data collection Confidence: high",
+            "Time_Coverage": "2009-01-01 to 2010-12-31",
+            "Geographic_Coverage": "China > Beijing Municipality > 16 administrative districts",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Beijing national air quality monitoring station measurements NO2 PM10 CO",
+            "Data_summary": "Ground monitoring measurements of 24 hour average ambient concentrations of nitrogen dioxide, particulate matter under 10 micrometers, and carbon monoxide from national air quality monitoring stations in Beijing. Used to build citywide exposure series as averages across stations and to derive district level exposure metrics using station means and modeled estimates for districts lacking stations.",
+            "Category": "Ground-based sensors (air quality, temperature, noise)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data of daily 24-hour average of NO2 concentrations were collected from 12 national air quality monitoring AQM stations in Beijing during the study period Location: Methods Data collection Confidence: high",
+            "Time_Coverage": "2009-01-01 to 2010-12-31",
+            "Geographic_Coverage": "China > Beijing Municipality > 11 to 12 monitoring stations and derived 16 districts",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "China Meteorological Administration Beijing daily meteorological observations",
+            "Data_summary": "Daily meteorological observations including mean temperature, relative humidity, and barometric pressure. Used as confounder control variables in the epidemiological models and as predictors in general linear models to estimate district level air pollutant concentrations for districts without monitoring stations.",
+            "Category": "City-wide camera networks and meteorological stations",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: meteorological data including daily mean temperature relative humidity and barometric pressure in 24 h were also obtained from the China Meteorological Administration in Beijing Location: Methods Data collection Confidence: high",
+            "Time_Coverage": "2009-01-01 to 2010-12-31",
+            "Geographic_Coverage": "China > Beijing Municipality",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Beijing Statistical Yearbook district socioeconomic and demographic indicators 2009 to 2010",
+            "Data_summary": "District level annual demographic and socioeconomic indicators compiled in the Beijing Statistical Yearbook, covering dimensions such as economic status, population structure, education attainment, health resources, housing conditions, and environmental conditions. Used as candidate predictors to explain spatial heterogeneity in district specific NO2 mortality effect estimates via robust regression and PCA.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we also obtained the district-specific demographic and socioeconomic data from the Beijing Statistical Yearbook 2009-2010 and the 2010 Population Census of Beijing from the Beijing Statistical Information Network44 Location: Methods Data collection Confidence: high",
+            "Time_Coverage": "2009-2010",
+            "Geographic_Coverage": "China > Beijing Municipality > 16 administrative districts",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "2010 Population Census of Beijing district population statistics",
+            "Data_summary": "Official census tabulations for Beijing providing district level population characteristics such as total population, age structure, and education related measures. Used as district level indicators to assess which demographic and socioeconomic factors are associated with the spatial pattern of NO2 mortality risks.",
+            "Category": "Population census and household surveys",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we also obtained the district-specific demographic and socioeconomic data from the Beijing Statistical Yearbook 2009-2010 and the 2010 Population Census of Beijing from the Beijing Statistical Information Network44 Location: Methods Data collection Confidence: high",
+            "Time_Coverage": "2010",
+            "Geographic_Coverage": "China > Beijing Municipality > 16 administrative districts",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Beijing Statistical Information Network district indicator tables",
+            "Data_summary": "Online statistical portal providing district level annual averages and indicators for Beijing including demographic, socioeconomic, and environmental condition measures. Used to supply the district level predictor variables analyzed for explaining spatial heterogeneity in NO2 mortality effects.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we only used the annual average data of demographic and socioeconomic status from the Statistical Information Network of Beijing Location: Discussion Limitations Confidence: high",
+            "Time_Coverage": "2009-2010",
+            "Geographic_Coverage": "China > Beijing Municipality > 16 administrative districts",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Beijing Municipal Traffic Management Bureau road information data",
+            "Data_summary": "District level road information including total road length. Used as an input variable in general linear models alongside meteorology to estimate daily district air pollutant concentrations for districts without monitoring stations.",
+            "Category": "Road networks and transportation infrastructure",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we thank the Beijing Municipal Traffic Management Bureau for providing road information data Location: Extra_info Acknowledgements Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Beijing Municipality > 16 administrative districts",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:38.524625"
+    }
+}

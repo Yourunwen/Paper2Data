@@ -1,0 +1,497 @@
+{
+    "id": "srep17905",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "title": "Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study",
+    "legal_title": "Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study",
+    "publish_time": "2015-12-08",
+    "pdf_link": "https://www.nature.com/articles/srep17905",
+    "storage_path": "./Articles/Scientific Reports/2015-article/srep17905/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "The rapid expansion of impervious surface areas (ISA) threatens soil organic carbon (SOC) pools in urbanized areas globally. The paucity of field observations on SOC under ISA (SOCISA), especially in dryland areas has limited our ability to assess the ecological impacts of ISA expansion. Based on systematically measured SOCISA (0–80 cm depth) of a dryland city and land-use and land-cover change data derived from remotely sensed data, we investigated the magnitude and vertical/horizontal patterns of SOCISA and mapped the impact of ISA expansion on SOC storage. The mean SOCISA in the city was 5.36 ± 0.51 kg C m−2, lower than that observed in humid cities but much higher than that assumed in many regional carbon assessments. SOCISA decreased linearly as the soil depth or the horizontal distance from the open area increased. SOCISA accounted for over half of the city’s SOC stock, which decreased by 16% (primarily in the converted croplands) because of ISA expansion from 1990 to 2010. The impacts of the ISA expansion varied spatially, depending on the land- use and converted land-cover type.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Urban expansion has converted large areas of cultivated lands, grasslands and forests to built-up areas dominated by impervious surfaces (ISA), including roads, roofs and parking lots1,2,3,4. Impervious surfaces cover approximately 1.3% and 9% of the land areas in the United States of America (USA) and Europe, respectively5,6. Globally, China has the largest area of impervious surfaces7, which covers approximately 63% of its rapidly expanding urban lands8. From 2000 to 2008, China’s urban ISA increased by 53.3%8. The installation of impervious surfaces usually involves the removal of vegetation and topsoil and leads to soil compaction and sealing5. Soil sealing may effectively limit the exchange of water, gas and biomass between urban soils and the atmosphere9 and significantly alter the biogeochemical characteristics of the converted soil10,11. Quantifying urban SOC storage is important for assessing carbon budgets within urban ecosystems12 and evaluating the impacts of urbanization on the global carbon cycle4. Pataki et al.13 emphasized that assessments of the urban SOC stock might be highly sensitive to whether counting is performed in SOCISA. However, our knowledge about the physical (e.g., bulk density, BD) and biogeochemical (e.g., SOC) characteristics of the soils underneath impervious surfaces is limited because of the paucity of data4. As a result, previous carbon cycle studies had to rely on over-simplified assumptions to assess the SOC stock beneath ISAs. Many studies assumed that urban land conversion would remove all soil organic matter, resulting in low soil organic carbon density (SOCDISA) for impervious surfaces14,15,16,17. Some studies set constant values for SOCDISA (e.g., SOCDISA≡1.0 kg C m−2 in two European urban studies18,19 and SOCDISA≡3.3 kg C m−2 in two USA urban studies20,21, both at 0–100 cm depth). Other studies used the SOCD of the adjacent pervious surface areas (SOCDPSA) to approximate the SOCDISA22,23. Different assumptions may lead to significantly different conclusions on urbanization effects24 and thus should be evaluated with field observations.\nHowever, field investigations on SOCDISA are difficult to conduct. All of the previous field studies have been conducted in humid or semi-humid regions12,25,26, while the SOCDISA in the cities in dryland climates, which accounts for more than one-third of the global land area and support more than 20% of human population25, is still unknown. With low precipitation and high evaporation rates, the soils in dryland regions have relatively low SOCD in comparison to humid ecosystems, due to lower carbon input from the water-stressed vegetation25. Meanwhile, intensive human disturbances and/or management actions may modify the SOCD in urban areas, altering the SOCD differences among cities under different climate regimes26. To understand how urban soils are influenced by climate and the associated environmental constraints, it is necessary to investigate the SOCDISA in dryland regions. Such knowledge is especially important to our understanding of the spatial variations in SOCDISA at the continental to global scale. At the city scale, the complex urban landscape and land-use change history might result in strong spatial heterogeneity in urban SOC distribution27. Until now, the spatial distribution of SOC in urbanized areas and its response to ISA expansion are unclear.\nIt is noteworthy that a fraction of SOC in dryland soils is located deep within the soil profile28. Knowledge about the vertical distribution of SOCD is important for assessing the impact of urbanization on dryland SOC balance29. However, the few studies on SOCDISA12,30,31 provide adequate information about the spatial (vertical and horizontal) patterns, which could provide evidence of the impact of human disturbances and surface sealing on soil biogeochemistry. Although Edmondson et al.12 investigated the correlation between soil depth and SOCDISA, uncertainties still exist because their sampling depths varied from plot to plot. Other SOCDISA studies mainly focused on the topsoil30,31. Furthermore, previous studies have not investigated the horizontal pattern of SOCDISA. It has been suggested that soil sealing may radically alter the biogeochemical processes in soils5,9. Analysis on the horizontal gradient of SOCDISA from the center of ISA (where mass exchanges between the soil and the atmosphere are minimal) and the edge of ISA (where mass exchanges between the ISA soil and the adjacent pervious surface area (PSA) exist) might provide evidence of the sealing effects on soil’s biological activities.\nBased on systematically measuring SOCISA and the land-use and land-cover change data derived from remote sensing of a dryland city, we quantified the SOCISA and investigated vertical and horizontal patterns of SOCISA and further mapped the impact of ISA expansion on the SOC stock of a city. Our objectives were to (1) measure the SOCD of the impervious surfaces in a dryland city and compare the results with previous findings in humid cities, (2) investigate the vertical and horizontal variations of SOCDISA and (3) assess the impacts of ISA expansion on the SOC stock of a dryland city and reveal the spatial distribution of soil carbon sources/sinks. To our knowledge, this is the first time that the spatial pattern of the SOCDISA in a city has been mapped and the impact of ISA expansion on the SOC distribution quantified.",
+            "cites": [
+                "ref-CR9",
+                "ref-CR14",
+                "ref-CR10",
+                "ref-CR3",
+                "ref-CR15",
+                "ref-CR4",
+                "ref-CR31",
+                "ref-CR25",
+                "ref-CR24",
+                "ref-CR30",
+                "ref-CR18",
+                "ref-CR7",
+                "ref-CR13",
+                "ref-CR17",
+                "ref-CR1",
+                "ref-CR2",
+                "ref-CR19",
+                "ref-CR23",
+                "ref-CR21",
+                "ref-CR27",
+                "ref-CR8",
+                "ref-CR16",
+                "ref-CR20",
+                "ref-CR11",
+                "ref-CR28",
+                "ref-CR12",
+                "ref-CR29",
+                "ref-CR5",
+                "ref-CR26",
+                "ref-CR22",
+                "ref-CR6"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Spatial patterns of BD and SOC in urban soils\nAccording to paired t-tests, the BDISA (1.62 ± 0.04 g cm−3) was significantly (2-tailed, p = 0.0096) higher (by approximately 8%) than the BDPSA (1.49 ± 0.02 g cm−3), whereas the soil organic carbon content beneath ISA (SOCCISA) (3.55 ± 0.36 g kg−1) was significantly (2-tailed, p = 0.010) lower than the SOCCPSA (5.47 ± 0.58 g kg−1) (Table 1). The SOCDISA (5.36 ± 0.51 kg C m−2) was only 66% of the SOCDPSA. The SOCDISA was also lower than the mean SOCD (6.14 ± 0.88 kg C m−2) of the rural soils (SOCDrural) in the region32. The SOCDs of the different land covers are compared in Supplementary Figure S1.\nUnder the impervious surfaces, the SOCC and BD of the upper soil layers (0–20 cm and 20–40 cm) were higher than that of the lower soil layers (40–60 cm and 60–80 cm). The negative relationship between the SOCDISA (kg C m−2) of a soil layer and its depth (cm) was described by a significant linear function (R2 = 0.91; k = -0.014, p < 0.05) (Fig. 1a). We did not find a significant vertical trend in the SOCDPSA (Fig. 1b). The SOCISA was significantly lower (2-tailed, p < 0.01) than the SOCPSA at most soil layers except for the 20–40cm layer, while the BDISA was significantly higher than the BDPSA at all soil layers above 60 cm (Fig. 1a,b). Moreover, the SOCDISA decreased linearly (R2 = 0.91, k = −1.12, p < 0.05), while the BDISA increased (R2 = 0.98, k = 0.003, p < 0.05) from the edge of the impervious surface to the center (Fig. 1c).\n### Impacts of ISA expansion on the SOC stock of Urumqi\nISA expansion was the dominant land-cover change in Urumqi during the recent two decades (Fig. 2a–c). The coverage of ISA in the Urumqi metropolitan area increased from 25% in 1990 to 63% in 2010. During this twenty-year period, approximately 137 km2 of land were converted to impervious surfaces, whereas croplands and bare ground/remnant deserts shrank by 79 km2 and 59 km2, respectively. According to its area and mean SOCD (Supplementary Figure S1), the SOCISA pool in the Urumqi metropolitan area was approximately 1.23 Tg C in 2010, accounting for over 57% of the total SOC stock in the city.\nFurther analysis of the spatial pattern of land-cover change revealed that the impervious surface mostly sprawled northward displacing remnant desert/bare ground and cropland (Fig. 2c). Urban infill was found in the south and mid-region, where four large patches of urban green space had been converted to impervious surfaces. From 1990–2010, approximately 85.8 km2 of remnant deserts/bare ground, 34.74 km2 of cropland and 16.07 km2 of urban green space were converted to impervious surfaces in the Urumqi metropolitan area. The city lost 0.77 Tg SOC (or 16% of its SOC stock in 1990) as a result of ISA expansion. It is worth noting that 48% of the carbon loss was caused by the conversion of cropland to ISA (Fig. 2d) although it only accounted for 25% of the ISA expansion (Fig. 2c).",
+            "cites": [
+                "ref-CR32"
+            ],
+            "figures": [
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "### Evaluation of the SOCDISA assumptions and their impacts on urban carbon assessments\nMost urban soil studies have been conducted in PSA9,20 (supplementary Table S1). The SOCISA was either approximated with the adjacent SOCPSA22,23 or estimated from the mean SOC of pervious sites20. However, our study showed that the ISA and PSA differed significantly in SOC and BD (Table 1), especially in the topsoil (0–20 cm in our study) where the SOCDISA was only 75% of the adjacent SOCPSA. Similarly, a study in New York City found the topsoil (0–15cm) organic carbon under ISA was 66% lower than that of the adjacent PSA soil30. Further, we showed that the ISA and PSA had different vertical SOC and BD distribution patterns and the SOCDISA was significantly lower than the SOCDPSA in most soil layers (Fig. 1). These findings indicate that PSA should not be used as a proxy for soil under ISA.\nAccordingly, the patterns and theories derived based on PSA studies may not be applicable to ISA. For example, the urban ecosystem convergence theory suggests cities in different climate zones could have similar SOCDs as the result of intensive human managements, even if their native SOCDs differ significantly due to the climatic constrains26. Wei et al.33 suggested the disturbed soils under ISA might reach an “equilibrium SOCDISA value” that does not vary significantly among cities in different climate zones and the SOC storage in impervious soils at continental or global scales could be estimated based on this “equilibrium SOCDISA value”. Our data showed the SOCDPSA in the dryland city (Urumqi) was close to the reported SOCDPSA in humid cities (supplementary Table S1), thus supported the urban ecosystem convergence theory34 in PSAs. The SOCDISA in the dryland city, however, was lower than that in the humid cities (Table 2), suggesting an “equilibrium SOCDISA value”34 may not exist. This finding indicated possible climate (humidity or precipitation) control over the SOCDISA and called into question the use of constant SOCDISA values across large areas in carbon budget assessments18,19,20,21.\nIt is noteworthy that most carbon budget assessments assumed extremely low SOCDISA values (1.0 kg C m−2 to 3.3 kg C m−2)18,19,20,21, which is even lower than the SOCDISA (5.36 ± 0.51 kg C m−2) of the dryland city of Urumqi. Such assumptions could lead to significant underestimates of urban carbon budget at national to global scales. For example, a conservative re-assessment of SOCISA in the USA based on our observations in a dryland city indicates that Churkina et al.21 might have underestimated the SOC stock in the developed areas of USA by 0.3 Pg, equivalent to the forest carbon stock in Kentucky35. Urban SOCISA assessments should be based on field observations rather than untested assumptions.\n### Spatial patterns of SOCISA and the implications for the underlying mechanisms\nUnlike previous studies that primarily focused on topsoil30,31, we systematically examined the vertical and horizontal distributions of the SOCISA (Fig. 1). Such information may provide information about the influence of impervious surface on soil structure and biogeochemical processes12. We found urban SOCDISA declined linearly with depth, similar to the patterns of rural soils (supplementary Figure S2), but not so with SOCDPSA that had no vertical trend due to intensive human disturbances36,37,38,39. This finding indicates that the construction of ISA may not severely disrupt the subsoil layers and the pre-urban vertical pattern of SOCD was largely maintained, possibly because the installation of impervious surface protected the soil from frequent disturbances and slowed the SOC decomposition and leaching processes30,31. However, the physical soil structure was changed significantly under the ISA. The BDISA (1.62 g cm−3) was significantly higher than the BDPSA (1.49 g cm−3) and the BD of rural soils (1.28 g cm−3)40. Unlike the rural soil profile whose BD increases with depth41, the mean BDISA of the upper soil layers (0–40 cm) was higher than that of the lower soil layers (40–80 cm). Furthermore, the BDISA increased significantly from the edge of the impervious surface to the center, leading to high BD (1.67 g cm−3) in the center of the ISA. These findings indicate the ISA construction could significantly increase the soil compactness to the level (~1.69 g cm−3) that can reduce the root growth by 50%42.\nOur analysis of the horizontal pattern of SOCDISA provided evidence of how soil sealing may affect biogeochemical processes. Because the impervious surfaces prevent vertical carbon influx to the soil, the SOC dynamic under ISA is mainly determined by the balance between two processes30,31: (1) the horizontal infiltration of carbon from the PSA, which could lead to a higher SOCD at the edge of the ISA and (2) the SOC decomposition that was controlled by environmental factors such as soil oxygen availability. The closer to the PSA (or the edges of ISA) the soil oxygen concentration is higher, possibly leading to a higher SOC decomposition rate and a lower SOCD at the edge of ISA. The SOCDISA distribution pattern predicted by the oxygen-limitation theory, however, did not match our finding that indicated a declining SOCD gradient from the edge to the center of an impervious surface (Fig. 1c). This horizontal pattern of SOCDISA could be caused by the horizontal infiltration of carbon from the PSA or might be related to other environmental controls on soil decomposition (e.g., the horizontal gradient of soil temperature). More field measurements and experiments are required to improve our understanding of the underlying mechanisms.\n### Urbanization and carbon management\nThe impacts of urbanization on ecosystem carbon balance have gained attention from policymakers as well as scientists4,43,44. For example, the Urumqi municipal authorities are committed to reduce the carbon emission from city development while pursuing “Ecological Civilization”45. Previous studies assessed the impact by comparing the SOCDISA against the SOCD measured in urban green spaces (i.e., the SOCDPSA in our study)30,31. However, our study showed the converted green space areas accounted for less than 12% of the ISA expansion in Urumqi (Fig. 2c). Considering the landscape heterogeneity and the distinct SOC densities among the various land-cover types (Supplementary Figure S2)12,31, spatially explicit datasets which show the distribution of carbon pools and reveal the locations of carbon sinks/sources are necessary for effective carbon management46. Our study revealed a large amount of SOC lost in northwestern Urumqi, primarily because of the large-scale conversion of cropland to ISA in the area (Fig. 2d). Therefore, we recommend the municipal government to limit northwestern urban expansion and reduce the ISA in the newly developed land in this area. We also noticed two large downtown parks located at the southwestern and mid-western Urumqi shrunk dramatically from 1990 to 2010 (Fig. 2c). The conversions of these green spaces to ISA not only directly released 27.6 tons of SOC, but also could enhance the urban heat island effect that stimulates energy-related carbon emissions in Urumqi47.\n### Uncertainties and future works\nOur literature review found only three field investigations on the SOCDISA, all of which studies SOCDISA in humid regions (Table 2). To our knowledge, this study was the first observational study on the SOCISA (and BDISA) of a dryland city. We recognize that it is difficult to use 11 excavation sites for a 300–400 km2 city and carefully selected the sites to ensure their representativeness. Compared to previous studies that focused on a few neighborhoods30,34,48, our sites were scattered across the city (Fig. 3) and represented the land-cover and land-use types in the city (see Methods and the supplementary Table S2). To improve the statistical confidence and reduce the uncertainties in urban soil research, SOCISA observations from different cities in various regions are essential, especially in the tropical and cold-zone, since all current studies were conducted in the temperate cities (Table 2).",
+            "cites": [
+                "ref-CR9",
+                "ref-CR37",
+                "ref-CR4",
+                "ref-CR41",
+                "ref-CR48",
+                "ref-CR31",
+                "ref-CR30",
+                "ref-CR39",
+                "ref-CR46",
+                "ref-CR18",
+                "ref-CR34",
+                "ref-CR38",
+                "ref-CR36",
+                "ref-CR47",
+                "ref-CR35",
+                "ref-CR40",
+                "ref-CR33",
+                "ref-CR19",
+                "ref-CR23",
+                "ref-CR21",
+                "ref-CR44",
+                "ref-CR43",
+                "ref-CR20",
+                "ref-CR42",
+                "ref-CR12",
+                "ref-CR26",
+                "ref-CR45",
+                "ref-CR22"
+            ],
+            "figures": [
+                "figure-3"
+            ]
+        },
+        {
+            "title": "Methods",
+            "text": "### Study area\nLocated at the northern slope of the Tianshan Mountains and on the southern edge of the Gurbantunggut Desert, Urumqi City (43.80° N, 87.60° E) is the economic and political center of the Northern-Tianshan Urban Agglomeration in Xinjiang province, China (Fig. 3)49. The city has a metropolitan area of 339 km2 and a population of 3 million50. Its built-up areas have the highest growth rate (7.4% per year) among all cities in Xinjiang51. With annual precipitation of 200–300 mm and a mean temperature of approximately 7.4 °C, the region represents the typical arid climate of northwestern China51. The regional landscape consists of agricultural oases and desert shrubland. Exotic broadleaf trees and turfgrass can also be found in the city. The main soil types include solonetzs and castanozems. The city displays poor soil development, which results in a shallow soil depth of 0–80 cm.\n### Soil pit sampling method\nWith the help of a construction company, soil samples under impervious surfaces were collected from 11 excavation sites (the profile pits were deeper than 80 cm) across Urumqi in an urban reconstruction project in March 2013 (Fig. 3). The sampling sites were selected carefully based on land type, soil type and spatial distribution, to ensure their representativeness. The sealing of the impervious soils and the land-cover/vegetation types of the paired PSA plots (see below) had been stable for over 14 years (supplementary Figure S3). A detailed description of the site information is found in the supplementary Table S2. Each of the ISA sampling plots was paired with a PSA sampling plot from the adjacent open area, which was sampled in the same day. With permission from the landowner, a profile pit approximately 80~90 cm deep was dug in each plot. Using 100-ml sample rings, soil profiles in the pits were sampled at 20-cm intervals to an 80-cm depth where bedrock or alluvial grid gravel is encountered. We measured the BD and SOCC in each soil layer, then calculated the SOCD. All the soil samples were air-dried and sieved at 0.15 mm. The soil’s BD was measured using the volumetric ring method52. The SOCC was measured using the Mebius method involving Walkley-Black acid digestion53,54. Then, the SOCD was calculated by multiplying the SOCC by the soil BD. For each soil layer, the SOCD and BD values of the three sampling plots in a site were averaged to derive the site-level mean SOCDISA, BDISA, SOCDPSA and BDPSA. We also sampled the horizontal pattern of SOCDISA and BDISA in 7 of the 11 sampling sites. Soil samples (0–80 cm depth) were taken at 0.5 m, 1 m and 1.5 m from the edge of the ISA to the center.\n### Mapping ISA in 1990 and 2010 from Landsat TM Imagery\nThe boundary of the Urumqi metropolitan area was defined according to the 1:1 000 000 land use/cover map of China (Fig. 2)51. Cloud free Landsat TM images acquired September 1990 and August 2010, which covered the metropolitan area of Urumqi (path/row: 143/30), were selected to classify five major land-cover types: water, ISA, green space, cropland and remnant desert/bare ground in urban areas. After geometric rectification and radiometric calibration that transformed the original digital signals from the sensor to reflectance values, an improved image-based dark-object subtraction model was applied to perform atmospheric correction55,56. A linear spectral mixture analysis (LSMA) model was applied to extract the impervious surfaces (Supplementary Figure S4)3,57,58,59,60. To identify the major land-cover types effectively, the Landsat multispectral images were transformed into new components using minimum noise fraction transform; thus, most information can be found in the first three components61. From the scatterplots of the first three components, four endmembers-vegetation, soil, high-albedo object and low-albedo object were identified62,63. Then, a constrained least square solution was applied to unmix the Landsat multispectral image into fraction images of these four endmembers63. Similar to Lu and Weng41, our visual checks and ground truth investigations indicated that the vegetation component represented the green spaces and croplands, the soil component represented the remnant desert/bare grounds and the high- and low-albedo objects represented the ISAs and water bodies in the Urumqi metropolitan area.\nNext, a decision tree classifier was used to develop the land-cover thematic maps of Urumqi from the four LSMA-derived fraction images. Supplementary Figure S4 illustrates the procedure of using the combination of the decision tree classifier and post processing method used to perform the urban land cover classification in this study. The training samples were selected through visual interpretation of 0.3 m resolution Worldview Images acquired in 2010 and 0.25 m resolution aerial photos acquired in 1990 over Urumqi. We first classified the selected images into water, ISA, remnant desert/bare ground, green spaces and cropland. Next, the 1:1 000 000 land use/cover map51 of Urumqi was used to separate the cropland from the urban green spaces. Stratified random sampling was conducted to assess the classification accuracy. A total of 200 points were randomly selected from the Worldview Images and the aerial photos. Producer’s accuracy, user’s accuracy, overall accuracy and the Kappa coefficient were calculated based on the confusion matrix (supplementary Table S3). The overall accuracy of classification of land use/cover in 1990 was 79% and the Kappa coefficient was 0.68. The overall accuracy of classification in 2010 was 87% and the Kappa coefficient was 0.72. The assessment indicated that the 30 m × 30 m resolution land-cover maps of Urumqi had reasonable accuracy for the follow-up study on ISA expansion impacts.\n### Assessing the impacts of ISA expansion from 1990–2010 on the SOC stock of the Urumqi metropolitan area\nThe impacts of ISA expansion from 1990–2010 on the soil carbon stock of the Urumqi metropolitan area were estimated based on the land-cover maps of the two periods and the SOCD of each land-cover type (Fig. 2a–c). The mean SOCD underneath the impervious surfaces in Urumqi was represented by the mean SOCDISA values from the 11 sampling sites. Because all of our PSA sampling plots were located in the urban green spaces (including lawns and grassy medians between the sidewalk and the street), we approximated the SOCD of the green spaces with the SOCDPSA. Our field surveys indicated that most of the bare grounds in Urumqi were remnant deserts (shrub and scrubs). The mean organic carbon density of the desert/shrubland soils in the study region was 6.14 ± 0.88 kg C m−232 and the SOCD of croplands (SOCDcrop) was assigned the value of 9.94 ± 0.56 kg C m−2, which was the mean SOCD of the northern Tianshan croplands32. Because water bodies in Urumqi were generally deeper than 80 cm, their SOCD was set to 0 kg C m−2. This assumption would not significantly affect our results, because water bodies covered less than 1% of the dryland city and accounted for less than 0.1% of the land-cover change. Finally, the 30 m × 30 m resolution SOCD maps of Urumqi in 1990 and 2010 were developed by assigning the mean SOCD value of each land-cover type to the corresponding pixels in the land-cover maps. The impact map of the ISA expansion from 1990–2010 was developed by comparing the SOCD map of 2010 to the SOCD map of 1990.\nIt should be noted that our sampling sites only represented roads, parking lots/squares, or traditional low-rise buildings (<7 stories). Modern high-rise buildings in Urumqi usually have basements or underground parking lots that require the complete removal of soil during construction. The SOCISA of the modern high-rise buildings should be assigned a value of zero. Furthermore, preliminary field investigations indicated that the proportion of modern high-rise buildings in an ISA was related to the land-use type, with transportation land having much fewer high-rise buildings than the urban residential areas (supplementary Table S4). Therefore, we first developed a land-use map of Urumqi from high-resolution aerial photos and the Worldview Images by visual interpretation and expert knowledge. Then, for each of the resulting 11 land-use types (supplementary Table S4), 30 samples were randomly selected. Visual interpretation and field investigation were conducted to identify the proportion of ISAs whose soils were completely removed (e.g., as a result of the construction of underground parking lots and basements). For land-use type i, the mean SOCDISA,i was calculated as equation (1):\nwhere fi is the proportion of ISA in which soils were completely removed for land-use type i (supplementary Table S4); and SOCDISA is the mean SOCDISA of the 11 sampling sites. Then, by overlaying the land-use map to the land-cover map, we calculated the SOCDISA,i value for each ISA pixel in the land-cover map using equation (1).",
+            "cites": [
+                "ref-CR61",
+                "ref-CR49",
+                "ref-CR60",
+                "ref-CR32",
+                "ref-CR62",
+                "ref-CR50",
+                "ref-CR53",
+                "ref-CR3",
+                "ref-CR41",
+                "ref-CR56",
+                "ref-CR57",
+                "ref-CR51",
+                "ref-CR58",
+                "ref-CR54",
+                "ref-CR63",
+                "ref-CR55",
+                "ref-CR59",
+                "ref-CR52"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Additional Information",
+            "text": "How to cite this article: Yan, Y. et al. Impacts of impervious surface expansion on soil organic carbon– a spatially explicit study. Sci. Rep. 5, 17905; doi: 10.1038/srep17905 (2015).",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Figure 1",
+            "figure-caption": "Comparison of vertical distribution of soil organic carbon content, soil bulk density and soil organic carbon density between (a) urban impervious surface and (b) pervious surface at each layer (** and * above the error bars indicate significant differences between the soilISA and soilPSA at the 0.01, 0.05 levels, respectively) and (c) the horizontal gradient of soil organic carbon from the edge of the impervious surface.",
+            "figure-link": "https://www.nature.com/srep/articles/srep17905/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Figure 2",
+            "figure-caption": "The land-cover types (impervious surface, urban green spaces, bare ground and cropland) of Urumqi in 1990 (a) and 2010 (b), the expansion of impervious surface area (ISA) from 1990–2010 (c) and the carbon loss caused by ISA expansion (d). This map was generated by the one of the authors (Yan Yan) by using ArcMap (version 10.2).",
+            "figure-link": "https://www.nature.com/srep/articles/srep17905/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Figure 3",
+            "figure-caption": "Location of the study area (the Urumqi metropolis, Xinjiang, China) and sampling sites with photos showing the soil profiles of the impervious surface (red box 1) and the adjacent pervious surface (red box 2) in a site.This map was generated by the one of the authors (Yan Yan) by using the ArcMap (version 10.2). The photographs in this map was taken by one of the authors (Yan Yan).",
+            "figure-link": "https://www.nature.com/srep/articles/srep17905/figures/3"
+        }
+    ],
+    "References": [],
+    "Extra_info": {
+        "Acknowledgements": {
+            "content": "The study was supported by the National Science Foundation of China (#31170347), the Knowledge Innovation Project of The Chinese Academy of Sciences (KZCX2-YW-T09) and the “Hundred Talents Program” of the Chinese Academy of Sciences (granted to Chi Zhang).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsYan YanView author publicationsSearch author on:PubMed Google ScholarWenhui KuangView author publicationsSearch author on:PubMed Google ScholarChi ZhangView author publicationsSearch author on:PubMed Google ScholarChunbo ChenView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nY.Y. and W.H.K. wrote the main manuscript text, they contributed to the manuscript equally. Y.Y. prepared the figures and tables; C.Z. gave conceptual advices and revised the manuscript; C.B.C. helped the statistical analysis of the data; all authors reviewed the manuscript.",
+            "links": {
+                "View author publications": "/search?author=Chunbo%20Chen",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Chunbo%20Chen",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Chunbo%20Chen%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing financial interests.",
+            "links": {}
+        },
+        "Electronic supplementary material": {
+            "content": "Supplementary Information",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fsrep17905/MediaObjects/41598_2015_BFsrep17905_MOESM1_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Impacts%20of%20impervious%20surface%20expansion%20on%20soil%20organic%20carbon%20%E2%80%93%20a%20spatially%20explicit%20study&author=Yan%20Yan%20et%20al&contentID=10.1038%2Fsrep17905&copyright=The%20Author%28s%29&publication=2045-2322&publicationDate=2015-12-08&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleYan, Y., Kuang, W., Zhang, C. et al. Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study.\n                    Sci Rep 5, 17905 (2015). https://doi.org/10.1038/srep17905Download citationReceived: 10 April 2015Accepted: 06 November 2015Published: 08 December 2015DOI: https://doi.org/10.1038/srep17905Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/srep17905?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study",
+                "description": "The rapid expansion of impervious surface areas (ISA) threatens soil organic carbon (SOC) pools in urbanized areas globally. The paucity of field observations on SOC under ISA (SOCISA), especially in dryland areas has limited our ability to assess the ecological impacts of ISA expansion. Based on systematically measured SOCISA (0–80 cm depth) of a dryland city and land-use and land-cover change data derived from remotely sensed data, we investigated the magnitude and vertical/horizontal patterns of SOCISA and mapped the impact of ISA expansion on SOC storage. The mean SOCISA in the city was 5.36 ± 0.51 kg C m−2, lower than that observed in humid cities but much higher than that assumed in many regional carbon assessments. SOCISA decreased linearly as the soil depth or the horizontal distance from the open area increased. SOCISA accounted for over half of the city’s SOC stock, which decreased by 16% (primarily in the converted croplands) because of ISA expansion from 1990 to 2010. The impacts of the ISA expansion varied spatially, depending on the land- use and converted land-cover type.",
+                "datePublished": "2015-12-08T00:00:00Z",
+                "dateModified": "2015-12-08T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "9",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/srep17905",
+                "keywords": [
+                    "Ecology",
+                    "Urban ecology",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep17905/MediaObjects/41598_2015_Article_BFsrep17905_Fig1_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep17905/MediaObjects/41598_2015_Article_BFsrep17905_Fig2_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep17905/MediaObjects/41598_2015_Article_BFsrep17905_Fig3_HTML.jpg"
+                ],
+                "isPartOf": {
+                    "name": "Scientific Reports",
+                    "issn": [
+                        "2045-2322"
+                    ],
+                    "volumeNumber": "5",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Yan Yan",
+                        "affiliation": [
+                            {
+                                "name": "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences, Urumqi, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Wenhui Kuang",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Chi Zhang",
+                        "affiliation": [
+                            {
+                                "name": "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences, Urumqi, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Global Institute of Sustainability, Arizona State University",
+                                "address": {
+                                    "name": "Global Institute of Sustainability, Arizona State University, United States",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Chunbo Chen",
+                        "affiliation": [
+                            {
+                                "name": "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences, Urumqi, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "ecology;urban-ecology",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Scientific Reports",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/srep17905"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Yan Yan",
+                            "Wenhui Kuang",
+                            "Chi Zhang",
+                            "Chunbo Chen"
+                        ],
+                        "publishedAt": 1449532800,
+                        "publishedAtString": "2015-12-08",
+                        "title": "Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Ecology,Urban ecology"
+                    },
+                    "journal": {
+                        "pcode": "srep",
+                        "title": "scientific reports",
+                        "volume": "5",
+                        "issue": "1",
+                        "id": 41598,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "download-collection-test",
+                                "active": false
+                            },
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "BR",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study",
+            "dc.source": "Scientific Reports 2015 5:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2015-12-08",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2015 The Author(s)",
+            "dc.rights": "2015 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "The rapid expansion of impervious surface areas (ISA) threatens soil organic carbon (SOC) pools in urbanized areas globally. The paucity of field observations on SOC under ISA (SOCISA), especially in dryland areas has limited our ability to assess the ecological impacts of ISA expansion. Based on systematically measured SOCISA (0–80 cm depth) of a dryland city and land-use and land-cover change data derived from remotely sensed data, we investigated the magnitude and vertical/horizontal patterns of SOCISA and mapped the impact of ISA expansion on SOC storage. The mean SOCISA in the city was 5.36 ± 0.51 kg C m−2, lower than that observed in humid cities but much higher than that assumed in many regional carbon assessments. SOCISA decreased linearly as the soil depth or the horizontal distance from the open area increased. SOCISA accounted for over half of the city’s SOC stock, which decreased by 16% (primarily in the converted croplands) because of ISA expansion from 1990 to 2010. The impacts of the ISA expansion varied spatially, depending on the land- use and converted land-cover type.",
+            "dc.identifier": "doi:10.1038/srep17905",
+            "dc.creator": "Chen, Chunbo",
+            "dc.subject": "Urban ecology",
+            "prism.issn": "2045-2322",
+            "prism.publicationName": "Scientific Reports",
+            "prism.publicationDate": "2015-12-08",
+            "prism.volume": "5",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "9",
+            "prism.copyright": "2015 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/srep17905",
+            "prism.doi": "doi:10.1038/srep17905",
+            "citation_pdf_url": "https://www.nature.com/articles/srep17905.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/srep17905",
+            "citation_journal_title": "Scientific Reports",
+            "citation_journal_abbrev": "Sci Rep",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2045-2322",
+            "citation_title": "Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study",
+            "citation_volume": "5",
+            "citation_issue": "1",
+            "citation_online_date": "2015/12/08",
+            "citation_firstpage": "1",
+            "citation_lastpage": "9",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/srep17905",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/srep17905&api_key=",
+            "citation_reference": "citation_journal_title=ISPRS-J. Photogramm. Remote Sens.; citation_title=Mapping impervious surfaces with the integrated use of Landsat Thematic Mapper and radar data: A case study in an urban-rural landscape in the Brazilian Amazon; citation_author=DS Lu, GY Li, E Moran, M Batistella, CC Freitas; citation_volume=66; citation_publication_date=2011; citation_pages=798-808; citation_doi=10.1016/j.isprsjprs.2011.08.004; citation_id=CR63",
+            "citation_author": "Chen, Chunbo",
+            "citation_author_institution": "University of Chinese Academy of Sciences, Beijing, China",
+            "description": "The rapid expansion of impervious surface areas (ISA) threatens soil organic carbon (SOC) pools in urbanized areas globally. The paucity of field observations on SOC under ISA (SOCISA), especially in dryland areas has limited our ability to assess the ecological impacts of ISA expansion. Based on systematically measured SOCISA (0–80 cm depth) of a dryland city and land-use and land-cover change data derived from remotely sensed data, we investigated the magnitude and vertical/horizontal patterns of SOCISA and mapped the impact of ISA expansion on SOC storage. The mean SOCISA in the city was 5.36 ± 0.51 kg C m−2, lower than that observed in humid cities but much higher than that assumed in many regional carbon assessments. SOCISA decreased linearly as the soil depth or the horizontal distance from the open area increased. SOCISA accounted for over half of the city’s SOC stock, which decreased by 16% (primarily in the converted croplands) because of ISA expansion from 1990 to 2010. The impacts of the ISA expansion varied spatially, depending on the land- use and converted land-cover type.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study",
+            "twitter:description": "Scientific Reports - Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep17905/MediaObjects/41598_2015_Article_BFsrep17905_Fig1_HTML.jpg",
+            "DOI": "10.1038/srep17905",
+            "size": "160587",
+            "journal_id": "41598"
+        },
+        "canonical_url": "https://www.nature.com/articles/srep17905",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

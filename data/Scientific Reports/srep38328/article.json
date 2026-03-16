@@ -1,0 +1,630 @@
+{
+    "id": "srep38328",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "title": "Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors",
+    "legal_title": "Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing  An Exploration of Spatial Heterogeneity and the District-specific Predictors",
+    "publish_time": "2016-12-02",
+    "pdf_link": "https://www.nature.com/articles/srep38328",
+    "storage_path": "./Articles/Scientific Reports/2016-article/srep38328/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "The exploration of spatial variation and predictors of the effects of nitrogen dioxide (NO2) on fatal health outcomes is still sparse. In a multilevel case-crossover study in Beijing, China, we used mixed Cox proportional hazard model to examine the citywide effects and conditional logistic regression to evaluate the district-specific effects of NO2 on cardiovascular mortality. District-specific predictors that could be related to the spatial pattern of NO2 effects were examined by robust regression models. We found that a 10 μg/m3 increase in daily mean NO2 concentration was associated with a 1.89% [95% confidence interval (CI): 1.33–2.45%], 2.07% (95% CI: 1.23–2.91%) and 1.95% (95% CI: 1.16–2.72%) increase in daily total cardiovascular (lag03), cerebrovascular (lag03) and ischemic heart disease (lag02) mortality, respectively. For spatial variation of NO2 effects across 16 districts, significant effects were only observed in 5, 4 and 2 districts for the above three outcomes, respectively. Generally, NO2 was likely having greater adverse effects on districts with larger population, higher consumption of coal and more civilian vehicles. Our results suggested independent and spatially varied effects of NO2 on total and subcategory cardiovascular mortalities. The identification of districts with higher risk can provide important insights for reducing NO2 related health hazards.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Plenty of epidemiological studies have provided substantial evidence that increase in concentration of ambient nitrogen dioxide (NO2), a commonly used surrogate of traffic-related air pollutants, was associated with elevated risk in all nature causes1, respiratory2 and cardiovascular3 mortality around the world. Although previous studies have suggested independent effects of NO2 even after adjustment for co-pollutants4,5,6, whether these associations reflect true effects of NO2 is still a matter of debate7.\nRecently, King’s College London reported that total mortality burden of long term exposure to NO2 was estimated 88,113 life years lost, equivalent to 5,879 premature deaths in London8. Notably, the numbers for acute or chronic effects of NO2 could be larger in Beijing, China, because of the serious air pollution, higher traffic emission and heavy burden of chronic disease9,10,11. Previous studies in Beijing were mainly focused on the relationships between particulate matters less than 10 micro meters in diameter (PM10) and all causes or respiratory mortality5,12,13, however, few investigated the acute effects of NO2 on total and subcategory cardiovascular mortalities14.\nThere is a growing body of evidence that shows greater spatial variation in distribution of NO2 within city compared with PM1012,15, as well as spatial variation among at-risk individuals across city16. Our recent study observed spatial heterogeneity of effects of air pollutants, including NO2 and PM10, on respiratory mortality in 16 districts in Beijing5. Additionally, Zhang et al.12 and Xu et al.13 also reported the spatial variation in effects of PM10 on cardiovascular mortality. However, seldom did studies investigate the spatial variation in the effects of NO2 on total and subcategories cardiovascular mortality. No study has investigated the underlying spatial heterogeneity of NO2-related health hazards using district-level indicators in Beijing, which might provide important insights for public health policymakers to identify vulnerable districts and allocate health resources efficiently.\nThe specific objectives of our study were, firstly, to explore the associations between NO2 and total cardiovascular, cerebrovascular and ischemic heart disease mortalities; secondly, to investigate the spatial heterogeneity of the associations across the 16 districts in Beijing; and thirdly, to identify the district-level indicators that might contribute to the spatial pattern of the association.",
+            "cites": [
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR2",
+                "ref-CR5",
+                "ref-CR16",
+                "ref-CR3",
+                "ref-CR4",
+                "ref-CR1",
+                "ref-CR7",
+                "ref-CR11",
+                "ref-CR9",
+                "ref-CR12",
+                "ref-CR14",
+                "ref-CR13",
+                "ref-CR6",
+                "ref-CR15"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "### Descriptive results\nTable 1 summarizes the cause-specific mortality, air pollution and meteorological conditions in Beijing from 2009 through 2010. The citywide medians of daily concentrations of NO2, PM10 and CO were 50.41 μg/m3, 107 μg/m3 and 1.24 mg/m3, respectively. Figure 1 shows the distribution of the 12 national air quality monitoring stations in Beijing and the means of daily concentrations of NO2 across 16 districts. The first two highest values of NO2 level were observed in Xicheng (64.09 μg/m3) and Chaoyang (60.42 μg/m3) district. In general, the districts in the centre of the city had higher concentration of NO2 compared with the suburban districts (Fig. 1). The citywide means of daily deaths of cardiovascular, cerebrovascular, ischemic heart disease were 102.41, 47.53 and 46.15, respectively (Table 1). Supplemental Figure S1 shows the variation of daily mortality rate of total cardiovascular, cerebrovascular and ischemic heart disease among the 16 districts. The highest mortality rates for the three interested outcomes were found in Pinggu (1.25 per 100 thousands), Pinggu (0.82 per 100 thousands) and Mentougou (0.64 per 100 thousands) district, respectively. The lowest rates for the three outcomes were all observed in Haidian district, with values of 0.33 per 100 thousands, 0.12 per 100 thousands and 0.18 per 100 thousands, respectively. The Spearman’s correlation coefficients of air pollutants and meteorological factors are reported in Supplemental Table S2. The coefficients between NO2 and meteorological factors were small. Daily average temperature was negatively associated with NO2. Distribution of daily concentrations of NO2, PM10 and CO of 16 districts were displayed in Supplemental Figure S2. Additionally, information on the selected district-specific demographic and socio-economic indicators were summarized in Supplemental Table S1.\n### Citywide and district-specific effects of NO2 on total and subcategory cardiovascular mortality\nFigure 2 shows the associations between NO2 and total and the two subcategory cardiovascular moralities using single pollutant models with different lag structures based on the multilevel time stratified case-crossover (MTCCO) design and the conventional time stratified case-crossover (TCCO) design. For the results from MTCCO design, the estimated effects of NO2 on cardiovascular, cerebrovascular and ischemic heart disease mortalities based on multi-day lags were, in general, higher than those based on the single day lags. We found stronger associations of cause specific mortality for cerebrovascular and ischemic heart diseases, compared with those for total cardiovascular disease. For a 10 μg/m3 increase in daily average concentration of NO2, the strongest and statistically significant effects (presented as percent increase in mortality rate and corresponding 95% CI) for total cardiovascular, cerebrovascular and ischemic heart disease mortalities were observed at lag03 (1.89%, 95% CI: 1.33–2.45%), lag03 (2.07%, 95% CI: 1.23–2.91%) and lag02 (1.95%, 95% CI: 1.16–2.72%), respectively. In contrast, the lag patterns of the results from TCCO design were inconsistent with those from MTCCO, with the strongest effects of NO2 found at lag01 for all the three outcomes. But the pattern of effects from single lag days and multi-day lags was similar to that from MTCCO, namely higher estimates in multi-day lags than that of single lag days. The 95% CIs of the estimates at multi-day lags from MTCCO were narrower than those based on TCCO design, although those CIs were partly overlapped for two designs. Thus, we used the lag structures that with the largest effect estimates of NO2 from MTCCO design in the following analyses. As illustrated in Supplemental Figure S3, associations from single-pollutant models based on MTCCO design were generally attenuated in multi-pollutant models. But NO2 was still positively and significantly associated with cardiovascular and ischemic heart diseases after adjusting for PM10 and CO in both two-pollutant and three-pollutant models, except for cerebrovascular mortality. Additionally, the lag pattern of citywide NO2 effects from TCCO and MTCCO after adjusting for temperature for four days (lag03) was similar to our primary results (see Supplemental Figure S4).\nBesides the observed significant estimates of NO2 on citywide cardiovascular, cerebrovascular and ischemic heart disease mortality, we also found the spatial variation of the associations across the 16 districts and different spatial patterns for the three outcomes. For total cardiovascular mortality, as depicted in Fig. 3(a), we found largely varied estimates ranged from 0.05% (95% CI: −3.75–4.01%) in Mentougou district to 6.32% (95% CI: 2.18–10.62%) in Shijingshan district. The significant associations were only observed in five districts, including Shijingshan, Fangshan, Chaoyang, Haidian and Xicheng district, with estimates of 6.32% (95% CI: 2.18–10.62%), 3.4% (95% CI: 1.27–5.56%), 3.10% (95% CI: 1.45,4.76%), 2.50% (95% CI: 0.52–4.51%) and 1.8% (95% CI: 0.16–3.46), respectively. For cerebrovascular mortality, the largest effect was observed in Shijingshan district with estimate of 7.13% (95% CI: 0.94–13.69%), meanwhile, the smallest one was 0.10% (95% CI: −2.98–3.29%) observed in Shunyi district, and significant associations were found in four districts [see Fig. 3(b)]. For the ischemic heart disease mortality, we found statistically significant estimates in two districts, including Shijingshan (8.76%, 95% CI: 2.75–15.13%) and Chaoyang (2.80%, 95% CI: 0.51–5.14%) district, while most other districts had non-significant associations [see Fig. 3(c)]. We also observed negative effects in Mentougou district, −0.56% (95% CI: −6.22–5.44%), for cerebrovascular mortality and Pinggu district, −2.54% (95% CI: −8.10–3.36%) for ischemic heart disease, but both were statistically non-significant.\n### Associations between district-specific effects and district-level indicators\nOf the 28 indicators from six predefined dimensions tested in univariate analyses, only few indicators were statistically significantly associated with spatial pattern of the district-specific associations between NO2 and three interest outcomes (see Supplemental Table S3). Specifically, 6 indicators, i.e. gross domestic products (GDP), civilian vehicles, coal consumption, population, population of aged ≥65 years and illiterate population of aged ≥15 years were statistically significantly associated with spatial pattern of NO2 related total cardiovascular and cerebrovascular mortalities (Table 2). Additionally, the married percentage was negative associated with risk of NO2 related cerebrovascular mortality. In contrast, only illiterate population was associated with spatial pattern for NO2 related ischemic heart disease mortality, with estimate of 1.07% (95% CI: 0.02–2.12%). Supplemental Table S4 provides the Pearson’s correlation coefficients of the indicators with significant coefficients in the univariate analyses for the three interest outcomes. In general, there exists strong and statistically significant correlation between these indicators, which indicates the collinearity among the indicators in the multivariable analyses.\nAfter adjusting for the collinearity using principal component analysis (results were shown in Supplemental Tables S5–10 and Figures S5–6), the multivariable robust regression analyses were conducted for spatial patterns of NO2 related cardiovascular and cerebrovascular disease mortality risks. Results showed that all the magnitudes of coefficients were attenuated and GDP and population of aged ≥65 years become non-significant for cardiovascular mortality, meanwhile, the coefficients of GDP, illiterate population and marriage percentage for NO2 related cerebrovascular mortality risk become non-significant (Table 2). We did not perform the multivariable analyses for NO2 related ischemic heart disease mortality risk, because only one indicator (illiterate population) was statistically significant in the univariate analyses. Besides, the scatter plots (Figs 4, 5, 6) of the relations between the district-specific indicators and NO2 related mortality risks in multivariable analyses show that the trend of the lines based on ordinary least squares (OLS) regression were greatly affected by the outliers and extreme values when compared with lines based on the robust regression, which were more obvious in Fig. 4(d) and Fig. 6. Meanwhile, the R-squares from robust regression were generally higher than those of OLS (Figs 4, 5, 6). Thus, the results based on the robust regression were more stable than those from OLS.",
+            "cites": [],
+            "figures": [
+                "figure-5",
+                "figure-1",
+                "figure-3",
+                "figure-4",
+                "figure-6",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "In present study, we found that short term exposure to NO2 was associated with elevated risk of total cardiovascular, cerebrovascular and ischemic heart disease mortalities even after adjusting for co-pollutants. Higher estimates were found for the latter two outcomes. The results of our study provide evidence of spatially heterogeneous effects of NO2 across the 16 administrative districts in Beijing, and several district-specific indicators were associated with the spatial patterns of the risk.\n### Estimates of MTCCO and TCCO design\nAir pollution data from single monitoring station or average value from several monitoring stations were commonly used as the exposure metric in studies on citywide health effects of air pollution. However, this metric cannot represent the citywide exposure accurately, especially for mega cities where spatial variation of air pollution, such as NO2, exists across the geographical area, and might introduce measurement error into the effect estimation and understatement the uncertainty in effect. In our study, we modelled the citywide effects with multilevel time stratified case-crossover design based on exposure metrics at district-level. We found that the 95% CIs of the estimated citywide effects of NO2 in multilevel design were narrower than those in the conventional time stratified case-crossover design, although the point estimates from the former were slightly smaller than those from the latter at some multi-day lags. Similar patterns were also observed in other studies12,13, for example, Zhang et al.12 reported higher estimates of PM10 effects and narrower 95% CIs using generalized additive mixed model (GAMM), which was based on exposure metrics at district-level, compared with those from generalized additive model (GAM). However, the observed narrower 95% CIs might be due to not only the spatial variation of NO2 but also the clustering of air pollutant related health outcomes. Prior studies have shown that failure to take into account the clustering of health outcomes of air pollutants would lead to understatement of uncertainty in estimates and may have great impacts on the weak association between air pollutants and mortality17. Although sufficient evidence of clustering in NO2 related mortality lacked in our study, the application of multilevel time stratified case-crossover design could account for at least part of the uncertainty in the estimation of NO2 effects. Therefore, the results from the multilevel design or others that take into account the spatial variation of air pollution were superior to those based on the citywide exposure metrics when conducting citywide air pollution study in mega cities18, such as Beijing.\n### Acute effects of NO2 on cardiovascular mortalities\nIn general, the findings of citywide associations between NO2 and total and subcategories cardiovascular mortalities in present analyses were consistent with those reported by previous investigations19,20. For cardiovascular mortality, our analysis indicated significant increase (1.89% at lag03; 95% CI: 1.33–2.45%) in total cardiovascular mortality, which was similar to those of other studies conducted in China including single-city studies in Guangzhou21 (1.81% at lag01; 95% CI: 1.20–2.41%), Wuhan22 (2.12% at lag01; 95% CI: 1.18–3.06%), multicity studies in Pearl River Delta of south of China23 (2.12% at lag1–2; 95% CI: 1.58–2.65%) and the CAPES in 17 Chinese cities24 (1.80% at lag01; 95% CI: 1.00–2.59%). However, our estimates were greater than those from the studies conducted in Shanghai15 (1.01% at lag01; 95% CI: 0.55–1.47%) and Hong Kong19 (1.23% at lag01; 95% CI: 0.64–1.82%). The inconsistency and difference between ours and aforementioned results might be partly explained by the difference in study period, population susceptibility, methodology and exposure measurement. Specifically, our citywide estimate of NO2 related cardiovascular mortality risk was based on the district-specific concentration, while the estimates from Shanghai and Hong Kong were based on the citywide exposure metric. For the acute effects of NO2 on cerebrovascular and ischemic heart disease mortality, limited literatures were reported and the results are still inconsistent. According to a recent comprehensive systematic review25, per 10 ppb increment in NO2 was associated with elevated risk in stroke mortality (RR, 1.014; 95% CI: 1.009–1.019). Chen et al.26 observed a pooled estimate that a 10 μg/m3 increase in 2-day average concentration of NO2 corresponded to 1.47% (95% CI: 0.88–2.06%) increase in mortality, whereas a time stratified case crossover study of England based on MINAP database27 reported a 10th–90th percentile change in 5-day moving average (lag 04) was associated with an insignificant negative effect for ischemic heart disease mortality (−0.7%; 95% CI: −3.0–1.6%). In contrast, we observed positive and significant acute effects of NO2 on cerebrovascular and ischemic heart disease, with the estimates of 2.07% at lag03 (95% CI: 1.23–2.91%) and 1.95% at lag02 (95% CI: 1.16–2.72%), respectively. Considering the limited number of the studies on the effects of NO2 on acute cardiovascular events including cerebrovascular and ischemic heart disease mortality, further studies should be conducted in elsewhere, especially in developing countries.\n### Spatial variation in district-specific NO2 effects\nFor the district-specific effect estimations, only five districts were observed with positive significant association between NO2 and cardiovascular mortality, four districts were observed for cerebrovascular mortality and two districts for ischemic heart disease mortality. The difference in the spatial pattern of associations of NO2 and three interest outcomes might be partly attributed to the different aetiology and clinical characteristics of those diseases28. Most of the districts with significant effects were located in the centre of Beijing where tend to have a heavier traffic flow and higher population density. The strongest and significant associations between NO2 and three outcomes were all observed in Shijingshan and Chaoyang district. Historically, Shijingshan district was a heavily industrialized area with six coal fired power plants, iron and steel mills companies, although some of them had been moved elsewhere since 2008. Emission from coal combustion and thermal power plants was one of major sources of ambient NOx, including NO2, as well as particle pollutants29, thus the concentration of air pollutants would be higher in areas with heavy industries. Moreover, long term exposure to higher level of air pollutants could result in the injury of cardiopulmonary system via a series cascading events, such as systematic oxidative stress, dysfunction of vascular, and systematic inflammation30, which inevitably together increase the susceptibility of acute effects of NO2 for local citizens, especially for those with underlying disease (e.g. diabetes), therefore the higher estimates of NO2 were more likely observed in those areas. In addition, significant associations were also found in Chaoyang district. Besides the higher levels of air pollution, other factors including district-specific demographic characteristics, environmental and traffic conditions may also contribute the present observed associations in Chaoyang district. According to the Report of the Sixth National Population Census of China (2010) and the Annual Statistical Report of Beijing, the indexes of population of aged ≥65, total population, population density and total civilian vehicles were higher in Chaoyang district than the districts with lower or non-significant associations, such as Mentougou district (see Supplemental Table S1). Furthermore, the forest coverage (22.68%) of Chaoyang district was far lower than the average rate (43.49%) across Beijing during the study period. Thus the above mentioned aspects can partially explain the high estimates in Chaoyang district.\n### District level indicators and spatial pattern in district-specific NO2 effects\nWe also explored whether the spatial pattern in NO2 related total cardiovascular, cerebrovascular and ischemic heart disease mortality risks could be explained by district level indicators. Notably, intervention targeting in high-risk districts (i.e. stronger NO2 effects) might varied, for instance, if the high-risk districts were those with higher proportion of illiterate population or lower educated residents versus those located in centre city with dense population and large number of vehicles. Of the 28 indicators of six dimensions, most of them showed non-significant associations with the district specific estimates of NO2 on cardiovascular mortality. Income inequality has been indicated as a modifier of the relationship between air pollution and health31. Evidence indicated that it could be a modifier of the relationship between air pollution and health and stronger air pollutants’ effects were observed in areas with lower income32. For present investigation, we obtained a set of indicators that could be related to district average income level, including annual GDP, per capital GDP, but we didn’t observe significant evidence that districts with higher values of these indicators had lower NO2 effects. The observed non-significant associations might be the results of misclassification bias because we did not obtain the detailed and accurate district-specific income data, which might hinder the investigation of effect modification by income inequality. In addition, we also didn’t find the significant association for the indicators of housing condition, a set of indicators that can also be related to district-specific income level. But the negative estimates of those indicators still indicate that there is the possibility of decreasing the district-level NO2 effects through the improvements in housing conditions and income level.\nCoal consumption and civilian vehicles can be used as indicators of urbanization, and they have directly relationship with the increment of ambient air pollutants33, such as NO2 and PM2.5, and the emission control for them can partly reduce the ambient concentration of NO211. For present investigation, we found that coal consumption and civilian vehicles could modify the district-level NO2 effects. It is possibly due to that the coal consumption and civilian vehicles can contribute to the differential exposures to ambient air pollutants, for instance, districts with higher value of these two indicators were tended to have higher level of particle matter and traffic related gaseous pollutants (e.g. NO2), resulting in higher level of NO2 and other pollutants among local residents. Specially, the positive correlations of district-specific average NO2 concentrations with coal consumption (r = 0.40, p = 0.13) and civilian vehicles (r = 0.70, p < 0.01) were observed in present study. Besides the differential exposures, another possible explanation for the effect modification by civilian vehicles was through the increased psychosocial stress among local residents. Commonly, the districts with large number of civilian vehicles were tend to have problems of dense traffic, higher traffic volume and heavier traffic noise, moreover evidences have shown that these problems triggered by heavy civilian vehicles were associated with increased perceived psychosocial stress34, which might further alter susceptibility to air pollution35. Therefore, these findings confirmed that the reduction in consumption of coal and control of vehicles may lower the risk of cardiovascular mortality among local residents.\nThe role of population structure and education attainment, such as total population, population density, proportion of old people and percentage of illiterate population, which constitute the important part of district- or community-specific socioeconomic status (SES)36 in the spatial pattern of effects of air pollutants on health outcomes has been investigated37,38, whereas no studies report results for NO2’s effects on cardiovascular mortality as far as we know. In our study, we found that population was positively and significantly associated with the district-specific estimates of NO2 on total cardiovascular and cerebrovascular mortality. Whereas positive but non-significant associations were observed for population density. Commonly, districts with large population, higher population density were likely to locate in centre of city and tended to have unfavourable built environment, which characterized by a higher amount of impervious surfaces, lower rate of green space. The unfavourable built environment might alter both the exposures and susceptibility to NO2 for local citizens, resulting the varied effects of NO2 on cardiovascular events mortalities across districts. In particular, evidences suggested the positive health impacts of higher rate of green space (e.g. forest)39, as well as the roles of green space in reducing level of gaseous pollutants via leaf stomata39. Additionally, we also observed negative but non-significantly associations for rate of forest coverage with district-level effects of NO2-mortality. Although we did not find significant associations with percentage of old population, we found that districts with large number of aged people were associated with higher risk of NO2 related cerebrovascular mortality risk. For the indicators of district-level education attainments, we observed increasing district-specific effects of NO2 on cerebrovascular and ischemic heart disease mortality with increasing illiterate population, but not the case for rate of illiterate population. Notably, larger illiterate population indicated the lower average education level, which was also associated with community-or district-level SES37. And large disparities have been observed in NO2, with higher exposures among residents living in lower SES areas that characterized by lower averaged education level40, and education level, as a part of SES, has been identified as a modifier in the associations between air pollutants and adverse health37,41. Regarding to, however, the different results for the illiterate population and proportion of this group, further studies are still needed.\nA somewhat interesting finding was the observed significant negative association for marriage rate with district-level NO2 related cerebrovascular mortality in univariate analysis. This might be due to that the districts with lower rate of marriage more likely have higher proportion of unmarried people who are more likely suffer from higher living pressure, lack of social-emotion supporting from companion, experience of psychosocial pressure and having a higher risk of mortality42, ultimately resulting in higher susceptibility to NO2’s hazard effects than others. However, these associations were not observed in multivariable analysis. Remarkably, most of unmarried people were young, and evidence also showed that the younger age group less susceptible to effects of air pollution compared with aged people20. Whereas, information of combined groups of marital status and age structure in district-level was lacked in present study, which impeded the exploration of the effect modification of district-level NO2 effects by groups of different marital status in different age groups, resulting in, ultimately, difficulty in distinguishing the married rate from aged structure as an effect modifier for district-level NO2 related cardiovascular event mortalities. Therefore, further studies are still needed to strengthen the understanding of the role of district-level marital status in the spatial variation of NO2 effects.\nAccording to the aforementioned findings, the identification of vulnerable districts that with higher effects of NO2 on cardiovascular events mortalities should depended on more comprehensive district-level indicators, which can incorporate in information of district-specific level economic status, population structure, average education level, health resources and other aspects.\nThere are some limitations in our study. Firstly, the daily values of NO2 districts without monitoring stations were estimated by established general linear models based on districts with monitoring stations. Because few meteorological factors and traffic related variables were available in our study, and the independent variable was introduced in with simple logarithmic transformation, more flexible model with more explanatory variables are needed in future studies. Secondly, we only focus on the acute effects of ambient NO2 and did not consider the time of individual spend indoor and outdoor, thus the district-specific concentration cannot represent the individual exposure. Thirdly, information of PM2.5 was not available in our study, so we cannot rule out the possibility of the confounding of PM2.5 since NO2 and PM2.5 share some common sources. Fourthly, when exploring the association between district-specific indicators and the spatial pattern of NO2 effects, we only used the annual average data of demographic and socioeconomic status from the Statistical Information Network of Beijing. Single average value of specific time period can generate information bias. Fifthly, we only investigated the associations of socioeconomic status for the NO2 effects in district level rather than individual level, which could introduce ecological fallacy when the results were extrapolated to individual level studies43. Moreover, the investigation was performed separately for each district-level indicators, comprehensive indicators that can incorporate in most information of all the separate indicators were lacked in present study, which might also hinder the generalization of our results to other study sites. Finally, because we only used two-year data, the relative short time period could lower statistical power in present investigation.\nIn conclusion, our results indicated that short exposure to NO2 was associated with elevated risks in total cardiovascular, cerebrovascular and ischemic heart disease mortality. There was spatial variation of the observed associations across the 16 districts in Beijing. We found that heterogeneity of district-specific effect estimates of NO2 can be partially explained by district-specific indicators. In general, districts characterized by larger population, higher consumption of coal and larger number of civilian vehicles were likely to show higher estimates of NO2 related total cardiovascular and cerebrovascular mortality. The effects of NO2 on total cardiovascular and ischemic heart disease mortality were higher in districts with larger percentage of illiterate population. The districts with more residents aged ≥65 years were also more likely to have higher risks of NO2 related cerebrovascular. Further investigation of district level or even precise predictors of the NO2 related cardiovascular mortality is warranted, which will provide insight for identifying vulnerable districts or areas and aid public health policymakers to allocate health resources efficiently.",
+            "cites": [
+                "ref-CR32",
+                "ref-CR31",
+                "ref-CR27",
+                "ref-CR41",
+                "ref-CR11",
+                "ref-CR21",
+                "ref-CR29",
+                "ref-CR13",
+                "ref-CR18",
+                "ref-CR39",
+                "ref-CR28",
+                "ref-CR42",
+                "ref-CR22",
+                "ref-CR37",
+                "ref-CR20",
+                "ref-CR36",
+                "ref-CR12",
+                "ref-CR24",
+                "ref-CR35",
+                "ref-CR17",
+                "ref-CR30",
+                "ref-CR19",
+                "ref-CR40",
+                "ref-CR38",
+                "ref-CR25",
+                "ref-CR23",
+                "ref-CR33",
+                "ref-CR34",
+                "ref-CR43",
+                "ref-CR15",
+                "ref-CR26"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methods",
+            "text": "### Data collection\nBeijing, the capital of China, is located in the northwest of Beijing-Tianjin-Hebei Delta, which is surrounded by the Yanshan Mountain in the west, north and northeast directions. The population of Beijing has raised from 17.55 million to 21.51 million from 2009 to 201444. Our study period was between January 1, 2009 and December 31, 2010. And the study area included all the 16 administrative districts in Beijing, which included 6 urban districts (Dongcheng, Xicheng, Chaoyang, Fengtai, Shijingshan, Haidian), 8 suburban districts (Mentougou, Fangshan, Tongzhou, Shunyi, Changping, Daxing, Huairou, Pinggu), and 2 rural counties (Yanqing, Miyun) as depicted in Fig. 1.\nDaily counts of all causes death in Beijing were obtained for the study period from the Cause of Death Registry System of Chinese Centre for Disease Control and Prevention (China CDC). The causes of death were coded according to the International Classification of Diseases, version 10 (ICD-10). Daily mortality data on deaths attributed to cardiovascular disease (I00-I99), cerebrovascular disease (I60-I69), and Ischemic heart disease (I20-I25) were used in present analyses.\nMeanwhile, we also obtained the district-specific demographic and socioeconomic data from the Beijing Statistical Yearbook(2009–2010) and the 2010 Population Census of Beijing from the Beijing Statistical Information Network44. We obtained district-level indictors that covered 6 dimensions including economic status, population structure, education attainment of residents, health resources, housing conditions and environmental conditions (see Supplemental Table S1).\nData of daily 24-hour average of NO2 concentrations were collected from 12 national air quality monitoring (AQM) stations in Beijing (see Fig. 1) during the study period. To allow for the confounding effects of other pollutants on the effects of NO2, daily 24-hour average concentrations of PM10 and carbon monoxide (CO) were also collected from the 12 stations. Data from one AQM station (Dingling station in Changping district) was excluded because it was used as the background station for calibration. Specifically, the calculation of 24-hour average concentration should satisfy the criteria that at least 75% of hourly measurements per day were available and abnormal values were excluded. Citywide daily concentrations of the three pollutants were the average of the 11 stations’ concentrations. Whereas, the concentration in individual districts was based on the measured and estimated concentration. The daily concentration of pollutant of districts with more than two AQM stations was the arithmetic mean value of the 24-hours value from those stations. For districts without AQM stations, a series of general linear models (GLM) were created based on the relationships between meteorological factors, road length and measured air pollutants to estimate the relevant air pollutant daily concentration. The methodology of estimating the air pollution level in individual districts that without monitoring sites was described in detail elsewhere5. In brief, the estimation followed several steps: (1) dividing one year into warm period (April to September) and cold period (October to March); (2) using logarithmic CO, NO2 and PM10 concentrations as the dependent variables separately, and temperature, relative humidity, wind speed and total length of the road of each district with logarithmic transformation as independent variables to fit GLM and to estimate the regression coefficient for each pollutant in each of the two time periods; and (3) estimating the daily levels of PM10, NO2 and CO by GLM for the districts without pollution information. Because Beijing started regular fine particulate matter (PM2.5) monitoring only after October of 2012, no PM2.5 concentrations data were obtained for our study. In view of meteorological factors playing as important confounders of air pollutants-related health effects45,46, meteorological data, including daily mean temperature, relative humidity and barometric pressure in 24 h, were also obtained from the China Meteorological Administration in Beijing.\n### Statistical analysis\nFor examining the associations between NO2 and citywide and district-specific cardiovascular mortalities, we used a time-stratified case-crossover design, which has become one of commonly used designs in study of acute effects of air pollution47,48,49. Compared with time series design, this design can control the time-invariant confounders, such as gender, smoking status, and the seasonal and secular trends by design, while the former by using smooth spline function50 and the results from this design for time series data were equivalent to those from the former design51,52. Additionally, the time stratified case-crossover design can be fitted by conditional logistical regression and Cox proportional hazard regression53, which provides computational convenience and offers an alternative design in air pollution epidemiology.\nOur previous works have showed the spatial variation of air pollutants effects5 and other studies indicated that the health response can be clustered by location, failure to account for it can lead to an understatement of the uncertainty of the effects of air pollutants17. Therefore, we adopted a multilevel time stratified case crossover design with district as the random term. The estimation of the citywide effects of NO2 was accomplished by modelling a mixed Cox proportional hazard model. We defined the case period as the day of subject dead, and the controls days was matched on the day of the week in the same month and year as the case period. For each case day, there were 3 or 4 control days in the same month. Then we added the current day ambient temperature and humidity to control the potential confounding of these two meteorological factors. We didn’t further adjust for pressure and wind as previous studies have shown the two factors were not likely to confound the air pollutant related mortality effects54. Further, we constructed a set of single pollutant models with different lag structures of citywide daily mean concentrations of NO2, including single-day lags (from lag0 to lag3) and multi-day lags (from lag01 to lag03). For the single-day lags, lag0 corresponds to the current day concentration of NO2, lag1 means the concentration of the previous one day and so on. For the multi-day lags, lag01 refers to the moving average of lag0 and lag1 and so on. In order to adjust the impact of co-pollutants on the effects of NO2, we added the daily concentrations of PM10 and CO with the same lag structures to create multi-pollutants models. In order to compare the results from the traditional time stratified case-crossover design with those from multilevel time stratified case-crossover design, we also created Cox proportional hazard model without the random term of district. We also further adjusting for the temperature for 4 days (lag03) using natural cubic spline with degree of freedom of 3 to further investigate the robustness of the primary results.\nFor estimating district-wide effects of NO2, we applied the conditional logistic regression, based on the Cox proportional hazard model, with the district-level air pollution concentrations as the basic exposure metrics, and without the random effects of districts. The lag structures of NO2 used in district-wide model were based on their performance in the citywide analyses, i.e. the lag structures with the most significant associations between NO2 and the cardiovascular mortalities in the multilevel time stratified case-crossover analyses were adopted in modelling district-specific effects.\nTo explore the associations between spatial variation of effects of NO2 and the district-specific predicators, we followed several steps. Given the existence of some serious leverage and influence values among the district-specific indicators, firstly, we built robust linear regression models using the district-specific estimates of three interested mortality as the response variables and the six-dimension indicators at district level as the covariates to obtain the results, because robust regression provide resistant results in the presence of outliers55. Secondly, we examined each of the district-level indicator in univariate model as well as in multivariable model to identify potential predictors for the spatial heterogeneity of NO2’s effects. The candidate variables in the multivariable model were those who demonstrated statistically significant association in the univariate models. Finally, we used principle component analysis (PCA) to eliminate the impacts of collinearity of the combination of district level indicators when we performed the robust regression analysis. Specifically, the first two principal components that explained over 85% of total variance of the candidate variables were selected.\nAll the effect estimates were expressed as the percentage increase in mortality and corresponding 95% confidence intervals (CIs) per 10 μg/m3 increase in NO2 concentration. Analyses were performed using SAS (version 9.4, Cary, NC, USA) and R software (version 3.2.2) with the survival56 and coxme57 packages. Statistical significance was defined as p < 0.05 (two tails).",
+            "cites": [
+                "ref-CR48",
+                "ref-CR57",
+                "ref-CR46",
+                "ref-CR5",
+                "ref-CR54",
+                "ref-CR53",
+                "ref-CR49",
+                "ref-CR47",
+                "ref-CR50",
+                "ref-CR44",
+                "ref-CR56",
+                "ref-CR55",
+                "ref-CR17",
+                "ref-CR51",
+                "ref-CR52",
+                "ref-CR45"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Additional Information",
+            "text": "How to cite this article: Luo, K. et al. Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors. Sci. Rep. 6, 38328; doi: 10.1038/srep38328 (2016).\nPublisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Figure 1",
+            "figure-caption": "Distribution of the 12 national air quality monitoring (AQM) stations and mean NO2 concentrations across the 16 administrative districts in Beijing from 2009–2010.The pentangle asterisks represent the districts with predicted NO2 concentration. (The map was created using ArcGIS Desktop version 9.3, the ESRI company, California, USA, URL: http://www.esri.com/).",
+            "figure-link": "https://www.nature.com/srep/articles/srep38328/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Figure 2",
+            "figure-caption": "Citywide effect estimates of short term exposure to NO2 on cardiovascular, cerebrovascular and ischemic heart disease mortalities and the lag patterns of the associations using multilevel time stratified case-crossover (MTCCO) design and conventional time stratified case-crossover (TCCO) design, respectively.For single lag days, lag0 refers to current day, lag1 refers to previous one day, the rest single lag days were defined in the same way. For multi-lag days, lag01 refers to moving average of current day (lag0) and previous one day (lag1), the rest multi-lag days were defined in the same way.",
+            "figure-link": "https://www.nature.com/srep/articles/srep38328/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Figure 3",
+            "figure-caption": "Associations between total cardiovascular (a), cerebrovascular (b), ischemic heart disease (c) mortalities and NO2 across the 16 districts in Beijing in terms of percentage increase in daily mortality per 10 μg/m3 increase in daily NO2 concentration. The exposure metrics of NO2 for three outcomes of interest were lag03, lag03 and lag02, respectively. (The map was created using ArcGIS Desktop version 9.3, the ESRI company, California, USA, URL: http://www.esri.com/).",
+            "figure-link": "https://www.nature.com/srep/articles/srep38328/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Figure 4",
+            "figure-caption": "The relationships between district-specific NO2-related cardiovascular mortality risk, measured as percentage change in mortality risk per 10 μg/m3 increase in four days moving average (lag03) of NO2 concentrations and district level indicators in univariate models: (a) population, (b) civilian vehicles fleet, (c) coal consumption, and (d) illiterate population. Solid lines were fitted using robust regression models, and dotted lines were fitted using ordinary least squares (OLS) linear regression models.",
+            "figure-link": "https://www.nature.com/srep/articles/srep38328/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Figure 5",
+            "figure-caption": "The relationships between district-specific NO2-related cerebrovascular mortality risk, measured as percentage increase in mortality risk per 10 μg/m3 increase in four days moving average (lag03) of NO2 concentrations and district level indicators in univariate models: (a) population, (b) aged population, (c) civilian vehicles fleet, and (d) coal consumption. Solid lines were fitted using robust regression models, and dotted lines were fitted using ordinary least squares (OLS) linear regression models.",
+            "figure-link": "https://www.nature.com/srep/articles/srep38328/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Figure 6",
+            "figure-caption": "The relationships between district-specific NO2-related ischemic heart disease mortality risk, measured as percentage increase in mortality risk per 10 μg/m3 increase in three days moving average (lag02) of NO2 concentrations, and district-specific illiterate population in univariate model.Solid line was fitted using robust regression model, and dotted line was fitted using ordinary least squares (OLS) linear regression models.",
+            "figure-link": "https://www.nature.com/srep/articles/srep38328/figures/6"
+        }
+    ],
+    "References": [],
+    "Extra_info": {
+        "Acknowledgements": {
+            "content": "We thank all the following sectors for their assistances: the Beijing Municipal Environmental Protection Bureau for providing air pollution data; the China Meteorological Administration for providing meteorology data; the China Centre for Disease Control and Prevention for providing mortality data; and the Beijing Municipal Traffic Management Bureau for providing road information data. This study was supported by the Special Scientific Research Fund for Public Welfare of Environmental Protection from the Ministry of Environmental Protection of China (Grant No. 200909016), Public Welfare Research Program of National Health and Family Planning Commission of China (201402022), and is also funded by Opening Project of Shanghai Key Laboratory of Atmospheric Particle Pollution and Prevention (LAP).",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsKai LuoView author publicationsSearch author on:PubMed Google ScholarRunkui LiView author publicationsSearch author on:PubMed Google ScholarWenjing LiView author publicationsSearch author on:PubMed Google ScholarZongshuang WangView author publicationsSearch author on:PubMed Google ScholarXinming MaView author publicationsSearch author on:PubMed Google ScholarRuiming ZhangView author publicationsSearch author on:PubMed Google ScholarXin FangView author publicationsSearch author on:PubMed Google ScholarZhenglai WuView author publicationsSearch author on:PubMed Google ScholarYang CaoView author publicationsSearch author on:PubMed Google ScholarQun XuView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nK.L. conceived and designed this study. R.L., W.L. and Z.W. prepared the database and draw the figures. K.L., X.M. and R.Z. analysed the data. K.L. wrote the primary manuscript. Z.W. conducted the quality assurance. R.L., X.F., Y.C. and Q.X. revised the paper critically.",
+            "links": {
+                "View author publications": "/search?author=Qun%20Xu",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Qun%20Xu",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Qun%20Xu%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing financial interests.",
+            "links": {}
+        },
+        "Electronic supplementary material": {
+            "content": "Supplementary Material",
+            "links": {
+                "Supplementary Material": "https://static-content.springer.com/esm/art%3A10.1038%2Fsrep38328/MediaObjects/41598_2016_BFsrep38328_MOESM1_ESM.pdf"
+            }
+        },
+        "Rights and permissions": {
+            "content": "This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Acute%20Effects%20of%20Nitrogen%20Dioxide%20on%20Cardiovascular%20Mortality%20in%20Beijing%3A%20An%20Exploration%20of%20Spatial%20Heterogeneity%20and%20the%20District-specific%20Predictors&author=Kai%20Luo%20et%20al&contentID=10.1038%2Fsrep38328&copyright=The%20Author%28s%29&publication=2045-2322&publicationDate=2016-12-02&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleLuo, K., Li, R., Li, W. et al. Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors.\n                    Sci Rep 6, 38328 (2016). https://doi.org/10.1038/srep38328Download citationReceived: 20 April 2016Accepted: 08 November 2016Published: 02 December 2016DOI: https://doi.org/10.1038/srep38328Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/srep38328?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors",
+                "description": "The exploration of spatial variation and predictors of the effects of nitrogen dioxide (NO2) on fatal health outcomes is still sparse. In a multilevel case-crossover study in Beijing, China, we used mixed Cox proportional hazard model to examine the citywide effects and conditional logistic regression to evaluate the district-specific effects of NO2 on cardiovascular mortality. District-specific predictors that could be related to the spatial pattern of NO2 effects were examined by robust regression models. We found that a 10 μg/m3 increase in daily mean NO2 concentration was associated with a 1.89% [95% confidence interval (CI): 1.33–2.45%], 2.07% (95% CI: 1.23–2.91%) and 1.95% (95% CI: 1.16–2.72%) increase in daily total cardiovascular (lag03), cerebrovascular (lag03) and ischemic heart disease (lag02) mortality, respectively. For spatial variation of NO2 effects across 16 districts, significant effects were only observed in 5, 4 and 2 districts for the above three outcomes, respectively. Generally, NO2 was likely having greater adverse effects on districts with larger population, higher consumption of coal and more civilian vehicles. Our results suggested independent and spatially varied effects of NO2 on total and subcategory cardiovascular mortalities. The identification of districts with higher risk can provide important insights for reducing NO2 related health hazards.",
+                "datePublished": "2016-12-02T00:00:00Z",
+                "dateModified": "2016-12-02T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "13",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/srep38328",
+                "keywords": [
+                    "Environmental impact",
+                    "Epidemiology",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep38328/MediaObjects/41598_2016_Article_BFsrep38328_Fig1_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep38328/MediaObjects/41598_2016_Article_BFsrep38328_Fig2_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep38328/MediaObjects/41598_2016_Article_BFsrep38328_Fig3_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep38328/MediaObjects/41598_2016_Article_BFsrep38328_Fig4_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep38328/MediaObjects/41598_2016_Article_BFsrep38328_Fig5_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fsrep38328/MediaObjects/41598_2016_Article_BFsrep38328_Fig6_HTML.jpg"
+                ],
+                "isPartOf": {
+                    "name": "Scientific Reports",
+                    "issn": [
+                        "2045-2322"
+                    ],
+                    "volumeNumber": "6",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Kai Luo",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College",
+                                "address": {
+                                    "name": "Department of Epidemiology and Biostatistics, Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College",
+                                "address": {
+                                    "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Runkui Li",
+                        "affiliation": [
+                            {
+                                "name": "College of Resources and Environment, University of Chinese Academy of Sciences",
+                                "address": {
+                                    "name": "College of Resources and Environment, University of Chinese Academy of Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "State Key Laboratory of Resources and Environmental Information System, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Science",
+                                "address": {
+                                    "name": "State Key Laboratory of Resources and Environmental Information System, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Science, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Wenjing Li",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College",
+                                "address": {
+                                    "name": "Department of Epidemiology and Biostatistics, Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College",
+                                "address": {
+                                    "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Zongshuang Wang",
+                        "affiliation": [
+                            {
+                                "name": "Chinese Research Academy of Environmental Sciences",
+                                "address": {
+                                    "name": "Chinese Research Academy of Environmental Sciences, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Xinming Ma",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College",
+                                "address": {
+                                    "name": "Department of Epidemiology and Biostatistics, Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College",
+                                "address": {
+                                    "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Ruiming Zhang",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College",
+                                "address": {
+                                    "name": "Department of Epidemiology and Biostatistics, Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College",
+                                "address": {
+                                    "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Xin Fang",
+                        "affiliation": [
+                            {
+                                "name": "Unit of Biostatistics, Institute of Environmental Medicine, Karolinska Institutet",
+                                "address": {
+                                    "name": "Unit of Biostatistics, Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Zhenglai Wu",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College",
+                                "address": {
+                                    "name": "Department of Epidemiology and Biostatistics, Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College",
+                                "address": {
+                                    "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yang Cao",
+                        "affiliation": [
+                            {
+                                "name": "Unit of Biostatistics, Institute of Environmental Medicine, Karolinska Institutet",
+                                "address": {
+                                    "name": "Unit of Biostatistics, Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Clinical Epidemiology and Biostatistics, School of Medical Sciences, Örebro University",
+                                "address": {
+                                    "name": "Clinical Epidemiology and Biostatistics, School of Medical Sciences, Örebro University, Örebro, Sweden",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Qun Xu",
+                        "affiliation": [
+                            {
+                                "name": "Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College",
+                                "address": {
+                                    "name": "Department of Epidemiology and Biostatistics, Institute of Basic Medical Sciences Chinese Academy of Medical Sciences, School of Basic Medicine Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            },
+                            {
+                                "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College",
+                                "address": {
+                                    "name": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "environmental-impact;epidemiology",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Scientific Reports",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/srep38328"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Kai Luo",
+                            "Runkui Li",
+                            "Wenjing Li",
+                            "Zongshuang Wang",
+                            "Xinming Ma",
+                            "Ruiming Zhang",
+                            "Xin Fang",
+                            "Zhenglai Wu",
+                            "Yang Cao",
+                            "Qun Xu"
+                        ],
+                        "publishedAt": 1480636800,
+                        "publishedAtString": "2016-12-02",
+                        "title": "Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Environmental impact,Epidemiology"
+                    },
+                    "journal": {
+                        "pcode": "srep",
+                        "title": "scientific reports",
+                        "volume": "6",
+                        "issue": "1",
+                        "id": 41598,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "US",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors",
+            "dc.source": "Scientific Reports 2016 6:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2016-12-02",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2016 The Author(s)",
+            "dc.rights": "2016 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "The exploration of spatial variation and predictors of the effects of nitrogen dioxide (NO2) on fatal health outcomes is still sparse. In a multilevel case-crossover study in Beijing, China, we used mixed Cox proportional hazard model to examine the citywide effects and conditional logistic regression to evaluate the district-specific effects of NO2 on cardiovascular mortality. District-specific predictors that could be related to the spatial pattern of NO2 effects were examined by robust regression models. We found that a 10 μg/m3 increase in daily mean NO2 concentration was associated with a 1.89% [95% confidence interval (CI): 1.33–2.45%], 2.07% (95% CI: 1.23–2.91%) and 1.95% (95% CI: 1.16–2.72%) increase in daily total cardiovascular (lag03), cerebrovascular (lag03) and ischemic heart disease (lag02) mortality, respectively. For spatial variation of NO2 effects across 16 districts, significant effects were only observed in 5, 4 and 2 districts for the above three outcomes, respectively. Generally, NO2 was likely having greater adverse effects on districts with larger population, higher consumption of coal and more civilian vehicles. Our results suggested independent and spatially varied effects of NO2 on total and subcategory cardiovascular mortalities. The identification of districts with higher risk can provide important insights for reducing NO2 related health hazards.",
+            "dc.identifier": "doi:10.1038/srep38328",
+            "dc.creator": "Xu, Qun",
+            "dc.subject": "Epidemiology",
+            "prism.issn": "2045-2322",
+            "prism.publicationName": "Scientific Reports",
+            "prism.publicationDate": "2016-12-02",
+            "prism.volume": "6",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "13",
+            "prism.copyright": "2016 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/srep38328",
+            "prism.doi": "doi:10.1038/srep38328",
+            "citation_pdf_url": "https://www.nature.com/articles/srep38328.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/srep38328",
+            "citation_journal_title": "Scientific Reports",
+            "citation_journal_abbrev": "Sci Rep",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2045-2322",
+            "citation_title": "Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors",
+            "citation_volume": "6",
+            "citation_issue": "1",
+            "citation_online_date": "2016/12/02",
+            "citation_firstpage": "1",
+            "citation_lastpage": "13",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/srep38328",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/srep38328&api_key=",
+            "citation_reference": "Therneau, T. M. Coxme: Mixed Effects Cox Models. R package version 2.2-5. (2015) Available at: \n                    http://CRAN.R-project.org/package=coxme\n                    \n                   (Accessed: 10th October 2015).",
+            "citation_author": "Xu, Qun",
+            "citation_author_institution": "Centre of Environmental and Health Sciences, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing, China",
+            "description": "The exploration of spatial variation and predictors of the effects of nitrogen dioxide (NO2) on fatal health outcomes is still sparse. In a multilevel case-crossover study in Beijing, China, we used mixed Cox proportional hazard model to examine the citywide effects and conditional logistic regression to evaluate the district-specific effects of NO2 on cardiovascular mortality. District-specific predictors that could be related to the spatial pattern of NO2 effects were examined by robust regression models. We found that a 10 μg/m3 increase in daily mean NO2 concentration was associated with a 1.89% [95% confidence interval (CI): 1.33–2.45%], 2.07% (95% CI: 1.23–2.91%) and 1.95% (95% CI: 1.16–2.72%) increase in daily total cardiovascular (lag03), cerebrovascular (lag03) and ischemic heart disease (lag02) mortality, respectively. For spatial variation of NO2 effects across 16 districts, significant effects were only observed in 5, 4 and 2 districts for the above three outcomes, respectively. Generally, NO2 was likely having greater adverse effects on districts with larger population, higher consumption of coal and more civilian vehicles. Our results suggested independent and spatially varied effects of NO2 on total and subcategory cardiovascular mortalities. The identification of districts with higher risk can provide important insights for reducing NO2 related health hazards.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors",
+            "twitter:description": "Scientific Reports - Acute Effects of Nitrogen Dioxide on Cardiovascular Mortality in Beijing: An Exploration of Spatial Heterogeneity and the District-specific Predictors",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep38328/MediaObjects/41598_2016_Article_BFsrep38328_Fig1_HTML.jpg",
+            "DOI": "10.1038/srep38328",
+            "size": "176955",
+            "journal_id": "41598"
+        },
+        "canonical_url": "https://www.nature.com/articles/srep38328",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

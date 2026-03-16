@@ -1,0 +1,109 @@
+{
+    "id": "s41598-025-12241-x",
+    "title": "Assessing the impact of the eco-environmental damage compensation system",
+    "journal": "Scientific Reports",
+    "pdf_link": "https://www.nature.com/articles/s41598-025-12241-x",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "China City Statistical Yearbook",
+            "Data_summary": "Official city-level statistical compilation used as a primary source for prefecture-level panel variables in this study, including components used to build the ecological and environmental level index and socioeconomic control variables for DID regressions.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data are mainly obtained from the Statistical Yearbook of China’s Cities; Location: Research design > Sample selection and data sources; Confidence: high",
+            "Time_Coverage": "2009-2017",
+            "Geographic_Coverage": "China > 284 prefecture-level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "China Statistical Yearbook",
+            "Data_summary": "National official statistical yearbook used as an input source for socioeconomic and environmental-related indicators supporting construction of study variables and controls within the prefecture-level city panel.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data are mainly obtained from the Statistical Yearbook of China; Location: Research design > Sample selection and data sources; Confidence: high",
+            "Time_Coverage": "2009-2017",
+            "Geographic_Coverage": "China",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Provincial statistical yearbooks of China",
+            "Data_summary": "Provincial-level official statistical yearbooks used to supply underlying city and province statistics that feed into the prefecture-level panel dataset and variables used in the DID analysis.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data are mainly obtained from the statistical yearbooks of each province; Location: Research design > Sample selection and data sources; Confidence: high",
+            "Time_Coverage": "2009-2017",
+            "Geographic_Coverage": "China > Provinces (covering sample cities)",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Statistical Bulletin on National Economic and Social Development of each province and municipality",
+            "Data_summary": "Official annual statistical bulletins used as an input data source for economic and social indicators incorporated into the study panel and control variables for policy evaluation models.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data are mainly obtained from the Statistical Bulletin on the National Economic and Social Development of Each Province and Municipality; Location: Research design > Sample selection and data sources; Confidence: high",
+            "Time_Coverage": "2009-2017",
+            "Geographic_Coverage": "China > Provinces and municipalities (covering sample cities)",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Atmospheric Composition Analysis Group Dalhousie University PM2.5 concentration dataset",
+            "Data_summary": "Gridded PM2.5 concentration data used to construct a city-level PM2.5 outcome by raster processing and matching to prefecture-level city vector boundaries, serving as an alternative dependent variable in robustness checks.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: the PM2.5 data comes from the Atmospheric Composition Analysis Group of Dalhousie University; Location: Empirical results and robustness tests > Robust analysis > Alternative indicator; Confidence: high",
+            "Time_Coverage": "2009-2017",
+            "Geographic_Coverage": "China > 284 prefecture-level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Prefecture-level city vector maps used for raster matching",
+            "Data_summary": "Vector boundary maps of Chinese prefecture-level cities used to spatially match and aggregate gridded PM2.5 concentration data into city-level mean concentrations via raster processing.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: concentration means data after matching the vector maps of prefecture-level cities through raster processing; Location: Empirical results and robustness tests > Robust analysis > Alternative indicator; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Prefecture-level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Authors hand-arranged prefecture-level city panel dataset for China",
+            "Data_summary": "City-year panel dataset compiled and cleaned by the authors for 284 Chinese prefecture-level cities, containing ecological resource and environmental quality indicators used to compute the EEL index as well as economic structure and other control variables used in DID, PSM-DID, DDD, and mechanism analyses.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The data are mainly obtained from, yearbooks and bulletins, which are analyzed by the hand-arranged by the authors; Location: Research design > Sample selection and data sources; Confidence: high",
+            "Time_Coverage": "2009-2017",
+            "Geographic_Coverage": "China > 284 prefecture-level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data availability",
+            "Data_summary": "A stated deposit location indicating that the data supporting the study are included within the manuscript and or supplementary information files, intended to provide access to underlying data used for the analyses.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data is provided within the manuscript or supplementary information files; Location: Extra_info > Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-12241-x/MediaObjects/41598_2025_12241_MOESM1_ESM.docx",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:24.772902"
+    }
+}

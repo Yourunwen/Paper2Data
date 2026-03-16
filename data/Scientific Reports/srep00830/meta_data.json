@@ -1,0 +1,49 @@
+{
+    "id": "srep00830",
+    "title": "High temperatures-related elderly mortality varied greatly from year to year: important information for heat-warning systems",
+    "journal": "Scientific Reports",
+    "pdf_link": "https://www.nature.com/articles/srep00830",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "National Morbidity and Mortality Air Pollution Study data NMMAPS",
+            "Data_summary": "A multi-city daily time series dataset combining city-level weather variables, air pollution measurements, and daily mortality counts. In this study it provides the daily maximum and minimum temperatures used to construct mean temperature exposure and high temperature day indicators, and daily non-external mortality counts for elderly residents used as the outcome in city-year Poisson regression models.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: We used the data from the publicly available National Morbidity and Mortality Air Pollution Study NMMAPS study40,41; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "1987-2000",
+            "Geographic_Coverage": "United States > 83 cities",
+            "URL": "http://www.ihapss.jhsph.edu",
+            "ref": []
+        },
+        {
+            "Data_Name": "National Climatic Data Center daily temperature observations as used in NMMAPS",
+            "Data_summary": "Daily meteorological station data providing city-level maximum and minimum temperatures that are used to compute mean daily temperature, derive warm-season temperature percentiles, and define consecutive high temperature days for the exposure metrics in the mortality models.",
+            "Category": "City-wide camera networks and meteorological stations",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data on maximum and minimum temperatures were from the National Climatic Data Center; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "1987-2000",
+            "Geographic_Coverage": "United States > 108 cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "National Center for Health Statistics daily mortality counts as used in NMMAPS",
+            "Data_summary": "Daily city-level mortality counts for residents, restricted to non-external causes, with age information enabling selection of elderly deaths. Used as the dependent variable in the city-year Poisson regression models assessing associations between high temperature and elderly mortality.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: daily mortality counts were from the National Center for Health Statistics; Location: Methods Data; Confidence: high",
+            "Time_Coverage": "1987-2000",
+            "Geographic_Coverage": "United States > 108 cities",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:15.913876"
+    }
+}

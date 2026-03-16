@@ -1,0 +1,82 @@
+{
+    "id": "srep00093",
+    "title": "Travel risk, malaria importation and malaria transmission in Zanzibar",
+    "journal": "Scientific Reports",
+    "pdf_link": "https://www.nature.com/articles/srep00093",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Zantel anonymized mobile phone call detail records for Tanzania and Zanzibar",
+            "Data_summary": "Anonymized mobile phone usage records containing timestamps of calls and messages and the location of the nearest cellular mast used to route each communication. The authors use these records to infer individual movement trajectories, classify users as Zanzibar residents versus visitors based on calling patterns, and compute trip counts and length of stay between Zanzibar and mainland regions to estimate malaria importation risk by traveler type.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                15
+            ],
+            "Other_Information": "Evidence: Mobile phone usage records encompassing a three-month period from October to December 2008 were obtained as the company only archives three months of records. Location: Methods Estimating the net malaria importation rate from mobile phone usage data Confidence: high",
+            "Time_Coverage": "2008-10 to 2008-12",
+            "Geographic_Coverage": "Tanzania > Zanzibar and mainland regions including Arusha Dar es Salaam Dodoma Mbeya Mwanza",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Ferry passenger traffic data between Zanzibar and mainland Tanzania",
+            "Data_summary": "Counts of ferry passengers traveling between Zanzibar and mainland Tanzania, used to scale up visitor-trip infection risk inferred from mobile phone records to the overall monthly number of visitors arriving by ferry, enabling estimation of the number of infected visitors entering Zanzibar.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                22
+            ],
+            "Other_Information": "Evidence: the risk from each individual visitor trip provided by mobile phone data was extrapolated to the number of visitors travelling each month to Zanzibar provided by ferry traffic data. Location: Methods Estimating the net malaria importation rate from mobile phone usage data Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Tanzania > Zanzibar and mainland Tanzania",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Zanzibar cross-sectional parasite prevalence surveys (2007)",
+            "Data_summary": "Cross-sectional malaria parasite prevalence survey measurements from Zanzibar used as input to a dynamic importation and transmission model to estimate the net importation rate and the effective reproduction number under control. The survey provides prevalence levels used to constrain model parameters across settings such as urban Unguja rural Unguja and Pemba.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                11
+            ],
+            "Other_Information": "Evidence: this model was applied to cross-sectional parasite surveys from Zanzibar in 2007 to estimate the importation rate and Rc. Location: Results Estimating the vulnerability of Zanzibar Confidence: high",
+            "Time_Coverage": "2007",
+            "Geographic_Coverage": "Tanzania > Zanzibar > Unguja and Pemba",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Malaria Atlas Project endemicity and prevalence survey database and maps",
+            "Data_summary": "A global malaria endemicity resource based on compiled prevalence surveys and associated mapping products. In this study it is used as the basis for endemicity maps that are converted via published models into transmission intensity measures used to represent malaria risk at origins of travel relevant to Zanzibar importation analysis.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The Malaria Atlas Project MAP provides with endemicity maps based on prevalence surveys at a global continental or country level. Location: Discussion Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Global including Tanzania",
+            "URL": "http://www.map.ox.ac.uk",
+            "ref": []
+        },
+        {
+            "Data_Name": "Spatial estimates of Plasmodium falciparum endemicity used to derive EIR at visited locations",
+            "Data_summary": "Spatially resolved malaria endemicity estimates that enable calculation of entomological inoculation rate at the mainland locations where Zanzibar residents travel. The study uses population-weighted EIR estimates summarized for Zantel regions or principal cities and disaggregated by month to represent seasonal transmission risk at travel origins for importation calculations.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                38,
+                39
+            ],
+            "Other_Information": "Evidence: Recent research efforts have provided spatial quantification of P. falciparum endemicity enabling estimation of EIR at the locations where Zanzibar residents visit. Location: Methods Estimating the net malaria importation rate from mobile phone usage data Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "Tanzania > mainland regions and principal cities and Zanzibar travel links",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:24.183710"
+    }
+}

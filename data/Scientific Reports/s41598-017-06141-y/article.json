@@ -1,0 +1,712 @@
+{
+    "id": "s41598-017-06141-y",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "title": "Greenhouse gas emissions as a result of spectators travelling to football in England",
+    "legal_title": "Greenhouse gas emissions as a result of spectators travelling to football in England",
+    "publish_time": "2017-08-01",
+    "pdf_link": "https://www.nature.com/articles/s41598-017-06141-y",
+    "storage_path": "./Articles/Scientific Reports/2017-article/s41598-017-06141-y/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Transport remains a critical avenue in the attempt to reduce greenhouse gas (GHG) emissions and any significant effort to reduce travel GHG emissions will need to encourage a movement towards more fuel-efficient, less polluting behaviours. The aim of this paper is to calculate GHG emissions arising from the travel of spectators to and from football games within eight football tiers (3 to 10) in England, and to extrapolate this to a national level. The study comprised of 1649 participants with an average age of 42 years (M = 42.63, SD = 17.10). Participants travelled to and from games by walking, cycling, car, bus, train or taxi. The average distance travelled to and from games was 41.5 km. A Kruskal-Wallis test was conducted to evaluate differences in travel related GHG emissions between the eight football tiers during the 2012/13 season. The results indicate significant differences between football tiers’ GHG emissions, H(7) = 46.474, p < 0.001. The annual GHG emission of spectators from the 8 tiers for the 2012/13 season was estimated at 56,237 tonnes of CO2e, accounting for less than 0.05% of transport emissions in England. Football authorities should have robust travel plans and educate spectators to employ more sustainable travel plans to games.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "The 2014 Intergovernmental Panel on Climate Change report notes that greenhouse gas emissions have increased over the last decade and are now growing at almost twice the previous rate1. International agreement has been reached with the intention of limiting global warning to 2 °C2. In 2010, the transport sector globally produced 6.7 GtCO2 of direct greenhouse gas (GHG) emissions1, and in Europe, road transport contributed about 20% of the European Union’s (EU) total GHG emissions. This figure has increased by nearly 23% between 1990 and 2010. Moreover, transport is one of the major sectors in the EU where GHG emissions are still on the increase3 and within the UK its contribution has increased from 16% in 1995 to 24% in 20154. Cars account for over 58% of these emissions followed by heavy goods vehicles (15.8%), light vans (14.6%), buses 3.2% and trains (1.7%).\nTransport remains a critical avenue in the attempt to reduce GHG emissions, and any significant effort to reduce emissions will need to encourage a movement towards more fuel-efficient, less GHG emitting transport behaviour. Dolf and Teehan5 suggested that the link between climate change and travel to sporting events had implications for how participants travelled to them. In England, football is a popular national sport which is spectator dominated. In 2012, over 60 million spectators from tiers 1 to 11 watched football in England6, 7. The study by Campaign for Better Transport in 2013 showed a dependence on the use of cars to travel to games and reported limited car sharing behaviour among the fans8. The environmental impact of travel to football is starting to be recognised and addressed; the Premier League and Football Association (FA) are now encouraging clubs to consider the environmental impacts of their operations and take action to minimize those impacts9. Currently, those engaged with football are increasingly starting to make it sustainable: economically, socially and environmentally10.\nFor instance, the FIFA World Cup in Germany in 2006 generated approximately 250,000 tonnes of greenhouse gases11, while the World Cup in South Africa, in 2010, generated 1.65 million tonnes of CO2e12. Within the UK Collins and co-workers9, 13 calculated the ecological footprint of the 2004 FA Cup Final. In 2007 they also undertook a review of the environmental impacts of the operations of clubs in the Premiership League based on literature on individual club websites. Of the 20 clubs reviewed, few were involved in projects to minimize their environmental impacts9. In 2006 Ipswich Town claimed to be the UK’s first carbon neutral club14 although only 3,000 fans out of a fan base of well over 20,000 participated in the initiative.\nWith the recent development of corporate social responsibility (CSR) initiatives by football clubs many premier league clubs have now gone beyond compliance with environmental rules and regulations15. Championship clubs have also embraced ambitious sustainability strategies. For example Newcastle United have installed a combined heat and power system at its St James Park Stadium16 while Bristol City have a new solar PV project at its Ashton Gate Stadium17. Gibbons and Nuttall18 have noted that lower echelons of English football have largely been ignored by such globalization pressures.\nApart from studies on GHG emissions from mega sporting events, limited research has been carried out on GHG emissions from smaller scale football matches, such as league games in England, and none have considered GHG emissions as a result of spectators across the lower league levels. Spectator travel to matches is a significant aspect of the sport and it should be seen from a sustainable perspective because travel and sustainability are both linked, although it can often be interpreted to mean minimizing the amount of car travel and thereby reducing the amount of GHG emissions. However, attention should also be given to transport policies because of their environmental outcomes without excluding economic and social consequences as these occur at different scales19.\nThe football system in England is made up of 11 tiers, consisting of Premier League, Championship, League One and League Two with 92 clubs. The Non-League comprises of seven tiers: National League (formerly Football Conference Premier Division) down to County Leagues with over 1,100 clubs (20 clubs in tier 1 and 338 clubs in tier 10). The lower tiers (from tier 5 to 11) cover smaller geographical areas with fewer spectators compared to the upper tiers (tier 1 to 4). When aggregated nationally, however, the number of spectators at non-league football is significant when compared with the league system. The aim of this paper was to calculate travel GHG emissions for football clubs within the lower eight tiers, from tier 3 to tier 10 in England and to extrapolate this to a national level.",
+            "cites": [
+                "ref-CR6",
+                "ref-CR2",
+                "ref-CR17",
+                "ref-CR13",
+                "ref-CR10",
+                "ref-CR16",
+                "ref-CR11",
+                "ref-CR15",
+                "ref-CR14",
+                "ref-CR18",
+                "ref-CR9",
+                "ref-CR12",
+                "ref-CR5",
+                "ref-CR4",
+                "ref-CR7",
+                "ref-CR1",
+                "ref-CR3",
+                "ref-CR19",
+                "ref-CR8"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methodology",
+            "text": "In collaboration with Essex Football Association, 47 clubs were selected from 8 football tiers in Essex. These clubs were selected to reflect a broad representation of football spectators across the football tiers in England (Table 1). A questionnaire (Supplementary Information) was used to examine travel GHG emissions of football spectators and extrapolated to national level.\nThe study was conducted from mid-February 2012 to March 2013. In order to determine the travel related GHG emissions from spectators, a questionnaire-based study was employed, using both hardcopy and online questionnaires to collect data. The questionnaire incorporated questions on: demography, travel details and attendance frequency. All respondents provided informed written consent before completing the questionnaire. The study was approved by the University of Essex, Faculty of Science and Health Ethics Committee and conducted in accordance with relevant guidelines and regulations.\nThe GHG emissions were calculated using the distance travelled to and from games, mode of travel and Defra’s greenhouse gas conversion factors20. The greenhouse gas emissions calculated included CO2, CH4 and N2O. The values for CH4 and N2O are presented as CO2 equivalent (CO2e) using Global Warming Potential factors21.\nDefra conversion factors for 2012 were used to calculate GHG emissions by multiplying the data on the distance travelled to and from games by the appropriate conversion factor as shown in Table 2.\nA power analysis was performed using GPower 3.1 software to calculate the recommended sample size for this study. Based on a one-way ANOVA test with 8 groups, medium effect size and 95% power, a total sample size of 360 was recommended. The achieved sample size of 1,649 has 100% statistical power to detect all significant effects that may exist in the study data. Significance was set as a p-value of <0.05.\nData was analyzed with IBM SPSS version 20. The test for normality for the outcome variable (GHG emissions) was not met, which led to using non-parametric tests on the data. The statistical tests employed were: descriptive statistics, Kruskal-Wallis test, and Mann Whitney U tests.",
+            "cites": [
+                "ref-CR21",
+                "ref-CR20"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Results",
+            "text": "1,649 football spectators completed the questionnaire. The participants were 1,315 men (80%) and 334 women (20%), with an age range of 18 to 84 years, and mean age of 42 years (M = 42.63, SD = 17.10).\nThe distance travelled to and from games ranged widely from 80 metres to 612 km, with the mean distance travelled of 41.5 km to the games (SD = 72.89) as shown in Table 3. The mean distance travelled to and from home games was 15.55 km (SD = 24.29) while the mean distance travelled to away games was 114.12 km, (SD = 106.57). The spectators at the non-league level (tiers 5 to 10) travelled less distance to games (M = 25.15 km, SD = 46.22) than spectators at the league (tiers 3 and 4) level (M = 62.82 km, SD = 92.94). The distance travelled to and from games varied across the football tiers, home and away games as shown in Table 3.\nThe most frequent mode of travel by the participants to and from games was by car (67.5%, n = 1,113), followed by walking (13.4%, n = 221), then bus (10.1%, n = 166), train (7.7%, n = 127), cycling (.8%, n = 14) and taxi (.4%, n = 7) as shown in Fig. 1. The number of people in each car ranged from 1 to 7, with an average of two persons travelling in each car (M = 2.26, SD = 1.12).\n### GHG emission among the 8 football tiers\nGHG emissions were estimated based on the assumption from distance travelled by each spectator using UK average emission factors for different modes of travel and are presented per passenger, rather than per vehicle20. The mean GHG emission among the participants was 4.74 kgCO2e (SD = 9.48, range: 0–91.04 kgCO2e). The GHG emission data were highly skewed and could not be used for parametric analyses. The mean GHG emission from home spectators was 1.70 kgCO2e (SD = 2.89) and that of away spectators 13.71 kgCO2e (SD = 14.95). The spectators at the non-league level emitted less travel related CO2 (M = 2.81 kgCO2e, SD = 5.90) than spectators at the league level (M = 7.24 kgCO2e, SD = 12.26).\nA Kruskal-Wallis test was conducted to evaluate differences in GHG emissions between the eight football tiers in England from travel during the 2012/13 season. The results indicate significant differences between football tiers’ GHG emissions, H(7) = 46.474, p < 0.001. Further pairwise comparison testing with adjusted p-values showed that there was a significant difference in GHG emissions which were lower in tier 8 compared with tier 3 (p < 0.05). Additionally, spectators in tier 8 had significantly lower GHG emissions compared with spectators in tiers 3, 4, 5, 6 and 7 (p < 0.05). Finally, the spectators in tier 10 had significantly lower GHG emissions than spectators in the tiers 3, 4, and 5 (p < 0.05). Figure 2 further illustrates the differences in the GHG emissions among the 8 football tiers.\nThe GHG emissions from the league level (tiers 3 and 4) were estimated to be 44,473.30 tonnes of CO2e while the non-league levels emitted 11,764.09 tonnes of CO2e, suggesting that the GHG emission at the league level was about four times more than the non-league level as shown in Fig. 3.\nA Mann Whitney U test was conducted to compare the GHG emissions between two groups of participants: home and away. The result revealed a statistically significant difference with higher GHG emissions from away (N = 417) fans M = 13.71 (SD = 14.95) rather than home (N = 1232) fans M = 1.70 (SD = 2.89), U = 87371.50, z = −20.766, p < 0.001, r = 0.51-large effect size.\n### National extrapolation of GHG emissions of participants\nThe annual number of spectators and mean GHG emission at each football tier were used to linearly extrapolate22 the total travel GHG impact of spectators for the 2012/13-football season, resulting in a total travel emission of 56,237.39 tonnes of CO2e, as shown in Table 4 (i.e. mean GHG emissions at various tiers multiplied by annual number of spectators at that tier). This extrapolation is based on the assumption that clubs in this study are representative of clubs across England. This is a reasonable first approximation although it is possible that some leagues in the lower tiers (e.g. North West Counties Premier Division) may have more clubs in a large metropolitan region making access easier to public transport.",
+            "cites": [
+                "ref-CR22",
+                "ref-CR20"
+            ],
+            "figures": [
+                "figure-3",
+                "figure-1",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "The aim of this paper was to calculate GHG emissions arising from the travel of spectators to and from football games within the lower echelons of the football leagues in England (tiers 3 to 10), and to extrapolate this to a national level. This research did not cover emissions from energy consumption, food and drinks consumed at games and emissions from spectator waste sent to landfill. This study revealed that the football spectators in England are predominantly males (80%). This is similar to findings from studies from other countries24,25,26. Findings from this study show that travelling to and from football games can have a significant impact on the environment, with the majority (67%) of spectators using cars and average travel emissions from this study were 4.74kgCO2e. The reliance on cars can be attributed to time savings and convenience. The average occupancy rate of cars (M = 2.26) was similar to that reported for sporting events in the US with 2.4727 and 2.7 in Canada5.\nBy analysing data form 3,474 adults in the UK the transport related GHG emissions for a number of activities (commuting, business, shopping, and social/leisure) have been calculated28. The mean carbon emissions per person per week were reported to be equal to 35.1 kgCO2. Overall commuting accounted for 35% of the weekly emissions followed by social trips (24%), business trips (19%) and travel for shopping or personal business (19%). Based on these figures attendance at football matches would make a significant contribution to the weekly emissions from social trips.\nAlso, this study demonstrates that GHG emissions significantly differ across the eight football tiers. Tier 4 had significantly higher GHG emissions than tier 9; GHG emissions were higher in tier 3 than in tiers 7, 8 and 10. The league system emitted almost four times more GHG than the non-league teams; this is a result of both greater distances between clubs and more overall spectators. GHG emissions from travelling to away games was more than the GHG emissions from travelling to home games, this is similar to the findings from another study29.\nIn 2012, the total GHG emission in the UK was 474.1 (MtCO2e), with 116.9 (MtCO2e) from the transport sector30. This study showed that the extrapolated national GHG emissions of football spectators was 56,237.39 (kgCO2e) during the 2012/13 football season from tiers 3 to 10 and this accounted for less than 0.05% of the annual GHG emission from the transport sector nationally in 2012. Findings from this study show travel contributed to GHG emissions particularly from the use of cars and public transport. This is similar to study for the FA Cup tournament for the whole of 2007/8 which generated 42,000 tonnes CO2e from 731 teams31. Attendances for the 2016/17 season show an average increase of 18% on that used in this study (2012/13). More people are choosing to follow their local clubs and so although small, the contribution of spectators to GHG emissions is increasing.\nCox32 argues that in the Premier League the distance between stadia is linked to the number of spectators. Overall the average distance is 141 miles. As distances increase attendance decreases which reflects rivalry between local teams and increased traveling costs. Distances covered in Leagues One and Two, as well as the National League are greater than in the Premier League. The lower league clubs are often based in small towns and so may well be less well provided for by public transport thereby increasing the use of cars. Hence the means of transport and corresponding emissions, traffic density and distances among the competing clubs at the different football tiers are not uniformly distributed across the country.\nThe findings of the research by the Campaign for Better Transport (CfBT) in 2013 are similar to this study. Both studies found that cycling to games by spectators was rare and that car sharing was higher for away travel. Both studies found that home spectators in the lower tiers were more dependent on the car (40%, 45%, 58%, 51% in the Premier League, Championship, League 1 and League 2 respectively) as there are fewer alternatives to the car. However, the primary difference between both studies was that the main mode of travel from the study of CfBT was the train. Given that that the CfBT study8 involved both Premier and Championship teams and didn’t consider teams in tier 5 and below this is not surprising. However it did note that transport costs account for approximately 25% of Premier League fans’ expenses on match day whereas for supporters of League Two clubs this figure increased to 33%.\nThe Scottish FA, Scottish Premier League and Scottish Football League undertook a National Football Survey in 201333. Here it was found that 64% of spectators travelled to matches by car; similar to our figure of 67%. A quarter of supporters walk to the stadium which suggests that a large number of spectators support their local club. However excluding a ticket for the game travel to/from the match was the most significant match day cost. Similar concerns were identified in the CfBT study8. The figure of 13% of spectators walking to games found in our survey is much higher than at many other sporting events5.\nIt should also be noted that in the higher echelons of football sports tourism is increasing in popularity. In 2014 800,000 visitors to the UK went to a football match34 with Manchester United, Arsenal and Liverpool receiving approximately 100,000 each. Such visitors have a significant impact on the GHG emissions due to travel. In British Columbia Dolf and Teehan5 found that although 4% of spectators travelled by air, this contributed 52% of travel related GHG emissions.\nDespite the fact that football has a negative environmental impact, particularly from spectators travelling to and from games, a behavioural change in travel plans from individuals can have a great benefit in controlling GHG emissions, possibly by an increase in vehicle occupancy rates, or ideally by increased low-emission travel mode choices.\nWithin the German Bundesliga clubs have introduced a combined ticket which provides entry to the stadium as well as for the free use of public transport on match days. Such a system was first offered by FC Cologne in 1983 and is now offered by the majority of Bundesliga and lower leagues clubs35. At the start of the 2015/16 season the Football League commenced an initiative with Liftshare.com whereby fans post details of their match day travel and offer their spare car seats to other fans. As yet there are no details as to how successful this has been. Previous attempts, such National Express’s partnership with the FA, to provide solutions to reduce the carbon impact of fans’ travel have fallen by the wayside.\nFurther afield Reiche36 notes that some clubs in the US National Football League encourage the use of electric cars by providing fans with charging stations while some of the richer teams offset the emissions from away-game travel, for example by tree planting initiatives.\nResearch into sports tourism has found that individuals tend to engage less in pro-environmental behaviours in a tourism context compared to their behaviour at home37. There is currently little to suggest that this applies to away spectators. However improved awareness of a destination’s environmental responsibility prior to the match may have an impact on their environmental behaviour at the destination.\nComparing this study to previous studies attests to the fact that a more environmentally friendly way of travel by spectators will lower GHG emission and could have a positive impact on the climate38,39,40.",
+            "cites": [
+                "ref-CR26",
+                "ref-CR28",
+                "ref-CR34",
+                "ref-CR31",
+                "ref-CR33",
+                "ref-CR40",
+                "ref-CR39",
+                "ref-CR32",
+                "ref-CR29",
+                "ref-CR37",
+                "ref-CR27",
+                "ref-CR30",
+                "ref-CR25",
+                "ref-CR5",
+                "ref-CR24",
+                "ref-CR36",
+                "ref-CR38",
+                "ref-CR35",
+                "ref-CR8"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Conclusion",
+            "text": "This study has compared the GHG emissions of eight football tiers in England during the 2012/13-football season and extrapolated those emissions to the national level. The annual GHG emissions of football spectators from the 8 football tiers were estimated at 56,237 tonnes of CO2e accounting for less than 0.05% of transport emissions in England. Tiers 3 and 4 had significantly higher GHG emissions compared to tiers 7, 8, 9 and 10. It should be noted that in the upper football league tiers emissions are produced, not only as teams and fans travel to matches, but as stadiums are built, run and maintained. In the lower tiers virtually all emissions are transport related.\nThis study highlights the different travel regimes for spectators at the lower tiers of English football compared to those in the Premier League. An improved understanding of travel to such games is important because although they may have small individual carbon footprints, they happen in much larger numbers.\nThis study has identified a clear environmental problem caused by spectators travelling to games even on a national scale. Football authorities should have robust travel plans and educate spectators to employ more sustainable travel plans to games. Both an individual and national approach could be employed to reduce the GHG emission from spectators, and the Department for Transport (DfT) can take the lead by liaising with all the parties involved in football, from the local level to the national level, by introducing a “Kombi Ticket” system similar to that operating in Germany so that match tickets can be used consistently and universally for local and regional travel to matches35. Creating long-term use of public transport is something that football clubs should attempt to achieve.",
+            "cites": [
+                "ref-CR35"
+            ],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Figure 1",
+            "figure-caption": "Participants’ percentage mode of travel across the football tiers.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-017-06141-y/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Figure 2",
+            "figure-caption": "Mean GHG emissions per spectator across eight football tiers (N = 1,406). Error bars denote mean ± standard error of the mean.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-017-06141-y/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Figure 3",
+            "figure-caption": "Travel related GHG emissions between league and non-league clubs in England.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-017-06141-y/figures/3"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "IPCC. Climate change 2013: The physical science basis: Working group 1 contribution to the IPCC fifth assessment report Cambridge University Press (2014).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Rogelj, J. et al. Paris Agreement climate proposals need a boost to keep warming well below 2 C. Nature \n                           534, 631–639 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1038%2Fnature18307",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016Natur.534..631R",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28Xht1Gju7vI",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27357792",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Paris%20Agreement%20climate%20proposals%20need%20a%20boost%20to%20keep%20warming%20well%20below%202%20C&journal=Nature&doi=10.1038%2Fnature18307&volume=534&pages=631-639&publication_year=2016&author=Rogelj%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Su, M. et al. Greenhouse gas emission accounting for EU member states from 1991 to 2012. Applied Energy \n                           184, 759–768 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apenergy.2016.02.074",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Greenhouse%20gas%20emission%20accounting%20for%20EU%20member%20states%20from%201991%20to%202012&journal=Applied%20Energy&doi=10.1016%2Fj.apenergy.2016.02.074&volume=184&pages=759-768&publication_year=2016&author=Su%2CM"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Department of Transport Transport Statistics Great Britan 2016 Available at https://www.gov.uk/government/collections/transport-statistics-great-britain Accessed 4 May 2017 (2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Dolf, M. & Teehan, P. Reducing the carbon footprint of spectator and team travel at the University of British Columbia’s varsity sports events. Sport Management Review \n                           18, 244–255 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.smr.2014.06.003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Reducing%20the%20carbon%20footprint%20of%20spectator%20and%20team%20travel%20at%20the%20University%20of%20British%20Columbia%E2%80%99s%20varsity%20sports%20events&journal=Sport%20Management%20Review&doi=10.1016%2Fj.smr.2014.06.003&volume=18&pages=244-255&publication_year=2015&author=Dolf%2CM&author=Teehan%2CP"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Football Insight Football league divisions. Available: https://footballinsights.wordpress.com/2007/08/17/11-tiers-of-english-football/. Accessed:19 March 2013 (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Isthmian The Ryman League system Available at: http://www.isthmian.co.uk/match-info/attendance-tables Accessed:28 May 2014 (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "CfTB. Campaign for better transport. Improving travel choices for football fans. Availabel at: http://www.bettertransport.org.uk/sites/default/files/research-files/Door_to_Turnstile_CfBT_FINAL_web.pdf Accessed:28 May 2014 (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Collins, A. & Flynn, A. Measuring the environmental sustainability of a major sporting event: A case study of the fa cup final. Tourism Economics. \n                           14, 751–768 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.5367%2F000000008786440120",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Measuring%20the%20environmental%20sustainability%20of%20a%20major%20sporting%20event%3A%20A%20case%20study%20of%20the%20fa%20cup%20final&journal=Tourism%20Economics.&doi=10.5367%2F000000008786440120&volume=14&pages=751-768&publication_year=2008&author=Collins%2CA&author=Flynn%2CA"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Porter, C., May, A. & Kiernan, A. ‘Thinking long and wide’: Which communities have a future within the global game? Soccer & Society \n                           17, 661–665 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F14660970.2015.1100433",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=%E2%80%98Thinking%20long%20and%20wide%E2%80%99%3A%20Which%20communities%20have%20a%20future%20within%20the%20global%20game%3F&journal=Soccer%20%26%20Society&doi=10.1080%2F14660970.2015.1100433&volume=17&pages=661-665&publication_year=2016&author=Porter%2CC&author=May%2CA&author=Kiernan%2CA"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "McCrory, P. Take nothing but pictures, leave nothing but footprints…? British Journal of Sports Medicine \n                           40, 565–565 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1136%2Fbjsm.2006.029231",
+                "CAS": "/articles/cas-redirect/1:STN:280:DC%2BD28zotVOmtg%3D%3D",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16799107",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2564294",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Take%20nothing%20but%20pictures%2C%20leave%20nothing%20but%20footprints%E2%80%A6%3F&journal=British%20Journal%20of%20Sports%20Medicine&doi=10.1136%2Fbjsm.2006.029231&volume=40&pages=565-565&publication_year=2006&author=McCrory%2CP"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Death, C. ‘Greening’ the 2010 FIFA World Cup: Environmental Sustainability and the Mega-Event in South Africa. Journal of Environmental Policy & Planning \n                           13, 99–117 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F1523908X.2011.572656",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=%E2%80%98Greening%E2%80%99%20the%202010%20FIFA%20World%20Cup%3A%20Environmental%20Sustainability%20and%20the%20Mega-Event%20in%20South%20Africa&journal=Journal%20of%20Environmental%20Policy%20%26%20Planning&doi=10.1080%2F1523908X.2011.572656&volume=13&pages=99-117&publication_year=2011&author=Death%2CC"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Collins, A., Flynn, A., Munday, M. & Roberts, A. Assessing the environmental consequences of major sporting events: The 2003/04 FA Cup Final. Urban Studies \n                           44, 457–476 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F00420980601131878",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Assessing%20the%20environmental%20consequences%20of%20major%20sporting%20events%3A%20The%202003%2F04%20FA%20Cup%20Final&journal=Urban%20Studies&doi=10.1080%2F00420980601131878&volume=44&pages=457-476&publication_year=2007&author=Collins%2CA&author=Flynn%2CA&author=Munday%2CM&author=Roberts%2CA"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "EEEGR East of England Energy Group news Available at: http://www.eeegr.com/uploads/DOCS/january-2007.pdf (2007).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Kolyperas, D., Morrow, S. & Sparks, L. Developing CSR in professional football clubs: drivers and phases. Corporate Governance \n                           15, 177–195 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1108%2FCG-05-2014-0062",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Developing%20CSR%20in%20professional%20football%20clubs%3A%20drivers%20and%20phases&journal=Corporate%20Governance&doi=10.1108%2FCG-05-2014-0062&volume=15&pages=177-195&publication_year=2015&author=Kolyperas%2CD&author=Morrow%2CS&author=Sparks%2CL"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Enery-group Case Study: Newcastle United Football Club Available at: http://www.energ-group.com/media/777484/case-study-newcastle-united-football-club-email.pdf Accessed:15 December 2016 (2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Evoenergy http://www.evoenergy.co.uk/case-studies/ashton-gate-stadium/ Accessed:15 December 2016 (2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Gibbons, T. & Nuttall, D. ‘True fan = watch match’? In search of the ‘Authentic’soccer fan. Soccer & Society \n                           17, 527–539 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F14660970.2014.980735",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=%E2%80%98True%20fan%E2%80%89%3D%E2%80%89watch%20match%E2%80%99%3F%20In%20search%20of%20the%20%E2%80%98Authentic%E2%80%99soccer%20fan&journal=Soccer%20%26%20Society&doi=10.1080%2F14660970.2014.980735&volume=17&pages=527-539&publication_year=2016&author=Gibbons%2CT&author=Nuttall%2CD"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Gärling, T., Ettema, D. & Friman, M. Handbook of sustainable travel Springer (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR20",
+            "content": "DEFRA Guidelines to Defra/DECC’s GHG conversion factors for company reporting:Methodology paper for emission factors. https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/69554/pb13773-ghg-conversion-factors-2012.pdf Accessed:19 March 2013 (2011).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Johansson, D. J., Persson, U. M. & Azar, C. The cost of using global warming potentials: Analysing the trade off between CO2, CH4 and N2O. Climatic Change. \n                           77, 291–309 (2006).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s10584-006-9054-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20cost%20of%20using%20global%20warming%20potentials%3A%20Analysing%20the%20trade%20off%20between%20CO2%2C%20CH4%20and%20N2O&journal=Climatic%20Change.&doi=10.1007%2Fs10584-006-9054-1&volume=77&pages=291-309&publication_year=2006&author=Johansson%2CDJ&author=Persson%2CUM&author=Azar%2CC"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Stead, D. Relationships between transport emissions and travel patterns in Britain. Transport Policy. \n                           6, 247–258 (1999).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0967-070X%2899%2900025-6",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999AIPC..471..247S",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Relationships%20between%20transport%20emissions%20and%20travel%20patterns%20in%20Britain&journal=Transport%20Policy.&doi=10.1016%2FS0967-070X%2899%2900025-6&volume=6&pages=247-258&publication_year=1999&author=Stead%2CD"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "The FA. Football league system Available at: www.Thefa.Com/~/media/files/thefaportal/governance-docs/rules-of-the-association/national-league-system.Ashx Accessed:28 May 2014 (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Waddington, I., Malcolm, D. & Horak, R. The social composition of football crowds in western europe a comparative study. International Review for the Sociology of Sport \n                           33, 155–169 (1998).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F101269098033002003",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20social%20composition%20of%20football%20crowds%20in%20western%20europe%20a%20comparative%20study&journal=International%20Review%20for%20the%20Sociology%20of%20Sport&doi=10.1177%2F101269098033002003&volume=33&pages=155-169&publication_year=1998&author=Waddington%2CI&author=Malcolm%2CD&author=Horak%2CR"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Stone, C. The role of football in everyday life. Soccer & Society \n                           8, 169–184 (2007).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F14660970701224319",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=2353830",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20football%20in%20everyday%20life&journal=Soccer%20%26%20Society&doi=10.1080%2F14660970701224319&volume=8&pages=169-184&publication_year=2007&author=Stone%2CC"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Gencer, R. T. The relationship between team identification and service quality perceptions in professional football. African Journal of Business Management \n                           5, 2140–2150 (2010).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20relationship%20between%20team%20identification%20and%20service%20quality%20perceptions%20in%20professional%20football&journal=African%20Journal%20of%20Business%20Management&volume=5&pages=2140-2150&publication_year=2010&author=Gencer%2CRT"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Ruback, R. B. et al. People Transitioning Across Places A Multimethod Investigation of How People Go to Football Games. Environment and Behavior \n                           45, 239–266 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1177%2F0013916511412589",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=People%20Transitioning%20Across%20Places%20A%20Multimethod%20Investigation%20of%20How%20People%20Go%20to%20Football%20Games&journal=Environment%20and%20Behavior&doi=10.1177%2F0013916511412589&volume=45&pages=239-266&publication_year=2013&author=Ruback%2CRB"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Brand, C., Goodman, A., Rutter, H., Song, Y. & Ogilvie, D. Associations of individual, household and environmental characteristics with carbon dioxide emissions from motorised passenger travel. Applied Energy. \n                           104, 158–169 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.apenergy.2012.11.001",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24882922",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4032180",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Associations%20of%20individual%2C%20household%20and%20environmental%20characteristics%20with%20carbon%20dioxide%20emissions%20from%20motorised%20passenger%20travel&journal=Applied%20Energy.&doi=10.1016%2Fj.apenergy.2012.11.001&volume=104&pages=158-169&publication_year=2013&author=Brand%2CC&author=Goodman%2CA&author=Rutter%2CH&author=Song%2CY&author=Ogilvie%2CD"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Chard, C. & Mallen, C. Examining the linkages between automobile use and carbon impacts of community-based ice hockey. Sport Management Review \n                           15, 476–484 (2012).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.smr.2012.02.002",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Examining%20the%20linkages%20between%20automobile%20use%20and%20carbon%20impacts%20of%20community-based%20ice%20hockey&journal=Sport%20Management%20Review&doi=10.1016%2Fj.smr.2012.02.002&volume=15&pages=476-484&publication_year=2012&author=Chard%2CC&author=Mallen%2CC"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "DECC UK greenhouse gas emissions, provisional figures and 2012 UK greenhouse gas emissions, final figures by fuel type and end-user Department of Energy & Climate Change (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Rydin, Y., Seymour, R., MCC, M.C.C. & Lorimer, S. Sustainability in the Sports Sector. UCL Environment Institute, Briefing, London. Available at: basis.org.uk/wp-content/uploads/2015/08/Sports-Sector-Report.pdf Accessed:30 September 2014 (2011).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Cox, A. Spectator Demand, Uncertainty of Results, and Public Interest Evidence From the English Premier League. Journal of Sports Economics p.1527002515619655 (2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "REPUCOM National Football Survey. Available from http://www.scottishfa.co.uk/resources/documents/ScottishFA/Survey/survey%20pdf.pdf Accessed:30 September 2014 (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "VisitBritain Football tourism in Britain. Available at: www.visitbritain.org/sites/default/files/vb-corporate/Documents-Library/documents/2015-9%20VisitBritain%20Report_Football%20tourism%20scores%20for%20Britain.pdf Accessed 15 December 2016 (2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Reiche, D. Drivers behind corporate social responsibility in the professional football sector: a case study of the German Bundesliga. Soccer & Society \n                           15, 472–502 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F14660970.2013.842877",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Drivers%20behind%20corporate%20social%20responsibility%20in%20the%20professional%20football%20sector%3A%20a%20case%20study%20of%20the%20German%20Bundesliga&journal=Soccer%20%26%20Society&doi=10.1080%2F14660970.2013.842877&volume=15&pages=472-502&publication_year=2014&author=Reiche%2CD"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Reiche, D. Climate policies in the US at the stakeholder level: A case study of the National Football League. Energy Policy \n                           60, 775–784 (2013).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.enpol.2013.05.039",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Climate%20policies%20in%20the%20US%20at%20the%20stakeholder%20level%3A%20A%20case%20study%20of%20the%20National%20Football%20League&journal=Energy%20Policy&doi=10.1016%2Fj.enpol.2013.05.039&volume=60&pages=775-784&publication_year=2013&author=Reiche%2CD"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Han, H. Travelers’ pro-environmental behavior in a green lodging context: Converging value-belief-norm theory and the theory of planned behavior. Tourism Management \n                           47, 164–177 (2015).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tourman.2014.09.014",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Travelers%E2%80%99%20pro-environmental%20behavior%20in%20a%20green%20lodging%20context%3A%20Converging%20value-belief-norm%20theory%20and%20the%20theory%20of%20planned%20behavior&journal=Tourism%20Management&doi=10.1016%2Fj.tourman.2014.09.014&volume=47&pages=164-177&publication_year=2015&author=Han%2CH"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Costello, A. et al. Managing the health effects of climate change. The Lancet \n                           373, 1693–1733 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2FS0140-6736%2809%2960935-1",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Managing%20the%20health%20effects%20of%20climate%20change&journal=The%20Lancet&doi=10.1016%2FS0140-6736%2809%2960935-1&volume=373&pages=1693-1733&publication_year=2009&author=Costello%2CA"
+            }
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Dietz, T., Gardner, G. T., Gilligan, J., Stern, P. C. & Vandenbergh, M. P. Household actions can provide a behavioral wedge to rapidly reduce us carbon emissions. Proceedings of the National Academy of Sciences \n                           106, 18452–18456 (2009).",
+            "links": {
+                "Article": "https://doi.org/10.1073%2Fpnas.0908738106",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009PNAS..10618452D",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BD1MXhsVKlsLnE",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Household%20actions%20can%20provide%20a%20behavioral%20wedge%20to%20rapidly%20reduce%20us%20carbon%20emissions&journal=Proceedings%20of%20the%20National%20Academy%20of%20Sciences&doi=10.1073%2Fpnas.0908738106&volume=106&pages=18452-18456&publication_year=2009&author=Dietz%2CT&author=Gardner%2CGT&author=Gilligan%2CJ&author=Stern%2CPC&author=Vandenbergh%2CMP"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Stern, P. C., Gardner, G. T., Vandenbergh, M. P., Dietz, T. & Gilligan, J. M. Design principles for carbon emissions reduction programs. Environmental science & technology \n                           44, 4847–4848 (2010).",
+            "links": {
+                "Article": "https://doi.org/10.1021%2Fes100896p",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010EnST...44.4847S",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC3cXlslehtL0%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Design%20principles%20for%20carbon%20emissions%20reduction%20programs&journal=Environmental%20science%20%26%20technology&doi=10.1021%2Fes100896p&volume=44&pages=4847-4848&publication_year=2010&author=Stern%2CPC&author=Gardner%2CGT&author=Vandenbergh%2CMP&author=Dietz%2CT&author=Gilligan%2CJM"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Acknowledgements": {
+            "content": "We are very grateful to Essex Football Association for their help during the data collection stages of this study and to all the clubs that participated in the study.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsAdekunle DosumuView author publicationsSearch author on:PubMed Google ScholarIan ColbeckView author publicationsSearch author on:PubMed Google ScholarRachel BraggView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nAdekunle Dosumu, Ian Colbeck and Rachel Bragg. A.D. and I.C. wrote the paper. A.D., under the supervision of R.B. performed the statistical analysis. A.D., I.C. and R.B. conceived and designed the research. All authors discussed the data and commented on the manuscript.\n### Corresponding author\nCorrespondence to\n                Ian Colbeck.",
+            "links": {
+                "View author publications": "/search?author=Rachel%20Bragg",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Rachel%20Bragg",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Rachel%20Bragg%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Ian Colbeck": "mailto:colbi@essex.ac.uk"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing Interests\nThe authors declare that they have no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Electronic supplementary material": {
+            "content": "Supplementary Information",
+            "links": {
+                "Supplementary Information": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-017-06141-y/MediaObjects/41598_2017_6141_MOESM1_ESM.doc"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Greenhouse%20gas%20emissions%20as%20a%20result%20of%20spectators%20travelling%20to%20football%20in%20England&author=Adekunle%20Dosumu%20et%20al&contentID=10.1038%2Fs41598-017-06141-y&copyright=The%20Author%28s%29&publication=2045-2322&publicationDate=2017-08-01&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleDosumu, A., Colbeck, I. & Bragg, R. Greenhouse gas emissions as a result of spectators travelling to football in England.\n                    Sci Rep 7, 6986 (2017). https://doi.org/10.1038/s41598-017-06141-yDownload citationReceived: 25 January 2017Accepted: 06 June 2017Published: 01 August 2017DOI: https://doi.org/10.1038/s41598-017-06141-yShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41598-017-06141-y?format=refman&flavour=citation"
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Greenhouse gas emissions as a result of spectators travelling to football in England",
+                "description": "Transport remains a critical avenue in the attempt to reduce greenhouse gas (GHG) emissions and any significant effort to reduce travel GHG emissions will need to encourage a movement towards more fuel-efficient, less polluting behaviours. The aim of this paper is to calculate GHG emissions arising from the travel of spectators to and from football games within eight football tiers (3 to 10) in England, and to extrapolate this to a national level. The study comprised of 1649 participants with an average age of 42 years (M = 42.63, SD = 17.10). Participants travelled to and from games by walking, cycling, car, bus, train or taxi. The average distance travelled to and from games was 41.5 km. A Kruskal-Wallis test was conducted to evaluate differences in travel related GHG emissions between the eight football tiers during the 2012/13 season. The results indicate significant differences between football tiers’ GHG emissions, H(7) = 46.474, p < 0.001. The annual GHG emission of spectators from the 8 tiers for the 2012/13 season was estimated at 56,237 tonnes of CO2e, accounting for less than 0.05% of transport emissions in England. Football authorities should have robust travel plans and educate spectators to employ more sustainable travel plans to games.",
+                "datePublished": "2017-08-01T00:00:00Z",
+                "dateModified": "2017-08-01T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "7",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s41598-017-06141-y",
+                "keywords": [
+                    "Environmental impact",
+                    "Environmental sciences",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-017-06141-y/MediaObjects/41598_2017_6141_Fig1_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-017-06141-y/MediaObjects/41598_2017_6141_Fig2_HTML.jpg",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-017-06141-y/MediaObjects/41598_2017_6141_Fig3_HTML.jpg"
+                ],
+                "isPartOf": {
+                    "name": "Scientific Reports",
+                    "issn": [
+                        "2045-2322"
+                    ],
+                    "volumeNumber": "7",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Adekunle Dosumu",
+                        "affiliation": [
+                            {
+                                "name": "University of Essex",
+                                "address": {
+                                    "name": "School of Biological Sciences, University of Essex, Colchester, England",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Ian Colbeck",
+                        "url": "http://orcid.org/0000-0001-5668-1309",
+                        "affiliation": [
+                            {
+                                "name": "University of Essex",
+                                "address": {
+                                    "name": "School of Biological Sciences, University of Essex, Colchester, England",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "colbi@essex.ac.uk",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Rachel Bragg",
+                        "affiliation": [
+                            {
+                                "name": "University of Essex",
+                                "address": {
+                                    "name": "School of Biological Sciences, University of Essex, Colchester, England",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "environmental-impact;environmental-sciences",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Scientific Reports",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41598-017-06141-y"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Adekunle Dosumu",
+                            "Ian Colbeck",
+                            "Rachel Bragg"
+                        ],
+                        "publishedAt": 1501545600,
+                        "publishedAtString": "2017-08-01",
+                        "title": "Greenhouse gas emissions as a result of spectators travelling to football in England",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Environmental impact,Environmental sciences"
+                    },
+                    "journal": {
+                        "pcode": "srep",
+                        "title": "scientific reports",
+                        "volume": "7",
+                        "issue": "1",
+                        "id": 41598,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "CN",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Greenhouse gas emissions as a result of spectators travelling to football in England",
+            "dc.source": "Scientific Reports 2017 7:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2017-08-01",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2017 The Author(s)",
+            "dc.rights": "2017 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Transport remains a critical avenue in the attempt to reduce greenhouse gas (GHG) emissions and any significant effort to reduce travel GHG emissions will need to encourage a movement towards more fuel-efficient, less polluting behaviours. The aim of this paper is to calculate GHG emissions arising from the travel of spectators to and from football games within eight football tiers (3 to 10) in England, and to extrapolate this to a national level. The study comprised of 1649 participants with an average age of 42 years (M = 42.63, SD = 17.10). Participants travelled to and from games by walking, cycling, car, bus, train or taxi. The average distance travelled to and from games was 41.5 km. A Kruskal-Wallis test was conducted to evaluate differences in travel related&nbsp;GHG emissions between the eight football tiers during the 2012/13&nbsp;season. The results indicate significant differences between football tiers’ GHG emissions, H(7) = 46.474, p &lt; 0.001. The annual GHG emission of spectators from the 8 tiers for the 2012/13 season was estimated at 56,237 tonnes of CO2e, accounting for less than 0.05% of transport emissions in England. Football authorities should have robust travel plans and educate spectators to employ more sustainable travel plans to games.",
+            "dc.identifier": "doi:10.1038/s41598-017-06141-y",
+            "dc.creator": "Bragg, Rachel",
+            "dc.subject": "Environmental sciences",
+            "prism.issn": "2045-2322",
+            "prism.publicationName": "Scientific Reports",
+            "prism.publicationDate": "2017-08-01",
+            "prism.volume": "7",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "7",
+            "prism.copyright": "2017 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41598-017-06141-y",
+            "prism.doi": "doi:10.1038/s41598-017-06141-y",
+            "citation_pdf_url": "https://www.nature.com/articles/s41598-017-06141-y.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41598-017-06141-y",
+            "citation_journal_title": "Scientific Reports",
+            "citation_journal_abbrev": "Sci Rep",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2045-2322",
+            "citation_title": "Greenhouse gas emissions as a result of spectators travelling to football in England",
+            "citation_volume": "7",
+            "citation_issue": "1",
+            "citation_online_date": "2017/08/01",
+            "citation_firstpage": "1",
+            "citation_lastpage": "7",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41598-017-06141-y",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41598-017-06141-y&api_key=",
+            "citation_reference": "citation_journal_title=Environmental science & technology; citation_title=Design principles for carbon emissions reduction programs; citation_author=PC Stern, GT Gardner, MP Vandenbergh, T Dietz, JM Gilligan; citation_volume=44; citation_publication_date=2010; citation_pages=4847-4848; citation_doi=10.1021/es100896p; citation_id=CR40",
+            "citation_author": "Bragg, Rachel",
+            "citation_author_institution": "School of Biological Sciences, University of Essex, Colchester, England",
+            "description": "Transport remains a critical avenue in the attempt to reduce greenhouse gas (GHG) emissions and any significant effort to reduce travel GHG emissions will need to encourage a movement towards more fuel-efficient, less polluting behaviours. The aim of this paper is to calculate GHG emissions arising from the travel of spectators to and from football games within eight football tiers (3 to 10) in England, and to extrapolate this to a national level. The study comprised of 1649 participants with an average age of 42 years (M = 42.63, SD = 17.10). Participants travelled to and from games by walking, cycling, car, bus, train or taxi. The average distance travelled to and from games was 41.5 km. A Kruskal-Wallis test was conducted to evaluate differences in travel related&nbsp;GHG emissions between the eight football tiers during the 2012/13&nbsp;season. The results indicate significant differences between football tiers’ GHG emissions, H(7) = 46.474, p &lt; 0.001. The annual GHG emission of spectators from the 8 tiers for the 2012/13 season was estimated at 56,237 tonnes of CO2e, accounting for less than 0.05% of transport emissions in England. Football authorities should have robust travel plans and educate spectators to employ more sustainable travel plans to games.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Greenhouse gas emissions as a result of spectators travelling to football in England",
+            "twitter:description": "Scientific Reports - Greenhouse gas emissions as a result of spectators travelling to football in England",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-06141-y/MediaObjects/41598_2017_6141_Fig1_HTML.jpg",
+            "DOI": "10.1038/s41598-017-06141-y",
+            "size": "115862",
+            "journal_id": "41598"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41598-017-06141-y",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

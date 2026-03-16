@@ -1,0 +1,825 @@
+{
+    "id": "s41598-025-12241-x",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "title": "Assessing the impact of the eco-environmental damage compensation system",
+    "legal_title": "Assessing the impact of the eco-environmental damage compensation system",
+    "publish_time": "2025-08-19",
+    "pdf_link": "https://www.nature.com/articles/s41598-025-12241-x",
+    "storage_path": "./Articles/Scientific Reports/2025-article/s41598-025-12241-x/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "The high-quality development path of ecological priority and green energy efficiency should be unswervingly followed. Therefore, exploring the ecological and environmental level (EEL) is an urgent and essential matter for sustainable development. This research aims to estimate how the eco-environmental damage compensation system (EDCS) affects the EEL in China. The framework is based on panel data collected from 284 cities at the prefecture level in China. The Differences-in-Differences (DID) method is employed to examine the influence and spillover effect. Findings provide evidence that the EDCS significantly improves the EEL. Therefore, this study primarily examines whether and how the EDCS impacts the EEL. Further, the ecological environment level of resource-based cities is drastically different from that of non-resource-based cities under the impact of the EDCS. Mechanistic analyses demonstrate that the EDCS is conducive to upgrading of industrial structure and technological innovation, which in turn promotes regional EEL. Based on the findings of the analyses, it can be argued that policymakers and market participants should work together to address environmental issues, combining top-down and bottom-up approaches. Ultimately, efficient markets and responsive governments work together. The policy should form a dynamic adjustment mechanism for different resource cities to realize the purpose of emissions reduction and enhance the EEL.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "China’s economy has experienced sustained high growth since the reform and opening up of the country. China has emerged as the global leader in energy consumption and carbon emissions due to its remarkable economic development pace1. The acceleration of industrialization and urbanization has been accompanied by a deteriorating environment and declining air quality, which have threatened people’s health. At present, China’s economic development has entered a new normal, which has shifted from high-speed growth to high-quality development, and it has become a topic to promote the optimization of China’s ecology and environment and to construct an ecological civilization institutional system2. The EDCS is an integral part of the ecological civilization system. In order to solve the problem of not being compensated for severe environmental pollution and ecological damage losses caused by polluters and not protecting the public’s environmental rights, interests, and ecosystems, the General Office of the Communist Party of China Central Committee and the General Office of the State Council jointly issued the reform plan for the EDCS in 2015, and deployed pilot program in seven provinces and cities including Jilin, Jiangsu, Shandong, Hunan, Chongqing, Guizhou, and Yunnan. They have been implementing the EDCS nationwide since 2018.\n‘Enterprises pollute, the public suffers, and the government pays the bill’ has always been a pain point. The cost of compliance for Chinese enterprises is too high, while the cost of violating a law is too low. The existing legal system and framework are ineffective in solving this problem. The EDCS has made up for a gap in the current law and system by giving the power and responsibility to act as the owner of the ecology and environment under its jurisdiction and allowing negotiation or lawsuits when ecology and environment damage occurs. The stability of China’s political system facilitates the effective implementation of the EDCS3. According to statistics, since the implementation of the EDCS in the past 2 years, 27 cases of ecology and environment damage compensation have been initiated, involving an amount of about 401 million yuan, of which 13 have been negotiated for the compensation of ecology and environment damage. Nine have reached an agreement on the negotiation, while the remaining 14 cases are in the process of judicial appraisal, which causes a social sensation. However, this study is not concerned with the impact of the EDCS on the EEL at the stage of judicial litigation. On the contrary, our article focuses on the synergistic effect, which examines the negative impact of PM2.5.\nResearch on the EDCS can better explore the path to realizing the ‘dual-carbon’ goal and help China make the ‘China Commitment’ at the United Nations Climate Change Conference, which has a profound impact on global environmental governance. This commitment to reduce emissions adheres to the new development concept, will vigorously promote the world’s sustainable development, and has attracted widespread attention from scholars all over the world. As the environment continues to deteriorate, seriously affecting people’s livelihoods, the government is forced to carry out pollution prevention and control, and ultimately, the formation of a ‘pollution first, then governance’ passive situation. There are many ways to solve the negative environmental externalities. According to Coase’s Theorem, clear property rights are needed to realize the efficient distribution of resources. Although clear initial property rights allocation is a prerequisite for solving positive externalities based on market negotiation4, it is difficult to define property rights, and the ‘tragedy of the commons’ occasionally occurs. Although the use of regulation can promote technological progress, control environmental pollution, and achieve economic growth5,6,7,8,9,10,11,12, from the perspective of the whole society, it hinders market operation, thus causing a loss of efficiency13. The emissions trading system in market economy countries in the field of environmental protection is a specific application of the Coase’s Theorem14, and the mechanism of emissions trading rights can effectively curb pollutant emissions, which can significantly promote emission reduction15,16,17,18, the emissions trading system can promote regional industrial structure upgrading19,20 and outward foreign direct investment21,22, but if the market mechanism is imperfect and the market transaction cost is high, it will also ultimately result in the failure of Coase’s theorem and put an excessive burden on the enterprises14, and Zhang and Xiang23 found that SO2 emissions trading significantly increased the degree of environmental inequality in the pilot region. The EDCS can reverse this passive situation. Like the Pegu tax, the government can achieve optimal externality by implementing the EDCS24. The EDCS internalizes the externality of ecological damage and environmental pollution and achieves the paid use of resources through user fees to protect the environment25 and mitigates environmental pollution and thus reach environmental sustainability26.\nDomestic scholars on the EDCS focus more on the concept, theory27,28, and legal research, specifically including research on the legal system29, research on consultation in the compensation stage30 and research on later litigation31,32,33. However, there is less literature related to the evaluation of the EDCS. Gao34 measures the dynamic effect of the EDCS under different shocks through DSGE. This study focuses on the EDCS and constructs the EEL indicator to measure its power. This study will provide a deeper understanding of the influence of the EDCS and give a reference for realizing China’s ‘dual-carbon’ target path.\nThis study aims to explore the policy impact on the EEL since the pilot of the EDCS and to test whether the EEL of cities has been improved in the pilot provinces at this stage. This article uses the entropy method to construct the EEL indicator for measuring the comprehensive score of the ecology and environment. Therefore, this study primarily examines whether and how the EDCS impacts the EEL, endeavoring to address the following questions: Firstly, can this system facilitate the enhancement of the EEL? Secondly, what is the mechanism through which the EDCS influences the EEL?\nThis article initially delves into the policy implications of the EDCS on emission reduction since its pilot implementation, examining whether this policy has effectively enhanced the EEL of cities in the pilot provinces by focusing on these urban areas as our research subjects. Subsequently, we explore the underlying mechanisms at play. Drawing upon Porter’s innovation compensation hypothesis, we posit that a well-calibrated EDCS can spur corporate innovation, thereby boosting production efficiency, cutting costs, and enhancing the role of technological innovation in environmental governance1. Consequently, this hypothesis contends that appropriate environmental regulations not only elevate corporate production efficiency and market competitiveness but also mitigate environmental pollution. Furthermore, the EDCS facilitates the internalization of externalities, compelling enterprises to undergo structural upgrades. To better adapt to and meet shifting market demands, enterprises must transform their production methods and adjust their product mix, exemplifying the industrial structure transformation effect triggered by demand-side influences in Fig. 1.\nSpecifically, based on China’s urban environmental quality data from 2009 to 2017, we construct a DID model to study the impact of the EDCS on urban EEL. Further, the grouped regression method is utilized to examine the heterogeneity of the shocks of the EDCS on the EEL. The findings of this article show that the EDCS improves the EEL in the cities of the pilot provinces. The EDCS affects the EEL through two channels: upgrading of industrial structure and technological innovation. Compared with non-resource cities, the EDCS considerably increases theEEL in resource-based cities. Ultimately, it has contributed to realizing China’s ‘dual-carbon’ goal.\nCompared with the existing studies, this article may be innovative in that it utilizes causal identification to study the power of the EDCS at the city level. While existing studies focus more on the rationality of the system design and the rule of law theoretical system supported by jurisprudence, the study quantitatively researches the impact of the EDCS on the environment and economic development from the mathematical model and empirical analysis. Secondly, it further measures the degree of influence of the EDCS on the EEL from the perspective of governmental behavior. It also helps to clarify the role of the relevant state departments under the EDCS and provides practical experience on how the ‘active government’ should act under the goal of ‘dual-carbon.’ Thirdly, this study constructs environmental level indicators based on the entropy value method to measure the influence of the EDCS, which enriches the literature related to environmental policy assessment.\nThe remainder of this article is organized as follows. The mathematical model and research hypothesis are described in “Literature review” section. “A quantitative model” section is the research design, which sequentially introduces sample selection, data sources, variables, data description, and model specification. “Research design” section is the empirical analysis and robustness test, which is based on the estimation results of the DID model for the practical examination of the EEL of the EDCS. The article concludes with “Empirical results and robustness tests” section.",
+            "cites": [
+                "ref-CR17",
+                "ref-CR3",
+                "ref-CR13",
+                "ref-CR14",
+                "ref-CR2",
+                "ref-CR18",
+                "ref-CR8",
+                "ref-CR19",
+                "ref-CR11",
+                "ref-CR5",
+                "ref-CR25",
+                "ref-CR7",
+                "ref-CR10",
+                "ref-CR6",
+                "ref-CR29",
+                "ref-CR21",
+                "ref-CR20",
+                "ref-CR30",
+                "ref-CR24",
+                "ref-CR23",
+                "ref-CR26",
+                "ref-CR31",
+                "ref-CR4",
+                "ref-CR32",
+                "ref-CR1",
+                "ref-CR34",
+                "ref-CR33",
+                "ref-CR12",
+                "ref-CR16",
+                "ref-CR15",
+                "ref-CR9",
+                "ref-CR22",
+                "ref-CR27",
+                "ref-CR28"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Literature review",
+            "text": "The early literature on the EDCS primarily focused on conceptual definitions, theoretical foundations, and institutional frameworks. For instance, Liu27 and Yu et al.28 concentrated on these foundational aspects but neglected policy evaluation. Subsequent studies by Yu et al.25 and Zhang et al.29 explored legal dimensions but did not address economic assessments. Some scholars examined negotiation mechanisms during the compensation phase30,31  or litigation-related aspects post-compensation31,32,33, but these works did not investigate the deterrence effect of the policy or its impact on ecological quality. Gao34 used a DSGE model to simulate the dynamic effects of the EDCS under different shocks but limited the analysis to a macro-level perspective, omitting micro-level empirical evaluations.\nRegarding ecological quality measurement, scholars have proposed numerous methods, but few have addressed dimensions such as objectivity and computational simplicity. Li et al.8 used a DEA method to calculate regional ecological efficiency in China from 1997 to 2010, but DEA results are susceptible to indicator selection. Jing et al.35  employed a three-stage DEA model for spatiotemporal comparisons of ecological efficiency across Chinese provinces from 2008 to 2017, incorporating environmental variables such as population density and GDP. However, this approach remains susceptible to subjective influences. Cheng36 developed an ecological civilization evaluation index system using principal component analysis (PCA) to synthesize indicators, but PCA, as a dimensionality-reduction technique, retains only the majority of the variance. Zhou et al.37 applied a weighted TOPSIS method to evaluate ecological quality in the Yangtze River Economic Belt but relied on subjective weighting, limiting objectivity. Wang and Li10 established an ecological quality index system for impoverished regions using the analytic hierarchy process (AHP), but AHP is prone to subjectivity and cognitive biases. Zuo et al.38 developed an ecological security evaluation framework based on the PSR model but faced challenges in indicator selection, weight determination, and data acquisition.\nThis study addresses these gaps by focusing on the EDCS and its policy effects on ecological quality from a micro-level perspective. Using an entropy method, we construct an ecological quality index based on four indicators across two dimensions: ecological resources and environmental quality. Additionally, we employ a difference-in-differences approach to evaluate the spillover effects of the EDCS in pilot regions, emphasizing its deterrence role and policy impact rather than effects during the judicial litigation phase. This work enriches the quantitative analysis of policy effects related to the EDCS.",
+            "cites": [
+                "ref-CR38",
+                "ref-CR30",
+                "ref-CR33",
+                "ref-CR8",
+                "ref-CR10",
+                "ref-CR31",
+                "ref-CR35",
+                "ref-CR37",
+                "ref-CR32",
+                "ref-CR36",
+                "ref-CR25",
+                "ref-CR29",
+                "ref-CR27",
+                "ref-CR28",
+                "ref-CR34"
+            ],
+            "figures": []
+        },
+        {
+            "title": "A quantitative model",
+            "text": "### Constructing the ecological and environmental level\nDrawing on Ren et al.39, the definition of the indicator of the ecological environment includes maintaining the integrity of ecosystem function, continuously improving the ecological environment to establish a new way of coordinating the relationship, maintaining the existing ecological environment, protecting the ecological diversity, and continuously improving the quality of the environment. Therefore, this study sets the EEL as two significant indicators of ecological resources and environmental quality indicators, including four secondary indicators, such as greening coverage of urban built-up areas, industrial sulfur dioxide emissions, industrial nitrogen oxide emissions, industrial smoke, and dust emissions. Through the original data matrix normalization, defining entropy, we calculate the composite index of the EEL.\nThe specific steps are as follows:\nThe EDCS can internalize the externality enough to reduce the degree of ecological environment pollution, deter the behavior of ecological environment damage, reverse the degradation of the ecological environment, continue to improve the quality of the ecological environment, enhance the EEL, and play a particular role in maintaining the integrity of the ecosystem.\n### An eco-damage compensation system model\nDrawing on Forster40, we assume that, in a perfectly competitive market, individuals increase positive effects through energy consumption (C(E)) and adverse impact through environmental pollution (P) in order to maximize their utility (U). The marginal utility of consumption is positive and decreasing, while the marginal utility of pollution is harmful and decreasing, then\nThe energy stock is S(t), and E(t) denotes the rate of energy use at any time point t. Assuming the pollution flow (P) is proportional to energy use (E) as α, and the EDCS (A) reduces emissions at a rate of β. In addition, the pollution decays with a rate δ, then\nWe assume that the implementation of the EDCS also consumes the energy stock (S). Consumption of energy by other economic activities will also reduce the energy stock. We set the coefficients all to − 1 for simplicity, then\nFrom the above assumptions, we can get\ns.t.\nBy constructing the Hamiltonian function\nThe first-order optimization condition is that\nFrom Eqs. (2) (3) (7) (8), it follows that\nSince \\({U}_{c}>0,{U}_{P}<0,{C}{\\prime}>0,\\alpha >0,\\beta >\\text{0,0}<\\delta <1\\), the above equation holds.\nThe above equation shows that the EDCS can be most efficient when the utility generated by energy consumption is equal to the negative utility of pollution under the proportional trade-off between the EDCS and pollution attenuation.\nTherefore, we put forward the following research hypothesis:\n### H1\nThe EDCS will cause a difference between the EEL of the pilot area and the non-pilot area, and continuously improve the EEL of the pilot area.",
+            "cites": [
+                "ref-CR39",
+                "ref-CR40"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Research design",
+            "text": "### Sample selection and data sources\nThis article uses 2547-panel data from 284 prefecture-level cities from 2009 to 2017, in which the relevant data from Hong Kong, China, Macao, China, Taiwan, and Tibet are excluded. The data are mainly obtained from the Statistical Yearbook of China’s Cities, the Statistical Yearbook of China, the statistical yearbooks of each province, and the Statistical Bulletin on the National Economic and Social Development of Each Province and Municipality, which are analyzed by the hand-arranged by the authors.\nGiven that the EDCS in 2015 stipulates that the pilot provinces are Jilin, Jiangsu, Shandong, Hunan, Chongqing, Guizhou, and Yunnan, we treat the 63 cities in the pilot provinces as the experimental group, which is represented by a dummy variable with an assignment of 1, and the other cities in the non-pilot provinces are assigned a value of 0. The pilot period was started in 2015 and began to be promoted nationwide in 2018, so we set 2015–2017 as the implementation year of the EDCS, assigning a value of 1 to it, and 2009–2014 as the year before the release of the system, assigning a value of 0 to it. Finally, in order to prevent extreme outliers from interfering, all the continuous variables are subjected to the 1% Winsor.\n### Variable selection and data description\nThe primary explanatory variable in this article is the EEL (Score). Moreover, the robustness analysis replaces the EEL with PM2.5.\nControl variables, combined with Kaya41 constant equation, Grossman and Krueger42 environmental Kuznets curve, Ehrlich and Holdren43 IPAT model, the control variables selected in this study include GDP and the proportion of the secondary industry in GDP. In addition to the above variables, unlike the previous literature, this article also considers that industrial electricity consumption contributes to pollution emissions, which hurts the EEL, while the area of green space in urban parks can absorb harmful gases, which has a positive effect on the EEL. Therefore, this article includes the two variables of industrial electricity consumption and the area of green space in urban parks as the control variables. Therefore, this study includes two variables, namely, industrial electricity consumption and green space area of urban parks, as control variables.\nThe descriptive statistics of the main variables in Table 1 show that the mean value of ecological environment water is 11.1401, the standard deviation is 12.6839, the minimum value is 3.5058, the median is 7.7617, and the maximum value is 93.6743, which indicates that the performance of the EEL varies significantly among different samples.\nThe mean value of PM2.5 is 44.3702, the standard deviation is 19.3508, the minimum value is 10.3901, the median is 41.0109, and the maximum value is 93.7851, and the other explanatory variables have similar characteristics, which provide an objective basis and entry point for the relevant research on the EEL of the EDCS at a later stage.\n### Model specification\nThis study applies the DID model to assess the EDCS’s effect on sewage and its degree of influence on the EEL. Relative to traditional panel data analysis, the DID method can avoid the endogeneity problem when policy is used as an explanatory variable. The DID model can control not only the unobservable individual heterogeneity among the samples but also the influence of unobservable aggregate factors that change over time, thus obtaining an unbiased estimation of the policy effect.\nThe EDCS is identified by comparing the EEL difference before and after the policy in the pilot areas and the non-pilot areas. Based on this, we set the following benchmark regression model:\nwhere i represents cities, and t represents years. Scoreit is the explanatory variable for the EEL. Treatit is a dummy variable used to identify the pilot cities, which equals 1 if a city is in the treatment group and 0 otherwise. Postit is the time dummy variable before and after the implementation of the EDCS, which equals 0 for 2009–2014, and 1 for 215–2017. Treatit*Postit is the core explanatory variable that this study focuses on examining, and β1 is the estimated causality coefficient that we try to identify. Xit represents a series of control variables, including GDP, the proportion of the secondary industry in the GDP (Structure), industrial electricity consumption (Elect), and the area of green space in urban parks (Park). γi, λis, and provincej*yeart are the individual, time, and two-digit ISIC province fixed effects, respectively. εit is the random error term.",
+            "cites": [
+                "ref-CR43",
+                "ref-CR41",
+                "ref-CR42"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Empirical results and robustness tests",
+            "text": "### Test on policy effectiveness\n#### Benchmark findings\nTable 2 Main results on the effects of the EDCS reports the results of the benchmark model regression controlling for individual effect, time-fixed effect, and province effect (Province × Year) and introducing control variables such as GDP, the share of the secondary industry in GDP, industrial electricity consumption, and the green space area of urban parks. The explanatory variables in columns (1)–(4) are the logarithm of the EEL. Since the EEL is smaller after taking the logarithm, this study first expands the unit of the EEL by 100 times and then takes the logarithm when conducting the specific analysis. Columns (1)-(2) reflect the average treatment effect, and columns (3)-(4) reflect the dynamic impacts. From columns (1) and (2), it is found that under the influence of the EDCS, compared to the non-pilot provincial cities, the results from the average treatment effect show that the EEL in the pilot area, at the level of 1%, significantly increased.\nIn the dynamic effect, the EEL of the unit pilot area shows a meaningful influence during the implementation of the EDCS. The EEL of the unit pilot area significantly increased in 2016.\nThe regression results of the control variables show that the EEL sharply declines with the increase of the proportion of the secondary industry in GDP, showing that industrial pollution is the key concern of the EEL. Additionally, industrial thermal power consumption also hurts the ecological environment due to the production of industrial waste gas such as SO2. There is a highly positive correlation between the increase in GDP and the EEL because the regions with fast economic development in China pay more attention to the EEL, and the GDP also improves the EEL to a certain extent. The green space area of urban parks plays a positive role at the EEL, absorbing harmful gases, releasing more oxygen, and having the green island effect. Therefore, the EDCS has a dramatic benefit on the EEL of the areas in the sample.\n#### Parallel trend assumption\nThe validity of the estimation results of the DID model relies on whether the parallel trend assumption is satisfied, i.e., whether the pilot area and the control group area have similar characteristics and trends before implementing the EDCS. This study draws on the treatment of Shi and Li44, using 2015, the pilot year of the EDCS, as the base year. Then, a separate OLS-DID regression consistent with the primary regression is conducted on the explanatory variables for the first three years and the last 2 years of the base year. Eventually, there is no significant difference between the EEL of the treatment group and the control group before the EDCS in Fig. 2, and the above results indicate that the DID in this article satisfies the parallel trend assumption.\nThe dynamic effect of the parallel trend test shows that the EEL shows a rapid increase in the first year after the base year, and there is no continuous effect.\n### Endogeneity test\nDue to data limitations, omitted variables may exist, potentially introducing endogeneity into the regression analysis. To address this issue, we employ a partially linear instrumental variable model based on Double Machine Learning (DML), following Chernozhukov et al.45. The DML combines regularization techniques with multiple machine learning algorithms, enabling the automatic selection of effective control variable combinations. This approach offers significant advantages in variable processing and model estimation.\nUsing this framework, we split the sample in a 1:2 ratio and conducted regression tests. The results in Columns (1) and (2) of Table 3 reaffirm our baseline conclusions.\n### Robust analysis\n#### Alternative indicator\nIn this article, the PM2.5 is used as a proxy variable for the dependent variable to replace the EEL, which further verifies the effect of the EDCS. Where the PM2.5 data comes from the Atmospheric Composition Analysis Group of Dalhousie University, the concentration means data after matching the vector maps of prefecture-level cities through raster processing. The column (2) test results in Table 4 show that the EDCS reduces PM2.5 at the 1% significance level, indicating that the findings of this article will be strongly robust.\n#### Placebo test\nIn order to further exclude the influence of other unobservable factors and ensure that the EDCS is a causal factor at the EEL, this study conducts a placebo test by randomly assigning pilot provinces. Specifically, 1000 random samples are taken from 284 cities in all 30 provinces in the sample, from which 63 cities are randomly selected as the treatment group and assumed to have implemented the EDCS. The remaining 121 cities are used as the control group in each sample. According to the baseline model regression again, the kernel density distribution of the explained variable of the EEL (see Fig. 3) shows that most of the sampling of the estimated coefficients of t-value less than 2, P-value is greater than 10%, which means that the results of the random sampling are not significant. Therefore, it can be concluded that the result passes the placebo test and that the impact of the EDCS on the EEL in the pilot area is not driven by other unobservable factors.\n#### Propensity score matching (PSM) estimation\nDue to the use of national city samples, there are many sample differences between cities, and in order to avoid the systematic differences and the risk of estimation bias46 in DID and to try to make the experimental group and control group as similar as possible in terms of their characteristics before the policy is implemented, this study further adopts the propensity score matching difference-in-difference (PSM-DID) method to conduct a robustness test.\nTable 5 shows the regression results of the PSM sample, and the EDCS can effectively improve the EEL, which further argues for the robustness of this study’s findings.\n#### Difference-in-difference-in-differences (DDD)\nIn order to exclude the interference of other policies so as to avoid the bias of estimation results caused by other policies in pilot and non-pilot areas, this study adopts the DDD method to overcome this problem. For example, in 2013, the State Council issued the ‘National Sustainable Development Plan for Resource-based Cities (2013–2020)’, which specifies 126 resource-based cities. Therefore, it can be grouped by resource-based cities, provincial capital cities, and key cities in the province, respectively, the DID results of each sub-sample, and then the differential. Ultimately, it can effectively eliminate the interference of other policies and other favorable factors in the study and get the net effect of the EDCS. Specific approach: Set up a new variable DDD; if the pilot cities belongs to the resource cities, the provincial capital cities, or the pilot of the key cities of the province, then assign a value of 1 to it, otherwise 0.\nThe final experimental results (see Table 6) show that the EDCS effectively improves the EEL, and the estimated coefficients are all at a 1% significance level. Ultimately, it effectively supports our previous research conclusions.\n#### Robustness tests with adjusted policy timing\nWhen selecting the timing for policy implementation in DID analyses, it is standard practice to base the timing on the official announcement of pilot programs by national authorities, particularly when policies are rolled out in batches at the national level. Studies typically use the year of the national announcement as the starting point for policy impact, rather than the specific implementation dates at the local level. For example, Ren et al.16 used 2007 as the baseline year for analyzing SO2 emission trading pilots, and Peng and Zhao47 directly adopted the national pilot announcement year for their study on rural collective property rights reform, without accounting for local implementation differences.\nGiven that the EDCS in pilot regions was implemented two years after the national announcement, we account for the delay between policy announcement and actual enforcement in our robustness checks. As shown in Table 7, the results remain consistent with our baseline conclusions.\n#### Additional control variables\nTo account for potential factors influencing urban ecological quality, we include merchandise exports as a proxy for international trade and local fiscal expenditures within the general budget as a measure of local fiscal support. Even after controlling for these variables, the regression results remain robust in Table 8.\n### Heterogeneity analysis\nThe current resource development and ecological environmental protection are generally unbalanced and uncoordinated. In some areas, the intensity of resource development is high, the level of comprehensive utilization is low, and three high (high energy consumption, high pollution, high emission) projects abound, causing severe damage to the ecological environment. Resource-based cities have impacts on environmental protection policies due to differences in the level of resource endowment48, so it is of great practical significance to study the heterogeneous policy effect of the EDCS on resource-based cities and non-resource-based cities. Based on the Circular on the National Sustainable Development Plan for Resource-based Cities (2013–2020), which defines resource-based cities in China49, this article divides the sample area into two categories of resource-based and non-resource-based cities and conducts regressions by sub-sampling. The results of the analysis are reported in Table 9, where columns (1) and (2) show the policy effect of the EDCS on the EEL in resource-based cities, and columns (3) and (4) reflect the policy effect in non-resource-based cities.\nIt is easy to find that the EDCS significantly improves the EEL in resource cities. The effect on the EEL in non-resource cities is not significant, which may be due to the fact that non-resource cities have little environmental protection pressure, and the EDCS does not have a substantial impact on them.\n### Mechanism analysis\nPrevious analyses indicate that, compared to the control group, the EDCS significantly improved ecological quality in treatment regions. A natural follow-up question is: Through what channels does the EDCS influence ecological quality? This section explores this question by examining two potential pathways: Industrial structure transformation and Technological innovation.\n### Industrial structure\nThe EDCS is a form of environmental regulation that can effectively compel regions to undergo industrial transformation48. Industrial upgrading can break the “resource curse” and promote positive environmental outcomes50. As a key indicator of green development, ecological quality is influenced by industrial transformation, as demonstrated by Han et al.51, who measured the impact of industrial transformation on green development using total factor productivity. Thus, the EDCS may influence ecological quality through industrial transformation.\nTo test this pathway, we follow Gan et al.52 and use the proportion of secondary and tertiary industry output, as defined by Clark’s Law, to measure industrial structure upgrading. Our empirical design incorporates this metric to conduct mechanism tests.\nAfter controlling for these variables, the baseline regression results in Table 10, Columns (1) and (2), provide insights into the moderating effects of industrial structure. Column (1) includes an interaction term between the EDCS and industrial structure, revealing a significant positive effect on regional ecological quality. This suggests that the EDCS’s impact is a combined effect of the policy and industrial structure. Column (2) introduces an interaction term between the EDCS and industrial upgrading, which also shows a significant positive effect, indicating that the policy’s influence is further amplified through industrial upgrading.\nFigure 4 shows the nonlinear characteristics of the marginal contribution of industrial structure. The left figure shows that when the industry level is low (lnstructure1-w < 0.3), the policy effect is not significant; When the industrial upgrading reaches the threshold (lnstructure3w_ ≈ 0.4), the policy effect significantly increases, showing an accelerated growth pattern. The right figure shows that when the level of industrial upgrading is low (lnstructure2 < 1.2), the policy effect is not significant; When the industrial upgrading reaches the threshold (lnstructure2 ≈ 1.3), the policy effect significantly increases, showing an accelerated growth pattern.\n### Technological innovation\nThe EDCS can stimulate an “innovation compensation” effect11, promoting regional technological progress and thereby supporting the Porter Hypothesis. As pollution control technologies advance, they can positively influence ecological quality. Cai et al.53 used the number of patent authorizations as a measure of corporate innovation. Drawing on this approach, this study examines whether the EDCS enhances regional EEL through the lens of authorized invention patents. Specifically, we use the total number of authorized invention patents, log-transformed for analysis.\nTable 10 Column (3) shows that, after controlling for other variables, the interaction term between the EDCS and technological innovation has a significant positive effect on regional EEL. This indicates that the EDCS positively influences the EEL through innovation-driven pathways.\nFigure 5 reveals the moderating effect of technological innovation. When at a lower level of innovation (Invent = 3), the policy effect is not significant, but when innovation is at a high level, the policy effect significantly increases, showing an accelerated growth pattern.",
+            "cites": [
+                "ref-CR48",
+                "ref-CR44",
+                "ref-CR16",
+                "ref-CR47",
+                "ref-CR52",
+                "ref-CR50",
+                "ref-CR11",
+                "ref-CR45",
+                "ref-CR51",
+                "ref-CR53",
+                "ref-CR49",
+                "ref-CR46"
+            ],
+            "figures": [
+                "figure-5",
+                "figure-3",
+                "figure-4",
+                "figure-2"
+            ]
+        },
+        {
+            "title": "Conclusions and implications",
+            "text": "In the context of the pilot EDCS in 2015, this article empirically investigates the impact of the EDCS on the emission reduction effect and the EEL based on 2547-panel data of 284  cities from 2009 to 2017. After empirical analysis, this study draws the following conclusions: (1) Under the impact of the EDCS, the pilot area has an obvious EEL after implementing the pilot policy. (2) The EDCS has a dynamic effect, resulting in a rapid increase in the EEL 1 year after the base year. (3) Furthermore, the EEL is also heterogeneous: the effect of resource cities is significant, while the effect of involuntary cities is not significant. (4) Industrial structure transformation and technological innovation serve as crucial mediating variables, enabling the EDCS to significantly influence the EEL. Based on the above findings, we provide the following recommendations.\nFirstly, the sustained emission reduction effect cannot be separated from the policy effect but also requires the active participation of market players so as to achieve the combination of top-down and bottom-up, and the joint role of efficient market and active government, which will work together to explore the energy saving and consumption reduction path.\nSecondly, the impact on different types of resource cities, to form a dynamic adjustment mechanism and ultimately reach the resource cities and non-resource cities under the influence of the policy, is to realize the purpose of emissions reduction and enhance the EEL.\nFinally, it is necessary to have a professional division of labor, multi-party cooperation, integrated policies and personnel training, active assessment and timely monitoring, and other means to provide a strong guarantee for improving the EEL.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1",
+            "figure-caption": "The impact mechanism of the EDCS.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-12241-x/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2",
+            "figure-caption": "The parallel trend test of the EDCS.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-12241-x/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3",
+            "figure-caption": "The Placebo test of the EDCS.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-12241-x/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4",
+            "figure-caption": "Average marginal effect plots (structure1 and structure2).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-12241-x/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5",
+            "figure-caption": "Average marginal effect plots (invent).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-12241-x/figures/5"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Amin, A. et al. The influence of energy transition and natural resources on carbon emissions in China: An augmented ARDL application. Environ. Dev. Sustain. 1, 1–19 (2024).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20influence%20of%20energy%20transition%20and%20natural%20resources%20on%20carbon%20emissions%20in%20China%3A%20An%20augmented%20ARDL%20application&journal=Environ.%20Dev.%20Sustain.&volume=1&pages=1-19&publication_year=2024&author=Amin%2CA&author=Yusoff%2CNYBM&author=Peng%2CS"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Shi, D., Zhao, J. B. & Deng, Z. Understanding the connotation of high-quality development from three levels. Econ. Daily 09, 14 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Understanding%20the%20connotation%20of%20high-quality%20development%20from%20three%20levels&journal=Econ.%20Daily&volume=09&publication_year=2019&author=Shi%2CD&author=Zhao%2CJB&author=Deng%2CZ"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Xu, R., Murshed, M. & Li, W. Does political (de) stabilization drive clean energy transition? Polit. Ekon. 72(2), 357–374 (2024).",
+            "links": {
+                "Article": "https://doi.org/10.18267%2Fj.polek.1438",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20political%20%28de%29%20stabilization%20drive%20clean%20energy%20transition%3F&journal=Polit.%20Ekon.&doi=10.18267%2Fj.polek.1438&volume=72&issue=2&pages=357-374&publication_year=2024&author=Xu%2CR&author=Murshed%2CM&author=Li%2CW"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Wang, Q., Jiang, M. D. & Huang, Y. M. The realization path and mechanism of innovation of internalization of positive ecological externalities. China Environ. Manag. 12(06), 21–28 (2020).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXitlaltLnL",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20realization%20path%20and%20mechanism%20of%20innovation%20of%20internalization%20of%20positive%20ecological%20externalities&journal=China%20Environ.%20Manag.&volume=12&issue=06&pages=21-28&publication_year=2020&author=Wang%2CQ&author=Jiang%2CMD&author=Huang%2CYM"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Huang, D. C. & Liu, Z. B. Environmental regulation and corporate innovation—Construction of corporate competitive advantage based on porter’s hypothesis. China Ind. Econ. 03, 100–106 (2006).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20regulation%20and%20corporate%20innovation%E2%80%94Construction%20of%20corporate%20competitive%20advantage%20based%20on%20porter%E2%80%99s%20hypothesis&journal=China%20Ind.%20Econ.&volume=03&pages=100-106&publication_year=2006&author=Huang%2CDC&author=Liu%2CZB"
+            }
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Li, B., Peng, X. & Ouyang, M. K. Environmental regulation, green total factor productivity, and the transformation of China’s industrial development mode—An empirical study based on data from 36 industrial sectors. China Ind. Econ. 04, 56–68 (2013).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20regulation%2C%20green%20total%20factor%20productivity%2C%20and%20the%20transformation%20of%20China%E2%80%99s%20industrial%20development%20mode%E2%80%94An%20empirical%20study%20based%20on%20data%20from%2036%20industrial%20sectors&journal=China%20Ind.%20Econ.&volume=04&pages=56-68&publication_year=2013&author=Li%2CB&author=Peng%2CX&author=Ouyang%2CMK"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "Li, L. & Tao, F. Selection of optimal environmental regulation intensity in China’s manufacturing industry—Based on the perspective of green total factor productivity. China Ind. Econ. 05, 70–82 (2012).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Selection%20of%20optimal%20environmental%20regulation%20intensity%20in%20China%E2%80%99s%20manufacturing%20industry%E2%80%94Based%20on%20the%20perspective%20of%20green%20total%20factor%20productivity&journal=China%20Ind.%20Econ.&volume=05&pages=70-82&publication_year=2012&author=Li%2CL&author=Tao%2CF"
+            }
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Li, S. L. et al. Local government competition, environmental regulation and regional eco-efficiency. World Econ. 37(04), 88–110 (2014).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2MXovVejtr4%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Local%20government%20competition%2C%20environmental%20regulation%20and%20regional%20eco-efficiency&journal=World%20Econ.&volume=37&issue=04&pages=88-110&publication_year=2014&author=Li%2CSL"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Song, M. L. & Wang, S. H. Environmental regulation, technological progress, and economic growth. Econ. Res. 48(03), 122–134 (2013).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20regulation%2C%20technological%20progress%2C%20and%20economic%20growth&journal=Econ.%20Res.&volume=48&issue=03&pages=122-134&publication_year=2013&author=Song%2CML&author=Wang%2CSH"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Wang, J. & Liu, B. Environmental regulation and enterprise total factor productivity: An empirical analysis based on data from Chinese industrial enterprises. China Ind. Econ. 03, 44–56 (2014).",
+            "links": {
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2cXhtFOls7%2FJ",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20regulation%20and%20enterprise%20total%20factor%20productivity%3A%20An%20empirical%20analysis%20based%20on%20data%20from%20Chinese%20industrial%20enterprises&journal=China%20Ind.%20Econ.&volume=03&pages=44-56&publication_year=2014&author=Wang%2CJ&author=Liu%2CB"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Zhang, C. et al. Environmental regulation intensity and production technology progress. Econ. Res. 46(02), 113–124 (2011).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20regulation%20intensity%20and%20production%20technology%20progress&journal=Econ.%20Res.&volume=46&issue=02&pages=113-124&publication_year=2011&author=Zhang%2CC&author=Lu%2CY&author=Guo%2CL"
+            }
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Zhang, H. F., Zhou, F., Yang, H. & Guo, Q. Empirical analysis of regulatory performance in win-win environmental protection and economic development. Econ. Res. 44(03), 14–26 (2009).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Empirical%20analysis%20of%20regulatory%20performance%20in%20win-win%20environmental%20protection%20and%20economic%20development&journal=Econ.%20Res.&volume=44&issue=03&pages=14-26&publication_year=2009&author=Zhang%2CHF&author=Zhou%2CF&author=Yang%2CH&author=Guo%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "Zhao, X. B. Internalization of pollution externalities. Nankai Econ. Res. 04, 14–18 (1999).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Internalization%20of%20pollution%20externalities&journal=Nankai%20Econ.%20Res.&volume=04&pages=14-18&publication_year=1999&author=Zhao%2CXB"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Chen, S. Y. & Xie, Z. A. Preliminary study on win-win policy of economic development and environmental protection—From the pollution control incident in Linyi. China Environ. Manag. 7(04), 14–20 (2015).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Preliminary%20study%20on%20win-win%20policy%20of%20economic%20development%20and%20environmental%20protection%E2%80%94From%20the%20pollution%20control%20incident%20in%20Linyi&journal=China%20Environ.%20Manag.&volume=7&issue=04&pages=14-20&publication_year=2015&author=Chen%2CSY&author=Xie%2CZA"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Fu, J. Y., Si, X. M. & Cao, X. Impact of emission trading mechanism on green development. China Popul.-Resour. Environ. 28(08), 12–21 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20emission%20trading%20mechanism%20on%20green%20development&journal=China%20Popul.-Resour.%20Environ.&volume=28&issue=08&pages=12-21&publication_year=2018&author=Fu%2CJY&author=Si%2CXM&author=Cao%2CX"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Ren, S. G., Zheng, J. J., Liu, D. H. & Chen, X. H. Does the emission right trading mechanism improve firms’ total factor productivity-evidence from listed companies in China. China Ind. Econ. 05, 5–23 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20the%20emission%20right%20trading%20mechanism%20improve%20firms%E2%80%99%20total%20factor%20productivity-evidence%20from%20listed%20companies%20in%20China&journal=China%20Ind.%20Econ.&volume=05&pages=5-23&publication_year=2019&author=Ren%2CSG&author=Zheng%2CJJ&author=Liu%2CDH&author=Chen%2CXH"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Tu, Z. G. & Chen, R. J. Can the emissions trading mechanism realize the Porter effect in China? Econ. Res. 50(07), 160–173 (2015).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Can%20the%20emissions%20trading%20mechanism%20realize%20the%20Porter%20effect%20in%20China%3F&journal=Econ.%20Res.&volume=50&issue=07&pages=160-173&publication_year=2015&author=Tu%2CZG&author=Chen%2CRJ"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Wu, P. Z. & Wang, Q. Economic analysis of emissions trading. China Popul.-Resour. Environ. 20(S2), 55–58 (2010).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Economic%20analysis%20of%20emissions%20trading&journal=China%20Popul.-Resour.%20Environ.&volume=20&issue=S2&pages=55-58&publication_year=2010&author=Wu%2CPZ&author=Wang%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Wei, Y. H. & Gao, X. Study on the transmission mechanism and the effect of the emissions trading system on the emissions output rate. J. Soc. Sci. Jilin Univ. 62(02), 107–116 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Study%20on%20the%20transmission%20mechanism%20and%20the%20effect%20of%20the%20emissions%20trading%20system%20on%20the%20emissions%20output%20rate&journal=J.%20Soc.%20Sci.%20Jilin%20Univ.&volume=62&issue=02&pages=107-116&publication_year=2022&author=Wei%2CYH&author=Gao%2CX"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Yang, R. et al. Study on the relationship between emissions trading system, energy consumption, and industrial structure—A “quasi-natural experiment” based on resource cities. Resour. Dev. Mark. 38(03), 265–271 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Study%20on%20the%20relationship%20between%20emissions%20trading%20system%2C%20energy%20consumption%2C%20and%20industrial%20structure%E2%80%94A%20%22quasi-natural%20experiment%22%20based%20on%20resource%20cities&journal=Resour.%20Dev.%20Mark.&volume=38&issue=03&pages=265-271&publication_year=2022&author=Yang%2CR&author=Xu%2CJJ&author=Li%2CCX"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Guo, L. & Xiao, Y. Z. Does carbon emission trading pilot promote outward FDI? China Popul.-Resour. Environ. 32(01), 42–53 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20carbon%20emission%20trading%20pilot%20promote%20outward%20FDI%3F&journal=China%20Popul.-Resour.%20Environ.&volume=32&issue=01&pages=42-53&publication_year=2022&author=Guo%2CL&author=Xiao%2CYZ"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Qi, J. H. & Zhang, Z. T. Profit-driven or innovation-driven?—The emission trading mechanism and Chinese enterprises’ outward foreign direct investment. Ind. Econ. Res. 02, 15–29 (2021).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Profit-driven%20or%20innovation-driven%3F%E2%80%94The%20emission%20trading%20mechanism%20and%20Chinese%20enterprises%E2%80%99%20outward%20foreign%20direct%20investment&journal=Ind.%20Econ.%20Res.&volume=02&pages=15-29&publication_year=2021&author=Qi%2CJH&author=Zhang%2CZT"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Zhang, Y. L. & Xiang, B. W. Does China’s emission trading mechanism cause environmental inequality?—A study based on the PSM-DID method. J. China Univ. Geosci. 22(03), 67–82 (2022).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Does%20China%E2%80%99s%20emission%20trading%20mechanism%20cause%20environmental%20inequality%3F%E2%80%94A%20study%20based%20on%20the%20PSM-DID%20method&journal=J.%20China%20Univ.%20Geosci.&volume=22&issue=03&pages=67-82&publication_year=2022&author=Zhang%2CYL&author=Xiang%2CBW"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Li, S. Y., Zhu, D. K. & Chen, Z. K. A review of the theory of externalities and its internalization. China Mark. 31, 117–119 (2007).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20review%20of%20the%20theory%20of%20externalities%20and%20its%20internalization&journal=China%20Mark.&volume=31&pages=117-119&publication_year=2007&author=Li%2CSY&author=Zhu%2CDK&author=Chen%2CZK"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Yuan, L. et al. Game analysis of ecological environment damage compensation. Stat. Decis. Mak. 13, 47–51 (2017).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Game%20analysis%20of%20ecological%20environment%20damage%20compensation&journal=Stat.%20Decis.%20Mak.&volume=13&pages=47-51&publication_year=2017&author=Yuan%2CL"
+            }
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Amin, A. & Dogan, E. The role of economic policy uncertainty in the energy-environment nexus for China: Evidence from the novel dynamic simulations method. J. Environ. Manag. 292, 112865 (2021).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jenvman.2021.112865",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20economic%20policy%20uncertainty%20in%20the%20energy-environment%20nexus%20for%20China%3A%20Evidence%20from%20the%20novel%20dynamic%20simulations%20method&journal=J.%20Environ.%20Manag.&doi=10.1016%2Fj.jenvman.2021.112865&volume=292&publication_year=2021&author=Amin%2CA&author=Dogan%2CE"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Liu, Q. Compensation for ecological environment damage: Concept definition, theoretical foundation, and institutional framework. China Environ. Manag. 9(01), 98–103 (2017).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Compensation%20for%20ecological%20environment%20damage%3A%20Concept%20definition%2C%20theoretical%20foundation%2C%20and%20institutional%20framework&journal=China%20Environ.%20Manag.&volume=9&issue=01&pages=98-103&publication_year=2017&author=Liu%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Yu, F., Liu, Q. & Niu, K. Y. Discussion on the theoretical basis and implementation guarantee of ecological environment damage compensation. China Environ. Manag. 8(01), 50–53 (2016).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Discussion%20on%20the%20theoretical%20basis%20and%20implementation%20guarantee%20of%20ecological%20environment%20damage%20compensation&journal=China%20Environ.%20Manag.&volume=8&issue=01&pages=50-53&publication_year=2016&author=Yu%2CF&author=Liu%2CQ&author=Niu%2CKY"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Zhang, Z. T. & Wu, W. Y. Research on the legislation of ecological environment damage compensation in China. Environ. Prot. 46(05), 25–30 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Research%20on%20the%20legislation%20of%20ecological%20environment%20damage%20compensation%20in%20China&journal=Environ.%20Prot.&volume=46&issue=05&pages=25-30&publication_year=2018&author=Zhang%2CZT&author=Wu%2CWY"
+            }
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Liu, Q. Exploration of legal attributes of ecological environment damage compensation consultation. Environ. Prot. 46(17), 48–51 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploration%20of%20legal%20attributes%20of%20ecological%20environment%20damage%20compensation%20consultation&journal=Environ.%20Prot.&volume=46&issue=17&pages=48-51&publication_year=2018&author=Liu%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Liu, H. H. Study on the articulation of ecological environment damage compensation litigation. Law Appl. 21, 23–33 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Study%20on%20the%20articulation%20of%20ecological%20environment%20damage%20compensation%20litigation&journal=Law%20Appl.&volume=21&pages=23-33&publication_year=2019&author=Liu%2CHH"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Wang, J. On the establishment of rules for convergence between ecological environment damage compensation litigation and related litigation—Taking the case of Desida Company and the relevant jurisprudence of ecological environment damage compensation as a lesson. Environ. Prot. 46(05), 35–40 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=On%20the%20establishment%20of%20rules%20for%20convergence%20between%20ecological%20environment%20damage%20compensation%20litigation%20and%20related%20litigation%E2%80%94Taking%20the%20case%20of%20Desida%20Company%20and%20the%20relevant%20jurisprudence%20of%20ecological%20environment%20damage%20compensation%20as%20a%20lesson&journal=Environ.%20Prot.&volume=46&issue=05&pages=35-40&publication_year=2018&author=Wang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Wang, S. Y. & Li, H. Q. On the ecological environment damage compensation litigation in China. Study Pract. 11, 68–75 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=On%20the%20ecological%20environment%20damage%20compensation%20litigation%20in%20China&journal=Study%20Pract.&volume=11&pages=68-75&publication_year=2018&author=Wang%2CSY&author=Li%2CHQ"
+            }
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Gao, F. Effects of eco-environmental damage compensation system with multi-stakeholder engagements: A DSGE perspective from China. Environ. Res. Commun. 4(1), 015001 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F2515-7620%2Fac4877",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=966554",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Effects%20of%20eco-environmental%20damage%20compensation%20system%20with%20multi-stakeholder%20engagements%3A%20A%20DSGE%20perspective%20from%20China&journal=Environ.%20Res.%20Commun.&doi=10.1088%2F2515-7620%2Fac4877&volume=4&issue=1&publication_year=2022&author=Gao%2CF"
+            }
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Jing, X. D., Tian, Z., Ding, X. H., et al. Spatiotemporal characteristics and influencing factors of regional eco-environmental efficiency in China: Analysis based on a three-stage DEA model. Science and Technology Management Research 40(14), 237–246 (2020).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Cheng, J. H., Chen, J., & Li, Y.  Measurement and analysis of ecological civilization development level in China. Journal of Quantitative & Technological Economics 30(7), 36–50 (2013).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Zhou, C., Feng, X. G., & Tang, R. Coupling coordination development analysis and prediction of regional economy, ecological environment, and tourism industry: A case study of provinces along the Yangtze River Economic Belt. Economic Geography 36(3), 186–193 (2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Zuo, W., Wang, Q., Wang, W. J., et al. Research on the evaluation index and standard of regional ecological security. Geography and Territorial Research 18(1), 67–71 (2002).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Ren, H. J., Cao, P. L. & Zhang, S. Research on ecological social evaluation index system based on entropy value method—Taking the western region of China as an example. East China Econ. Manag. 28(05), 71–76 (2014).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Research%20on%20ecological%20social%20evaluation%20index%20system%20based%20on%20entropy%20value%20method%E2%80%94Taking%20the%20western%20region%20of%20China%20as%20an%20example&journal=East%20China%20Econ.%20Manag.&volume=28&issue=05&pages=71-76&publication_year=2014&author=Ren%2CHJ&author=Cao%2CPL&author=Zhang%2CS"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Forster, B. A. Optimal energy use in a polluted environment. Journal of Environmental Economics and Management 7(4), 321-333 (1980).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Kaya, Y. Impact of Carbon Dioxide Emission Control on GNP Growth: Interpretation of Proposed Scenarios (Intergovernmental Panel on Climate Change/Response Strategies Working Group, 1989).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Grossman, G. M. & Krueger, A. B. Environmental Impacts of a North American Free Trade Agreement (1991).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Ehrlich, P. R. & Holdren, J. P. Impact of population growth: Complacency concerning this component of man’s predicament is unjustified and counterproductive. Science 171(3977), 1212–1217 (1971).",
+            "links": {
+                "Article": "https://doi.org/10.1126%2Fscience.171.3977.1212",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1971Sci...171.1212E",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=5545198",
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaE3M7hs1ylsQ%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Impact%20of%20population%20growth%3A%20Complacency%20concerning%20this%20component%20of%20man%E2%80%99s%20predicament%20is%20unjustified%20and%20counterproductive&journal=Science&doi=10.1126%2Fscience.171.3977.1212&volume=171&issue=3977&pages=1212-1217&publication_year=1971&author=Ehrlich%2CPR&author=Holdren%2CJP"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Shi, D. & Li, S. L. Emissions trading system and energy utilization efficiency—Measurement and empirical evidence for prefecture-level and above cities. China Ind. Econ. 09, 5–23 (2020).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Emissions%20trading%20system%20and%20energy%20utilization%20efficiency%E2%80%94Measurement%20and%20empirical%20evidence%20for%20prefecture-level%20and%20above%20cities&journal=China%20Ind.%20Econ.&volume=09&pages=5-23&publication_year=2020&author=Shi%2CD&author=Li%2CSL"
+            }
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Chernozhukov, V., Chetverikov, D., Demirer, M., Duflo, E., Hansen, C., Newey, W., & Robins, J. Double/debiased machine learning for treatment and structural parameters. (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Liu, R. M. & Zhao, R. J. Western development: Growth drive or policy trap—A study based on PSM-DID method. China Ind. Econ. 06, 32–43 (2015).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Western%20development%3A%20Growth%20drive%20or%20policy%20trap%E2%80%94A%20study%20based%20on%20PSM-DID%20method&journal=China%20Ind.%20Econ.&volume=06&pages=32-43&publication_year=2015&author=Liu%2CRM&author=Zhao%2CRJ"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "Peng, L. Z., & Zhao, M. J.  Impact of rural collective property rights system reform on county economic development: Evidence from 1,873 counties in China. China Rural Economy  (2), 112–130 (2024). https://doi.org/10.20077/j.cnki.11-1262/f.2024.02.006.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Li, H. & Zou, Q. Research on environmental regulation, resource endowment and urban industrial transformation comparative analysis based on resource-based cities and non-resource-based cities. Econ. Res. 53(11), 182–198 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Research%20on%20environmental%20regulation%2C%20resource%20endowment%20and%20urban%20industrial%20transformation%20comparative%20analysis%20based%20on%20resource-based%20cities%20and%20non-resource-based%20cities&journal=Econ.%20Res.&volume=53&issue=11&pages=182-198&publication_year=2018&author=Li%2CH&author=Zou%2CQ"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Xue, Y. W. & Zhang, J. Scenario simulation of “resource curse” in oil and gas resource cities based on double standard classification and factor evolution. China Popul.-Resour. Environ. 29(09), 11–21 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Scenario%20simulation%20of%20%E2%80%9Cresource%20curse%E2%80%9D%20in%20oil%20and%20gas%20resource%20cities%20based%20on%20double%20standard%20classification%20and%20factor%20evolution&journal=China%20Popul.-Resour.%20Environ.&volume=29&issue=09&pages=11-21&publication_year=2019&author=Xue%2CYW&author=Zhang%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Lin, X. M., & Guan, S. Does environmental regulation promote industrial restructuring? A perspective on strategic interaction in local governments’ implementation of environmental regulations. South China Journal of Economics  (11), 99–115  (2020). https://doi.org/10.19592/j.cnki.scje.371356.",
+            "links": {}
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Han, J., Sun, Y. W., Chen, C. F., & Lan, Q. X.  Does industrial upgrading promote green growth in Chinese cities? Journal of Beijing Normal University (Social Sciences), (3), 139–151 (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR52",
+            "content": "Gan, C. H., Zheng, R. G., & Yu, D. F.  Effects of industrial structure change on economic growth and volatility in China. Economic Research Journal 46(5), 4–16, 31 (2011).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Cai, W. X., Ni, X. R., Zhao, P., & Yang, T. T. The impact of business groups on innovation output: Empirical evidence from listed manufacturing companies in China. China Industrial Economics (1), 137–155 (2019). https://doi.org/10.19581/j.cnki.ciejournal.2019.01.008.",
+            "links": {}
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "Data is provided within the manuscript or supplementary information files.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsXiaoqi WuView author publicationsSearch author on:PubMed Google ScholarYawei FengView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nXiaoqi WU wrote the main manuscript text and Yawei Feng collected and cleaned data, and wrote & revised the manuscript text.\n### Corresponding author\nCorrespondence to\n                Xiaoqi Wu.",
+            "links": {
+                "View author publications": "/search?author=Yawei%20Feng",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Yawei%20Feng",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Yawei%20Feng%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Xiaoqi Wu": "mailto:xiaoqi_wu@hotmail.com"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "### Publisher’s note\nSpringer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary Information": {
+            "content": "Supplementary Information.",
+            "links": {
+                "Supplementary Information.": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-12241-x/MediaObjects/41598_2025_12241_MOESM1_ESM.docx"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by/4.0/": "http://creativecommons.org/licenses/by/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=Assessing%20the%20impact%20of%20the%20eco-environmental%20damage%20compensation%20system&author=Xiaoqi%20Wu%20et%20al&contentID=10.1038%2Fs41598-025-12241-x&copyright=The%20Author%28s%29&publication=2045-2322&publicationDate=2025-08-19&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleWu, X., Feng, Y. Assessing the impact of the eco-environmental damage compensation system.\n                    Sci Rep 15, 30407 (2025). https://doi.org/10.1038/s41598-025-12241-xDownload citationReceived: 07 February 2025Accepted: 16 July 2025Published: 19 August 2025DOI: https://doi.org/10.1038/s41598-025-12241-xShare this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative\n                        KeywordsEco-environment damage compensation systemEcological and environmental levelResource-based citiesIndustrial structureTechnological innovation",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41598-025-12241-x?format=refman&flavour=citation",
+                "Eco-environment damage compensation system": "/search?query=Eco-environment%20damage%20compensation%20system&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Ecological and environmental level": "/search?query=Ecological%20and%20environmental%20level&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Resource-based cities": "/search?query=Resource-based%20cities&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Industrial structure": "/search?query=Industrial%20structure&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Technological innovation": "/search?query=Technological%20innovation&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\""
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "Assessing the impact of the eco-environmental damage compensation system",
+                "description": "The high-quality development path of ecological priority and green energy efficiency should be unswervingly followed. Therefore, exploring the ecological and environmental level (EEL) is an urgent and essential matter for sustainable development. This research aims to estimate how the eco-environmental damage compensation system (EDCS) affects the EEL in China. The framework is based on panel data collected from 284 cities at the prefecture level in China. The Differences-in-Differences (DID) method is employed to examine the influence and spillover effect. Findings provide evidence that the EDCS significantly improves the EEL. Therefore, this study primarily examines whether and how the EDCS impacts the EEL. Further, the ecological environment level of resource-based cities is drastically different from that of non-resource-based cities under the impact of the EDCS. Mechanistic analyses demonstrate that the EDCS is conducive to upgrading of industrial structure and technological innovation, which in turn promotes regional EEL. Based on the findings of the analyses, it can be argued that policymakers and market participants should work together to address environmental issues, combining top-down and bottom-up approaches. Ultimately, efficient markets and responsive governments work together. The policy should form a dynamic adjustment mechanism for different resource cities to realize the purpose of emissions reduction and enhance the EEL.",
+                "datePublished": "2025-08-19T00:00:00Z",
+                "dateModified": "2025-08-19T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "15",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "sameAs": "https://doi.org/10.1038/s41598-025-12241-x",
+                "keywords": [
+                    "Climate-change mitigation",
+                    "Climate-change policy",
+                    "Environmental sciences",
+                    "Environmental social sciences",
+                    "Eco-environment damage compensation system",
+                    "Ecological and environmental level",
+                    "Resource-based cities",
+                    "Industrial structure",
+                    "Technological innovation",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-12241-x/MediaObjects/41598_2025_12241_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-12241-x/MediaObjects/41598_2025_12241_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-12241-x/MediaObjects/41598_2025_12241_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-12241-x/MediaObjects/41598_2025_12241_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-12241-x/MediaObjects/41598_2025_12241_Fig5_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Scientific Reports",
+                    "issn": [
+                        "2045-2322"
+                    ],
+                    "volumeNumber": "15",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Xiaoqi Wu",
+                        "affiliation": [
+                            {
+                                "name": "Northwest University",
+                                "address": {
+                                    "name": "School of Economics and Management, Northwest University, Xi’an, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "xiaoqi_wu@hotmail.com",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yawei Feng",
+                        "affiliation": [
+                            {
+                                "name": "XAUAT Engineering Technology Co., Ltd",
+                                "address": {
+                                    "name": "XAUAT Engineering Technology Co., Ltd, Xi’an, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "climate-change-mitigation;climate-change-policy;environmental-sciences;environmental-social-sciences",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Scientific Reports",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41598-025-12241-x"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Xiaoqi Wu",
+                            "Yawei Feng"
+                        ],
+                        "publishedAt": 1755561600,
+                        "publishedAtString": "2025-08-19",
+                        "title": "Assessing the impact of the eco-environmental damage compensation system",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Climate-change mitigation,Climate-change policy,Environmental sciences,Environmental social sciences"
+                    },
+                    "journal": {
+                        "pcode": "srep",
+                        "title": "scientific reports",
+                        "volume": "15",
+                        "issue": "1",
+                        "id": 41598,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "SG",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "Assessing the impact of the eco-environmental damage compensation system",
+            "dc.source": "Scientific Reports 2025 15:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-08-19",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "The high-quality development path of ecological priority and green energy efficiency should be unswervingly followed. Therefore, exploring the ecological and environmental level (EEL) is an urgent and essential matter for sustainable development. This research aims to estimate how the eco-environmental damage compensation system (EDCS) affects the EEL in China. The framework is based on panel data collected from 284 cities at the prefecture level in China. The Differences-in-Differences (DID) method is employed to examine the influence and spillover effect. Findings provide evidence that the EDCS significantly improves the EEL. Therefore, this study primarily examines whether and how the EDCS impacts the EEL. Further, the ecological environment level of resource-based cities is drastically different from that of non-resource-based cities under the impact of the EDCS. Mechanistic analyses demonstrate that the EDCS is conducive to upgrading of industrial structure and technological innovation, which in turn promotes regional EEL. Based on the findings of the analyses, it can be argued that policymakers and market participants should work together to address environmental issues, combining top-down and bottom-up approaches. Ultimately, efficient markets and responsive governments work together. The policy should form a dynamic adjustment mechanism for different resource cities to realize the purpose of emissions reduction and enhance the EEL.",
+            "dc.identifier": "doi:10.1038/s41598-025-12241-x",
+            "dc.creator": "Feng, Yawei",
+            "dc.subject": "Environmental social sciences",
+            "prism.issn": "2045-2322",
+            "prism.publicationName": "Scientific Reports",
+            "prism.publicationDate": "2025-08-19",
+            "prism.volume": "15",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "15",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41598-025-12241-x",
+            "prism.doi": "doi:10.1038/s41598-025-12241-x",
+            "citation_pdf_url": "https://www.nature.com/articles/s41598-025-12241-x.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41598-025-12241-x",
+            "citation_journal_title": "Scientific Reports",
+            "citation_journal_abbrev": "Sci Rep",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2045-2322",
+            "citation_title": "Assessing the impact of the eco-environmental damage compensation system",
+            "citation_volume": "15",
+            "citation_issue": "1",
+            "citation_online_date": "2025/08/19",
+            "citation_firstpage": "1",
+            "citation_lastpage": "15",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41598-025-12241-x",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41598-025-12241-x&api_key=",
+            "citation_reference": "Cai, W. X., Ni, X. R., Zhao, P., & Yang, T. T. The impact of business groups on innovation output: Empirical evidence from listed manufacturing companies in China. China Industrial Economics (1), 137–155 (2019). \n                  https://doi.org/10.19581/j.cnki.ciejournal.2019.01.008\n                  \n                .",
+            "citation_author": "Feng, Yawei",
+            "citation_author_institution": "XAUAT Engineering Technology Co., Ltd, Xi’an, China",
+            "description": "The high-quality development path of ecological priority and green energy efficiency should be unswervingly followed. Therefore, exploring the ecological and environmental level (EEL) is an urgent and essential matter for sustainable development. This research aims to estimate how the eco-environmental damage compensation system (EDCS) affects the EEL in China. The framework is based on panel data collected from 284 cities at the prefecture level in China. The Differences-in-Differences (DID) method is employed to examine the influence and spillover effect. Findings provide evidence that the EDCS significantly improves the EEL. Therefore, this study primarily examines whether and how the EDCS impacts the EEL. Further, the ecological environment level of resource-based cities is drastically different from that of non-resource-based cities under the impact of the EDCS. Mechanistic analyses demonstrate that the EDCS is conducive to upgrading of industrial structure and technological innovation, which in turn promotes regional EEL. Based on the findings of the analyses, it can be argued that policymakers and market participants should work together to address environmental issues, combining top-down and bottom-up approaches. Ultimately, efficient markets and responsive governments work together. The policy should form a dynamic adjustment mechanism for different resource cities to realize the purpose of emissions reduction and enhance the EEL.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "Assessing the impact of the eco-environmental damage compensation system",
+            "twitter:description": "Scientific Reports - Assessing the impact of the eco-environmental damage compensation system",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-025-12241-x/MediaObjects/41598_2025_12241_Fig1_HTML.png",
+            "DOI": "10.1038/s41598-025-12241-x",
+            "size": "217553",
+            "journal_id": "41598"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41598-025-12241-x",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": "s41598-017-06141-y",
+    "title": "Greenhouse gas emissions as a result of spectators travelling to football in England",
+    "journal": "Scientific Reports",
+    "pdf_link": "https://www.nature.com/articles/s41598-017-06141-y",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Football spectator travel questionnaire dataset collected by the authors",
+            "Data_summary": "Primary survey responses from football spectators covering demographics, travel mode, travel distance to and from matches, car occupancy and match attendance frequency. These responses are used to compute per-spectator travel emissions and compare emissions across eight English football tiers and between home versus away match travel.",
+            "Category": "Health and wellbeing data (hospitalization, surveys)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: A questionnaire was used to examine travel GHG emissions of football spectators and extrapolated to national level, Location: Methodology, Confidence: high",
+            "Time_Coverage": "2012-02 to 2013-03",
+            "Geographic_Coverage": "United Kingdom > England > Essex",
+            "URL": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-017-06141-y/MediaObjects/41598_2017_6141_MOESM1_ESM.doc",
+            "ref": []
+        },
+        {
+            "Data_Name": "UK government GHG conversion factors for company reporting (DEFRA DECC 2012 conversion factors methodology paper)",
+            "Data_summary": "Official emission factor tables for different passenger travel modes used to convert travel distance into greenhouse gas emissions, supporting estimation of CO2e for spectator trips based on reported travel distance and mode.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The GHG emissions were calculated using the distance travelled to and from games, mode of travel and Defras greenhouse gas conversion factors20, Location: Methodology, Confidence: high",
+            "Time_Coverage": "2012",
+            "Geographic_Coverage": "United Kingdom",
+            "URL": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/69554/pb13773-ghg-conversion-factors-2012.pdf",
+            "ref": [
+                "ref-CR20"
+            ]
+        },
+        {
+            "Data_Name": "Football match attendance tables from Isthmian League website",
+            "Data_summary": "Published attendance statistics for football matches used as an input to obtain annual spectator counts by tier for scaling survey-derived per-spectator emissions to estimated total emissions at tier and national levels.",
+            "Category": "Socioeconomic activities (consumption, employment, commerce)",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: In 2012, over 60 million spectators from tiers 1 to 11 watched football in England6, 7, Location: Introduction, Confidence: medium",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "United Kingdom > England",
+            "URL": "http://www.isthmian.co.uk/match-info/attendance-tables",
+            "ref": [
+                "ref-CR7"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:01.168714"
+    }
+}

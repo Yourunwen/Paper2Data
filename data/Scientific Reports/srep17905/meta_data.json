@@ -1,0 +1,97 @@
+{
+    "id": "srep17905",
+    "title": "Impacts of impervious surface expansion on soil organic carbon – a spatially explicit study",
+    "journal": "Scientific Reports",
+    "pdf_link": "https://www.nature.com/articles/srep17905",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "Urumqi impervious surface and pervious surface soil pit measurements 2013",
+            "Data_summary": "Field measurements of urban soil physical and chemical properties from paired sampling plots under impervious surface areas and adjacent pervious open areas. Data include soil bulk density and soil organic carbon content measured by depth increments down to 80 cm and used to compute soil organic carbon density for impervious and pervious soils, analyze vertical and horizontal gradients, and parameterize SOC density values assigned to impervious and green space pixels in spatial SOC stock mapping.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: soil samples under impervious surfaces were collected from 11 excavation sites across Urumqi in March 2013 and we measured the BD and SOCC in each soil layer then calculated the SOCD, Location: Methods Soil pit sampling method, Confidence: high",
+            "Time_Coverage": "2013-03",
+            "Geographic_Coverage": "China > Xinjiang > Urumqi",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Landsat TM imagery for Urumqi metropolitan area 1990 and 2010",
+            "Data_summary": "Satellite multispectral imagery used to derive impervious surface area and land cover classification. Two cloud free Landsat TM scenes were geometrically and radiometrically corrected and atmospherically corrected, then analyzed with linear spectral mixture analysis and decision tree classification to produce 30 m land cover maps for 1990 and 2010 and to quantify impervious surface expansion and its impacts on soil organic carbon storage.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Cloud free Landsat TM images acquired September 1990 and August 2010 were selected to classify five major land cover types, Location: Methods Mapping ISA in 1990 and 2010 from Landsat TM Imagery, Confidence: high",
+            "Time_Coverage": "1990-09 to 2010-08",
+            "Geographic_Coverage": "China > Xinjiang > Urumqi metropolitan area",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "China 1 to 1 000 000 land use cover map used to define Urumqi metropolitan boundary and separate cropland vs green space",
+            "Data_summary": "National scale land use and land cover map product used to define the study metropolitan boundary for Urumqi and to help distinguish cropland from urban green spaces during land cover map production and post classification processing.",
+            "Category": "Building footprints and land use maps",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The boundary of the Urumqi metropolitan area was defined according to the 1:1 000 000 land use cover map of China and the map was used to separate the cropland from the urban green spaces, Location: Methods Mapping ISA in 1990 and 2010 from Landsat TM Imagery, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Xinjiang > Urumqi",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "WorldView very high resolution imagery over Urumqi acquired in 2010",
+            "Data_summary": "Very high spatial resolution satellite images used as reference data to select training samples, visually interpret land cover classes, and generate random accuracy assessment points for the 2010 30 m land cover classification.",
+            "Category": "Satellite remote sensing imagery (optical, SAR, night lights)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The training samples were selected through visual interpretation of 0.3 m resolution Worldview Images acquired in 2010, Location: Methods Mapping ISA in 1990 and 2010 from Landsat TM Imagery, Confidence: high",
+            "Time_Coverage": "2010",
+            "Geographic_Coverage": "China > Xinjiang > Urumqi",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "High resolution aerial photographs over Urumqi acquired in 1990",
+            "Data_summary": "High resolution aerial photos used as historical reference data to select training samples and conduct visual interpretation and accuracy assessment for the 1990 30 m land cover classification and also later used for visually interpreting land use types for adjusting impervious soil carbon where soils were removed by construction.",
+            "Category": "Aerial and drone imagery",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The training samples were selected through visual interpretation of 0.25 m resolution aerial photos acquired in 1990 over Urumqi, Location: Methods Mapping ISA in 1990 and 2010 from Landsat TM Imagery, Confidence: high",
+            "Time_Coverage": "1990",
+            "Geographic_Coverage": "China > Xinjiang > Urumqi",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Regional soil organic carbon density values for desert shrubland and northern Tianshan croplands from reference study",
+            "Data_summary": "Published regional soil organic carbon density statistics used to assign SOC density values to non urban land cover types during SOC stock mapping. Includes mean organic carbon density for desert or shrubland soils in the study region and mean SOC density for northern Tianshan croplands, both applied as fixed values to corresponding pixels in the 1990 and 2010 land cover maps.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The mean organic carbon density of the desert shrubland soils in the study region was 6.14 plus minus 0.88 kg C m-2 and the SOCD of croplands was assigned 9.94 plus minus 0.56 kg C m-2, Location: Methods Assessing the impacts of ISA expansion from 1990 to 2010 on the SOC stock, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Xinjiang > Northern Tianshan region",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Interpreted land use map of Urumqi derived from high resolution aerial photos and WorldView imagery",
+            "Data_summary": "A land use classification layer created by manual visual interpretation and expert knowledge from high resolution aerial photos and WorldView images. The map distinguishes 11 land use types and is used to estimate, by land use class, the proportion of impervious areas where soils were completely removed due to basements or underground parking, enabling adjustment of impervious surface SOC density at the pixel level.",
+            "Category": "Administrative boundaries and zoning maps",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: we first developed a land-use map of Urumqi from high-resolution aerial photos and the Worldview Images by visual interpretation and expert knowledge, Location: Methods Assessing the impacts of ISA expansion from 1990 to 2010 on the SOC stock, Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Xinjiang > Urumqi",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:34.165351"
+    }
+}

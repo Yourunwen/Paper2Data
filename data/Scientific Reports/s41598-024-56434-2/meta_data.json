@@ -1,0 +1,65 @@
+{
+    "id": "s41598-024-56434-2",
+    "title": "Determinants and their spatial heterogeneity of carbon emissions in resource-based cities, China",
+    "journal": "Scientific Reports",
+    "pdf_link": "https://www.nature.com/articles/s41598-024-56434-2",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "CEADs county-level CO2 emissions and sequestration in China 1997 to 2017",
+            "Data_summary": "A China-wide dataset providing county-level carbon dioxide emissions estimates computed under a consumption-based accounting approach. The study aggregates these county values up to the prefecture level to build the dependent variable carbon emissions time series for resource-based cities and then analyzes spatial autocorrelation and regression relationships with socioeconomic drivers.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [
+                34
+            ],
+            "Other_Information": "Evidence: The prefecture-level carbon emissions data spanning from 1997 to 2017 were compiled by consolidating county-level data extracted from the CEADs database34; Location: Methodology Data resource; Confidence: high",
+            "Time_Coverage": "1997-2017",
+            "Geographic_Coverage": "China nationwide aggregated to 113 prefecture-level resource-based cities",
+            "URL": "N/A",
+            "ref": [
+                "ref-CR34"
+            ]
+        },
+        {
+            "Data_Name": "China Urban Statistical Yearbook city statistics",
+            "Data_summary": "Official city statistical yearbook tables used to obtain prefecture-level socioeconomic and employment variables, including permanent population, per capita GDP, number of miners, and numbers of workers in the primary, secondary, and tertiary industries. These inputs are used to construct model covariates such as population size, economic development level, and the proportion of resource-based industries.",
+            "Category": "Statistical yearbooks and socioeconomic indicators",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data on the permanent population, per capita gross domestic product, the number of miners, and the number of workers in the first, second, and third industries were compiled from China's Urban Statistical Yearbook; Location: Methodology Data resource; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > 113 prefecture-level resource-based cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "City-level Statistical Bulletins on National Economic and Social Development",
+            "Data_summary": "City government statistical bulletins reporting local economic and social indicators. The study uses these bulletins to fill missing values for city-level variables needed for the regression analysis when yearbook data are incomplete.",
+            "Category": "Government reports and planning documents",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Statistical Bulletins on National Economic and Social Development from various cities were adopted to supplement the missing data; Location: Methodology Data resource; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > multiple prefecture-level cities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from Data availability upon request",
+            "Data_summary": "The authors state that the datasets generated and or analyzed in the study can be obtained from the corresponding author upon reasonable request, indicating a non-public distribution channel for the compiled analysis dataset used in the paper.",
+            "Category": "null",
+            "Need_Author_Contact": true,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The datasets generated during and or analysed during the current study are available from the corresponding author on reasonable request; Location: Extra info Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "N/A",
+            "ref": []
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:08.589863"
+    }
+}

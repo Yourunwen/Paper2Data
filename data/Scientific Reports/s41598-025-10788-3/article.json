@@ -1,0 +1,963 @@
+{
+    "id": "s41598-025-10788-3",
+    "journal": "Scientific Reports",
+    "type": "article",
+    "title": "The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree",
+    "legal_title": "The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree",
+    "publish_time": "2025-07-17",
+    "pdf_link": "https://www.nature.com/articles/s41598-025-10788-3",
+    "storage_path": "./Articles/Scientific Reports/2025-article/s41598-025-10788-3/",
+    "open_access": true,
+    "crawl_flag": true,
+    "have_review": false,
+    "review_link": null,
+    "Abstract": "Bicycles, as a flexible, convenient, and low-carbon mode of transportation, possess significant advantages in short-distance travel. Linear and generalized linear models have been widely employed for modeling in previous studies, while the nonlinear relationship between the built environment and cycling behavior has received scant attention. Consequently, this paper delves into the significance of individual and family socio-economic attributes, travel characteristics, and built environment attributes regarding bicycle choice behavior, as well as the nonlinear relationship and threshold effect between the principal variable and the propensity for bicycle choice for two distinct travel purposes, based on the data from the 2018 Daily Trip Survey in Xianyang, China. The results reveal that: (1) The prediction accuracies of the cycling choice models for compulsory and discretionary trips were 89% and 80%, respectively. (2) The built environment exerts a more substantial impact on the two travel purposes, with the impact of compulsory trips being notably greater than that of discretionary trips. The relative importance of variables encompasses the proportion of non-vehicle isolation belts, the non-motor lane parking ratio, population density, distance from the center, and POI diversity, among others. (3) In the two travel activities, the relationships between the main variables and threshold effects vary. These findings offer policy implications for implementing differential interventions to promote bicycle usage in cities.",
+    "Sections": [
+        {
+            "title": "Introduction",
+            "text": "Low-carbon city construction has emerged as the aspiration of countries and regions across the globe. The question of how to direct travel demand via effective urban spatial planning and encourage low-carbon travel has turned into a prominent issue within the domain of urban transportation planning. Non-motorized travel accounts for a significant portion in people’s short-distance excursions. Particularly in small and medium-sized cities, non-motor vehicles have become the favored means of transportation among residents, owing to the relatively small size of the city and the short travel distances. Cycling is environmentally, socially, and economically sustainable and has garnered extensive attention in recent years1,2,3,4. How to effectively promote bicycle travel merits our in-depth exploration.\nThe extant research has predominantly centered on factors such as socio-economic attributes like gender, income, occupation, and vehicle ownership, as well as travel characteristics including travel intensity, purpose, mode, time interval, and distance5,6,7,8. Previous investigations have demonstrated that the built environment can serve as a crucial predictor of non-motorized travels9,10,11,12. Moreover, the social environment, which encompasses an individual’s living and working environments as well as community characteristics, also has a significant impact on the choice of travel modes13.\nIn the two decades following the publication of the cross-sectional study that established a positive correlation between cycling infrastructure and cycling rate, the quantity of studies endeavoring to identify and appraise the key determinants of the cycling environment has surged remarkably14,15,16,17,18,19. Land use diversity, density, and street network characteristics are commonly regarded as the principal dimensions of the built environment20,21. A cross-sectional study utilizing data from ten countries ascertained that certain objectively measured building environmental attributes, such as land use mix, street connectivity, and residential density, were related to the cycling rate22. A study carried out in the UK revealed that the perceived street connectivity was associated with cycling23. Bicycle travel was correlated with enhanced street connectivity and destination accessibility. Bicycle infrastructure, high intersection density, and diversified land use were positively correlated with non-motorized travel22,24. Cervero et al. probed into the relationship between microscale factors or environmental aesthetics, such as greenery and trees, benches and street lights, appealing buildings and landscapes, and cycling frequencies25.\nRelated research has indicated that cycling safety is one of the principal factors impeding bicycle usage. Enhancing safety measures for bicycles, such as installing non-isolated facilities, represents an effective approach to increasing the proportion of bicycle utilization. Moreover, the majority of previous studies have suggested the existence of a linear relationship between the built environment and bicycle usage. An international study, which employed comprehensive data from ten countries, detected a linear correlation between built environment attributes and cycling22. Cervero employed a multivariate model to investigate the relationship between commuter cycling frequency and its influencing factors in 36 towns across the UK. The findings demonstrated a linear association between the bicycle network, land-use diversity, landscape facilities, urban bicycle culture, and cycling frequency26. Rybarczyk et al. constructed a discrete choice model of urban morphology regarding residents’ actual bicycle mode selection. The results revealed that micro-scale architectural forms and well-connected networks have a significant impact on the bicycle mode27. However, it is possible that these relationships are not strictly linear; there might be distinct “thresholds” above or below which the gradients vary. Merely a few studies have delved into the nonlinear relationship between cycling and the built environment22,28. An Australian study uncovered a nonlinear relationship between residential density and cycling frequency29. A survey conducted in Queensland exhibited a nonlinear relationship between cycling frequency and residential density as well as the network18,28.\nThe remainder of this study is organized as follows: Section\"Methodology\"elaborates on the methodology adopted in this study. Section\"Study area and variable selection\"presents the research area, performs the screening of characteristic variables and multicollinearity analysis. Section\"Result\"displays the research results. Based on the evaluation indices and prediction results of various models, the most effective model in the prediction field is selected. And with this model, further exploration is carried out on the mechanism and impact effect of each characteristic variable on bicycle choice behavior under different travel purposes. The research conclusions, implications, limitations, and potential future research directions are analyzed and discussed in Section\"Discussion\".",
+            "cites": [
+                "ref-CR12",
+                "ref-CR14",
+                "ref-CR28",
+                "ref-CR23",
+                "ref-CR10",
+                "ref-CR18",
+                "ref-CR8",
+                "ref-CR29",
+                "ref-CR9",
+                "ref-CR27",
+                "ref-CR4",
+                "ref-CR6",
+                "ref-CR7",
+                "ref-CR1",
+                "ref-CR3",
+                "ref-CR2",
+                "ref-CR22",
+                "ref-CR11",
+                "ref-CR19",
+                "ref-CR21",
+                "ref-CR15",
+                "ref-CR17",
+                "ref-CR26",
+                "ref-CR20",
+                "ref-CR25",
+                "ref-CR5",
+                "ref-CR24",
+                "ref-CR16",
+                "ref-CR13"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Methodology",
+            "text": "Machine learning classification algorithms mainly include single classification algorithms such as decision tree, K-Nearest Neighbor (KNN), and Logistics regression, and ensemble classification algorithms mainly include AdaBoost (Adaptive Boost) algorithm model, GBDT algorithm model, XGBoost, and RF algorithm model. The basic theories of these four models are introduced as follows.\n### Machine learning model\n#### Logistics regression model\nThe Logistic Regression model, which falls under the category of Generalized Linear Models (GLM), employs the sigmoid function to transform the results of linear regression, thereby confining them within the range of [0, 1]. This characteristic renders it a quintessentially classic binary classification model. It exhibits several remarkable advantages, including simplicity in structure, rapid computational efficiency, and high interpretability. Notably, it enables the derivation of the weights associated with various features, which in turn streamlines the analysis of the influence exerted by each independent variable on the dependent variable. Logistic Regression is designed to model the probability of an outcome by taking into account individual characteristics. Specifically, it is a Generalized Linear Model that utilizes the Sigmoid function as the link function. Its general form is presented in Eq. 1:\nAmong them, \\({x}_{1},{x}_{2},\\cdots {x}_{m}\\) are the predictor variables, \\({\\beta }_{0}\\) is a constant, and \\({\\beta }_{1},{\\beta }_{2},\\cdots {\\beta }_{m}\\) are the regression coefficients of the \\(\\text{m}\\) predictor variables.\nAfter a simple transformation of Eq. 1, the probability \\(\\text{P}\\) of the prediction result can be obtained as shown in Eq. 2.\nLogistic regression is represented by the conditional probability \\(P\\left(Y/X\\right)\\). Here, the values of each dimension of the vector \\(X\\) are all real numbers, and the random variable \\(Y\\) takes the values of either 1 or 0. The model parameters are estimated through the method of supervised learning, and its conditional probabilities are shown in Eqs. 3 and 4.\nIn the formula, \\(x\\in {R}^{m}\\) represents the input vector, where \\(m\\) is the dimension of the vector space; \\(Y\\in \\left\\{\\text{0,1}\\right\\}\\) is the output; and \\(\\omega \\in {R}^{m}\\) is the weight vector.\n#### Random forest\nRandom forest (RF) is an ensemble machine learning algorithm proposed by Breiman in 2000. It has been widely applied in classification and regression prediction. Each tree in the ensemble grows according to random parameters, and the final prediction is obtained through the ensemble. Since the basic components of the ensemble are tree-structured predictors and each tree is constructed using random injection, these processes are thus referred to as“Random Forest”.\nIn 2001, Leo Breiman defined the random forest as follows: A random forest is a collection of classifier ensembles composed of multiple decision tree classifiers \\(\\left\\{h\\left(x,{\\Theta }_{k}\\right),k=1,\\dots \\right\\}\\), where \\(\\left\\{{\\Theta }_{k}\\right\\}\\) are independent and identically distributed random vectors, and each tree casts a vote for the most favored class to which the input vector x belongs.\nIn the model, each tree is grown on the basis of a training sample set and a random variable. The random variable corresponding to the \\(k-th\\) tree is denoted as \\({\\Theta }_{k}\\). Any two random variables are independent and identically distributed, thus obtaining the classifier \\(h\\left(x,{\\Theta }_{k}\\right)\\), where \\(x\\) is the input vector. After \\(k\\) runs, a sequence of classifiers \\({h}_{1}\\left(x\\right),{h}_{2}\\left(x\\right),\\dots {h}_{k}\\left(x\\right)\\) is obtained, which forms a multi-classification model system. The final classification result is determined by the simple majority voting method, and the decision function is shown in Eq. 5.\nAmong them, \\(H\\left(x\\right)\\) is the combined classification model, \\({h}_{i}\\) is the individual decision tree model, \\(Y\\) is the output variable, and \\(I\\left(\\cdot\\right)\\) is the indicator function.\n#### Gradient boosting decision tree\nGradient boosting is part of the Boosting algorithm family and uses CART (Classification and Regression Tree) decision trees as the structure of weak classifiers. GBDT (Gradient Boosting Decision Tree) is an integrated machine learning algorithm that employs multiple decision trees as base learners. Each decision tree is not independent. The residuals of the previous decision tree are taken as the input for the next decision tree, and the added decision tree is utilized to reduce the residuals, so that the loss in each iteration decreases along the negative gradient direction. The prediction result is determined according to the sum of the results of all decision trees30.\nLet \\({\\left({x}_{i},{y}_{i}\\right)}^{m}\\) denote the sample data, where \\({\\left({x}_{i},{y}_{i}\\right)}^{m}\\) represents the indicators and \\({y}_{i}\\) represents the labels. The specific steps of the GBDT algorithm are as follows31:\nStep 1: Initialize a learner. The calculation of the initial learner is shown in Eq. 6.\n\\(L\\left({y}_{i},\\gamma \\right)\\) is the loss function.\nStep 2: The calculation of the residuals along the gradient direction is shown in Eq. 7.\nStep 3: Obtain the initial model \\(T\\left({x}_{i};{\\alpha }_{n}\\right)\\) by fitting the sample data, and calculate the parameter \\({\\alpha }_{n}\\) using the least squares method as shown in Eq. 8.\nStep 4: Minimize the loss function to obtain the current model weights as shown in Eq. 9.\nStep 5: Update the model as shown in Eq. 10.\nThis loop will continue to execute until the specified number of iterations is reached or the convergence conditions are met.\n#### Extreme gradient boosting decision tree\nExtreme Gradient Boosting Decision Tree (XGBoost) is an ensemble learning model that is optimized by improved the traditional gradient boosting decision tree algorithm32. XGBoost was first proposed by Chen et al.33. The algorithms has high second derivative accuracy, fast parallel speed and supports classification, regression and feature sorting. The XGBoost algorithm is a tree-based Boosting algorithm, which generates a weak learner at each step and accumulates it into the overall model34. The XGBoost algorithm realizes the generation of weak learners by optimizing the structured loss function (adding the loss function of the regularization term to reduce the risk of overfitting).\n#### Objective function\nSet dataset \\(\\mathcal{D}=\\left\\{\\left({x}_{i},{y}_{i}\\right): i=1\\cdots n,{x}_{i}\\in {R}^{m},{y}_{i}\\in R\\right\\},\\) Then we get n observations, each with m features and a corresponding variable y. Define the output result as Eq. 11:\nIn the above formula, \\({f}_{k}\\) is the regression tree, and \\({f}_{k}\\left({x}_{i}\\right)\\) represents the score of the \\(k\\text{th}\\) tree in the data for the \\(i\\text{th}\\) observation. To minimize function \\({f}_{k}\\), the following Eq. 12 is the regularization objective function:\n\\(l\\) is the loss function. To prevent the model from being too complex, a penalty term \\(\\Omega\\) is introduced as Eq. 13:\nwhere \\(\\gamma\\) and \\(\\lambda\\) are the penalty parameters for controlling the leaf number \\(T\\) and the leaf weight \\(w\\), respectively. The purpose of \\(\\Omega \\left({f}_{k}\\right)\\) is to prevent overfitting and simplify the model generated by the algorithm35.\n#### Iterative method\nThe minimum value of the objective function is obtained by iterative method. The objective function for \\(j\\text{th}\\) iteration is as Eq. 14:\nThe above function can be simplified by Taylor expansion. After splitting the tree from a given node, the loss reduction formula can be obtained as Eq. 15:\nwhere \\(I\\) is a subset of available observations in the current node, \\({I}_{L}\\), \\({I}_{R}\\) is a subset of available observations in the split left and right nodes after splitting. Function \\({\\text{g}}_{i}\\) and \\({\\text{h}}_{i}\\) are defined as Eq. 16 and Eq. 17:\nThe optimal partition of any given node can be found from the Formula \\({I}_{split}\\), this formula only depends on the loss function and the regularization parameter \\(y\\). This algorithm can optimize any loss function that can provide first-order and second-order gradients. There are three reasons why XGBoost performs better than other tree boosting methods: (1) The algorithm introduces regularization loss function; (2) The weight of each new tree can be scaled down according to a given constant η, thereby reducing the effect of a single tree on the final score; (3) Column sampling works similarly to random forests. The algorithm is implemented in the ‘ xgboost ‘ package of the Python language and provided by the creator of the algorithm.\n### Model evaluation metrics\nOnly when the prediction results are accurate and the generalization error is relatively small can the model be considered applicable to the research of this problem and have a good performance. For classification problems, there are numerous model evaluation metrics, such as the confusion matrix, accuracy, error rate, F1 score, etc. Besides, many other indicators can also be used to characterize the quality of a model, for example, the running time of the program. In combination with the research content of this chapter and the characteristics of the data used, accuracy, precision, recall, F1 score, and the ROC (Receiver Operating Characteristic curve) curve are selected to evaluate the performance of the model. The value range of each evaluation indicator is within [0, 1], and the closer the value is to 1, the more accurate the model is. The above evaluation indicators can be calculated through the confusion matrix. The confusion matrix for the binary classification problem is shown in (Table 1) as follows:\nIn the table, TP represents the number of positive examples that are judged as positive examples, FP represents the number of negative examples that are judged as positive examples, FN represents the number of positive examples that are judged as negative examples, and TN represents the number of negative examples that are judged as negative examples.\nAccuracy indicates the proportion of the number of correctly classified samples to the total number of samples for the given data, and it is calculated as shown in Eq. 18:\nPrecision refers to the proportion of samples that are predicted as positive examples and are actually positive examples among the samples predicted as positive examples. It reflects the precision of the model in predicting positive samples. The higher the precision, the stronger the model’s ability to predict positive samples. Specifically, it is calculated as shown in Eq. 19.\nRecall is a measure of coverage, which refers to the proportion of actual occurrences that are predicted to occur. It reflects the model’s recall ability for the actual positive examples. The higher the recall, the stronger the model’s prediction ability for the actual positive example samples. Specifically, it is calculated as shown in Eq. 20.\nSince the two metrics of precision and recall often vary inversely, as the threshold is continuously decreased, the model will have a lower precision and a higher recall. The comprehensive evaluation metric, the F1 score, is the harmonic mean of precision and recall, and different weights can be assigned to precision and recall. It is calculated as shown in Eq. 21.\nThe ROC curve, namely the\"Receiver Operating Characteristic curve\", has the false positive rate (FPR) on the horizontal axis and the true positive rate (TPR) on the vertical axis. The points on the curve are arranged in ascending order according to the prediction results.\n### Model interpretation methods\nMachine learning models are essentially black-box models, and humans are unable to understand the process of machine learning. The interpretability techniques in machine learning are algorithms or models that assist in understanding how machine learning algorithms obtain results and enable the predictions of machine learning systems to be understood by humans.\n#### Permutation feature importance\nPermutation Feature Importance represents the relative contribution of each feature to the prediction. It refers to how much the accuracy or loss of the model prediction changes when a certain feature is shuffled, and the importance of the feature is determined according to the amount of change. This method is widely applied, easy to understand, has a fast calculation speed, and is consistent with the properties expected of a feature importance metric.\n#### Partial dependency plots\nThe importance of features can be obtained through permutation importance, yet it remains unclear how different feature values affect the prediction results. Partial Dependency Plots (PDP) display the marginal benefits of one or two features on the model prediction results. PDP can show the interaction between the target response and the target features (such as linear and nonlinear). The prerequisite for using partial dependency plots is that all features are independent and uncorrelated.\nThe partial dependence function can be defined as Eq. 22:\nIn the formula, \\({x}_{s}\\) is the feature variable that needs to be explained by PDP, and \\({x}_{c}\\) is the other feature variables used in the model.\nThe above formula is a solution formula for the marginal probability of a continuous distribution. The estimated value is obtained on the training set through the Monte Carlo method. The influence of features on the prediction is shown in Eq. 23.\n\\(n\\) is the sample size.\n#### SHAP(shapley additive explanations)\nThe unified framework SHAP values was developed by Lundberg for the post hoc interpretation of machine learning methods. SHAP is based on game theory and local interpretation, and it provides a method to estimate the contribution of each feature. The SHAP model generates a prediction value for each test sample and provides an interpretable prediction. The main idea is to calculate the marginal contribution of the features added to the model, that is, the SHAP value, which is equivalent to the influence of the feature on the sample. In cooperative game theory, the calculation method of the SHAP value is shown in Eq. 24:\n\\({\\Phi }_{m}\\) represents the contribution of the \\(m-th\\) feature, \\(L\\) is the feature subset, \\(N\\left\\{m\\right\\}\\) is the feature set, \\(M\\) is the total number of features, \\(v\\left(L\\cup \\left\\{m\\right\\}\\right)\\) is the predicted value of the model when the sample feature values are in the interval of \\(L\\cup \\left\\{m\\right\\}\\), and \\(v\\left(L\\right)\\) is the predicted value of the model when the sample features are in the subset \\(L\\). On this basis, the linear function \\(g\\) feature attribution method is defined as Eq. 25:\n\\(g\\left(x\\right)\\) is the model explained by sample \\(x\\), \\({\\Phi }_{m}\\) is the mean of the model prediction, and \\({x}_{m}\\) is the \\(m-th\\) feature sample.",
+            "cites": [
+                "ref-CR32",
+                "ref-CR31",
+                "ref-CR30",
+                "ref-CR35",
+                "ref-CR33",
+                "ref-CR34"
+            ],
+            "figures": []
+        },
+        {
+            "title": "Study area and variable selection",
+            "text": "### Study area and data collection\nXianyang, located in the northwest of China, adjoins Xi’an, the provincial capital, to the east. Spanning a total area of 10,196 square kilometers, it has a permanent population of 3,959,842 and an annual GDP of 220.481 billion yuan. This study designates the urban built—up area, which covers 60 square kilometers, incorporates 108 communities, and has a population of 760,000, as the research region.\nAs shown in Fig. 1, the multidimensional characteristics of the built-up area in Xianyang City. Specifically, Fig. 1a illustrates the location of Xianyang City within China; Fig. 1b presents the built—up area of Xianyang City, the boundaries of traffic zones, and also marks the boundaries of communities that serve as research units; Fig. 1c displays the population density distribution within the built—up area; Fig. 1d shows the Point of Interest (POI) distribution of various facilities in the built—up area, including shopping, leisure, education, and medical facilities.\nThe household survey was conducted from May 29 to May 31, 2018. A total of 5,080 households and 13,607 respondents were surveyed, with a 100% success rate. The collected data encompassed respondent IDs, travel modes, travel purposes, departure times, departure positions (latitude and longitude), arrival times, arrival positions (latitude and longitude), as well as the socio—economic attributes of individuals and families, such as gender, age, education level, family income, and the ownership of transportation means. The research area and survey data are consistent with those of another article by our research team36. In this paper, research samples where both the origin and destination are within the built—up area and the “travel mode” is bicycle were extracted. After data cleaning, a total of 6,231 cycling records were selected for further analysis.\nIt should be noted that on the first page of the questionnaire, we explained the research purpose and obtained the written informed consent of the respondents to participate in this academic research. Minor participants were only allowed to answer the questionnaire after obtaining the written informed consent of their parents or guardians.\n### Variable selection\n#### Dependent variable\nThe dependent variable in this paper is a binary categorical variable (0, 1). Specifically, a value of 1 indicates that the respondents choose to travel by bike, while a value of 0 indicates otherwise.\n#### Independent variables\nThe independent variables encompass socio-economic attributes, travel characteristics, and the built environment.\nThe socio-economic attributes include gender (with male coded as 0 and female as 1), age, household registration type (where Xianyang household registration is assigned a value of 1 and non-Xianyang household registration a value of 0), family size, occupation (with civil servants coded as 1, corporate staff as 2, unemployed as 3, and student as 4), monthly household income, the presence or absence of school-age children (present = 1, absent = 0), the presence or absence of elderly family members (present = 1, absent = 0), whether there is a car (yes = 1, no = 0), and whether there is a bicycle or electric bicycle (yes = 1, no = 0).\nThe travel characteristic variables mainly consist of travel distance, whether it is during peak hours (yes = 1, no = 0), and travel purposes.\nThe built environment variables are expanded from the “5D” model. Taking the community as the spatial analysis unit, the data were processed using Arcgis10.5 to obtain various parameters, such as road network density, intersection density, bus station density, non-motor vehicle parking occupancy ratio, the proportion of motor and non-motor vehicle isolation barriers, the non-motor lane parking ratio, as well as the density and diversity of POI (Points of Interest) facilities, which include education, medical, shopping, and leisure facilities. The diversity of POI facilities is measured by the widely utilized entropy index in economics. The formula is presented as Eq. 26.\nwhere, \\(L\\) represents the mixing degree of POI in the community, \\({p}_{j}\\) is the proportion of type \\(j\\) POI in the community and \\(m\\) is the total types of POI facilities. The Descriptive statistics of the explanatory variables and specific indicators are shown in (Table 2).\n### Multicollinearity test\nWhen there is severe multicollinearity among the selected feature variables, it will lead to consequences such as unstable model parameters, a decline in the model’s prediction ability, and poorer interpretability of the model. In particular, eliminating multicollinearity among features is very important for the Logistics regression model. Multicollinearity will not only cause certain deviations in the results of the Logistics regression model, but may even lead to problems such as the sign of the regression coefficient being completely opposite to the actual situation or the regression coefficient failing to pass the significance test. Therefore, before modeling in this paper, a multicollinearity test is first conducted on the total sample data of the 25 preselected feature variables to ensure the interpretability of the model.\nCurrently, there are multiple methods for testing multicollinearity, mainly including the variance inflation factor method (Variance inflation factor, VIF), the eigenvalue determination method, the intuitive determination method, and so on. In this chapter, VIF is selected to conduct a multicollinearity test on the feature variables. The specific expression is shown in Eq. 27 as follows:\nIn the formula, \\({R}_{i}^{2}\\) represents the goodness of fit of regression when the \\(i-th\\) explanatory variable is taken as the dependent variable and the other explanatory variables are used for regression fitting. The larger the \\({VIF}_{i}\\) is, the larger the \\({R}_{i}^{2}\\) will be, indicating a better fitting effect and a higher degree of collinearity between the \\(i-th\\) explanatory variable and the other explanatory variables. Generally, when \\({VIF}_{i}>5,\\) it is considered that there is an obvious collinearity problem between the \\(i-th\\) explanatory variable and the other explanatory variables. When \\({VIF}_{i}\\ge 10,\\) it indicates that there is severe multicollinearity among the explanatory variables. The calculation results are shown in Table 3 as follows:\nAccording to the fact that the VIF values of each feature variable in Table 3 are all less than 5, there is no multicollinearity problem among the 25 preselected feature variables.",
+            "cites": [
+                "ref-CR36"
+            ],
+            "figures": [
+                "figure-1"
+            ]
+        },
+        {
+            "title": "Result",
+            "text": "### Comparison of model results and selection of the optimal model\nTo ensure the comparability of the results, the training sets and test sets of all models are the same. In this chapter, 30% of the total 4,348 samples are randomly selected as the test set, with the number of samples in this test set being 1,305. The remaining 70% are used as the training set, and the number of samples in the training set is 3,043. In this study, Python programs are used to build bicycle travel choice behavior models based on the total sample data for four machine learning algorithms, namely Logistics Regression, Random Forest (RF), Gradient Boosting Decision Tree (GBDT), and XGBoost respectively. To compare the dominant models, the prediction effects of the four models, namely Logistics Regression, RF, GBDT, and XGBoost, on bicycle travel choice behavior are compared as shown in Table 4 below.\nThe comparison of the ROC curves of the four models is shown in Fig. 2\nAs shown in Table 4 and Fig. 2, the values of accuracy, precision, F1, and AUC of the XGBoost model are all higher than those of the GBDT model, the RF model, and the Logistics Regression model. Although the recall rate of the Logistics Regression model is slightly higher than that of the other three models, overall, the prediction effect of the XGBoost model on bicycle travel choice behavior is the most ideal.\n### Modeling and analysis of bicycle travel choice behaviors with heterogeneity in travel purposes\nThe XGBoost model with the most ideal prediction effect is utilized to conduct bicycle travel choice behavior modeling on the sample data of two types of travel purposes, namely compulsory and discretionary ones, respectively. Firstly, the compulsory and discretionary sample data sets are randomly divided into training sets and validation sets at a ratio of 7:3. Secondly, the fivefold cross-validation method is adopted. The training set is randomly and evenly divided into 5 parts to build 5 models. For each model, 4 of these parts are used as the training set, and the remaining 1 part is used as the validation set, with iterations carried out successively. Then, the\"hyperparameter grid search method\"is employed for parameter tuning, and the optimal parameters for achieving the best model performance are shown in Table 5. The accuracy rate of the XGBoost model in predicting compulsory trips reaches 89%, and that for discretionary trips reaches 80%, indicating excellent performance of the model. Finally, three interpretation methods, namely feature importance, partial dependence plots, and SHAP values, are used to explore the influence relationship between the characteristic factors of bicycle travel choice behaviors and the choice behaviors under different travel purposes.\n#### Relative importance of independent variables\nRelative importance represents one of the most prevalently utilized analytical techniques in machine learning, which quantifies the relative contribution of each feature to the prediction outcomes during the modeling process. In the construction of a decision tree, each independent variable holds a certain probability of being selected to partition the data (dividing the data space into two subsets), and the relative importance fundamentally pertains to the significance of a variable in the iterative formation of the decision tree. It is defined as the proportion of the number of times a particular variable is chosen to the total number of selections of all independent variables throughout the iterative construction of the decision tree37. The relative importance and ranking of independent variables are presented in Table 6.\nAmong the three categories of independent variables, the importance ranking and proportion of independent variables vary between compulsory trips and discretionary trips. In the context of compulsory trips, the importance of the built environment is marginally higher than that of family attributes, with travel characteristics being the least significant, exhibiting importance levels of 46.44%, 42.43%, and 11.13%, respectively. Regarding discretionary trips, family economic attributes emerge as the most crucial factor, trailed by built environment attributes and finally travel characteristics. Specifically, the importance of the family socio-economic attributes factor surpasses 50%; the built environment and travel characteristics account for 38.73% and 8.77%, respectively. These results affirm that the built environment exerts a substantial influence on both travel purposes. Although an individual built environment variable might possess a relatively minor role, the combined effects of multiple built environment variables are nontrivial. Additionally, compulsory trips are observably more susceptible to the built environment than discretionary trips, which aligns with existing research38,39,40.\nFor family socio-economic attributes, the relative importance of whether a family owns a bicycle or a car is more pronounced in compulsory trips. This implies a close association between family transportation ownership and the choice of commuting travel mode39. That is, families possessing cars tend to utilize them for commuting, while families with a propensity for cycling will predominantly use bicycles after acquisition. Other variables with relatively high importance (among the top 10) include the presence or absence of elderly individuals, occupation, and gender, ranking fifth, eighth, and ninth, respectively. Owing to the disparities in job nature and working systems across different occupations, variations exist in the degree of temporal and spatial constraints on travel. For occupations entailing fixed-time and short-distance travel, individuals are more inclined to select transportation means with higher time reliability, such as cycling. In traditional Chinese families, men generally enjoy a higher social status than women and are typically prioritized in the allocation of family resources. In discretionary trips, the variables with relatively high importance (top 10) comprise whether the individual holds a Xianyang registration, gender, the presence or absence of a bicycle (ebike), children and cars, and the presence or absence of children, ranking first, sixth, seventh, eighth, and ninth, respectively. The importance of gender, the presence or absence of a bicycle (ebike), and a car is analogous to that in compulsory trips. However, whether an individual has a Xianyang household registration stands as the most significant variable in discretionary trips. Moreover, the presence or absence of children also occupies a significant position. Previous studies have demonstrated that children within a family have a substantial impact on car ownership and usage41. Families with children (particularly infants under 6 years old) exhibit a greater reliance on cars, which indirectly affects cycling choices.\nRegarding the travel characteristic attribute variables, travel distance is identified as the most crucial variable for both compulsory and discretionary travel purposes. Its importance accounts for 5.82% and 4.42% respectively, ranking third and fifth. This discovery is congruent with numerous prior studies42,43 and aligns with our anticipations. The travel distance by bicycle is contingent upon the traveler’s physical stamina. Extended-distance bicycle travel might present challenges to one’s physical strength, thereby rendering cycling behavior typically sensitive to distance.\nIn relation to built environment variables, within the context of compulsory trips, the variables with relatively higher importance (among the top 15) encompass population density, distance from the city center, intersection density, non-motor lane parking ratio, road network density, and POI (Point of Interest) diversity, ranking second, sixth, seventh, tenth, twelfth, thirteenth, and fourteenth respectively. The two cycling safety facilities, namely the proportion of non-motor vehicle isolation and non-motor lane parking ratio, are significant indicators. Moreover, road network density and intersection density can potentially influence the convenience and safety of cycling. The city center congregates a substantial amount of job resources, and the distance to the center indirectly impacts the propensity for commuting by bicycle through its effect on travel distance. The degree of POI mixing reflects the diversity of facility types. The greater the variety of facility types, the more pronounced traffic congestion and parking difficulties become, which may in turn affect cycling safety and comfort and consequently influence cycling propensity. In discretionary trips, the variables with high relative importance (top 15) comprise isolation bar, POI diversity, shopping facility density, non-motor lane parking ratio, population density, and bus station density, ranking second, third, fourth, eleventh, twelfth, and fourteenth respectively. In addition to the variables shared with compulsory trips, the relative importance variables also incorporate shopping facilities density and bus station density. The density of POI shopping facilities affects the distance of discretionary trips and subsequently influences cycling propensity. The influence of bus station density on cycling propensity stems from the competitive and cooperative relationship between the two transportation modes44.\n#### Nonlinear relationship between main independent variables and cycling propensity\nThe partial dependence plot was employed to depict the marginal effect of model prediction results. The x-axis represents the value of an independent variable, while the y-axis represents the log-odds value of residents’ compulsory or discretionary cycling propensity (the natural logarithm of the ratio of the probability of choosing to ride to the probability of not choosing to ride). The relationship between the main factors of the built environment and travel characteristics and cycling propensity is analyzed in the subsequent section.\nAs depicted in Fig. 4, in the case of compulsory trips, the influence of population density on cycling propensity can be approximately partitioned into three intervals. When the population density ranges from 0 to 10 persons/km2, the population density exhibits a linear negative correlation with cycling propensity. In the range of 10—25 persons/km2, it demonstrates a positive correlation and a steep upward trend. Above 25 persons/km2, there is a slight fluctuation and subsequently stabilizes at the level of 0.250. In discretionary trips, the impact of population density on cycling propensity is roughly divided into four intervals. When the population density spans from 0 to 10 persons/km2, the population density is linearly and negatively correlated with cycling propensity. In the range of 10—25 persons/km2, it shows a positively correlated tendency. Then, it continues to ascend in the ranges of 20—40 persons/km2 and 40—70 persons/km2, and stabilizes at 0.235 above 70 persons/km2. This result might be elucidated by the fact that sparsely populated areas are predominantly situated in the suburbs of the city, where a high proportion of low-income groups reside and public transportation facilities are inadequate. Consequently, residents mainly depend on bicycle commuting. With the augmentation of population density, the proportion of public transport facilities and bus travel correspondingly increases, and a cooperative relationship between the bus and the bicycle emerges. In a densely populated area, a competitive relationship between the bus and the bicycle exists.\nThe impact of the built environment on cycling propensity is marginally greater in compulsory trips compared to discretionary trips, with significant nonlinear relationships and threshold effects being present. Additionally, individual, family, and built environment characteristics exhibit notable differences in their influence on cycling propensity for distinct travel purposes. Nevertheless, the influence of certain variables on cycling propensity is entirely contrary to the existing research findings48,49,50, such as the distance from the city center and the bus stop density.\n#### Factor analysis based on SHAP values\nBased on the calculation method of SHAP values in Section\"Modeling and analysis of bicycle travel choice behaviors with heterogeneity in travel purposes\"(1) the SHAP library in Python was utilized to calculate the Shapley values of each sample feature for the XGBoost model that required interpretation. In this way, the influence of various factors on the bicycle choice behavior for both compulsory and discretionary travel purposes could be analyzed from different aspects.\n##### SHAP values of the importance of influencing factor features\nFigure 12 presents the SHAP results regarding the importance of various influencing factors. The x-axis represents the average of the absolute values of the SHAP values, while the y-axis represents the diverse factors that influence the choice behavior of bicycle travel. Different from the ranking importance of influencing factors, this result is obtained by averaging the absolute values of the SHAP values of all samples to derive the importance of each influencing factor in bicycle choice behavior. It is not difficult to observe that the importance obtained through calculating the SHAP values is slightly different from the result acquired by the ranking importance method, yet they are generally similar. For instance, in compulsory trips, among the top ten variables, seven variables are the same, namely travel distance, bicycle ownership, gender, car ownership, occupation, distance from the city center, and population density. For example, in the ranking of the importance of SHAP influencing factors, travel distance has the greatest impact on the result of bicycle choice behavior, and this conclusion is basically consistent with the analysis in the feature importance ranking in Section\"Modeling and analysis of bicycle travel choice behaviors with heterogeneity in travel purposes\"(1). Besides, the ranking of the importance levels of other features such as bicycle ownership, car ownership, occupation, and distance from the city center is also relatively close.\nIn discretionary trips, among the top ten variables, six variables are the same, including travel distance, bicycle ownership, bus stop density, travel purpose, population density, and distance from the city center. For example, travel distance has the greatest impact on the result of bicycle choice behavior in the ranking of the importance of influencing factors, and this conclusion is completely consistent with the analysis in the feature importance ranking in Sect. 4.6.1. In addition, the ranking of the importance levels of the other top ten features is basically consistent.\n##### Analysis of influencing factors based on SHAP values\nThe SHAP values of samples can be used not only to obtain the importance of different features as influencing factors for bicycle travel choice at a macroscopic level but also to observe at a mesoscopic level how the bicycle travel choice behavior is affected by different level values of each feature.\nFigure 13 presents the SHAP results of bicycle choice behavior for compulsory and discretionary trips. The left sub-figure represents the SHAP results influenced by different levels of various factors when choosing a bicycle in compulsory trips, while the right sub-figure represents the results of choosing a bicycle in discretionary trips. Each point in the figure represents a sample, that is, one trip made by a traveler. The x-axis indicates the ranking of the SHAP values of samples, and the y-axis represents the ranking of the SHAP values of influencing factors. The color ranges from blue to red, indicating that the feature values change from low to high.\nIn compulsory trips, travel distance and car ownership have a significant negative correlation with bicycle choice behavior. It can be clearly observed that as the travel distance decreases, the tendency to choose bicycle travel becomes more pronounced; conversely, the tendency decreases. The ages of those who choose to travel by bicycle are mainly concentrated in the young and middle-aged groups. As can be seen from the figure, the younger or older the age is, the less likely people are to choose bicycle travel. Bicycle ownership and the proportion of motor-non-motor vehicle isolation have a significant positive correlation with bicycle travel choice behavior. The influence relationships of road network density and the distance from the city center are relatively complex, but it can be seen that as the distance from the city center increases, the tendency to choose bicycle travel decreases.\nIn discretionary trips, travel distance has a significant negative correlation with bicycle choice behavior. Car ownership and the occupational composition of family members also have a negative correlation with bicycle choice behavior. That is, the tendency of bicycle travel in families with cars is reduced. Bicycle ownership, population density, and the proportion of motor-non-motor vehicle isolation have a significant positive correlation with bicycle travel choice behavior. The greater the population density and the higher the proportion of motor-non-motor vehicle isolation, the stronger the tendency to choose bicycle travel.",
+            "cites": [
+                "ref-CR48",
+                "ref-CR37",
+                "ref-CR41",
+                "ref-CR42",
+                "ref-CR39",
+                "ref-CR43",
+                "ref-CR50",
+                "ref-CR38",
+                "ref-CR49",
+                "ref-CR40",
+                "ref-CR44"
+            ],
+            "figures": [
+                "figure-8",
+                "figure-12",
+                "figure-7",
+                "figure-6",
+                "figure-13",
+                "figure-11",
+                "figure-2",
+                "figure-10",
+                "figure-9",
+                "figure-3",
+                "figure-4",
+                "figure-5"
+            ]
+        },
+        {
+            "title": "Discussion",
+            "text": "The present study, using cycling data from the 2018 Daily Trip Survey and community built environment data in Xianyang, applied the extreme gradient boosting model to investigate the significance of independent variables’ influence on the dependent variable and the nonlinear relationships between key variables and cycling propensity for two travel purposes. The obtained results offer several valuable insights and implications.\n### Differential influences of independent variables on cycling propensity\nOur analysis reveals that among the three independent variable categories—travel characteristics, family socio-economic attributes, and built environment factors—their impacts on cycling propensity vary between compulsory and discretionary trips. In compulsory trips, the built environment emerges as a relatively more crucial factor compared to family attributes, with travel characteristics being the least influential. In contrast, for discretionary trips, family economic attributes hold the highest significance, trailed by built environment attributes and then travel characteristics. Notably, the built environment consistently exerts a substantial effect on both travel purposes, and its influence on cycling propensity is considerably stronger in compulsory trips. This finding underlines the necessity of considering the potential differential impacts of diverse planning schemes on cycling proportions for different travel purposes during the layout of built environment facilities and road design. For instance, in urban planning, areas with a high prevalence of compulsory trips might require more focused efforts on enhancing the built environment to encourage cycling, such as constructing dedicated and well-connected cycling lanes, ensuring convenient access to key destinations like workplaces and schools.\n### Key family socio-economic attributes affecting cycling propensity\nAmong the family socio-economic attributes, variables such as vehicle ownership, occupation, gender, and family composition have a more pronounced impact on cycling propensity. Vehicle ownership, as an economic factor, presents an opportunity to boost bicycle travel among car-free families by implementing measures like increasing car use fees and parking fees. This could potentially lead to a modal shift from motorized to non-motorized travel, contributing to reduced traffic congestion and environmental pollution. Additionally, considering the spatio-temporal constraints associated with different occupations, the formulation of a suitable flexible working system could prove beneficial. Such a system might enable employees to better manage their travel times and potentially choose cycling as a more viable and convenient mode of transport, thereby increasing the overall ratio of cycling travel.\n### Travel distance as a pivotal travel attribute\nTravel distance stands out as the most significant factor within travel attributes. The research outcomes suggest that for discretionary trips, optimizing the layout of public service facilities can play a crucial role in adjusting travel distances. By ensuring that residents’ daily travel needs for activities such as shopping, leisure, and catering are met within a 4-km radius, the likelihood of choosing cycling as a mode of transport can be enhanced. This could involve strategies like clustering related service facilities in a more compact and accessible manner, promoting mixed-use development, and improving the connectivity of local transportation networks to encourage short-distance cycling trips.\n### Tailoring built environment improvements for different land uses\nFor land areas with work as the main travel purpose, such as those occupied by organ groups, and for land with school as the main travel purpose, like science and education areas, efforts should be directed towards refining the bicycle riding network. This includes not only constructing and maintaining high-quality cycling paths but also enhancing the safety of road sections and intersections. Optimizing the layout of bus stations in these areas can also facilitate multimodal transportation, enabling seamless transfers between cycling and public transit. On the other hand, for land used for wholesale and retail, accommodation and catering, and park green space where leisure and entertainment are the primary travel motives, the focus should be on diversifying the types of daily life service facilities. Maintaining a POI facility mix degree around 3.5 can help shorten the travel distance for flexible activities and subsequently heighten residents’ propensity to cycle. This might involve a combination of urban design strategies such as creating pedestrian-friendly and cycling-friendly commercial areas, integrating green spaces with recreational facilities, and ensuring a balanced distribution of amenities to reduce the need for long-distance travel.\n### Built environment thresholds for promoting cycling\nOur results also indicate that specific thresholds within the built environment can have a significant impact on cycling rates. Regardless of whether it is a compulsory or discretionary trip, maintaining a proportion of non-motorized vehicle lanes greater than 80% or ensuring that the proportion of non-motorized vehicle lane parking is less than 25% can effectively increase the bicycle travel rate. These findings provide clear guidelines for urban planners and policymakers when designing and implementing measures to promote cycling. For example, strict regulations and enforcement can be put in place to safeguard the integrity and functionality of non-motorized vehicle lanes, preventing encroachment by other forms of transportation or illegal parking. Additionally, urban design and infrastructure development should prioritize the creation and preservation of sufficient non-motorized vehicle lane space to meet the identified thresholds and encourage more people to choose cycling as a sustainable mode of travel.\nIn conclusion, this study not only deepens our understanding of the complex relationships between various factors and cycling propensity for different travel purposes but also offers practical recommendations for enhancing cycling as a sustainable mode of transportation. Future research could further explore the causal mechanisms underlying these relationships and investigate the potential long-term impacts of built environment changes on cycling behavior, taking into account additional factors such as technological advancements in cycling infrastructure and the evolving preferences and attitudes of residents towards cycling.\nFuture research may be systematically explored in three aspects to deepen academic frontiers: integrating workplace built environment variables (such as employment density and slow-mobility facility coverage in office areas), using spatial panel models to analyze cross-regional causal relationships between built environments in different functional zones and cycling propensity, as well as the spatial heterogeneity of threshold effects; fusing structural equation modeling with multi-source big data (e.g., smart card travel records, mobile phone signaling), constructing a\"behavior-environment-preference\"joint analysis framework, controlling unobserved factors through latent variable modeling, and optimizing model accuracy for discretionary trips via oversampling techniques; establishing a cross-regional collaborative modeling framework, combining geographically weighted regression to analyze the differentiation mechanisms of cycling behavior across urbanization levels from megacities to county towns, identifying context-sensitive built environment thresholds, and providing quantitative support for differentiated transportation planning through policy simulations.",
+            "cites": [],
+            "figures": []
+        }
+    ],
+    "Figures": [
+        {
+            "id": "figure-1",
+            "figure-title": "Fig. 1",
+            "figure-caption": "Multidimensional characteristics schematic of the built-up area in xianyang city(generated using arcgis 10.5 (environmental systems research institute, inc., https://www.esri.com/en-us/home).",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/1"
+        },
+        {
+            "id": "figure-2",
+            "figure-title": "Fig. 2",
+            "figure-caption": "Comparison chart of ROC curves of four models.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/2"
+        },
+        {
+            "id": "figure-3",
+            "figure-title": "Fig. 3",
+            "figure-caption": "The influence of travel distance on propensity to cycle in compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/3"
+        },
+        {
+            "id": "figure-4",
+            "figure-title": "Fig. 4",
+            "figure-caption": "The influence of population density on propensity to cycle in compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/4"
+        },
+        {
+            "id": "figure-5",
+            "figure-title": "Fig. 5",
+            "figure-caption": "The influence of POI diversity on propensity to cycle in compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/5"
+        },
+        {
+            "id": "figure-6",
+            "figure-title": "Fig. 6",
+            "figure-caption": "The influence of distance from central on propensity to cycle in compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/6"
+        },
+        {
+            "id": "figure-7",
+            "figure-title": "Fig. 7",
+            "figure-caption": "The influence of the proportion of isolation bar on propensity to cycle in compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/7"
+        },
+        {
+            "id": "figure-8",
+            "figure-title": "Fig. 8",
+            "figure-caption": "The influence of the proportion of non-motor lane parking on propensity to cycle in compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/8"
+        },
+        {
+            "id": "figure-9",
+            "figure-title": "Fig. 9",
+            "figure-caption": "The influence of the shopping facilities on propensity to cycle in compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/9"
+        },
+        {
+            "id": "figure-10",
+            "figure-title": "Fig. 10",
+            "figure-caption": "The influence of the bus stops on propensity to cycle in compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/10"
+        },
+        {
+            "id": "figure-11",
+            "figure-title": "Fig. 11",
+            "figure-caption": "The influence of the density of intersection on propensity to cycle in compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/11"
+        },
+        {
+            "id": "figure-12",
+            "figure-title": "Fig. 12",
+            "figure-caption": "SHAP diagram of the importance of influencing factors for compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/12"
+        },
+        {
+            "id": "figure-13",
+            "figure-title": "Fig. 13",
+            "figure-caption": "Importance chart of influencing factors based on SHAP values for compulsory and discretionary trips.",
+            "figure-link": "https://www.nature.com/srep/articles/s41598-025-10788-3/figures/13"
+        }
+    ],
+    "References": [
+        {
+            "id": "ref-CR1",
+            "content": "Pucher, J. & Buehler, R. Cycling for everyone. Transp. Res. Rec.: J. Transp. Res. Board 2074(1), 58–65. https://doi.org/10.3141/2074-08 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.3141%2F2074-08",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cycling%20for%20everyone&journal=Transp.%20Res.%20Rec.%3A%20J.%20Transp.%20Res.%20Board&doi=10.3141%2F2074-08&volume=2074&issue=1&pages=58-65&publication_year=2008&author=Pucher%2CJ&author=Buehler%2CR"
+            }
+        },
+        {
+            "id": "ref-CR2",
+            "content": "Pucher, J. & Buehler, R. Cycling towards a more sustainable transport future. Transp. Rev. 37(6), 689–694 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01441647.2017.1340234",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cycling%20towards%20a%20more%20sustainable%20transport%20future&journal=Transp.%20Rev.&doi=10.1080%2F01441647.2017.1340234&volume=37&issue=6&pages=689-694&publication_year=2017&author=Pucher%2CJ&author=Buehler%2CR"
+            }
+        },
+        {
+            "id": "ref-CR3",
+            "content": "Buehler, R. & Pucher, J. Cycling to work in 90 large American cities: new evidence on the role of bike paths and lanes. Transportation 39(2), 409–432 (2011).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11116-011-9355-8",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cycling%20to%20work%20in%2090%20large%20American%20cities%3A%20new%20evidence%20on%20the%20role%20of%20bike%20paths%20and%20lanes&journal=Transportation&doi=10.1007%2Fs11116-011-9355-8&volume=39&issue=2&pages=409-432&publication_year=2011&author=Buehler%2CR&author=Pucher%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR4",
+            "content": "Pucher, J., Garrard, J. & Greaves, S. P. Cycling down under: A comparative analysis of bicycling trends and policies in Sydney and Melbourne. J. Transp. Geogr. 19(2), 332 (2011).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jtrangeo.2010.02.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cycling%20down%20under%3A%20A%20comparative%20analysis%20of%20bicycling%20trends%20and%20policies%20in%20Sydney%20and%20Melbourne&journal=J.%20Transp.%20Geogr.&doi=10.1016%2Fj.jtrangeo.2010.02.007&volume=19&issue=2&publication_year=2011&author=Pucher%2CJ&author=Garrard%2CJ&author=Greaves%2CSP"
+            }
+        },
+        {
+            "id": "ref-CR5",
+            "content": "Suo Yuan. Research on Location planning of sharing bicycle parking lots based on the fluctuation of travel demand. A thesis submitted for the master degree. Beijing jiaotong University (2018).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR6",
+            "content": "Zhou, R., Wang, Y., Zhu, I. & Ji, S. Research on travel characteristics of shared bicycles based on spatio-temporal data. J. Wuhan Univ. Technol. (Transp. Sci. Eng.) 43(01), 159–163 (2019).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Research%20on%20travel%20characteristics%20of%20shared%20bicycles%20based%20on%20spatio-temporal%20data&journal=J.%20Wuhan%20Univ.%20Technol.%20%28Transp.%20Sci.%20Eng.%29&volume=43&issue=01&pages=159-163&publication_year=2019&author=Zhou%2CR&author=Wang%2CY&author=Zhu%2CI&author=Ji%2CS"
+            }
+        },
+        {
+            "id": "ref-CR7",
+            "content": "MO Hai-tong, WEI Zong-cai, ZHAI Qing. Travel Behaviors and Influencing Factors of Bike Sharing in Old Town: The Case of Guangzhou. South Architecture 1–6 (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR8",
+            "content": "Ji, Y. et al. Public bicycle as a feeder mode to rail transit in China: The role of gender, age, income, trip purpose, and bicycle theft experience. Int. J. Sustain. Transp. 11(4), 1–41 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F15568318.2016.1253802",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC1cXitFSlt77N",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Public%20bicycle%20as%20a%20feeder%20mode%20to%20rail%20transit%20in%20China%3A%20The%20role%20of%20gender%2C%20age%2C%20income%2C%20trip%20purpose%2C%20and%20bicycle%20theft%20experience&journal=Int.%20J.%20Sustain.%20Transp.&doi=10.1080%2F15568318.2016.1253802&volume=11&issue=4&pages=1-41&publication_year=2017&author=Ji%2CY&author=Fan%2CY&author=Ermagun%2CA&author=Cao%2CX&author=Wang%2CW&author=Das%2CK"
+            }
+        },
+        {
+            "id": "ref-CR9",
+            "content": "Bauman, A., Smith, B., Stoker, L., Bellew, B. & Booth, M. Geographical influences upon physical activity participation: Evidence of a ‘coastal effect’. Aust. N. Z. J. Pub. Health 23(3), 322–324 (1999).",
+            "links": {
+                "Article": "https://doi.org/10.1111%2Fj.1467-842X.1999.tb01265.x",
+                "CAS": "/articles/cas-redirect/1:STN:280:DyaK1MzhsVagtA%3D%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Geographical%20influences%20upon%20physical%20activity%20participation%3A%20Evidence%20of%20a%20%E2%80%98coastal%20effect%E2%80%99&journal=Aust.%20N.%20Z.%20J.%20Pub.%20Health&doi=10.1111%2Fj.1467-842X.1999.tb01265.x&volume=23&issue=3&pages=322-324&publication_year=1999&author=Bauman%2CA&author=Smith%2CB&author=Stoker%2CL&author=Bellew%2CB&author=Booth%2CM"
+            }
+        },
+        {
+            "id": "ref-CR10",
+            "content": "Moudon, A. V. et al. Cycling and the built environment, a US perspective. Transp. Res. Part D 10, 245–261 (2005).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trd.2005.04.001",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cycling%20and%20the%20built%20environment%2C%20a%20US%20perspective&journal=Transp.%20Res.%20Part%20D&doi=10.1016%2Fj.trd.2005.04.001&volume=10&pages=245-261&publication_year=2005&author=Moudon%2CAV"
+            }
+        },
+        {
+            "id": "ref-CR11",
+            "content": "Julie Bachand-Marleau, Brian H. Y. Lee, Ahmed M. El-Geneidy. Towards a better understanding of the factors influencing the likelihood of using shared bicycle systems and frequency of use. In Proceedings of 91st Annual Meeting of the Transportation Research Board (2012).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR12",
+            "content": "Wang, Y. et al. A review on the effects of physical built environment attributes on enhancing walking and cycling activity levels within residential neighborhoods. Cities 50, 1–15 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cities.2015.08.004",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XhsFKntLw%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20review%20on%20the%20effects%20of%20physical%20built%20environment%20attributes%20on%20enhancing%20walking%20and%20cycling%20activity%20levels%20within%20residential%20neighborhoods&journal=Cities&doi=10.1016%2Fj.cities.2015.08.004&volume=50&pages=1-15&publication_year=2016&author=Wang%2CY"
+            }
+        },
+        {
+            "id": "ref-CR13",
+            "content": "The Shapley Value. Essays in Honor of Lloyd S (Cambridge University Press, 1988).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Essays%20in%20Honor%20of%20Lloyd%20S&publication_year=1988"
+            }
+        },
+        {
+            "id": "ref-CR14",
+            "content": "Nelson, A. C. & Allen, D. If you build them, commuters will use them. Transp. Res. Rec. 1578(1), 79–83 (1997).",
+            "links": {
+                "Article": "https://doi.org/10.3141%2F1578-10",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=If%20you%20build%20them%2C%20commuters%20will%20use%20them&journal=Transp.%20Res.%20Rec.&doi=10.3141%2F1578-10&volume=1578&issue=1&pages=79-83&publication_year=1997&author=Nelson%2CAC&author=Allen%2CD"
+            }
+        },
+        {
+            "id": "ref-CR15",
+            "content": "Saelens, B. E., Sallis, J. F., Black, J. & Chen, D. Neighborhood-based differences in physical activity: An environment scale evaluation. Am. J. Pub. Health 93(9), 1552–1558 (2003).",
+            "links": {
+                "Article": "https://doi.org/10.2105%2FAJPH.93.9.1552",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Neighborhood-based%20differences%20in%20physical%20activity%3A%20An%20environment%20scale%20evaluation&journal=Am.%20J.%20Pub.%20Health&doi=10.2105%2FAJPH.93.9.1552&volume=93&issue=9&pages=1552-1558&publication_year=2003&author=Saelens%2CBE&author=Sallis%2CJF&author=Black%2CJ&author=Chen%2CD"
+            }
+        },
+        {
+            "id": "ref-CR16",
+            "content": "Wang, Y., Chau, C. K., Ng, W. Y. & Leung, T. M. A review on the effects of physical built environment attributes on enhancing walking and cycling activity levels within residential neighborhoods. Cities 50, 1–15 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.cities.2015.08.004",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC28XhsFKntLw%3D",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20review%20on%20the%20effects%20of%20physical%20built%20environment%20attributes%20on%20enhancing%20walking%20and%20cycling%20activity%20levels%20within%20residential%20neighborhoods&journal=Cities&doi=10.1016%2Fj.cities.2015.08.004&volume=50&pages=1-15&publication_year=2016&author=Wang%2CY&author=Chau%2CCK&author=Ng%2CWY&author=Leung%2CTM"
+            }
+        },
+        {
+            "id": "ref-CR17",
+            "content": "Rybarczyk, G. & Wu, C. Examining the impact of urban morphology on bicycle mode choice. Environ. Plann. B. Plann. Des. 41, 272–288 (2014).",
+            "links": {
+                "Article": "https://doi.org/10.1068%2Fb37133",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Examining%20the%20impact%20of%20urban%20morphology%20on%20bicycle%20mode%20choice&journal=Environ.%20Plann.%20B.%20Plann.%20Des.&doi=10.1068%2Fb37133&volume=41&pages=272-288&publication_year=2014&author=Rybarczyk%2CG&author=Wu%2CC"
+            }
+        },
+        {
+            "id": "ref-CR18",
+            "content": "Muhs, C. D. & Clifton, K. J. Do characteristics of walkable environments support bicycling? Toward a definition of bicycle-supported development. J. Transp. Land Use https://doi.org/10.5198/jtlu.2015.727 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.5198%2Fjtlu.2015.727",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Do%20characteristics%20of%20walkable%20environments%20support%20bicycling%3F%20Toward%20a%20definition%20of%20bicycle-supported%20development&journal=J.%20Transp.%20Land%20Use&doi=10.5198%2Fjtlu.2015.727&publication_year=2016&author=Muhs%2CCD&author=Clifton%2CKJ"
+            }
+        },
+        {
+            "id": "ref-CR19",
+            "content": "Kim, C., Parent, O. & vom Hofe, R. The role of peer effects and the built environment on individual travel behavior. Environ. Plan. B: Urb. Anal. City Sci. 45, 452–469 (2018).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20role%20of%20peer%20effects%20and%20the%20built%20environment%20on%20individual%20travel%20behavior&journal=Environ.%20Plan.%20B%3A%20Urb.%20Anal.%20City%20Sci.&volume=45&pages=452-469&publication_year=2018&author=Kim%2CC&author=Parent%2CO&author=Hofe%2CR"
+            }
+        },
+        {
+            "id": "ref-CR20",
+            "content": "Fishman, E. Cycling as transport. Transp. Rev. 36(1), 1–8. https://doi.org/10.1080/01441647.2015.1114271 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01441647.2015.1114271",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=630012",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Cycling%20as%20transport&journal=Transp.%20Rev.&doi=10.1080%2F01441647.2015.1114271&volume=36&issue=1&pages=1-8&publication_year=2016&author=Fishman%2CE"
+            }
+        },
+        {
+            "id": "ref-CR21",
+            "content": "Boulange, C. et al. Examining associations between urban design attributes and transport mode choice for walking, cycling, public transport and private motor vehicle trips. J. Transp. Health 6, 155–166 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jth.2017.07.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Examining%20associations%20between%20urban%20design%20attributes%20and%20transport%20mode%20choice%20for%20walking%2C%20cycling%2C%20public%20transport%20and%20private%20motor%20vehicle%20trips&journal=J.%20Transp.%20Health&doi=10.1016%2Fj.jth.2017.07.007&volume=6&pages=155-166&publication_year=2017&author=Boulange%2CC&author=Gunn%2CL&author=Giles-Corti%2CB"
+            }
+        },
+        {
+            "id": "ref-CR22",
+            "content": "Christiansen, L. B. et al. International comparisons of the associations between objective measures of the built environment and transport-related walking and cycling. J. Transp. Health https://doi.org/10.1016/j.jth.2016.02.010i (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.jth.2016.02.010i",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28111613",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240634",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=International%20comparisons%20of%20the%20associations%20between%20objective%20measures%20of%20the%20built%20environment%20and%20transport-related%20walking%20and%20cycling&journal=J.%20Transp.%20Health&doi=10.1016%2Fj.jth.2016.02.010i&publication_year=2016&author=Christiansen%2CLB"
+            }
+        },
+        {
+            "id": "ref-CR23",
+            "content": "Cervero, R., Denman, S. & Jin, Y. Network design, built and natural environments, and bicycle commuting: Evidence from British cities and towns. Transp. Policy 74, 153–164 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tranpol.2018.09.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Network%20design%2C%20built%20and%20natural%20environments%2C%20and%20bicycle%20commuting%3A%20Evidence%20from%20British%20cities%20and%20towns&journal=Transp.%20Policy&doi=10.1016%2Fj.tranpol.2018.09.007&volume=74&pages=153-164&publication_year=2019&author=Cervero%2CR&author=Denman%2CS&author=Jin%2CY"
+            }
+        },
+        {
+            "id": "ref-CR24",
+            "content": "Saelens, B. E., Sallis, J. F. & Frank, L. D. Environmental correlates of walking and cycling_ Findings from the transportation, urban design, and planning literatures. Soc. Behav. Med. 25(2), 80–91 (2003).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Environmental%20correlates%20of%20walking%20and%20cycling_%20Findings%20from%20the%20transportation%2C%20urban%20design%2C%20and%20planning%20literatures&journal=Soc.%20Behav.%20Med.&volume=25&issue=2&pages=80-91&publication_year=2003&author=Saelens%2CBE&author=Sallis%2CJF&author=Frank%2CLD"
+            }
+        },
+        {
+            "id": "ref-CR25",
+            "content": "Cervero, R. Built environments and mode choice: Toward a normative framework. 7(4) 265–284 https://doi.org/10.1016/s1361-9209(01)00024-4 (2002).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR26",
+            "content": "Cervero, R., Denman, S. & Jin, Y. Network design, built and natural environments, and bicycle commuting: Evidence from British cities and towns. Transp. Policy https://doi.org/10.1016/j.tranpol.2018.09.007 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tranpol.2018.09.007",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Network%20design%2C%20built%20and%20natural%20environments%2C%20and%20bicycle%20commuting%3A%20Evidence%20from%20British%20cities%20and%20towns&journal=Transp.%20Policy&doi=10.1016%2Fj.tranpol.2018.09.007&publication_year=2018&author=Cervero%2CR&author=Denman%2CS&author=Jin%2CY"
+            }
+        },
+        {
+            "id": "ref-CR27",
+            "content": "Greg, R., Changshan, W. (2010) Bicycle facility planning using GIS and multi-criteria decision analysis 30(2) 0–293 https://doi.org/10.1016/j.apgeog.2009.08.005",
+            "links": {}
+        },
+        {
+            "id": "ref-CR28",
+            "content": "Kerr, J. et al. Perceived neighborhood environmental attributes associated with walking and cycling for transport among adult residents of 17 cities in 12 countries: The IPEN study. Environ. Health Perspect. 124, 290 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1289%2Fehp.1409466",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26186801",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Perceived%20neighborhood%20environmental%20attributes%20associated%20with%20walking%20and%20cycling%20for%20transport%20among%20adult%20residents%20of%2017%20cities%20in%2012%20countries%3A%20The%20IPEN%20study&journal=Environ.%20Health%20Perspect.&doi=10.1289%2Fehp.1409466&volume=124&publication_year=2016&author=Kerr%2CJ&author=Emond%2CJA&author=Badland%2CH"
+            }
+        },
+        {
+            "id": "ref-CR29",
+            "content": "Koohsari, M.J., Cole, R., Oka, K., Shibata, A., Yasunaga, A., Hanibuchi, T., Sugiyama, T. Associations of built environment attributes with bicycle use for transport. In Environment and Planning B: Urban Analytics and City Science (2399808319845006) (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR30",
+            "content": "Friedman J.H. Greedy function approximation: A gradient boosting machine Ann. Stat. 29 (2001).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR31",
+            "content": "Rao, H. et al. Feature selection based on artificial bee colony and gradient boosting decision tree. Appl. Soft Comput. 74, 634–642 (2019).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.asoc.2018.10.036",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Feature%20selection%20based%20on%20artificial%20bee%20colony%20and%20gradient%20boosting%20decision%20tree&journal=Appl.%20Soft%20Comput.&doi=10.1016%2Fj.asoc.2018.10.036&volume=74&pages=634-642&publication_year=2019&author=Rao%2CH&author=Shi%2CX&author=Rodrigue%2CAK"
+            }
+        },
+        {
+            "id": "ref-CR32",
+            "content": "Chen, T., Guestrin, C. XGBoost: A Scalable Tree System In Proceedings of the 22nd ACM SIGKDD International Conference on Knowlege Discovery and Data Mining. Association for computing machinery 785–794 (New York, NY, USA, 2016)",
+            "links": {}
+        },
+        {
+            "id": "ref-CR33",
+            "content": "Chen, T Q., Guestrin, C., XGBoost: A scalable tree boosting system [C/OL]// KDD ’16 In Proc. 22nd ACM SIGKDD international conference on knowledge discovery and data mining: Association for Computing Machinery 785 794 https://doi.org/10.1145/2939672.2939785 (San Francisco, USA, 2016).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR34",
+            "content": "Jerome H and Friedman Computational Statistics&Data Analysis 4 367–378 (2002).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR35",
+            "content": "Pan Bingyue,. Application of XGBoost algorithm in hourly PM2.5 concentration prediction. Earth Environ. Sci. 113, 012127. https://doi.org/10.1088/1755-1315/113/1/012127 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.1088%2F1755-1315%2F113%2F1%2F012127",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Application%20of%20XGBoost%20algorithm%20in%20hourly%20PM2.5%20concentration%20prediction&journal=Earth%20Environ.%20Sci.&doi=10.1088%2F1755-1315%2F113%2F1%2F012127&volume=113&publication_year=2018&author=Bingyue%2C"
+            }
+        },
+        {
+            "id": "ref-CR36",
+            "content": "Zhang, X. et al. Built environment impact on the per capita cycling frequency of family–Based on two-level hierarchical linear model. PLoS ONE 17(5), e0267891. https://doi.org/10.1371/journal.pone.0267891 (2022).",
+            "links": {
+                "Article": "https://doi.org/10.1371%2Fjournal.pone.0267891",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB38Xhtlagsr3L",
+                "PubMed": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=35552560",
+                "PubMed Central": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC9098036",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Built%20environment%20impact%20on%20the%20per%20capita%20cycling%20frequency%20of%20family%E2%80%93Based%20on%20two-level%20hierarchical%20linear%20model&journal=PLoS%20ONE&doi=10.1371%2Fjournal.pone.0267891&volume=17&issue=5&publication_year=2022&author=Zhang%2CX&author=Wang%2CJ&author=Xue%2CJ&author=Long%2CX&author=Li%2CW&author=Lu%2CX&author=Wang%2CS"
+            }
+        },
+        {
+            "id": "ref-CR37",
+            "content": "Friedman, J. H. Greedy function approximation: A gradient boosting machine. Ann. Stat. 29(5), 1189–1232 (2001).",
+            "links": {
+                "Article": "https://doi.org/10.1214%2Faos%2F1013203451",
+                "MathSciNet": "http://www.ams.org/mathscinet-getitem?mr=1873328",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Greedy%20function%20approximation%3A%20A%20gradient%20boosting%20machine&journal=Ann.%20Stat.&doi=10.1214%2Faos%2F1013203451&volume=29&issue=5&pages=1189-1232&publication_year=2001&author=Friedman%2CJH"
+            }
+        },
+        {
+            "id": "ref-CR38",
+            "content": "Yang, Y., Wang, Z. Analysis of the impact of urban community built encironment on residents’ daily travel behavior J. Econ. Geogr. 39(4) (2019).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR39",
+            "content": "Handy, S. Thoughts on the meaning of Mark Stevens’s meta-analysis. J. Am. Plann. Assoc. 83(1), 26–28 (2017).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01944363.2016.1246379",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Thoughts%20on%20the%20meaning%20of%20Mark%20Stevens%E2%80%99s%20meta-analysis&journal=J.%20Am.%20Plann.%20Assoc.&doi=10.1080%2F01944363.2016.1246379&volume=83&issue=1&pages=26-28&publication_year=2017&author=Handy%2CS"
+            }
+        },
+        {
+            "id": "ref-CR40",
+            "content": "Chuan, D., Chao, L., Yaoyu, L. & Yaowu, W. The impact of employer attitude towards green commuting plans on reducing auto driving: a mixed method of structural equation modeling and discrete choice model analysis. PROMET Traffic Transp. 26(2), 109–119 (2014) (SCI).",
+            "links": {
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=The%20impact%20of%20employer%20attitude%20towards%20green%20commuting%20plans%20on%20reducing%20auto%20driving%3A%20a%20mixed%20method%20of%20structural%20equation%20modeling%20and%20discrete%20choice%20model%20analysis&journal=PROMET%20Traffic%20Transp.&volume=26&issue=2&pages=109-119&publication_year=2014&author=Chuan%2CD&author=Chao%2CL&author=Yaoyu%2CL&author=Yaowu%2CW"
+            }
+        },
+        {
+            "id": "ref-CR41",
+            "content": "Pinjari, A., Eluru, N., Bhat, C., Pendyala, R. & Spissu, E. Joint model of choice of residential neighborhood and bicycle ownership: Accounting for self-selection and unobserved heterogeneity. Transp. Res. Rec.: J. Transp. Res. Board 2082, 17–26. https://doi.org/10.3141/2082-03 (2008).",
+            "links": {
+                "Article": "https://doi.org/10.3141%2F2082-03",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Joint%20model%20of%20choice%20of%20residential%20neighborhood%20and%20bicycle%20ownership%3A%20Accounting%20for%20self-selection%20and%20unobserved%20heterogeneity&journal=Transp.%20Res.%20Rec.%3A%20J.%20Transp.%20Res.%20Board&doi=10.3141%2F2082-03&volume=2082&pages=17-26&publication_year=2008&author=Pinjari%2CA&author=Eluru%2CN&author=Bhat%2CC&author=Pendyala%2CR&author=Spissu%2CE"
+            }
+        },
+        {
+            "id": "ref-CR42",
+            "content": "Lu, W. et al. Perceived barriers to children’s active commuting to school: A systematic review of empirical, methodological and theoretical evidence. Int. J. Behav. Nutr. Phys. Act. 11(1), 1–20 (2014).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1186/s12966-014-0140-x",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BC2cXitVOms73F",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Perceived%20barriers%20to%20children%E2%80%99s%20active%20commuting%20to%20school%3A%20A%20systematic%20review%20of%20empirical%2C%20methodological%20and%20theoretical%20evidence&journal=Int.%20J.%20Behav.%20Nutr.%20Phys.%20Act.&doi=10.1186%2Fs12966-014-0140-x&volume=11&issue=1&pages=1-20&publication_year=2014&author=Lu%2CW&author=McKyer%2CELJ&author=Lee%2CC"
+            }
+        },
+        {
+            "id": "ref-CR43",
+            "content": "Adlakha, D. et al. Exploring neighborhood environments and active commuting in Chennai, India. Int. J. Environ. Res. Pub. Health 15(9), 1840 (2018).",
+            "links": {
+                "Article": "https://doi.org/10.3390%2Fijerph15091840",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Exploring%20neighborhood%20environments%20and%20active%20commuting%20in%20Chennai%2C%20India&journal=Int.%20J.%20Environ.%20Res.%20Pub.%20Health&doi=10.3390%2Fijerph15091840&volume=15&issue=9&publication_year=2018&author=Adlakha%2CD&author=Hipp%2CJA&author=Sallis%2CJF"
+            }
+        },
+        {
+            "id": "ref-CR44",
+            "content": "Chengyan, Z., Huiyu, Zhou. The study of coopetition between Public Bus and Bike Sharing based on Environment Protection. ICBTE2019 136(1).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR45",
+            "content": "Heinen, E., van Wee, B., Maat, K., Commuting by bicycle: An overview of the literature. Transp. Rev. 59–96 (2010).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR46",
+            "content": "Kamruzzaman, M. et al. Built environment impacts on walking for transport in Brisbane,Australia. Transportation 43(1), 53–77 (2016).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11116-014-9563-0",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Built%20environment%20impacts%20on%20walking%20for%20transport%20in%20Brisbane%2CAustralia&journal=Transportation&doi=10.1007%2Fs11116-014-9563-0&volume=43&issue=1&pages=53-77&publication_year=2016&author=Kamruzzaman%2CM&author=Washington%2CS&author=Baker%2CD"
+            }
+        },
+        {
+            "id": "ref-CR47",
+            "content": "van Acker, V. & Witlox, F. Commuting trips within tours:How is commuting related to land use?. Transportation 38(3), 465–486 (2011).",
+            "links": {
+                "Article": "https://link.springer.com/doi/10.1007/s11116-010-9309-6",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Commuting%20trips%20within%20tours%3AHow%20is%20commuting%20related%20to%20land%20use%3F&journal=Transportation&doi=10.1007%2Fs11116-010-9309-6&volume=38&issue=3&pages=465-486&publication_year=2011&author=Acker%2CV&author=Witlox%2CF"
+            }
+        },
+        {
+            "id": "ref-CR48",
+            "content": "Sun, B. et al. Built environmental impacts on commuting mode choice and distance: Evidence from Shanghai. Transport. Res. Part D https://doi.org/10.1016/j.trd.2016.06.001 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trd.2016.06.001",
+                "ADS": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016smpe.book.....S",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Built%20environmental%20impacts%20on%20commuting%20mode%20choice%20and%20distance%3A%20Evidence%20from%20Shanghai&journal=Transport.%20Res.%20Part%20D&doi=10.1016%2Fj.trd.2016.06.001&publication_year=2016&author=Sun%2CB"
+            }
+        },
+        {
+            "id": "ref-CR49",
+            "content": "Munshi, T. Built environment and mode choice relationship for commute travel in the city of Rajkot, India. Transp. Res. Part D Transp. Environ. 44, 239–253 (2016).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.trd.2015.12.005",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Built%20environment%20and%20mode%20choice%20relationship%20for%20commute%20travel%20in%20the%20city%20of%20Rajkot%2C%20India&journal=Transp.%20Res.%20Part%20D%20Transp.%20Environ.&doi=10.1016%2Fj.trd.2015.12.005&volume=44&pages=239-253&publication_year=2016&author=Munshi%2CT"
+            }
+        },
+        {
+            "id": "ref-CR50",
+            "content": "Liu, J., Xiao, L., Yang, L. & Zhou, J. A tale of two social groups in Xiamen, China: Trip frequency of migrants and locals and its determinants. Travel Behav. Soc. 20, 213–224 (2020).",
+            "links": {
+                "Article": "https://doi.org/10.1016%2Fj.tbs.2020.04.001",
+                "CAS": "/articles/cas-redirect/1:CAS:528:DC%2BB3cXhtFahsLrO",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=A%20tale%20of%20two%20social%20groups%20in%20Xiamen%2C%20China%3A%20Trip%20frequency%20of%20migrants%20and%20locals%20and%20its%20determinants&journal=Travel%20Behav.%20Soc.&doi=10.1016%2Fj.tbs.2020.04.001&volume=20&pages=213-224&publication_year=2020&author=Liu%2CJ&author=Xiao%2CL&author=Yang%2CL&author=Zhou%2CJ"
+            }
+        },
+        {
+            "id": "ref-CR51",
+            "content": "Exploring the influence of built environment on travel mode choice considering the mediating effects of car ownership and travel distance. Transp. Res. Part A: Policy Practice (2017).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR52",
+            "content": "A Random Effect Bayesian Neural Network (RE-BNN) for travel mode choice analysis across multiple regions. Travel Behaviour and Society (2023).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR53",
+            "content": "Cycling under influence: Summarizing the influence of perceptions, attitudes, habits, and social environments on cycling for transportation. Int. J. Sustain. Transp (2015).",
+            "links": {}
+        },
+        {
+            "id": "ref-CR54",
+            "content": "Handy, S., Cao, X. & Mokhtarian, P. L. Self-selection in the relationship between the built environment and walking: Empirical evidence from Northern California. J. Am. Plan. Assoc. 72, 55–74 (2006).",
+            "links": {
+                "Article": "https://doi.org/10.1080%2F01944360608976724",
+                "Google Scholar": "http://scholar.google.com/scholar_lookup?&title=Self-selection%20in%20the%20relationship%20between%20the%20built%20environment%20and%20walking%3A%20Empirical%20evidence%20from%20Northern%20California&journal=J.%20Am.%20Plan.%20Assoc.&doi=10.1080%2F01944360608976724&volume=72&pages=55-74&publication_year=2006&author=Handy%2CS&author=Cao%2CX&author=Mokhtarian%2CPL"
+            }
+        }
+    ],
+    "Extra_info": {
+        "Data availability": {
+            "content": "Data and code are provided in the supplementary materials.",
+            "links": {}
+        },
+        "Acknowledgements": {
+            "content": "The authors would like to thank Xianyang Planning and Design Institute and each member of the 905 research group for data collection and data processing. The authors also thank the respondents for providing data and information that were essential for this work.",
+            "links": {}
+        },
+        "Author information": {
+            "content": "### Authors and Affiliations\nAuthorsXiaonan ZhangView author publicationsSearch author on:PubMed Google ScholarBorui YanView author publicationsSearch author on:PubMed Google ScholarBo YaoView author publicationsSearch author on:PubMed Google ScholarJianfeng XueView author publicationsSearch author on:PubMed Google ScholarYan ZhengView author publicationsSearch author on:PubMed Google ScholarChaojun RenView author publicationsSearch author on:PubMed Google Scholar\n### Contributions\nXiaonan Zhang (Corresponding authors): Led the overall conception and design of the study, and provided critical insights throughout the project. Contributed significantly to the interpretation of results and wrote the initial draft of the manuscript. Borui Yan: Assisted with fieldwork and data acquisition, ensuring the accuracy and completeness of the dataset. Contributed to the literature review, identifying relevant prior studies and synthesizing their findings. Bo Yao: Contributed to the theoretical framing of the study, providing insights from a different disciplinary perspective. Assisted in refining the research questions and hypotheses. Jianfeng Xue: Focused on data collection and analysis, specifically utilizing advanced statistical methods to interpret the results. Contributed to the discussion section of the manuscript, highlighting the implications of the findings. Yan Zheng: Contributed to data analysis and assisted in the preparation of figures and tables. Chaojun Ren: Contributed to the final editing and proofreading of the manuscript, ensuring its clarity, coherence, and adherence to academic standards. Also, provided feedback on the overall structure and flow of the paper.\n### Corresponding author\nCorrespondence to\n                Xiaonan Zhang.",
+            "links": {
+                "View author publications": "/search?author=Chaojun%20Ren",
+                "PubMed": "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Chaojun%20Ren",
+                "Google Scholar": "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Chaojun%20Ren%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+                "Xiaonan Zhang": "mailto:2018021070@chd.edu.cn"
+            }
+        },
+        "Ethics declarations": {
+            "content": "### Competing interests\nThe authors declare no competing interests.",
+            "links": {}
+        },
+        "Additional information": {
+            "content": "### Publisher’s note\nSpringer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "links": {}
+        },
+        "Supplementary Information": {
+            "content": "Supplementary Information 1.Supplementary Information 2.",
+            "links": {
+                "Supplementary Information 1.": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_MOESM1_ESM.zip",
+                "Supplementary Information 2.": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_MOESM2_ESM.zip"
+            }
+        },
+        "Rights and permissions": {
+            "content": "Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\nReprints and permissions",
+            "links": {
+                "http://creativecommons.org/licenses/by-nc-nd/4.0/": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "Reprints and permissions": "https://s100.copyright.com/AppDispatchServlet?title=The%20nonlinear%20relationship%20between%20built%20environment%20and%20cycling%20propensity%20for%20different%20travel%20purposes%E2%80%89%E2%88%92%E2%80%89based%20on%20extreme%20gradient%20boosting%20decision%20tree&author=Xiaonan%20Zhang%20et%20al&contentID=10.1038%2Fs41598-025-10788-3&copyright=The%20Author%28s%29&publication=2045-2322&publicationDate=2025-07-17&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY-NC-ND"
+            }
+        },
+        "About this article": {
+            "content": "Cite this articleZhang, X., Yan, B., Yao, B. et al. The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree.\n                    Sci Rep 15, 25901 (2025). https://doi.org/10.1038/s41598-025-10788-3Download citationReceived: 17 July 2024Accepted: 07 July 2025Published: 17 July 2025DOI: https://doi.org/10.1038/s41598-025-10788-3Share this articleAnyone you share the following link with will be able to read this content:Get shareable linkSorry, a shareable link is not currently available for this article.Copy shareable link to clipboard\n                            Provided by the Springer Nature SharedIt content-sharing initiative\n                        KeywordsBuilt environmentCycling choice propensityExtreme gradient boosting decision treeMachine learningNonlinear model",
+            "links": {
+                "Download citation": "https://citation-needed.springer.com/v2/references/10.1038/s41598-025-10788-3?format=refman&flavour=citation",
+                "Built environment": "/search?query=Built%20environment&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Cycling choice propensity": "/search?query=Cycling%20choice%20propensity&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Extreme gradient boosting decision tree": "/search?query=Extreme%20gradient%20boosting%20decision%20tree&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Machine learning": "/search?query=Machine%20learning&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\"",
+                "Nonlinear model": "/search?query=Nonlinear%20model&facet-discipline=\"Science%2C%20Humanities%20and%20Social%20Sciences%2C%20multidisciplinary\""
+            }
+        }
+    },
+    "Meta_info": {
+        "json_ld": {
+            "mainEntity": {
+                "headline": "The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree",
+                "description": "Bicycles, as a flexible, convenient, and low-carbon mode of transportation, possess significant advantages in short-distance travel. Linear and generalized linear models have been widely employed for modeling in previous studies, while the nonlinear relationship between the built environment and cycling behavior has received scant attention. Consequently, this paper delves into the significance of individual and family socio-economic attributes, travel characteristics, and built environment attributes regarding bicycle choice behavior, as well as the nonlinear relationship and threshold effect between the principal variable and the propensity for bicycle choice for two distinct travel purposes, based on the data from the 2018 Daily Trip Survey in Xianyang, China. The results reveal that: (1) The prediction accuracies of the cycling choice models for compulsory and discretionary trips were 89% and 80%, respectively. (2) The built environment exerts a more substantial impact on the two travel purposes, with the impact of compulsory trips being notably greater than that of discretionary trips. The relative importance of variables encompasses the proportion of non-vehicle isolation belts, the non-motor lane parking ratio, population density, distance from the center, and POI diversity, among others. (3) In the two travel activities, the relationships between the main variables and threshold effects vary. These findings offer policy implications for implementing differential interventions to promote bicycle usage in cities.",
+                "datePublished": "2025-07-17T00:00:00Z",
+                "dateModified": "2025-07-17T00:00:00Z",
+                "pageStart": "1",
+                "pageEnd": "21",
+                "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "sameAs": "https://doi.org/10.1038/s41598-025-10788-3",
+                "keywords": [
+                    "Environmental economics",
+                    "Socioeconomic scenarios",
+                    "Sustainability",
+                    "Built environment",
+                    "Cycling choice propensity",
+                    "Extreme gradient boosting decision tree",
+                    "Machine learning",
+                    "Nonlinear model",
+                    "Science",
+                    "Humanities and Social Sciences",
+                    "multidisciplinary"
+                ],
+                "image": [
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig1_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig2_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig3_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig4_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig5_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig6_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig7_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig8_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig9_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig10_HTML.png",
+                    "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig11_HTML.png"
+                ],
+                "isPartOf": {
+                    "name": "Scientific Reports",
+                    "issn": [
+                        "2045-2322"
+                    ],
+                    "volumeNumber": "15",
+                    "@type": [
+                        "Periodical",
+                        "PublicationVolume"
+                    ]
+                },
+                "publisher": {
+                    "name": "Nature Publishing Group UK",
+                    "logo": {
+                        "url": "https://www.springernature.com/app-sn/public/images/logo-springernature.png",
+                        "@type": "ImageObject"
+                    },
+                    "@type": "Organization"
+                },
+                "author": [
+                    {
+                        "name": "Xiaonan Zhang",
+                        "affiliation": [
+                            {
+                                "name": "Xianyang Normal University",
+                                "address": {
+                                    "name": "Xianyang Normal University, Xianyang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "email": "2018021070@chd.edu.cn",
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Borui Yan",
+                        "affiliation": [
+                            {
+                                "name": "Xianyang Normal University",
+                                "address": {
+                                    "name": "Xianyang Normal University, Xianyang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Bo Yao",
+                        "affiliation": [
+                            {
+                                "name": "Xianyang Normal University",
+                                "address": {
+                                    "name": "Xianyang Normal University, Xianyang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Jianfeng Xue",
+                        "affiliation": [
+                            {
+                                "name": "Xianyang Planning and Design Institute",
+                                "address": {
+                                    "name": "Xianyang Planning and Design Institute, Xianyang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Yan Zheng",
+                        "affiliation": [
+                            {
+                                "name": "Xianyang Planning and Design Institute",
+                                "address": {
+                                    "name": "Xianyang Planning and Design Institute, Xianyang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Chaojun Ren",
+                        "affiliation": [
+                            {
+                                "name": "Xianyang Planning and Design Institute",
+                                "address": {
+                                    "name": "Xianyang Planning and Design Institute, Xianyang, China",
+                                    "@type": "PostalAddress"
+                                },
+                                "@type": "Organization"
+                            }
+                        ],
+                        "@type": "Person"
+                    }
+                ],
+                "isAccessibleForFree": true,
+                "@type": "ScholarlyArticle"
+            },
+            "@context": "https://schema.org",
+            "@type": "WebPage"
+        },
+        "data_layer": [
+            {
+                "content": {
+                    "category": {
+                        "contentType": "article",
+                        "legacy": {
+                            "webtrendsPrimaryArticleType": "research",
+                            "webtrendsSubjectTerms": "environmental-economics;socioeconomic-scenarios;sustainability",
+                            "webtrendsContentCategory": null,
+                            "webtrendsContentCollection": null,
+                            "webtrendsContentGroup": "Scientific Reports",
+                            "webtrendsContentGroupType": null,
+                            "webtrendsContentSubGroup": "Article",
+                            "status": null
+                        }
+                    },
+                    "article": {
+                        "doi": "10.1038/s41598-025-10788-3"
+                    },
+                    "attributes": {
+                        "cms": null,
+                        "deliveryPlatform": "oscar",
+                        "copyright": {
+                            "open": true,
+                            "legacy": {
+                                "webtrendsLicenceType": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                            }
+                        }
+                    },
+                    "contentInfo": {
+                        "authors": [
+                            "Xiaonan Zhang",
+                            "Borui Yan",
+                            "Bo Yao",
+                            "Jianfeng Xue",
+                            "Yan Zheng",
+                            "Chaojun Ren"
+                        ],
+                        "publishedAt": 1752710400,
+                        "publishedAtString": "2025-07-17",
+                        "title": "The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree",
+                        "legacy": null,
+                        "publishedAtTime": null,
+                        "documentType": "aplusplus",
+                        "subjects": "Environmental economics,Socioeconomic scenarios,Sustainability"
+                    },
+                    "journal": {
+                        "pcode": "srep",
+                        "title": "scientific reports",
+                        "volume": "15",
+                        "issue": "1",
+                        "id": 41598,
+                        "publishingModel": "Open Access"
+                    },
+                    "authorization": {
+                        "status": true
+                    },
+                    "features": [
+                        {
+                            "name": "furtherReadingSection",
+                            "present": true
+                        }
+                    ],
+                    "collection": null
+                },
+                "page": {
+                    "category": {
+                        "pageType": "article"
+                    },
+                    "attributes": {
+                        "template": "mosaic",
+                        "featureFlags": [
+                            {
+                                "name": "nature-onwards-journey",
+                                "active": false
+                            }
+                        ],
+                        "testGroup": null
+                    },
+                    "search": null
+                },
+                "privacy": {},
+                "version": "1.0.0",
+                "product": null,
+                "session": null,
+                "user": null,
+                "backHalfContent": true,
+                "country": "SG",
+                "hasBody": true,
+                "uneditedManuscript": false,
+                "twitterId": [
+                    "o3xnx",
+                    "o43y9",
+                    "o3ef7"
+                ],
+                "baiduId": "d38bce82bcb44717ccc29a90c4b781ea",
+                "japan": false
+            }
+        ],
+        "meta_tags": {
+            "dc.title": "The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree",
+            "dc.source": "Scientific Reports 2025 15:1",
+            "dc.format": "text/html",
+            "dc.publisher": "Nature Publishing Group",
+            "dc.date": "2025-07-17",
+            "dc.type": "OriginalPaper",
+            "dc.language": "En",
+            "dc.copyright": "2025 The Author(s)",
+            "dc.rights": "2025 The Author(s)",
+            "dc.rightsAgent": "journalpermissions@springernature.com",
+            "dc.description": "Bicycles, as a flexible, convenient, and low-carbon mode of transportation, possess significant advantages in short-distance travel. Linear and generalized linear models have been widely employed for modeling in previous studies, while the nonlinear relationship between the built environment and cycling behavior has received scant attention. Consequently, this paper delves into the significance of individual and family socio-economic attributes, travel characteristics, and built environment attributes regarding bicycle choice behavior, as well as the nonlinear relationship and threshold effect between the principal variable and the propensity for bicycle choice for two distinct travel purposes, based on the data from the 2018 Daily Trip Survey in Xianyang, China. The results reveal that: (1) The prediction accuracies of the cycling choice models for compulsory and discretionary trips were 89% and 80%, respectively. (2) The built environment exerts a more substantial impact on the two travel purposes, with the impact of compulsory trips being notably greater than that of discretionary trips. The relative importance of variables encompasses the proportion of non-vehicle isolation belts, the non-motor lane parking ratio, population density, distance from the center, and POI diversity, among others. (3) In the two travel activities, the relationships between the main variables and threshold effects vary. These findings offer policy implications for implementing differential interventions to promote bicycle usage in cities.",
+            "dc.identifier": "doi:10.1038/s41598-025-10788-3",
+            "dc.creator": "Ren, Chaojun",
+            "dc.subject": "Sustainability",
+            "prism.issn": "2045-2322",
+            "prism.publicationName": "Scientific Reports",
+            "prism.publicationDate": "2025-07-17",
+            "prism.volume": "15",
+            "prism.number": "1",
+            "prism.section": "OriginalPaper",
+            "prism.startingPage": "1",
+            "prism.endingPage": "21",
+            "prism.copyright": "2025 The Author(s)",
+            "prism.rightsAgent": "journalpermissions@springernature.com",
+            "prism.url": "https://www.nature.com/articles/s41598-025-10788-3",
+            "prism.doi": "doi:10.1038/s41598-025-10788-3",
+            "citation_pdf_url": "https://www.nature.com/articles/s41598-025-10788-3.pdf",
+            "citation_fulltext_html_url": "https://www.nature.com/articles/s41598-025-10788-3",
+            "citation_journal_title": "Scientific Reports",
+            "citation_journal_abbrev": "Sci Rep",
+            "citation_publisher": "Nature Publishing Group",
+            "citation_issn": "2045-2322",
+            "citation_title": "The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree",
+            "citation_volume": "15",
+            "citation_issue": "1",
+            "citation_online_date": "2025/07/17",
+            "citation_firstpage": "1",
+            "citation_lastpage": "21",
+            "citation_article_type": "Article",
+            "citation_language": "en",
+            "citation_doi": "10.1038/s41598-025-10788-3",
+            "citation_springer_api_url": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41598-025-10788-3&api_key=",
+            "citation_reference": "citation_journal_title=J. Am. Plan. Assoc.; citation_title=Self-selection in the relationship between the built environment and walking: Empirical evidence from Northern California; citation_author=S Handy, X Cao, PL Mokhtarian; citation_volume=72; citation_publication_date=2006; citation_pages=55-74; citation_doi=10.1080/01944360608976724; citation_id=CR54",
+            "citation_author": "Ren, Chaojun",
+            "citation_author_institution": "Xianyang Planning and Design Institute, Xianyang, China",
+            "description": "Bicycles, as a flexible, convenient, and low-carbon mode of transportation, possess significant advantages in short-distance travel. Linear and generalized linear models have been widely employed for modeling in previous studies, while the nonlinear relationship between the built environment and cycling behavior has received scant attention. Consequently, this paper delves into the significance of individual and family socio-economic attributes, travel characteristics, and built environment attributes regarding bicycle choice behavior, as well as the nonlinear relationship and threshold effect between the principal variable and the propensity for bicycle choice for two distinct travel purposes, based on the data from the 2018 Daily Trip Survey in Xianyang, China. The results reveal that: (1) The prediction accuracies of the cycling choice models for compulsory and discretionary trips were 89% and 80%, respectively. (2) The built environment exerts a more substantial impact on the two travel purposes, with the impact of compulsory trips being notably greater than that of discretionary trips. The relative importance of variables encompasses the proportion of non-vehicle isolation belts, the non-motor lane parking ratio, population density, distance from the center, and POI diversity, among others. (3) In the two travel activities, the relationships between the main variables and threshold effects vary. These findings offer policy implications for implementing differential interventions to promote bicycle usage in cities.",
+            "robots": "noarchive",
+            "viewport": "width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes",
+            "twitter:title": "The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree",
+            "twitter:description": "Scientific Reports - The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree",
+            "twitter:image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_Fig1_HTML.png",
+            "DOI": "10.1038/s41598-025-10788-3",
+            "size": "290689",
+            "journal_id": "41598"
+        },
+        "canonical_url": "https://www.nature.com/articles/s41598-025-10788-3",
+        "icons": {
+            "apple-touch-icon": {
+                "href": "/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "sizes": "180x180"
+            },
+            "icon": {
+                "href": "/static/images/favicons/nature/favicon-16x16-951651ab72.png",
+                "sizes": "16x16"
+            },
+            "mask-icon": {
+                "href": "/static/images/favicons/nature/safari-pinned-tab-69bff48fe6.svg"
+            },
+            "shortcut icon": {
+                "href": "/static/images/favicons/nature/favicon.ico"
+            }
+        }
+    }
+}

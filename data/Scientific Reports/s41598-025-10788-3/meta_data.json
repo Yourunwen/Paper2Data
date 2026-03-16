@@ -1,0 +1,52 @@
+{
+    "id": "s41598-025-10788-3",
+    "title": "The nonlinear relationship between built environment and cycling propensity for different travel purposes − based on extreme gradient boosting decision tree",
+    "journal": "Scientific Reports",
+    "pdf_link": "https://www.nature.com/articles/s41598-025-10788-3",
+    "open_access": true,
+    "meta_data": [
+        {
+            "Data_Name": "2018 Daily Trip Survey in Xianyang China",
+            "Data_summary": "A household travel survey dataset containing trip-level records with travel mode and purpose plus timestamps and origin and destination coordinates, linked with respondent and household socio-demographics such as gender, age, education, income, household composition, and vehicle ownership. It is the primary input for modeling bicycle mode choice, with records filtered to trips whose origins and destinations fall within the built-up area and used to train and test the machine-learning classifiers for compulsory versus discretionary travel purposes.",
+            "Category": "Human mobility traces (GPS, transit card, ride-hailing)",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: The collected data encompassed respondent IDs travel modes travel purposes departure times departure positions latitude and longitude arrival times arrival positions latitude and longitude; Location: Study area and data collection; Confidence: high",
+            "Time_Coverage": "2018-05-29 to 2018-05-31",
+            "Geographic_Coverage": "China > Shaanxi > Xianyang built-up area",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Community built environment and POI indicators for Xianyang built-up area derived in ArcGIS 10.5",
+            "Data_summary": "A community-level spatial indicator dataset created for the study area that includes measures of transport and street form and facilities such as road network density, intersection density, bus station density, non-motor vehicle parking occupancy ratio, proportions of motor and non-motor isolation barriers, non-motor lane parking ratio, and POI facility density and diversity across categories like education, medical, shopping, and leisure. These built-environment variables are used as model inputs to explain cycling choice propensity and to assess nonlinear and threshold effects in the XGBoost models.",
+            "Category": "null",
+            "Need_Author_Contact": null,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Taking the community as the spatial analysis unit the data were processed using Arcgis10.5 to obtain various parameters such as road network density intersection density bus station density and POI density and diversity; Location: Study area and variable selection, Independent variables; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "China > Shaanxi > Xianyang built-up area communities",
+            "URL": "N/A",
+            "ref": []
+        },
+        {
+            "Data_Name": "Paper-level data deposit from supplementary materials",
+            "Data_summary": "A paper-associated deposit that provides the study data and code used to support the reported analyses, intended to enable reuse and replication of the modeling workflow.",
+            "Category": "null",
+            "Need_Author_Contact": false,
+            "InText_Citation_Numbers": [],
+            "Other_Information": "Evidence: Data and code are provided in the supplementary materials.; Location: Data availability; Confidence: high",
+            "Time_Coverage": "N/A",
+            "Geographic_Coverage": "N/A",
+            "URL": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-10788-3/MediaObjects/41598_2025_10788_MOESM1_ESM.zip",
+            "ref": [
+                "Supplementary Information 1",
+                "Supplementary Information 2"
+            ]
+        }
+    ],
+    "_meta": {
+        "model_name": "gpt-5.2",
+        "processed_at": "2026-02-06T23:20:25.816608"
+    }
+}
