@@ -8,6 +8,23 @@ Here is the code repo for the paper **"Paper2Data: Large-Scale LLM Extraction an
 Our system uses Large Language Models (LLMs) to automatically identify dataset mentions in scientific papers and structure them using a unified urban data metadata schema. Based on this pipeline, we curate an open urban data discovery portal, **UrbanDataMiner**, which supports dataset-level search and filtering over more than 60,000 urban datasets extracted from over 15,000 Nature-affiliated publications.
 
 🌐 **Try our data portal here:** [https://urbandataminer.github.io/](https://urbandataminer.github.io/)
+## 🚀 Quick Start: API Usage
+
+In addition to the web portal, you can programmatically access the **UrbanDataMiner** search engine to integrate our curated urban dataset metadata into your own pipelines.
+
+### Endpoint
+`POST https://board-primary-wiring-editing.trycloudflare.com/search`
+
+### Example Request (curl)
+To retrieve the top 5 most relevant datasets for a specific query, use the following command:
+
+```bash
+curl -X POST [https://board-primary-wiring-editing.trycloudflare.com/search](https://board-primary-wiring-editing.trycloudflare.com/search) \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "query": "air quality monitoring data in New York City",
+    "top_k": 5
+  }'
 
 ## System Architecture
 
