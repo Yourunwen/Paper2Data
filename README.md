@@ -1,9 +1,9 @@
 # Paper2Data & UrbanDataMiner
 
 [![Website](https://img.shields.io/badge/Website-UrbanDataMiner-blue)](https://urbandataminer.github.io/)
-[![Paper](https://img.shields.io/badge/Paper-KDD%202026-green)](#) 
+[![Paper](https://img.shields.io/badge/Paper-KDD%202027-green)](#) 
 
-Here is the code repo for the paper **"Paper2Data: Large-Scale LLM Extraction and Metadata Structuring of Global Urban Data from Scientific Literature"** (KDD 2026).
+Here is the code repo for the paper **"Paper2Data: Large-Scale LLM Extraction and Metadata Structuring of Global Urban Data from Scientific Literature"** (KDD 2027).
 
 Our system uses Large Language Models (LLMs) to automatically identify dataset mentions in scientific papers and structure them using a unified urban data metadata schema. Based on this pipeline, we curate an open urban data discovery portal, **UrbanDataMiner**, which supports dataset-level search and filtering over more than 60,000 urban datasets extracted from over 15,000 Nature-affiliated publications.
 
@@ -106,10 +106,10 @@ The Paper2Data pipeline consists of six automated steps:
 If you find this repository or our data portal helpful, please cite our paper:
 
 ```bibtex
-@inproceedings{you2026paper2data,
+@inproceedings{you2027paper2data,
   title={Paper2Data: Large-Scale LLM Extraction and Metadata Structuring of Global Urban Data from Scientific Literature},
   author={You, Runwen and others},
   booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '26)},
-  year={2026}
+  year={2027}
 }
 ```
