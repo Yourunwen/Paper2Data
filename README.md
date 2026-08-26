@@ -16,12 +16,12 @@ Our system uses Large Language Models (LLMs) to automatically identify dataset m
 In addition to the web portal, you can programmatically access the **UrbanDataMiner** search engine to integrate our curated urban dataset metadata into your own pipelines.
 
 ### API Endpoint
-`POST https://board-primary-wiring-editing.trycloudflare.com/search`
+`POST https://derek-implementing-picture-south.trycloudflare.com/search`
 
 ### 1. Example Request (curl)
 To retrieve the top 5 most relevant datasets for a specific query, use the following command:
 ```bash
-curl -X POST [https://board-primary-wiring-editing.trycloudflare.com/search](https://board-primary-wiring-editing.trycloudflare.com/search) \
+curl -X POST [https://derek-implementing-picture-south.trycloudflare.com/search](https://derek-implementing-picture-south.trycloudflare.com/search) \
   -H 'Content-Type: application/json' \
   -d '{
     "query": "air quality monitoring data in New York City",
@@ -35,7 +35,7 @@ We recommend using Python for seamless integration:
 import requests
 
 def search_urban_data(query, top_k=5):
-    url = "[https://board-primary-wiring-editing.trycloudflare.com/search](https://board-primary-wiring-editing.trycloudflare.com/search)"
+    url = "[https://derek-implementing-picture-south.trycloudflare.com/search](https://derek-implementing-picture-south.trycloudflare.com/search)"
     payload = {
         "query": query,
         "top_k": top_k
