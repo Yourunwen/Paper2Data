@@ -16,12 +16,14 @@ Our system uses Large Language Models (LLMs) to automatically identify dataset m
 In addition to the web portal, you can programmatically access the **UrbanDataMiner** search engine to integrate our curated urban dataset metadata into your own pipelines.
 
 ### API Endpoint
-`POST https://derek-implementing-picture-south.trycloudflare.com/search`
+`POST https://snake-reprints-shot-ala.trycloudflare.com/search`
+
+This is a temporary Cloudflare tunnel address. The portal's current backend address is maintained in [public/api-config.js](https://github.com/Urbandataminer/Urbandataminer.github.io/blob/main/public/api-config.js).
 
 ### 1. Example Request (curl)
 To retrieve the top 5 most relevant datasets for a specific query, use the following command:
 ```bash
-curl -X POST [https://derek-implementing-picture-south.trycloudflare.com/search](https://derek-implementing-picture-south.trycloudflare.com/search) \
+curl -X POST https://snake-reprints-shot-ala.trycloudflare.com/search \
   -H 'Content-Type: application/json' \
   -d '{
     "query": "air quality monitoring data in New York City",
@@ -35,12 +37,12 @@ We recommend using Python for seamless integration:
 import requests
 
 def search_urban_data(query, top_k=5):
-    url = "[https://derek-implementing-picture-south.trycloudflare.com/search](https://derek-implementing-picture-south.trycloudflare.com/search)"
+    url = "https://snake-reprints-shot-ala.trycloudflare.com/search"
     payload = {
         "query": query,
         "top_k": top_k
     }
-    response = requests.post(url, json=payload)
+    response = requests.post(url, json=payload, timeout=60)
     
     if response.status_code == 200:
         return response.json()
@@ -53,8 +55,9 @@ if __name__ == "__main__":
     results = search_urban_data("air quality monitoring data in New York City")
     if results:
         for i, item in enumerate(results, 1):
-            print(f"[{i}] Title: {item.get('title')}")
-            print(f"    Source: {item.get('url')}\n")
+            data = item.get("data", {})
+            print(f"[{i}] Title: {data.get('Data_Name')}")
+            print(f"    Source: {data.get('URL')}\n")
 ```
 
 ---
